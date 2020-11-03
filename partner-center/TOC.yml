@@ -295,9 +295,6 @@
         - name: A saját végrehajtási igazolás elkészítése
           href: incentives-prepare-your-proof-of-execution.md
           displayName: incentives
-        - name: Adószámla beküldése végrehajtási igazolásként
-          href: incentives-tax-invoice-poe.md
-          displayName: 'incentives, invoice'
     - name: Az ösztönzők együttműködési jogcímei
       items:
         - name: Az ösztönző együttműködési jogcímei
@@ -710,13 +707,10 @@
       displayName: 'tenant id, object id, domain name, azure ad tenant, tenantguid, Microsoft ID, directory id'
 - name: Biztonsági követelmények
   items:
-    - name: Áttekintés
+    - name: Biztonsági áttekintés
       href: partner-security-requirements.md
     - name: MFA előírása a partner bérlője számára
       href: partner-security-requirements-mandating-mfa.md
-      displayName: csp
-    - name: Többtényezős hitelesítés beállítása a saját felhasználókhoz
-      href: mfa-for-users.md
       displayName: csp
     - name: Követelmények állapota
       href: partner-security-compliance.md

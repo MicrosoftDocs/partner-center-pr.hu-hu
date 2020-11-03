@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 10/27/2020
-ms.openlocfilehash: 4877c3c21449c8b5cc4224973d159d70635d9262
-ms.sourcegitcommit: 4bff85c6a13a990d5eb6c4a4ef44e1013d06948e
+ms.openlocfilehash: d41ec7b7ce3c8f7140b0944b4d39150ef34a9d83
+ms.sourcegitcommit: 3cca87a10e8aebbf5be144ef525217509f0521ec
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92903043"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "93027907"
 ---
 # <a name="october-2020-announcements"></a>2020. októberi közlemények
 
@@ -23,6 +23,74 @@ Ez az oldal a Microsoft partner Center 2020-es októberi hirdetményeit részlet
 2020 bejelentések [:](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [July](2020-july.md)  |  [augusztus](2020-august.md)  |  [September](2020-september.md) | . Október
 
 ______________
+
+## <a name="windows-10-education-upgrade-is-now-available-to-qualified-cloud-solution-provider-csp-education-customers"></a><a name="16"></a>A Windows 10-es oktatási frissítése mostantól elérhető a minősített felhőalapú megoldás-szolgáltató (CSP) oktatási ügyfelei számára
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-28
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetést megvásárolt CSP-partnerek mostantól segíthetnek a Windows 10-es otthoni eszközök frissítésében a Windows 10 Education szolgáltatásban.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetést megvásárolt CSP-partnerek oktatási ügyfeleiknek
+
+### <a name="details"></a>Részletek
+
+A 2020. november 1-től kezdődően a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetéseket megvásárolt kriptográfiai szolgáltatók segíthetnek az oktatási ügyfeleknek a Windows 10 Home verzióról a Windows 10 oktatási rendszerre való frissítésre, amely az osztályteremhez és a távoli tanuláshoz is készült.
+
+November 1-től 2020-én a Windows 10 Home egy megfelelő operációs rendszer lesz a Microsoft Cloud szerződés (CSP) által licencelt oktatási ügyfeleknek. Ez a jogosultság, amely eddig csak mennyiségi licencelési (VL) oktatási programokban érhető el, Microsoft 365 felügyeleti portál támogatásán keresztül engedélyezték. 
+
+#### <a name="how-the-upgrade-process-works"></a>A frissítési folyamat működése
+
+A CSP-partnerek segítséget nyújthatnak az ügyfeleknek a támogatási kérések nevében történő elküldésével. Microsoft ügyfélszolgálata áttekinti a kérést annak biztosítására, hogy az ügyfél jogosult legyen; a kérés jóváhagyása után a Windows 10 Pro Education-kulcsot biztosítanak az ügyfélnek.
+
+Amikor az ügyfél telepíti a kulcsot, és az eszköz Azure Active Directory (HRE) keresztül csatlakozik a bérlői tartományhoz, a rendszer automatikusan frissíti az eszközt a Windows 10-es oktatásra (előfizetésre).   
+
+Az ügyfelek frissítésével kapcsolatos részletek a [Részletes útmutató és a gyakori kérdések témakörben](../upgrade-windows-to-education.md)találhatók.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Értesítse a jogosult ügyfeleit, és tekintse át a lépésről lépésre haladó folyamatot.
+- Ossza meg ezeket az információkat a szervezete megfelelő tagjaival.  
+
+________________
+
+## <a name="refreshed-cloud-solution-provider-csp-digital-experience-now-available"></a><a name="15"></a>A frissített Cloud Solution Provider (CSP) digitális felülete már elérhető
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-28
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+CSP-partnerek
+
+### <a name="details"></a>Részletek
+
+A Microsoft elkötelezte magát arra, hogy a partnereink számára is maximalizálja a saját potenciálját, innovatív megoldásokat hozhat létre, és a Microsoft Partner Network nagyobb sikert eredményez. A Cloud Solution Provider (CSP) program az egyik leggyorsabban növekvő program, amely több mint 90 000 résztvevő vállalattal rendelkezik.
+Annak érdekében, hogy felgyorsítsa a partnerek üzleti növekedését a Cloud Solution Provider programban, egy frissített Cloud Solution program (CSP) digitális élményt nyújtunk a Microsoft Partner Network webhelyén és egy új CSP-útikönyvben. Ez a megújult élmény és új erőforrások segítik a partnereket abban, hogy új lehetőségeket hozzanak fel, és hatékonyabban fejlesszenek üzleti tevékenységüket a CSP programban.
+
+Ez az új digitális felület a következőket tartalmazza:
+
+- Frissített CSP digitális felhasználói élmény a partneri üzleti növekedés felgyorsításához: a frissített CSP oldal zökkenőmentesen használható élményt nyújt a partnernek a regisztráció, a gyakorlatok, a piacra jutás és az értékesítés terén való megvásárlásához. A partnerek bevételi lehetőségeiket értékesítési kampányok és piaci részesedéssel rendelkező erőforrások segítségével növelhetik. Az egyéb integrált erőforrások segítséget nyújtanak a partnereknek abban, hogy naprakészek legyenek, és megkönnyítsék az üzleti tevékenységet a CSP programban.
+- Új felhőalapú megoldás-szolgáltató program útikönyve, amely segít a partnereknek új lehetőségek azonosításában: Ez a részletes útmutató segítséget nyújt a partnereknek a Felhőbeli üzleti növekedés felgyorsításához a programmal és a bevételi lehetőségek kibővítésével.
+- A CSP program tartalma a megoldás munkaterületen: a megoldás munkaterülete egy digitális felület, amely egyetlen célhelyet biztosít az igény szerinti erőforrásokhoz, így gyorsabban piacra viheti ötleteit. A szolgáltatók mostantól a megoldás munkaterületen találhatják meg a CSP-programokra vonatkozó tartalmakat és erőforrásokat.
+
+### <a name="additional-resources"></a>További erőforrások
+
+- [A frissített CSP-oldal](https://aka.ms/CSP) meglátogatása 
+- Tekintse át [az új CSP program útikönyvét](https://aka.ms/cspguidebook) , és tudjon meg többet a növekedési lehetőségekről
+- A megoldás-munkaterület használatának megkezdése a gyakorlatok kiépítéséhez és a lépések egyszerűsítéséhez
+- Több kampány elolvasása a Sales szolgáltatás erőforrásaival 
+- Kérje meg a munkatársakat a CSP-oldal meglátogatására és a szervezeten belüli erőforrások megosztására. Közvetett szolgáltatók esetén ossza meg az erőforrásokat a közvetett viszonteladókkal.
+
+________________
 
 ## <a name="october-2020-cloud-solution-provider-csp-software-subscriptions-price-list-updates"></a><a name="14"></a>Október 2020 Cloud Solution Provider (CSP) szoftver-előfizetések árlista frissítései
 
