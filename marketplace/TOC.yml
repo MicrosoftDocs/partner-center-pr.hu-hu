@@ -1,0 +1,5 @@
+- name: A Microsoft Marketplace ügyfél-dokumentációja
+  href: index.yml
+  items:
+    - name: Privát Azure Marketplace létrehozása
+      href: create-manage-private-azure-marketplace.md

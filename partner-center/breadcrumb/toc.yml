@@ -1,0 +1,7 @@
+- name: Partnerközpont – dokumentumok
+  tocHref: /partner-center/
+  topicHref: /partner-center/index
+  items:
+    - name: Közlemények
+      tocHref: /partner-center/announcements/
+      topicHref: /partner-center/announcements/
