@@ -1,7 +1,7 @@
 ---
 title: A Cloud Solution Provider program áttekintése
 ms.topic: article
-ms.date: 10/28/2020
+ms.date: 10/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: További információk a Cloud Solution Provider (CSP) programban elérhető előnyökről és modellekről az üzleti növekedéshez új ügyfelekkel és új szaktudással.
@@ -9,21 +9,20 @@ author: billlinzbach
 ms.author: billLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9780fe0b90a4889fca1f3a887c445a75b1549eaa
-ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
+ms.openlocfilehash: f72a4cffaa8557e7e8f56dd2253c99449e3a696d
+ms.sourcegitcommit: 7dd8aa793922160102a7a6aaca2c7e8f9a49b8a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917195"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045404"
 ---
 # <a name="cloud-solution-provider-program"></a>Cloud Solution Provider program 
 
-**A következőre érvényes:**
+**A következőkre vonatkozik**
 
 - Partnerközpont
 
-
-Ez a cikk áttekintést nyújt a Cloud Solution Provider (CSP) programról, valamint ismerteti a különböző működési modelleket és azok követelményeit, valamint a programon keresztül történő értékesítés további részleteit.  A CSP program segít abban, hogy jobban részt vegyen az ügyfelek üzleti tevékenységében, a licencek viszonteladása után is, és az alábbi előnyökkel jár: 
+Ez a cikk áttekintést nyújt a Cloud Solution Provider (CSP) programról, valamint ismerteti a különböző működési modelleket és azok követelményeit, valamint a programon keresztül történő értékesítés további részleteit.  A CSP program segít abban, hogy jobban részt vegyen az ügyfelek vállalatában, a licencek viszonteladása után is, és az alábbi előnyökkel jár: 
 
 - Mélyebb ügyfélkapcsolatok: az ügyfelekkel folytatott rendszeres megbeszélések azt jelzik, hogy jobban megértette az üzleti és a szükségleteit.
 - Megnövekedett nyereség: magasabb támogatási és számlázási szolgáltatásokat kínál, akár saját, akár közvetett szolgáltatón keresztül, új bevételi streameket nyithat meg.  
@@ -32,35 +31,33 @@ Ez a cikk áttekintést nyújt a Cloud Solution Provider (CSP) programról, vala
 
 ## <a name="which-csp-model-is-best-for-me"></a>Melyik CSP-modell a legjobb számomra?
 
-### <a name="direct-bill-model"></a>Közvetlen számlázási modell
-
- A közvetlen számlás modellben a partnerek közvetlenül a Microsofttól vásárolják meg a Microsoft termékeit és előfizetéseit, és közvetlenül az ügyfeleik számára értékesítik azokat a belső értékesítési munkatársakon keresztül. Azok a partnerek, akik már működnek együtt, vagy készek a fejlesztésre, a megfelelő értékesítési, számlázási és támogatási infrastruktúra kiválaszthatja a CSP közvetlen modelljét. A közvetlen partnernek szóló követelmények a közelmúltban módosultak, és az 2018-es augusztus 31-ig lépnek érvénybe. A közvetlen partnereknek meg kell felelniük az új követelményeknek a következő regisztrációs időszakra vonatkozóan, a 2018. augusztus 31-ig.
-
-#### <a name="new-expanded-requirements"></a>Új kibővített követelmények
-
-Támogatás
-
-- A támogatási képességek kibővítéséhez vásároljon egy-egy, rangsorolt Felhőbeli támogatást a Microsoft fejlett támogatási szolgálatával a partnerek csomagjához. Vagy válasszon egy Microsoft-Premier szintű támogatás a partnerek számára csomaggal a proaktív szolgáltatások teljes katalógusának eléréséhez, 24/7 emelt szintű break/fix támogatás és technikai Fiókkezelés a felhő, a hibrid és a helyszíni eszközök között.
-
-Bevétel
-
-- Meg kell felelnie legalább USD300K a Cloud Solution Provider programban az előző tizenkét hónapban közvetett viszonteladóként végzett éves bevételnek. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partneri központban. a USD300K-t követő tizenkét hónapos bevételt követő értékesítések a Microsoft általi felülvizsgálat és ellenőrzés alá esnek, és további információkat is kérhetnek. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.
-
-Szolgáltatások
-
-- Igazolja, hogy legalább egy felügyelt szolgáltatást, IP-szolgáltatást vagy ügyfél-megoldási alkalmazást biztosít. 
-
-- Teljesítse a minimális infrastrukturális képességeket, például a számlázást és a létesítést. Az éves teljesítmény monitorozásával meggyőződhet arról, hogy az ezekkel a követelményekkel teljesített közvetlen számlázási partnereink a folyamatos üzleti növekedést mutatják be. Jelenleg nem állnak rendelkezésre konkrét teljesítményi célok, de a Microsoft a jövőben is megvalósíthatja a teljesítmény sávot.
-
-- Aktív Microsoft Partner Network (MPN) azonosítója az értékesítéshez használni kívánt helyen
-
 ### <a name="indirect-model"></a>Közvetett modell
 
-A közvetett modellben a szolgáltatók (más néven forgalmazók) a Microsoft termékeit és előfizetéseit közvetlenül a Microsofttól vásárolják meg, de a közvetett viszonteladók hálózatán keresztül értékesítik az ügyfeleknek. A CSP közvetett viszonteladóként való regisztrálásának előfeltételei a következők:
+A Microsoft segít a felhőalapú megoldás-szolgáltatói programban részt vevő összes partner számára a legjobb modell megkeresésében az üzleti növekedéshez. A Microsoft létrehozta a minősített közvetett szolgáltatók globális hálózatát, akik segítenek a partnereknek a Felhőbeli üzletük sikeres növelésében a Cloud Solution Provider programban. A közvetett viszonteladóként való csatlakozással gyorsíthatja a piacra jutást a lehető legkevesebb működési bonyolultsággal. 
 
-- Aktív Microsoft Partner Network (MPN) azonosítója az értékesítéshez használni kívánt helyen
+Közvetett viszonteladóként olyan közvetett szolgáltatókkal dolgozhat, akik képesek biztosítani az ügyfelek kapcsolatának kezelését segítő eszközöket és erőforrásokat. A közvetett modell használatával olyan közvetett szolgáltatótól vásárolhatja meg az ügyfelet, aki együttműködik Önnel az ügyfelek támogatásával és számlázásával.
+A következőkre lesz szüksége: 
+
+- Aktív tagság a Microsoft Partner Network és az MPN-AZONOSÍTÓban azon a helyen, ahová az értékesítést el szeretné adni.
 - Jogi szerződések aláírásának lehetősége a szervezet nevében
-- Egy [hivatalos Microsoft-szolgáltatóval](https://partnercenter.microsoft.com/partner/find-a-provider) való kapcsolat
+- Egy [hivatalos Microsoft közvetett szolgáltatóval](https://partnercenter.microsoft.com/partner/find-a-provider) való kapcsolat a Cloud Solution Provider programban
+
+### <a name="direct-bill-model"></a>Közvetlen számlázási modell
+
+A közvetlen számlás modellben a partnerek közvetlenül a Microsofttól vásárolják meg a Microsoft termékeit és előfizetéseit, és közvetlenül az ügyfeleik számára értékesítik azokat a belső értékesítési munkatársakon keresztül. Azok a partnerek, akik már működnek együtt, vagy készek a fejlesztésre, a megfelelő értékesítési, számlázási és támogatási infrastruktúra kiválaszthatja a közvetlen modellt. A közvetlen számlázási partnereknek szóló regisztrációs követelményeket a 2020. október 27-én frissítettük.
+
+#### <a name="requirements"></a>Követelmények
+
+Tekintse át az alábbi frissített közvetlen számlázásra vonatkozó követelményeket és javaslatokat annak kiértékeléséhez, hogy a felhőalapú megoldás-szolgáltatói programban hogyan hozhat létre és kibővítheti a nyereséges üzleti megoldásokat a megfelelő modellel:  
+
+- **Támogatás:** A támogatási képességek kibővítéséhez vásároljon egy-egy, rangsorolt Felhőbeli támogatást a Microsoft fejlett támogatási szolgálatával a partnerek csomagjához. Vagy válasszon egy Microsoft-Premier szintű támogatás a partnerek számára csomaggal a proaktív szolgáltatások teljes katalógusának eléréséhez, 24/7 emelt szintű break/fix támogatás és technikai Fiókkezelés a felhő, a hibrid és a helyszíni eszközök között. A támogatási kötelezettség megértéséhez tekintse át a Microsoft partneri szerződését
+- **Teljesítményre vonatkozó követelmény:** Győződjön meg arról, hogy az előző tizenkét hónapban legalább USD300K a Cloud Solution Provider program keretében közvetett viszonteladóként. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partneri központban. A USD300K követő tizenkét hónapos bevételt alkotó értékesítéseket a Microsoft felülvizsgálja és igazolja, és előfordulhat, hogy további információkat kell megadnia. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.
+- Teljesítse a minimális infrastrukturális képességeket, például a számlázást és a létesítést
+- Aktív tagság a Microsoft Partner Network és az MPN-AZONOSÍTÓban azon a helyen, ahová az értékesítést el szeretné adni.
+
+#### <a name="recommendations"></a>Javaslatok
+
+- A **legfontosabb képességek bemutatása:** Igazolja, hogy legalább egy felügyelt szolgáltatást, IP-szolgáltatást vagy ügyfél-megoldási alkalmazást biztosít. [További információ a felügyelt szolgáltatások hozzáadásáról](https://partner.microsoft.com/solutions/managed-services). 
 
 ## <a name="where-can-i-sell-through-the-csp-program"></a>Hol lehet eladni a CSP programon keresztül?
 

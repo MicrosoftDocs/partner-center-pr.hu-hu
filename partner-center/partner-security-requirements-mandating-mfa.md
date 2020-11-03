@@ -1,7 +1,7 @@
 ---
-title: MFA előírása a partner bérlője számára
+title: A többtényezős hitelesítés (MFA) meghatalmazása a partner bérlője számára
 ms.topic: article
-ms.date: 10/26/2020
+ms.date: 10/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogyan biztosíthatja az ügyfelek erőforrásaihoz való hozzáférést a partneri bérlők számára az MFA meghatalmazása révén. Példákat tartalmaz.
@@ -9,21 +9,19 @@ author: isaiahwilliams
 ms.author: iswillia
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 01122e81254a8e63f9bbf8d6bc3d3271accac74a
-ms.sourcegitcommit: 2847efac28d3bff24ed37cdfaa88ff4be06705c8
+ms.openlocfilehash: b6985054e927dd777d61ae30bd435ab4c6c4ea8c
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680405"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133125"
 ---
 # <a name="mandating-multi-factor-authentication-mfa-for-your-partner-tenant"></a>A többtényezős hitelesítés (MFA) meghatalmazása a partner bérlője számára
 
 **A következőkre vonatkozik**
 
 - A Cloud Solution Provider program összes partnere
-  - Közvetlen számla
-  - Közvetett szolgáltató
-  - Közvetett viszonteladó
+- A Vezérlőpult összes szállítója
 - Minden tanácsadó
 
 **Érintett szerepkörök**
@@ -34,18 +32,15 @@ ms.locfileid: "92680405"
 - Számlázási adminisztrátor
 - Globális rendszergazda
 
-Ennek a funkciónak a célja, hogy segítse a partnereknek az ügyfelek erőforrásaihoz való hozzáférésüket a hitelesítő adatok biztonsága miatt.
-A partnerek számára szükséges a többtényezős hitelesítés (MFA) betartatása a partner bérlőn lévő összes felhasználói fiókhoz, beleértve a vendég felhasználót is, ezzel a funkcióval a partneri szerepkörök a következő területekre vonatkozó MFA-ellenőrzés elvégzésére lesznek felhatalmazva:
+Ez a cikk részletes példákat és útmutatást nyújt a többtényezős hitelesítés (MFA) a partner Centerben való megadásához. Ennek a funkciónak a célja, hogy segítse a partnereknek az ügyfelek erőforrásaihoz való hozzáférésüket a hitelesítő adatok biztonsága miatt. A partnerek kötelesek az MFA kikényszeríteni a partner bérlőben lévő összes felhasználói fiókot, beleértve a vendég felhasználókat. A felhasználók a következő területekre vonatkozó MFA-ellenőrzés elvégzésére lesznek felhatalmazva:
 
 - [A partneri központ irányítópultja](#partner-center-dashboard)
 - [Partnerközpont API](#partner-center-api)
 - [Partner által delegált felügyelet](#partner-delegated-administration)
 
-A legfontosabb prioritások közé tartozik a nagyobb és folyamatos biztonsági és adatvédelmi védelem, és továbbra is segítjük a partnereknek az ügyfelek és a bérlők védelmét. A Cloud Solution Provider (CSP) programban résztvevő összes partner, a Vezérlőpult-szállítók (CPVs) és a tanácsadók a megfelelő állapotba kell léptetni a [partneri biztonsági követelményeket](partner-security-requirements.md) .
+A legfontosabb prioritások közé tartozik a nagyobb és folyamatos biztonsági és adatvédelmi védelem, és továbbra is segítjük a partnereknek az ügyfelek és a bérlők védelmét. A Cloud Solution Provider (CSP) program, a Vezérlőpult-szállítók (CPVs) és az Advisors szolgáltatásban részt vevő összes partnernek meg kell valósítania a megfelelőnek minősülő [partneri biztonsági követelményeket](partner-security-requirements.md) .
 
-Annak érdekében, hogy a partnerek megvédik a vállalatokat és az ügyfeleket az identitás-lopással kapcsolatos incidensekkel, aktiváljuk a további biztonsági óvintézkedéseket a partneri bérlők számára, amelyekkel a partnerek a jogosulatlan hozzáférés megakadályozása érdekében a többtényezős hitelesítés (MFA) ellenőrzésével biztosíthatják a partnereknek a bérlők és az ügyfelek védelmét. 
-
-Ez a dokumentáció a partnerek számára biztosít részletes tapasztalatokat és útmutatást a biztonsági óvintézkedések aktiválásával kapcsolatban.
+Annak érdekében, hogy a partnerek megvédik a vállalatokat és az ügyfeleket a személyazonosság-lopás és a jogosulatlan hozzáférés ellen, további biztonsági óvintézkedéseket aktiválunk a partner bérlők számára, amelyek az MFA-t bízzák meg és ellenőrzik 
 
 ## <a name="partner-center-dashboard"></a>A partneri központ irányítópultja
 
@@ -55,23 +50,20 @@ A partner Center irányítópultjának bizonyos oldalai MFA-védelemmel lesznek 
 - A **támogatási > Customer requests** lapon lévő összes oldal, például az oldalon elérhető oldal https://partner.microsoft.com/dashboard/support/csp/customers/*
 - Számlázási oldal
 
-Ha megpróbál hozzáférni ezekhez a lapokhoz, és korábban még nem fejezte be az MFA-ellenőrzést, erre lesz szüksége.
-
-> [!NOTE]
-> A partner Center más oldalai, például az áttekintő lap, Service Health állapot-ellenőrzési lap nem lesz MFA-védelemmel ellátva.
-
-A következő felhasználói típusok jogosultak az MFA-védelemmel ellátott lapok elérésére, ezért a funkció hatással van rájuk
+A következő táblázat bemutatja, hogy mely felhasználói típusok jogosultak az MFA-védelemmel ellátott lapok elérésére (és ezért ez a funkció érinti őket).
 
 
-| MFA által védett lapok       | Rendszergazdai ügynökök      |  Értékesítési ügynökök     |   Segélyszolgálat-ügynökök     | Globális rendszergazda      |  Számlázási adminisztrátor     | 
+| MFA által védett oldal       | Rendszergazdai ügynökök      |  Értékesítési ügynökök     |   Segélyszolgálat-ügynökök     | Globális rendszergazda      |  Számlázási adminisztrátor     | 
 |---    |---    |---    |---    |---    |---    |
 | Az ügyfelek lap összes lapja      |   x    |    x   |  x     |       |       |
 | Az összes oldal a támogatási > az ügyfelek kérései lapon     | x      |       |    x   |       |       |
 | Számlázási oldal     |   x    |       |       |    x   |   x    |
 
-## <a name="examples-showing-how-verification-works"></a>Példák az ellenőrzés működésére
+Ha megpróbál hozzáférni ezekhez a lapokhoz, és korábban még nem fejezte be az MFA-ellenőrzést, erre lesz szüksége. A partner Center egyéb oldalain, például az Áttekintés oldalon Service Health állapot-ellenőrzési oldalon nem szükséges az MFA.
 
-Az ellenőrzés működésének szemléltetéséhez vegye figyelembe az alábbi két példát.
+## <a name="verification-examples"></a>Ellenőrzési példák
+
+A következő példákkal szemlélteti, hogyan működik az ellenőrzés a partner Center irányítópultján.
 
 ### <a name="example-1-partner-has-implemented-azure-ad-mfa"></a>1. példa: a partner implementálta az Azure AD MFA-t
 
@@ -108,7 +100,7 @@ Az ellenőrzés működésének szemléltetéséhez vegye figyelembe az alábbi 
 6. John megpróbál hozzáférni a partner Center egyik MFA-védelemmel ellátott lapjához. Mivel John nem fejezte be az MFA-ellenőrzést, a partner Center átirányítja John-t az Azure AD-ba az MFA-ellenőrzés elvégzéséhez. Mivel John regisztrálta az MFA-t, ezért csak az MFA-ellenőrzés befejezését kéri.
 
 > [!NOTE]
->Művelet: a vállalati rendszergazdának most már a partner Center által javasolt [beállításokkal](partner-security-requirements.md#actions-that-you-need-to-take) kell implementálnia az MFA-t.
+>Művelet: a vállalati rendszergazdák [három lehetősége](partner-security-requirements.md#implementing-multi-factor-authentication) van az MFA megvalósítására.
 
 ## <a name="partner-center-api"></a>Partnerközpont API
 
@@ -117,7 +109,7 @@ A partner Center API a csak az alkalmazáson belüli hitelesítést és az alkal
 Az alkalmazás és a felhasználó hitelesítésének használatakor a partneri központban az MFA-hitelesítésre lesz szükség. Pontosabban, amikor egy partner alkalmazás API-kérést szeretne küldeni a partneri központnak, a kérelem engedélyezési fejlécében szerepelnie kell egy hozzáférési jogkivonatnak. 
 
 > [!NOTE]
->A [Secure Application Model](/partner-center/develop/enable-secure-app-model) egy biztonságos, méretezhető keretrendszer a CSP-partnerek hitelesítéséhez és a Microsoft Azure MFA-architektúrán keresztüli CPVs a partner Center API meghívásakor, mielőtt engedélyezi az MFA használatát a bérlőn. 
+>A [Secure Application Model Framework](/partner-center/develop/enable-secure-app-model) egy méretezhető keretrendszer a CSP-partnerek hitelesítéséhez és a CPVs a Microsoft Azure MFA-architektúrán keresztül a partner Center API-k meghívásakor. Ezt a keretrendszert kell megvalósítani, mielőtt engedélyezi az MFA használatát a bérlőn. 
 
 Ha a partneri központ az App + felhasználói hitelesítés használatával kapott hozzáférési jogkivonattal kap API-kérelmet, a partner Center API az *MFA* -érték jelenlétét fogja ellenőriznie a *hitelesítési módszer hivatkozása (AMR)* jogcímben. JWT-dekóder használatával ellenőrizheti, hogy egy hozzáférési jogkivonat tartalmazza-e a várt hitelesítési módszer hivatkozási (AMR) értékét, vagy sem:
 
@@ -163,17 +155,17 @@ App-Only hitelesítés használatakor a App-Only hitelesítést támogató API-k
 
 ## <a name="partner-delegated-administration"></a>Partner által delegált felügyelet
 
-### <a name="using-service-portals"></a>Szolgáltatás-portálok használata
-
 A partneri fiókok, beleértve a felügyeleti ügynököket és a segélyszolgálat-ügynököket, a partner meghatalmazott rendszergazdai jogosultságokkal kezelhetik az ügyfelek erőforrásait a Microsoft Online Services portálon, a parancssori felületen (CLI) és az API-kon keresztül (az App + felhasználói hitelesítés használatával).
 
-Ha a Microsoft Online Services portálokat a partner által delegált rendszergazdai jogosultságokkal (rendszergazdai nevén) használja az ügyfelek erőforrásainak kezeléséhez, számos ilyen portálhoz szükség van a partner fiókra az interaktív hitelesítéshez, és az ügyfél-Azure Active Directory bérlő beállítása hitelesítési környezetként – a partneri fióknak be kell jelentkeznie az ügyfél-bérlőbe.
+### <a name="using-service-portals"></a>Szolgáltatás-portálok használata
 
-Amikor Azure Active Directory megkapja az ilyen hitelesítési kérelmeket, a partner fiókjának az MFA-ellenőrzés elvégzéséhez szüksége lesz. Két lehetséges felhasználói élmény van, attól függően, hogy a partner fiók felügyelt vagy összevont identitás-e:
+Ha a Microsoft Online Services-portálokat a partner által delegált rendszergazdai jogosultságokkal (rendszergazdai nevén) használja az ügyfelek erőforrásainak kezeléséhez, akkor a portálok nagy része megköveteli, hogy a partner fiókja interaktívan hitelesítse az ügyfelet az Azure AD-Bérlővel a hitelesítési környezetnek megfelelően.
 
-- Ha a partner fiók **felügyelt** identitás, Azure Active Directory közvetlenül az MFA-ellenőrzés elvégzésére kéri a felhasználót. Ha a partner fiók még nincs regisztrálva az MFA-ban Azure Active Directory előtt, a rendszer kérni fogja a felhasználótól, hogy először az [MFA-regisztrációt végezze](#mfa-registration-experience) el.
+Ha az Azure AD ilyen hitelesítési kéréseket kap, az MFA-ellenőrzés elvégzéséhez szüksége lesz a partner fiókra. Két lehetséges felhasználói élmény van, attól függően, hogy a partner fiók felügyelt vagy összevont identitás-e:
 
-- Ha a partner fiók **összevont** identitás, a felhasználói élmény attól függ, hogy a partner rendszergazdája hogyan konfigurálta az összevonást Azure Active Directoryban. Az Azure Active Directory-ben való összevonás beállításakor a partner rendszergazdája jelezheti, hogy Azure Active Directory, hogy az összevont identitás-szolgáltató támogatja-e az MFA-t. Ha igen, Azure Active Directory átirányítja a felhasználót az összevont identitás-szolgáltatóra az MFA-ellenőrzés elvégzéséhez. Ellenkező esetben a Azure Active Directory közvetlenül az MFA-ellenőrzés elvégzésére kéri a felhasználót. Ha a partner fiók még nincs regisztrálva az MFA-ban Azure Active Directory előtt, a rendszer kérni fogja a felhasználótól, hogy először az [MFA-regisztrációt végezze](#mfa-registration-experience) el.
+- Ha a partner fiók **felügyelt** identitás, az Azure ad közvetlenül felszólítja a felhasználót az MFA-ellenőrzés elvégzésére. Ha a partner fiók még nincs regisztrálva az Azure AD-ben az Azure AD-ben, a rendszer kérni fogja a felhasználótól az [MFA-regisztráció befejezését](#mfa-registration-experience) .
+
+- Ha a partner fiók **összevont** identitás, a felhasználói élmény attól függ, hogy a partner rendszergazdája hogyan konfigurálta az összevonási szolgáltatást az Azure ad-ben. Az Azure AD-beli összevonás beállításakor a partner rendszergazdája jelezheti az Azure AD-nek, hogy az összevont identitás szolgáltatója támogatja-e az MFA-t. Ha igen, az Azure AD átirányítja a felhasználót az összevont identitás-szolgáltatóra az MFA-ellenőrzés elvégzéséhez. Ellenkező esetben az Azure AD közvetlenül felszólítja a felhasználót az MFA-ellenőrzés elvégzésére. Ha a partner fiók még nincs regisztrálva az Azure AD-ben az Azure AD-ben, a rendszer kérni fogja a felhasználótól az [MFA-regisztráció befejezését](#mfa-registration-experience) .
 
 Az általános élmény hasonló ahhoz a forgatókönyvhöz, amelyben egy végfelhasználói bérlő implementálta az MFA-t a rendszergazdái számára. Például az ügyfél bérlője engedélyezte az [Azure ad biztonsági alapértékeit](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), így minden rendszergazdai jogosultsággal rendelkező fióknak be kell jelentkeznie az ügyfél-bérlőbe az MFA-ellenőrzéssel, beleértve a felügyeleti ügynököket és a segélyszolgálat-ügynököket. Tesztelési célból a partnerek engedélyezhetik az [Azure ad biztonsági alapértelmezéseit](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) az ügyfél bérlőben, majd megpróbálják használni a partner által delegált rendszergazdai jogosultságokat az ügyfél bérlőhöz való hozzáféréshez.
 
@@ -205,16 +197,10 @@ A **tovább** gombra kattintás után a rendszer megkéri a felhasználót, hogy
 :::image type="content" source="images/MfaRegistration2.png" alt-text="MFA-regisztráció 1. lépés":::
 
 A sikeres regisztráció után a felhasználónak a felhasználó által választott ellenőrzés alapján be kell fejeznie az MFA-ellenőrzést.
-
-## <a name="request-for-technical-exception"></a>Technikai kivételre vonatkozó kérelem
-
-A partnerek technikai kivételt alkalmazhatnak az MFA-ellenőrzés letiltásához, ha technikai problémák léptek fel a Microsoft Online Services szolgáltatással, és nincs megvalósítható megoldás vagy megoldás. Mielőtt ezt megtenné, tekintse át a következő fejezeteket:
-
-- [A partnerek által jelentett gyakori problémák listája](#list-of-common-issues-reported-by-partners)
-- [Technikai kivételre vonatkozó kérelem beküldése](#how-to-submit-a-request-for-technical-exception)
  
-### <a name="list-of-common-issues-reported-by-partners"></a>A partnerek által jelentett gyakori problémák listája
-A technikai kivétel alkalmazása előtt tekintse át a többi partner által jelentett gyakori problémák listáját, és Ismerje meg, hogy érvényesek-e a technikai kivételek.
+## <a name="list-of-common-issues"></a>Gyakori problémák listája
+
+Mielőtt [technikai kivételt](#how-to-submit-a-request-for-technical-exception) kellene alkalmaznia az MFA-követelménytől, tekintse át a többi partner által jelentett gyakori problémák listáját, és Ismerje meg, hogy érvényes-e a kérelme.
 
 #### <a name="issue-1-partner-needs-more-time-to-implement-mfa-for-their-partner-agents"></a>1. probléma: a partnernek több időre van szüksége az MFA megvalósításához a partnerek ügynökei számára
 Egy partner nem indult el, vagy még mindig folyamatban van az MFA bevezetésének folyamata a partnerek ügynökei számára, akiknek szükségük van a Microsoft Online Services portálokhoz való hozzáférésre a partner által delegált rendszergazdai jogosultságokkal az ügyfelek erőforrásainak kezelése A partnernek több időre van szüksége az MFA megvalósításának elvégzéséhez. A probléma a technikai kivétel érvényes oka?
@@ -261,7 +247,9 @@ Egy harmadik féltől származó MFA-megoldást használó partner az MFA-t impl
 
 - Az Ön által használt, harmadik féltől származó MFA-megoldás megvásárlási sorrendje.
 
-### <a name="how-to-submit-a-request-for-technical-exception"></a>Technikai kivételre vonatkozó kérelem beküldése
+## <a name="how-to-submit-a-request-for-technical-exception"></a>Technikai kivételre vonatkozó kérelem beküldése
+
+A partnerek technikai kivételt alkalmazhatnak az MFA-ellenőrzés letiltásához, ha technikai problémák léptek fel a Microsoft Online Services szolgáltatással, és nincs megvalósítható megoldás vagy megoldás. Mielőtt ezt megtenné, tekintse át az előző szakaszban ismertetett [gyakori problémák listáját](#list-of-common-issues) .
 
 Technikai kivételre vonatkozó kérelem küldése:
 
@@ -274,3 +262,7 @@ Technikai kivételre vonatkozó kérelem küldése:
 4. Adja meg a technikai kivételt kérő szolgáltatás beküldéséhez kért adatokat, majd kattintson a **Submit (Küldés** ) gombra.
 
 A Microsoft akár három munkanapot is igénybe vehet, hogy választ adjon a technikai kivételre vonatkozó kérelemre.
+
+## <a name="next-steps"></a>Következő lépések
+
+ - [Partneri biztonsági követelmények állapota](partner-security-compliance.md)

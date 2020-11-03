@@ -8,17 +8,17 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.date: 10/09/2020
-ms.openlocfilehash: 98c9cdd96af037e8543828e3a6f2e93c5b0fcbcd
-ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
+ms.date: 10/28/2020
+ms.openlocfilehash: 760e0157437dbad74c779100123b4239083ca6b7
+ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795772"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917144"
 ---
 # <a name="requirements-to-enroll-as-a-csp-direct-bill-partner"></a>A közvetlen számlázású CSP-partnerként való regisztráció követelményei
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Közvetlen számlázási partnerek a Cloud Solution Provider programban
 
@@ -28,11 +28,11 @@ Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal a
 
 ### <a name="minimum-requirements"></a>Minimális követelmények
 
-|**Követelmény**|                             |
+|**Követelmény**| **Magyarázat**|
 |--------------------------------|--------------------------------------------------------------|
 |**MPN-azonosító**   |Aktív Microsoft Partner Network-(MPN-) azonosító a vállalati helyhez.    |
 |**Ajánlás**   |A jogi szerződések elfogadására és aláírására szolgáló hatóság a szervezet nevében.|
-|**Bevétel**|Január 2021 a közvetlen számlás partnerként regisztrált partnereknek legalább USD $300K kell megadniuk a Cloud Solution Provider program bevételeiből a partner globális fiók szintjén az előző 12 hónapban.| 
+|**Bevétel**|Meg kell felelnie legalább USD300K a Cloud Solution Provider programban az előző tizenkét hónapban közvetett viszonteladóként végzett éves bevételnek. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partneri központban. a USD300K-t követő tizenkét hónapos bevételt követő értékesítések a Microsoft általi felülvizsgálat és ellenőrzés alá esnek, és további információkat is kérhetnek. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben. Az előző 12 hónapos bevétel részleteiért tekintse meg az [előfizetés-elemzést](https://partner.microsoft.com/dashboard/analytics/licenseanalytics) .|
 |**Támogatás**   |A felhőalapú terméktámogatás első szintjének megadásának lehetősége az ügyfelek számára. <br/>Egy Microsoft támogatási csomag, amely a partnerek (ASfP) vagy a Premier szintű támogatás for Partners (PSfP) speciális támogatása az igényeitől függően. A [támogatási csomagok összehasonlítása](https://partner.microsoft.com/support/partnersupport).<br/> Fontos: a támogatási csomag megvásárlása előtt meg kell adnia egy kredit-ellenőrzési eszközt. A kredit-ellenőrzés átadásakor e-mailt küldünk Önnek. |
 |**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfél-megoldás alkalmazás. További információ a [felügyelt szolgáltatások](https://partner.microsoft.com/business-opportunities/managed-services-provider)hozzáadásáról.|
 |**Kinnlevőségek** |Az ügyfél számlázásának és kiépítésének kezelésére szolgáló szervezeti infrastruktúra.|
@@ -55,6 +55,9 @@ A jelenlegi közvetlen számlázási partnereknek meg kell felelniük az új kö
 Ha úgy dönt, hogy áthelyezi a közvetlen számlázási üzletágból a közvetett viszonteladói üzletágba, több lépésre van szükség. Az áttéréssel kapcsolatos további tudnivalókért olvassa el az [áttérés a Cloud Solution Provider (CSP) közvetlen partnertől a CSP közvetett viszonteladó felé](transition-direct-to-indirect.md)című témakört.
 
 ## <a name="next-steps"></a>Következő lépések
+
+- [Új bevételi követelmény közvetlen számlázási partnerekhez](https://docs.microsoft.com/partner-center/announcements/2020-october#13)
+ 
 
 - [További információ a közvetett viszonteladók kiválásáról](https://assetsprod.microsoft.com/csp-directbill-to-indirect-transition.pdf)
 

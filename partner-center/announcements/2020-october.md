@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 10/14/2020
-ms.openlocfilehash: 144ca69d3ea52921351d84dae40d007a976ddf73
-ms.sourcegitcommit: f5aebd9f8b56f79f758c97048f298a04d8fb55be
+ms.openlocfilehash: 453d6e130a6c563e7aac23cef1c7a91f8125fd9c
+ms.sourcegitcommit: 13248a782fe6854909a2f1ed3eb6d9d0f2cb5a67
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92530810"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92749745"
 ---
 # <a name="october-2020-announcements"></a>Október 2020 közlemények
 
@@ -22,6 +22,71 @@ Ez az oldal a Microsoft partner Center 2020-es októberi hirdetményeit részlet
 
 2020 bejelentések [:](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [July](2020-july.md)  |  [augusztus](2020-august.md)  |  [September](2020-september.md) | . Október
 
+________________________________
+
+## <a name="introducing-a-performance-standard-for-direct-bill-partner-requirements-in-the-cloud-solution-provider-csp-program"></a><a name="13"></a>A közvetlen számlázási partneri követelmények teljesítményének standard bemutatása a Cloud Solution Provider (CSP) programban
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-27
+- Képességek
+ 
+### <a name="summary"></a>Összefoglalás
+
+A Cloud Solution Provider programban a közvetlen számlázási partneri követelmények részeként bemutatjuk a teljesítmény szabványát.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Közvetlen számlázási partnerek a Cloud Solution Provider programban.
+
+### <a name="details"></a>Részletek
+
+A Microsoft Cloud megoldás-szolgáltató program egyre növekvő és optimalizálja a partnereknek és ügyfeleknek szóló új kereskedelmi élményt. Így továbbra is fejlesztjük a programot az ügyfelek változó igényeinek kielégítése érdekében, és a leghatékonyabb és jövedelmező felhasználói élményt biztosítjuk partnereinknek.
+
+Napjainkban a Cloud Solution Provider programban a közvetlen számlázási partnerekkel kapcsolatos követelmények néhány jövőbeli változását megosztjuk.
+
+Először is **bevezetjük a teljesítmény standardot a közvetlen számlázási partneri követelmények részeként** . Azoknak a partnereknek, akik közvetlen számlás partnerként szeretnének regisztrálni a felhőalapú megoldás-szolgáltatói programban, legalább USD300K kell teljesíteniük a Cloud Solution Provider program bevételét a [szükséges támogatási szerződés](https://partner.microsoft.com/support/partnersupport) megújításának napját megelőző 12 hónapban.
+
+Ez a teljesítmény-szabvány a jelenlegi közvetlen számlázási partnerek esetében 2021 januárjában lép érvénybe, és meg kell felelnie a partner támogatási tervének megújítási dátuma alapján támasztott követelményeknek.
+
+Ha nem tudja, hogy nem felel meg a frissített közvetlen számlázási partneri követelményeknek, újra kell regisztrálnia a Felhőbeli megoldás-szolgáltatói programban a közvetett viszonteladóként. 
+
+Ez az új bevételi követelmény segítséget nyújt a felhőalapú megoldás-szolgáltatói programban lévő partnereknek a megfelelő modellen alapuló nyereségesebb üzletmenet kiépítésében, amely tisztább teljesítményt nyújt, és nagyobb értéket biztosít az ügyfeleknek kevesebb infrastruktúrával és működési terheléssel.
+
+Másodszor, a 2018 augusztusában frissítettük a közvetlen számlázási partnerek követelményeit, és új feltételeket biztosítanak a partnereknek a minősített partneri támogatási csomag megvásárlásához. A Cloud Solution Provider program minden közvetlen számlás partnere számára szükséges fontosságot újra kiemeljük.
+
+### <a name="direct-bill-partner-requirements"></a>Közvetlen számlázási partneri követelmények
+
+Tekintse át a [frissített közvetlen számlázási partneri követelményeket](https://docs.microsoft.com/partner-center/direct-partner-new-requirements#minimum-requirements) és ajánlásokat annak kiértékeléséhez, hogy a felhőalapú megoldás-szolgáltatói programban miként hozhat létre és kibővítheti a nyereséges üzleti tevékenységet a megfelelő modellel:
+
+1. **új bevételi teljesítményre vonatkozó követelmény**
+
+A felhőalapú megoldás-szolgáltatói programban jelenleg regisztrált **meglévő partnerek** a közvetlen számlás partnereknek meg kell felelniük az új, 2021-es teljesítményű szabványnak. A követelményeknek való megfelelés érdekében a következő partneri támogatási csomag megújítási napjáig időt kell várnia. [Ezt az útmutatót](https://partner.microsoft.com/resources/detail/new-subscription-analytics-report-on-partner-center-guide-pdf)követve áttekintheti a partner központ tizenkét hónapos bevételét.
+
+A felhőalapú megoldás-szolgáltatói programban regisztrált új partnerek a közvetett viszonteladók **október 2020** -én lépnek érvénybe. Legalább USD300K kell rendelkezniük a CSP-bevételhez az előző 12 hónapban. [Ezt az útmutatót](https://partner.microsoft.com/resources/detail/new-subscription-analytics-report-on-partner-center-guide-pdf)követve áttekintheti a partneri központ 12 hónapos bevételét. 
+
+2. **támogatási szerződésre vonatkozó követelmény** 
+
+A támogatási lehetőségek kibővítéséhez vásárolja meg a két támogatási szerződés egyikét:  
+
+   - Microsoft Advanced támogatás partnereknek (ASfP): egy-az-egyhez, rangsorolt Felhőbeli támogatás  
+   - Microsoft Premier szintű támogatás partnereknek (PSfP): hozzáférés a proaktív szolgáltatások teljes katalógusához, 24/7 emelt szintű break/fix támogatáshoz, valamint a felhő, a hibrid és a helyszíni technikai fiókok felügyeletéhez. 
+
+Összehasonlíthatja a [támogatási szerződés lehetőségeit](https://partner.microsoft.com/support/partnersupport) egy minősített csomag megvásárlásához.
+
+### <a name="direct-bill-partner-recommendations"></a>Közvetlen számlázási partneri javaslatok
+
+**A legfontosabb képességek bemutatása**
+
+Annak érdekében, hogy készen álljon a közvetlen számlázási program támogatásához szükséges infrastruktúra megismerésére, további Javaslatunk van. Igazolja, hogy legalább egy felügyelt szolgáltatást, IP-szolgáltatást vagy ügyfél-megoldási alkalmazást biztosít. A partnereknek értéket kell hozzáadniuk Microsoft Cloud-szolgáltatásokhoz, és nem csupán a szolgáltatásaink azonnali viszonteladását. Ez fontos része a partner piaci megjelenési stratégiájának. [További](https://partner.microsoft.com/solutions/managed-services) információ a felügyelt szolgáltatások hozzáadásáról. Javasoljuk, hogy teljesítse a minimális infrastrukturális képességeket, például a számlázást és a létesítést. 
+
+Az új követelményeknek meg nem felelő CSP-program közvetlen számlázási partnereit újra regisztrálni kell a programban a Microsoft Partner Networkon belül. [Tudjon meg többet](https://docs.microsoft.com/partner-center/transition-direct-to-indirect) arról, hogyan teheti át a közvetlen számlázási partnertől a közvetett viszonteladó felé való áttérést.  
+
+### <a name="next-steps"></a>Következő lépések
+
+- Tekintse át a [frissített közvetlen számlázási partneri követelményeket](https://docs.microsoft.com/partner-center/direct-partner-new-requirements#minimum-requirements).
+- Tekintse át a GYIK és egyéb információkat a [Microsoft partner webhelyének operatív erőforrás-galériájában](https://partner.microsoft.com/resources/collection/new-performance-standard-for-direct-bill-partner-requirements-in-csp#/).
+- Keressen [egy közvetett szolgáltatót, hogy működjön,](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) ha a közvetett viszonteladói lehetőség jobban illeszkedik az Ön üzleti igényeihez.
 ________________________________
 
 ## <a name="microsoft-365-business-voice-offer-updates"></a><a name="12"></a>Microsoft 365 Vállalati verzió hangvételi ajánlat frissítései

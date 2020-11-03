@@ -1,19 +1,19 @@
 ---
 title: Ösztönzők a kifizetési és az adózási profilokkal kapcsolatos gyakori kérdések
 ms.topic: article
-ms.date: 10/22/2020
+ms.date: 10/27/2020
 description: Gyakori kérdések az ösztönzők kifizetéséről és az adó-profilokról. A kérdések közé tartozik, hogy miért nem látja a kifizetési és adózási profilokat, és mi a teendő.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: f4335bc77acf0e73092de0441cc6254b11c62bb3
-ms.sourcegitcommit: a46ab876baf681c2fa4f9a2876d29c2ba4aad648
+ms.openlocfilehash: 7fae97fb1a527ab557d76bd3b5fd738315271899
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92530816"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133133"
 ---
 # <a name="frequently-asked-questions-regarding-incentives-payout-and-tax-profiles"></a>Gyakori kérdések az ösztönzők kifizetésével és az adózási profilokkal kapcsolatban
 
@@ -26,32 +26,6 @@ Megfelelő szerepkörök:
 - Ösztönzők rendszergazdája
 - Fiókadminisztrátor
 - Globális rendszergazda
-
-## <a name="my-tax-profile-has-expired-how-do-i-fix-this"></a>Az adó profil lejárt. Hogyan javítsa ezt?
-
-Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Microsoftnak megadott adózási űrlapot frissíteni kell. Az alábbi eljárással szerkesztheti az adózási profilokat:
-
-1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
-
-2. A **Beállítások** menü megnyitásához válassza a fogaskerék ikont.
-
-3. A **Fiókbeállítások** alatt válassza a **Kifizetés és adózás** , majd a **Kifizetési és adóprofil** lehetőséget.
-
-4. Válassza az **adózási profil** lehetőséget.
-
-5. Válassza ki a **lejárati dátum** oszlopot, majd navigáljon a lejárt vagy hamarosan lejáró adózási profilhoz.
-
-6. Válassza a **Szerkesztés** lehetőséget az adózási profil szerkesztési folyamatának megkezdéséhez.
-
-7. Frissítse az adózási űrlapokat a szükséges részletek megadásával.
-
-## <a name="how-does-microsoft-ensure-that-the-bank-information-is-indeed-that-of-the-company-and-not-a-personal-bank-account-for-an-employee"></a>Hogyan biztosítja a Microsoft annak biztosítását, hogy a bank adatai valóban a vállalat számára legyenek, és nem egy alkalmazott személyes bankszámlájára?
-
-A vállalat feladata annak biztosítása, hogy az ösztönzők adminisztrátori szerepköre – kik rendelkeznek az adatok szerkesztéséhez szükséges engedélyekkel – csak a megfelelő alkalmazottak számára adható meg.
-
-## <a name="can-i-use-the-same-bank-and-tax-details-for-all-incentive-programs-at-microsoft"></a>Használhatom ugyanazt a banki és adózási adatot a Microsoft összes ösztönző programjához?
-
-Ha a vállalata több ösztönző programot is meghív, használhatja ugyanazt a fizetési fiókot az összes ösztönző programhoz, vagy dönthet úgy is, hogy különböző fizetési fiókokat használ a különböző programokhoz.
 
 ## <a name="why-do-i-need-to-provide-my-payout-andor-tax-details"></a>Miért van szükség a kifizetési és/vagy adózási adatok megadására?
 
@@ -94,6 +68,32 @@ Az MPN-helyekhez létrehozott adózási profilok újból felhasználhatók, és 
 ## <a name="im-only-able-to-sign-in-with-my-onmicrosoftcom-domain-what-should-i-do"></a>Csak a saját tartománnyal tudok bejelentkezni @onmicrosoft.com . Mit tegyek?
 
 Vegye fel a kapcsolatot a fiókadminisztrátorral, ha az AAD-fiókhoz további tartományokat szeretne hozzáadni.
+
+## <a name="my-tax-profile-has-expired-how-do-i-fix-this"></a>Az adó profil lejárt. Hogyan javítsa ezt?
+
+Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Microsoftnak megadott adózási űrlapot frissíteni kell. Az alábbi eljárással szerkesztheti az adózási profilokat:
+
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
+
+2. A **Beállítások** menü megnyitásához válassza a fogaskerék ikont.
+
+3. A **Fiókbeállítások** alatt válassza a **Kifizetés és adózás** , majd a **Kifizetési és adóprofil** lehetőséget.
+
+4. Válassza az **adózási profil** lehetőséget.
+
+5. Válassza ki a **lejárati dátum** oszlopot, majd navigáljon a lejárt vagy hamarosan lejáró adózási profilhoz.
+
+6. Válassza a **Szerkesztés** lehetőséget az adózási profil szerkesztési folyamatának megkezdéséhez.
+
+7. Frissítse az adózási űrlapokat a szükséges részletek megadásával.
+
+## <a name="how-does-microsoft-ensure-that-the-bank-information-is-indeed-that-of-the-company-and-not-a-personal-bank-account-for-an-employee"></a>Hogyan biztosítja a Microsoft annak biztosítását, hogy a bank adatai valóban a vállalat számára legyenek, és nem egy alkalmazott személyes bankszámlájára?
+
+A vállalat feladata annak biztosítása, hogy az ösztönzők adminisztrátori szerepköre – kik rendelkeznek az adatok szerkesztéséhez szükséges engedélyekkel – csak a megfelelő alkalmazottak számára adható meg.
+
+## <a name="can-i-use-the-same-bank-and-tax-details-for-all-incentive-programs-at-microsoft"></a>Használhatom ugyanazt a banki és adózási adatot a Microsoft összes ösztönző programjához?
+
+Ha a vállalata több ösztönző programot is meghív, használhatja ugyanazt a fizetési fiókot az összes ösztönző programhoz, vagy dönthet úgy is, hogy különböző fizetési fiókokat használ a különböző programokhoz.
 
 ## <a name="next-steps"></a>Következő lépések
 

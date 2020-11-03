@@ -1,19 +1,19 @@
 ---
 title: Ösztönzők – gyakori kérdések
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 10/29/2020
 description: Gyakori kérdések a Microsoft ösztönzői közül. Ez a cikk a felhasználói szerepkörökkel, a regisztrálással, illetve a hibaüzenetek elvégzésével kapcsolatos kérdéseket tartalmaz.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
-ms.openlocfilehash: 468ad99771aabfd42960e43e0a711e10eddc62f0
-ms.sourcegitcommit: 4a88db7e9e90b4fbb2ba82af38d7f77b016977f3
+ms.openlocfilehash: b16fb54ede696ac623f68cff933daf8aaf1666e7
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92530823"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133065"
 ---
 # <a name="frequently-asked-questions-on-incentives"></a>Gyakori kérdések az ösztönzőkről
 
@@ -29,11 +29,11 @@ ms.locfileid: "92530823"
 
 ## <a name="do-i-need-to-be-the-global-admin-to-enroll-in-incentives"></a>A globális rendszergazdának kell lennie az ösztönzők beléptetéséhez?
 
-A globális rendszergazda nem kötelező. Az MPN-rendszergazda megkérhet más felhasználókat, hogy regisztráljanak, ha az ösztönző rendszergazda lesz, míg a globális rendszergazda beállíthatja az új felhasználói fiókokat. Ha a vállalata által nyújtott ösztönzőket az eszközön keresztül szeretné kezelni, nem kell globális rendszergazdának lennie. A szerepkörökkel és engedélyekkel kapcsolatos további információkért tekintse meg az [engedélyek áttekintését](permissions-overview.md).
+Nincs. A globális rendszergazda és a fiók rendszergazdája a felhasználókat ösztönző rendszergazdákként is hozzárendelheti. Az ösztönzőkkel rendelkező rendszergazdák a partner centeren keresztül kezelhetik a vállalat ösztönző programjait. További információ: [engedélyek áttekintése](permissions-overview.md).
 
-## <a name="what-do-i-need-to-do-if-i-find-my-company-is-already-a-member-of-the-microsoft-partner-network"></a>Mit kell tennem, ha a vállalatom már tagja a Microsoft Partner Networknak?
+## <a name="what-do-i-need-to-do-if-i-find-my-company-is-already-a-member-of-the-microsoft-partner-network-mpn"></a>Mit kell tennem, ha a vállalatom már tagja a Microsoft Partner Networknek (MPN)?
 
-Ha megpróbál csatlakozni az MPN-hez, és a vállalata már tagja, akkor felismeri a tartományt, és a már meglévő fiókhoz rendeli hozzá. Ez lehet ugyanaz a vállalat vagy egy kapcsolódó vállalat, amely ugyanazt az e-mail-tartományt használja, vagy ugyanaz az Azure-tevékenységi címtár (Azure AD) több tartomány kezeléséhez.
+Ha megpróbál csatlakozni az MPN-hez, és a vállalata már tagja, akkor az MPN felismeri a tartományt, és hozzárendeli a meglévő fiókhoz. A meglévő fiók lehet ugyanaz a vállalat vagy egy kapcsolódó vállalat, amely ugyanazt az e-mail-tartományt használja, vagy ugyanannak az Azure-beli tevékenységnek a könyvtára (Azure AD) több tartomány kezelésére.
 
 A partner Profile lapon azonosíthatja az elsődleges partnert. Ha a tartózkodási hely a MPNHQ helye, csak be kell állítania az ösztönzők kezeléséhez szükséges engedélyeket. A szerepkörökkel és engedélyekkel kapcsolatos további információkért tekintse meg az [engedélyek áttekintését](permissions-overview.md).
 
@@ -41,26 +41,34 @@ Ha nem ugyanabban az országban található, mint a MPNHQ helye, további részl
 
 ## <a name="what-user-roles-are-available"></a>Milyen felhasználói szerepkörök érhetők el?
 
-Alapértelmezés szerint az a személy, aki csatlakozik a vállalathoz az MPN-hez, az elsődleges kapcsolattartó és az MPN-rendszergazda lesz. A rendszergazda meghívja és felügyelheti a felhasználókat a portálon. A szerepkörökkel és engedélyekkel kapcsolatos további információkért tekintse meg az [engedélyek áttekintését](permissions-overview.md).
+Az a személy, aki a partner Centerben regisztrálja a vállalatot, alapértelmezés szerint az elsődleges kapcsolattartó és a globális rendszergazda lesz. A rendszergazda meghívja és felügyelheti a felhasználókat a portálon.
 
-Az ösztönzők legfontosabb szerepkörei az ösztönzők rendszergazdai és ösztönző felhasználói. Az ösztönzők rendszergazdája felügyeli a partner bankjának adatait. Az ösztönző felhasználó megtekintheti a jelentéseit az eszközben, hogy megtudja, mi lett kifizetve, valamint az egyes kifizetések részletezését, de nem tekintheti meg és nem szerkesztheti a bank adatait. Az ösztönző rendszergazda és az ösztönző felhasználók szerepköreiről és engedélyeiről az [engedélyek áttekintésében](permissions-overview.md)olvashat bővebben. Vegye figyelembe, hogy ezek a szerepkörök nem lesznek elérhetők kiválasztásra, amíg a partner nem kéri az ösztönzők beléptetését. Mindkét szerepkör alkalmazható a HQ alatt található összes helyszínre.
+Az ösztönzők legfontosabb szerepkörei az ösztönzők rendszergazdai és ösztönző felhasználói. Az ösztönzők rendszergazdája regisztrálhat az ösztönző programokban, és kezelheti a partner banki és adózási adatait. Az ösztönző felhasználók megtekinthetik az eszköz jelentéseit, és megtekinthetik a kifizetett összeget, valamint az egyes kifizetések részletezését, de nem tekinthetik meg és nem módosíthatják a banki adatokat. Mindkét szerepkör a partner globális fiókjának összes helyére vonatkozhat.
 
-## <a name="how-can-i-find-out-who-has-admin-rights-for-my-company"></a>Honnan tudhatom meg, hogy kik rendelkeznek rendszergazdai jogokkal a vállalatom számára?
+További információ: [engedélyek áttekintése](permissions-overview.md).
 
-Megtudhatja, hogy ki a globális rendszergazda vagy MPN-fiók rendszergazdája szerepköre a cégnél. További információ: [a szerepkör megkeresése](/partner-center/find-your-role.md).  
+## <a name="how-can-i-find-out-who-has-global-or-account-admin-rights-for-my-company"></a>Honnan tudhatom meg, hogy kinek van globális vagy rendszergazdai jogosultsága a cégem számára?
+
+Olyan globális rendszergazda vagy rendszergazdafiók megkeresése, aki szerepkör-módosításokat hajthat végre, vagy szerepköröket rendelhet hozzá egy új felhasználóhoz:
+
+1. A fiókpartner jobb felső sarkában található Fiókbeállítások ikonra kattintva válassza a **felhasználói kezelés** lehetőséget.
+2. Szűrje a **globális rendszergazdai** vagy a **rendszergazdai fiókokat** .
+3. A **saját profil** lehetőségre kattintva kiválaszthatja a **szerepkörök és engedélyek** elemet, és megtekintheti a különböző rendszergazdák listáját, akik segíthetnek az engedélyek megemelésében.
+ 
+További információ: [a szerepkör megkeresése](find-your-role.md).  
 
 ## <a name="i-cant-access-incentives-using-my-credentials"></a>Nem tudom elérni a saját hitelesítő adataim használatával járó ösztönzőket.
 
-A hozzáférés hiányának legvalószínűbb oka az, hogy az engedélyei nincsenek megfelelően beállítva a partner Centerben. A következő eljárással tekintse meg ezt a javítást.
+Valószínűleg nem látja az ösztönzőket, hogy nem rendelkezik a megfelelő engedélyekkel. A következő eljárással tekintse meg ezt a javítást.
 
 1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/) az Azure ad-bérlői hitelesítő adataival (a munkahelyi hitelesítő adataival). Ha nem tud bejelentkezni, forduljon a vállalat globális rendszergazdájához.
 
 2. Bejelentkezéskor, ha a rendszer kéri, hogy válasszon a munkahelyi **fiók** vagy a **személyes fiók** közül, válassza a **munkahelyi fiók** lehetőséget.
 
-3. A partner Center menüben válassza az **ösztönzők** lehetőséget, majd válassza az **Áttekintés** lehetőséget. Ha nem rendelkezik ösztönző rendszergazdai engedélyekkel, megjelenik a vállalat összes globális és felhasználóifiók-rendszergazdájának kapcsolattartási adatai. Vegye fel a kapcsolatot az egyik rendszergazdával, hogy beszerezze a szükséges MPN-azonosítók és ösztönző programok ösztönző szerepkörét.
+3. A partner Center menüben válassza az **ösztönzők** lehetőséget, majd válassza az **Áttekintés** lehetőséget. Ha nem rendelkezik ösztönzőkkel vagy felhasználói jogosultságokkal, akkor a vállalat összes globális és felhasználóifiók-rendszergazdájához tartozó kapcsolattartási adatokat fogja megjeleníteni. Vegye fel a kapcsolatot az egyik rendszergazdával, hogy beszerezze a szükséges MPN-azonosítók és ösztönző programok ösztönző szerepkörét.
 
-4. Ha már rendelkezik egy ösztönző rendszergazdai szerepkörrel, a vállalata azon MPN-azonosítóit és ösztönző programjait fogja látni, amelyhez hozzáférése van.
- 
+4. Ha már rendelkezik ösztönző rendszergazdai szerepkörrel, a vállalata azon MPN-azonosítóit és ösztönző programjait fogja látni, amelyhez hozzáférése van.
+
 ## <a name="some-enrollments-are-missing-from-the-incentives-overview-page"></a>Néhány regisztráció hiányzik az ösztönzők áttekintése lapon.
 
 Ha kevesebb regisztrációt lát, mint amennyit várt az ösztönzők **áttekintése** lapon, a következőket teheti.
@@ -69,7 +77,7 @@ Ha kevesebb regisztrációt lát, mint amennyit várt az ösztönzők **áttekin
 
 2. A **Beállítások** területen válassza a [felhasználói kezelés](https://partner.microsoft.com/pcv/users)lehetőséget.
 
-3. Az engedélyek megtekintéséhez válassza ki a nevét. 
+3. Az engedélyek megtekintéséhez válassza ki a nevét.
 
 Ha módosítania kell a szerepkört vagy az engedélyeket, tekintse meg a vállalat globális vagy rendszergazdai fiókját.
 
@@ -81,4 +89,4 @@ Ha bármilyen probléma merül fel az irányítópult ösztönzési szakaszában
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

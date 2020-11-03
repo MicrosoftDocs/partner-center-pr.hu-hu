@@ -6,12 +6,12 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.custom: seodec18
 ms.date: 06/12/2020
-ms.openlocfilehash: 26912daeae6648d49d1fda3ee148d46c8a3d6705
-ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
+ms.openlocfilehash: 47827b6aa3bb9853355a6e2fa4f8816e1dd701a1
+ms.sourcegitcommit: 7f595faf952bf2d6cdc229da38bd67ee701b2083
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795831"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93189747"
 ---
 # <a name="merge-your-partner-account-with-another-partner-account"></a>A partnerfiók egyesítése másik partnerfiókkal
 
@@ -98,18 +98,28 @@ Ha úgy dönt, hogy elfogadja a meghívót a fiókok egyesítéséhez: · Az MPN
   
     b. egy Azure AD-bérlő = @contoso.com
  
-    c. a Gold kompetencia, amely a 2020-as október 1-től lejár
+    c. Gold kompetencia, amely 2020. október 1-től lejár
 2. A fabricam
  
     a.  az 3333333-es globális MPN-azonosító és a 4444444-es és 5555555-as két alárendelt hely MPN-azonosítói
 
-    b.  egy HRE-bérlő = @fabricam.com
+    b.  egy Azure AD-bérlő = @fabricam.com
 
-    c.  két arany-kompetencia, amely december 1-től 2020-ig lejár
-3.  [A contoso](https://partner.microsoft.com/dashboard/account/merger) megvásárolja a fabricam, és elindít egy egyesítési kérést
+    c.  két arany-kompetencia, amely 2020 december 1-től lejár
+3.  [A contoso](https://partner.microsoft.com/dashboard/account/merger) megvásárolja a fabricam, és elindít egy egyesítési kérést.
 4.  A fabricam bejelentkezik a partneri központba, és ugyanarra a lapra kerül, mint a contoso a #3 lépésben a contoso kérelmének jóváhagyására.
 5.  A contoso megtekinti az ugyanazon az oldalon lévő egyesítés részleteit, és megerősítést nyújt a fiók egyesítésének folytatásához.
+6.  Az egyesítés után a vállalati fiók a következőképpen jelenik meg:
+
+    a.  Egy contoso nevű vállalat, amelynek globális MPN-azonosítója 1111111 és 4 alárendelt Location MPN-azonosító, 2222222, 3333333, 4444444 és 5555555
     
+    b.  Két Azure AD-bérlő ( @contoso.com + @fabricam.com ) fér hozzá ugyanahhoz a partner Center-fiókhoz
+    
+    c.  Két kompetenciával rendelkezik, amelyek közül az egyik a 2020. október 1-től lejár, a másik pedig a 2020. december 1-től lejár. A rendszer a 2020-es december 1-jén megújíthatja a kompetencia előnyeit. Amikor megújítják, a contoso mindhárom kompetenciát megőrzi, annak ellenére, hogy csak egyetlen kedvezményt biztosító csomagot tudnak fenntartani.
+    
+7.  A contoso rendszergazdái továbbra is felügyelik a partneri központ szerepköreit a @contoso.com felhasználók számára. A fabricam rendszergazdái továbbra is felügyelik a partneri központ szerepköreit a @fabricam.com felhasználók számára. A contoso rendszergazdái csak akkor felügyelhetik a fabricam felhasználóit, ha vendégként meghívja őket a fabricam bérlője számára.
+8.  A contoso dönthet úgy, hogy figyelmen kívül hagyja a @fabricam.com bérlőt, és új szerepkörökkel és engedélyekkel adja ki újra a fabricam alkalmazottak új @contoso.com hitelesítő adatait.
+
 ## <a name="next-steps"></a>Következő lépések
 
 - [Felhasználói szerepkörök és engedélyek hozzárendelése](permissions-overview.md)
