@@ -9,16 +9,16 @@ author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 11a37c0f0ac9218ec488441948faaa7b665bf0f3
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: ca06b4574d90993f62e6d8d018657e6bd81eb5e1
+ms.sourcegitcommit: 398e8361ae4b43a22d4015ad71bb724b2bf1b1a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530673"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93244063"
 ---
 # <a name="view-manage-and-export-your-incentives-program-details"></a>Ösztönző program részleteinek megtekintése, kezelése és exportálása
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -106,6 +106,61 @@ Ha további részletekre kíváncsi, kattintson az oldal jobb oldalán találhat
 
 Ezen az oldalon az összes tranzakciós adatmennyiség exportálásához válassza az **Exportálás** lehetőséget, majd kövesse az adatexportálás lapon szereplő utasításokat. A tranzakció előzményei lapról exportált fájlok megjelenítik az adatok tranzakció pénznemben történő megjelenítését, a tranzakciók pénznemében és az USA-dollárban felhalmozott összegeket, valamint a díjköteles díjat a pénznemben.
 
+### <a name="submit-your-tax-invoice-as-proof-of-execution-poe"></a>Az adó számla beküldése a végrehajtás bizonyítékaként (PoE)
+
+>[!NOTE]
+>Ez a tartalom **csak** az Indiában, Kínában, Olaszországban, Koreában, Mexikóban és Tajvanon lévő partnerek számára vonatkozik. <br><br>Az indiai partnereknek be kell nyújtaniuk az adó-számla rögzített példányát.
+
+#### <a name="submit-a-tax-invoice"></a>Adó számla beküldése
+
+Ha Ön a fent felsorolt országok valamelyikének egyik partnere, a Microsoft értesíti Önt e-mailben, hogy elküldje az adó-számlát az ösztönző jövedelmek igényléséhez. A kapott e-mailek az adó számla elküldésére vonatkozó utasításokat, valamint a szükséges további információkat is tartalmazzák.
+
+Az indiai partnereknek be kell nyújtaniuk az adóbevallást a nyomtatott példányban. A többi országban lévő partnerek nehezen vagy puha másolatot küldhetnek.
+
+Az adóbevallást 180 napon belül be kell nyújtania. Miután megkaptuk és ellenőrizte a számláját, feldolgozzuk az ösztönző fizetési bevételt.
+
+A következő információkat kell elküldenie az adófizetési számlával együtt:
+
+- Számla száma (ez az a szám, amelyet létrehoz) 
+
+- Channel-ösztönzők (CI) hivatkozási száma (a Microsoft által biztosított) 
+
+- Az ösztönző program neve
+
+- A partneri profilban szereplő jogi név és számlázási címek 
+
+- Bevétel összege
+
+- Adó összege
+
+Ha nem ismeri a Channel-ösztönzők (CI) hivatkozási számát, akkor a következő három helyen találhatja meg: 
+
+- A Microsoft által küldött e-mail-értesítés az ösztönző rendszergazdának szól. 
+
+- A [partner Center irányítópultja](https://partner.microsoft.com/dashboard/) (bejelentkezés szükséges) a **fizetős** lapon és a **függőben lévő** lapon.  
+
+- A fizetési jelentés, amely a [fizetési Letöltés exportálási oldalán](/partner-center/understand-incentive-payouts#payment-download-export)található. 
+
+#### <a name="if-your-submission-is-rejected"></a>Ha a rendszer elutasítja a beküldést
+
+A bejelentések elutasításának legvalószínűbb oka az, ha az adóból származó információk nem egyeznek meg a rekordok adataival. Többek között a hiányzó vagy helytelen adatmennyiség például a következők: 
+
+- A vállalati termékek és szolgáltatások adója (GST) száma
+
+- A harmonizált nómenklatúra (HSN HELYŐRZŐJE) és a Service Accounting Code-(SAC-) számok
+
+- Számlaszám (legfeljebb 16 számjegyből állhat)
+
+- Invoice Date (Számla dátuma)
+
+- Adó értéke (bezárólag és exkluzív)
+
+- Ha a vállalata a Microsofttal megegyező állapotban van, a központi termékek és a szolgáltatási adó (CGST) és az állami termékek és szolgáltatások adójának (SGST) adókulcsait kell összehangolni.
+
+- Ha a vállalata a Microsofttól eltérő állapotban van, meg kell adnia az integrált termékek és szolgáltatások adójának (IGST) százalékos arányát.
+
+A beadványok elutasítása akkor is elutasítható, ha a rendszer több mint 180 nappal az igénylést követően adta meg a számlát, ha a számla érvénytelen, vagy ha az adat helytelenül lett megadva.
+
 ### <a name="estimated-payment-month"></a>Becsült fizetési hónap
 
 A tranzakció előzményei lap már tartalmaz egy táblázatot, amely a következő néhány hónap becsült fizetési összegét jeleníti meg. Ezen információk megtekintését és letöltését is megtekintheti a tranzakció előzményeiben és az összegző jelentés exportálásban. Ez az információ megkönnyíti a megbékélést és a fizetési prognózist.
@@ -116,7 +171,7 @@ A becsült fizetési hónap jelenleg minden olyan típushoz elérhető, kivéve 
 
 #### <a name="estimated-payment-month-example"></a>Becsült fizetési hónap – példa
 
-| Hónap | Mennyiség |
+| Month (hónap) | Mennyiség |
 | ------ | :-----------: |
 |  Sep – 2020 |  $7 273,99   |
 |  Oct – 2020 | $8 692,30  |
@@ -284,7 +339,7 @@ A tranzakció összegzése jelentés az összesítő szintű tranzakció részle
 >[!NOTE]
 >A tranzakció-összefoglalás jelentés nem tartalmazza az ügyfél-és előfizetési adatokat a 60 napnál újabbnál újabb előfizetésekhez, vagy ha a fogyasztási bevétel kevesebb, mint egy%.
 
-|Oszlop neve |Description (Leírás) |
+|Oszlop neve |Leírás |
 |------ |:-----------|
 |  earningId | Az egyes keresések egyedi azonosítója  |
 |  participantId | A program keretében keresett partner elsődleges identitása  |

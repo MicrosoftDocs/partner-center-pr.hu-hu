@@ -9,14 +9,14 @@ author: isaiahwilliams
 ms.author: iswillia
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: fe0cb6ce028049ae8e9b911608d649d09f0d9217
-ms.sourcegitcommit: c65b9d2856a9f015f83850fcfc2dc40fd0f51b22
+ms.openlocfilehash: 9f60b6e2624bd4f9020181a936842bdb46db8aa9
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "92530162"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133048"
 ---
-# <a name="frequently-asked-questions-about-the-partner-security-requirements"></a>A partneri biztonsági követelményekkel kapcsolatos gyakori kérdések
+# <a name="common-questions-about-partner-security-requirements"></a>A partneri biztonsági követelményekkel kapcsolatos gyakori kérdések
 
 **A következőkre vonatkozik**
 
@@ -26,17 +26,16 @@ ms.locfileid: "92530162"
 
 - Az összes engedélyezett felhasználó, beleértve a vendég felhasználókat
 
-## <a name="partner-security-requirements"></a>Partneri biztonsági követelmények
 
-Ez a cikk néhány gyakori kérdést tartalmaz a [partneri biztonsági követelményekkel](partner-security-requirements.md)kapcsolatban.
+Ez a cikk a [partneri biztonsági követelményekkel](partner-security-requirements.md)kapcsolatos gyakori kérdésekre ad választ.
 
-### <a name="what-are-the-partner-security-requirements-and-why-should-partners-implement"></a>Mik a partneri biztonsági követelmények, és miért érdemes a partnereknek megvalósítani?
+### <a name="what-are-the-partner-security-requirements-and-why-should-partners-implement-them"></a>Mik a partneri biztonsági követelmények, és miért érdemes a partnereknek megvalósítani?
 
 A legfontosabb prioritások közé tartozik a nagyobb és folyamatos biztonsági és adatvédelmi védelem, és továbbra is segítjük a partnereknek az ügyfelek és a bérlők védelmét. Továbbra is kifinomultabb, egyre növekvő számú biztonsági támadás jelenik meg, amelyek elsődlegesen a személyazonossággal kapcsolatos veszélyekkel kapcsolatos incidensekkel kapcsolatosak. Mivel a megelőző szabályozások kulcsszerepet játszanak egy általános védelmi stratégiában a biztonsági támadások meghiúsítása érdekében, a 2019-es [kötelező biztonsági követelmények](partner-security-requirements.md) bevezetve. A Cloud Solution Provider (CSP) program, a Vezérlőpult-szállítók és az Advisors szolgáltatásban részt vevő összes partnernek meg kell valósítania a követelményeknek megfelelő megfelelőséget.
 
 ### <a name="what-are-the-key-timelines-and-milestones"></a>Mik a legfontosabb ütemtervek és mérföldkövek?
 
-Az ezekkel a biztonsági követelményekkel, köztük az ütemtervekkel és a mérföldkövekkal kapcsolatos feltételek a [Microsoft partneri szerződés](microsoft-partner-agreement.md) 2019-es részét képezik. Ezeket a biztonsági követelményeket a lehető leghamarabb végre kell hajtania, hogy megfeleljen a CSP programban való részvételnek.
+Az ezekhez a biztonsági követelményekhez társított feltételek, beleértve az időkereteket és a mérföldköveket is, a [Microsoft partneri szerződés](microsoft-partner-agreement.md)tartalmazza. Ezeket a biztonsági követelményeket a lehető leghamarabb végre kell hajtania, hogy megfeleljen a CSP programban való részvételnek.
 
 ### <a name="what-will-happen-if-i-dont-implement-these-partner-security-requirements"></a>Mi történik, ha nem implementálom ezeket a partneri biztonsági követelményeket?
 
@@ -46,11 +45,11 @@ Azok a partnerek, akik nem rendelkeznek ezekkel a biztonsági gyakorlattal, elve
 
 ### <a name="do-the-security-requirements-apply-to-all-geographies"></a>A biztonsági követelmények minden földrajzi régióra érvényesek?
 
-Igen, a biztonsági követelmények minden földrajzi régióra érvényesek. Azt javasoljuk, hogy minden partnernek, aki egy szuverén felhőn (21Vianet, USA-beli kormányzaton és Németországban) végez tranzakciót, azonnal alkalmazza ezeket az új biztonsági követelményeket. Ezek a partnerek azonban nem szükségesek az új biztonsági követelmények teljesítéséhez augusztus 1-től érvényesek. A Microsoft további részleteket biztosít a szuverén felhőkre vonatkozó biztonsági követelmények végrehajtásával kapcsolatban a jövőben.
+Igen, a biztonsági követelmények minden földrajzi régióra érvényesek. Azt javasoljuk, hogy minden olyan partner, amely egy szuverén felhőn (USA-beli kormányzaton és Németországon) keresztül végez tranzakciót, azonnal alkalmazza ezeket az új biztonsági követelményeket. Ezek a partnerek azonban jelenleg nem szükségesek a biztonsági követelmények teljesítéséhez. A Microsoft további részleteket biztosít a szuverén felhőkre vonatkozó biztonsági követelmények végrehajtásával kapcsolatban a jövőben.
 
 ### <a name="is-it-possible-to-get-an-exclusion-for-an-account"></a>Lehetséges a fiók kizárása?
 
-Nem, nem lehet kizárni a felhasználói fiókokat az MFA kényszerített követelményei alól. A partnerek magas jogosultsági szintű jellege miatt a Microsoft partneri szerződés megköveteli, hogy a többtényezős hitelesítés kényszerítve legyen a partner bérlője minden felhasználói fiókjára.
+Nem, a többtényezős hitelesítés (MFA) érvényesítésének követelménye alól nem zárható ki semmilyen felhasználói fiók. A partnerek magas jogosultsági szintű jellege miatt a Microsoft partneri szerződés megköveteli, hogy a többtényezős hitelesítés kényszerítve legyen a partner bérlője minden felhasználói fiókjára.
 
 ### <a name="how-do-i-know-if-i-have-met-the-partner-security-requirements"></a>Hogyan tudni, hogy teljesülnek-e a partneri biztonsági követelmények?
 
@@ -97,7 +96,7 @@ A CSP program összes partnere (a közvetlen számlázás, a közvetett szolgál
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-### <a name="what-is-multi-factor-authentication-mfa"></a>Mi az Multi-Factor Authentication (MFA)?
+### <a name="what-is-multi-factor-authentication-mfa"></a>Mi az a többtényezős hitelesítés (MFA)?
 
 Az MFA egy biztonsági mechanizmus, amely a több szükséges biztonsági és érvényesítési eljáráson keresztül hitelesíti a felhasználókat. Úgy működik, hogy a következő hitelesítési módszerek közül kettőt vagy többet igényel:
 
@@ -150,7 +149,7 @@ Az Azure AD biztonsági Alapértelmezések funkciójának engedélyezve kell len
 
 ### <a name="will-enabling-mfa-affect-how-i-interact-with-my-customers-tenant"></a>Az MFA engedélyezése befolyásolja az ügyfelek Bérlővel való együttműködését?
 
-Nem. Ezeknek a biztonsági követelményeknek a teljesítése nem befolyásolja az ügyfelek kezelésének módját. A delegált felügyeleti műveletek végrehajtásának lehetősége nem lesz megszakítva.
+Nincs. Ezeknek a biztonsági követelményeknek a teljesítése nem befolyásolja az ügyfelek kezelésének módját. A delegált felügyeleti műveletek végrehajtásának lehetősége nem lesz megszakítva.
 
 ### <a name="are-my-customers-subject-to-the-partner-security-requirements"></a>Az ügyfeleim a partneri biztonsági követelmények hatálya alá esnek?
 
@@ -308,7 +307,7 @@ A partneri biztonsági követelmények technikai kényszerítését a rendszer e
 
 A Azure Active Directory (Azure AD) "alapkonfiguráció [" házirendeket a rendszer eltávolítja, és lecseréli](/azure/active-directory/fundamentals/whats-new#replacement-of-baseline-policies-with-security-defaults) a "biztonsági alapértékek" kifejezésre, amely átfogóbb védelmi szabályzatokat biztosít Önnek és ügyfeleinek. A [biztonsági alapértelmezett beállításokkal](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) megvédheti szervezetét az identitás-lopással kapcsolatos biztonsági támadásokkal szemben.
 
-A többtényezős hitelesítés (MFA) implementációja törlődik az alapházirendek kivonása miatt, ha az alapszintű szabályzatok nem váltottak át a biztonsági alapértelmezett házirendre vagy [más MFA-megvalósítási lehetőségekre](partner-security-requirements.md#actions-that-you-need-to-take). A partner bérlői által az MFA által védett műveleteket végző felhasználókat a rendszer az MFA-ellenőrzés elvégzésére kéri. Tekintse át a részletes útmutatót [itt](partner-security-requirements-mandating-mfa.md).
+A többtényezős hitelesítés (MFA) implementációja törlődik az alapházirendek kivonása miatt, ha az alapszintű szabályzatok nem váltottak át a biztonsági alapértelmezett házirendre vagy [más MFA-megvalósítási lehetőségekre](partner-security-requirements.md#implementing-multi-factor-authentication). A partner bérlői által az MFA által védett műveleteket végző felhasználókat a rendszer az MFA-ellenőrzés elvégzésére kéri. Tekintse át a részletes útmutatót [itt](partner-security-requirements-mandating-mfa.md).
 A megfelelő működéshez és a fennakadások minimalizálásához végezze el az alábbi műveletek egyikét:
 
 - Váltás biztonsági alapértékekre

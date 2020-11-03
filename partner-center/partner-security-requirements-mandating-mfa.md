@@ -1,7 +1,7 @@
 ---
 title: MFA előírása a partner bérlője számára
 ms.topic: article
-ms.date: 05/26/2020
+ms.date: 10/26/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogyan biztosíthatja az ügyfelek erőforrásaihoz való hozzáférést a partneri bérlők számára az MFA meghatalmazása révén. Példákat tartalmaz.
@@ -9,12 +9,12 @@ author: isaiahwilliams
 ms.author: iswillia
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4a85a7e415eac7f54ccd52302e350ce20de9856d
-ms.sourcegitcommit: 0cea15df24a6a1b310535eb1cb5e167dc2248a95
+ms.openlocfilehash: 01122e81254a8e63f9bbf8d6bc3d3271accac74a
+ms.sourcegitcommit: 2847efac28d3bff24ed37cdfaa88ff4be06705c8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92530444"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680405"
 ---
 # <a name="mandating-multi-factor-authentication-mfa-for-your-partner-tenant"></a>A többtényezős hitelesítés (MFA) meghatalmazása a partner bérlője számára
 
@@ -43,9 +43,7 @@ A partnerek számára szükséges a többtényezős hitelesítés (MFA) betartat
 
 A legfontosabb prioritások közé tartozik a nagyobb és folyamatos biztonsági és adatvédelmi védelem, és továbbra is segítjük a partnereknek az ügyfelek és a bérlők védelmét. A Cloud Solution Provider (CSP) programban résztvevő összes partner, a Vezérlőpult-szállítók (CPVs) és a tanácsadók a megfelelő állapotba kell léptetni a [partneri biztonsági követelményeket](partner-security-requirements.md) .
 
-A Microsoft megkezdte a további biztonsági óvintézkedések aktiválását a partnerek bérlői számára. A biztonsági óvintézkedések aktiválása lehetővé teszi a partnerek számára, hogy a többtényezős hitelesítés (MFA) hitelesítésének megkövetelésével biztonságossá tehetik a bérlőket és ügyfeleiket a jogosulatlan hozzáférés megakadályozása érdekében.
-
-Sikeresen elvégezte az aktiválást a partner által delegált felügyeleti képességekhez az összes partner bérlőhöz. Ha további segítségre van szükség a partnereknek és az ügyfeleknek a 2020. május 1-től való védelméhez, megkezdjük a partner Center-tranzakciók aktiválását a CSP-ben, így a partnerek megvédik a vállalatokat és az ügyfeleket az identitás-lopással kapcsolatos incidensekkel
+Annak érdekében, hogy a partnerek megvédik a vállalatokat és az ügyfeleket az identitás-lopással kapcsolatos incidensekkel, aktiváljuk a további biztonsági óvintézkedéseket a partneri bérlők számára, amelyekkel a partnerek a jogosulatlan hozzáférés megakadályozása érdekében a többtényezős hitelesítés (MFA) ellenőrzésével biztosíthatják a partnereknek a bérlők és az ügyfelek védelmét. 
 
 Ez a dokumentáció a partnerek számára biztosít részletes tapasztalatokat és útmutatást a biztonsági óvintézkedések aktiválásával kapcsolatban.
 

@@ -1,19 +1,19 @@
 ---
 title: Kifizetéssel és bevételekkel kapcsolatos problémák elhárítása
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 10/30/2020
 description: Megtudhatja, Hogyan oldhatók meg olyan problémák, mint például a hiányzó vagy helytelen keresetek, a jogosultsági problémák és az ösztönző jövedelmek egyeztetése.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 02d6aaf05abfed993d7fcb24f74b5303417b7636
-ms.sourcegitcommit: b91119c587d37b4ed36dda00c2b0b1946beb3012
+ms.openlocfilehash: e3a8890127ce9ff73fd09b7a35d4e167b5629f45
+ms.sourcegitcommit: 7f595faf952bf2d6cdc229da38bd67ee701b2083
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "92528378"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93189764"
 ---
 # <a name="troubleshooting-missing-payments-incorrect-earnings-and-other-issues"></a>Hiányzó kifizetések, helytelen bevételek és egyéb problémák elhárítása
 
@@ -98,55 +98,61 @@ A hiányzó vagy helytelen bevételeket az alábbi problémák okozhatják:
 
 - **Lehetséges, hogy Ön nem felel meg a feltételeknek.**  Ellenőrizze, hogy Ön megfelel-e a keresett ösztönzőre vonatkozó [jogosultságnak](#my-payment-is-missing-or-incorrect) és jogosult bevételi szabályoknak.
 
-- **Eltérés is előfordulhat.**  Ha megfelel a partneri jogosultságoknak és a jogosult bevételi szabályoknak, és továbbra is téves eredmény jelenik meg, akkor az alábbi információk segíthetnek az adatok lekérésében.
- 
-A bevételeket a partneri központban a **tranzakció előzményei** vagy a **fizetések** segítségével tekintheti meg. ehhez kattintson a partner Center navigációs sávjának **kifizetési** ikonjára. 
+- **Eltérés is előfordulhat.**  Ha megfelel a [program támogathatóságának](incentives-determined-your-program-eligibility.md) és a [keresetek támogathatósági](incentives-confirm-your-earnings-eligibility.md) követelményeinek, és a keresetek továbbra is helytelenek, a következő információk segíthetnek az adatok lekérésében.
+
+A bevétel a **tranzakció előzményei** lapon és a **fizetési** oldalon is megjelenik. Mindkét oldalt elérheti a partner Center navigációs sávján a **kifizetési** ikon kiválasztásával.
 
 :::image type="content" source="images/incentives/paymenticon.png" alt-text="Tranzakciós adatok":::
 
 Előfordulhat, hogy a tranzakciós előzmények nézetben a havi jövedelemszerzési összegek nem illeszkednek az adott hónapra kapott fizetési összeghez. Ennek oka az, hogy a későbbi befizetésekre alkalmazott korábbi jövedelemszerzési időszakok újraszámítása és módosítása történik.
 
 Például a 2019 szeptemberében feldolgozott januári 2019-as előállítások esetében a szeptember 2019-ra vonatkozó bevételi összeg nem jelenik meg. Ha azonban a szeptember 2019-es fizetési díj érkezik, az tartalmazza a szeptemberben alkalmazott januári 2019-os módosítást.
+
 Ebben a forgatókönyvben le kell töltenie a tranzakció részleteit, hogy teljes képet kapjon a fizetésben szereplő összes bevételről.  Emellett az egyes fizetésekhez tartozó tranzakciók letöltéséhez is megnyithatja a fizetési nézetet.
 
 ### <a name="transaction-history"></a>Tranzakciók előzményei
 
-Ez a nézet lehetővé teszi, hogy a havi, a bevételi és a tranzakciós adatokat, valamint az egyes tranzakciók fizetési állapotát is megtekintse. Az adat csak a programok és az MPN-AZONOSÍTÓk számára látható, amelyekhez ösztönző felhasználói vagy rendszergazdai szerepkör van hozzárendelve.
+Ez a nézet a havi, a bevételi állapot és a tranzakciók részleteit, valamint az egyes tranzakciók fizetési állapotát mutatja. Az adatértékek csak azokhoz a programokhoz és MPN-azonosítóhoz vannak láthatók, amelyekhez ösztönző felhasználó vagy rendszergazda.
 
 ### <a name="payments"></a>Kifizetések
 
-Ez a nézet lehetővé teszi, hogy megtekintse az összes program és az MPN-azonosító kifizetéseit. Az adat csak a programok és az MPN-AZONOSÍTÓk számára látható, amelyekhez ösztönző felhasználói vagy rendszergazdai szerepkör van hozzárendelve. Ebben a nézetben letöltheti az átutalás információit vagy megtekintheti a tranzakciók részleteit kifizetések szerint. 
+Ez a nézet lehetővé teszi, hogy megtekintse az összes program és MPN-azonosító kifizetéseit. Az adatértékek csak azokhoz a programokhoz és MPN-azonosítóhoz vannak láthatók, amelyekhez ösztönző felhasználó vagy rendszergazda. Ebből a nézetből letöltheti az átutalást, vagy megtekintheti a tranzakció részleteit fizetés alapján.
 
-Görgessen le a **kifizetések listájához** , és a fizetési adatokat soronként tekintheti meg, amely tartalmazza a beszerzések és a fizetési összegeket a helyi pénznemben. Az átutalási levél letöltéséhez kattintson a **fizetési átutalás** elemre. Kattintson a **nézet** gombra egy új lap megnyitásához, és tekintse meg az adott fizetés tranzakciós szintjének részleteit. 
-
-A tranzakció részleteinek Excelbe való exportálásához kattintson a **Letöltés indítása** lehetőségre, majd az **adatok exportálása** elemre. Megjegyzés: minden kiválasztott szűrő az exportált adatértékekre lesz alkalmazva. Ha az állapot Befejezettre változott, kattintson a letöltés gombra, és kövesse az utasításokat a részletes tranzakciók jelentés exportálásához. Frissítse az oldalt, ha az állapota öt percen belül nem frissül. 
+| Cél | Leírás |
+| ------ | :----------- | 
+| Megtekintheti a fizetési adatokat soronként, beleértve a jövedelemszerzési és fizetési összegeket a helyi pénznemben  | Tekintse meg a **fizetések listája** mezőt   |
+| Átutalási levél letöltése   |  **Fizetési átutalás** kiválasztása  |
+| Adott fizetés tranzakciós szintjének adatainak megtekintése |  **Nézet** kiválasztása  |
+| Tranzakció részleteinek exportálása Excelbe  |  Válassza a **Letöltés indítása** lehetőséget, majd kattintson **Az adatexportálás** elemre. Vegye figyelembe, hogy az összes kiválasztott szűrő az exportált értékekre lesz alkalmazva. Ha az állapot Befejezettre változott, válassza a **Letöltés** lehetőséget, és kövesse az utasításokat a részletes tranzakciók jelentés exportálásához. Frissítse az oldalt, ha az állapota öt percen belül nem frissül.  |
 
 ### <a name="missing-or-incorrect-earnings-and-payments"></a>Hiányzó vagy helytelen bevétel és fizetés
 
-Ha nem talál fizetési vagy tranzakciós adatokat, ellenőrizze, hogy a megfelelő szűrők alkalmazása megtörtént-e. Egyes programnév-nevek módosultak, ami több kiválasztást igényelhet (például CSP 1T Direct partner, CSP közvetlen számlázási partner).
+Ha nem talál fizetési vagy tranzakciós adatokat, ellenőrizze, hogy alkalmazta-e a megfelelő szűrőket. Vegye figyelembe, hogy mivel egyes programnév-nevek módosultak (például a CSP közvetlen 1T-partnere most CSP Direct Bill partner), lehet, hogy több kijelölést kell használnia.
 
-Ha ezek a műveletek nem segítenek, és még mindig nem találja a bevételt, vagy ha még mindig úgy gondolja, hogy a kereset helytelen, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
+Ha továbbra sem találja a bevételeit, vagy nem biztos benne, hogy a kimutatott bevétel helytelen, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
 
 ## <a name="how-do-i-reconcile-my-earnings"></a>Hogyan összeegyeztetni a saját bevételeit?
 
 Ha eltérés van a bevételekben, hajtsa végre az alábbi lépéseket:
 
-1. **Ellenőrizze, hogy jogosult-e a bevételekre.**  A bevételek csak akkor lesznek elérhetők, ha teljesülnek a megfelelő szervezeti jogosultsági követelmények, ami azt jelenti, hogy Ön a programhoz tartozó jövedelemszerzési időszakban regisztrálva van.
+1. **Ellenőrizze, hogy jogosult-e a bevételekre.**  A keresetek csak akkor lesznek elérhetők, ha megfelel a [program támogathatóságának](incentives-determined-your-program-eligibility.md) és a [keresetek támogathatóságának](incentives-confirm-your-earnings-eligibility.md).
 
 2. **Ellenőrizze, hogy a kifizetési profil teljesen ki van-e töltve.**  Az ösztönző bevételeinek kezdő dátuma annak a hónapnak az első napja, amely során Ön az összes jogosultsági követelményt teljesítette, a kifizetési és adóadatok megadását is ideértve. A bevételek a kifizetési és adóadatok megadását megelőző hónapokban nem lesznek elérhetők. Például, ha 2020 április hónapjában teljesíti az összes követelményt, a bevételek kezdő dátuma 2020. április 1-je lesz. 
 
-3. **Ellenőrizze, hogy Ön megfelel-e az összes feltételnek.**  Ellenőrizze, hogy Ön megfelel-e a keresett ösztönzőre vonatkozó [jogosultságnak](#my-payment-is-missing-or-incorrect) és jogosult bevételi szabályoknak.
+3. **Ellenőrizze, hogy Ön megfelel-e az összes feltételnek.**  Ellenőrizze, hogy teljesült-e az ösztönző programra vonatkozó [jogosultsági](#my-payment-is-missing-or-incorrect) és jogosult bevételi szabályok.
 
-Ha ezek a műveletek nem segítenek, és a bevételek továbbra sincsenek egyeztetve, vegye fel a kapcsolatot az [ügyfélszolgálattal](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
+Ha ezek a műveletek nem segítenek, és a bevételeit még nem egyeztetik, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
 
 ## <a name="where-can-i-find-my-rates"></a>Hol találom az árfolyamaimat?
 
 1. Jelentkezzen be a [partneri ösztönzőkbe](https://partner.microsoft.com/membership/partner-incentives).
 
-2. Görgessen le az érdekelt program dokumentumaihoz, és kattintson a megfelelő program dokumentum hivatkozására.
+2. Görgessen le a program dokumentumaihoz való hozzáféréshez.
 
-3. A dokumentumban tekintse meg a **program szerkezete és díjszabása** szakaszt.
+3. Válassza ki a megfelelő programhoz tartozó dokumentum hivatkozását.
+
+4. A dokumentumban tekintse meg a **program szerkezete és díjszabása** szakaszt.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Együttes op-jogcímek kezelése](incentives-managing-co-op-claims.md)
+- [Együttműködési jogcímek kezelése](incentives-managing-co-op-claims.md)

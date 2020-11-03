@@ -8,13 +8,13 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.date: 04/27/2020
-ms.openlocfilehash: c5b07e353ebbeeb53de3d90abf229a8ce79ade8f
-ms.sourcegitcommit: c40f826bb1143555bf3a1c2c806c34024f0f6019
+ms.date: 10/09/2020
+ms.openlocfilehash: 98c9cdd96af037e8543828e3a6f2e93c5b0fcbcd
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "92528298"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795772"
 ---
 # <a name="requirements-to-enroll-as-a-csp-direct-bill-partner"></a>A közvetlen számlázású CSP-partnerként való regisztráció követelményei
 
@@ -32,9 +32,10 @@ Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal a
 |--------------------------------|--------------------------------------------------------------|
 |**MPN-azonosító**   |Aktív Microsoft Partner Network-(MPN-) azonosító a vállalati helyhez.    |
 |**Ajánlás**   |A jogi szerződések elfogadására és aláírására szolgáló hatóság a szervezet nevében.|
+|**Bevétel**|Január 2021 a közvetlen számlás partnerként regisztrált partnereknek legalább USD $300K kell megadniuk a Cloud Solution Provider program bevételeiből a partner globális fiók szintjén az előző 12 hónapban.| 
 |**Támogatás**   |A felhőalapú terméktámogatás első szintjének megadásának lehetősége az ügyfelek számára. <br/>Egy Microsoft támogatási csomag, amely a partnerek (ASfP) vagy a Premier szintű támogatás for Partners (PSfP) speciális támogatása az igényeitől függően. A [támogatási csomagok összehasonlítása](https://partner.microsoft.com/support/partnersupport).<br/> Fontos: a támogatási csomag megvásárlása előtt meg kell adnia egy kredit-ellenőrzési eszközt. A kredit-ellenőrzés átadásakor e-mailt küldünk Önnek. |
 |**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfél-megoldás alkalmazás. További információ a [felügyelt szolgáltatások](https://partner.microsoft.com/business-opportunities/managed-services-provider)hozzáadásáról.|
-|**Kinnlevőségek** |Az ügyfél számlázásának és kiépítésének kezelésére szolgáló szervezeti infrastruktúra.
+|**Kinnlevőségek** |Az ügyfél számlázásának és kiépítésének kezelésére szolgáló szervezeti infrastruktúra.|
 
 ### <a name="verify-direct-bill-eligibility"></a>Közvetlen számlázási jogosultság ellenőrzése
 

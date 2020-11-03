@@ -9,21 +9,25 @@ author: aarzh-AaronZhang
 ms.author: v-aarzh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e9ffa6ef8145099a90fde16e4ce8d6a3453973e0
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: e3cd791f5f9f781980d73c79f0ec18627585372a
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530073"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795865"
 ---
 # <a name="transition-from-cloud-solution-provider-csp-direct-bill-partner-to-csp-indirect-reseller"></a>Váltás egy közvetlen felhőszolgáltatói (Cloud Solution Provider, CSP-) számlázási partnerről egy közvetett CSP-viszonteladóra
 
 **A következőkre vonatkozik:**
+- Partnerközpont
 
-- CSP-partnerek
+**Megfelelő szerepkörök**
+
+- Minden CSP közvetlen számlázási partner
 
 >[!Note]
 >Ez a cikk olyan közvetlen számlázási partnerek számára készült, akik úgy döntöttek, hogy áttérnek a közvetett viszonteladók felé. Ha azonban még nem hozott létre explicit döntést a közvetett viszonteladóként való regisztráláshoz, akkor a Microsoft tájékoztatja a közvetlen számlázást a CSP közvetlen számlázási partneri programjára vonatkozó új [követelmények](direct-partner-new-requirements.md) teljesítéséről, ha a [közvetlen számlázási funkciói korlátozottak](restricted-direct-bill-capabilities.md)lesznek.
+<br>Január 2021-én új bevételi követelmény lesz hozzáadva. A közvetlen számlás partnerként regisztrált partnereknek a felhőalapú megoldás-szolgáltatói program bevételeinek legalább USD $300K kell visszaadniuk az előző 12 hónap során a partner globális fiók szintjén.
 
 A meglévő közvetlen számlázási bérlő használatával regisztrálhat a közvetett viszonteladói programba.
 
@@ -357,7 +361,7 @@ Miután sikeresen regisztrálta magát közvetett viszonteladóként a meglévő
 
 Jogosult arra is, hogy a közvetlen számlázási ösztönző programokat is regisztrálja ugyanazzal a partner Bérlővel. A programokat külön kell kezelnie.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [További információ a közvetett viszonteladók kiválásáról](https://assetsprod.microsoft.com/csp-directbill-to-indirect-transition.pdf)
 - [CSP közvetlen partner új követelmények](direct-partner-new-requirements.md)

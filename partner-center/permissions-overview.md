@@ -1,7 +1,7 @@
 ---
 title: Szerepkörök & jogosultságok kiosztása a felhasználók számára
 ms.topic: article
-ms.date: 09/04/2020
+ms.date: 10/30/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogy mely szerepkörök a legmegfelelőbbek a vállalat azon felhasználói számára, akik kereskedelmi tranzakciókat, hivatkozásokat, ösztönzőket vagy MPN-tagságokat kezelnek a partner Centerben.
@@ -9,12 +9,12 @@ author: hemas
 ms.author: hemas
 ms.localizationpriority: high
 ms.custom: SEOMAY.20, contperfq1
-ms.openlocfilehash: 32df86887ccbea5d18d1bd8c7c34add2b1ab60e4
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: 6707ede563d07b6b96d2133bd75f8fbd53531875
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530259"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133031"
 ---
 # <a name="assign-users-roles-and-permissions-for-a-companys-users-needing-to-work-in-partner-center"></a>Felhasználói szerepkörök és engedélyek kiosztása a vállalat felhasználói számára, akik a partner Centerben szeretnének dolgozni
 
@@ -52,7 +52,7 @@ Beállította a partneri profilt, beleértve a jogi nevet és a címeket, a tám
 ||* Támogatási jegyek létrehozása a partner központhoz
 ||* A létrehozott partneri támogatási jegyek megtekintése
 |Alapértelmezett felhasználó|  Saját profil megtekintése   |[Új jelszó kérése](reset-my-pasword.md)
-|Felügyeleti ügynök | * Ügyfél-felügyelet|[Kapcsolódjon ügyfeleivel](connect-with-your-customers.md)
+|Felügyeleti ügynök | * Ügyfél-felügyelet|[Az ügyfélkapcsolatok szorosabbra fűzése](connect-with-your-customers.md)
 ||* Eszközök listájának hozzáadása a partner központhoz
 ||* Profilok létrehozása és alkalmazása eszközökre
 ||* Előfizetés-kezelés
@@ -97,8 +97,6 @@ A CPVs a Cloud Solution Provider (CSP) partnerei által használható alkalmazá
 |**Vendég felhasználó**   | **Szerepkörök**|
 |---------------------------|:--------------------|
 ||MPN-partner rendszergazdája|
-||Fiókok rendszergazdája|
-||Ösztönzők rendszergazdája|
 ||Üzleti profil rendszergazdája|
 ||Ajánlói rendszergazda|
 
@@ -122,7 +120,7 @@ Ezek a szerepkörök nem Azure Active Directory szerepkörök. Ezek a szerepkör
 ||* Más felhasználói szerepkörök megtekintése a vállalaton belül, de nem rendelhet hozzá szerepköröket
 ||* Támogatási jegyek létrehozása a partner központhoz
 ||* A létrehozott partneri támogatási jegyek megtekintése
-|Fiókadminisztrátor| Webhelyek hozzáadása|[Telephelyek kezelése](manage-locations.md)
+|Fiókadminisztrátor| Webhelyek hozzáadása|[Helyek kezelése](manage-locations.md)
 || A rendszergazda által használt fiókokhoz kapcsolódó profilok kezelése 
 ||* Szerepkörök kiosztása a bérlő felhasználói számára nem Azure-Active-Directory-szerepkörökhöz 
 ||* Webhelyek beléptetése programokba

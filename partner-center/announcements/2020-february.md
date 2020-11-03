@@ -1,5 +1,5 @@
 ---
-title: Február 2020 közlemények
+title: 2020. februári közlemények
 description: Február 2020 közlemények a Microsoft partner Centerben, például új funkciók, promóciók, ajánlatok, piacok vagy a meglévő ajánlatok változásai.
 ms.topic: article
 ms.service: partner-dashboard
@@ -9,14 +9,14 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 02/01/2020
-ms.openlocfilehash: 4023c4a6b0bae4bb77655aed568ec22b81862884
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: 7e608752b76c940e83434d7ec7daf3e4058512bd
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530354"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132844"
 ---
-# <a name="february-2020-announcements"></a>Február 2020 közlemények
+# <a name="february-2020-announcements"></a>2020. februári közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft partner Center CSP közleményeit a 2020 februárjában.
 
@@ -175,7 +175,7 @@ A rendszer azt jelzi, hogy a szervezet jelenleg alapszintű házirendeket haszn�
 
 ### <a name="key-considerations"></a>Fő szempontok
 
-A biztonsági alapértelmezett beállítások házirend az a [lehetőség](../partner-security-requirements.md#actions-that-you-need-to-take) , hogy a partnerek az üzleti igényektől függően az MFA-t a biztonsági követelmények alapján implementálják. Alapszintű biztonsági szintet biztosít, külön díj nélkül. Tekintse át, [hogyan engedélyezheti a szervezete számára az MFA-t az Azure ad-vel](/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started) , valamint az alábbi legfontosabb szempontokat:
+A biztonsági alapértelmezett beállítások házirend az a [lehetőség](../partner-security-requirements.md#implementing-multi-factor-authentication) , hogy a partnerek az üzleti igényektől függően az MFA-t a biztonsági követelmények alapján implementálják. Alapszintű biztonsági szintet biztosít, külön díj nélkül. Tekintse át, [hogyan engedélyezheti a szervezete számára az MFA-t az Azure ad-vel](/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started) , valamint az alábbi legfontosabb szempontokat:
 
 - A [feltételes hozzáférést](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)használó partnereink esetében a biztonsági alapértékek nem lesznek elérhetők.
 - A biztonsági alapértelmezett beállítások az összes szabályzatot egyszerre érvényesítik, beleértve a szükséges MFA-t a rendszergazdák számára, a végfelhasználói védelmi szabályzatot és a szükséges MFA-t a szolgáltatások kezeléséhez.

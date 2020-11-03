@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 07/10/2020
-ms.openlocfilehash: 9a44adc0f4150f4cbb21c4b0e332c4958559443f
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: ff697bec18c59957d8be7d5ec8ad09edb364b6bb
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530343"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795798"
 ---
 # <a name="march-2020-announcements"></a>Március 2020 közlemények
 
@@ -317,7 +317,7 @@ Tekintse meg a "Dynamics CSP ajánlat frissítései – Mar [2020" nevű](https:
 
 - [A Dynamics 365 honlapja](https://dynamics.microsoft.com/)
 - [Vegyes Reality apps-útmutató kezdőlapja](https://dynamics.microsoft.com/mixed-reality/guides/)
-- [Biz apps – csalások kezdőlapja](https://mbs.microsoft.com/partnersource/global/pricing-ordering/licensing-policies/Dyn365PricingandLicensing//docs.microsoft.com/dynamics365/fraud-protection/overview)
+- [Biz apps – csalások kezdőlapja](/dynamics365/fraud-protection/overview)
 - [FY20 PowerApps és a flow licencelési frissítései](https://mbs.microsoft.com/partnersource/global/pricing-ordering/licensing-policies/Dyn365PricingandLicensing)
 - [Microsoft Dynamics 365 licencelés](https://mbs.microsoft.com/partnersource/northamerica/pricing-ordering/licensing-policies/Dyn365BusinessCentralPricingLicensing)
 - [Dynamics 365 és Power platform – rendelkezésre állás, az adatelérési hely, a nyelv és a honosítási tartalom](https://partner.microsoft.com/resources/collection/Microsoft-Dynamics-365-product-releases-for-November-and-December-2019#/)

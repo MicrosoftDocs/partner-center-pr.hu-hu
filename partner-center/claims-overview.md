@@ -1,7 +1,7 @@
 ---
 title: Ösztönzők a Co-op és a jogcímek áttekintéséhez
 ms.topic: article
-ms.date: 09/18/2020
+ms.date: 10/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 description: Megtudhatja, hogyan küldhet be az ösztönzőkhöz sikeres Co-op-jogcímeket a megfelelő dokumentáció, számlák, utasítások és végrehajtás igazolásának megszervezésével.
@@ -9,12 +9,12 @@ author: kaushikgMSFT
 ms.author: kaushikg
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: a79ca29d3bf097d9248c596d54d21ea4222a62ab
-ms.sourcegitcommit: 561db5fabdebcd369f456007e5061f15d4ab781d
+ms.openlocfilehash: a415c62619a486361168adb07d0d2e2cb94c5cf1
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528462"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133082"
 ---
 # <a name="earn-cooperative-marketing-funds"></a>Kooperatív marketing-alapok beszerzése
 
@@ -41,6 +41,9 @@ További információt a [Co-op-alapok erőforrásairól](https://partner.micros
 A Microsoft kiszámítja a jogosult ösztönző jövedelmet a felosztott százalékos arány (például 60%-os kedvezmény – 40% Co-op) használatával. Az engedményt az egyéni program meglévő kilépési lépésszám használatával kapja meg, a Microsoft pedig az ösztönző jövedelmek együttes op részét fogja felvenni.
 
 A kifizethető lépésszám és a felosztott százalékos arány az ösztönző program útmutatójában olvasható. [Ez az eljárás](incentives-determined-your-program-eligibility.md) használható a programhoz tartozó útmutató eléréséhez.
+
+>[!NOTE]
+>Ha a Co-op-keresetek a Co-op jövedelemszerzési időszakban a küszöbérték alatt vannak, a Co-op-bevétel a félév végén lévő visszatérítésre lesz konvertálva. További részletekért vagy a küszöbérték meghatározásához tekintse meg az ösztönző program útmutatóját.
 
 ## <a name="when-to-claim-your-funds"></a>Mikor kell igényelni a forrásokat
 
@@ -75,4 +78,4 @@ A következő források segítséget nyújtanak a Co-op jogcímek használatána
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

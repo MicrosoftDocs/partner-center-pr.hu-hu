@@ -6,12 +6,12 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.custom: seodec18
 ms.date: 06/12/2020
-ms.openlocfilehash: d38c11e564d6776a5755f8df40ba6ad2dca27d12
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 26912daeae6648d49d1fda3ee148d46c8a3d6705
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530522"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795831"
 ---
 # <a name="merge-your-partner-account-with-another-partner-account"></a>A partnerfiók egyesítése másik partnerfiókkal
 
@@ -89,7 +89,27 @@ Ha úgy dönt, hogy elfogadja a meghívót a fiókok egyesítéséhez: · Az MPN
 3. Adja hozzá az MPN-azonosítót annak a fióknak a **partner profiljában** , amelyet meg szeretne hívni az egyesítéshez. A partner globális MPN-AZONOSÍTÓját kell használnia. A Location MPN-azonosító nem használható.
 
 4. Ha az **Egyesítés** lehetőséget választja, a rendszer meghívót küld a partner cégnek. Ha elfogadja a kérést, elindíthatja a fiók egyesítését a partner centeren belül. Ha a vállalat elutasítja a fiókok egyesítésére vonatkozó kérelmét, megtudhatja, miért utasította el a kérést. Az **egyesítési előzmények** listájában az összes fiók egyesítése elérhető.
+ 
+### <a name="example-of-two-companies-merging-accounts"></a>Példa két vállalat fiókjainak egyesítésére
 
+1. A contoso 
+
+    a. az [1111111-es globális MPN-azonosító](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) és a 2222222-es ALÁRENDELT [hely MPN](https://partner.microsoft.com/pcv/accountsettings/locationsprofile)-azonosítója.
+  
+    b. egy Azure AD-bérlő = @contoso.com
+ 
+    c. a Gold kompetencia, amely a 2020-as október 1-től lejár
+2. A fabricam
+ 
+    a.  az 3333333-es globális MPN-azonosító és a 4444444-es és 5555555-as két alárendelt hely MPN-azonosítói
+
+    b.  egy HRE-bérlő = @fabricam.com
+
+    c.  két arany-kompetencia, amely december 1-től 2020-ig lejár
+3.  [A contoso](https://partner.microsoft.com/dashboard/account/merger) megvásárolja a fabricam, és elindít egy egyesítési kérést
+4.  A fabricam bejelentkezik a partneri központba, és ugyanarra a lapra kerül, mint a contoso a #3 lépésben a contoso kérelmének jóváhagyására.
+5.  A contoso megtekinti az ugyanazon az oldalon lévő egyesítés részleteit, és megerősítést nyújt a fiók egyesítésének folytatásához.
+    
 ## <a name="next-steps"></a>Következő lépések
 
 - [Felhasználói szerepkörök és engedélyek hozzárendelése](permissions-overview.md)

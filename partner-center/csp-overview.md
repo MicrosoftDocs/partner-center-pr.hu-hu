@@ -1,7 +1,7 @@
 ---
 title: A Cloud Solution Provider program áttekintése
 ms.topic: article
-ms.date: 05/05/2020
+ms.date: 10/28/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: További információk a Cloud Solution Provider (CSP) programban elérhető előnyökről és modellekről az üzleti növekedéshez új ügyfelekkel és új szaktudással.
@@ -9,19 +9,19 @@ author: billlinzbach
 ms.author: billLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e1f85f670de583052807c9ff2edfa84a50bd7daf
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: 9780fe0b90a4889fca1f3a887c445a75b1549eaa
+ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530624"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917195"
 ---
 # <a name="cloud-solution-provider-program"></a>Cloud Solution Provider program 
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
-- Partnerek a CSP programban
+
 
 Ez a cikk áttekintést nyújt a Cloud Solution Provider (CSP) programról, valamint ismerteti a különböző működési modelleket és azok követelményeit, valamint a programon keresztül történő értékesítés további részleteit.  A CSP program segít abban, hogy jobban részt vegyen az ügyfelek üzleti tevékenységében, a licencek viszonteladása után is, és az alábbi előnyökkel jár: 
 
@@ -41,6 +41,10 @@ Ez a cikk áttekintést nyújt a Cloud Solution Provider (CSP) programról, vala
 Támogatás
 
 - A támogatási képességek kibővítéséhez vásároljon egy-egy, rangsorolt Felhőbeli támogatást a Microsoft fejlett támogatási szolgálatával a partnerek csomagjához. Vagy válasszon egy Microsoft-Premier szintű támogatás a partnerek számára csomaggal a proaktív szolgáltatások teljes katalógusának eléréséhez, 24/7 emelt szintű break/fix támogatás és technikai Fiókkezelés a felhő, a hibrid és a helyszíni eszközök között.
+
+Bevétel
+
+- Meg kell felelnie legalább USD300K a Cloud Solution Provider programban az előző tizenkét hónapban közvetett viszonteladóként végzett éves bevételnek. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partneri központban. a USD300K-t követő tizenkét hónapos bevételt követő értékesítések a Microsoft általi felülvizsgálat és ellenőrzés alá esnek, és további információkat is kérhetnek. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.
 
 Szolgáltatások
 
@@ -70,7 +74,7 @@ A [Microsoft Cloud Services](https://partner.microsoft.com/cloud-solution-provid
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Regisztrálás a CSP programban](enrolling-in-the-csp-program.md)
+- [Regisztráció a felhőszolgáltatói programba](enrolling-in-the-csp-program.md)
 - [Az egyes CSP-modellekre vonatkozó követelmények áttekintése](https://partnercenter.microsoft.com/partner/cloud-solution-provider)|
 - [Alkalmazás az értékesítésre a Microsoft országos felhőkben](csp-national-clouds-overview.md)
 - [Microsoft Customer-szerződések régiónként és nyelven](agreements.md)

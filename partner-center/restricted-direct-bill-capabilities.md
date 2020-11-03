@@ -1,7 +1,7 @@
 ---
 title: Korlátozott közvetlen számlázási képességek
 ms.topic: article
-ms.date: 06/05/2020
+ms.date: 10/09/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a CSP Direct Bill partneri követelményeket és a teendőket a korlátozott lehetőségek elkerüléséhez. Annak megállapítása, hogy a képességei korlátozottak-e.
@@ -9,12 +9,12 @@ author: billLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 46506548ec1848c983bfeabf44be74018e80be5e
-ms.sourcegitcommit: e1c8bea4aaf807aebe99c125cb1fb6dc8fdfa210
+ms.openlocfilehash: 7ee6f4fdb537752cccbceb68716ed22bb8c5fb3a
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "92528049"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795770"
 ---
 # <a name="restricted-direct-bill-capabilities-and-the-requirements-needed-for-csp-direct-bill-partners"></a>Korlátozott közvetlen számlázási képességek és a CSP közvetlen számlázási partnerekhez szükséges követelmények  
 
@@ -51,7 +51,7 @@ Ha a közvetlen számla funkciói korlátozottak voltak, már nem lehet új vás
 
 A CSP program keretében nem használhatja az [Azure partner megosztott szolgáltatások ajánlatát](shared-services.md) is, hogy új Azure-előfizetéseket vásároljon saját használatra.
 
-A meglévő közvetlen számlázási előfizetéseket a rendszer nem érinti. Érvényesek maradnak, és önmagukban is megújítják őket. Továbbra is közvetlenül a Microsoft által számlázunk, amíg meg nem szakítják őket. A meglévő előfizetéseket továbbra is a következő módokon kezelheti:
+A meglévő közvetlen számlázási előfizetéseket a rendszer nem érinti. Érvényesek maradnak, és automatikusan megújulnak. Továbbra is közvetlenül a Microsoft által számlázunk, amíg meg nem szakítják őket. A meglévő előfizetéseket továbbra is a következő módokon kezelheti:
 
 - Meglévő előfizetések felfüggesztése
 

@@ -1,7 +1,7 @@
 ---
 title: Partneri biztonsági követelmények
 ms.topic: article
-ms.date: 10/05/2020
+ms.date: 10/26/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Bevezeti a többtényezős hitelesítés (MFA) engedélyezéséhez szükséges partneri követelményeket, és elfogadja a biztonságos alkalmazás modelljének keretrendszerét.
@@ -9,12 +9,12 @@ author: vijvala
 ms.author: vijvala
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 361a36adf40af67769a9a24ba1c485f2ad95b98c
-ms.sourcegitcommit: 8a4a3de728532533276a88b1fd40c82b7a4ebb15
+ms.openlocfilehash: c92e8c9a9a08582d89ef478a4600f737a548b787
+ms.sourcegitcommit: 2847efac28d3bff24ed37cdfaa88ff4be06705c8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "92530217"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680386"
 ---
 # <a name="partner-security-requirements-for-partners-using-partner-center-or-partner-center-apis"></a>Partneri biztonsági követelmények a partner Center vagy a partner Center API-kat használó partnereknek
 
@@ -58,7 +58,7 @@ A partneri biztonsági követelményeknek való megfelelés érdekében a többt
 
 - Prémium szintű Azure Active Directory megvásárlása minden felhasználói fiókhoz. További információ: [felhőalapú Azure multi-Factor Authentication-telepítés tervezése](/azure/active-directory/authentication/howto-mfa-getstarted).
 
-- Harmadik féltől származó megoldás használata a többtényezős hitelesítés kikényszeríthető a partner bérlője minden felhasználói fiókjához. Annak biztosítása érdekében, hogy a megoldás megadja a várt megoldást, tekintse meg [a biztonsági követelmények betartatásának módját](#how-the-requirements-will-be-enforced).
+- Harmadik féltől származó megoldás használata a többtényezős hitelesítés kikényszeríthető a partner bérlője minden felhasználói fiókjához. Annak biztosítása érdekében, hogy a megoldás megadja a várt megoldást, tekintse meg [a biztonsági követelmények betartatásának módját](#how-the-requirements-are-enforced).
 
 > [!NOTE]
 > Bár a többtényezős hitelesítés nem kötelező a szuverén felhő (21Vianet, USA kormánya és Németország) esetében, kifejezetten ajánlott ezeket a biztonsági követelményeket alkalmazni.
@@ -92,7 +92,7 @@ Az alapkonfiguráció házirendjeiről a biztonsági alapbeállításokra való 
 
 Mivel ezek a követelmények a partner bérlő összes felhasználói fiókjára érvényesek, több dolgot is figyelembe kell vennie a zökkenőmentes üzembe helyezés érdekében, beleértve a felhasználói fiókok azonosítását olyan Azure Active Directoryban, amelyek nem képesek a többtényezős hitelesítés végrehajtására, valamint a szervezet által használt olyan alkalmazásokra és eszközökre, amelyek nem támogatják a modern hitelesítést.
 
-A művelet végrehajtása előtt javasoljuk, hogy azonosítsa a következőket:
+A művelet végrehajtása előtt javasoljuk, hogy végezze el a következő érvényesítéseket: 
 
 #### <a name="do-you-have-an-application-or-device-that-does-not-support-the-use-of-modern-authentication"></a>Van olyan alkalmazás vagy eszköz, amely nem támogatja a modern hitelesítés használatát?
 
@@ -100,9 +100,9 @@ Ha kikényszeríti a többtényezős hitelesítés örökölt hitelesítési pro
 
 #### <a name="do-you-have-users-using-office-365-provided-by-licenses-associated-with-your-partner-tenant"></a>Az Office 365-et használó felhasználók a partner bérlőhöz társított licencekkel rendelkeznek?
 
-A megoldások megvalósítása előtt azt javasoljuk, hogy állapítsa meg, hogy a partner bérlője hány Microsoft Office-verziót használ. Lehetséges, hogy a felhasználók kapcsolódási problémákba ütköznek az alkalmazásokkal, például az Outlookkal. A többtényezős hitelesítés kényszerítése előtt fontos, hogy az Outlook 2013 SP1 vagy újabb verziót használja, és hogy a szervezete számára engedélyezve legyen a modern hitelesítés. További információt a [modern hitelesítés engedélyezése az Exchange Online-ban](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) című témakörben talál.
+A megoldások megvalósítása előtt azt javasoljuk, hogy állapítsa meg, hogy a partner bérlője hány Microsoft Office-verziót használ. Lehetséges, hogy a felhasználók kapcsolódási problémákba ütköznek az alkalmazásokkal, például az Outlookkal. A többtényezős hitelesítés kényszerítése előtt fontos, hogy az Outlook 2013 SP1 vagy újabb verziót használja, és hogy a szervezete számára engedélyezve legyen a modern hitelesítés. További információ: [modern hitelesítés engedélyezése az Exchange Online-ban](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). 
 
-Ha engedélyezni szeretné a modern hitelesítést a Windows rendszerű eszközökön, amelyek Microsoft Office 2013 telepítve vannak, akkor két beállításkulcsot kell létrehoznia. Lásd: [az Office 2013 modern hitelesítésének engedélyezése Windows-eszközökön](/office365/admin/security-and-compliance/enable-modern-authentication).
+Ha engedélyezni szeretné a modern hitelesítést minden olyan Windows rendszerű eszközön, amelyen telepítve van a Microsoft Office 2013, akkor két beállításkulcsot kell létrehoznia. Lásd: [az Office 2013 modern hitelesítésének engedélyezése Windows-eszközökön](/office365/admin/security-and-compliance/enable-modern-authentication).
 
 #### <a name="is-there-a-policy-preventing-any-of-your-users-from-using-their-mobile-devices-while-working"></a>Van olyan szabályzat, amely megakadályozza, hogy a felhasználók a mobileszközök használata közben használják a mobil eszközeiket?
 
@@ -128,17 +128,19 @@ A fenti lista nem átfogó. Ezért fontos, hogy teljes körű értékelést vég
 
 ## <a name="accessing-your-environment"></a>A környezet elérése
 
-Ha szeretné jobban megismerni, hogy mi vagy kik hitelesítik a többtényezős hitelesítés során, javasoljuk, hogy tekintse át a bejelentkezési tevékenységet. A prémium szintű Azure Active Directory használatával kihasználhatja a bejelentkezési jelentést. További információkat [a Azure Active Directory portál bejelentkezési tevékenységek jelentéseiben](/azure/active-directory/reports-monitoring/concept-sign-ins) talál. Ha nem rendelkezik prémium szintű Azure Active Directorytel, vagy ha a PowerShell használatával szeretné megszerezni ezt a lehetőséget, a [Get-PartnerUserSignActivity](/powershell/module/partnercenter/get-partnerusersigninactivity)  parancsmagot a [partner Center PowerShell](https://www.powershellgallery.com/packages/PartnerCenter/) -modulból kell kihasználnia.
+Ha szeretné jobban megismerni, hogy mi vagy kik hitelesítik a többtényezős hitelesítés során, javasoljuk, hogy tekintse át a bejelentkezési tevékenységet. A prémium szintű Azure Active Directory használatával kihasználhatja a bejelentkezési jelentést. A témakörrel kapcsolatos további információkért tekintse meg a [bejelentkezési tevékenység jelentéseit a Azure Active Directory-portálon](/azure/active-directory/reports-monitoring/concept-sign-ins). Ha nem rendelkezik prémium szintű Azure Active Directorytel, vagy ha a bejelentkezési tevékenységet a PowerShell használatával szeretné beszerezni, akkor a [Get-PartnerUserSignActivity](/powershell/module/partnercenter/get-partnerusersigninactivity)  parancsmagot kell használnia a [partner Center PowerShell](https://www.powershellgallery.com/packages/PartnerCenter/) -modulból.
 
-## <a name="how-the-requirements-will-be-enforced"></a>A követelmények betartatása
+## <a name="how-the-requirements-are-enforced"></a>A követelmények betartatása
 
-A partneri biztonsági követelményeket a Azure Active Directory fogja kikényszeríteni, a partner központban pedig az MFA-jogcím meglétének ellenőrzésével annak azonosítására, hogy a multi-Factor Authentication ellenőrzése megtörtént. 2019. november 18-án a Microsoft további biztonsági óvintézkedéseket (korábbi nevén "technikai kényszerítést") aktivál a partnerek bérlői számára. 
+A partneri biztonsági követelményeket a Azure Active Directory érvényesíti, a partneri központban pedig az MFA-jogcím meglétének ellenőrzésével megállapíthatja, hogy a többtényezős hitelesítés ellenőrzése megtörtént-e. A Microsoft november 18 2019-án kezdte meg a további biztonsági óvintézkedéseket (korábbi nevén "technikai betartatás") a partner bérlők számára.
 
-Aktiváláskor a partner bérlőben lévő felhasználókat a rendszer kéri a többtényezős hitelesítés (MFA) ellenőrzésének elvégzésére, amikor a (z) (AOBO) műveletekhez rendszergazdai jogosultságot hajt végre. A biztonsági óvintézkedések hatókörét továbbra is kiterjesztjük további forgatókönyvekre és felhasználói szerepkörökre, és a partnerek számára előzetes értesítéseket biztosítunk. További információkért tekintse meg ezt a dokumentumot, amely gyakran frissül. Azok a partnerek, akik nem teljesítik a követelményeket, a lehető leghamarabb végre kell hajtaniuk ezeket a mértékeket az üzleti fennakadások elkerülése érdekében. 
+Aktiváláskor a partner bérlőben lévő felhasználókat a rendszer a többtényezős hitelesítés (MFA) műveleteinek elvégzésére kéri fel, amikor bármilyen rendszergazdai jogosultságot hajt végre a (AOBO) műveletekhez, a partneri központ portálhoz való hozzáféréshez vagy a partner Center API meghívásához. További részletekért lásd: [a többtényezős hitelesítés (MFA) meghatalmazása a partner bérlője számára](partner-security-requirements-mandating-mfa.md). 
+
+Azok a partnerek, akik nem teljesítik a követelményeket, a lehető leghamarabb végre kell hajtaniuk ezeket a mértékeket az üzleti fennakadások elkerülése érdekében. 
 
 Ha Azure Multi-Factor Authentication vagy Azure AD-beli biztonsági beállításokat használ, nincs szükség további műveletekre.
 
-Harmadik féltől származó multi-Factor Authentication megoldás használata esetén előfordulhat, hogy az MFA-jogcímet nem lehet kibocsátani. Ha ez a jogcím hiányzik, Azure Active Directory nem fogja tudni megállapítani, hogy a többtényezős hitelesítés megkérdőjelezte-e a hitelesítési kérést. Ha szeretné megtudni, hogyan ellenőrizheti a megoldás a várt jogcímet, olvassa el [a partneri biztonsági követelmények tesztelését](/powershell/partnercenter/test-partner-security-requirements)ismertető témakört. 
+harmadik féltől származó multi-Factor Authentication megoldás használata esetén előfordulhat, hogy az MFA-jogcím nem állítható ki. Ha ez a jogcím hiányzik, Azure Active Directory nem fogja tudni megállapítani, hogy a többtényezős hitelesítés megkérdőjelezte-e a hitelesítési kérést. Ha szeretné megtudni, hogyan ellenőrizheti a megoldás a várt jogcímet, olvassa el [a partneri biztonsági követelmények tesztelését](/powershell/partnercenter/test-partner-security-requirements)ismertető témakört. 
 
 > [!IMPORTANT]
 > Ha a külső gyártótól származó megoldás nem adja ki a várt jogcímet, akkor a megoldást fejlesztő gyártóval kell dolgoznia, hogy meghatározza, milyen műveleteket kell végrehajtania.

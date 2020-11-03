@@ -1,5 +1,5 @@
 ---
-title: Április 2020 bejelentések
+title: 2020. áprilisi közlemények
 description: Április 2020 közlemények a Microsoft partner Centerben, például új funkciók, promóciók, ajánlatok, piacok vagy a meglévő ajánlatok változásai.
 ms.topic: article
 ms.service: partner-dashboard
@@ -9,14 +9,14 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 04/01/2020
-ms.openlocfilehash: 7591868f31d51750fcb30c41f73cea47c7178955
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: 1f73dc184ba38647061bf63dd573d8dc2e088ba3
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530379"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132994"
 ---
-# <a name="april-2020-announcements"></a>Április 2020 bejelentések
+# <a name="april-2020-announcements"></a>2020. áprilisi közlemények
 
 Ez az oldal a Microsoft-partneri központ 2020. áprilisára vonatkozó hirdetményeit részletezi.
 
@@ -33,7 +33,7 @@ _________________
 - Állapot: hamarosan elérhető
 - [További információ](https://aka.ms/CSPCOVIDPromo)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 2020 (12:01am UTC) esetén a Microsoft új promóciókat fog bevezetni az Office 365 E1 és a Microsoft 365 Vállalati verzió Basic rendszerhez, amely az Office 365 E1 aktuális 6 hónapos próbaverzióját váltja fel az új ügyfelek számára.
 
@@ -65,7 +65,7 @@ Az előléptetéshez jogosult új ügyfelek:
 - A biztonságos távoli működésről további információt a [partner Remote Work Resources Center webhelyen](https://www.microsoft.com/microsoft-365/partners/remotework) talál.
 - További információ ezekről a változásokról a [kapcsolódó Partner GYIK](https://aka.ms/CSPCOVIDPromo)-ban.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ismerkedjen meg a fenti változásokkal, a májusi 2020 árlista alapján, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
@@ -88,7 +88,7 @@ _________________
 
 Partnerek a Cloud Solution Provider programban
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft igyekszik rugalmasságot és lehetőségeket biztosítani, hogy az ügyfelek könnyebben vásároljanak és használják a Microsoft és partnereink termékeinek és szolgáltatásainak termékeit és szolgáltatásait.
 
@@ -103,7 +103,7 @@ Az Azure-szolgáltatások kedvezményes díjszabással vásárolhatják meg az A
 - A partnerek a partner centeren belül ellenőrizhetik és kezelhetik az ügyfél vásárlási lehetőségeit.
 - Az API-k lehetővé teszik az ügyfelek számára a méretezést a folyamat automatizálására.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 1. Megkezdheti az ügyfelek számára, hogy megvásárolják saját Azure-foglalásait az új képesség használatával.
 2. [Tekintse át az ebben a gyűjteményben elérhető erőforrásokat](https://partner.microsoft.com/resources/collection/customer-permission-to-purchase#/) , amelyek további információkat biztosítanak – beleértve a [technikai dokumentációt](../give-customers-permission.md), a partneri élmény bemutatóját és a felhasználói élmény bemutatóját.
@@ -119,7 +119,7 @@ _________________
 - Állapot: már elérhető
 - [További információ](https://flow.microsoft.com/ui-flows/)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft 2020-es április 1-jén hibát jelzett a (z) Microsoft 365 (M365) E3-os díjszabásában. 2020. április 22-én azonban a Microsoft átmenetileg visszaállította az árat, hogy segítse a partnereket ezen rendkívüli körülmények között.
 
@@ -137,7 +137,7 @@ A partnerek nem használhatják a M365 E3 EUR díjszabását az áprilisi 2020-�
 
 Nagyra értékeljük mindazt a nagyszerű munkát, amelyet a partner közössége a példátlan idő alatt végez.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
@@ -162,7 +162,7 @@ _________________
 - Minden Vezérlőpult-gyártó (CPV)
 - Minden Advisor-partner
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A legfontosabb prioritások közé tartozik a nagyobb és folyamatos biztonsági és adatvédelmi védelem, és továbbra is segítjük a partnereknek az ügyfelek és a bérlők védelmét. 2019-ben bevezetjük a [kötelező biztonsági követelményeket](https://blogs.partner.microsoft.com/mpn/safeguard-business-security-best-practices/). A Cloud Solution Provider programban részt vevő összes partner, a Vezérlőpult gyártóinak és a tanácsadóknak meg kell valósítaniuk a követelményeknek megfelelő megfelelőséget.
 
@@ -170,7 +170,7 @@ A közelmúltban sikeresen elvégezte a biztonsági óvintézkedések aktiválá
 
 Ha további segítségre van szükség a partnereknek és az ügyfeleknek a **2020. május 1-től, megkezdjük a partner Center-tranzakciók védelmének aktiválását a CSP-ben** . A további biztonsági óvintézkedések aktiválása azt jelenti, hogy a partnerek számára a partner Center felhasználói élményét vagy API-kat használó, többtényezős hitelesítés (MFA) használatát kéri a rendszer, amely megakadályozza a jogosulatlan hozzáférést, és védi ügyfeleit és bérlőit a személyazonossági lopással kapcsolatos biztonsági incidensekkel szemben. További információt [itt talál](../partner-security-requirements-mandating-mfa.md).
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - **Ha még nem aktiválta az ajánlott biztonsági követelményeket a bérlő és a felhasználók védelme érdekében** , kérjük, forduljon azonnal a megfelelő állapothoz, és kerülje el az üzleti fennakadások elkerülését az ügyfelek felügyeletéhez vagy a CSP-ben. Azok a partnerek, akik nem implementálják a biztonsági követelményeket, felhasználhatják részvételét a CSP programban.
 - A közvetett szolgáltatóknak be kell vezetniük ezeket a biztonsági követelményeket a saját vállalkozásaik számára, és a viszonteladókkal együtt kell működniük, hogy az e-mail-sablon használatával is megvalósítsák a követelményeket. A viszonteladók e-mailes kommunikáción keresztül közvetlenül is elérhetők lesznek.
@@ -192,7 +192,7 @@ Ha további segítségre van a technikai problémákkal kapcsolatban, [küldjön
 Köszönjük, hogy a partneri együttműködésre és az ökoszisztéma megbízhatóságának biztosítására irányuló elkötelezettségét.
 
 >[!NOTE] 
->Ha alapházirendeket használ, és nem váltott át a biztonsági alapértelmezett házirendre vagy [más MFA-megvalósítási lehetőségekre](..\partner-security-requirements.md#actions-that-you-need-to-take), a lehető leghamarabb váltson át a [legfontosabb erőforrásokra](https://partner.microsoft.com/resources/collection/security-defaults-enable-mfa#/).
+>Ha alapházirendeket használ, és nem váltott át a biztonsági alapértelmezett házirendre vagy [más MFA-megvalósítási lehetőségekre](..\partner-security-requirements.md#implementing-multi-factor-authentication), a lehető leghamarabb váltson át a [legfontosabb erőforrásokra](https://partner.microsoft.com/resources/collection/security-defaults-enable-mfa#/).
 
 ### <a name="change-log"></a>Változási napló
 
@@ -212,7 +212,7 @@ _________________
 ### <a name="impacted-audience"></a>Érintett közönség
 - Minden CSP-partner.
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft ügyfél-szerződésnek a partner központ díjszabás és ajánlatok lapján korábban elérhető módosításai átkerültek. A módosítások mostantól elérhetők a partnerek számára a Microsoft ügyfél-szerződés támogatási témakörében a partner Centerben (csak biztonságos bejelentkezésen keresztül), és nem igénylik a Microsoft jóváhagyását az ügyfeleknek. Ebbe beletartozik az FSI-módosítás és a Microsoft Ügyfélszerződés egyéb általános módosításai.
 
@@ -251,7 +251,7 @@ _________________
 - Típus: ajánlatok/piacok
 - Állapot: már elérhető
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft Defender ATP for Servers SKU elérhető lesz a CSP április 1-jén, 2020 USD-re 5/OSE/hó áron.
 
@@ -274,7 +274,7 @@ Az MDATP for Servers SKU-tulajdonosoknak frissíteniük kell Azure Security Cent
 
 MDATP kiszolgálók 350158a2-f253-4ea3-988e-eef9d1b828cf
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Kérjük, ossza meg ezeket az információkat a szervezete megfelelő partnereivel. Ez lehet megosztott 1:1 az ügyfelekkel, ahol szükséges.
 
@@ -305,7 +305,7 @@ _________________
 - Állapot: hamarosan elérhető
 - [További információ](https://flow.microsoft.com/ui-flows/)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft Americas Operations Center a Reno-ben, Nevadaban változik, a minden rendszer, a levelezés és a dokumentáció pedig frissítést igényel.
 
@@ -327,7 +327,7 @@ A címek változásának részleteiért lásd alább.
 
 Ez csak a címek módosítása, és nem kell lemondani a meglévő szerződéseket. Mindig tekintse át a legújabb sablonokat a Microsoft-portálon, mivel ezek frissítve lettek.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Győződjön meg arról, hogy az összes rendszer, levelezés és dokumentáció frissítve lett az új kapcsolattartási adatokkal 2020. május 15-én. Ennél a dátumnál további műveletekre lehet szükség.
 
@@ -345,7 +345,7 @@ _________________
 - Típus: képességek
 - Állapot: hamarosan elérhető
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A legjobb partneri és felhasználói élmény biztosítása érdekében a Microsoft a 2020-es május 1-én újra elindítja a kereskedelmi M365 felügyelet nélküli licencelési ajánlatait. Az árakra és a képességekre nem lesz hatással.
 
@@ -372,7 +372,7 @@ Az Microsoft 365 E3 felügyelet nélküli licence lehetővé teszi az Office-alk
 
 Ez az új licenc új lehetőséget biztosít a termelékenységi adatai és eszközei használatára, ha még a termék API-jai, például a Microsoft Graph nem felelnek meg az automatizálási igényeknek.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ossza meg ezt az információt a szervezet összes megfelelő ügyfelével, és tekintse meg a [partner.microsoft.com](https://partner.microsoft.com) vonatkozó közleményeit a jövőbeli frissítésekhez.
 
@@ -391,7 +391,7 @@ _________________
 - Állapot: már elérhető
 - [További információ](https://flow.microsoft.com/ui-flows/)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 2020. április 1-jén a Microsoft a5 megfelelőségi bővítménye további értéket kapott a díjszabás módosítása nélkül. Emellett három mini Suite-t vezettünk be az új felhasználói forgatókönyvek kezeléséhez
 
@@ -450,7 +450,7 @@ Előfordulhat, hogy az alábbi lista tartalmazza az érintett ajánlatok azonos�
 - Azure Information Protection Premium P2_Buy_MSP_FAC_d10fa413-a055-4196-b18f-a014908c7208
 - Azure Information Protection Premium P2_Buy_MSP_STU_edf471ca-1ff8-4378-a057-276ef3b430ba
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ismerkedjen meg az árlistát, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
@@ -468,7 +468,7 @@ _________________
 - Típus: ajánlatok/piacok
 - Állapot: már elérhető
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 2020 április 1-től a CSP-ben vásárolhat új Office 365 E1 próbaverziót. Az ajánlat elérhetővé vált az árlista alapján a távoli működés legutóbbi növekedésének kezeléséhez.
 
@@ -491,7 +491,7 @@ A CSP Office 365 E1 próbaverziója mostantól a Microsoft Teams CSP Próbaverzi
 
 Ezt az ajánlatot azonnal elérhetővé tettük az üzemi árlista 2020. április 1-től való megvásárlására.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - [A CSP Office 365 E1 próbaverziójának áttekintése – gyakori kérdések](https://aka.ms/CSPE1OfferFAQ)
 - [További információ a Microsoft Teams próbaverzióinak és ajánlatairól](https://www.microsoft.com/microsoft-365/partners/resources/teams-offers-and-trials-comparison)
@@ -515,7 +515,7 @@ _________________
 - Állapot: már elérhető
 - [További információ](https://partner.microsoft.com/resources/collection/partner-security-requirements#/)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 2020. április 1-jén a Microsoft további Dynamics 365-termékeket bocsátott ki. A Dynamics 365-hoz további új ajánlatokat is megadhat a 2020-es verzióban.
 Érintett közönség
@@ -572,7 +572,7 @@ A 2020. április 1-től érvényes e-kereskedelmi ajánlatok megjelenített név
 - [FY20 technikai készültségi sorozat](https://partner.microsoft.com/resources/collection/Microsoft-Dynamics-365-product-releases-for-November-and-December-2019#/)
 - [Robot Process Automation (RPA)](https://partner.microsoft.com/resources/collection/Microsoft-Dynamics-365-product-releases-for-November-and-December-2019#/)
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Kérjük, ossza meg ezeket az információkat a szervezetében található megfelelő partnerekkel. A licencelési Frissítésekről és az érték kiosztásáról további információt a "további erőforrások" című szakaszban, a PartnerSource pedig a készültségi tartalommal foglalkozó témakörben találhat.
 
@@ -594,7 +594,7 @@ _________________
 ### <a name="impacted-audience"></a>Érintett közönség
 - Minden CSP-partner
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 Az [operatív készültségi erőforrás helye](https://partner.microsoft.com/resources#/) mostantól elérhető, és az operatív készültségi erőforrások egyik helyén biztosít partnereket, így minden eddiginél könnyebben megtalálhatja a legújabb frissítéseket és a kulcsfontosságú működési készültségi erőforrásokat az összes Microsoft-csatornán és programban. A CSP program frissíti az erőforrás-katalógust és a Microsoft készültségi tartalmát az operatív készültségi erőforrás helyére, és a CSP program Update Resource Gallery () elemre mutató URL-címet [https://partner.microsoft.com/resources#/](https://partner.microsoft.com/resources#/) frissítették, hogy az a műveleti készültségi erőforrás helyére mutasson.
 
@@ -616,7 +616,7 @@ Az Operations Readiness erőforrás helye a partner.microsoft.com-ben hasonlóan
 - **Új hely:** Miután az operatív erőforrások új helye élő a partner.microsoft.com-on, a Microsoft Readiness-hely és a CSP-program frissíti az erőforrás-katalógust, a továbbiakban nem lesz elérhető, és a rendszer átirányítja a felhasználókat az új műveleti erőforrás helyére. A partnerek képesek lesznek kihasználni a tartalmi program szűrőit a CSP-re vagy más konkrét program-erőforrásokra való szűréshez.
 - **Tartalom kibontva:** A Microsoft Readiness webhelyéről és a CSP-program frissítéséről szóló legújabb és kapcsolódó tartalom az új műveleti készültségi helyre kerül, ami azt jelenti, hogy a program a további programok tartalmát is egy helyen helyezi el.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Mit kell tennie a felkészüléshez?
 
@@ -645,7 +645,7 @@ _________________
 - Állapot: már elérhető
 - [További információ](https://partner.microsoft.com/resources/collection/microsoft_365_business_voice_in_csp#/)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A kis-és közepes vállalkozások számára készült felhőalapú telefonos rendszer Microsoft 365 Vállalati verzió a hangvételt az itt felsorolt országokban, 2020. április 1-től lesz elérhető.
 
@@ -711,7 +711,7 @@ Az Ausztráliában található partnereknek tisztában kell lenniük azzal, hogy
 
 Az idő múlásával reméljük, hogy Microsoft 365 Vállalati verzió hangot minden olyan országnak, ahol az Office 365 és a Microsoft 365 elérhető.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - Tekintse meg a partneri galériát, ahol többet tudhat meg az ajánlat értékének kiépítéséről, valamint a Microsoft Teams gyakorlatának kialakításáról és összevonásáról: [Microsoft 365 vállalati verzió hang elérhetősége a CSP-ben](https://partner.microsoft.com/resources/collection/microsoft_365_business_voice_in_csp#/)
 - Ismerkedjen meg az előzetes verzió díjszabási listájával, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
@@ -743,7 +743,7 @@ Minden CSP-partner.
 
 **2020. április 1. frissítés** 2020. január 31-ig a Cloud Solution Provider (CSP) program összes partnerének el kell fogadnia a szerződést az összes tranzakciós CSP bérlője számára. Korábban közölte, hogy a szerződés megvalósításának következő fázisa 2020 áprilisában kezdődik.Az üzletmenet megzavarásának megelőzése érdekében úgy döntöttünk, hogy a megvalósítás következő fázisát kiterjesztjük a 2020. április után. Visszajelzéseket kaptunk néhány felhőalapú szolgáltatói partnertől, akik a MPA elfogadásával kapcsolatban tapasztalt problémákkal rendelkeznek. Ezen körülmények alapján a Microsoft erőforrásainak biztosításán dolgozunk azon partnereink támogatásán, akik a szerződés elfogadásával nehézségekbe ütköznek.
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 2020. január 31-ig a felhőszolgáltatói programban szereplő összes partnernek el kellett fogadnia a Microsoft Partnerszerződést, beleértve a közvetett viszonteladókat is, annak érdekében, hogy ne jelentkezzen fennakadás az új ügyfelek vagy a meglévő ügyfelek új rendeléseinek létrehozása kapcsán a CSP-programban. A Microsoft Partnerszerződés elfogadása most már a CSP-program összes partnerére nézve kötelező.
 
 2020. áprilistól kezdődően:

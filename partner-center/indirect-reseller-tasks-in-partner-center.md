@@ -1,7 +1,7 @@
 ---
 title: Közvetett szolgáltatók használata a CSP programban
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 10/09/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a közvetett viszonteladók hogyan dolgozhatnak a Microsoft közvetett szolgáltatókkal (vagy forgalmazókkal), hogy segítséget kérjenek az ügyfélszolgálat és a számlázás terén.
@@ -10,20 +10,23 @@ ms.custom: contperfq2
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
-ms.openlocfilehash: 1b8b6f3c094471e67d43701a83da46d7dd1372a0
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: 74edfbfd766e6969b278c9ad83b3a12b7ef95abd
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530294"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795848"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
 
+**A következőkre vonatkozik**
+
+- Partnerközpont
+
 **Megfelelő szerepkörök**
 
-- Globális rendszergazda
-- Felhasználói rendszergazda
-- Felügyeleti ügynök
+
+- Az összes Microsoft-partner a Cloud Solution Provider programban való regisztrálás iránt érdeklődő
 
 
 A felhőalapú megoldások és szolgáltatások gyorsan növekvő igénye számos lehetőséget kínál a Microsoft partnerei számára, hogy nyereséges felhőalapú megoldási vállalkozásokat építsenek. Azok a partnerek, akik készen állnak a piacra lépésre, de nem szeretnének több szállítót kezelni, vagy akik nem rendelkeznek teljes körű ügyfélkapcsolat-kezelési infrastruktúrával, a Microsoft felhőalapú megoldás-szolgáltatói (CSP) programjának közvetett viszonteladóként való regisztrálására is jogosultak.
@@ -47,7 +50,7 @@ További információ arról, hogy mire van szükség a CSP-programban való ér
 
 ### <a name="before-you-begin"></a>Előkészületek
 
-Ha még nem ismeri a CSP-t, regisztrálnia kell a programot közvetett viszonteladóként. Ezután létre kell hoznia egy fiókot a partner Centerben. Ehhez a beléptetési folyamat során meg kell adnia a következő információkat. Az első lépések megkezdése előtt érdemes lehet néhány percet igénybe venni:
+Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP programba közvetett viszonteladóként. Ezután létre kell hoznia egy fiókot a partner Centerben. Ehhez a beléptetési folyamat során a következő információkat kell megadnia. Az első lépések megkezdése előtt érdemes lehet néhány percet igénybe venni:
 
 - **Globális rendszergazdai hitelesítő adatok a munkahelyi fiókhoz**
 
@@ -65,7 +68,7 @@ Ha még nem ismeri a CSP-t, regisztrálnia kell a programot közvetett viszontel
 
 ### <a name="get-started"></a>Bevezetés
 
-1. A folyamat elindításához nyissa [**meg a**](https://partnercenter.microsoft.com/pcv/register/joinnow/enrollmentwelcome/valueaddedreseller) kezdőlapot a regisztráláshoz.
+1. A beléptetési folyamat elindításához nyissa [**meg a**](https://partnercenter.microsoft.com/pcv/register/joinnow/enrollmentwelcome/valueaddedreseller) kezdőlapot a regisztráláshoz.
 
 2. Tekintse át az **üdvözlőlapot** , és győződjön meg arról, hogy rendelkezik a regisztrálni kívánt adatokkal, majd válassza a **tovább** lehetőséget.
 
@@ -99,6 +102,16 @@ Ha még nem ismeri a CSP-t, regisztrálnia kell a programot közvetett viszontel
 
    2. A felhasználók listájából válassza ki a nevét. Ezután válassza ki a **felügyeleti ügynököt** , ha még nincs kiválasztva. Válassza a **Frissítés** lehetőséget.
 
+## <a name="all-indirect-resellers-need-to-sign-the-microsoft-partner-agreement"></a>Minden közvetett viszonteladónak alá kell írnia a Microsoft partneri szerződést
+
+1.  Ha még nem helyezte át a partner centert a partneri tagsági központban, tegye meg most. A partner Centerre való áttéréssel kapcsolatos segítségért olvassa el a következő témakört: a [PMC-ról a partneri központba való Migrálás](guide-to-migration.md) 
+
+2.  Ha van egy partner Center-tagsági fiókja (MPN-azonosítója), akkor is hivatalosan regisztrálnia kell a Cloud Solution Provider programban. A tagsági állapot ellenőrzéséhez lépjen a [**partner profiljába**](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) , és erősítse meg a fiók típusát. Ezután [regisztrálja magát a CSP-ben közvetett viszonteladóként](enrolling-in-the-csp-program.md). Miután regisztrálta magát a közvetett viszonteladóként, [fogadja el a CSP-kapcsolat kérését a közvetett szolgáltatótól](indirect-reseller-tasks-in-partner-center.md).
+
+3.  Ha már regisztrált a partner Centerben közvetett viszonteladóként, fogadja el a Microsoft partneri szerződést a [partner Center irányítópultjának áttekintésében](https://partner.microsoft.com/pcv/dashboard/overview) a globális rendszergazdai hitelesítő adatok használatával. Ellenőrizze, hogy aláírta-e a Microsoft partneri szerződést a partner profil **program információi** szakaszában. Emellett a rendszer megerősítő szalagcím-értesítést is tartalmaz a CSP Áttekintés oldalán. 
+
+:::image type="content" source="images/mpagreen.png" alt-text="Zöld elfogadható szalagcím":::
+
 
 ## <a name="connect-with-an-indirect-provider"></a>Kapcsolat felvétele közvetett szolgáltatóval
 
@@ -128,6 +141,8 @@ Ha egy közvetett szolgáltató csatlakozni szeretne Önnel a partneri központb
 
 
 ## <a name="next-steps"></a>Következő lépések
+
+- [A fiók-ellenőrzési folyamat](verification-responses.md)
 
 - [Partnerközponti fiók kezelése](partner-center-account-setup.md)
 

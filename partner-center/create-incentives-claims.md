@@ -1,7 +1,7 @@
 ---
 title: Ösztönzők kezelése együttes op-jogcímek
 ms.topic: how-to
-ms.date: 10/02/2020
+ms.date: 10/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 description: Megtudhatja, hogyan indíthat el ösztönzőket a partner Centertől. Megtekintheti az összes olyan tevékenységet, amely a jogcímek felépítése az előzmények között látható.
@@ -9,12 +9,12 @@ author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: seodec18
-ms.openlocfilehash: 1af4620d040931ebbc263339fbfe37c1f26d0123
-ms.sourcegitcommit: d9c7890520ecd37a7651e976d540cfe65c51be54
+ms.openlocfilehash: 9b2f0b3acbbf3ad9648301b85cec3b8837e3e51e
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "92530193"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132946"
 ---
 # <a name="create-and-manage-an-incentives-co-op-claim"></a>Ösztönzők együttes op-jogcím létrehozása és kezelése
 
@@ -32,15 +32,13 @@ A partner centeren belül is kezdeményezhet ösztönző jogcímet.
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. Válassza az **ösztönzők** fület, majd válassza a **csomagok kezelése** lehetőséget.
+2. Válassza az **ösztönzők** fület, majd válassza a **társ-op felügyelet** lehetőséget.
 
-3. Válassza a **közös op-kezelés** lehetőséget.
+3. Ha már folyamatban van egy jogcím, a jogcímek áttekintő oldala a meglévő jogcímek és a jóváhagyott, igényelt és összesített összegek állapotával kapcsolatos információkat jeleníti meg.
 
-4. Ha már folyamatban van egy jogcím, a jogcímek áttekintő oldala a meglévő jogcímek és a jóváhagyott, igényelt és összesített összegek állapotával kapcsolatos információkat jeleníti meg.
+4. Új jogcím létrehozásához válassza **a jogcím létrehozása** lehetőséget.
 
-5. Új jogcím létrehozásához válassza **a jogcím létrehozása** lehetőséget.
-
-6. Ha kitöltötte a kezdeti űrlapot és a kiválasztott **létrehozási jogcímet** , akkor a jogcím részletei oldalra kerül, ahol SZÁMLÁKAT, CSR-t, igazoló dokumentumokat és mérőszámokat adhat hozzá. Igény szerint további információkat is felvehet.
+5. Ha kitöltötte a kezdeti űrlapot és a kiválasztott **létrehozási jogcímet** , akkor a jogcím részletei oldalra kerül, ahol SZÁMLÁKAT, CSR-t, igazoló dokumentumokat és mérőszámokat adhat hozzá. Igény szerint további információkat is felvehet.
 
 Az igénylés részleteit tartalmazó lapon felkérheti a szervezet más tagjait, hogy dokumentumokat töltsenek fel az űrlapra. A feltöltött támogató dokumentumok mindegyikét magyarázó információkkal is kiegészítheti. 
 

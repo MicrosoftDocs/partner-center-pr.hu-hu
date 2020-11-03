@@ -1,5 +1,5 @@
 ---
-title: Együttes op-jogcímek kezelése
+title: Együttműködési jogcímek kezelése
 description: Ismerje meg a Co-op jogcímek folyamatát, beleértve a határidőket, a pénznemmel kapcsolatos problémákat, valamint az elutasított Co-op-jogcím vitatásának módját.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
@@ -7,13 +7,13 @@ author: Karthic83
 ms.author: kashanum
 ms.topic: article
 ms.localizationpriority: medium
-ms.date: 10/02/2020
-ms.openlocfilehash: 27b269016822157b8f3a20541fd027bd2c03ee75
-ms.sourcegitcommit: d9c7890520ecd37a7651e976d540cfe65c51be54
+ms.date: 10/29/2020
+ms.openlocfilehash: 54c90cce33a1eabc87357048c348ffa2cc03de19
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "92530198"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93133150"
 ---
 # <a name="manage-incentives-co-op-claims"></a>Ösztönzők kezelése együttes op-jogcímek
 
@@ -65,16 +65,14 @@ Ha az együttműködési igénnyel együtt benyújtott anyagok nem megfelelőek,
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. Az **ösztönzők** területen válassza a **csomagok kezelése** lehetőséget.
+2. Az **ösztönzők** területen válassza a **közös op-kezelés** lehetőséget.
 
-3. Válassza a **közös op-kezelés** lehetőséget.
+3. Válassza ki a vitatni kívánt együttműködési igényt. Megnyílik a Co-op jogcím lap.
 
-4. Válassza ki a vitatni kívánt együttműködési igényt. Megnyílik a Co-op jogcím lap.
-
-5. Az oldal alján kattintson a **Vitatás** elemre.
+4. Az oldal alján kattintson a **Vitatás** elemre.
 
 Az együttműködési igényeket ellenőrző csapat öt munkanapon belül felülvizsgálja az igényt. Ez idő alatt az igény **Vitatott** állapotúként jelenik meg. Előfordulhat, hogy további információk begyűjtése céljából felvesszük Önnel a kapcsolatot. Ha a felülvizsgálat elkészült, az ellenőrzési csapat frissíti az állapotot a következők egyikére: **Jóváhagyva** , **Elutasítva** vagy **Partneri beavatkozás szükséges** .
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

@@ -1,7 +1,7 @@
 ---
-title: Ügyfél-hozzárendelés létrehozása
+title: Ügyféltársítás létrehozása
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 10/28/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 description: Hozzon létre ügyfél-hozzárendeléseket a Recording (CPOR) modell igénylési partnerével. Segíti az értékesítések, a használat és a Microsoft 365 & Dynamics 365-ügyfelek által nyújtott ösztönzők kezelését.
@@ -9,16 +9,16 @@ author: MalloryPrincipe
 ms.author: mallp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e34698b51a159445f4354e366f79f510533e6f30
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: fec01e6c4554421593de4135ccd1af5c5e7ce13b
+ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530469"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917254"
 ---
 # <a name="customer-associations-via-the-claimed-partner-of-record-cpor-model-for-microsoft-365-and-dynamics-365"></a>Ügyfél-hozzárendelések a Microsoft 365 és a Dynamics 365-es rekord (CPOR) modellje révén
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -35,9 +35,9 @@ A jogcímek elvégzéséhez a következő információkra lesz szüksége:
 
 - Az entitáshoz tartozó **MPN-azonosító** , amely a jogcímet végrehajtja
 
-- Az ügyfél **tartománynevének** [megkeresése](find-domain-name.md)
+- Az ügyfél **tartománynevének** [megkeresése](find-ids-and-domain-names.md)
 
-- Az ügyfél **címtár-azonosítójának** vagy **bérlői azonosítójának** [megkeresése](find-domain-name.md)
+- Az ügyfél **címtár-azonosítójának** vagy **bérlői azonosítójának** [megkeresése](find-ids-and-domain-names.md)
 
 - A **megoldási területen** , például Business Applications vagy Microsoft 365
 
@@ -65,7 +65,7 @@ A következő szempontokat is ismernie kell:
 
 - Egy ügyfél több partnerrel is rendelkezhet, de a munkaterhelések (OSU-Microsoft 365) vagy az előfizetés (OSA-Sell és OSU-Business alkalmazások esetében) csak egyetlen partnerhez társíthatók.
 
-## <a name="create-a-customer-association"></a>Ügyfél-hozzárendelés létrehozása
+## <a name="create-a-customer-association"></a>Ügyféltársítás létrehozása
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
@@ -73,7 +73,7 @@ A következő szempontokat is ismernie kell:
 
 3. Az ügyfél-hozzárendelések lap tetején válassza a **+ Ügyfél-hozzárendelés** lehetőséget.
 
-4. Válassza ki az ügyfélhez társítani kívánt partnerhely **MPN-azonosítóját** , majd adja hozzá az ügyfél tartománynevét és címtár-azonosítóját. [Keresés](find-domain-name.md)
+4. Válassza ki az ügyfélhez társítani kívánt partnerhely **MPN-azonosítóját** , majd adja hozzá az ügyfél tartománynevét és címtár-azonosítóját. [Keresés](find-ids-and-domain-names.md)
 
 5. Válassza a **Folytatás** lehetőséget.
 
