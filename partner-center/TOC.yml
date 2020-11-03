@@ -710,10 +710,13 @@
       displayName: 'tenant id, object id, domain name, azure ad tenant, tenantguid, Microsoft ID, directory id'
 - name: Biztonsági követelmények
   items:
-    - name: Biztonsági áttekintés
+    - name: Áttekintés
       href: partner-security-requirements.md
     - name: MFA előírása a partner bérlője számára
       href: partner-security-requirements-mandating-mfa.md
+      displayName: csp
+    - name: Többtényezős hitelesítés beállítása a saját felhasználókhoz
+      href: mfa-for-users.md
       displayName: csp
     - name: Követelmények állapota
       href: partner-security-compliance.md
