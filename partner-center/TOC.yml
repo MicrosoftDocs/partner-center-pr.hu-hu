@@ -564,6 +564,8 @@
           href: Get-special-pricing-for-offers.md
         - name: Értékesítés oktatási ügyfeleknek
           href: sell-to-education-customers.md
+        - name: A Windows 10 Home frissítése Education verzióra
+          href: upgrade-windows-to-education.md
         - name: A bevezetés és az elégedettség növelése
           href: increasing-adoption-and-satisfaction.md
         - name: Az eszköztelepítés egyszerűsítése a Windows Autopilot használatával
