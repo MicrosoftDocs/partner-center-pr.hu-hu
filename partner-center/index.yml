@@ -1,0 +1,113 @@
+### YamlMime:Landing
+title: Partnerközpont dokumentációja
+summary: A Partnerközpontban többek között a Microsoft Partner Network (MNP) és a felhőszolgáltatói (CSP-) program segíti elő az Ön vállalkozásának fejlődését.
+metadata:
+  title: Partnerközpont dokumentációja
+  description: A Partnerközpontban többek között a Microsoft Partner Network (MNP) és a felhőszolgáltatói (CSP-) program segíti elő az Ön vállalkozásának fejlődését.
+  ms.service: partner-dashboard
+  ms.subservice: partnercenter-csp
+  ms.topic: landing-page
+  author: LauraBrenner
+  ms.author: labrenne
+  ms.date: 10/16/2020
+  ms.openlocfilehash: a10616a60e74de88c2f4fda37062275e47fb59bc
+  ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+  ms.translationtype: HT
+  ms.contentlocale: hu-HU
+  ms.lasthandoff: 10/19/2020
+  ms.locfileid: "92526853"
+landingContent:
+- title: Bevezetés a Partnerközpont használatába
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: A partnerközpont közleményei
+      url: announcements/index.md
+    - text: Legyen Ön is Microsoft-partner
+      url: mpn-overview.md
+    - text: Partnerközpontfiók létrehozása
+      url: mpn-create-a-partner-center-account.md
+    - text: A MPN-tagsági kedvezmények és ajánlatok kezelése
+      url: manage-your-partner-network-benefits.md
+    - text: A kompetenciák ismertetése
+      url: learn-about-competencies.md
+- title: Vállalkozás fejlesztése
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Az ügyfélkapcsolatok szorosabbra fűzése
+      url: connect-with-your-customers.md
+    - text: Felhőszolgáltatói (CSP-) program
+      url: csp-overview.md
+    - text: Ügyfélhivatkozások beszerzése
+      url: manage-leads.md
+    - text: Ösztönzőprogramok
+      url: incentives-get-started-intro.md
+    - text: Együttes értékesítési lehetőségek kezelése
+      url: manage-co-sell-opportunities.md
+    - text: Haladó specializáció megszerzése
+      url: advanced-specializations.md
+- title: Fő fogalmak és feladatok
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: A Partnerközpont biztonsági követelményei
+      url: partner-security-requirements.md
+    - text: Üzleti profil létrehozása
+      url: create-a-marketing-profile.md
+    - text: Bevezetés az Azure-csomag használatába
+      url: azure-plan-lp.md
+    - text: Támogatáskérés a Microsofttól
+      url: support-from-microsoft.md
+  - linkListType: how-to-guide
+    links:
+    - text: Az MPN-fiók helyeinek kezelése
+      url: manage-locations.md
+    - text: A saját MPN-ajánlatok megújítása
+      url: renew-mpn-offers.md
+    - text: Az MPN-előnyök azonosítása
+      url: mpn-find-benefits.md
+    - text: Saját szerepkör keresése
+      url: find-your-role.md
+- title: Fiókok és számlázás
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: A Partnerközpontfiók kezelése
+      url: partner-center-account-setup.md
+    - text: Szerepkörök és engedélyek hozzárendelése a felhasználókhoz
+      url: permissions-overview.md
+    - text: Felhasználók és felhasználói licencek kezelése
+      url: assign-licenses-to-users.md
+    - text: A számlázás alapjai
+      url: billing-basics.md
+    - text: Kifizetési számla és űrlapok beállítása
+      url: set-up-your-payout-account.md
+    - text: A számla értelmezése
+      url: read-your-bill.md
+- title: Fejlesztői erőforrások
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Csatlakozzon a Partnerközpont API és az SDK korai felhasználói programjához
+      url: /partner-center/develop/early-adopter-program
+    - text: Partnerközpont fejlesztői dokumentációja
+      url: /partner-center/develop
+    - text: Partnerközpont – REST API-referencia
+      url: /partner-center/develop/partner-center-rest-api-reference
+    - text: Partnerközpont – .NET API-referencia
+      url: /dotnet/api/?view=partnercenter-dotnet-latest&preserve-view=true
+    - text: Javához készült Partnerközpont SDK
+      url: /java/partnercenter/overview
+    - text: Partnerközpont – PowerShell
+      url: /powershell/partnercenter/overview
+- title: Értékesítés a kereskedelmi piactéren (ISV-k)
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: A kereskedelmi piactér dokumentációja
+      url: /azure/marketplace
+    - text: Mit az a Microsoft kereskedelmi piactér?
+      url: /azure/marketplace/overview
+    - text: A közzétételi lehetőségek meghatározása
+      url: /azure/marketplace/determine-your-listing-type
