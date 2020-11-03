@@ -1,5 +1,5 @@
 ---
-title: Október 2020 közlemények
+title: 2020. októberi közlemények
 description: Október 2020 közlemények a Microsoft partner Centerben, például új funkciók, promóciók, ajánlatok, piacok vagy a meglévő ajánlatok változásai.
 ms.topic: article
 ms.service: partner-dashboard
@@ -8,21 +8,58 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 10/14/2020
-ms.openlocfilehash: 4e78743c8dd03dd4540077aaa9f9d17799d1af80
-ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
+ms.date: 10/27/2020
+ms.openlocfilehash: 4877c3c21449c8b5cc4224973d159d70635d9262
+ms.sourcegitcommit: 4bff85c6a13a990d5eb6c4a4ef44e1013d06948e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795813"
+ms.locfileid: "92903043"
 ---
-# <a name="october-2020-announcements"></a>Október 2020 közlemények
+# <a name="october-2020-announcements"></a>2020. októberi közlemények
 
 Ez az oldal a Microsoft partner Center 2020-es októberi hirdetményeit részletezi.
 
 2020 bejelentések [:](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [July](2020-july.md)  |  [augusztus](2020-august.md)  |  [September](2020-september.md) | . Október
 
-________________________________
+______________
+
+## <a name="october-2020-cloud-solution-provider-csp-software-subscriptions-price-list-updates"></a><a name="14"></a>Október 2020 Cloud Solution Provider (CSP) szoftver-előfizetések árlista frissítései
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-26
+- Ajánlatok/piacok
+ 
+### <a name="summary"></a>Összefoglalás
+
+Frissítettük a szoftveres előfizetések árlista október 2020-es listáját.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="details"></a>Részletek
+
+A rendszer frissítette az októberi, 2020-es szoftver-előfizetések árlistát, hogy két korábban kihagyott terméket tartalmazzon.
+
+A [Windows 7 éves, 2 EUME](#3) -es verziójának elérhetősége a 2020 októberében volt elérhető. A 2. év díjszabása mostantól elérhető a szoftveres előfizetések árlista listájában.
+- Termék azonosítója: DG7GMGF0FL73
+- SKU azonosítója: 0003
+
+Az [Azure SQL Edge](2020-september.md#9) kiadása a 2020. szeptember végén jelent meg. Mostantól elérhető a partner Center aktuális árlista listájában. 
+- Termék azonosítója: DG7GMGF0GJC2
+
+Az összes CSP partner Center-árlista a partner Centerbe való bejelentkezéssel és az értékesítések/ajánlatok és a díjszabás használatával érhető el.
+
+### <a name="additional-resources"></a>További erőforrások
+
+- [Windows 7 támogatás – GYIK oldal](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-end-support-faq)
+- [Windows 7 támogatás és Microsoft 365 alkalmazások](/deployoffice/endofsupport/windows-7-support)
+- [Windows 7 EUME Resource Gallery](https://partner.microsoft.com/resources/collection/windows-esu-csp#/)
+- [Azure SQL Edge-webhely](https://aka.ms/sqledge)
+
+________________
 
 ## <a name="introducing-a-performance-standard-for-direct-bill-partner-requirements-in-the-cloud-solution-provider-csp-program"></a><a name="13"></a>A közvetlen számlázási partneri követelmények teljesítményének standard bemutatása a Cloud Solution Provider (CSP) programban
 
@@ -229,7 +266,7 @@ Ezek a promóciók a következő ügyfeleket érintik:
 - NET új ügyfél bérlők
 - Meglévő ügyfél-bérlők, akik nem rendelkeznek aktív vagy nemrégiben megszakított (az elmúlt 30 napban) előfizetéssel a CSP-n, a web Directen vagy bármely más Microsoft kereskedelmi csatornán lévő üzleti hang-és hangkonferencia-licenccel kapcsolatban
 
-#### <a name="additional-resources"></a>További források
+#### <a name="additional-resources"></a>További erőforrások
 
 - Látogasson el a [Microsoft 365 vállalati verzió Hangpartner oldalára](https://www.microsoft.com/microsoft-365/partners/businessvoice) , ahol többet tudhat meg az üzleti hangról. 
 - A [hangkonferencia további lehetőségeinek](/microsoftteams/audio-conferencing-in-office-365)megismeréséhez tekintse meg Microsoft 365 hangkonferencia című témakört.
@@ -486,7 +523,7 @@ A Cloud Solution Provider (CSP) partnerei
 - Dynamics 365 ügyfél hangalapú felhasználói előfizetés licence (felhasználói előfizetési licenc) 
 - Ajánlatok kibontása a CSP-ben
 
-### <a name="additional-resources"></a>További források
+### <a name="additional-resources"></a>További erőforrások
 
 - Tekintse át a [Dynamics CSP Offers-November 2020](https://partner.microsoft.com/resources/detail/dynamics-csp-offers-november-2020-xls) Excel-dokumentum Project Operations lapján az ajánlat-azonosító részleteit.
 - További információt a [Microsoft Dynamics 365 Customer Voice kezdőlapján](https://dynamics.microsoft.com/customer-voice/overview/)talál.
