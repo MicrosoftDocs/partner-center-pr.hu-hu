@@ -46,6 +46,8 @@
       items:
         - name: A kompetenciák ismertetése
           href: learn-about-competencies.md
+        - name: Kompetenciák – GYIK
+          href: competencies-faq.md
         - name: Alkalmazásfejlesztési kompetencia kivétele
           href: app-dev-isv.md
     - name: Haladó specializációk
