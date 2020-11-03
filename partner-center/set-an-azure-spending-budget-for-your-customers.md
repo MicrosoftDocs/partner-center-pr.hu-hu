@@ -1,0 +1,123 @@
+---
+title: Azure-kiadások költségkeretének beállítása az ügyfelek számára
+ms.topic: how-to
+ms.date: 06/03/2020
+description: Megtudhatja, hogyan állíthatja be vagy távolíthatja el az ügyfelek havi Azure-költségkeretét, valamint megtekintheti az Azure-kiadások adatait, és megadhatja a költségvetéssel kapcsolatos értesítéseket is.
+ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
+author: BillLinzbach
+ms.author: BillLi
+ms.localizationpriority: medium
+ms.custom: SEOMAY.20
+ms.openlocfilehash: 982d4ed310415349acde3d260afce04eb0d55ac5
+ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.translationtype: MT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "92528150"
+---
+# <a name="set-check-or-remove-monthly-azure-spending-budgets-for-customers-in-partner-center"></a><span data-ttu-id="33a3c-103">A partner Center ügyfelei számára havi Azure-költségkeretek beállítása, bejelölése vagy eltávolítása</span><span class="sxs-lookup"><span data-stu-id="33a3c-103">Set, check, or remove monthly Azure spending budgets for customers in Partner Center</span></span>
+
+<span data-ttu-id="33a3c-104">A következőkre vonatkozik:</span><span class="sxs-lookup"><span data-stu-id="33a3c-104">Applies to:</span></span>
+
+- <span data-ttu-id="33a3c-105">Partnerközpont</span><span class="sxs-lookup"><span data-stu-id="33a3c-105">Partner Center</span></span>
+- <span data-ttu-id="33a3c-106">Az USA kormányzati szerveinek Microsoft Cloud a partneri központ</span><span class="sxs-lookup"><span data-stu-id="33a3c-106">Partner Center for Microsoft Cloud for US Government</span></span>
+
+<span data-ttu-id="33a3c-107">Megadhatja a partner Center [ügyfeleinek havi Azure-költségkeretét](#set-azure-spending-budget) .</span><span class="sxs-lookup"><span data-stu-id="33a3c-107">You can [set a monthly Azure spending budget for your customers](#set-azure-spending-budget) in Partner Center.</span></span> <span data-ttu-id="33a3c-108">Ez segít az ügyfeleknek az Azure-kiadások kezelésében.</span><span class="sxs-lookup"><span data-stu-id="33a3c-108">This helps your customers manage their Azure spending.</span></span> <span data-ttu-id="33a3c-109">Ez a beállítás lehetővé teszi, hogy az ügyfelek Azure-kiadásait a hónap folyamán összehasonlítsa a költségvetésbe.</span><span class="sxs-lookup"><span data-stu-id="33a3c-109">This option allows you to compare your customers' Azure spending to the budget during the month.</span></span> <span data-ttu-id="33a3c-110">Emellett az ügyfelek számára is lehetővé teszi az Azure-kiadások költségvetését, így a havi számla nem nagyobb, mint amennyire várható.</span><span class="sxs-lookup"><span data-stu-id="33a3c-110">It also helps your customers to budget their Azure spending so their monthly bill isn't higher than they anticipate.</span></span>
+
+> [!NOTE]  
+> <span data-ttu-id="33a3c-111">Ez a funkció nem érhető el a homokozóban vagy a tesztelés éles (TIP) fiókokban.</span><span class="sxs-lookup"><span data-stu-id="33a3c-111">This feature is not available in sandbox or Test in Production (TIP) accounts.</span></span>
+
+<span data-ttu-id="33a3c-112">Miután [beállította az Azure-költségkeretet az ügyfél (ek) számára](#set-azure-spending-budget), a következő módokon tekintheti át az ügyfelek használatát.</span><span class="sxs-lookup"><span data-stu-id="33a3c-112">After you [set an Azure spending budget for your customer(s)](#set-azure-spending-budget), you can also review customer usage in the following ways.</span></span> <span data-ttu-id="33a3c-113">Ezek a lehetőségek segíthetnek a helytelenül konfigurált szolgáltatások vagy szokatlan, csalást okozó trendek felderítésében.</span><span class="sxs-lookup"><span data-stu-id="33a3c-113">These options may help you spot misconfigured services or unusual trends that might suggest fraud.</span></span> <span data-ttu-id="33a3c-114">Ezután a felhasználó (k) használatával azonosíthatja a kiváltó okot, és kezelheti a költségeket.</span><span class="sxs-lookup"><span data-stu-id="33a3c-114">You can then work with your customer(s) to identify the root cause and manage costs.</span></span> <span data-ttu-id="33a3c-115">Ha szükséges, [az ügyfél költségvetését is megváltoztathatja](#set-azure-spending-budget) magasabb értékre.</span><span class="sxs-lookup"><span data-stu-id="33a3c-115">If necessary, you can also [change the customer's budget](#set-azure-spending-budget) to a higher amount.</span></span>
+
+- [<span data-ttu-id="33a3c-116">Aktuális Azure-kiadások keresése</span><span class="sxs-lookup"><span data-stu-id="33a3c-116">Check current Azure spending</span></span>](#check-current-azure-spending)
+
+- [<span data-ttu-id="33a3c-117">E-mail-értesítések bekapcsolása, ha az ügyfél kiadásai közel vannak a költségvetési korláthoz</span><span class="sxs-lookup"><span data-stu-id="33a3c-117">Turn on email notifications for when a customer's spending is nearing their budget limit</span></span>](#notifications-for-budget-limits)
+
+- [<span data-ttu-id="33a3c-118">Részletezett költségek megtekintése szolgáltatás alapján a használaton alapuló előfizetésekhez</span><span class="sxs-lookup"><span data-stu-id="33a3c-118">View itemized costs by service for usage-based subscriptions</span></span>](#itemized-costs-by-service)
+
+<span data-ttu-id="33a3c-119">Az Azure- [költségkeretet bármikor el is távolíthatja](#remove-azure-spending-budget) az ügyfelekhez.</span><span class="sxs-lookup"><span data-stu-id="33a3c-119">You can also [remove an Azure spending budget](#remove-azure-spending-budget) for customer(s) at any time.</span></span>
+
+## <a name="azure-spending-data"></a><span data-ttu-id="33a3c-120">Az Azure kiadásai</span><span class="sxs-lookup"><span data-stu-id="33a3c-120">Azure spending data</span></span>
+
+<span data-ttu-id="33a3c-121">Az Azure-kiadási adatok *becsültek* , a *tényleges számlázási összegek pedig eltérőek lehetnek* .</span><span class="sxs-lookup"><span data-stu-id="33a3c-121">The Azure spending data is an *estimate* and *actual billing amounts may vary* .</span></span> <span data-ttu-id="33a3c-122">Az adatok értéke *nem tükrözi* az adókat, a krediteket, a beállításokat és az esetlegesen alkalmazandó egyéb díjakat.</span><span class="sxs-lookup"><span data-stu-id="33a3c-122">The data's value *doesn't reflect* taxes, credits, adjustments, or other charges that may apply.</span></span>
+
+<span data-ttu-id="33a3c-123">A kiadási adat *naponta egyszer frissül* .</span><span class="sxs-lookup"><span data-stu-id="33a3c-123">The spending data is *refreshed once per day* .</span></span> <span data-ttu-id="33a3c-124">Az ügyfelek továbbra is használhatják az Azure-szolgáltatások és-erőforrások használatát (és díjat számítanak fel), hacsak nem módosítja a fiók beállításait a Azure Portal.</span><span class="sxs-lookup"><span data-stu-id="33a3c-124">Your customers can continue to use (and be charged for) Azure services and resources, unless you change their account settings in the Azure portal.</span></span>
+
+## <a name="set-azure-spending-budget"></a><span data-ttu-id="33a3c-125">Az Azure-kiadások költségvetésének beállítása</span><span class="sxs-lookup"><span data-stu-id="33a3c-125">Set Azure spending budget</span></span>
+
+<span data-ttu-id="33a3c-126">A partner Centerben több ügyfél számára is *beállíthat havi Azure-költségkeretet* :</span><span class="sxs-lookup"><span data-stu-id="33a3c-126">You can *set a monthly Azure spending budget* for multiple customers in Partner Center:</span></span>
+
+1. <span data-ttu-id="33a3c-127">Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).</span><span class="sxs-lookup"><span data-stu-id="33a3c-127">Sign in to the [Partner Center dashboard](https://partner.microsoft.com/dashboard/).</span></span>
+
+2. <span data-ttu-id="33a3c-128">A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-128">In the left-hand menu under **CSP** , choose **Azure spending** .</span></span>
+
+3. <span data-ttu-id="33a3c-129">Az **Azure-kiadások** oldalon Microsoft Azure- **előfizetéssel rendelkező ügyfelek** területen válassza ki azokat az ügyfeleket, akik számára költségvetést kíván beállítani.</span><span class="sxs-lookup"><span data-stu-id="33a3c-129">On the **Azure spending** page, under **Customers with Microsoft Azure subscriptions** , select the customer(s) for whom you want to set a budget.</span></span>
+
+4. <span data-ttu-id="33a3c-130">Adja meg a **havi költségkeret** értékét.</span><span class="sxs-lookup"><span data-stu-id="33a3c-130">Enter a value for **Monthly budget** .</span></span>
+
+5. <span data-ttu-id="33a3c-131">A módosítások mentéséhez kattintson az **alkalmaz** gombra.</span><span class="sxs-lookup"><span data-stu-id="33a3c-131">Choose **Apply** to save your changes.</span></span>
+
+<span data-ttu-id="33a3c-132">Megadhat *egy költségvetést is egy egyéni ügyfél* számára az előfizetési beállításokban:</span><span class="sxs-lookup"><span data-stu-id="33a3c-132">You can also *set a budget for an individual customer* in their subscription settings:</span></span>
+
+1. <span data-ttu-id="33a3c-133">Jelentkezzen be a partner Center irányítópultra.</span><span class="sxs-lookup"><span data-stu-id="33a3c-133">Sign in to the Partner Center dashboard.</span></span>
+
+2. <span data-ttu-id="33a3c-134">A bal oldali menüben a **CSP** területen válassza az **ügyfelek** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-134">In the left-hand menu under **CSP** , choose **Customers** .</span></span>
+
+3. <span data-ttu-id="33a3c-135">Az **ügyfelek** lapon válassza ki az ügyfél **vállalatának nevét** .</span><span class="sxs-lookup"><span data-stu-id="33a3c-135">On the **Customers** page, select the customer's **Company name** .</span></span>
+
+4. <span data-ttu-id="33a3c-136">Az ügyfél **előfizetések** lapján, a **használaton alapuló előfizetés** területen válassza a **költségvetés módosítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-136">On the customer's **Subscriptions** page, under **Usage-based subscription** , choose **Change budget** .</span></span>
+
+5. <span data-ttu-id="33a3c-137">Adja meg a költségvetés értékét.</span><span class="sxs-lookup"><span data-stu-id="33a3c-137">Enter a value for the budget.</span></span>
+
+6. <span data-ttu-id="33a3c-138">A módosítások mentéséhez kattintson az **alkalmaz** gombra.</span><span class="sxs-lookup"><span data-stu-id="33a3c-138">Choose **Apply** to save your changes.</span></span>
+
+## <a name="remove-azure-spending-budget"></a><span data-ttu-id="33a3c-139">Az Azure-kiadások költségvetésének eltávolítása</span><span class="sxs-lookup"><span data-stu-id="33a3c-139">Remove Azure spending budget</span></span>
+
+<span data-ttu-id="33a3c-140">A partner Centerben a következő *havi Azure-költségkeretet távolíthatja el* ügyfeleinek:</span><span class="sxs-lookup"><span data-stu-id="33a3c-140">You can *remove a monthly Azure spending budget* for your customer(s) in Partner Center:</span></span>
+
+1. <span data-ttu-id="33a3c-141">Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).</span><span class="sxs-lookup"><span data-stu-id="33a3c-141">Sign in to the [Partner Center dashboard](https://partner.microsoft.com/dashboard/).</span></span>
+
+2. <span data-ttu-id="33a3c-142">A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-142">In the left-hand menu under **CSP** , choose **Azure spending** .</span></span>
+
+3. <span data-ttu-id="33a3c-143">Az **Azure-kiadások** oldalon Microsoft Azure- **előfizetéssel rendelkező ügyfelek** területen válassza ki azokat az ügyfeleket, akiknek a költségvetését el szeretné távolítani.</span><span class="sxs-lookup"><span data-stu-id="33a3c-143">On the **Azure spending** page, under **Customers with Microsoft Azure subscriptions** , select the customer(s) whose budget you want to remove.</span></span>
+
+4. <span data-ttu-id="33a3c-144">Válassza a **költségvetés eltávolítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-144">Choose **Remove budget** .</span></span>
+
+## <a name="check-current-azure-spending"></a><span data-ttu-id="33a3c-145">Aktuális Azure-kiadások keresése</span><span class="sxs-lookup"><span data-stu-id="33a3c-145">Check current Azure spending</span></span>
+
+<span data-ttu-id="33a3c-146">*Az ügyfelek aktuális Azure-kiadásait és havi költségkereteit bármikor nyomon követheti* :</span><span class="sxs-lookup"><span data-stu-id="33a3c-146">You can *track your customers' current Azure spending and monthly budgets* at any time:</span></span>
+
+1. <span data-ttu-id="33a3c-147">Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).</span><span class="sxs-lookup"><span data-stu-id="33a3c-147">Sign in to the [Partner Center dashboard](https://partner.microsoft.com/dashboard/).</span></span>
+
+2. <span data-ttu-id="33a3c-148">A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-148">In the left-hand menu under **CSP** , choose **Azure spending** .</span></span>
+
+3. <span data-ttu-id="33a3c-149">Az **Azure-kiadások** oldalon Microsoft Azure- **előfizetéssel rendelkező ügyfeleknél** tekintse meg az ügyfelek havi költségkeretét, a jelenlegi kiadási becsléseket és a felhasznált költségvetés százalékos arányát.</span><span class="sxs-lookup"><span data-stu-id="33a3c-149">On the **Azure spending** page, under **Customers with Microsoft Azure subscriptions** , you can see an overview of customers' monthly budgets, current spending estimates and percentage of budget used.</span></span>
+
+## <a name="notifications-for-budget-limits"></a><span data-ttu-id="33a3c-150">A költségvetési korlátokkal kapcsolatos értesítések</span><span class="sxs-lookup"><span data-stu-id="33a3c-150">Notifications for budget limits</span></span>
+
+<span data-ttu-id="33a3c-151">*Bekapcsolhatja az e-mailes értesítéseket* , amikor az ügyfél havi kiadásai elérik a költségvetési korlátot.</span><span class="sxs-lookup"><span data-stu-id="33a3c-151">You can *turn on email notifications* for when your customer's monthly spending is nearing their budget limit.</span></span> <span data-ttu-id="33a3c-152">Ha bekapcsolja ezt a beállítást, a rendszer értesítést küld, ha az ügyfelek a havi költségkeretük 80%-át használják.</span><span class="sxs-lookup"><span data-stu-id="33a3c-152">When you turn on this option, you will be notified when customers use 80% or more of their monthly budget.</span></span> <span data-ttu-id="33a3c-153">Ez a beállítás segít megőrizni az Azure-számlázást.</span><span class="sxs-lookup"><span data-stu-id="33a3c-153">This option helps you can keep an eye on your Azure bill.</span></span> <span data-ttu-id="33a3c-154">E-mail-értesítések konfigurálása:</span><span class="sxs-lookup"><span data-stu-id="33a3c-154">To configure email notifications:</span></span>
+
+1. <span data-ttu-id="33a3c-155">Jelentkezzen be a Partnerközpontba.</span><span class="sxs-lookup"><span data-stu-id="33a3c-155">Sign in to Partner Center.</span></span>
+
+2. <span data-ttu-id="33a3c-156">A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-156">In the left-hand menu under **CSP** , choose **Azure spending** .</span></span>
+
+3. <span data-ttu-id="33a3c-157">Az **Azure-kiadások** oldalon az **e-mail-értesítések** területen kapcsolja be az **e-mailek beolvasása** beállítást **a be** értékre.</span><span class="sxs-lookup"><span data-stu-id="33a3c-157">On the **Azure spending** page, under **Email notifications** , toggle the **Get emails** setting to **On** .</span></span>
+
+4. <span data-ttu-id="33a3c-158">Válassza az **e-mail cím módosítása** lehetőséget az értesítések e-mail-címének megtekintéséhez.</span><span class="sxs-lookup"><span data-stu-id="33a3c-158">Choose **Change email address** to see the email address for notifications.</span></span>
+
+5. <span data-ttu-id="33a3c-159">Ha az e-mail-cím *nem megfelelő* , adja meg a helyes e-mail-címet, és válassza a **frissítés** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-159">If the email address *isn't correct* , enter the correct email address and choose **Update** .</span></span> <span data-ttu-id="33a3c-160">Ha az e-mail-cím *helyes* , válassza a **Mégse** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-160">If the email address *is correct* , choose **Cancel** .</span></span>
+
+## <a name="itemized-costs-by-service"></a><span data-ttu-id="33a3c-161">Kitételi költségek szolgáltatás szerint</span><span class="sxs-lookup"><span data-stu-id="33a3c-161">Itemized costs by service</span></span>
+
+<span data-ttu-id="33a3c-162">*A tételes költségeket (és a becsült használatot) a szolgáltatás alapján, a használaton alapuló előfizetések esetében tekintheti* meg:</span><span class="sxs-lookup"><span data-stu-id="33a3c-162">You can *view itemized costs (and estimated usage) by service for usage-based subscriptions* :</span></span>
+
+1. <span data-ttu-id="33a3c-163">Jelentkezzen be a Partnerközpontba.</span><span class="sxs-lookup"><span data-stu-id="33a3c-163">Sign in to Partner Center.</span></span>
+
+2. <span data-ttu-id="33a3c-164">A bal oldali menüben a **CSP** területen válassza az **ügyfelek** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="33a3c-164">In the left-hand menu under **CSP** , choose **Customers** .</span></span>
+
+3. <span data-ttu-id="33a3c-165">Az **ügyfelek** lapon válassza ki az ügyfél **vállalatának nevét** .</span><span class="sxs-lookup"><span data-stu-id="33a3c-165">On the **Customers** page, select the customer's **Company name** .</span></span>
+
+4. <span data-ttu-id="33a3c-166">Az ügyfél **előfizetések** lapján, a **használat alapú előfizetések** területen válassza ki az **előfizetés** nevét.</span><span class="sxs-lookup"><span data-stu-id="33a3c-166">On the customer's **Subscriptions** page, under **Usage-based subscriptions** , select the name of the **Subscription** .</span></span>
+
+5. <span data-ttu-id="33a3c-167">Az előfizetés lapján áttekintheti a **részletezett költségeket** a szolgáltatás alapján, valamint az aktuális hónap **becsült felhasználását** .</span><span class="sxs-lookup"><span data-stu-id="33a3c-167">On the subscription's page, you can review the **Itemized costs** by service, and the **Estimated usage** for the current month.</span></span>

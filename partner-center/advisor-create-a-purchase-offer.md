@@ -1,0 +1,71 @@
+---
+title: Advisors – vásárlási ajánlat létrehozása
+ms.topic: article
+ms.date: 05/17/2020
+ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
+description: Megtudhatja, hogyan használhatja a partner centert egy olyan vásárlási ajánlat és egyéni URL-cím létrehozására, amelyet az Office 365 próbaverziójának meghívása tartalmaz.
+author: brentserbus
+ms.author: brserbus
+ms.localizationpriority: medium
+ms.custom: SEOMAY.20
+ms.openlocfilehash: a36f67609f0e51b0d65d0032610157fc4d81f97e
+ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.translationtype: MT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "92528063"
+---
+# <a name="advisors-create-a-purchase-offer"></a><span data-ttu-id="4a12c-103">Advisors: vásárlási ajánlat létrehozása</span><span class="sxs-lookup"><span data-stu-id="4a12c-103">Advisors: Create a purchase offer</span></span>
+
+<span data-ttu-id="4a12c-104">**A következőkre vonatkozik**</span><span class="sxs-lookup"><span data-stu-id="4a12c-104">**Applies to**</span></span>
+
+- <span data-ttu-id="4a12c-105">Partnerközpont</span><span class="sxs-lookup"><span data-stu-id="4a12c-105">Partner Center</span></span>
+ 
+<span data-ttu-id="4a12c-106">**Megfelelő szerepkörök**</span><span class="sxs-lookup"><span data-stu-id="4a12c-106">**Appropriate roles**</span></span>
+
+- <span data-ttu-id="4a12c-107">Tanácsadók</span><span class="sxs-lookup"><span data-stu-id="4a12c-107">Advisors</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="4a12c-108">Ez a funkció csak olyan Microsoft-partnerek számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.</span><span class="sxs-lookup"><span data-stu-id="4a12c-108">This feature is only available to Microsoft partners who are authorized subscription advisors.</span></span>
+
+<span data-ttu-id="4a12c-109">Miután elküldte az Office 365-hez készült próbaverziós meghívót egy ügyfélnek, nyomon követheti az ügyfél igényeihez igazított vásárlási ajánlat létrehozásával és elküldésével.</span><span class="sxs-lookup"><span data-stu-id="4a12c-109">After you've sent a trial invitation for Office 365 to a client, you can follow up by creating and sending a purchase offer that's customized to fit the needs of your client.</span></span> <span data-ttu-id="4a12c-110">Ha hitelesített felügyeletet biztosít, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi a fiók felügyeletét az ügyfél nevében.</span><span class="sxs-lookup"><span data-stu-id="4a12c-110">If you're certified to offer delegated administration, you can add an option to the purchase offer that allows you to administer the account on behalf of your client.</span></span>
+
+<span data-ttu-id="4a12c-111">A vételi ajánlat létrehozásakor a **vásárlási ajánlat létrehozása** varázsló létrehoz egy egyéni URL-címet.</span><span class="sxs-lookup"><span data-stu-id="4a12c-111">When you create the purchase offer, the **Create purchase offer** wizard creates a custom URL for you.</span></span> <span data-ttu-id="4a12c-112">Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként.</span><span class="sxs-lookup"><span data-stu-id="4a12c-112">The URL has an embedded code that identifies you as the subscription advisor.</span></span> <span data-ttu-id="4a12c-113">Ezt az URL-címet egy vagy több ügyfél számára is használhatja.</span><span class="sxs-lookup"><span data-stu-id="4a12c-113">You can use this URL for one or many clients.</span></span> <span data-ttu-id="4a12c-114">Küldje el e-mailben az ügyfélnek az URL-címet.</span><span class="sxs-lookup"><span data-stu-id="4a12c-114">Send the URL to your client in an email.</span></span> <span data-ttu-id="4a12c-115">Vagy közzéteheti az URL-címet a webhelyén.</span><span class="sxs-lookup"><span data-stu-id="4a12c-115">Or, you can post the URL on your website.</span></span> <span data-ttu-id="4a12c-116">Ha az ügyfél elfogadja az ajánlatot, az ügyfél vásárlásához van társítva.</span><span class="sxs-lookup"><span data-stu-id="4a12c-116">If your client accepts the offer, you are associated with your client's purchase.</span></span>
+
+<span data-ttu-id="4a12c-117">Ha az ügyfél eltérő számú licencet szeretne küldeni, küldjön nekik egy új ajánlatot, vagy megváltoztathatják a licencek számát, amikor megvásárolják az előfizetést.</span><span class="sxs-lookup"><span data-stu-id="4a12c-117">If your client wants a different number of licenses, send them a new offer or they can change the number of licenses when they purchase the subscription.</span></span>
+
+## <a name="to-create-a-purchase-offer"></a><span data-ttu-id="4a12c-118">Vételi ajánlat létrehozása</span><span class="sxs-lookup"><span data-stu-id="4a12c-118">To create a purchase offer</span></span>
+
+1. <span data-ttu-id="4a12c-119">A **próbaverziók és a vásárlási ajánlatok**  >  **létrehozási ajánlata** .</span><span class="sxs-lookup"><span data-stu-id="4a12c-119">Navigate to **Trials and purchase offers** > **Create offer** .</span></span>
+
+2. <span data-ttu-id="4a12c-120">A **vételi ajánlat létrehozása** lapon válassza ki a megvásárolni kívánt vásárlási ajánlatokat:</span><span class="sxs-lookup"><span data-stu-id="4a12c-120">On the **Create purchase offer** page, select the purchase offer options that you want to include:</span></span>
+
+    - <span data-ttu-id="4a12c-121">**Partner iroda** : Ha a vállalata több irodával rendelkezik, válassza ki azt az irodát, amelyhez ezt a vásárlási ajánlatot társítja.</span><span class="sxs-lookup"><span data-stu-id="4a12c-121">**Partner office** : If your company has multiple offices, choose the office that you want to associate this purchase offer with.</span></span>
+
+        <span data-ttu-id="4a12c-122">A partner Office-helyek hozzáadásával kapcsolatban lásd: [hely hozzáadása](manage-locations.md).</span><span class="sxs-lookup"><span data-stu-id="4a12c-122">To add partner office locations, see [Add a location](manage-locations.md).</span></span> <span data-ttu-id="4a12c-123">Az új Office-helyekhez akár 24 óráig is szükség lehet ahhoz, hogy megjelenjenek a **partner Office** -listán.</span><span class="sxs-lookup"><span data-stu-id="4a12c-123">New office locations may require up to 24 hours after they were created to appear in the **Partner office** list.</span></span>
+
+    - <span data-ttu-id="4a12c-124">**Használat helye** : válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.</span><span class="sxs-lookup"><span data-stu-id="4a12c-124">**Usage location** : Select the location where your client will use the services.</span></span>
+    - <span data-ttu-id="4a12c-125">**Előfizetések** : a kiválasztható előfizetések listáját az ügyfél országának vagy régiójának használati helye határozza meg.</span><span class="sxs-lookup"><span data-stu-id="4a12c-125">**Subscriptions** : The list of subscriptions that you can choose is determined by the usage location of your client's country or region.</span></span> <span data-ttu-id="4a12c-126">Jelölje be azon előfizetés vagy előfizetések jelölőnégyzetét, amelyekhez az ügyfelet fel kívánja ajánlani.</span><span class="sxs-lookup"><span data-stu-id="4a12c-126">Check the box of the subscription or subscriptions that you will offer your client.</span></span>
+    - <span data-ttu-id="4a12c-127">**Licencek száma** : Ha kiválaszt egy előfizetést, írja be a vásárlási ajánlatba felvenni kívánt licencek számát.</span><span class="sxs-lookup"><span data-stu-id="4a12c-127">**License count** : When you select a subscription, type the number of licenses that you want to include in the purchase offer.</span></span>
+    - <span data-ttu-id="4a12c-128">**Delegált felügyelet** : Ez a lehetőség csak olyan partnereink számára érhető el, akik jogosultak a delegált felügyeletre.</span><span class="sxs-lookup"><span data-stu-id="4a12c-128">**Delegated administration** : This option is only available to partners who are certified to offer delegated administration.</span></span> <span data-ttu-id="4a12c-129">Válassza ezt a lehetőséget, ha az ügyfél által delegált felügyeletet szeretné nyújtani.</span><span class="sxs-lookup"><span data-stu-id="4a12c-129">Choose this option if you want to offer your client delegated administration.</span></span> <span data-ttu-id="4a12c-130">Ha így tesz, az ügyfél elfogadhatja a vételi ajánlatot a delegált felügyelet elfogadásával vagy anélkül is.</span><span class="sxs-lookup"><span data-stu-id="4a12c-130">If you do, your client can accept the purchase offer with or without acceptance of delegated administration.</span></span>
+
+3. <span data-ttu-id="4a12c-131">Kattintson a **Tovább** gombra.</span><span class="sxs-lookup"><span data-stu-id="4a12c-131">Click **Next** .</span></span>
+
+4. <span data-ttu-id="4a12c-132">A **Küldés** lapon másolja a vásárlási ajánlat adatait és URL-címét, majd illessze be egy e-mailbe, dokumentumba vagy weblapra egy testreszabott vásárlási ajánlat létrehozásához.</span><span class="sxs-lookup"><span data-stu-id="4a12c-132">On the **Send** page, copy the purchase offer information and URL, and then paste it into an email, a document, or a webpage to create a customized purchase offer.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="4a12c-133">Jegyezze fel a vásárlási ajánlat **összegző azonosítóját** .</span><span class="sxs-lookup"><span data-stu-id="4a12c-133">Make a note of the Purchase offer **summary ID** .</span></span> <span data-ttu-id="4a12c-134">Használja az ajánlat nyomon követésére.</span><span class="sxs-lookup"><span data-stu-id="4a12c-134">Use it to track the offer.</span></span>
+
+5. <span data-ttu-id="4a12c-135">Az üzenetet személyre szabhatja a cég emblémájának, bevezetésének, záró megjegyzésének vagy egyéb információnak a segítségével.</span><span class="sxs-lookup"><span data-stu-id="4a12c-135">You can personalize the message by including your company logo, introduction, closing remarks, or other information.</span></span>
+
+    <span data-ttu-id="4a12c-136">Küldje el a vásárlási ajánlatot az ügyfélnek.</span><span class="sxs-lookup"><span data-stu-id="4a12c-136">Send the purchase offer to your client.</span></span>
+
+6. <span data-ttu-id="4a12c-137">Ha testreszabja az üzenetet, vegye figyelembe az alábbi információkat is:</span><span class="sxs-lookup"><span data-stu-id="4a12c-137">When you customize your message, consider including this information:</span></span>
+
+    - <span data-ttu-id="4a12c-138">Azonosítsa magát meghatalmazott Microsoft Cloud partnerként.</span><span class="sxs-lookup"><span data-stu-id="4a12c-138">Identify yourself as an authorized Microsoft Cloud Partner.</span></span>
+    - <span data-ttu-id="4a12c-139">Tájékoztassa az ügyfeleket arról, hogy a számlázást közvetlenül a Microsoft végzi.</span><span class="sxs-lookup"><span data-stu-id="4a12c-139">Let clients know that they'll be billed directly by Microsoft.</span></span>
+    - <span data-ttu-id="4a12c-140">Tájékoztassa az ügyfeleket a szolgáltatással vagy az ajánlattal kapcsolatos kérdésekkel kapcsolatban.</span><span class="sxs-lookup"><span data-stu-id="4a12c-140">Tell clients how to contact you with questions about the service or the offer.</span></span>
+    - <span data-ttu-id="4a12c-141">Tájékoztassa az ügyfeleket arról, hogy szabályozzák a megvásárolt felhasználói licencek számát, és módosíthatják a licencek számát, ha elfogadják az ajánlatot.</span><span class="sxs-lookup"><span data-stu-id="4a12c-141">Let clients know that they control the number of user licenses purchased and can change the number of licenses when they accept the offer.</span></span>
+    - <span data-ttu-id="4a12c-142">Ha delegált felügyeletre vonatkozó ajánlatot tesz, magyarázza el, hogy mit jelent, és milyen kötelezettségei vannak.</span><span class="sxs-lookup"><span data-stu-id="4a12c-142">If you offer delegated administration, explain what it means, and what your responsibilities are.</span></span> <span data-ttu-id="4a12c-143">A delegált felügyelettel kapcsolatos további információkért lásd: [delegált felügyelet nyújtása](customers-revoke-admin-privileges.md).</span><span class="sxs-lookup"><span data-stu-id="4a12c-143">For more information about delegated administration, see [Offer delegated administration](customers-revoke-admin-privileges.md).</span></span>
