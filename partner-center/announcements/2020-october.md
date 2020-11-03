@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 10/27/2020
-ms.openlocfilehash: d41ec7b7ce3c8f7140b0944b4d39150ef34a9d83
-ms.sourcegitcommit: 3cca87a10e8aebbf5be144ef525217509f0521ec
+ms.date: 10/30/2020
+ms.openlocfilehash: ae27f193839d5456457afc923fd7834a8ff106f9
+ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "93027907"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132827"
 ---
 # <a name="october-2020-announcements"></a>2020. októberi közlemények
 
@@ -24,6 +24,28 @@ Ez az oldal a Microsoft partner Center 2020-es októberi hirdetményeit részlet
 
 ______________
 
+## <a name="windows-server-software-subscriptions-feature-updates"></a><a name="17"></a>A Windows Server szoftver-előfizetések funkciójának frissítései
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-29
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A felhőalapú megoldás-szolgáltató (CSP) partnerei, akik korábban megvásárolták a Windows Server standard szoftver előfizetéseit
+
+### <a name="details"></a>Részletek
+
+A Microsoft bejelenti a Windows Server-előfizetések új funkciójának kiadását a CSP-re a 2020-es október 30-án. A frissítés tartalmazza a Windows Server szoftver előfizetési termékeit: Windows Server standard, **Version 20H2** (CSP termék azonosítója: DG7GMGF0DVT9). A frissített letöltési fájl már elérhető ehhez a termékhez. A partnerek úgy dönthetnek, hogy letöltik a legújabb fájlt az új funkciók beszerzéséhez.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Kérjük, ossza meg ezeket az információkat a szervezete megfelelő partnereivel.
+- A [Windows Server-verzió 20H2 dokumentációjának](/windows/release-information/status-windows-10-20h2) áttekintése
+
+________________
+
 ## <a name="windows-10-education-upgrade-is-now-available-to-qualified-cloud-solution-provider-csp-education-customers"></a><a name="16"></a>A Windows 10-es oktatási frissítése mostantól elérhető a minősített felhőalapú megoldás-szolgáltató (CSP) oktatási ügyfelei számára
 
 ### <a name="categories"></a>Kategóriák
@@ -31,7 +53,7 @@ ______________
 - Dátum: 2020-10-28
 - Képességek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetést megvásárolt CSP-partnerek mostantól segíthetnek a Windows 10-es otthoni eszközök frissítésében a Windows 10 Education szolgáltatásban.
 
@@ -82,7 +104,7 @@ Ez az új digitális felület a következőket tartalmazza:
 - Új felhőalapú megoldás-szolgáltató program útikönyve, amely segít a partnereknek új lehetőségek azonosításában: Ez a részletes útmutató segítséget nyújt a partnereknek a Felhőbeli üzleti növekedés felgyorsításához a programmal és a bevételi lehetőségek kibővítésével.
 - A CSP program tartalma a megoldás munkaterületen: a megoldás munkaterülete egy digitális felület, amely egyetlen célhelyet biztosít az igény szerinti erőforrásokhoz, így gyorsabban piacra viheti ötleteit. A szolgáltatók mostantól a megoldás munkaterületen találhatják meg a CSP-programokra vonatkozó tartalmakat és erőforrásokat.
 
-### <a name="additional-resources"></a>További erőforrások
+### <a name="additional-resources"></a>További források
 
 - [A frissített CSP-oldal](https://aka.ms/CSP) meglátogatása 
 - Tekintse át [az új CSP program útikönyvét](https://aka.ms/cspguidebook) , és tudjon meg többet a növekedési lehetőségekről
@@ -99,7 +121,7 @@ ________________
 - Dátum: 2020-10-26
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 Frissítettük a szoftveres előfizetések árlista október 2020-es listáját.
 
@@ -120,7 +142,7 @@ Az [Azure SQL Edge](2020-september.md#9) kiadása a 2020. szeptember végén jel
 
 Az összes CSP partner Center-árlista a partner Centerbe való bejelentkezéssel és az értékesítések/ajánlatok és a díjszabás használatával érhető el.
 
-### <a name="additional-resources"></a>További erőforrások
+### <a name="additional-resources"></a>További források
 
 - [Windows 7 támogatás – GYIK oldal](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-end-support-faq)
 - [Windows 7 támogatás és Microsoft 365 alkalmazások](/deployoffice/endofsupport/windows-7-support)
@@ -136,7 +158,7 @@ ________________
 - Dátum: 2020-10-27
 - Képességek
  
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Cloud Solution Provider programban a közvetlen számlázási partneri követelmények részeként bemutatjuk a teljesítmény szabványát.
 
@@ -201,7 +223,7 @@ ________________________________
 - Dátum: 2020-10-16
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A novemberi árlista előzetes verziójában helytelenek az ajánlatok azonosítói.
 
@@ -245,7 +267,7 @@ ________________
 - Dátum: 2020-10-14
 - Képesség
  
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 Az MPA engedélyezési útmutató frissítései.
 
 ### <a name="impacted-audience"></a>Érintett közönség
@@ -267,7 +289,7 @@ ________________
 - Dátum: 2020-10-12
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 2020. november 1-jén a Microsoft új SKU-t fog bevezetni a nonprofit szervezetek számára Microsoft 365 Vállalati verzió hangra.
 
@@ -334,7 +356,7 @@ Ezek a promóciók a következő ügyfeleket érintik:
 - NET új ügyfél bérlők
 - Meglévő ügyfél-bérlők, akik nem rendelkeznek aktív vagy nemrégiben megszakított (az elmúlt 30 napban) előfizetéssel a CSP-n, a web Directen vagy bármely más Microsoft kereskedelmi csatornán lévő üzleti hang-és hangkonferencia-licenccel kapcsolatban
 
-#### <a name="additional-resources"></a>További erőforrások
+#### <a name="additional-resources"></a>További források
 
 - Látogasson el a [Microsoft 365 vállalati verzió Hangpartner oldalára](https://www.microsoft.com/microsoft-365/partners/businessvoice) , ahol többet tudhat meg az üzleti hangról. 
 - A [hangkonferencia további lehetőségeinek](/microsoftteams/audio-conferencing-in-office-365)megismeréséhez tekintse meg Microsoft 365 hangkonferencia című témakört.
@@ -359,7 +381,7 @@ ________________
 - Dátum: 2020-10-07
 - Képesség
  
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 Az Azure Portal felhasználói élményt (UX) nemrég módosították az összes Azure-alkalmazáshoz. Ez egy frissítés a független szoftvergyártók (ISV-ket) számára a várt és a következő lépések végrehajtásához.
 
@@ -395,7 +417,7 @@ ________________
 - Dátum: 2020-10-05
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 A Microsoft Teams Premium SKU a Microsoft Teams szolgáltatáshoz a Cloud Solution Provider (CSP) program keretében 2020 november 1-jén lesz elérhető. 
 
@@ -460,7 +482,7 @@ ________________
 - Dátum: 2020-10-02
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft örömmel jelentheti be, hogy a Microsoft Calling Plans mostantól a következő új piacokon érhető el: Ausztria, Dánia, Olaszország, Portugália, Svédország és Svájc.
  
@@ -516,7 +538,7 @@ ________________
 - Dátum: 2020-10-02
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 2020. november 1-jén a Microsoft Teams speciális kommunikációjának új promóciós díjszabása lesz elérhető. 
 
@@ -591,7 +613,7 @@ A Cloud Solution Provider (CSP) partnerei
 - Dynamics 365 ügyfél hangalapú felhasználói előfizetés licence (felhasználói előfizetési licenc) 
 - Ajánlatok kibontása a CSP-ben
 
-### <a name="additional-resources"></a>További erőforrások
+### <a name="additional-resources"></a>További források
 
 - Tekintse át a [Dynamics CSP Offers-November 2020](https://partner.microsoft.com/resources/detail/dynamics-csp-offers-november-2020-xls) Excel-dokumentum Project Operations lapján az ajánlat-azonosító részleteit.
 - További információt a [Microsoft Dynamics 365 Customer Voice kezdőlapján](https://dynamics.microsoft.com/customer-voice/overview/)talál.
@@ -638,7 +660,7 @@ ________________
 - Dátum: 2020-10-01
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 Örömmel jelentjük be, hogy az ügyfelek kihasználják a [Project Cortex](https://resources.techcommunity.microsoft.com/project-cortex-microsoft-365/) és a Microsoft Search hatékonyságát az új SKU-i október 1-től 2020-én.
  
@@ -689,7 +711,7 @@ ________________
 - Dátum: 2020-10-01
 - Képességek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A FY21 CSP ösztönző programjának időtartama 2020 október 1-től kezdődik. A FY21 ösztönző útmutatók és a Walking deckek mostantól elérhetők a partner Centerben.
  
