@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 10/27/2020
-ms.openlocfilehash: 4877c3c21449c8b5cc4224973d159d70635d9262
-ms.sourcegitcommit: 4bff85c6a13a990d5eb6c4a4ef44e1013d06948e
+ms.openlocfilehash: f90c9ae32e68d6e772c51cede28237f500a0a7b9
+ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92903043"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917253"
 ---
 # <a name="october-2020-announcements"></a>2020. októberi közlemények
 
@@ -23,6 +23,38 @@ Ez az oldal a Microsoft partner Center 2020-es októberi hirdetményeit részlet
 2020 bejelentések [:](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [July](2020-july.md)  |  [augusztus](2020-august.md)  |  [September](2020-september.md) | . Október
 
 ______________
+
+## <a name="refreshed-cloud-solution-provider-csp-digital-experience-now-available"></a><a name="15"></a>A frissített Cloud Solution Provider (CSP) digitális felülete már elérhető
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-28
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+CSP-partnerek
+
+### <a name="details"></a>Részletek
+
+A Microsoft elkötelezte magát arra, hogy a partnereink számára is maximalizálja a saját potenciálját, innovatív megoldásokat hozhat létre, és a Microsoft Partner Network nagyobb sikert eredményez. A Cloud Solution Provider (CSP) program az egyik leggyorsabban növekvő program, amely több mint 90 000 résztvevő vállalattal rendelkezik.
+Annak érdekében, hogy felgyorsítsa a partnerek üzleti növekedését a Cloud Solution Provider programban, egy frissített Cloud Solution program (CSP) digitális élményt nyújtunk a Microsoft Partner Network webhelyén és egy új CSP-útikönyvben. Ez a megújult élmény és új erőforrások segítik a partnereket abban, hogy új lehetőségeket hozzanak fel, és hatékonyabban fejlesszenek üzleti tevékenységüket a CSP programban.
+
+Ez az új digitális felület a következőket tartalmazza:
+
+- Frissített CSP digitális felhasználói élmény a partneri üzleti növekedés felgyorsításához: a frissített CSP oldal zökkenőmentesen használható élményt nyújt a partnernek a regisztráció, a gyakorlatok, a piacra jutás és az értékesítés terén való megvásárlásához. A partnerek bevételi lehetőségeiket értékesítési kampányok és piaci részesedéssel rendelkező erőforrások segítségével növelhetik. Az egyéb integrált erőforrások segítséget nyújtanak a partnereknek abban, hogy naprakészek legyenek, és megkönnyítsék az üzleti tevékenységet a CSP programban.
+- Új felhőalapú megoldás-szolgáltató program útikönyve, amely segít a partnereknek új lehetőségek azonosításában: Ez a részletes útmutató segítséget nyújt a partnereknek a Felhőbeli üzleti növekedés felgyorsításához a programmal és a bevételi lehetőségek kibővítésével.
+- A CSP program tartalma a megoldás munkaterületen: a megoldás munkaterülete egy digitális felület, amely egyetlen célhelyet biztosít az igény szerinti erőforrásokhoz, így gyorsabban piacra viheti ötleteit. A szolgáltatók mostantól a megoldás munkaterületen találhatják meg a CSP-programokra vonatkozó tartalmakat és erőforrásokat.
+
+### <a name="additional-resources"></a>További erőforrások
+
+- [A frissített CSP-oldal](https://aka.ms/CSP) meglátogatása 
+- Tekintse át [az új CSP program útikönyvét](https://aka.ms/cspguidebook) , és tudjon meg többet a növekedési lehetőségekről
+- A megoldás-munkaterület használatának megkezdése a gyakorlatok kiépítéséhez és a lépések egyszerűsítéséhez
+- Több kampány elolvasása a Sales szolgáltatás erőforrásaival 
+- Kérje meg a munkatársakat a CSP-oldal meglátogatására és a szervezeten belüli erőforrások megosztására. Közvetett szolgáltatók esetén ossza meg az erőforrásokat a közvetett viszonteladókkal.
+
+________________
 
 ## <a name="october-2020-cloud-solution-provider-csp-software-subscriptions-price-list-updates"></a><a name="14"></a>Október 2020 Cloud Solution Provider (CSP) szoftver-előfizetések árlista frissítései
 
