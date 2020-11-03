@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 10/14/2020
-ms.openlocfilehash: 453d6e130a6c563e7aac23cef1c7a91f8125fd9c
-ms.sourcegitcommit: 13248a782fe6854909a2f1ed3eb6d9d0f2cb5a67
+ms.openlocfilehash: 4e78743c8dd03dd4540077aaa9f9d17799d1af80
+ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92749745"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795813"
 ---
 # <a name="october-2020-announcements"></a>Október 2020 közlemények
 
@@ -45,7 +45,7 @@ A Microsoft Cloud megoldás-szolgáltató program egyre növekvő és optimaliz�
 
 Napjainkban a Cloud Solution Provider programban a közvetlen számlázási partnerekkel kapcsolatos követelmények néhány jövőbeli változását megosztjuk.
 
-Először is **bevezetjük a teljesítmény standardot a közvetlen számlázási partneri követelmények részeként** . Azoknak a partnereknek, akik közvetlen számlás partnerként szeretnének regisztrálni a felhőalapú megoldás-szolgáltatói programban, legalább USD300K kell teljesíteniük a Cloud Solution Provider program bevételét a [szükséges támogatási szerződés](https://partner.microsoft.com/support/partnersupport) megújításának napját megelőző 12 hónapban.
+Először is **bevezetjük a teljesítmény standardot a közvetlen számlázási partneri követelmények részeként**. Azoknak a partnereknek, akik közvetlen számlás partnerként szeretnének regisztrálni a felhőalapú megoldás-szolgáltatói programban, legalább USD300K kell teljesíteniük a Cloud Solution Provider program bevételét a [szükséges támogatási szerződés](https://partner.microsoft.com/support/partnersupport) megújításának napját megelőző 12 hónapban.
 
 Ez a teljesítmény-szabvány a jelenlegi közvetlen számlázási partnerek esetében 2021 januárjában lép érvénybe, és meg kell felelnie a partner támogatási tervének megújítási dátuma alapján támasztott követelményeknek.
 
@@ -57,7 +57,7 @@ Másodszor, a 2018 augusztusában frissítettük a közvetlen számlázási part
 
 ### <a name="direct-bill-partner-requirements"></a>Közvetlen számlázási partneri követelmények
 
-Tekintse át a [frissített közvetlen számlázási partneri követelményeket](https://docs.microsoft.com/partner-center/direct-partner-new-requirements#minimum-requirements) és ajánlásokat annak kiértékeléséhez, hogy a felhőalapú megoldás-szolgáltatói programban miként hozhat létre és kibővítheti a nyereséges üzleti tevékenységet a megfelelő modellel:
+Tekintse át a [frissített közvetlen számlázási partneri követelményeket](../direct-partner-new-requirements.md#minimum-requirements) és ajánlásokat annak kiértékeléséhez, hogy a felhőalapú megoldás-szolgáltatói programban miként hozhat létre és kibővítheti a nyereséges üzleti tevékenységet a megfelelő modellel:
 
 1. **új bevételi teljesítményre vonatkozó követelmény**
 
@@ -80,11 +80,11 @@ A támogatási lehetőségek kibővítéséhez vásárolja meg a két támogatá
 
 Annak érdekében, hogy készen álljon a közvetlen számlázási program támogatásához szükséges infrastruktúra megismerésére, további Javaslatunk van. Igazolja, hogy legalább egy felügyelt szolgáltatást, IP-szolgáltatást vagy ügyfél-megoldási alkalmazást biztosít. A partnereknek értéket kell hozzáadniuk Microsoft Cloud-szolgáltatásokhoz, és nem csupán a szolgáltatásaink azonnali viszonteladását. Ez fontos része a partner piaci megjelenési stratégiájának. [További](https://partner.microsoft.com/solutions/managed-services) információ a felügyelt szolgáltatások hozzáadásáról. Javasoljuk, hogy teljesítse a minimális infrastrukturális képességeket, például a számlázást és a létesítést. 
 
-Az új követelményeknek meg nem felelő CSP-program közvetlen számlázási partnereit újra regisztrálni kell a programban a Microsoft Partner Networkon belül. [Tudjon meg többet](https://docs.microsoft.com/partner-center/transition-direct-to-indirect) arról, hogyan teheti át a közvetlen számlázási partnertől a közvetett viszonteladó felé való áttérést.  
+Az új követelményeknek meg nem felelő CSP-program közvetlen számlázási partnereit újra regisztrálni kell a programban a Microsoft Partner Networkon belül. [Tudjon meg többet](../transition-direct-to-indirect.md) arról, hogyan teheti át a közvetlen számlázási partnertől a közvetett viszonteladó felé való áttérést.  
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Tekintse át a [frissített közvetlen számlázási partneri követelményeket](https://docs.microsoft.com/partner-center/direct-partner-new-requirements#minimum-requirements).
+- Tekintse át a [frissített közvetlen számlázási partneri követelményeket](../direct-partner-new-requirements.md#minimum-requirements).
 - Tekintse át a GYIK és egyéb információkat a [Microsoft partner webhelyének operatív erőforrás-galériájában](https://partner.microsoft.com/resources/collection/new-performance-standard-for-direct-bill-partner-requirements-in-csp#/).
 - Keressen [egy közvetett szolgáltatót, hogy működjön,](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) ha a közvetett viszonteladói lehetőség jobban illeszkedik az Ön üzleti igényeihez.
 ________________________________
@@ -232,7 +232,7 @@ Ezek a promóciók a következő ügyfeleket érintik:
 #### <a name="additional-resources"></a>További források
 
 - Látogasson el a [Microsoft 365 vállalati verzió Hangpartner oldalára](https://www.microsoft.com/microsoft-365/partners/businessvoice) , ahol többet tudhat meg az üzleti hangról. 
-- A [hangkonferencia további lehetőségeinek](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)megismeréséhez tekintse meg Microsoft 365 hangkonferencia című témakört.
+- A [hangkonferencia további lehetőségeinek](/microsoftteams/audio-conferencing-in-office-365)megismeréséhez tekintse meg Microsoft 365 hangkonferencia című témakört.
 - További információt ezekről a promóciókról a kapcsolódó [Partner GYIK](https://www.microsoft.com/microsoft-365/partners/resources/faq-business-voice-audio-conferencing-promo)-ban talál.
 
 ### <a name="next-steps"></a>Következő lépések
@@ -273,7 +273,7 @@ A Azure Portal újdonságai:
 
 - Rugalmas navigálás, amely lehetővé teszi az információk megtekintését, szerkesztését és mentését bármely szakaszban anélkül, hogy el kellene végeznie az előző szakaszt.
 - Új teljes oldal nézet több beágyazott szint nélkül.
-- Új funkciók az Azure-erőforrások címkézéséhez és rendszerezéséhez. A címkézéssel kapcsolatos további tudnivalókért tekintse meg [a címkék használata az Azure-erőforrások rendszerezéséhez](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources)című témakört.
+- Új funkciók az Azure-erőforrások címkézéséhez és rendszerezéséhez. A címkézéssel kapcsolatos további tudnivalókért tekintse meg [a címkék használata az Azure-erőforrások rendszerezéséhez](/azure/azure-resource-manager/management/tag-resources)című témakört.
 
 Ha kérdése van ezekkel a változásokkal kapcsolatban, forduljon a [támogatási csapathoz](https://aka.ms/marketplacepublishersupport).
 
@@ -490,7 +490,7 @@ A Cloud Solution Provider (CSP) partnerei
 
 - Tekintse át a [Dynamics CSP Offers-November 2020](https://partner.microsoft.com/resources/detail/dynamics-csp-offers-november-2020-xls) Excel-dokumentum Project Operations lapján az ajánlat-azonosító részleteit.
 - További információt a [Microsoft Dynamics 365 Customer Voice kezdőlapján](https://dynamics.microsoft.com/customer-voice/overview/)talál.
-- Tekintse meg a szeptember [Dynamics új ajánlatok bejelentését](https://docs.microsoft.com/partner-center/announcements/2020-september#3).
+- Tekintse meg a szeptember [Dynamics új ajánlatok bejelentését](2020-september.md#3).
 
 ________________
 

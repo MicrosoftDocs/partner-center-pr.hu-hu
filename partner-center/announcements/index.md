@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 06/24/2020
-ms.openlocfilehash: 94403cddbfa2f316b7ade84af1d9a1d233544fb4
-ms.sourcegitcommit: 13248a782fe6854909a2f1ed3eb6d9d0f2cb5a67
+ms.date: 10/27/2020
+ms.openlocfilehash: 4df4e473ea31ad5a9f0da52ab45f65000db344d9
+ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92749706"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917212"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,7 +22,9 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2020. októberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Képességek|[Mostantól elérhető a megújult felhőszolgáltatói (CSP) digitális felhasználói felület](2020-october.md#15)|Október 28.|
 |Képességek|[A közvetlen számlázású partnerek követelményeire vonatkozó teljesítményszabvány bevezetése a felhőszolgáltatói (CSP-) programban](2020-october.md#13)|Október 27.|
+|Ajánlatok/piacok|[A felhőszolgáltatói (CSP) szoftver-előfizetések árlistájának 2020. októberi változásai](2020-october.md#14)|Október 26.|
 |Ajánlatok/piacok|[A Microsoft 365 Business Voice-ajánlat frissítései](2020-october.md#12)|Október 16.|
 |Képességek|[2020. novemberi frissítés: Az online szolgáltatások és a szoftvercsatorna engedélyezési útmutatója](2020-october.md#11)|Október 14.|
 |Ajánlatok/piacok|[A nonprofit szervezeteknek készült Microsoft 365 Business Voice bemutatása](2020-october.md#10)|Október 12.|

@@ -8,43 +8,42 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.date: 10/28/2020
-ms.openlocfilehash: 760e0157437dbad74c779100123b4239083ca6b7
-ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
+ms.date: 10/29/2020
+ms.openlocfilehash: 7b965bff0a962e26e5e5800a6059e4a6fc7a1d6a
+ms.sourcegitcommit: 7dd8aa793922160102a7a6aaca2c7e8f9a49b8a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917144"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045379"
 ---
 # <a name="requirements-to-enroll-as-a-csp-direct-bill-partner"></a>A közvetlen számlázású CSP-partnerként való regisztráció követelményei
 
-**A következőre érvényes:**
+**A következőkre vonatkozik**
 
 - Közvetlen számlázási partnerek a Cloud Solution Provider programban
 
 ## <a name="enroll-as-a-direct-partner"></a>Regisztrálás közvetlen partnerként
 
-Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Frissítettük a regisztrációs követelményeket a közvetlen számlázási partnereink számára, 2018. augusztus 31-ig. Ezek az új követelmények megkönnyítik az üzleti növekedés felgyorsítását a megfelelő CSP-regisztrációs modellel. Emellett a hozzáadott értéknövelt szolgáltatásokkal és támogatással is segítenek az ügyfélkapcsolatok megerősítésében.
+Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Frissítettük a regisztrációs követelményeket a közvetlen számlázási partnereink számára, 2020. október 27-én. Ezek a követelmények segítenek felgyorsítani az üzleti növekedést a megfelelő felhőalapú megoldás-szolgáltatói modellel, és megerősítik az ügyfélkapcsolatokat értéknövelt szolgáltatásokkal és támogatással.  
 
 ### <a name="minimum-requirements"></a>Minimális követelmények
 
-|**Követelmény**| **Magyarázat**|
+|**Követelmény**|                |
 |--------------------------------|--------------------------------------------------------------|
-|**MPN-azonosító**   |Aktív Microsoft Partner Network-(MPN-) azonosító a vállalati helyhez.    |
+|**MPN-azonosító**   |Aktív tagság a Microsoft Partner Network és az MPN-AZONOSÍTÓban azon a helyen, ahová az értékesítést el szeretné adni.   |
 |**Ajánlás**   |A jogi szerződések elfogadására és aláírására szolgáló hatóság a szervezet nevében.|
-|**Bevétel**|Meg kell felelnie legalább USD300K a Cloud Solution Provider programban az előző tizenkét hónapban közvetett viszonteladóként végzett éves bevételnek. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partneri központban. a USD300K-t követő tizenkét hónapos bevételt követő értékesítések a Microsoft általi felülvizsgálat és ellenőrzés alá esnek, és további információkat is kérhetnek. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben. Az előző 12 hónapos bevétel részleteiért tekintse meg az [előfizetés-elemzést](https://partner.microsoft.com/dashboard/analytics/licenseanalytics) .|
-|**Támogatás**   |A felhőalapú terméktámogatás első szintjének megadásának lehetősége az ügyfelek számára. <br/>Egy Microsoft támogatási csomag, amely a partnerek (ASfP) vagy a Premier szintű támogatás for Partners (PSfP) speciális támogatása az igényeitől függően. A [támogatási csomagok összehasonlítása](https://partner.microsoft.com/support/partnersupport).<br/> Fontos: a támogatási csomag megvásárlása előtt meg kell adnia egy kredit-ellenőrzési eszközt. A kredit-ellenőrzés átadásakor e-mailt küldünk Önnek. |
-|**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfél-megoldás alkalmazás. További információ a [felügyelt szolgáltatások](https://partner.microsoft.com/business-opportunities/managed-services-provider)hozzáadásáról.|
+|**Támogatás**   |A felhőalapú terméktámogatás első szintjének megadásának lehetősége az ügyfelek számára. <br/>Egy Microsoft támogatási csomag, amely a partnerek (ASfP) vagy a Premier szintű támogatás for Partners (PSfP) speciális támogatása az igényeitől függően. A [támogatási csomagok összehasonlítása](https://partner.microsoft.com/support/partnersupport).<br/>Fontos: a támogatási csomag megvásárlása előtt meg kell adnia egy kredit-ellenőrzési eszközt. A kredit-ellenőrzés átadásakor e-mailt küldünk Önnek. |
+|**Bevételi követelmény**|Meg kell felelnie legalább USD300K a Cloud Solution Provider programban az előző tizenkét hónapban közvetett viszonteladóként végzett éves bevételnek. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partner Centerben.<br/>A USD300K követő tizenkét hónapos bevételt alkotó értékesítéseket a Microsoft felülvizsgálja és igazolja, és előfordulhat, hogy további információkat kell megadnia. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.|
 |**Kinnlevőségek** |Az ügyfél számlázásának és kiépítésének kezelésére szolgáló szervezeti infrastruktúra.|
+|**Ajánlás**|             |
+|**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfél-megoldás alkalmazás. További információ a [felügyelt szolgáltatások](https://partner.microsoft.com/business-opportunities/managed-services-provider)hozzáadásáról.|
+
 
 ### <a name="verify-direct-bill-eligibility"></a>Közvetlen számlázási jogosultság ellenőrzése
 
-Ha még nem tette meg, tekintse át a fenti minimumkövetelményeket, és győződjön meg arról, hogy megfelel a követelményeknek, majd fejezze be a [felhőalapú megoldás-szolgáltatói kérdőívet](https://partner.microsoft.com/cloud-solution-provider/assessment).
+Miután meggyőződött arról, hogy teljesíti a közvetlen számlázási partnerként való regisztráláshoz szükséges minimális követelményeket, folytassa a [beléptetési űrlap](https://partner.microsoft.com/pcv/register/joinnow/enrollmentwelcome/Reseller/migrate?cloudInstance=Global)használatával.
 
-Az űrlapon feltett kérdésekre adott válaszait felhasználva eldöntheti, hogy a KRIPTOGRÁFIAi programban való részvételre vonatkozó jogosultságot közvetlen számlázási partnerként regisztrálja-e.
-
-Miután meggyőződött arról, hogy a vállalata teljesítette a közvetlen számlázási partnerként való regisztrálásra vonatkozó jogosultsági követelményeket, és hogy végrehajtotta a beléptetési alkalmazást, áttekintjük és ellenőrizzük a beléptetési folyamat során megadott üzleti adatokat. Ennek a felülvizsgálatnak a részeként ellenőrizzük a vállalat kreditjét. Értesítjük e-mailben, ha a vállalata átadta a kredit-ellenőrzéseket.
-
+Miután meggyőződött arról, hogy a vállalat megfelel a közvetlen számlázási partnerként való regisztrálásra vonatkozó jogosultsági követelményeknek, és végrehajtotta a beléptetési alkalmazást, áttekintjük és ellenőrizzük a beléptetési folyamat során megadott üzleti adatokat. Ennek a felülvizsgálatnak a részeként ellenőrizzük a vállalat kreditjét. Értesítjük e-mailben, ha a vállalata átadta a kredit-ellenőrzéseket.
 >[!IMPORTANT]
 >A céges kreditek ellenőrzése több napot is igénybe vehet. Ebben az időszakban fontos, hogy ne vásároljon Microsoft-támogatási csomagot. Csak akkor vásároljon Microsoft-támogatási csomagot, ha tájékoztatta Önt arról, hogy átadta a kreditek ellenőrzését.
 
