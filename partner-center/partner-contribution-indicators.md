@@ -1,7 +1,7 @@
 ---
 title: Partneri hozzájárulási mutatók
 ms.topic: article
-ms.date: 09/16/2020
+ms.date: 11/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a következő hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan végzi el a Dynamics 365 Customer engagement vagy a Dynamics 365 pénzügyi és üzemeltetési műveleteit.
@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 198e73432bd4ed14aa56a2df9bd7f43af6e12cbd
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: e5e3c0ad1a1abae49b05394d569b67840a01ecca
+ms.sourcegitcommit: fc4d94b2a9575808745f8fb8c7ee5ae88be6803c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530475"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93344391"
 ---
 # <a name="partner-contribution-indicators-pci-show-partner-impact-on-seven-key-measures-of-customer-success"></a>A partneri hozzájárulási mutatók (PCI) az ügyfelek sikerének hét kulcsfontosságú mértékére gyakorolt hatását mutatják
 
@@ -89,7 +89,7 @@ Minden kijelzőn megjelenik egy pontszám, amely hozzáadódik a teljes összegh
 |Az ügyfél sikeressége – havi aktív felhasználói növekedés  | 25 pont |
 
 A következő kép egy gyors, vizuális referenciát kínál.
-:::image type="content" source="images/pci/perfnew.png" alt-text="Megjeleníti a PCI-pontszámokat az ezüst vagy arany kompetencia eléréséhez." border="false":::
+:::image type="content" source="images/pci/perfnew.png" alt-text="Egy olyan diagramot jelenít meg, amelynek a maximális pontszáma az egyes hét partneri hozzájárulási mutatók (PCI) esetében lehetséges." border="false":::
 
 ## <a name="thresholds-for-each-pci-metric"></a>Az egyes PCI mérőszámok küszöbértékei
 
@@ -111,8 +111,8 @@ A részletekért tekintse meg a következő táblázatokat:
 | PCI-metrika | Teljesítmény kijelző: nettó új bevétel | Teljesítménymutató: új ügyfél – Hozzáadás | Képesség kijelző: funkcionális tanácsadók | Képesség kijelző: funkcionális tanácsadói növekedés | Képesség kijelző: fejlesztők | Az ügyfél sikerességének mutatója: új nagyméretű telepítések | Az ügyfél sikerességének mutatója: havi aktív felhasználói növekedés |
 |---|---|---|---|---|---|---|---|
 | **Maximális pontok** | 10 pont | 10 pont | 15 pont | 15 pont | 5 pont | 20 pont | 25 pont |
-| **Fejlesztett** | $300 000 | 10 pont | 10 pont | *\* Lásd: Megjegyzés* | 5 pont | 5 pont | 25% |
-| **Fejlesztése** | $150 000 | 5 pont | 5 pont |*\* Lásd: Megjegyzés* | 2 pont | 1 pont | 25% |
+| **Fejlesztett** | $300 000 | 10 | 10 | *\* Lásd: Megjegyzés* | 5 | 5 | 25% |
+| **Fejlesztése** | $150 000 | 5  | 5  |*\* Lásd: Megjegyzés* | 2 | 1 | 25% |
 
 *\* Megjegyzés: a növekedési célok az alapkonfiguráció-tanácsadók számától függően eltérőek. A növekedési célokhoz lásd a [3. táblázatot](partner-contribution-indicators.md#table-3-functional-consultant-growth) .*
 
@@ -122,8 +122,8 @@ A részletekért tekintse meg a következő táblázatokat:
 | PCI-metrika | Teljesítmény kijelző: nettó új bevétel | Teljesítménymutató: új ügyfél – Hozzáadás | Képesség kijelző: funkcionális tanácsadók | Képesség kijelző: funkcionális tanácsadói növekedés | Képesség kijelző: fejlesztők | Az ügyfél sikerességének mutatója: új nagyméretű telepítések | Az ügyfél sikerességének mutatója: havi aktív felhasználói növekedés |
 |---|---|---|---|---|---|---|---|
 | **Maximális pontok** | 10 pont | 10 pont | 15 pont | 15 pont | 5 pont | 20 pont | 25 pont |
-| **Fejlesztett** | $300 000 | 3 pont | 15 pont | *\* Lásd: Megjegyzés* | 5 pont | 3 pont | 25% |
-| **Fejlesztése** | $150 000 | 1 pont | 5 pont |*\* Lásd: Megjegyzés* | 2 pont | 1 pont | 25% |
+| **Fejlesztett** | $300 000 | 3 | 15 | *\* Lásd: Megjegyzés* | 5  | 3 | 25% |
+| **Fejlesztése** | $150 000 | 1 | 5 |*\* Lásd: Megjegyzés* | 2 | 1 | 25% |
 
 *\* Megjegyzés: a növekedési célok az alapkonfiguráció-tanácsadók számától függően eltérőek. A növekedési célokhoz lásd a [3. táblázatot](partner-contribution-indicators.md#table-3-functional-consultant-growth) .*
 
@@ -313,7 +313,7 @@ Az alábbi képen bemutatjuk, hogyan olvashatja el néhány területet és diagr
 
 A terület használatával kapcsolatos további információkért tekintse meg a cikk végén található források és videók gyűjteményét.
 
-   :::image type="content" source="images/pci/howto.png" alt-text="Megjeleníti a PCI-pontszámokat az ezüst vagy arany kompetencia eléréséhez.":::
+   :::image type="content" source="images/pci/howto.png" alt-text="A diagram beolvasása":::
 
 ## <a name="next-steps"></a>Következő lépések
 
