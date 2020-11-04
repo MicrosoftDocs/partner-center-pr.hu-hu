@@ -8,20 +8,25 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 10/27/2020
-ms.openlocfilehash: a96dd7849b678357aaa28b8a35f113ead6f807ab
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.date: 11/02/2020
+ms.openlocfilehash: 1d514dd64cdb4dc3e7c599472a851b6877048568
+ms.sourcegitcommit: 04472887a8ea145b95c2774da06fc749ed8129de
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93133014"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93327246"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
 Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat gyakran frissítjük, ezért érdemes gyakran visszalátogatnia ide.
 
-| **Kategória** | **2020. októberi közlemények** | **Bejelentve** |
+| **Kategória** | **2020. novemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[A jogosult felhőszolgáltatói (CSP) oktatási ügyfelek számára elérhetővé vált a Windows 10 Education frissítése](2020-november.md#4)|November 2.|
+|Ajánlatok/piacok|[Mostantól elérhető a megújult felhőszolgáltatói (CSP) digitális felhasználói felületA felhőszolgáltatói (CSP) szoftver-előfizetések árlistájának 2020. októberi változásai](2020-november.md#3)|November 2.|
+|Ajánlatok/piacok|[A felhőszolgáltatói (CSP) szoftver-előfizetések árlistájának 2020. októberi változásai](2020-november.md#2)|November 2.|
+|Ajánlatok/piacok|[A közvetlen számlázású partnerek követelményeire vonatkozó teljesítményszabvány bevezetése a felhőszolgáltatói (CSP-) programban](2020-november.md#1)|November 2.|
+| **Kategória** | **2020. októberi közlemények** | **Date** |
 |Képességek|[A Windows Server szoftver-előfizetési funkciójának frissítései](2020-october.md#17)|Október 29.|
 |Képességek|[A jogosult felhőszolgáltatói (CSP) oktatási ügyfelek számára elérhetővé vált a Windows 10 Education frissítése](2020-october.md#16)|Október 28.|
 |Képességek|[Mostantól elérhető a megújult felhőszolgáltatói (CSP) digitális felhasználói felület](2020-october.md#15)|Október 28.|
