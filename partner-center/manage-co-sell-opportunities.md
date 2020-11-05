@@ -1,5 +1,5 @@
 ---
-title: Közös értékesítési lehetőségek kezelése
+title: Együttes értékesítési lehetőségek kezelése
 ms.topic: article
 ms.date: 06/02/2020
 ms.service: partner-dashboard
@@ -9,16 +9,16 @@ author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4b8d849de6987e107c327d2fd2dcf892fae5a3f3
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: 9eb158163bb1a7ea5da0bc834e6bf7623f32a4dd
+ms.sourcegitcommit: 92be474db61cc12f684850c2a7a8a8bdd5c93f97
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530648"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "93363639"
 ---
 # <a name="manage-co-sell-opportunities-in-partner-center"></a>Közös értékesítési lehetőségek kezelése a partner Centerben
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -75,11 +75,12 @@ Adja meg az aktuális üzlet részleteit. Az alább megadott mezők változhatna
 | **Mezőnév** | **Kötelező/nem kötelező** | **Részletek** |
 |-------------|--------|-------|
 |**Osztás neve** | Kötelező | A rövid név, amely az üzletet egy későbbi időpontban azonosítja. |
+|**Hely**| Kötelező | Az átirányítás MPN-helyének hatóköre A hatókörrel rendelkező felhasználók megtekinthetik az átirányításokat, ha azok a csapat részei. A globális hatókörrel rendelkező hivatkozó rendszergazdák és hivatkozó rendszergazdák a helytől függetlenül is megtekinthetik az átirányítást. Az átirányítás létrehozása után a hely nem szerkeszthető.|
 |**Becsült érték** | Kötelező | Az ügylet értéke az üzlet létrehozásakor rendelkezésre álló információk alapján.|
 |**Becsült záró dátum**| Kötelező| Az a dátum, ameddig az ügyféllel való üzletet várhatóan le szeretné állítani. |
-|**CRM-AZONOSÍTÓ**| Nem kötelező | Az ügyletet a megfelelő CRM-ben a követési célból a lehetőség AZONOSÍTÓjának használatával címkézheti.|
-|**Marketingkampány azonosítója**| Nem kötelező | Rögzítse az üzletet eredményező marketingkampány-kampányt. Ez az ajánlat segít nyomon követni egy adott kampány MEGTÉRÜLÉSét, ha a kampányból származó összes ügyletet ugyanazzal az AZONOSÍTÓval címkézi.|
-|**Megjegyzések**| Nem kötelező | Frissítse az összes legfrissebb információt, hogy megismerje a vállalat más alkalmazottai számára, akik ugyanazon az üzleten dolgoznak, vagy az üzlet aktuális állapotát szeretnék megérteni. Ezt a rekordot a Microsoft-értékesítők/más partnerek és a vállalata közötti megbeszélésekhez is használhatja.|
+|**CRM-AZONOSÍTÓ**| Választható | Az ügyletet a megfelelő CRM-ben a követési célból a lehetőség AZONOSÍTÓjának használatával címkézheti.|
+|**Marketingkampány azonosítója**| Választható | Rögzítse az üzletet eredményező marketingkampány-kampányt. Ez az ajánlat segít nyomon követni egy adott kampány MEGTÉRÜLÉSét, ha a kampányból származó összes ügyletet ugyanazzal az AZONOSÍTÓval címkézi.|
+|**Megjegyzések**| Választható | Frissítse az összes legfrissebb információt, hogy megismerje a vállalat más alkalmazottai számára, akik ugyanazon az üzleten dolgoznak, vagy az üzlet aktuális állapotát szeretnék megérteni. Ezt a rekordot a Microsoft-értékesítők/más partnerek és a vállalata közötti megbeszélésekhez is használhatja.|
 
 ### <a name="add-team-members"></a>Csapattagok felvétele
 
@@ -134,7 +135,7 @@ Ebben a szakaszban abban az esetben, ha egy Microsoft-értékesítőből vagy a 
 
 - **Elfogadás:** Adja meg az üzlet nevét, szerkessze a becsült ügyleti értéket és a becsült vásárlási időkeretet a felülvizsgálat alapján. Miután létrehozta a kapcsolatot az ügyféllel, a **Megjegyzések** mezőben adja meg, hogy az ügyfél milyen adatokat keres. Itt megadhatja a CRM-azonosítót (csak a hivatkozáshoz), a marketing kampány AZONOSÍTÓját, amely a megfelelő lehetőséget eredményezte, és felveszi a kapcsolatot a vállalattól, aki ezen az üzleten dolgozik majd.
 
-- Ha elkészült, kattintson a **Tovább gombra** . A **következő szakaszra** helyezzük át az átirányítást, ami azt jelenti, hogy aktívan kell részt vennie az ügyféllel a szükséges igények kielégítése érdekében. Ezt az információt arra is felhasználjuk, hogy a jövőben hasonló ajánlatokat találjon.
+- Ha elkészült, kattintson a **Tovább gombra**. A **következő szakaszra** helyezzük át az átirányítást, ami azt jelenti, hogy aktívan kell részt vennie az ügyféllel a szükséges igények kielégítése érdekében. Ezt az információt arra is felhasználjuk, hogy a jövőben hasonló ajánlatokat találjon.
 
 - **Elutasítás** : válassza ki az üzlet lecsökkenésének okát, és vegye fel a felvenni kívánt megjegyzéseket, majd válassza az **üzlet lezárása** lehetőséget. A rendszer **elutasította** az archiválást, és értesíti a Microsoftot vagy azt a partnert, aki ezt a lehetőséget elküldte.
 
@@ -148,7 +149,7 @@ Az összes létrehozott ajánlat alapértelmezés szerint elfogadott fázisban v
 
 Miután megkezdte a munkát, megadhatja az elért előrehaladás részleteit az üzlet életciklusának értékesítési szakaszainak megjelölésével. Az üzlet életciklusának négy szakasza van, a kezdeti elfogadás vagy létrehozás, valamint az alább említett végleges megnyert vagy elveszett szakaszok mellett. Ha ezeket a részleteket nem kötelező megadni, de kifejezetten javasoljuk, hogy ossza meg ezeket a lépéseket a Microsoft értékesítési képviselőinek közös értékesítéssel kapcsolatos súgójának beszerzéséhez.
 
-:::image type="content" source="images/pscmigration/salesstage.png" alt-text="Az üzlet életciklusát ábrázoló kép, amely az értékesítési fázis jelölésére használható.&quot;:::
+:::image type="content" source="images/pscmigration/salesstage.png" alt-text="Az üzlet életciklusát ábrázoló kép, amely az értékesítési fázis jelölésére használható.":::
 
 > [!Note]
 > Az értékesítési szakaszok akkor változnak, ha az üzlet megoldás-értékelési ügylet. Az értékesítési szakasz megjelölése **kötelező** a megoldás-értékelési ajánlatok esetében is. A **megnyert** gomb csak akkor lesz engedélyezve, ha az összes értékesítési szakasz a partner által befejezettként van megjelölve.
@@ -182,43 +183,9 @@ A Deal-regisztráció csak akkor válik elérhetővé, ha megfelel az alábbi fe
 > [!Important]
 > Regisztrálja az ügyletet csak akkor, ha a vállalat neve és az ösztönző jogosult megoldás az üzletben egyértelműen szerepel a szerződésben az ügyféllel.
 
-Ha az üzlet jogosult a Deal-regisztrációra, további mérföldkövet fog adni a &quot;Deal Registration" nevű üzlet életciklusához az alább látható módon.
+Ha az üzlet jogosult a Deal-regisztrációra, további mérföldkövet fog adni a "Deal Registration" nevű üzlet életciklusához az alább látható módon.
 
-:::image type="content" source="images/pscmigration/dealregstages.png" alt-text="Az üzlet életciklusát ábrázoló kép, amely az értékesítési fázis jelölésére használható.&quot;:::
-
-> [!Note]
-> Az értékesítési szakaszok akkor változnak, ha az üzlet megoldás-értékelési ügylet. Az értékesítési szakasz megjelölése **kötelező** a megoldás-értékelési ajánlatok esetében is. A **megnyert** gomb csak akkor lesz engedélyezve, ha az összes értékesítési szakasz a partner által befejezettként van megjelölve.
-
-Az alábbi táblázat az értékesítési szakaszokat és a megfelelő százalékos arányokat mutatja a Microsoft partner Center Referrals rendszer által meghatározott megoldási értékeléseken kívüli ügyletekhez.
-
-|**Értékesítési szakasz neve**|**Értékesítési szakasz százaléka**|**Az értékesítési fázis definíciója**|
-|:----|:-----|:-----|
-|Létrehozva|10%|Kimenő ügylet létrehozása.|
-|Elfogadva|10%|Bejövő ügylet elfogadása.|
-|Minősített|20%|A folytatás előtt a Deal és az ügyfélre vonatkozó követelmények is érvényesek.|
-|Fejlesztett|40%|Az üzlet fejlesztése a POC vagy más, formális javaslathoz szükséges egyéb összetevők előkészítésének részletes követelményeinek megismerése érdekében.|
-|Javasolt|60%|Formális javaslat készítése az ügyfélnek a követelmények alapján.|
-|Tárgyalásos|80%|A végleges feltételek egyeztetése a javaslat alapján a végső állapot megkezdése előtt – az üzlet megnyerése vagy elvesztése.|
-|Megnyert|100%|Az üzlet megjelölése megnyertként.|
-
-Ha elkészült, elvégezheti a két művelet egyikét, amely a **megnyert** vagy **elveszett** ügyletet jelöli az eredmény jelentéséhez.
-
-> [!Note]
-> Nem szükséges, hogy a vállalata ugyanazt az értékesítési szakaszt követi. Így ismeri fel a partneri központ a Deal Sales szakaszokat, és automatikusan leképezi a vállalat szakaszait ezeknek a standard szakaszoknak, ha az API használatával továbbítja ezeket az értékeket. Ha a partner Center UX-t használja, a táblázatban látható százalékok az értékesítési szakaszok megjelölésére szolgálnak.
-
-> [!Important]
-> Bizonyos jogosult megoldások esetében a megnyert lehetőség kiválasztása után további információkat kell megadnia az üzlet regisztrálásához. A Microsoft áttekinti az itt megadott adatokat, és további részleteket kérhet a felülvizsgálati folyamat során. További információ: [az ajánlatok regisztrálása](register-deals.md).
-
-A Deal-regisztráció csak akkor válik elérhetővé, ha megfelel az alábbi feltételeknek.
-
-1. A Microsoft meghívja az üzletet.
-2. A Microsoft elfogadta a meghívót, vagy megjelölte az üzletet megnyertként. A Microsoft-állapot megismeréséhez tekintse meg a Microsoft-kártyát az üzlet részletei között.
-3. Az üzletben van egy ösztönző jogosult megoldás.
-
-> [!Important]
-> Regisztrálja az ügyletet csak akkor, ha a vállalat neve és az ösztönző jogosult megoldás az üzletben egyértelműen szerepel a szerződésben az ügyféllel.
-
-Ha az üzlet jogosult a Deal-regisztrációra, további mérföldkövet fog adni a &quot;Deal Registration":::
+:::image type="content" source="images/pscmigration/dealregstages.png" alt-text="Az ügyleti életciklust ábrázoló kép, az a hely, ahonnan a Deal-regisztráció kezdeményezhető.":::
 
 Megadhatja, hogy az üzletet azonnal regisztrálja, miután megjelölte a megnyert ügyletet, vagy egy későbbi időpontban az üzlet életciklusának **regisztrálása** gombbal.
 Az üzlet regisztrálása után megtekintheti az üzlet ellenőrzésének előrehaladását ugyanabból az életciklusból. Ha a vállalatnál bármilyen művelet szükséges, a megfelelő hibák az üzlet életciklusa nézetben jelennek meg. Az üzlet lezárt állapotba kerül, amikor az üzlet ellenőrzése befejeződött.
@@ -251,88 +218,20 @@ Nem, az ajánlatok nem módosíthatók, ha a terminál állapotba költöznek. A
 
 Ez akkor fordulhat elő, ha a vállalat több Bérlővel rendelkezik, amelyek ugyanahhoz az MPN-fiókhoz vannak társítva. Lépjen a partner Center Fiókbeállítások menüpontra, és keresse meg a fiókhoz társított bérlőket. Ezután hozzon létre egy támogatási jegyet, amely a bérlők összekapcsolását kéri. Adja meg azt a bérlői azonosítót, amelybe bejelentkezett a támogatási jegyben.
 
-:::image type="content" source="images/pscmigration/pctenants.png" alt-text="Az üzlet életciklusát ábrázoló kép, amely az értékesítési fázis jelölésére használható.&quot;:::
-
-> [!Note]
-> Az értékesítési szakaszok akkor változnak, ha az üzlet megoldás-értékelési ügylet. Az értékesítési szakasz megjelölése **kötelező** a megoldás-értékelési ajánlatok esetében is. A **megnyert** gomb csak akkor lesz engedélyezve, ha az összes értékesítési szakasz a partner által befejezettként van megjelölve.
-
-Az alábbi táblázat az értékesítési szakaszokat és a megfelelő százalékos arányokat mutatja a Microsoft partner Center Referrals rendszer által meghatározott megoldási értékeléseken kívüli ügyletekhez.
-
-|**Értékesítési szakasz neve**|**Értékesítési szakasz százaléka**|**Az értékesítési fázis definíciója**|
-|:----|:-----|:-----|
-|Létrehozva|10%|Kimenő ügylet létrehozása.|
-|Elfogadva|10%|Bejövő ügylet elfogadása.|
-|Minősített|20%|A folytatás előtt a Deal és az ügyfélre vonatkozó követelmények is érvényesek.|
-|Fejlesztett|40%|Az üzlet fejlesztése a POC vagy más, formális javaslathoz szükséges egyéb összetevők előkészítésének részletes követelményeinek megismerése érdekében.|
-|Javasolt|60%|Formális javaslat készítése az ügyfélnek a követelmények alapján.|
-|Tárgyalásos|80%|A végleges feltételek egyeztetése a javaslat alapján a végső állapot megkezdése előtt – az üzlet megnyerése vagy elvesztése.|
-|Megnyert|100%|Az üzlet megjelölése megnyertként.|
-
-Ha elkészült, elvégezheti a két művelet egyikét, amely a **megnyert** vagy **elveszett** ügyletet jelöli az eredmény jelentéséhez.
-
-> [!Note]
-> Nem szükséges, hogy a vállalata ugyanazt az értékesítési szakaszt követi. Így ismeri fel a partneri központ a Deal Sales szakaszokat, és automatikusan leképezi a vállalat szakaszait ezeknek a standard szakaszoknak, ha az API használatával továbbítja ezeket az értékeket. Ha a partner Center UX-t használja, a táblázatban látható százalékok az értékesítési szakaszok megjelölésére szolgálnak.
-
-> [!Important]
-> Bizonyos jogosult megoldások esetében a megnyert lehetőség kiválasztása után további információkat kell megadnia az üzlet regisztrálásához. A Microsoft áttekinti az itt megadott adatokat, és további részleteket kérhet a felülvizsgálati folyamat során. További információ: [az ajánlatok regisztrálása](register-deals.md).
-
-A Deal-regisztráció csak akkor válik elérhetővé, ha megfelel az alábbi feltételeknek.
-
-1. A Microsoft meghívja az üzletet.
-2. A Microsoft elfogadta a meghívót, vagy megjelölte az üzletet megnyertként. A Microsoft-állapot megismeréséhez tekintse meg a Microsoft-kártyát az üzlet részletei között.
-3. Az üzletben van egy ösztönző jogosult megoldás.
-
-> [!Important]
-> Regisztrálja az ügyletet csak akkor, ha a vállalat neve és az ösztönző jogosult megoldás az üzletben egyértelműen szerepel a szerződésben az ügyféllel.
-
-Ha az üzlet jogosult a Deal-regisztrációra, további mérföldkövet fog adni a &quot;Deal Registration":::
+:::image type="content" source="images/pscmigration/pctenants.png" alt-text="A fiók beállításait tartalmazó kép, ahol a bérlő adatai találhatók.":::
 
 **Q3. Ki kap értesítő e-mailt a partner Centertől?**
 
 Az alábbi munkafolyamat azt ismerteti, hogyan küldi el az e-maileket a partner Center-átirányítási rendszertől az új partnerek bejövő átirányításához.
 
-:::image type="content" source="images/pscmigration/emaillogic.png" alt-text="Az üzlet életciklusát ábrázoló kép, amely az értékesítési fázis jelölésére használható.&quot;:::
-
-> [!Note]
-> Az értékesítési szakaszok akkor változnak, ha az üzlet megoldás-értékelési ügylet. Az értékesítési szakasz megjelölése **kötelező** a megoldás-értékelési ajánlatok esetében is. A **megnyert** gomb csak akkor lesz engedélyezve, ha az összes értékesítési szakasz a partner által befejezettként van megjelölve.
-
-Az alábbi táblázat az értékesítési szakaszokat és a megfelelő százalékos arányokat mutatja a Microsoft partner Center Referrals rendszer által meghatározott megoldási értékeléseken kívüli ügyletekhez.
-
-|**Értékesítési szakasz neve**|**Értékesítési szakasz százaléka**|**Az értékesítési fázis definíciója**|
-|:----|:-----|:-----|
-|Létrehozva|10%|Kimenő ügylet létrehozása.|
-|Elfogadva|10%|Bejövő ügylet elfogadása.|
-|Minősített|20%|A folytatás előtt a Deal és az ügyfélre vonatkozó követelmények is érvényesek.|
-|Fejlesztett|40%|Az üzlet fejlesztése a POC vagy más, formális javaslathoz szükséges egyéb összetevők előkészítésének részletes követelményeinek megismerése érdekében.|
-|Javasolt|60%|Formális javaslat készítése az ügyfélnek a követelmények alapján.|
-|Tárgyalásos|80%|A végleges feltételek egyeztetése a javaslat alapján a végső állapot megkezdése előtt – az üzlet megnyerése vagy elvesztése.|
-|Megnyert|100%|Az üzlet megjelölése megnyertként.|
-
-Ha elkészült, elvégezheti a két művelet egyikét, amely a **megnyert** vagy **elveszett** ügyletet jelöli az eredmény jelentéséhez.
-
-> [!Note]
-> Nem szükséges, hogy a vállalata ugyanazt az értékesítési szakaszt követi. Így ismeri fel a partneri központ a Deal Sales szakaszokat, és automatikusan leképezi a vállalat szakaszait ezeknek a standard szakaszoknak, ha az API használatával továbbítja ezeket az értékeket. Ha a partner Center UX-t használja, a táblázatban látható százalékok az értékesítési szakaszok megjelölésére szolgálnak.
-
-> [!Important]
-> Bizonyos jogosult megoldások esetében a megnyert lehetőség kiválasztása után további információkat kell megadnia az üzlet regisztrálásához. A Microsoft áttekinti az itt megadott adatokat, és további részleteket kérhet a felülvizsgálati folyamat során. További információ: [az ajánlatok regisztrálása](register-deals.md).
-
-A Deal-regisztráció csak akkor válik elérhetővé, ha megfelel az alábbi feltételeknek.
-
-1. A Microsoft meghívja az üzletet.
-2. A Microsoft elfogadta a meghívót, vagy megjelölte az üzletet megnyertként. A Microsoft-állapot megismeréséhez tekintse meg a Microsoft-kártyát az üzlet részletei között.
-3. Az üzletben van egy ösztönző jogosult megoldás.
-
-> [!Important]
-> Regisztrálja az ügyletet csak akkor, ha a vállalat neve és az ösztönző jogosult megoldás az üzletben egyértelműen szerepel a szerződésben az ügyféllel.
-
-Ha az üzlet jogosult a Deal-regisztrációra, további mérföldkövet fog adni a &quot;Deal Registration":::
+:::image type="content" source="images/pscmigration/emaillogic.png" alt-text="A kép azt mutatja, hogy az e-mailek hogyan lesznek elküldve a partnereknek új bejövő átirányítások esetén.":::
 
 ## <a name="getting-more-co-sell-opportunities"></a>További közös értékesítési lehetőségek
 
 Íme néhány tipp, amely segítséget nyújt a vállalkozása számára megfelelő, közös értékesítési lehetőségek megszerzésében:
 
-- **Gyorsan reagálhat az ajánlatokra** . Ha időben válaszol a beérkező kérésekre, fokozatosan megnöveli a jövőben a partneri keresési eredményekben való láthatóságát. Győződjön meg arról, hogy csapata gyorsan reagál a szándékára.
-- Választhatja **az Ön által elfogadott ajánlatokat** . Figyelemmel kísérjük az Ön által elfogadott és visszautasított ajánlatok típusait, és ezeket az információkat a hasonló ajánlatok megtalálására használják. A nem megfelelő illeszkedésű ajánlatok nem javítják a keresési eredményeket, és befolyásolhatják a kapott lehetőségek minőségét.
+- **Gyorsan reagálhat az ajánlatokra**. Ha időben válaszol a beérkező kérésekre, fokozatosan megnöveli a jövőben a partneri keresési eredményekben való láthatóságát. Győződjön meg arról, hogy csapata gyorsan reagál a szándékára.
+- Választhatja **az Ön által elfogadott ajánlatokat**. Figyelemmel kísérjük az Ön által elfogadott és visszautasított ajánlatok típusait, és ezeket az információkat a hasonló ajánlatok megtalálására használják. A nem megfelelő illeszkedésű ajánlatok nem javítják a keresési eredményeket, és befolyásolhatják a kapott lehetőségek minőségét.
 - **Jelentse vissza a becsült ügyleti méreteket, a záró dátumokat, valamint az ajánlatok végső állapotát** (megnyert vagy elveszett). Ezt az információt fogjuk használni, hogy továbbra is minőségi ajánlásokat nyújtson.
 
 ## <a name="next-steps"></a>Következő lépések

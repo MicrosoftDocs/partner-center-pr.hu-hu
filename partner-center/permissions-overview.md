@@ -9,12 +9,12 @@ author: hemas
 ms.author: hemas
 ms.localizationpriority: high
 ms.custom: SEOMAY.20, contperfq1
-ms.openlocfilehash: 6707ede563d07b6b96d2133bd75f8fbd53531875
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: 4839fbd6fac5f84e5a2ebc40d1f7f48da6114113
+ms.sourcegitcommit: 92be474db61cc12f684850c2a7a8a8bdd5c93f97
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93133031"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "93363622"
 ---
 # <a name="assign-users-roles-and-permissions-for-a-companys-users-needing-to-work-in-partner-center"></a>Felhasználói szerepkörök és engedélyek kiosztása a vállalat felhasználói számára, akik a partner Centerben szeretnének dolgozni
 
@@ -127,21 +127,38 @@ Ezek a szerepkörök nem Azure Active Directory szerepkörök. Ezek a szerepkör
 ||* Támogatási jegyek létrehozása a partner központhoz
 ||* A létrehozott partneri támogatási jegyek megtekintése
 
+## <a name="manage-referrals"></a>Hivatkozások kezelése
 
-## <a name="manage-referrals"></a>Hivatkozások kezelése 
+> [!Note]
+>Az új átirányítási felhasználói szerepkör a 2020. november 16. után lesz elérhető. A meglévő hivatkozó rendszergazdák megőrzik a teljes vállalatra kiterjedő hivatkozó rendszergazdai szerepkört.
 
-|**Szerepkör**|**Miket végezhet el?**|**További információ**|
-|-----------------------------|:------------------------|---|
-|Ajánlói rendszergazda       |* Üzleti profilok megtekintése, létrehozása és kezelése|[A különböző érdeklődők kezelése, például az ügyfelek kérdései, marketing szempontból minősített (MQL) érdeklődők és értékesítési szempontból minősített (SQL) érdeklődők](manage-leads.md)
-||* Az átirányítások fogadása és kezelése
-||* Közös értékesítésű hivatkozások megtekintése, létrehozása és kezelése|
-||* Partner Service-kérelmek megtekintése, létrehozása és kezelése
-|Üzleti profil rendszergazdája   |* Üzleti Profil megtekintése, létrehozása és kezelése |[Üzleti profil létrehozása](create-a-marketing-profile.md)
-||* Partner Service-kérelmek megtekintése, létrehozása és kezelése
-||* Támogatási jegyek létrehozása a partner központhoz
-||* A létrehozott partneri támogatási jegyek megtekintése|
+|**Szerepkör** | **Miket végezhet el?**|**További információ**
+|------------------------------|:-------------------------|---|
+|Ajánlói rendszergazda|Mindent hozhat létre és kezelhet a partner Center átirányítási lapján|[Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
+||    Megtekintheti és szerkesztheti az összes közös értékesítési lehetőséget és érdeklődőt
+||    Oszthatja ki a csoporttagokat egy üzlethez
+||    Megtekintheti és szerkesztheti az üzleti profilokat
+||    Megtekintheti és regisztrálhatja a megnyert és a Deal-regisztrációra jogosult lehetőségek ajánlatait
+||    Támogatási jegyeket hozhat létre és tekinthet meg
+|Hivatkozó felhasználók|Közös értékesítési lehetőségek létrehozása és kezelése csak akkor, ha a csoport részét képezik |[Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
+||    Közös értékesítési lehetőségeket hozhat létre azon helyekhez, amelyekhez hozzá van rendelve a szerepkör.
+||    Megtekintheti és regisztrálhatja azokat a lehetőségeket, amelyek megnyertként vannak megjelölve, és jogosultak arra, hogy a csoport tagjai legyenek regisztrálva.
+||    Támogatási jegyeket hozhat létre és tekinthet meg
+|Üzleti profil rendszergazdája|Üzleti profilok létrehozása és kezelése | [Üzleti profilok kezelése](create-a-marketing-profile.md)
+||    Támogatási jegyeket hozhat létre és tekinthet meg
 
-## <a name="manage-incentives"></a>Ösztönzők kezelése 
+Az új hivatkozói felhasználói szerepkörrel együtt a telephelyek hatókörét is bevezetjük a szolgáltatáshoz. Az alábbi táblázat az ajánlatok elérését mutatja be a hely alapján.
+
+|**Hatókör** | **Miket végezhet el?** |
+|------------------------------|:-------------------------|
+|Teljes vállalat | A rendszergazdák és a felhasználók is hozzáférhetnek a vállalat bármely pontjához tartozó ajánlatok létrehozásához|
+|| Az Ajánlói rendszergazda hozzáférhet az összes ajánlat megtekintéséhez és szerkesztéséhez |
+|| Az átirányítási felhasználók csak akkor tekinthetik meg és szerkeszthetik az összes ügyletet, ha a csoport részét képezik. |
+|Egy vagy több helyszín | A rendszergazdák és a felhasználók is hozzáférhetnek a vállalathoz rendelt helyhez kapcsolódó ajánlatok létrehozásához|
+|| Az Ajánlói rendszergazda hozzáférhet a hozzárendelt helyszínekhez tartozó összes ajánlat megtekintéséhez és szerkesztéséhez|
+|| A hivatkozó felhasználók hozzáférhetnek a hozzárendelt helyszínekhez tartozó összes ajánlat megtekintéséhez és szerkesztéséhez, ha azok a csapat részei.|
+
+## <a name="manage-incentives"></a>Ösztönzők kezelése
 
 |**Szerepkör** | **Miket végezhet el?**|**További információ**
 |------------------------------|:-------------------------|---|
