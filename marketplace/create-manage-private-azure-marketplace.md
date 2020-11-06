@@ -1,18 +1,17 @@
 ---
 title: Privát Azure Marketplace létrehozása és kezelése Azure Portal
 description: Ismerje meg, hogyan hozhat létre és kezelhet privát Azure Marketplace-t (előzetes verzió) a Azure Portal.
-ms.service: marketplace
-ms.subservice: partnercenter-marketplace-publisher
+ms.prod: marketplace-customer
 ms.topic: article
 author: keferna
 ms.author: keferna
 ms.date: 09/18/2020
-ms.openlocfilehash: c0a395a7c5bfe926cdc56d7386aaaebb0305fb68
-ms.sourcegitcommit: d31c06022624ca2d1db12b3c60ef1d0a3861f763
+ms.openlocfilehash: 31179d9fd4068348e689d8b426b7a0307112501a
+ms.sourcegitcommit: af4726de429d2b9b7c3656d5cac7d542b0d4af74
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "92528422"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93414858"
 ---
 # <a name="create-and-manage-private-azure-marketplace-preview-in-the-azure-portal"></a>Privát Azure Marketplace létrehozása és kezelése (előzetes verzió) a Azure Portal
 
@@ -136,17 +135,17 @@ Az az. Portal PowerShell-modulban található parancsmagokkal kapcsolatos továb
 
 3. Válassza a **privát piactér** lehetőséget a bal oldalon található beállítások közül.
 
-    :::image type="content" source="media/private-azure/private-marketplace.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/private-marketplace.png" alt-text="Válassza ki a privát piactér elemet a Azure Portal főablakon.":::
 
 4. Válassza az első **lépések** lehetőséget a privát Azure Marketplace létrehozásához (ezt csak egyszer kell megtennie).
 
-    :::image type="content" source="media/private-azure/private-marketplace-get-started.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/private-marketplace-get-started.png" alt-text="Válassza az első lépések lehetőséget a Azure Portal főablakban.":::
 
     Ha a bérlőhöz már létezik privát Azure Marketplace, akkor a **piactér kezelése** alapértelmezés szerint ki lesz választva.
 
 5. Ha elkészült, üres és letiltott privát Azure Marketplace-t fog tartalmazni.
 
-    :::image type="content" source="media/private-azure/new-private-marketplace.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/new-private-marketplace.png" alt-text="Az üres privát Azure Marketplace-képernyő.":::
 
 ## <a name="add-items-from-gallery"></a>Elemek hozzáadása a gyűjteményből
 
@@ -156,11 +155,11 @@ Az elemek egy ajánlat és egy csomag kombinációja. A piactér kezelése oldal
 
 2. Tallózással keresse **meg a katalógust, vagy a** Keresés mező használatával keresse meg a kívánt elemeket.
 
-    :::image type="content" source="media/private-azure/marketplace-gallery.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/marketplace-gallery.png" alt-text="Tallózással keresse meg a katalógust, vagy használja a keresőmezőt.":::
 
 3. Alapértelmezés szerint az új ajánlat hozzáadásakor az összes aktuális csomag hozzá lesz adva az engedélyezett listához. Ha módosítani szeretné a csomag kijelölését a kijelölt elemek hozzáadása előtt, válassza a legördülő menüt az ajánlat csempén, és frissítse a szükséges terveket.
 
-    :::image type="content" source="media/private-azure/update-plans-400.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/update-plans-400.png" alt-text="A kötelező csomagok frissítése.":::
 
 4. Kattintson a **kész** gombra a bal alsó sarokban, miután elvégezte a beállításokat.
 
@@ -174,7 +173,7 @@ A piactér kezelése oldalon szerkesztheti az elemek terveit.
 1. A **csomagok** oszlopban tekintse át az elérhető csomagokat az adott elem legördülő menüjéből.
 2. Jelölje be a jelölőnégyzeteket, vagy törölje a jelölést a felhasználók számára elérhetővé tenni kívánt csomagok kiválasztásához.
 
-    :::image type="content" source="media/private-azure/edit-items.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/edit-items.png" alt-text="A kötelező elemet tartalmazó jelölőnégyzet bejelölése vagy törlése.":::
 
 > [!NOTE]
 > Minden ajánlatnak legalább egy tervet ki kell választania, hogy a frissítés megtörténjen. Az ajánlattal kapcsolatos összes csomag eltávolításához törölje a teljes ajánlatot (lásd a következő szakaszt).
@@ -187,9 +186,9 @@ A piactér kezelése lapon jelölje be az ajánlat neve melletti jelölőnégyze
 
 A piactér kezelése oldalon láthatja az alábbi szalagcímeket, amelyek a privát Azure Marketplace aktuális állapotát mutatják be:
 
-:::image type="content" source="media/private-azure/state-disable.png" alt-text="Azure Portal fő ablak.":::
+:::image type="content" source="media/private-azure/state-disable.png" alt-text="Állapot szalagcímének letiltása":::
 
-:::image type="content" source="media/private-azure/state-enable.png" alt-text="Azure Portal fő ablak.":::
+:::image type="content" source="media/private-azure/state-enable.png" alt-text="Állapot szalagcímének engedélyezése":::
 
 Igény szerint engedélyezheti vagy letilthatja a privát Azure Marketplace-t.
 
@@ -205,7 +204,7 @@ Ha a privát Azure Marketplace engedélyezve van, a felhasználók láthatják, 
 
 A felhasználók a (z) és a nem engedélyezett ajánlatok között szűrhetők:
 
-:::image type="content" source="media/private-azure/filter-option.png" alt-text="Azure Portal fő ablak.":::
+:::image type="content" source="media/private-azure/filter-option.png" alt-text="Szűrési beállítás.":::
 
 ## <a name="buy-or-deploy-in-private-azure-marketplace"></a>Vásárlás vagy üzembe helyezés a privát Azure piactéren
 
@@ -213,15 +212,15 @@ Míg a termék részletei lap a nyilvános Azure piactérhez hasonlóan működi
 
 - Ha egy felhasználó egy engedélyezett csomagot választ, a **Létrehozás** gomb engedélyezve lesz:
 
-    :::image type="content" source="media/private-azure/button-create-enabled.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/button-create-enabled.png" alt-text="Ajánlati szalagcím, amelyből egy terv hozható létre.":::
 
 - Ha a felhasználó egy nem engedélyezett csomagot választ ki, a szalagcím megjegyzi, hogy a csomag nem engedélyezett, és a **Létrehozás** gomb le van tiltva.
 
-   :::image type="content" source="media/private-azure/button-create-disabled.png" alt-text="Azure Portal fő ablak.":::
+   :::image type="content" source="media/private-azure/button-create-disabled.png" alt-text="Ajánlati szalagcím – a terv nem hozható létre.":::
 
 - Ha a termékre vonatkozó csomag kiválasztása nem jelenik meg a termék részletei lapon, de a rendszergazda jóváhagyta egy vagy több csomagot, a szalagcím megállapítja, hogy mely csomagok engedélyezettek, és engedélyezve van a **Létrehozás** gomb:
 
-    :::image type="content" source="media/private-azure/button-create-enabled-and-plans.png" alt-text="Azure Portal fő ablak.":::
+    :::image type="content" source="media/private-azure/button-create-enabled-and-plans.png" alt-text="Ajánlati szalagcím, amelyből az a terv is létrehozható, és megjeleníthető az elérhető csomagok.":::
 
 ## <a name="contact-support"></a>Kapcsolatfelvétel a támogatási szolgáltatással
 
