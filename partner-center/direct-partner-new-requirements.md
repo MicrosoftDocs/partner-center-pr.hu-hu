@@ -9,16 +9,16 @@ ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
 ms.date: 10/29/2020
-ms.openlocfilehash: 7b965bff0a962e26e5e5800a6059e4a6fc7a1d6a
-ms.sourcegitcommit: 7dd8aa793922160102a7a6aaca2c7e8f9a49b8a9
+ms.openlocfilehash: 882617433f7cf2bce01de8dce608951a9a13c77e
+ms.sourcegitcommit: fdc32c0afce88f8266f75746ec15bf04745590ad
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045379"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94360020"
 ---
 # <a name="requirements-to-enroll-as-a-csp-direct-bill-partner"></a>A közvetlen számlázású CSP-partnerként való regisztráció követelményei
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Közvetlen számlázási partnerek a Cloud Solution Provider programban
 
@@ -53,9 +53,9 @@ A jelenlegi közvetlen számlázási partnereknek meg kell felelniük az új kö
 
 Ha úgy dönt, hogy áthelyezi a közvetlen számlázási üzletágból a közvetett viszonteladói üzletágba, több lépésre van szükség. Az áttéréssel kapcsolatos további tudnivalókért olvassa el az [áttérés a Cloud Solution Provider (CSP) közvetlen partnertől a CSP közvetett viszonteladó felé](transition-direct-to-indirect.md)című témakört.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
-- [Új bevételi követelmény közvetlen számlázási partnerekhez](https://docs.microsoft.com/partner-center/announcements/2020-october#13)
+- [Új bevételi követelmény közvetlen számlázási partnerekhez](./announcements/2020-october.md#13)
  
 
 - [További információ a közvetett viszonteladók kiválásáról](https://assetsprod.microsoft.com/csp-directbill-to-indirect-transition.pdf)

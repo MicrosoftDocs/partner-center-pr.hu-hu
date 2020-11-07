@@ -9,16 +9,16 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1a4bb8eb1d3dbd24f4e18e96fb7b67c6e7332186
-ms.sourcegitcommit: 3cca87a10e8aebbf5be144ef525217509f0521ec
+ms.openlocfilehash: a65dcceea688094089ad06dacfd2abf13173ca5c
+ms.sourcegitcommit: fdc32c0afce88f8266f75746ec15bf04745590ad
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "93028789"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94360003"
 ---
 # <a name="upgrade-windows-10-home-customers-to-windows-10-education"></a>Windows 10 Home-ügyfelek frissítése Windows 10-es oktatásra
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -63,7 +63,7 @@ A partnereknek támogatási kérést kell létrehozniuk, és kulcsokat kell lek�
 - **Leírás:** [Szám beszúrása] kulcsok kérése a Windows 10 oktatásra való frissítés engedélyezéséhez. (Vegye figyelembe, hogy a kért kulcsok száma nem lehet nagyobb, mint a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetési licenc.) Ügyfél előfizetés-azonosítója [az ügyfelek előfizetési AZONOSÍTÓjának GUID azonosítója a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetéshez.]
 - **Kapcsolattartó száma:** Ezt a rendszer előtölti; Tekintse át a megerősítést vagy a frissítést.
 - **E-mail cím:** Ezt a rendszer előtöltötte, és a Microsoft Portal-rendszergazdaként használt e-mail-cím legyen (csak globális rendszergazda vagy számlázási rendszergazda).
-- **Előnyben részesített kapcsolatfelvételi módszer** : válassza a **telefon** lehetőséget, vagy **ütemezzen vissza egy hívást** .
+- **Előnyben részesített kapcsolatfelvételi módszer** : válassza a **telefon** lehetőséget, vagy **ütemezzen vissza egy hívást**.
 
 8. Válassza a **Kapcsolatfelvétel** lehetőséget. A várt várakozási időt a **segítség szükséges?** ablaktáblában kell megadni.
 
@@ -100,4 +100,4 @@ A Windows 10-es oktatási frissítése az ügyfél aktív Microsoft 365 a3/a5 va
 A következő hivatkozásokat követve további információkhoz juthat:
 
 - [A Windows oktatás funkciói](https://www.microsoft.com/education/products/windows/features)
-- [Windows oktatási központ](https://docs.microsoft.com/education/windows/)
+- [Windows oktatási központ](/education/windows/)

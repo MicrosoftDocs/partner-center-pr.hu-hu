@@ -9,12 +9,12 @@ author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: ca06b4574d90993f62e6d8d018657e6bd81eb5e1
-ms.sourcegitcommit: 398e8361ae4b43a22d4015ad71bb724b2bf1b1a9
+ms.openlocfilehash: 8dcd559e9e52c246b720678f05dec9128a6ca366
+ms.sourcegitcommit: fdc32c0afce88f8266f75746ec15bf04745590ad
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93244063"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94360054"
 ---
 # <a name="view-manage-and-export-your-incentives-program-details"></a>Ösztönző program részleteinek megtekintése, kezelése és exportálása
 
@@ -40,7 +40,7 @@ Ezekkel a lapokkal megtekintheti a múltbeli, függőben lévő és közelgő be
 A partner Center [irányítópultról](https://partner.microsoft.com/dashboard)többféleképpen is elérheti az ösztönzőkkel kapcsolatos információkat:
 
 - Válassza ki a bal oldali menüből származó **ösztönzőket** . Több lehetőség is megjelenik az **ösztönzők** területen, beleértve az **áttekintést** is. Ezekkel a lehetőségekkel megismerheti az ösztönző programok állapotát, az ösztönző befizetéseket, a bevételeket és a jogcímeket.
-- Válassza ki a **pénz** (kifizetés) ikont a jobb felső sarokban. Ezután kiválaszthat más beállításokat, például a **tranzakciók előzményeit** , a **befizetéseket** , **az adatexportálást vagy az** **Office Sales jelentést** .
+- Válassza ki a **pénz** (kifizetés) ikont a jobb felső sarokban. Ezután kiválaszthat más beállításokat, például a **tranzakciók előzményeit** , a **befizetéseket** , **az adatexportálást vagy az** **Office Sales jelentést**.
 
 A következő lapok itt olvashatók:
 
@@ -139,7 +139,7 @@ Ha nem ismeri a Channel-ösztönzők (CI) hivatkozási számát, akkor a követk
 
 - A [partner Center irányítópultja](https://partner.microsoft.com/dashboard/) (bejelentkezés szükséges) a **fizetős** lapon és a **függőben lévő** lapon.  
 
-- A fizetési jelentés, amely a [fizetési Letöltés exportálási oldalán](/partner-center/understand-incentive-payouts#payment-download-export)található. 
+- A fizetési jelentés, amely a [fizetési Letöltés exportálási oldalán](#payment-download-export)található. 
 
 #### <a name="if-your-submission-is-rejected"></a>Ha a rendszer elutasítja a beküldést
 
@@ -373,5 +373,5 @@ A tranzakció összegzése jelentés az összesítő szintű tranzakció részle
 |  distributorName | Terjesztő neve   |
 |  paymentId | A fizetés egyedi azonosítója. Ez a szám általában a banki utasításban látható.|  
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 - [Az ösztönzők kifizetése oldal elérése](incentives-unified-user-guide.md)
