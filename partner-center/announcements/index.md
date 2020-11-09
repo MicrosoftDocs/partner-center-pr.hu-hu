@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 1d514dd64cdb4dc3e7c599472a851b6877048568
-ms.sourcegitcommit: 04472887a8ea145b95c2774da06fc749ed8129de
+ms.openlocfilehash: bf5204acd9783081ec91f3372cde0269891ff9de
+ms.sourcegitcommit: af2787e516ecfb5f6cf1acdb8179f2337bfa856a
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93327246"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "94333912"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,10 +22,12 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2020. novemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
-|Ajánlatok/piacok|[A jogosult felhőszolgáltatói (CSP) oktatási ügyfelek számára elérhetővé vált a Windows 10 Education frissítése](2020-november.md#4)|November 2.|
-|Ajánlatok/piacok|[Mostantól elérhető a megújult felhőszolgáltatói (CSP) digitális felhasználói felületA felhőszolgáltatói (CSP) szoftver-előfizetések árlistájának 2020. októberi változásai](2020-november.md#3)|November 2.|
-|Ajánlatok/piacok|[A felhőszolgáltatói (CSP) szoftver-előfizetések árlistájának 2020. októberi változásai](2020-november.md#2)|November 2.|
-|Ajánlatok/piacok|[A közvetlen számlázású partnerek követelményeire vonatkozó teljesítményszabvány bevezetése a felhőszolgáltatói (CSP-) programban](2020-november.md#1)|November 2.|
+|Képességek|[A kereskedelmi licenceléshez kapcsolódó partnertartalmak kibővítése az Operations Readiness Galleryben](2020-november.md#6)|November 2.|
+|Ajánlatok/piacok|[A Microsoft Teams Konferencia prémium szintű termékváltozatának bevezetése](2020-november.md#5)|November 2.|
+|Ajánlatok/piacok|[Hamarosan elérhetők lesznek a Microsoft Teams Advanced Communications új termékváltozatai a Government Community Cloud számára](2020-november.md#4)|November 2.|
+|Ajánlatok/piacok|[Dynamics 365: Mostanában bemutatott és hamarosan megjelenő új ajánlatok és termékek](2020-november.md#3)|November 2.|
+|Ajánlatok/piacok|[A nonprofit szervezetek számára készült Microsoft 365 Business Voice bemutatása](2020-november.md#2)|November 2.|
+|Ajánlatok/piacok|[Már elérhető a Microsoft 365 Business Voice felhőszolgáltatói (CSP-) promóciója](2020-november.md#1)|November 2.|
 | **Kategória** | **2020. októberi közlemények** | **Date** |
 |Képességek|[A Windows Server szoftver-előfizetési funkciójának frissítései](2020-october.md#17)|Október 29.|
 |Képességek|[A jogosult felhőszolgáltatói (CSP) oktatási ügyfelek számára elérhetővé vált a Windows 10 Education frissítése](2020-october.md#16)|Október 28.|
