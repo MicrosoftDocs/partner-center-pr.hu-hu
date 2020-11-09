@@ -9,16 +9,16 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d990a2cb4dcb69dfc76e8a4f0d40fd4912b4f8a0
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 6bf3e3af8e0d1d87a63f86e892d8bddcd74b6460
+ms.sourcegitcommit: 0e142b4fbb044fe8dd2dbc7d13ab70a1a91b9f60
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530456"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94381409"
 ---
 # <a name="troubleshoot-account-setup-or-mpn-renewal-issues"></a>A Fiókbeállítások vagy az MPN megújítási problémáinak elhárítása
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
  
@@ -38,7 +38,7 @@ Ezen a képernyőn nem módosítható a részletek. Ez a kialakítás és nem eg
 Válassza az **elfogadás** lehetőséget, és folytassa a **folytatást** .
 
 
-### <a name="if-the-it-department-has-turned-off-sign-up-for-partner-center"></a>Ha az informatikai részleg kikapcsolta a **partneri központ regisztrációját** .
+### <a name="if-the-it-department-has-turned-off-sign-up-for-partner-center"></a>Ha az informatikai részleg kikapcsolta a **partneri központ regisztrációját**.
 
 Ez az üzenet jelenik meg, mert a vírusos felhasználók le vannak tiltva, vagy mert a vírusos regisztráció le van tiltva az Azure AD-bérlőn. Az Azure AD-fiók globális rendszergazdája a következő PowerShell-parancs futtatásával engedélyezheti a szükséges szolgáltatásokat:
 
@@ -50,7 +50,7 @@ További információért olvassa el az [önkiszolgáló regisztrációt](/azure
 
 Ha elfelejtette a jelszavát, jelölje be a **nem érhető el a fiókja?** hivatkozásra a bejelentkezési oldalon. Ezzel a beállítással visszaállíthatja a jelszavát, vagy megkérheti a globális rendszergazdát, hogy rendeljen új hitelesítő adatokat.
 
-## <a name="on-the-tell-us-about-your-company-scree-you-receive-a-something-went-wrong-error"></a>A "mondja el a céget" sziklatörmelék "hiba történt" hibaüzenetet kap.
+## <a name="on-the-tell-us-about-your-company-screen-you-receive-a-something-went-wrong-error"></a>A "tudnivalók a vállalatról" képernyőn "hiba történt" hibaüzenet jelenik meg
 
 Ez a hibaüzenet általában akkor jelenik meg, ha a céges telefonszámon véletlenül speciális karaktereket, szóközöket vagy országkódot használ. A telefonszám mezőben megadott érték legfeljebb 10 karakterből állhat.
 
