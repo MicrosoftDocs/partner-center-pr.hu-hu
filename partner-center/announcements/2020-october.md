@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 10/30/2020
-ms.openlocfilehash: ae27f193839d5456457afc923fd7834a8ff106f9
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: 37b8072742db0a9f8eb6bda3b74bf2db66b32e3d
+ms.sourcegitcommit: 146964ce0cc72bd821692f73f9c0b55e6fefb0fc
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132827"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94433308"
 ---
 # <a name="october-2020-announcements"></a>2020. októberi közlemények
 
@@ -23,6 +23,27 @@ Ez az oldal a Microsoft partner Center 2020-es októberi hirdetményeit részlet
 2020 bejelentések [:](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [July](2020-july.md)  |  [augusztus](2020-august.md)  |  [September](2020-september.md) | . Október
 
 ______________
+
+## <a name="correction-to-calling-plan-expansion"></a><a name="18"></a>A terv bővítésének meghívására szolgáló javítás 
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-10-29
+- Ajánlatok/piacok
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Közvetlen szolgáltatók, közvetett szolgáltatók és közvetett viszonteladók
+
+### <a name="details"></a>Részletek
+
+2020. október 1-jén bejelentette [az Office 365 hívási tervének rendelkezésre állását az új piacokon](2020-september.md#2). Ez a bejelentés nem megfelelő, és a hazai csomagok esetében havonta 240 perc felhasználónként nem érhető el a korábban említettek szerint. 
+
+
+A Meghívási csomagok részleteiért tekintse meg a Microsoft Teams [termék dokumentációját](/microsoftteams/calling-plan-landing-page).
+
+
+________________
 
 ## <a name="windows-server-software-subscriptions-feature-updates"></a><a name="17"></a>A Windows Server szoftver-előfizetések funkciójának frissítései
 
@@ -39,7 +60,7 @@ A felhőalapú megoldás-szolgáltató (CSP) partnerei, akik korábban megvásá
 
 A Microsoft bejelenti a Windows Server-előfizetések új funkciójának kiadását a CSP-re a 2020-es október 30-án. A frissítés tartalmazza a Windows Server szoftver előfizetési termékeit: Windows Server standard, **Version 20H2** (CSP termék azonosítója: DG7GMGF0DVT9). A frissített letöltési fájl már elérhető ehhez a termékhez. A partnerek úgy dönthetnek, hogy letöltik a legújabb fájlt az új funkciók beszerzéséhez.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Kérjük, ossza meg ezeket az információkat a szervezete megfelelő partnereivel.
 - A [Windows Server-verzió 20H2 dokumentációjának](/windows/release-information/status-windows-10-20h2) áttekintése
@@ -75,7 +96,7 @@ Amikor az ügyfél telepíti a kulcsot, és az eszköz Azure Active Directory (H
 
 Az ügyfelek frissítésével kapcsolatos részletek a [Részletes útmutató és a gyakori kérdések témakörben](../upgrade-windows-to-education.md)találhatók.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Értesítse a jogosult ügyfeleit, és tekintse át a lépésről lépésre haladó folyamatot.
 - Ossza meg ezeket az információkat a szervezete megfelelő tagjaival.  
@@ -104,7 +125,7 @@ Ez az új digitális felület a következőket tartalmazza:
 - Új felhőalapú megoldás-szolgáltató program útikönyve, amely segít a partnereknek új lehetőségek azonosításában: Ez a részletes útmutató segítséget nyújt a partnereknek a Felhőbeli üzleti növekedés felgyorsításához a programmal és a bevételi lehetőségek kibővítésével.
 - A CSP program tartalma a megoldás munkaterületen: a megoldás munkaterülete egy digitális felület, amely egyetlen célhelyet biztosít az igény szerinti erőforrásokhoz, így gyorsabban piacra viheti ötleteit. A szolgáltatók mostantól a megoldás munkaterületen találhatják meg a CSP-programokra vonatkozó tartalmakat és erőforrásokat.
 
-### <a name="additional-resources"></a>További források
+### <a name="additional-resources"></a>További erőforrások
 
 - [A frissített CSP-oldal](https://aka.ms/CSP) meglátogatása 
 - Tekintse át [az új CSP program útikönyvét](https://aka.ms/cspguidebook) , és tudjon meg többet a növekedési lehetőségekről
@@ -142,7 +163,7 @@ Az [Azure SQL Edge](2020-september.md#9) kiadása a 2020. szeptember végén jel
 
 Az összes CSP partner Center-árlista a partner Centerbe való bejelentkezéssel és az értékesítések/ajánlatok és a díjszabás használatával érhető el.
 
-### <a name="additional-resources"></a>További források
+### <a name="additional-resources"></a>További erőforrások
 
 - [Windows 7 támogatás – GYIK oldal](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-end-support-faq)
 - [Windows 7 támogatás és Microsoft 365 alkalmazások](/deployoffice/endofsupport/windows-7-support)
@@ -174,7 +195,7 @@ Napjainkban a Cloud Solution Provider programban a közvetlen számlázási part
 
 Először is **bevezetjük a teljesítmény standardot a közvetlen számlázási partneri követelmények részeként**. Azoknak a partnereknek, akik közvetlen számlás partnerként szeretnének regisztrálni a felhőalapú megoldás-szolgáltatói programban, legalább USD300K kell teljesíteniük a Cloud Solution Provider program bevételét a [szükséges támogatási szerződés](https://partner.microsoft.com/support/partnersupport) megújításának napját megelőző 12 hónapban.
 
-Ez a teljesítmény-szabvány a jelenlegi közvetlen számlázási partnerek esetében 2021 januárjában lép érvénybe, és meg kell felelnie a partner támogatási tervének megújítási dátuma alapján támasztott követelményeknek.
+Ez a teljesítményszabvány az aktuális számlázási partnerek esetében 2021 januárjában lép érvénybe, és a partnertámogatási csomag megújítási dátumáig teljesíteniük kell a követelményeket.
 
 Ha nem tudja, hogy nem felel meg a frissített közvetlen számlázási partneri követelményeknek, újra kell regisztrálnia a Felhőbeli megoldás-szolgáltatói programban a közvetett viszonteladóként. 
 
@@ -209,7 +230,7 @@ Annak érdekében, hogy készen álljon a közvetlen számlázási program támo
 
 Az új követelményeknek meg nem felelő CSP-program közvetlen számlázási partnereit újra regisztrálni kell a programban a Microsoft Partner Networkon belül. [Tudjon meg többet](../transition-direct-to-indirect.md) arról, hogyan teheti át a közvetlen számlázási partnertől a közvetett viszonteladó felé való áttérést.  
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Tekintse át a [frissített közvetlen számlázási partneri követelményeket](../direct-partner-new-requirements.md#minimum-requirements).
 - Tekintse át a GYIK és egyéb információkat a [Microsoft partner webhelyének operatív erőforrás-galériájában](https://partner.microsoft.com/resources/collection/new-performance-standard-for-direct-bill-partner-requirements-in-csp#/).
@@ -254,7 +275,7 @@ A következő november árlista előzetes ajánlatának azonosító adatait figy
    |Microsoft 365 Vállalati verzió hang bevezetésére szolgáló promo (csak US)|93a8771f-ddc7-4c68-ac21-6bd1b17d1e5b|
    |Microsoft 365 Vállalati verzió hang (nonprofit munkatársak díjszabása)|ae54a18d-3472-473a-9b21-9831b8e658f3|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ismerkedjen meg az előzetes verzió díjszabási listájával, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 - Tekintse át az összes készültségi anyagot a CSP program frissítésének erőforrás-katalógusában, amely bemutatja a [kis-és közepes vállalkozások Microsoft 365 vállalati verzió hangját](https://partner.microsoft.com/resources/collection/m365-voice-smb).
@@ -277,7 +298,7 @@ A Cloud Solution Provider (CSP) programban részt vevő közvetlen számlázás,
 ### <a name="details"></a>Részletek
 Az online szolgáltatások és a szoftveres csatornák engedélyezésének azon alszakasza alapján, amely az adott szakasz "a változások az útmutatókban" című részében szerepel a Microsoft partneri szerződésében – a Microsoft ezennel értesíti Önt arról, hogy az online szolgáltatások és a szoftveres csatorna engedélyezési útmutatójának frissítése folyamatban van. a frissített útmutató előzetes verziója [itt érhető el](https://partner.microsoft.com/resources/detail/update-guide-online-services-software-channel-authorization-pdf). Ez a frissítés a jelen értesítés dátumától számítva 30 nappal lép érvénybe. nincs szükség további beavatkozásra.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 Nincs szükség műveletre. Ez csak egy Megjegyzés.
 
 ________________
@@ -311,7 +332,7 @@ Microsoft 365 Vállalati verzió hang a következő előfizetésekhez adható ho
 - Office 365: Business Essentials, Business Premium, a1, E1, a3 és E3  
 - Microsoft 365: Business, a3 és E3
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ismerkedjen meg az előzetes verzió díjszabási listájával, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 - Tekintse át az összes készültségi anyagot a Cloud Solution Provider (CSP) program Updates Resource Gallery: [Microsoft 365 vállalati verzió hang bevezetésével kis-és közepes vállalkozások](https://partner.microsoft.com/resources/collection/m365-voice-smb#/)számára.
@@ -356,13 +377,13 @@ Ezek a promóciók a következő ügyfeleket érintik:
 - NET új ügyfél bérlők
 - Meglévő ügyfél-bérlők, akik nem rendelkeznek aktív vagy nemrégiben megszakított (az elmúlt 30 napban) előfizetéssel a CSP-n, a web Directen vagy bármely más Microsoft kereskedelmi csatornán lévő üzleti hang-és hangkonferencia-licenccel kapcsolatban
 
-#### <a name="additional-resources"></a>További források
+#### <a name="additional-resources"></a>További erőforrások
 
 - Látogasson el a [Microsoft 365 vállalati verzió Hangpartner oldalára](https://www.microsoft.com/microsoft-365/partners/businessvoice) , ahol többet tudhat meg az üzleti hangról. 
 - A [hangkonferencia további lehetőségeinek](/microsoftteams/audio-conferencing-in-office-365)megismeréséhez tekintse meg Microsoft 365 hangkonferencia című témakört.
 - További információt ezekről a promóciókról a kapcsolódó [Partner GYIK](https://www.microsoft.com/microsoft-365/partners/resources/faq-business-voice-audio-conferencing-promo)-ban talál.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ismerkedjen meg az értekezlettel, és hívja meg a promóciós lehetőségeket, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 - Ezeket az ajánlatokat beépítheti Microsoft 365 értékesítési akcióinkba.
@@ -404,7 +425,7 @@ A Azure Portal újdonságai:
 
 Ha kérdése van ezekkel a változásokkal kapcsolatban, forduljon a [támogatási csapathoz](https://aka.ms/marketplacepublishersupport).
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át és frissítse az ügyfél dokumentációját és a segédanyagokat annak érdekében, hogy azok tükrözzék az új felhasználói élményt.
 
@@ -461,7 +482,7 @@ A prémium ajánlat keretében az ügyfelek hozzáférhetnek az újonnan kiadott
 
 Az új ajánlat és a földrajzi elérhetőség megismeréséhez látogasson el a [gyakran ismételt kérdések (GYIK)](https://partner.microsoft.com/resources/detail/faq-microsoft-teams-rooms-premium-sku-for-microsoft-teams-pdf)webhelyre.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - További információ a Microsoft-szobákról és a kapcsolódó ajánlatokról: [Rooms.microsoft.com](https://rooms.microsoft.com/). 
 - A [Teams partneri útmutató](https://aka.ms/teamscallingmeetingsguide) segítségével kifejlesztheti a munkatársainak csapatait, és létrehozhat egy közös értékesítésre kész ajánlatot. 
@@ -583,7 +604,7 @@ A szolgáltatás minden aktuális piacon megvásárolható.
 **Mik a speciális kommunikációs előfeltételek?**
 Microsoft Teams és bármely Microsoft 365/Office 365 Suite.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ossza meg ezeket az információkat a szervezete megfelelő kapcsolataival, és Ismerje meg a upsell és az értékesítési lehetőségeket.
 - Tekintse át a [Teams partner útmutatójának](https://aka.ms/teamscallingmeetingsguide)erőforrások szakaszát.
@@ -613,7 +634,7 @@ A Cloud Solution Provider (CSP) partnerei
 - Dynamics 365 ügyfél hangalapú felhasználói előfizetés licence (felhasználói előfizetési licenc) 
 - Ajánlatok kibontása a CSP-ben
 
-### <a name="additional-resources"></a>További források
+### <a name="additional-resources"></a>További erőforrások
 
 - Tekintse át a [Dynamics CSP Offers-November 2020](https://partner.microsoft.com/resources/detail/dynamics-csp-offers-november-2020-xls) Excel-dokumentum Project Operations lapján az ajánlat-azonosító részleteit.
 - További információt a [Microsoft Dynamics 365 Customer Voice kezdőlapján](https://dynamics.microsoft.com/customer-voice/overview/)talál.
@@ -644,7 +665,7 @@ Azon ügyfelek számára, akik továbbra is a Windows 7 rendszerű eszközöket 
 - [Windows 7 támogatás és Microsoft 365 alkalmazások](/deployoffice/endofsupport/windows-7-support)
 - [Erőforrás-gyűjtemény](https://partner.microsoft.com/resources/collection/windows-esu-csp#/)
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.  
 
@@ -695,7 +716,7 @@ A Microsoft Graph-összekötők segítségével az ügyfelek a Microsoft keresé
    |További gráf-összekötő kapacitása|9c8b008f-d84f-46cd-a588-fea84947161d|1LA – 00002|
    |Extra gráf-összekötő kapacitása az oktatók számára|0e0eb210-86e7-4038-9905-4fd5bf71c4bd|1TL – 00003|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át a témakör erőforrásait, és ossza meg a szervezete megfelelő szereplőivel.
 
@@ -725,7 +746,7 @@ A FY20 CSP ösztönző program időtartama szeptember 30-ig 2020. A FY21 CSP ös
 
 A frissített FY21-program díjszabása 2020 október 1-től lép érvénybe. A partnerek a havi ösztönző befizetések megfelelő módosításait a 2020-as december 15., a fizetési ciklustól kezdődően fogják megfigyelni.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Tekintse át a FY21 programhoz tartozó eszközöket, és készüljön fel az ösztönző díjszabásra a termékek és az ügyfelek által végzett mozgások tekintetében.
 

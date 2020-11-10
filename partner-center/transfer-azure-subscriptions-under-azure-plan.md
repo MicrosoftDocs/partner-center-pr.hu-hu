@@ -9,16 +9,16 @@ ms.localizationpriority: medium
 author: mckennaville
 ms.author: mcville
 ms.date: 07/29/2020
-ms.openlocfilehash: 4213658fc131d83d6c0640552d862f4de9b5ad86
-ms.sourcegitcommit: e10d2a19dea7e317d227d7fbdcf1bbc3dc4f6257
+ms.openlocfilehash: 81f64e117f9e0a4abc817746d11dc9acae887577
+ms.sourcegitcommit: 146964ce0cc72bd821692f73f9c0b55e6fefb0fc
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530234"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94433347"
 ---
 # <a name="transfer-a-customers-azure-plan-subscriptions-to-a-different-partner"></a>Ügyfél Azure-csomag-előfizetésének átvitele egy másik partnerre
 
-## <a name="applies-to"></a>A következőre érvényes:
+**Megfelelő szerepkörök**
 
 - Partnerek a Cloud Solution Provider (CSP) programban
 
@@ -77,17 +77,20 @@ Az előfizetés jövőbeli partnerének el kell végeznie egy átadási kérelem
 
 6.  Válassza az **átvitel küldése kérelem**  >  **Küldés** lehetőséget.
 
-    :::image type="content" source="images/modernazuretransfers/CompleteTrnasferRequestForm.png" alt-text="Átvitelek szakasz":::
+    :::image type="content" source="images/modernazuretransfers/CompleteTrnasferRequestForm.png" alt-text="Adatátviteli kérelem űrlapjának befejezése":::
 
 7.  Átmozgatási kérelem megerősítése
 
-    :::image type="content" source="images/modernazuretransfers/TransferPending.png" alt-text="Átvitelek szakasz" vagy "kész", a lemondások nem lesznek lehetségesek.
+    :::image type="content" source="images/modernazuretransfers/TransferPending.png" alt-text="Ellenőrzés függőben":::
+
+    >[!Note]
+    >A jövőbeli partner megszakíthatja az adatátviteli kérést a jobb felső sarokban lévő **kérelem megszakítása** lehetőség kiválasztásával, ha az átadási kérelem állapota "függőben van". Ha az átviteli kérelem állapota "folyamatban" vagy "kész", a lemondások nem lesznek lehetségesek.
 
 ## <a name="current-partner-tasks-to-be-completed"></a>Az aktuálisan elvégzendő partneri feladatok
 
 Az ügyfél a jelenlegi partner rendszergazdai ügynöke egy e-mailt kap arról, hogy az ügyfél az előfizetésük átvitelét kéri:
 
-:::image type="content" source="images/modernazuretransfers/SourceReviewEmail.png" alt-text="Átvitelek szakasz":::
+:::image type="content" source="images/modernazuretransfers/SourceReviewEmail.png" alt-text="Áttekintés":::
 
 Tekintse át és fogadja el az adatátviteli kérés űrlapot a partner Centertől az előfizetés átvitelének befejezéséhez.
 
@@ -100,7 +103,7 @@ Tekintse át és fogadja el az adatátviteli kérés űrlapot a partner Centert�
 3.  Válassza az **átviteli kérelem** szakaszt.
 4.  Az átadási adatok kibontása a kiválasztott **átadási kérelem azonosítójának** kiválasztásával a **fogadott kérelmek** között
 
-:::image type="content" source="images/modernazuretransfers/ReviewRequest.png" alt-text="Átvitelek szakasz":::
+:::image type="content" source="images/modernazuretransfers/ReviewRequest.png" alt-text="Forrás-felülvizsgálati kérelem átvitele":::
 
 5.  Átmozgatási kérelem áttekintése. Válassza ki az átvinni kívánt Azure-előfizetéseket.
 
@@ -111,7 +114,7 @@ Tekintse át és fogadja el az adatátviteli kérés űrlapot a partner Centert�
 
 6.  Ezután válassza az **elfogadás és az átvitel** lehetőséget az adatátviteli folyamat befejezéséhez.
 
-:::image type="content" source="images/modernazuretransfers/SelectSubs.png" alt-text="Átvitelek szakasz":::
+:::image type="content" source="images/modernazuretransfers/SelectSubs.png" alt-text="Válassza ki az Azure-csomagok alá továbbítandó előfizetéseket":::
 
 7.  Az átvitel elfogadási megerősítésének megtekintése.
 
