@@ -324,6 +324,25 @@
     - name: Kifizetések és bevételek hibaelhárítása
       href: incentives-payment-issues.md
       displayName: incentives
+    - name: A Csatornaösztönzők platform (CHIP) használata
+      items:
+        - name: Navigáció a CHIP felületén
+          href: chip-intro.md
+          displayName: chip
+        - name: Felhasználók hozzáadása a CHIP-fiókhoz
+          href: chip-users.md
+        - name: Bevételek megtekintése a CHIP felületén
+          href: chip-earnings.md
+        - name: A kifizetési állapot ellenőrzése a CHIP felületén
+          href: chip-payment-status.md
+        - name: Megállapodáshoz tartozó munkaállomásszám és díjszabás megkeresése
+          href: chip-locate-agreement.md
+        - name: Jogosultság megoldásértékelésre
+          href: chip-solution-assessment.md
+        - name: Megoldásértékelés kifizetési állapota
+          href: chip-solution-assessment-payment.md
+        - name: Problémák a CHIP elérésekor
+          href: chip-access-trouble.md
 - name: Számlázás és adók
   href: billing.md
   displayName: trial
