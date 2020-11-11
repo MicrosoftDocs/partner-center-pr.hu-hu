@@ -6,12 +6,12 @@ ms.service: marketplace
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 12/10/2019
-ms.openlocfilehash: 38fa2943815a71c93bba7165ea970baefc992ed9
-ms.sourcegitcommit: e73a8a926476c47ea280735d1939b8a366982d33
+ms.openlocfilehash: 8907d9a394c5679dad5115e03d4ee697d7a07e0f
+ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530096"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94488133"
 ---
 # <a name="set-up-your-payout-account-and-tax-forms"></a>Kifizetési számla és űrlapok beállítása
 
@@ -28,7 +28,7 @@ Miután beállította a fiókját, két dolgot kell tennie, mielőtt az ajánlat
 - [A kifizetési fiók beállítása](#payout-account)
 
 > [!NOTE]
-> További információ arról, hogy hogyan és mikor kell fizetnie az Ön által kínált pénzért, lásd: [befizetések](/azure/marketplace/marketplace-payout-account-setup).
+> További információ arról, hogy hogyan és mikor kell fizetnie az ajánlat által biztosított pénzért, lásd: [befizetések a kereskedelmi piactéren](marketplace-get-paid.md).
 
 ## <a name="tax-forms"></a>Adózási űrlapok
 
@@ -77,7 +77,7 @@ Ha a Egyesült Államokon kívül esik, lehetősége lesz az adózási szerződ�
 A kifizetési fiók az a bankszámla, amelyre a bevételeket küldjük. A profil lapon megadott összes fizetési fiókot megtekintheti.
 
 > [!NOTE]
-> Bizonyos piacokon a PayPal a kifizetési fiókjához is használható. Annak megállapításához, hogy a PayPal támogatott-e egy adott piacon, további részletekért tekintse meg a [fizetési küszöbértékeket, a metódusokat és a határidők](/azure/marketplace/payment-thresholds-methods-timeframes) és a [PayPal-információk](#paypal-info) című szakaszt.
+> Bizonyos piacokon a PayPal a kifizetési fiókjához is használható. Annak megállapításához, hogy a PayPal támogatott-e egy adott piacon, további részletekért tekintse meg a [fizetési küszöbértékeket, a metódusokat és a határidők](payment-thresholds-methods-timeframes.md) és a [PayPal-információk](#paypal-info) című szakaszt.
 
 ### <a name="create-a-payment-profile"></a>Fizetési profil létrehozása
 
@@ -116,7 +116,7 @@ Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a k
 
 Győződjön meg arról, hogy a kifizetés sikeres volt, ügyeljen rá, hogy:
 
-- A partner Centerben a kifizetési fiókjához megadott **fiók tulajdonosának** pontosan meg kell egyeznie a bankszámlával társított névvel. Ha például a bankszámla neve középső nevet tartalmaz, adjon hozzá egy középső nevet a **fiók tulajdonosának nevéhez** .
+- A partner Centerben a kifizetési fiókjához megadott **fiók tulajdonosának** pontosan meg kell egyeznie a bankszámlával társított névvel. Ha például a bankszámla neve középső nevet tartalmaz, adjon hozzá egy középső nevet a **fiók tulajdonosának nevéhez**.
 - A kifizetések közvetlenül a Microsofttól a bankszámlájára lesznek továbbítva USD pénznemben.
 - A partner Centerben megadott banki adatok latin betűvel vannak lefordítva a cirill karakterekre.
 
@@ -131,20 +131,20 @@ Ha módosítani vagy javítani szeretné a helytelen adatokat, módosíthatja a 
 3. A fizetési profilok az állapotukkal együtt lesznek felsorolva. Keresse meg a szerkeszteni kívánt profilt, és kattintson a jobb szélen található **Szerkesztés** gombra.
 
 > [!IMPORTANT]
-> A kifizetési fiók módosítása akár egy fizetési ciklusban is késleltetheti a befizetését. Ez a késleltetés azért fordul elő, mert ellenőrizni kell a fiók változását, ugyanúgy, ahogy a kifizetési fiók első beállításakor. A fiók ellenőrzése után továbbra is a teljes összegért kell fizetnie. a rendszer a jelenlegi fizetési ciklus miatt esedékes összes kifizetést hozzáadja a következőhöz. További információért lásd: [befizetések](/azure/marketplace/marketplace-payout-account-setup) .
+> A kifizetési fiók módosítása akár egy fizetési ciklusban is késleltetheti a befizetését. Ez a késleltetés azért fordul elő, mert ellenőrizni kell a fiók változását, ugyanúgy, ahogy a kifizetési fiók első beállításakor. A fiók ellenőrzése után továbbra is a teljes összegért kell fizetnie. a rendszer a jelenlegi fizetési ciklus miatt esedékes összes kifizetést hozzáadja a következőhöz. További információért tekintse meg [a kereskedelmi piactéren befizetett](marketplace-get-paid.md)információkat.
 
 ### <a name="paypal-info"></a>PayPal-információ
 
 Az országok és régiók kiválasztása lapon fizetési fiókot hozhat létre a PayPal-adatok beírásával. A PayPal fizetési fiókként való kiválasztása előtt azonban a következő lehetőségek közül választhat:
 
-- A [fizetési küszöbértékek, módszerek és időkeretek](/azure/marketplace/payment-thresholds-methods-timeframes) ellenőrzése annak megerősítéséhez, hogy a PayPal támogatott fizetési mód-e az Ön országában vagy régiójában.
+- A [fizetési küszöbértékek, módszerek és időkeretek](payment-thresholds-methods-timeframes.md) ellenőrzése annak megerősítéséhez, hogy a PayPal támogatott fizetési mód-e az Ön országában vagy régiójában.
 - Tekintse át az alábbi gyakori kérdéseket. Előfordulhat, hogy a PayPal nem a legjobb fizetési fiók lehetőséget választja, és előfordulhat, hogy egy bankszámla is előnyben részesített.
 
 Gyakori kérdések a PayPal fizetési módszerként való használatáról:
 
 - **Milyen PayPal-beállításokra van szükségem a fizetések fogadásához?** Győződjön meg arról, hogy a PayPal-fiókja nem blokkolja a eCheck befizetését. Ezt a beállítást a PayPal fizetési fogadási beállítások lapján kezelheti. További információért lásd a [PayPal fiókjának beállítása lapot](https://go.microsoft.com/fwlink/p/?linkid=513139) .
 
-- **Támogatott az országom/régióm?** Tekintse meg a [fizetési küszöbértékeket, metódusokat és időkereteket](/azure/marketplace/payment-thresholds-methods-timeframes) , hogy megtudja, hol található a PayPal egy támogatott fizetési mód.
+- **Támogatott az országom/régióm?** Tekintse meg a [fizetési küszöbértékeket, metódusokat és időkereteket](payment-thresholds-methods-timeframes.md) , hogy megtudja, hol található a PayPal egy támogatott fizetési mód.
 
 - **Meg kell-e regisztrálni a PayPal-fiókomat ugyanabban az országban/régióban, mint a partner Center-fiókom?** Nem. A PayPal-fiók beállításakor elfogadhatja az alapértelmezett konfigurációt. A többi országgal/régióval és pénznemmel kapcsolatos problémával nem rendelkezhet, kivéve, ha letiltotta a fizetést bizonyos pénznemekben. Ezt a beállítást a PayPal fizetési fogadási beállítások lapján kezelheti.
 
@@ -173,7 +173,7 @@ Ha Ön olyan közzétevő, aki Oroszországban él, előfordulhat, hogy a bankja
 
 Győződjön meg arról, hogy a kifizetés sikeres volt, ügyeljen rá, hogy:
 
-- A partner Centerben a kifizetési fiókjához megadott **fiók tulajdonosának** pontosan meg kell egyeznie a bankszámlával társított névvel. Ha például a bankszámla neve középső nevet tartalmaz, adjon hozzá egy középső nevet a **fiók tulajdonosának nevéhez** .
+- A partner Centerben a kifizetési fiókjához megadott **fiók tulajdonosának** pontosan meg kell egyeznie a bankszámlával társított névvel. Ha például a bankszámla neve középső nevet tartalmaz, adjon hozzá egy középső nevet a **fiók tulajdonosának nevéhez**.
 - A kifizetések közvetlenül a Microsofttól a bankszámlájára kerülnek a rubel (RUB) pénznemben.
 - A partner Centerben megadott banki adatok latin betűvel vannak lefordítva a cirill karakterekre.
 - A kifizetéseket bankszámlára kell tenni, és nem kell bankkártyához adni.
@@ -203,6 +203,6 @@ Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a k
 5. Minden programban részt vevő programhoz ki kell választania egy fizetési profilt, de több program esetében ugyanazt a profilt használhatja.
 6. A módosítások mentéséhez kattintson a Submit (küldés) gombra.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
-[A kereskedelmi piactér számlázása](/azure/marketplace/billing-details)
+[Fizetés fogadása a kereskedelmi piactéren](marketplace-get-paid.md)

@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 2d4fc0aef733b8086e550695e2b2e4065930a4a1
-ms.sourcegitcommit: af2787e516ecfb5f6cf1acdb8179f2337bfa856a
+ms.openlocfilehash: 9702bef0a2fa753e37cfe305bc766ea64f0d0b3f
+ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "94333895"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94488110"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -23,6 +23,56 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [August](2020-august.md)  |  [szeptember](2020-september.md)augusztus  |  [October](2020-October.md) | . November
 
 ______________
+
+
+## <a name="testing-available-partner-center-api-updates-and-user-interface-ui-enhancements-for-the-education-customer-validation-process"></a><a name="7"></a>Elérhető tesztelés: a partner Center API frissítései és a felhasználói felület (UI) fejlesztései az oktatási ügyfél-ellenőrzési folyamathoz
+
+### <a name="categories"></a>Kategóriák
+
+- 2020-11-10. dátum
+- Képességek | A meghajtó hatékonyságának & skálázása
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Az akadémiai ajánlatokat a Cloud Solution Provider (CSP) programon keresztül értékesítő partnerek.
+
+### <a name="summary"></a>Összegzés
+
+A tesztelés mostantól elérhető a partner Center API frissítéseihez és a felhasználói felület fejlesztéséhez az oktatási ügyfél-ellenőrzési folyamathoz.
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfelek érvényesítéséhez a CSP programban. Ennek részeként bevezetjük a partner Center API-t és a felhasználói felület fejlesztéseit a pénzügyi év második negyedévében (FY21 Q2). Ezek a fejlesztések az ügyfél-ellenőrzési folyamat átláthatóságát és láthatóságát, valamint a pontosabb adatok bevitelét is lehetővé teszik, ami javítja az ügyfél-érvényesítés sikerességét.
+
+**A partner Center fejlesztései**
+
+- Új GET és POST minősítési API-k a pontos adatbevitel támogatásához és a Microsoft oktatási ügyfél-ellenőrzési folyamatának javításához.
+
+- A felhasználói felület fejlesztése a pontos adatbevitel támogatásához és a Microsoft oktatási ügyfél-ellenőrzési folyamatának javításához.
+
+**Tesztelés**
+
+Ha jobban meg szeretné ismerni a sikeres ügyfél-ellenőrzéshez szükséges API-kat és adatbevitelt, a partnereink október 2020-én ellenőrizhetik ezeket a fejlesztéseket. A pontos időzítéssel és a részvétel módjával kapcsolatos további részletek hamarosan elérhetővé válnak. A meglévő partner Center API-k a FY21 Q2 vége előtt megszűnnek. Ekkor át kell térnie az új partner Center API-kra.
+
+   - Az elérhető tesztelés a partneri teszt dátumai a 2020. október 2. és december 2. között vannak. A részt venni kívánó partnereknek le kell tölteniük a partneri központ oktatási ügyfelének tesztelési útmutatóját, amely bemutatja, hogyan regisztrálhatnak, és mire számíthatnak a tesztelési fázisban.
+
+**A könyvtár és a Múzeum ügyfelei**
+
+Ezen fejlesztéseken kívül örömmel jelentjük be, hogy a FY21 Q2-ben a könyvtár-és Múzeum-ügyfelek számára is engedélyezzük a Academic-díjas ajánlatokat, és kiterjesztjük az oktatási ügyfeleket, akikkel a Transact CSP-ajánlatokat használhatja.
+
+A Microsoft fenntartja a jogot arra, hogy áttekintse az ügyfelek vagy a javasolt ügyfelek állapotát a minősített oktatási felhasználóként. A részletekért tekintse meg a tanulmányi végzettséggel kapcsolatos [szakképzési felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) .
+
+## <a name="next-steps"></a>További lépések
+
+Tekintse át az új partneri központ felhasználói felületét és API-változásait, valamint a [partner Center oktatási ügyfél-ellenőrzési folyamatának](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/) tesztelési útmutatóját a tartalom gyűjteményében.
+
+• Regisztráljon, hogy részt vegyen a tesztelésben. (Részletek a [tesztelési útmutatóban](https://partner.microsoft.com/resources/detail/partner-center-edu-testing-guide-pdf) olvashatók.) 
+
+• Győződjön meg arról, hogy a szervezete ismeri a tudományos végzettséggel [kapcsolatos felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7). 
+
+• Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal, valamint a viszonteladókkal, hogy segítsen ezeknek a változásoknak a előkészítésében.
+
+
 
 ## <a name="expanding-commercial-licensing-partner-content-on-the-operations-readiness-gallery"></a><a name="6"></a>A kereskedelmi licencelési partnerek tartalmának kiterjesztése az Operations Readiness Galleryben
 
@@ -78,14 +128,14 @@ A prémium ajánlat keretében az ügyfelek hozzáférhetnek az újonnan kiadott
 
    |****|**Microsoft Teams standard USD15-eszköz havonta**|**Microsoft Teams Rooms Premium USD50-eszköz havonta**|
    |-------------------|:------|:------|
-   |Skype Vállalati verzió|Igen| |
-   |Microsoft Teams|Igen|Igen|
-   |Telefonos rendszer|Igen|Igen|
-   |Hangkonferencia|Igen|Igen|
-   |Microsoft Intune|Igen|Igen|
+   |Skype Vállalati verzió|Yes| |
+   |Microsoft Teams|Igen|Yes|
+   |Telefonos rendszer|Igen|Yes|
+   |Hangkonferencia|Igen|Yes|
+   |Microsoft Intune|Igen|Yes|
    | |A Microsoft Teams standard szintű USD15 eszközönként havonta|Microsoft Teams Rooms Premium USD50/hó|
-   |Microsoft Teams Rooms – felügyelt szolgáltatások| |Igen|
-   |Globális elérhetőség|Igen|A piacok kiválasztása|
+   |Microsoft Teams Rooms – felügyelt szolgáltatások| |Yes|
+   |Globális elérhetőség|Yes|A piacok kiválasztása|
 
 #### <a name="microsoft-teams-rooms-managed-services"></a>Microsoft Teams Rooms – felügyelt szolgáltatások
 

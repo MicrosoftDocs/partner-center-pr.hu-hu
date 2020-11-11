@@ -1,19 +1,19 @@
 ---
-title: A Microsoft által kiadott IRS-adózási űrlapok ismertetése
+title: A Microsoft által kiadott adóhatósági adózási űrlapok ismertetése
 description: Ismerje meg a Microsoft által kiadott adózási űrlapokat, beleértve azokat is, akik megkapják azokat, és amikor elérhetővé teszik őket.
 ms.topic: article
 author: mingshen-ms
 ms.author: mingshen
 ms.localizationpriority: medium
 ms.date: 09/30/2020
-ms.openlocfilehash: 18ebd0a82802e26295ed985084585306da464079
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: 5543ec62397a72a042c5aa64c6c8f77ce7286f4c
+ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530397"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94487873"
 ---
-# <a name="understand-irs-tax-forms-issued-by-microsoft"></a>A Microsoft által kiadott IRS-adózási űrlapok ismertetése
+# <a name="understand-irs-tax-forms-issued-by-microsoft"></a>A Microsoft által kiadott adóhatósági adózási űrlapok ismertetése
 
 A Microsoft évente egy vagy több előfizetést is kaphat. Ez a tartózkodási helytől, valamint a kapott értékesítések és kifizetések mennyiségétől függ. A Microsoft köteles kiadni ezeket az űrlapokat, és azokat a belső bevételi szolgáltatással (IRS).
 
@@ -21,13 +21,13 @@ Ez a cikk részletesebben ismerteti ezeket az űrlapokat, beleértve az azok fog
 
 ## <a name="types-of-tax-forms"></a>Az adózási űrlapok típusai
 
-| IRS-adó űrlapja | Leírás | Rendelkezésre állás |
+| IRS-adó űrlapja | Description | Rendelkezésre állás |
 |--------------|-------------|--------------|
 |1099 – MISC, 1099-K | Értékesítési tevékenységhez és/vagy a Microsoft piactéren való részvételhez nyújtott fizetésekhez kapcsolódóan | A nyomtatott űrlapok **január 31-ig** vagy azt megelőzően postmarked lesznek. a PDF-másolatok a [partner Centerben](https://partner.microsoft.com/dashboard) lesznek elérhetők (a **partner Center fiók beállításaiban** a **kifizetések és adók > a kifizetések és az adó-profilok** között). |
 |1042 – S | A kifizetésekhez kapcsolódóan, amelyekre Egyesült Államok forrásadó vonatkozik | A nyomtatott űrlapok **március 15** -én vagy azt megelőzően postmarked lesznek. a PDF-másolatok a partner Centerben lesznek elérhetők (a **partner Center fejlesztői beállításaiban** a **kifizetések és az adó >** a kifizetések és az adó profilok között).  |
 
 > [!NOTE]
-> Az IRS-adózási űrlapokon használt címek az Ön [adóazonosító](/azure/marketplace/marketplace-payout-account-setup)címe alapján származnak. Ha a címe módosult, ügyeljen arra, hogy frissítse az **adózási profilban** szereplő címeket.
+> Az IRS-adózási űrlapokon használt címnek a [kifizetési fiók és az adózási űrlapok beállításakor](set-up-your-payout-account.md)az adó-profilban szereplő címről származik. Ha a címe módosult, ügyeljen arra, hogy frissítse az **adózási profilban** szereplő címeket.
 
 A rendszer a következő címekről küldi el az adó űrlapokat:
 
@@ -76,6 +76,6 @@ A rendszer a következő címekről küldi el az adó űrlapokat:
 > [!NOTE]
 > Ha további kérdései vagy az **IRS-adózási űrlapokkal** kapcsolatos problémái vannak, lépjen a [Súgó és támogatás](https://partner.microsoft.com/dashboard/support/) elemre a partner Center irányítópultján. A Microsoft nem tud válaszolni az adott adózási körülményekkel kapcsolatos kérdésekre; ezekre a kérdésekre kérjük, kérjen tanácsot az adó szakembertől.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Fizetés fogadása a kereskedelmi piactéren](marketplace-get-paid.md)

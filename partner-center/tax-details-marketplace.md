@@ -6,14 +6,14 @@ ms.service: marketplace
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 05/04/2020
-ms.openlocfilehash: 161c524cb3c20b2d17e4bb265cc676acc1af2702
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 89b014b87dd37cc2d38a5931b2f5433394f369c9
+ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530486"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94488197"
 ---
-# <a name="tax-details-for-commercial-marketplace-publishers"></a>Kereskedelmi piactér-közzétevők adózási adatai
+# <a name="tax-details-for-commercial-marketplace-publishers"></a>Adóadatok a kereskedelmi piactér közzétevői számára
 
 Az árak kiválasztására vonatkozó adózási megfontolások, valamint a [Microsoft Azure Marketplace kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560) vagy a modern kiadói szerződés keretében felmerülő adózási szempontok megismeréséhez tekintse meg az alábbi táblázatokban a terjesztési országokat/régiókat.
 
@@ -269,7 +269,7 @@ A következők csak az Azure Marketplace-közzétevőket érintik, a fentiektől
 
 ## <a name="mixed-remittance-countriesregions-for-publishers"></a>Vegyes átutalási országok/régiók a közzétevők számára
 
-Bizonyos Microsoft számlázási partnereink értékesítési, használati, áruk és szolgáltatások, hozzáadott értékű vagy hasonló adók (ha vannak ilyenek) az alábbi országok/régiók az áruházban való megvásárlásakor vagy In-App termék (ek) en való beszerzésére vonatkozhatnak. A Microsoft által elérhetővé tett [jelentések](/azure/marketplace/payout-summary-overview) alapján azonosíthatja azokat a tranzakciókat, amelyek esetében a számlázási partner az alkalmazás (ok) vagy In-App termék (ek) megvásárlásakor az ügyfelek által beszerzett értékesítési, használati, termék-és szolgáltatás-vagy hasonló adókat gyűjtött. Az ilyen jelentésekben ismertetett tranzakciók kivételével a Microsoft és a számlázási szolgáltatók sem nem tesznek elérhetővé semmilyen értékesítést, felhasználást, terméket és szolgáltatást, hozzáadott értéket vagy más hasonló adót az alkalmazás (ok) vagy a In-App termék (ek) megszerzésével kapcsolatban ezekben az országokban/régiókban. A jelentések áttekintése és az adózással kapcsolatos regisztráció és befizetés az Ön felelőssége.
+Bizonyos Microsoft számlázási partnereink értékesítési, használati, áruk és szolgáltatások, hozzáadott értékű vagy hasonló adók (ha vannak ilyenek) az alábbi országok/régiók az áruházban való megvásárlásakor vagy In-App termék (ek) en való beszerzésére vonatkozhatnak. A Microsoft által elérhetővé tett [kifizetési nyilatkozatban](payout-statement.md) szereplő jelentések alapján azonosíthatja azokat a tranzakciókat, amelyek esetében a számlázási partner az alkalmazás (ok) vagy In-App termék (ek) az áruházban való beszerzésével kapcsolatban az ügyfelek által beszerzett értékesítés, felhasználás, termékek és szolgáltatások, hozzáadott érték vagy hasonló adók begyűjtését végzi. Az ilyen jelentésekben ismertetett tranzakciók kivételével a Microsoft és a számlázási szolgáltatók sem nem tesznek elérhetővé semmilyen értékesítést, felhasználást, terméket és szolgáltatást, hozzáadott értéket vagy más hasonló adót az alkalmazás (ok) vagy a In-App termék (ek) megszerzésével kapcsolatban ezekben az országokban/régiókban. A jelentések áttekintése és az adózással kapcsolatos regisztráció és befizetés az Ön felelőssége.
 
 | Vegyes átutalási országok/régiók |
 |------------------------------------|
@@ -287,6 +287,6 @@ A következők csak az Azure Marketplace-közzétevők esetében érvényesek:
 | Brazília (a CSP kivételével az összes ügyfél-vásárlási forgatókönyvön keresztül lebonyolított vásárlások esetén) |
 | Mexikó (csak az Nagyvállalati Szerződés ügyfél-vásárlási forgatókönyvön keresztül lebonyolított vásárlások esetén) |
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
-[Kifizetési számla és űrlapok beállítása](/azure/marketplace/marketplace-payout-account-setup)
+[Kifizetési számla és űrlapok beállítása](set-up-your-payout-account.md)
