@@ -338,9 +338,11 @@
         - name: Megállapodáshoz tartozó munkaállomásszám és díjszabás megkeresése
           href: chip-locate-agreement.md
         - name: Jogosultság megoldásértékelésre
-          href: chip-solution-assessment.md
+          href: chip-solutions-assessment-eligible.md
         - name: Megoldásértékelés kifizetési állapota
           href: chip-solution-assessment-payment.md
+        - name: Megoldásértékelés – GYIK
+          href: chip-faq.md
         - name: Problémák a CHIP elérésekor
           href: chip-access-trouble.md
 - name: Számlázás és adók
@@ -365,6 +367,10 @@
       href: daily-rated-usage-recon-files.md
     - name: Licencalapú egyeztetési fájlok
       href: license-based-recon-files.md
+    - name: CSP-s egyszeri vásárlások egyeztetési fájljai
+      href: modern-invoice-reconciliation-file.md
+    - name: Tényleges egységár kiszámítása
+      href: effective-unit-price-calculation.md
     - name: Számlázással kapcsolatos gyakori forgatókönyvek
       href: common-billing-scenarios.md
       displayName: 'trial, subscription'
