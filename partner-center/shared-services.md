@@ -8,19 +8,16 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.date: 06/03/2020
-ms.openlocfilehash: 49b5bd1c9a7cd4c56f2fac28a45cc8a4b922b9b0
-ms.sourcegitcommit: 2d11dbdcc2b1e64ad16d29182824984517470a63
+ms.date: 11/11/2020
+ms.openlocfilehash: 93ee3e142bf11c3b329fd27ec7320b93aea780b8
+ms.sourcegitcommit: cc30a06abe55b9da32177a24e74bfd6fc7d8bbb9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "92530103"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94532038"
 ---
 # <a name="add-azure-partner-shared-services-so-partners-can-buy-azure-subscriptions-for-their-own-use"></a>Azure partner megosztott szolgáltatások hozzáadása, hogy a partnerek saját használatra tudják megvásárolni az Azure-előfizetéseket
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
  
 **Megfelelő szerepkörök**
 
@@ -38,17 +35,17 @@ Az Azure partner Shared Services egy új ajánlat típusa a CSP programban lév�
 
 2. Ha még nem rendelkezik megosztott szolgáltatások Bérlővel, kattintson a **megosztott szolgáltatások létrehozása** lehetőségre.
 
-   :::image type="content" source="images/sharedservices3.png" alt-text="Fiókbeállítások > megosztott szolgáltatások":::
+   :::image type="content" source="images/sharedservices3.png" alt-text="Megosztott szolgáltatások létrehozása":::
 
 3. Ez létrehoz egy megosztott szolgáltatások bérlőt, és megvásárolja az Azure CSP megosztott szolgáltatásainak előfizetését, amelyet a megosztott erőforrásokhoz és a belső számítási feladatokhoz használhat.
 
-   :::image type="content" source="images/sharedservices5.png" alt-text="Fiókbeállítások > megosztott szolgáltatások":::
+   :::image type="content" source="images/sharedservices5.png" alt-text="A bérlő létrehozása és az előfizetés megvásárlása":::
 
 ## <a name="about-the-azure--internalshared-services-offer"></a>Az Azure-Internal/Shared Services ajánlat
 
 - A Azure-Internal/Shared Services-előfizetés egy olyan új Azure-ajánlat típusa, amely a partner centeren keresztül érhető el, és a partnerek az Azure-t használják.
 
-- Azure-Internal/Shared Services ajánlat nem jogosult kedvezmények és ösztönzők használatára.
+- Azure-Internal/Shared Services ajánlat kedvezményeket és ösztönzőket vehet igénybe.  Az Azure partner Shared Services-előfizetések jogosultak, és a RIs megvásárlására is használhatók.
 
 - Az Azure-Internal/Shared Services ajánlat csak a megosztott szolgáltatások bérlőre alkalmazható.
 
@@ -78,3 +75,7 @@ A APSS használatával üzembe helyezett BYOL-vagy ingyenes szolgáltatásokkal 
 A piactéren elérhető ajánlatok teljes katalógusának kihasználásához (nem csak BYOL és ingyenes szolgáltatásokhoz) javasoljuk, hogy a CSP-partnerek a web Direct Azure-előfizetések használatával közös szolgáltatásokat telepítsenek.  Azok a CSP-partnerek, akik korábban üzembe helyeztek harmadik féltől származó BYOL és ingyenes szolgáltatási erőforrásokat a piactéren, és továbbra is szeretnék használni őket, és több harmadik féltől származó ajánlatot is üzembe helyezhetnek, javasoljuk, hogy a APSS-előfizetés áttelepítését a [meglévő Azure-előfizetések áttelepítéséhez](/azure/cloud-solution-provider/migration/migration#migrating-existing-azure-subscriptions).
 
 Azok a partnerek, akik a APSS-előfizetés 2019. március 1. után való használatának folytatását tervezik, és új, harmadik féltől származó [BYOL-szolgáltatásokat](https://azuremarketplace.microsoft.com/marketplace/apps?filters=byol) vagy ingyenes szolgáltatásokat kívánnak telepíteni, a független gyártóktól származó utasításokat követve telepíthetik ezeket a APSS-előfizetésekre.
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Szoftver-előfizetések értékesítése felhőszolgáltatón keresztül](csp-software-subscriptions.md)

@@ -4,15 +4,15 @@ description: Megtudhatja, hogyan tekintheti meg és exportálhatja a kereskedelm
 ms.subservice: partnercenter-marketplace-publisher
 ms.service: marketplace
 ms.topic: article
-author: mingshen-ms
-ms.author: mingshen
+author: eunjkim520
+ms.author: eunjkim
 ms.date: 09/23/2020
-ms.openlocfilehash: 460a7b1992d7db40e0f45d3aeb7e2236e9495e07
-ms.sourcegitcommit: a84812b650ec8b6d0513c46c04840e4bbb0c8460
+ms.openlocfilehash: 34d7d162673992601267db03beaddda1573b73c0
+ms.sourcegitcommit: cc30a06abe55b9da32177a24e74bfd6fc7d8bbb9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "92530127"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94532055"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
@@ -50,7 +50,7 @@ A [partneri kifizetési API](https://apidocs.microsoft.com/services/partnerpayou
 
 A **tranzakciók előzményei** oldalon látható a bevétel összegzése, a becsült következő fizetés, valamint a bevétel és a fizetések trendje az elmúlt 36 hónapban. Ebből a szakaszból a tranzakciók részleteit is letöltheti.
 
-:::image type="content" source="images/payouts/transaction-overview.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/transaction-overview.png" alt-text="Tranzakciók áttekintése.":::
 
 - **Bevétel az idei évre** – a befizetett keresetek teljes bevétele és bontása, amelyet a rendszer a következő hónapban fog fizetni.
 - **Becsült fizetési hónap** – az elkövetkező hónapokban várható teljes bevétel.
@@ -59,13 +59,13 @@ A **tranzakciók előzményei** oldalon látható a bevétel összegzése, a bec
 
 A lap jobb felső sarkában található dátumtartomány-kijelöléssel szűrheti az oldal kimenetét az elmúlt 3, 6, 12 vagy 36 hónap megjelenítéséhez. Vagy válasszon ki egy egyéni dátumtartományt, amely legfeljebb 36 hónapig terjedhet ki. Az alapértelmezett dátumtartomány 12 hónap.
 
-:::image type="content" source="images/payouts/search-filter.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/search-filter.png" alt-text="Az oldal jobb felső sarkában található keresési szűrő.":::
 
 ### <a name="transaction-history-summary"></a>Tranzakció előzményeinek összegzése
 
 Ez a jövedelemszerzési adatokat jeleníti meg, beleértve az eladott termékből származó bevétel dátumát, állapotát és a becsült fizetési hónapot.
 
-:::image type="content" source="images/payouts/transaction-history.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/transaction-history.png" alt-text="Tranzakciók előzményei.":::
 
 - **Megszerzett dátum** – a vásárlás dátuma.
 - **Kereset típusa** – a keresett típus, például értékesítés, árengedmény vagy Co-op.
@@ -171,7 +171,7 @@ A **Payments** oldalon megtudhatja, hogy a Microsoft milyen pénzt szerzett. Azt
 >[!Note]
 > Ahhoz, hogy jogosult legyen a kifizetésre, a bevételnek el kell érnie a $50-es [fizetési küszöbértéket](payment-thresholds-methods-timeframes.md) . További információ: [Microsoft kiadói szerződés](https://go.microsoft.com/fwlink/?LinkID=699560).
 
-:::image type="content" source="images/payouts/payments-overview.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/payments-overview.png" alt-text="A kifizetések áttekintése képernyő.":::
 
 - Az **év összes kifizetett összege** – a teljes összegért az év minden programja esetében, az Egyesült államokbeli dollárban.
 - **Következő becsült fizetés** – az egyszeri következő fizetés érkezik Önhöz (még akkor is, ha hamarosan mások is érkeznek), USA dollárban.
@@ -182,7 +182,7 @@ A **Payments** oldalon megtudhatja, hogy a Microsoft milyen pénzt szerzett. Azt
 
 A **Payments (kifizetések** ) tábla a fizetős és a függőben lévő fizetések listáját tartalmazza. A szolgáltatási díj adózási adatait PDF formátumban töltheti le, és megtekintheti egy adott fizetés részleteit.
 
-:::image type="content" source="images/payouts/list-of-payments.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/list-of-payments.png" alt-text="Tranzakciók előzményeinek exportálása":::
 
 - **Fizetős** – az összes befizetés sikeresen elküldése. A legördülő menüben válassza ki az évet az adott évben kiadott kifizetések szűréséhez.
 - **Függőben** – közelgő fizetések.
@@ -197,18 +197,18 @@ A következő táblázat ismerteti a különböző jövedelemszerzési állapoto
 
 | Jövedelemszerzési állapot | Ok | Partneri beavatkozás szükséges? |
 | --- | --- | --- |
-| Feldolgozatlan | A kereset jogosult a fizetésre. Ebben az állapotban marad az ösztönző program program útmutatójában meghatározott hűtési időszakra vonatkozóan. | Nem |
-| Közelgő | A függőben lévő belső felülvizsgálatok által a fizetés feldolgozása előtt generált fizetési sorrend. | Nem |
+| Feldolgozatlan | A kereset jogosult a fizetésre. Ebben az állapotban marad az ösztönző program program útmutatójában meghatározott hűtési időszakra vonatkozóan. | No |
+| Közelgő | A függőben lévő belső felülvizsgálatok által a fizetés feldolgozása előtt generált fizetési sorrend. | No |
 | Függőben lévő adó számla | Az adó számla nem teljes vagy érvénytelen. | A fizetés előtt frissítenie kell az áfát |
 | Elutasította a felülvizsgálat során | A rendszer elutasította a fizetést a felülvizsgálat során. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
 | Sikertelen | A fizetés Microsoft rendszerhiba miatt nem sikerült. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Folyamatban | A fizetés folyamatban van. | Nem |
-| Helytelen fizetés | A fizetési Újracsatlakozás folyamatban van. | Nem |
-| Elküldött | A rendszer elküldje a fizetést a banknak. | Nem |
-| Újrafeldolgozás | A fizetés Microsoft rendszerhibát észlelt, és folyamatban van az újrafeldolgozása. | Nem |
-| Reversed | A fizetést a bank fordította, és a következő fizetési ciklusban ismét elküldi a rendszer. | Nem |
+| Folyamatban | A fizetés folyamatban van. | No |
+| Helytelen fizetés | A fizetési Újracsatlakozás folyamatban van. | No |
+| Elküldött | A rendszer elküldje a fizetést a banknak. | No |
+| Újrafeldolgozás | A fizetés Microsoft rendszerhibát észlelt, és folyamatban van az újrafeldolgozása. | No |
+| Reversed | A fizetést a bank fordította, és a következő fizetési ciklusban ismét elküldi a rendszer. | No |
 | Számlaösszeg elutasítva | Az adó számla elutasítása a felülvizsgálat során megtörtént. Az összes függőben lévő kifizetés addig tart, amíg az adó számla felülvizsgálata be nem fejeződik. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Adózási számla a felülvizsgálat alatt | Az adó számla felülvizsgálata folyamatban van. A kifizetését az adó-számla jóváhagyása után bocsátja ki a rendszer. | Nem |
+| Adózási számla a felülvizsgálat alatt | Az adó számla felülvizsgálata folyamatban van. A kifizetését az adó-számla jóváhagyása után bocsátja ki a rendszer. | No |
 | Elutasítva | A Bank elutasította a fizetést. | Részletekért forduljon a bankhoz. |
 |
 
@@ -244,7 +244,7 @@ Előfordulhat, hogy a szűrő **nem érhető** el az Adathiba miatt. Ez akkor fo
 
 Íme egy példa a kifizetések exportálására:
 
-:::image type="content" source="images/payouts/pc-export-payments.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/pc-export-payments.png" alt-text="Export Payments jelentés.":::
 
 ### <a name="historical-statements"></a>Korábbi utasítások
 
@@ -253,7 +253,10 @@ Az **adatexportálás** összegzése is hozzáférést biztosít a korábbi utas
 > [!NOTE]
 > A korábbi utasítások Pillanatképek, és nem frissülnek. Ha szükséges, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/v2/?stage=1) , és kérje a legfrissebb adatkérést.
 
-:::image type="content" source="images/payouts/pc-export-statements.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása" állapottal megegyező összes bevételt kizárják.
+:::image type="content" source="images/payouts/pc-export-statements.png" alt-text="Korábbi utasítások exportálása.":::
+
+- A 2019. július 1. előtti tranzakciós előzmények külön vannak kezelve, és különböző mezőket használnak a későbbi előzmények jelentéseiből.
+- A korábbi tranzakciós előzmények a "fenntartott" nevű oszlopot tartalmazzák, amely a modern előzmények "bevétel" oszlopának felel meg, azzal a különbséggel, hogy a "fizetés elküldése" állapottal megegyező összes bevételt kizárják.
 - Az olyan szűrők, mint a 3M, 6M vagy 12M, nem lesznek érvényesek a korábbi utasítások szakaszra.
 
 ### <a name="historical-statement-downloads"></a>Korábbi utasítások letöltése
@@ -292,7 +295,7 @@ Az alábbi táblázat a korábbi utasítások egyes oszlopait mutatja be.
 | Díjak | Megjeleníti a tranzakció mennyisége oszlopban összesített összes díj részletezését (csak az Azure Marketplace-en, nem tartalmazza a **fenntartott** CSV-fájl részét). |
 |||
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Partner Payout API](https://apidocs.microsoft.com/services/partnerpayouts)
 - [Fizetési szabályzat részletei](payout-policy-details.md)

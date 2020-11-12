@@ -4,15 +4,15 @@ description: Választ kaphat a kereskedelmi piactéren befizetésekkel kapcsolat
 ms.service: marketplace
 ms.subservice: partnercenter-marketplace-publisher
 ms.topic: article
-author: keferna
-ms.author: keferna
+author: eunjkim520
+ms.author: eunjkim
 ms.date: 09/11/2020
-ms.openlocfilehash: 44bd7f488e3d4e79c45cb2746c7e2a6da449a310
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 5775eb497940870344e0d3da85def7c3e717c65f
+ms.sourcegitcommit: cc30a06abe55b9da32177a24e74bfd6fc7d8bbb9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530571"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94532021"
 ---
 # <a name="common-questions-about-commercial-marketplace-payouts"></a>A kereskedelmi piactér kifizetésével kapcsolatos gyakori kérdések
 
@@ -71,7 +71,7 @@ A kifizetési tranzakció előzményei jelentésben megjelenő AssetID, Rendelé
 
 
 #### <a name="how-do-i-set-my-account-to-not-receive-payment"></a>Hogyan beállítani a fiókomat, hogy ne kapjon fizetést?
-A [kifizetés a kifizetési profilban](https://partner.microsoft.com/dashboard/commercial-marketplace/overview)is megtartható; Egyszerűen jelölje be a **megtartás gombot** . A Microsoft csak akkor kapja meg a fizetést, ha kiadja a megtartást.
+A [kifizetés a kifizetési profilban](https://partner.microsoft.com/dashboard/commercial-marketplace/overview)is megtartható; Egyszerűen jelölje be a **megtartás gombot**. A Microsoft csak akkor kapja meg a fizetést, ha kiadja a megtartást.
 
 #### <a name="why-do-i-receive-in-a-different-currency-than-the-purchase-currency"></a>Miért kapom a kifizetést más pénznemben, mint a vásárlási pénznem?
 
