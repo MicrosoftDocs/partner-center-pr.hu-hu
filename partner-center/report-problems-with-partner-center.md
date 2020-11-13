@@ -9,19 +9,19 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 58aaf94c06be233d9b12fce23a86b25078c3fd9b
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 1db695179915f8ee803ad4dfdcfd6278ce49238b
+ms.sourcegitcommit: a2ea54f814fdbd619421a83482831b22f49416f6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530552"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94567074"
 ---
 # <a name="how-to-report-problems-with-partner-center-and-submit-any-log-or-diagnostics-information"></a>A partner centerrel kapcsolatos problémák jelentése és naplózási vagy diagnosztikai információk elküldése
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 Ha problémákat tapasztal, vagy segítségre van szüksége a partner centerrel kapcsolatban, forduljon a partner Center támogatási szolgálatához.
 
@@ -33,13 +33,31 @@ Az összes bejelentkezett fiókpartner-felhasználó létrehozhat egy partneri t
 
 1. A **partner Center** irányítópultján válassza a **támogatás** , majd a **partneri támogatási kérelmek** lehetőséget.
 
-2. Válassza az **új kérelem** lehetőséget, majd keresse meg a problémát legjobban leíró probléma típusát. Válassza ki a probléma típusát és a **felülvizsgálati megoldásokat** .
+2. Válassza az **új kérelem** lehetőséget, majd keresse meg a problémát legjobban leíró probléma típusát. Válassza ki a probléma típusát és a **felülvizsgálati megoldásokat**.
 
 3. Tekintse át az **ajánlott megoldások** lapot olyan lépésekhez vagy kapcsolódó dokumentumokhoz, amelyek segíthetnek a probléma megoldásában.
 
-4. Ha az **ajánlott megoldások** megoldották a problémát, akkor válassza **a visszatérés az irányítópultra** lehetőséget. Ha továbbra is segítségre van szüksége, folytathatja a problémát, és megadhatja a **probléma részleteit** .
+4. Ha az **ajánlott megoldások** megoldották a problémát, akkor válassza **a visszatérés az irányítópultra** lehetőséget. Ha továbbra is segítségre van szüksége, folytathatja a problémát, és megadhatja a **probléma részleteit**.
 
 5. Fejezze be a **probléma részleteit** , majd **küldje** el. A partnereket támogató képviselők nyomon követhetik Önnel a kapcsolatot.
+
+## <a name="schedule-a-support-appointment"></a>Támogatási találkozó beütemezett időpontja 
+
+**Jelenleg előzetes verzióban érhető el*
+
+Ha a probléma a támogatási tanácsadóval folytatott beszélgetést igényli, a találkozót a jegy részletei közül is ütemezhet.
+
+:::image type="content" source="images/support/ticket.png" alt-text="Támogatási találkozó beütemezett időpontja":::
+
+1.  A partner Center Ticket Details (jegy részletei) lapján válasszon ki egy elérhető dátumot és időpontot a támogatási ügyvédi naptárban. A helyi időzónában csak az elérhető dátumok és időpontok jelennek meg.
+
+:::image type="content" source="images/support/ticket2.png" alt-text="Találkozó beosztása":::
+
+2. A partner Center a támogatási ügyvédi naptárban ellenőrzi a rendelkezésre állást.
+
+1. Amikor beütemezhet egy találkozót, a partner Center egy naptári meghívót küld Önnek, amely arról tájékoztatja, hogy a támogatási tanácsadó hogyan fogja felvenni Önnel a kapcsolatot, így nyomon követheti a találkozót a saját munkahelyi naptárában.
+
+:::image type="content" source="images/support/ticket3.png" alt-text="Dátum és idő":::
 
 ## <a name="send-diagnostics"></a>Diagnosztika küldése
 
@@ -65,3 +83,6 @@ Megtekintheti a diagnosztikai adatokat, majd mentheti a támogatási kérelemben
 
 Előfordulhat, hogy a partneri támogatás többször is kéri az eszköz futtatását, így a legfrissebb információkhoz juthat.
 
+## <a name="next-steps"></a>Következő lépések
+
+- [Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében](report-problems-on-behalf-of-a-customer.md)

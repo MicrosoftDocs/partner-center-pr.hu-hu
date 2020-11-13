@@ -9,12 +9,12 @@ ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
 ms.date: 07/01/2020
-ms.openlocfilehash: 21a21bc363856ee041ff9e3f9f41b0bcf9796467
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: 12b902f8134a4fcf6d93439658da95fff6d80c4f
+ms.sourcegitcommit: a2ea54f814fdbd619421a83482831b22f49416f6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530288"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94567049"
 ---
 # <a name="partner-with-indirect-resellers-in-the-cloud-solution-provider-program"></a>Partnerkapcsolat kiépítése a közvetett viszonteladókkal a felhőszolgáltatói programban
 
@@ -55,7 +55,7 @@ A következő lépések végrehajtásával hozhat létre és kezelhet partnereke
 
    - A viszonteladókkal való interakció és a tranzakciók megkezdése előtt létre kell hoznia azokat a partner Centerben.
 
-3. Ügyfelekkel való kapcsolat
+3. Az ügyfélkapcsolatok kiépítése
 
    - Új ügyfelek és előfizetések hozzárendelése a viszonteladóhoz
 
@@ -124,7 +124,7 @@ Az alábbi lépéseket követve távolíthatja el a kapcsolatot a meglévő köz
 A hozzáférés és a részvétel szintjétől függően előfordulhat, hogy kommunikálni szeretne a közvetett viszonteladóval és a végfelhasználóval a változással kapcsolatban.
 
 
-## <a name="connect-with-customers"></a>Ügyfelekkel való kapcsolat
+## <a name="connect-with-customers"></a>Az ügyfélkapcsolatok kiépítése
 
 Amikor új ügyfeleket kap, létre kell hoznia fiókokat a partner Centerben. Új felhasználói fiók hozzáadásakor megadhat egy adott viszonteladót a fiók kezeléséhez és az ügyfelek előfizetésének és szolgáltatásainak a nevében történő felügyeletéhez.
 
@@ -147,11 +147,11 @@ Amikor új ügyfél-fiókkal társít egy viszonteladót, a fiók-és előfizet�
     > [!IMPORTANT]  
     > Ügyeljen arra, hogy jegyezze fel a felhasználói fiók nevét és jelszavát, mivel ezt az információt nem érheti el újra az oldal bezárását követően.
 
-7. Válassza a **Done** (Kész) lehetőséget. Az új ügyfél megjelenik az ügyfelek listájában, amely a közvetett viszonteladóhoz van társítva. A viszonteladó mostantól rendszergazdai hozzáféréssel rendelkezik az ügyfél fiókjának adataihoz és előfizetésekhez, és az ügyfél nevében kezelheti az előfizetéseket.
+7. Válassza a **Kész** lehetőséget. Az új ügyfél megjelenik az ügyfelek listájában, amely a közvetett viszonteladóhoz van társítva. A viszonteladó mostantól rendszergazdai hozzáféréssel rendelkezik az ügyfél fiókjának adataihoz és előfizetésekhez, és az ügyfél nevében kezelheti az előfizetéseket.
 
 ### <a name="add-new-subscriptions-to-customer-accounts"></a>Új előfizetések hozzáadása az ügyfelek fiókjaihoz
 
-Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meglévőket, vagy további licenceket vásárolnak, ezeket a módosításokat az ügyfél fiókjában hajthatja végre.
+Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meglévőket, vagy további licenceket vásárolnak, ezeket a módosításokat az ügyfél fiókján keresztül a M365-portálon keresztül teheti meg. Ezt a Azure Portal nem teheti meg.
 
 1. Válassza ki az **ügyfeleket** a **partner Center** menüjéből.
 
@@ -163,7 +163,7 @@ Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meg
 
 5. Az új előfizetés (ok) megjelenik az ügyfél előfizetések listájában.
 
-6. Ha azt szeretné, hogy a viszonteladó az új előfizetéshez tartozó ügyfélszolgálati kérelmeket kezelje, válassza ki az előfizetést, majd válassza ki a viszonteladót a **kijelölt támogatási partneri** listáról.
+6. Ha azt szeretné, hogy a viszonteladó az új előfizetéshez tartozó ügyfélszolgálati kérelmeket kezelje, válassza ki az előfizetést, majd válassza ki a viszonteladót a **kijelölt támogatási partneri** listáról. 
 
 7. Ha elkészült, válassza a **Küldés** lehetőséget.
 
