@@ -1,19 +1,19 @@
 ---
 title: Kifizetések és adóprofilok a Partnerközpontban
 ms.topic: how-to
-ms.date: 09/11/2020
+ms.date: 11/12/2020
 description: Létrehozhatja és kezelheti a kifizetési és az adózási profilt, így Ön fizethet az ösztönzőkért. Ide tartozik a különböző profilok létrehozása, kezelése és használata.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: ca2ffe992ff92b98546934f4a249779f39179acb
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 66177c6e3cd0091081866e1508d28346f49ec713
+ms.sourcegitcommit: bfc9e6f6476766cf10ba714f03ca2e96560003b1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530601"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94626031"
 ---
 # <a name="create-and-manage-incentives-payout-and-tax-profiles-in-partner-center"></a>Ösztönzők létrehozása és kezelése a partner Centerben
 
@@ -24,7 +24,7 @@ ms.locfileid: "92530601"
 **Megfelelő szerepkörök:**
 
 - Ösztönzők rendszergazdája
-- Számlázási adminisztrátor
+- Fiókadminisztrátor
 - Globális rendszergazda
 
 Ahhoz, hogy megkaphassa az egy adott MPN-helyhez tartozó ösztönzőprogramok kifizetését, be kell fejeznie a regisztrációt úgy, hogy a programhoz és az MPN-helyhez egy érvényes kifizetési és adóprofilt társít. A Microsoft ezt a kifizetési és adóprofilt a kifizetésekhez fogja használni. Az ösztönzőprogram szabályaitól függően lehetséges elektronikus banki átutalás vagy jóváírási értesítés használata is a kifizetéshez. 
@@ -43,15 +43,11 @@ Ha ösztönző rendszergazdai jogosultságokat kell kérnie, forduljon az MPN-re
 
 ### <a name="choose-your-disbursement-currency"></a>Válassza ki a kifizetés pénznemét
 
-Alapértelmezés szerint az ösztönzők a megfelelő entitások helyi pénznemében történnek. A profil beállítása során más pénznemet is megadhat. A fizetések kiszámítása a Microsoft által havonta beállított árfolyamon történik. A kiválasztott pénznem miatt az érték változásaiért felelős lesz.
-
-### <a name="bank-and-tax-information-and-other-programs"></a>Banki és adózási információk és egyéb programok
-
-Adja meg az alább ismertetett információkat, még akkor is, ha a Microsoft már használja a banki adatokat a kifizetésekhez. Így biztosíthatja a vállalati adatok védelmét és védelmét, mivel a profilt az új eszközre történő másolásával bizalmas adatokat tehet elérhetővé. Ez a folyamat továbbra is jó lehetőség arra, hogy az adatfeldolgozás teljes és pontos legyen.
+Az ösztönző kifizetések a fizetési profil beállításakor kiválasztott pénznemben történnek. A fizetések kiszámítása a Microsoft által havonta beállított árfolyamon történik. A kiválasztott pénznem miatt az érték változásaiért felelős lesz.
 
 ### <a name="using-different-profiles-for-different-microsoft-programs"></a>Különböző profilok használata különböző Microsoft-programokhoz
 
-A kiskereskedelmi forgalomban az öt kiskereskedelmi ösztönző programhoz tartozó kifizetések ugyanarra a bankszámlára léphetnek. Azt is megteheti, hogy a kiskereskedelmi Xbox-fizetések bekerülnek egy bankszámlára, míg a kiskereskedelmi iroda egy másik bankszámlájára van kifizetve.
+Ha a vállalata több ösztönző programban is regisztrálva van, használhatja ugyanazt a fizetési fiókot, vagy választhat, hogy különböző fizetési fiókokat szeretne használni a különböző programokhoz.
 
 ## <a name="create-and-manage-payout-and-tax-profiles-in-partner-center"></a>Kifizetési és adózási profilok létrehozása és kezelése a partner Centerben
 
@@ -94,7 +90,7 @@ Az alábbi szakasz végigvezeti a fizetési és adózási profilok a partner Cen
     >[!NOTE]
     >A fizetési mód rendelkezésre állása az ösztönző program szabályaitól függ.
     
-5. Válassza ki a **pénznemet** .
+5. Válassza ki a **pénznemet**.
 
 6. Az összes fizetési mező kitöltése után válassza a **Küldés** lehetőséget.
 
@@ -154,6 +150,6 @@ Abban az esetben, ha a W8 vagy a W9 űrlap kitöltéséhez szükséges informác
 
 9. Válassza az előugró üzenet **megerősítés** elemét. Visszakerül a **kifizetés és az adó beállítása** lapra.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Ösztönzők a kifizetési és az adózási profilokkal kapcsolatos gyakori kérdések](incentives-payout-tax-profile-faqs.md)

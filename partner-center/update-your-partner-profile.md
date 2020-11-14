@@ -1,20 +1,20 @@
 ---
 title: Partneri profil ellenőrzése
 ms.service: partner-dashboard
-ms.subservice: partnercenter-csp
+ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan ellenőrizheti a vállalat adatait, például az elsődleges kapcsolattartási, a lakcím-és a program-információkat. A jogi és számlázási címeket is frissítheti.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
 ms.localizationpriority: high
-ms.date: 07/10/2020
+ms.date: 11/13/2020
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 22696ba1a2ecde3374357ee8489f466b2b366098
-ms.sourcegitcommit: bcd0c09d3acd5eae4fbfca7ea6614a54d203eff6
+ms.openlocfilehash: 9e2fbef36bcc4a191235570a0d1735bd755ad317
+ms.sourcegitcommit: bfc9e6f6476766cf10ba714f03ca2e96560003b1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "92528334"
+ms.lasthandoff: 11/14/2020
+ms.locfileid: "94625997"
 ---
 # <a name="verify-your-partner-profile-information-in-partner-center"></a>Partneri profil adatainak ellenőrzése a partner Centerben
 
@@ -29,7 +29,7 @@ A partneri profilja a jogi üzleti adatokból, az elsődleges kapcsolattartó ne
 
 1. Lépjen a **Beállítások** elemre, és válassza a **partner profil** lehetőséget.
 
-2. Tekintse át a **jogi üzleti profilt** , az **elsődleges kapcsolattartási adatokat** és a **program adatait** .
+2. Tekintse át a **jogi üzleti profilt** , az **elsődleges kapcsolattartási adatokat** és a **program adatait**.
 
 Ha más vállalatait a jogi üzleti tevékenysége alá vonta össze, ezen az oldalon áttekintheti az adataikat is.
 
@@ -69,10 +69,18 @@ A CSP-fiókhoz társított MPN-azonosító frissítése:
 
 ## <a name="update-your-billing-address"></a>Számlázási cím frissítése
 
-Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszergazdai ügynök, módosíthatja a **Számlázási profiljában** megjelenő címeket. A számlán szereplő vállalatnevet azonban nem módosíthatja a számlázási rendszer korlátozásai miatt.
+Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszergazdai ügynök, akkor a következőket frissítheti:
 
- 
-## <a name="next-steps"></a>Következő lépések
+- A **Számlázási profilban** a számlán megjelenő cím
+- A postafiók száma
 
-- [Telephelyek kezelése](manage-locations.md)
+A következő nem módosítható:
+ 
+- Cég neve
+- Ország
+- Számlázási dátum
+ 
+## <a name="next-steps"></a>További lépések
+
+- [Helyek kezelése](manage-locations.md)
 
