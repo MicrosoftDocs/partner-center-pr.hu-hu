@@ -614,7 +614,7 @@
           href: advisor-create-a-purchase-offer.md
 - name: A Partnerközponthoz kapcsolódó adatok és analitika
   items:
-    - name: Felhasználói adatok és analitika elérése
+    - name: Az előfizetés adataihoz és az analitikához való hozzáférés
       href: data-analysis-lp.md
     - name: Analitikai alkalmazás a Power BI-hoz
       items:
@@ -628,7 +628,7 @@
       items:
         - name: Az Insights bemutatása
           href: partner-center-insights.md
-          displayName: mpn
+          displayName: data
         - name: Az Insights szerepköralapú hozzáférése
           href: pci-roles.md
         - name: Insights-jelentések
