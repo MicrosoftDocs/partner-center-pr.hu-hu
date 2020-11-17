@@ -9,12 +9,12 @@ author: hemas
 ms.author: hemas
 ms.localizationpriority: high
 ms.custom: SEOMAY.20, contperfq1
-ms.openlocfilehash: 4839fbd6fac5f84e5a2ebc40d1f7f48da6114113
-ms.sourcegitcommit: 92be474db61cc12f684850c2a7a8a8bdd5c93f97
+ms.openlocfilehash: 8ae4bed8536907c59f1b22e72896cfbe7f7aff9a
+ms.sourcegitcommit: 445c7b70943f71cc4b2cb48a327b9dcc1814974d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93363622"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94670150"
 ---
 # <a name="assign-users-roles-and-permissions-for-a-companys-users-needing-to-work-in-partner-center"></a>Felhasználói szerepkörök és engedélyek kiosztása a vállalat felhasználói számára, akik a partner Centerben szeretnének dolgozni
 
@@ -130,7 +130,7 @@ Ezek a szerepkörök nem Azure Active Directory szerepkörök. Ezek a szerepkör
 ## <a name="manage-referrals"></a>Hivatkozások kezelése
 
 > [!Note]
->Az új átirányítási felhasználói szerepkör a 2020. november 16. után lesz elérhető. A meglévő hivatkozó rendszergazdák megőrzik a teljes vállalatra kiterjedő hivatkozó rendszergazdai szerepkört.
+>Az új hivatkozói felhasználói szerepkör 2020. november 18-án kezdődik. A meglévő hivatkozó rendszergazdák megőrzik a teljes vállalatra kiterjedő hivatkozó rendszergazdai szerepkört.
 
 |**Szerepkör** | **Miket végezhet el?**|**További információ**
 |------------------------------|:-------------------------|---|

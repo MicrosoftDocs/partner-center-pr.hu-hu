@@ -1,7 +1,7 @@
 ---
 title: Speciális specializációk beszerzése
 ms.topic: article
-ms.date: 10/15/2020
+ms.date: 11/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Erősítse meg üzleti profilját a Microsoft partneri címtárban. Ismerje meg, hogyan szerezhet fejlett specializációkat az arany-és ezüst-kompetenciával együtt.
@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5dd5866a5ea9a87f0cd61cd863a6cd72ec070a10
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: 3b655b5cbd9a8ae2cc907af3ab4da561650e8aa1
+ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530667"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94691384"
 ---
 # <a name="earn-an-advanced-specialization-to-showcase-expertise"></a>Speciális specializáció a bemutatáshoz
 
@@ -32,24 +32,25 @@ A speciális specializációk lehetővé teszik az ügyfelek megkülönbözteté
 A speciális specializációkat két fő szakterületen érheti el:
 
 - Azure
-- Modern munkahely és biztonság
+- Modern munka és biztonság
 
 Az **Azure** speciális specializációi a következők:
 
-- Windows Server és SQL Server Migrálás Microsoft Azurere 
-- Microsoft Windows rendszerű virtuális asztal
-- A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba
-- Kubernetes Microsoft Azure
 - Adatraktár áttelepítése Microsoft Azurere
-- SAP Microsoft Azure alapokon
+- Kubernetes Microsoft Azure
+- A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba
+- Microsoft Windows rendszerű virtuális asztal
 - Webalkalmazások modernizálása Microsoft Azure
+- SAP Microsoft Azure alapokon
+- Windows Server és SQL Server Migrálás Microsoft Azurere
  
 **A modern munkahelyi és biztonsági** speciális specializációk a következők:
 
-- Értekezletek és konferenciatermek a Microsoft Teams szolgáltatáshoz
 - Bevezetési és módosítási felügyelet
-- Csapatmunka üzembe helyezése
 - A Microsoft Teams meghívása
+- Értekezletek és konferenciatermek a Microsoft Teams szolgáltatáshoz
+- Csapatmunka üzembe helyezése
+- Identitás- és hozzáférés-kezelés
 - Veszélyforrások elleni védelem
  
 > [!NOTE]
@@ -69,7 +70,7 @@ A körzet elérése a partner Centerből:
 
 Minden speciális specializációhoz meg kell szereznie egy igazított Gold kompetenciát a többi előfeltételekkel együtt:
 
-- A saját előfeltételei mellett néhány speciális specializációnak is szüksége van egy *ütemezett auditra* .
+- A saját előfeltételei mellett néhány speciális specializációnak is szüksége van egy *ütemezett auditra*.
 
   Ha naplózást kell ütemeznie, lépjen az adott partner központ speciális specializációjának részletes oldalára. Ha más előfeltételeket is teljesít, akkor ezen a lapon kiválaszthatja az **ütemezett audit** gombot. (Lásd a naplózást igénylő speciális specializációk [listáját és példáit](advanced-specializations.md#advanced-specialization-requirements-that-include-an-audit---an-example) .)
 
@@ -79,12 +80,12 @@ Minden speciális specializációhoz meg kell szereznie egy igazított Gold komp
 
 A következő Azure speciális specializációkkal kapcsolatos auditot kell végrehajtania egy külső könyvvizsgálóval:
 
-- Windows Server és SQL Server Migrálás Microsoft Azurere
-- A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba
 - Adatraktár áttelepítése Microsoft Azurere
 - Kubernetes Microsoft Azure
-- Webalkalmazások modernizálása Microsoft Azure
+- A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba
 - Microsoft Windows rendszerű virtuális asztal
+- Webalkalmazások modernizálása Microsoft Azure
+- Windows Server és SQL Server Migrálás Microsoft Azurere
 
 ### <a name="audit-example-in-partner-center"></a>Példa naplózásra a partner Centerben
 
@@ -101,24 +102,26 @@ Az összes követelmény befejezése után az állapot **aktívra** változik. A
 
 Az alábbi speciális specializációkkal kapcsolatos ügyfelekre mutató hivatkozásokra van szüksége:
 
-- Az SAP az Azure-on
+
 - Bevezetési és módosítási felügyelet
-- Csapatmunka üzembe helyezése
 - A Microsoft Teams meghívása
 - Értekezletek és konferenciatermek
+- Az SAP az Azure-on
+- Csapatmunka üzembe helyezése
+- Identitás- és hozzáférés-kezelés
 - Veszélyforrások elleni védelem
 
 ### <a name="customer-reference-example-in-partner-center"></a>Ügyfél-hivatkozási példa a partner Centerben
 
-Egy példa arra, hogy az ügyfél-referenciákat igénylő speciális specializáció a **Microsoft Teams ülései és konferenciatermek** .
+Egy példa arra, hogy az ügyfél-referenciákat igénylő speciális specializáció a **Microsoft Teams ülései és konferenciatermek**.
 
 A Gold kompetencia, a minősítések és a teljesítményre vonatkozó követelmény mellett három ügyfél-referenciát kell megadnia, amelyek bemutatják az üzembe helyezés és a felügyelet lehetőségét.
 
-:::image type="content" source="images/advancedspecializations/as-2.png" alt-text="Az előfeltételt jelentő előfeltételeket tartalmazó lap az aktív Gold Cloud Platform kompetencia beszerzéséhez szükséges követelményeket mutatja be.":::
+:::image type="content" source="images/advancedspecializations/as-2.png" alt-text="Az ügyfél-referenciákat igénylő speciális specializálás előfeltételek oldal.":::
 
 Amíg nem teljesíti az összes előfeltételt, az állapota még **nem indul el.** Az összes követelmény teljesítése után az állapot **aktívra** változik. Az aktív állapot automatikusan engedélyezi az **üzleti profil** speciális specializációs címkéjét. Ez a profil minden olyan ügyfél számára látható, aki a [megoldás-szolgáltató megtalálását](https://www.microsoft.com/solution-providers/home)kísérli meg.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - További információk a [speciális specializációkkal](https://partner.microsoft.com/membership/advanced-specialization)kapcsolatban.
 

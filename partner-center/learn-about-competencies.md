@@ -1,7 +1,7 @@
 ---
 title: Microsoft Gold, Silver kompetencia követelmények
 ms.topic: article
-ms.date: 10/15/2020
+ms.date: 11/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogyan szerezhet be elit Microsoft-partneri státuszt, és hogyan érheti el az új ügyfeleket az arany-és ezüst tagsági szintek megszerzéséhez szükséges kompetenciával
@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1392a4c4a0147af3ffe18564da08061cd10cbc06
-ms.sourcegitcommit: 1719ff11409cd6953602b7798f8cfe821b8ea15e
+ms.openlocfilehash: 51a0e1d1e726444597d99a55e8c62b6788549073
+ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92530432"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94691333"
 ---
 # <a name="differentiate-your-business-by-attaining-microsoft-competencies"></a>A Microsoft kompetenciák megvalósításával megkülönböztetheti vállalkozását
 
@@ -65,6 +65,10 @@ Ha többet szeretne megtudni az ezüst és arany kompetenciák eléréséhez sz�
 
 - Ismerje meg, hogyan teheti meg a szaktudását úgy, hogy egy vagy több [speciális specializációval](advanced-specializations.md)párosítja a Gold kompetenciát.
 
-- Ismerkedjen meg a kompetenciákkal kapcsolatos speciális [piaci előnyökkel](mpn-learn-about-go-to-market-benefits.md) .
+- Ismerje meg a kompetenciákkal foglalkozó, [piaci megjelenéssel](mpn-learn-about-go-to-market-benefits.md) kapcsolatos speciális erőforrásokat.
 
 - Ismerje meg a [kompetenciákkal kapcsolatos számlákat és adókat](mpn-view-print-maps-invoice.md).
+
+- Tekintse meg a partneri központ [bejelentési kompetenciáit tartalmazó jelentést](pci-competencies-report.md) , amely a kompetenciák aktuális állapotát jeleníti meg.
+
+- Választ kaphat a kompetenciákkal kapcsolatos [gyakori kérdésekre](competencies-faq.md) .

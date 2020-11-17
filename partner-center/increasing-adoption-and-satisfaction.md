@@ -1,7 +1,7 @@
 ---
-title: Az elfogadás és az elégedettség fokozása
+title: A bevezetés és az elégedettség növelése
 ms.topic: how-to
-ms.date: 07/21/2020
+ms.date: 11/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogyan használhatók a metrikák a partner Centerben. A metrikák megmutatják, hogy az üzlet egyre növekszik-e, hogyan használják az ügyfelek a licenceket, és hol kell összpontosítaniuk a beruházásokra.
@@ -9,19 +9,19 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d995d72f6b5f9fb3beafff91eee7518ee999bf6c
-ms.sourcegitcommit: 8dc139749916c822c5c438f54a03d2f147697dd5
+ms.openlocfilehash: 494c9d7ff8e726e8bd183456926761c3cebf10ee
+ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "92528126"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94691367"
 ---
 # <a name="use-metrics-in-partner-center-to-increase-adoption-and-satisfaction"></a>A partner Center metrikáinak használata az elfogadás és az elégedettség növeléséhez
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
-- Cloud Solution Provider program
+- Felhőszolgáltató program
 
 **Megfelelő szerepkörök**
 
@@ -49,7 +49,7 @@ A licenc-és felhasználói adatait egyetlen ügyfélhez vagy a portfólióhoz i
 
 3. Válasszon egy ügyfelet.
 
-4. Válassza ki az **ügyfél-bepillantást** .
+4. Válassza ki az **ügyfél-bepillantást**.
 
 ### <a name="find-license-and-user-data-across-your-portfolio"></a>Licencek és felhasználói adatértékek keresése a portfólión belül
 
@@ -67,7 +67,7 @@ Terminológia:
 
 - **Központi telepítés:%** = hozzárendelt licencek/eladott licencek
 
-- **Használat%** = aktív jogosultságok/összes jogosultság
+- **Használat%** = aktív felhasználó/összes felhasználó
 
    Előfordul, hogy a (z)% a kihasználtsága (%) vagy nagyobb, mint 100%. Ennek több oka is lehet:
 
@@ -85,17 +85,17 @@ Ha sok segítséget és útmutatást szeretne feltenni, a fiókban lévő beveze
 
 ### <a name="considering-how-to-improve-customer-adoption-and-usage---a-couple-scenarios"></a>Az ügyfelek bevezetésének és használatának javítása – néhány forgatókönyv
 
-**Probléma** : a felhasználó bevezetési sebessége alacsony, és számos licenc nincs használatban.
+**Probléma**: a felhasználó bevezetési sebessége alacsony, és számos licenc nincs használatban.
 
-**Mit érdemes figyelembe venni** : Előfordulhat, hogy az ügyfelek nem értik a szoftver által megadható értéket. Segítségre van szükségük annak megtervezésében, hogy milyen módokon tudnák beépíteni őket a mai napig a már folyamatban lévő feladatok egyszerűsítése vagy az új típusú termelékenység lehetővé tétele érdekében.
+**Mit érdemes figyelembe venni**: Előfordulhat, hogy az ügyfelek nem értik a szoftver által megadható értéket. Segítségre van szükségük annak megtervezésében, hogy milyen módokon tudnák beépíteni őket a mai napig a már folyamatban lévő feladatok egyszerűsítése vagy az új típusú termelékenység lehetővé tétele érdekében.
 
-**Mit kell kipróbálni** : esettanulmányok, felhasználói visszajelzések konkrét forgatókönyvekről, oktatóanyag-Blogokról vagy videókról.
+**Mit kell kipróbálni**: esettanulmányok, felhasználói visszajelzések konkrét forgatókönyvekről, oktatóanyag-Blogokról vagy videókról.
 
-**Probléma** : a Súgó és útmutató kérdéseire nagy mennyiségű támogatási hívás áll rendelkezésre.
+**Probléma**: a Súgó és útmutató kérdéseire nagy mennyiségű támogatási hívás áll rendelkezésre.
 
-**Mit érdemes figyelembe venni** : az ügyfelek a szoftver, a termék verziója vagy a feladataik számára újak lehetnek.
+**Mit érdemes figyelembe venni**: az ügyfelek a szoftver, a termék verziója vagy a feladataik számára újak lehetnek.
 
-**Mi a kipróbálás** : az ügyfelek általános szakértelmének növelésére, valamint az ügyfelek számára elérhető önkiszolgáló lehetőségek támogatására szolgáló kettős stratégiát is használhat.
+**Mi a kipróbálás**: az ügyfelek általános szakértelmének növelésére, valamint az ügyfelek számára elérhető önkiszolgáló lehetőségek támogatására szolgáló kettős stratégiát is használhat.
 
 Érdemes lehet újratervezni a támogatási webhelyét, hogy a támogatási kapcsolattartási adatain kívül az ügyfél önkiszolgáló [támogatásában](customer-self-support.md) leírt önkiszolgáló lehetőségeket is tartalmazza.
 
