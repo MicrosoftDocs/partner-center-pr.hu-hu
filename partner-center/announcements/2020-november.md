@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 88d216f9e55b98f3c4818dd718c68f843c4098f0
-ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
+ms.openlocfilehash: 1e6002354323d2c528cbf32271144bbf61d40ac8
+ms.sourcegitcommit: 4fd1ff569e22e5e10ba9896b4e63eead7dcc5f1e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94691299"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94845339"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -23,6 +23,128 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [August](2020-august.md)  |  [szeptember](2020-september.md)augusztus  |  [October](2020-October.md) | . November
 
 ______________
+
+## <a name="partner-center-api-updates-and-user-interface-ui-enhancements-to-strengthen-customer-screening-in-certain-countries"></a><a name="11"></a>A partner Center API frissítései és a felhasználói felület (UI) fejlesztése az ügyfelek szűrésének erősítéséhez bizonyos országokban
+
+### <a name="categories"></a>Kategóriák
+
+- 2020-11-17. dátum
+- Képességek | Továbbfejlesztett ügyfél-átvilágítás
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Közvetlen számlázási partnerek vagy közvetett szolgáltatók, akik részt vesznek a Cloud Solution Provider (CSP) programban, akik új vagy meglévő ügyfelekkel rendelkeznek a következő országokban:
+
+- Örményország (AM)
+- Azerbajdzsán (AZ)
+- Fehéroroszország (a)
+- Magyarország (HU)
+- Kazahsztán (KZ)
+- Kirgizisztán (KG)
+- Moldova (MD)
+- Oroszország (RU)
+- Tádzsikisztán (TJ)
+- Üzbegisztán (UZ)
+- Ukrajna (UA)
+
+### <a name="summary"></a>Összegzés
+
+A Microsoft az ügyfeleknek és partnereknek szóló, a megfelelő üzleti gyakorlatokra vonatkozó kötelezettségvállalásának részeként az egyes országokban lévő ügyfelekkel rendelkező partnereket a rendszer arra kéri, hogy végezzen el néhány további adatmezőt ezekről az ügyfelekről, amikor a partner a következő alkalommal próbál frissíteni egy meglévő ügyfél-előfizetést, vagy új előfizetést hoz létre egy új ügyfél számára. 
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. Ennek a tevékenységnek a részeként bevezetjük a partner Center API-t és a felhasználói felület fejlesztéseit, amelyek hatással lesznek a következő feltételek mindegyikének megfelelő partnerekre: 
+
+- A partner közvetlen számlázási kapcsolatban áll a Microsofttal (például a közvetlen számlázási partnerrel vagy egy közvetett szolgáltatóval); és
+
+- A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban: Örményország (AM), Azerbajdzsán (AZ), Fehéroroszország (BY), Magyarország (HU), Kazahsztán (KZ), Kirgizisztán (KG), Moldova (MD), Oroszország (RU), Tádzsikisztán (TJ), Üzbegisztán (UZ) és Ukrajna (UA) 
+
+Az ezekben az országokban található ügyfelekkel rendelkező partnerek esetében a partnernek most be kell nyújtania az adott ügyfél **jogi azonosítóját** (más néven az ügyfél **szervezeti** webhelyét) és az ügyfél **telefonszámát** , amikor a partner a következő alkalommal próbál frissíteni vagy előfizetést létrehozni az adott ügyfél számára. Ezek a partnerek mostantól dönthetnek úgy is, hogy az ügyfél számára nem kötelező, de **középső nevet** is megadhatnak.
+
+### <a name="partner-center-enhancements"></a>A partner Center fejlesztései
+
+- A partneri központ felhasználói felületének fejlesztései adott országokban lévő ügyfelek ellenőrzésének javításához
+
+- Új API-k adott országokban lévő ügyfelek jobb ellenőrzésének támogatásához
+
+**A partner Center felhasználói felületének módosításai – ügyfél-fiók lap**
+
+A partner Center felhasználói fiókjának lapja a következőképpen frissült:
+
+1. **ORGANIZATION Inn** (más néven jogi azonosító). Erre a mezőre már szükség van az egyes országokban lévő ügyfelek számára. 
+
+   > [!NOTE]
+   > Az értékeket csak alfanumerikus karakterekből kell megadni, kötőjelek, speciális karakterek és szóközök nélkül. Ezen országokban a partnereknek kapcsolatba kell lépniük az ügyfél jogi azonosítójának állapotának megerősítéséhez. További országspecifikus információk a következő táblázatban találhatók.  
+
+2. **Középső név.** Ez a mező minden ügyfél esetében nem kötelező. Ha ismeri az ügyfél középső vagy kezdeti nevét, a partner itt is megadhatja.
+
+3. **Telefonszám.** Ez a mező korábban nem kötelező, de az adott országokban lévő ügyfelek számára már kötelező.  
+
+Az országspecifikus **szervezeti Inn** (jogi azonosító) mező követelményei alább láthatók.
+
+| Ország | A14-Area | ISO-országkód | Mező karakterekre vonatkozó követelmények | Országspecifikus mező neve natív nyelven | Angol fordítás vagy megjegyzések |
+|---------|----------|------------------|------------------------|--------------------|--------------------------------------|
+| Örményország | CEE      | AM               | 8 vagy 10 számjegy         | :::no-loc text="УНН/NZOU/НЗОУ/ հանրային ծառայության համարանիշը"::: | UNN/nyilvános szolgáltatás száma                     |
+| Azerbajdzsán| CEE      | AZ               | 7 vagy 10 számjegy         | :::no-loc text="ИНН/VOEN/ПИК"::: | TIN/INN/PIC              |
+| Belarusz | CEE      | BY               | 9 számjegy         | :::no-loc text="УНП"::: | UNP (ez azt jelenti, hogy az adó azonosítója)                    |
+| Magyarország | CEE      | HU               | 10 vagy 11 számjegy         | :::no-loc text="TIN"::: | TIN (adóazonosító)                     |
+| Kazahsztán | CEE      | KZ              | 12 számjegy         | :::no-loc text="БИН/ИИН"::: | BIN/AA                     |
+| Kirgizisztán | CEE      | KG               | 14 számjegy         | :::no-loc text="ИНН"::: | UNN/nyilvános szolgáltatás száma                     |
+| Moldova  | CEE        | MD               | 6, 7, 8 vagy 13 számjegy         | :::no-loc text="IDNO/IDNP"::: | A jogi személyhez rendelt egyedi állapot-azonosító szám (IDNO) pénzügyi kódnak is minősül. \"Állami jogi egységek nyilvántartása a Moldovai Köztársaságban regisztrált, a nyílt adatközpont kormányzati portálján az információs és kommunikációs technológiai Minisztérium által közzétett vállalatokra vonatkozó data.gov.md.\"                    |
+| Oroszország | CEE      | RU               | 9, 10 vagy 12 számjegy         | :::no-loc text="ИНН"::: | INN                     |
+| Tádzsikisztán | CEE      | TJ               | 9, 10 vagy 12 számjegy     | :::no-loc text="ИНН/ЕИН/КПП"::: | INN/EIN/KPP                     |
+| Üzbegisztán | CEE     | UZ               | 9 számjegy                 | :::no-loc text="INN":::         | INN                               |
+| Ukrajna   | CEE      | UA               | 8, 10 vagy 12 számjegy      | :::no-loc text="EGRPOU/EDRPOU":::        | Jogi személy azonosító kódja                             | 
+
+**A partner Center API módosításai**
+
+A partner Center API-val a következő szerződési változások történnek. Ezek a módosítások csak azokra a partnerekre korlátozódnak, akik a korábban említett országokban kezelik az ügyfelek fiókját.
+
+> [!NOTE]
+> Ha Ön olyan partner, amely a fiókpartner JSON-válaszának szigorú értelmezését használja, akkor ezek a változások hatással lehetnek, ha a frissítés nem fejeződik be a végén. A JSON nem ajánlott integráció a partner Center API-kkal.
+
+| A REST-erőforrások frissítései | A kapcsolódó partner Center dokumentációja |
+|---------------------------|-----------------------|
+| Új kötelező mező: organizationRegistrationNumber | - [Ügyfél létrehozása](/partner-center/develop/create-a-customer#company-profile)<br/>- [Ügyfél létrehozása közvetett viszonteladó számára](/partner-center/develop/create-a-customer-for-an-indirect-reseller#request-headers)  <br/>- [Felhasználói erőforrások](/partner-center/develop/customer-resources#customercompanyprofile) |
+| A frissített mező most kötelező: telefonszám<br/>Nem kötelező mező: MiddleName | - [Segédprogram-erőforrások](/partner-center/develop/utility-resources#address) |
+| Új BadRequest REST-hibakódok: 600002, 600049, 600050, 600051 | - [A partner Center REST-hibakódai](/partner-center/develop/error-codes#error-codes) |
+
+*Javasolt külső szerződés az ügyfelek számára:*
+
+```
+public class CustomerCompanyProfile : ResourceBaseWithLinks
+{
+               public string TenantId { get; set; }
+               public string Domain { get; set; }
+               public string CompanyName { get; set; }
+               public Address Address { get; set; }
+               public string Email { get; set; }
+ 
+                // Newly added fields
+               public string OrganizationRegistrationNumber { get; set; }
+}
+ 
+public class Address
+{
+                public string Id { get; set; }
+                public string Country { get; set; }
+                public string Region { get; set; }
+                public string City { get; set; }
+                public string PostalCode { get; set; }
+                public string AddressLine1 { get; set; }
+                public string AddressLine2 { get; set; }
+                public string AddressLine3 { get; set; }
+                public string FirstName { get; set; }
+                public string LastName { get; set; }
+                public string PhoneNumber { get; set; }
+                public string EmailAddress { get; set; }
+ 
+                // Newly added fields
+                public string MiddleName { get; set; }
+}
+```
+
+
 ## <a name="euefta-change-of-partner-billing-currency-for-new-commerce-offers"></a><a name="10"></a>Az EU/EFTA partner számlázási pénznemének változása új kereskedelmi ajánlatok esetén.  
 
 ### <a name="categories"></a>Kategóriák
@@ -33,7 +155,7 @@ ______________
 
 Az EU/EFTA régióban a Cloud Solution Provider programon keresztül lebonyolított partnerek 
 
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 Az Európai Unió (EU)/Európai Szabadkereskedelmi Társulás (EFTA) régiójában a Cloud Solution Provider program összes új kereskedelmi ajánlata a partner számlázási helyét fogja használni az ügyfél számlázási helye helyett. Ez azt jelenti, hogy a partnereket a Microsoft a tartózkodási helyük szerinti pénznem alapján számlázza, nem pedig az ügyfelek tartózkodási helyének pénznemét. Ez két fázisban lesz végrehajtva: 
 
@@ -74,7 +196,7 @@ Tekintse át a témakör információit az [Operations Gallery] (a https://partn
 - 2020-11-17. dátum
 - Képességek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft API-szabályozást vezet be a partner Center API-kat hívó partnereknek egy adott időtartományon belüli konzisztens teljesítmény érdekében.
 
@@ -146,8 +268,15 @@ Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.micr
 - Azt kérjük, hogy a partnerek felhasználhatják velünk a kapcsolatot, hogy a változásokat a saját bérlőik a változásokkal való hozzáadásával, így biztosítva, hogy a megoldás frissítése a várt módon működjön.
 
 
+### <a name="next-steps-for-partners"></a>A partnerek következő lépései
 
-## <a name="testing-available-partner-center-api-updates-and-user-interface-ui-enhancements-for-the-education-customer-validation-process"></a><a name="7"></a>Elérhető tesztelés: a partner Center API frissítései és a felhasználói felület (UI) fejlesztései az oktatási ügyfél-ellenőrzési folyamathoz
+- Tekintse át az új partner központ felhasználói felületét és az API-módosításokat. Amikor egy ügyfél-előfizetés létrehozásakor vagy egy meglévő előfizetés frissítésével próbálkozik ezen országok egyikében, tekintse meg az ügyfél fiókjának adatait, és győződjön meg róla, hogy hozzáadott-e adatokat az ügyfél két új, kötelező mezőjéhez: Organization INN (jogi azonosító) és telefonszám. Ezeket az információkat a partner Center [irányítópultján](https://partner.microsoft.com/dashboard) vagy a partner Center [API](/partner-center/develop/create-a-customer#company-profile)-kon keresztül frissítheti.
+
+- Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal, hogy segítsen ezeknek a változásoknak a előkészítésében.
+
+
+
+## <a name="testing-available-partner-center-api-and-user-interface-ui-enhancements-for-the-education-customer-validation-process"></a><a name="7"></a>Elérhető tesztelés: a partner Center API és a felhasználói felület (UI) fejlesztései az oktatási ügyfél-ellenőrzési folyamathoz
 
 ### <a name="categories"></a>Kategóriák
 
@@ -158,7 +287,7 @@ Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.micr
 
 Az akadémiai ajánlatokat a Cloud Solution Provider (CSP) programon keresztül értékesítő partnerek.
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A tesztelés mostantól elérhető a partner Center API frissítéseihez és a felhasználói felület fejlesztéséhez az oktatási ügyfél-ellenőrzési folyamathoz.
 
@@ -203,7 +332,7 @@ Tekintse át az új partneri központ felhasználói felületét és API-változ
 - Dátum: 2020-11-5
 - Képességek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A partner Universitytől november 5 2020-től kezdődően a kereskedelmi licencelési partnertől származó tartalom is elérhető lesz az Operations Readiness Galleryben.
 
@@ -232,7 +361,7 @@ ________________
 - Dátum: 2020-11-3
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft Teams Premium SKU a Microsoft Teams számára a Cloud Solution Provider (CSP) program keretében már elérhető.
 
@@ -294,7 +423,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A GCC-hez készült Microsoft Teams új speciális kommunikációs kiegészítő SKU-jának 2020. december 1-től lesz elérhető.
 
@@ -389,7 +518,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 November 1 2020-án a Microsoft új SKU-ket vezetett be a nonprofit szervezeteknek szóló Microsoft 365 Vállalati verzió hanghoz.
 
@@ -425,7 +554,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft 365 Vállalati verzió Voice új és megújítási előfizetései számára elérhető kedvezményes díjszabás a Meghívási terv és a Microsoft 365 Vállalati verzió hang meghívása nélkül.
 
