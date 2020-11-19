@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/10/2020
-ms.openlocfilehash: 4afc08135ee84792d62391251fdb87ec0ddd9ce6
-ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
+ms.openlocfilehash: 183ee0fe5e14608b0b43024e5c07e5ee95d608cd
+ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94488128"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94691316"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,9 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2020. novemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Képességek|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2020-november.md#10)|November 17.|
+|Képességek|[Partnerközpont API-k API-szabályozása](2020-november.md#9)|November 17.|
+|Képességek|[Duplikált MCA-kérelmek által okozott 409-es hibák](2020-november.md#8)|November 16.|
 |Képességek|[Tesztelés elérhető: A Partnerközpont API-frissítései és a felhasználói felület fejlesztései az Education szolgáltatás ügyfél-hitelesítési folyamatához](2020-november.md#7)|november 10.|
 |Képességek|[A kereskedelmi licenceléshez kapcsolódó partnertartalmak kibővítése az Operations Readiness Galleryben](2020-november.md#6)|November 2.|
 |Ajánlatok/piacok|[A Microsoft Teams Konferencia prémium szintű termékváltozatának bevezetése](2020-november.md#5)|November 2.|
