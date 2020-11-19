@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 1e6002354323d2c528cbf32271144bbf61d40ac8
-ms.sourcegitcommit: 4fd1ff569e22e5e10ba9896b4e63eead7dcc5f1e
+ms.openlocfilehash: 495ea6df347a5c2f6cf05a9f9efddaf33113e0b4
+ms.sourcegitcommit: 992b9e57e1abc26d2b835414278c96b3de61dd2b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94845339"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94885594"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -22,6 +22,34 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi
 
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [August](2020-august.md)  |  [szeptember](2020-september.md)augusztus  |  [October](2020-October.md) | . November
 
+______________
+
+## <a name="office-365-e1-for-mid-market-promo-latam-apac-and-india"></a><a name="12"></a>Office 365 E1 a középső piacra való Promohez (LATAM, APAC és India)
+
+### <a name="categories"></a>Kategóriák
+- 2020-11-18. dátum
+- Ajánlatok/piacok
+
+### <a name="summary"></a>Összegzés
+Bevezetünk egy új Office 365 E1 promot a középső piacra, amely a LATAM, India és APAC feltörekvő piacaira korlátozódik (kivéve a APAC-en belüli fejlett piacokat).
+
+### <a name="impacted-audience"></a>Érintett közönség
+Az összes partner a Cloud Solution Provider (CSP) programon keresztül lebonyolítja a fent felsorolt részt vevő piacokon.
+
+### <a name="details"></a>Részletek
+A promóció 30%-os kedvezményt biztosít a CSP-hez készült Office 365 E1-es verziójában. 2020. december 1-jén indul el, és 6 hónapig, 2020. május 31-ig lesz elérhető. Ez a promo csak olyan ügyfelek számára érhető el, akik újak az MW-felhőben, és legfeljebb 500 ülőhellyel rendelkeznek. Vegye figyelembe, hogy ez a LATAM, India és APAC feltörekvő piacaira korlátozódik, hogy lehetővé váljon a felhőre való áttérés. 
+
+#### <a name="offer-details"></a>Ajánlat részletei
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|
+   |-------------------|:------|
+   |Office 365 E1 a középső piacra való promócióhoz|d20fdad5-f524-45e4-97b1-59a94c21778f|
+
+### <a name="next-steps"></a>Következő lépések
+Ez az idő december 1-jén lesz elérhető, és a szervezeten belüli összes megfelelő partnerrel (a résztvevő régiókban) ossza meg ezeket az információkat. Megkezdheti az olyan ügyfelek bevonását, akik még nem a felhőben vannak a résztvevő régiókban. 
+
+### <a name="questions"></a>Kérdése van?
+Bármilyen kérdés, lekérdezés vagy további információért forduljon a [partner Center támogatási szolgálatához](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?category=csp) .
 ______________
 
 ## <a name="partner-center-api-updates-and-user-interface-ui-enhancements-to-strengthen-customer-screening-in-certain-countries"></a><a name="11"></a>A partner Center API frissítései és a felhasználói felület (UI) fejlesztése az ügyfelek szűrésének erősítéséhez bizonyos országokban
