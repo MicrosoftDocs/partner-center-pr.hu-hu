@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 495ea6df347a5c2f6cf05a9f9efddaf33113e0b4
-ms.sourcegitcommit: 992b9e57e1abc26d2b835414278c96b3de61dd2b
+ms.openlocfilehash: 4524514177c636fbb2b613ed50323fd8f586c56d
+ms.sourcegitcommit: 511c21ae664bd438dc9d11f880cd58400a5d9eea
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 11/19/2020
-ms.locfileid: "94885594"
+ms.locfileid: "94932820"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -23,6 +23,43 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [August](2020-august.md)  |  [szeptember](2020-september.md)augusztus  |  [October](2020-October.md) | . November
 
 ______________
+## <a name="new-unified-account-management-experience"></a><a name="13"></a>Új, egységes fiók-felügyeleti felület
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-11-18
+- Képességek
+
+## <a name="summary"></a>Összegzés
+
+November 18-án a partner Center elkezdi az új Fiókkezelés felhasználói élményének növelését. A partnerek mostantól a beállítások-> Fiókbeállítások alapján kezelhetik az összes program fiókját.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner
+
+### <a name="details"></a>Részletek
+
+A fiókkezelés legfontosabb változása a **partneri beállítások** korábbi, kereskedelmi programokban (Microsoft Partner Network, felhőalapú megoldás-szolgáltató, hivatkozások stb.) regisztrált partnereinek és **fejlesztői beállítások** nézetének integrálása a fejlesztői programokban (kereskedelmi piactér, Windows & Xbox stb.) beiratkozott partnereink számára egy egyesített **fiók beállításait** tartalmazó nézetbe.
+
+### <a name="entry-point"></a>Belépési pont
+
+Jelentkezzen be a partner Center irányítópultra, majd kattintson a  **Beállítások**   ikonra, majd a **Fiókbeállítások** lehetőségre. Már nem kell választania a partner és a fejlesztő között, mivel az összes profil és beállítás már össze van építve.
+
+### <a name="left-navigation-hierarchy"></a>Bal oldali navigációs hierarchia
+
+- Szervezeti profil
+   - Jogi – a jogi üzleti profil, a partneri profil és a vállalati telephelyek kezelése.
+   - Bérlők – az Azure AD-Bérlővel, a kereskedelmi és a fejlesztői környezettel kapcsolatos összes adatát itt követjük nyomon.
+   - Azonosítók – a partner Center identitásai a vállalatnál – a MPNID, a publisherId stb.
+- Felhasználói felügyelet – a felhasználók kezelése és kereskedelmi és fejlesztői szerepkörök társítása egy helyről. A csoportokat és az Azure AD-alkalmazásokat innen is kezelheti.
+
+### <a name="next-steps"></a>Következő lépések
+
+Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
+
+
+
 
 ## <a name="office-365-e1-for-mid-market-promo-latam-apac-and-india"></a><a name="12"></a>Office 365 E1 a középső piacra való Promohez (LATAM, APAC és India)
 
@@ -303,6 +340,7 @@ Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.micr
 - Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal, hogy segítsen ezeknek a változásoknak a előkészítésében.
 
 
+>>>>>>> b9adba1905026516f3b9d15ff488d1c383af219b
 
 ## <a name="testing-available-partner-center-api-and-user-interface-ui-enhancements-for-the-education-customer-validation-process"></a><a name="7"></a>Elérhető tesztelés: a partner Center API és a felhasználói felület (UI) fejlesztései az oktatási ügyfél-ellenőrzési folyamathoz
 
