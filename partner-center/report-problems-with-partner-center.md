@@ -1,20 +1,20 @@
 ---
 title: A Partnerközponttal kapcsolatos problémák jelentése
 ms.topic: how-to
-ms.date: 06/05/2020
+ms.date: 11/19/2020
 ms.service: partner-dashboard
-ms.subservice: partnercenter-csp
+ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan jelentheti a partneri központtal kapcsolatos problémákat, és hogyan gyűjthet diagnosztikai adatokat a partner-támogatási csapat számára.
 author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1db695179915f8ee803ad4dfdcfd6278ce49238b
-ms.sourcegitcommit: a2ea54f814fdbd619421a83482831b22f49416f6
+ms.openlocfilehash: 7d978ca3c48ccadaabb7d714ea9a5d2900bef819
+ms.sourcegitcommit: 7dff27bd799951c28bd1ef2665aa564cce71aff0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94567074"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94983341"
 ---
 # <a name="how-to-report-problems-with-partner-center-and-submit-any-log-or-diagnostics-information"></a>A partner centerrel kapcsolatos problémák jelentése és naplózási vagy diagnosztikai információk elküldése
 
@@ -23,9 +23,7 @@ ms.locfileid: "94567074"
 - Partnerközpont
 - A Microsoft Cloud for US Government Partnerközpontja
 
-Ha problémákat tapasztal, vagy segítségre van szüksége a partner centerrel kapcsolatban, forduljon a partner Center támogatási szolgálatához.
-
-**Felhasználói szerepkörök**
+**Megfelelő szerepkörök**
 
 Az összes bejelentkezett fiókpartner-felhasználó létrehozhat egy partneri támogatási kérelmet. A felhasználók csak a partner központba való bejelentkezés után elküldött támogatási kérelmeket tekinthetik meg.
 
@@ -58,6 +56,12 @@ Ha a probléma a támogatási tanácsadóval folytatott beszélgetést igényli,
 1. Amikor beütemezhet egy találkozót, a partner Center egy naptári meghívót küld Önnek, amely arról tájékoztatja, hogy a támogatási tanácsadó hogyan fogja felvenni Önnel a kapcsolatot, így nyomon követheti a találkozót a saját munkahelyi naptárában.
 
 :::image type="content" source="images/support/ticket3.png" alt-text="Dátum és idő":::
+
+## <a name="hours-of-operation"></a>Üzemóra
+
+**Partneri támogatás**
+
+:::image type="content" source="images/support/hoop.png" alt-text="Támogatási üzemóra":::
 
 ## <a name="send-diagnostics"></a>Diagnosztika küldése
 
