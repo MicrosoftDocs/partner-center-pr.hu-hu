@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 11/10/2020
-ms.openlocfilehash: 183ee0fe5e14608b0b43024e5c07e5ee95d608cd
-ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
+ms.date: 11/17/2020
+ms.openlocfilehash: d8bd7be9d77f9c8d59af5d45821b9c0728457e52
+ms.sourcegitcommit: 992b9e57e1abc26d2b835414278c96b3de61dd2b
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94691316"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94885611"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2020. novemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[Office 365 E1 középvállalatokra vonatkozó promóciókhoz (LATAM, APAC és India)](2020-november.md#12)|November 18.|
+|Képességek|[A Partnerközpont API-frissítései és a felhasználói felület fejlesztései az ügyfelek hatékonyabb szűrése érdekében bizonyos országokban.](2020-november.md#11)|November 17.|
 |Képességek|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2020-november.md#10)|November 17.|
 |Képességek|[Partnerközpont API-k API-szabályozása](2020-november.md#9)|November 17.|
 |Képességek|[Duplikált MCA-kérelmek által okozott 409-es hibák](2020-november.md#8)|November 16.|

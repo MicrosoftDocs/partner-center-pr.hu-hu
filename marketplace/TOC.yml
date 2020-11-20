@@ -1,8 +1,11 @@
 - name: A Microsoft Marketplace ügyfél-dokumentációja
   href: index.yml
+- name: Azure Piactér
   items:
     - name: Privát Azure Marketplace létrehozása
       href: create-manage-private-azure-marketplace.md
+    - name: Azure Marketplace-partnerintegrációk
+      href: partner-integrations.md
 - name: Referencia
   items:
     - name: Azure PowerShell
