@@ -8,12 +8,12 @@ description: Szinkronizálja a partner Centerben lévő hivatkozásokat a Dynami
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: 8ea803e675ce7c2d21d680491bbdaedf792e631f
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: c92938bbb4ffa6875419d06a9bbf23010ee60724
+ms.sourcegitcommit: 7e32544cf91f932cbeb053c9de506ba9ee773fe2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530313"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947780"
 ---
 # <a name="co-sell-connector-for-dynamics-365-crm--overview"></a>Közös értékesítésű összekötő a Dynamics 365 CRM-hez – áttekintés
 
@@ -50,7 +50,7 @@ A megoldás a Microsoft Power automatizálási megoldásán alapul, és a partne
 
 5. Keressen rá a Dynamics365-hez készült **partner Center-összekötők** az előugró képernyőn.  
 
-6. Kattintson a **Letöltés most** gombra, és **folytassa a művelettel** .
+6. Kattintson a **Letöltés most** gombra, és **folytassa a művelettel**.
 
 7. Ekkor megnyílik a lap, amelyen kiválaszthatja az alkalmazás telepítéséhez szükséges CRM-környezetet (Dynamics 365).  Fogadja el a feltételeket és a kikötéseket.
 
@@ -60,7 +60,7 @@ A megoldás a Microsoft Power automatizálási megoldásán alapul, és a partne
 
 10. Válassza **a partner Center-átirányítási szinkronizálás a Dynamics 365-hez** lehetőséget. A következő energiagazdálkodási folyamatok és entitások érhetők el:
 
-    :::image type="content" source="images/cosellconnectors/dynamics-available-crms.png" alt-text="AppSource megnyitása":::
+    :::image type="content" source="images/cosellconnectors/dynamics-available-crms.png" alt-text="Rendelkezésre álló CRM":::
 
 ## <a name="best-practice-test-before-you-go-live"></a>Ajánlott eljárás: tesztelés az élő indítás előtt
 
@@ -74,6 +74,7 @@ Mielőtt telepítené, konfigurálja és testreszabja az automatizálási megold
 ## <a name="configure-the-solution"></a>A megoldás konfigurálása
 
 1. Miután telepítette a megoldást a CRM-példányba, váltson vissza a [Power automatizálás](https://flow.microsoft.com/)szolgáltatásra.
+
 
 2. A jobb felső sarokban található **környezetek** legördülő listából válassza ki azt a CRM-példányt, amelyen az automatizálási megoldást telepítette.
 
@@ -89,7 +90,7 @@ Mielőtt telepítené, konfigurálja és testreszabja az automatizálási megold
 
       2. Hozzon létre egy kapcsolatokat a **kapcsolatok létrehozása** lehetőségre kattintva.
 
-         :::image type="content" source="images/cosellconnectors/createconnection.png" alt-text="AppSource megnyitása":::
+         :::image type="content" source="images/cosellconnectors/dynamics1.png" alt-text="Kapcsolat létrehozása":::
 
       3. A jobb felső sarokban található keresési sávban keresse meg a **partneri központ hivatkozásait (előzetes verzió)** .
 
@@ -98,10 +99,31 @@ Mielőtt telepítené, konfigurálja és testreszabja az automatizálási megold
       5. Ezután hozzon létre egy partneri központ-esemény kapcsolatot a partner Center-felhasználó számára az Ajánlói rendszergazda hitelesítő adataival.
 
       6. Hozzon létre egy Common Data Service (aktuális környezet) kapcsolatokat a CRM-rendszergazda felhasználó számára.
+       
+     
+      7. Az összes hozzáadott kapcsolat után a következő kapcsolatokat kell látnia a környezetben:
 
-4. Ha a Power automatizálni szeretné a kapcsolatokat a kapcsolatokkal, szerkessze az egyes energiagazdálkodási folyamatokat, és kapcsolódjon Common Data Service és a partner Center-hivatkozásokhoz. Mentse a módosításokat.
+:::image type="content" source="images/cosellconnectors/dynamics2.png" alt-text="Kapcsolatok":::
+   
+## <a name="edit-the-connections"></a>Kapcsolatok szerkesztése
 
-5. **Kapcsolja be** a Power automatizáló folyamatokat.
+1. Térjen vissza a **megoldások** lapra, és válassza az **alapértelmezett megoldás** lehetőséget. Válassza a **kapcsolatok referenciája (előzetes verzió)** lehetőséget az **összes** elemre kattintva.
+
+:::image type="content" source="images/cosellconnectors/dynamics3.png" alt-text="Kapcsolódás":::
+
+2. Szerkessze az egyes kapcsolatokat egyenként a három pont ikon kiválasztásával. Adja hozzá a megfelelő kapcsolatokat.
+
+:::image type="content" source="images/cosellconnectors/dynamics4.png" alt-text="Felsorolt kapcsolatok"::: 
+
+3.  Kapcsolja be a folyamatokat a következő sorozatban:
+- A partner Center webhook-regisztrációja (belső előzetes verzió)
+- Közös értékesítésre hivatkozó hivatkozás létrehozása – Dynamics 365 – partneri központ (belső előzetes verzió)
+- A partner Center Microsoft közös értékesítési hivatkozási frissítései a Dynamics 365-as verzióra (Insider előzetes verzió)
+- Partneri központ a Dynamics 365-hoz (belső előzetes verzió)
+- Dynamics 365 a partneri központba (belső előzetes verzió)
+- Dynamics 365 lehetőség a partneri központhoz (belső előzetes verzió)
+- Dynamics 365 Microsoft-megoldások a partner Centerhez (Insider előzetes verzió)
+ 
 
 ## <a name="use-webhook-apis-to-register-for-resource-change-events"></a>A webhook API-k használata az Erőforrás-változási események regisztrálásához
 
@@ -111,11 +133,11 @@ A partner Center webhook API-k lehetővé teszik az Erőforrás-változási esem
 
 2. Vegyen fel kapcsolatokat az (a.) partner Center-felhasználóhoz az Ajánlói rendszergazdai hitelesítő adatokkal (b.) a következő Kiemelt módon:
 
-   :::image type="content" source="images/cosellconnectors/triggerflow.png" alt-text="AppSource megnyitása":::
+   :::image type="content" source="images/cosellconnectors/triggerflow.png" alt-text="Eseményindító":::
 
 3. Ha ezeket a frissítéseket végzi, a következőt fogja látni:
 
-   :::image type="content" source="images/cosellconnectors/webhook1.png" alt-text="AppSource megnyitása":::
+   :::image type="content" source="images/cosellconnectors/webhook1.png" alt-text="Webhookok":::
 
 4. Mentse a módosításokat, és válassza **a bekapcsolás** lehetőséget.
 
@@ -127,9 +149,19 @@ A partner Center webhook API-k lehetővé teszik az Erőforrás-változási esem
 
 7. Kattintson a **Másolás** ikonra a megadott http post URL-cím másolásához.
 
-   :::image type="content" source="images/cosellconnectors/copyurl.png" alt-text="AppSource megnyitása"
+   :::image type="content" source="images/cosellconnectors/copyurl.png" alt-text="URL-cím másolása":::
 
-    3. **Meglévő trigger-végpontok felülírása (ha van** ): igen (Ez felülírja a meglévő végpontokat.)
+8. Most válassza ki a "partneri központ webhook-regisztráció (Insider előzetes verzió)" energiaellátás-automatizálási folyamat elemet, és válassza a **Futtatás** lehetőséget.
+
+9. Győződjön meg arról, hogy a jobb oldali ablaktáblán megnyílik a "Futtatás folyamata" ablak, és kattintson a **Folytatás** gombra.
+
+10. Adja meg a következő részleteket:
+
+    1. **Http-trigger végpontja**: a korábbi lépésből másolt URL-cím
+
+    2. **Regisztrálni kívánt események**: "referral-created" és "referral-frissítve"
+
+    3. **Meglévő trigger-végpontok felülírása (ha van**): igen (Ez felülírja a meglévő végpontokat.)
 
 11. Válassza a **Futtatás** lehetőséget, majd kattintson a **Kész gombra.**
 
@@ -149,9 +181,9 @@ Az egyes energiagazdálkodási folyamatok több lépését az igényeinek megfel
 
     b. Válassza a **Szerkesztés** lehetőséget az automatizálási folyamat szerkesztéséhez/testreszabásához.
 
-    c. Válassza **a (hatókör) lehetőséget az érdeklődő vagy a lehetőség szinkronizálásához** .
+    c. Válassza **a (hatókör) lehetőséget az érdeklődő vagy a lehetőség szinkronizálásához**.
 
-2. Ha testre szeretné szabni a CRM-mezők hozzárendeléseit (a mező-hozzárendelések útmutatója alapján) az események létrehozásához, válassza ki, hogy **új megosztott lehetőség van-e, majd** . Válassza ki az allépést, **Ha igen** , majd bontsa ki az **új lehetőség létrehozása lehetőséget a CRM-ben** . Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató segítségével módosíthatja.
+2. Ha testre szeretné szabni a CRM-mezők hozzárendeléseit (a mező-hozzárendelések útmutatója alapján) az események létrehozásához, válassza ki, hogy **új megosztott lehetőség van-e, majd**. Válassza ki az allépést, **Ha igen** , majd bontsa ki az **új lehetőség létrehozása lehetőséget a CRM-ben**. Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató segítségével módosíthatja.
 
     d. Ha testre szeretné szabni a CRM-mezők hozzárendeléseit (a mező-hozzárendelések útmutatója alapján) a frissítési események esetében, kattintson a "(hatókör)" lehetőségre az érdeklődő vagy a lehetőség szinkronizálásához.
 
@@ -163,11 +195,11 @@ Az egyes energiagazdálkodási folyamatok több lépését az igényeinek megfel
 
     a. Válassza a **Szerkesztés**  lehetőséget az automatizálási folyamat szerkesztéséhez/testreszabásához.
 
-    b. Válassza **a (hatókör) lehetőséget a lehetőség szinkronizálásához** .
+    b. Válassza **a (hatókör) lehetőséget a lehetőség szinkronizálásához**.
 
-    c. A frissítési események CRM-mezőkhöz való hozzárendelésének testreszabásához válassza ki, hogy van-e **különbség a partner Centerben és a CRM-ben lévő érdeklődő objektumok között** . 
+    c. A frissítési események CRM-mezőkhöz való hozzárendelésének testreszabásához válassza ki, hogy van-e **különbség a partner Centerben és a CRM-ben lévő érdeklődő objektumok között**. 
 
-    d. Válassza ki az allépést, **Ha igen** , majd bontsa ki az **átirányítási lehetőséget a lehetőségre vonatkozó adattal** .
+    d. Válassza ki az allépést, **Ha igen** , majd bontsa ki az **átirányítási lehetőséget a lehetőségre vonatkozó adattal**.
 
    Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató alapján módosíthatja.
 
@@ -181,6 +213,16 @@ Az egyes energiagazdálkodási folyamatok több lépését az igényeinek megfel
 
    Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató alapján módosíthatja.
 
+Két környezeti változó lett létrehozva:
+
+- Pipa: azt jelzi, hogy a partner központ és a Dynamics 365 CRM között kétirányú szinkronizálású lehetőségek mellett van-e pipa ikon.
+
+- Csak közös értékesítési lehetőségek szinkronizálása: azt jelenti, hogy csak a közös értékesítési lehetőségeket kívánja szinkronizálni.
+
+A környezeti változók alapértelmezett értékének szerkesztését is választhatja.
+
+:::image type="content" source="images/cosellconnectors/dynamics5.png" alt-text="Alapértelmezett értékekhez tartozó mező szerkesztése":::
+
 ## <a name="end-to-end-bi-directional-co-sell-referral-synchronization"></a>Végpontok közötti kétirányú, közös értékesítésre hivatkozó átirányítás szinkronizálása
 
 Miután telepítette, konfigurálta és testreszabta az automatizálási megoldást, tesztelheti a Dynamics 365 és a partner Center közötti összekapcsolási átirányítások szinkronizálását.
@@ -193,17 +235,23 @@ Az egyéni mezők készlete a **lehetőség** entitás részeként érhető el. 
 
 A következő egyéni mezők a CRM szakasz részét képezik:
 
-- **Szinkronizálás a partner centerrel** : a lehetőség szinkronizálása a Microsoft partner centerrel
+- **Szinkronizálás a partner centerrel**: a lehetőség szinkronizálása a Microsoft partner centerrel
 
-- **Hivatkozási azonosító** : a Microsoft partner Center ajánlójának írásvédett azonosító mezője
+- **Hivatkozási azonosító**: a Microsoft partner Center ajánlójának írásvédett azonosító mezője
 
-- **Referral link** : egy csak olvasható hivatkozás a Microsoft partner Centerben
+- **Referral link**: egy csak olvasható hivatkozás a Microsoft partner Centerben
 
-- **Hogyan segíthet a Microsoft súgója?** : Segítség szükséges a Microsoftnak az átirányításhoz
+- **Hogyan segíthet a Microsoft súgója?**: Segítség szükséges a Microsoftnak az átirányításhoz
 
-- **Termékek** : a lehetőséghez társított termékek listája
+- **Termékek**: a lehetőséghez társított termékek listája
 
-- **Naplózás** : írásvédett naplózási nyomvonal a partner Center-hivatkozásokkal való szinkronizáláshoz
+- **Naplózás**: írásvédett naplózási nyomvonal a partner Center-hivatkozásokkal való szinkronizáláshoz
+
+Frissítse a lehetőség űrlapját a Dynamics 365 CRM-ben a termékek mezőhöz tartozó megoldások befoglalásához.
+
+:::image type="content" source="images/cosellconnectors/dynamics6.png" alt-text="Lehetőség űrlapja":::
+
+:::image type="content" source="images/cosellconnectors/dynamics7.png" alt-text="{alt-text}":::
 
 ### <a name="scenarios"></a>FORGATÓKÖNYVEK
 
@@ -213,19 +261,35 @@ A következő egyéni mezők a CRM szakasz részét képezik:
 
    2. Győződjön meg arról, hogy a Dynamics 365 környezetben a következő szakasz jelenik meg, amikor létrehoz egy új lehetőséget.
 
-      :::image type="content" source="images/cosellconnectors/opportunity.png" alt-text="AppSource megnyitása":::
+      :::image type="content" source="images/cosellconnectors/opportunity.png" alt-text="A Microsoft partner Center információinak a Dynamics 365-ben való megjelenítését bemutató példa lehetőség szakasza.":::
 
    3. Ha ezt a lehetőséget a Microsoft partner centerrel szeretné szinkronizálni, ügyeljen arra, hogy a következő mezőket adja meg a kártya nézetben:
 
-      - **Szinkronizálás a partner centerrel** : igen
+      - **Szinkronizálás a partner centerrel**: igen
 
-      - **Hogyan segíthet a Microsoft súgója?** : válasszon a következők közül:
+      - **Hogyan segíthet a Microsoft súgója?**: válasszon a következők közül:
 
-         :::image type="content" source="images/cosellconnectors/help.png" alt-text="AppSource megnyitása" lehetőségre kattintva.
+         :::image type="content" source="images/cosellconnectors/help.png" alt-text="A Dynamics 365-es minta lehetőség szakasza, amely a Microsoft-partneri központ súgóját mutatja be a hogyan tud a Microsoft Help? nevű mező mellett.":::
+
+      - **Termékek**: a termék megoldás-azonosítói
+
+   4. Miután létrejött a lehetőség a Dynamics 365-ben a **partner centerrel való szinkronizálással** beállítás **Igen** értékre van állítva, várjon 10 percet, majd jelentkezzen be a partner Center-fiókjába. Az átirányítási adatokat a Dynamics 365-mel szinkronizálja a rendszer.
+
+   5. Hasonlóképpen, ha a Dynamics 365 CRM-ben a lehetőség frissítésével "igen" értékre állította a "szinkronizálás a partneri központtal" beállítást, a rendszer szinkronizálja a módosításokat a partner Center-fiókban.
+
+   6. A partner centerrel sikeresen szinkronizált lehetőségek a Dynamics 365-as ✔ ikonnal lesznek azonosítva.
+
+2. Az átirányítás szinkronizálása a Microsoft partner Centerben, a Dynamics 365 környezetben szinkronizálva:
+
+   1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+
+   2. A bal oldali menüben válassza a **hivatkozók** lehetőséget.
+
+   3. Hozzon létre egy új, közös értékesítésre hivatkozó hivatkozást a partner Centerben az "új üzlet" lehetőségre kattintva.
 
    4. Jelentkezzen be a Dynamics 365 CRM-környezetbe.
 
-   5. Navigáljon a **lehetőségek megnyitásához** . A Microsoft partner Centerben létrehozott hivatkozás mostantól szinkronizálva van a Dynamics 365 CRM-ben.
+   5. Navigáljon a **lehetőségek megnyitásához**. A Microsoft partner Centerben létrehozott hivatkozás mostantól szinkronizálva van a Dynamics 365 CRM-ben.
 
    6. Amikor kijelöl egy szinkronizált átirányítást, a rendszer feltölti a kártya nézetének részleteit.
 

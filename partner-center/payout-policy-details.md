@@ -7,12 +7,12 @@ ms.topic: conceptual
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 11/06/2020
-ms.openlocfilehash: 9c03878ec69b9df06795054464ef7f76e038e780
-ms.sourcegitcommit: cc30a06abe55b9da32177a24e74bfd6fc7d8bbb9
+ms.openlocfilehash: cbd849001d128db1912a9bb61ef4c5217a5932ce
+ms.sourcegitcommit: 7e32544cf91f932cbeb053c9de506ba9ee773fe2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94531987"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947664"
 ---
 # <a name="payout-schedules-and-policy-details"></a>A kifizetési ütemtervek és a szabályzat részletei
 
@@ -32,9 +32,9 @@ A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél 
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | A beszerzési rendelés létrejött | Teljes használat meghatározása, tranzakciók összesen | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
-| A rendszer létrehozta az ISV-kifizetés megszerzését | Az ügynökségi díj és a kifizetés eredményének meghatározása | A kifizetési utasításban feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap (1. hét)** |
-| Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A kifizetési utasításban a tranzakciós előzményekben Közelgőként van megjelölve | **3. hónap (1. hét)** |
-| **Kifizetés dátuma** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a kifizetési nyilatkozat fizetési szakaszában** | **3. hónap (nem később, mint a 15.)** |
+| A rendszer létrehozta az ISV-kifizetés megszerzését | Az ügynökségi díj és a kifizetés eredményének meghatározása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap (1. hét)** |
+| Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A [kifizetési utasításban](payout-statement.md) a tranzakciós előzményekben közelgőként van megjelölve | **3. hónap (1. hét)** |
+| **Kifizetés dátuma** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a [kifizetési nyilatkozat](payout-statement.md) fizetési szakaszában** | **3. hónap (nem később, mint a 15.)** |
 | Az ügyfél által fizetett számla | A Microsoft fizetési lehetőséget gyűjt az ügyféltől | Nincs változás besorolás | **4. hónap – 12** |
 |
 
@@ -48,10 +48,10 @@ Az összes bankkártyával vagy havi számlával történő vásárlás 30 napos
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | Az ügyfél által fizetett számla | A teljes használat, a tranzakció teljes értéke és az ügyfél által fizetett számla meghatározása | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
-| A rendszer létrehozta az ISV-kifizetés megszerzését | Az ügynökségi díj és a kifizetés eredményének meghatározása | A kifizetési utasításban feldolgozatlan van megjelölve a tranzakciós előzményekben | **2. hónap** |
-| 30 napos időszak | Az alapok, a lehetséges jóváírási és a visszatérítési kérelmek gyűjtésének biztosítása | A kifizetési utasításban feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap** |
-| Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A kifizetési utasításban a tranzakciós előzményekben Közelgőként van megjelölve | **4. hónap első hete** |
-| **Kifizetés dátuma** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a kifizetési nyilatkozat fizetési szakaszában** | **4. hónap (nem később, mint a 15.)** |
+| A rendszer létrehozta az ISV-kifizetés megszerzését | Az ügynökségi díj és a kifizetés eredményének meghatározása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **2. hónap** |
+| 30 napos időszak | Az alapok, a lehetséges jóváírási és a visszatérítési kérelmek gyűjtésének biztosítása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap** |
+| Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A [kifizetési utasításban](payout-statement.md) a tranzakciós előzményekben közelgőként van megjelölve | **4. hónap (1. hét)** |
+| **Kifizetés dátuma** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a [kifizetési nyilatkozat](payout-statement.md) fizetési szakaszában** | **4. hónap (nem később, mint a 15.)** |
 |
 
 \* A kifizetés dátuma csendes-óceáni téli idő (PST).
@@ -70,10 +70,10 @@ A következő példa egy ütemezett ütemtervet mutat be:
 | --- | --- | --- |
 | Példa a kifizetés dátumára | 10/15/2020 | A kifizetési **irányítópulton a** tranzakciós előzmények és a fizetések részben ellátottként van megjelölve |
 | <font color="red">Ha az ügyfél nem fizet a Microsoftnak</font> | 12/2/2020 – 12/5/2020 | Nincs változás, ugyanaz, mint fent |
-| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincsenek |
-| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincsenek |
+| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincs |
+| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincs |
 | Valószínűleg a közzétevő értesítést kap a kiírásról | 1/7/2021 | A közzétevőnek küldött e-mail-értesítés, amelyet az ügyfele még nem küldött el. A tranzakció-azonosító és a dollár összege is szerepel. |
-| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincsenek |
+| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincs |
 | A gyűjtési folyamat vége/az alapok le vannak írva | 2/15/2021 | A közzétevőnek elküldött e-mail-értesítés, amelyből a rendszer kiírta a forrásokat. A tranzakció-azonosító és a dollár összege is szerepel. |
 | A kifizetés le van vonva | 2021. 03. 01. | A közzétevő negatív tranzakciót fog látni a partner Center kifizetési utasításban |
 | A kifizetés megtagadva | 3/15/2021 | A jövőbeli kifizetések a partner Center kifizetési nyilatkozatában jelennek meg. A közzétevő nem kap fizetést, amíg az egyenleg már nem negatív.  |
@@ -97,4 +97,4 @@ A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk,
 
 ## <a name="next-steps"></a>Következő lépések
 
-Az [adó részleteinek](tax-details-marketplace.md)megismerése.
+- [Adó részletei](tax-details-marketplace.md)

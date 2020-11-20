@@ -1,5 +1,5 @@
 ---
-title: Bejelentések augusztus 2020
+title: 2020. augusztusi közlemények
 description: A Microsoft partner Center bejelentései augusztus 2020, például új funkciók, promóciók, ajánlatok, piacok vagy a meglévő ajánlatok változásai.
 ms.topic: article
 ms.service: partner-dashboard
@@ -9,14 +9,14 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 08/14/2020
-ms.openlocfilehash: e469f3a99a07715ebadf3b6bcca7b1cf1db46c44
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: f3503e4edf9b5e9081eb53b80a32f451db861a70
+ms.sourcegitcommit: 7e32544cf91f932cbeb053c9de506ba9ee773fe2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530384"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947681"
 ---
-# <a name="august-2020-announcements"></a>Bejelentések augusztus 2020
+# <a name="august-2020-announcements"></a>2020. augusztusi közlemények
 
 Ez az oldal a Microsoft partner Center hirdetményeit ismerteti a 2020 augusztusában.
 
@@ -35,7 +35,7 @@ ________________
 
 Az akadémiai ajánlatokat a Cloud Solution Provider (CSP) programon keresztül értékesítő partnereink 
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft megbízhatósági kapcsolatban áll, és elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfelek ellenőrzéséhez a felhőalapú megoldás-szolgáltatói programban. Ennek a kötelezettségvállalásnak a részeként a partner Center API-t és a felhasználói felület fejlesztéseit tesszük elérhetővé a pénzügyi év második negyedévében (FY21 Q2), amely az átláthatóságot és a láthatóságot adja a vásárlói folyamatnak, valamint lehetővé teszi, hogy pontosabb adatokat lehessen bevinni, ami javítja az ügyfelek sikeres ellenőrzését. 
 
@@ -87,9 +87,9 @@ ________________
 
 A partner Center .NET SDK-t használó CSP programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók. 
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
-2020. július 21-én a partnerek elkezdhetik letölteni a **.NET Standard SDK Microsoft partner Center** .net SDK v 1.16.1 verzióját, valamint a nyilvános **partneri központ SDK GitHub-mintáit** .
+2020. július 21-én a partnerek elkezdhetik letölteni a **.NET Standard SDK Microsoft partner Center** .net SDK v 1.16.1 verzióját, valamint a nyilvános **partneri központ SDK GitHub-mintáit**.
 
 ### <a name="details"></a>Részletek
 
@@ -151,7 +151,7 @@ ________________
 - Dátum: 2020-08-04
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft Teams új, speciális kommunikációs kiegészítő SKU-a 2020 augusztus 1-jén lett elérhető.
 
@@ -167,8 +167,6 @@ A Microsoft Teams új speciális kommunikációs bővítménye mostantól $12 fe
 
 Indításkor megjelent
 - Élő eseményekre vonatkozó korlátozások 20 K résztvevői számára (50 egyidejű, 16 óra)
-- Megfelelőségi rögzítések integrációja (ISV) 
-- Contact Center-megoldás integrációja (ISV) 
 
 Később megjelent a CY2020
 - 1 000 – interaktív csapatokkal foglalkozó résztvevő 
@@ -235,7 +233,7 @@ ________________
 
 Microsoft Dynamics 365-et lebonyolító partnerek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 2020. augusztus 1-jén a Microsoft új Dynamics 365 Sales Premium csomagra vonatkozó ajánlatot bocsátott ki a kereskedelmi ügyfelek számára minden programban, valamint országokat és régiókat.
 
@@ -267,7 +265,7 @@ ________________
 
 A Cloud Solution Provider (CSP) programban résztvevő összes partner
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft a Visio 1. és 2. tervének próbaverziós ajánlatait 2020. augusztus 1-től megkezdődik. 
 

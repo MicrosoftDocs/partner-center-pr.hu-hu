@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 4524514177c636fbb2b613ed50323fd8f586c56d
-ms.sourcegitcommit: 511c21ae664bd438dc9d11f880cd58400a5d9eea
+ms.openlocfilehash: 2b089a666fdb312d49f26be0f9a47da8daad2715
+ms.sourcegitcommit: 7e32544cf91f932cbeb053c9de506ba9ee773fe2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94932820"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947698"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -51,7 +51,7 @@ Jelentkezzen be a partner Center irányítópultra, majd kattintson a  **Beál
 - Szervezeti profil
    - Jogi – a jogi üzleti profil, a partneri profil és a vállalati telephelyek kezelése.
    - Bérlők – az Azure AD-Bérlővel, a kereskedelmi és a fejlesztői környezettel kapcsolatos összes adatát itt követjük nyomon.
-   - Azonosítók – a partner Center identitásai a vállalatnál – a MPNID, a publisherId stb.
+   - Azonosítók – a partner központ identitásai a vállalatnál – az Ön MPNIDs, publisherIds stb.
 - Felhasználói felügyelet – a felhasználók kezelése és kereskedelmi és fejlesztői szerepkörök társítása egy helyről. A csoportokat és az Azure AD-alkalmazásokat innen is kezelheti.
 
 ### <a name="next-steps"></a>Következő lépések
