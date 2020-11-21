@@ -1,19 +1,19 @@
 ---
-title: Azure Marketplace partner-integrációk
+title: Azure Marketplace-partnerintegrációk
 description: Ismerje meg az Azure-környezettel integrálható Azure Marketplace-megoldásokat, valamint a Microsoft-partnerek telepítési útmutatóinak hivatkozását.
 ms.service: partner-services
 ms.topic: conceptual
-author: dsindona
-ms.author: dsindona
+author: JasonWHowell
+ms.author: jasonh
 ms.date: 11/16/2020
-ms.openlocfilehash: 7c97936e7764361c21503eca174433029707cf69
-ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
+ms.openlocfilehash: b31486000e59f3d85ee30019ecea000252b297a8
+ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94691687"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95006905"
 ---
-# <a name="azure-marketplace-partner-integrations"></a>Azure Marketplace partner-integrációk
+# <a name="azure-marketplace-partner-integrations"></a>Azure Marketplace-partnerintegrációk
 
 Ismerje meg, hogyan integrálhatja a partneri megoldásokat az Azure-környezetbe. Ez a cikk áttekintést nyújt az egyes megoldásokról, valamint a részletes üzembe helyezési útmutatókra mutató hivatkozásokat tartalmaz. A megoldások betűrendben vannak felsorolva. 
 
