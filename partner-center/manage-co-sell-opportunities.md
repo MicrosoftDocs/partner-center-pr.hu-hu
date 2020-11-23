@@ -9,12 +9,12 @@ author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9eb158163bb1a7ea5da0bc834e6bf7623f32a4dd
-ms.sourcegitcommit: 92be474db61cc12f684850c2a7a8a8bdd5c93f97
+ms.openlocfilehash: 61dab9f869d8bb9a26f1317fb1aec3013e915465
+ms.sourcegitcommit: e4f870b9070eb3aed49061cc652d124ba0d05b68
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93363639"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95417268"
 ---
 # <a name="manage-co-sell-opportunities-in-partner-center"></a>Közös értékesítési lehetőségek kezelése a partner Centerben
 
@@ -40,7 +40,7 @@ Partner-partner **(P2P)** – ez az a hely, ahol az egyik partner más partnerek
 **Megoldás-értékelés (SA)** – ezek a típusú ajánlatok csak olyan partnerekből hozhatók létre, akik a megoldás-értékelésekkel foglalkozó üzleti csapat által a Microsoft-technológiák használatának vagy tervezésének megtervezését szolgáló technológiai értékelések elvégzéséhez szükségesek.
 
 > [!NOTE]
-> A privát ajánlatok annak ellenére, hogy nem igazán együttműködőek, az itt látható, hogy könnyen áttekinthető legyen egy olyan folyamat, amely az összes folyamatot a nem terminálos fázisban ( **megnyert, elveszett, visszautasított és lejárt** ) egy közös értékesítési lehetőséggel bővíti.
+> A privát ajánlatok annak ellenére, hogy nem igazán együttműködőek, az itt látható, hogy könnyen áttekinthető legyen egy olyan folyamat, amely az összes folyamatot a nem terminálos fázisban (**megnyert, elveszett, visszautasított és lejárt**) egy közös értékesítési lehetőséggel bővíti.
 
 ## <a name="navigating-the-co-sell-section"></a>Navigálás a közös értékesítés szakaszban
 
@@ -100,14 +100,14 @@ Ebben a szakaszban meg kell adnia az ügylet részét képező megoldásokkal ka
 
 Miután megadta a megoldás adatait, kattintson a Tovább gombra, és lépjen arra a szakaszra, ahol eldöntheti az értékesítés típusát. Három lehetőség közül választhat, ha az első három lehetőség közül választ ki megoldásokat, és nem a megoldás értékelését:
 
-**Privát üzlet** : Ha nem hívja meg a Microsoftot, és nem hoz létre egy szerepvállalást ebben a lépésben, akkor a személyes folyamat típusú lesz. A Microsoft-értékesítők nem tekinthetik meg az üzlet részleteit.
+**Privát üzlet**: Ha nem hívja meg a Microsoftot, és nem hoz létre egy szerepvállalást ebben a lépésben, akkor a személyes folyamat típusú lesz. A Microsoft-értékesítők nem tekinthetik meg az üzlet részleteit.
 
 > [!Important]
 > A Deal regisztráció nem alkalmazható a privát ajánlatokra. Körültekintően járjon el, amikor egy privát ügyletet ösztönző jogosult megoldásokkal hoz létre, mivel azok nem jogosultak a partner Centerben való regisztrációra.
 
 **Közös értékesítések kezelése:** Ha a "nem a **Microsofttól származó Súgó azonosítására"** lehetőséget választja, akkor az üzlet olyan közös értékesítésű ügyletre vált, amelyben a Microsoft Seller segíthet az üzlet lezárásában. A Microsoft segítségére vonatkozó kérelem nem garantálja, hogy a Microsoft értékesítő részt vesz az üzletben. A Microsoft értékesítési képviselői 14 nap múlva dönthetnek arról, hogy részt kívánnak-e venni. A Megjegyzések szakaszban győződjön meg arról, hogy milyen típusú segítségre van szüksége.
 
-Partneri partner **(P2P) Deal** : a partner meghívása hivatkozásra kattintva meghívhat más partnereket is az üzletbe. Az alábbiakban egy P2P-ügylet létrehozási folyamata látható.
+Partneri partner **(P2P) Deal**: a partner meghívása hivatkozásra kattintva meghívhat más partnereket is az üzletbe. Az alábbiakban egy P2P-ügylet létrehozási folyamata látható.
 
 - **Válasszon partnert:** Miután rákattintott a partner meghívására, megkezdheti a partner nevének beírását, hogy lekérje a beírt névvel egyező partnerek javasolt listáját. Válassza ki azt a partnert, amelyre kíváncsi, hogy kitöltse a partner további részleteit. Csak olyan partnereket kereshet, akik a Microsoft közös értékesítésű ökoszisztémájában vannak, és a partner Centerben végeznek tranzakciókat.
 
@@ -137,7 +137,7 @@ Ebben a szakaszban abban az esetben, ha egy Microsoft-értékesítőből vagy a 
 
 - Ha elkészült, kattintson a **Tovább gombra**. A **következő szakaszra** helyezzük át az átirányítást, ami azt jelenti, hogy aktívan kell részt vennie az ügyféllel a szükséges igények kielégítése érdekében. Ezt az információt arra is felhasználjuk, hogy a jövőben hasonló ajánlatokat találjon.
 
-- **Elutasítás** : válassza ki az üzlet lecsökkenésének okát, és vegye fel a felvenni kívánt megjegyzéseket, majd válassza az **üzlet lezárása** lehetőséget. A rendszer **elutasította** az archiválást, és értesíti a Microsoftot vagy azt a partnert, aki ezt a lehetőséget elküldte.
+- **Elutasítás**: válassza ki az üzlet lecsökkenésének okát, és vegye fel a felvenni kívánt megjegyzéseket, majd válassza az **üzlet lezárása** lehetőséget. A rendszer **elutasította** az archiválást, és értesíti a Microsoftot vagy azt a partnert, aki ezt a lehetőséget elküldte.
 
 - Ha a megadott időn belül nem válaszol (jelenleg 14 nap), archiváljuk **lejártként** , és értesítjük a Microsoftot vagy a partnert, aki ezt a lehetőséget elküldte.
 
@@ -214,13 +214,7 @@ Ez az összes lehetőség utolsó lépése. A lezárt szakaszban megtekintheti a
 
 Nem, az ajánlatok nem módosíthatók, ha a terminál állapotba költöznek. A lejárt, a visszautasított, a megnyert és az elveszett érték olyan terminál-állapot, ahol nem lehetséges további frissítés az üzlet számára. Körültekintően járjon el, ha az üzletet ezen terminál-állapotba helyezi át.
 
-**Q2. Új hivatkozói értesítést kaptam, de nem találom a partner Centerben?**
-
-Ez akkor fordulhat elő, ha a vállalat több Bérlővel rendelkezik, amelyek ugyanahhoz az MPN-fiókhoz vannak társítva. Lépjen a partner Center Fiókbeállítások menüpontra, és keresse meg a fiókhoz társított bérlőket. Ezután hozzon létre egy támogatási jegyet, amely a bérlők összekapcsolását kéri. Adja meg azt a bérlői azonosítót, amelybe bejelentkezett a támogatási jegyben.
-
-:::image type="content" source="images/pscmigration/pctenants.png" alt-text="A fiók beállításait tartalmazó kép, ahol a bérlő adatai találhatók.":::
-
-**Q3. Ki kap értesítő e-mailt a partner Centertől?**
+**Q2. Ki kap értesítő e-mailt a partner Centertől?**
 
 Az alábbi munkafolyamat azt ismerteti, hogyan küldi el az e-maileket a partner Center-átirányítási rendszertől az új partnerek bejövő átirányításához.
 

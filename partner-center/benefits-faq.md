@@ -1,5 +1,5 @@
 ---
-title: Előnyök – gyakori kérdések
+title: Az előnyökkel kapcsolatos gyakori kérdések
 ms.topic: article
 ms.date: 09/08/2020
 description: Válaszok az Azure-hoz, a felhőhöz, a Visual studióhoz, valamint a technikai és támogatási előnyökhöz kapcsolódó licencek lejáratával, megújításával és aktiválásával kapcsolatos kérdésekre
@@ -9,19 +9,19 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOJUNE20
-ms.openlocfilehash: 4af9e87ce02364f32f1aa41deb66d8935f657f40
-ms.sourcegitcommit: 3a9318d0de7a159215cb454295125532134ff8de
+ms.openlocfilehash: 089d358b75d17c409d614ed63e92aee921b1c80f
+ms.sourcegitcommit: e4f870b9070eb3aed49061cc652d124ba0d05b68
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "92528346"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95417251"
 ---
-# <a name="benefits-faq"></a>Előnyök – gyakori kérdések
+# <a name="benefits-faq"></a>Az előnyökkel kapcsolatos gyakori kérdések
 
 A következőkre vonatkozik:
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 ## <a name="general-questions"></a>Általános kérdések
 
@@ -96,7 +96,7 @@ A következő lépések végrehajtásával rendelhet hozzá előfizetéseket a p
 Az előfizetés hozzárendelése után a felhasználónak be kell jelentkeznie a Visual studióba a kezeléséhez.
 
 >[!Note]
-> A partner Centerben a Visual Studio-előfizetéshez hozzárendelt felhasználó nem távolítható el 90 nappal az eredeti hozzárendelés után.
+> A Visual Studio-előfizetések az eredeti hozzárendelés 90 napja után ismét hozzárendelhetők egy előfizetőhöz
 
 ## <a name="technical-benefits-and-support"></a>Technikai előnyök és támogatás
 
