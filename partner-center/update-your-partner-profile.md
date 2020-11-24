@@ -7,14 +7,14 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
 ms.localizationpriority: high
-ms.date: 11/20/2020
+ms.date: 11/23/2020
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e93d7c706c5281d239062a1eb4fa95d5fba92097
-ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
+ms.openlocfilehash: b9b23fc887b754bf4eb1d703026a24e294952f4c
+ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95007007"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514707"
 ---
 # <a name="verify-your-organization-profile-information-in-partner-center"></a>A szervezeti profil adatainak ellenőrzése a partner Centerben
 
@@ -53,9 +53,11 @@ Most már frissítheti jogi címeit a partner Centerben.
 
 Ha a Partner tagsági központból a partneri központba való Migrálás során a nem megfelelő üzleti tevékenység a jogi üzleti tevékenység, akkor azt a megfelelő jogi üzleti tevékenységre módosíthatja.
 
-1. A **Fiókbeállítások** területen válassza a **helyszínek** lehetőséget, és győződjön meg arról, hogy a vállalat, amelyet a jogi üzleti tevékenységgel kíván használni a listában. Ha nem, akkor hozzáadhatja. Válassza a **hely hozzáadása** lehetőséget. Adja meg a hely adatait, és **mentse**.
+1. A **Fiókbeállítások** területen lépjen a **szervezeti profil** elemre, és válassza a **jogi** lehetőséget.
 
-2. Ezután lépjen a **szervezeti profil** elemre, és válassza a **jogi üzleti profil frissítése** elemet.
+1.  Görgessen le a **helyszínekre** , és győződjön meg arról, hogy a jogi üzleti tevékenysége a listában szerepel. Ha nem, akkor hozzáadhatja. Válassza a **hely hozzáadása** lehetőséget. Adja meg a hely adatait, és **mentse**.
+
+2. A következő görgetéssel **frissítse a jogi üzleti profilt**.
 
 3. Ekkor megjelenik az imént hozzáadott hely. Válassza ki a jogi üzleti tevékenységként használni kívánt üzleti tevékenységet, majd válassza a **Mentés** lehetőséget.
 

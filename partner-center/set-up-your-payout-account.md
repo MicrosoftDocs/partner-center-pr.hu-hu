@@ -6,12 +6,12 @@ ms.service: marketplace
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 12/10/2019
-ms.openlocfilehash: 8907d9a394c5679dad5115e03d4ee697d7a07e0f
-ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
+ms.openlocfilehash: 40f9f90eb1da5d80b8df5a2a3d99979883060d81
+ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94488133"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514758"
 ---
 # <a name="set-up-your-payout-account-and-tax-forms"></a>Kifizetési számla és űrlapok beállítása
 
@@ -44,7 +44,7 @@ A partner Centerben elektronikus formában is elvégezheti és elküldheti az ad
 > [!IMPORTANT]
 > A különböző országok és régiók esetében eltérő az adózási követelmények. Az adó összegének pontos összege attól függ, hogy milyen országokban és régiókban vásárolja meg az ajánlatát. Tekintse meg a [Microsoft Azure Marketplace kiadói szerződést](https://go.microsoft.com/fwlink/p/?LinkID=699560) , amely alapján megállapíthatja, hogy mely országokra/régiókra vonatkozik a Microsoft értékesítési és használati adó az Ön nevében. Más országokban/régiókban, attól függően, hogy hol van regisztrálva, előfordulhat, hogy az értékesítési és használati adót közvetlenül a helyi adózási szolgáltatónak kell elvégeznie. Emellett az alkalmazás értékesítésének bevétele a kapott bevételként is adóköteles lehet. Javasoljuk, hogy lépjen kapcsolatba az országa vagy régiója illetékes hatóságával, amely a legjobban segít meghatározni a kereskedelmi Marketplace-tevékenységek megfelelő adózási adatait.
 
-1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Fiókbeállítások** ikont a jobb felső sarokban, majd válassza a **fejlesztői beállítások** elemet.
+1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd a **Fiókbeállítások** menüpontot.
 
 2. A bal oldali navigációs menüben válassza a **kifizetés és adó** lehetőséget, majd válassza ki a **kifizetési és adózási hozzárendelések** elemet.
 
@@ -81,7 +81,7 @@ A kifizetési fiók az a bankszámla, amelyre a bevételeket küldjük. A profil
 
 ### <a name="create-a-payment-profile"></a>Fizetési profil létrehozása
 
-1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd válassza a **Fiókbeállítások** lehetőséget.
+1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd a **Fiókbeállítások** menüpontot.
 2. A *kifizetés és az adó* fejléc alatt válassza a **kifizetés és az adó profil hozzárendelése** lehetőséget.
 
     > [!NOTE]
@@ -124,7 +124,7 @@ Győződjön meg arról, hogy a kifizetés sikeres volt, ügyeljen rá, hogy:
 
 Ha módosítani vagy javítani szeretné a helytelen adatokat, módosíthatja a meglévő fizetési profilokat.
 
-1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd válassza a **fejlesztői beállítások** lehetőséget.
+1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd a  **Fiókbeállítások** menüpontot.
 
 2. A *kifizetés és az adó* fejléc alatt válassza a **kifizetési és adózási profilok** lehetőséget.
 
@@ -203,6 +203,6 @@ Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a k
 5. Minden programban részt vevő programhoz ki kell választania egy fizetési profilt, de több program esetében ugyanazt a profilt használhatja.
 6. A módosítások mentéséhez kattintson a Submit (küldés) gombra.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 [Fizetés fogadása a kereskedelmi piactéren](marketplace-get-paid.md)

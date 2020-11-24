@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 2b089a666fdb312d49f26be0f9a47da8daad2715
-ms.sourcegitcommit: 7e32544cf91f932cbeb053c9de506ba9ee773fe2
+ms.openlocfilehash: d3057dc50ce1df4e4dbe1d3821904326b452e7cf
+ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947698"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514741"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -23,6 +23,32 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [August](2020-august.md)  |  [szeptember](2020-september.md)augusztus  |  [October](2020-October.md) | . November
 
 ______________
+## <a name="introducing-the-ability-to-purchase-saas-offers-with-metered-billing-in-partner-center"></a><a name="14"></a>Az SaaS-ajánlatok megvásárlásának lehetősége a partner Centerben mért számlázással 
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-11-24
+- Képességek
+
+## <a name="summary"></a>Összefoglalás
+
+A Microsoft bevezeti a lehetőséget, hogy a felhőalapú megoldás-szolgáltatói programban szereplő partnereink a partner Centerben mért számlázással vásárolják meg a SaaS-ajánlatokat. 
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner
+
+### <a name="details"></a>Részletek
+
+A Microsoft bevezeti a partnereket a felhőalapú megoldás-szolgáltató programba, beleértve a közvetett szolgáltatókat és a közvetlen számlázási partnereket, hogy a partner Centerben [mért számlázással](https://docs.microsoft.com/azure/marketplace/partner-center-portal/saas-metered-billing)vásárolják meg a SaaS-ajánlatokat   . Napjainkban a felhőalapú megoldás-szolgáltatói programban szereplő partnereink megtekinthetik és [vásárolhatják meg a Azure Portalon keresztül mért számlázással rendelkező SaaS-ajánlatokat](https://docs.microsoft.com/partner-center/csp-commercial-marketplace-purchase).Ez az új felhasználói élmény lehetővé teszi, hogy a partnerek megvásárolják ezeket az ajánlatokat a partner Centerben lévő CSP piactéren és az API-ban, ahogy más SaaS-ajánlatok esetében is. 
+
+### <a name="next-steps"></a>Következő lépések
+
+Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
+
+
+
+
 ## <a name="new-unified-account-management-experience"></a><a name="13"></a>Új, egységes fiók-felügyeleti felület
 
 ### <a name="categories"></a>Kategóriák
@@ -30,7 +56,7 @@ ______________
 - Dátum: 2020-11-18
 - Képességek
 
-## <a name="summary"></a>Összegzés
+## <a name="summary"></a>Összefoglalás
 
 November 18-án a partner Center elkezdi az új Fiókkezelés felhasználói élményének növelését. A partnerek mostantól a beállítások-> Fiókbeállítások alapján kezelhetik az összes program fiókját.
 
@@ -67,7 +93,7 @@ Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
 - 2020-11-18. dátum
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 Bevezetünk egy új Office 365 E1 promot a középső piacra, amely a LATAM, India és APAC feltörekvő piacaira korlátozódik (kivéve a APAC-en belüli fejlett piacokat).
 
 ### <a name="impacted-audience"></a>Érintett közönség
@@ -112,7 +138,7 @@ Közvetlen számlázási partnerek vagy közvetett szolgáltatók, akik részt v
 - Üzbegisztán (UZ)
 - Ukrajna (UA)
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft az ügyfeleknek és partnereknek szóló, a megfelelő üzleti gyakorlatokra vonatkozó kötelezettségvállalásának részeként az egyes országokban lévő ügyfelekkel rendelkező partnereket a rendszer arra kéri, hogy végezzen el néhány további adatmezőt ezekről az ügyfelekről, amikor a partner a következő alkalommal próbál frissíteni egy meglévő ügyfél-előfizetést, vagy új előfizetést hoz létre egy új ügyfél számára. 
 
@@ -220,7 +246,7 @@ public class Address
 
 Az EU/EFTA régióban a Cloud Solution Provider programon keresztül lebonyolított partnerek 
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 Az Európai Unió (EU)/Európai Szabadkereskedelmi Társulás (EFTA) régiójában a Cloud Solution Provider program összes új kereskedelmi ajánlata a partner számlázási helyét fogja használni az ügyfél számlázási helye helyett. Ez azt jelenti, hogy a partnereket a Microsoft a tartózkodási helyük szerinti pénznem alapján számlázza, nem pedig az ügyfelek tartózkodási helyének pénznemét. Ez két fázisban lesz végrehajtva: 
 
@@ -261,7 +287,7 @@ Tekintse át a témakör információit az [Operations Gallery] (a https://partn
 - 2020-11-17. dátum
 - Képességek
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft API-szabályozást vezet be a partner Center API-kat hívó partnereknek egy adott időtartományon belüli konzisztens teljesítmény érdekében.
 
@@ -353,7 +379,7 @@ Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.micr
 
 Az akadémiai ajánlatokat a Cloud Solution Provider (CSP) programon keresztül értékesítő partnerek.
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A tesztelés mostantól elérhető a partner Center API frissítéseihez és a felhasználói felület fejlesztéséhez az oktatási ügyfél-ellenőrzési folyamathoz.
 
@@ -398,7 +424,7 @@ Tekintse át az új partneri központ felhasználói felületét és API-változ
 - Dátum: 2020-11-5
 - Képességek
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A partner Universitytől november 5 2020-től kezdődően a kereskedelmi licencelési partnertől származó tartalom is elérhető lesz az Operations Readiness Galleryben.
 
@@ -427,7 +453,7 @@ ________________
 - Dátum: 2020-11-3
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft Teams Premium SKU a Microsoft Teams számára a Cloud Solution Provider (CSP) program keretében már elérhető.
 
@@ -489,7 +515,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A GCC-hez készült Microsoft Teams új speciális kommunikációs kiegészítő SKU-jának 2020. december 1-től lesz elérhető.
 
@@ -584,7 +610,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 November 1 2020-án a Microsoft új SKU-ket vezetett be a nonprofit szervezeteknek szóló Microsoft 365 Vállalati verzió hanghoz.
 
@@ -620,7 +646,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft 365 Vállalati verzió Voice új és megújítási előfizetései számára elérhető kedvezményes díjszabás a Meghívási terv és a Microsoft 365 Vállalati verzió hang meghívása nélkül.
 

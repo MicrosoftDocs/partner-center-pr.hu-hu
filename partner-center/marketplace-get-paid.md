@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.date: 09/28/2020
 author: eunjkim520
 ms.author: eunjkim
-ms.openlocfilehash: 61730eec204674d7ad095d1fffcd997f65d135ea
-ms.sourcegitcommit: 7f595faf952bf2d6cdc229da38bd67ee701b2083
+ms.openlocfilehash: e998ae248b5b09340cb4a7b57c8fbd77b59731d4
+ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93189730"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514724"
 ---
 # <a name="getting-paid-in-the-commercial-marketplace"></a>Fizetés fogadása a kereskedelmi piactéren
 
@@ -35,7 +35,7 @@ Az első befizetést megelőzően be kell állítania a kifizetési fiókját, �
 
 Alapértelmezés szerint a fentiekben leírtak szerint havi rendszerességgel küldjük el a kifizetéseket. Lehetősége van azonban arra is, hogy a kifizetéseit egy megtartott programba helyezi el, és a Microsoft nem szabadítja fel a számláján befizetett összegeket. Ha úgy dönt, hogy megtartja a befizetését, a **nyeremények** oldalon továbbra is rögzítjük a bevételt. Azonban addig nem küldünk fizetést a fiókjába, amíg el nem távolítja a tárolót.
 
-A befizetések tárolásához kattintson a jobb felső sarokban található **Beállítások** fogaskerék ikonra, majd a **fejlesztői beállítások** elemre. Válassza ki a **kifizetés és az adó** lehetőséget a bal oldali menüben, és a **kifizetési és adózási profil hozzárendelése** szakaszban keresse meg azt a programot, amelyhez a kifizetéseket tárolni szeretné. Jelölje be a **fizetés megtartása** jelölőnégyzetet a programhoz tartozó fizetések tárolásához. Bármikor módosíthatja a kifizetési állapotot, de a döntés a következő havi kifizetésre is hatással lesz. Ha például a április végét szeretné megtartani, mindenképpen **a március vége előtt állítsa** be a kifizetési Holding állapotát.
+A befizetések tárolásához kattintson a jobb felső sarokban található **Beállítások** fogaskerék ikonra, majd a **Fiókbeállítások** lehetőségre. Válassza ki a **kifizetés és az adó** lehetőséget a bal oldali menüben, és a **kifizetési és adózási profil hozzárendelése** szakaszban keresse meg azt a programot, amelyhez a kifizetéseket tárolni szeretné. Jelölje be a **fizetés megtartása** jelölőnégyzetet a programhoz tartozó fizetések tárolásához. Bármikor módosíthatja a kifizetési állapotot, de a döntés a következő havi kifizetésre is hatással lesz. Ha például a április végét szeretné megtartani, mindenképpen **a március vége előtt állítsa** be a kifizetési Holding állapotát.
 
 Miután beállította a kifizetés állapotát **a be** értékre, a program összes kifizetése megmarad **, amíg** be nem törli a jelölőnégyzetet. Ha így tesz, a következő havi kifizetési ciklusban fog szerepelni (ha a fizetési küszöbérték teljesült). Ha már megtartotta a befizetését, de a júniusi kifizetést is **ki** szeretné állítani, akkor törölje a jelet a jelölőnégyzetből a május vége előtt.
 

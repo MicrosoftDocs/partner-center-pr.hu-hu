@@ -6,12 +6,12 @@ ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: d0db9296157eb4a8f1d7ef7288d438cb39e1c026
-ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
+ms.openlocfilehash: d30678d38326a367b03cd81309c29c5b814a2f17
+ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95007535"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514775"
 ---
 # <a name="azure-marketplace-billing-and-invoicing"></a>Az Azure Marketplace számlázása és számlázása
 
@@ -57,7 +57,7 @@ A számla fogadásakor a következőket kell megkapnia:
 - Ha a fizetési eszköz bankkártyával rendelkezik, a foglalás megvásárlása után azonnal számlázva lesz. Ez a számla a havi számlától elkülönítve lesz.
 - Ha a fizetési eszköz passzol/drótban van, ez a vásárlás a havi piactér-számlán fog szerepelni.
 
-Ez lehet a Microsoft Online Services Program (MOSP), Microsoft-ügyfélszerződés (MCA) vagy Microsoft-partnerszerződés (MPA) számlázási fiókja. A számlák létrehozása a Számlázási fiók típusa alapján történik. Az Azure Marketplace a [számlázási időszak](/azure/cost-management-billing/understand/download-azure-invoice#why-you-might-not-see-an-invoice)lejárta után néhány nappal számláz. Az Azure piactér, a foglalások és a helyszíni virtuális gépek számlája a [hónap kilencedik napján](/azure/cost-management-billing/understand/download-azure-invoice#invoices-for-mosp-billing-accounts)jön létre. Az előző hónap megfelelő díjait jeleníti meg. Ha például egy felhasználó a március 1-től megvásárolta a foglalást, és egy másik, március 30-ig megjelenő foglalást, akkor az áprilisi egyszeri számla mindkét foglalást tartalmazza.
+Ez lehet a Microsoft Online Services Program (MOSP), Microsoft-ügyfélszerződés (MCA) vagy Microsoft-partnerszerződés (MPA) számlázási fiókja. A számlák létrehozása a Számlázási fiók típusa alapján történik. Az Azure Marketplace a számlázási időszak lejárta után néhány nappal számláz. Az Azure piactér, a foglalások és a helyszíni virtuális gépek számlája a [hónap kilencedik napján](/azure/cost-management-billing/understand/download-azure-invoice#invoices-for-mosp-billing-accounts)jön létre. Az előző hónap megfelelő díjait jeleníti meg. Ha például egy felhasználó a március 1-től megvásárolta a foglalást, és egy másik, március 30-ig megjelenő foglalást, akkor az áprilisi egyszeri számla mindkét foglalást tartalmazza.
 
 A számlákkal kapcsolatos további információkért lásd [Az Azure-beli külső szolgáltatási díjak megismerését](/azure/cost-management-billing/understand/understand-azure-marketplace-charges)ismertető témakört.
 

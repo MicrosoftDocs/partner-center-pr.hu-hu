@@ -1,7 +1,7 @@
 ---
 title: Telephelyek kezelése a partneri fiókban
-ms.topic: article
-ms.date: 10/12/2020
+ms.topic: how-to
+ms.date: 11/23/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogyan vehet fel új helyet, és hogyan használják a Location MPN ID-t az ösztönző programok, a CSP-üzleti, az előfizetések és az egyéb tranzakciók során.
@@ -9,16 +9,16 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c6b0fc84636befedbc51aa0672ce19110eb4d9aa
-ms.sourcegitcommit: 1719ff11409cd6953602b7798f8cfe821b8ea15e
+ms.openlocfilehash: 03c4fb5a4adeb49602fe3736971e140ac6da6f4f
+ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92530427"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514799"
 ---
 # <a name="manage-your-mpn-account-locations-and-add-a-new-location"></a>Az MPN-fiók helyeinek kezelése és új hely hozzáadása
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -58,9 +58,9 @@ Jogi cég adatainak megadása, beleértve a jogi cég nevét, a lakcímét, az e
 
 1. Jelentkezzen be az MPN-fiókkal a partner Centerben. Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell rendelkeznie. 
 
-1. A **beállítás ikonban** válassza ki a **partner beállításait** .
+1. A **beállítás ikonban** válassza ki a **szervezet beállításait**.
 
-2. Válasszon **helyet.**
+2. Válassza a **jogi** lehetőséget, majd válassza a **helyszínek lehetőséget.**
 
 3. Válassza a **hely hozzáadása** lehetőséget, és szúrja be a vállalathoz hozzáadni kívánt hely, valamint a helyhez tartozó elsődleges kapcsolattartó címe adatait.
 
@@ -69,18 +69,15 @@ Jogi cég adatainak megadása, beleértve a jogi cég nevét, a lakcímét, az e
 
 ## <a name="change-global-partner-account-location"></a>Globális partneri fiók helyének módosítása
 
-1. A **[helyek](https://partner.microsoft.com/pcv/accountsettings/locationsprofile)** lapon tekintse meg a helyek listáját, és győződjön meg arról, hogy az a hely, ahol a jogi személy szerepel. Ha nem, adja hozzá.
+1. Az **[üzleti helyszíneken](https://partner.microsoft.com/dashboard/account/v3/organization/legalinfo#mpn)** tekintse meg a helyek listáját, és győződjön meg arról, hogy a kívánt hely szerepel a jogi személy listáján. Ha nem, adja hozzá.
 
-   :::image type="content" source="images/updatepartnerprofile2.png" alt-text="MPN-helyszínek szerkezete":::
+   :::image type="content" source="images/accountsettings/location1.png" alt-text="A partner Center-fiókok helyei lap képernyőképe az összes aktuális hely listájáról.":::
 
-2. Válassza a **partner profil** lehetőséget, majd válassza a **jogi üzleti profil frissítése** elemet.
-
-   :::image type="content" source="images/updatepartnerprofile1.png" alt-text="MPN-helyszínek szerkezete":::
-
+2. Válassza a **jogi** lehetőséget, majd válassza a **jogi üzleti profil frissítése** elemet.
+  
 3. Válassza ki a régiót és a jogi személyt, és **küldje** el.
 
-   :::image type="content" source="images/updatepartnerprofile3.png" alt-text="MPN-helyszínek szerkezete":::
-
-## <a name="next-steps"></a>További lépések
+  
+## <a name="next-steps"></a>Következő lépések
 
 - További információ az [ellenőrzési folyamatról](verification-responses.md).
