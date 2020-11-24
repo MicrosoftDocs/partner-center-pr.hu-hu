@@ -1,26 +1,26 @@
 ---
 title: Kompetenciák – gyakori kérdések
 ms.topic: article
-ms.date: 10/19/2020
+ms.date: 11/23/2020
 description: Válaszok az Azure, a Cloud, a Visual Studio, valamint a technikai és támogatási előnyökre Microsoft Partner Network arany és ezüst kompetenciák, juttatások lejáratának, megújításának és aktiválásának megszerzésével kapcsolatos kérdésekre
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: bdcb1db0dbeb96a5b732decc11691364ade36c13
-ms.sourcegitcommit: 13248a782fe6854909a2f1ed3eb6d9d0f2cb5a67
+ms.openlocfilehash: 0a20b464c9784b0939ba404019cab007310ad4bd
+ms.sourcegitcommit: c5e9175792a4e2aac50bfae78fcef18e3cc9922a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92755271"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95812823"
 ---
 # <a name="competencies---frequently-asked-questions"></a>Kompetenciák – gyakori kérdések
 
 A következőkre vonatkozik:
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 - Partnerek a Microsoft Partner Network (MPN) programban
 
 Ez a cikk a vizsgákkal, a minősítésekkel és a szoftveres előnyökkel kapcsolatos általános kérdéseket válaszol a Microsoft Partner Network kompetenciák eléréséhez.
@@ -44,11 +44,11 @@ Ezt a következő módon tehetik meg a partner Centerben:
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
-1. Válassza az **MPN** elemet, majd a **kompetenciákat** .
+1. Válassza az **MPN** elemet, majd a **kompetenciákat**.
 
 1. A kompetenciák lap felső részén keresse meg és válassza ki a **képességek letöltése jelentés** lehetőséget.
 
-A szervezete képességeire vonatkozó egyéb jelentések a [partner Center betekintő területén is](partner-center-insights.md) elérhetők. Ha meg szeretné tekinteni ezeket a jelentéseket, lehet, hogy hozzá kell rendelnie egy, a **jelentéskészítő** vagy a **Executive Report Viewer** -specifikus szerepkört. Előfordulhat, hogy meg kell kérnie az MPN-partner rendszergazdáját, hogy hozzáférést biztosítson az egyik szerepkörhöz.
+A szervezete képességeire vonatkozó egyéb jelentések a [partner Center betekintő területén is](partner-center-insights.md) elérhetők. Ha meg szeretné tekinteni ezeket a jelentéseket, lehet, hogy hozzá kell rendelnie egy, a **jelentéskészítő** vagy a **Executive Report Viewer**-specifikus szerepkört. Előfordulhat, hogy meg kell kérnie az MPN-partner rendszergazdáját, hogy hozzáférést biztosítson az egyik szerepkörhöz.
 
 A következő módon tekintheti meg az adatellenőrzési jelentéseket:
 
@@ -79,7 +79,7 @@ Tekintse meg a következő forrásokat:
 
 - Licencfeltételek [letöltése](https://assetsprod.microsoft.com/mpn-maps-software-iur-competency-license-table.docx) a kompetenciához tartozó partnerek számára.
 
-- [Töltse le](https://assetsprod.microsoft.com/MPN-MAPS-Software-IUR-License-Table.xlsx) a Microsoft Action Pack előfizetési partnereinknek szóló licencfeltételeket.
+- [Töltse le](https://assetsprod.microsoft.com/en-us/microsoft-action-pack-license-table.pdf) a Microsoft Action Pack előfizetési partnereinknek szóló licencfeltételeket.
 
 ## <a name="q-how-do-i-link-a-microsoft-certification-profile-id-mcp-id-or-mcid-to-my-microsoft-partner-center-account"></a>K. Hogyan összekapcsolja a Microsoft-hitelesítési profil AZONOSÍTÓját (MCP-AZONOSÍTÓját vagy MCID) a Microsoft partner Center-fiókjával?
 
@@ -94,7 +94,7 @@ A kívánt kompetenciában található követelményeket a partner Center [irán
 >
 > A rendszer csak az elmúlt 12 hónap adatai alapján számítja ki a kompetenciával kapcsolatos teljesítmény, szakértelem vagy egyéb követelmények kiszámítását. Ha többet szeretne megtudni a kompetenciákkal kapcsolatos teljesítmény-számításokról, például a Cloud Business Applications kompetenciáról, tekintse meg a [partneri hozzájárulási mutatók](partner-contribution-indicators.md)című témakört.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - Az [MPN-kompetenciák](learn-about-competencies.md) ismertetése
 - További tudnivalók a [partner Center](partner-center-insights.md) -információkról

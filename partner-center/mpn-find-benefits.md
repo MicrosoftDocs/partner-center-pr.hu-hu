@@ -1,7 +1,7 @@
 ---
 title: Előnyök keresése
 ms.topic: how-to
-ms.date: 09/02/2020
+ms.date: 11/23/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan keresheti meg az MPN előnyeit a partner Center irányítópultján. A technikai előnyöket biztosító hozzáférési azonosító és a szerződés AZONOSÍTÓjának megkeresésére vonatkozó információkat tartalmaz.
@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a7d53da2f83fcd5c85732b24843365717e66429d
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 0162766018087112ebe34c82f29902b3225822b1
+ms.sourcegitcommit: c5e9175792a4e2aac50bfae78fcef18e3cc9922a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530589"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95812842"
 ---
 # <a name="locate-your-microsoft-partner-network-benefits"></a>A Microsoft Partner Network előnyeinek meghatározása 
 
@@ -68,13 +68,13 @@ Technikai előnyök esetén a Microsoft terméktámogatási azonosítóit, péld
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home)
 
-2. Válassza az **MPN** , majd az **előnyök** , majd a **technikai előnyök** elemet.
+2. Válassza az **MPN**, majd az **előnyök**, majd a **technikai előnyök** elemet.
 
 3. Válasszon ki egy előnyt a listából. A további részletek megtekintéséhez bontsa ki az előnyt. 
 
    Meg kell jelennie az adott terméktámogatási **Szerződés azonosítójának** és a hozzá tartozó **hozzáférési azonosítónak** .  
 
-   :::image type="content" source="images/benefits/technical-benefits-show-contract-id-access-id.png" alt-text="Kibővített előnyök":::
+   :::image type="content" source="images/benefits/technical-benefits-show-contract-id-access-id.png" alt-text="A Gold Core kompetencia a Microsoft terméktámogatási azonosítóit, például a szerződés AZONOSÍTÓját és a hozzáférési AZONOSÍTÓját bemutató technikai juttatást támogat.":::
 
    > [!NOTE]
    > Nyomon követheti ezeket a támogatási azonosítókat. Előfordulhat, hogy bizonyos rendszerek az első alkalommal (vagy a vállalat felhasználóinak egyike) naplózzák az adott technikai kedvezményhez kapcsolódó támogatási kérelmet. A vállalat összes felhasználója valószínűleg ugyanazt a hozzáférési azonosítót és a szerződés AZONOSÍTÓját fogja használni.
@@ -83,13 +83,13 @@ Technikai előnyök esetén a Microsoft terméktámogatási azonosítóit, péld
 
 Ha szeretné megtudni, hogy mely előnyök érhetők el a Microsoft Action Pack, ezüst és/vagy arany kompetenciával, tekintse meg a következő forrásokat:
 
-- [Microsoft Action Pack-partnerek licencelési táblázata](https://assetsprod.microsoft.com/mpn/MPN-MAPS-Software-IUR-License-Table.xlsx)
+- [Microsoft Action Pack-partnerek licencelési táblázata](https://assetsprod.microsoft.com/en-us/microsoft-action-pack-license-table.pdf)
 
 - [A kompetenciával rendelkező partnerek licencelési táblázata](https://assetsprod.microsoft.com/mpn-maps-software-iur-competency-license-table.docx)
 
 Ha szeretné megtudni, hogyan használhatja ezeket az előnyöket, tekintse meg a [termék használati útmutatóját](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf).
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Alkalmazott Microsoft Learn-fiókok hozzárendelése](ms-learn-associate.md)
 - [Microsoft Partner Network előnyök és ajánlatok kezelése](manage-your-partner-network-benefits.md)
