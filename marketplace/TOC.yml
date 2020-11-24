@@ -1,11 +1,35 @@
 - name: A Microsoft Marketplace ügyfél-dokumentációja
   href: index.yml
+- name: Microsoft AppSource
+  items:
+    - name: A Microsoft AppSource ismertetése
+      href: appsource-overview.md
+    - name: Szoftvervásárlás a Microsoft AppSource-on
+      href: purchase-software-appsource.md
 - name: Azure Piactér
   items:
-    - name: Privát Azure Marketplace létrehozása
+    - name: Az Azure Marketplace ismertetése
+      href: azure-marketplace-overview.md
+    - name: Beszerzés
+      href: azure-purchasing-invoicing.md
+    - name: Számlázás és számlakiállítás
+      href: billing-invoicing.md
+    - name: Személyes ajánlatok
+      href: private-offers.md
+    - name: Előfizetés-áthelyezési jogosultság
+      href: transfer-eligibility.md
+    - name: Privát Azure Marketplace létrehozása és kezelése
       href: create-manage-private-azure-marketplace.md
     - name: Azure Marketplace-partnerintegrációk
       href: partner-integrations.md
+- name: Általános források
+  items:
+    - name: Visszatérítési szabályzatok
+      href: refund-policies.md
+    - name: Jogi szerződések
+      href: legal-contracts.md
+    - name: Támogatás kérése
+      href: get-support.md
 - name: Referencia
   items:
     - name: Azure PowerShell

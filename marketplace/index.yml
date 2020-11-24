@@ -6,21 +6,51 @@ metadata:
   description: Megismerheti, hogyan keresheti és vásárolhatja meg a Microsoft partnereinek megoldásait, alkalmazásait és szolgáltatásait online áruházainkban.
   ms.service: marketplace
   ms.topic: landing-page
-  author: dsindona
-  ms.author: dsindona
+  author: JasonWHowell
+  ms.author: jasonh
   ms.date: 11/17/2020
-  ms.openlocfilehash: ef9904ec327b26285e04aa4acc4ae11bf1def7b6
-  ms.sourcegitcommit: 4fd1ff569e22e5e10ba9896b4e63eead7dcc5f1e
+  ms.openlocfilehash: 00d4786e234f9ede011032a71233fdafa6724ab8
+  ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
   ms.translationtype: HT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 11/18/2020
-  ms.locfileid: "94845254"
+  ms.lasthandoff: 11/21/2020
+  ms.locfileid: "95006922"
 landingContent:
+- title: Microsoft AppSource
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Mi az a Microsoft AppSource?
+      url: appsource-overview.md
+  - linkListType: get-started
+    links:
+    - text: Szoftvervásárlás a Microsoft AppSource-on?
+      url: purchase-software-appsource.md
 - title: Azure Piactér
   linkLists:
-  - linkListType: get-started
+  - linkListType: overview
+    links:
+    - text: Mi az Azure Marketplace?
+      url: azure-marketplace-overview.md
+  - linkListType: concept
+    links:
+    - text: Számlázás és számlakiállítás
+      url: billing-invoicing.md
+    - text: Előfizetés-áthelyezési jogosultság
+      url: transfer-eligibility.md
+    - text: Azure Marketplace-partnerintegrációk
+      url: partner-integrations.md
+  - linkListType: how-to-guide
     links:
     - text: Privát Azure Marketplace (előzetes verzió) létrehozása és felügyelete
       url: create-manage-private-azure-marketplace.md
-    - text: Azure Marketplace-partnerintegrációk
-      url: partner-integrations.md
+- title: Gyakori forgatókönyvek
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Visszatérítési szabályzatok
+      url: refund-policies.md
+    - text: Jogi szerződések
+      url: legal-contracts.md
+    - text: Támogatás kérése
+      url: get-support.md
