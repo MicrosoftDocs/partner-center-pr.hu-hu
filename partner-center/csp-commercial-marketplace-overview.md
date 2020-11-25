@@ -9,16 +9,16 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 66fc51901e6c6e72698eaf4a669627b228ee63ba
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: c8d64167261fe9f425a1430ac0c109b446b50913
+ms.sourcegitcommit: f34f2f69e6df4f260479a205d94010cf47987ff2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529953"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96038829"
 ---
 # <a name="overview-of-the-commercial-marketplace-in-partner-center"></a>A partneri központ kereskedelmi piactérének áttekintése
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 - Partnerek a CSP programban
@@ -68,7 +68,7 @@ A [Számlázási alapjaival](billing-basics.md) többet tudhat meg arról, hogy 
 
 A következő táblázatokból megtudhatja, hogy hol fejezheti be egy adott Piactéri tevékenységet a licenc-alapú vagy a használati alapú ISV-ajánlatokhoz.
 
-|**Licenc alapú SaaS-ajánlatok a független szoftvergyártók számára**  |**Használat**  |
+|**Licenc-alapú vagy mért SaaS-ajánlatok esetében**  |**Használat**  |
 |:------------------------------------|:------------------|
 |Elérhető ajánlatok felderítése vagy keresése  | A partner Center irányítópultja vagy a partner Center API-k  |
 |Ajánlat vásárlása  | A partner Center irányítópultja vagy a partner Center API-k  |
@@ -84,7 +84,7 @@ A következő táblázatokból megtudhatja, hogy hol fejezheti be egy adott Piac
 |Ajánlat-előfizetések megszakítása/megújítása vagy licencek hozzáadása/eltávolítása | Azure Portal  |
 |Felhasználók létrehozása vagy engedélyek kezelése  | Azure Portal  |
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Kereskedelmi Piactéri ajánlatok felderítése vagy megtekintése](csp-commercial-marketplace-discover.md)
 - [Kereskedelmi Piactéri ajánlatok vásárlása](csp-commercial-marketplace-purchase.md)

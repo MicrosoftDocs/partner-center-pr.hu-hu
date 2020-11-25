@@ -9,19 +9,19 @@ author: BillLinzbach
 ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
-ms.openlocfilehash: 8c3cfc2a6576029a8fdfb902a7b3889b4ea6c628
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 85a40974557817825d58246c2c010c7cf8a6a5e1
+ms.sourcegitcommit: f34f2f69e6df4f260479a205d94010cf47987ff2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530007"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96038880"
 ---
 # <a name="create-suspend-or-cancel-customer-subscriptions"></a>Ügyfél-előfizetések létrehozása, felfüggesztése vagy lemondása
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 - CSP-partnerek
 
 **Megfelelő szerepkörök**
@@ -36,8 +36,8 @@ Miután létrehozott egy rekordot az ügyfélről a partner Centerben, a kataló
 
 Egyes ajánlatok felhasználónként egy előfizetésre korlátozódnak. Ha szeretné megtekinteni, hogy mely ajánlatok vannak korlátozva, látogasson el a partner Center díjszabási és ajánlatok oldalára.
 
-> [!IMPORTANT]
-> A CSP program partnereként csak a partner centeren belül vásárolhat **licenc-alapú** SaaS-előfizetéseket az ISV-közzétevők közül. Ez azt jelenti, hogy bármely **licenccel** rendelkező SaaS-ajánlatot megvásárolhat, amelyet az ISV-közzétevő elérhetővé tett, beleértve az [exkluzív ajánlatokat](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) is, amelyekhez hozzáféréssel rendelkezik. Ha más kereskedelmi Piactéri ajánlatokat szeretne megvásárolni vagy kezelni (például az Azure-alkalmazásokat,-tárolókat vagy virtuális gépeket érintő **használati** , mérési vagy fogyasztáson alapuló ajánlatokat), az [Azure felügyeleti portálján](https://portal.azure.com/)kell megvásárolnia. További információ: [kereskedelmi piactér-termékek vásárlása](csp-commercial-marketplace-purchase.md).
+>[!IMPORTANT]
+> A CSP programban partnerként vásárolhat **licenc-alapú** vagy **mért** SaaS-előfizetéseket a partner centeren belüli ISV-közzétevők közül. Ez azt jelenti, hogy vásárolhat bármilyen **licenccel** vagy **mért** SaaS-ajánlatot, amelyet az ISV közzétevő elérhetővé tett, beleértve az [exkluzív ajánlatokat](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) is, amelyekhez hozzáféréssel rendelkezik. Ha más, kereskedelmi Piactéri ajánlatokat szeretne megvásárolni vagy kezelni (például Azure-alkalmazásokat,-tárolókat vagy virtuális gépeket érintő használaton alapuló ajánlatokat), akkor a [Azure Portalra](https://portal.azure.com/)kell lépnie.
 
 ## <a name="create-a-new-subscription"></a>Új előfizetés létrehozása
 
@@ -48,9 +48,9 @@ Egyes ajánlatok felhasználónként egy előfizetésre korlátozódnak. Ha szer
 3. Válassza az **előfizetés hozzáadása** lehetőséget. Az **online szolgáltatások** lapon megjelenik az összes elérhető Piactéri SaaS-ajánlat.
 
 4. Ha csak bizonyos típusú előfizetéseket szeretne látni, a választható szűrők közül választhat:
-   - **Közzétevő** : válassza a **Microsoft** lehetőséget, hogy csak a Microsoft által kínált ajánlatokat vagy a **partnert** tekintse meg a független szoftvergyártók által közzétett kereskedelmi Piactéri termékeket.
-   - **Számlázási típus** : válassza ki a használni kívánt előfizetés-számlázás típusát: **licenc** vagy **használat** . A havi és éves számlázási gyakorisággal kapcsolatos információkért tekintse meg a [licenc alapú számlázást](license-based-billing.md) ismertető témakört.
-   - **Kategória** : válassza a **vállalat** , a **kisvállalat vagy** a **próbaverzió** lehetőséget. A próbaverziós előfizetésekkel kapcsolatos információkért tekintse [meg az ügyfelek Microsoft-termékekkel kapcsolatos próbaverzióit](offer-your-customers-trials-of-microsoft-products.md)ismertető témakört.
+   - **Közzétevő**: válassza a **Microsoft** lehetőséget, hogy csak a Microsoft által kínált ajánlatokat vagy a **partnert** tekintse meg a független szoftvergyártók által közzétett kereskedelmi Piactéri termékeket.
+   - **Számlázási típus**: válassza ki a használni kívánt előfizetés-számlázás típusát: **licenc** vagy **használat**. A havi és éves számlázási gyakorisággal kapcsolatos információkért tekintse meg a [licenc alapú számlázást](license-based-billing.md) ismertető témakört.
+   - **Kategória**: válassza a **vállalat**, a **kisvállalat vagy** a **próbaverzió** lehetőséget. A próbaverziós előfizetésekkel kapcsolatos információkért tekintse [meg az ügyfelek Microsoft-termékekkel kapcsolatos próbaverzióit](offer-your-customers-trials-of-microsoft-products.md)ismertető témakört.
 
 5. Válassza ki az ügyfél számára megvásárolni kívánt termék-előfizetéseket. A megjelenő termékek a vásárlói szegmens típusától (oktatási, kormányzati stb.) és az alkalmazott szűrőktől függenek. Előfordulhat, hogy a piactéren látható egyes ajánlatok nem mindig lesznek elérhetők egy adott ügyfél vagy egy adott CSP-partner számára. Ennek oka a következő lehet:
 
@@ -70,7 +70,7 @@ Egyes ajánlatok felhasználónként egy előfizetésre korlátozódnak. Ha szer
 
     - Az előfizetés áttekintéséhez vagy szerkesztéséhez válassza ki az előfizetés nevét az ügyfél **előfizetések** lapján. Innen kiválaszthatja a kiegészítő licenceket, ha vannak ilyenek, módosíthatja a licencek mennyiségét, vagy felfüggesztheti az előfizetést.
 
-    **ISV SaaS-(licenc-alapú) előfizetések esetén:**
+    **ISV SaaS (licenc-alapú és mért) előfizetések esetén:**
     - Az ISV-közzétevő webhelyére mutató hivatkozást fog kapni. Ez a hivatkozás segítséget nyújt az ügyfél előfizetésének üzembe helyezéséhez vagy a fiók beállításának befejezéséhez.
       
     >[!NOTE]
@@ -174,10 +174,10 @@ Aktív kereskedelmi piactér-előfizetés leállítása automatikus megújítás
 
 6. Válassza a **Küldés** lehetőséget.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Kereskedelmi piactéren vásárolt termékek vásárlása ügyfelei számára](csp-commercial-marketplace-purchase.md)
 
 - [Kereskedelmi piactér-termékek kezelése ügyfelei számára](csp-commercial-marketplace-manage.md)
 
-- [Kereskedelmi piactér – áttekintés](csp-commercial-marketplace-overview.md)
+- [Kereskedelmi piactér áttekintése](csp-commercial-marketplace-overview.md)

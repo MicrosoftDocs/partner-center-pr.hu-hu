@@ -9,16 +9,16 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7533b0791ec8760c6223d6af59c2b7995b34a7bc
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: d8eb2faec7c2ddd70ed0cacedebf4f9824441a7a
+ms.sourcegitcommit: f34f2f69e6df4f260479a205d94010cf47987ff2
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530006"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96038856"
 ---
 # <a name="purchase-commercial-marketplace-products-for-your-customers-in-partner-center"></a>Kereskedelmi piactéren vásárolt termékek vásárlása a partner Centerben
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 - Partnerek a CSP programban
@@ -28,22 +28,22 @@ ms.locfileid: "92530006"
 - Globális rendszergazda
 - Felügyeleti ügynök
 
-A Cloud Solution Provider (CSP) programban partnerként a kereskedelmi piactéren vásárolhat előfizetéseket ügyfelei számára a független szoftvergyártók (ISV-EK) által kínált, szolgáltatásként nyújtott szoftverként (SaaS). 
+A Cloud Solution Provider (CSP) programban partnerként a kereskedelmi piactéren vásárolhat előfizetéseket ügyfelei számára a független szoftvergyártók (ISV-EK) által kínált, szolgáltatásként nyújtott szoftverként (SaaS).
 
 Az ISV SaaS-előfizetések ügyfelei számára történő biztosításával megkönnyítheti a vállalatok megkülönböztetését. Az ügyfelek számára hozzáférést biztosíthat az adott üzleti igényeknek megfelelő szoftver-kötegekhez is. A piactéren elérhető SaaS-termékek licenceit és előfizetéseit a Microsoft-termékekhez tartozó licencek és előfizetések kezelése során kezelheti.
 
 Vásárolhat **licenc-alapú** SaaS-előfizetéseket vagy **használati alapú** előfizetéseket. Ha többet szeretne megtudni a licenc-alapú és a használati alapú számlázás közötti különbségekről, tekintse meg a [számlázás alapjai](billing-basics.md)című témakört.
 
-## <a name="purchase-license-based-saas-subscriptions-in-partner-center"></a>Licenc alapú SaaS-Előfizetések vásárlása a partner Centerben
+## <a name="purchase-license-based-and-metered-saas-subscriptions-in-partner-center"></a>Licenc-alapú és mért SaaS-Előfizetések vásárlása a partner Centerben
 
-Az ISV-közzétevők által kínált licenccel rendelkező SaaS-termékek előfizetéseit a Microsoft-termékek előfizetésének megvásárlására használt folyamattal vásárolhatja meg.
+Az ISV-gyártók által kínált licenc-alapú vagy mért SaaS-termékek előfizetéseit a Microsoft-termékek előfizetésének megvásárlására használt eljárással vásárolhatja meg.
 
-Ha licenc alapú SaaS-előfizetést szeretne vásárolni a partner Centerben, tekintse meg az [ügyfél-előfizetések létrehozása, felfüggesztése vagy megszakítása](create-a-new-subscription.md#create-a-new-subscription)című részt.
+Ha licenc-alapú vagy mért SaaS-előfizetést szeretne vásárolni a partner Centerben, tekintse meg az [ügyfél-előfizetések létrehozása, felfüggesztése vagy megszakítása](create-a-new-subscription.md#create-a-new-subscription)című témakört.
 
 A [partner Center API](/partner-center/develop/) -k használatával kereskedelmi piactér-előfizetéseket hozhat létre ügyfelei számára. (A partner Center API-k használatával kapcsolatos további információkért lásd: [előfizetés létrehozása kereskedelmi Piactéri termékekhez](/partner-center/develop/create-subscription-azure-marketplace-products).)
 
 >[!IMPORTANT]
-> A CSP program partnereként csak a partner centeren belül vásárolhat **licenc-alapú** SaaS-előfizetéseket az ISV-közzétevők közül. Ez azt jelenti, hogy bármely **licenccel** rendelkező SaaS-ajánlatot megvásárolhat, amelyet az ISV-közzétevő elérhetővé tett, beleértve az [exkluzív ajánlatokat](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) is, amelyekhez hozzáféréssel rendelkezik. Ha más, kereskedelmi Piactéri ajánlatokat szeretne megvásárolni vagy kezelni (például az Azure-alkalmazásokat,-tárolókat vagy virtuális gépeket érintő, **használaton alapuló** , mért vagy fogyasztáson alapuló ajánlatokat), akkor a [Azure Portalra](https://portal.azure.com/)kell lépnie. További információkért tekintse meg a következő témakört.
+> A CSP programban partnerként vásárolhat **licenc-alapú** vagy **mért** SaaS-előfizetéseket a partner centeren belüli ISV-közzétevők közül. Ez azt jelenti, hogy vásárolhat bármilyen **licenccel** vagy **mért** SaaS-ajánlatot, amelyet az ISV közzétevő elérhetővé tett, beleértve az [exkluzív ajánlatokat](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) is, amelyekhez hozzáféréssel rendelkezik. Ha más, kereskedelmi Piactéri ajánlatokat szeretne megvásárolni vagy kezelni (például Azure-alkalmazásokat,-tárolókat vagy virtuális gépeket érintő használaton alapuló ajánlatokat), akkor a [Azure Portalra](https://portal.azure.com/)kell lépnie.
 
 ## <a name="purchase-usage-based-subscriptions-in-the-azure-portal"></a>Használati alapú Előfizetések vásárlása a Azure Portal
 
@@ -63,6 +63,6 @@ A külső gyártótól származó ISV-közzétevők licenc-alapú SaaS-előfizet
 
 7. Válasszon egy adott ajánlatot, majd válassza a **Létrehozás** lehetőséget.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Kereskedelmi Piactéri ajánlatok kezelése](csp-commercial-marketplace-purchase.md)
