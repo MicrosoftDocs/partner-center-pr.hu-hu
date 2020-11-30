@@ -1,7 +1,7 @@
 ---
 title: Többpartneres támogatás
 ms.topic: article
-ms.date: 05/18/2020
+ms.date: 11/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Előfordulhat, hogy az ügyfél több partnert szeretne használni a felhőalapú megoldás-szolgáltatói programban, akik különböző szolgáltatásokra szakosodtak.
@@ -9,26 +9,27 @@ author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5e34a8f8c85b1ad7826869a50f79a26550cf4790
-ms.sourcegitcommit: 36a60f672c1c3d6b63fd225d04c5ffa917694ae0
+ms.openlocfilehash: 728a1b7ec4d6b51174f1d3f6fcf21a6385fc4e7a
+ms.sourcegitcommit: c79137fba9e70037a2dc0e4a99c7334696c3740a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "92527971"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96322117"
 ---
 # <a name="multi-partner-support-for-customers-who-want-to-work-with-more-than-one-partner"></a>Többpartneres támogatás olyan ügyfelek számára, akik egynél több partnerrel szeretnének dolgozni
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
--  Partnerközpont
--  Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- Partnerközpont
+- A Microsoft Cloud for US Government Partnerközpontja
 
 **Megfelelő szerepkörök**
--   Globális rendszergazda
--   Felhasználói rendszergazda
--   Értékesítési ügynök
 
-A partner központ többpartneres funkciója olyan forgatókönyveket támogat, amelyekben az ügyfél egynél több partnerrel szeretne dolgozni. Előfordulhat például, hogy egy ügyfél egy partnert szeretne felvenni szakértelmére az Office 365-ben, de egy másik partnert kíván felvenni a Microsoft Azurera. 
+- Globális rendszergazda
+- Felhasználói rendszergazda
+- Értékesítési ügynök
+
+A partner központ többpartneres funkciója olyan forgatókönyveket támogat, amelyekben az ügyfél egynél több partnerrel szeretne dolgozni. Előfordulhat például, hogy egy ügyfél egy partnert szeretne felvenni szakértelmére az Office 365-ben, de egy másik partnert kíván felvenni a Microsoft Azurera.
 
 Az Azure CSP-bérlő további Azure-előfizetést is tartalmazhat egy másik CSP-partnertől.
 
@@ -45,10 +46,4 @@ A többpartneres funkciók nem:
 - Előfizetés-partner rekordjának módosítása
 
 > [!IMPORTANT]  
-> A CSP program egyik partnere nem tudja újra eladni online szolgáltatások a CSP program egy másik partneréhez. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival vagy a szabályzat változásaival kapcsolatos híreket a szokásos kommunikációs csatornákon keresztül hirdetjük meg, beleértve a [partneri központ bejelentéseit](announcements/index.md)is.
-
-
-
-
-
-
+> A CSP program egyik partnere nem tudja újra eladni online szolgáltatások a CSP program egy másik partneréhez. Ez a korlátozás csak a CSP-tranzakciók végrehajtásához használt bérlőre vonatkozik. Azok a CSP-partnerek, akik nem CSP bérlőt használnak a vállalati használatra, vásárolhatnak online szolgáltatások egy másik CSP-partnertől. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival vagy a szabályzat változásaival kapcsolatos híreket a szokásos kommunikációs csatornákon keresztül hirdetjük meg, beleértve a [partneri központ bejelentéseit](announcements/index.md)is.

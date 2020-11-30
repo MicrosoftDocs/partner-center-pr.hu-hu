@@ -1,7 +1,7 @@
 ---
 title: Regisztráció a felhőszolgáltatói programban
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 11/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogyan regisztrálhat a felhőalapú megoldás-szolgáltatói (CSP) program értékesítési modelljére, amely a legmegfelelőbb a vállalata számára, mint például a közvetett viszonteladó vagy a Direct-Bill partner.
@@ -9,16 +9,16 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d94941cf7f2530b7c60c099035a90f7a792e7a7a
-ms.sourcegitcommit: 7dd8aa793922160102a7a6aaca2c7e8f9a49b8a9
+ms.openlocfilehash: 1753649f375c66027ecc6cd427a7506913d55e8d
+ms.sourcegitcommit: c79137fba9e70037a2dc0e4a99c7334696c3740a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045394"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96322083"
 ---
 # <a name="enroll-in-the-cloud-solution-provider-program"></a>Regisztráció a felhőszolgáltatói programban
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont  
 
@@ -42,7 +42,7 @@ Több napot is igénybe vehet, hogy áttekintse és ellenőrizze a megadott adat
 3. Miután ellenőrizte az adatait, fogadja el a Microsoft közvetett viszonteladói szerződését.
 
 > [!IMPORTANT]  
-> A CSP program egyik partnere nem tudja újra eladni online szolgáltatások a CSP program egy másik partneréhez. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival vagy a szabályzat változásaival kapcsolatos híreket a szokásos kommunikációs csatornákon keresztül hirdetjük meg, beleértve a [partneri központ bejelentéseit](announcements/index.md)is.
+> A CSP program egyik partnere nem tudja újra eladni online szolgáltatások a CSP program egy másik partneréhez. Ez a korlátozás csak a CSP-tranzakciók végrehajtásához használt bérlőre vonatkozik. Azok a CSP-partnerek, akik nem CSP bérlőt használnak a vállalati használatra, vásárolhatnak online szolgáltatások egy másik CSP-partnertől. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival vagy a szabályzat változásaival kapcsolatos híreket a szokásos kommunikációs csatornákon keresztül hirdetjük meg, beleértve a [partneri központ bejelentéseit](announcements/index.md)is.
 
 ## <a name="enroll-as-an-indirect-reseller"></a>Regisztráció közvetett viszonteladóként
 
@@ -60,7 +60,7 @@ A különböző közvetett szolgáltatók különböző támogatást és szolgá
 
 Ha még nem dolgozik szolgáltatóval (más néven terjesztővel), [a Microsoft a hivatalos Microsoft-szolgáltatók listájában](https://partnercenter.microsoft.com/partner/find-a-provider) kereshet egyet.
 
-További információ arról, hogy mire van szükség a CSP programban való részvételhez közvetett viszonteladóként: az első lépések a [Microsoft Partner Network webhelyén](https://partner.microsoft.com/), [közvetett viszonteladóként](https://partner.microsoft.com/cloud-solution-provider/whats-required) . 
+További információ arról, hogy mire van szükség a CSP programban való részvételhez közvetett viszonteladóként: az első lépések a [Microsoft Partner Network webhelyén](https://partner.microsoft.com/), [közvetett viszonteladóként](https://partner.microsoft.com/cloud-solution-provider/whats-required) .
 
 ## <a name="enroll-as-a-direct-bill-partner"></a>Regisztrálás közvetlen számlázási partnerként
 
@@ -97,6 +97,6 @@ A közvetlen számlázási partnertől a közvetett viszonteladóig történő �
 A vállalat piacát a vállalat földrajzi helye határozza meg. A piac azokat a régiókat és/vagy országokat jelenti, ahol a vállalat értékesítheti a CSP-ajánlatokat. Tekintse meg a [Cloud Solution Provider program regionális piacait és pénznemeit](regional-authorization-overview.md) a piaci helyszínekhez és pénznemekhez.
 Ügyeljen arra, hogy beolvassa az [előfeltételeket, hogy új helyet adjon a CSP-vállalat számára](manage-locations.md).
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
-- [Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára](microsoft-partner-agreement.md)
+[Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára](microsoft-partner-agreement.md)
