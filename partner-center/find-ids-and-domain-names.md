@@ -9,12 +9,12 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: b88d6e11c7f4d56cf58d136a91b530688b3e5413
-ms.sourcegitcommit: fdc32c0afce88f8266f75746ec15bf04745590ad
+ms.openlocfilehash: cb0325aae30fe57a4be2be3e37bca1ee6aa1eab8
+ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94360071"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96439232"
 ---
 # <a name="locate-important-ids-for-a-user"></a>Felhasználók fontos azonosítóinak megkeresése
 
@@ -33,7 +33,7 @@ Az alábbi lépéseket követve megkeresheti az Azure AD-bérlő AZONOSÍTÓját
 > [!NOTE]
 > A bérlői azonosító neve eltérő lehet különböző alkalmazásokban vagy erőforrásokban. Előfordulhat például, hogy a bérlő azonosítója a címtár-azonosító, a Azure Active Directory (Azure AD) bérlő, a Microsoft-azonosító, vagy bizonyos jelentések esetében még a *tenantguid* is hivatkozik.
 
-1. Jelentkezzen be az [Azure Portal](https://portal.azure.com/).
+1. Jelentkezzen be az [Azure Portalra](https://portal.azure.com/).
 
 2. A menüből válassza a **Azure Active Directory** lehetőséget.
 
@@ -53,7 +53,7 @@ Az alábbi lépéseket követve megkeresheti az Azure AD-bérlő AZONOSÍTÓját
 
 Ha csak a tartománynevet és a bérlő AZONOSÍTÓját találja, nem mindig lehet elég. Előfordulhat, hogy meg kell keresnie egy felhasználóhoz rendelt objektumazonosító-azonosítót is. Az alábbi lépéseket követve megkeresheti a felhasználó objektumazonosítót a Azure Portalban:
 
-1. Jelentkezzen be az [Azure Portal](https://portal.azure.com/).
+1. Jelentkezzen be az [Azure Portalra](https://portal.azure.com/).
 
 2. A menüből válassza a **Azure Active Directory** lehetőséget.
 
@@ -78,3 +78,4 @@ Ha csak a tartománynevet és a bérlő AZONOSÍTÓját találja, nem mindig leh
 - [A bérlői azonosító megkeresése programozott módon a PowerShell vagy a parancssori felület használatával](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)
 - [További információ a Azure Active Directory felhasználói profiljairól](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 - [Megtudhatja, hogyan láthatják vagy exportálják a partnereink a partneri központban lévő vásárlói adatokat](see-your-customer-list.md)
+

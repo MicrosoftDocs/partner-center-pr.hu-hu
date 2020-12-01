@@ -9,19 +9,16 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 05/01/2020
-ms.openlocfilehash: a87b6cdde7fb339dd498bfa4834e618c19f504f3
-ms.sourcegitcommit: 32612717e2b62dd307741933afa580a622ef7787
+ms.openlocfilehash: 0a7bc34ded62eb9e19dbbad8e214eb30534b8ea6
+ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96354224"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96439121"
 ---
 # <a name="get-data-about-how-well-your-customers-and-azure-subscriptions-are-doing"></a>Szerezze be az ügyfelek és az Azure-előfizetések adatait
 
-**A következőre érvényes:**
 
-- Partnerközpont
-- A Cloud Solution Provider program partnerei
 
 **Megfelelő szerepkörök**
 
@@ -39,7 +36,7 @@ Az **Azure használatának** megkezdéséhez jelentkezzen be a partner Center [i
 
 A következő mérőszámokat követjük nyomon:
 
-## <a name="summary"></a>Összegzés
+## <a name="summary"></a>Összefoglalás
 
 - **Összes eladott Azure-előfizetés**: a megadott időszakban eladott előfizetések száma  
 - **Használatban lévő ügyfelek**: az Azure-ban használatos ügyfelek száma a megadott időszakban  

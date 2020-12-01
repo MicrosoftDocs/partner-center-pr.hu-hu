@@ -9,18 +9,18 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 81ca02a0fb93f88893e7339d63deec55b6913d9c
-ms.sourcegitcommit: f34f2f69e6df4f260479a205d94010cf47987ff2
+ms.openlocfilehash: 45b924fa9143d1b4947e5b88c2e14c41c4451d19
+ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96038919"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96438991"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
-A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti adatok regisztrálása. Miután létrehozta a fiókot, befejezi a vállalat teljes profiljának beállítását, beleértve a támogatás részleteit, a fájlok adómentességét, ha szükséges, és az elsődleges kapcsolattartási adatokat is. A vállalat fiókja olyan felhasználói fiókokat is tartalmaz, akik a partner centert használják az ügyfelek hozzáadásához és kezeléséhez, az előfizetések értékesítéséhez, a számlázáshoz és a számlázáshoz, az üzleti profilok létrehozásához, az átirányítások kezeléséhez, az ösztönző programok használatához és a támogatás biztosításához.
-
 **Megfelelő szerepkörök** – globális rendszergazda, MPN-rendszergazda
+
+A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti adatok regisztrálása. Miután létrehozta a fiókot, befejezi a vállalat teljes profiljának beállítását, beleértve a támogatás részleteit, a fájlok adómentességét, ha szükséges, és az elsődleges kapcsolattartási adatokat is. A vállalat fiókja olyan felhasználói fiókokat is tartalmaz, akik a partner centert használják az ügyfelek hozzáadásához és kezeléséhez, az előfizetések értékesítéséhez, a számlázáshoz és a számlázáshoz, az üzleti profilok létrehozásához, az átirányítások kezeléséhez, az ösztönző programok használatához és a támogatás biztosításához.
 
 Tekintse [meg az alkalmazottak meghívása a partner központba](guide-to-migration.md) című cikket, és [adjon hozzá egy új felhasználót](create-user-accounts-and-set-permissions.md).
 

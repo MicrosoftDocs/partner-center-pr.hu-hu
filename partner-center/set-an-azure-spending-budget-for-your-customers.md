@@ -9,19 +9,19 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 982d4ed310415349acde3d260afce04eb0d55ac5
-ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.openlocfilehash: e311af31bbce65ed38c20df12243d325c7a63d04
+ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "92528150"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96438980"
 ---
 # <a name="set-check-or-remove-monthly-azure-spending-budgets-for-customers-in-partner-center"></a>A partner Center ügyfelei számára havi Azure-költségkeretek beállítása, bejelölése vagy eltávolítása
 
 A következőkre vonatkozik:
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 Megadhatja a partner Center [ügyfeleinek havi Azure-költségkeretét](#set-azure-spending-budget) . Ez segít az ügyfeleknek az Azure-kiadások kezelésében. Ez a beállítás lehetővé teszi, hogy az ügyfelek Azure-kiadásait a hónap folyamán összehasonlítsa a költségvetésbe. Emellett az ügyfelek számára is lehetővé teszi az Azure-kiadások költségvetését, így a havi számla nem nagyobb, mint amennyire várható.
 
@@ -40,9 +40,9 @@ Az Azure- [költségkeretet bármikor el is távolíthatja](#remove-azure-spendi
 
 ## <a name="azure-spending-data"></a>Az Azure kiadásai
 
-Az Azure-kiadási adatok *becsültek* , a *tényleges számlázási összegek pedig eltérőek lehetnek* . Az adatok értéke *nem tükrözi* az adókat, a krediteket, a beállításokat és az esetlegesen alkalmazandó egyéb díjakat.
+Az Azure-kiadási adatok *becsültek* , a *tényleges számlázási összegek pedig eltérőek lehetnek*. Az adatok értéke *nem tükrözi* az adókat, a krediteket, a beállításokat és az esetlegesen alkalmazandó egyéb díjakat.
 
-A kiadási adat *naponta egyszer frissül* . Az ügyfelek továbbra is használhatják az Azure-szolgáltatások és-erőforrások használatát (és díjat számítanak fel), hacsak nem módosítja a fiók beállításait a Azure Portal.
+A kiadási adat *naponta egyszer frissül*. Az ügyfelek továbbra is használhatják az Azure-szolgáltatások és-erőforrások használatát (és díjat számítanak fel), hacsak nem módosítja a fiók beállításait a Azure Portal.
 
 ## <a name="set-azure-spending-budget"></a>Az Azure-kiadások költségvetésének beállítása
 
@@ -64,7 +64,7 @@ Megadhat *egy költségvetést is egy egyéni ügyfél* számára az előfizeté
 
 2. A bal oldali menüben a **CSP** területen válassza az **ügyfelek** lehetőséget.
 
-3. Az **ügyfelek** lapon válassza ki az ügyfél **vállalatának nevét** .
+3. Az **ügyfelek** lapon válassza ki az ügyfél **vállalatának nevét**.
 
 4. Az ügyfél **előfizetések** lapján, a **használaton alapuló előfizetés** területen válassza a **költségvetés módosítása** lehetőséget.
 
@@ -100,13 +100,18 @@ A partner Centerben a következő *havi Azure-költségkeretet távolíthatja el
 
 1. Jelentkezzen be a Partnerközpontba.
 
-2. A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.
+2. Válassza a **Beállítások lehetőséget**.
 
-3. Az **Azure-kiadások** oldalon az **e-mail-értesítések** területen kapcsolja be az **e-mailek beolvasása** beállítást **a be** értékre.
+3. Válassza **a saját beállítások** lehetőséget.
 
-4. Válassza az **e-mail cím módosítása** lehetőséget az értesítések e-mail-címének megtekintéséhez.
+4. Ha még nem tette meg, konfiguráljon egy előnyben részesített e-mail címet.
 
-5. Ha az e-mail-cím *nem megfelelő* , adja meg a helyes e-mail-címet, és válassza a **frissítés** lehetőséget. Ha az e-mail-cím *helyes* , válassza a **Mégse** lehetőséget.
+5. Adja meg az értesítéshez használni kívánt nyelvet.
+
+6. Válassza a **CSP** fület az **értesítési beállítások** szakaszban.
+
+7. Keresse meg az Azure- **kiadások** értesítése e-mailben lehetőséget, és **mentse** a következőt:.
+
 
 ## <a name="itemized-costs-by-service"></a>Kitételi költségek szolgáltatás szerint
 
@@ -116,7 +121,7 @@ A partner Centerben a következő *havi Azure-költségkeretet távolíthatja el
 
 2. A bal oldali menüben a **CSP** területen válassza az **ügyfelek** lehetőséget.
 
-3. Az **ügyfelek** lapon válassza ki az ügyfél **vállalatának nevét** .
+3. Az **ügyfelek** lapon válassza ki az ügyfél **vállalatának nevét**.
 
 4. Az ügyfél **előfizetések** lapján, a **használat alapú előfizetések** területen válassza ki az **előfizetés** nevét.
 

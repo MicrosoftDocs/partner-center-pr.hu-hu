@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: d3057dc50ce1df4e4dbe1d3821904326b452e7cf
-ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
+ms.openlocfilehash: 0c8bf1c31a2662d5dcf65eed40e9c4f82c2ee80b
+ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514741"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96439079"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -30,7 +30,7 @@ ______________
 - Dátum: 2020-11-24
 - Képességek
 
-## <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft bevezeti a lehetőséget, hogy a felhőalapú megoldás-szolgáltatói programban szereplő partnereink a partner Centerben mért számlázással vásárolják meg a SaaS-ajánlatokat. 
 
@@ -42,12 +42,11 @@ Minden partner
 
 A Microsoft bevezeti a partnereket a felhőalapú megoldás-szolgáltató programba, beleértve a közvetett szolgáltatókat és a közvetlen számlázási partnereket, hogy a partner Centerben [mért számlázással](https://docs.microsoft.com/azure/marketplace/partner-center-portal/saas-metered-billing)vásárolják meg a SaaS-ajánlatokat   . Napjainkban a felhőalapú megoldás-szolgáltatói programban szereplő partnereink megtekinthetik és [vásárolhatják meg a Azure Portalon keresztül mért számlázással rendelkező SaaS-ajánlatokat](https://docs.microsoft.com/partner-center/csp-commercial-marketplace-purchase).Ez az új felhasználói élmény lehetővé teszi, hogy a partnerek megvásárolják ezeket az ajánlatokat a partner Centerben lévő CSP piactéren és az API-ban, ahogy más SaaS-ajánlatok esetében is. 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
 
-
-
+______________
 
 ## <a name="new-unified-account-management-experience"></a><a name="13"></a>Új, egységes fiók-felügyeleti felület
 
@@ -56,7 +55,7 @@ Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
 - Dátum: 2020-11-18
 - Képességek
 
-## <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 November 18-án a partner Center elkezdi az új Fiókkezelés felhasználói élményének növelését. A partnerek mostantól a beállítások-> Fiókbeállítások alapján kezelhetik az összes program fiókját.
 
@@ -80,12 +79,11 @@ Jelentkezzen be a partner Center irányítópultra, majd kattintson a  **Beál
    - Azonosítók – a partner központ identitásai a vállalatnál – az Ön MPNIDs, publisherIds stb.
 - Felhasználói felügyelet – a felhasználók kezelése és kereskedelmi és fejlesztői szerepkörök társítása egy helyről. A csoportokat és az Azure AD-alkalmazásokat innen is kezelheti.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
 
-
-
+______________
 
 ## <a name="office-365-e1-for-mid-market-promo-latam-apac-and-india"></a><a name="12"></a>Office 365 E1 a középső piacra való Promohez (LATAM, APAC és India)
 
@@ -93,7 +91,7 @@ Ossza meg ezeket az információkat a vállalat összes megfelelő ügyfelével.
 - 2020-11-18. dátum
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 Bevezetünk egy új Office 365 E1 promot a középső piacra, amely a LATAM, India és APAC feltörekvő piacaira korlátozódik (kivéve a APAC-en belüli fejlett piacokat).
 
 ### <a name="impacted-audience"></a>Érintett közönség
@@ -108,11 +106,12 @@ A promóció 30%-os kedvezményt biztosít a CSP-hez készült Office 365 E1-es 
    |-------------------|:------|
    |Office 365 E1 a középső piacra való promócióhoz|d20fdad5-f524-45e4-97b1-59a94c21778f|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 Ez az idő december 1-jén lesz elérhető, és a szervezeten belüli összes megfelelő partnerrel (a résztvevő régiókban) ossza meg ezeket az információkat. Megkezdheti az olyan ügyfelek bevonását, akik még nem a felhőben vannak a résztvevő régiókban. 
 
 ### <a name="questions"></a>Kérdése van?
 Bármilyen kérdés, lekérdezés vagy további információért forduljon a [partner Center támogatási szolgálatához](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?category=csp) .
+
 ______________
 
 ## <a name="partner-center-api-updates-and-user-interface-ui-enhancements-to-strengthen-customer-screening-in-certain-countries"></a><a name="11"></a>A partner Center API frissítései és a felhasználói felület (UI) fejlesztése az ügyfelek szűrésének erősítéséhez bizonyos országokban
@@ -138,7 +137,7 @@ Közvetlen számlázási partnerek vagy közvetett szolgáltatók, akik részt v
 - Üzbegisztán (UZ)
 - Ukrajna (UA)
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft az ügyfeleknek és partnereknek szóló, a megfelelő üzleti gyakorlatokra vonatkozó kötelezettségvállalásának részeként az egyes országokban lévő ügyfelekkel rendelkező partnereket a rendszer arra kéri, hogy végezzen el néhány további adatmezőt ezekről az ügyfelekről, amikor a partner a következő alkalommal próbál frissíteni egy meglévő ügyfél-előfizetést, vagy új előfizetést hoz létre egy új ügyfél számára. 
 
@@ -246,15 +245,13 @@ public class Address
 
 Az EU/EFTA régióban a Cloud Solution Provider programon keresztül lebonyolított partnerek 
 
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 Az Európai Unió (EU)/Európai Szabadkereskedelmi Társulás (EFTA) régiójában a Cloud Solution Provider program összes új kereskedelmi ajánlata a partner számlázási helyét fogja használni az ügyfél számlázási helye helyett. Ez azt jelenti, hogy a partnereket a Microsoft a tartózkodási helyük szerinti pénznem alapján számlázza, nem pedig az ügyfelek tartózkodási helyének pénznemét. Ez két fázisban lesz végrehajtva: 
 
 - **1. fázis: új kereskedelmi ajánlat vásárlása a CSP-ben**
 
 Január 2021-től kezdődően az új kereskedelmi ajánlatokat vásárló partnereink számlázása a partneri hely pénznemében megvásárolt vásárlások után történik. Azok a meglévő ügyfelek, akik már vásároltak új kereskedelmi ajánlatokat a CSP-ben, továbbra is az ügyfél számlázási helyének pénznemében lesznek kiszámlázva ebben a fázisban. 
-
- 
 
 - **2. fázis: a meglévő ügyfelek, akik új kereskedelmi ajánlatot vásároltak a CSP-ben január 2021. előtt** 
 
@@ -280,6 +277,8 @@ Az új kereskedelmi ajánlatok ebben a változásban: az Azure-csomag, az Azure-
 
 Tekintse át a témakör információit az [Operations Gallery] (a https://partner.microsoft.com/resources/collection/eu-efta-changes-collection#/ Microsoft partner webhelyén.  
 
+______________
+
 ## <a name="api-throttling-to-partners-calling-partner-center-apis"></a><a name="9"></a>API-szabályozás a partner Center API-kat hívó partnereknek
 
 ### <a name="categories"></a>Kategóriák
@@ -287,7 +286,7 @@ Tekintse át a témakör információit az [Operations Gallery] (a https://partn
 - 2020-11-17. dátum
 - Képességek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft API-szabályozást vezet be a partner Center API-kat hívó partnereknek egy adott időtartományon belüli konzisztens teljesítmény érdekében.
 
@@ -310,7 +309,7 @@ A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a k�
 |-------------------------|----------------------------------|
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions|[Ügyfél előfizetésének beolvasása](https://docs.microsoft.com/partner-center/develop/get-all-of-a-customer-s-subscriptions)|  
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}|[Előfizetés beszerzése azonosító alapján](https://docs.microsoft.com/partner-center/develop/get-a-subscription-by-id) | 
-|{baseURL}/v1/Customers/{customer_id}:/Orders||[Ügyfél összes rendelésének beolvasása](https://docs.microsoft.com/artner-center/develop/get-all-of-a-customer-s-orders)|  
+|{baseURL}/v1/Customers/{customer_id}:/Orders||[Ügyfél összes rendelésének beolvasása](https://docs.microsoft.com/partner-center/develop/get-all-of-a-customer-s-orders)|  
 |{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}|[Megrendelés AZONOSÍTÓjának lekérése](https://docs.microsoft.com/partner-center/develop/get-an-order-by-id)|  
 |{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}/provisioningstatus|[Előfizetés kiépítési állapotának beolvasása](https://docs.microsoft.com/partner-center/develop/get-subscription-provisioning-status)|  
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}|[Megrendelések kezelése és az előfizetés kezelése](https://docs.microsoft.com/partner-center/develop/manage-orders#manage-a-subscription)| 
@@ -324,11 +323,11 @@ A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a k�
 
 Ez a közlemény célja, hogy a partnerek számára a közelgő változások korai tudatában legyenek, így előkészítse őket. Javasoljuk, hogy a partnerek ismerkedjenek meg ezekkel az API-kkal, és fontolják meg a műveletnapló API használatát a hatékonyság növelése és a szabályozás elkerülése érdekében. A szolgáltatással kapcsolatos további információkért tekintse meg az API- [szabályozási útmutató](https://docs.microsoft.com/partner-center/develop/api-throttling-guidance)részleteit. 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.microsoft.com/partner-center/develop/api-throttling-guidance), és végezze el a szükséges lépéseket. 
 
-
+______________
 
 ## <a name="409-errors-due-to-duplicate-mca-requests"></a><a name="8"></a>409 hiba a duplikált MCA-kérelmek miatt
 
@@ -365,8 +364,7 @@ Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.micr
 
 - Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal, hogy segítsen ezeknek a változásoknak a előkészítésében.
 
-
->>>>>>> b9adba1905026516f3b9d15ff488d1c383af219b
+______________
 
 ## <a name="testing-available-partner-center-api-and-user-interface-ui-enhancements-for-the-education-customer-validation-process"></a><a name="7"></a>Elérhető tesztelés: a partner Center API és a felhasználói felület (UI) fejlesztései az oktatási ügyfél-ellenőrzési folyamathoz
 
@@ -379,7 +377,7 @@ Tekintse át az [API-szabályozással kapcsolatos útmutatót](https://docs.micr
 
 Az akadémiai ajánlatokat a Cloud Solution Provider (CSP) programon keresztül értékesítő partnerek.
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A tesztelés mostantól elérhető a partner Center API frissítéseihez és a felhasználói felület fejlesztéséhez az oktatási ügyfél-ellenőrzési folyamathoz.
 
@@ -405,17 +403,17 @@ Ezen fejlesztéseken kívül örömmel jelentjük be, hogy a FY21 Q2-ben a köny
 
 A Microsoft fenntartja a jogot arra, hogy áttekintse az ügyfelek vagy a javasolt ügyfelek állapotát a minősített oktatási felhasználóként. A részletekért tekintse meg a tanulmányi végzettséggel kapcsolatos [szakképzési felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) .
 
-## <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
-Tekintse át az új partneri központ felhasználói felületét és API-változásait, valamint a [partner Center oktatási ügyfél-ellenőrzési folyamatának](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/) tesztelési útmutatóját a tartalom gyűjteményében.
+- Tekintse át az új partneri központ felhasználói felületét és API-változásait, valamint a [partner Center oktatási ügyfél-ellenőrzési folyamatának](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/) tesztelési útmutatóját a tartalom gyűjteményében.
 
-• Regisztráljon, hogy részt vegyen a tesztelésben. (Részletek a [tesztelési útmutatóban](https://partner.microsoft.com/resources/detail/partner-center-edu-testing-guide-pdf) olvashatók.) 
+- Regisztráljon, hogy részt vegyen a tesztelésben. (Részletek a [tesztelési útmutatóban](https://partner.microsoft.com/resources/detail/partner-center-edu-testing-guide-pdf) olvashatók.) 
 
-• Győződjön meg arról, hogy a szervezete ismeri a tudományos végzettséggel [kapcsolatos felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7). 
+- Győződjön meg arról, hogy a szervezete ismeri a tudományos végzettséggel [kapcsolatos felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7). 
 
-• Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal, valamint a viszonteladókkal, hogy segítsen ezeknek a változásoknak a előkészítésében.
+- Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal, valamint a viszonteladókkal, hogy segítsen ezeknek a változásoknak a előkészítésében.
 
-
+______________
 
 ## <a name="expanding-commercial-licensing-partner-content-on-the-operations-readiness-gallery"></a><a name="6"></a>A kereskedelmi licencelési partnerek tartalmának kiterjesztése az Operations Readiness Galleryben
 
@@ -424,7 +422,7 @@ Tekintse át az új partneri központ felhasználói felületét és API-változ
 - Dátum: 2020-11-5
 - Képességek
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A partner Universitytől november 5 2020-től kezdődően a kereskedelmi licencelési partnertől származó tartalom is elérhető lesz az Operations Readiness Galleryben.
 
@@ -440,7 +438,7 @@ Kereskedelmi partnerek
 - [Kereskedelmi licencelés – CSP Spotlight-hívás](https://partner.microsoft.com/resources/collection/commercial-licensing-csp-spotlight-call#/)
 - [Kereskedelmi licencelés – licencelési frissítések hívása](https://partner.microsoft.com/resources/collection/commercial-licensing-licensing-updates-call#/)
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
@@ -453,7 +451,7 @@ ________________
 - Dátum: 2020-11-3
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft Teams Premium SKU a Microsoft Teams számára a Cloud Solution Provider (CSP) program keretében már elérhető.
 
@@ -483,7 +481,7 @@ A prémium ajánlat keretében az ügyfelek hozzáférhetnek az újonnan kiadott
 #### <a name="microsoft-teams-rooms-managed-services"></a>Microsoft Teams Rooms – felügyelt szolgáltatások
 
 - Proaktív felügyelet: a nonstop felügyeletét, beleértve a javítást, a konfiguráció felügyeletét és egyebeket.
-• Valós idejű monitorozás és kiváltó okok elemzése: a Microsoft által a felhasználóval koordinált, az ügyféllel összehangolt, összehangolt incidensek kezelésével kapcsolatos visszajelzések figyelése és észlelése, ha szükséges. A Mobile app lehetővé teszi, hogy riasztást küldjön útközben.
+- Valós idejű monitorozás és kiváltó okok elemzése: a Microsoft által a felhasználóval együttműködve, az ügyféllel összehangolt, a megfigyelt incidensek kezelésével kapcsolatos válaszok figyelése és észlelése, ha szükséges. A Mobile app lehetővé teszi, hogy riasztást küldjön útközben.
 - Felügyelt frissítések: az alkalmazás, a Windows TUDÁSBÁZIS és a belső vezérlőprogram frissítéseinek kezelése és továbbítása.
 - Biztonsági fenyegetések elleni védelem: biztonsági fenyegetések elleni védelem a Microsoft Defender komplex veszélyforrások elleni védelem révén.
 - Ügyfélszolgálat: a nonstop a dedikált Service Operations centeren keresztül, a nem automatizált esetekhez nyújtott segítséget nyújtó incidensek szervizelésével. Részletes szerepköralapú hozzáférés-vezérlés.
@@ -497,7 +495,7 @@ A prémium ajánlat keretében az ügyfelek hozzáférhetnek az újonnan kiadott
    |Teams Rooms Premium (USA és CAN)|03070f91-cc77-4c2e-b269-4a214b3698ab|6XB-00008|
    |A Teams Premium for kari|d0c9a9a9-c9b6-41d7-9148-b60115c36c95|6Y5 – 00005|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ismerkedjen meg az új ajánlattal és a földrajzi elérhetőségével, látogasson el a [gyakori kérdésekre (GYIK)]().
 - Ismerkedjen meg az új ajánlattal és annak földrajzi elérhetőségével. 
@@ -515,7 +513,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A GCC-hez készült Microsoft Teams új speciális kommunikációs kiegészítő SKU-jának 2020. december 1-től lesz elérhető.
 
@@ -547,7 +545,7 @@ A GCC-hez készült Microsoft Teams új speciális kommunikációs bővítménye
 
 **Mik az Előfeltételek?** A Microsoft Teams szolgáltatást tartalmazó Microsoft 365 vagy Office 365 Suite rendelkezhet ezzel a bővítménnyel.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezeket az információkat a szervezete megfelelő kapcsolataival, és Ismerje meg a upsell és az értékesítési lehetőségeket. Tekintse át a [Teams partner útmutatójának](https://aka.ms/teamscallingmeetingsguide)erőforrások szakaszát.
 
@@ -597,7 +595,7 @@ Tekintse át a [Dynamics CSP Offers-November 2020 Excel-dokumentum](https://part
 
 További forrásokat a Microsoft Dynamics 365 Customer Voice kezdőlapján talál.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezeket az információkat a szervezete megfelelő tagjaival.
 
@@ -610,7 +608,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 November 1 2020-án a Microsoft új SKU-ket vezetett be a nonprofit szervezeteknek szóló Microsoft 365 Vállalati verzió hanghoz.
 
@@ -632,7 +630,7 @@ Microsoft 365 Vállalati verzió hang a következő előfizetésekhez adható ho
 - Microsoft 365: Business, a3 és E3
 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ismerkedjen meg az előnézeti árlista adataival, és ossza meg a szervezet összes megfelelő ügyfelével. 
 - Tekintse át az összes készültségi anyagot a Cloud Solution Provider program Updates Resource Gallery: [Microsoft 365 vállalati verzió hang bevezetésével kis-és közepes méretű vállalkozások](https://partner.microsoft.com/resources/collection/m365-voice-smb#/)számára. 
@@ -646,7 +644,7 @@ ________________
 - Dátum: 2020-11-2
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Microsoft 365 Vállalati verzió Voice új és megújítási előfizetései számára elérhető kedvezményes díjszabás a Meghívási terv és a Microsoft 365 Vállalati verzió hang meghívása nélkül.
 
@@ -680,7 +678,7 @@ Ezek a promóciók a következő ügyfeleket érintik:
 - Látogasson el a [Microsoft 365 vállalati verzió hangpartner oldalára](https://www.microsoft.com/microsoft-365/partners/businessvoice) , ahol többet tudhat meg az üzleti hangról. 
 - További információ erről az előléptetésről a kapcsolódó [Partner GYIK](https://www.microsoft.com/microsoft-365/partners/resources/faq-business-voice-audio-conferencing-promo)-ban található.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ismerkedjen meg az értekezlettel, és hívja meg a promóciós lehetőségeket, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 - Ezeket a promóciókat beépítheti Microsoft 365 értékesítési indítványokra.
