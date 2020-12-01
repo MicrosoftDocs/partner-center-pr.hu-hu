@@ -9,16 +9,16 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 05/01/2020
-ms.openlocfilehash: 670146b30c953e579cb5a8638cdb820dd8262258
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: a87b6cdde7fb339dd498bfa4834e618c19f504f3
+ms.sourcegitcommit: 32612717e2b62dd307741933afa580a622ef7787
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530366"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96354224"
 ---
 # <a name="get-data-about-how-well-your-customers-and-azure-subscriptions-are-doing"></a>Szerezze be az ügyfelek és az Azure-előfizetések adatait
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 - A Cloud Solution Provider program partnerei
@@ -32,18 +32,18 @@ ms.locfileid: "92530366"
 
 Az adatmeghajtók üzleti döntéseket hoznak. Az **Azure használati** oldalán található mérőszámok segítségével azonosíthatja a sikereket és a nagyobb figyelmet igénylő területeket. Ezeket az információkat az új üzleti célok megtervezése során használhatja.
 
-Az **Azure használatának** megkezdéséhez jelentkezzen be a partner Center [irányítópultra](https:/partner.microsoft.com/dashboard). Válassza az **elemzés** lehetőséget a partner központ menüjében, majd válassza az **Azure-használat** lehetőséget.
+Az **Azure használatának** megkezdéséhez jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard). Válassza az **elemzés** lehetőséget a partner központ menüjében, majd válassza az **Azure-használat** lehetőséget.
 
 > [!NOTE]
 > Az Azure-használat elemzése csak a Cloud Solution Provider programban található partnereink számára érhető el.
 
 A következő mérőszámokat követjük nyomon:
 
-## <a name="summary"></a>Összefoglalás
+## <a name="summary"></a>Összegzés
 
-- **Összes eladott Azure-előfizetés** : a megadott időszakban eladott előfizetések száma  
-- **Használatban lévő ügyfelek** : az Azure-ban használatos ügyfelek száma a megadott időszakban  
-- **Használat nélküli ügyfelek** : az Azure-használat nélküli ügyfelek száma a megadott időszakban  
+- **Összes eladott Azure-előfizetés**: a megadott időszakban eladott előfizetések száma  
+- **Használatban lévő ügyfelek**: az Azure-ban használatos ügyfelek száma a megadott időszakban  
+- **Használat nélküli ügyfelek**: az Azure-használat nélküli ügyfelek száma a megadott időszakban  
 
 ## <a name="top-5-customers-in-category"></a>Top 5 ügyfél kategóriánként
 
@@ -59,8 +59,8 @@ Ez a szakasz az Azure-előfizetések előre jelzett változási kockázatát jel
 
 ## <a name="azure-subscription-churn"></a>Azure-előfizetési forgalom
 
-- **Aktív előfizetések** : az aktív előfizetések száma dátum szerint  
-- **Felépített előfizetések** : az előfizetett vagy a dátummal felfüggesztett előfizetések száma  
+- **Aktív előfizetések**: az aktív előfizetések száma dátum szerint  
+- **Felépített előfizetések**: az előfizetett vagy a dátummal felfüggesztett előfizetések száma  
 
 ## <a name="customer-count"></a>Ügyfelek száma
 
@@ -70,6 +70,6 @@ Ez a szakasz az Azure-előfizetések előre jelzett változási kockázatát jel
 
 - A megújított előfizetések száma.
 
- ## <a name="next-steps"></a>Következő lépések
+ ## <a name="next-steps"></a>További lépések
 
 - [Az Azure-csomag megvásárlása az ügyfelek számára & a legújabb Azure-szolgáltatásokat az utólagos elszámolású díjszabás szerint érheti el](purchase-azure-plan.md)
