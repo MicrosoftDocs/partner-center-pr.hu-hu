@@ -9,18 +9,15 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a36f67609f0e51b0d65d0032610157fc4d81f97e
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 56a8438ad2503ab22151ed4da7e8ef4b43794543
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528063"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474138"
 ---
 # <a name="advisors-create-a-purchase-offer"></a>Advisors: vásárlási ajánlat létrehozása
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
  
 **Megfelelő szerepkörök**
 
@@ -38,25 +35,25 @@ Ha az ügyfél eltérő számú licencet szeretne küldeni, küldjön nekik egy 
 
 ## <a name="to-create-a-purchase-offer"></a>Vételi ajánlat létrehozása
 
-1. A **próbaverziók és a vásárlási ajánlatok**  >  **létrehozási ajánlata** .
+1. A **próbaverziók és a vásárlási ajánlatok**  >  **létrehozási ajánlata**.
 
 2. A **vételi ajánlat létrehozása** lapon válassza ki a megvásárolni kívánt vásárlási ajánlatokat:
 
-    - **Partner iroda** : Ha a vállalata több irodával rendelkezik, válassza ki azt az irodát, amelyhez ezt a vásárlási ajánlatot társítja.
+    - **Partner iroda**: Ha a vállalata több irodával rendelkezik, válassza ki azt az irodát, amelyhez ezt a vásárlási ajánlatot társítja.
 
         A partner Office-helyek hozzáadásával kapcsolatban lásd: [hely hozzáadása](manage-locations.md). Az új Office-helyekhez akár 24 óráig is szükség lehet ahhoz, hogy megjelenjenek a **partner Office** -listán.
 
-    - **Használat helye** : válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.
-    - **Előfizetések** : a kiválasztható előfizetések listáját az ügyfél országának vagy régiójának használati helye határozza meg. Jelölje be azon előfizetés vagy előfizetések jelölőnégyzetét, amelyekhez az ügyfelet fel kívánja ajánlani.
-    - **Licencek száma** : Ha kiválaszt egy előfizetést, írja be a vásárlási ajánlatba felvenni kívánt licencek számát.
-    - **Delegált felügyelet** : Ez a lehetőség csak olyan partnereink számára érhető el, akik jogosultak a delegált felügyeletre. Válassza ezt a lehetőséget, ha az ügyfél által delegált felügyeletet szeretné nyújtani. Ha így tesz, az ügyfél elfogadhatja a vételi ajánlatot a delegált felügyelet elfogadásával vagy anélkül is.
+    - **Használat helye**: válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.
+    - **Előfizetések**: a kiválasztható előfizetések listáját az ügyfél országának vagy régiójának használati helye határozza meg. Jelölje be azon előfizetés vagy előfizetések jelölőnégyzetét, amelyekhez az ügyfelet fel kívánja ajánlani.
+    - **Licencek száma**: Ha kiválaszt egy előfizetést, írja be a vásárlási ajánlatba felvenni kívánt licencek számát.
+    - **Delegált felügyelet**: Ez a lehetőség csak olyan partnereink számára érhető el, akik jogosultak a delegált felügyeletre. Válassza ezt a lehetőséget, ha az ügyfél által delegált felügyeletet szeretné nyújtani. Ha így tesz, az ügyfél elfogadhatja a vételi ajánlatot a delegált felügyelet elfogadásával vagy anélkül is.
 
 3. Kattintson a **Tovább** gombra.
 
 4. A **Küldés** lapon másolja a vásárlási ajánlat adatait és URL-címét, majd illessze be egy e-mailbe, dokumentumba vagy weblapra egy testreszabott vásárlási ajánlat létrehozásához.
 
     > [!NOTE]
-    > Jegyezze fel a vásárlási ajánlat **összegző azonosítóját** . Használja az ajánlat nyomon követésére.
+    > Jegyezze fel a vásárlási ajánlat **összegző azonosítóját**. Használja az ajánlat nyomon követésére.
 
 5. Az üzenetet személyre szabhatja a cég emblémájának, bevezetésének, záró megjegyzésének vagy egyéb információnak a segítségével.
 
@@ -69,3 +66,7 @@ Ha az ügyfél eltérő számú licencet szeretne küldeni, küldjön nekik egy 
     - Tájékoztassa az ügyfeleket a szolgáltatással vagy az ajánlattal kapcsolatos kérdésekkel kapcsolatban.
     - Tájékoztassa az ügyfeleket arról, hogy szabályozzák a megvásárolt felhasználói licencek számát, és módosíthatják a licencek számát, ha elfogadják az ajánlatot.
     - Ha delegált felügyeletre vonatkozó ajánlatot tesz, magyarázza el, hogy mit jelent, és milyen kötelezettségei vannak. A delegált felügyelettel kapcsolatos további információkért lásd: [delegált felügyelet nyújtása](customers-revoke-admin-privileges.md).
+
+## <a name="next-steps"></a>További lépések
+
+- [Ügyfélkör létrehozása az Office 365 próbaverziós meghívásával és a vásárlási ajánlatokkal](advisors-build-your-business.md)

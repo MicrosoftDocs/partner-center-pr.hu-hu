@@ -1,7 +1,7 @@
 ---
 title: Partner által létrehozott kredit a felügyelt szolgáltatásokhoz
 ms.topic: article
-ms.date: 05/26/2020
+ms.date: 11/30/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogyan számítják ki és fizetik ki a Microsoft partner által létrehozott kreditet (PEC) a felügyelt szolgáltatásokhoz, és hogy miként biztosítható a jogosultsága.
@@ -9,14 +9,14 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 89fce612d5756da3f9674d4170ac8c0c3a48abfe
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 97af446c4021e9785833374131eee2f08431b5fe
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530588"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474308"
 ---
-# <a name="how-the-partner-earned-credit-is-calculated-and-paid"></a>A partner által szerzett kredit kiszámítása és kifizetése
+# <a name="how-the-partner-earned-credit-is-calculated-and-paid"></a>A partneri jóváírás kiszámításának és kifizetésének részletei
 
 **Megfelelő szerepkörök**
 
@@ -38,7 +38,13 @@ Olvassa el [a rendszergazdai jogosultságok visszaállítása az Azure CSP-előf
 
 - A PEC a partner által felügyelt, az ügyfél Azure-hagyatékának számlázott (díjköteles) felhasználására van társítva. A PEC csak a Microsoft által számlázott (közvetett szolgáltatói és közvetlen számlázási partneri) partnerek számára érhető el. 
 
-- Jogosult szolgáltatások: a partner által létrehozott kredit az Azure-csomag használati **díjszabásában** felsorolt szolgáltatásokra vonatkozik, amelyeket a partnerek az [Azure-csomag díjszabási](https://partner.microsoft.com/commerce/sales) oldaláról exportálhatunk. A partner által létrehozott kreditek nem alkalmazhatók harmadik féltől származó termékekre az **Azure-csomag** fogyasztási árlista, az Azure Plan Reservations, a Piactéri árlista és az [Azure spot Virtual Machines](https://partner.microsoft.com/resources/collection/azure-spot-in-csp#/) **címkék oszlopában** .
+- Jogosult szolgáltatások: a partner által létrehozott kredit az Azure-csomag használati **díjszabásában** felsorolt szolgáltatásokra vonatkozik, amelyeket a partnerek az [Azure-csomag díjszabási](https://partner.microsoft.com/commerce/sales) oldaláról exportálhatunk. 
+
+- Nem jogosult szolgáltatások: a partner által létrehozott kreditek *_nem_* érvényesek a következőkre:
+    - Azure-csomag – foglalások
+    - Harmadik féltől származó termékek – az Azure-csomag használati árának **címkék oszlopában** a *harmadik fél által* azonosított termékek    
+    - A piactér árlista termékei
+   - [Azure spot Virtual Machines](https://partner.microsoft.com/resources/collection/azure-spot-in-csp#/)
 
 - A PEC napi rendszerességgel van kiszámítva, és a napi használati fájlban és a havi számlaengedmény-fájlban is megtekinthető. Egy partnernek (közvetett szolgáltató vagy közvetett viszonteladó) hozzáféréssel kell rendelkeznie a teljes naphoz (nonstop) annak biztosításához, hogy a PEC-t keresnek. A PEC kiszámítása napi rendszerességgel történik a felügyelt Azure-eszközökön. Egy adott számlázási időszak (hónap) maximális PEC-értéke 15%. Az állandó jogosultsági szintű hozzáférést a hónapban (a hozzáférés hatóköre) és az összes jogosult erőforráshoz (a hozzáférés hatóköre) megőrzött partnereknek a teljes PEC-t 15%-kal kell megszerezniük. A hatókör-és a sávszélesség-csökkentés az adott hónapban alacsonyabb PEC-arányt eredményez. A napi névleges használati fájl napi rendszerességgel jelenik meg egy Azure-eszközön, függetlenül attól, hogy a PEC van-e alkalmazva. A partnerek riasztásokat is regisztrálhatnak annak észlelésére, hogy vannak-e állandó jogosultságokkal rendelkező hozzáférések.
 
@@ -67,7 +73,7 @@ Ha a PartnerEarnedCreditApplied tulajdonság értéke false (hamis), akkor a kap
 
 5. A Group By, a Group By, a **PartnerEarnedCreditApplied** tulajdonság és a szűrési funkció alapján is szűrheti **a szűrési** funkciókat a PEC-t használó költségek és a PEC-t nem alkalmazó költségek részletezése céljából.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Partner által létrehozott kredit – áttekintés](partner-earned-credit.md)
 

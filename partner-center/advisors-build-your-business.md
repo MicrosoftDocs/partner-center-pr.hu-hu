@@ -1,5 +1,5 @@
 ---
-title: Ügyfelek felvétele az Office 365 próbaverziós ajánlatokkal
+title: Ügyfelek hozzáadása az Office 365 próbaverziós ajánlataival
 ms.topic: article
 ms.date: 05/06/2020
 ms.service: partner-dashboard
@@ -9,19 +9,16 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c5631e141f3b232ddfb0afd7dab6acc6a08f59df
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 83acde5e5cb29ea8249bfbba78a15cf3efbdf271
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528064"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474172"
 ---
 # <a name="advisors-build-your-client-base-with-office-365-trial-invitations-and-purchase-offers"></a>Advisors: az ügyfélkör kiépítése Office 365 próbaverziós meghívásokkal és vásárlási ajánlatokkal
 
-**A következőkre vonatkozik**
 
-- Partnerközpont
- 
 **Megfelelő szerepkörök**
 
 - Tanácsadók
@@ -53,5 +50,7 @@ Miután elküldte a próbaverziót az ügyfeleknek, kövesse a vásárlási ajá
 A vételi ajánlat létrehozásakor létrejön egy egyéni URL-cím. Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként. Ezt az URL-címet használhatja egy vagy több ügyfél számára. Küldje el e-mailben az ügyfélnek az URL-címet, vagy tegye közzé a webhelyén.
 
 Ha az ügyfél eltérő számú licencet szeretne, küldjön nekik egy új ajánlatot, vagy megváltoztathatják a licencek számát az előfizetés megvásárlásakor.
+
+## <a name="next-steps"></a>További lépések
 
 További információ a vásárlási ajánlatokról: [vásárlási ajánlat létrehozása](advisor-create-a-purchase-offer.md).

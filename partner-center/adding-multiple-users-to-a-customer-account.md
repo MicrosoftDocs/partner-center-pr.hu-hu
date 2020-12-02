@@ -9,19 +9,15 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0a9b2ed89b10e43c31d00777054839f3208e5c16
-ms.sourcegitcommit: 32516c30e90ee78415e5537d2b8ccf467f56a82d
+ms.openlocfilehash: 9f1d6e2a59bd892b7b79a1e3aa532242cdd0e302
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528107"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474189"
 ---
 # <a name="upload-a-csv-file-of-users-to-a-customers-account"></a>Felhasználók egy. csv-fájljának feltöltése egy ügyfél fiókjába
 
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -45,10 +41,10 @@ Egyszerre több felhasználót is hozzáadhat egy ügyfél fiókjához, ha a ves
 
 7. Válassza az **Érvényesítés** lehetőséget.
 
-    **Megjegyzés**    A legtöbb fiók-létrehozási hibát az adatfájlok hibái okozzák, beleértve a hiányzó információkat, a formázott vagy duplikált e-mail-címeket, vagy túl sok rekordot a fájlban.
+    **Megjegyzés**  A legtöbb fiók-létrehozási hibát az adatfájlok hibái okozzák, beleértve a hiányzó információkat, a formázott vagy duplikált e-mail-címeket, vagy túl sok rekordot a fájlban.
 
 8. Miután a partner Center érvényesíti a fájlt, válassza ki az új felhasználók földrajzi **helyét** .
-9. Kattintson a **Mentés** gombra.
+9. Válassza a **Mentés** lehetőséget.
 10. Töltse le a felhasználók ideiglenes jelszavával kapcsolatos információkat.
 
     >[!IMPORTANT]
@@ -56,6 +52,6 @@ Egyszerre több felhasználót is hozzáadhat egy ügyfél fiókjához, ha a ves
 
 11. Az új felhasználók automatikusan kapnak engedélyeket a **licencek és szolgáltatások használatára** . 
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [A partner Centerben a saját termékeinek vagy szolgáltatásainak megvásárlására jogosult ügyfelek számára](give-customers-permission.md)

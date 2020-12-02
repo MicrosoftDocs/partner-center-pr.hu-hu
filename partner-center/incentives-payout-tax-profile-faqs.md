@@ -1,25 +1,21 @@
 ---
 title: Ösztönzők a kifizetési és az adózási profilokkal kapcsolatos gyakori kérdések
 ms.topic: article
-ms.date: 10/27/2020
+ms.date: 12/01/2020
 description: Gyakori kérdések az ösztönzők kifizetéséről és az adó-profilokról. A kérdések közé tartozik, hogy miért nem látja a kifizetési és adózási profilokat, és mi a teendő.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 7fae97fb1a527ab557d76bd3b5fd738315271899
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: d7a5e5ae5fa8bd23c3158efe7c0880f67544f9b9
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93133133"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474325"
 ---
 # <a name="frequently-asked-questions-regarding-incentives-payout-and-tax-profiles"></a>Gyakori kérdések az ösztönzők kifizetésével és az adózási profilokkal kapcsolatban
-
-A következőkre vonatkozik:
-
-- Partnerközpont
 
 Megfelelő szerepkörök:
 
@@ -35,7 +31,7 @@ A Microsoft ösztönző programok befizetésének fogadásához a beléptetést 
 
 Az új ösztönző programban regisztrált összes partnernek érvényes kifizetést és adózási adatokat kell megadnia a regisztráció befejezéséhez.
 
-Szükség lehet a frissített információk megadására is, ha az ösztönző program szabályai megváltoznak, vagy ha a profil szempontjai lejárnak vagy elavulnak. Ha ez történik, az áttekintő oldal a szükséges művelet állapotát jeleníti meg **– a bank és/vagy az adó profil frissítése** .
+Szükség lehet a frissített információk megadására is, ha az ösztönző program szabályai megváltoznak, vagy ha a profil szempontjai lejárnak vagy elavulnak. Ha ez történik, az áttekintő oldal a szükséges művelet állapotát jeleníti meg **– a bank és/vagy az adó profil frissítése**.
 
 ## <a name="how-do-i-provide-update-my-payout-and-or-tax-details"></a>Hogyan adhatom meg vagy frissíthetem a kifizetési és/vagy adózási adataimat?
 
@@ -55,7 +51,7 @@ A következő eljárással tekintheti meg a kifizetési és az adózási profilo
 
 3. Válassza a **partneri beállítások** lehetőséget.
 
-4. A **Fiókbeállítások** alatt válassza a **Kifizetés és adózás** , majd a **Kifizetési és adóprofil** lehetőséget. Az összes meglévő kifizetési és adózási profilt látni fogja az állapotukkal és a szerkesztési lehetőségeikkel együtt.
+4. A **Fiókbeállítások** alatt válassza a **Kifizetés és adózás**, majd a **Kifizetési és adóprofil** lehetőséget. Az összes meglévő kifizetési és adózási profilt látni fogja az állapotukkal és a szerkesztési lehetőségeikkel együtt.
 
 ## <a name="my-organization-is-participating-in-multiple-incentive-programs-do-i-need-to-provide-my-payment-and-tax-profile-multiple-times"></a>A szervezetem több ösztönző programban is részt vesz. Többször kell megadnia a fizetési és az adózási profilt?
 
@@ -77,7 +73,7 @@ Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Mi
 
 2. A **Beállítások** menü megnyitásához válassza a fogaskerék ikont.
 
-3. A **Fiókbeállítások** alatt válassza a **Kifizetés és adózás** , majd a **Kifizetési és adóprofil** lehetőséget.
+3. A **Fiókbeállítások** alatt válassza a **Kifizetés és adózás**, majd a **Kifizetési és adóprofil** lehetőséget.
 
 4. Válassza az **adózási profil** lehetőséget.
 
@@ -85,7 +81,9 @@ Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Mi
 
 6. Válassza a **Szerkesztés** lehetőséget az adózási profil szerkesztési folyamatának megkezdéséhez.
 
-7. Frissítse az adózási űrlapokat a szükséges részletek megadásával.
+7. Keresse meg az **adózási űrlap** szakaszt, majd válassza az **adó indítása űrlapot**.
+
+8. Frissítse az adózási űrlapokat a szükséges részletek megadásával.
 
 ## <a name="how-does-microsoft-ensure-that-the-bank-information-is-indeed-that-of-the-company-and-not-a-personal-bank-account-for-an-employee"></a>Hogyan biztosítja a Microsoft annak biztosítását, hogy a bank adatai valóban a vállalat számára legyenek, és nem egy alkalmazott személyes bankszámlájára?
 
@@ -95,6 +93,6 @@ A vállalat feladata annak biztosítása, hogy az ösztönzők adminisztrátori 
 
 Ha a vállalata több ösztönző programot is meghív, használhatja ugyanazt a fizetési fiókot az összes ösztönző programhoz, vagy dönthet úgy is, hogy különböző fizetési fiókokat használ a különböző programokhoz.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Kifizetések és adóprofilok a Partnerközpontban](incentives-create-and-manage-your-payout-and-tax-profiles.md)

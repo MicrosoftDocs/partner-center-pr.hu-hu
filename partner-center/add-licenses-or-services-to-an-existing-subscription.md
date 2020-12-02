@@ -9,19 +9,14 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 53aa25ab0c318efde13788013df09d003b234347
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 7b6c5f1f6d86398ab65e60a498614bfc9f42976e
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528515"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474223"
 ---
 # <a name="add-licenses-or-more-services-to-a-customers-subscription"></a>Licencek vagy több szolgáltatás hozzáadása az ügyfél előfizetéséhez
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- A Cloud Solution Provider program partnerei
 
 **Megfelelő szerepkörök**
 
@@ -35,7 +30,7 @@ Ha az ügyfélnek több licencre van szüksége, mint a jelenlegi előfizetése,
 
 ## <a name="upgrades-supported-in-the-csp-program"></a>A CSP programban támogatott frissítések <a id="upgradesubscription"></a>
 
-A felhőalapú megoldás-szolgáltató a következő frissítéseket támogatja:
+A Cloud Solution Provider program a következő frissítéseket támogatja:
 
 | Ajánlat | Lehetséges frissítések|
 |---:|:---|
@@ -73,7 +68,7 @@ További információ a számlázás hatásáról: előfizetés lemondása és �
 4. Előfordulhat, hogy bizonyos szolgáltatások esetében bizonyos felhasználói fiókok átváltására további munka szükséges. Ha igen, a partner Center az érintett fiókok és szolgáltatások listáját jeleníti meg. Ha segítségre van szüksége, tekintse meg a Tudásbázis cikk a [licencek ismételt hozzárendelésével kapcsolatos problémákat a csomagok Office 365-ben történő váltásakor](/microsoft-365/commerce/subscriptions/switch-to-a-different-plan).
 
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Váltás másik Microsoft 365 üzleti csomagra](/microsoft-365/commerce/subscriptions/switch-to-a-different-plan)
 

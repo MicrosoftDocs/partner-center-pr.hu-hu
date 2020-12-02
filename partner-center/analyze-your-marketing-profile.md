@@ -9,32 +9,24 @@ author: vikrambmsft
 ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: 45d40afc64c5c64801841d3cb758b49c8e107de7
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 4bb9311dc88a4abf4f2e14ae075430d1978b4bfe
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528514"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474036"
 ---
 # <a name="analyze-your-business-profile---see-how-well-you-attract-target-customers-and-potential-referrals"></a>Elemezze üzleti profilját – Ismerje meg, hogy milyen jól vonzza a megcélzott ügyfeleket és a lehetséges hivatkozásokat
 <!-- 
 https://go.microsoft.com/fwlink/?linkid=849120
 -->
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Microsoft Partner Network partnerek
-- A Cloud Solution Provider program partnerei
-
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
 - MPN-partner rendszergazdája
-- Hivatkozó rendszergazda
 - Üzleti profil rendszergazdája
-- Felügyeleti ügynök
-- Értékesítési ügynök
+- Ajánlói rendszergazda
 
 A partner Center **üzleti profil** elemzése lapján megtekintheti, hogy mennyire jól ismeri a megcélzott ügyfelek figyelmét, és hogyan hozhat létre hivatkozásokat.
 
@@ -46,10 +38,15 @@ A vállalat [üzleti profiljának](create-a-marketing-profile.md)közzététele 
 
 A **profil teljesítményének összefoglalása** diagram a következő információkat tartalmazza a kiválasztott időszakra vonatkozóan:
 
-- **Keresési eredmények** : információ arról, hogy az ügyfelek milyen keresési kifejezéseket használnak az üzleti profil megkereséséhez.
-- **Oldalletöltések** : az ügyfelek által az üzleti profilban megtekintett idők teljes száma.
-- **Kapcsolati kattintások** : az ügyfelek által a [megoldás keresése](https://www.microsoft.com/solution-providers/home) oldalon kiválasztott üzleti profilhoz tartozó teljes számú alkalommal.
-- **Generált hivatkozások** : az ügyfél által az üzleti profil kiválasztása után eljuttatott hivatkozások teljes száma.
+- **Keresési eredmények**: információ arról, hogy az ügyfelek milyen keresési kifejezéseket használnak az üzleti profil megkereséséhez.
+- **Oldalletöltések**: az ügyfelek által az üzleti profilban megtekintett idők teljes száma.
+- **Kapcsolati kattintások**: az ügyfelek által a [megoldás keresése](https://www.microsoft.com/solution-providers/home) oldalon kiválasztott üzleti profilhoz tartozó teljes számú alkalommal.
+- **Generált hivatkozások**: az ügyfél által az üzleti profil kiválasztása után eljuttatott hivatkozások teljes száma.
 
 > [!TIP]
 > Az átirányítási feladatok [megválaszolásának](manage-leads.md)megkezdése előtt tekintse át az [Ajánlói](referral-insights.md) elemzések oldalt, ahol további részleteket tudhat meg az átirányítások végrehajtásáról.
+
+## <a name="next-steps"></a>További lépések
+
+- [Üzleti profil létrehozása](create-a-marketing-profile.md)
+- [Az Ajánlói elemzések beszerzése a partner Centerben](referral-insights.md)

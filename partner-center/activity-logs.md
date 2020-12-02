@@ -9,20 +9,14 @@ author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 43ee23fe23b75946fa960f68fe41f7e490761f5c
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 1eaa7fee628015eb633cac3a2796e371f6046585
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528078"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474240"
 ---
 # <a name="view-or-export-customer-activity-logs-for-more-insight-into-customer-transactions"></a>Ügyfél-tevékenységi naplók megtekintése vagy exportálása az ügyfelek tranzakcióinak részletesebb betekintéséhez
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
-- A Cloud Solution Provider program partnerei
 
 **Megfelelő szerepkörök**
 
@@ -50,13 +44,13 @@ A Tevékenységnaplók olyan rekordokat biztosítanak a partneri műveletekhez, 
    A naplózott művelet részleteinek megtekintéséhez válasszon ki egy lefelé mutató nyilat a tevékenység naplójában. Egyetlen tevékenység naplója jelentős mennyiségű adattal rendelkezhet, például több termék rendezésével.
 
 4. A napló adatoszlopai a következőket tartalmazzák:
-   - **Dátum és idő** – a művelet dátuma és időpontja;
-   - **Érintett ügyfél** – az ügyfél vállalatának neve;
-   - **Művelet** – az ügyfél által végrehajtott művelet, például "létrehozott egy hivatkozó";
-   - **Partner felhasználó** – a tevékenységhez társított partner.
+   - **Dátum és idő**– a művelet dátuma és időpontja;
+   - **Érintett ügyfél**– az ügyfél vállalatának neve;
+   - **Művelet**– az ügyfél által végrehajtott művelet, például "létrehozott egy hivatkozó";
+   - **Partner felhasználó**– a tevékenységhez társított partner.
 
 5. Válassza a **napló exportálása** lehetőséget, hogy az ügyfél előfizetési adatait egy. csv-fájlba másolja, majd töltse le a számítógép alapértelmezett letöltési mappájába.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Előfizetések és licencek elemzése az üzleti döntések meghozatalának elősegítése érdekében](analyze-subscriptions-licenses.md)

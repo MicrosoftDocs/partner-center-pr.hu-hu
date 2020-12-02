@@ -9,18 +9,19 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 02bd7ca573be4b0b61da546f66c6102fbc752c2d
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 8cac2a6edc9199befeae940ed271c3236440c260
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528094"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96473951"
 ---
 # <a name="assigning-azure-subscriptions-to-customers-in-partner-center"></a>Azure-előfizetések kiosztása az ügyfeleknek a partner Centerben
 
-**A következőkre vonatkozik**
+**Megfelelő szerepkörök**
 
-- Partnerközpont
+- Globális rendszergazda
+- Értékesítési ügynök
 
 ## <a name="assign-azure-subscriptions-to-your-customers"></a>Azure-előfizetések kiosztása az ügyfeleknek
 
@@ -49,7 +50,7 @@ Miután létrehozott egy Microsoft Azure-előfizetést az ügyfél számára, en
 
 3. Rendeljen hozzá egy szerepkört az ügyfél felhasználói számára, hogy az előfizetésük alá tartozó erőforrásokat lehessen létrehozni és kezelni.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Hogy a CSP-partnerek hogyan adhatnak ki előfizetéseket az ügyfeleknek](customer-subscriptions.md)
 

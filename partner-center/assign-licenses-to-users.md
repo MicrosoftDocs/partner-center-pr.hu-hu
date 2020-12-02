@@ -9,26 +9,21 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: fc208283e0ed8c0f164a44cc9bd70260b8671c6e
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: fb7906b006540ef939e443a21855488e9d2c36f9
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530630"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474070"
 ---
 # <a name="manage-users-and-user-licenses-for-customer-accounts"></a>Felhasználói fiókok és felhasználói licencek kezelése az ügyfelek fiókjaihoz
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
 - Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
-- Értékesítési ügynök
-- Segélyszolgálat ügynöke
+
 
 Az ügyfél fiókjában új felhasználókat hozhat létre és törölhet. A törléstől számított 30 napon belül egy vagy több olyan felhasználói fiókot is visszaállíthat, amelyet korábban törölt. A felhasználó korábbi előfizetési hozzárendelései is vissza lesznek állítva (feltéve, hogy az előző foglalások elérhetők).
 
@@ -50,7 +45,7 @@ Egyszerre [több felhasználóhoz is hozzárendelhet előfizetéseket](bulk-lice
 
 5. Ügyeljen arra, hogy a felhasználó számára küldendő felhasználónevet és ideiglenes jelszót jegyezze fel.
 
-6. Ha egyszerre több felhasználót ad hozzá, akkor használjon **másik felhasználót** .
+6. Ha egyszerre több felhasználót ad hozzá, akkor használjon **másik felhasználót**.
 
 7. Egyszerre több felhasználót is hozzáadhat [egy Excel-kompatibilis. CSV formátumú számolótábla-fájl importálásával](adding-multiple-users-to-a-customer-account.md). Megvárhatja, amíg elkészült a teljes készlettel, mielőtt e-mailben vagy kinyomtatja a neveket és a jelszavakat a megerősítő képernyőn.
 
@@ -68,7 +63,7 @@ A következő lépések a Microsoft-termékekhez tartozó felhasználói licence
 
 4. Válasszon ki egy vagy több felhasználót a listából. Ha például az ügyfél csak új licenceket vásárolt, és azokat a felhasználók számára szeretné hozzárendelni, akik még nem rendelkeznek velük, akkor a megfelelő csoport megkereséséhez használhatja a **felhasználók szűrése...** lehetőséget.
 
-5. Válassza a **licencek kezelése** lehetőséget. Végezze el a módosításokat, majd **mentse** .
+5. Válassza a **licencek kezelése** lehetőséget. Végezze el a módosításokat, majd **mentse**.
 
 > [!NOTE]
 > Az [Azure Marketplace-termékek](csp-commercial-marketplace-manage.md#assign-licenses-and-activate-a-subscription-on-behalf-of-a-customer)esetében a licenc-hozzárendelést és az aktiválást a terméket közzétevő független SZOFTVERGYÁRTÓ (ISV) kezeli.

@@ -9,20 +9,15 @@ author: parthp
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: b60ea73bc5fa7c4a25c61aa9651c303aa5087faf
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: 85a1e7c456435b56c76ebbeb8c2e526773dbe236
+ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530253"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96474257"
 ---
 # <a name="how-to-add-a-new-customer-record-in-partner-center"></a>Új ügyfél-rekord hozzáadása a partner Centerben
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
-- A Cloud Solution Provider program partnerei
 
 **Megfelelő szerepkörök**
 
@@ -31,10 +26,10 @@ ms.locfileid: "92530253"
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
-Ez a cikk azt ismerteti, hogyan adhat hozzá új ügyfelet a partner Center ügyfeleinek listájához. Az előfizetések értékesítésének, a számlázás kezelésének, illetve az ügyfelek támogatásának biztosításához kövesse az alábbi lépéseket.
+Ez a cikk azt ismerteti, hogyan adhat hozzá új ügyfelet a partner Center ügyfeleinek listájához. Ezek a lépések szükségesek az előfizetések értékesítéséhez, a számlázás kezeléséhez, illetve az ügyfelek támogatásának biztosításához.
 
 >[!NOTE]
->A meglévő ügyfelek számára, beleértve azokat is, akik a partner Centerben már rendelkeznek ügyféladatokat a [többcsatornás](multichannel.md) vagy [többpartneres](multipartner.md) forgatókönyvek keretében, a következő lépések elvégzése helyett [kapcsolatot igényelhet velük](request-a-relationship-with-a-customer.md).
+>A meglévő ügyfelek számára, beleértve azokat is, akik a partner Centerben már rendelkeznek ügyfél-nyilvántartással egy [többcsatornás](multichannel.md) vagy [többpartneres](multipartner.md) forgatókönyvben, az itt ismertetett lépések helyett [kapcsolatot kell igényelnie velük](request-a-relationship-with-a-customer.md).
 
 ## <a name="to-add-a-new-customer-in-partner-center"></a>Új ügyfél hozzáadása a Partnerközpontban
 
@@ -67,7 +62,7 @@ Ez a cikk azt ismerteti, hogyan adhat hozzá új ügyfelet a partner Center ügy
 
 7. Ha végzett az ügyféladatok hozzáadásával és a szükséges előfizetések megvásárlásával, válassza a **kész** lehetőséget.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - További információ arról, hogy mit tud értékesíteni az ügyfeleknek a Cloud Solution Provider programon keresztül: [partneri ajánlatok a Cloud Solution Provider programban](csp-offers.md)
 
