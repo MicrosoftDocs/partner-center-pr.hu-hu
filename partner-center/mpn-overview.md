@@ -4,17 +4,17 @@ ms.topic: article
 ms.date: 10/15/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg a Microsoft Partner Network (MPN) előnyeit, beleértve a Microsoft Action Pack, a kompetenciákat és a program lehetőségeit, hogy a piacra lépjen, és eladja a megoldásait.
+description: Ismerje meg az Microsoft Partner Network (MPN) előnyeit, például a Microsoft Action Pack, a kompetenciákat vagy a program lehetőségeit, hogy a piacra lépjen, és eladja a megoldásait.
 author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0678a7f59620c951fc7595f0ff7437d64a433a05
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: 4a3b00db6b48d95da58cdc130832ba5dc1ab990f
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530625"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556378"
 ---
 # <a name="partner-with-microsoft-and-discover-membership-benefits"></a>Partner a Microsofttal és a tagság előnyeinek felderítése
 

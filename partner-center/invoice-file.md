@@ -2,17 +2,17 @@
 title: A partner Center számlázási számláinak megismerése
 ms.topic: article
 ms.date: 05/18/2020
-description: Ismerje meg a számlázási fájlban található mezőket a partner Center számlázásához. az információ mezőket és definíciókat tartalmaz az összes számlázási mezőhöz és az egyszeri díj mezőhöz.
+description: A számlázási fájl mezőinek megismerése a partner Center számlázása során. Ide tartoznak a mezők és a definíciók az összes számlázási mezőhöz és az egyszeri díj mezőhöz.
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 121b0bc756e715af358eda30eff92cba35e802ed
-ms.sourcegitcommit: 22af0997d52a87417b62f44fb0a7d711bec77b35
+ms.openlocfilehash: 3e9eb392279c0a09b5e30395b38ab7030bfa87d4
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530642"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556293"
 ---
 # <a name="understand-partner-center-billing-invoice-fields"></a>A partner Center számlázási számla mezőinek megismerése
 
@@ -35,7 +35,7 @@ A következő mezők jelennek meg a számlázási fájlokban.
 | Ügyfél száma | Az ügyfél száma. |
 | Bill to (Számlázási cím) | Az a címe, ahová elküldjük a számláját. A partner Center számlázási profiljában módosíthatja vállalata nevét és/vagy címeit. |
 | Licenc-alapú díjak | A vásárolt használaton alapuló licencek havi vagy éves díja, a szolgáltatás előzetes számlázása után. Ez a szám a licenc-alapú egyeztetési fájlban lévő **Részösszeg** oszlopban (a **T** oszlop) lévő összes költség összegét adja meg. |
-| Használati alapú díjak | Az Azure-használat. Ez magában foglalja a számlázási időszakban engedélyezett és használt új szolgáltatásokat vagy alkalmazásokat. Ez a szám a **PretaxCharges** oszlop ( **Z** ) oszlopban szereplő összes díj összege a használaton alapuló egyeztetési fájlban. |
+| Használati alapú díjak | Az Azure-használat. Ez magában foglalja a számlázási időszakban engedélyezett és használt új szolgáltatásokat vagy alkalmazásokat. Ez a szám a **PretaxCharges** oszlop ( **Z**) oszlopban szereplő összes díj összege a használaton alapuló egyeztetési fájlban. |
 | Discounts (Engedmények) | Az ügyfél által az előfizetés normál árán kapott kedvezmény. Ez a szám *átalányösszegként* jelenik meg, nem pedig egységenként vagy licenccel. |
 | Kreditek | Az előfizetések módosításaira vonatkozó kreditek vagy módosítások (például a licencek növekedése vagy csökkentése). |
 | Részösszeg | Adók és adómentes költségek és kreditek összege. |
@@ -59,7 +59,7 @@ A következő mezők csak a partner Center **egyszeri díjaira** vonatkoznak:
 | Mező | Meghatározás |
 | ----- | ---------- |
 | Dátum | A vásárlás dátuma. |
-| Description (Leírás) | Termék neve. |
+| Leírás | Termék neve. |
 | Mennyiség | A megvásárolt termékek száma (például foglalások). |
 | Egységár | Termék díja (például foglalás). |
 | Discounts (Engedmények) | A vonatkozó kedvezmények. |

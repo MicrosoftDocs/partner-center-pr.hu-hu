@@ -4,17 +4,17 @@ ms.topic: conceptual
 ms.date: 11/20/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg, hogy hol kezelheti vállalata profilját, banki és adózási adatait, és így tovább a partner Centerben.
+description: Megtudhatja, hogyan használhatja a partner centert a vállalat profiljának, banki és adózási információinak, szerepköreinek, engedélyeinek és egyéb adatainak kezeléséhez.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 45b924fa9143d1b4947e5b88c2e14c41c4451d19
-ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
+ms.openlocfilehash: 55046b21e70ad04f47bf4cd191736aa12335060e
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96438991"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556446"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
@@ -119,7 +119,7 @@ Ha többet szeretne megtudni a partner Center-programok regisztrálásáról, te
 
 További információ a partner Center-programokban való regisztrálásról: a [partner hálózati erőforrásai](https://partner.microsoft.com/).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A partnerprofil frissítése](update-your-partner-profile.md)
 - [Felhasználói fiókok létrehozása és engedélyek beállítása](create-user-accounts-and-set-permissions.md)

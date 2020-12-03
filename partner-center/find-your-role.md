@@ -1,6 +1,6 @@
 ---
 title: A hozzárendelt szerepkör megkeresése
-description: Megtudhatja, hová léphet a partner Centerben, hogy megtalálja a szerepkört és az engedélyeket.
+description: Megtudhatja, hová lépjen a partner Centerben, hogy megtalálja a hozzárendelt szerepkört, az engedélyeit és a globális rendszergazdáját.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
@@ -9,16 +9,16 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.date: 10/12/2020
-ms.openlocfilehash: e382509ae11797d81b5b56b3f1c58e7b1ebafee2
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: 4f4a36bbe5021b6c73025e14bf3f608bd6a269e8
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530246"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556276"
 ---
 # <a name="find-your-role-your-permissions-and-your-global-admin"></a>A szerepkör, az engedélyek és a globális rendszergazda megkeresése
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 - Partnerközpont
 
 **Megfelelő szerepkörök**

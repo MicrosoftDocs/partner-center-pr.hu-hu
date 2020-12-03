@@ -1,6 +1,6 @@
 ---
-title: Kapcsolódjon ügyfeleivel
-description: Ismerje meg, hogyan csatlakozhat az új és a meglévő ügyfelekhez közvetett viszonteladóként
+title: Az ügyfélkapcsolatok szorosabbra fűzése
+description: Ha Ön közvetett viszonteladó a CSP programban, ez a cikk segítséget nyújt az új és meglévő ügyfelekkel való kapcsolathoz.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,14 +9,14 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.date: 10/12/2020
-ms.openlocfilehash: dc0d5af728b5e17bc8070fae9c895adc2bf8db4c
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: cb8a3403968ddf5c83c7fdbd1d1af6f6f740d1ff
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530258"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556310"
 ---
-# <a name="connect-with-customers"></a>Ügyfelekkel való kapcsolat
+# <a name="connect-with-customers"></a>Az ügyfélkapcsolatok kiépítése
 
 **A következőkre vonatkozik:**
 
@@ -82,7 +82,7 @@ Ha el szeretné távolítani a kapcsolatot egy ügyféllel, hajtsa végre az al�
 
 1.  A partner Centerben lépjen az **ügyfelek** elemre, és válassza ki azt az ügyfelet, amelynek a kapcsolatát el szeretné távolítani.
 
-2.  Válassza ki a **fiókot** .
+2.  Válassza ki a **fiókot**.
 
 3.  Válassza a **felhasználói kapcsolat eltávolítása** lehetőséget.
 

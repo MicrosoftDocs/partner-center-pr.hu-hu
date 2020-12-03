@@ -4,17 +4,17 @@ ms.topic: article
 ms.date: 05/26/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a partner által létrehozott kredit (PEC) szolgáltatás egyszerűsített, egységes Azure-díjszabást biztosít, hozzáadott értékkel rendelkező felügyelt szolgáltatásokat nyújt, és segít kizárni a versenyeket a margón.
+description: Ismerje meg, hogy a partner által létrehozott kredit (PEC) hogyan kínál egyszerűsített, egységes Azure-díjszabást és hozzáadott értékű felügyelt szolgáltatásokat, miközben segít a verseny kiiktatásában a margón.
 author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 45a9e4eb4a2e2ddb3419a2c8b1342725964ec39a
-ms.sourcegitcommit: 5f31146f50e01dc4c1922e0a5bc369f0a3cd8162
+ms.openlocfilehash: 464a277cc62f8b3349e8f7957106b902081eded8
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528246"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556395"
 ---
 # <a name="partner-earned-credit---an-overview-of-how-it-works-in-the-new-commerce-experience-in-csp"></a>Partner által szerzett kredit – áttekintés arról, hogyan működik a CSP új kereskedelmi felületén
 
@@ -51,20 +51,20 @@ Mivel az ügyfelek felhő-számítástechnikai platformokra váltottak, nem csup
 
 Az ügyfelek az Azure-ban üzemeltetett üzleti tevékenységük legtöbbje számára nyújtanak segítséget. A felügyelt szolgáltatásokkal rendszeresen biztosíthatja ügyfelei számára a fehér kesztyűs szolgáltatást. Az Ön által megadható napi műveletek és támogatások némelyike az alábbiakat tartalmazza:
 
-- **Cloud Operations and Management Services** : az ügyfelek a Microsoft partnerei számára biztosítják, hogy csökkentsék a költségeket az Azure-ban, miközben visszaállítják az elkülönítést, a biztonsági házirendeket és a jelenleg is elérhető ellenőrzési modelleket. Arra is számíthatnak, hogy a partnerek a számítási feladatok megfelelőségének, valamint az Azure egyszeri üzembe helyezésének és folyamatos működési költségeinek eléréséhez hozzáférjenek a kiforrott eszközökhöz. Emellett az ügyfeleknek támogatnia kell az automatizálást és a koordinálást, a frissítések javítását, a konfiguráció felügyeletét, a biztonsági mentést és a vész-helyreállítást, valamint az Identitáskezelés kezelését. 
+- **Cloud Operations and Management Services**: az ügyfelek a Microsoft partnerei számára biztosítják, hogy csökkentsék a költségeket az Azure-ban, miközben visszaállítják az elkülönítést, a biztonsági házirendeket és a jelenleg is elérhető ellenőrzési modelleket. Arra is számíthatnak, hogy a partnerek a számítási feladatok megfelelőségének, valamint az Azure egyszeri üzembe helyezésének és folyamatos működési költségeinek eléréséhez hozzáférjenek a kiforrott eszközökhöz. Emellett az ügyfeleknek támogatnia kell az automatizálást és a koordinálást, a frissítések javítását, a konfiguráció felügyeletét, a biztonsági mentést és a vész-helyreállítást, valamint az Identitáskezelés kezelését. 
 
-- **Felhőbeli monitorozás és technikai támogatás** : a Felhőbeli fogyasztási világban az eszközök és a követelmények kialakultak, de az informatikai infrastruktúra kezeléséhez szükséges erőforrás megtalálásával kapcsolatos aggályok nem változtak. A legtöbb szervezet egyszerűen nem rendelkezik az összes aspektusának figyeléséhez szükséges idővel, erőforrásokkal vagy dedikált személyzettel, és ez az a hely, ahol Ön, mint a megbízható partner, adja hozzá a legtöbb értéket. Míg az Azure számos beépített figyelési képességgel rendelkező partnert kínál, amelyek további, mélyebb monitorozási eszközöket biztosítanak, a valós riasztásokból származó hamis pozitív adatok osztályozását, és proaktív módon intézkednek a riasztásokról, mielőtt a teljesítmény mérhető. 
+- **Felhőbeli monitorozás és technikai támogatás**: a Felhőbeli fogyasztási világban az eszközök és a követelmények kialakultak, de az informatikai infrastruktúra kezeléséhez szükséges erőforrás megtalálásával kapcsolatos aggályok nem változtak. A legtöbb szervezet egyszerűen nem rendelkezik az összes aspektusának figyeléséhez szükséges idővel, erőforrásokkal vagy dedikált személyzettel, és ez az a hely, ahol Ön, mint a megbízható partner, adja hozzá a legtöbb értéket. Míg az Azure számos beépített figyelési képességgel rendelkező partnert kínál, amelyek további, mélyebb monitorozási eszközöket biztosítanak, a valós riasztásokból származó hamis pozitív adatok osztályozását, és proaktív módon intézkednek a riasztásokról, mielőtt a teljesítmény mérhető. 
 
 
 ### <a name="included-in-monitoring-and-technical-support"></a>A monitorozás és a technikai támogatás részeként:
 
-- **Rendszerállapot-figyelés** : a virtuális gépek, a processzor kihasználtsága, a memóriahasználat, a tárolási IOPs és az operációs rendszer teljesítményének teljes figyelése. Magában foglalja az alkalmazások teljesítményének és működésének, valamint a rendszerállapottal kapcsolatos irányítópultok és jelentések figyelését.
+- **Rendszerállapot-figyelés**: a virtuális gépek, a processzor kihasználtsága, a memóriahasználat, a tárolási IOPs és az operációs rendszer teljesítményének teljes figyelése. Magában foglalja az alkalmazások teljesítményének és működésének, valamint a rendszerállapottal kapcsolatos irányítópultok és jelentések figyelését.
 
-- **Log Analytics és riasztások** : a hálózathoz hozzáférő minden ügyfél, eszköz és felhasználó létrehozza a naplózott adatok előállítását. A naplók elemzése mélyebb betekintést nyújt a teljesítményre, a biztonságra, az erőforrás-felhasználásra és más hasznos mérőszámokra.
+- **Log Analytics és riasztások**: a hálózathoz hozzáférő minden ügyfél, eszköz és felhasználó létrehozza a naplózott adatok előállítását. A naplók elemzése mélyebb betekintést nyújt a teljesítményre, a biztonságra, az erőforrás-felhasználásra és más hasznos mérőszámokra.
 
-- **Adatbázis-figyelés** : az ügyfél adatbázisának nézete, amely segítséget nyújt a partnereknek az adatbázis-kiszolgálók magas rendelkezésre állásának biztosításában. A folyamat magában foglalja a méret, a kapcsolódási idő és az adatbázisok felhasználóinak megtartását, a trendek elemzését, valamint az adatok felhasználását a problémák proaktív megoldásához.
+- **Adatbázis-figyelés**: az ügyfél adatbázisának nézete, amely segítséget nyújt a partnereknek az adatbázis-kiszolgálók magas rendelkezésre állásának biztosításában. A folyamat magában foglalja a méret, a kapcsolódási idő és az adatbázisok felhasználóinak megtartását, a trendek elemzését, valamint az adatok felhasználását a problémák proaktív megoldásához.
 
-- Az alkalmazások **teljesítményének figyelése** : egy alkalmazás (vagy weblap) összes aspektusának teljes körű nyomon követése. Az alkalmazások monitorozása minden rész megtekintése – a bevásárlási szekerektől a regisztrációs lapokig – a lehető legjobb felhasználói élmény biztosítása érdekében
+- Az alkalmazások **teljesítményének figyelése**: egy alkalmazás (vagy weblap) összes aspektusának teljes körű nyomon követése. Az alkalmazások monitorozása minden rész megtekintése – a bevásárlási szekerektől a regisztrációs lapokig – a lehető legjobb felhasználói élmény biztosítása érdekében
 
 További információ a [felügyelt szolgáltatások portfóliójának az Azure](https://partner.microsoft.com/campaigns/cloud-playbooks-thank-you)-ban való kibővítéséről.
 
@@ -75,6 +75,6 @@ Ezek a szolgáltatások megfelelő szintű hozzáférést biztosítanak a partne
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [A partner által szerzett kredit kiszámítása és kifizetése](partner-earned-credit-explanation.md)
+- [A partneri jóváírás kiszámításának és kifizetésének részletei](partner-earned-credit-explanation.md)
 - [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)
 - [A CSP új Azure-beli kereskedelmi élményének árlista](azure-plan-price-list.md)

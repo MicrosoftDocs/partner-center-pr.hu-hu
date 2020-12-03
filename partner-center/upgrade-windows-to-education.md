@@ -1,22 +1,22 @@
 ---
-title: Windows 10 Home-ügyfelek frissítése Windows 10-es oktatásra
+title: A Windows 10 Home frissítése a Windows 10-es oktatásba
 ms.topic: article
 ms.date: 10/28/2020
-description: Windows 10 Home-ügyfelek frissítése Windows 10-es oktatásra
+description: Ismerje meg, hogy a Cloud Solution Provider (CSP) partnerei hogyan frissíthetik oktatási ügyfeleiket a Windows 10 Home rendszerről a Windows 10 Education szolgáltatásra
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a65dcceea688094089ad06dacfd2abf13173ca5c
-ms.sourcegitcommit: fdc32c0afce88f8266f75746ec15bf04745590ad
+ms.openlocfilehash: eff687f59e433e3465048173e3f74821280bde41
+ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94360003"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96556412"
 ---
-# <a name="upgrade-windows-10-home-customers-to-windows-10-education"></a>Windows 10 Home-ügyfelek frissítése Windows 10-es oktatásra
+# <a name="upgrade-some-education-customers-from-windows-10-home-to-windows-10-education"></a>Néhány oktatási ügyfél frissítése a Windows 10 Home rendszerről a Windows 10-es oktatásba
 
 **A következőre érvényes:**
 
@@ -63,7 +63,7 @@ A partnereknek támogatási kérést kell létrehozniuk, és kulcsokat kell lek�
 - **Leírás:** [Szám beszúrása] kulcsok kérése a Windows 10 oktatásra való frissítés engedélyezéséhez. (Vegye figyelembe, hogy a kért kulcsok száma nem lehet nagyobb, mint a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetési licenc.) Ügyfél előfizetés-azonosítója [az ügyfelek előfizetési AZONOSÍTÓjának GUID azonosítója a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetéshez.]
 - **Kapcsolattartó száma:** Ezt a rendszer előtölti; Tekintse át a megerősítést vagy a frissítést.
 - **E-mail cím:** Ezt a rendszer előtöltötte, és a Microsoft Portal-rendszergazdaként használt e-mail-cím legyen (csak globális rendszergazda vagy számlázási rendszergazda).
-- **Előnyben részesített kapcsolatfelvételi módszer** : válassza a **telefon** lehetőséget, vagy **ütemezzen vissza egy hívást**.
+- **Előnyben részesített kapcsolatfelvételi módszer**: válassza a **telefon** lehetőséget, vagy **ütemezzen vissza egy hívást**.
 
 8. Válassza a **Kapcsolatfelvétel** lehetőséget. A várt várakozási időt a **segítség szükséges?** ablaktáblában kell megadni.
 
@@ -75,7 +75,7 @@ A partnereknek támogatási kérést kell létrehozniuk, és kulcsokat kell lek�
 
 Ha a Windows 10 Home rendszert a Windows 10 Pro Education termékkulcsot használva szeretné frissíteni, az ügyfélnek a következőket kell tennie:  
 
-1. Válassza a **Start** , majd a **beállítások > frissítés & biztonsági > aktiválás** lehetőséget. Válassza a **termékkulcs módosítása** lehetőséget, majd adja meg a 25 karakterből álló Windows 10 Pro termékkulcsot. A **tovább** gombra kattintva elindíthatja a Windows 10 Pro verzióra való frissítést.
+1. Válassza a **Start**, majd a **beállítások > frissítés & biztonsági > aktiválás** lehetőséget. Válassza a **termékkulcs módosítása** lehetőséget, majd adja meg a 25 karakterből álló Windows 10 Pro termékkulcsot. A **tovább** gombra kattintva elindíthatja a Windows 10 Pro verzióra való frissítést.
 
 2. Amikor az eszköz csatlakoztatva van a bérlői tartományhoz (a HRE-n keresztül), az eszköz automatikusan a Windows 10-es verzióra lesz frissítve.  
 
