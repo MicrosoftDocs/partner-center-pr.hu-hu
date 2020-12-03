@@ -1,7 +1,7 @@
 ---
 title: Ügyfél rendszergazdai jogosultságának beszerzése
 ms.topic: how-to
-ms.date: 06/19/2020
+ms.date: 12/02/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Szerezze be az ügyfél szolgáltatásának vagy előfizetésének a nevében történő kezeléséhez szükséges engedélyeket. Ismerje meg, hogyan adhatók meg, vonhatók vissza és kezelhetők az engedélyek.
@@ -9,16 +9,16 @@ author: BillLinzbach
 ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: high
-ms.openlocfilehash: dcfc552016560ecc3167deebf96f7a75a72048bc
-ms.sourcegitcommit: 8dc139749916c822c5c438f54a03d2f147697dd5
+ms.openlocfilehash: 6f99c9ed9fb43136bccf0d3024377ba2208ed1a1
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "92528123"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534879"
 ---
 # <a name="obtain-permissions-to-manage-a-customers-service-or-subscription"></a>Engedélyek beszerzése az ügyfél szolgáltatásának vagy előfizetésének kezeléséhez
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -47,7 +47,7 @@ Ha az ügyfél szolgáltatását vagy előfizetését az Ön nevében szeretné 
 6.  Az ügyfél fiókjának, szolgáltatásainak, felhasználóinak és licencének kezeléséhez bontsa ki az ügyfél rekordját a neve melletti lefelé mutató nyílra kattintva, majd válassza ki a felügyelni kívánt szolgáltatás felügyeleti portálját.
 
 >[!IMPORTANT]  
->Az ügyfelek a szolgáltatás felügyeleti portálján módosíthatják vagy eltávolíthatják a rendszergazdai engedélyeket. Azonban, hacsak és amíg újra nem egyezteti a szerződést az ügyféllel, továbbra is felelős az ügyfelek támogatásának biztosításáért és a felhőalapú viszonteladói szerződés feltételeinek teljesítéséhez, még akkor is, ha az ügyfél újból hozzárendeli vagy eltávolítja a rendszergazdai engedélyeket. Ebben az esetben, ha az ügyfél segítségre van szüksége, forduljon a Microsoft támogatási szolgálatához, és nyisson meg egy szolgáltatási kérelmet az ügyfél nevében.
+>Az ügyfelek a szolgáltatás felügyeleti portálján módosíthatják vagy eltávolíthatják a rendszergazdai engedélyeket. Azonban tájékoztatnia kell az ügyfelet, hogy távolítsa el a rendszergazdai engedélyeket, így többé nem fog tudni megnyitni egy szolgáltatási kérelmet a Microsoftnak a nevében. Az ügyfél nevében nem nyithatja meg az ilyen típusú szolgáltatási kérelmeket, amíg újra nem egyezteti a szerződést az ügyféllel.
 
 Ügyfeleinek megtudhatják, hogy a partnerek közül melyiknek van rendszergazdai jogosultsága a bérlőnek az Office 365 felügyeleti portálján. Ehhez tegye a következőket:
 

@@ -1,5 +1,5 @@
 ---
-title: Cloudyn által Azure Cost Management CSP-ket
+title: Az Azure Cost Management by Cloudyn CSP-k számára
 ms.topic: article
 ms.date: 05/04/2020
 ms.service: partner-dashboard
@@ -9,19 +9,14 @@ author: aparnagkrishnan
 ms.author: aparnag
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4ea156ef0932fe1af20f3e3c4b9be1a5f931cdde
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: defa691a3bc70cbda45f01cb447d89364a49e3b8
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92528001"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534989"
 ---
 # <a name="track-customer-azure-usage-and-costs-with-the-azure-cost-management-app-for-csp-partners"></a>A Customer Azure-beli használat és költségek nyomon követése a CSP-partnerek Azure Cost Management alkalmazásával  
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- A Cloud Solution Provider program partnerei
 
 **Megfelelő szerepkörök**
 
@@ -42,10 +37,10 @@ A Cloudyn egy webalkalmazás, amellyel nyomon követheti és kezelheti az Azure-
 
 ## <a name="register-your-web-app-in-the-partner-center"></a>Webalkalmazás regisztrálása a partner Centerben
 Ha Azure Active Directory webalkalmazást regisztrál a partner Centerben, engedélyezze a hozzáférést a partner Center API-hoz. 
-1.  Jelentkezzen be [a partner központjába](https://partnercenter.microsoft.com/pcv/dashboard/overview) egy [globális rendszergazdai vagy rendszergazdai ügynök fiók](create-user-accounts-and-set-permissions.md)használatával.
-2.  A **partner Centerben** válassza a **Fiókbeállítások** &gt; **[alkalmazás-kezelés](https://partnercenter.microsoft.com/pcv/apiintegration/appmanagement)** lehetőséget.
-3.  A **webalkalmazás** szakaszban kattintson az **Add New Web App (új webalkalmazás hozzáadása** ) elemre.
-<br> **Megjegyzés** : Ha korábban létrehozott egy webalkalmazást, kihagyhatja a 3. lépést.
+1.  Jelentkezzen be a [partner Centerbe](https://partnercenter.microsoft.com/pcv/dashboard/overview) [globális rendszergazdai vagy rendszergazdai ügynök fiók](create-user-accounts-and-set-permissions.md)használatával.
+2.  A **partner Center** lapon válassza a **Fiókbeállítások** &gt; **[alkalmazás-kezelés](https://partnercenter.microsoft.com/pcv/apiintegration/appmanagement)** lehetőséget.
+3.  A **webalkalmazás** szakaszban kattintson az **Add New Web App (új webalkalmazás hozzáadása**) elemre.
+<br> **Megjegyzés**: Ha korábban létrehozott egy webalkalmazást, kihagyhatja a 3. lépést.
 4.  Másolja és mentse a **kereskedelmi azonosító** GUID azonosítóját és az **alkalmazás azonosítójának** GUID azonosítóját a webalkalmazáshoz. Az Azure Cost Management alkalmazás 30 napos ingyenes próbaverziójának használatához mindkét azonosítóra szüksége lesz.
 
 ## <a name="add-a-secret-key-to-your-app"></a>Titkos kulcs hozzáadása az alkalmazáshoz
@@ -55,7 +50,7 @@ Ha Azure Active Directory webalkalmazást regisztrál a partner Centerben, enged
    > [!NOTE]  
    > Az alkalmazás titkos kulcsa a több lejárati dátummal rendelkező jelszavakhoz hasonló. Mentse a kulcs értékét egy biztonságos helyre későbbi használatra.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 Kezdjen el egy [30 napos ingyenes próbaverziót](https://go.microsoft.com/fwlink/?linkid=857895).
 A próbaverzió elindításához a következő adatokat kell megadnia:
 - A partner Center bejelentkezési hitelesítő adatai

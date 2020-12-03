@@ -9,14 +9,14 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f48774cb830ceb575a84177efb57431afdcb9b25
-ms.sourcegitcommit: 5fc28f6f81eaebb84e1faa71848afb504e181f37
+ms.openlocfilehash: 8c36883dc7d12b7ea0ce8f2644dbac86595ab131
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "92528354"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534590"
 ---
-# <a name="roles-and-permissions-eligible-to-earn-partner-earned-credit"></a>A partner által szerzett kreditek megszerzésére jogosult szerepkörök és engedélyek
+# <a name="roles-and-permissions-required-to-earn-partner-earned-credit"></a>A partner által szerzett kreditek megszerzéséhez szükséges szerepkörök és engedélyek
 
 A következő szerepkörök az engedélyek szintjeire mutatnak, amelyek meghatározzák, hogy a partnerek jogosultak-e a partner által létrehozott kreditek használatára.
 
@@ -116,9 +116,9 @@ Search Service közreműködő | Lehetővé teszi a keresési szolgáltatások k
 Biztonsági rendszergazda | Csak Security Center esetén: megtekintheti a biztonsági házirendeket, megtekintheti a biztonsági állapotokat, biztonsági házirendeket szerkeszthet, megtekintheti a riasztásokat és a javaslatokat | Igen | 
 Security Manager (örökölt) | Ez egy örökölt szerepkör. Használja helyette a biztonsági rendszergazdát | Igen | 
 Biztonsági olvasó | Csak Security Center esetén: megtekintheti a javaslatokat és riasztásokat, megtekintheti a biztonsági házirendeket, megtekintheti a biztonsági állapotokat, de nem végezhet módosításokat | Nem | 
-Site Recovery közreműködő | Lehetővé teszi Site Recovery szolgáltatás felügyeletét, kivéve a tár létrehozását és a szerepkör-hozzárendelést | Igen | 
-Site Recovery operátor | Lehetővé teszi a feladatátvételt és a feladat-visszavételt, de nem hajt végre más Site Recovery felügyeleti műveleteket | Igen | 
-Site Recovery olvasó | Lehetővé teszi, hogy megtekintse Site Recovery állapotát, de ne végezzen más felügyeleti műveleteket | Nem | 
+Site Recovery-közreműködő | Lehetővé teszi Site Recovery szolgáltatás felügyeletét, kivéve a tár létrehozását és a szerepkör-hozzárendelést | Igen | 
+Site Recovery-operátor | Lehetővé teszi a feladatátvételt és a feladat-visszavételt, de nem hajt végre más Site Recovery felügyeleti műveleteket | Igen | 
+Site Recovery-olvasó | Lehetővé teszi, hogy megtekintse Site Recovery állapotát, de ne végezzen más felügyeleti műveleteket | Nem | 
 Térbeli horgonyok fiók közreműködője | Lehetővé teszi a térbeli horgonyok kezelését a fiókban, de nem törli őket | Igen | 
 Térbeli horgonyok fiókjának tulajdonosa | Lehetővé teszi a fiókban lévő térbeli horgonyok kezelését, beleértve azok törlését is | Igen | 
 Térbeli horgonyok fiókjának olvasója | Lehetővé teszi a fiókban található térbeli horgonyok tulajdonságainak megkeresését és beolvasását | Nem | 
@@ -147,3 +147,7 @@ Virtuális gépek közreműködője | Lehetővé teszi a virtuális gépek kezel
 Virtuális gép felhasználói bejelentkezés | Tekintse meg Virtual Machines a portálon, és jelentkezzen be normál felhasználóként. | Igen | 
 Webes csomag közreműködői | Lehetővé teszi a webhelyek webes csomagjainak kezelését, de azokhoz való hozzáférés nélkül. | Igen | 
 Webhely közreműködői | Lehetővé teszi a webhelyek (nem webes csomagok) kezelését, de nem fér hozzájuk | Igen |
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Partner által szerzett kredit – áttekintés arról, hogyan működik a CSP új kereskedelmi felületén](partner-earned-credit.md)

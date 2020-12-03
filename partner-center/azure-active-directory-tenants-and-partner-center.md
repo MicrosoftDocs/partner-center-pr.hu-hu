@@ -9,18 +9,14 @@ ms.author: vinayks
 ms.custom: SEOAPR.20
 ms.localizationpriority: high
 ms.date: 11/25/2019
-ms.openlocfilehash: 2cc30c3681f0310f738ed937c15e0142b20cdc4c
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: bc837db5a9dbcf92fbfead54b552695a218ae675
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528495"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534794"
 ---
 # <a name="create-a-work-account-that-links-your-company-to-your-partner-center-account"></a>Munkahelyi fiók létrehozása, amely összeköti a vállalatot a partner Center-fiókkal
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -71,3 +67,8 @@ Ha Azure-előfizetést vásárol, lényegében egy dedikált, biztonságos terü
 Az Azure-beli munkahelyi fiók a vállalat dedikált és elszigetelt virtuális ábrázolása az Azure nyilvános felhőben, amely akkor jön létre, amikor előfizet egy Microsoft Cloud Service-re (például Azure, Microsoft Intune vagy Office 365).
 
 Munkahelyi fiókja az Azure AD-felhasználókat és a rájuk vonatkozó információkat – a jelszavukat, a profil adatait, az engedélyeket stb. – tárolja. A munkahelyi fiók a vállalatra és annak biztonságára vonatkozó csoportokat, alkalmazásokat és egyéb információkat is tartalmaz.
+
+## <a name="next-steps"></a>További lépések
+
+- [Partnerközponti fiók kezelése](partner-center-account-setup.md)
+- [Ellenőrzési állapot nyomon követése](verification-responses.md)

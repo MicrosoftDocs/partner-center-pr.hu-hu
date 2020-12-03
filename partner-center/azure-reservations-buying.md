@@ -1,7 +1,7 @@
 ---
 title: Microsoft Azure foglalás megvásárlása az ügyfelek számára
 description: Megtudhatja, hogyan vásárolhat vagy vásárolhat Azure-foglalásokat az ügyfelek nevében a partner Centerben. Azokat a piacokat is felsorolja, amelyekben az Azure-foglalások nem érhetők el.
-ms.topic: article
+ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: rbars
@@ -9,20 +9,14 @@ ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
 ms.date: 08/06/2020
-ms.openlocfilehash: 22ee2b6b76662ae3c7f7a956dc42f4425c321309
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: 0e81a9561f3749aab281bb4ebd7cd0c38540ff31
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530318"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534607"
 ---
 # <a name="buy-microsoft-azure-reservations-on-behalf-of-your-customers-in-partner-center"></a>Microsoft Azure foglalások vásárlása az ügyfelek nevében a partner Centerben
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Microsoft Azure Portal
-- Partnerek a CSP-ben
 
 **Megfelelő szerepkörök**
 
@@ -31,6 +25,8 @@ ms.locfileid: "92530318"
 - Segélyszolgálat ügynöke
 - Értékesítési ügynök
 - Felhasználói felügyeleti rendszergazda
+
+Ez a cikk azt ismerteti, hogyan vásárolhat vagy vásárolhat Azure-foglalásokat az ügyfelek nevében a partner Centerben. Azokat a piacokat is azonosítja, amelyekben az Azure-foglalások nem érhetők el.
  
 > [!NOTE]
 > Ez a cikk csak a Cloud Solution Provider (CSP) programban található partnerekre vonatkozik. A más típusú előfizetéseket (például az utólagos elszámolású, az egyéni, a Microsoft-ügyféli szerződést vagy a Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek Ehelyett olvasniuk kell [Az Azure foglalási dokumentációját](/azure/cost-management-billing/reservations).
@@ -150,7 +146,8 @@ Az alábbi lépéseket követve vásárolhatja meg Microsoft Azure foglalásait 
 
 10. Ha az ügyfél foglalását a Azure Portalban szeretné kezelni, keresse meg az ügyfelet az **ügyfelek** lapon, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát. Válassza a **a Microsoft Azure felügyeleti portálja** lehetőséget az ügyfél rekordjának megnyitásához a Azure Portal.
 
-## <a name="azure-reservations-resources"></a>Azure-foglalások erőforrásai
+## <a name="next-steps"></a>További lépések
+
 |**További információ**   |**Olvassa el ezt**    |
 |:-----------------------------|:-----------------|
 |Azure-foglalások a CSP-ben – áttekintés  | [Microsoft Azure fenntartott példányok eladása](azure-reservations.md) |

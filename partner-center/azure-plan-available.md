@@ -1,6 +1,6 @@
 ---
 title: Elérhető Azure-szolgáltatások az Azure CSP-ben
-description: Ez a szakasz a Azure Cloud Solution Provider (CSP) programban nem elérhető Azure-szolgáltatásokat ismerteti.
+description: Ez a cikk a Azure Cloud Solution Provider (CSP) programban nem elérhető Azure-szolgáltatásokat ismerteti.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,12 +9,12 @@ ms.author: amrava
 ms.localizationpriority: high
 ms.date: 05/13/2020
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 094aa585be3114c198a8581b3d23bd4b212393c9
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 2ca8df054a48217a21dbdd897bd260e7bc181e62
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528498"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534964"
 ---
 # <a name="azure-services-available-in-the-azure-cloud-solution-provider-csp-program"></a>Az Azure Cloud Solution Provider (CSP) programban elérhető Azure-szolgáltatások
 
@@ -117,7 +117,7 @@ Az alábbi táblázat az első féltől származó Azure-termékek,-szolgáltat�
 |  App Service Linux rendszeren  |    |  X  |
 |  Batch  |  X  |  X  |
 |  Container Registry  |    |    |
-|  Tárolópéldányok  |    |    |
+|  Container Instances  |    |    |
 |  Service Fabric  |  X  |  X  |
 |  Container Service  |    |    |
 |  **Adatbázisok**  |    |    |
@@ -146,7 +146,7 @@ Az alábbi táblázat az első féltől származó Azure-termékek,-szolgáltat�
 |  Azure Batch AI  |    |    |
 |  **Eszközök internetes hálózata**  |    |    |
 |  IoT Hub  |  X  |  X  |
-|  IoT-központ  |    |    |
+|  IoT Central  |    |    |
 |  Machine Learning  |    |  X  |
 |  Stream Analytics  |    |  X  |
 |  Event Hubs  |  X  |  X  |
@@ -187,7 +187,7 @@ Az alábbi táblázat az első féltől származó Azure-termékek,-szolgáltat�
 |  Azure Migrate  |    |    |
 |  Felügyeleti csoportok  |    |  
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Ismerje meg](/azure/cloud-solution-provider/overview/partner-center-overview) az Azure elérhető képességeit a partner Centerben.
 

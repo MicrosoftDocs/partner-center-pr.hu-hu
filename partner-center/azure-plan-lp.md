@@ -9,14 +9,20 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a86ee34070b53fb7dcee3ffcd9c11c79a5a4b856
-ms.sourcegitcommit: 81348141eece79492c6f43c84ddac2b98f80428d
+ms.openlocfilehash: 87638a036086db933e0375ec232f2d512d73653e
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "92528170"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534743"
 ---
 # <a name="introduction-azure-plan-lets-partners-buy-azure-at-pay-as-you-go-rates-for-customers"></a>Bevezetés: az Azure-csomag lehetővé teszi, hogy a partnerek az Azure-t az utólagos elszámolású díjszabással vásárolják meg az ügyfelek számára
+
+**Megfelelő szerepkörök**
+
+- Felügyeleti ügynök
+- Értékesítési ügynök
+- Globális rendszergazda
 
 A Microsoft új kereskedelmi tapasztalatot vezetett be a partner Centerben, az Azure-csomaggal.  Ezzel az új kereskedelmi tapasztalattal a partnerek a Microsoft ügyfél-szerződés keretében igénybe vehetik az Azure-szolgáltatásokat az utólagos elszámolású díjszabásban.
 
@@ -30,7 +36,7 @@ Ez a csomag leegyszerűsíti a vásárlási élményt – több Azure-előfizet�
 >2020. február 1-től kezdődően a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP programból. Ettől az időponttól kezdve az új Microsoft ügyfél-szerződéshez tartozó ügyfél-visszaigazolást (igazolást) minden egyéb ajánlathoz meg kell követelni, beleértve a Microsoft 365, a Dynamics 365 és a meglévő Azure-t is. A CSP-partnerek nem tudnak új rendelést készíteni az ügyfélnek a Microsoft-ügyfél szerződésének igazolása nélkül. A részletekért olvassa el [a Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyása című cikk](confirm-customer-agreement.md)utasításait.
 
 
-## <a name="learn-about-the-azure-plan"></a>További tudnivalók az Azure-csomagról
+## <a name="next-steps"></a>További lépések
 
 |**Ehhez**   |**Olvassa el ezt**   |
 |------------------|---------------------|

@@ -9,16 +9,21 @@ author: amitravat
 ms.author: amrava
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4bbeb417fdc5964d66f754a789873c1dbc8b1d25
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 31e9c6862a5aa19407fa6da5e15333bb7e696720
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530048"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534930"
 ---
 # <a name="manage-subscriptions-and-resources-under-the-azure-plan"></a>Az Azure-csomagban foglalt előfizetések és erőforrások kezelése
 
-Amikor átvált egy ügyfelet az Azure-csomagra, a jogosultsági szintű rendszergazdai jogosultságokat az Azure-ban rendeli hozzá (az előfizetés tulajdonosi jogosultságai a rendszergazda nevében) alapértelmezés szerint.
+**Megfelelő szerepkörök**
+
+- Felügyeleti ügynök
+
+
+Ez a cikk azt ismerteti, hogy a CSP-partnerek hogyan használhatják a különböző szerepköralapú hozzáférés-vezérlési (RBAC) lehetőségeket az ügyfél Azure-erőforrásainak operatív vezérléséhez és kezeléséhez. Amikor átvált egy ügyfelet az Azure-csomagra, a jogosultsági szintű rendszergazdai jogosultságokat az Azure-ban rendeli hozzá (az előfizetés tulajdonosi jogosultságai a rendszergazda nevében) alapértelmezés szerint.
 
  > [!NOTE]
  > Az ügyfél az Azure-előfizetéshez tartozó rendszergazdai jogosultságokat az előfizetés, az erőforráscsoport vagy a munkaterhelés szintjén távolíthatja el. 
@@ -27,9 +32,9 @@ Amikor átvált egy ügyfelet az Azure-csomagra, a jogosultsági szintű rendsze
 
 - **Rendszergazda a (z) (Aobo) nevében** – az [Aobo](https://channel9.msdn.com/Series/cspdev/Module-11-Admin-On-Behalf-Of-AOBO)szolgáltatásban a partner bérlőn lévő rendszergazdai ügynök szerepkörrel rendelkező felhasználók a CSP program keretében létrehozott Azure-előfizetésekhez RBAC tulajdonosi hozzáféréssel.
 
-- Az **Azure Lighthouse** : a AOBO nem teszi lehetővé a rugalmasságot olyan különálló csoportok létrehozására, amelyek különböző ügyfelekkel működnek, vagy különböző szerepköröket engedélyeznek a csoportoknak vagy a felhasználóknak. Az Azure Lighthouse használatával különböző csoportokat rendelhet hozzá különböző ügyfelekhez vagy szerepkörökhöz. Mivel a felhasználók a megfelelő szintű hozzáféréssel rendelkeznek az Azure-beli delegált erőforrás-kezelésen keresztül, csökkentheti a rendszergazdai ügynök szerepkörrel rendelkező felhasználók számát (és így teljes AOBO-hozzáféréssel rendelkezik). Ez segít a biztonság javításában azáltal, hogy korlátozza az ügyfelek erőforrásainak szükségtelen hozzáférését. Emellett nagyobb rugalmasságot biztosít több ügyfél felügyeletéhez. További információért olvassa el [Az Azure Lighthouse és a Cloud Solution Provider programot](/azure/lighthouse/concepts/cloud-solution-provider).
+- Az **Azure Lighthouse**: a AOBO nem teszi lehetővé a rugalmasságot olyan különálló csoportok létrehozására, amelyek különböző ügyfelekkel működnek, vagy különböző szerepköröket engedélyeznek a csoportoknak vagy a felhasználóknak. Az Azure Lighthouse használatával különböző csoportokat rendelhet hozzá különböző ügyfelekhez vagy szerepkörökhöz. Mivel a felhasználók a megfelelő szintű hozzáféréssel rendelkeznek az Azure-beli delegált erőforrás-kezelésen keresztül, csökkentheti a rendszergazdai ügynök szerepkörrel rendelkező felhasználók számát (és így teljes AOBO-hozzáféréssel rendelkezik). Ez segít a biztonság javításában azáltal, hogy korlátozza az ügyfelek erőforrásainak szükségtelen hozzáférését. Emellett nagyobb rugalmasságot biztosít több ügyfél felügyeletéhez. További információért olvassa el [Az Azure Lighthouse és a Cloud Solution Provider programot](/azure/lighthouse/concepts/cloud-solution-provider).
 
--  **Címtár vagy vendég felhasználók vagy [egyszerű szolgáltatások](/azure/active-directory/develop/app-objects-and-service-principals)** : a CSP-előfizetésekre vonatkozó részletes hozzáférést delegálhat, ha felhasználókat ad hozzá az ügyfél-címtárban, illetve vendég felhasználókat ad hozzá, és hozzárendel egy adott RBAC-szerepkört.
+- **Címtár vagy vendég felhasználók vagy [egyszerű szolgáltatások](/azure/active-directory/develop/app-objects-and-service-principals)**: a CSP-előfizetésekre vonatkozó részletes hozzáférést delegálhat, ha felhasználókat ad hozzá az ügyfél-címtárban, illetve vendég felhasználókat ad hozzá, és hozzárendel egy adott RBAC-szerepkört.
 
 A Microsoft azt javasolja, hogy a felhasználóknak olyan minimális engedélyekkel rendelkezzenek, amelyekre szükségük van a munkájuk biztonsági gyakorlatként való elvégzéséhez. Lásd: [Azure Active Directory Privileged Identity Management erőforrások](/azure/active-directory/privileged-identity-management/pim-configure).
 
@@ -60,7 +65,7 @@ Rendszergazdai hozzáféréssel kell rendelkeznie az ügyfél szolgáltatásaina
 
 2. Válassza ki, hogy milyen típusú műveletet szeretne végrehajtani a riasztásban. Ha például azt szeretné, hogy egy e-mailt küldjön, a rendszer értesítést küld arról, hogy a szerepkör-hozzárendelés törlése megtörténik-e.
 
-   :::image type="content" source="images/azure/azureconfigurealert2.png" alt-text="Azure-riasztás":::
+   :::image type="content" source="images/azure/azureconfigurealert2.png" alt-text="riasztás konfigurálása":::
 
 ### <a name="aobo-removal"></a>AOBO eltávolítása
 
@@ -76,7 +81,7 @@ A szerepköralapú hozzáférés különbözik a rendszergazdai hozzáféréstő
 
 Ha meg szeretné tekinteni a PEC-t kereső szerepköröket, olvassa el [a partner által létrehozott kreditek szerepköreit és engedélyeit](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QuW2).
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Az Azure CSP-előfizetések rendszergazdai jogosultságának visszavonása és visszaállítja](revoke-reinstate-csp.md)
 

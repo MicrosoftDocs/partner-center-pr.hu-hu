@@ -9,18 +9,14 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 0ae61db0ca040afe67faa3a0883ea033b8f67562
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 12057d50e4456dd2450ff497e00c89a9afa5dc4d
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528502"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534988"
 ---
 # <a name="use-windows-autopilot-profiles-on-new-devices-to-customize-a-customers-out-of-box-experience"></a>Windows Autopilot-profilok használata új eszközökön az ügyfél kezdőélményének testreszabásához
-
-**A következőkre vonatkozik**
-
-- CSP Direct – számlázási partnerek, közvetett szolgáltatók és közvetett viszonteladók
 
 **Megfelelő szerepkörök**
 
@@ -84,7 +80,7 @@ A partner Centerben létrehozhat Windows Autopilot Deployment-profilokat, és al
    - Helyi rendszergazdai fiók letiltása a telepítőben
   
    - Lapok automatikus kihagyása a telepítőben<br>
-        ( *Automatikusan kiválasztja a munkahelyi vagy iskolai telepítést* , és *kihagyhatja a Cortana, a ONEDRIVE és az OEM-regisztráció beállítási lapjait* )
+        ( *Automatikusan kiválasztja a munkahelyi vagy iskolai telepítést* , és *kihagyhatja a Cortana, a ONEDRIVE és az OEM-regisztráció beállítási lapjait*)
   
    - Végfelhasználói licencszerződés (EULA) kihagyása<br> 
        >[!IMPORTANT] 
@@ -134,7 +130,7 @@ Amikor az ügyfél eszköze csatlakozik az internethez, az a legújabb profilt f
 
 2. Az ügyfél részletei lapon válassza az **eszközök** elemet.
 
-3. A **Windows Autopilot-profilok** alatt válassza ki a frissíteni kívánt profilt. Végezze el a szükséges módosításokat, majd kattintson a **Submit (Küldés** ) gombra.
+3. A **Windows Autopilot-profilok** alatt válassza ki a frissíteni kívánt profilt. Végezze el a szükséges módosításokat, majd kattintson a **Submit (Küldés**) gombra.
 
 A profil törléséhez válassza a **Profil törlése** elemet a lap jobb felső sarkában.
 
@@ -149,11 +145,11 @@ Ha azt tervezi, hogy az OEM-név, a sorozatszám és a modell kombinációját h
 
 - Ez a rekord csak az újabb eszközök (4k-kivonatok) esetében működik, és a 128B-kivonatok (RS2 és korábbi eszközök) esetében nem támogatott.
 
-- A rekord regisztrálása megkülönbözteti a kis-és nagybetűket, ezért a fájlban lévő adatoknak ***pontosan*** az OEM-szolgáltató (hardver szolgáltató) által biztosított modell-és gyártói neveket kell tartalmazniuk.
+- A rekord regisztrációja megkülönbözteti a kis-és nagybetűket, ezért a fájlban lévő adatoknak meg kell egyezniük a modell és a gyártó neve **_pontosan_* _, ahogy azt az OEM-szolgáltató (hardver szolgáltató) biztosítja.
 
 Kövesse az alábbi utasításokat, ha eszközöket szeretne hozzáadni az ügyfél fiókjához a partner Centerben.
 
-1. Válassza az **ügyfelek** lehetőséget a partner központ menüben, majd válassza ki azt az ügyfelet, amelynek az eszközeit kezelni szeretné.
+1. Válassza az _ *ügyfelek** lehetőséget a partner Center menüben, majd válassza ki azt az ügyfelet, amelynek az eszközeit kezelni szeretné.
 
 2. Az ügyfél részletei lapon válassza az **eszközök** elemet.
 

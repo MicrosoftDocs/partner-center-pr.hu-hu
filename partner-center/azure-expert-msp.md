@@ -9,18 +9,14 @@ author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: d56e1115b47af2fcbb4fc8077fadee01d8fceba2
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 364add7e25052ce97bfb26b84b26c5fcc430637d
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528086"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534658"
 ---
 # <a name="azure-expert-managed-services-provider-program"></a>Az Azure Expert Managed Services Provider program
-
-**A következőkre vonatkozik**
-
-- MPN-partnerek
 
 **Megfelelő szerepkörök**
 
@@ -36,6 +32,6 @@ Az Azure MSP-re való alkalmazás folyamatának megkezdéséhez a bal oldali NAV
 Ha még nem rendelkezik jogosultsággal, a Microsoft-partnerséget a tagság továbbfejlesztése, a képzés és más növekedési lehetőségek révén is felépítheti.
 Ismerje meg az [üzleti és szaktudása fejlesztéséhez](https://partner.microsoft.com/membership/azure-expert-msp)szükséges lépéseket.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 -[További tudnivalók a speciális szakterületekről](advanced-specializations.md)

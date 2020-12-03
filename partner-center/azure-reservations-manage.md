@@ -9,20 +9,14 @@ ms.author: amrava
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 08/06/2020
-ms.openlocfilehash: 937a7268caa5ae7872f8a3ec6dcb05f56dd9fbe5
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: c377fca3e38161258c836d14202ac4db21484526
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529917"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534760"
 ---
 # <a name="manage-cancel-exchange-or-refund-microsoft-azure-reservations-for-customers"></a>Ügyfelek Microsoft Azure foglalásának kezelése, megszakítása, cseréje vagy visszatérítése
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Microsoft Azure Portal 
-- Partnerek a CSP-ben
 
 **Megfelelő szerepkörök**
 
@@ -31,6 +25,8 @@ ms.locfileid: "92529917"
 - Segélyszolgálat ügynöke
 - Értékesítési ügynök
 - Felhasználói felügyeleti rendszergazda
+
+Ez a cikk bemutatja, hogyan kezelheti az ügyfelek Azure-foglalásait, beleértve a foglalások megszüntetését, a foglalások cseréjét vagy a visszatérítés igénylését.
 
 > [!NOTE]
 > Ez a cikk csak a Cloud Solution Provider (CSP) programban található partnerekre vonatkozik. A más típusú előfizetéseket (például az utólagos elszámolású, az egyéni, a Microsoft-ügyféli szerződést vagy a Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek Ehelyett olvasniuk kell [Az Azure foglalási dokumentációját](/azure/cost-management-billing/reservations).

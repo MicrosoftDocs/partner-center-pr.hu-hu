@@ -9,36 +9,36 @@ author: khpavan
 ms.author: sakhanda
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5d8bb85357d796ae4917faf91c93db8fef4369c2
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 1dc683c194de158dc7a4dac541b37631f3be1f1e
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528491"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534692"
 ---
-# <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi élmény a CSP-ben – Azure-számlázás 
+# <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi felület a CSP-ben – Azure-számlázás 
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Felügyeleti ügynök
 - Számlázási adminisztrátor
 - Globális rendszergazda
 
-Az Azure-csomag keretében történő számlázás egy egyszerűsített számlázási élmény, amely egy igazított, egyetlen számlázási dátummal és naptári hónapra alapuló számlázási időszakot használ.
+Ez a cikk azt ismerteti, hogyan érheti el és értelmezheti az Azure-csomag számlázásával kapcsolatos számlázási és egyeztetési fájlrendszert. Az Azure-csomag keretében történő számlázás egy egyszerűsített számlázási élmény, amely egy igazított, egyetlen számlázási dátummal és naptári hónapra alapuló számlázási időszakot használ.
 
 ## <a name="summary-of-billing-essentials"></a>A számlázási alapok összefoglalása
 
-- **Számla dátuma** : a számla-és egyeztetési fájl elérhető lesz a partner Center irányítópultján/API-ban (UTC szerint éjfélkor).
+- **Számla dátuma**: a számla-és egyeztetési fájl elérhető lesz a partner Center irányítópultján/API-ban (UTC szerint éjfélkor).
 
-- **Számla számlázási időszaka** : a számlázási időszak a naptári hónapra van igazítva, például 10/1-10/31, 11/1-11/30.
+- **Számla számlázási időszaka**: a számlázási időszak a naptári hónapra van igazítva, például 10/1-10/31, 11/1-11/30.
 
-- Díjszabási **szolgáltatási időszakok** : a díjak a naptári hónapra lesznek igazítva. Ha például a számlázott partner Azure-szolgáltatásokat ad egy 10/15-es Azure-csomagon keresztül, és az ügyfél megkezdi az Azure-szolgáltatások az 10/15-on való felhasználását, akkor a számlázott partner a 11/8-as szolgáltatási 10/15-10/31 időszakra vonatkozó számlázást és felderítést is megkapja a-on. A következő havi számla, amelyet a 12/8-es előállítás fog generálni, a 11/1-11/31-es szolgáltatási időszakra vonatkozó összes díjat tartalmazza.
+- Díjszabási **szolgáltatási időszakok**: a díjak a naptári hónapra lesznek igazítva. Ha például a számlázott partner Azure-szolgáltatásokat ad egy 10/15-es Azure-csomagon keresztül, és az ügyfél megkezdi az Azure-szolgáltatások az 10/15-on való felhasználását, akkor a számlázott partner a 11/8-as szolgáltatási 10/15-10/31 időszakra vonatkozó számlázást és felderítést is megkapja a-on. A következő havi számla, amelyet a 12/8-es előállítás fog generálni, a 11/1-11/31-es szolgáltatási időszakra vonatkozó összes díjat tartalmazza.
 
-- **Számla fizetési ideje** : nettó 60 nap.
+- **Számla fizetési ideje**: nettó 60 nap.
 
-- **Számla pénzneme** : a partnerek továbbra is az ügyfél country's rendelt pénznemében lesznek számlázva. Ha például a számlázott partner Írországban, az Egyesült Királyságban, Norvégiában és Németországban található ügyfelekkel, akkor a számlázott partner GBP, NOK és EUR számla/Recon összegű számlát kap.
+- **Számla pénzneme**: a partnerek továbbra is az ügyfél country's rendelt pénznemében lesznek számlázva. Ha például a számlázott partner Írországban, az Egyesült Királyságban, Norvégiában és Németországban található ügyfelekkel, akkor a számlázott partner GBP, NOK és EUR számla/Recon összegű számlát kap.
 
-- **Partneri ösztönzők** : a számlázási hónap végétől számított 45 nappal.
+- **Partneri ösztönzők**: a számlázási hónap végétől számított 45 nappal.
 
 ## <a name="access-your-invoices-and-reconciliation-files"></a>A számlák és a megbékélési fájlok elérése
 
@@ -106,7 +106,7 @@ A számla és a megbékélési fájl elérése:
 
 5. További számlázási részletekért tekintse át a számla-felderítési fájlt és a napi minősítésű használati fájlt.
 
-   :::image type="content" source="images/azure/invoice1.png" alt-text="számlázási":::
+   :::image type="content" source="images/azure/invoice1.png" alt-text="számla":::
 
 ## <a name="read-the-invoice-reconciliation-file"></a>A számlázási egyeztetési fájl elolvasása
 
@@ -134,7 +134,7 @@ A számla és a megbékélési fájl elérése:
 
   - A 7/8-7/31-től **felügyelt szolgáltatások esetében a partner által szerzett kreditek** díja (a tényleges egység ára a kiskereskedelmi ár, a partner által szerzett kredit).
 
-   :::image type="content" source="images/azure/pecfinal.png" alt-text="számlázási":::
+   :::image type="content" source="images/azure/pecfinal.png" alt-text="recon2":::
 
 ## <a name="invoice-in-customer-currency"></a>Számla az ügyfél pénznemében
 
@@ -142,7 +142,7 @@ Az Azure-csomagokon keresztül az Azure-szolgáltatások díja USD lesz, és az 
 
 A Microsoft a Thomson Reuters használatával határozza meg, hogy milyen FX-díjakat kell kiszámítani az árképzés pénznemének számlázására. Az FX díjszabása a hónap első előtti napján frissül és elérhető lesz.
 
-**Példa** : a szolgáltatási időszak augusztus 1-től augusztus 31-ig érvényes használati díjait a számlázás a július 31-ig közzétett FX-díj alapján számoljuk el. Ezek a díjak a szeptember számlán jelennek meg, és az FX-díjat a számla utolsó oldalán fogjuk feltüntetni.
+**Példa**: a szolgáltatási időszak augusztus 1-től augusztus 31-ig érvényes használati díjait a számlázás a július 31-ig közzétett FX-díj alapján számoljuk el. Ezek a díjak a szeptember számlán jelennek meg, és az FX-díjat a számla utolsó oldalán fogjuk feltüntetni.
 
 ## <a name="azure-reservations"></a>Azure Reserved Virtual Machine Instances
 
@@ -160,9 +160,9 @@ A meglévő Azure-kiadások a partner Centerben új Azure-csomag számlázásán
 
 Mivel az Azure-szolgáltatások számlázási modellje az Azure-csomagon keresztüli fizetés utáni használatot jelent, hogy a vártnál nagyobb mennyiségű számla elkerülhető legyen, a partnerek havi költségvetést alkalmazhatnak, és nyomon követhetik a használat százalékos arányát. Egy költségvetést egyszerre csak egy vagy több ügyfélre lehet alkalmazni. 
 
-:::image type="content" source="images/azure/azurespend.png" alt-text="számlázási":::
+:::image type="content" source="images/azure/azurespend.png" alt-text="Azure-költség":::
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - Megtudhatja, hogyan számítja ki a partner által létrehozott kreditet (PEC). Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/) , és keresse meg az elérhető árlista listáját.
 

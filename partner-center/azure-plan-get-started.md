@@ -9,14 +9,20 @@ ms.author: amrava
 ms.custom: SEOAPR.20
 ms.localizationpriority: High
 ms.date: 12/02/2019
-ms.openlocfilehash: 5ad7bd7c99d7caa044877c98aac6dc5e3ce69420
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: fcf75acef4afb80c5aec889911ffc2b4a53b6edd
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530049"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534913"
 ---
 # <a name="begin-using-pay-as-you-go-rates-with-the-azure-plan"></a>Az utólagos elszámolású díjak használatának megkezdése az Azure-csomaggal
+
+**Megfelelő szerepkörök**
+
+- Felügyeleti ügynök
+- Értékesítési ügynök
+
 
 A Microsoft új kereskedelmi tapasztalatot vezetett be a partner Centerben.  Ezzel az új kereskedelmi tapasztalattal a partnerek a Microsoft ügyfél-szerződés keretében igénybe vehetik az Azure-szolgáltatásokat az utólagos elszámolású díjszabásban.
 
@@ -62,7 +68,7 @@ A Microsoft azt javasolja, hogy a partnerek szorgalmasan használják a RBAC, [A
 
 - A partner által létrehozott kredit (PEC) számítások, valamint a partner által szerzett kreditek beszerzésére jogosult szerepkörök és engedélyek elérhetők a partner Center irányítópult-árlista (bejelentkezés szükséges) lehetőséggel.
 
-## <a name="next-steps"></a>Következő lépések 
+## <a name="next-steps"></a>További lépések 
 
 - [A partner által létrehozott kreditek meghatározása – részletek](partner-earned-credit-explanation.md)
 - [Az Azure-csomag árlista magyarázata](azure-plan-price-list.md)

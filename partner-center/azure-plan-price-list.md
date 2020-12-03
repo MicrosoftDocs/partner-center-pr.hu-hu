@@ -9,14 +9,14 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 57e976f2968f0bd6b13f36eb04be9f68577d1389
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 02cea980626ec32d3dd60f646b1f8744130792ea
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529929"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534726"
 ---
-# <a name="price-list-for-the-new-commerce-experience-in-csp-for-azure"></a>Az Azure-beli CSP új kereskedelmi felületének árlista
+# <a name="price-list-for-the-new-commerce-experience-in-csp-for-azure"></a>Az Azure-beli CSP új kereskedelmi felületének árlistája
 
 **Megfelelő szerepkörök**
 
@@ -35,12 +35,12 @@ A CSP új Azure-beli kereskedelmi élményének árlista a következő címen é
 
 2. Az Azure-csomag díjszabása területen válassza ki azt az országot, amelynek díjszabását meg szeretné jeleníteni.
 
-3. Az **Exportálás típusa** elemnél válassza az **Azure-csomag fogyasztásának díjszabása** , az **Azure Plan Reservations díjszabása** vagy az **FX-díjak** lehetőséget. 
+3. Az **Exportálás típusa** elemnél válassza az **Azure-csomag fogyasztásának díjszabása**, az **Azure Plan Reservations díjszabása** vagy az **FX-díjak** lehetőséget. 
 
 >[!NOTE] 
 >Az **FX díjszabása** nem országspecifikus.
 
-4. A **dátum díjszabása** mellett válassza ki a kívánt dátumot, például: **current** .
+4. A **dátum díjszabása** mellett válassza ki a kívánt dátumot, például: **current**.
 
    :::image type="content" source="images/azure/pricingnew.png" alt-text="ország-specifikus":::
 
@@ -55,15 +55,15 @@ A CSP új Azure-beli kereskedelmi élményének árlista a következő címen é
 
 - Az exportálási lehetőségek a következők:
 
-  - A **mai díjszabás** : ide tartozik a hónap első napjának összes mérőszáma és díjszabása az aktuális hónap aktuális dátumára. Ez magában foglalja az új árakat, a megváltozott árakat vagy az eltávolított árakat. Az összes ár érvényes kezdési és befejezési dátummal fog elmagyarázni, hogy új vagy eltávolítva vannak-e.
+  - A **mai díjszabás**: ide tartozik a hónap első napjának összes mérőszáma és díjszabása az aktuális hónap aktuális dátumára. Ez magában foglalja az új árakat, a megváltozott árakat vagy az eltávolított árakat. Az összes ár érvényes kezdési és befejezési dátummal fog elmagyarázni, hogy új vagy eltávolítva vannak-e.
 
-  - **Előző havi díjszabás** : az egyes típusú erőforrások letöltése havonta történik. A díjszabási fájlok esetében ez magában foglalja az adott hónapban elérhető összes mérőszámot is. Ha a hónap közepén egy új mérőszám jelent meg, akkor az a rendelkezésre állását tükröző, érvényes dátummal rendelkező mérőszámként jelenik meg. A megszüntetett árakhoz hasonlóan, ha már nem érhető el, a tényleges befejezési dátum leírását mutatja be.
+  - **Előző havi díjszabás**: az egyes típusú erőforrások letöltése havonta történik. A díjszabási fájlok esetében ez magában foglalja az adott hónapban elérhető összes mérőszámot is. Ha a hónap közepén egy új mérőszám jelent meg, akkor az a rendelkezésre állását tükröző, érvényes dátummal rendelkező mérőszámként jelenik meg. A megszüntetett árakhoz hasonlóan, ha már nem érhető el, a tényleges befejezési dátum leírását mutatja be.
 
-  - **FX-díjak** : az FX díjait a hónap első napjánál, 06:00 PST-ig töltheti le a rendszer. Ha például a novemberi díjszabást szeretné használni, töltse le a díjszabást október 31-én. Az előző hónap FX díjszabása is elérhető lesz.
+  - **FX-díjak**: az FX díjait a hónap első napjánál, 06:00 PST-ig töltheti le a rendszer. Ha például a novemberi díjszabást szeretné használni, töltse le a díjszabást október 31-én. Az előző hónap FX díjszabása is elérhető lesz.
 
 - Az árlista árai a közvetlen árak. Egyes partnerek jogosultak lehetnek a partner által létrehozott kreditek használatára. A partner által szerzett kreditek kiszámításának módjával kapcsolatos információkért olvassa el, [Hogyan számítják ki és fizetik ki a partner által szerzett kreditet](partner-earned-credit-explanation.md).
 
-- **Jogosult szolgáltatások** : a partner által létrehozott kreditek az **Azure-csomag** használati díjszabási partnerei által az Azure-csomag [díjszabási](https://partner.microsoft.com/commerce/sales) oldalán felsorolt szolgáltatásokra érvényesek. Vegye figyelembe, hogy a harmadik féltől származó termékek, például a (z) "harmadik fél" néven azonosíthatók, az Azure-csomag használati árlista és az Azure-csomag foglalásának címkék oszlopában vannak kivételek.
+- **Jogosult szolgáltatások**: a partner által létrehozott kreditek az **Azure-csomag** használati díjszabási partnerei által az Azure-csomag [díjszabási](https://partner.microsoft.com/commerce/sales) oldalán felsorolt szolgáltatásokra érvényesek. Vegye figyelembe, hogy a harmadik féltől származó termékek, például a (z) "harmadik fél" néven azonosíthatók, az Azure-csomag használati árlista és az Azure-csomag foglalásának címkék oszlopában vannak kivételek.
 
 ## <a name="price-list-data"></a>Árlista-adatlista
 
@@ -78,7 +78,7 @@ A CSP új Azure-beli kereskedelmi élményének árlista a következő címen é
 |UnitOfMeasure|A felszámított vagy számlázott egységek|
 |TermDuration|A kifejezésen alapuló termékek esetében a feltételek hossza, a foglalásokra alkalmazható.|
 |Piaci|A díjszabás piaca|
-|Currency (Pénznem)|A díjszabás pénzneme|
+|Pénznem|A díjszabás pénzneme|
 |Egységár|Egységár|
 |PricingTierRangeMin|A többszintű díjszabáshoz a minimális díj vonatkozik|
 |PricingTierRangeMax|A többszintes díjszabás esetében a maximális ár vonatkozik|
@@ -114,3 +114,7 @@ Ez az API a partnerek számára is lehetővé teszi a havi árfolyamok beolvasá
 > A díjszabási API az Azure-csomag díjszabására vonatkozik. Továbbra is használhatja a RateCard API-t és árlistát az Azure-erőforrások, illetve a nem Azure-beli csomag előfizetésekre telepített foglalások oldalának "díjszabás és ajánlatok" lapján. Az Azure-csomag díjszabási API-ját nem támogatja a szoftverek, a piactér vagy a licenc alapú díjszabás, például a Microsoft 365 vagy a Dynamics 365.
 
 Az Azure-csomag díjszabásával és a deviza-díjszabási API-kkal kapcsolatos további információkért tekintse meg a teljes [díjszabási API dokumentációját](/partner/develop/pricing).
+
+## <a name="next-steps"></a>További lépések
+
+- [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)

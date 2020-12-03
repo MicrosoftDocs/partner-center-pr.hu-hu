@@ -9,20 +9,21 @@ ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
 ms.date: 08/06/2020
-ms.openlocfilehash: e6c4e3e7a68de720f586754703308a447d7d30c1
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 226ebd27b4ca4cdef56ce833a58a10bed89f8056
+ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529904"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96534947"
 ---
 # <a name="microsoft-azure-vm-sizing-for-maximum-reservation-usage"></a>Microsoft Azure-beli virtuális gép méretezése a maximális foglalási kihasználtsághoz
 
-**A következőkre vonatkozik**
+**Megfelelő szerepkörök**
 
-- Partnerközpont
-- Azure Portal
-- Partnerek a CSP programban
+- Felügyeleti ügynök
+- Értékesítési ügynök
+
+Ez a cikk azt ismerteti, hogyan méretezhető a virtuális gép (VM) az ügyfelek számítástechnikai igényeire, ha Microsoft Azure foglalásokat vásárol hozzájuk.
  
 > [!NOTE]
 > Ez a cikk csak a Cloud Solution Provider (CSP) programban található partnerekre vonatkozik. A más típusú előfizetéseket (például az utólagos elszámolású, az egyéni, a Microsoft-ügyféli szerződést vagy a Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek Ehelyett olvasniuk kell [Az Azure foglalási dokumentációját](/azure/cost-management-billing/reservations).
@@ -66,7 +67,7 @@ Az egyes módszerek használatára vonatkozó utasítások alább láthatók. A 
 
 Az alábbi képen található információk segítségével megtekintheti annak a virtuális gépnek a helyét és méretét, amelyhez foglalást kíván vásárolni. 
 
-:::image type="content" source="images/usage2.png" alt-text="A méret és a régió adatai a Részletek lapon":::
+:::image type="content" source="images/usage2.png" alt-text="Virtuális gép helye és mérete":::
 
 ### <a name="get-vm-sizing-information-using-the-azure-resource-manager-arm-api"></a>VM-méretezési információk beolvasása a Azure Resource Manager (ARM) API használatával
 
@@ -76,8 +77,8 @@ Az alábbi képen található információk segítségével megtekintheti annak 
 
 3. A hívás az alább látható módon visszaadja a **vmSize** és a **hely** értékét.
 
-    :::image type="content" source="images/usage3.png" alt-text="A méret és a régió adatai a Részletek lapon":::
-    :::image type="content" source="images/usage4.png" alt-text="A méret és a régió adatai a Részletek lapon":::
+    :::image type="content" source="images/usage3.png" alt-text="vmSize érték":::
+    :::image type="content" source="images/usage4.png" alt-text="hely értéke":::
 
 ## <a name="verify-azure-vm-usage-and-reservation-discount"></a>Azure-beli virtuális gépek használatának és foglalási kedvezményének ellenőrzése
 
@@ -117,7 +118,7 @@ Az egyes módszerek használatára vonatkozó utasítások alább láthatók.
 
 Lekérheti a foglalási használati adatokat az Azure kihasználtsági API-val annak ellenőrzéséhez, hogy az ügyfél beolvasta-e a foglalási kedvezményt, és hogy a rendszer mely virtuális gépeket (Virtual machines) alkalmazza a kedvezményre. Hasonlítsa össze a példát a B példával, hogy megtekintse, hogyan ellenőrizheti az ügyfél foglalási felhasználását.
 
-:::image type="content" source="images/usage5.png" alt-text="A méret és a régió adatai a Részletek lapon":::
+:::image type="content" source="images/usage5.png" alt-text="A foglalás használati példái":::
 
 - A reservationId azonosítja azt az Azure-foglalást, amelyet a kedvezmény a virtuális gépre való alkalmazásához használt.
 - a consumptionMeter annak a virtuális gépnek a MeterId, amelyhez a foglalási kedvezmény vonatkozik.
@@ -128,7 +129,7 @@ További információ: [ügyfél kihasználtsági rekordjainak beszerzése az Az
 >[!IMPORTANT]
 >A szoftveres költségek, mint például a Microsoft Windows Server, jelenleg nem szerepelnek a virtuális gépek foglalásának árán, és külön sorokként jelennek meg a rendelési rekordban és a számlán. Ha azonban az ügyfél rendelkezik a Azure Hybrid Use Benefitval, a rendszer nem alkalmazza a szoftverre vonatkozó költségeket. További információ: [a Windows-szoftverek nem tartalmazzák a fenntartott példányokat](/azure/billing/billing-reserved-instance-windows-software-costs).  
 
-## <a name="azure-reservations-resources"></a>Azure-foglalások erőforrásai
+## <a name="next-steps"></a>További lépések
 
 |**További információ**   |**Olvassa el ezt**    |
 |:-----------------------------|:-----------------|
