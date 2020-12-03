@@ -2,6 +2,8 @@
   href: index.yml
 - name: Közlemények
   href: announcements/TOC.md
+- name: A Partnerközpont névjegye
+  href: overview.md
 - name: Partnerhálózati tagság
   items:
     - name: Legyen Ön is Microsoft-partner
@@ -60,8 +62,13 @@
         - name: Alkalmazásfejlesztési kompetencia kivétele
           href: app-dev-isv.md
     - name: Haladó specializációk
-      href: advanced-specializations.md
-      displayName: mpn
+      items:
+        - name: A szaktudás bemutatása
+          href: advanced-specializations.md
+          displayName: mpn
+        - name: Alkalmazási vagy ellenőrzési állapot
+          href: advanced-specializations-apply.md
+          displayName: mpn
     - name: Azure-beli szakértői MSP-vé válás
       href: azure-expert-msp.md
     - name: Előnyök
