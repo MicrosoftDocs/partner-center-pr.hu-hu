@@ -20,6 +20,8 @@
       href: transfer-eligibility.md
     - name: Privát Azure Marketplace létrehozása és kezelése
       href: create-manage-private-azure-marketplace.md
+    - name: Privát Azure Marketplace-piactér kezelése – PowerShell
+      href: manage-private-azure-marketplace-powershell.md
     - name: Azure Marketplace-partnerintegrációk
       href: partner-integrations.md
 - name: Általános források
