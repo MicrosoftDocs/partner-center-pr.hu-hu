@@ -2,22 +2,22 @@
 title: Kompetenciák – gyakori kérdések
 ms.topic: article
 ms.date: 11/23/2020
-description: Válaszok az Azure, a Cloud, a Visual Studio, valamint a technikai és támogatási előnyökre Microsoft Partner Network arany és ezüst kompetenciák, juttatások lejáratának, megújításának és aktiválásának megszerzésével kapcsolatos kérdésekre
+description: Az MPN Gold vagy Silver kompetenciával kapcsolatos válaszok, a juttatások lejárata, megújítása vagy aktiválása az Azure-hoz, a felhőhöz, a Visual studióhoz, a technikai és a támogatási előnyökhöz.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: 0a20b464c9784b0939ba404019cab007310ad4bd
-ms.sourcegitcommit: c5e9175792a4e2aac50bfae78fcef18e3cc9922a
+ms.openlocfilehash: 3f18378428ab681938f23c3a11341b2deac36226
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95812823"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570484"
 ---
 # <a name="competencies---frequently-asked-questions"></a>Kompetenciák – gyakori kérdések
 
-A következőkre vonatkozik:
+Hatóköre:
 
 - Partnerközpont
 - A Microsoft Cloud for US Government Partnerközpontja

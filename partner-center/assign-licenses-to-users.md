@@ -1,22 +1,22 @@
 ---
-title: Felhasználói fiókok és felhasználói licencek kezelése az ügyfelek fiókjaihoz
+title: Felhasználók kezelése az ügyfelek fiókjaihoz
 ms.topic: how-to
 ms.date: 05/13/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan kezelheti az ügyfelek felhasználói számára a partner Centerben, például felhasználói fiókok létrehozását, felhasználói licencek hozzáadását vagy eltávolítását, felhasználói jelszavak visszaállítását, valamint felhasználói fiókok törlését vagy visszaállítását.
+description: Felhasználók kezelése a partner Centerben – felhasználói fiókok létrehozása, felhasználói licencek hozzáadása vagy eltávolítása, jelszavak alaphelyzetbe állítása, valamint a felhasználói fiókok törlése vagy visszaállítása.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: fb7906b006540ef939e443a21855488e9d2c36f9
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: cea1ac8bff9690edfe4b257c910fc3c335d2836c
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474070"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570739"
 ---
-# <a name="manage-users-and-user-licenses-for-customer-accounts"></a>Felhasználói fiókok és felhasználói licencek kezelése az ügyfelek fiókjaihoz
+# <a name="manage-users-and-user-licenses-for-customer-accounts"></a>Felhasználói fiókok és felhasználói licencek kezelése az ügyfelek fiókjaihoz 
 
 **Megfelelő szerepkörök**
 
@@ -76,21 +76,21 @@ A következő lépések a Microsoft-termékekhez tartozó felhasználói licence
 
 2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
 
-3.  Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget. Válassza ki a felhasználót a listából.
+3. Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget. Válassza ki a felhasználót a listából.
 
-4.  A képernyő alján válassza a **jelszó alaphelyzetbe állítása** lehetőséget. 
+4. A képernyő alján válassza a **jelszó alaphelyzetbe állítása** lehetőséget. 
 
-5.  Küldje el az új ideiglenes jelszót a felhasználónak.
+5. Küldje el az új ideiglenes jelszót a felhasználónak.
 
 <a href="" id="deleteuseraccounts"></a>
 
 ## <a name="delete-user-accounts-for-a-customer"></a>Ügyfelek felhasználói fiókjainak törlése
 
-1.  A **partner Center** menüben válassza az **ügyfelek** lehetőséget. Válassza ki az ügyfelet a listából.
+1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget. Válassza ki az ügyfelet a listából.
 
-2.  Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget. Válassza ki a felhasználót a listából.
+2. Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget. Válassza ki a felhasználót a listából.
 
-3.  A képernyő alján válassza a **felhasználói fiók törlése** lehetőséget.
+3. A képernyő alján válassza a **felhasználói fiók törlése** lehetőséget.
 
 Ha vissza kell állítania ezt a fiókot, az ügyfél **felhasználói és licencek** listája **törölt felhasználók** lapján található. A törölt felhasználó visszaállításának 30 napja van.
 
@@ -98,19 +98,18 @@ Ha vissza kell állítania ezt a fiókot, az ügyfél **felhasználói és licen
 
 ## <a name="restore-deleted-user-accounts"></a>Törölt felhasználói fiókok visszaállítása
 
-1.  A **partner Center** menüben válassza az **ügyfelek** lehetőséget, majd válassza ki az ügyfelet a listából.
+1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget, majd válassza ki az ügyfelet a listából.
 
-2.  Válassza **a felhasználók és licencek** lehetőséget.
+2. Válassza **a felhasználók és licencek** lehetőséget.
 
-3.  Válassza a **törölt felhasználók ()** lapot. Ha törölt felhasználók is visszaállíthatók, olvassa el **(1)** vagy annál nagyobb.
+3. Válassza a **törölt felhasználók ()** lapot. Ha törölt felhasználók is visszaállíthatók, olvassa el **(1)** vagy annál nagyobb.
 
-4.  Válasszon ki egy vagy több törölt felhasználó jelölőnégyzetet, majd válassza a **visszaállítás** lehetőséget.
+4. Válasszon ki egy vagy több törölt felhasználó jelölőnégyzetet, majd válassza a **visszaállítás** lehetőséget.
 
     Az összes kiválasztott felhasználói fiók újra megjelenik a **felhasználók és licencek** lapon.
 
-## <a name="related-topics"></a>Kapcsolódó témakörök
+## <a name="next-steps"></a>További lépések
 
+- [Licencek hozzárendelése vagy visszavonása több felhasználó esetében](bulk-license-provisioning-for-multiple-users.md)
 
-[Licencek hozzárendelése vagy visszavonása több felhasználó esetében](bulk-license-provisioning-for-multiple-users.md)
-
-[Több felhasználó létrehozása egy ügyfél-fiókhoz](adding-multiple-users-to-a-customer-account.md)
+- [Több felhasználó létrehozása egy ügyfél-fiókhoz](adding-multiple-users-to-a-customer-account.md)

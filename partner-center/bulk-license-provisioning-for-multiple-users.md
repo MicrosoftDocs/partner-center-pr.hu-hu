@@ -9,18 +9,14 @@ author: amitravat
 ms.author: amrava
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: de7b9775be925911dab6a7fd72b8f81a5b701bec
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: b2c59bc40b5092a4a2ee6e06bcb2e49a86e0201d
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528079"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570654"
 ---
 # <a name="assign-or-revoke-licenses-at-the-same-time-to-multiple-users-in-a-customer-account"></a>Licencek kiosztása és visszavonása egy adott időpontban több felhasználó számára egy ügyfél-fiókban
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -42,7 +38,7 @@ A partner Center nyomon követi és megjeleníti az összes ügyfél tulajdonáb
 
 3. Jelölje be a listából a két vagy több felhasználó jelölőnégyzetét. (Az aktuális oldalon lévő összes felhasználó kiválasztásához jelölje be a **felhasználók** oszlop tetején látható jelölőnégyzetet.)
 
-    Több oldalon is megtalálhatja és kiválaszthatja a felhasználókat az **első** , az **előző** , a **következő** és az **utolsó** eszköz használatával.
+    Több oldalon is megtalálhatja és kiválaszthatja a felhasználókat az **első**, az **előző**, a **következő** és az **utolsó** eszköz használatával.
 
 4. Válassza ki a **kijelölt felhasználók** hivatkozást. A megjelenített listán a kiválasztott felhasználók láthatók.
 
@@ -71,7 +67,7 @@ A partner Center nyomon követi és megjeleníti az összes ügyfél tulajdonáb
 7. Jelöljön ki egynél több terméket a felhasználók számára az egyes termékek jelölőnégyzetének kiválasztásával.
     -   Válassza a **szolgáltatási csomagok megtekintése** bármely termék esetében lehetőséget a felhasználók által igényelt szolgáltatási csomagok megtekintéséhez és kiválasztásához.
 
-8. Kattintson a **Mentés** gombra. A partner Center megnyitja a **licencek frissített** megerősítő oldalát, amely felsorolja a felhasználókat és az új licenceket.
+8. Válassza a **Mentés** lehetőséget. A partner Center megnyitja a **licencek frissített** megerősítő oldalát, amely felsorolja a felhasználókat és az új licenceket.
 
 >[!NOTE]
 >Előfordulhat, hogy egyes Microsoft-termékek nem állnak rendelkezésre bizonyos helyszíneken. Más termékek más termékektől vagy szolgáltatástól függenek, vagy nem rendelhetők hozzá egyszerre ugyanahhoz a felhasználóhoz. A mentés után a megerősítő lap felsorolja a sikeres licenc-hozzárendelésből származó összes felhasználó eredményét, valamint a licenc-hozzárendelés hibáit.
@@ -84,7 +80,7 @@ A partner Center nyomon követi és megjeleníti az összes ügyfél tulajdonáb
 
 3. Jelölje be a listából a két vagy több felhasználó jelölőnégyzetét. (Az aktuális oldalon lévő összes felhasználó kiválasztásához jelölje be a **felhasználók** oszlop tetején látható jelölőnégyzetet.)
 
-    Lap az **első** , **előző** , **következő** és **utolsó** eszközön, ahol megkeresheti és kiválaszthatja a többi felhasználót. Több oldalra is kiválaszthat.
+    Lap az **első**, **előző**, **következő** és **utolsó** eszközön, ahol megkeresheti és kiválaszthatja a többi felhasználót. Több oldalra is kiválaszthat.
 
 4. A felhasználók kiválasztása után válassza a **kiválasztott felhasználók** hivatkozást. A megjelenített lista csak a kiválasztott felhasználókat jeleníti meg.
 
@@ -94,9 +90,9 @@ A partner Center nyomon követi és megjeleníti az összes ügyfél tulajdonáb
 
    Ha például az összes kiválasztott felhasználó rendelkezik Office 365 Enterprise licenccel, és vissza kívánja vonni őket, jelölje be a jelölőnégyzetet a törléshez.
 
-7. Kattintson a **Mentés** gombra.
+7. Válassza a **Mentés** lehetőséget.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Licencek kiosztása egy felhasználóhoz](assign-licenses-to-users.md)
 

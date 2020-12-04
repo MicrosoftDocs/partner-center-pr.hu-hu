@@ -9,19 +9,14 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4ff64c265aadacca5389c16168d1e161936f5e88
-ms.sourcegitcommit: e243bc0ef337f5d92c5b208ce6bb9dc5f179b185
+ms.openlocfilehash: 254543c353669166ed9971d57e6255bd589ccb7d
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "92528059"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570705"
 ---
 # <a name="billing-overview-for-csp-program-partners-working-in-partner-center"></a>Számlázás áttekintése a Partnerközpontban dolgozó, CSP-programban részt vevő partnerek számára 
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Partnerek a Cloud Solution Provider (CSP) programban
 
 **Megfelelő szerepkörök**
 
@@ -31,13 +26,16 @@ ms.locfileid: "92528059"
 - Segélyszolgálat ügynöke
 - Értékesítési ügynök
 
+Ez a cikk a partner Centerben lévő CSP-partnerek alapszintű számlázási és számlázási információit tartalmazza, beleértve az ügyfelek számlázását és a számla megkeresését és beolvasását.
+
+
 ## <a name="find-your-bill"></a>Számla megkeresése
 
 A számla megkeresése:
 
-1. [Jelentkezzen be a partner Center irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
 
-2. A bal oldali menüben válassza a **számlázás** lehetőséget.
+2. A partner Center menüben válassza a **számlázás** lehetőséget.
 
 3. A **Számlázási** oldalon letöltheti a legújabb számlát, vagy letöltheti a korábbi számlákat a **Számlázási előzmények** szakaszban.
 
@@ -45,17 +43,17 @@ A számla megkeresése:
 
 A Microsoft nem rendelkezik a saját számlázási adatainak kezelésével kapcsolatos követelményekkel és feltételekkel.
 
-Az ügyfél használatának megállapításához [tekintse meg a megbékélési fájlokat](#find-your-bill). A használat meghatározásához használhatja az ügyfél nevét és az egyéb releváns mezőket is.
+Az ügyfél használatának megállapításához tekintse meg a [megbékélési fájlokat](#find-your-bill). Használja az ügyfél nevét és az egyéb releváns mezőket a használat meghatározásához.
 
 ### <a name="billing-types"></a>Számlázási típusok
 
-A fiókpartner számlázási típusai közé tartozik a **licenc alapú számlázás** , a **használati alapú számlázás** és az **egyszeri számlázás** . 
+A fiókpartner számlázási típusai közé tartozik a **licenc alapú számlázás**, a **használati alapú számlázás** és az **egyszeri számlázás**. 
 
 ### <a name="billing-currency"></a>Számlázási pénznem
 
-**Licenc-alapú és használaton alapuló számlázás** : a termék (ek) számlázása azon ország vagy régió pénznemében történik, amelyben Ön található. A díjat a termék (ek) értékesítésének helyétől függetlenül kell megfizetni.
+**Licenc-alapú és használaton alapuló számlázás**: a termék (ek) számlázása azon ország vagy régió pénznemében történik, amelyben Ön található. A díjat a termék (ek) értékesítésének helyétől függetlenül kell megfizetni.
 
-**Egyszeri számlázás** : a számla az ügyfél pénznemének kontextusában jön létre. Ez azt jelenti, hogy ha Ön olyan partner, amely különböző számlázható pénznemekkel rendelkező ügyfelekkel rendelkezik, minden egyes ügyfél-pénznem típushoz számlát fog kapni. Tudjon meg többet az [egykori és az ismétlődő](azure-plan-billing.md)szolgáltatásról. 
+**Egyszeri számlázás**: a számla az ügyfél pénznemének kontextusában jön létre. Ez azt jelenti, hogy ha Ön olyan partner, amely különböző számlázható pénznemekkel rendelkező ügyfelekkel rendelkezik, minden egyes ügyfél-pénznem típushoz számlát fog kapni. Tudjon meg többet az [egykori és az ismétlődő](azure-plan-billing.md)szolgáltatásról. 
 
 ## <a name="invoices"></a>Számlák
 
@@ -72,7 +70,7 @@ Az árlisták havonta frissülnek. Az előzetes árlista egy (1) hónapban érhe
 Árlisták megtekintése:
 
 1. [Jelentkezzen be a partner Center irányítópultra](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza az **értékesítés** , majd a **díjszabás és ajánlatok** lehetőséget.
+2. A bal oldali menüben válassza az **értékesítés**, majd a **díjszabás és ajánlatok** lehetőséget.
 3. A **díjszabás és ajánlatok** oldalon 6 hónap árlista látható (beleértve az aktuális hónapot) és az előzetes verzió árlista (ahol alkalmazható).
 
 A **licenc-alapú** árak az előfizetés feltételeinek megfelelően garantáltak, általában a vásárlás dátumától számítva 12 hónapig. 
@@ -153,7 +151,7 @@ A mért szolgáltatási díjak a számlázási cikluson belül változhatnak.
 Az aktuális számlázási állapot, számlák és egyeztetési fájlok megtekintéséhez:
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza a **számlázás** , majd az **ismétlődő és egyszeri vásárlások** lehetőséget.
+2. A bal oldali menüben válassza a **számlázás**, majd az **ismétlődő és egyszeri vásárlások** lehetőséget.
 3. A számlázási állapot lapon válassza ki a számlát vagy a megbékélési fájlt, és tekintse meg a részletesebb információkat.
 
 ### <a name="customer-order-history"></a>Vevői rendelés előzményei
@@ -173,3 +171,8 @@ Előfordulhat, hogy a következő okok miatt kreditet vagy számlázást kell k�
 - A számla generálása után adót kell fizetni. Jóváírást vagy számlázást igényelhet az eredeti számlán visszaállított adó-visszatérítéssel. Ugyanez érvényes a visszatérítések esetében is. Kérheti az eredeti számla jóváírását vagy visszaszámlázását, majd a visszatérítés lekérését.
 
 **Az egyszeri és az ismétlődő tranzakciók esetében** a Microsoft jóváírási megjegyzést is kiadhat, amikor jóváírást vagy számlázást kér. A rendszer a jóváírás kiállításakor megszakítja a számlát. 
+
+## <a name="next-steps"></a>További lépések
+
+- [A számla és a megbékélési fájl megismerése](read-your-bill.md)
+- [A CSP program partnereinek általános számlázási forgatókönyvei](common-billing-scenarios.md)

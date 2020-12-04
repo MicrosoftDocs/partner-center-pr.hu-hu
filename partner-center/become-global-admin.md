@@ -1,7 +1,7 @@
 ---
 title: Legyen a vállalat globális rendszergazdája
 ms.topic: how-to
-ms.date: 10/02/2020
+ms.date: 12/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: A partner Centerben való működéshez először ellenőriznie kell a tartomány tulajdonjogát. Ebből a témakörből megtudhatja, hogyan teheti ezt meg, és hogyan válhat olyan globális rendszergazda, aki hozzáadhat felhasználókat.
@@ -9,32 +9,22 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: abec236f4856fdbfbcaa9654623c5f00b9a47584
-ms.sourcegitcommit: d9c7890520ecd37a7651e976d540cfe65c51be54
+ms.openlocfilehash: bb6b167cafec3574906377281cf4699b0a15c32e
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "92530192"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570722"
 ---
 # <a name="verify-your-domain-ownership-to-become-global-admin"></a>A tartomány tulajdonjogának igazolása a globális rendszergazdává váláshoz 
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
 - Fiókadminisztrátor
 
-Ha a vállalat először hoz létre fiókot a partner Centerben, valószínűleg az alkalmazottak nem lesznek hozzárendelve a működés megkezdéséhez szükséges szerepkörökhöz.  Ahhoz, hogy működjön a partner Centerben, mindenkinek szüksége van egy szerepkörre, amely magában foglalja a hozzájuk rendelt engedélyeket.  
-
-## <a name="find-the-companys-global-admin"></a>A vállalat globális rendszergazdájának megkeresése
-
-1. A partner központ jobb felső sarkában található **Beállítások ikonra** kattintva válassza a **felhasználói kezelés** lehetőséget.
-
-1. Szűrés a globális rendszergazda mezőben a keresőmezőbe. Ekkor megjelenik a vállalat globális rendszergazdáinak listája. Ha a vállalat még nem rendelkezik globális rendszergazdai jogosultsággal, kövesse az alábbi utasításokat.
-
+A partner Centerben való működéshez először ellenőriznie kell a tartomány tulajdonjogát, és a vállalat globális rendszergazdájának kell lennie. Emellett az alkalmazottak nem kapják meg a szükséges szerepköröket a munka megkezdéséhez.  Ahhoz, hogy működjön a partner Centerben, mindenkinek szüksége van egy szerepkörre, amely magában foglalja a hozzájuk rendelt engedélyeket.  
 
 ## <a name="verify-your-domain-ownership-to-become-a-global-admin-in-partner-center"></a>Annak ellenőrzése, hogy a tartomány tulajdonjoga globális rendszergazda lesz-e a partner Centerben
 
@@ -61,6 +51,12 @@ A tartomány tulajdonjogának ellenőrzése globális rendszergazdai jogosultsá
 - Partner-felhasználók megtekintése, létrehozása és kezelése
 - Cloud Services vásárlása és kezelése
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="find-the-companys-global-admin"></a>A vállalat globális rendszergazdájának megkeresése
+
+1. A partner központ jobb felső sarkában található **Beállítások ikonra** kattintva válassza a **felhasználói kezelés** lehetőséget.
+
+1. Szűrés a globális rendszergazda mezőben a keresőmezőbe. Ekkor megjelenik a vállalat globális rendszergazdáinak listája. Ha a vállalat még nem rendelkezik globális rendszergazdai jogosultsággal, kövesse az alábbi utasításokat.
+
+## <a name="next-steps"></a>További lépések
 
 - A szerepkörökről és engedélyekről további információt a [felhasználói fiókok létrehozása](create-user-accounts-and-set-permissions.md)című témakörben talál. 

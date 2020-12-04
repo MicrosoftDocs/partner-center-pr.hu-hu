@@ -1,6 +1,6 @@
 ---
 title: Ügyfél szolgáltatás állapotának keresése
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,18 +9,14 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 34b74d6039e0fb184d7fcb7f3a5b24717d593ed3
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 60957d227197460a0cdb108e1826758e0ec48e03
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528071"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570620"
 ---
 # <a name="check-service-health-for-a-customer-reporting-a-potential-service-problem-or-outage"></a>A szolgáltatás állapotának keresése a lehetséges szolgáltatási problémát vagy kimaradást jelentő ügyfelek számára
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -29,11 +25,11 @@ ms.locfileid: "92528071"
 - Segélyszolgálat ügynöke
 - Értékesítési ügynök
 
-Az egyik első dolog, amit elvégezhet, ha az ügyfél problémába ütközik a szolgáltatással, hogy ellenőrizzék a szolgáltatás állapotát. 
+Ez a cikk azt ismerteti, hogyan használható a partner központ a szolgáltatás állapotának vizsgálatához, amikor a szolgáltatással kapcsolatos problémát tapasztalnak. 
 
-## <a name="check-service-health"></a>Szolgáltatás állapotának keresése
+## <a name="check-service-health"></a>A szolgáltatás állapotának ellenőrzése
 
-1. Válassza ki azt az **ügyfelet** , akinek a problémája van az **ügyfél listából** .
+1. Válassza ki azt az **ügyfelet** , akinek a problémája van az **ügyfél listából**.
 
 2. A bal oldali menüben válassza a **Service Management** lehetőséget. Ez felsorolja az ügyfél számára kiosztott szolgáltatásokat és a szolgáltatás állapotát. A partnerek a kívánt szolgáltatásra kattintva további információkhoz juthatnak. 
 
@@ -42,11 +38,11 @@ Az egyik első dolog, amit elvégezhet, ha az ügyfél problémába ütközik a 
  
 A szolgáltatás leállása során a Microsoft rendszeres frissítéseket biztosít a probléma megoldásához. Ezek az értesítések a Microsoft Azure Portal vagy a Microsoft 365 felügyeleti központban is megjelennek.
 
-## <a name="next-steps"></a>Következő lépések 
+## <a name="next-steps"></a>További lépések 
 
 - Ha a probléma a szolgáltatás leállása után sem szűnik meg, küldje el a szolgáltatási kérelmet. Tekintse [meg a jelentéssel kapcsolatos problémákat az ügyfél nevében](report-problems-on-behalf-of-a-customer.md).
 
 - Microsoft 365 és Microsoft Azure minden olyan [API-t, amelyet a partnerek a valós idejű szolgáltatás állapotának](get-automated-service-notifications-with-our-apis.md), az üzenetsor-kommunikációnak és a tervezett karbantartási események lekérésére használhatnak.
 
- 
+ 
 

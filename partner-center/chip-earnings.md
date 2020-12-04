@@ -1,22 +1,22 @@
 ---
-title: A ZSETONok eredményének megtekintése
+title: Bevételek megtekintése a CHIP felületén
 ms.topic: how-to
 ms.date: 11/09/2020
-description: A ZSETONok jövedelmének megtekintéséhez szükséges irányelvek
+description: Ismerje meg, hogyan tekintheti meg az ösztönzőket és a bevételeket a Channel ösztönzők platform (CHIP) eszközben.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b860b8ccd932e23bd12e17e1441a3113cc29400f
-ms.sourcegitcommit: b8e9609fd6448fcb265e4afc480d7a97e8009e63
+ms.openlocfilehash: a78fb9d13d149cba75fc616b93cdfe0b47dfafc4
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94422220"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570501"
 ---
-# <a name="view-earnings-in-chip"></a>A ZSETONok eredményének megtekintése
+# <a name="view-earnings-using-the-chip-tool"></a>Bevétel megtekintése a CHIP eszköz használatával
 
 Az ösztönzőket a Channel ösztönzők platform Tool (CHIP) eszköz használatával érheti el.
 
@@ -41,4 +41,4 @@ Az ösztönzőket a Channel ösztönzők platform Tool (CHIP) eszköz használat
 
 ## <a name="next-steps"></a>További lépések
 
-- [Kifizetés állapotának beadása a CHIPben](chip-payment-status.md)
+- [A kifizetési állapot ellenőrzése a CHIP felületén](chip-payment-status.md)

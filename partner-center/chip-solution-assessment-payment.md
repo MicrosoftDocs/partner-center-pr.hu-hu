@@ -1,24 +1,24 @@
 ---
-title: Megoldás-értékelési fizetési állapot és számítási információ
+title: Megoldás-értékelési fizetési állapot
 ms.topic: how-to
 ms.date: 11/09/2020
-description: További információ a megoldás-értékelési kifizetésekről.
+description: A Channel ösztönző platform (CHIP) segítségével megtalálhatja a megoldás-értékelési lehetőségekkel, azok számításaival és a fizetési állapotukkal kapcsolatos információkat.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 50aadcb667ff931e53b08a7902bb247798975e2d
-ms.sourcegitcommit: b8e9609fd6448fcb265e4afc480d7a97e8009e63
+ms.openlocfilehash: 6ab0cd74e3955a71383b2ba758dc76b1b37fdee6
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94422208"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570467"
 ---
 # <a name="solution-assessment-payment-status-and-calculation-info"></a>Megoldás-értékelési fizetési állapot és számítási információ
 
-A megoldás-értékelési lehetőség állapotának fizetési állapotát a CHIPben tekintheti át. 
+A megoldás-értékelési lehetőség állapotának fizetési állapotát a CHIPben tekintheti át.
 
 ## <a name="how-to-review-your-payment-status"></a>A fizetési állapot áttekintése
 
@@ -52,4 +52,4 @@ A lehetőségeknek a következő attribútumokkal kell rendelkezniük ahhoz, hog
 
 ## <a name="next-steps"></a>További lépések
 
-- [Probléma a CHIP elérésekor](chip-access-trouble.md) 
+- [Problémák a CHIP elérésekor](chip-access-trouble.md) 

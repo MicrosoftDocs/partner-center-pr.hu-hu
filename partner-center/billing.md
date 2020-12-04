@@ -9,19 +9,14 @@ ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
 ms.date: 04/05/2020
-ms.openlocfilehash: d34744b1bfe8508c1bcdb804b109f7ac00ad27b8
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 6bb915681d65213c1180bab1f44f49372cb72697
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529893"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570637"
 ---
 # <a name="overview-main-billing-and-tax-articles-in-partner-center"></a>Áttekintés: fő számlázási és adózási cikkek a partner Centerben
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
 
 **Megfelelő szerepkörök**
 
@@ -30,7 +25,10 @@ ms.locfileid: "92529893"
 - Globális rendszergazda
 - Értékesítési ügynök
 
-| Témakör | Description (Leírás) |
+Ez a artilce a fiókpartner számlázási és adózási témaköreire mutató hivatkozásokat tartalmaz, beleértve a számlázási erőforrásokat, a számlákat, a CSP számlázási adatait és az adókat.
+
+
+| Témakör | Description |
 | ----- | ----------- |
 | [A számlázás alapjai](billing-basics.md) | A partner Center-számlázás alapjai (beleértve a kifizetéseket, a számlákat és a megbékélési fájlokat). |
 | [Számlázási típusok](billing-different-types.md) | A partner Center különböző számlázási típusait ismerteti. |
@@ -44,3 +42,7 @@ ms.locfileid: "92529893"
 | [SLA-kredit igénylése kimaradások esetén](request-credit.md) | SLA-kredit igénylése a Microsofttól az ügyfelek számára, ha a szolgáltatás leáll. |
 
 Ha a partner Center API számlázási információit és erőforrásait keresi, tekintse meg a [fejlesztői számlázási dokumentációját](/partner-center/develop/manage-billing).
+
+## <a name="next-steps"></a>További lépések
+
+- [Fizetés fogadása a kereskedelmi piactéren](marketplace-get-paid.md)

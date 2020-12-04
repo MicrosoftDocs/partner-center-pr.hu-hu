@@ -9,12 +9,12 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f94b11c4feb9cd1bedd97bebc537a504f9c4d127
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: e3f04708d3b7e2c86c88541931c120a6649674fb
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528482"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570790"
 ---
 # <a name="create-a-partner-center-account-to-manage-network-benefits-and-competencies"></a>Partner Center-fiók létrehozása hálózati előnyök és kompetenciák kezeléséhez
 
@@ -25,21 +25,25 @@ ms.locfileid: "92528482"
 
 Ahhoz, hogy fiókot hozzon létre a partner Centerben, a vállalatnak a Microsoft Partner Network tagjának kell lennie. Ha még nem tagja a hálózatnak, [csatlakozhat most](https://partner.microsoft.com/commercial#). A partner Center-fiók létrehozása után tekintse meg ezt a rövid videót [az irányítópulton](https://vimeo.com/290338211).
 
-## <a name="before-you-begin"></a>Előkészületek
+## <a name="get-a-work-email-address-before-setting-up-a-partner-center-account"></a>Munkahelyi e-mail-cím beszerzése a partner Center-fiók beállítása előtt
+
+A vállalatnak egy e-mail-tartományt kell megvásárolnia ahhoz, hogy be tudja állítani a munkahelyi e-mail-címeket az alkalmazottak számára. Működjön együtt az informatikai részleggel egy e-mail-tartomány megvásárlásához, mivel ez egy technikai folyamat. Az új e-mail-cím használatával beállíthatja az Azure AD-bérlőt és a partner Center-fiókját.
+
+## <a name="get-started"></a>Bevezetés
 
 Ahhoz, hogy fiókot hozzon létre a partner Centerben, a következő információkat kell megadnia. Az első lépések megkezdése előtt érdemes lehet néhány percet igénybe venni:
 
--   Globális rendszergazdai munkahelyi e-mail cím.
+- Globális rendszergazdai munkahelyi e-mail cím.
 
--   Ha nem biztos abban, hogy mi a munkahelyi fiókja, tekintse [meg a munkahelyi fiókját és a partneri központot](azure-active-directory-tenants-and-partner-center.md) , ha a vállalat nem rendelkezik munkahelyi fiókkal, létrehozhat egyet a fiók létrehozási folyamata során. 
+- Ha nem biztos abban, hogy mi a munkahelyi fiókja, tekintse [meg a munkahelyi fiókját és a partneri központot](azure-active-directory-tenants-and-partner-center.md) , ha a vállalat nem rendelkezik munkahelyi fiókkal, létrehozhat egyet a fiók létrehozási folyamata során. 
 
--   A vállalat jogi üzleti neve és címe.  
+- A vállalat jogi üzleti neve és címe.  
 
--   Jogi szerződések aláírására szolgáló hatóság. Győződjön meg arról, hogy jogosult a jogi szerződések aláírására a vállalat nevében, mivel ezt a beléptetési folyamat során meg kell adnia.
+- Jogi szerződések aláírására szolgáló hatóság. Győződjön meg arról, hogy jogosult a jogi szerződések aláírására a vállalat nevében, mivel ezt a beléptetési folyamat során meg kell adnia.
 
--   Az elsődleges kapcsolattartóként használni kívánt személy neve és vállalati e-mail-címe. A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és hogy (2) Ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését.
+- Az elsődleges kapcsolattartóként használni kívánt személy neve és vállalati e-mail-címe. A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és hogy (2) Ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését.
 
-Ezt az információt a fiók létrehozási folyamata során ellenőrizzük. 
+Ezt az információt a fiók létrehozási folyamata során ellenőrizzük. Az ellenőrzési folyamattal kapcsolatos információkért lásd: [Fiók ellenőrzése](verification-responses.md)
  
 ## <a name="create-a-partner-center-account"></a>Partnerközpontfiók létrehozása
 
@@ -100,12 +104,12 @@ Az alábbi lépéseket követve megtekintheti a fiók adatait, vagy megtekinthet
 
    :::image type="content" source="images/accountsettings/mpn-program-info-download-mpn-agreement.png" alt-text="Kép: a partner profilja oldalon található program információi területe egy piros mező, amely az MPN program állapota mezőt emeli ki ezen a területen, valamint a hozzá tartozó hivatkozást a Microsoft Partner Network szerződéshez.":::
 
-6. A szerződés megtekintéséhez vagy letöltéséhez válassza **Microsoft Partner Network szerződést** .  
+6. A szerződés megtekintéséhez vagy letöltéséhez válassza **Microsoft Partner Network szerződést**.  
 
 > [!NOTE]
 > A fenti lépésekkel más, regisztrált programok, például a Microsoft partneri szerződés esetében is megtekintheti és letöltheti a más szerződéseket, ha azok regisztrálva vannak a Cloud Solution Provider (CSP) programban.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 -   [Felhasználói fiókok hozzáadása és engedélyek kiosztása](create-user-accounts-and-set-permissions.md)
 

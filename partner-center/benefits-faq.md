@@ -9,19 +9,21 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOJUNE20
-ms.openlocfilehash: 089d358b75d17c409d614ed63e92aee921b1c80f
-ms.sourcegitcommit: e4f870b9070eb3aed49061cc652d124ba0d05b68
+ms.openlocfilehash: 61ceb869d2268b441d990049b9956da8ea87f8f5
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95417251"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570688"
 ---
 # <a name="benefits-faq"></a>Az előnyökkel kapcsolatos gyakori kérdések
 
-A következőkre vonatkozik:
+**Megfelelő szerepkörök**
 
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
+- MPN-rendszergazda
+
+A jelen cikk Microsoft Partner Network (MPN) előnyeivel kapcsolatos gyakori kérdéseket tárgyalja.
+
 
 ## <a name="general-questions"></a>Általános kérdések
 
@@ -87,7 +89,7 @@ A következő lépések végrehajtásával rendelhet hozzá előfizetéseket a p
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A bal oldali navigációs panelen válassza az **MPN** elemet.
+2. A partner Center menüben válassza az **MPN** elemet.
 
 3. Válassza az **előnyök** lehetőséget, majd válassza a **Visual Studio** elemet.
 
@@ -96,7 +98,7 @@ A következő lépések végrehajtásával rendelhet hozzá előfizetéseket a p
 Az előfizetés hozzárendelése után a felhasználónak be kell jelentkeznie a Visual studióba a kezeléséhez.
 
 >[!Note]
-> A Visual Studio-előfizetések az eredeti hozzárendelés 90 napja után ismét hozzárendelhetők egy előfizetőhöz
+> Előfordulhat, hogy a Visual Studio-előfizetések az eredeti hozzárendelés után egy másik 90 nappal újra hozzárendelhetők egy előfizetőhöz.
 
 ## <a name="technical-benefits-and-support"></a>Technikai előnyök és támogatás
 
@@ -106,7 +108,7 @@ A telepítés, az aktiválás és az egyéb termékkel kapcsolatos súgó a Micr
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A bal oldali navigációs panelen válassza az **MPN** elemet.
+2. A partner Center menüben válassza az **MPN** elemet.
 
 3. Válassza az **előnyök** lehetőséget, majd válassza a **technikai előnyök** lehetőséget.
 
@@ -115,3 +117,7 @@ A telepítés, az aktiválás és az egyéb termékkel kapcsolatos súgó a Micr
 5. Jelentkezzen be [Microsoft ügyfélszolgálataba](https://support.microsoft.com/supportforbusiness/productselection).
 
 6. Válassza ki a telepíteni kívánt terméket, majd hozzon létre egy technikai támogatási jegyet.
+
+## <a name="next-steps"></a>További lépések
+
+- [Szerezzen be egy speciális specializációt a szaktudás bemutatásához](advanced-specializations.md)

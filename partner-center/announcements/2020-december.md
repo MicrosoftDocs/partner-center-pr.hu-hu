@@ -9,18 +9,61 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/02/2020
-ms.openlocfilehash: d0bc790e31cf38aabc1703f073c42f8946c316ee
-ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
+ms.openlocfilehash: 38a9b83c5c13ed0a0c0f27db409335f9b86b8173
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 12/03/2020
-ms.locfileid: "96556724"
+ms.locfileid: "96570773"
 ---
 # <a name="december-2020-announcements"></a>December 2020 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi hirdetményeit.
 
-2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [November](2020-november.md)| December
+2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [November](2020-november.md) | December
+
+
+______________
+
+## <a name="an-update-of-the-us-microsoft-365-business-voice-with-calling-plan-offer-is-coming-soon"></a><a name="2"></a>Hamarosan elérhető az USA Microsoft 365 Vállalati verzió hangja a Calling Plan ajánlattal
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-3
+- Ajánlatok/piacok
+
+### <a name="summary"></a>Összefoglalás 
+
+2021. január 1-jén a Microsoft elkezdi az Egyesült államokbeli partnereket és ügyfeleket új Microsoft 365 Vállalati verzió hangra a Calling Plan ajánlatával. Nincs szükség partneri beavatkozásra.
+
+### <a name="impacted-audience"></a>Érintett közönség 
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="details"></a>Részletek
+
+A Microsoft lecseréli a meglévő üzleti hangját a Calling Plan ajánlatával az Egyesült Államokban egy új ajánlattal, amely támogatja a távközlési termékek belső követelményeit. Az új ajánlat ugyanazokkal a funkciókkal és díjszabással fog rendelkezni. Az ajánlat változásai a Microsofton belül vannak, és nem érinthetik a CSP-partnerek piaci, értékesítési és támogatási tevékenységeit a Calling Plan ajánlatával. A módosítás csak erre az ajánlatra érvényes.
+
+Az új értékesítések esetében az új ajánlatot a 2021. január 1-től kezdődően fogjuk használni. A régi ajánlatot a árlista új ajánlata váltja fel.
+
+A meglévő ügyfelek automatikusan az új ajánlatra lesznek átirányítva a megújítási dátum alapján. A partnerek nem igényelnek semmilyen műveletet, és nem kell megújítani az ügyfeleket.
+
+
+* * Új ajánlat részletei
+ 
+   |**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+   |-------------------|:------|:------|
+   |Microsoft 365 Vállalati verzió hang (US)|86713ec1-ad33-42cf-a1ce-8397d4d875fe|PZW-00023|
+   
+* * A régi ajánlat részletei
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+   |-------------------|:------|:------|
+   |Microsoft 365 Vállalati verzió hang (US)|9f9f2c7b-c961-402b-9421-8e3c9207eeb3|PZW – 00009|
+
+### <a name="next-steps"></a>További lépések
+
+Ismerkedjen meg az árlistát, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
 ______________
 
