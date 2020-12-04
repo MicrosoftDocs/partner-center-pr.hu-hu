@@ -1,4 +1,5 @@
 # [A partnerközpont közleményei](index.md)
+# [2020. december](2020-december.md)
 # [2020. november](2020-november.md)
 # [2020. október](2020-october.md)
 # [2020. szeptember](2020-september.md)
