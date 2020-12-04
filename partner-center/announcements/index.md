@@ -8,20 +8,23 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 11/19/2020
-ms.openlocfilehash: c3d811a32e2ddd9d7127fe331beb944e5e7b20fb
-ms.sourcegitcommit: 511c21ae664bd438dc9d11f880cd58400a5d9eea
+ms.date: 12/03/2020
+ms.openlocfilehash: caf7527e82b6474c19714345ff9c3339a344704a
+ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94932769"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96570756"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
 Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat gyakran frissítjük, ezért érdemes gyakran visszalátogatnia ide.
 
-| **Kategória** | **2020. novemberi közlemények** | **Bejelentve** |
+| **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[Hamarosan elérhetővé válik a US Microsoft 365 Business Voice híváscsomagos ajánlata](2020-december.md#2)|December 3.|
+|Képességek|[Már elérhető: A Partnerközpont API-frissítései és a felhasználói felület fejlesztései az Education szolgáltatás ügyfél-hitelesítési folyamatához](2020-december.md#1)|December 3.|
+| **Kategória** | **2020. novemberi közlemények** | **Bejelentve** |
 |Képességek|[Új, egységes fiókfelügyeleti felület](2020-november.md#13)|November 18.|
 |Ajánlatok/piacok|[Office 365 E1 középvállalatokra vonatkozó promóciókhoz (LATAM, APAC és India)](2020-november.md#12)|November 18.|
 |Képességek|[A Partnerközpont API-frissítései és a felhasználói felület fejlesztései az ügyfelek hatékonyabb szűrése érdekében bizonyos országokban.](2020-november.md#11)|November 17.|
