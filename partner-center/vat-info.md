@@ -1,21 +1,21 @@
 ---
-title: Hozzáadottérték-adó (ÁFA) adatai a partner Center regisztrációjában
+title: Áfainformáció a Partnerközpont regisztrációja során
 description: Ha a fiókpartner regisztrációs folyamata során meg kell adnia egy ÁFA-azonosítót, ez az információ segítséget nyújt az első lépésekhez.
 ms.topic: article
 author: mingshen-ms
 ms.author: mingshen
 ms.localizationpriority: medium
-ms.date: 10/31/2018
-ms.openlocfilehash: e455110d0ef631c4eb4eaefd67bd209c7f1b1abf
-ms.sourcegitcommit: d9c7890520ecd37a7651e976d540cfe65c51be54
+ms.date: 12/04/2020
+ms.openlocfilehash: 2f46213cb72717c36461f58c159fa6a5803e3bb2
+ms.sourcegitcommit: 54c19f62474a4841d0bbd6a02a84b9c597f70fae
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "92530210"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96755639"
 ---
-# <a name="vat-info"></a>Áfával kapcsolatos információ
+# <a name="value-added-tax-vat-information"></a>Hozzáadottérték-adó (ÁFA) adatai
 
-**A következőkre vonatkozik:**
+**Hatóköre:**
 
 - Partnerközpont
 - Kereskedelmi piactér
@@ -25,6 +25,24 @@ Ha a partneri központ regisztrációs folyamata során meg kell adnia egy ÁFA-
 ## <a name="understanding-vat-numbers"></a>Az ÁFA számának ismertetése
 
 A hozzáadottérték-adó (ÁFA) szám az Európai Unió országaihoz vagy régióihoz használt azonosító. További információkért tekintse meg az Európai Unió hivatalos [VIES-webhelyét](http://ec.europa.eu/taxation_customs/vies/vieshome.do).
+
+## <a name="location-specific-vat-information"></a>Helyspecifikus ÁFA-információk
+
+Az alábbi részletek az alább felsorolt országokban vagy régiókban egyediek.
+
+### <a name="european-union"></a>Európai Unió
+
+Az Európai Unió tagállamaiban a partnereknek meg kell adniuk érvényes ÁFA-azonosítószámát a fordított díj és a megfelelő számlázás érdekében. Az ÁFA-számot érvényesként kell elfogadni.
+
+A Microsoft nem támogatja a kreditek és az újbóli számlázást. Az előfizetések értékesítése előtt [regisztrálnia kell az ÁFA azonosítószámát](organization-tax-info.md) a partner Centerben.
+
+### <a name="south-africa"></a>Dél-afrikai Köztársaság
+
+A Microsoft a standard szintű ÁFÁ-t a Dél-afrikai partnerek által vásárolt digitális tartalomra és szolgáltatásokra alkalmazza. Ha ki szeretné zárni az áfát a számlákból, és ezt saját maga felügyeli, frissítenie kell a partner számlázási profilját a [Microsoft számára az ÁFA-azonosító számának elküldésével](organization-tax-info.md).
+
+### <a name="turkey"></a>Törökország
+
+A Microsoft mostantól a törökországi partnerek által vásárolt digitális tartalomra és szolgáltatásokra alkalmazza a standard szintű áfát. Ha ki szeretné zárni az áfát a számlákból, és ezt saját maga felügyeli, frissítenie kell a partner számlázási profilját a [Microsoft számára az ÁFA-azonosító számának elküldésével](organization-tax-info.md).
 
 ## <a name="accepted-formats-for-vat-numbers"></a>Az ÁFA-számok elfogadott formátumai
 
@@ -60,6 +78,6 @@ Vegye figyelembe, hogy a Microsoft nem nyújt adózási tanácsokat, és az alá
 |Spanyolország |– ÁFA-szám formátuma: 9 számjegy<br/>-Ország/régió kódja: ES<br/>– Példa: X12345678, 12345678X vagy X1234567X<br/>-Megjegyzések: 1 vagy 2 betűt tartalmaz: első, utolsó, vagy első és utolsó. |
 |Svédország |– ÁFA-szám formátuma: 12 számjegy<br/>-Ország/régió kódja: SE<br/>– Példa: 123456789001<br/>-Megjegyzések: az utolsó két karakternek "01" értékűnek kell lennie. |
 |Egyesült Királyság |– ÁFA-szám formátuma: 9 vagy 12 számjegy<br/>-Ország/régió kódja: GB<br/>– Példa: 123456789 vagy 123456789001<br/>-Megjegyzések: 9 számjegy általában, de 12 számjegy, ha a szám egy csoporton belüli alvállalatot képvisel. |
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [A céges adó adatai, valamint a fiókpartner-vásárlások ÁFA-azonosítóinak hozzáadása vagy elküldése](organization-tax-info.md)
