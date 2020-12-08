@@ -8,13 +8,13 @@ author: vikramb
 ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.date: 12/04/2020
-ms.openlocfilehash: 5a1b27f108440fc9adfc2cefefd2e4c2bf79ff48
-ms.sourcegitcommit: 558533fb39b13aefc3ab2b015145a908f86f8d7d
+ms.date: 12/07/2020
+ms.openlocfilehash: bbd2d1035bdcde691b0db620949d0e973667627b
+ms.sourcegitcommit: 351c7ff4e6ebbb615a00190b2310156381f9cf03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96612822"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96776907"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -66,22 +66,22 @@ A partneri központ bal oldali navigációs menüjében válassza az **átirány
   >[!Note]
   > Előfordulhat, hogy ki kell jelentkeznie a partneri központból, és újra be kell jelentkeznie, hogy frissítse a hitelesítő adatait az átirányítási lapokhoz való hozzáféréshez.
 
-Ha nem látja az **átirányítási** lehetőséget a partner Center menüjében vagy az átirányítással kapcsolatos lapokon, lépjen kapcsolatba a vállalat [globális rendszergazdájával](permissions-overview.md) , és kérje meg őket, hogy hozzáférést biztosítson az **átirányítási** lehetőségek és a kapcsolódó területek számára. 
+Ha nem látja az **átirányítási** lehetőséget a partner Center menüjében vagy az átirányítással kapcsolatos lapokon, lépjen kapcsolatba a vállalati [fiók rendszergazdájával](permissions-overview.md) , és kérje meg őket, hogy hozzáférést biztosítson az **átirányítási** lehetőségek és a kapcsolódó területek számára.
 
-A vállalat globális rendszergazdájának megkeresése:
+A vállalati fiók rendszergazdájának megkeresése:
 
 1. Válassza ki a **Fiókbeállítások** elemet a központ irányítópultjának jobb felső sarkában található fogaskerék ikonra kattintva.
 
-1. A második szintű, bal oldali navigációs menüből válassza a **felhasználói kezelés** lehetőséget. 
+1. A második szintű, bal oldali navigációs menüből válassza a **felhasználói kezelés** lehetőséget.
 
-1. A felhasználók listájának tetején válassza a **szűrő** legördülő menüt. Módosítsa a **globális rendszergazda** beállítást.
+1. A felhasználók listájának tetején válassza a **szűrő** legördülő menüt. Módosítsa a **fiók rendszergazdája** beállítást.
 
-   A lap az összes globális rendszergazdát megjeleníti a hozzájuk tartozó e-mail-címekkel. Küldje el az egyiket, és kérje meg őket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
+   A lap megjeleníti az összes fiók rendszergazdáját a hozzájuk tartozó e-mail-címükkel. Küldje el az egyiket, és kérje meg őket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
 
   :::image type="content" source="images/pscmigration/account-admin.png" alt-text="A partner-beállítások felhasználói kezelés lapján található fiók-rendszergazdákat bemutató kép.":::
 
 >[!Important]
->- Ha a szerepkör csak a PSC-felhasználók felügyeletét foglalja magában, kérje meg a vállalat globális rendszergazdáját, hogy rendeljen hozzá a [fiók rendszergazdai](permissions-overview.md#manage-mpn-membership-and-your-company) szerepkörét a partner Centerben. 
+>- Ha a szerepkör csak a PSC-felhasználók felügyeletét foglalja magában, kérje meg a vállalat fiókjának rendszergazdáját, hogy rendelje hozzá a [fiók rendszergazdai](permissions-overview.md#manage-mpn-membership-and-your-company) szerepkörét a partner Centerben. 
 >- Ha a szerepköre magában foglalja a közös értékesítési lehetőségek kezelését is, kérje meg, hogy rendelje hozzá az [Ajánlói rendszergazdai](permissions-overview.md#manage-referrals) szerepkört.
 > - Érdemes kinevezni egy módosítási kezelési érdeklődőt is a PSC-rendszergazdák közé. Ezzel megakadályozza, hogy az összes PSC-rendszergazda külön-külön elérje a partner Center-fiók rendszergazdáit. Ehelyett a Change Management vezető a partner Center-fiók rendszergazdájával dolgozó elsődleges személy lehet.
 
@@ -129,7 +129,7 @@ Időnként előfordulhat, hogy az áttelepítés meghiúsul, és hibákat eredm�
 
 A felhasználó áttelepítésének befejezése után az alábbi útmutatást követve döntse el az áttelepítési stratégiát:
 
-Ha a vállalata rendelkezik PDM – ha a partner Center-fiókja be van állítva, és a felhasználók áthelyezték és rendelkeznek szerepkörökkel és engedélyekkel, áthelyezheti a közös értékesítési tevékenységeket a partner központba. Tájékoztassa a PDM, hogy ne várjon, amíg az áttelepítés befejeződik, és így az összes új ügylet a fiókpartner-központba kerül.
+Ha a vállalata rendelkezik egy partner Development Managerrel (PDM) – Ha a partner Center-fiókja be van állítva, és a felhasználók áthelyezték a szerepköröket és engedélyeket, áthelyezheti a közös értékesítési tevékenységeket a partner központba. Tájékoztassa a PDM, hogy ne várjon, amíg az áttelepítés befejeződik, és így az összes új ügylet a fiókpartner-központba kerül.
 
 >[!Note]
 >Ha elvégezte ezt a kapcsolót, akkor csak a PSC meglévő aktív ajánlatait fogja tudni fellépni. Nem hozhat létre új ajánlatokat, és nem kap ajánlatokat a Microsoft-értékesítők által a PSC-ben.
@@ -137,7 +137,7 @@ Ha a vállalata rendelkezik PDM – ha a partner Center-fiókja be van állítva
 Ha a vállalat nem rendelkezik PDM – győződjön meg arról, hogy az összes felhasználói fiók be van állítva és ellenőrizhető az összes felhasználó számára. A rendszer e-mailben és egy, a PSC-n lévő szalagcímben értesíti a pontos dátumról, amikor a partner Centerben megkezdi a közös értékesítést. Ne feledje, hogy továbbra is a PSC-ben meglévő aktív ajánlatokat kell kezelnie.
 
 >[!Important]
->Az aktív ajánlatokat a rendszer nem telepíti át a számítógépre. Az ajánlatok bezárásához és regisztrálásához 2020 december 31-ig tart.
+>Az aktív ajánlatokat a rendszer nem telepíti át a számítógépre. Az ajánlatok lezárása és regisztrálása 2021. március 31-ig tart.
 
 ## <a name="next-steps-for-psc-admins-psc-deal-managers-and-psc-sellers"></a>A PSC-rendszergazdák, a PSC Deal managerek és a PSC-értékesítők következő lépései
 
@@ -263,7 +263,7 @@ A hozzárendelt szerepkörök beszerzéséhez a "nincs hozzáférés" lapon fels
 
 ### <a name="2---who-can-grant-me-access-to-the-referrals-section-in-partner-center"></a>2 – kik biztosíthatnak hozzáférést a partner központ átirányítások szakaszához?
 
-A [fiók rendszergazdája](permissions-overview.md#manage-mpn-membership-and-your-company) hozzáférést biztosíthat az átirányítások lapjához. A globális rendszergazda kereséséhez válassza ki a **Fiókbeállítások** elemet a központ [irányítópultjának](https://partner.microsoft.com/dashboard)jobb felső sarkában található fogaskerék ikonra kattintva. Ezután a második szintű, bal oldali navigációs sávon válassza a **felhasználói kezelés** lehetőséget. A felhasználók listájának tetején válassza a **szűrő** legördülő menüt, és módosítsa a **globális rendszergazda** beállítást. A lap az összes globális rendszergazdát megjeleníti a hozzájuk tartozó e-mail-címekkel. Kérje meg az egyiket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
+A [fiók rendszergazdája](permissions-overview.md#manage-mpn-membership-and-your-company) hozzáférést biztosíthat az átirányítások lapjához. A fiók rendszergazdájának megkereséséhez válassza a **Fiókbeállítások** elemet a partner Center [irányítópultjának](https://partner.microsoft.com/dashboard)jobb felső sarkában található fogaskerék ikonra. Ezután a második szintű, bal oldali navigációs sávon válassza a **felhasználói kezelés** lehetőséget. A felhasználók listájának tetején válassza a **szűrő** legördülő menüt, és módosítsa a **fiók rendszergazdája** beállítást. A lap megjeleníti az összes fiók rendszergazdáját a hozzájuk tartozó e-mail-címükkel. Kérje meg az egyiket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
 
 ### <a name="3---the-new-deal-button-is-greyed-out-for-our-account-what-should-i-do-to-start-creating-deals"></a>3 – az + új Deal gomb szürkén jelenik meg a fiókban. Mit kell tennem az ajánlatok létrehozásának megkezdéséhez?
 
