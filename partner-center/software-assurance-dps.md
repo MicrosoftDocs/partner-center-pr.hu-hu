@@ -1,7 +1,7 @@
 ---
 title: Frissítési Garanciához kapcsolódó tervezési szolgáltatások
 ms.topic: article
-ms.date: 06/03/2020
+ms.date: 12/02/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan regisztrálhat és minősítheti a Microsoft Planning Services engagements szolgáltatásait, így a képzési és egyéb szolgáltatásokat biztosíthatja az ügyfeleknek a frissítési garanciával.
@@ -9,12 +9,12 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4c61a649da7e4983be1a478fdd963ba937e7783b
-ms.sourcegitcommit: 2254b8c18c34254ed14db55ec20dcb2ccb287663
+ms.openlocfilehash: 03292d00864e30fd4941320748aef1590c9e2a80
+ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "92528178"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96926644"
 ---
 # <a name="software-assurance-planning-services-in-partner-center"></a>Frissítési garanciához kapcsolódó tervezési szolgáltatások a Partnerközpontban
 
@@ -42,10 +42,9 @@ Ez a cikk az egyes lépések befejezését ismerteti.
 
 ## <a name="verify-eligibility-new-partners"></a>Jogosultság ellenőrzése (új partnerek)
 
-Mielőtt a partnerek és a tanácsadók bejelentkezhetnek az egyik tervezési szolgáltatási ajánlatba, meg kell felelniük a megfelelőségi képzési követelményeknek és a kompetenciára vonatkozó követelményeknek:
+Mielőtt a partnerek és a tanácsadók beregisztrálhatnak az egyik tervezési szolgáltatási ajánlatba, meg kell felelniük a kompetenciával kapcsolatos követelményeknek, az alábbiak szerint:
 
-- **Megfelelőségi képzésre vonatkozó követelmények.** A program megfelelőségi képzésének követelményeit a vállalat szintjén kell teljesíteni.
-- **Kompetenciával kapcsolatos követelmények.** A kompetenciára vonatkozó követelmények a kézbesítéshez szükségesek. Előfordulhat például, hogy vállalata regisztrálva van az asztali üzembe helyezési tervezési szolgáltatások (DDPS) ajánlatában. Azonban csak akkor jogosult a DDPS-ajánlaton belül egy adott részvételre, ha a vállalata az adott szerepvállalásra vonatkozó alkalmassági kompetenciával is rendelkezik.
+**Kompetenciával kapcsolatos követelmények.** A kompetenciára vonatkozó követelmények a kézbesítéshez szükségesek. Előfordulhat például, hogy vállalata regisztrálva van az asztali üzembe helyezési tervezési szolgáltatások (DDPS) ajánlatában. Azonban csak akkor jogosult a DDPS-ajánlaton belül egy adott részvételre, ha a vállalata az adott szerepvállalásra vonatkozó alkalmassági kompetenciával is rendelkezik.
 
 >[!NOTE]
 > Ha többet szeretne megtudni az egyes bevonásokra vonatkozó támogathatósági követelményekről, [tekintse meg a szolgáltatások megtervezésére vonatkozó jogosultsági követelményeket](software-assurance-dps-requirements.md).

@@ -1,7 +1,7 @@
 ---
 title: Frissítési garancia képzési utalvány programja
 ms.topic: article
-ms.date: 06/12/2020
+ms.date: 12/09/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan regisztrálhat a frissítési garanciát biztosító betanítási programba, hogy kompenzálja a képzést és a vállalati ügyfelek tervezését.
@@ -9,12 +9,12 @@ author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: 9470918fd868d9e8759f62b37e0bf30a21eaf540
-ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.openlocfilehash: 786f69858dc90a9c0993e88c4900a647a07ba81f
+ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "92528147"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96926608"
 ---
 # <a name="software-assurance-training-voucher-satv-program-in-partner-center"></a>Frissítési garanciához kapcsolódó oktatási utalványprogram (SATV) a Partnerközpontban
 
@@ -45,11 +45,11 @@ A partner Centerben ellenőrizheti a vállalat jogosultságait, beleértve a von
 
 ## <a name="enroll-in-the-training-program"></a>Regisztrálás az oktatási programban
 
-Ha a vállalat megfelel a jogosultsági feltételeknek, és a program résztvevői elvégezték a megfelelőségi képzést, aláírhatja a Frissítési garanciához kapcsolódó oktatási utalványprogram megállapodását, és regisztrálhat. Mindenképpen tekintse át a [SATV program összes házirendjét](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP), majd kövesse a munkafolyamat [2. lépésében](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) található utasításokat a SATV regisztrációs folyamatának elvégzéséhez a partner Centerben.
+Ha a vállalata megfelel a jogosultsági követelményeknek, készen áll a frissítési garancia betanítása program szerződésének aláírására és a regisztrálásra. Mindenképpen tekintse át a [SATV program összes házirendjét](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP), majd kövesse a munkafolyamat [2. lépésében](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) található utasításokat a SATV regisztrációs folyamatának elvégzéséhez a partner Centerben.
 
 
 ## <a name="confirm-course-eligibility"></a>A tanfolyam jogosultságának megerősítése
-A SATV programba való regisztrációt követően a partnerek képzési tanfolyamokat is biztosíthatnak a SATV által jogosult tanfolyamok számára, amelyekhez az ügyfelek használhatják a betanítási bizonylatokat. A jogosult tanfolyamok listáját a [SATV-tanfolyam támogathatósági katalógusa](https://savl-catalog.microsoft.com/)tartalmazza. Tekintse át a munkafolyamat [3. lépését](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) , hogy megtudja, milyen típusú kurzusok SATV jogosultak.
+A SATV programba való regisztrációt követően a partnerek képzési tanfolyamokat is biztosíthatnak a SATV által jogosult tanfolyamok számára, amelyekhez az ügyfelek használhatják a betanítási bizonylatokat. A jogosult tanfolyamok listáját a SATV-tanfolyam támogathatósági katalógusa tartalmazza. Tekintse át a munkafolyamat [3. lépését](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) , hogy megtudja, milyen típusú tanfolyamok SATV jogosultak, vagy hogy a tanfolyamra jogosító katalógusra mutató hivatkozást szerezzen.
 
 ## <a name="have-customer-create-and-assign-voucher"></a>Hozzon létre és rendeljen hozzá egy utalványt
 

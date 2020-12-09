@@ -1,7 +1,7 @@
 ---
 title: A CSP-hez készült Microsoft partneri szerződés (MPA)
-ms.topic: article
-ms.date: 04/27/2020
+ms.topic: how-to
+ms.date: 12/09/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a Microsoft CSP-partnerének követelményeit az egységes, digitálisan elfogadott Microsoft partneri szerződés (MPA) aláírásához és ellenőrzéséhez.
@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 7f9ab107a622cfe8cc7ef3f1d1d2877810f749ed
-ms.sourcegitcommit: bc44a6e0c5ef048cda6e882fdb543c13c5b64912
+ms.openlocfilehash: d8dac9e5d8720a39d6bf585a1f6cd9bd5c70465a
+ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96869333"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96926678"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -27,6 +27,9 @@ A Microsoft partneri szerződés a Microsoft partnerei számára egységes, digi
 Az összes felhőalapú megoldás-szolgáltatói partner (beleértve a közvetett szolgáltatókat, a közvetett viszonteladókat és a közvetlen számlázási partnereket) Az MPA online-t a partner Centerben tudja aláírni. A kormányzati felhőben működő közvetlen számlázási és közvetett szolgáltatói partnerek a partner centeren belül is aláírják a MPA-t.
 
 Ahhoz, hogy továbbra is részt vegyen a CSP programban, a Microsoft partneri szerződést a 2020. január 31-ig kell aláírnia. A partner Center figyelmezteti, hogy mostantól egyszerűen aláírhatja a szerződést a partner centeren belülről.
+
+>[!NOTE]
+>A MPA-t egyszer kell aláírni minden olyan CSP régióban, ahol a vállalata a CSP vállalatot végzi. További információ a [CSP-régiókban](regional-authorization-overview.md) 
 
 ## <a name="verify-your-mpn-id-is-active-and-migrated-to-partner-center"></a>Ellenőrizze, hogy az MPN-azonosító aktív-e, és hogy migrálva van-e a partner Centerben
 
@@ -78,13 +81,13 @@ Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
 >Csak a vállalat globális rendszergazdája tekintheti meg és írja alá a MPA-t. Ha nem a globális rendszergazda, meg kell kérnie a globális rendszergazdát, hogy ellenőrizze a MPA-t.
 
 
-## <a name="downloadable-step-by-step-guides"></a>Letölthető lépésenkénti útmutatók
+## <a name="download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-process"></a>Töltse le a lépésről lépésre haladó útmutatót, amely arra szolgál, hogy hol található a folyamatban
 
-1. [Migrálás a PMC-ből a Partnerközpontba, és a Microsoft Partnerszerződés elfogadása](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
+1. Ha az MPN-fiókját a PMC-ból a partneri központba telepíti [át: Migrálás a PMC-ból a partner központjába, és fogadja el a Microsoft partneri szerződést](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 
-2. [MPN-tagok beléptetése és a Microsoft Partnerszerződés](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx)
+2. Ha CSP közvetett viszonteladóként szeretne regisztrálni a partner Centerben: az [MPN-tagok és a Microsoft partneri szerződés](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx) bevezetése
 
-3. [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
+3. Ha az 1. és/vagy a fenti 2. lépés elvégzése után szeretné ellenőrizni a MPA állapotát a partner Centerben: [ellenőrizze a Microsoft partneri szerződés elfogadásának állapotát](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
 ## <a name="next-steps"></a>Következő lépések
 

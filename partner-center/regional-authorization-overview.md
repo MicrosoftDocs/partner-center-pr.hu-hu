@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a4472702104d3d4596d57633e80b8e652c624297
-ms.sourcegitcommit: c4f2561fb7f224554c31e3af491de4ad65644158
+ms.openlocfilehash: 98ad8e3f78b8181013b21d6146744337de6976bd
+ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "92528016"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96926661"
 ---
 # <a name="cloud-solution-provider-program-regional-markets-and-currencies-where-you-can-sell-csp-offers"></a>A Cloud Solution Provider program regionális piacai és pénznemei, amelyekben a CSP-ajánlatok értékesíthetők
 
@@ -41,25 +41,25 @@ Ha az Ön országa nem támogatott, az Office-rendszergazda URL-címével hozza 
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-| Ország/régió           | Currency (Pénznem) |
+| Ország/régió           | Pénznem |
 | ------------------------ |:--------:|
-| Angola                   |          |
+| Angola                   |   USD    |
 | Benin                    |   USD    |
-| Botswana                 |          |
+| Botswana                 |   USD    |
 | Burkina Faso             |   USD    |
 | Burundi                  |   USD    |
 | Kamerun                 |   USD    |
-| Cabo Verde               |          |
+| Cabo Verde               |   USD    |
 | Közép-afrikai Köztársaság |   USD    |
 | Csád                     |   USD    |
 | Comore-szigetek                  |   USD    |
 | Kongó                    |   USD    |
 | Kongó (KDK)              |   USD    |
-| Côte d'Ivoire            |          |
+| Côte d'Ivoire            |   USD    |
 | Dzsibuti                 |   USD    |
 | Egyenlítői-Guinea        |   USD    |
 | Eritrea                  |   USD    |
-| Etiópia                 |          |
+| Etiópia                 |   USD    |
 | Francia Polinézia         |   USD    |
 | Gabon                    |   USD    |
 | Gambia                   |   USD    |
@@ -80,7 +80,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 | Réunion                  |   USD    |
 | Ruanda                   |   USD    |
 | São Tomé és Príncipe    |   USD    |
-| Szenegál                  |          |
+| Szenegál                  |   USD    |
 | Seychelle-szigetek               |   USD    |
 | Sierra Leone             |   USD    |
 | Szomália                  |   USD    |
@@ -88,28 +88,28 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 | Szent Ilona, Ascension, Tristan da Cunha|    USD   |
 | Tanzánia                 |   USD    |
 | Togo                     |   USD    |
-| Uganda                   |          |
-| Zambia                   |          |
+| Uganda                   |   USD    |
+| Zambia                   |   USD    |
 |
 
 ## <a name="asia-and-pacific-region-and-market"></a>Ázsiai és csendes-óceáni régió és piac
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-| Ország/régió     | Currency (Pénznem) |
+| Ország/régió     | Pénznem |
 | --------------     |:--------:|
 |  Banglades        |   USD    |
-|  Bhután            |          |
+|  Bhután            |   USD    |
 |  Brunei Szultanátus |   USD    |
-|  Kambodzsa          |          |
+|  Kambodzsa          |   USD    |
 |  Hongkong         |   USD    |
 |  Indonézia         |   USD    |
-|  Laosz              |          |
+|  Laosz              |   USD    |
 |  Makaó             |   USD    |
 |  Malajzia          |   USD    |
-|  Maldív-szigetek          |          |
-|  Mianmar           |          |
-|  Nepál             |          |
+|  Maldív-szigetek          |   USD    |
+|  Mianmar           |   USD    |
+|  Nepál             |   USD    |
 |  Fülöp-szigetek       |   USD    |
 |  Szingapúr         |   USD    |
 |  Srí Lanka         |   USD    |
@@ -122,7 +122,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió        | Currency (Pénznem) |
+|  Ország/régió        | Pénznem |
 |  --------------        |:--------:|
 |  Ausztrália             |   AUD    |
 |  Karácsony-sziget      |   AUD    |
@@ -153,7 +153,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 Ha a vállalata Brazíliában található, a CSP-ajánlatokat a Brazíliában lévő ügyfeleknek is értékesítheti.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Brazília         |   USD    |
 |
@@ -162,7 +162,7 @@ Ha a vállalata Brazíliában található, a CSP-ajánlatokat a Brazíliában l�
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Kanada         |   CAD    |
 |  Saint-Pierre és Miquelon|  CAD   |
@@ -172,16 +172,16 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió | Currency (Pénznem)  |
+|  Ország/régió | Pénznem  |
 |  -------------- |:--------:|
 |  Åland-szigetek  |   EUR    |
 |  Andorra        |   EUR    |
 |  Ausztria        |   EUR    |
 |  Belgium        |   EUR    |
 |  Bouvet-sziget  |   EUR    |
-|  Bulgária       |          |
+|  Bulgária       |   EUR    |
 |  Horvátország        |   EUR    |
-|  Ciprus         |          |
+|  Ciprus         |   EUR    |
 |  Cseh Köztársaság |   EUR    |
 |  Dánia        |   DKK    |
 |  Észtország        |   EUR    |
@@ -191,7 +191,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Németország        |   EUR    |
 |  Gibraltár      |   GBP    |
 |  Görögország         |   EUR    |
-|  Grönland      |          |
+|  Grönland      |   EUR    |
 |  Guernsey       |   GBP    |
 |  Magyarország        |   EUR    |
 |  Izland        |   EUR    |
@@ -203,8 +203,8 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Liechtenstein  |   EUR    |
 |  Litvánia      |   EUR    |
 |  Luxemburg     |   EUR    |
-|  Málta          |          |
-|  Monaco         |          |
+|  Málta          |   EUR    |
+|  Monaco         |   EUR    |
 |  Hollandia    |   EUR    |
 |  Norvégia         |   NOK    |
 |  Lengyelország         |   EUR    |
@@ -225,7 +225,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 Ha a cég székhelye India, akkor a CSP-ajánlatokat az indiai vásárlók számára is értékesítheti.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  India          |   INR    |
 |
@@ -234,7 +234,7 @@ Ha a cég székhelye India, akkor a CSP-ajánlatokat az indiai vásárlók szám
 
 Ha a vállalata Japánban van, akkor a CSP-ajánlatokat a japán ügyfeleknek is értékesítheti.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Japán          |   JPY    |
 |
@@ -243,7 +243,7 @@ Ha a vállalata Japánban van, akkor a CSP-ajánlatokat a japán ügyfeleknek is
 
 Ha a vállalata Korea, a Köztársaság, a (z) központjának forgalmazói ajánlatait értékesítheti a Koreában.
 
-|  Ország/régió    | Currency (Pénznem) |
+|  Ország/régió    | Pénznem |
 |  --------------    |:--------:|
 |  Koreai Köztársaság|   KRW    |
 |
@@ -252,7 +252,7 @@ Ha a vállalata Korea, a Köztársaság, a (z) központjának forgalmazói aján
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Anguilla       |   USD    |
 |  Antarktisz     |   USD    |
@@ -278,13 +278,13 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Falkland-szigetek|  USD    |
 |  Francia Guyana  |   USD    |
 |  Grenada        |   USD    |
-|  Guadeloupe     |          |
+|  Guadeloupe     |   USD    |
 |  Guatemala      |   USD    |
 |  Guyana         |   USD    |
 |  Haiti          |   USD    |
 |  Honduras       |   USD    |
 |  Jamaica        |   USD    |
-|  Martinique     |          |
+|  Martinique     |   USD    |
 |  Mexikó         |   USD    |
 |  Montserrat     |   USD    |
 |  Nicaragua      |   USD    |
@@ -313,11 +313,11 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
-|  Afganisztán    |          |
+|  Afganisztán    |   USD    |
 |  Albánia        |   USD    |
-|  Algéria        |          |
+|  Algéria        |   USD    |
 |  Örményország        |   USD    |
 |  Azerbajdzsán     |   USD    |
 |  Bahrein        |   USD    |
@@ -328,21 +328,21 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Grúzia        |   USD    |
 |  Irak           |   USD    |
 |  Izrael         |   USD    |
-|  Jordánia         |          |
+|  Jordánia         |   USD    |
 |  Kazahsztán     |   USD    |
 |  Koszovó         |   USD    |
 |  Kuvait         |   USD    |
 |  Kirgizisztán     |   USD    |
 |  Libanon        |   USD    |
 |  Lesotho        |   USD    |
-|  Líbia          |          |
+|  Líbia          |   USD    |
 |  Macedónia, Köztársaság|   |
 |  Mauritánia     |   USD    |
-|  Moldova        |          |
-|  Mongólia       |          |
-|  Montenegró     |          |
+|  Moldova        |   USD    |
+|  Mongólia       |   USD    |
+|  Montenegró     |   USD    |
 |  Marokkó        |   USD    |
-|  Mozambik     |          |
+|  Mozambik     |   USD    |
 |  Omán           |   USD    |
 |  Pakisztán       |   USD    |
 |  Palesztin terület, foglalt |        |
@@ -351,22 +351,22 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Szerbia         |   USD    |
 |  Dél-afrikai Köztársaság   |   USD    |
 |  Szváziföld      |   USD    |
-|  Tádzsikisztán     |          |
+|  Tádzsikisztán     |   USD    |
 |  Tunézia        |   USD    |
 |  Törökország         |   USD    |
-|  Türkmenisztán   |          |
+|  Türkmenisztán   |   USD    |
 |  Ukrajna        |   USD    |
 |  Egyesült Arab Emírségek| USD |
-|  Üzbegisztán     |          |
+|  Üzbegisztán     |   USD    |
 |  Jemen          |   USD    |
-|  Zimbabwe       |          |
+|  Zimbabwe       |   USD    |
 |
 
 ## <a name="new-zealand-region-and-market"></a>Új-Zéland régiója és piaca
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Amerikai Szamoa |   NZD    |
 |  Új-Zéland    |   NZD    |
@@ -378,7 +378,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 Ha a cég tartózkodási helye Oroszország, akkor a CSP-ajánlatokat az ügyfeleknek értékesítheti Oroszországban.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Oroszország         |    RUB   |
 |
@@ -387,7 +387,7 @@ Ha a cég tartózkodási helye Oroszország, akkor a CSP-ajánlatokat az ügyfel
 
 Ha a cég székhelye Tajvan, a CSP-ajánlatokat a tajvani ügyfeleknek is értékesítheti.
 
-|  Ország/régió | Currency (Pénznem) |
+|  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Tajvan         |   TWD    |
 |
@@ -396,7 +396,7 @@ Ha a cég székhelye Tajvan, a CSP-ajánlatokat a tajvani ügyfeleknek is érté
 
 Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
 
-|  Ország/régió       | Currency (Pénznem) |
+|  Ország/régió       | Pénznem |
 |  -------------        |:--------:|
 |  Egyesült Államok        |   USD    |
 |  Az Amerikai Egyesült Államok lakatlan külbirtokai|   USD    |
