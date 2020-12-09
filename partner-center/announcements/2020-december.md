@@ -1,5 +1,5 @@
 ---
-title: December 2020 közlemények
+title: 2020. decemberi közlemények
 description: December 2020 közlemények a Microsoft partner Centerben, beleértve az új képességeket, promóciókat, ajánlatokat, piacokat vagy a meglévő ajánlatok változásait.
 ms.topic: article
 ms.service: partner-dashboard
@@ -9,19 +9,115 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/02/2020
-ms.openlocfilehash: 38a9b83c5c13ed0a0c0f27db409335f9b86b8173
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 1341e60fd9914f421fd59335a8f037f3d915b72f
+ms.sourcegitcommit: bc44a6e0c5ef048cda6e882fdb543c13c5b64912
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570773"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96869299"
 ---
-# <a name="december-2020-announcements"></a>December 2020 közlemények
+# <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi hirdetményeit.
 
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [November](2020-november.md) | December
 
+______________
+
+## <a name="sdk-release-on-net-standard-v1163"></a><a name="4"></a>SDK-kiadás a .NET standardban (v 1.16.3)
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-8
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A partner Center .NET SDK-t használó CSP programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók.
+
+### <a name="details"></a>Részletek
+
+December 08 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK (NuGet Gallery) verziójának letöltését. Microsoft. Store. PartnerCenter 1.16.3)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.16.3), valamint a frissített Public partner Center SDK [GitHub-mintákat](https://github.com/Microsoft/Partner-Center-DotNet-Samples). Ez a verzió a következő frissítéseket tartalmazza:
+ 
+**SelfServePolicies – új funkciók hozzáadva**
+
+- [GetSelfServePolicies](/partner-center/develop/get-a-self-serve-policy-by-id.md)
+- [GetListOfSelfServicePolicies](/partner-center/develop/get-a-list-of-self-serve-policies.md)
+- [CreateSelfServePolicies](/partner-center/develop/create-a-self-serve-policy.md)
+- [UpdateSelfServePolicies](/partner-center/develop/update-a-self-serve-policy.md)
+- [DeleteSelfServePolicies](/partner-center/develop/delete-a-self-serve-policy.md)
+ 
+**Ügyfelek vállalati profil**
+
+- [OrganizationRegistrationNumber](/partner-center/develop/create-a-customer.md) hozzáadva
+ 
+**CustomerBillingProfile.DefaultAddress**
+
+- MiddleName hozzáadva
+ 
+### <a name="next-steps"></a>Következő lépések
+
+- Töltse le a legújabb verziót: [MicrosoftPartnerCenter. NETSDK (NuGet Gallery | Microsoft. Store. PartnerCenter 1.16.3)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.16.3)
+- A [GitHub-minták](https://github.com/Microsoft/Partner-Center-DotNet-Samples) letöltése és áttekintése
+
+______________
+
+## <a name="december-2020-license-based-price-list-release-notes"></a><a name="3"></a>December 2020 licenc-alapú árlista kibocsátási megjegyzései
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-8
+- Ajánlatok/piacok
+
+### <a name="summary"></a>Összefoglalás 
+
+A decemberi 2020 licenc-alapú árlista és ajánlat lista mátrixa néhány problémát tartalmaz.
+
+### <a name="impacted-audience"></a>Érintett közönség 
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="details"></a>Részletek
+
+A decemberi licenc-alapú árlista és az ajánlati lista mátrixának fájljai néhány rendellenességet tartalmaznak. Ezek a problémák csak a licenccel kapcsolatos díjszabási fájlokhoz kapcsolódnak, és a januári 2021-es frissítésekben kell kijavítani őket.
+
+#### <a name="incorrect-offers-in-the-license-based-price-list"></a>A licenc alapú árlista helytelen ajánlatokat tartalmaz
+
+A decemberi licenc-alapú árlista az alábbi ajánlatokat tartalmazza, amelyek nem lehetnek az árlisták között. Ezeket az ajánlatokat korábban a hiba árlista tartalmazza, és azokat nem kell közzétenni. A rendelkezésre álló esetekben nincs szükség az ütemtervre. A jövőben, ha ismét felveszik őket, a későbbiekben megjelenik a Hozzáadás a jövőben előzetes árlista.
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|
+   |-------------------|:------|
+   |Dynamics 365 emberi erőforrások (nem nyereségek díjszabása)|1596fa61-7da1-4263-98f8-b27dfa4cfbb5|
+   |Dynamics 365 emberi erőforrások a Dynamics 365 alapszintű ajánlatának minősítéséhez (nem nyereségek díjszabása)|8bf0b826-e05b-45aa-9cd1-9a9f742f7731|
+   |A Dynamics 365 emberi erőforrásai a Dynamics 365 alapszintű ajánlat (nem nyereségek díjszabása) minősítésére vonatkoznak (minősített ajánlat)|f906435d-9dc9-42ba-bea6-2a2b08ca60db|
+   |Dynamics 365 emberi erőforrások – homokozó (nem nyereségek díjszabása)|079ec5ba-d726-4384-95af-62d135c210d2|
+   |Dynamics 365 emberi erőforrások önkiszolgáló szolgáltatás (nonprofit szolgáltatások díjszabása)|931acecc-34c3-4f83-913e-c7fdbfd7e2a1|
+   |Dynamics 365-műveletek – sorok sorrendje (nem nyereségek díjszabása)|7dd6b78a-3d53-47f8-8a64-bd84609a9a70|
+   
+#### <a name="incorrect-offers-in-the-offer-list-matrix"></a>Helytelen ajánlatok szerepelnek az ajánlati lista mátrixában
+   
+Az alábbi ajánlatok az ajánlati lista mátrixában voltak a hiba. Nem érhetők el, a rendelkezésre állásra vonatkozóan még nem áll rendelkezésre a célként megadott dátum. A partnereknek figyelmen kívül kell hagyniuk ezeket.
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|
+   |-------------------|:------|
+   |Dynamics 365-műveletek – adatbázis kapacitása (nem nyereségek díjszabása)|1d3f4d81-89b9-419e-a880-31b2c50b8d66|
+   |Dynamics 365-műveletek – fájl kapacitása (nem nyereségek díjszabása)|dc173a86-285b-444c-881e-3ece531f67da|
+
+#### <a name="powerapps-offer"></a>Powerapps ajánlat
+
+Ez az ajánlat szerepel az ajánlati lista mátrixában, de a decemberi árlista nem. Az ajánlat elérhető, és a díjszabás az előző havi árlista november fájljában található. Ezt az ajánlatot vissza kell adni a januári árlista-listához.
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|
+   |-------------------|:------|
+   |Power Apps-csomag/alkalmazás|5e1087b6-246b-4503-b88a-b60bdf0b3840|
+
+### <a name="next-steps"></a>Következő lépések
+
+A kibocsátási megjegyzéseket gyakran tekintheti meg, mivel más problémák is fel lesznek fűzve a jelen közleménybe.
+
+### <a name="last-updated"></a>Legutóbbi frissítés
+
+2020. december 8.
 
 ______________
 
@@ -61,7 +157,7 @@ A meglévő ügyfelek automatikusan az új ajánlatra lesznek átirányítva a m
    |-------------------|:------|:------|
    |Microsoft 365 Vállalati verzió hang (US)|9f9f2c7b-c961-402b-9421-8e3c9207eeb3|PZW – 00009|
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ismerkedjen meg az árlistát, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
