@@ -9,12 +9,12 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 55046b21e70ad04f47bf4cd191736aa12335060e
-ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
+ms.openlocfilehash: 0a59849fdf1937c1a4ec5d619a95f9321fe58fa0
+ms.sourcegitcommit: 455894365fa488368f7572ac72312e84a267ef5e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96556446"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97011526"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
@@ -41,9 +41,19 @@ Ez megjeleníti a Fiókbeállítások lapot.
 
 Akár partnert, akár fejlesztőt használ, használja az MPN-AZONOSÍTÓját olyan dolgokhoz, mint a támogatási jegyek naplózása. Az MPN-azonosító a te **jogi információk** oldalon található. Azt is megtalálhatja az **Identity profilban**.
 
+## <a name="account-settings---partners-resellers"></a>Fiókbeállítások – partnerek, viszonteladók
+
+Ha a **Beállítások** ikont választja, és megnyitja a **Fiókbeállítások** menüt, az alapértelmezett nézet, ha a vállalata a Cloud Solution Provider program része, a **jogi információk** két lapot, **partnert** és **viszonteladót** jelenítenek meg. Minden lap a vállalat aspektusait tartalmazza.
+
+:::image type="content" source="images/accountsettings/reseller.png" alt-text="A menü megjeleníti a partnerek és a viszonteladók lapjait":::
+
+A partner lap tartalmazza az összes olyan jogi üzleti információt, mint például a bejegyzett jogi név és a vállalat, valamint az elsődleges kapcsolattartó és az üzleti telephely. A CSP businesst segítő partnerek viszonteladói lapja magában foglalja az **ügyfélszolgálati profilt**.
+
+Ha a vállalat nem vesz részt a CSP-ben, az alapértelmezett nézet csak a **partner** lapot fogja megjeleníteni, amely tartalmazza az **ügyfélszolgálati profilt**.
+
 ## <a name="organization-profile"></a>Szervezeti profil
 
-Ezekkel a lapokkal olyan területeket kezelhet, mint például a jogi üzleti profil, a partner profil és a vállalati telephelyek. Válassza ki azokat a lapokat, mint például a **jogi** vagy a **bérlők** (alább részletesebben lásd alább) a körzet szerkesztéséhez. Válassza ki az Önt érdeklő program lapját (MPN, CSP vagy kereskedelmi piactér), és tekintse meg az adatait és az állapotának ellenőrzését.
+Ezekkel a lapokkal az üzleti tevékenység részletes területeit kezelheti, beleértve a jogi üzleti profilt, a partneri profilt és a bérlőket. Az egyes területeket külön kezelheti. Ezek az alábbiakban olvashatók. 
 
 :::image type="content" source="images/accountsettings/account-settings-new.png" alt-text="Jogi információ menü.":::
 
@@ -81,7 +91,7 @@ A partner Centerben, illetve a frissíteni vagy megtekinteni kívánt területek
 
 Az előnyben részesített e-mailek frissítése a partneri központ értesítéseinek fogadásához:
 
-1. Jelentkezzen be a [partner Center-irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard).
 1. Lépjen az [**engagement preferencia**](https://partner.microsoft.com/dashboard/engagement/preference)elemre, válassza a **módosítás** hivatkozást, frissítse az e-mail-címet, majd kattintson a **Mentés** gombra.
 
 ### <a name="find-your-user-role"></a>Felhasználói szerepkör megkeresése

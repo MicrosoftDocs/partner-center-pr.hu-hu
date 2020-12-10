@@ -9,12 +9,12 @@ author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c694f48fb62fc031bfaf78be6a1c4e43629a7adb
-ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.openlocfilehash: 13fdeb01ecd73dc1a63d174a4ad5cb8e1bdc813a
+ms.sourcegitcommit: 455894365fa488368f7572ac72312e84a267ef5e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "92528162"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97011502"
 ---
 # <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszaállítása az ügyfél Azure CSP-előfizetései esetében  
 
@@ -29,7 +29,7 @@ CSP-partnerként az ügyfelek gyakran elvárják, hogy az Azure-használatot és
 
 Az Azure-ban a CSP-ben két rendszergazdai jogosultsági szint van.
 
-**Bérlői szintű rendszergazdai jogosultságok** ( **delegált rendszergazdai jogosultságok** ) – a CSP-partnerek megkapják ezeket a jogosultságokat a CSP viszonteladói kapcsolat ügyfelekkel való létrehozásakor. Ez lehetővé teszi, hogy a CSP-partnerek hozzáférhessenek az ügyfelek bérlői számára, így olyan rendszergazdai feladatokat végezhetnek, mint például a felhasználók hozzáadása vagy kezelése, a jelszavak alaphelyzetbe állítása és a felhasználói licencek kezelése.
+**Bérlői szintű rendszergazdai jogosultságok** (**delegált rendszergazdai jogosultságok**) – a CSP-partnerek megkapják ezeket a jogosultságokat a CSP viszonteladói kapcsolat ügyfelekkel való létrehozásakor. Ez lehetővé teszi, hogy a CSP-partnerek hozzáférhessenek az ügyfelek bérlői számára, így olyan rendszergazdai feladatokat végezhetnek, mint például a felhasználók hozzáadása vagy kezelése, a jelszavak alaphelyzetbe állítása és a felhasználói licencek kezelése.
 
 **Előfizetés szintű rendszergazdai jogosultságok** – a CSP-partnerek megkapják ezeket a jogosultságokat az Azure CSP-előfizetések létrehozásakor az ügyfelek számára. Ezek a jogosultságok lehetővé teszik a CSP-partnerek számára az Azure-erőforrások kiépítését és kezelését.
 
@@ -47,7 +47,7 @@ A delegált rendszergazdai jogosultságok visszaszerzéséhez az ügyfelet kell 
 
 ## <a name="adding-the-admin-agents-group-as-an-owner-for-the-azure-csp-subscription"></a>A felügyeleti ügynökök csoport hozzáadása az Azure CSP-előfizetés tulajdonosaként
 
-Az ügyfélnek hozzá kell adnia a felügyeleti ügynök csoportot az Azure CSP-előfizetés tulajdonosaként.
+Az ügyfélnek hozzá kell adnia a felügyeleti ügynök csoportját az Azure CSP-előfizetés, egy erőforráscsoport vagy egy erőforrás tulajdonosaként. 
 
 1. A PowerShell-konzol vagy a PowerShell integrált parancsfájlkezelési környezet (ISE) használata. Győződjön meg arról, hogy a AzureAD modulok telepítve vannak.
 
@@ -67,13 +67,20 @@ Az ügyfélnek hozzá kell adnia a felügyeleti ügynök csoportot az Azure CSP-
 4. Az Azure CSP-előfizetéshez tulajdonosi hozzáféréssel rendelkező felhasználó hitelesítő adataival bejelentkezik az Azure-ba.
 
    ```powershell
-   Connect-AzAccount
+   Connect-AzureRmAccount
    ```
 
-5. Ezután hozzáadhatja a felügyeleti ügynök csoportját tulajdonosként a CSP Azure-előfizetéshez.
+5. Ezután hozzáadhatja a felügyeleti ügynök csoportját tulajdonosként a CSP Azure-előfizetéshez, az erőforráscsoporthoz vagy az erőforráshoz egy megfelelő erőforrás-URI alkalmazásával a hatókör-paraméterben. 
 
     ```powershell
-    New-AzureRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "/subscriptions/<SubscriptionId of CSP subscription>"
+    # Grant owner role at subscription level
+    New-AzureRmRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "/subscriptions/<SubscriptionId of CSP subscription>"
+
+    # Grant owner role at resource group level
+    New-AzureRmRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "/subscriptions/<SubscriptionId of CSP subscription>/resourceGroups/<Resource group name>"
+
+    # Grant owner role at resource level
+    New-AzureRmRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "<Resource Uri>"
     ```
 
 ## <a name="next-steps"></a>Következő lépések
