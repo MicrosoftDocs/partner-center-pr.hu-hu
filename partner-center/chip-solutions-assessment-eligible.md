@@ -1,5 +1,5 @@
 ---
-title: Megoldás-értékelési jogosultság
+title: Jogosultság megoldásértékelésre
 ms.topic: how-to
 ms.date: 11/09/2020
 description: Megtudhatja, hogyan tekintheti meg a megoldás-értékelési ösztönző program részvételére való jogosultság követelményeit.
@@ -9,14 +9,18 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f5feb30b62cb6b862cd3e474d46980f8654ba1c1
-ms.sourcegitcommit: 146964ce0cc72bd821692f73f9c0b55e6fefb0fc
+ms.openlocfilehash: 7d40b09ee8b452cb75be216f83ddc700596b93d7
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94447284"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354474"
 ---
 # <a name="eligibility-requirements-for-the-solution-assessment-incentives-program"></a>A megoldás-értékelési ösztönző programra vonatkozó támogathatósági követelmények
+
+**Megfelelő szerepkörök**
+
+- Elsődleges kapcsolattartó vagy program rendszergazdája
 
 A FY20 megoldás-értékelési ösztönző programjában aktív és regisztrált állapotú partnerek továbbra is jogosultak lesznek a FY21-re vonatkozó ösztönzőkre, ha aktív MPN-tagsággal és aktív Silver vagy Gold MPN kompetenciával rendelkeznek. A partneri végzettségeket évente tekintjük át. Ha a meghatározott partnerek nem teljesítik a jogosultságokat és a részvételi követelményeket az aktuális évben, a következő éves felülvizsgálat során el lesznek távolítva. Minden új partnert a helyi megoldás-értékelési specialista (SAS) a saját területén kell bevezetni. Az SAS azonosítja a bevezetéshez szükséges partnereket a partner vállalaton belüli szaktudás és szakértelem, valamint a SAS által támogatott leányvállalatok üzleti igényei alapján.
 
@@ -42,7 +46,7 @@ Ha a partnernek a megoldás-értékelési ösztönző programban való részvét
 
 További részletekért vagy a megoldás értékelését ösztönző programokkal kapcsolatos információkért forduljon a megoldás-Assessment specialistához (SAS).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Megoldás-értékelési lehetőség állapota](chip-solution-assessment.md)
 - [Támogatás](report-problems-with-partner-center.md)

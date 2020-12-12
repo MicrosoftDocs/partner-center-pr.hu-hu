@@ -7,12 +7,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 720e3c4f97e374b0137db2302988a0fbd2db9432
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: a301aa85310142b3327baabbf3c8545b31f489bd
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530307"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354389"
 ---
 # <a name="partner-center-billing-scenarios-for-one-time-and-select-recurring-purchases"></a>A partner Center számlázási forgatókönyvei egyszeri használatra és az ismétlődő vásárlások kiválasztása
 
@@ -88,3 +88,7 @@ A Recon-fájl a következőket tartalmazza:
 |6/11/2019 (2 licenccel rendelkezik)     |6/10/2019   |7/09/2019         |$4         |2        |$8       |Új       |
 |6/12/2019     | 6/10/2019    |7/09/2019        |$4        |2        | – $7,74       |removeQuantity           |
 |6/12/2019 (1 licenccel rendelkezik)    | 6/10/2019    |7/09/2019   |$4    |1      |$3,87    |removeQuantity |
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Havi számlázási forgatókönyvek az új előfizetésekhez, a licencek összegének módosításához vagy a felfüggesztésekhez](common-billing-scenarios-monthly.md)

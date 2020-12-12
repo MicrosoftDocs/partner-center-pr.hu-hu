@@ -9,14 +9,18 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a78fb9d13d149cba75fc616b93cdfe0b47dfafc4
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 09ed80e4be53f210341279193bae71dc47f87eec
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570501"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354491"
 ---
 # <a name="view-earnings-using-the-chip-tool"></a>Bevétel megtekintése a CHIP eszköz használatával
+
+**Megfelelő szerepkörök**
+
+- Elsődleges kapcsolattartó vagy program rendszergazdája
 
 Az ösztönzőket a Channel ösztönzők platform Tool (CHIP) eszköz használatával érheti el.
 
@@ -32,13 +36,13 @@ Az ösztönzőket a Channel ösztönzők platform Tool (CHIP) eszköz használat
 
 ### <a name="explanation-of-details-tabs"></a>A részletek lapok magyarázata
 
-|**Lapon**|**Definíció**|
+|**Tab**|**Definíció**|
 |-------------|--------------------------|
 |DetailReport-Flatfile|A kiválasztott időszakra vonatkozó ösztönző program részleteit tartalmazza, beleértve az ügyfél nevét, a szerződést, a kart részleteit|
 |DeltaReport – pivot|Az utolsó közzétett utasítás frissítései csak a vállalatnál|
 |DetailReport – pivot|Fizetési részletek összegzése, beleértve a pénznemet és a fizetési összeget|
 |Teljesítmény részletei|Alapértékek, a teljesítmény és a növekedési arány csak a SPLAR esetében|
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A kifizetési állapot ellenőrzése a CHIP felületén](chip-payment-status.md)

@@ -9,14 +9,18 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6ab0cd74e3955a71383b2ba758dc76b1b37fdee6
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: f005db5d69fe6febf79720544642ee9f3d8c2e75
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570467"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354406"
 ---
 # <a name="solution-assessment-payment-status-and-calculation-info"></a>Megoldás-értékelési fizetési állapot és számítási információ
+
+**Megfelelő szerepkörök**
+
+- Elsődleges kapcsolattartó vagy program rendszergazdája
 
 A megoldás-értékelési lehetőség állapotának fizetési állapotát a CHIPben tekintheti át.
 
@@ -50,6 +54,6 @@ A lehetőségeknek a következő attribútumokkal kell rendelkezniük ahhoz, hog
  
 1. A "EM Review" jelölőnégyzetet be kell jelölni és el kell küldenie az EM-nek a CHIPben.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Problémák a CHIP elérésekor](chip-access-trouble.md) 

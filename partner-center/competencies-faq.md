@@ -8,20 +8,18 @@ ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: 3f18378428ab681938f23c3a11341b2deac36226
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: adce1c8740489731c12e705c71962aba004b5bd3
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570484"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354457"
 ---
 # <a name="competencies---frequently-asked-questions"></a>Kompetenciák – gyakori kérdések
 
-Hatóköre:
+**Megfelelő szerepkörök**
 
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
-- Partnerek a Microsoft Partner Network (MPN) programban
+- MPN-partner rendszergazdája
 
 Ez a cikk a vizsgákkal, a minősítésekkel és a szoftveres előnyökkel kapcsolatos általános kérdéseket válaszol a Microsoft Partner Network kompetenciák eléréséhez.
 
@@ -94,7 +92,7 @@ A kívánt kompetenciában található követelményeket a partner Center [irán
 >
 > A rendszer csak az elmúlt 12 hónap adatai alapján számítja ki a kompetenciával kapcsolatos teljesítmény, szakértelem vagy egyéb követelmények kiszámítását. Ha többet szeretne megtudni a kompetenciákkal kapcsolatos teljesítmény-számításokról, például a Cloud Business Applications kompetenciáról, tekintse meg a [partneri hozzájárulási mutatók](partner-contribution-indicators.md)című témakört.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - Az [MPN-kompetenciák](learn-about-competencies.md) ismertetése
 - További tudnivalók a [partner Center](partner-center-insights.md) -információkról

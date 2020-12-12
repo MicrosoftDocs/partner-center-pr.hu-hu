@@ -9,12 +9,12 @@ ms.author: parthp
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
 ms.date: 05/05/2020
-ms.openlocfilehash: 3b20f29fcde9c910fd72d0aa86a1242b9c00859c
-ms.sourcegitcommit: 7e19c211b1d5f2db2a4c56a743b14c8485decd99
+ms.openlocfilehash: 6d8fca11f2db40e7f8b4ebcd4580d8f0aba115eb
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "92528103"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354525"
 ---
 # <a name="consolidate-your-company-accounts-when-migrating-from-pmc-to-partner-center"></a>Vállalati fiókok konszolidálása a PMC-ből a partneri központba való Migrálás során
 
@@ -62,3 +62,9 @@ A PMC-ban minden hely számára lehetséges, hogy saját kompetenciával, saját
 A partner Centerben az összes hely fiók egyetlen globális fiókba lesz összevonva. Ez azt jelenti, hogy az összes piacra kerülési ajánlatot, programot és kompetenciát is összevonjuk. További előnyöket biztosító eszközkészlet (ABTKs) nem lesz elérhető. Megszervezheti azonban a marketing-erőforrások, ajánlatok, programok és kompetenciák terjesztését a vállalata számára szükséges módon. A konszolidáció során a rendszer egy bővítményt biztosít. Ez a bővítmény lehetővé teszi a vállalat számára, hogy a további évre a PMC-ban használt marketing erőforrásokat, ajánlatokat és programokat is élvezhesse.
 
 A PMC és a partner központ közötti különbségekkel kapcsolatos további információkért olvassa el a következő témakört: a [PMC-ról a partner Centerre való áttérés](guide-to-migration.md).
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Partnerközponti fiók kezelése](partner-center-account-setup.md)
+
+- [Helyek kezelése](manage-locations.md)

@@ -8,18 +8,17 @@ description: Válaszok a közös értékesítési összekötők használatával 
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: 988a696a8a0a0abb4d37e3915c76f905ec5b35b0
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: b8977f7c602b8587a619236b37a760a55bf87e53
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530306"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354542"
 ---
 # <a name="troubleshoot-co-sell-referrals-connectors"></a>A közös értékesítéssel való átirányítási összekötők hibáinak megoldása
 
 **A következőkre vonatkozik:**
 
-- Partnerközpont
 - Dynamics 365 CRM
 - Salesforce CRM
 
@@ -80,7 +79,7 @@ Kövesse ezt a hibaelhárítási lépést:
 
 3. Mi a teendő, ha a következő hibaüzenetet kapja, amikor aktiválja a partneri központot a CRM-folyamatba a Power automatizáló platformon?
  
-:::image type="content" source="images/cosellconnectors/powererror.png" alt-text="Bejelentkezést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/powererror.png" alt-text="A frissítéseket igénylő hibaüzenet":::
 
 Kövesse az alábbi hibaelhárítási lépéseket:
 
@@ -95,11 +94,11 @@ Ha a folyamat futása közben kapcsolatokat ad hozzá a folyamathoz, akkor az eg
 - Válassza ki az egyes folyamatokat, és szerkessze azokat egyenként.
 - A folyamat összes lépésének kibontása 
 
-:::image type="content" source="images/cosellconnectors/flowsteps.png" alt-text="Bejelentkezést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/flowsteps.png" alt-text="A kapcsolatokat igénylő lépések":::
 
 - Válassza ki azokat a lépéseket, amelyekben a rendszer figyelmeztető ikont kér a kapcsolatok hozzárendelésére, valamint kapcsolatok hozzáadására. 
 
-:::image type="content" source="images/cosellconnectors/editflow.png" alt-text="Bejelentkezést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/editflow.png" alt-text="Folyamat szerkesztése lépésről lépésre":::
 
 
 5. Mi a teendő, ha a közös értékesítésre hivatkozó összekötők megoldásának folyamatai nem kapcsolják be?
@@ -116,7 +115,7 @@ A. A Power Gyorsbüféban a folyamatokat a következő sorrendben kell szerkeszt
 
  B. Mindegyik folyamat esetében válassza a **csak a felhasználók futtatása** lehetőséget. Válassza a **kapcsolatok használata** lehetőséget a **csak futtatást használó felhasználó** számára.  
 
-:::image type="content" source="images/cosellconnectors/runonly.png" alt-text="Bejelentkezést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/runonly.png" alt-text="Folyamat aktiválása":::
 
 
 C. Aktiválja az alábbi említett folyamatokat:
@@ -140,7 +139,7 @@ Ha biztosítani szeretné, hogy a teljesítmény-automatizálási folyamatok a v
  
 Az átirányítási szinkronizálás állapotának meghatározásához válassza a **naplózás** lehetőséget. 
 
-:::image type="content" source="images/cosellconnectors/synch.png" alt-text="Bejelentkezést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/synch.png" alt-text="Az átirányítások szinkronizálása":::
 
 Győződjön meg arról, hogy teljesülnek a következő feltételek:
 
@@ -156,7 +155,53 @@ Hajtsa végre a következő lépéseket:
 
 - A partner-értékesítőknek biztosítaniuk kell, hogy engedélyezve legyenek a **partner centerrel való szinkronizálás** a CRM szakaszban.
 
-:::image type="content" source="images/cosellconnectors/enablesynch.png" alt-text="Bejelentkezést igénylő hibaüzenet" néven a partner Centerben.
+:::image type="content" source="images/cosellconnectors/enablesynch.png" alt-text="Győződjön meg arról, hogy engedélyezte a szinkronizálást":::
+
+- Az értékesítőknek meg kell adniuk a bevételt és a zárási dátumot, amikor minősítést vezetnek be.
+
+- Ha a CRM-azonosító a közös értékesítés **létrehozása** vagy **frissítése** szakaszban van megadva, de a CRM-ben nem található az azonosítóhoz vezető lehetőség, akkor a frissítés vagy a létrehozás figyelmen kívül lesz hagyva.
+
+- Győződjön meg arról, hogy az átirányítási pénznem mező a Salesforce-környezetben van konfigurálva. 
+
+4. Mi a teendő, ha az összekötő leválasztja a kapcsolatot, és kihagy egy hivatkozó szinkronizálást. 
+
+A következő lehetőségek közül néhányat kipróbálhat:
+
+- Győződjön meg arról, hogy lejárt-e a Felhasználónév vagy a jelszó a fiókpartner felhasználói számára hivatkozó rendszergazdai szerepkörökkel.
+
+- Megtekintheti a nem szinkronizált lehetőséget, elvégezheti a másodlagos frissítést, és megfigyelheti, hogy az átirányítás szinkronizálva van-e.
+
+- Ha a folyamatok futnak, és sikertelenek voltak, válassza ki a folyamatot, és küldje el újra a sikertelen futtatást.
+
+5. Mi a teendő, ha hozzáférés-megtagadási hibát kap?
+
+Győződjön meg arról, hogy a megfelelő szerepkörök léteznek
+
+- Hivatkozó rendszergazdai szerepkör a partner Center-értékesítőhöz 
+ 
+- Rendszergazda vagy Rendszertestreszabó szerepkör a CRM-példányon
+
+- Győződjön meg arról, hogy a Power automatizáló folyamat fiókjának felhasználói bejelentkezik https://flow.microsoft.com legalább egyszer
+
+6. Ha azt látja, hogy az **ügyfél-fiók kódja** hiányzik a közös értékesítés lehetősége létrehozásakor?
+
+A CRM-ben hozzá kell adnia a kétbetűs ISO-országkódot a felhasználói fiókhoz.
+
+7. Mi a teendő, ha úgy látja, hogy a **megoldás-azonosító** a közös értékesítési lehetőség létrehozásakor szükséges?
+
+A közös értékesítéssel való hivatkozás létrehozásához szükség van egy Microsoft közös értékesítésre kész megoldásra. 
+
+8. Mi a teendő, ha a partnervállalat olyan közös értékesítési lehetőségeit látja, amelyek nincsenek szinkronizálva a CRM-be, bár nincs folyamattal kapcsolatos hiba:
+
+Tegye a következőket:
+
+- Miután létrehozott egy új, közös értékesítéssel foglalkozó megállapodást a partner Centerben, ellenőrizze, hogy meghívja-e a partneri központot a Dynamics 365 flow-ba (többször is meghívható).
+
+- Ha a folyamat meghívja a folyamatot, ellenőrizze az összes meghívott folyamatot, és azonosítsa a folyamat futtatását, amely frissíti a CRM-t. Követheti a műveleteket, és ellenőrizheti, hogy frissítette-e a CRM-t, vagy hibát észlelt.
+
+- Ellenőrizze, hogy az *új Deal** a partner Centerben van-e kitöltve a CRM-azonosítóval.
+
+- Győződjön meg arról, hogy az üzlet nem lett véletlenül lezárva "megnyert" vagy "elveszett" néven a partner Centerben.
 
 ## <a name="next-steps"></a>Következő lépések
 

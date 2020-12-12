@@ -9,14 +9,18 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3d90a98fa323af187dd86f3d2d9f585167cc817c
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 9395a64a5bdf5aa0219bb9457d581e71bef777c2
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570450"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354627"
 ---
 # <a name="solution-assessment-incentives-faq-for-the-channel-incentives-platform-chip"></a>Megoldás-értékelési ösztönzők – gyakori kérdések a Channel ösztönzők platformról (CHIP) 
+
+**Megfelelő szerepkörök**
+
+- Elsődleges kapcsolattartó vagy program rendszergazdája
 
 Választ kaphat az alábbi gyakori kérdésekre.
 
@@ -63,6 +67,6 @@ A partner Center irányítópultján válassza a bal oldali menü **támogatás*
 
 Ha továbbra is segítségre van szüksége, az elérhető témakörre vonatkozó súgó megtekintése után közvetlenül az ajánlott dokumentumokból hozhat létre jegyet – **támogatási jegy létrehozása** lehetőséggel.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A CHIP navigálása](chip-intro.md)

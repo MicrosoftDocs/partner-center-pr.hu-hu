@@ -9,14 +9,18 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 51307be51de3c41aca9fb9d39ab623f4dac318a7
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 032ad30c17136dcf102af9134153a3921e29c38a
+ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570552"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97354440"
 ---
 # <a name="locate-the-desktop-count-and-fee-level-for-an-agreement"></a>Megállapodáshoz tartozó munkaállomásszám és díjszabás megkeresése
+
+**Megfelelő szerepkörök**
+
+- Elsődleges kapcsolattartó vagy program rendszergazdája
 
 Letöltheti az Excel programba, egy olyan fájlt, amely az asztal darabszámára és a díj szintjére vonatkozó szerződési adatokat biztosít.
 
@@ -36,6 +40,6 @@ Letöltheti az Excel programba, egy olyan fájlt, amely az asztal darabszámára
 
 Most megkeresheti a J oszlopban keresett szerződés számát, és megtalálhatja a hozzárendelt asztalokat az R oszlopban, a Agreement_DesktopCount címkével. A jelen Szerződés díjait a "AI" címkével ellátott szinten is megerősítheti.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A CHIPek elérésével kapcsolatos problémák elhárítása](chip-access-trouble.md)
