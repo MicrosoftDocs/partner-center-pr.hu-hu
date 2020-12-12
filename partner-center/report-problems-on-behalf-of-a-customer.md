@@ -1,5 +1,5 @@
 ---
-title: Az ügyfél nevében felmerülő problémák jelentése
+title: Problémabejelentés ügyfél nevében
 ms.topic: how-to
 ms.date: 06/05/2020
 ms.service: partner-dashboard
@@ -9,19 +9,19 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 12310b8c89f593122cdd9caec0aa74a712953219
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: baeb53d237ba1aeb987b08097526eda5c6235512
+ms.sourcegitcommit: df7f26b46d1ca46e962e528578d20330804638f9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530487"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97153145"
 ---
 # <a name="report-a-service-problem-on-behalf-of-a-customer---including-when-and-how-to-do-so"></a>Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében – beleértve azt is, hogy mikor és hogyan történik
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 **Megfelelő szerepkörök**
 
@@ -31,11 +31,13 @@ Ha az ügyfél olyan szolgáltatási problémát tapasztal, amely nem oldható f
 
 ## <a name="submit-a-service-request-for-a-customer"></a>Szolgáltatási kérelem küldése az ügyfél számára
 
-1. A **partner Center** menüben válassza ki a **szolgáltatási kérelmek** , majd az **ügyfél-igénylés** elemet. 
+1. Válassza a partner Center menü CSP területén a **vevők** lehetőséget.
 
-2. A Customer requests lapon keresse meg a kívánt ügyfelet.
+2. Az ügyfelek lapon válassza ki vagy keresse meg a kívánt ügyfelet
+    
+3. Az ügyfél menüben válassza a **szolgáltatási kérelmek** elemet.
 
-3. Az **új kérelem** legördülő menüben válassza az **Azure** vagy **az Office 365, a Dynamics 365, a nagyvállalati mobilitási csomag** lehetőséget. A rendszer átirányítja az Microsoft Azure Portal vagy az Office 365 felügyeleti központba.
+4. Az **új kérelem** legördülő menüben válassza az **Azure** vagy **az Office 365, a Dynamics 365, a nagyvállalati mobilitási csomag** lehetőséget. A rendszer átirányítja az Microsoft Azure Portal vagy az Office 365 felügyeleti központba.
 
 >[!NOTE]
 >Támogatási műveleti partnereink a Dynamics 365-et a CSP-ben lebonyolító támogatási szerződés fenntartásához szükséges a partneri (ASfP) csomag vagy magasabb szintű támogatáshoz. Ez a támogatási szerződés szükséges a Dynamics 365-incidensek beküldéséhez a CSP-ügyfél nevében. [További](https://partner.microsoft.com/support/partnersupport) információ a támogatási szerződés lehetőségeiről.
@@ -149,5 +151,5 @@ Kapcsolatfelvétel a [Dynamics ügyfélszolgálatával](/dynamics365/customer-en
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Nyújtson támogatást ügyfeleinek](customer-support.md)
-- [Szolgáltatás állapotának keresése](check-service-health.md)
+- [Támogatás biztosítása az ügyfeleknek](customer-support.md)
+- [A szolgáltatás állapotának ellenőrzése](check-service-health.md)
