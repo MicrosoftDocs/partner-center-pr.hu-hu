@@ -2,7 +2,7 @@
   href: index.yml
 - name: Közlemények
   href: announcements/TOC.md
-- name: A Partnerközpont névjegye
+- name: Mi az a Partnerközpont?
   href: overview.md
 - name: Partnerhálózati tagság
   items:
