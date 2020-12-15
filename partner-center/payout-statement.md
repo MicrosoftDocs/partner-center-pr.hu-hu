@@ -1,22 +1,30 @@
 ---
-title: Kifizetési nyilatkozat a kereskedelmi piactérhez a partner Centerben
-description: Megtudhatja, hogyan tekintheti meg és exportálhatja a kereskedelmi piactéren a kifizetési adatokat és Összegzéseket
+title: Kifizetési utasítások
+description: A kifizetési utasítások és összegzések ismertetése, valamint a Microsoft partner Center fizetési adatainak megtekintése és exportálása
 ms.subservice: partnercenter-marketplace-publisher
 ms.service: marketplace
 ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
-ms.date: 09/23/2020
-ms.openlocfilehash: 34d7d162673992601267db03beaddda1573b73c0
-ms.sourcegitcommit: cc30a06abe55b9da32177a24e74bfd6fc7d8bbb9
+ms.date: 10/29/2020
+ms.openlocfilehash: f74dcdc240553cea2c9d226364a8bd6242acc200
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94532055"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492636"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
+**Megfelelő szerepkörök:**
+
+- Fiókadminisztrátor
+- Globális rendszergazda
+
 A **kifizetési nyilatkozat** áttekintést nyújt a kereskedelmi piactéren eladott ajánlatokból származó kifizetésekről. Megjeleníti a bevétel tranzakciós előzményeit, kibecsüli a következő befizetést, és megjeleníti a fizetési trendeket. A tranzakciós előzményeket és a fizetési utasításokat is letöltheti. Ez a cikk bemutatja, hogyan férhet hozzá a kifizetési nyilatkozathoz, valamint a különböző kifizetések oldalaihoz és letöltésekhez a partner Centerben.
+
+>[!NOTE]
+>Csak azok az MPN-azonosítók és programok adatai jelennek meg, amelyekhez társítva van. Ha további információkra van szüksége, akkor a fiók rendszergazdájával együttműködve használhatja az engedélyeket. 
 
 ## <a name="roles-and-permissions"></a>Szerepkörök és engedélyek
 
@@ -50,6 +58,7 @@ A [partneri kifizetési API](https://apidocs.microsoft.com/services/partnerpayou
 
 A **tranzakciók előzményei** oldalon látható a bevétel összegzése, a becsült következő fizetés, valamint a bevétel és a fizetések trendje az elmúlt 36 hónapban. Ebből a szakaszból a tranzakciók részleteit is letöltheti.
 
+
 :::image type="content" source="images/payouts/transaction-overview.png" alt-text="Tranzakciók áttekintése.":::
 
 - **Bevétel az idei évre** – a befizetett keresetek teljes bevétele és bontása, amelyet a rendszer a következő hónapban fog fizetni.
@@ -57,9 +66,11 @@ A **tranzakciók előzményei** oldalon látható a bevétel összegzése, a bec
 - **Bevétel és fizetési trend** – havi kereseti és fizetési összegek az elmúlt 36 hónapban.
 - **Letöltés** – tranzakció részleteinek letöltése. csv vagy. TSV formátumban.
 
-A lap jobb felső sarkában található dátumtartomány-kijelöléssel szűrheti az oldal kimenetét az elmúlt 3, 6, 12 vagy 36 hónap megjelenítéséhez. Vagy válasszon ki egy egyéni dátumtartományt, amely legfeljebb 36 hónapig terjedhet ki. Az alapértelmezett dátumtartomány 12 hónap.
+A lap jobb felső sarkában található dátumtartomány-kijelöléssel szűrheti az oldal kimenetét az elmúlt 3, 6, 12 vagy 36 hónap megjelenítéséhez. Vagy válasszon ki egy egyéni dátumtartományt, amely legfeljebb 36 hónapig terjedhet ki. Az alapértelmezett dátumtartomány 12 hónap. A szűrést beléptetési azonosító, program, fizetési azonosító, jövedelemszerzési típus, kar és állapot alapján is szűrheti. Az aktuális pénzügyi évre (július 1 – június 30.) és az előző két pénzügyi évre vonatkozó adatszolgáltatások érhetők el.
 
 :::image type="content" source="images/payouts/search-filter.png" alt-text="Az oldal jobb felső sarkában található keresési szűrő.":::
+
+Ha további részletekre kíváncsi, kattintson az oldal jobb oldalán található lefelé mutató nyílra. Ekkor megjelenik a kar, a bevétel mennyisége, a termék és az ügyfél. Ha valamilyen okból kifolyólag nem érhető el ezek az adatmennyiségek, de hozzáférésre van szüksége, forduljon az ügyfélszolgálathoz. Ha a kereset egy beállítás eredménye, és nem tranzakció, a termék és az ügyfél mező nem jelenik meg.
 
 ### <a name="transaction-history-summary"></a>Tranzakció előzményeinek összegzése
 
@@ -74,15 +85,51 @@ Ez a jövedelemszerzési adatokat jeleníti meg, beleértve az eladott termékb�
     - **Közelgő** – a bevétel függőben lévő hűtési időszakban van.
     - **Feldolgozott** – a bevétel a következő befizetéshez készül.
     - **Elküldve** – a bevételeket kifizették.
-- **Becsült fizetési hónap** – a bevételt várhatóan fizető hónap.
+- **Becsült fizetési hónap** – a bevételt várhatóan fizető hónap. További információért tekintse meg a [következő szakaszt](#estimated-payment-month) .
 
 A jövedelemszerzési tranzakciók akkor jelennek meg, ha a tranzakció megfelel a kifizetési jogosultságnak. Annak megismeréséhez, hogy miért lehet hiányzó vagy váratlan eredmény, tekintse meg a [kereskedelmi Marketplace-kifizetések gyakori kérdéseit](payout-faq.md#why-are-my-earnings-missing).
+
+#### <a name="estimated-payment-month"></a>Becsült fizetési hónap
+
+A tranzakció előzményei lap már tartalmaz egy táblázatot, amely a következő néhány hónap becsült fizetési összegét jeleníti meg. Ezen információk megtekintését és letöltését is megtekintheti a tranzakció előzményeiben és az összegző jelentés exportálásban. Ez az információ megkönnyíti a megbékélést és a fizetési prognózist.
+
+A becsült fizetési hónap a program konfigurációs szabályai és idővonalai alapján számítható ki, és a következő/közelgő fizetési ciklusban lesz feldolgozva.
+
+A becsült fizetési hónap jelenleg minden olyan típushoz elérhető, kivéve a Co-op-t, amely **nem alkalmazhatóként** jelenik meg. A 2020. július 1. előtti keresetek esetén a becsült fizetési hónap **nem elérhetőként** jelenik meg.
+
+A következő táblázat egy becsült fizetési hónapra vonatkozó példát mutat be.
+
+| Month (hónap) | Mennyiség |
+| ------ | :-----------: |
+|  Sep – 2020 |  $7 273,99   |
+|  Oct – 2020 | $8 692,30  |
+|  November – 2020 | $107,89  |
+
+A becsült összeg a tényleges összegtől függően különböző lehet:
+
+- A keresés újraértékelése: Ha a rendszer újraszámítja a bevételt, a tényleges összeg eltérő lesz.
+- Beállítások: a tényleges összeg a bekövetkezett vagy elküldött beállításoktól függ.
+- Szabályok módosítása: A szabályok módosítása a ténylegesen fizetett összeg újraszámítását tükrözheti
+- Fizetendő: Ha fizetési hiba történik, a tényleges összeg különbözhet.
+
+Vegye figyelembe, hogy a fizetés csak az előrejelzett hónapban jelenik meg, ha a program küszöbértéke és a fizetési jogosultsági szabályok teljesülnek. Ezek a szabályok például az alábbi listára nem korlátozódnak:
+
+- Az adózási profilnak naprakésznek kell lennie
+- A bevételnek meg kell felelnie vagy meg kell haladnia a program útmutatójában meghatározott minimális bevételi küszöbértéket.
+- Megtartott kifizetés: Ha a profilok hozzárendelése lapon a "fizetés megtartása" lehetőséget választja.
+- A kifizetési eszköz nem érhető el: a fizetés vagy az adó profil nem fejeződött be.
 
 ### <a name="transaction-history-download"></a>Tranzakciós előzmények letöltése
 
 Ha további részleteket szeretne megtekinteni egy adott feladatról, válassza a **Letöltés** lehetőséget az oldal tetején. A következő táblázat a jelentés egyes oszlopait mutatja be.
 
-| Oszlop neve | Leírás | Ösztönző programok/piactérek alkalmazhatósága |
+>[!NOTE]
+>A tranzakciós előzmények letöltési exportálásának két új mezője van, amelyek 2020 augusztusában:
+>
+>- **lastPaymentCurrency**  Az a pénznem, amelyben a legutóbbi fizetés érkezett, az összes olyan MPNs, amelyhez a jelenleg bejelentkezett partner hozzáfér. Ha nem érkezik fizetés, az utolsó fizetési pénznem USA dollár lesz.
+>- **earningAmountInLastPaymentCurrency**  Az utolsó fizetési pénznemben szereplő jövedelemszerzési összeg.
+
+| Oszlop neve | Description | Ösztönző programok/piactérek alkalmazhatósága |
 | --- | --- | --- |
 | agreementEndDate | Szerződés befejezési dátuma | Ösztönzők – csak néhány program |
 | agreementNumber | Szerződés száma | Ösztönzők – csak néhány program |
@@ -164,6 +211,21 @@ Ha további részleteket szeretne megtekinteni egy adott feladatról, válassza 
 | számítási feladat | Számítási feladat | Ösztönzők – csak néhány program |
 |
 
+### <a name="transaction-adjustment-codes"></a>Tranzakció-beállítási kódok
+
+A következő táblázat felsorolja a korrekciók okait és azok leírását.
+
+|**Okkód**   |**Leírás**   |
+|------------------|:-------------------------------------|
+| AR-megfelelőség | Olyan beállítás, amely csökkenti a bevételt, ha a partner nem fizet időben a Microsoft-számlákat. |
+| Co-op rollover | Olyan beállítás, amely egy másik időszakra továbbítja a közös op-bevételt, vagy átalakítja a Co-op-bevételeket a visszatérítésre. |
+| Ops-beállítás | A Microsoft rendszerszámítási hibáit javító beállítás. |
+| Az Ops-helyesbítés a Microsoft helytelen kiszámítása | A helytelen számításokat javító beállítás. |
+| Az Ops-beállítás helytelenül van regisztrálva a Microsoftnál | A regisztrációval kapcsolatos hibás számítások beállítása. |
+| Partner-hozzárendelés (előfizetés) MCI/CSP | Az előfizetések helytelen igazítását javító beállítás. |
+| Házirend kivétele | Ez a beállítás felülbírálja a program szabályait.  |
+| Előző időszak bevételei | Az aktuális jövedelemszerzési időszakon kívüli jövedelmek beállítása. |
+
 ## <a name="payments"></a>Kifizetések
 
 A **Payments** oldalon megtudhatja, hogy a Microsoft milyen pénzt szerzett. Azt is megmutatja, hogy mikor és mennyit kell fizetnie.
@@ -214,9 +276,9 @@ A következő táblázat ismerteti a különböző jövedelemszerzési állapoto
 
 ### <a name="payments-download"></a>Kifizetések letöltése
 
-Ha további részleteket szeretne megtudni a kifizetésekről, válassza a **Letöltés** lehetőséget az oldal tetején. A következő táblázat a jelentés egyes oszlopait mutatja be.
+ A következő táblázat a jelentés egyes oszlopait mutatja be. Ha további részleteket szeretne megtudni a kifizetésekről, válassza a **Letöltés** lehetőséget a fizetések lap tetején.
 
-| Oszlop neve | Leírás |
+| Oszlop neve | Description |
 | --- | --- |
 | participantID | A program keretében keresett partner elsődleges identitása |
 | participantIDType | Általában a program azonosítója az ösztönző programokhoz és az eladói AZONOSÍTÓhoz az áruházi programokhoz |
@@ -238,7 +300,7 @@ Ha további részleteket szeretne megtudni a kifizetésekről, válassza a **Let
 
 ## <a name="export-data"></a>Adatok exportálása
 
-Az **adatexportálás** lap nem frissül a sajátján. Előfordulhat, hogy manuálisan kell frissítenie a lapot a legfrissebb információk megtekintéséhez. Válassza ki a három lapot a **tranzakciók előzményeinek** , a **fizetések** , a **tranzakciós összefoglalás** vagy a **korábbi utasítások** exportálásához.
+Az **adatexportálás** lap nem frissül a sajátján. Előfordulhat, hogy manuálisan kell frissítenie a lapot a legfrissebb információk megtekintéséhez. Válassza ki a három lapot a **tranzakciók előzményeinek**, a **fizetések**, a **tranzakciós összefoglalás** vagy a **korábbi utasítások** exportálásához.
 
 Előfordulhat, hogy a szűrő **nem érhető** el az Adathiba miatt. Ez akkor fordulhat elő, ha az alapértelmezett időszakot három hónapban választotta ki, majd kiválasztott egy fizetési azonosítót az adott időszakon kívüli keresőből. Ha ez történik, bontsa ki az időtartamot, és próbálkozzon újra.
 
@@ -263,7 +325,7 @@ Az **adatexportálás** összegzése is hozzáférést biztosít a korábbi utas
 
 Az alábbi táblázat a korábbi utasítások egyes oszlopait mutatja be.
 
-| Mező neve | Leírás |
+| Mező neve | Description |
 | --- | --- |
 | Bevétel forrása | A bevétel forrása, amely alapján a tranzakció bekövetkezett, például Microsoft Store, Windows Phone-telefon áruház, Windows áruház 8 vagy reklám |
 | Rendelésazonosító | Egyedi megrendelési azonosító. Ez az azonosító lehetővé teszi a vásárlási tranzakciók azonosítását a megfelelő nem vásárlási tranzakciókkal, például a visszatérítéssel vagy a jóváírásokkal kapcsolatban. Mindkettő ugyanazzal a megrendelési AZONOSÍTÓval fog rendelkezni. Továbbá, ha van olyan felosztott díj, amelyben több fizetési módszert használtak egyetlen vásárláshoz, akkor a vásárlási tranzakciók összekapcsolhatók. |

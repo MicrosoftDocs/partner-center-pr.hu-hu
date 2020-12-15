@@ -6,22 +6,20 @@ ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a közvetett viszonteladók hogyan dolgozhatnak a Microsoft közvetett szolgáltatókkal (vagy forgalmazókkal), hogy segítséget kérjenek az ügyfélszolgálat és a számlázás terén.
 ms.prod: ''
-ms.custom: contperfq2
+ms.custom: contperf-fy21q2
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
-ms.openlocfilehash: 74edfbfd766e6969b278c9ad83b3a12b7ef95abd
-ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
+ms.openlocfilehash: 082574f381186731cee023cfcdfa04b46d0ba1c5
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795848"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492398"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
 
-**A következőkre vonatkozik**
 
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -146,7 +144,7 @@ Ha egy közvetett szolgáltató csatlakozni szeretne Önnel a partneri központb
 
 - [Partnerközponti fiók kezelése](partner-center-account-setup.md)
 
-- [Kapcsolódjon ügyfeleivel](connect-with-your-customers.md)
+- [Az ügyfélkapcsolatok szorosabbra fűzése](connect-with-your-customers.md)
 
 - [Üzleti profil létrehozása](create-a-marketing-profile.md)
 

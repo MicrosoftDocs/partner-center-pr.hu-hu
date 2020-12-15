@@ -8,16 +8,16 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 08/10/2020
-ms.openlocfilehash: 4f4a82d4b8a94e960befb55bdd4a99e0cdcc9bb0
-ms.sourcegitcommit: 9d3f88f7008a2771b02cb4af860c6ca00eb50e42
+ms.openlocfilehash: 2444f2d6ff75340b7a9826828d28a4bb316d87a8
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "92528182"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492602"
 ---
 # <a name="use-these-resources-to-help-you-get-started-with-incentives"></a>Az alábbi források segítséget nyújtanak az ösztönzők megkezdéséhez
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 - Partnerek a Microsoft Partner Networkban (MPN)
@@ -48,8 +48,8 @@ Ahhoz, hogy egy ösztönző programban munkát fizessen, konkrét adatokat kell 
 | Ismerje meg, hogy az ösztönzők megfelelnek-e egy adott ösztönző program támogathatósági követelményeinek | [A programban való részvétel jogosultságának meghatározása](incentives-determined-your-program-eligibility.md)  |
 | Megkeresheti és megadhatja a Microsoft számára az ösztönzők kifizetésének beszerzéséhez szükséges adatait | [Kifizetési és adózási profilok létrehozása és kezelése a partner Centerben](incentives-create-and-manage-your-payout-and-tax-profiles.md)  |
 | Erősítse meg, hogy minden olyan részletet megadtak, amely jogosult az ösztönző jövedelmek fogadására | [Bevételi jogosultság megerősítése](incentives-confirm-your-earnings-eligibility.md)  |
-| Az ösztönző program összes információjának és jelentésének megtekintése | [Az ösztönzőkhöz kapcsolódó kifizetések és programok megtekintése](understand-incentive-payouts.md)  |
-| A program-specifikus, ösztönzők kifizetések oldalának elérése | [Az ösztönzők kifizetése oldal elérése](incentives-unified-user-guide.md)  |
+| Az ösztönző program összes információjának és jelentésének megtekintése | [Ösztönző programok és kifizetések megtekintése](understand-incentive-payouts.md)  |
+| A program-specifikus, ösztönzők kifizetések oldalának elérése | [Hozzáférés a kifizetési nyilatkozathoz](payout-statement.md)  |
 
 ## <a name="next-steps"></a>Következő lépések
 

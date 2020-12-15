@@ -6,14 +6,19 @@ ms.service: marketplace
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 12/10/2019
-ms.openlocfilehash: 40f9f90eb1da5d80b8df5a2a3d99979883060d81
-ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
+ms.openlocfilehash: 58a981dbed3aa9a38a29cdd2b085d661b9341232
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514758"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492687"
 ---
 # <a name="set-up-your-payout-account-and-tax-forms"></a>Kifizetési számla és űrlapok beállítása
+
+**Megfelelő szerepkörök:**
+
+- Fiókadminisztrátor
+- Globális rendszergazda
 
 Ahhoz, hogy pénzt kapjon a kereskedelmi piactéren elérhető ajánlatokból, be kell állítania a kifizetési fiókját, és ki kell töltenie a [partner Center](https://partner.microsoft.com/dashboard)szükséges adózási űrlapait.
 
@@ -32,19 +37,16 @@ Miután beállította a fiókját, két dolgot kell tennie, mielőtt az ajánlat
 
 ## <a name="tax-forms"></a>Adózási űrlapok
 
-### <a name="fill-out-your-tax-forms"></a>Töltse ki az adózási űrlapokat
+Az adózási profilt és az adózási űrlapokat a partner központ **kifizetési és adózási** lapján kezelheti. A szervezet engedélyei a megjelenő profilokat és információkat határozzák meg.
 
-Először létre kell hoznia egy adózási profilt, és hozzá kell rendelnie azokat a programokhoz, amelyekben részt vesz a programban. A kereskedelmi piactéren a következő lépések végrehajtásával hozhatja létre az *adózási profilt* :
+### <a name="create-or-update-your-tax-profile"></a>Az adózási profil létrehozása vagy frissítése
 
-- Adja meg az ország/régió lakóhelyét és állampolgárságát.
-- Töltse ki a megfelelő adózási űrlapokat.
-
-A partner Centerben elektronikus formában is elvégezheti és elküldheti az adó-formanyomtatványokat; a legtöbb esetben nem kell űrlapokat kinyomtatnia és e-maileket felvennie.
+Először létre kell hoznia egy adózási profilt, és hozzá kell rendelnie azokat a programokhoz, amelyekben részt vesz a programban. Az alábbi lépések végrehajtásával hozhatja létre vagy frissítheti az *adózási profilt* a partner Centerben. A partner Center irányítópultján elektronikus úton is elvégezheti és elküldheti az adózási űrlapokat; a legtöbb esetben nem kell űrlapokat kinyomtatnia és e-maileket felvennie.
 
 > [!IMPORTANT]
 > A különböző országok és régiók esetében eltérő az adózási követelmények. Az adó összegének pontos összege attól függ, hogy milyen országokban és régiókban vásárolja meg az ajánlatát. Tekintse meg a [Microsoft Azure Marketplace kiadói szerződést](https://go.microsoft.com/fwlink/p/?LinkID=699560) , amely alapján megállapíthatja, hogy mely országokra/régiókra vonatkozik a Microsoft értékesítési és használati adó az Ön nevében. Más országokban/régiókban, attól függően, hogy hol van regisztrálva, előfordulhat, hogy az értékesítési és használati adót közvetlenül a helyi adózási szolgáltatónak kell elvégeznie. Emellett az alkalmazás értékesítésének bevétele a kapott bevételként is adóköteles lehet. Javasoljuk, hogy lépjen kapcsolatba az országa vagy régiója illetékes hatóságával, amely a legjobban segít meghatározni a kereskedelmi Marketplace-tevékenységek megfelelő adózási adatait.
 
-1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd a **Fiókbeállítások** menüpontot.
+1. A [partner Center irányítópultján](https://partner.microsoft.com/dashboard)kattintson a **Beállítások** fogaskerék ikonra a jobb felső sarokban, majd a **Fiókbeállítások** lehetőségre.
 
 2. A bal oldali navigációs menüben válassza a **kifizetés és adó** lehetőséget, majd válassza ki a **kifizetési és adózási hozzárendelések** elemet.
 

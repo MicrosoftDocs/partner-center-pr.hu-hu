@@ -1,22 +1,27 @@
 ---
-title: Kifizetési ütemtervek és szabályzat részletei – Azure Marketplace
-description: Ismerje meg a kereskedelmi Piactéri kifizetési szabályzatokkal kapcsolatos részleteket, beleértve az ütemterveket és a visszakapcsolást.
+title: Kifizetési ütemtervek és folyamatok
+description: Ismerje meg a kifizetéseket és tranzakciókat, például a kereskedelmi piactér és egyéb tranzakciók fizetési ütemterveit és újrakapcsolási folyamatait.
 ms.service: marketplace
 ms.subservice: partnercenter-marketplace-publisher
 ms.topic: conceptual
 author: eunjkim520
 ms.author: eunjkim
-ms.date: 11/06/2020
-ms.openlocfilehash: bd8153ffd368c1f67b27eaeb44d383409bd59e97
-ms.sourcegitcommit: 2e880efb02a48afc4f234ec27da34519407f87c6
+ms.date: 11/25/2020
+ms.openlocfilehash: bb7a6673d2dee5a35f1c5be96f354451633eecf5
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96513293"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492670"
 ---
-# <a name="payout-schedules-and-policy-details"></a>A kifizetési ütemtervek és a szabályzat részletei
+# <a name="payout-schedules-and-processes"></a>Kifizetési ütemtervek és folyamatok
 
-Ez a cikk a Microsoft kifizetési folyamatát, a kifizetési ütemtervet, a kifizetés állapotának megállapítását, valamint az ügyfél nem teljesített fizetési folyamatát ismerteti.
+**Megfelelő szerepkörök:**
+
+- Fiókadminisztrátor
+- Globális rendszergazda
+
+Ez a cikk a Microsoft fizetési ütemtervét tárgyalja, ahol megkeresheti a kifizetés állapotát, és az ügyfél nem teljesített fizetési folyamatát.
 
 ## <a name="payment-schedules"></a>Fizetési ütemtervek
 
@@ -28,7 +33,7 @@ Ha egy ügyfél Microsoft AppSource vagy az Azure Marketplace-en vásárol egy t
 
 A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél nem fizet a Microsoftnak, de már kiállítottunk egy kifizetést, tekintse meg az [ügyfél nem fizetési folyamatát](#process-for-customer-non-payment) ismertető szakaszt.
 
-| Esemény | Leírás | Jelentéskészítés láthatósága | Időzítés |
+| Esemény | Description | Jelentéskészítés láthatósága | Időzítés |
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | A Microsoft kiszámítja a számlázási összeget | Teljes használat meghatározása, tranzakciók összesen | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
@@ -46,7 +51,7 @@ A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél 
 
 Az összes bankkártyával vagy havi számlával történő vásárlás 30 napos időszakot biztosít, amely biztosítja, hogy az ügyfelek az ügyféltől gyűjtsék a forrásokat.
 
-| Esemény | Leírás | Jelentéskészítés láthatósága | Időzítés |
+| Esemény | Description | Jelentéskészítés láthatósága | Időzítés |
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | Az ügyfél által fizetett számla | A teljes használat, a tranzakció teljes értéke és az ügyfél által fizetett számla meghatározása | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
@@ -90,7 +95,7 @@ A következő példa egy ütemezett ütemtervet mutat be:
 A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk, de további időt vesz igénybe, hogy a fizetés elérje a fiókját. A napok száma a fiókhoz használt fizetési módszertől függ, az alább leírtak szerint.
 
 > [!NOTE]
-> Az alább látható napok a következők: közelítő; a fizetés hosszabb vagy rövidebb időt is igénybe vehet a fiókja eléréséhez.
+> Az alább látható napok a következők: közelítő; a fizetés több vagy kevesebb időt vehet igénybe a fiókja eléréséhez.
 
 | Payment Method (Fizetési mód)     | A kifizetési fiók eléréséhez szükséges napok száma     |
 |--------------------|--------------------------------------------|

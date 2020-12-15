@@ -8,12 +8,12 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 66177c6e3cd0091081866e1508d28346f49ec713
-ms.sourcegitcommit: bfc9e6f6476766cf10ba714f03ca2e96560003b1
+ms.openlocfilehash: 1e97e2e9db798e5ef90858cf96dc06602bbfe427
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94626031"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492466"
 ---
 # <a name="create-and-manage-incentives-payout-and-tax-profiles-in-partner-center"></a>Ösztönzők létrehozása és kezelése a partner Centerben
 
@@ -72,7 +72,7 @@ Az alábbi szakasz végigvezeti a fizetési és adózási profilok a partner Cen
 
 1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/), majd kattintson a fogaskerék ikonra a **Beállítások** menü megnyitásához. 
 
-2. Válassza ki a **partner beállításait** , bontsa ki a **kifizetés és adó szakaszt** , majd válassza a **kifizetés és az adó profil hozzárendelése** lehetőséget. 
+2. Válassza ki a **partner beállításait**, bontsa ki a **kifizetés és adó szakaszt**, majd válassza a **kifizetés és az adó profil hozzárendelése** lehetőséget. 
    
    Ekkor megjelenik a programok listája. A profil részleteinek megtekintéséhez kattintson a program melletti nyílra. 
 
@@ -115,7 +115,7 @@ A banki profilok szervezeti szinten jönnek létre. Ez lehetővé teszi, hogy az
 
 6. Ha a mezők befejeződik, válassza a **Befejezés** lehetőséget, majd válassza a **jóváhagyás** lehetőséget a banki profil létrehozásához.
 
-A rendszer átirányítja a **kifizetési és adózási profilok** lapra. Az új profil állapota a **Microsoft-ellenőrzés függőben** állapotba kerül, amíg az ellenőrzés be nem fejeződik. Ez a folyamat akár 48 órát is igénybe vehet. Az érvényesítés befejezését követően a profil állapota vagy **jóváhagyása** vagy a **szükséges művelet** látható lesz. Ha **beavatkozás szükséges** , ismételje meg a fenti lépéseket a szükséges információk megadásakor. 
+A rendszer átirányítja a **kifizetési és adózási profilok** lapra. Az új profil állapota a **Microsoft-ellenőrzés függőben** állapotba kerül, amíg az ellenőrzés be nem fejeződik. Ez a folyamat akár 48 órát is igénybe vehet. Az érvényesítés befejezését követően a profil állapota vagy **jóváhagyása** vagy a **szükséges művelet** látható lesz. Ha **beavatkozás szükséges**, ismételje meg a fenti lépéseket a szükséges információk megadásakor. 
 
 ## <a name="create-your-tax-profile"></a>Az adózási profil létrehozása
 
@@ -150,6 +150,6 @@ Abban az esetben, ha a W8 vagy a W9 űrlap kitöltéséhez szükséges informác
 
 9. Válassza az előugró üzenet **megerősítés** elemét. Visszakerül a **kifizetés és az adó beállítása** lapra.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Ösztönzők a kifizetési és az adózási profilokkal kapcsolatos gyakori kérdések](incentives-payout-tax-profile-faqs.md)
+- [A kifizetésekkel és az adókkal kapcsolatos gyakori kérdések](payout-faq.md)

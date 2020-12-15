@@ -1,23 +1,28 @@
 ---
-title: Fizetés fogadása a kereskedelmi piactéren
-description: Ismerje meg, hogyan fogadhat fizetéseket a kereskedelmi piactéren az Azure Marketplace-en. Tartalmazza a kifizetési szabályzatot, a kifizetéssel kapcsolatos állapotot és a kifizetési utasításokat.
+title: Fizetés a partner Centerben
+description: Ismerje meg, hogyan fogadhat fizetéseket Microsoft-partnerként, például kereskedelmi Piactéri ajánlatokon, ösztönző programokon és a Cloud Solution Provider programon keresztül. Tartalmazza a kifizetési szabályzatot, a kifizetéssel kapcsolatos állapotot és a kifizetési utasításokat.
 ms.service: marketplace
 ms.topic: conceptual
-ms.date: 09/28/2020
+ms.date: 11/25/2020
 author: eunjkim520
 ms.author: eunjkim
-ms.openlocfilehash: e998ae248b5b09340cb4a7b57c8fbd77b59731d4
-ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
+ms.openlocfilehash: fc1eea0d8a90bb2b5e11dad24a71c9c34fd1a4a0
+ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514724"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492449"
 ---
-# <a name="getting-paid-in-the-commercial-marketplace"></a>Fizetés fogadása a kereskedelmi piactéren
+# <a name="getting-paid-in-partner-center"></a>Fizetés a partner Centerben
+
+**Megfelelő szerepkörök:**
+
+- Fiókadminisztrátor
+- Globális rendszergazda
 
 Ez a cikk fontos információkat nyújt az ajánlatok, a bővítmények és a hirdetési bevételek fizetésének fogadásáról. Összefoglalja a kifizetési szabályzatot, a befizetéshez szükséges lépéseket, valamint a kifizetési utasítások áttekintését.
 
-## <a name="commercial-marketplace-payout-policies-and-agreements"></a>Kereskedelmi Marketplace kifizetési szabályzatok és szerződések
+## <a name="payout-policies-and-agreements"></a>Kifizetési szabályzatok és szerződések
 
 A fizetés megkezdéséhez meg kell felelnie a szerződéseknek és a kifizetési szabályzatnak.
 
@@ -49,4 +54,4 @@ A kifizetési utasítás a tranzakciók előzményeiben az ajánlatok és a bőv
 ## <a name="next-steps"></a>Következő lépések
 
 - [Partneri kifizetések API](https://apidocs.microsoft.com/services/partnerpayouts)
-- [Marketplace-kifizetések – gyakori kérdések](payout-faq.md)
+- [Kifizetések – GYIK](payout-faq.md)
