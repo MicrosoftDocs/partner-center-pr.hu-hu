@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: d8dac9e5d8720a39d6bf585a1f6cd9bd5c70465a
-ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
+ms.openlocfilehash: 09653cbe4db15678db94a1012861924a6c7cf6c9
+ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926678"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97514750"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -56,7 +56,7 @@ Ahhoz, hogy továbbra is részt vegyen a CSP programban, a Microsoft partneri sz
 
 1. A **Beállítások** közül válassza a [partner profil](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)lehetőséget.
 
-1. Keresse meg a **program adatai** szakaszt. Ha az adatok nem jelenítik meg a **közvetett viszonteladói** állapotot, akkor [közvetett viszonteladóként kell regisztrálnia](https://partner.microsoft.com/cloud-solution-provider/whats-required).
+1. Keresse meg a **program adatai** szakaszt. Ha az adatok nem jelenítik meg a **közvetett viszonteladói** állapotot, akkor [közvetett viszonteladóként kell regisztrálnia](indirect-reseller-tasks-in-partner-center.md).
 
 1. Ha a  **közvetett viszonteladó** állapota **aktív** , akkor Ön a partner Center aktív közvetett viszonteladója.
  
@@ -89,6 +89,6 @@ Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
 
 3. Ha az 1. és/vagy a fenti 2. lépés elvégzése után szeretné ellenőrizni a MPA állapotát a partner Centerben: [ellenőrizze a Microsoft partneri szerződés elfogadásának állapotát](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Regisztráció a felhőszolgáltatói programban](enrolling-in-the-csp-program.md)

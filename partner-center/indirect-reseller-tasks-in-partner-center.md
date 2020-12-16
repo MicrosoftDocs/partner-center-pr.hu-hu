@@ -1,7 +1,7 @@
 ---
 title: Közvetett szolgáltatók használata a CSP programban
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/11/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a közvetett viszonteladók hogyan dolgozhatnak a Microsoft közvetett szolgáltatókkal (vagy forgalmazókkal), hogy segítséget kérjenek az ügyfélszolgálat és a számlázás terén.
@@ -10,16 +10,14 @@ ms.custom: contperf-fy21q2
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
-ms.openlocfilehash: 082574f381186731cee023cfcdfa04b46d0ba1c5
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: 3fc6b50280ac07f7c68c5a0913d0938d5eadd7f5
+ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492398"
+ms.locfileid: "97514745"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
-
-
 
 **Megfelelő szerepkörök**
 
@@ -70,33 +68,22 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
 
 2. Tekintse át az **üdvözlőlapot** , és győződjön meg arról, hogy rendelkezik a regisztrálni kívánt adatokkal, majd válassza a **tovább** lehetőséget.
 
-3. Jelentkezzen be a munkahelyi fiókjával. Válassza a **Bejelentkezés** lehetőséget, majd adja meg azt a felhasználónevet és jelszót, amelyet az Office 365, Microsoft Azure vagy Microsoft Dynamics CRM globális rendszergazdájaként való bejelentkezéshez használ.
+3. Bejelentkezés munkahelyi fiókkal – az Office 365, Microsoft Azure vagy Microsoft Dynamics CRM globális rendszergazdájaként való bejelentkezéshez használt Felhasználónév és jelszó. Ha nem rendelkezik munkahelyi fiókkal, válassza a **Létrehozás** lehetőséget, ha most szeretné beállítani az egyiket. A munkahelyi fiók létrehozása után jelentkezzen be az új fiókja globális rendszergazdai hitelesítő adataival.
 
-   Ha nem rendelkezik munkahelyi fiókkal, válassza a **Létrehozás** lehetőséget, ha most szeretné beállítani az egyiket. A munkahelyi fiók létrehozása után jelentkezzen be az új fiókja globális rendszergazdai hitelesítő adataival.
-
-4. Tekintse át a Microsoft Partner Network-azonosító (MPN-azonosító) az új partner Center-fiókkal való hozzárendelésével kapcsolatos információkat. A vállalat MPN-AZONOSÍTÓját az új partner Center-fiókkal kell összekapcsolni, hogy a tagsági előnyök és ösztönzők a partner központhoz legyenek kezelve. Válassza a **Bejelentkezés** lehetőséget.
-
-5. Adja meg a Partner tagsági központ (PMC) webhelyre való bejelentkezéshez használt felhasználónevet. A Partner tagsági központ webhelye, ahol jelenleg felügyeli a Microsoft partneri fiókját. Ha bejelentkezik a Partner tagsági központba, lehetővé teszi, hogy lekérje az MPN-azonosítót, és hozzárendelje azt az új partner Center-fiókhoz. Kattintson a **Tovább** gombra.
-
-6. Adja meg a Partner tagsági központ fiókjához tartozó jelszót, majd válassza a **Bejelentkezés** lehetőséget.
-
-7. Válassza ki azt a vállalati profilt, amely az MPN-AZONOSÍTÓval, a tagsági előnyökkel és a kompetenciákkal kapcsolatos. Ezt az információt ezután áthelyezheti a partner Center-fiókjába. Válassza a **Folytatás** lehetőséget.
-
-   Ha a használni kívánt MPN-azonosító nem szerepel ezen a lapon, válassza a **Mégse** lehetőséget, majd jelentkezzen be újra a használni kívánt vállalati profil felhasználónevével és jelszavával.
 
    > [!IMPORTANT]  
    > Válassza ki az aktív vállalati profilhoz társított MPN-azonosítót, amely ugyanabban az országban vagy régióban található, mint az Azure AD-bérlő.
 
-8. Adja meg vagy frissítse vállalata jogi üzleti profilját, az elsődleges kapcsolattartási adatait és az ügyfélszolgálati információkat. Válassza a **regisztrálás most** lehetőséget.
+4. Adja meg vagy frissítse vállalata jogi üzleti profilját, az elsődleges kapcsolattartási adatait és az ügyfélszolgálati információkat. (A jogi üzleti adatok megkereséséhez válassza a **szervezeti profil** lehetőséget, majd válassza a **jogi információk** lehetőséget.) Válassza a **regisztrálás most** lehetőséget.
 
-   Az elsődleges kapcsolattartónak a vállalat azon személyének kell lennie, akivel kapcsolatba tud lépni az alkalmazással. Az elsődleges kapcsolattartó lehet Ön vagy egy másik személy a cégnél. Megjegyzés: nem fogadunk el e-mail-címeket a webalapú e-mail-szolgáltatásokból, például a Gmailből, Yahoo! Levelezés, iCloud levelezés, AOL mail vagy Outlook E-mail.
+   Az elsődleges kapcsolattartó a vállalat azon tagja, akivel kapcsolatba lehet lépni az alkalmazással. Ön vagy a vállalat egy másik személye is lehet. Megjegyzés: nem fogadunk el e-mail-címeket a webalapú e-mail-szolgáltatásokból, például a Gmailből, Yahoo! Levelezés, iCloud levelezés, AOL mail vagy Outlook E-mail.
 
    > [!IMPORTANT]  
    > A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és (2) hogy ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését. A regisztrálási állapot frissítéseit az elsődleges partnernek küldjük.
 
-9. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
+5. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
 
-   1. A **partner Centerben** válassza a **Beállítások** ikont, majd válassza a **felhasználók kezelése** lehetőséget.
+   1. A partner Center irányítópultján válassza a **Beállítások** ikont, majd a **Fiókbeállítások** területen válassza a **felhasználói kezelés** lehetőséget.
 
    2. A felhasználók listájából válassza ki a nevét. Ezután válassza ki a **felügyeleti ügynököt** , ha még nincs kiválasztva. Válassza a **Frissítés** lehetőséget.
 
@@ -137,8 +124,12 @@ Ha egy közvetett szolgáltató csatlakozni szeretne Önnel a partneri központb
    > [!IMPORTANT]  
    > A közvetett szolgáltatónak viszonteladói kapcsolattal kell rendelkeznie ügyfeleivel, hogy elküldje a rendeléseket a nevükben.
 
+## <a name="your-csp-country-and-the-csp-regions-where-you-do-business"></a>A CSP-ország és a CSP-régiók, ahol üzleti tevékenységet végez
 
-## <a name="next-steps"></a>Következő lépések
+A SZOLGÁLTATÓi közvetett viszonteladói tartózkodási helye határozza meg azokat a közvetett szolgáltatókat, akikkel Ön dolgozhat, valamint azokat a régiókat, amelyeken a CSP-üzletet el tudja végezni. További információ: a [Cloud Solution Provider program regionális piacainak és pénznemének olvasása, ahol a CSP-ajánlatokat értékesítheti](regional-authorization-overview.md).
+
+
+## <a name="next-steps"></a>További lépések
 
 - [A fiók-ellenőrzési folyamat](verification-responses.md)
 

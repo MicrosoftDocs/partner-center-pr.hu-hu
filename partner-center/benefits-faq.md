@@ -1,7 +1,7 @@
 ---
 title: Az előnyökkel kapcsolatos gyakori kérdések
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 12/15/2020
 description: Válaszok az Azure-hoz, a felhőhöz, a Visual studióhoz, valamint a technikai és támogatási előnyökhöz kapcsolódó licencek lejáratával, megújításával és aktiválásával kapcsolatos kérdésekre
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
@@ -9,12 +9,12 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOJUNE20
-ms.openlocfilehash: 61ceb869d2268b441d990049b9956da8ea87f8f5
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: f4ed4fe8946c6cacba1277921aececd84863c465
+ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570688"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97514693"
 ---
 # <a name="benefits-faq"></a>Az előnyökkel kapcsolatos gyakori kérdések
 
@@ -98,7 +98,7 @@ A következő lépések végrehajtásával rendelhet hozzá előfizetéseket a p
 Az előfizetés hozzárendelése után a felhasználónak be kell jelentkeznie a Visual studióba a kezeléséhez.
 
 >[!Note]
-> Előfordulhat, hogy a Visual Studio-előfizetések az eredeti hozzárendelés után egy másik 90 nappal újra hozzárendelhetők egy előfizetőhöz.
+> Előfordulhat, hogy a Visual Studio-előfizetések újbóli hozzárendelése az egyik előfizetőből egy másikba, ha az eredeti hozzárendelés időpontja óta 90 nap telt el.
 
 ## <a name="technical-benefits-and-support"></a>Technikai előnyök és támogatás
 
