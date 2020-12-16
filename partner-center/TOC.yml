@@ -279,18 +279,12 @@
         - name: Kifizetések és adóprofilok ismertetése
           href: incentives-create-and-manage-your-payout-and-tax-profiles.md
           displayName: incentives
-        - name: Kifizetésekkel és adóprofilokkal kapcsolatos gyakori kérdések
-          href: incentives-payout-tax-profile-faqs.md
-          displayName: incentives
         - name: Bevételi jogosultság ellenőrzése
           href: incentives-confirm-your-earnings-eligibility.md
           displayName: incentives
-        - name: Kifizetések és programok megtekintése
+        - name: Programok és kifizetések megtekintése
           href: understand-incentive-payouts.md
           displayName: 'mpn, incentives'
-        - name: Hozzáférés a kifizetési oldalhoz
-          href: incentives-unified-user-guide.md
-          displayName: incentives
     - name: Tervek és végrehajtási igazolások
       items:
         - name: Tervek és végrehajtási igazolások ismertetése
@@ -433,23 +427,21 @@
       displayName: csp
 - name: Fizetés fogadása
   items:
+    - name: Fizetés fogadása
+      href: marketplace-get-paid.md
+    - name: Kifizetési utasítások
+      href: payout-statement.md
     - name: 'Fizetéselmaradás, csalás vagy visszaélés kezelése'
       href: non-payment-fraud-misuse.md
     - name: Nem lefoglalt fizetések kezelése
       href: unallocated-payment.md
-    - name: Kereskedelmi piactér kifizetései
-      items:
-        - name: Fizetés fogadása a piactéren
-          href: marketplace-get-paid.md
-        - name: Fizetési szabályzat részletei
-          href: payout-policy-details.md
-        - name: 'Fizetési küszöbértékek, módszerek és időkeretek'
-          href: payment-thresholds-methods-timeframes.md
-        - name: Kifizetési utasítások
-          href: payout-statement.md
-          displayName: invoice
-        - name: Kifizetések – GYIK
-          href: payout-faq.md
+    - name: Kifizetési ütemtervek és folyamatok
+      href: payout-policy-details.md
+    - name: 'Fizetési küszöbértékek, módszerek és időkeretek'
+      href: payment-thresholds-methods-timeframes.md
+      displayName: invoice
+    - name: Kifizetésekkel és adóprofilokkal kapcsolatos gyakori kérdések
+      href: payout-faq.md
 - name: Az ügyfélkapcsolatok kiépítése
   items:
     - name: Az ügyfélkapcsolatok szorosabbra fűzése
@@ -663,10 +655,12 @@
               displayName: 'indirect, reseller'
             - name: Képzés
               href: pci-training-dashboard.md
-        - name: Ismert problémák
+        - name: Insights – gyakori kérdések
           href: pci-known-issues.md
         - name: Insights-jelentések letöltése
           href: pci-download-reports.md
+        - name: Az Insights adatdefiníciói
+          href: pci-data-definitions.md
     - name: Partnerhozzájárulás-jelzők
       href: partner-contribution-indicators.md
       displayName: mpn
