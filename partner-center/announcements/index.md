@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/03/2020
-ms.openlocfilehash: d90a9adf70b372517c0454733ec1a2262f330c1f
-ms.sourcegitcommit: bc44a6e0c5ef048cda6e882fdb543c13c5b64912
+ms.openlocfilehash: a373a6a956e8c8a8e8052a946cc82a8d82213da0
+ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96869316"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622184"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[Már elérhető a Power Apps promóciós ajánlata](2020-december.md#5)|December 16.|
 |Képességek|[Az SDK kiadása a .NET Standard 1.16.3-as verzióján](2020-december.md#4)|December 8.|
 |Ajánlatok/piacok|[2020. decemberi licencalapú árlista kibocsátási megjegyzései](2020-december.md#3)|December 8.|
 |Ajánlatok/piacok|[Hamarosan elérhetővé válik a US Microsoft 365 Business Voice híváscsomagos ajánlata](2020-december.md#2)|December 3.|
