@@ -1,7 +1,7 @@
 ---
 title: Közvetett szolgáltatók használata a CSP programban
 ms.topic: how-to
-ms.date: 12/11/2020
+ms.date: 12/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a közvetett viszonteladók hogyan dolgozhatnak a Microsoft közvetett szolgáltatókkal (vagy forgalmazókkal), hogy segítséget kérjenek az ügyfélszolgálat és a számlázás terén.
@@ -10,12 +10,12 @@ ms.custom: contperf-fy21q2
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
-ms.openlocfilehash: 3fc6b50280ac07f7c68c5a0913d0938d5eadd7f5
-ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
+ms.openlocfilehash: c1929a68146c09beae16e5aabd96b1f192db3a31
+ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97514745"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97636024"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
 
@@ -69,10 +69,7 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
 2. Tekintse át az **üdvözlőlapot** , és győződjön meg arról, hogy rendelkezik a regisztrálni kívánt adatokkal, majd válassza a **tovább** lehetőséget.
 
 3. Bejelentkezés munkahelyi fiókkal – az Office 365, Microsoft Azure vagy Microsoft Dynamics CRM globális rendszergazdájaként való bejelentkezéshez használt Felhasználónév és jelszó. Ha nem rendelkezik munkahelyi fiókkal, válassza a **Létrehozás** lehetőséget, ha most szeretné beállítani az egyiket. A munkahelyi fiók létrehozása után jelentkezzen be az új fiókja globális rendszergazdai hitelesítő adataival.
-
-
-   > [!IMPORTANT]  
-   > Válassza ki az aktív vállalati profilhoz társított MPN-azonosítót, amely ugyanabban az országban vagy régióban található, mint az Azure AD-bérlő.
+  
 
 4. Adja meg vagy frissítse vállalata jogi üzleti profilját, az elsődleges kapcsolattartási adatait és az ügyfélszolgálati információkat. (A jogi üzleti adatok megkereséséhez válassza a **szervezeti profil** lehetőséget, majd válassza a **jogi információk** lehetőséget.) Válassza a **regisztrálás most** lehetőséget.
 
@@ -81,7 +78,16 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
    > [!IMPORTANT]  
    > A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és (2) hogy ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését. A regisztrálási állapot frissítéseit az elsődleges partnernek küldjük.
 
-5. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
+5. Az MPN-azonosító hozzárendelése az Azure ID-bérlőhöz.
+
+    1. Válassza ki az **azonosítókat** a **Fiókbeállítások** közül.
+
+    1. A **CSP** szakaszban a **frissítés** HIVATKOZÁSRA kattintva frissítse a CSP-fiókjához társított MPN-azonosítót. 
+ 
+ > [!IMPORTANT]  
+   > Válassza ki az aktív vállalati profilhoz társított MPN-azonosítót, amely ugyanabban az országban vagy régióban található, mint az Azure AD-bérlő.
+
+6. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
 
    1. A partner Center irányítópultján válassza a **Beállítások** ikont, majd a **Fiókbeállítások** területen válassza a **felhasználói kezelés** lehetőséget.
 
@@ -129,7 +135,7 @@ Ha egy közvetett szolgáltató csatlakozni szeretne Önnel a partneri központb
 A SZOLGÁLTATÓi közvetett viszonteladói tartózkodási helye határozza meg azokat a közvetett szolgáltatókat, akikkel Ön dolgozhat, valamint azokat a régiókat, amelyeken a CSP-üzletet el tudja végezni. További információ: a [Cloud Solution Provider program regionális piacainak és pénznemének olvasása, ahol a CSP-ajánlatokat értékesítheti](regional-authorization-overview.md).
 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A fiók-ellenőrzési folyamat](verification-responses.md)
 

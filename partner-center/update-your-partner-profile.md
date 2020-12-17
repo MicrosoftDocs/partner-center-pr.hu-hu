@@ -7,14 +7,14 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
 ms.localizationpriority: high
-ms.date: 11/23/2020
+ms.date: 12/16/2020
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b9b23fc887b754bf4eb1d703026a24e294952f4c
-ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
+ms.openlocfilehash: 398e02e4d18df9e555a1576e845e1d0e0bdf1105
+ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514707"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97636007"
 ---
 # <a name="verify-your-organization-profile-information-in-partner-center"></a>A szervezeti profil adatainak ellenőrzése a partner Centerben
 
@@ -65,16 +65,12 @@ Ha a Partner tagsági központból a partneri központba való Migrálás során
 
 A CSP-fiókhoz társított MPN-azonosító frissítése:
 
-1. Jelentkezzen be a partner Center irányítópultra.
+1. Jelentkezzen be a partner Center irányítópultra, majd válassza a **Beállítások** lehetőséget.
  
-1. Válassza ki a **fiók beállításai** közül a **szervezeti profil** lehetőséget.
+1. A **Fiókbeállítások** lapon válassza az **azonosítók** lehetőséget.
 
-1. A **társított MPNID** mellett válassza a **frissítés** lehetőséget.
+1. A **CSP** szakaszban a **frissítés** HIVATKOZÁSRA kattintva frissítse a CSP-fiókjához társított MPN-azonosítót.
  
-1. Válassza a **Folytatás** lehetőséget.
- 
-1. Adja meg az MPN-azonosítót.
-
 
 ## <a name="update-your-billing-address"></a>Számlázási cím frissítése
 

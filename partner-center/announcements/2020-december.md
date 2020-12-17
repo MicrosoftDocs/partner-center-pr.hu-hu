@@ -9,18 +9,157 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/02/2020
-ms.openlocfilehash: 841ef4701ef7c973cc7a4fffaa26bb24b8d6f7e9
-ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
+ms.openlocfilehash: c546885d74f5959dd02c0c7ce0fdbc22f9ff5313
+ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622150"
+ms.locfileid: "97635990"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi hirdetményeit.
 
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [](2020-november.md) | December
+
+______________
+
+## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="8"></a>A Cloud Solution Provider (CSP) ügyfél bevezetési követelményeinek módosításai
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-17
+- Ajánlatok/piacok
+ 
+### <a name="summary"></a>Összefoglalás
+
+A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként a további vásárlói adatokat fogjuk igénybe venni, amelyek a 2021. márciusi időszak végén érvényesek.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A CSP közvetlen számlázási partnerei és olyan közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. A 2021. márciusi időszak végén bemutatjuk a partner Center API és a felhasználói felület (UI) fejlesztéseit, amelyek hatással lesznek a következő feltételeknek megfelelő partnerekre:
+
+1. A partner közvetlen számlázási kapcsolatban áll a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlás partner vagy közvetett szolgáltató).
+
+2. A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban:
+    - Thaiföld
+    - Vietnam
+    - Törökország
+    - Lengyelország
+    - Dél-afrikai Köztársaság
+    - India
+    - Brazília
+    - Irak
+    - Mianmar
+    - Dél-Szudán
+    - Szaúd-Arábia
+    - Egyesült Arab Emírségek
+    - Venezuela
+
+A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél **jogi azonosítóját** (más néven az ügyfél **szervezeti fogadóban**) és a **telefonszámot** , amikor a következő frissítést vagy előfizetést hoznak létre az adott ügyfél számára. Ezek a partnerek az ügyfél számára is megadhatnak egy nem kötelező **középső nevet** .
+
+A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti partnerek már egy korábbi kiadásban, 2020 novemberében lettek bevezetve.
+
+- Örményország
+- Azerbajdzsán
+- Belarusz
+- Magyarország
+- Kazahsztán
+- Kirgizisztán
+- Moldova
+- Oroszország
+- Tádzsikisztán
+- Ukrajna
+- Üzbegisztán
+
+A világ többi részén lévő ügyfelekkel rendelkező partnerek a 2021. márciusi időpontban jogosultak a **jogi azonosító**, a **telefonszám** és a **középső név** megadására az ügyfelek számára opcionális részletekként.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a dedikált [partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakran feltett kérdéseket.
+- Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
+- Ügyeljen arra, hogy új ügyfelek beléptetése vagy a meglévő ügyfél adatainak módosításakor küldje el a további adatokat.
+- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van a jogi azonosítóval (más néven INN vagy TIN) kapcsolatban, forduljon az adó-tanácsadóhoz vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben. 
+
+Ha támogatásra van szüksége a Microsofttal folytatott műveleteihez, [Nyisson meg egy szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8).
+
+______________
+
+## <a name="reminder-perpetual-software-in-the-cloud-solution-provider-csp-program-broadly-available-from-january-2021"></a><a name="7"></a>Emlékeztető: a Cloud Solution Provider (CSP) program örökös szoftverei széles körben elérhetők a januári 2021
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-17
+- Növelje üzletét
+ 
+### <a name="summary"></a>Összefoglalás
+
+Ez egy emlékeztető arról, hogy a 2021. január 19-én az összes CSP-partner képes lesz értékesíteni a kereskedelmi örökös szoftveres licenceket. Új termékeket és földrajzi régiókat is bevezetünk.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden CSP-partner
+
+### <a name="details"></a>Részletek
+
+Emlékeztetjük arra, hogy **2021. január 19**-én a CSP programban regisztrált összes partner képes lesz kereskedelmi örökös szoftveres licenceket értékesíteni a helyszíni telepítéshez a CSP-n keresztül. Ez lehetővé teszi a felhasználóknak a digitális átalakítás részeként szükséges licencelési rugalmasságot.
+
+A következő ugyanezt a dátumot is végrehajtja:
+
+- A CSP Perpetual Software árlista újra közzé lesz téve a partner Centerben. Az [értékesítés > díjszabása & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldal **szoftver** szakaszában találhatja meg, amely további termékeket és földrajzi régiókat tartalmaz. Részletes információt [itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) talál.
+
+- A partner Center szoftver-és licenckulcs-teljesítési funkciója kivonásra kerül – lásd a [bejelentést](https://docs.microsoft.com/partner-center/announcements/2020-september#17) , és a partnerek a Microsoft 365 felügyeleti központot kizárólag erre a célra használják tovább. Ez biztosítja az ügyfelek számára legbiztonságosabb és leghatékonyabb élményt. A Microsoft 365 felügyeleti központ szoftverével kapcsolatos további információkért tekintse át az [Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), a [gyakori feladatok](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&preserve-view=true)és a [licencek kulcsának teljesítésére vonatkozó lehetőségeket](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf).
+
+### <a name="perpetual-software-in-csp"></a>Örökös szoftver a CSP-ben
+
+Az új kereskedelmi élményben lévő, a CSP programhoz való Perpetual szoftver hozzáadása csökkenti a partnerek által több licencelési program kezeléséhez szükséges időt és költségeket. Ez jobb értékesítési, működési és felügyeleti képességeket eredményez. A partnerek a különböző megoldásokkal és felügyelt szolgáltatásokkal bővítik a vállalatokat, hogy rugalmasan kombinálják a licenceket és a felügyelt szolgáltatásokat a hibrid felhőalapú környezetekhez, és így tovább gyorsulnak ügyfeleiknek a felhőre való áttéréssel. Az ügyfelek pedig egyszerűsített megközelítéssel és nagyobb rugalmassággal rendelkeznek a szoftveres licencek megvásárlásakor. Ez a vásárlási folyamat könnyen érthető, közvetlenül javítja a licencelési eszközök felügyeletét, és kiszámítható költségekkel rendelkezik.
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a következő erőforrásokat, és ossza meg őket a szervezete megfelelő névjegyeivel:
+
+- A [CSP Perpetual szoftver termékei és földrajzi](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) területe a 2021. január 19-én bővült
+
+- Microsoft 365 felügyeleti központ [– Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), [gyakori feladatok](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&preserve-view=true)és [licenckulcs-teljesítési képességek](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf)
+
+- [Lehetőségek bővítése a partnereknek a felhőalapú megoldás-szolgáltató programban](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) (partner bejelentése)
+
+- [Perpetual szoftver a Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/software-in-csp#/) készültségi anyagaiban, beleértve az áttekintő bemutatót, a licencelési útmutatót, a partneri kérdéseket, az operatív és technikai (SDK/API) webes előadásokat és számos hasznos erőforrást. Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
+
+### <a name="questions"></a>Kérdése van?
+
+Az ajánlatokkal kapcsolatos további kérdésekért keresse meg a megfelelő Yammer-közösségeket.
+
+______________
+
+## <a name="online-services-and-software-channel-authorization-guide"></a><a name="6"></a>Az online szolgáltatások és a szoftveres csatorna engedélyezési útmutatója
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-17
+- Képességek
+ 
+### <a name="impacted-audience"></a>Érintett közönség
+
+A Cloud Solution Provider (CSP) programban részt vevő közvetlen számlázás, közvetett szolgáltatók és többrétegű partnerek.
+
+### <a name="details"></a>Részletek
+
+A Microsoft partneri szerződésével összhangban (lásd: az **online szolgáltatások és a szoftveres csatornák hitelesítése – a változások áttekintése – az útmutatók módosítása**), a Microsoft ezennel értesíti Önt arról, hogy az online szolgáltatások és a szoftveres csatorna engedélyezési útmutatójának frissítése folyamatban van. 
+
+A frissített útmutató előnézete [itt érhető](https://partner.microsoft.com/resources/detail/update-guide-online-services-software-channel-authorization-jan-pdf)el, amely az [itt elérhető](https://partner.microsoft.com/resources/detail/update-guide-online-services-software-channel-authorization-jan-redline-pdf)módosításokat mutatja be. Ez a frissítés a jelen értesítés dátumától számítva 30 nappal lép érvénybe. Jelenleg nincs szükség további beavatkozásra.
+
+### <a name="next-steps"></a>Következő lépések
+
+Nincs szükség beavatkozásra. Ez csak tájékoztató.
 
 ______________
 
@@ -37,7 +176,7 @@ Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
 
 ### <a name="details"></a>Részletek
 
-Az eredetileg december 1-től tervezett Power apps promóciós ajánlat némileg késleltetve lett. Az ajánlatnak 2020. december 16-án elérhetőnek kell lennie. Ez az ajánlat kedvezményes áron érhető el, és további jelentős különbségeket tartalmaz a partner Center jellemző ajánlatai közül.
+Az 2020-as december 1-től tervezett Power apps promóciós ajánlat némileg késleltetve lett. Az ajánlatnak 2020. december 16-án elérhetőnek kell lennie. Ez az ajánlat kedvezményes áron érhető el, és további jelentős különbségeket tartalmaz a partner Center jellemző ajánlatai közül.
  
 **Ajánlat részletei**
 
@@ -165,7 +304,7 @@ Ez az ajánlat szerepel az ajánlati lista mátrixában, de a decemberi árlista
    |-------------------|:------|
    |Power Apps-csomag/alkalmazás|5e1087b6-246b-4503-b88a-b60bdf0b3840|
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 A kibocsátási megjegyzéseket gyakran tekintheti meg, mivel más problémák is fel lesznek fűzve a jelen közleménybe.
 
@@ -211,7 +350,7 @@ A meglévő ügyfelek automatikusan az új ajánlatra lesznek átirányítva a m
    |-------------------|:------|:------|
    |Microsoft 365 Vállalati verzió hang (US)|9f9f2c7b-c961-402b-9421-8e3c9207eeb3|PZW – 00009|
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ismerkedjen meg az árlistát, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 

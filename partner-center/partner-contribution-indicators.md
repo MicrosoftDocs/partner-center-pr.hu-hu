@@ -1,7 +1,7 @@
 ---
 title: Partneri hozzájárulási mutatók
 ms.topic: article
-ms.date: 11/03/2020
+ms.date: 12/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a következő hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan végzi el a Dynamics 365 Customer engagement vagy a Dynamics 365 pénzügyi és üzemeltetési műveleteit.
@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e5e3c0ad1a1abae49b05394d569b67840a01ecca
-ms.sourcegitcommit: fc4d94b2a9575808745f8fb8c7ee5ae88be6803c
+ms.openlocfilehash: 336481cf390fb467c4768edfff9d9c38e8dd8f31
+ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93344391"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97636041"
 ---
 # <a name="partner-contribution-indicators-pci-show-partner-impact-on-seven-key-measures-of-customer-success"></a>A partneri hozzájárulási mutatók (PCI) az ügyfelek sikerének hét kulcsfontosságú mértékére gyakorolt hatását mutatják
 
@@ -42,23 +42,23 @@ A PCI kifinomult áttekintést nyújt a partner technikai képességeiről, az �
 
 *Teljesítménymutatók:*
 
-1. **Nettó új bevétel** : nettó új bevétel a Microsoft Dynamics 365-termékek értékesítési csatornái között. (A metrika részleteit lásd: [az új nettó bevétel definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-1---net-new-revenue).)
+1. **Nettó új bevétel**: nettó új bevétel a Microsoft Dynamics 365-termékek értékesítési csatornái között. (A metrika részleteit lásd: [az új nettó bevétel definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-1---net-new-revenue).)
 
 2. A **net Customer** az összes értékesítési csatornán keresztül a Dynamics 365-es verzióban vásárolt net-ügyfeleket adja meg. (A metrika részleteit lásd: [a net Customer-bővítmények definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-2---net-customer-adds).)
 
 *Képességi mutatók:*
 
-3. **Funkcionális tanácsadók** : jelenleg aktív funkcionális tanácsadót birtokló személyek száma a Dynamics 365-hez. (A metrika részleteit lásd: [a funkcionális tanácsadók definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-3---functional-consultants).)
+3. **Funkcionális tanácsadók**: jelenleg aktív funkcionális tanácsadót birtokló személyek száma a Dynamics 365-hez. (A metrika részleteit lásd: [a funkcionális tanácsadók definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-3---functional-consultants).)
 
-4. **Funkcionális tanácsadói növekedés** : a funkcionális tanácsadók számának növekedése.  A PCI-ben a funkcionális tanácsadó növekedési metrikájának alapkonfigurációját a 2020-es október 1-én fogjuk megtenni. (A metrika részleteit lásd: [a funkcionális tanácsadók növekedésének definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).)
+4. **Funkcionális tanácsadói növekedés**: a funkcionális tanácsadók számának növekedése. Ehhez a kijelzőhöz több lehetőség is elérhető. Az egyik lehetőség a PCI-ben a funkcionális tanácsadó növekedési metrikájának alapkonfigurációjának pillanatképét igényli, 2020 október 1-én. (A metrikához tartozó pontok beszerzésére vonatkozó további részletekért lásd: [a funkcionális tanácsadók növekedésének definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).)
 
-5. **Fejlesztők** : a Dynamics 365-hez jelenleg aktív fejlesztői Associate minősítéssel rendelkező személyek száma. (A metrika részleteit lásd: [a fejlesztők definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-5---developers).)
+5. **Fejlesztők**: a Dynamics 365-hez jelenleg aktív fejlesztői Associate minősítéssel rendelkező személyek száma. (A metrika részleteit lásd: [a fejlesztők definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-5---developers).)
 
 *Felhasználói sikerességi mutatók:*
 
-6. **Új nagyméretű központi telepítések** : az elmúlt 12 hónap során magas kihasználtsági küszöbértéket keresztező üzemi bérlők száma. (A metrika részleteit lásd: [az új nagyméretű központi telepítések definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-6---new-large-deployments).)
+6. **Új nagyméretű központi telepítések**: az elmúlt 12 hónap során magas kihasználtsági küszöbértéket keresztező üzemi bérlők száma. (A metrika részleteit lásd: [az új nagyméretű központi telepítések definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-6---new-large-deployments).)
 
-7. **Havi aktív felhasználói növekedés** : az elmúlt 12 hónap során az összes ügyfél havi aktív felhasználóinak növekedését. (A metrika részleteit lásd: [a havi aktív felhasználói növekedés definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-7---monthly-active-user-growth).)
+7. **Havi aktív felhasználói növekedés**: az elmúlt 12 hónap során az összes ügyfél havi aktív felhasználóinak növekedését. (A metrika részleteit lásd: [a havi aktív felhasználói növekedés definíciói](partner-contribution-indicators.md#definitions-for-pci-metric-7---monthly-active-user-growth).)
 
 ### <a name="how-pci-score-impacts-competency-eligibility"></a>A PCI-pontszám hatása a kompetencia támogathatóságára
 Az egyes elért mutatókhoz pontokat kell megadni, ami egyetlen számú PCI pontszámot eredményez. 100 maximális pont lehetséges. 
@@ -98,12 +98,12 @@ Minden PCI-metrika rendelkezik Microsoft-set küszöbértékekkel, amelyek a vá
 Az egyes mérőszámokon belüli pontok a különböző PCI-pontszámot eredményezik az ügyfelek bevonása, valamint a Pénzügy és a műveletek számára. Ez a pontszám havonta lesz frissítve.
 
 A partnerek az adott metrika maximális pontjait érhetik el, ha azok megfelelnek vagy túllépik az alább jelzett küszöbértékeket. A részleges pontok az összes metrika esetében megtekinthetők, kivéve a funkcionális tanácsadók növekedését.
+
 Például egy, a nettó új bevétel $150 000-as verziójával rendelkező fejlesztett piaci partner a maximum 10 pontból álló fél ($ 150000/$ 300000) felet fogja keresni.
 
 A részletekért tekintse meg a következő táblázatokat:
 - [1. táblázat. Ügyfél-engagement küszöbértékei](partner-contribution-indicators.md#table-1-customer-engagement-thresholds)
 - [2. táblázat Pénzügyi és üzemeltetési küszöbértékek](partner-contribution-indicators.md#table-2-finance-and-operations-thresholds)
-- [3. táblázat. Funkcionális tanácsadói növekedés](partner-contribution-indicators.md#table-3-functional-consultant-growth)
 
 ### <a name="table-1-customer-engagement-thresholds"></a>1. táblázat ügyfél-engagement küszöbértékek
 
@@ -114,7 +114,7 @@ A részletekért tekintse meg a következő táblázatokat:
 | **Fejlesztett** | $300 000 | 10 | 10 | *\* Lásd: Megjegyzés* | 5 | 5 | 25% |
 | **Fejlesztése** | $150 000 | 5  | 5  |*\* Lásd: Megjegyzés* | 2 | 1 | 25% |
 
-*\* Megjegyzés: a növekedési célok az alapkonfiguráció-tanácsadók számától függően eltérőek. A növekedési célokhoz lásd a [3. táblázatot](partner-contribution-indicators.md#table-3-functional-consultant-growth) .*
+*\* Megjegyzés: a növekedési célok az alapszolgáltatások számától és a partnerek által a pontok beszerzéséhez használt konkrét lehetőségtől függően változnak. Ha többet szeretne megtudni a pontok beszerzésével vagy az egyes lehetőségek konkrét növekedési céljaival kapcsolatban, tekintse meg [a funkcionális tanácsadók növekedésének definícióit](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).*
 
 ### <a name="table-2-finance-and-operations-thresholds"></a>2. táblázat pénzügyi és üzemeltetési küszöbértékei
 
@@ -125,19 +125,7 @@ A részletekért tekintse meg a következő táblázatokat:
 | **Fejlesztett** | $300 000 | 3 | 15 | *\* Lásd: Megjegyzés* | 5  | 3 | 25% |
 | **Fejlesztése** | $150 000 | 1 | 5 |*\* Lásd: Megjegyzés* | 2 | 1 | 25% |
 
-*\* Megjegyzés: a növekedési célok az alapkonfiguráció-tanácsadók számától függően eltérőek. A növekedési célokhoz lásd a [3. táblázatot](partner-contribution-indicators.md#table-3-functional-consultant-growth) .*
-
-### <a name="table-3-functional-consultant-growth"></a>3. táblázat funkcionális tanácsadói növekedés
-
->[!NOTE]
-> Az alábbi táblázat egy **fejlett** és **fejlődő** oszlopot mutat be, amely a funkcionális tanácsadó alapterve, amely szükséges a pontok beszerzéséhez. Az alapkonfiguráció pillanatképének dátuma 2020. október 1-től történik.
-
-
-| Fejlesztett | Fejlesztése | Az összes 15 pont beszerzéséhez szükséges növekedés *
-|:---:|:---:|:---:|
-| 15-29 | 5-14 | 35% |
-| 30-49 | 15-24 | 25% |
-| 50 és újabb verziók | 25 és újabb | 15% |
+*\* Megjegyzés: a növekedési célok az alapszolgáltatások számától és a partnerek által a pontok beszerzéséhez használt konkrét lehetőségtől függően változnak. Ha többet szeretne megtudni a pontok beszerzésével vagy az egyes lehetőségek konkrét növekedési céljaival kapcsolatban, tekintse meg [a funkcionális tanácsadók növekedésének definícióit](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).*
 
 ## <a name="detailed-definitions-of-pci-metrics"></a>A PCI-metrikák részletes definíciói
 
@@ -208,13 +196,30 @@ A funkcionális tanácsadók a [jelen cikk korábbi részében ismertetett](part
 
 - A funkcionális tanácsadók olyan személyek száma, akik jelenleg aktív funkcionális tanácsadói tanúsítványokat tartanak fenn, például az ügyfél engagement funkcionális tanácsadójának minősítését, vagy egy pénzügyi és működési tanácsadói minősítést.
 
-- Az ügyfél-engagement funkcionális tanácsadójának minősítéséhez az alábbiak szükségesek: MB-200, **valamint** a következők egyike: mb-210, mb-220, mb-230, mb-240 vagy MB6-898.
+- Az ügyfél-engagement funkcionális tanácsadójának minősítése megköveteli, hogy az egyén átadja a következőket:
+  - MB-200 \* vagy pl-200<br/>
+  a következő vizsgák **egyike** :
+  - MB-210, MB-220, MB-230, MB-240 vagy MB6-898 \* \* .
 
-- A Finance and Operations funkcionális tanácsadói minősítéséhez az alábbiak szükségesek: MB-300, **valamint** a következők egyike: mb-310, mb-320, mb-330, MB6-897 vagy MB6-898.
+- A Finance and Operations funkcionális tanácsadói minősítése megköveteli, hogy az egyén átadja a következőket:
+  - MB-300<br/>
+  a következő vizsgák **egyike** :
+  - MB-310, MB-320, MB-330, MB-897 \* \* vagy MB6-898 \* \* .
+
+> [!NOTE]
+> A csillag () karakterrel jelölt vizsgákat \* az elkövetkező hónapokban kell kivonni vagy lecserélni. A részleteket lásd alább:
+>
+> - Az egyetlen csillaggal jelölt vizsgák ( \* ) 2020 december 31-én kivonásra kerülnek. Az 2020-as december 31-én kivont vizsgák továbbra is jogosultak lesznek a kompetenciák megszerzésére és a megújításra, 2021. december 31-ig, ha azokat a rendszer kivonása előtt veszi igénybe.
+> - A két csillaggal jelölt vizsga ( \* \* ) 2021. január 31-én kivonásra kerül. A 2021. január 31-én kivonásra kerülő vizsgák továbbra is jogosultak lesznek arra, hogy az 2022. január 31-ig érvényesek legyenek a kompetenciák és a megújítások.
+
 
 ### <a name="definitions-for-pci-metric-4---functional-consultant-growth"></a>A PCI metrika #4 – funkcionális tanácsadók növekedésének definíciói
 
-A funkcionális tanácsadók növekedésének egyik funkciója a [jelen cikkben korábban ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutató. További információ a funkcionális tanácsadó növekedési mutatójának meghatározásáról és a kategória pontjainak kiszámításáról:
+A funkcionális tanácsadók növekedésének egyik funkciója a [jelen cikkben korábban ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutató. A partner két lehetőség közül választhat az ehhez a metrikához elérhető összes-vagy-Nothing pont (15 vagy 0 pont) eléréséhez. Nem kapnak részleges pontot. 
+
+Itt talál további információt arról, hogyan határozható meg a funkcionális tanácsadó növekedési mutatója, és hogyan számítja ki a kategória pontjait.
+
+**Az egyik lehetőség a pontok beszerzéséhez:**
 
 - A funkcionális tanácsadók növekedésének meghatározása a Certified funkcionális tanácsadói társítások számának növekedésével történik egy alapkonfiguráció-pillanatkép óta. Az alapkonfiguráció pillanatképének dátuma a 2020. október 1-től lesz elvégezve.
 
@@ -224,7 +229,19 @@ A funkcionális tanácsadók növekedésének egyik funkciója a [jelen cikkben 
 
 - Ahhoz, hogy a pontok jogosultak legyenek a pontokra, legalább **15** funkcionális tanácsadót kell hozzárendelni a fejlesztett piaci partnerekhez, és **5-öt** a piaci partnerek fejlesztéséhez az alapszintű pillanatkép létrehozásakor.
 
-- **Nem kapnak részleges pontot.** Az alapszintű pillanatképen felüli növekedésnek meg kell felelnie vagy meg kell haladnia a [3. táblázatban jelzett küszöbértékeket. Funkcionális tanácsadói növekedés](partner-contribution-indicators.md#table-3-functional-consultant-growth).
+- **Nem kapnak részleges pontot.** Az alapszintű pillanatképen felüli növekedésnek meg kell felelnie vagy meg kell haladnia az alábbi táblázatban jelzett küszöbértékeket. A táblázat egy **fejlett** és **fejlődő** oszlopot mutat be, amely a funkcionális tanácsadó alapterve, amely szükséges a pontok beszerzéséhez.
+
+  | Fejlesztett | Fejlesztése | Az összes 15 pont beszerzéséhez szükséges növekedés *
+  |:---:|:---:|:---:|
+  | 15-29 | 5-14 | 35% |
+  | 30-49 | 15-24 | 25% |
+  | 50 és újabb verziók | 25 és újabb | 15% |
+
+**Két lehetőség a pontok beszerzéséhez:**
+
+- A fejlett piaci partnerek 50 vagy több funkcionális tanácsadót is tanúsítanak az első PCI-alapú CBA évfordulójuk során. (A piaci partnerek fejlesztése során az első PCI-alapú CBA-évfordulónál 25 vagy több funkcionális tanácsadót is tanúsíthat.)
+
+- Ha eléri ezt a küszöbértéket, az adott dátumtól számított 24 hónapig teljes 15 pontot kap a funkcionális tanácsadói növekedéshez. Ez gyakorlatilag azt jelenti, hogy a funkcionális tanácsadók növekedésének maximális pontjait két CBA-évfordulóra vonatkozóan kell megszereznie.
 
 ### <a name="definitions-for-pci-metric-5---developers"></a>A PCI metrika #5 – fejlesztők definíciói
 
@@ -234,9 +251,21 @@ A fejlesztők a [jelen cikk korábbi részében ismertetett](partner-contributio
 
 - A fejlesztői kijelzőhöz tartozó pontok az aktuális hónap pillanatképén alapulnak, amely legfeljebb 5 pontot biztosít.
 
-- Az ügyfél-összevonási fejlesztők kreditet kapnak, ha a MB-200 **és** a következők egyikét adják meg: mb-400 vagy MB2-716.
+- Az ügyfelek engagement-fejlesztői kreditet kapnak, ha a következőket adják meg:
+  - PL-400<br/>**vagy**
+  - MB-200 \* **és** az alábbi vizsgák egyike:
+    - MB-400 \* vagy MB2 – 716\*\*
 
-- A pénzügyi és üzemeltetési fejlesztők kreditet kapnak, ha a MB-300 **és** a következők egyikét adják meg: mb-500 vagy MB6-894.
+- A pénzügyi és üzemeltetési fejlesztőknek kreditet kell kapniuk, ha a következőket adják meg:
+  - MB-300<br/>
+  a következő vizsgák **egyike** :
+  - MB-500 vagy MB-894\*\*
+
+> [!NOTE]
+> A csillag () karakterrel jelölt vizsgákat \* az elkövetkező hónapokban kell kivonni vagy lecserélni. A részleteket lásd alább:
+>
+> - Az egyetlen csillaggal jelölt vizsgák ( \* ) 2020 december 31-én kivonásra kerülnek. Az 2020-as december 31-én kivont vizsgák továbbra is jogosultak lesznek a kompetenciák megszerzésére és a megújításra, 2021. december 31-ig, ha azokat a rendszer kivonása előtt veszi igénybe.
+> - A két csillaggal jelölt vizsga ( \* \* ) 2021. január 31-én kivonásra kerül. A 2021. január 31-én kivonásra kerülő vizsgák továbbra is jogosultak lesznek arra, hogy az 2022. január 31-ig érvényesek legyenek a kompetenciák és a megújítások.
 
 ### <a name="definitions-for-pci-metric-6---new-large-deployments"></a>A PCI metrika #6 – új nagyméretű központi telepítések
 
