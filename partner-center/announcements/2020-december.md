@@ -9,18 +9,72 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/02/2020
-ms.openlocfilehash: 1341e60fd9914f421fd59335a8f037f3d915b72f
-ms.sourcegitcommit: bc44a6e0c5ef048cda6e882fdb543c13c5b64912
+ms.openlocfilehash: 841ef4701ef7c973cc7a4fffaa26bb24b8d6f7e9
+ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96869299"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622150"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi hirdetményeit.
 
-2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [November](2020-november.md) | December
+2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [](2020-november.md) | December
+
+______________
+
+## <a name="power-apps-promo-offer-now-available"></a><a name="5"></a>Elérhető a Power apps promóciós ajánlata
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-16
+- Ajánlatok/piacok
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="details"></a>Részletek
+
+Az eredetileg december 1-től tervezett Power apps promóciós ajánlat némileg késleltetve lett. Az ajánlatnak 2020. december 16-án elérhetőnek kell lennie. Ez az ajánlat kedvezményes áron érhető el, és további jelentős különbségeket tartalmaz a partner Center jellemző ajánlatai közül.
+ 
+**Ajánlat részletei**
+
+- Az ajánlat 2021. június 30-ig lesz megvásárolható.
+- Az ajánlat egy 12 hónapos időszak, amely kedvezményes áron érhető el, mint más CSP-ajánlatok.
+- Ez az ajánlat nem újítható meg automatikusan, és a 12 hónapos időszak végén lejár. Kezdetben az automatikusan megújítható tulajdonság értéke TRUE ( **igaz** ), de ez módosítva lesz, így az ajánlat 12 hónapos időszak végén lejár.
+- A partnereknek a 12 hónapos lejárati idő előtt meg kell vásárolniuk a nem promóciós árú ajánlatokat (ajánlat azonosítója: 5e1087b6-246b-4503-b88a-b60bdf0b3840), ha továbbra is használni szeretnék a kezdeti promóciós ajánlat által biztosított szolgáltatásokat.
+
+**Díjszabás részletei**
+
+Az ajánlat díjszabását alább találja a januári 2021 árlista tartalmazza.
+
+- Ajánlat megjelenített neve: Power apps for app Plan Promotion (200-as ülés min.)
+- Ajánlat azonosítója: 988b7b06-e034-4b3e-89ea-51198cb2723e
+- Licencszerződés típusa: vállalati
+- Vásárlási egység: 1 hónap
+- Másodlagos licenc típusa: nem specifikus
+- Listázási díjak: a lista árai letölthetők [erről a helyről](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4Lr1n). Megjegyzés: a díjszabás letöltéséhez be kell jelentkeznie a fiókpartner-központba. Ha nem jelentkezett be a partner Centerben, a rendszer nem **engedélyezett állapotú** hibaüzenetet kap.
+- ERP-ár: még nem érhető el, keresse meg az ajánlat ERP-listáját a következő januári árlista-frissítés 1/1/2021
+- Anyag azonosítója: SEQ-00016
+ 
+**Ajánlat részletei**
+
+Az ajánlat részleteit alább találja a januári 2021 ajánlat lista-mátrixban.
+
+- Kiépítési azonosító: POWERAPPS_PER_APP
+- Időtartam: 1 év
+- Számlázási gyakoriság: havonta; Évente
+- Minimális számú ülőhely: 200
+- Ülőhelyek maximális száma: 10000000
+- Ajánlat korlátja: nincs
+- Engedélyezett országok: az Egyesült Államok lakatlan külbirtokai; Angol (francia déli területek); Bouvet-sziget; Brit Indiai-óceáni terület; Jemen Heard-sziget és Mc Donald-szigetek; Wallis és Futuna; Vanuatu Antarktisz Tuvalu Szomália Tokelau Sierra Leone; Szváziföld Szent Ilona, Ascension, Tristan da Cunha; São Tomé és Príncipe; Pitcairn-szigetek; Palaui Salamon-szigetek; Naurui Niue Norfolk-sziget; Mauritánia Északi Mariana-szigetek; Lesotho Kiribati Egyenlítői-Guinea; Bissau-Guinea; Cook-szigetek; Eritrea Karácsony-sziget; Burkina Faso; Közép-afrikai Köztársaság; Koszovó Kókusz (Keeling)-szigetek; Svalbard és Jan Mayen; Åland-szigetek; Dél-Szudán; Déli-Georgia és Déli-Sandwich-szigetek; Szamoa Saint Barthélemy; Brit Virgin-szigetek; Saint-Pierre és Miquelon; Csád Niger Montserrat Guyanai Haiti Gambia Guam Guinea Gabon Grenada Gibraltári Guernsey Libéria Mikronéziai szövetséges Államok Falkland-szigetek; Dominikai Köztársaság, Dzsibuti; Kongói Kongói Demokratikus Köztársaság; Zimbabwei Amerikai Szamoa; Zambia Dél-Afrika; Mayotte Vietnam Saint Vincent és Grenadine-szigetek, Amerikai Virgin-szigetek; Venezuela Szentszék (Vatikánváros); Ukrajna Uganda Üzbegisztán Egyesült Államok; Uruguay Tanzánia Tajvan Trinidad és Tobago; Törökország Tunézia Tonga Kelet-Timor; Türkmenisztán Tádzsikisztán Thaiföld Togo Salvador; Sint Maarten; Turks-és Caicos-szigetek; Suriname Szingapúr Szlovénia San Marino; Szenegál Szlovákia Svédország Seychelle Szaúd-Arábia; Szerbia Ruanda Orosz Románia Réunion Katar Paraguay Portugália Fülöp Palesztin terület, megszállt; Lengyelország Puerto Rico; Pakisztán Peru Panama Pápua Új-Guinea; Francia Polinézia; Új-Zéland; Omán; Nepál Hollandia Norvégia Nigéria Nicaragua Új-Kaledónia; Namíbia Mozambik Malajzia Mexikó Martinique Malawi Maldív Mauritius Málta Myanmar Makaó KKT; Mongólia Mali Madagaszkár Marshall-szigetek; Macedónia, V.J.K.; Montenegró Saint Martin; Marokkó Monaco Moldova Lettország Líbia Luxemburg Libanon Saint Lucia; Litvánia Srí Lanka; Kajmán-szigetek; Liechtenstein Laosz Kazahsztán Kuvait Korea Comore Kambodzsa Saint Kitts és Nevis; Kenya Kirgizisztán Japán Jordánia Jamaica Jersey; Olaszország; Izland; Irak; Írország, India, Indonézia; Man-sziget; Honduras; Izrael; Magyarország Hongkong KKT; Horvátország Guatemala Görögország Guadeloupe Francia Guyana; Grönland Ghána Feröer-szigetek; Egyesült Királyság; Grúzia Franciaország Fidzsi Etiópia Finnország Spanyolország Egyiptom Észtország Ecuador; Dominikai Köztársaság; Algéria Németország; Dánia; Ciprus Cseh Köztársaság; Curaçao Cape Verde; Costa Rica; Chile Kamerun Kolumbia Elefántcsontpart; Kanada Svájc Belize Belarusz Botswana Bhután Bahamák Bonaire, Sint Eustatius és Saba; Brazília Benin Brunei Bermuda Bolívia Belgium Bulgária Bahrein Burundi Bosznia-Hercegovina; Banglades Barbados Azerbajdzsán Aruba Ausztrália Argentína Ausztria Angola Örményország Afganisztán Albánia Anguilla Andorra Egyesült Arab Emírségek; Antigua és Barbuda
+
+### <a name="next-steps"></a>További lépések
+
+- A promóciós ajánlat az 2021-as január 1., a hivatalos CSP partner Center licenc-alap árlista és az ajánlati lista mátrixában érhető el. 
+- Az előléptetéssel kapcsolatos kérdéseket és lépéseket a [Microsoft közösségi közleményében](https://www.microsoftpartnercommunity.com/t5/Pricing-Licensing-Incentives/Announcing-a-new-Power-Apps-promotional-offer-to-accelerate-FY21/m-p/32540)teheti közzé.
 
 ______________
 
@@ -37,7 +91,7 @@ A partner Center .NET SDK-t használó CSP programban részt vevő közvetlen sz
 
 ### <a name="details"></a>Részletek
 
-December 08 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK (NuGet Gallery) verziójának letöltését. Microsoft. Store. PartnerCenter 1.16.3)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.16.3), valamint a frissített Public partner Center SDK [GitHub-mintákat](https://github.com/Microsoft/Partner-Center-DotNet-Samples). Ez a verzió a következő frissítéseket tartalmazza:
+December 08 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK (NuGet Gallery) verziójának letöltését. Microsoft. Store. PartnerCenter 1.16.3)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.16.3), valamint a frissített Public partner Center SDK [GitHub-mintákat](https://github.com/Microsoft/Partner-Center-DotNet-Samples). Ez a verzió a következő módszerek frissítéseit tartalmazza:
  
 **SelfServePolicies – új funkciók hozzáadva**
 
@@ -55,7 +109,7 @@ December 08 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK 
 
 - MiddleName hozzáadva
  
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Töltse le a legújabb verziót: [MicrosoftPartnerCenter. NETSDK (NuGet Gallery | Microsoft. Store. PartnerCenter 1.16.3)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.16.3)
 - A [GitHub-minták](https://github.com/Microsoft/Partner-Center-DotNet-Samples) letöltése és áttekintése
@@ -83,7 +137,7 @@ A decemberi licenc-alapú árlista és az ajánlati lista mátrixának fájljai 
 
 #### <a name="incorrect-offers-in-the-license-based-price-list"></a>A licenc alapú árlista helytelen ajánlatokat tartalmaz
 
-A decemberi licenc-alapú árlista az alábbi ajánlatokat tartalmazza, amelyek nem lehetnek az árlisták között. Ezeket az ajánlatokat korábban a hiba árlista tartalmazza, és azokat nem kell közzétenni. A rendelkezésre álló esetekben nincs szükség az ütemtervre. A jövőben, ha ismét felveszik őket, a későbbiekben megjelenik a Hozzáadás a jövőben előzetes árlista.
+A decemberi licenc-alapú árlista az alábbi ajánlatokat tartalmazza, amelyek nem lehetnek az árlisták között. Ezeket az ajánlatokat korábban a hiba árlista tartalmazza, és azokat nem kell közzétenni. Előfordulhat, hogy az ajánlatok elérhetővé tételére nincs ütemterv. A jövőben, ha ismét felveszik őket, a későbbiekben megjelenik a Hozzáadás a jövőben előzetes árlista.
 
    |**Ajánlat neve**|**Ajánlat azonosítója**|
    |-------------------|:------|
@@ -96,7 +150,7 @@ A decemberi licenc-alapú árlista az alábbi ajánlatokat tartalmazza, amelyek 
    
 #### <a name="incorrect-offers-in-the-offer-list-matrix"></a>Helytelen ajánlatok szerepelnek az ajánlati lista mátrixában
    
-Az alábbi ajánlatok az ajánlati lista mátrixában voltak a hiba. Nem érhetők el, a rendelkezésre állásra vonatkozóan még nem áll rendelkezésre a célként megadott dátum. A partnereknek figyelmen kívül kell hagyniuk ezeket.
+Az alábbi ajánlatok az ajánlati lista mátrixában voltak a hiba. Nem érhetők el, a rendelkezésre állásra vonatkozóan még nem áll rendelkezésre a célként megadott dátum. A partnereknek figyelmen kívül kell hagyniuk ezeket a tételeket.
 
    |**Ajánlat neve**|**Ajánlat azonosítója**|
    |-------------------|:------|
@@ -111,7 +165,7 @@ Ez az ajánlat szerepel az ajánlati lista mátrixában, de a decemberi árlista
    |-------------------|:------|
    |Power Apps-csomag/alkalmazás|5e1087b6-246b-4503-b88a-b60bdf0b3840|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 A kibocsátási megjegyzéseket gyakran tekintheti meg, mivel más problémák is fel lesznek fűzve a jelen közleménybe.
 
@@ -157,7 +211,7 @@ A meglévő ügyfelek automatikusan az új ajánlatra lesznek átirányítva a m
    |-------------------|:------|:------|
    |Microsoft 365 Vállalati verzió hang (US)|9f9f2c7b-c961-402b-9421-8e3c9207eeb3|PZW – 00009|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ismerkedjen meg az árlistát, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 
@@ -176,7 +230,7 @@ Az akadémiai ajánlatokat a Cloud Solution Provider programon keresztül érté
 
 ### <a name="summary"></a>Összefoglalás 
 
-A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk arra, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfelek ellenőrzéséhez a felhőalapú megoldás-szolgáltatói programban. Ennek a kötelezettségvállalásnak a részeként a partner Center API-t és a felhasználói felület fejlesztéseit fogjuk bevezetni, amelyek egyértelműbbé és láthatóságot biztosítanak az ügyfelek bevonási folyamatában, valamint a pontosabb adatok beírását, ami javítja az ügyfelek sikeres ellenőrzését. 
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk arra, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfelek ellenőrzéséhez a felhőalapú megoldás-szolgáltatói programban. Ennek a kötelezettségvállalásnak a részeként a partner Center API-t és a felhasználói felület fejlesztéseit fogjuk bevezetni, amelyekkel egyértelművé és láthatóvá válik az ügyfelek bevonási folyamata, valamint a pontosabb adatok bevitele is, ami javítja az ügyfelek sikeres ellenőrzését. 
 
 **A partner Center fejlesztései** 
 
@@ -196,7 +250,7 @@ A sikeres ügyfél-ellenőrzéshez szükséges API-k és adatbevitel jobb megism
 
 A fenti fejlesztéseken kívül örömmel jelentjük be, hogy a könyvtár-és Múzeum-ügyfelek számára elérhetővé tesszük a tudományos díjszabású ajánlatokat, és kiterjesztjük az oktatási ügyfeleket, akikkel a Transact CSP-ajánlatokat használhatja. 
 
-A Microsoft fenntartja a jogot arra, hogy áttekintse az ügyfelek vagy a javasolt ügyfelek állapotát a minősített oktatási felhasználóként. A részletekért tekintse meg a tanulmányi végzettséggel kapcsolatos [szakemberekre vonatkozó követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) . 
+A Microsoft fenntartja a jogot arra, hogy áttekintse az ügyfelek vagy a javasolt ügyfelek állapotát a minősített oktatási felhasználóként. A részletekért tekintse meg a tanulmányi végzettséggel kapcsolatos [szakképzési felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) . 
 
 ### <a name="next-stepsadditional-resources"></a>Következő lépések/további források
 

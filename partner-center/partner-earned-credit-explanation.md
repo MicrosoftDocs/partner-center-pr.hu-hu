@@ -1,7 +1,7 @@
 ---
 title: Partner által létrehozott kredit a felügyelt szolgáltatásokhoz
 ms.topic: article
-ms.date: 11/30/2020
+ms.date: 12/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogyan számítják ki és fizetik ki a Microsoft partner által létrehozott kreditet (PEC) a felügyelt szolgáltatásokhoz, és hogy miként biztosítható a jogosultsága.
@@ -9,12 +9,12 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 97af446c4021e9785833374131eee2f08431b5fe
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: 3acc078b3de3c0443ee64fdaaba2d486d9c466c8
+ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474308"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622167"
 ---
 # <a name="how-the-partner-earned-credit-is-calculated-and-paid"></a>A partneri jóváírás kiszámításának és kifizetésének részletei
 
@@ -30,27 +30,29 @@ A felügyelt szolgáltatások (PEC) partner által létrehozott kreditje felisme
 
 Olvassa el [a rendszergazdai jogosultságok visszaállítása az Azure CSP-előfizetésekhez](revoke-reinstate-csp.md) lehetőséget is.
 
-## <a name="important-eligibility-and-calculation-information"></a>Fontos jogosultsági és számítási információk
+## <a name="eligibility"></a>Támogathatósági
 
-- A partnernek aktív MPN-szerződéssel és érvényes RBAC-szerepkörrel kell rendelkeznie ahhoz, hogy megkapja a kezelt Azure-eszközökhöz kapcsolódó kreditet. 
+A partner által létrehozott kredit (PEC) megszerzéséhez a következő követelmények érvényesek: 
 
-- Közvetett szolgáltatók és közvetett viszonteladóik esetén a közvetett szolgáltató jogosult lesz a PEC-re, ha a közvetett szolgáltató vagy a közvetett viszonteladó vagy mindkettő nonstop az ügyfél Azure-erőforrásainak működési vezérlését és felügyeletét a CSP-ben.
+- Rendelkeznie kell egy aktív MPN-szerződéssel és egy érvényes szerepköralapú hozzáférés-vezérlési (RBAC) szerepkörrel, amely az Ön által kezelt Azure-eszközök számára szerzett kreditet kap.
 
-- A PEC a partner által felügyelt, az ügyfél Azure-hagyatékának számlázott (díjköteles) felhasználására van társítva. A PEC csak a Microsoft által számlázott (közvetett szolgáltatói és közvetlen számlázási partneri) partnerek számára érhető el. 
+- Az ügyfél Azure-erőforrásainak nonstop operatív vezérléssel és felügyelettel kell rendelkeznie a CSP-ben. Ez azt jelenti, hogy rendszergazdai jogosultságokkal kell rendelkeznie az ügyfél Azure-előfizetéséhez, az Azure-erőforráscsoport, az Azure-erőforráshoz. Közvetett szolgáltatók és a közvetett viszonteladóik esetében a közvetett szolgáltató jogosult lesz a PEC-re, ha a közvetett szolgáltató vagy a közvetett viszonteladó vagy mindkettő rendelkezik ezzel az operatív ellenőrzéssel. További információ: [rendszergazdai jogosultságok visszaállítása az Azure CSP-előfizetésekhez](https://docs.microsoft.com/partner-center/revoke-reinstate-csp).
 
-- Jogosult szolgáltatások: a partner által létrehozott kredit az Azure-csomag használati **díjszabásában** felsorolt szolgáltatásokra vonatkozik, amelyeket a partnerek az [Azure-csomag díjszabási](https://partner.microsoft.com/commerce/sales) oldaláról exportálhatunk. 
+- A fenti követelményeken felül a PEC csak az Azure-csomag fogyasztási díjszabásában felsorolt szolgáltatásokra vonatkozik, amelyeket az [Azure-csomag díjszabási](https://partner.microsoft.com/commerce/sales) lapjáról exportálhat.
 
-- Nem jogosult szolgáltatások: a partner által létrehozott kreditek *_nem_* érvényesek a következőkre:
+- A PEC **nem** alkalmazható a következő szolgáltatásokra:
     - Azure-csomag – foglalások
-    - Harmadik féltől származó termékek – az Azure-csomag használati árának **címkék oszlopában** a *harmadik fél által* azonosított termékek    
+    - Harmadik féltől származó termékek, amelyek az Azure-csomag használati árát a címkék oszlopban vannak azonosítva
     - A piactér árlista termékei
-   - [Azure spot Virtual Machines](https://partner.microsoft.com/resources/collection/azure-spot-in-csp#/)
+    - [Azure spot Virtual Machines](https://partner.microsoft.com/resources/collection/azure-spot-in-csp#/)
 
-- A PEC napi rendszerességgel van kiszámítva, és a napi használati fájlban és a havi számlaengedmény-fájlban is megtekinthető. Egy partnernek (közvetett szolgáltató vagy közvetett viszonteladó) hozzáféréssel kell rendelkeznie a teljes naphoz (nonstop) annak biztosításához, hogy a PEC-t keresnek. A PEC kiszámítása napi rendszerességgel történik a felügyelt Azure-eszközökön. Egy adott számlázási időszak (hónap) maximális PEC-értéke 15%. Az állandó jogosultsági szintű hozzáférést a hónapban (a hozzáférés hatóköre) és az összes jogosult erőforráshoz (a hozzáférés hatóköre) megőrzött partnereknek a teljes PEC-t 15%-kal kell megszerezniük. A hatókör-és a sávszélesség-csökkentés az adott hónapban alacsonyabb PEC-arányt eredményez. A napi névleges használati fájl napi rendszerességgel jelenik meg egy Azure-eszközön, függetlenül attól, hogy a PEC van-e alkalmazva. A partnerek riasztásokat is regisztrálhatnak annak észlelésére, hogy vannak-e állandó jogosultságokkal rendelkező hozzáférések.
+- A PEC-t az Azure-erőforrás szintjén szerezték le. Ha az előfizetés vagy az erőforráscsoport szintjén érvényes hozzáférése van, akkor minden olyan erőforrás, amely a magasabb entitást összesíti, a PEC-t fogja keresni.
 
-- A PEC-t az Azure-erőforrás szintjén szerezték le. Ha a partner érvényes hozzáféréssel rendelkezik az előfizetéshez vagy az erőforráscsoport szintjéhez, akkor minden olyan erőforrás, amely a magasabb entitásnak felel meg, a PEC-t fogja keresni.  
+- A PEC részletei az [Azure Cost Management](https://docs.microsoft.com/azure/cost-management-billing/costs/get-started-partners) oldalán is elérhetők.
 
-- A PEC részletei az [Azure Cost Management](/azure/cost-management-billing/costs/get-started-partners) szolgáltatásban is elérhetők lesznek
+### <a name="calculation"></a>Számítás
+
+A PEC napi rendszerességgel van kiszámítva, és a napi használati fájlban és a havi számlaengedmény-fájlban is megtekinthető. Egy partnernek (közvetett szolgáltató vagy közvetett viszonteladó) hozzáféréssel kell rendelkeznie a teljes naphoz (nonstop) annak biztosításához, hogy a PEC-t keresnek. A PEC kiszámítása napi rendszerességgel történik a felügyelt Azure-eszközökön. Egy adott számlázási időszak (hónap) maximális PEC-értéke 15%. Az állandó jogosultsági szintű hozzáférést a hónapban (a hozzáférés hatóköre) és az összes jogosult erőforráshoz (a hozzáférés hatóköre) megőrzött partnereknek a teljes PEC-t 15%-kal kell megszerezniük. A hatókör-és a sávszélesség-csökkentés az adott hónapban alacsonyabb PEC-arányt eredményez. A napi névleges használati fájl napi rendszerességgel jelenik meg egy Azure-eszközön, függetlenül attól, hogy a PEC van-e alkalmazva. A partnerek riasztásokat is regisztrálhatnak az állandó jogosultsági szintű hozzáférés változásainak figyelésére.
 
 ## <a name="azure-cost-management"></a>Azure Cost Management
 
@@ -66,10 +68,10 @@ A Cost Analysis Azure Cost Management (ACM) lehetővé teszi, hogy partnereként
 
 4. Válassza a **PartnerEarnedCreditApplied** lehetőséget a kimutatás legördülő listájában a PEC-t alkalmazó költségek megtekintéséhez. Ha a **PartnerEarnedCreditApplied** tulajdonság értéke TRUE (igaz), a kapcsolódó díj a partner által létrehozott kredit előnye. 
 
-Ha a PartnerEarnedCreditApplied tulajdonság értéke false (hamis), akkor a kapcsolódó költség nem teljesült a kredithez szükséges jogosultsággal, vagy a megvásárolt szolgáltatás nem jogosult a partner által szerzett kreditre.
+   Ha a PartnerEarnedCreditApplied tulajdonság értéke false (hamis), akkor a kapcsolódó költség nem teljesült a kredithez szükséges jogosultsággal, vagy a megvásárolt szolgáltatás nem jogosult a partner által szerzett kreditre.
 
->[!NOTE] 
->A szolgáltatások használata általában 8-24 órát vesz igénybe **Cost Managementban** , és a PEC-kreditek 48 órán belül megjelennek a Azure Cost Managementban való hozzáférés időpontjában.
+   >[!NOTE] 
+   >A szolgáltatások használata általában 8-24 órát vesz igénybe **Cost Managementban** , és a PEC-kreditek 48 órán belül megjelennek a Azure Cost Managementban való hozzáférés időpontjában.
 
 5. A Group By, a Group By, a **PartnerEarnedCreditApplied** tulajdonság és a szűrési funkció alapján is szűrheti **a szűrési** funkciókat a PEC-t használó költségek és a PEC-t nem alkalmazó költségek részletezése céljából.
 

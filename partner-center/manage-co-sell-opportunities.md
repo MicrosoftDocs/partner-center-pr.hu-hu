@@ -1,7 +1,7 @@
 ---
 title: Együttes értékesítési lehetőségek kezelése
 ms.topic: article
-ms.date: 06/02/2020
+ms.date: 12/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Minősített Microsoft-partnerként a Microsofttal közösen értékesítheti. Ismerje meg, hogyan határozhat meg ajánlatokat, meghívhatja a Microsoftot az együttműködésre, vagy megtekintheti az elérkezett ajánlatokat.
@@ -9,12 +9,12 @@ author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 61dab9f869d8bb9a26f1317fb1aec3013e915465
-ms.sourcegitcommit: e4f870b9070eb3aed49061cc652d124ba0d05b68
+ms.openlocfilehash: 52a1ac20b0370e1dd4a1de85087303090c1b7eb4
+ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95417268"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622201"
 ---
 # <a name="manage-co-sell-opportunities-in-partner-center"></a>Közös értékesítési lehetőségek kezelése a partner Centerben
 
@@ -44,13 +44,19 @@ Partner-partner **(P2P)** – ez az a hely, ahol az egyik partner más partnerek
 
 ## <a name="navigating-the-co-sell-section"></a>Navigálás a közös értékesítés szakaszban
 
-A közös értékesítés szakasz három legfelső szintű lapot tartalmaz.
+A közös értékesítés szakasz eléréséhez kövesse az alábbi lépéseket:
 
-**Bejövő** – az összes olyan lehetőség, amelyet a Microsoft-értékesítők partnernek továbbítanak az együttműködésen alapuló értékesítéshez, ezen a lapon érhetők el.
+1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
-**Kimenő** – a partner által létrehozott összes lehetőség ezen a lapon érhető el. A partnerek három különböző kategóriát hozhatnak létre: a közös értékesítést, a magánjellegű és a partnert.
+2. A bal oldali navigációs menüben válassza a **hivatkozások** elemet, majd a **közös értékesítés lehetőségeit**.
 
-**Kedvencek** – a bejövő vagy kimenő közös értékesítési lehetőségek lapjain kedvencekként megjelölt lehetőségek jelennek meg ezen a lapon. Bármely lehetőséget megnyithat kedvencként, ha a lehetőségre kattint a szív ikonra a lista nézetben. A Kedvencek közül úgy is eltávolíthatja a lehetőséget, hogy csak ugyanarra az ikonra kattint.
+   Ebben a szakaszban három, legfelső szintű lap jelenik meg:
+
+   - **Bejövő** – az összes olyan lehetőség, amelyet a Microsoft-értékesítők partnernek továbbítanak az együttműködésen alapuló értékesítéshez, ezen a lapon érhetők el.
+
+   - **Kimenő** – a partner által létrehozott összes lehetőség ezen a lapon érhető el. A partnerek három különböző kategóriát hozhatnak létre: a közös értékesítést, a magánjellegű és a partnert.
+
+   - **Kedvencek** – a bejövő vagy kimenő közös értékesítési lehetőségek lapjain kedvencekként megjelölt lehetőségek jelennek meg ezen a lapon. Bármely lehetőséget megnyithat kedvencként, ha a lehetőségre kattint a szív ikonra a lista nézetben. A Kedvencek közül úgy is eltávolíthatja a lehetőséget, hogy csak ugyanarra az ikonra kattint.
 
 ## <a name="creating-a-co-sell-opportunity"></a>Közös értékesítési lehetőség létrehozása
 
@@ -228,7 +234,7 @@ Az alábbi munkafolyamat azt ismerteti, hogyan küldi el az e-maileket a partner
 - Választhatja **az Ön által elfogadott ajánlatokat**. Figyelemmel kísérjük az Ön által elfogadott és visszautasított ajánlatok típusait, és ezeket az információkat a hasonló ajánlatok megtalálására használják. A nem megfelelő illeszkedésű ajánlatok nem javítják a keresési eredményeket, és befolyásolhatják a kapott lehetőségek minőségét.
 - **Jelentse vissza a becsült ügyleti méreteket, a záró dátumokat, valamint az ajánlatok végső állapotát** (megnyert vagy elveszett). Ezt az információt fogjuk használni, hogy továbbra is minőségi ajánlásokat nyújtson.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Érdeklődők kezelése](manage-leads.md)
 
