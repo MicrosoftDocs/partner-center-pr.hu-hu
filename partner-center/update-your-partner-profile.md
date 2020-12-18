@@ -6,15 +6,15 @@ description: Megtudhatja, hogyan ellenőrizheti a vállalat adatait, például a
 author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
+ms.date: 12/17/2020
 ms.localizationpriority: high
-ms.date: 12/16/2020
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 398e02e4d18df9e555a1576e845e1d0e0bdf1105
-ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
+ms.openlocfilehash: 938713a08b52d7f5d601ef7801f300eec223b921
+ms.sourcegitcommit: 37c421eac547f6d9c2f5c8460a40f736ec8b8841
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97636007"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97666791"
 ---
 # <a name="verify-your-organization-profile-information-in-partner-center"></a>A szervezeti profil adatainak ellenőrzése a partner Centerben
 
@@ -27,13 +27,13 @@ Amikor globális rendszergazdaként először jelentkezik be a partner Centerbe,
 
 A partneri profilja a jogi üzleti adatokból, az elsődleges kapcsolattartó nevéből és az e-mailből, a vállalat által részt vevő programokból, valamint adott esetben más vállalatokból áll, amelyek mostantól a jogi üzleti tevékenység keretében egyesülnek. Győződjön meg arról, hogy a vállalat neve és címe a jogi üzleti profilban nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megfelel a vállalati üzleti regisztrációs rekordoknak. Ha kizárólagos tulajdonosként működik, a vállalat nevét a jogi neveként kell használnia.
 
-1. Lépjen a **Beállítások** elemre, és válassza a **Fiókbeállítások** lehetőséget.
+1. Lépjen a **Beállítások** ikonra, és válassza a **Fiókbeállítások** lehetőséget.
  
 1. Válassza a **szervezeti profil** lehetőséget. 
 
 2. Tekintse át a **jogi üzleti profilt**, az **elsődleges kapcsolattartási adatokat** és a **program adatait**.
 
-Ha más vállalatait a jogi üzleti tevékenysége alá vonta össze, az adataikat is áttekintheti. 
+Ha más vállalatait a jogi vállalata alá vonta össze, ezeket az információkat is áttekintheti. 
 
 ## <a name="update-your-legal-business-profile"></a>A jogi üzleti profil frissítése
 
@@ -67,10 +67,10 @@ A CSP-fiókhoz társított MPN-azonosító frissítése:
 
 1. Jelentkezzen be a partner Center irányítópultra, majd válassza a **Beállítások** lehetőséget.
  
-1. A **Fiókbeállítások** lapon válassza az **azonosítók** lehetőséget.
+1. Válassza ki az **azonosítókat** a **Fiókbeállítások** közül.
 
-1. A **CSP** szakaszban a **frissítés** HIVATKOZÁSRA kattintva frissítse a CSP-fiókjához társított MPN-azonosítót.
- 
+1. A **CSP** szakaszban a **frissítés** HIVATKOZÁSRA kattintva frissítse a CSP-fiókjához társított MPN-azonosítót 
+
 
 ## <a name="update-your-billing-address"></a>Számlázási cím frissítése
 

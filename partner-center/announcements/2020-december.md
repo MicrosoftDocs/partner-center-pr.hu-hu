@@ -8,19 +8,110 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 12/02/2020
-ms.openlocfilehash: c546885d74f5959dd02c0c7ce0fdbc22f9ff5313
-ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
+ms.date: 12/17/2020
+ms.openlocfilehash: 0712c2b8aa3a22dd4a6f327759c383257cb6605a
+ms.sourcegitcommit: 37c421eac547f6d9c2f5c8460a40f736ec8b8841
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97635990"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97666774"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi hirdetményeit.
 
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [](2020-november.md) | December
+
+______________
+
+## <a name="perpetual-software-in-csp--new-products-and-geographies"></a><a name="10"></a>Örökös szoftver a CSP-ben: új termékek és földrajzi területek
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-17
+- Ajánlatok
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+CSP közvetlen számlázási partnerek, közvetett szolgáltatók és közvetett viszonteladók
+
+### <a name="details"></a>Részletek
+
+Ahogy fejlesztjük a kereskedelmi képességeket ügyfeleink és partnereink számára a jobb vásárlási élmény érdekében, kiterjesztjük az ajánlati portfóliót, amely tartalmazza az állandó szoftverlicenc-licencek rendelkezésre állását a felhőalapú megoldás-szolgáltatói programban (CSP). A CSP-n belüli licencek hozzáadása lehetővé teszi a résztvevő partnerek számára, hogy különböző megoldásokat és felügyelt szolgáltatásokat nyújtsanak ügyfeleiknek. Emellett arra is lehetőséget ad, hogy az ügyfelek a felhőbe térjenek át, és lehetővé teszik a partnerek számára a hibrid felhőalapú környezetekhez szükséges rugalmasságot.
+
+2021. január 19-étől a Microsoft minden CSP közvetlen számlázási partnert, közvetett szolgáltatót és közvetett viszonteladót engedélyez, hogy a CSP-programon belül értékesítsen licenceket, és további termékek és földrajzi területek is elérhetők lesznek. 
+
+Tekintse meg az örökös szoftverekkel kapcsolatos részletes információkat a CSP-ben: a készültségi gyűjtemény:  [örökös szoftver a Cloud Solution Provider programban](https://partner.microsoft.com/resources/collection/software-in-csp#/).
+
+### <a name="products"></a>Termékek
+
+Ezek a további termékek a január 2021 CSP árlista szerint jelennek meg a 2020. január 19-én közzétett listán.  Ez a 2021. január 1-jén közzétett, a 2021-as év január 1-től megjelent CSP-árlista újbóli közzétételét eredményezi.
+
+- Exchange Server Enterprise 2019
+- Exchange Server Enterprise 2019-eszköz CAL
+- Exchange Server Enterprise 2019 felhasználói CAL
+- Exchange Server standard 2019
+- Exchange Server standard 2019 eszköz CAL
+- Exchange Server standard 2019 felhasználói CAL
+
+### <a name="geographies"></a>Földrajzi területek
+
+A (z) 2021-as verzióban elérhető örökös szoftverek esetében a következő további földrajzi területek érhetők el:
+
+|**Elérhető földrajzi területek**|| | |
+|-----------------------------|-------------------------------|------------|----------------------|
+|Azerbajdzsán|Belarusz|Benin|Bhután|
+|Bonaire, Sint Eustatius és Saba|Bouvet-sziget|Brazília|
+|Brit indiai-óceáni terület|Burkina Faso|Burundi|Kambodzsa|
+|Közép-afrikai Köztársaság|Csád|Karácsony-sziget|Cocos (Keeling)-szigetek|
+|Comore-szigetek|Kongó|Kongói Demokratikus Köztársaság|Cook-szigetek|
+|Dzsibuti|Egyenlítői-Guinea|Eritrea|Falkland-szigetek|
+|Francia Guyana|Francia Polinézia|Francia Déli Területek|Gabon|
+|Gambia|Grúzia|Gibraltár|Grönland|
+|Grenada|Guadeloupe|Guam|Guernsey|
+|Guinea|Bissau-Guinea|Haiti|Heard-sziget és McDonald-szigetek|
+Szent lát|Magyarország|India|Irak|
+|Man-sziget|Jersey|Kazahsztán|Kiribati|
+|Koreai Köztársaság|Kirgizisztán|Libéria|Madagaszkár|
+|Malawi|Maldív-szigetek|Mali|Marshall-szigetek|
+|Martinique|Mauritánia|Mayotte|Mikronéziai Szövetségi Államok|
+|Moldova|Mongólia|Montserrat|Mozambik|
+|Mianmar|Nauru|Holland Antillák|Új-Kaledónia|
+|Niger|Niue|Norfolk-sziget|Északi Mariana-szigetek|
+|Palau|Pápua Új-Guinea|Pitcairn-szigetek|Lengyelország|
+|Katar|Réunion|Oroszország|Saint Barthélemy|
+|Szent Ilona, Ascension és Tristan da Cunha|Saint Lucia|Saint Martin (francia rész)|Saint-Pierre és Miquelon|
+|Saint Vincent és Grenadine-szigetek|Szamoa|San Marino|São Tomé és Príncipe|
+|Szaúd-Arábia|Seychelle-szigetek|Sierra Leone|Sint Maarten (holland rész)|Salamon-szigetek|
+|Szomália|Dél-afrikai Köztársaság|Dél-Georgia és Déli-Sandwich-szigetek|Dél-Szudán|
+|Suriname|Svalbard és Jan Mayen|Szváziföld|Tajvan|
+|Tádzsikisztán|Thaiföld|Timor-Leste|Togo|
+|Tokelau|Tonga|Törökország|Türkmenisztán|
+|Turks- és Caicos-szigetek|Tuvalu|Ukrajna|Egyesült Államok kisebb kifelé húzódó szigetek|
+|Üzbegisztán|Vanuatu|Venezuela|Vietnam|
+|Brit Virgin-szigetek|Wallis és Futuna
+
+
+____________
+
+## <a name="government-academic-and-non-profit-continuing-the-open-license-program-changes-and-evolution-of-csp"></a><a name="9"></a>Kormányzati, tudományos és non-profit: a nyílt licencelési program módosításainak és a CSP evolúciójának folytatása
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-17
+- Növelje üzletét
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden CSP-partner
+
+### <a name="details"></a>Részletek
+
+Ma, ahogy továbbra is [rangsorolni fogjuk a felhőt](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/), értesítést küldünk a nyilvános szektor (kormányzati, oktatási és non-profit) ügyfeleinek a nyílt licencelési program keretében megvásárolt jövőbeli változásairól, valamint a Cloud Solution Provider program kapcsolódó változásairól.
+
+### <a name="next-steps"></a>Következő lépések
+
+A teljes bejelentés csak a Microsoft-partnerek számára érhető el. [Jelentkezzen be a teljes bejelentéshez való hozzáféréshez](https://partner.microsoft.com/resources/detail/public-sector-open-license-csp-evolution-to-a-better-experience-pc-announcement-pdf).
 
 ______________
 
