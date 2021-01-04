@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 12/03/2020
-ms.openlocfilehash: a373a6a956e8c8a8e8052a946cc82a8d82213da0
-ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
+ms.date: 12/17/2020
+ms.openlocfilehash: ea08eb3ab860c0ed4c34ee3818b7db42307c3b4e
+ms.sourcegitcommit: 37c421eac547f6d9c2f5c8460a40f736ec8b8841
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622184"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97666740"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,11 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[Állandó szoftver a felhőszolgáltatói programban:  Új termékek és földrajzi helyek](2020-december.md#10)|December 17.|
+|Vállalkozás fejlesztése|[Kormányzati, tudományos és non-profit: A felhőszolgáltatói (CSP-) program fejlődésének és az Open License program változásainak folytatása:](2020-december.md#9)|December 17.|
+|Ajánlatok/piacok|[A felhőszolgáltatói (CSP) ügyfél-előkészítési követelmények változásai](2020-december.md#8)|December 17.|
+|Vállalkozás fejlesztése|[Emlékeztető: 2021. januártól széles körben elérhetők az állandó szoftverek a felhőszolgáltatói (CSP-) programban](2020-december.md#7)|December 17.|
+|Képességek|[Az online szolgáltatások és a szoftvercsatorna engedélyezési útmutatója](2020-december.md#6)|December 17.|
 |Ajánlatok/piacok|[Már elérhető a Power Apps promóciós ajánlata](2020-december.md#5)|December 16.|
 |Képességek|[Az SDK kiadása a .NET Standard 1.16.3-as verzióján](2020-december.md#4)|December 8.|
 |Ajánlatok/piacok|[2020. decemberi licencalapú árlista kibocsátási megjegyzései](2020-december.md#3)|December 8.|
