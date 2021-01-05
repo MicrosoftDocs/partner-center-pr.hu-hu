@@ -9,16 +9,16 @@ author: parthpandyamsft
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: da6a3ab2a2fab99f49b9f5ba22824e5e61f6d482
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: db35696483c8a1e67f173ec7953cfa33a428a022
+ms.sourcegitcommit: 7575fa314fd9efbbf90089999de4f0703f94898c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530457"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97720832"
 ---
 # <a name="partner-admin-center-is-moving-to-the-partner-center"></a>A partner felügyeleti központ átkerül a partneri központba
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Partnerközpont
 
@@ -41,13 +41,10 @@ A Microsoft a partner centert egy olyan helyre fejlesztjük, ahol a Microsofttal
 
 - Felhőalapú megoldások szolgáltatói partnerei: ha Ön CSP-partner, akkor a rendszer a 2018. áprilistól kezdődően automatikusan átirányítja Önt a partner központba.
 
-- Advisor-partnerek (ha nem a CSP-n keresztül végez Transact-t, és a PAC-t használja ügyfeleinek próbaverziók/árajánlatok biztosításához)
+- Advisor-partnerek (ha nem a CSP-n keresztül végzi a tranzakciót, és a PAC-t használja az ügyfelekre vonatkozó próbaverziók/árajánlatok biztosításához): ha Ön tanácsadó partner, a rendszer a 2020-es naptól kezdve automatikusan átirányítja Önt a partner központba.
 
 ## <a name="start-using-the-microsoft-partner-center-now"></a>Kezdje el használni a Microsoft partner centert most!
 
 Kezdje el használni [a Microsoft partner centert](https://partnercenter.microsoft.com/) most, hogy készen álljon a PAC-ból való áttérésre.  Ugyanezeket a hitelesítő adatokat fogja használni a PAC-hoz használt partner központhoz.
 
-> [!IMPORTANT]  
-> A PAC-ban elérhető egyes szolgáltatások és függvények nem lesznek elérhetők a partner Centerben.
-
- A változtatások megismeréséhez és megismeréséhez olvassa el a [párhuzamos összehasonlítást](moving-from-pac-to-pc.md) . 
+A változtatások megismeréséhez és megismeréséhez olvassa el a [párhuzamos összehasonlítást](moving-from-pac-to-pc.md) .

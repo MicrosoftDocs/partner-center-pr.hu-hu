@@ -1,0 +1,43 @@
+---
+title: Elérhető Co-op-alapok megtekintése
+ms.topic: article
+ms.date: 01/03/2021
+description: Megtudhatja, hogyan tekintheti meg a keresett, igényelt és fennmaradó Co-op-alapokat, megtekintheti a lejárati dátumokat, és egyeztetheti az inkonzisztens értékeket
+ms.service: partner-dashboard
+ms.subservice: partnercenter-incentives
+author: Karthic83
+ms.author: kashanum
+ms.localizationpriority: medium
+ms.openlocfilehash: cd17656c64a55b9b27784555d9ea2acaae3979d3
+ms.sourcegitcommit: c062209be8f7ed905ab33511675ae280e93dd839
+ms.translationtype: MT
+ms.contentlocale: hu-HU
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97864341"
+---
+# <a name="view-available-earned-claimed-and-remaining-co-op-funds"></a>A rendelkezésre álló, igényelt és fennmaradó Co-op-alapok megtekintése
+
+**Megfelelő szerepkörök:**
+
+- Ösztönzők rendszergazdája
+- Ösztönzők felhasználója
+
+A [partner Center irányítópultján](https://partner.microsoft.com/dashboard/) nyomon követheti, figyelheti és egyeztetheti az ösztönző Co-op-forrásokat (bejelentkezés szükséges). A következő eljárással tekintheti meg ezeket az eszközöket.
+
+## <a name="view-your-funds"></a>Alapok megtekintése
+
+1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/) az Azure ad-fiókjával (vállalati fiókkal) vagy a megfelelő e-mail-címmel az ösztönző szerepkörhöz.
+
+2. Válassza a **társ-op kezelés** lehetőséget, majd válassza ki a használni kívánt használati időszakot. Ez a művelet megjeleníti a kiválasztott időszakra vonatkozóan a **Co-op által kikeresett**, a Co-op által **igényelt** és a **többi kapcsolt op-** t.
+
+3. A kijelölt időszak lejárati dátuma a **fennmaradó Co-op-** megjelenítés alatt jelenik meg.  
+
+4. A kiválasztott időszakban küldött összes jogcím megtekintéséhez görgessen a lap aljára.
+
+Ha úgy véli, hogy eltérések vannak az összegzésben megjelenített mennyiségekben, letöltheti a tranzakciós jelentést az előző időszakból. Ez a jelentés segítséget nyújt a kiválasztott használati időszakra vonatkozóan elért közös op-források mennyiségének meghatározásában. A tranzakciós jelentések letöltéséhez vagy a beküldött jogcímek ellenőrzéséhez, hogy a fennmaradó együttes op-mennyiség pontos legyen, tekintse meg a [tranzakciók előzményeit](/partner-center/payout-statement#transaction-history).
+
+Ha továbbra is problémákat tapasztal az összegek egyeztetése során, vagy ha egy közös op-alap nem látható, akkor nyissa meg a támogatási jegyet. Ehhez kattintson a lap jobb felső sarkában látható kérdőjel ikonra, majd válassza az **ösztönzők** lehetőséget.
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

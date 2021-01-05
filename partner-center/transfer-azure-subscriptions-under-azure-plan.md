@@ -9,12 +9,12 @@ ms.localizationpriority: medium
 author: mckennaville
 ms.author: mcville
 ms.date: 07/29/2020
-ms.openlocfilehash: 81f64e117f9e0a4abc817746d11dc9acae887577
-ms.sourcegitcommit: 146964ce0cc72bd821692f73f9c0b55e6fefb0fc
+ms.openlocfilehash: e792e4af2999924ba8be77ec0517ce56c1db7a27
+ms.sourcegitcommit: ed5c873d19f0464cc986fe6e852383cd4280daf6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94433347"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97893206"
 ---
 # <a name="transfer-a-customers-azure-plan-subscriptions-to-a-different-partner"></a>Ügyfél Azure-csomag-előfizetésének átvitele egy másik partnerre
 
@@ -49,7 +49,7 @@ Az ügyfélnek az eszköz kihasználása előtt mindkét partnerrel (aktuális �
 
 - Az ügyfél az aktuális CSP-partnert az áttérés céljára irányítja
 - A jövőbeli CSP-partner az ügyféllel együttműködve biztosítja az ügyfelek igényeinek teljesítését
-- A jövőbeli CSP-partner kapcsolatot létesít az ügyféllel az áttérés megkezdése előtt  
+- A jövőbeli CSP-partner kapcsolatot létesít az ügyféllel, és megvásárol egy Azure-csomagot az áttérés megkezdése előtt  
 - Az ügyfélnek regisztrálnia kell a Microsoft ügyfél-szerződést a jövőbeli CSP-partnerrel
 - A jövőbeli CSP-partnernek alá kell írnia a Microsoft partneri szerződést az eszköz használatához
 

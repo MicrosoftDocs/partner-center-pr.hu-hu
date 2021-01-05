@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 12/17/2020
-ms.openlocfilehash: 0712c2b8aa3a22dd4a6f327759c383257cb6605a
-ms.sourcegitcommit: 37c421eac547f6d9c2f5c8460a40f736ec8b8841
+ms.date: 12/21/2020
+ms.openlocfilehash: c186c61fa6a583284884020bf442517e9bb38182
+ms.sourcegitcommit: 4c52d3a1fde7eba20607e9e329a71e478b019036
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97666774"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97736538"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
@@ -22,75 +22,148 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központ 2020. novemberi
 
 2020 bejelentések: [április](2020-april.md)  |  [május](2020-may.md)  |  [jún](2020-june.md)  |  [.](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [október](2020-October.md)  |  [](2020-november.md) | December
 
-______________
+________________
 
-## <a name="perpetual-software-in-csp--new-products-and-geographies"></a><a name="10"></a>Örökös szoftver a CSP-ben: új termékek és földrajzi területek
+## <a name="unused-channel-incentive-co-operative-marketing-fund-co-op-funds-from-the-fy21-h1-usage-period-to-be-rolled-over-to-the-h2-usage-period"></a><a name="13"></a>A használaton kívüli csatornán alapuló, a FY21 H1-használati időszakból a H2 használati időszakba felszámított, nem használt, kooperatív marketing Fund (co-op) alapok
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2020-12-17
+- Dátum: 2020-12-22
 - Ajánlatok
+
+### <a name="summary"></a>Összegzés
+
+A FY21 H1 használati időszak (2020. július 1 – december 31.) nem használt együttes op-alapok a FY21 H2 használati időszakára (január 1-től június 30-ig 2021) lesznek áthelyezve.
 
 ### <a name="impacted-audience"></a>Érintett közönség
 
-CSP közvetlen számlázási partnerek, közvetett szolgáltatók és közvetett viszonteladók
+A felhőalapú megoldás-szolgáltató (CSP) közvetlen számlázási partnere, a közvetett szolgáltató és a közvetett viszonteladói ösztönző programok keretében részt vevő partnerek
 
 ### <a name="details"></a>Részletek
 
-Ahogy fejlesztjük a kereskedelmi képességeket ügyfeleink és partnereink számára a jobb vásárlási élmény érdekében, kiterjesztjük az ajánlati portfóliót, amely tartalmazza az állandó szoftverlicenc-licencek rendelkezésre állását a felhőalapú megoldás-szolgáltatói programban (CSP). A CSP-n belüli licencek hozzáadása lehetővé teszi a résztvevő partnerek számára, hogy különböző megoldásokat és felügyelt szolgáltatásokat nyújtsanak ügyfeleiknek. Emellett arra is lehetőséget ad, hogy az ügyfelek a felhőbe térjenek át, és lehetővé teszik a partnerek számára a hibrid felhőalapú környezetekhez szükséges rugalmasságot.
+Felismertük, hogy a partnereink és az ügyfeleink milyen hatással vannak a kihívást jelentő időpontokra. Ha további rugalmasságot szeretne biztosítani a partnerek számára, a jelenleg FY21 H1 használati időszakból egyszeri átütemezést biztosítunk a fel nem használt Co-op-alapoktól, amely a 2021. július 1-től december 31-ig tart. A Co-op-forrásokat az ösztönző jövedelmek részeként jutalmazzák, és a jogosult marketing-, kereslet-generálási és készültségi tevékenységeket igényelhetik.
 
-2021. január 19-étől a Microsoft minden CSP közvetlen számlázási partnert, közvetett szolgáltatót és közvetett viszonteladót engedélyez, hogy a CSP-programon belül értékesítsen licenceket, és további termékek és földrajzi területek is elérhetők lesznek. 
+Ezzel a rolloverrel a H1-jogcím időszakának lezárása után a fiókban fennmaradó, nem használt együttes op-források használhatók a FY21 H2 használati időszakában, amely a 2021-as január 1-től június 30-ig érvényes.  
 
-Tekintse meg az örökös szoftverekkel kapcsolatos részletes információkat a CSP-ben: a készültségi gyűjtemény:  [örökös szoftver a Cloud Solution Provider programban](https://partner.microsoft.com/resources/collection/software-in-csp#/).
+A jogcímeket a partner Center [jogcímek eszközön](https://partner.microsoft.com/dashboard/incentives/claims/web/) keresztül kell elküldeni a tevékenység befejezését követő 45 napon belül, és a rendszer a 2021. augusztus 15-ig fogadja el.
 
-### <a name="products"></a>Termékek
+A társ-op-egyenleget a partner Center [bevételi irányítópultján](https://partner.microsoft.com/dashboard/incentives/enrollment/summary)tekintheti meg. A jogosult tevékenységekről, a jogcímek beküldéséről és egyéb további információkért tekintse meg a Microsoft partner webhelyén található [Co-op Asset gyűjteményt](https://partner.microsoft.com/asset/collection/co-op-funds-resources#/) .
 
-Ezek a további termékek a január 2021 CSP árlista szerint jelennek meg a 2020. január 19-én közzétett listán.  Ez a 2021. január 1-jén közzétett, a 2021-as év január 1-től megjelent CSP-árlista újbóli közzétételét eredményezi.
+### <a name="next-steps"></a>Következő lépések
 
-- Exchange Server Enterprise 2019
-- Exchange Server Enterprise 2019-eszköz CAL
-- Exchange Server Enterprise 2019 felhasználói CAL
-- Exchange Server standard 2019
-- Exchange Server standard 2019 eszköz CAL
-- Exchange Server standard 2019 felhasználói CAL
+- Folytassa a marketing, a kereslet-létrehozási és készültségi erőfeszítések elvégzésével, valamint a jogosult tevékenységekre vonatkozó jogcímek beküldését 45 napon belül.
+- Rendszeresen ellenőrizze a Co-op-fiók egyenlegét, és győződjön meg arról, hogy a teljes mennyiséget a H2 használati időszakának zárása alapján, 2021. június 30-án használja.
 
-### <a name="geographies"></a>Földrajzi területek
+### <a name="questions"></a>Kérdése van?
 
-A (z) 2021-as verzióban elérhető örökös szoftverek esetében a következő további földrajzi területek érhetők el:
+Az ösztönzéssel kapcsolatos kérdésekre a javasolt lépéseket és az önsegítő cikkeket az "ösztönzők" kifejezésre kattintva érheti el a partner Center kezdőlapján. Ha további segítségre van szüksége, közvetlenül is létrehozhat egy [támogatási kérést](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?category=csp) a partner Centerben. További információ: [aka.MS/IncentivesSupport](https://aka.ms/IncentivesSupport).
 
-|**Elérhető földrajzi területek**|| | |
-|-----------------------------|-------------------------------|------------|----------------------|
-|Azerbajdzsán|Belarusz|Benin|Bhután|
-|Bonaire, Sint Eustatius és Saba|Bouvet-sziget|Brazília|
-|Brit indiai-óceáni terület|Burkina Faso|Burundi|Kambodzsa|
-|Közép-afrikai Köztársaság|Csád|Karácsony-sziget|Cocos (Keeling)-szigetek|
-|Comore-szigetek|Kongó|Kongói Demokratikus Köztársaság|Cook-szigetek|
-|Dzsibuti|Egyenlítői-Guinea|Eritrea|Falkland-szigetek|
-|Francia Guyana|Francia Polinézia|Francia Déli Területek|Gabon|
-|Gambia|Grúzia|Gibraltár|Grönland|
-|Grenada|Guadeloupe|Guam|Guernsey|
-|Guinea|Bissau-Guinea|Haiti|Heard-sziget és McDonald-szigetek|
-Szent lát|Magyarország|India|Irak|
-|Man-sziget|Jersey|Kazahsztán|Kiribati|
-|Koreai Köztársaság|Kirgizisztán|Libéria|Madagaszkár|
-|Malawi|Maldív-szigetek|Mali|Marshall-szigetek|
-|Martinique|Mauritánia|Mayotte|Mikronéziai Szövetségi Államok|
-|Moldova|Mongólia|Montserrat|Mozambik|
-|Mianmar|Nauru|Holland Antillák|Új-Kaledónia|
-|Niger|Niue|Norfolk-sziget|Északi Mariana-szigetek|
-|Palau|Pápua Új-Guinea|Pitcairn-szigetek|Lengyelország|
-|Katar|Réunion|Oroszország|Saint Barthélemy|
-|Szent Ilona, Ascension és Tristan da Cunha|Saint Lucia|Saint Martin (francia rész)|Saint-Pierre és Miquelon|
-|Saint Vincent és Grenadine-szigetek|Szamoa|San Marino|São Tomé és Príncipe|
-|Szaúd-Arábia|Seychelle-szigetek|Sierra Leone|Sint Maarten (holland rész)|Salamon-szigetek|
-|Szomália|Dél-afrikai Köztársaság|Dél-Georgia és Déli-Sandwich-szigetek|Dél-Szudán|
-|Suriname|Svalbard és Jan Mayen|Szváziföld|Tajvan|
-|Tádzsikisztán|Thaiföld|Timor-Leste|Togo|
-|Tokelau|Tonga|Törökország|Türkmenisztán|
-|Turks- és Caicos-szigetek|Tuvalu|Ukrajna|Egyesült Államok kisebb kifelé húzódó szigetek|
-|Üzbegisztán|Vanuatu|Venezuela|Vietnam|
-|Brit Virgin-szigetek|Wallis és Futuna
+________________
 
+## <a name="docusign-migration-to-adobe-sign-in-2021-for-partners-who-have-microsoft-partner-agreements-mpas"></a><a name="12"></a>DocuSign Migrálás a 2021-es Adobe-bejelentkezésre a Microsoft partneri szerződésekkel (MPAs) rendelkező partnereink számára
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-22
+- Képességek – fokozza a biztonsági & megfelelőségét
+
+### <a name="summary"></a>Összegzés
+
+A Microsoft a DocuSign-ből az Adobe-ba történő összes elektronikus aláírás feldolgozását átváltja
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A Cloud Solution Provider (CSP) partnerei a Microsoft partneri szerződésekkel (MPAs)
+
+### <a name="details"></a>Részletek
+
+Az Adobe Sign a Microsoft által előnyben részesített elektronikus aláírási megoldás (ESS). Január 2021-án a Microsoft elkezdi az összes elektronikus aláírás feldolgozását a DocuSign-ből az Adobe-ba, a MPAs-től kezdve. A zökkenőmentes áttérés várható. A Migrálás után e-maileket fog kapni egy [adobesign@adobesign.com](mailto:adobesign@adobesign.com) fiókból, amely egy új aláírási környezetre mutató hivatkozást biztosít Önnek. A legjobb élmény érdekében adja hozzá a [adobesign@adobesign.com](mailto:adobesign@adobesign.com) biztonságos küldők listáját.
+
+Az Adobe Sign-ra való áttérés biztonságos és hatékony elektronikus aláírási élményt nyújt, amely nagyobb értéket biztosít ügyfeleinknek és partnereinknek. A fiók-áttelepítési tervekkel kapcsolatos további információkért tekintse meg a 2021. januári Adobe-bejelentkezést.  
+
+### <a name="next-steps"></a>Következő lépések
+
+Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel. Az áttelepítéssel kapcsolatos további információkat a 2021-as januári verzióban talál.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van, forduljon a regionális operatív központhoz a hívásnapló eszközével (CLT) a [https://clt.partners.extranet.microsoft.com/CLT](https://clt.partners.extranet.microsoft.com/CLT) [Explore.MS](https://www.explore.ms/publichome.aspx)-on vagy a-n keresztül. Kövesse a szabványos CLT folyamatot, hogy a lehető leggyorsabban fel tudja oldani a lekérdezést.
+
+______________
+
+## <a name="january-2021-pricing-and-catalog-schedules"></a><a name="11"></a>Január 2021 díjszabás és katalógus-ütemterv
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-22
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A Cloud Solution Provider (CSP) programban részt vevő közvetlen számlázási és közvetett szolgáltatók.
+
+### <a name="details"></a>Részletek
+
+A partneri központ díjszabása és katalógusa általában a hónap első napján ütemezve lesz, ezért a 2021-es időpontnál kisebb változások lesznek ütemezve. Az összes díjszabási fájl a szokásos módon lesz elérhető, 2020 december 31-én, a következő időpontban: 6 – csendes-óceáni téli idő (PST). Az alábbi, általában a hónap első részében előforduló frissítések némileg késleltetve lesznek. 
+
+- Az Azure használaton alapuló árlista a 2021. január 4. és a munkanap végéig késleltetve lesz. A 2021. január 1-jén az Azure-használaton alapuló díjszabási fájlok díjszabása csak a december 21 2020-ig tart. Január 4-én a fájlok frissülni fognak.
+- A licenc-alapú díjszabási fájlok 2021 január 1-jén lesznek naprakészek, de némi késéssel jár, amíg az új ajánlatok nem állnak rendelkezésre a katalógusban a vásárláshoz. A licenc-alapú katalógus frissítése január 5-én, 2021 17:00 PST-re van ütemezve. 
+
+Vegye figyelembe, hogy a szokásos ütemezés szerint az összes többi árlista-fájl elérhető, és a fenti két szolgáltatás némileg késleltetve lesz.
+
+### <a name="next-steps"></a>Következő lépések
+
+Összefoglalva, az alábbi díjszabási fájlok a szokásos módon lesznek elérhetők december 31-én, 2020-kor körülbelül 6 PST:
+
+- Licenc-alapú árlista-fájlok és ajánlatok listája mátrix
+- Használaton alapuló árlista, de csak a 2020-ig terjedő frissítésekkel.
+- Használati-alapú foglalások árlista
+- A szoftveres előfizetések árlisták
+- Perpetual Software árlista
+- Az Azure-csomag használati díjszabási listája
+- Az Azure Plan Reservations árlisták
+- Az Azure-csomag fogyasztásának átváltási díjai
+
+A következő díjszabási fájlt a 2021. január 4-én a következőképpen frissíti a rendszer:
+
+- Használaton alapuló árlista
+
+A partner Center katalógusa a 2021. január 5-én, a 2021-es frissítéssel frissül.
+ 
+______________
+
+## <a name="microsoft-365-apps-and-services-support-of-internet-explorer-11-and-microsoft-edge-legacy-announcement"></a><a name="10"></a>Az Internet Explorer 11 és a Microsoft Edge örökölt bejelentése Microsoft 365 alkalmazások és szolgáltatások támogatása
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2020-12-21
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+INFORMATIKAI rendszergazdák, informatikai döntéshozók, információs tisztviselők és végfelhasználók
+
+### <a name="details"></a>Részletek
+
+Microsoft 365 előfizetőket, mind a fogyasztó, mind a kereskedelmi kontextusban, így a változás a mindennapi eszközkészletekben, például az Outlook, a Teams, a SharePoint és más szolgáltatásokhoz hasonló funkciókat kínál, és így gyorsabb és rugalmasabb webes hozzáférést biztosít.
+
+Az új Microsoft Edge egy modern böngésző legjobb kifejeződése, és örömmel vesszük ügyfeleinknek, hogy megtapasztalják. Most, hogy elküldte az új Microsoft Edge-t, és a legtöbb Windows 10-es ügyfelünket frissítette az új böngészőre, a Microsoft Edge Legacy Desktop alkalmazás támogatását befejezjük.
+
+**A módosítás hatása**
+
+- **November 30 2020**-én az ügyfelek már nem tudnak csatlakozni a Microsoft Teams webalkalmazáshoz az Internet Explorer 11 böngészőben. A Microsoft úgy véli, hogy az ügyfelek az [új Microsoft Edge](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)használatakor a legtöbbet a Microsoft 365 és a modern böngésző legjobb kifejeződésével fogják kipróbálni.
+- **Március 9 2021**, a Microsoft Edge Legacy-hoz létrehozott alkalmazások és webhelyek továbbra is működni fognak az új Microsoft Edge-ben, de ha kompatibilitási probléma merül fel, akkor az [alkalmazás biztosítja az ígéretet](https://aka.ms/appassure) , hogy támogatást nyújtson.
+- **Augusztus 17 2021** után az ügyfelek csökkentett teljesítményű élményt kapnak, vagy nem tudnak csatlakozni az Internet Explorer 11 Microsoft 365 alkalmazásaihoz és szolgáltatásaihoz. A Microsoft úgy véli, hogy az ügyfelek az [új Microsoft Edge](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)használatakor a legtöbbet a Microsoft 365 és a modern böngésző legjobb kifejeződésével fogják kipróbálni.
+
+### <a name="next-steps"></a>Következő lépések
+
+- A bejelentés részleteinek megismeréséhez olvassa el a blogbejegyzésben.
+- Ezzel a lehetőséggel elérheti a partnereit, hogy segítsen az új Microsoft Edge üzembe helyezésében.
+- További források és további információk: [Edge YouTube](https://www.youtube.com/channel/UCIGx7oT8p6-jUpOfg98yelA) vagy [Edge elfogadás](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
+
+### <a name="questions"></a>Kérdések
+
+Bármilyen kérdés esetén forduljon a [kereskedelmi keresési GTM csapatához](mailto:CommercialSearchGTM@microsoft.com?subject=Internet%20Explorer%2011%20and%20Microsoft%20Edge%20legacy%20announcement) .
 
 ____________
 
@@ -99,7 +172,7 @@ ____________
 ### <a name="categories"></a>Kategóriák
 
 - Dátum: 2020-12-17
-- Növelje üzletét
+- Vállalkozás fejlesztése
 
 ### <a name="impacted-audience"></a>Érintett közönség
 
@@ -122,7 +195,7 @@ ______________
 - Dátum: 2020-12-17
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként a további vásárlói adatokat fogjuk igénybe venni, amelyek a 2021. márciusi időszak végén érvényesek.
 
@@ -189,9 +262,9 @@ ______________
 ### <a name="categories"></a>Kategóriák
 
 - Dátum: 2020-12-17
-- Növelje üzletét
+- Vállalkozás fejlesztése
  
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 Ez egy emlékeztető arról, hogy a 2021. január 19-én az összes CSP-partner képes lesz értékesíteni a kereskedelmi örökös szoftveres licenceket. Új termékeket és földrajzi régiókat is bevezetünk.
 
@@ -295,16 +368,16 @@ Az ajánlat részleteit alább találja a januári 2021 ajánlat lista-mátrixba
 
 - Kiépítési azonosító: POWERAPPS_PER_APP
 - Időtartam: 1 év
-- Számlázási gyakoriság: havonta; Évente
+- Számlázási gyakoriság: havonta vagy évente
 - Minimális számú ülőhely: 200
 - Ülőhelyek maximális száma: 10000000
 - Ajánlat korlátja: nincs
-- Engedélyezett országok: az Egyesült Államok lakatlan külbirtokai; Angol (francia déli területek); Bouvet-sziget; Brit Indiai-óceáni terület; Jemen Heard-sziget és Mc Donald-szigetek; Wallis és Futuna; Vanuatu Antarktisz Tuvalu Szomália Tokelau Sierra Leone; Szváziföld Szent Ilona, Ascension, Tristan da Cunha; São Tomé és Príncipe; Pitcairn-szigetek; Palaui Salamon-szigetek; Naurui Niue Norfolk-sziget; Mauritánia Északi Mariana-szigetek; Lesotho Kiribati Egyenlítői-Guinea; Bissau-Guinea; Cook-szigetek; Eritrea Karácsony-sziget; Burkina Faso; Közép-afrikai Köztársaság; Koszovó Kókusz (Keeling)-szigetek; Svalbard és Jan Mayen; Åland-szigetek; Dél-Szudán; Déli-Georgia és Déli-Sandwich-szigetek; Szamoa Saint Barthélemy; Brit Virgin-szigetek; Saint-Pierre és Miquelon; Csád Niger Montserrat Guyanai Haiti Gambia Guam Guinea Gabon Grenada Gibraltári Guernsey Libéria Mikronéziai szövetséges Államok Falkland-szigetek; Dominikai Köztársaság, Dzsibuti; Kongói Kongói Demokratikus Köztársaság; Zimbabwei Amerikai Szamoa; Zambia Dél-Afrika; Mayotte Vietnam Saint Vincent és Grenadine-szigetek, Amerikai Virgin-szigetek; Venezuela Szentszék (Vatikánváros); Ukrajna Uganda Üzbegisztán Egyesült Államok; Uruguay Tanzánia Tajvan Trinidad és Tobago; Törökország Tunézia Tonga Kelet-Timor; Türkmenisztán Tádzsikisztán Thaiföld Togo Salvador; Sint Maarten; Turks-és Caicos-szigetek; Suriname Szingapúr Szlovénia San Marino; Szenegál Szlovákia Svédország Seychelle Szaúd-Arábia; Szerbia Ruanda Orosz Románia Réunion Katar Paraguay Portugália Fülöp Palesztin terület, megszállt; Lengyelország Puerto Rico; Pakisztán Peru Panama Pápua Új-Guinea; Francia Polinézia; Új-Zéland; Omán; Nepál Hollandia Norvégia Nigéria Nicaragua Új-Kaledónia; Namíbia Mozambik Malajzia Mexikó Martinique Malawi Maldív Mauritius Málta Myanmar Makaó KKT; Mongólia Mali Madagaszkár Marshall-szigetek; Macedónia, V.J.K.; Montenegró Saint Martin; Marokkó Monaco Moldova Lettország Líbia Luxemburg Libanon Saint Lucia; Litvánia Srí Lanka; Kajmán-szigetek; Liechtenstein Laosz Kazahsztán Kuvait Korea Comore Kambodzsa Saint Kitts és Nevis; Kenya Kirgizisztán Japán Jordánia Jamaica Jersey; Olaszország; Izland; Irak; Írország, India, Indonézia; Man-sziget; Honduras; Izrael; Magyarország Hongkong KKT; Horvátország Guatemala Görögország Guadeloupe Francia Guyana; Grönland Ghána Feröer-szigetek; Egyesült Királyság; Grúzia Franciaország Fidzsi Etiópia Finnország Spanyolország Egyiptom Észtország Ecuador; Dominikai Köztársaság; Algéria Németország; Dánia; Ciprus Cseh Köztársaság; Curaçao Cape Verde; Costa Rica; Chile Kamerun Kolumbia Elefántcsontpart; Kanada Svájc Belize Belarusz Botswana Bhután Bahamák Bonaire, Sint Eustatius és Saba; Brazília Benin Brunei Bermuda Bolívia Belgium Bulgária Bahrein Burundi Bosznia-Hercegovina; Banglades Barbados Azerbajdzsán Aruba Ausztrália Argentína Ausztria Angola Örményország Afganisztán Albánia Anguilla Andorra Egyesült Arab Emírségek; Antigua és Barbuda
+- Engedélyezett országok: Amerikai Egyesült államokbeli szigetek, angol (francia déli területek), Bouvet-sziget, brit indiai-óceáni terület, Jemen, hallott és Mc Donald-szigetek, Wallis és Futuna, Vanuatu, Antarktisz, Tuvalu, Szomália, Tokelau, Sierra Leone, Szváziföld, St Helena, Ascension, Tristan da Cunha, Sa £ o TomÃ © és PrÃncipe, Pitcairn-szigetek, Palau, Salamon-szigetek, Nauru, Niue, Norfolk-sziget, Mauritánia, Északi Mariana-szigetek, Lesotho, Kiribati, Egyenlítői-Guinea, Bissau , Cook-szigetek, Eritrea, Karácsony-sziget, Burkina Faso, Közép-afrikai Köztársaság, Koszovó, kókusz (Keeling) szigetek, Svalbard és Jan Mayen, Ã... Land Islands, Dél-Szudán, Dél-Georgia és Déli-Sandwich-szigetek, Szamoa, Saint BarthÃ © LEMY, Brit Virgin-szigetek, Saint-Pierre és Miquelon, Csád, Niger, Montserrat, Guyana, Haiti, Gambia, Guam, Guinea, Gabon, Grenada, Gibraltár, Guernsey, Libéria, Mikronézia, Falkland-szigetek, Dominikai, Dzsibuti, Kongói Demokratikus Köztársaság, Kongói Demokratikus Köztársaság, Zimbabwe, Amerikai Szamoa, Zambia, Dél-Afrika, Mayotte, Vietnam, Saint Vincent és Grenadine-szigetek, Amerikai Virgin-szigetek, Venezuela, Szentszék (Vatikánváros) , Ukrajna, Uganda, Üzbegisztán, Egyesült Államok, Uruguay, Tanzánia, Tajvan, Trinidad és Tobago, Törökország, Tunézia, Tonga, Kelet-Timor, Türkmenisztán, Tádzsikisztán, Thaiföld, Togo, Salvador, Sint Maarten, Turks-és Caicos-szigetek, Suriname, Singapore, Szlovénia, San Marino, Szenegál, Szlovákia, Svédország, Seychelle-szigetek, Szaúd-Arábia, Szerbia, Ruanda, Oroszország, Románia, RÃ © Unió, Katar, Paraguay, Portugália, Fülöp-szigetek , Új-Zéland, Omán, Nepál, Hollandia, Norvégia, Nigéria, Nicaragua, Új-Kaledónia, Namíbia, Mozambik, Malajzia, Mexikó, Martinique, Malawi, Maldív-szigetek, Mauritius, Málta, Mianmar, Makaó KKT, Mongólia, Mali, Madagaszkár, Marshall-szigetek, Macedónia, V.J.K., Montenegró, Saint Martin, Marokkó, Monaco, Moldova, Lettország, Líbia, Luxemburg, Libanon, Saint Lucia, Litvánia, Srí Lanka, Kajmán-szigetek, Liechtenstein, Laosz, Kazahsztán, Kuvait, Korea, Comore, Kambodzsa, Saint Kitts és Nevis, Kenya, Kirgizisztán, Japán, Jordánia , Jamaica, Jersey, Olaszország, Izland, Irak, Írország, India, Indonézia, Man-sziget, Honduras, Izrael, Magyarország, Hongkong KKT, Horvátország, Guatemala, Görögország, Guadeloupe, Francia Guyana, Grönland, Ghána, Feröer-szigetek, Egyesült Királyság, Grúzia, Franciaország, Fidzsi, Etiópia, Finnország, Spanyolország, Egyiptom, Észtország, Ecuador, Dominikai Köztársaság, Algéria, Németország, Dánia, Ciprus, Cseh Köztársaság, CuraÃ § Ao, Cape Verde, Costa Rica, Chile, Kamerun, Kolumbia, CÃ ́te da €™ ivoire, Kanada, Svájc , Belize, Belorusszia, Botswana, Bhután, Bahama-szigetek, Bonaire, Sint Eustatius és Saba, Brazília, Benin, Brunei, Bermuda, Bolívia, Belgium, Bulgária, Bahrein, Burundi, Bosznia-Hercegovina, Banglades, Barbados, Azerbajdzsán, Aruba, Ausztrália, Argentína, Ausztria, Angola, Örményország, Afganisztán, Albánia, Anguilla, Andorra, Egyesült Arab Emírségek, Antigua és Barbuda
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - A promóciós ajánlat az 2021-as január 1., a hivatalos CSP partner Center licenc-alap árlista és az ajánlati lista mátrixában érhető el. 
-- Az előléptetéssel kapcsolatos kérdéseket és lépéseket a [Microsoft közösségi közleményében](https://www.microsoftpartnercommunity.com/t5/Pricing-Licensing-Incentives/Announcing-a-new-Power-Apps-promotional-offer-to-accelerate-FY21/m-p/32540)teheti közzé.
+- Az előléptetéssel kapcsolatos kérdéseit a [Microsoft közösségi közleményében](https://www.microsoftpartnercommunity.com/t5/Pricing-Licensing-Incentives/Announcing-a-new-Power-Apps-promotional-offer-to-accelerate-FY21/m-p/32540)teheti közzé.
 
 ______________
 
@@ -339,7 +412,7 @@ December 08 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK 
 
 - MiddleName hozzáadva
  
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - Töltse le a legújabb verziót: [MicrosoftPartnerCenter. NETSDK (NuGet Gallery | Microsoft. Store. PartnerCenter 1.16.3)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.16.3)
 - A [GitHub-minták](https://github.com/Microsoft/Partner-Center-DotNet-Samples) letöltése és áttekintése
@@ -353,7 +426,7 @@ ______________
 - Dátum: 2020-12-8
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 A decemberi 2020 licenc-alapú árlista és ajánlat lista mátrixa néhány problémát tartalmaz.
 
@@ -375,7 +448,7 @@ A decemberi licenc-alapú árlista az alábbi ajánlatokat tartalmazza, amelyek 
    |Dynamics 365 emberi erőforrások a Dynamics 365 alapszintű ajánlatának minősítéséhez (nem nyereségek díjszabása)|8bf0b826-e05b-45aa-9cd1-9a9f742f7731|
    |A Dynamics 365 emberi erőforrásai a Dynamics 365 alapszintű ajánlat (nem nyereségek díjszabása) minősítésére vonatkoznak (minősített ajánlat)|f906435d-9dc9-42ba-bea6-2a2b08ca60db|
    |Dynamics 365 emberi erőforrások – homokozó (nem nyereségek díjszabása)|079ec5ba-d726-4384-95af-62d135c210d2|
-   |Dynamics 365 emberi erőforrások önkiszolgáló szolgáltatás (nonprofit szolgáltatások díjszabása)|931acecc-34c3-4f83-913e-c7fdbfd7e2a1|
+   |Dynamics 365 emberi erőforrások Self-Service (nem nyereségek díjszabása)|931acecc-34c3-4f83-913e-c7fdbfd7e2a1|
    |Dynamics 365-műveletek – sorok sorrendje (nem nyereségek díjszabása)|7dd6b78a-3d53-47f8-8a64-bd84609a9a70|
    
 #### <a name="incorrect-offers-in-the-offer-list-matrix"></a>Helytelen ajánlatok szerepelnek az ajánlati lista mátrixában
@@ -412,7 +485,7 @@ ______________
 - Dátum: 2020-12-3
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 2021. január 1-jén a Microsoft elkezdi az Egyesült államokbeli partnereket és ügyfeleket új Microsoft 365 Vállalati verzió hangra a Calling Plan ajánlatával. Nincs szükség partneri beavatkozásra.
 
@@ -458,7 +531,7 @@ ______________
 
 Az akadémiai ajánlatokat a Cloud Solution Provider programon keresztül értékesítő partnereink
 
-### <a name="summary"></a>Összefoglalás 
+### <a name="summary"></a>Összegzés 
 
 A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk arra, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfelek ellenőrzéséhez a felhőalapú megoldás-szolgáltatói programban. Ennek a kötelezettségvállalásnak a részeként a partner Center API-t és a felhasználói felület fejlesztéseit fogjuk bevezetni, amelyekkel egyértelművé és láthatóvá válik az ügyfelek bevonási folyamata, valamint a pontosabb adatok bevitele is, ami javítja az ügyfelek sikeres ellenőrzését. 
 

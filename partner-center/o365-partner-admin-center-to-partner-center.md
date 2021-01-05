@@ -9,16 +9,16 @@ author: billLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1a9270f405b58ee065a67427395a392128b3eda1
-ms.sourcegitcommit: c4f2561fb7f224554c31e3af491de4ad65644158
+ms.openlocfilehash: 51dd9bc389077f4b472e2e13f1170214ad1d382d
+ms.sourcegitcommit: 7575fa314fd9efbbf90089999de4f0703f94898c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "92528023"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97720815"
 ---
 # <a name="office-365-partner-admin-center-partners---get-ready-to-move-business-operations-to-partner-center"></a>Office 365 partner felügyeleti központ partnerei – felkészülés az üzleti műveletek a partner központba való áthelyezésére
 
-**A következőkre vonatkozik** 
+**A következőre érvényes:** 
 
 - Partnerközpont
 - Office 365 partner felügyeleti központ
@@ -36,9 +36,7 @@ A Microsoft Office 365 partner felügyeleti központjának funkcióit a partner 
 - Kapcsolati meghívások küldése az ügyfeleknek a saját és a szolgáltató nevében
 - Egyéni felhasználók kezelése és a licencek könnyebb kiosztása
 
-A partner Center azonnal használatba veheti számos olyan feladathoz, amelyet jelenleg az Office 365 partner felügyeleti központjában használ. 
-
-Egyelőre mindkét hely támogatott, így az új helyre való áttérés során továbbra is használhatja az Office 365 partner felügyeleti központot. Az egyik helyen végrehajtott módosítások mindkét esetben megjelennek.
+A rendszer azonnal átirányítja a partner központba az összes olyan feladathoz, amelyet jelenleg az Office 365 partner felügyeleti központjában használ.
 
 ## <a name="find-office-365-partner-admin-center-features-in-partner-center"></a>Az Office 365 partner felügyeleti központ szolgáltatásainak megkeresése a partner Centerben
 
@@ -46,9 +44,9 @@ A feladatok a partner Centerben való elvégzése másképp történik, mint ami
 
 | Office 365 partner felügyeleti központ szolgáltatás                       | Hol található a partner Centerben? | 
 |   -----------------------------------------------  | -------------- |
-| Üzleti felépítése: vásárlási ajánlat létrehozása | A szolgáltatóval együttműködve ajánlatait értékesítheti ügyfeleinek |
+| Üzleti felépítése: vásárlási ajánlat létrehozása | Partner Center: próbaverziók és vásárlási ajánlatok > vásárlási ajánlat létrehozása |
 | Üzleti felépítése: delegált rendszergazdai engedélyek kérése | Partner Center: ügyfelek > viszonteladói kapcsolat kérése |
-| Üzleti felépítése: próbaverziós meghívások létrehozása | Nem érhető el. Ehhez továbbra is használhatja az Office 365 partner felügyeleti központot |
+| Üzleti felépítése: próbaverziós meghívások létrehozása | Partner Center: kísérletek és vásárlási ajánlatok > próbaverziós meghívás létrehozása |
 | Szolgáltatási kérelmek: ügyfél listája: Office 365 felügyeleti központ | Partner Center: ügyfelek > szolgáltatások felügyelete |
 | Szolgáltatási kérelmek: ügyfél-lista: szolgáltatási kérelmek | Partner Center: szolgáltatási kérelem > ügyfél kérései |
 | Szolgáltatási kérelmek: megjelölve | Irányítópult: ügyfelek: válassza a vállalat neve melletti csillagot |

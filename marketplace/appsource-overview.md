@@ -6,18 +6,18 @@ ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: 5769326965955762d2c262fd42a099cf745417e6
-ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
+ms.openlocfilehash: 9559e1e2b0511d52b1535efa6513bbb61c6c5fec
+ms.sourcegitcommit: 0dfbb9717bd67f710652e4af11867857c930b2fa
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95007558"
+ms.lasthandoff: 12/25/2020
+ms.locfileid: "97771692"
 ---
-# <a name="what-is-microsoft-appsource"></a>Mi az Microsoft AppSource?
+# <a name="what-is-microsoft-appsource"></a>Mi az a Microsoft AppSource?
 
 A Microsoft AppSource egy online áruház, amely több ezer üzleti alkalmazást és a piacvezető szoftvergyártók által készített szolgáltatásokat tartalmaz. A AppSource segítségével megkeresheti, kipróbálhatja, megvásárolhatja és üzembe helyezheti az üzleti szoftvereket és szolgáltatásokat.
 
-A AppSource-katalógus a Microsoft-partnerektől származó, Microsoft Azure, Dynamics 365, Microsoft 365, Power BI, Power apps és tanácsadási szolgáltatásokra épülő szolgáltatott szoftvereket (SaaS) használó alkalmazásokat, megoldásokat tartalmaz. A AppSource termékkatalógusa a címen érhető el [https://appsource.microsoft.com](https://appsource.microsoft.com) , valamint a Microsoft 365, a Dynamics 365 és a Microsoft Power platform terméken belüli tapasztalataival. A AppSource-megoldások a Cloud Solution Provider programban a Microsoft-viszonteladók számára is elérhetők lehetnek.
+A AppSource-katalógus a Microsoft-partnerektől származó, Microsoft Azure, Dynamics 365, Microsoft 365, Power BI, Power apps és tanácsadási szolgáltatásokra épülő szolgáltatott szoftvereket (SaaS) használó alkalmazásokat, megoldásokat tartalmaz. A [https://appsource.microsoft.com](https://appsource.microsoft.com) Microsoft 365, a Dynamics 365 és a Microsoft Power platform termékkel kapcsolatos felhasználói felületén keresztül érheti el a AppSource termékkatalógusát. A AppSource-megoldások a Cloud Solution Provider programban a Microsoft-viszonteladók számára is elérhetők lehetnek.
 
 ## <a name="find-what-you-need-on-appsource"></a>A AppSource megkeresése
 
@@ -44,12 +44,16 @@ A AppSource-ben elérhető minden termék meghatározott feltételek szerint let
 
 ## <a name="terms-and-conditions"></a>használati feltételei
 
-A szoftver gyártója határozza meg az árat, a végfelhasználói licencszerződést és az adatvédelmi szabályzatokat. A AppSource minden ajánlata a kiadói licencszerződésre és az adatvédelmi szabályzatra mutató hivatkozásokat tartalmaz. A szerződések elfogadásával, valamint a megtekintésük lehetősége van a vásárlási folyamat része. További információért tekintse meg a [jogi szerződéseket](legal-contracts.md) .
+A szoftver gyártója határozza meg az árat, a végfelhasználói licencszerződést és az adatvédelmi szabályzatokat. A AppSource minden ajánlata a kiadói licencszerződésre és az adatvédelmi szabályzatra mutató hivatkozásokat tartalmaz. A szerződések megtekintése és visszaigazolása a vásárlás folyamatának részét képezi. Részletekért lásd: [jogi szerződések](legal-contracts.md).
+
+## <a name="discover-saas-and-m365-integrated-apps"></a>SaaS-és M365 integrált alkalmazások felderítése
+
+Partnereink az SaaS-és a M365 integrált alkalmazások között is összekapcsolhatók. Ez lehetővé teszi az integrált alkalmazások letöltését és használatát a társított SaaS-alkalmazás beszerzése során. Ebben az esetben a keresési eredmény csak az azt tartalmazó integrált alkalmazások ikonjait megjelenítő SaaS-alkalmazást jeleníti meg. A SaaS és az integrált alkalmazás között megtekintheti az egyes alkalmazások Product Details (termék részletei) lapján. Ha egy SaaS-alkalmazás vásárlást igényel, tekintse meg a következő témakört: [SaaS-ajánlatok vásárlása Microsoft AppSourceon](purchase-software-appsource.md).
 
 ## <a name="find-ratings-and-reviews"></a>Értékelések és értékelések keresése
 
-Az összes tőzsdei lapon megtalálhatja a többi ügyfél minősítéseit és felülvizsgálatait. A minősítések 5 csillagos skálát használnak, az átlag minősítés pedig az egyes ajánlati kártyákon jelenik meg. A Verbatim-értékelések szintén elérhetők, így megismerheti a többi ügyfél élményét. Miután megvásárolta a megoldást, elhagyhat egy minősítést, és áttekintheti, hogy más ügyfelek is megtehetik döntéseit.
+Az összes tőzsdei lapon megtalálhatja a többi ügyfél minősítéseit és felülvizsgálatait. A minősítések öt csillagos skálát használnak, az átlag minősítés pedig az egyes ajánlati kártyákon jelenik meg. A Verbatim-értékelések szintén elérhetők, így megismerheti a többi ügyfél élményét. Miután megvásárolta a megoldást, elhagyhat egy minősítést, és áttekintheti, hogy más ügyfelek is megtehetik döntéseit.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Szoftver vásárlása Microsoft AppSource](purchase-software-appsource.md)
+- [Szoftvervásárlás a Microsoft AppSource-on?](purchase-software-appsource.md)
