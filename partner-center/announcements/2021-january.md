@@ -9,20 +9,39 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/04/2021
-ms.openlocfilehash: 7a499c8c0fc64d00dcc8efe56f4bd5830d5e23bd
-ms.sourcegitcommit: 87677b45535a7b9d9ebd9afcbe4ea2491b4a1f52
+ms.openlocfilehash: 827d4d732e8aa5ff7e343ef3732ff0036eb8d628
+ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97902667"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97916796"
 ---
 # <a name="january-2021-announcements"></a>Január 2021 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partner központjának közleményeit január 2021.
 
+2021 közlemények: [január](2021-january.md)
+
 2020 bejelentések: [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) | . Január
 
 ________________
+## <a name="deprecation-and-retirement-of-existing-get-and-put-qualification-apis-for-the-education-customer-validation-process-by-the-end-of-february-2021"></a><a name="2"></a>A meglévő GET és PUT minősítési API-k elavultak és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 2021 végéig
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A partner Center API-t használó, a Cloud Solution Provider program keretében akadémiai ajánlatokat értékesítő partnereink
+
+### <a name="details"></a>Részletek 
+
+Ez a 2020 decemberében kiadott API-fejlesztések követése. Decemberben 2020 új GET és POST minősítési API-k lettek közzétéve, és ennek eredményeképpen a régi GET és PUT minősítési API-k a 2021 februárjában megszűnnek. Ebben az időben az új GET és POST partner Center API-kat kell használnia ahhoz, hogy oktatási ajánlatokat tudjon vásárolni. 
+
+## <a name="next-steps"></a>Következő lépések
+
+- Ha még nem tette meg, frissítsen az új API-kra sikeres és időben történő áttéréshez.
+- Tekintse át az új partner Center API-módosításokat, valamint [az operatív készültségi erőforrások: a partner Center oktatási ügyfelek ellenőrzési folyamatának fejlesztéseit ismertető témakört](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/).
+- Ossza meg ezeket az információkat a szervezete megfelelő csoportjaival és a viszonteladókkal, hogy előkészítse ezeket a módosításokat.
+
+_____________
 
 ## <a name="dynamics-365-offers-for-february-2021"></a><a name="1"></a>Dynamics 365-ajánlatok február 2021
 

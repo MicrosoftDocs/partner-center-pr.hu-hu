@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 09653cbe4db15678db94a1012861924a6c7cf6c9
-ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
+ms.openlocfilehash: a05b1ba1a4fb92e30a7a21609a4794d8b3b8fd4c
+ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97514750"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97916830"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -50,7 +50,7 @@ Ahhoz, hogy továbbra is részt vegyen a CSP programban, a Microsoft partneri sz
 
 ## <a name="confirm-you-are-enrolled-as-a-csp-indirect-reseller"></a>Ellenőrizze, hogy CSP Indirect Resellerként van-e regisztrálva
 
-1. Ha még nincs regisztrálva [CSP közvetett viszonteladóként](enrolling-in-the-csp-program.md)  a partner Centerben, előbb meg kell tennie. A következő lépésekkel végezheti el a további lépéseket, miután regisztrálta a CSP közvetett viszonteladóként a partner Centerben.
+1. Ha még nincs regisztrálva [CSP közvetett viszonteladóként](indirect-reseller-tasks-in-partner-center.md) a partner Centerben, előbb meg kell tennie. A következő lépésekkel végezheti el a további lépéseket, miután regisztrálta a CSP közvetett viszonteladóként a partner Centerben.
 
 1. Jelentkezzen be a partner Centerbe a CSP globális rendszergazdai fiókjának hitelesítő adataival.
 
@@ -83,12 +83,12 @@ Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
 
 ## <a name="download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-process"></a>Töltse le a lépésről lépésre haladó útmutatót, amely arra szolgál, hogy hol található a folyamatban
 
-1. Ha az MPN-fiókját a PMC-ból a partneri központba telepíti [át: Migrálás a PMC-ból a partner központjába, és fogadja el a Microsoft partneri szerződést](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
+1. Ha a PMC-ből a Partnerközpontba migrálja MPN-fiókját: [Migrálás a PMC-ből a Partnerközpontba, és a Microsoft Partnerszerződés elfogadása](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 
-2. Ha CSP közvetett viszonteladóként szeretne regisztrálni a partner Centerben: az [MPN-tagok és a Microsoft partneri szerződés](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx) bevezetése
+2. Ha CSP Indirect Resellerként szeretne regisztrálni a Partnerközpontba: [MPN-tagok beléptetése és a Microsoft Partnerszerződés](https://assetsprod.microsoft.com/mpn/onboard-pc-csp-mpn-mpa-guide.pptx)
 
-3. Ha az 1. és/vagy a fenti 2. lépés elvégzése után szeretné ellenőrizni a MPA állapotát a partner Centerben: [ellenőrizze a Microsoft partneri szerződés elfogadásának állapotát](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
+3. Ha a fenti 1. és/vagy 2. lépés elvégzése után szeretné ellenőrizni MPA-állapotát a Partnerközpontban: [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Regisztráció a felhőszolgáltatói programban](enrolling-in-the-csp-program.md)

@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: bbd2d1035bdcde691b0db620949d0e973667627b
-ms.sourcegitcommit: 351c7ff4e6ebbb615a00190b2310156381f9cf03
+ms.openlocfilehash: cdd840089d1937c3168c60a361e3d77e37c688ed
+ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96776907"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97916847"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -321,6 +321,20 @@ A PDM nem érhető el közvetlenül a PSC-től eltérően. A funkció engedélye
 - Vendég felhasználó a partner Centerben – a PDM @microsoft.com fiókját vendég felhasználóként hozzáadhatja a partner Centerben, és hozzárendelheti a hozzájuk hivatkozó rendszergazdai szerepkört, így megtekintheti és elvégezheti az átirányítást.
 - [Új felhasználó](./create-user-accounts-and-set-permissions.md#add-a-new-user) létrehozása a bérlőben – létrehozhat egy új felhasználót a saját bérlőben, és megoszthatja ezeket az adatokat a PDM, így megtekintheti és elvégezheti a fiókban lévő többi hivatkozó felhasználóhoz hasonló hivatkozásokat.
 
+## <a name="finding-the-correct-mpn-id-if-your-account-in-psc-is-not-associated-with-an-invalid-mpn"></a>A helyes MPN-azonosító megkeresése, ha a PSC-fiókja nem egy érvénytelen MPN-hez van társítva
+
+Ha azért van itt, mert a PSC-ben a "PSC érvénytelen MPN-azonosító társítása" problémára hivatkozik, akkor Ön a megfelelő helyen található.
+
+Először keresse meg a megfelelő MPN-azonosítót az alábbi lépések végrehajtásával
+
+- Jelentkezzen be a partner Center-fiókjába
+- Az MPN-azonosító megkereséséhez használja a [Fiókbeállítások dokumentációjában](./partner-center-account-setup.md#locate-your-mpn-id) megadott útmutatót.
+
+Next (Tovább)
+
+- Ha rendelkezik PDM, kérje meg őket, hogy az MPN-azonosítót a partner Center-fiók megfelelő MPN-azonosítójával javítsa ki.
+- Ha még nem rendelkezik PDM, küldjön egy e-mailt a PSC-szalagcímben megadott címre, és a PSC-fiók információit és a partner Center-fiókja helyes MPN-AZONOSÍTÓját is.
+
 ## <a name="resources-to-help-you-create-and-manage-your-deals-in-partner-center"></a>Erőforrások, amelyek segítenek az ajánlatok létrehozásában és kezelésében a partner Centerben
 
 Ha még nem olvasta el a közös értékesítéssel foglalkozó témaköröket, a következő források segítenek a partner Centerbeli ajánlatok kezelésében.
@@ -337,7 +351,7 @@ Ha még nem olvasta el a közös értékesítéssel foglalkozó témaköröket, 
 |Üzleti profil létrehozása és kezelése|[Üzleti profil kezelése](./create-a-marketing-profile.md)
 |Az üzleti profilhoz tartozó érdeklődők kezelése |[Érdeklődők kezelése](./manage-leads.md)|
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 Kövesse ezeket a további erőforrásokat:
 
