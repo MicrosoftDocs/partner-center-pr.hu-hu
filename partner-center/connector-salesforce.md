@@ -1,19 +1,19 @@
 ---
 title: A Salesforce CRM-partneri központ közös értékesítési összekötője
 ms.topic: how-to
-ms.date: 09/29/2020
+ms.date: 01/06/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Szinkronizálja az átirányítási adatokat a Salesforce CRM-tel. Az értékesítők ezután a Microsofttal közösen értékesíthetők a CRM-rendszereken belül.
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: b73f0b24538daa18b93fa206fce5eda1ab9bc9b9
-ms.sourcegitcommit: 7e32544cf91f932cbeb053c9de506ba9ee773fe2
+ms.openlocfilehash: 68b8bdf7a88c1ca8d063cf3198fc49bf87552edb
+ms.sourcegitcommit: de2ac2eea26426ae8f962d29ab50b68850318ce6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947851"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97960951"
 ---
 # <a name="co-sell-connector-for-salesforce-crm---overview"></a>Közös értékesítési összekötő a Salesforce CRM-hez – áttekintés
 
@@ -51,7 +51,7 @@ Ha szinkronizálni szeretné az átirányításokat a partner Center és a Sales
 
 3. A Salesforce-ben telepítse az egyéni mezőket és objektumokat az alábbi Package Installer használatával.
   
-[Ide](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t2w000006Vs9a) kattintva telepítheti a csomagot bármely vállalatba:
+[Ide](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t2w000006WIwV) kattintva telepítheti a csomagot bármely vállalatra.
 
 
 Megjegyzés: Ha egy sandbox-ba telepít, az URL kezdeti részét le kell cserélnie a http://test.salesforce.com
@@ -300,7 +300,7 @@ A következő egyéni mezők a CRM szakasz részét képezik:
 
     6. Amikor kijelöl egy szinkronizált átirányítást, a rendszer feltölti a kártya nézetének részleteit.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Érdeklődők kezelése](manage-leads.md)
 
