@@ -301,6 +301,9 @@
         - name: Az ösztönző együttműködési jogcímei
           href: claims-overview.md
           displayName: incentives
+        - name: Rendelkezésre álló együttműködési összegek megtekintése
+          href: incentives-view-funds.md
+          displayName: incentives
         - name: Együttműködési jogcímek kezelése
           href: create-incentives-claims.md
           displayName: incentives
