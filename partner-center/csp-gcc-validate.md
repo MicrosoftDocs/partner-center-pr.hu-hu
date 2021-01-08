@@ -1,5 +1,5 @@
 ---
-title: Az Office 365 Government GCC-partner és az ügyfél jogosultsági feltételei
+title: Az Office 365 Government GCC partnereire és ügyfeleire vonatkozó megfelelőségi feltételek
 ms.topic: article
 ms.date: 05/05/2020
 ms.service: partner-dashboard
@@ -9,19 +9,14 @@ author: BillLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cae255b05b00739ee7db15c8ba298df11ca74788
-ms.sourcegitcommit: c4f2561fb7f224554c31e3af491de4ad65644158
+ms.openlocfilehash: 8614b321b453d280b8af0c548ea61c049708a6db
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "92528020"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979637"
 ---
-# <a name="office-365-government-gcc-for-csp-partner-and-customer-eligibility-criteria---partner-center"></a>Office 365 Government GCC a CSP-partnerhez és az ügyfél támogathatósági feltételei – partner Center
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- CSP-partnerek
+# <a name="office-365-government-gcc-for-csp-partner-and-customer-eligibility-criteria"></a>Office 365 Government GCC a CSP-partner és az ügyfél jogosultsági feltételeihez 
 
 **Megfelelő szerepkörök**
 
@@ -32,7 +27,7 @@ ms.locfileid: "92528020"
 >[!NOTE]
 >Az alábbiakban ismertetett ellenőrzési folyamat és feltételek a közvetlen számlázási partnerekre vonatkoznak. A közvetlen számlás partnereknek közvetlen viszonteladók és közvetett szolgáltatók is vannak.  Ha Ön közvetett viszonteladó, forduljon a közvetett szolgáltatóhoz.
 
-Ha szeretné, hogy a Szervezete (vagy az ügyfele szervezete) jóváhagyva legyen a CSP-hez készült Office 365 Government GCC-hez, tekintse át az alábbi követelményeket.
+Ha szeretné, hogy a vállalat (vagy az ügyfél vállalata) jóváhagyva legyen a CSP-hez készült Office 365 Government GCC-hez, tekintse át az alábbi követelményeket.
 
 Ön jóvá is hagyhatja, ha Ön az USA szövetségi, állami, helyi vagy törzsi kormányzati szerveit kiszolgáló partner. Ahhoz, hogy a szervezetek jogosultak legyenek érvényesíteni, végezze el az [itt](https://products.office.com/government/eligibility-validation?ReqType=CSPPartner)található rövid űrlapot.
 
@@ -68,3 +63,6 @@ A CSP-partnerek és ügyfelek esetében az Office 365 Government GCC-t a rendsze
 
 Egy nemzetközi kereskedelmi egység jogosult lehet a fent említett követelményeknek való megfelelésre, és ellenőrizte az Egyesült Államok jelenlétét (például levelezési cím, fizikai hely stb.).
 
+## <a name="next-steps"></a>További lépések
+
+- [Office 365-es kormányzati GCC-előfizetés értékesítése a minősített ügyfelek számára a CSP-előfizetésekhez](csp-gcc-overview.md)

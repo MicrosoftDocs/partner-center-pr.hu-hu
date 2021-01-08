@@ -9,26 +9,22 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c340baa12b834fae66888c08cf910d2918583ce1
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: 4b4653e0f26bdce558dbdc70f03251e60277527f
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92527995"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979654"
 ---
 # <a name="contracts-for-csp-partners-doing-business-in-the-commercial-marketplace"></a>A kereskedelmi piactéren üzleti tevékenységet folytató CSP-partnerek szerződései
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Partnerek a CSP programban
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
 - Felügyeleti ügynök
 
-Ez a szakasz a CSP programban résztvevő partnereknek szóló szerződésekre vonatkozik, akik a partner Center kereskedelmi piactéren vagy a Azure Portal vásárolhatnak ISV Piactéri ajánlatokat vagy termékeket.
+Ez a cikk a CSP programban résztvevő partnereknek szóló szerződésekre vonatkozik, akik a partner Center kereskedelmi piactéren vagy a Azure Portal vásárolhatják meg az ISV Marketplace-ajánlatokat vagy termékeiket ügyfeleiknek.
 
 A [CSP program útmutatója](https://go.microsoft.com/fwlink/p/?LinkId=617100) tartalmazza a kereskedelmi piactérnek a Microsoft és partnerei közötti, a CSP programban való kínálatára vonatkozó feltételeket és kikötéseket. A CSP-partnereknek át kell tekinteniük ezeket a használati feltételeket annak biztosítása érdekében, hogy a programon belül a megfelelőségük megfelelően működnek.  
 
@@ -47,7 +43,7 @@ A kereskedelmi piactéren a CSP-tevékenységeket szabályozó feltételekkel ka
   
 A Microsoft nem fogad el jogi felelősséget a szolgáltatások transacting felek közötti kézbesítéséhez, és nem biztosít olyan mechanizmust, amellyel a partnerek a kereskedelmi platformon keresztül hozhatnak létre jogi feltételeket. Ha a tranzakciós partnerek további jogi feltételeket igényelnek, akkor közvetlenül kell szerződést kötniük.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [A kereskedelmi piactér termékeinek támogatása](csp-commercial-marketplace-support.md)
 

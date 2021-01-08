@@ -9,14 +9,24 @@ author: billLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f9d5d0841914f0a8a5dc155307b177606a4a6de6
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 386df8e19a7c66403770f94f2656bc52feb15564
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529941"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979566"
 ---
 # <a name="apply-to-sell-in-microsoft-national-clouds-as-part-of-the-csp-program"></a>A Microsoft országos felhőkben való értékesítésre érvényes a CSP program részeként
+
+**A következőkre vonatkozik**
+
+- Partneri központ a Microsoft Government Cloudhoz
+- Microsoft Cloud németországi partneri központ
+
+
+**Megfelelő szerepkörök**
+
+- Globális rendszergazda
 
 A globális felhőalapú megoldás-szolgáltatói program részeként az ügyfeleknek való értékesítés mellett a minősített Microsoft-partnerek három külön nemzeti felhőben is értékesíthetik felhőalapú megoldásokat az ügyfeleknek. Az országos felhők a Microsoft Enterprise Cloud Services fizikai és logikai hálózatának elkülönített példányai, amelyek meghatározott országok földrajzi határain belül vannak, és helyi személyzet által működtetve vannak. 
 
@@ -24,7 +34,7 @@ A Microsoft nemzeti Felhőbeli ajánlatával kapcsolatos további információk�
 
 A Microsoft ezeket a szolgáltatásokat az országos felhőkben teszi elérhetővé:
 
--   Microsoft Azure a hatókörű szolgáltatások nagy kapacitású számítástechnikai, tárolási, hálózatkezelési és identitáskezelési szolgáltatásokat biztosítanak. Az Azure a biztonság, az adatvédelem, a felügyelet, a megfelelőség és az átláthatóság terén a felhőben tárolt adatokat védi.
+-   Microsoft Azure a hatókörű szolgáltatások nagy kapacitású számítástechnikai, tárolási, hálózatkezelési és identitáskezelési szolgáltatásokat kínál. Az Azure a biztonság, az adatvédelem, a felügyelet, a megfelelőség és az átláthatóság terén a felhőben tárolt adatokat védi.
 
 -   A Microsoft Dynamics 365 egy felhőalapú ügyfélkapcsolat-kezelési (CRM) megoldás, amely a kormányzati alkalmazottak számára adatjelentéskészítési,-modellezési és-munkafolyamatokat, valamint olyan biztonsági funkciókat kínál, amelyek korlátozhatják a bizalmas adatokhoz való hozzáférést.
 
@@ -49,3 +59,7 @@ A minősített partnerek a Microsoft felhőalapú megoldásaikat az alábbi nemz
     A Microsoft a technológiai szolgáltató, de nem működik a szolgáltatásban; a 21Vianet egymástól függetlenül működik, biztosítja és kezeli a Microsoft Cloud Services kézbesítését. A Microsoft-technológiák licencelése révén a 21Vianet az Azure-t és az Office 365-szolgáltatásokat nyújtja, és az Azure-t és az Office 365-adatközpontokat is üzemeltetheti, amelyek az a 21Vianet előfizetési és számlázási szolgáltatásokat is biztosít, valamint támogatást is nyújt.
 
     További információ arról, hogyan regisztrálhatók és értékesíthetők az Azure-ban és az Office 365-ben a 21Vianet által üzemeltetett ügyfelek az Azure-ban, a [21Vianet által működtetett partner Centerben](/previous-versions/windows/it-pro/windows-home-server/ff357696(v=ws.11)).
+
+## <a name="next-steps"></a>További lépések
+
+- [A partner centerrel kapcsolatos gyakori kérdések az Egyesült Államok kormányzati szerveinek Microsoft Cloud](faq-for-us-govt-cloud.md)

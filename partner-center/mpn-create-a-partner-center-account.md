@@ -1,7 +1,7 @@
 ---
 title: Partnerközpontfiók létrehozása
 ms.topic: article
-ms.date: 08/07/2020
+ms.date: 01/07/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogy Microsoft Partner Network tagok hogyan hozhatnak létre partneri központot a hálózati előnyeiknek és kompetenciáinak kezeléséhez.
@@ -9,12 +9,12 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e3f04708d3b7e2c86c88541931c120a6649674fb
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: c7aa97760be9fdb2cc004ffd5612826f777c05c5
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570790"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979736"
 ---
 # <a name="create-a-partner-center-account-to-manage-network-benefits-and-competencies"></a>Partner Center-fiók létrehozása hálózati előnyök és kompetenciák kezeléséhez
 
@@ -55,16 +55,20 @@ Ezt az információt a fiók létrehozási folyamata során ellenőrizzük. Az e
 
     Ha a vállalat nem rendelkezik munkahelyi fiókkal, válassza a **Létrehozás** lehetőséget, ha most szeretné beállítani. A munkahelyi fiók létrehozása után jelentkezzen be az imént létrehozott munkahelyi fiók globális rendszergazdai hitelesítő adataival.
 
-3.  Adja meg vagy frissítse a vállalata jogi üzleti profilját és az elsődleges kapcsolattartási adatait, majd válassza a **regisztrálás most** lehetőséget. 
+3.  Adja meg vagy frissítse vállalata jogi üzleti profilját.
+
+    Megkeresheti a vállalati profilt, vagy manuálisan is megadhatja a vállalati adatokat. Ha a vállalata [Dun & bradstreettől](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)van regisztrálva, a Duns-azonosító használatával megkeresheti a vállalati adatokat. Ha meg szeretné adni a vállalat adatait, válassza a **manuális** lehetőséget.
+
+4. Miután megadta a vállalati adatokat, adja meg az elsődleges kapcsolattartási adatokat, majd válassza a **regisztrálás most** lehetőséget.
 
     Az elsődleges kapcsolattartónak a vállalatban lévő személynek kell lennie, akivel kapcsolatba léphet az alkalmazással (ez lehet Ön vagy egy másik személy a cégnél). Ezt az információt arra is felhasználjuk, hogy ellenőrizze, hogy ez a személy működik-e a cégnél, és regisztrált-e a partner Center-fiókra.
 
     > [!IMPORTANT]  
     > A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és (2) hogy ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését.
 
-4.  Olvassa el és fogadja el a feltételeket és kikötéseket a Microsoft Partner Network szerződésben. 
+5.  Olvassa el és fogadja el a feltételeket és kikötéseket a Microsoft Partner Network szerződésben. 
 
-5.  Ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
+6.  Ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
 
     a. A partner Center [irányítópultján](https://partner.microsoft.com/dashboard/home**)kattintson a **Beállítások** ikonra, majd válassza a **felhasználói kezelés** lehetőséget.  
 

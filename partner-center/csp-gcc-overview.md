@@ -1,5 +1,5 @@
 ---
-title: Az Office 365 Government GCC használata CSP-hez
+title: Az Office 365 Government GCC értékesítése CSP számára
 ms.topic: article
 ms.date: 05/15/2020
 ms.service: partner-dashboard
@@ -9,25 +9,20 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3086ada5238fac6ec993bffa8c852517281c98a3
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 1c6456b1fb1061f9b2f0a2b67a8d2285ea25474e
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529952"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979430"
 ---
 # <a name="sell-office-365-government-gcc-for-csp-subscriptions-to-qualified-customers"></a>Office 365-es kormányzati GCC-előfizetés értékesítése a minősített ügyfelek számára a CSP-előfizetésekhez
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- CSP-partnerek
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
 - Felügyeleti ügynök
-- Értékesítési ügynök
+
 
 ## <a name="overview"></a>Áttekintés
 
@@ -41,10 +36,10 @@ A Microsoft partnerei a Cloud Solution Provider programban (CSP) az [Office 365 
 
 Miután a vállalat jóváhagyta, hogy eladja az Office 365 Government GCC-t a CSP-ajánlatok számára, megkezdheti az értékesítést az ügyfeleknek a partner Center használatával. Tekintse át ezeket az erőforrásokat, hogy megtudja, hogyan használhatja a partner centert az előfizetések értékesítéséhez: 
 
--   Az Office 365 Government GCC CSP-előfizetésekre való értékesítésének lépésenkénti útmutatója [itt](https://go.microsoft.com/fwlink/?linkid=2007323)érhető el.  
+- Lépésenkénti útmutatót az [Office 365 Government GCC-hez készült CSP-előfizetések értékesítésének útmutatója](https://go.microsoft.com/fwlink/?linkid=2007323)című témakörben talál.  
 
 
-## <a name="additional-resources"></a>További források
+## <a name="next-steps"></a>További lépések
 
 Hozzáférési információk az [USA kormányzati szerveinek partneri lehetőségéről](https://www.microsoft.com/microsoft-365/partners/governmentforCSP) a partnerek webhelyének Microsoft 365.
 

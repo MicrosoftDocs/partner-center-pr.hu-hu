@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: a05b1ba1a4fb92e30a7a21609a4794d8b3b8fd4c
-ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
+ms.openlocfilehash: fc5a34bbb8326b38c13cc73ca9fff099f9b1c0db
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97916830"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979760"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -54,7 +54,7 @@ Ahhoz, hogy továbbra is részt vegyen a CSP programban, a Microsoft partneri sz
 
 1. Jelentkezzen be a partner Centerbe a CSP globális rendszergazdai fiókjának hitelesítő adataival.
 
-1. A **Beállítások** közül válassza a [partner profil](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)lehetőséget.
+1. A **Beállítások** területen válassza a **Fiókbeállítások** lehetőséget, majd válassza a [partner profil](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)lehetőséget.
 
 1. Keresse meg a **program adatai** szakaszt. Ha az adatok nem jelenítik meg a **közvetett viszonteladói** állapotot, akkor [közvetett viszonteladóként kell regisztrálnia](indirect-reseller-tasks-in-partner-center.md).
 
@@ -80,6 +80,10 @@ Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
 >[!NOTE]
 >Csak a vállalat globális rendszergazdája tekintheti meg és írja alá a MPA-t. Ha nem a globális rendszergazda, meg kell kérnie a globális rendszergazdát, hogy ellenőrizze a MPA-t.
 
+Azt is láthatja, hogy aláírta-e a szerződést **a** **Fiókbeállítások** lehetőséggel.
+
+:::image type="content" source="images/agreements/agreements.png" alt-text="Az MPA aláírásának jelzése":::
+
 
 ## <a name="download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-process"></a>Töltse le a lépésről lépésre haladó útmutatót, amely arra szolgál, hogy hol található a folyamatban
 
@@ -89,6 +93,6 @@ Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
 
 3. Ha a fenti 1. és/vagy 2. lépés elvégzése után szeretné ellenőrizni MPA-állapotát a Partnerközpontban: [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Regisztráció a felhőszolgáltatói programban](enrolling-in-the-csp-program.md)

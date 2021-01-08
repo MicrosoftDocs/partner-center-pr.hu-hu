@@ -9,19 +9,15 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 86ae657725717fea06a6fdb18cadc069e9140ffa
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: 140dd5b7ad8af0f29dabd452dd59f22e3314cdd5
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92527993"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979549"
 ---
 # <a name="support-for-commercial-marketplace-products-in-the-csp-program"></a>Kereskedelmi piactér-termékek támogatása a CSP programban
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Partnerek a CSP programban
 
 **Megfelelő szerepkörök**
 
@@ -52,6 +48,6 @@ A legtöbb ISV-s kapcsolattartási adat a partner Center- [irányítópulton](ht
 
 Az **ajánlat részleteit tartalmazó** oldal eléréséhez tekintse meg [az ajánlatok észlelése a kereskedelmi piactéren című részt](csp-commercial-marketplace-discover.md#view-marketplace-offers-in-partner-center).
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Tudnivalók a kereskedelmi Piactéri termékekkel kapcsolatos szerződésekről](csp-commercial-marketplace-contracting.md)

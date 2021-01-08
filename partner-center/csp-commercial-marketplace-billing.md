@@ -9,19 +9,15 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c03ab358b8fb6ab0f23ea5f42b9d35c6f6c2b80c
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 10592c7f8a3b1f075bc726161603859552b29961
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529965"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979532"
 ---
 # <a name="billing-for-commercial-marketplace-products-and-subscriptions-in-partner-center"></a>Kereskedelmi piactér-termékek és-előfizetések számlázása a partner Centerben
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Partnerek a CSP programban
 
 **Megfelelő szerepkörök**
 
@@ -45,7 +41,7 @@ A vállalat globális rendszergazdája vagy számlázási rendszergazdája e-mai
 
 2. A partner Center menüben válassza a **számlázás** lehetőséget. 
 
-    A számlázási oldal tetején két lap jelenik meg: **ismétlődő** és **ismétlődő, egyszeri vásárlás** . Mindegyik lapon elérhetővé válik a különböző Piactéri termékekhez tartozó számla-és egyeztetési (Recon) fájlok:
+    A számlázási oldal tetején két lap jelenik meg: **ismétlődő** és **ismétlődő, egyszeri vásárlás**. Mindegyik lapon elérhetővé válik a különböző Piactéri termékekhez tartozó számla-és egyeztetési (Recon) fájlok:
 
     - **Ismétlődő** lap: az Office 365, a Microsoft 365, a Dynamics 365, a Azure Active Directory, a Power bi Pro és a Microsoft Azure szolgáltatáshoz kapcsolódó előfizetések számlázási és egyeztetési fájljait jeleníti meg.
 
@@ -107,7 +103,7 @@ Ingyenes próbaverziós ISV-ajánlatok esetén:
 
 További információ az egyes oszlopokról: [a megbékélési fájlok használata](use-the-reconciliation-files.md). Lásd még: [Számlázási típusok a partner Centerben](billing-different-types.md)
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Kereskedelmi Marketplace-termékek kezelése ügyfelek számára](csp-commercial-marketplace-manage.md)
 - [További információ a kereskedelmi Piactéri termékek támogatásáról](csp-commercial-marketplace-support.md)

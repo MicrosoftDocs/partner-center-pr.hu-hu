@@ -1,7 +1,7 @@
 ---
 title: Díjszabás és ajánlatok
 ms.topic: article
-ms.date: 07/10/2020
+ms.date: 01/07/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: A licenc-alapú szolgáltatások, például az Office 365, a Microsoft Dynamics CRM és a nagyvállalati mobilitási csomag, valamint az Azure-hoz hasonló használati szolgáltatások aktuális árlista.
@@ -9,18 +9,15 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 18c671b7903914bbbca49ded24f54b808833a92e
-ms.sourcegitcommit: e1c8bea4aaf807aebe99c125cb1fb6dc8fdfa210
+ms.openlocfilehash: bf2630ffcdd36aee17b74a07ac03782ae4d9c9f0
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "92528050"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979821"
 ---
 # <a name="pricing-and-offers-for-office-365-dynamics-crm-enterprise-mobility-suite-azure-and-more"></a>Az Office 365, a Dynamics CRM, a nagyvállalati mobilitási csomag és az Azure díjszabása és ajánlatai
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -31,7 +28,7 @@ ms.locfileid: "92528050"
 - Értékesítési ügynök
 - Számlázási adminisztrátor
 
-Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portálon, válassza a következőt: **Sell > díjszabás és ajánlatok** . Külön árlistát talál az elérhető különböző típusú termékekhez. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
+Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portálon, válassza a következőt: **Sell > díjszabás és ajánlatok**. Külön árlistát talál az elérhető különböző típusú termékekhez. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
 
 - A **licenccel rendelkező szolgáltatások** az Office 365, az Enterprise Mobility és a Security E3, valamint a Dynamics 365 díjszabási információit tartalmazzák. A licenc alapú díjszabás szakasz az aktuális és az előzetes verzió díjszabását, valamint az ajánlati lista mátrixát tartalmazza. Az árlisták tartalmazzák a lista árát és a becsült kiskereskedelmi árakat (ERP) az összes támogatott pénznemben. Az ajánlati lista mátrixa tartalmazza a piac rendelkezésre állását és az ajánlatokkal kapcsolatos egyéb fontos információkat. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
 - A **használaton alapuló szolgáltatások** a Microsoft Azure és a Visual Studio díjszabási információit tartalmazzák. Használhatja az [Azure-szolgáltatásokat is a CSP árképzési kalkulátorban](https://azure.microsoft.com/pricing/calculator/). A használaton alapuló Letöltés az összes támogatott pénznemhez tartozó CSP árlista, valamint a megosztott szolgáltatások árképzési fájljait is tartalmazza az ERP-ben. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
@@ -46,9 +43,9 @@ Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói prog
 
 ## <a name="price-list-preview-and-change-frequency"></a>Árlista-előnézet és-váltás gyakorisága 
 
-A licenccel rendelkező szolgáltatások tartalmazzák az árlista előzetes verzióját, amely minden változás után 30 nappal előre elérhető. A árlista előzetes verziójának megtekintéséhez válassza az **értékesítés > díjszabás és ajánlatok lehetőséget** . A szolgáltatás nem rendelkezik előzetes verzióval a használaton kívüli szolgáltatások esetében, mivel ezek a szolgáltatások dinamikusak. Az alábbi táblázat a árlista tábla beolvasását ismerteti.
+A licenccel rendelkező szolgáltatások tartalmazzák az árlista előzetes verzióját, amely minden változás után 30 nappal előre elérhető. A árlista előzetes verziójának megtekintéséhez válassza az **értékesítés > díjszabás és ajánlatok lehetőséget**. A szolgáltatás nem rendelkezik előzetes verzióval a használaton kívüli szolgáltatások esetében, mivel ezek a szolgáltatások dinamikusak. Az alábbi táblázat a árlista tábla beolvasását ismerteti.
 
-|**Item**        |**Definíció**      |
+|**Elem**        |**Definíció**      |
 |:-----------   |:-----------   |
 |HOZZÁADÁSA   |Az árlista új eleme|
 |CHG   |A lista árának változása hónapról hónapra. Előfordulhat, hogy a lista árára nem kapcsolódó egyéb változások is előfordulhatnak, a partnereknek össze kell hasonlítani az árlistát a hónapok között, hogy meghatározzák a más tulajdonságok módosításait.|
@@ -169,7 +166,7 @@ Az alábbi összefoglalás az ajánlatok működésének módját mutatja be:
 - Az előfizetés nem újítható meg, és 6 év elteltével lejár
 - Az ajánlat számlázási gyakorisága évesnek számít, de a partnert az első számla után számlázjuk fel az előfizetés megszerzése után
 - Az a1 72-havi előfizetések a vásárlás után zárolva vannak, és nem vonhatók le, és a rendszer nem tudja megszakítani az előfizetést, és a vásárlás után nem adható hozzá
-- Azoknak a partnereknek, amelyeknek meg kell szakítaniuk a támogatási jegyet, meg kell teremteniük a visszavonás okát és az előfizetés-azonosítót, amelyhez segítségre van szükségük.
+- Ez az előfizetés nem visszavonhatatlan és nem téríthető vissza.
 
 ## <a name="estimated-retail-price-erp"></a>Becsült kiskereskedelmi ár (ERP)
 
@@ -185,7 +182,7 @@ A legtöbb árlista tartalmazza a lista árát, a partner díját és a becsült
 |Az Azure-csomag használatának alapja  |Az árak kiskereskedelmi kedvezményt mutatnak az árlista keretében  |
 |Azure-csomag – foglalások  |Az Azure Reservations Shared Services árlista  |
 |Szoftver-előfizetések  |A szoftveres előfizetések díjszabásában található MSRP néven szerepel  |
-|Piactér  |A Piactéri árlista-beli MSRP néven szerepel  |
+|Marketplace  |A Piactéri árlista-beli MSRP néven szerepel  |
 
 További források: 
 

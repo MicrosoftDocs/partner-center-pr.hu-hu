@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/04/2021
-ms.openlocfilehash: 827d4d732e8aa5ff7e343ef3732ff0036eb8d628
-ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
+ms.date: 01/07/2021
+ms.openlocfilehash: 17c4e19216218d070515b34d326dcca6596e94a8
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97916796"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979804"
 ---
 # <a name="january-2021-announcements"></a>Január 2021 közlemények
 
@@ -23,6 +23,64 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 2021 közlemények: [január](2021-january.md)
 
 2020 bejelentések: [május](2020-may.md)  |  [jún. június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) | . Január
+
+________________
+## <a name="euefta-change-of-partner-billing-currency-for-new-commerce-offers"></a><a name="3"></a> Az EU/EFTA partner számlázási pénznemének változása új kereskedelmi ajánlatok esetén
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-07
+- Modern munkahely
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+- Közvetlen szolgáltató, közvetett szolgáltató, közvetett viszonteladó
+- Az EU/EFTA régióban a Cloud Solution Provider programon keresztül lebonyolított összes partner 
+
+### <a name="details"></a>Részletek
+
+Az Európai Unió (EU)/Európai Szabadkereskedelmi Társulás (EFTA) régiójában a Cloud Solution Provider program összes új kereskedelmi ajánlata a partner számlázási helyét fogja használni az ügyfél számlázási helye helyett. Ez azt jelenti, hogy a partnereket a Microsoft a tartózkodási helyük szerinti pénznem alapján számlázza, nem pedig az ügyfelek tartózkodási helyének pénznemét. Ez két fázisban lesz végrehajtva:
+
+**1. fázis:**
+
+- Az új ügyfelek új kereskedelmi ajánlatot vásárolnak a CSP-ben
+
+- Meglévő ügyfelek – első alkalommal vásárolnak új kereskedelmi ajánlatokat – a 2020. május 11. előtt létrehozott bérlő
+
+2021. január 28-án kezdődően olyan partnereink, akik új kereskedelmi ajánlatot vásárolnak, illetve a korábban 11.2020 május 11. előtt létrehozott bérlőket használó partnereknek, az új kereskedelmi ajánlatok megvásárlása után a partneri hely pénznemében vásárolt vásárlások után számítunk fel díjat.  
+
+Az új kereskedelmi ajánlatokat már megvásárolt meglévő ügyfelekkel rendelkező partnerek a jelen fázisban továbbra is az ügyfél számlázási helyének pénznemében lesznek számlázva. Emellett a meglévő ügyfelekkel rendelkező partnerek az új kereskedelmi ajánlat első alkalommal történő megvásárlását teszik lehetővé, amelynek bérlői a 2020. május 11-én vagy azt követően jöttek létre, továbbra is az ügyfél pénznemében lesznek számlázva.
+
+**2. fázis:**
+
+- A meglévő ügyfelek, akik már vásároltak új kereskedelmi ajánlatot az 1. fázis előtt
+- Meglévő ügyfelek – első alkalommal vásárolnak új kereskedelmi ajánlatokat – a 2020. május 11-én vagy azután létrehozott bérlő
+
+Az 1. és a 2021-os naptári év során a Microsoft átváltja az új kereskedelmi ajánlatok a meglévő ügyfelekkel rendelkező partnereknek való számlázását, akik az 1. fázis előtt új kereskedelmi ajánlatot vásároltak a CSP-ben, valamint a bérlők által 2020. május 11-én vagy azt követően létrehozott ügyfeleiknek az ügyfél helyének pénzneméről. A rendszer ezt a változást még a változás megvalósítása előtt előre értesíti.
+
+A 2. fázis után az EU-/EFTA-régióban lévő partnereknek a partneri hely pénznemében kell fizetniük az összes ügyfél és az összes CSP megvásárlása után.
+
+>[!NOTE]
+>Ez a változás csak a partner számlázási pénznemét érinti, és nem az új kereskedelmi ajánlatok díjszabását a CSP-ben.
+
+Az új kereskedelmi ajánlatok ebben a változásban: az Azure-csomag, az Azure-foglalások, a kiszolgálói előfizetések, az örökös szoftverek és a Microsoft kereskedelmi piactér keretében vásárolt Azure-előfizetések a Cloud Solution Provider programban.
+
+### <a name="partner-benefits"></a>Partneri előnyök
+
+Ez a frissítés csökkenti a többpénznemes számlázás összetettségét és terhelését az EU/EFTA régióban az új kereskedelmi élmény érdekében.
+
+- A partnerek konszolidált számlát kapnak egyetlen pénznemben, és a továbbiakban nem kapják meg az egyes ügyfelek helyének pénznemét
+- Az ösztönző kifizetések ugyanabban a pénznemben lesznek, mint a partner számlázási pénzneme
+- A partnerek a többszörös pénznemű számlázások által okozott csökkentett számlázási bonyolultságot észlelik, ami felszabadítja az időt és a jelenleg a fiókok egyeztetéséhez kapcsolódó erőforrásokat.
+- Azon partnereink számára, akik még nem vezették be új kereskedelmi ajánlatokat, ez a változás összhangban van az előző partner számlázási modellel, amely lehetővé teszi, hogy a partnerek könnyebben áttérjenek a CSP új kereskedelmi felületére
+
+### <a name="next-steps"></a>További lépések
+
+Tekintse át a témakör információit az [operatív](https://partner.microsoft.com/resources/collection/eu-efta-changes-collection#/) katalógusban (a szükséges bejelentkezési adatokkal) a Microsoft partner webhelyén.  
+
+### <a name="questions"></a>Kérdése van?
+
+Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center támogatási szolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals) (bejelentkezés szükséges).
 
 ________________
 ## <a name="deprecation-and-retirement-of-existing-get-and-put-qualification-apis-for-the-education-customer-validation-process-by-the-end-of-february-2021"></a><a name="2"></a>A meglévő GET és PUT minősítési API-k elavultak és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 2021 végéig
@@ -35,7 +93,7 @@ A partner Center API-t használó, a Cloud Solution Provider program keretében 
 
 Ez a 2020 decemberében kiadott API-fejlesztések követése. Decemberben 2020 új GET és POST minősítési API-k lettek közzétéve, és ennek eredményeképpen a régi GET és PUT minősítési API-k a 2021 februárjában megszűnnek. Ebben az időben az új GET és POST partner Center API-kat kell használnia ahhoz, hogy oktatási ajánlatokat tudjon vásárolni. 
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - Ha még nem tette meg, frissítsen az új API-kra sikeres és időben történő áttéréshez.
 - Tekintse át az új partner Center API-módosításokat, valamint [az operatív készültségi erőforrások: a partner Center oktatási ügyfelek ellenőrzési folyamatának fejlesztéseit ismertető témakört](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/).
@@ -50,7 +108,7 @@ _____________
 - Dátum: 2021-01-04
 - Ajánlatok
 
-### <a name="summary"></a>Összefoglalás
+### <a name="summary"></a>Összegzés
 
 A Dynamics 365 új ajánlatának változásai a 2021 februárjában kezdődnek.
 
@@ -99,7 +157,7 @@ Ezek az SKU-i a január 1-től 2021 végleges árlista alapján lettek eltávol�
    |Dynamics 365 Operations – AX Migration program eszköz|8c8b7c8f-cb3a-4737-8319-1752938c7be3|
    |A Dynamics 365 csapat tagjai a AX Migration programhoz|1eb3ad0b-9de3-419d-8bfe-0d61bdd945b2|
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 Tekintse át a témakör erőforrásait, és ossza meg őket a szervezete megfelelő szereplőivel. 
 
