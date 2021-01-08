@@ -8,20 +8,23 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 12/21/2020
-ms.openlocfilehash: 7cc78142e05667ca9072b25fb5ed94822d5f7c62
-ms.sourcegitcommit: 4c52d3a1fde7eba20607e9e329a71e478b019036
+ms.date: 01/04/2021
+ms.openlocfilehash: 754fbb58c2344ad09c6f9b72b36afc62eda38b71
+ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97736537"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97916813"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
 Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat gyakran frissítjük, ezért érdemes gyakran visszalátogatnia ide.
 
-| **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
+| **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Képességek|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
+|Ajánlatok/piacok|[Dynamics 365-ajánlatok 2021. februárra](2021-january.md#1)|Január 4.|
+| **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
 |Ajánlatok|[A csatornaösztönző fel nem használt együttműködési marketingösszegei a 2021-es pénzügyi év első felének (FY21 H1) használati időszakából a második felének (H2) használati időszakába kerülnek](2020-december.md#13)|December 22.|
 |Képességek|[DocuSign-migrálás 2021-ben az Adobe Sign-ra a Microsoft Partnerszerződéssel (MPA-val) rendelkező partnereknél](2020-december.md#12)|December 22.|
 |Ajánlatok/piacok|[2021. januári díjszabás- és katalógusütemezések](2020-december.md#11)|December 22.|
