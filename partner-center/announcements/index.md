@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/04/2021
-ms.openlocfilehash: 754fbb58c2344ad09c6f9b72b36afc62eda38b71
-ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
+ms.openlocfilehash: 93deb404cd056aab2a14015a4c89fad22f9d0c72
+ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97916813"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979787"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,7 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
-|Képességek|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
+|Modern munkahely|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2021-january.md#3)|Január 7.|
+|Funkciók|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
 |Ajánlatok/piacok|[Dynamics 365-ajánlatok 2021. februárra](2021-january.md#1)|Január 4.|
 | **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
 |Ajánlatok|[A csatornaösztönző fel nem használt együttműködési marketingösszegei a 2021-es pénzügyi év első felének (FY21 H1) használati időszakából a második felének (H2) használati időszakába kerülnek](2020-december.md#13)|December 22.|
