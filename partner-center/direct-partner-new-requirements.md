@@ -9,22 +9,22 @@ ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
 ms.date: 12/15/2020
-ms.openlocfilehash: 7efd3ab2303f66fbd2b02e872e51be6c0e64993c
-ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
+ms.openlocfilehash: 9c2ec0c7204a275f6b32e75b86eae775eb87bb55
+ms.sourcegitcommit: 8cb98de420f6ab5bb4cb3efc9007262c4d7d3327
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97514701"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98105528"
 ---
 # <a name="requirements-to-enroll-as-a-csp-direct-bill-partner"></a>A közvetlen számlázású CSP-partnerként való regisztráció követelményei
 
-**A következőre érvényes:**
+**Megfelelő szerepkörök**
 
-- Közvetlen számlázási partnerek a Cloud Solution Provider programban
+- Globális rendszergazda
 
 ## <a name="enroll-as-a-direct-partner"></a>Regisztrálás közvetlen partnerként
 
-Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Frissítettük a regisztrációs követelményeket a közvetlen számlázási partnereink számára, 2020. október 27-én. Ezek a követelmények segítenek felgyorsítani az üzleti növekedést a megfelelő felhőalapú megoldás-szolgáltatói modellel, és megerősítik az ügyfélkapcsolatokat értéknövelt szolgáltatásokkal és támogatással.  
+Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Frissítettük a regisztrációs követelményeket a közvetlen számlázási partnereink számára, 2020. október 27-én. Ezek a követelmények segítenek felgyorsítani az üzleti növekedést a megfelelő felhőalapú megoldás-szolgáltatói modellel, és megerősítik az ügyfélkapcsolatokat értéknövelt szolgáltatásokkal és támogatással.  
 
 ### <a name="minimum-requirements"></a>Minimális követelmények
 
@@ -53,7 +53,7 @@ A jelenlegi közvetlen számlázási partnereknek meg kell felelniük az új kö
 
 Ha úgy dönt, hogy áthelyezi a közvetlen számlázási üzletágból a közvetett viszonteladói üzletágba, több lépésre van szükség. Az áttéréssel kapcsolatos további tudnivalókért olvassa el az [áttérés a Cloud Solution Provider (CSP) közvetlen partnertől a CSP közvetett viszonteladó felé](transition-direct-to-indirect.md)című témakört.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Új bevételi követelmény közvetlen számlázási partnerekhez](./announcements/2020-october.md#13)
  

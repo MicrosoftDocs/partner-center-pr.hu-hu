@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: fc5a34bbb8326b38c13cc73ca9fff099f9b1c0db
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: c557e517f46be09a9f903273d8bec37ce5ec0d04
+ms.sourcegitcommit: 8cb98de420f6ab5bb4cb3efc9007262c4d7d3327
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979760"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98105511"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -93,6 +93,6 @@ Azt is láthatja, hogy aláírta-e a szerződést **a** **Fiókbeállítások** 
 
 3. Ha a fenti 1. és/vagy 2. lépés elvégzése után szeretné ellenőrizni MPA-állapotát a Partnerközpontban: [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Regisztráció a felhőszolgáltatói programban](enrolling-in-the-csp-program.md)
+- [Regisztráció a felhőszolgáltatói programban](indirect-reseller-tasks-in-partner-center.md)

@@ -1,7 +1,7 @@
 ---
 title: További bérlők hozzáadása a partner Center-fiókhoz
 ms.topic: article
-ms.date: 07/30/2020
+ms.date: 01/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogyan adhat hozzá, összevonhat vagy kezelhet több Azure AD-bérlőt a partner Center-fiókban. Ismerje meg az egyes okokat is, amelyeket érdemes megtennie.
@@ -9,18 +9,15 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b9379ce6b27a8ef6e5d6894a0630745794e04e04
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 22f85bda0a651559da1717ae1e5365da40d62aff
+ms.sourcegitcommit: 8cb98de420f6ab5bb4cb3efc9007262c4d7d3327
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530511"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98105552"
 ---
 # <a name="add-and-manage-multiple-tenants-in-your-partner-center-account"></a>Több bérlő hozzáadása és kezelése a partner Center-fiókban
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -50,7 +47,7 @@ Ez a funkció lehetővé teszi több, a vállalathoz tartozó bérlő kezelésé
 
 1. Globális rendszergazdaként jelentkezzen be a társítani kívánt bérlőbe, és erősítse meg a társítást. 
 
-:::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="bérlők hozzárendelése"::: 
+:::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="bérlők hozzárendelésének megerősítése"::: 
 
 5. A megerősítést követően megjelenik az **összes beállított** értesítés.  Válassza a **Visszatérés a bérlői felügyelethez** lehetőséget, majd megjelenik az újonnan hozzáadott bérlő. 
  
@@ -58,7 +55,28 @@ Ez a funkció lehetővé teszi több, a vállalathoz tartozó bérlő kezelésé
 >[!NOTE]
 >Nem lehet bérlőt társítani egy fiókhoz, ha már társítva van egy másik partner Center-fiókhoz.
 
+
+## <a name="remove-a-tenant-from-your-account"></a>Bérlő eltávolítása a fiókból
  
+1. Globális rendszergazdaként jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+
+1. A **Beállítások** ikonban válassza a **Fiókbeállítások** – > bérlők lehetőséget, és kattintson a **partner** fülre.
+ 
+3. Kattintson az **Eltávolítás** gombra a leválasztani kívánt bérlőhöz.
+
+4. A bérlők leválasztása azt jelenti, hogy a bérlő felhasználóinak többé nem lesz hozzáférésük a partner Center-fiókhoz, és ez hatással lehet a kompetenciára. 
+
+Az **Eltávolítás** gomb minden társított bérlő esetében engedélyezve van, kivéve az elsődleges bérlőt és azt a bérlőt, amelyhez jelenleg be van jelentkezve.
+
+:::image type="content" source="images/disassociate.png" alt-text="az Eltávolítás gombbal rendelkező bérlők":::
+ 
+
 ## <a name="next-steps"></a>Következő lépések
 
 - [Felhasználók hozzáadása](create-user-accounts-and-set-permissions.md)
+
+
+
+
+
+
