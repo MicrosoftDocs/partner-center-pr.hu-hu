@@ -6,12 +6,12 @@ ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: 9559e1e2b0511d52b1535efa6513bbb61c6c5fec
-ms.sourcegitcommit: 0dfbb9717bd67f710652e4af11867857c930b2fa
+ms.openlocfilehash: 652873492452d19e2a6f71607233989a16f04815
+ms.sourcegitcommit: ce1331c0e600e2f73b85a90ac159a9026ab6a691
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/25/2020
-ms.locfileid: "97771692"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98146387"
 ---
 # <a name="what-is-microsoft-appsource"></a>Mi az a Microsoft AppSource?
 
@@ -48,7 +48,18 @@ A szoftver gyártója határozza meg az árat, a végfelhasználói licencszerz�
 
 ## <a name="discover-saas-and-m365-integrated-apps"></a>SaaS-és M365 integrált alkalmazások felderítése
 
-Partnereink az SaaS-és a M365 integrált alkalmazások között is összekapcsolhatók. Ez lehetővé teszi az integrált alkalmazások letöltését és használatát a társított SaaS-alkalmazás beszerzése során. Ebben az esetben a keresési eredmény csak az azt tartalmazó integrált alkalmazások ikonjait megjelenítő SaaS-alkalmazást jeleníti meg. A SaaS és az integrált alkalmazás között megtekintheti az egyes alkalmazások Product Details (termék részletei) lapján. Ha egy SaaS-alkalmazás vásárlást igényel, tekintse meg a következő témakört: [SaaS-ajánlatok vásárlása Microsoft AppSourceon](purchase-software-appsource.md).
+Partnereink összekapcsolhatják a SaaS-alkalmazások és a hozzájuk tartozó beépülő modulok közötti kapcsolatot a Microsoft 365. Ez lehetővé teszi, hogy az adott Microsoft 365-szolgáltatásokból vagy termékekből származó bővítményeket letöltse és használja, ha a beépülő modulokkal összekapcsolt SaaS-alkalmazást kap.
+
+Ebben az esetben előfordulhat, hogy a keresési eredmény csak az SaaS-alkalmazáshoz tartozó termék ikonjait adja vissza az SaaS-alkalmazáshoz. A SaaS-alkalmazás és az integrált alkalmazás termékspecifikus oldalai között lehet navigálni.
+
+Ha az önálló bővítményeket keresi, a következő módszerek egyikével keresheti meg őket:
+
+- Nyissa meg a [AppSource termékkatalógusát](https://appsource.microsoft.com/marketplace/apps/), és a bal oldali navigációs **menüben válassza** a **Microsoft 365** lehetőséget. A **Microsoft 365** alatt megjelenő termékek listájából válassza ki a kívánt termékekhez tartozó mezőket.
+- Vagy válassza ki a bővítmény termékének ikonját a SaaS-alkalmazási termék kártyán, hogy az adott beépülő modulba lépjen, amely rejtve marad a keresési megjelenítéstől.
+
+Ha egy SaaS-alkalmazás vásárlást igényel, tekintse meg a következő témakört: [SaaS-ajánlatok vásárlása Microsoft AppSourceon](purchase-software-appsource.md).
+
+Microsoft 365 rendszergazda felhasználók az SaaS-és a beépülő modulokat egyetlen helyen helyezhetik üzembe. További információ: [Microsoft 365 alkalmazások tesztelése és telepítése – Microsoft 365-rendszergazda](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps.md).
 
 ## <a name="find-ratings-and-reviews"></a>Értékelések és értékelések keresése
 
