@@ -635,29 +635,39 @@
           href: pci-roles.md
         - name: Insights-jelentések
           items:
+            - name: Áttekintés
+              href: pci-overview-report.md
+            - name: Ügyfél
+              href: pci-customer-report.md
+            - name: Viszonteladói teljesítmény
+              href: pci-resellers-performance.md
+              displayName: 'indirect, reseller'
+            - name: Termék-előfizetések
+              href: pci-product-subscriptions-report.md
             - name: Azure-használat
               href: pci-azure-usage-report.md
+            - name: Teams-használat
+              href: pci-teams-usage-report.md
+            - name: Office 365-használat
+              href: pci-office-365-usage-report.md
+            - name: Dynamics-használat
+              href: pci-dynamics-usage-report.md
+            - name: Enterprise Mobility + Security használat
+              href: pci-enterprise-mobility-security-usage-report.md
+            - name: Power BI-használat
+              href: pci-power-bi-usage-report.md
+            - name: Képzés
+              href: pci-training-dashboard.md
+            - name: Microsoft Learn-analitika
+              href: ms-learn-analytics.md
+            - name: Kompetenciák
+              href: pci-competencies-report.md
             - name: Előnyök
               href: pci-benefits-report.md
             - name: Hajlandóság a CloudAscent használatára
               href: pci-customer-opportunities.md
-            - name: Kompetenciák
-              href: pci-competencies-report.md
-            - name: Ügyfél
-              href: pci-customer-report.md
-            - name: Microsoft Learn-analitika
-              href: ms-learn-analytics.md
-            - name: Áttekintés
-              href: pci-overview-report.md
             - name: Terméklicencek
               href: pci-product-licenses-report.md
-            - name: Termék-előfizetések
-              href: pci-product-subscriptions-report.md
-            - name: Viszonteladói teljesítmény
-              href: pci-resellers-performance.md
-              displayName: 'indirect, reseller'
-            - name: Képzés
-              href: pci-training-dashboard.md
         - name: Insights – gyakori kérdések
           href: pci-known-issues.md
         - name: Insights-jelentések letöltése
