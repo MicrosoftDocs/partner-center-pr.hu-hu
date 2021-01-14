@@ -1,7 +1,7 @@
 ---
 title: További tudnivalók a speciális szakterületekről
 ms.topic: article
-ms.date: 11/30/2020
+ms.date: 01/12/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Erősítse meg üzleti profilját a Microsoft partneri címtárban. Ismerje meg azokat a speciális specializációkat, amelyek a meglévő arany-és ezüst-kompetenciákkal együtt érhetők el.
@@ -9,48 +9,61 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 385071811241009aa2eba26378e4f6aca5a28b99
-ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
+ms.openlocfilehash: 6ce29c533869214a15f18852c8946f46c0656a38
+ms.sourcegitcommit: 623d03feab847538d484e0d062dc56fe9d9d82f4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96439157"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98204019"
 ---
-# <a name="earn-an-advanced-specialization-to-showcase-your-expertise"></a>Szerezzen be egy speciális specializációt a szaktudás bemutatásához
+# <a name="earn-an-advanced-specialization-to-showcase-your-validated-capabilities"></a>Speciális specializációt szerezhet az érvényesített képességek bemutatásához
 
-Számos partner, akik egy alapszintű [Gold kompetenciát](learn-about-competencies.md) értek el, speciális specializációt szerezhetnek.
+**Megfelelő szerepkörök**
 
-A speciális specializációk lehetővé teszik a termék, a megoldási terület vagy a szolgáltatás bevált és ellenőrizhető szakértelmének további bemutatását. További ellenőrzés alatt áll, hogy magas szintű megbízhatósági szolgáltatásokat nyújtson egy adott megoldási területhez.
+- Globális rendszergazda
+- MPN-fiók rendszergazdája
 
-A speciális specializációk lehetővé teszik az ügyfelek megkülönböztetését is. A speciális specializáció megszerzése után az ügyfelek a Gold kompetenciát és az Ön üzleti profiljának speciális specializációját is láthatják a partneri címtárban.
+A Microsoft fejlett szakterületei a kapcsolódó [arany kompetenciákkal](learn-about-competencies.md) foglalkozó partnerek számára is megszerezhetnek. A Gold kompetenciák és a hozzájuk kapcsolódó speciális specializációk révén a partnerek tovább tudják megkülönböztetni képességeiket az ügyfelek számára.
+
+A speciális specializáció beszerzése érdekében a partnernek gyakran kell megfelelnie az igényes követelményeknek, például az ügyfél-referenciák beszerzése, a harmadik féltől származó auditok beszerzése, a megfelelő képzettségi csoport megvalósításának bizonyítása és bizonyos, más teljesítményű mérések teljesítése.
+
+Ezekkel a szigorú követelményekkel a partnerek a Kiemelt, a nagyvállalati igényeknek megfelelő és a nagy teljesítményű ügyfelek igényeihez illeszkedő, testre szabott megoldásokkal ellenőrizhetik a részletes és bevált tapasztalatokat.
+
+A speciális specializációt kereső partnereink a [Microsoft Solution Provider Finderben](https://www.microsoft.com/solution-providers/home)az üzleti profilban megjelenő felhasználói címkét kapják meg. Ez a címke tovább ellenőrzi a partner képességeit, miközben hozzáférést biztosít számukra a kapcsolódó előnyökhöz, a kibővített ügyfelekhez és a nagyobb ügyfelek megbízhatóságához.
 
 > [!NOTE]
-> Ha többet szeretne megtudni a speciális specializációk előnyeiről és az azokra vonatkozó követelményekről, tekintse meg a [Microsoft Partner Network speciális specializációkat](https://partner.microsoft.com/membership/advanced-specialization).
+> Ha többet szeretne megtudni a speciális specializációkkal kapcsolatban, látogasson el a [Microsoft Partner Network speciális specializációs oldalára](https://partner.microsoft.com/membership/advanced-specialization).
 
 ## <a name="advanced-specialization-areas"></a>Speciális specializációs területek
 
-A speciális specializációkat néhány fontos szakterülettel is megszerezheti:
+Minden speciális specializáció a megoldási területnek felel meg:
 
 - Azure
+- Üzleti alkalmazások
 - Modern munka
 - Biztonság
 
 Az **Azure** speciális specializációi a következők:
 
-- Adatraktár áttelepítése Microsoft Azurere
-- Kubernetes Microsoft Azure
+- Adattárház migrálása a Microsoft Azure-ba
+- Kubernetes a Microsoft Azure-on
 - A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba
-- Microsoft Windows rendszerű virtuális asztal
-- Webalkalmazások modernizálása Microsoft Azure
+- Microsoft Windows Virtual Desktop
+- A webalkalmazások modernizálása a Microsoft Azure-ban
 - SAP Microsoft Azure alapokon
-- Windows Server és SQL Server Migrálás Microsoft Azurere
+- A Windows Server és az SQL Server migrálása a Microsoft Azure-ba
+
+**Business Applications** speciális specializációk a következők:
+
+- Alacsony kódú alkalmazások fejlesztése
+- Kis-és közepes méretű üzleti felügyelet
 
 A **modern munkahelyi** speciális specializációk a következők:
 
-- Bevezetési és módosítási felügyelet
-- A Microsoft Teams meghívása
-- Értekezletek és konferenciatermek a Microsoft Teams szolgáltatáshoz
-- Csapatmunka üzembe helyezése
+- Bevezetés és változáskezelés
+- A Microsoft Teams hívása
+- Értekezletek és tárgyalók a Microsoft Teamshez
+- Csapatmunkán alapuló telepítés
 
 A **biztonsági** speciális specializációk a következők:
 
@@ -58,9 +71,9 @@ A **biztonsági** speciális specializációk a következők:
 - Veszélyforrások elleni védelem
 
 > [!NOTE]
-> Az egyes speciális specializációkkal, valamint az előfeltételekkel és a követelményekkel kapcsolatos további információkért lásd: [Microsoft Partner Network speciális specializációk](https://partner.microsoft.com/membership/advanced-specialization). Ezután, amikor készen áll a speciális specializációra, és az előrehaladás ellenőrzéséhez lépjen a partner Center [irányítópultra](https://partner.microsoft.com/dashboard). Ha többet szeretne megtudni a partner Center ezen területének eléréséről, tekintse meg [a speciális specializációra vonatkozó](advanced-specializations-apply.md)témakört.
+> Az egyes speciális specializációkkal, valamint az előfeltételekkel és a követelményekkel kapcsolatos további információkért tekintse meg a [speciális specializációkat ismertető oldalt](https://partner.microsoft.com/membership/advanced-specialization). Ha készen áll a speciális specializációra, tekintse meg az előrehaladást a partner Center [irányítópultra](https://partner.microsoft.com/dashboard)való bejelentkezéssel. Ha többet szeretne megtudni a partner Center ezen területének eléréséről, tekintse meg [a speciális specializációra vonatkozó](advanced-specializations-apply.md)témakört.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - A partner Center használata a [speciális szakosodások állapotának alkalmazásához](advanced-specializations-apply.md)
 

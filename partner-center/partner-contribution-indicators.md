@@ -1,44 +1,58 @@
 ---
-title: Partneri hozzájárulási mutatók
+title: Partneri hozzájárulási mutatók – CBA
 ms.topic: article
-ms.date: 12/16/2020
+ms.date: 01/13/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg a következő hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan végzi el a Dynamics 365 Customer engagement vagy a Dynamics 365 pénzügyi és üzemeltetési műveleteit.
+description: Ismerje meg a hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan érheti el egy ezüst vagy arany Felhőbeli Business Applications kompetenciát.
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 336481cf390fb467c4768edfff9d9c38e8dd8f31
-ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
+ms.openlocfilehash: 853af76627fcd2554492fbc918e147b8464a3e1f
+ms.sourcegitcommit: 623d03feab847538d484e0d062dc56fe9d9d82f4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97636041"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98204070"
 ---
-# <a name="partner-contribution-indicators-pci-show-partner-impact-on-seven-key-measures-of-customer-success"></a>A partneri hozzájárulási mutatók (PCI) az ügyfelek sikerének hét kulcsfontosságú mértékére gyakorolt hatását mutatják
+# <a name="use-partner-contribution-indicators-to-attain-the-cloud-business-applications-competency"></a>Partneri hozzájárulási mutatók használata a Cloud Business Applications kompetencia eléréséhez
 
-Ez a cikk a partnereknek a Cloud Business Applications (CBA) MPN-kompetencia megvalósításával vagy karbantartásával kapcsolatos előrehaladásának értékeléséhez használt hét legfontosabb partneri teljesítménymutatót (PCI) ismerteti.
+**Megfelelő szerepkörök**
 
-A cikk a következőkkel kapcsolatos információkat tartalmazza:
+- Globális rendszergazda
+- MPN-partner rendszergazdája
+- Fiókadminisztrátor
+
+Ez a cikk a partnereknek a Silver vagy Gold Cloud Business Applications kompetenciák elérése vagy megtartása irányába tett előrehaladásának értékeléséhez használt hét legfontosabb partneri hozzájárulási mutatót (PCI) ismerteti.
+
+> [!NOTE]
+> Ismerje meg, hogy a partnerek hogyan használhatják különböző partneri hozzájárulási mutatók mérőszámait, hogy elérjék az ezüst vagy arany kis-és Midmarket Cloud Solutions kompetenciát a Cloud Business Applications SMB lehetőséggel. További információ: [a kis-és Midmarket Cloud Solutions kompetenciához tartozó partneri hozzájárulási mutatók használata](partner-contribution-indicators-small-and-midmarket-cloud-business-option.md). [További](https://partner.microsoft.com/membership/competencies) információkat a kompetenciákkal és azok követelményeivel kapcsolatban is olvashat.
+
+Ez a cikk a következőkkel kapcsolatos információkat tartalmazza:
 
 - [Az egyes PCI-mutatók értékelése](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)
 
-- [Küszöbértékek az egyes PCI-kijelzők esetében](partner-contribution-indicators.md#thresholds-for-each-pci-metric)
+- [Küszöbértékek az egyes PCI-kijelzők esetében](partner-contribution-indicators.md#thresholds-for-each-pci-metric-for-this-competency)
 
-- [Az egyes PCI-mutatók részletes definíciói](partner-contribution-indicators.md#detailed-definitions-of-pci-metrics)
+- [Az egyes PCI-mutatók részletes definíciói](partner-contribution-indicators.md#detailed-pci-metrics-definitions-for-this-competency)
 
-- A PCI-diagramok [elérése és olvasása](partner-contribution-indicators.md#how-to-access-and-read-the-charts) a partner Centerben
+- A PCI-diagramok [elérése és olvasása](partner-contribution-indicators.md#how-to-access-partner-contribution-indicators) a partner Centerben
 
-## <a name="overview-of-partner-contribution-indicators"></a>A partneri hozzájárulási mutatók áttekintése
+## <a name="overview-of-partner-contribution-indicators-for-this-competency"></a>A partneri hozzájárulási mutatók áttekintése ehhez a kompetenciához
 
-A partneri hozzájárulási mutatók átfogó mérőszámot biztosítanak a partnernek a sikeres vásárlói eredmények megvalósításában, így nagyobb különbségtételt jelent a piacon, amikor egy partner eléri és karbantartja a Cloud Business Applications (CBA) MPN-kompetenciát.
+A partneri hozzájárulási mutatók átfogó mérőszámot biztosítanak a partnernek a sikeres vásárlói eredmények megvalósításában, így nagyobb különbségtételt jelent a piacon, amikor egy partner eléri vagy megtartja a Silver vagy Gold Cloud Business Applications kompetenciát.
 
-A PCI esetében a partnerek kreditet kapnak az ügyfelek sikerességéhez, például a sikeres üzembe helyezésekhez és a használat növeléséhez, és díjazást biztosítanak a technikai képességek bevezetésének és felskálázásának folytatásához.
+A PCI esetében a partnerek kreditet kapnak az ügyfelek sikerességére, például sikeres üzembe helyezésre és a használat növelésére. A rendszer a technikai képességeinek folyamatos bevezetését és felskálázását jutalmazza.
+
+Ha egy partner bizonyos szintű hatást gyakorol a legfontosabb mutatókra, például a partner elérheti (vagy megtarthatja) az ezüst vagy a Gold Cloud Business Applications kompetenciát.
+
+> [!NOTE]
+> Ha többet szeretne megtudni a kompetenciák elérésének előnyeiről, tekintse meg a [Microsoft partner kompetenciáit](https://partner.microsoft.com/membership/competencies)ismertető témakört.
 
 ## <a name="pci-scoring-based-on-seven-key-indicators"></a>PCI-pontozás hét fő kijelző alapján
 
-A PCI kifinomult áttekintést nyújt a partner technikai képességeiről, az ügyfelek sikerességének növeléséről, valamint az értékesítési teljesítményről. A PCI a vállalat előző évi teljesítményét hét fő mutatószámon méri:
+A PCI kifinomult áttekintést nyújt a partner technikai képességeiről, az ügyfelek sikerességének növeléséről, valamint az értékesítési teljesítményről. Annak érdekében, hogy a partnerek elérjék a Silver vagy Gold Cloud Business Applications kompetenciát, a PCI a vállalat előző évi teljesítményét hét fő mérőszámban méri:
 
 *Teljesítménymutatók:*
 
@@ -74,11 +88,11 @@ A PCI-pontszám a következők szerint határozza meg a kompetenciára való jog
 A következő kép egy gyors, vizuális referenciát kínál.
 :::image type="content" source="images/pcinew1.png" alt-text="Megjeleníti a PCI-pontszámokat az ezüst vagy arany kompetencia eléréséhez." border="false":::
 
-### <a name="maximum-scores-you-can-achieve-for-each-indicator"></a>Az egyes mutatókhoz elérhető maximális pontszámok
+### <a name="maximum-pci-competency-scores-you-can-achieve-for-each-indicator"></a>Az egyes kijelzők számára elérhető maximális PCI-kompetencia pontszámok
 
-Minden kijelzőn megjelenik egy pontszám, amely hozzáadódik a teljes összeghez. Az egyes mutatók maximális pontszáma:
+Minden kijelzőn megjelenik egy pontszám, amely hozzáadódik a teljes összeghez. Az alábbiakban a Cloud Business Applications kompetenciához tartozó mutatók maximális pontszáma látható:
 
-|Ehhez a kijelzőhöz | A maximális pontszám  |
+|Ehhez a kijelzőhöz | A kompetencia maximális pontszáma a következő:  |
 |:------------|:--------------:|
 |Performance-net új bevétel  | 10 pont  |
 |Teljesítmény – net-ügyfél által hozzáadott  | 10 pont  |
@@ -91,9 +105,9 @@ Minden kijelzőn megjelenik egy pontszám, amely hozzáadódik a teljes összegh
 A következő kép egy gyors, vizuális referenciát kínál.
 :::image type="content" source="images/pci/perfnew.png" alt-text="Egy olyan diagramot jelenít meg, amelynek a maximális pontszáma az egyes hét partneri hozzájárulási mutatók (PCI) esetében lehetséges." border="false":::
 
-## <a name="thresholds-for-each-pci-metric"></a>Az egyes PCI mérőszámok küszöbértékei
+## <a name="thresholds-for-each-pci-metric-for-this-competency"></a>Az ehhez a kompetenciához tartozó összes PCI-metrika küszöbértékei
 
-Minden PCI-metrika rendelkezik Microsoft-set küszöbértékekkel, amelyek a vállalat maximális pontjait tudják keresni. Ezek a küszöbértékek eltérnek a Felhőbeli Business Applications kompetenciát megvalósító ügyfelek bevonási és pénzügyi és üzemeltetési útjaival. A küszöbértékek a fejlett piacokon működő partnereknek és a kizárólag a piacokat fejlesztő partnereknek is eltérhetnek. Az országok **fejlesztése** vagy **fejlesztése** a [Microsoft Partner Network definíciók](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf)alapján történik.
+Minden PCI-metrika rendelkezik Microsoft-set küszöbértékekkel, amelyek a vállalat maximális pontjait tudják keresni. Ezek a küszöbértékek eltérnek a Felhőbeli Business Applications kompetenciák eléréséhez használt ügyfél-engagement és pénzügyi és üzemeltetési útvonalaktól. A küszöbértékek a fejlett piacokon működő partnereknek és a kizárólag a piacokat fejlesztő partnereknek is eltérhetnek. Az országok **fejlesztése** vagy **fejlesztése** a [Microsoft Partner Network definíciók](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf)alapján történik.
 
 Az egyes mérőszámokon belüli pontok a különböző PCI-pontszámot eredményezik az ügyfelek bevonása, valamint a Pénzügy és a műveletek számára. Ez a pontszám havonta lesz frissítve.
 
@@ -102,10 +116,10 @@ A partnerek az adott metrika maximális pontjait érhetik el, ha azok megfelelne
 Például egy, a nettó új bevétel $150 000-as verziójával rendelkező fejlesztett piaci partner a maximum 10 pontból álló fél ($ 150000/$ 300000) felet fogja keresni.
 
 A részletekért tekintse meg a következő táblázatokat:
-- [1. táblázat. Ügyfél-engagement küszöbértékei](partner-contribution-indicators.md#table-1-customer-engagement-thresholds)
-- [2. táblázat Pénzügyi és üzemeltetési küszöbértékek](partner-contribution-indicators.md#table-2-finance-and-operations-thresholds)
+- [1. táblázat. Ügyfél-engagement küszöbértékei](partner-contribution-indicators.md#table-1-customer-engagement-thresholds-for-this-competency)
+- [2. táblázat Pénzügyi és üzemeltetési küszöbértékek](partner-contribution-indicators.md#table-2-finance-and-operations-thresholds-for-this-competency)
 
-### <a name="table-1-customer-engagement-thresholds"></a>1. táblázat ügyfél-engagement küszöbértékek
+### <a name="table-1-customer-engagement-thresholds-for-this-competency"></a>1. táblázat ügyfél-engagement küszöbértékek ehhez a kompetenciához
 
 
 | PCI-metrika | Teljesítmény kijelző: nettó új bevétel | Teljesítménymutató: új ügyfél – Hozzáadás | Képesség kijelző: funkcionális tanácsadók | Képesség kijelző: funkcionális tanácsadói növekedés | Képesség kijelző: fejlesztők | Az ügyfél sikerességének mutatója: új nagyméretű telepítések | Az ügyfél sikerességének mutatója: havi aktív felhasználói növekedés |
@@ -116,7 +130,7 @@ A részletekért tekintse meg a következő táblázatokat:
 
 *\* Megjegyzés: a növekedési célok az alapszolgáltatások számától és a partnerek által a pontok beszerzéséhez használt konkrét lehetőségtől függően változnak. Ha többet szeretne megtudni a pontok beszerzésével vagy az egyes lehetőségek konkrét növekedési céljaival kapcsolatban, tekintse meg [a funkcionális tanácsadók növekedésének definícióit](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).*
 
-### <a name="table-2-finance-and-operations-thresholds"></a>2. táblázat pénzügyi és üzemeltetési küszöbértékei
+### <a name="table-2-finance-and-operations-thresholds-for-this-competency"></a>2. táblázat – pénzügyi és üzemeltetési küszöbértékek ehhez a kompetenciához
 
 
 | PCI-metrika | Teljesítmény kijelző: nettó új bevétel | Teljesítménymutató: új ügyfél – Hozzáadás | Képesség kijelző: funkcionális tanácsadók | Képesség kijelző: funkcionális tanácsadói növekedés | Képesség kijelző: fejlesztők | Az ügyfél sikerességének mutatója: új nagyméretű telepítések | Az ügyfél sikerességének mutatója: havi aktív felhasználói növekedés |
@@ -127,7 +141,28 @@ A részletekért tekintse meg a következő táblázatokat:
 
 *\* Megjegyzés: a növekedési célok az alapszolgáltatások számától és a partnerek által a pontok beszerzéséhez használt konkrét lehetőségtől függően változnak. Ha többet szeretne megtudni a pontok beszerzésével vagy az egyes lehetőségek konkrét növekedési céljaival kapcsolatban, tekintse meg [a funkcionális tanácsadók növekedésének definícióit](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).*
 
-## <a name="detailed-definitions-of-pci-metrics"></a>A PCI-metrikák részletes definíciói
+## <a name="prerequisites-to-receive-pci-credit-for-a-customer"></a>Az ügyfelek számára a PCI-kreditek fogadásának előfeltételei
+
+Bizonyos partneri hozzájárulási mutatók esetén csak akkor kaphat kreditet egy adott ügyfélnek, ha az adott partner – ügyfél társítással rendelkezik. Az alábbi előfeltételeket érintő mutatók vagy PCI-metrikák:
+
+- Nettó új bevétel
+- NET-ügyfél által hozzáadott
+- Új központi telepítések
+- Havi aktív felhasználói növekedés
+
+Ha a következő partner-ügyfél társítások egyike van, csak akkor kaphat kreditet az adott ügyfélhez tartozó PCI-metrikához:
+- Ön egy felhőalapú megoldás-szolgáltató (CSP) az ügyfél bérlője számára fizetendő fizetős előfizetéshez
+- Ön a rekord (CPOR) igénylési partnere, amely az ügyfél bérlője számára fizetendő fizetős előfizetéshez tartozó.
+- Ön az ügyfél bérlője számára fizetett fizetős előfizetés digitális partnere (DPOR)
+
+A partner akkor válik CPOR, ha az előfizetés szintjén a Dynamics 365 [Online Services Advisor](https://support.microsoft.com/help/4501560/online-services-advisor-osa-sell-incentives-faq) (OSA) vagy a Dynamics 365 [Online Services használati](https://support.microsoft.com/help/4489988/online-services-usage-osu-incentives-faq) (OSU) ösztönzője révén az ügyfélhez való társítást létesítettek.
+
+A partner akkor válik DPOR, ha a terméken belüli előfizetési szinten társítva van egy ügyféllel.
+
+> [!NOTE]
+> Ha a CPOR és a DPOR is létezik egy adott ügyfél-előfizetéshez, a CPOR az adott előfizetéshez tartozó kapcsolódó PCI-metrikák jóváírását fogja kapni. Ha a társítás az OSA-n keresztül volt, a CPOR megkapja a nettó új bevétel és a nettó ügyfél által hozzáadott kreditet. Ha a társítás a OSU-on keresztül volt, a CPOR megkapja az új üzemelő példányok és a havi aktív felhasználói növekedés kreditjét.
+
+## <a name="detailed-pci-metrics-definitions-for-this-competency"></a>A kompetencia részletes PCI-metrikáinak definíciói
 
 A következő szakaszok ismertetik a hét PCI metrikával kapcsolatos további részleteket, valamint a pontok kiszámításának módját.
 
@@ -143,24 +178,23 @@ Az alábbi lista segítségével gyorsan eljuthat egy adott definícióhoz:
 
 ### <a name="definitions-for-pci-metric-1---net-new-revenue"></a>A PCI metrika #1 – net új bevételének definíciói
 
-A nettó új bevétel egy teljesítménymutató, valamint a [jelen cikk korábbi részében ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutatók egyike. Itt talál további információt arról, hogyan határozható meg a nettó új bevétel, és hogyan számítja ki a pontjait:
+A nettó új bevétel a [teljesítmény mutatója](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
 - A nettó új bevétel az összes értékesítési csatornán, a Dynamics 365-termékek minősítéséhez használt nettó új számlázott bevételként van meghatározva.
 - A nettó új bevétel egy 12 hónapos időszakra van összegezve, amely legfeljebb 10 pontot tesz elérhetővé.
 - A nettó új bevételi pontok számlázások mínusz kreditek, és 12 hónapra összesítve kerülnek kiszámításra.
 - A nettó új bevétel kiszámítása a következő, a minősítési termékek alapján történik:
-
-   - Ügyfél-engagement – a minősítéssel rendelkező termékek közé tartoznak a következők: értékesítés, ügyfélszolgálat, mezőtulajdonságok, Project Service Automation, marketing, Microsoft kapcsolati értékesítés, 1. csomag, tehetség és nagyvállalati csapat tagja.
-   - Pénzügy és üzemeltetés – a megfelelő termékek közé tartoznak a következők: Unified Operations, Finance, Ellátásilánc-kezelés, kiskereskedelmi, kereskedelmi, 2. csomag, vegyes valóság, tehetség és nagyvállalati csapat tagja.
+  - Ügyfél-engagement – a minősítéssel rendelkező termékek közé tartoznak a következők: értékesítés, ügyfélszolgálat, mezőtulajdonságok, Project Service Automation, marketing, Microsoft kapcsolati értékesítés, 1. csomag, tehetség és nagyvállalati csapat tagja.
+  - Pénzügy és üzemeltetés – a megfelelő termékek közé tartoznak a következők: Unified Operations, Finance, Ellátásilánc-kezelés, kiskereskedelmi, kereskedelmi, 2. csomag, vegyes valóság, tehetség és nagyvállalati csapat tagja.
 
 - Az értékesítési csatornák közé tartozik a Nagyvállalati Szerződés (EA), a Cloud Solution Provider (CSP) és a web Direct.
 - Csak Nagyvállalati Szerződés bevétel esetén: Ez a bevétel a szerződés első évének bevételét foglalja magában. A második és a harmadik év ismétlődő bevételét nem tartalmazza.
 
 ### <a name="definitions-for-pci-metric-2---net-customer-adds"></a>A PCI metrika #2 – net-ügyfél által hozzáadott definíciók
 
-A net Customer Hozzáadás egy teljesítménymutató, valamint a [jelen cikk korábbi részében ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutatók egyike. Itt talál további információt arról, hogy a rendszer hogyan adja meg a net-ügyfeleket, és hogyan számítja ki a kategória pontjait:
+A net Customer Hozzáadás egy [teljesítménymutató](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
-- A nettó ügyfél-hozzáadások egy 12 hónapos időszakra vonatkoznak, amely legfeljebb 10 pontot tesz elérhetővé.
+- A nettó ügyfél-hozzáadások egy 12 hónapos időszakra vannak összefoglalva, amely a lehető legnagyobb bevételt jelenti 10 pontnál. 
 
 - A net-ügyfeleket az összes értékesítési csatornán keresztül adja hozzá a rendszer. 
 
@@ -169,6 +203,16 @@ A net Customer Hozzáadás egy teljesítménymutató, valamint a [jelen cikk kor
 - Az **ügyfél-Hozzáadás** a következő feltételek szerint van meghatározva: Ha az ügyfél nem rendelkezik fizetős hellyel az összes előfizetésben egy korábbi hónapban, de az aktuális hónapban legalább egy fizetős hellyel rendelkezik.
 
 - Az **ügyfél elvesztette** a következő feltételek valamelyikét: Ha egy ügyfél legalább egy fizetős hellyel rendelkezik az összes előfizetésben egy korábbi hónapban, **és** nem rendelkezik fizetős hellyel az aktuális hónapban.
+
+- A hálózati ügyfelek által hozzáadott maximális és részleges pontok is megtekinthetők. Az alábbiakban az adott kompetenciához tartozó maximális pontok beszerzésére vonatkozó követelmények láthatók:
+
+  | Ebben az úton | A net Customer a maximális 10 pontot keresi |
+  |---------------------|----------------------------|
+  | Ügyfelek elérése | -10 nettó ügyfél-Hozzáadás (a *fejlett* piacokon lévő partnerek számára);</br>-5 nettó ügyfél-Hozzáadás (a *fejlődő* piacokon lévő partnerek számára)  |
+  | Finance and Operations | -3 nettó ügyfél-Hozzáadás (a *fejlett* piacokon lévő partnerek számára);</br>-1 új ügyfél hozzáadása (partnerek számára a *fejlődő* piacokon) |
+
+  > [!NOTE]
+  > A fejlett és a piac fejlesztésével kapcsolatos részletekért tekintse meg ezeket a [Microsoft Partner Network definíciókat](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf).
 
 - Az értékesítési csatornák közé tartozik a Nagyvállalati Szerződés (EA), a Cloud Solution Provider (CSP) és a web Direct.
 
@@ -190,7 +234,7 @@ A net Customer Hozzáadás egy teljesítménymutató, valamint a [jelen cikk kor
 
 ### <a name="definitions-for-pci-metric-3---functional-consultants"></a>A PCI metrika #3 – funkcionális tanácsadók definíciói
 
-A funkcionális tanácsadók a [jelen cikk korábbi részében ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)funkciós mutatók és a hét legfontosabb partneri hozzájárulásainak egyike. Itt talál további információt arról, hogyan van meghatározva a funkcionális tanácsadók mutatója, valamint a kategória pontjainak kiszámítása:
+A funkcionális tanácsadók a [képességek kijelzői](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
 - A funkcionális tanácsadói mutatók az aktuális hónapra vonatkozó pillanatképen alapulnak, amely a lehető legtöbbet 15 pontból álló eredményre utal.
 
@@ -209,15 +253,14 @@ A funkcionális tanácsadók a [jelen cikk korábbi részében ismertetett](part
 > [!NOTE]
 > A csillag () karakterrel jelölt vizsgákat \* az elkövetkező hónapokban kell kivonni vagy lecserélni. A részleteket lásd alább:
 >
-> - Az egyetlen csillaggal jelölt vizsgák ( \* ) 2020 december 31-én kivonásra kerülnek. Az 2020-as december 31-én kivont vizsgák továbbra is jogosultak lesznek a kompetenciák megszerzésére és a megújításra, 2021. december 31-ig, ha azokat a rendszer kivonása előtt veszi igénybe.
+> - Az egyetlen csillaggal () jelölt vizsgák \* 2020. december 31-ig lettek kivonva. A 2020. december 31-én kivont vizsgák továbbra is jogosultak lesznek a kompetenciák megvalósítására és megújítására, a 2021. december 31-ig érvényesek, ha a kivonásuk előtt történt.
 > - A két csillaggal jelölt vizsga ( \* \* ) 2021. január 31-én kivonásra kerül. A 2021. január 31-én kivonásra kerülő vizsgák továbbra is jogosultak lesznek arra, hogy az 2022. január 31-ig érvényesek legyenek a kompetenciák és a megújítások.
-
 
 ### <a name="definitions-for-pci-metric-4---functional-consultant-growth"></a>A PCI metrika #4 – funkcionális tanácsadók növekedésének definíciói
 
-A funkcionális tanácsadók növekedésének egyik funkciója a [jelen cikkben korábban ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutató. A partner két lehetőség közül választhat az ehhez a metrikához elérhető összes-vagy-Nothing pont (15 vagy 0 pont) eléréséhez. Nem kapnak részleges pontot. 
+A funkcionális tanácsadói növekedés a [képesség mutatója](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
-Itt talál további információt arról, hogyan határozható meg a funkcionális tanácsadó növekedési mutatója, és hogyan számítja ki a kategória pontjait.
+A partner két lehetőség közül választhat az ehhez a metrikához elérhető összes-vagy-Nothing pont (15 vagy 0 pont) eléréséhez. Nem kapnak részleges pontot.
 
 **Az egyik lehetőség a pontok beszerzéséhez:**
 
@@ -239,13 +282,13 @@ Itt talál további információt arról, hogyan határozható meg a funkcionál
 
 **Két lehetőség a pontok beszerzéséhez:**
 
-- A fejlett piaci partnerek 50 vagy több funkcionális tanácsadót is tanúsítanak az első PCI-alapú CBA évfordulójuk során. (A piaci partnerek fejlesztése során az első PCI-alapú CBA-évfordulónál 25 vagy több funkcionális tanácsadót is tanúsíthat.)
+- A fejlett piaci partnerek 50 vagy több funkcionális tanácsadót tanúsítanak az első PCI-alapú felhőalapú Business Applications kompetenciával kapcsolatos évfordulójuk idején. (A piaci partnerek fejlesztése során az első PCI-alapú felhőalapú Business Applications kompetenciák évfordulóján 25 vagy több funkcionális tanácsadót is tanúsíthat.)
 
-- Ha eléri ezt a küszöbértéket, az adott dátumtól számított 24 hónapig teljes 15 pontot kap a funkcionális tanácsadói növekedéshez. Ez gyakorlatilag azt jelenti, hogy a funkcionális tanácsadók növekedésének maximális pontjait két CBA-évfordulóra vonatkozóan kell megszereznie.
+- Ha eléri ezt a küszöbértéket, az adott dátumtól számított 24 hónapig teljes 15 pontot kap a funkcionális tanácsadói növekedéshez. Ez gyakorlatilag azt jelenti, hogy a funkcionális tanácsadók számára a két felhős Business Applications a kompetencia évfordulója esetén a legmagasabb pontszámot kapja.
 
 ### <a name="definitions-for-pci-metric-5---developers"></a>A PCI metrika #5 – fejlesztők definíciói
 
-A fejlesztők a [jelen cikk korábbi részében ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators), a képességeket jelölő mutatók és a hét legfontosabb partneri hozzájárulásainak egyike. Itt talál további információt arról, hogyan határozza meg a fejlesztők kijelzőjét, és hogyan számítja ki a kategória pontjait:
+A fejlesztők a [képességek kijelzői](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
 - A fejlesztők a jelenleg aktív fejlesztői Associate minősítést betöltő személyek számát határozzák meg.
 
@@ -264,20 +307,22 @@ A fejlesztők a [jelen cikk korábbi részében ismertetett](partner-contributio
 > [!NOTE]
 > A csillag () karakterrel jelölt vizsgákat \* az elkövetkező hónapokban kell kivonni vagy lecserélni. A részleteket lásd alább:
 >
-> - Az egyetlen csillaggal jelölt vizsgák ( \* ) 2020 december 31-én kivonásra kerülnek. Az 2020-as december 31-én kivont vizsgák továbbra is jogosultak lesznek a kompetenciák megszerzésére és a megújításra, 2021. december 31-ig, ha azokat a rendszer kivonása előtt veszi igénybe.
+> - Az egyetlen csillaggal () jelölt vizsgák \* 2020. december 31-ig lettek kivonva. A 2020. december 31-én kivont vizsgák továbbra is jogosultak lesznek a kompetenciák megvalósítására és megújítására, a 2021. december 31-ig érvényesek, ha a kivonásuk előtt történt.
 > - A két csillaggal jelölt vizsga ( \* \* ) 2021. január 31-én kivonásra kerül. A 2021. január 31-én kivonásra kerülő vizsgák továbbra is jogosultak lesznek arra, hogy az 2022. január 31-ig érvényesek legyenek a kompetenciák és a megújítások.
 
 ### <a name="definitions-for-pci-metric-6---new-large-deployments"></a>A PCI metrika #6 – új nagyméretű központi telepítések
 
-Az új nagyméretű központi telepítések az ügyfél sikerességi mutatója, valamint a [jelen cikk korábbi részében ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutatók egyike. További információ arról, hogy az új nagyméretű központi telepítési mutatók hogyan vannak meghatározva, valamint a kategória pontjainak kiszámítása:
+Az új nagyméretű központi telepítések az [ügyfelek sikerességi mutatója](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
 - Az új nagyméretű központi telepítések egy 12 hónapos időszakra vonatkoznak, és legfeljebb 20 pont érhető el.
 
-- Az új nagyméretű központi telepítések különböző módon vannak definiálva az ügyfelek engagement és Pénzügy és műveletek esetében:
+- Az új nagyméretű központi telepítések különböző módon vannak meghatározva a vevői engagement és a Pénzügy és a műveletek, valamint a *fejlett* piacokon működő partnerek és a piacok *fejlesztése* terén:
 
   - Az ügyfelek bevonása esetén az új nagyméretű központi telepítések a bérlők azon példányainak száma, amelyek **250** havi aktív felhasználóval (fejlett piaci partnereknek) és **150** havi aktív felhasználókkal (a piaci partnerek fejlesztéséhez) vannak megadva.
 
-   - A Pénzügy és a műveletek esetében az új nagyméretű központi telepítések az olyan bérlők számára készült üzemi példányok száma, amelyek több mint **100** havi aktív felhasználóval (fejlett piaci partnereknek) és **50** havi aktív felhasználókkal (a piaci partnerek fejlesztéséhez) vannak meghatározva.
+  - A Pénzügy és a műveletek esetében az új nagyméretű központi telepítések az olyan bérlők számára készült üzemi példányok száma, amelyek több mint **100** havi aktív felhasználóval (fejlett piaci partnereknek) és **50** havi aktív felhasználókkal (a piaci partnerek fejlesztéséhez) vannak meghatározva.
+  
+  (A fejlett és a piac fejlesztésével kapcsolatos részletekért tekintse meg ezeket a [Microsoft Partner Network definíciókat](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf).)
 
 - A bérlő akkor számít, ha a bérlő a következő havi aktív felhasználói küszöbértéket adta át: 
 
@@ -285,13 +330,17 @@ Az új nagyméretű központi telepítések az ügyfél sikerességi mutatója, 
   - Ezt a küszöbértéket legalább egyszer átlépte a következő 11 hónap során.
 
 - A havi aktív felhasználókat a bérlői szinten számítjuk fel, és a bérlőn belül csak a fizetős előfizetések között összesítjük.
+
 - A havi aktív felhasználókat minden hónap végén számítjuk ki.
-- A partnerek a bérlők számára az előfizetési szinten vannak társítva. Az előfizetések az ügyfelek bevonási termékeire, illetve pénzügyi és üzemeltetési termékekre vannak leképezve.
+
+- A partnerek a bérlők számára az előfizetési szinten vannak társítva. Az előfizetések a következőkre vannak leképezve, az ügyfelek bevonási termékeire, illetve a pénzügyi és üzemeltetési termékekre:
+  - Ügyfél-engagement – a minősítéssel rendelkező termékek közé tartoznak a következők: értékesítés, ügyfélszolgálat, mezőtulajdonságok, Project Service Automation, marketing, Microsoft kapcsolati értékesítés, 1. csomag, tehetség és nagyvállalati csapat tagja.
+  - Pénzügy és üzemeltetés – a megfelelő termékek közé tartoznak a következők: Unified Operations, Finance, Ellátásilánc-kezelés, kiskereskedelmi, kereskedelmi, 2. csomag, vegyes valóság, tehetség és nagyvállalati csapat tagja.
 - A bérlőn belül bármely fizetős előfizetéshez kapcsolódó partner megkapja az összes ügyfél-bevonási vagy pénzügyi és üzemi üzemi példány kreditjét.
 
 ### <a name="definitions-for-pci-metric-7---monthly-active-user-growth"></a>A PCI metrika #7 – havi aktív felhasználói növekedés
 
-A havi aktív felhasználói növekedés az ügyfél sikerességi mutatója, valamint a [jelen cikk korábbi részében ismertetett](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators)hét legfontosabb partneri hozzájárulási mutatók egyike. Itt talál további információt arról, hogy a havi aktív felhasználói növekedés hogyan van meghatározva, és hogyan számítja ki a kategória pontjait:
+A havi aktív felhasználói növekedés az [ügyfél sikerességi mutatója](partner-contribution-indicators.md#pci-scoring-based-on-seven-key-indicators). Ezt a mutató pontokat a Cloud Business Applications kompetencia alapján számítjuk ki a következőképpen:
 
 - A havi aktív felhasználói növekedés az elmúlt 12 hónap során a teljes ügyfélkörbe tartozó havi aktív felhasználók növekedésével van meghatározva. 
 
@@ -301,49 +350,37 @@ A havi aktív felhasználói növekedés az ügyfél sikerességi mutatója, val
 
 - A havi aktív felhasználókat minden hónap végén számítjuk ki.
 
-- Ahhoz, hogy az ügyfelek bevonása a pontok számára is megfelelő legyen, a fejlett piaci partnereknek legalább **250** havi aktív felhasználó alapkonfigurációval kell rendelkezniük, és a piaci partnereknek a teljes Ügyfélkörük 12 hónapja alatt rendelkezniük kell a **150** havi aktív felhasználókkal. 
+- A havi aktív felhasználói növekedés különböző módon van definiálva az ügyfélkapcsolatok és a pénzügyi és üzemeltetési útvonalak, valamint a *fejlett* piacokon működő partnerek és a piacok *fejlesztése* terén:
 
-- Ahhoz, hogy a pénzügyi és üzemeltetési műveletek a pontok számára is elérhetők legyenek, a fejlett piaci partnereknek legalább **100** havi aktív felhasználó alapkonfigurációval kell rendelkezniük, és a piaci partnereknek a teljes Ügyfélkörük 12 hónapja alatt rendelkezniük kell a **50** havi aktív felhasználóknak. 
+  - Ahhoz, hogy az ügyfelek bevonása a pontok számára is megfelelő legyen, a fejlett piaci partnereknek legalább **250** havi aktív felhasználó alapkonfigurációval kell rendelkezniük, és a piaci partnereknek a teljes Ügyfélkörük 12 hónapja alatt rendelkezniük kell a **150** havi aktív felhasználókkal.
 
-- A partnerek a bérlők számára az előfizetési szinten vannak társítva. Az előfizetések leképezhetők az ügyfelek bevonására, illetve a pénzügyi és üzemeltetési termékekre.
+  - Ahhoz, hogy a pénzügyi és üzemeltetési műveletek a pontok számára is elérhetők legyenek, a fejlett piaci partnereknek legalább **100** havi aktív felhasználó alapkonfigurációval kell rendelkezniük, és a piaci partnereknek a teljes Ügyfélkörük 12 hónapja alatt rendelkezniük kell a **50** havi aktív felhasználóknak.
+  
+  (A fejlett és a piac fejlesztésével kapcsolatos részletekért tekintse meg ezeket a [Microsoft Partner Network definíciókat](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf.)
+
+- A partnerek a bérlők számára az előfizetési szinten vannak társítva. Az előfizetések az ügyfelek bevonási termékeire, illetve a pénzügyi és üzemeltetési termékek minősítésére vannak leképezve.
 
 - A bérlőn belül bármely fizetős előfizetéshez kapcsolódó partner megkapja az összes ügyfél-bevonási vagy pénzügyi, valamint a havi aktív felhasználó által az adott bérlőre vonatkozó fizetett előfizetésben foglalt összegeket.
 
-## <a name="customer-to-partner-association"></a>Ügyfél – partner társítás
-
-Kreditet kap a nettó új bevételért, a net Customer, az új nagyméretű telepítések és a havi aktív felhasználói növekedés egy adott ügyfél esetében, a metrikus definíció határain belül, csak akkor, ha Ön a felhőalapú megoldás-szolgáltató (CSP), a Record (CPOR) vagy a Recording (DPOR) rekordja a fizetős előfizetés számára az ügyfél bérlője számára.
-
-A partner akkor válik CPOR, ha az előfizetés szintjén a Dynamics 365 [Online Services Advisor](https://support.microsoft.com/help/4501560/online-services-advisor-osa-sell-incentives-faq) (OSA) vagy a Dynamics 365 [Online Services használati](https://support.microsoft.com/help/4489988/online-services-usage-osu-incentives-faq) (OSU) ösztönzője révén az ügyfélhez való társítást létesítettek.
-
-A partner akkor válik DPOR, ha a terméken belüli előfizetési szinten társítva van egy ügyféllel.
-
-Ha a CPOR és a DPOR is létezik egy adott előfizetéshez, a CPOR az adott előfizetéshez társított PCI-metrikák jóváírását fogja kapni. A CPOR megkapja a nettó új bevételhez és a nettó ügyfélhez tartozó kreditet, ha a társítás az OSA-n keresztül volt. Ha a társítás a OSU-on keresztül volt, a CPOR megkapja az új nagyméretű üzemelő példányok és a havi aktív felhasználói növekedés kreditjét.
-
-## <a name="how-to-access-and-read-the-charts"></a>A diagramok elérése és olvasása
+## <a name="how-to-access-partner-contribution-indicators"></a>A partneri hozzájárulási mutatók elérése
 
 Ez a szakasz azt ismerteti, hogyan lehet hozzáférni a partneri központ irányítópultján található partneri hozzájárulási mutatókhoz és a társított diagramok olvasásához.
 
-### <a name="access-partner-contribution-indicators"></a>Hozzáférési partneri hozzájárulási mutatók
-
 A partneri hozzájárulási mutatók diagramjainak és előrehaladásának megtekintéséhez kövesse az alábbi lépéseket:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard).
 
 2. Válassza a **CSP** lehetőséget a navigációs menüből, majd válassza a **partneri hozzájárulási mutatók** elemet. 
 
    A partneri hozzájárulási mutatók irányítópultjának a társított diagramokkal kell megjelennie.
 
+   :::image type="content" source="images/pci/howto.png" alt-text="A diagram beolvasása":::
+
    > [!NOTE]
    > Ha nem látja ezeket a beállításokat, próbálja meg kiválasztani az **MPN** -t a menüből, majd a **partneri hozzájárulási mutatók** alapján. Ha továbbra sem találja ezeket a beállításokat, előfordulhat, hogy nem rendelkezik a partner Centerben hozzárendelt megfelelő felhasználói szerepkörrel. Segítségért forduljon a partner Center globális rendszergazdájához vagy MPN-partner rendszergazdájához.
 
-### <a name="read-the-charts"></a>Diagramok olvasása
-
-Az alábbi képen bemutatjuk, hogyan olvashatja el néhány területet és diagramot a partnervállalat partneri részvételi mutatók lapján.
-
 A terület használatával kapcsolatos további információkért tekintse meg a cikk végén található források és videók gyűjteményét.
-
-   :::image type="content" source="images/pci/howto.png" alt-text="A diagram beolvasása":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-További PCI [-betanítási videók és információs erőforrások](https://partner.microsoft.com/asset/collection/pci-learn#/)megtekintése.
+Tekintse meg az arany-vagy ezüst-Felhőbeli Business Applications kompetenciával kapcsolatos további PCI [-betanítási videókat és tájékoztató forrásokat](https://partner.microsoft.com/asset/collection/pci-learn#/) .
