@@ -9,12 +9,12 @@ author: vijvala
 ms.author: vijvala
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 355258fd20f867052fa8598e688630005262bb16
-ms.sourcegitcommit: ab2ca3c5990b7f920df4ecb9c611d5b1046ec111
+ms.openlocfilehash: f42c97be88a1a505f7e0ae9b8af0d4a9167d8447
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97579977"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182375"
 ---
 # <a name="set-up-your-users-with-multi-factor-authentication"></a>Többtényezős hitelesítés beállítása a saját felhasználókhoz
 
@@ -39,11 +39,10 @@ Ez lehetővé teszi az MFA használatát ehhez a felhasználóhoz. Az Engedélye
 :::image type="content" source="images/MFA/securityverification.png" alt-text="Az ellenőrzés módjának meghatározása":::
 
 >[!NOTE]
->Az MFA használatára **kényszerítheti** a felhasználókat, hogy a fenti lépéseket követve, a **kikényszerítés** lehetőség választásával. További információért olvassa el a [felhasználónkénti Azure-multi-Factor Authentication engedélyezése a bejelentkezési események biztonságossá tételéhez](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates)című témakört. 
+>Az MFA használatára **kényszerítheti** a felhasználókat, hogy a fenti lépéseket követve, a **kikényszerítés** lehetőség választásával. További információért olvassa el a [felhasználónkénti Azure-multi-Factor Authentication engedélyezése a bejelentkezési események biztonságossá tételéhez](/azure/active-directory/authentication/howto-mfa-userstates)című témakört. 
 
 Az összes felhasználó **le van tiltva**. Ha felhasználónkénti Azure-Multi-Factor Authentication regisztrálja a felhasználókat, az állapotuk **engedélyezve** értékre vált. Ha az engedélyezett felhasználók bejelentkeznek, és elvégzik a regisztrációs folyamatot, az állapotuk **kényszerítve** értékűre vált. 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Szerepkörök és engedélyek hozzárendelése a felhasználókhoz](permissions-overview.md)
-

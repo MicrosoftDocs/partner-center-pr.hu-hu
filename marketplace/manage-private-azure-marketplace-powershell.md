@@ -8,12 +8,12 @@ ms.prod: marketplace-customer
 ms.devlang: azurepowershell
 ms.date: 11/24/2020
 ms.custom: devx-track-azurepowershell
-ms.openlocfilehash: c5b8b9fcc247818315887109e2163c0722bfbd97
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: d0021be17ab12b6e549b0e5263772a4a1e42f8a3
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96536262"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182341"
 ---
 # <a name="quickstart-manage-a-private-azure-marketplace-using-powershell"></a>Rövid útmutató: privát Azure piactér kezelése a PowerShell használatával
 
@@ -30,10 +30,10 @@ Ez a cikk azt ismerteti, hogyan kezelheti az ajánlatokat egy privát Azure piac
   * [Telepítse az az PowerShell-modult](/powershell/azure/install-az-ps).
   * Kapcsolódjon az Azure-fiókjához a [AzAccount](/powershell/module/az.accounts/connect-azaccount) parancsmag használatával.
 * Ha a Azure Cloud Shell használatát választja:
-  * További információ: [Azure Cloud Shell áttekintése](https://docs.microsoft.com/azure/cloud-shell/overview) .
+  * További információ: [Azure Cloud Shell áttekintése](/azure/cloud-shell/overview) .
 
   > [!IMPORTANT]
-  > Noha az az **. Marketplace** PowerShell-modul előzetes verzióban érhető el, a parancsmaggal külön kell telepítenie `Install-Module` . Miután a PowerShell-modul általánosan elérhetővé válik, az a PowerShell-modul kiadásainak része lesz, és alapértelmezés szerint elérhető a Azure Cloud Shellon belülről.
+  > Noha az az **. Marketplace** PowerShell-modul előzetes verzióban érhető el, a parancsmaggal külön kell telepítenie `Install-Module` . Miután ez a PowerShell-modul általánosan elérhetővé válik, a jövőbeli Az PowerShell modulkiadások részévé válik, és natívan elérhető lesz az Azure Cloud Shellből.
 
   ```azurepowershell-interactive
   Install-Module -Name Az.Marketplace
@@ -144,6 +144,6 @@ Ha el szeretne távolítani egy ajánlatot egy privát áruházból, használja 
 Remove-AzMarketplacePrivateStoreOffer -privateStoreId 00000000-0000-0000-0000-000000000000 -offerId publisherid.offerid
 ```
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 [Privát Azure Marketplace létrehozása és kezelése](create-manage-private-azure-marketplace.md).

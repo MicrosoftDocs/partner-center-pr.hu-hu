@@ -9,12 +9,12 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3acc078b3de3c0443ee64fdaaba2d486d9c466c8
-ms.sourcegitcommit: e9066768ab8e242c03f0a7e3ce460ae8cd2e3fda
+ms.openlocfilehash: f274103feeadfa6fd135f99632f3013c29601972
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622167"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182409"
 ---
 # <a name="how-the-partner-earned-credit-is-calculated-and-paid"></a>A partneri jóváírás kiszámításának és kifizetésének részletei
 
@@ -36,7 +36,7 @@ A partner által létrehozott kredit (PEC) megszerzéséhez a következő követ
 
 - Rendelkeznie kell egy aktív MPN-szerződéssel és egy érvényes szerepköralapú hozzáférés-vezérlési (RBAC) szerepkörrel, amely az Ön által kezelt Azure-eszközök számára szerzett kreditet kap.
 
-- Az ügyfél Azure-erőforrásainak nonstop operatív vezérléssel és felügyelettel kell rendelkeznie a CSP-ben. Ez azt jelenti, hogy rendszergazdai jogosultságokkal kell rendelkeznie az ügyfél Azure-előfizetéséhez, az Azure-erőforráscsoport, az Azure-erőforráshoz. Közvetett szolgáltatók és a közvetett viszonteladóik esetében a közvetett szolgáltató jogosult lesz a PEC-re, ha a közvetett szolgáltató vagy a közvetett viszonteladó vagy mindkettő rendelkezik ezzel az operatív ellenőrzéssel. További információ: [rendszergazdai jogosultságok visszaállítása az Azure CSP-előfizetésekhez](https://docs.microsoft.com/partner-center/revoke-reinstate-csp).
+- Az ügyfél Azure-erőforrásainak nonstop operatív vezérléssel és felügyelettel kell rendelkeznie a CSP-ben. Ez azt jelenti, hogy rendszergazdai jogosultságokkal kell rendelkeznie az ügyfél Azure-előfizetéséhez, az Azure-erőforráscsoport, az Azure-erőforráshoz. Közvetett szolgáltatók és a közvetett viszonteladóik esetében a közvetett szolgáltató jogosult lesz a PEC-re, ha a közvetett szolgáltató vagy a közvetett viszonteladó vagy mindkettő rendelkezik ezzel az operatív ellenőrzéssel. További információ: [rendszergazdai jogosultságok visszaállítása az Azure CSP-előfizetésekhez](./revoke-reinstate-csp.md).
 
 - A fenti követelményeken felül a PEC csak az Azure-csomag fogyasztási díjszabásában felsorolt szolgáltatásokra vonatkozik, amelyeket az [Azure-csomag díjszabási](https://partner.microsoft.com/commerce/sales) lapjáról exportálhat.
 
@@ -48,7 +48,7 @@ A partner által létrehozott kredit (PEC) megszerzéséhez a következő követ
 
 - A PEC-t az Azure-erőforrás szintjén szerezték le. Ha az előfizetés vagy az erőforráscsoport szintjén érvényes hozzáférése van, akkor minden olyan erőforrás, amely a magasabb entitást összesíti, a PEC-t fogja keresni.
 
-- A PEC részletei az [Azure Cost Management](https://docs.microsoft.com/azure/cost-management-billing/costs/get-started-partners) oldalán is elérhetők.
+- A PEC részletei az [Azure Cost Management](/azure/cost-management-billing/costs/get-started-partners) oldalán is elérhetők.
 
 ### <a name="calculation"></a>Számítás
 
@@ -75,7 +75,7 @@ A Cost Analysis Azure Cost Management (ACM) lehetővé teszi, hogy partnereként
 
 5. A Group By, a Group By, a **PartnerEarnedCreditApplied** tulajdonság és a szűrési funkció alapján is szűrheti **a szűrési** funkciókat a PEC-t használó költségek és a PEC-t nem alkalmazó költségek részletezése céljából.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Partner által létrehozott kredit – áttekintés](partner-earned-credit.md)
 

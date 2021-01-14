@@ -9,12 +9,12 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6337d4998fea20eed756183a3eb3adfbfe70585b
-ms.sourcegitcommit: 0eae5734b0e50bd5a7ef39ec7738d1e997c5a02d
+ms.openlocfilehash: a5aaa7c7190615d1b7497fd92e0d844cc553c491
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "97389305"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182324"
 ---
 # <a name="partner-insights--frequently-asked-questions"></a>Partneri bepillantást – gyakori kérdések
 
@@ -26,15 +26,15 @@ Ez minden olyan ismert problémára vonatkozik, amely az információkkal kapcso
 
 K) **nem jelenik meg a partneri központ fiókjában a bepillantást biztosító központ. Mit tegyek?**
 
-A) ellenőrizze, hogy bejelentkezett-e a szervezet MPN-fiókjába. Az adatellenőrzési irányítópultot nem érheti el a CSP-fiókjából. Győződjön meg arról is, hogy a jelentés megjelenítője vagy a Executive Report Viewer szerepkör hozzáférése a globális rendszergazda által biztosított.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](https://docs.microsoft.com/partner-center/pci-roles).
+A) ellenőrizze, hogy bejelentkezett-e a szervezet MPN-fiókjába. Az adatellenőrzési irányítópultot nem érheti el a CSP-fiókjából. Győződjön meg arról is, hogy a jelentés megjelenítője vagy a Executive Report Viewer szerepkör hozzáférése a globális rendszergazda által biztosított.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](./pci-roles.md).
 
 K) **nem tudom megtekinteni a jelentésekben szereplő számlázott bevételt vagy az Azure által felhasznált bevételi (ACR) adatmennyiséget. Miért van ez?**
 
-A) a számlázott bevétel és az ACR-adatbázis csak azokra a felhasználók számára érhető el, akik vezetői jelentések megjelenítői.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](https://docs.microsoft.com/partner-center/pci-roles).
+A) a számlázott bevétel és az ACR-adatbázis csak azokra a felhasználók számára érhető el, akik vezetői jelentések megjelenítői.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](./pci-roles.md).
 
 K) **nem tudom megtekinteni a jelentésekben szereplő számlázott bevételt vagy az Azure által felhasznált bevételi (ACR) adatmennyiséget. Miért van ez?**
 
-A) a számlázott bevétel és az ACR-adatbázis csak azokra a felhasználók számára érhető el, akik vezetői jelentések megjelenítői. A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](https://docs.microsoft.com/partner-center/pci-roles).
+A) a számlázott bevétel és az ACR-adatbázis csak azokra a felhasználók számára érhető el, akik vezetői jelentések megjelenítői. A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](./pci-roles.md).
 
 K) **úgy tűnik, hogy az ügyfél által jelentett ország helytelen. Miért van ez?**
 

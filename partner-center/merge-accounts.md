@@ -6,12 +6,12 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.custom: seodec18
 ms.date: 06/12/2020
-ms.openlocfilehash: 47827b6aa3bb9853355a6e2fa4f8816e1dd701a1
-ms.sourcegitcommit: 7f595faf952bf2d6cdc229da38bd67ee701b2083
+ms.openlocfilehash: ad5cc0e9c8642ceb309cac3f5fc7c99534c3dcda
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93189747"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182596"
 ---
 # <a name="merge-your-partner-account-with-another-partner-account"></a>A partnerfiók egyesítése másik partnerfiókkal
 
@@ -76,6 +76,8 @@ Ha úgy dönt, hogy elfogadja a meghívót a fiókok egyesítéséhez: · Az MPN
 - Ha a vállalata fejlett specializációkat szerzett, ezeket a rendszer megőrzi mindkét fiókban.
 
 - Minden frissítési garanciát igazoló bizonylatot mindkét fiókban meg kell őrizni. 
+
+- A DPOR és a PAL társításra nincs hatással. A kapcsolódó bevételi hozzájárulások megkezdik az új partner globális fiókba való beáramlást
 
 ## <a name="invite-a-company-to-merge-their-partner-center-account-with-your-partner-center-account"></a>Kérje meg a vállalatot, hogy egyesítse a partner Center-fiókját a partner Center-fiókkal
 

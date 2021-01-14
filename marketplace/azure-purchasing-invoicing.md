@@ -6,12 +6,12 @@ ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: b93ce1394326887b4265114c58527c36379101d9
-ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
+ms.openlocfilehash: 8f7962b1b040be90f7dc1b2696a2ced3830d25b9
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95007547"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182477"
 ---
 # <a name="azure-marketplace-purchasing"></a>Az Azure Marketplace megvásárlása
 
@@ -25,7 +25,7 @@ Az Azure Marketplace-en való vásárlás során nem kell az egyes szállítói 
 
 ## <a name="permission-to-purchase"></a>A vásárláshoz szükséges engedély
 
-Miután megtalálta a megfelelő szoftvert, a vásárlás befejezése egyszerű. Az Azure-előfizetésben azonban megfelelő engedélyekkel kell rendelkeznie. Mivel az Azure [szerepköralapú Access Control](https://docs.microsoft.com/azure/role-based-access-control/overview) (RBAC) modellen működik, a fióknak **előfizetés-tulajdonosi** vagy **közreműködői** engedélyekkel kell rendelkeznie a vásárláshoz.
+Miután megtalálta a megfelelő szoftvert, a vásárlás befejezése egyszerű. Az Azure-előfizetésben azonban megfelelő engedélyekkel kell rendelkeznie. Mivel az Azure [szerepköralapú Access Control](/azure/role-based-access-control/overview) (RBAC) modellen működik, a fióknak **előfizetés-tulajdonosi** vagy **közreműködői** engedélyekkel kell rendelkeznie a vásárláshoz.
 
 A vásárlás befejezése előtt ellenőrizze, hogy a felhasználó rendelkezik-e a megfelelő konfigurációval az Azure-bérlőben. Ez segít megelőzni a hibák megvásárlását.
 
@@ -55,7 +55,7 @@ Ezek a beállítások az Azure-előfizetéshez hozzáféréssel rendelkező öss
 
 ## <a name="cost-management"></a>Cost Management
 
-Az Azure Marketplace-en vásárolt termékekhez olyan bepillantást szeretne kapni, amelyek segítenek a költségek kezelésében. Azure Cost Management a megvásárolt termékekkel kapcsolatos információk megtekintésére szolgáló ingyenes eszköz. A Cost Management használatával megtekintheti, hogy milyen szolgáltatásokra költ pénzt, és hogyan követheti nyomon ezeket a költségeket a beállított költségkeretek alapján. A költségvetések beállítása mellett a jelentések is ütemezhetők, és az előfizetési költségek is elemezhetők. További információ a Azure Cost Managementről: a Microsoft Learn modul [elemzése a költségek elemzéséhez és a költségvetések létrehozása Azure Cost Management](https://docs.microsoft.com/learn/modules/analyze-costs-create-budgets-azure-cost-management/)használatával.
+Az Azure Marketplace-en vásárolt termékekhez olyan bepillantást szeretne kapni, amelyek segítenek a költségek kezelésében. Azure Cost Management a megvásárolt termékekkel kapcsolatos információk megtekintésére szolgáló ingyenes eszköz. A Cost Management használatával megtekintheti, hogy milyen szolgáltatásokra költ pénzt, és hogyan követheti nyomon ezeket a költségeket a beállított költségkeretek alapján. A költségvetések beállítása mellett a jelentések is ütemezhetők, és az előfizetési költségek is elemezhetők. További információ a Azure Cost Managementről: a Microsoft Learn modul [elemzése a költségek elemzéséhez és a költségvetések létrehozása Azure Cost Management](/learn/modules/analyze-costs-create-budgets-azure-cost-management/)használatával.
 
 Az Azure Cost Management költségelemző eszközével megtekintheti az Azure Marketplace-díjakat és a számlákat.
 
@@ -63,4 +63,4 @@ Az Azure Cost Management költségelemző eszközével megtekintheti az Azure Ma
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Számlázás és számlázás](billing-invoicing.md)
+- [Számlázás és számlakiállítás](billing-invoicing.md)

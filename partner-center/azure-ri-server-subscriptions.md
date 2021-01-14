@@ -9,12 +9,12 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0434ad2e6494f5efc1b1e5e2aa003dc6587d7b4e
-ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
+ms.openlocfilehash: 1d5386dd4b2b19e641cc9d731d4a3d0f44ab5ad6
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94691350"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182494"
 ---
 # <a name="acquire-provision--manage-azure-reserved-vm-instances-ri--server-subscriptions-for-customers"></a>Azure Reserved VM instances (RI) + kiszolgáló-előfizetések beolvasása, kiépítése, & kezelése
 
@@ -47,7 +47,7 @@ A [Azure Reserved VM instances](https://azure.microsoft.com/pricing/reserved-vm-
 
 A kényszerített árképzés és a páratlan üzembe helyezési rugalmasság páratlan kombinációja esetén az ügyfelek a legjobb általános értéket fogják látni, amikor kiválasztják Azure Reservations.
 
-- Az Azure Portalon megjelenő [vásárlási foglalások](https://docs.microsoft.com/azure/cost-management-billing/reservations/prepare-buy-reservation#purchase-reservations) .
+- Az Azure Portalon megjelenő [vásárlási foglalások](/azure/cost-management-billing/reservations/prepare-buy-reservation#purchase-reservations) .
 
 - Tekintse meg az **Azure ri CSP kereskedelmi díjszabását** a **Microsoft Azure fenntartott példányok** kategóriájában a következő témakörben: a partner Center [díjszabási és ajánlatok](https://partner.microsoft.com/dashboard/sell/pricingandoffers) lapján a szoftveres előfizetések és a Linux ISV éves előfizetések
 
@@ -69,24 +69,24 @@ Ha szeretné megtudni, hogy a lehető leggyorsabban hogyan helyezheti el a Azure
 
 1. Tekintse át és Ismerje meg a [partner Center új kereskedelmi üzemeltetési útmutatóját](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf).
 
-2. A Azure Reservations-és kiszolgálói előfizetések frissítéseinek megismerése a [partner Center API-ban (API/SDK)](https://docs.microsoft.com/partner-center/develop/purchase-azure-reserved-vm-instances).
+2. A Azure Reservations-és kiszolgálói előfizetések frissítéseinek megismerése a [partner Center API-ban (API/SDK)](/partner-center/develop/purchase-azure-reserved-vm-instances).
 
 
 ### <a name="sales-readiness"></a>Értékesítés készültsége
 
 - [Távoli asztali szolgáltatások (RDS) ügyfél-hozzáférési licenc (CAL) (közlemény)](https://cloudblogs.microsoft.com/windowsserver/2018/10/03/remote-desktop-services-2019-generally-available-with-windows-server-2019/)
 
-- [Azure Reserved VM Instances (Azure Portal)](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances)
+- [Azure Reserved VM Instances (Azure Portal)](/azure/virtual-machines/windows/prepay-reserved-vm-instances)
 
-- [Kiszolgálói előfizetések](https://docs.microsoft.com/partner-center/csp-software-subscriptions)
+- [Kiszolgálói előfizetések](./csp-software-subscriptions.md)
 
-- [SQL DB-foglalások (Azure Portal)](https://docs.microsoft.com/azure/sql-database/sql-database-reserved-capacity)
+- [SQL DB-foglalások (Azure Portal)](/azure/sql-database/sql-database-reserved-capacity)
 
-- [Azure Cosmos DB (Azure Portal)](https://docs.microsoft.com/azure/cosmos-db/cosmos-db-reserved-capacity)
+- [Azure Cosmos DB (Azure Portal)](/azure/cosmos-db/cosmos-db-reserved-capacity)
 
-- [SQL felügyelt példánya (Azure Portal)](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance)
+- [SQL felügyelt példánya (Azure Portal)](/azure/sql-database/sql-database-managed-instance)
 
-- [SUSE és Red Hat Enterprise Linux (Azure Portal)](https://docs.microsoft.com/azure/virtual-machines/linux/prepay-suse-software-charges)
+- [SUSE és Red Hat Enterprise Linux (Azure Portal)](/azure/virtual-machines/linux/prepay-suse-software-charges)
 
 - [Red Hat Linux az Azure-on](https://azure.com/redhat)
 
@@ -98,7 +98,7 @@ Ha szeretné megtudni, hogy a lehető leggyorsabban hogyan helyezheti el a Azure
 
 - [Az Azure díjszabásának kalkulátora](https://azure.microsoft.com/pricing/calculator)
 
-- [Azure Databricks egység foglalásai](https://docs.microsoft.com/azure/billing/billing-prepay-databricks-reserved-capacity)
+- [Azure Databricks egység foglalásai](/azure/billing/billing-prepay-databricks-reserved-capacity)
 
 
 ## <a name="training"></a>Képzés

@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/21/2020
-ms.openlocfilehash: c186c61fa6a583284884020bf442517e9bb38182
-ms.sourcegitcommit: 4c52d3a1fde7eba20607e9e329a71e478b019036
+ms.openlocfilehash: f20015fff92e200bce1d17fd6fda7b7ced618e00
+ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97736538"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98182562"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
@@ -31,7 +31,7 @@ ________________
 - Dátum: 2020-12-22
 - Ajánlatok
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A FY21 H1 használati időszak (2020. július 1 – december 31.) nem használt együttes op-alapok a FY21 H2 használati időszakára (január 1-től június 30-ig 2021) lesznek áthelyezve.
 
@@ -67,7 +67,7 @@ ________________
 - Dátum: 2020-12-22
 - Képességek – fokozza a biztonsági & megfelelőségét
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft a DocuSign-ből az Adobe-ba történő összes elektronikus aláírás feldolgozását átváltja
 
@@ -152,7 +152,7 @@ Az új Microsoft Edge egy modern böngésző legjobb kifejeződése, és örömm
 **A módosítás hatása**
 
 - **November 30 2020**-én az ügyfelek már nem tudnak csatlakozni a Microsoft Teams webalkalmazáshoz az Internet Explorer 11 böngészőben. A Microsoft úgy véli, hogy az ügyfelek az [új Microsoft Edge](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)használatakor a legtöbbet a Microsoft 365 és a modern böngésző legjobb kifejeződésével fogják kipróbálni.
-- **Március 9 2021**, a Microsoft Edge Legacy-hoz létrehozott alkalmazások és webhelyek továbbra is működni fognak az új Microsoft Edge-ben, de ha kompatibilitási probléma merül fel, akkor az [alkalmazás biztosítja az ígéretet](https://aka.ms/appassure) , hogy támogatást nyújtson.
+- **Március 9 2021**, a Microsoft Edge Legacy-hoz létrehozott alkalmazások és webhelyek továbbra is működni fognak az új Microsoft Edge-ben, de ha kompatibilitási probléma merül fel, akkor az [alkalmazás biztosítja az ígéretet](/fasttrack/products-and-capabilities#app-assure) , hogy támogatást nyújtson.
 - **Augusztus 17 2021** után az ügyfelek csökkentett teljesítményű élményt kapnak, vagy nem tudnak csatlakozni az Internet Explorer 11 Microsoft 365 alkalmazásaihoz és szolgáltatásaihoz. A Microsoft úgy véli, hogy az ügyfelek az [új Microsoft Edge](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)használatakor a legtöbbet a Microsoft 365 és a modern böngésző legjobb kifejeződésével fogják kipróbálni.
 
 ### <a name="next-steps"></a>Következő lépések
@@ -195,7 +195,7 @@ ______________
 - Dátum: 2020-12-17
 - Ajánlatok/piacok
  
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként a további vásárlói adatokat fogjuk igénybe venni, amelyek a 2021. márciusi időszak végén érvényesek.
 
@@ -264,7 +264,7 @@ ______________
 - Dátum: 2020-12-17
 - Vállalkozás fejlesztése
  
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 Ez egy emlékeztető arról, hogy a 2021. január 19-én az összes CSP-partner képes lesz értékesíteni a kereskedelmi örökös szoftveres licenceket. Új termékeket és földrajzi régiókat is bevezetünk.
 
@@ -280,7 +280,7 @@ A következő ugyanezt a dátumot is végrehajtja:
 
 - A CSP Perpetual Software árlista újra közzé lesz téve a partner Centerben. Az [értékesítés > díjszabása & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldal **szoftver** szakaszában találhatja meg, amely további termékeket és földrajzi régiókat tartalmaz. Részletes információt [itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) talál.
 
-- A partner Center szoftver-és licenckulcs-teljesítési funkciója kivonásra kerül – lásd a [bejelentést](https://docs.microsoft.com/partner-center/announcements/2020-september#17) , és a partnerek a Microsoft 365 felügyeleti központot kizárólag erre a célra használják tovább. Ez biztosítja az ügyfelek számára legbiztonságosabb és leghatékonyabb élményt. A Microsoft 365 felügyeleti központ szoftverével kapcsolatos további információkért tekintse át az [Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), a [gyakori feladatok](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&preserve-view=true)és a [licencek kulcsának teljesítésére vonatkozó lehetőségeket](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf).
+- A partner Center szoftver-és licenckulcs-teljesítési funkciója kivonásra kerül – lásd a [bejelentést](./2020-september.md#17) , és a partnerek a Microsoft 365 felügyeleti központot kizárólag erre a célra használják tovább. Ez biztosítja az ügyfelek számára legbiztonságosabb és leghatékonyabb élményt. A Microsoft 365 felügyeleti központ szoftverével kapcsolatos további információkért tekintse át az [Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), a [gyakori feladatok](/microsoft-365/admin/admin-overview/about-the-admin-center?preserve-view=true&view=o365-worldwide)és a [licencek kulcsának teljesítésére vonatkozó lehetőségeket](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf).
 
 ### <a name="perpetual-software-in-csp"></a>Örökös szoftver a CSP-ben
 
@@ -292,7 +292,7 @@ Tekintse át a következő erőforrásokat, és ossza meg őket a szervezete meg
 
 - A [CSP Perpetual szoftver termékei és földrajzi](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) területe a 2021. január 19-én bővült
 
-- Microsoft 365 felügyeleti központ [– Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), [gyakori feladatok](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&preserve-view=true)és [licenckulcs-teljesítési képességek](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf)
+- Microsoft 365 felügyeleti központ [– Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), [gyakori feladatok](/microsoft-365/admin/admin-overview/about-the-admin-center?preserve-view=true&view=o365-worldwide)és [licenckulcs-teljesítési képességek](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf)
 
 - [Lehetőségek bővítése a partnereknek a felhőalapú megoldás-szolgáltató programban](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) (partner bejelentése)
 
@@ -426,7 +426,7 @@ ______________
 - Dátum: 2020-12-8
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 A decemberi 2020 licenc-alapú árlista és ajánlat lista mátrixa néhány problémát tartalmaz.
 
@@ -485,7 +485,7 @@ ______________
 - Dátum: 2020-12-3
 - Ajánlatok/piacok
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 2021. január 1-jén a Microsoft elkezdi az Egyesült államokbeli partnereket és ügyfeleket új Microsoft 365 Vállalati verzió hangra a Calling Plan ajánlatával. Nincs szükség partneri beavatkozásra.
 
@@ -531,7 +531,7 @@ ______________
 
 Az akadémiai ajánlatokat a Cloud Solution Provider programon keresztül értékesítő partnereink
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk arra, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfelek ellenőrzéséhez a felhőalapú megoldás-szolgáltatói programban. Ennek a kötelezettségvállalásnak a részeként a partner Center API-t és a felhasználói felület fejlesztéseit fogjuk bevezetni, amelyekkel egyértelművé és láthatóvá válik az ügyfelek bevonási folyamata, valamint a pontosabb adatok bevitele is, ami javítja az ügyfelek sikeres ellenőrzését. 
 
@@ -573,4 +573,4 @@ _ Augusztus 31.2020: eredeti kiadvány
 
 - November 10.2020: emlékeztető a tesztelésre való regisztrációhoz 
 
-- 2020. december 3.: API-frissítések élőben 
+- 2020. december 3.: API-frissítések élőben
