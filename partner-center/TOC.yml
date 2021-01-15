@@ -675,8 +675,12 @@
         - name: Az Insights adatdefiníciói
           href: pci-data-definitions.md
     - name: Partnerhozzájárulás-jelzők
-      href: partner-contribution-indicators.md
-      displayName: mpn
+      items:
+        - name: A Cloud Business Applications-kompetencia esetén
+          href: partner-contribution-indicators.md
+        - name: A Small and Midmarket Cloud Solutions-kompetencia esetén
+          href: partner-contribution-indicators-small-and-midmarket-cloud-business-option.md
+      displayName: 'mpn, cloud business applications competency, small and midmarket cloud solutions competency, CBA SMB option'
     - name: Egyéb adatok elemzése
       items:
         - name: Ügyfelek Azure-használata
