@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/07/2021
-ms.openlocfilehash: 042ef617bfde17c1a28ab91d89ae9151e339cefc
-ms.sourcegitcommit: 0e8abea7445b7d3f0c4a6320380ecc7d0ef049f9
+ms.openlocfilehash: f92b801d5e3294e461d07f9089b545a41efc4d6a
+ms.sourcegitcommit: 7d15e9bdb93a780886f588d294383d33c70a49f0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "98062450"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98235936"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -23,6 +23,24 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 2021 közlemények: január
 
 2020 bejelentések: [május](2020-may.md)  |  [június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) .  
+
+_____________ 
+
+## <a name="commercial-pricing-update-for-norwegian-krone"></a><a name="7"></a>A Norvég korona kereskedelmi díjszabásának frissítése 
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-14
+- Ajánlatok/piacok
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A felhőalapú megoldás szolgáltatói partnerei a norvég Krone használatával.
+
+### <a name="details"></a>Részletek
+
+2021. március 1-től a kereskedelmi helyszíni szoftverekre és online szolgáltatásokokra vonatkozó Norvég korona-árak a régióban érvényes díjszabási szinttel lesznek átigazítva.
+A teljes bejelentés csak a Microsoft partnerei számára érhető el. [Jelentkezzen be a teljes bejelentéshez való hozzáféréshez](https://partner.microsoft.com/resources/detail/pricing-update-norway-partners-pdf).
 
 _____________ 
 
@@ -78,7 +96,7 @@ Ezek az ajánlatok a kereskedelmi, a tanulói, az oktatói, a kormányzati köz�
    |Az USA és Kanada tanulói számára Microsoft 365 belföldi telefonálási terv|1f4b4375-3185-40cf-b044-117fe3b102c6|LM7-00007|
    |Az USA-beli és kanadai GCC-re vonatkozó belső hívási terv Microsoft 365|594ed84e-ddf8-4e40-9726-76c04bd29e3b|LM9-00023|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ossza meg ezeket az információkat a szervezete megfelelő kapcsolataival, és Ismerje meg a upsell és az értékesítési lehetőségeket. 
 - Tekintse át a [Teams partner útmutatójának](https://aka.ms/teamscallingmeetingsguide)erőforrások szakaszát.
@@ -116,7 +134,7 @@ A január 2021-es és február 2021-os licenc-alapú árlista néhány helytelen
 
 A partnereknek a megfelelő árakra vonatkozóan a jelenleg elérhető január és február előzetes árlista-listát kell megjelenniük. 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - A partnerek a partner Center legújabb árlista-fájljait tölthetik le, hogy a javított januári és februári árakat kapják meg. 
 - Az érintett bérlők globális rendszergazdái, akik a január 1. és január 6. között megvásárolt előfizetéseket, további részletekkel értesítjük a partner Center e-mail-címéről. 
@@ -170,7 +188,7 @@ Ez a frissítés csökkenti a többpénznemes számlázás összetettségét és
 - A partnerek a többszörös pénznemű számlázások által okozott csökkentett számlázási bonyolultságot észlelik, ami felszabadítja az időt és a jelenleg a fiókok egyeztetéséhez kapcsolódó erőforrásokat.
 - Azon partnereink számára, akik még nem vezették be új kereskedelmi ajánlatokat, ez a változás összhangban van az előző partner számlázási modellel, amely lehetővé teszi, hogy a partnerek könnyebben áttérjenek a CSP új kereskedelmi felületére
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át a témakör információit az [operatív](https://partner.microsoft.com/resources/collection/eu-efta-changes-collection#/) katalógusban (a szükséges bejelentkezési adatokkal) a Microsoft partner webhelyén.  
 
@@ -195,7 +213,7 @@ A partner Center API-t használó, a Cloud Solution Provider program keretében 
 
 Ez a 2020 decemberében kiadott API-fejlesztések követése. 2020 decemberében megjelent az új GET és POST minősítési API-k, és ennek eredményeképpen a régi GET és PUT minősítési API-k a 2021 februárjában megszűnnek. Ebben az időben az új GET és POST partner Center API-kat kell használnia ahhoz, hogy oktatási ajánlatokat tudjon vásárolni. 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ha még nem tette meg, frissítsen az új API-kra sikeres és időben történő áttéréshez.
 - Tekintse át az új partner Center API-módosításokat, valamint [az operatív készültségi erőforrások: a partner Center oktatási ügyfelek ellenőrzési folyamatának fejlesztéseit ismertető témakört](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/).
@@ -259,7 +277,7 @@ Ezek az SKU-i a január 1-től 2021 végleges árlista alapján lettek eltávol�
    |Dynamics 365 Operations – AX Migration program eszköz|8c8b7c8f-cb3a-4737-8319-1752938c7be3|
    |A Dynamics 365 csapat tagjai a AX Migration programhoz|1eb3ad0b-9de3-419d-8bfe-0d61bdd945b2|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át a témakör erőforrásait, és ossza meg őket a szervezete megfelelő szereplőivel. 
 

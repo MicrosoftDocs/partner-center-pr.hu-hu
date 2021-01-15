@@ -1,7 +1,7 @@
 ---
 title: A Partnerközpontfiók kezelése
 ms.topic: conceptual
-ms.date: 11/20/2020
+ms.date: 01/14/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan használhatja a partner centert a vállalat profiljának, banki és adózási információinak, szerepköreinek, engedélyeinek és egyéb adatainak kezeléséhez.
@@ -9,16 +9,17 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3c5541323d691799d3f89b94ed9556c2458c737d
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 9c1a17b6703981dee93acbb057bff2405d1f4f11
+ms.sourcegitcommit: 7d15e9bdb93a780886f588d294383d33c70a49f0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182460"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98235970"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
-**Megfelelő szerepkörök** – globális rendszergazda, MPN-rendszergazda
+**Megfelelő szerepkörök** – globális rendszergazda
+- MPN-fiók rendszergazdája
 
 A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti adatok regisztrálása. Miután létrehozta a fiókot, befejezi a vállalat teljes profiljának beállítását, beleértve a támogatás részleteit, a fájlok adómentességét, ha szükséges, és az elsődleges kapcsolattartási adatokat is. A vállalat fiókja olyan felhasználói fiókokat is tartalmaz, akik a partner centert használják az ügyfelek hozzáadásához és kezeléséhez, az előfizetések értékesítéséhez, a számlázáshoz és a számlázáshoz, az üzleti profilok létrehozásához, az átirányítások kezeléséhez, az ösztönző programok használatához és a támogatás biztosításához.
 
@@ -60,6 +61,10 @@ Ezekkel a lapokkal az üzleti tevékenység részletes területeit kezelheti, be
 ### <a name="legal-info"></a>Jogi információk
 
 Amikor először csatlakozik a partneri központhoz, a vállalat egy ellenőrzési folyamaton keresztül halad a Microsofttal. Az ellenőrzés állapotát a **jogi információk** lapon követheti nyomon. Itt látható az elsődleges Kapcsolatfelvétel (a Microsoft kapcsolatba lép a partneri kérdésekkel kapcsolatban), valamint az elsődleges jogi kapcsolatfelvételsel (a jogi információkat és az állapotot kezelő személysel). A vállalata összes üzleti telephelye szerepel a listán, és Itt adhatók hozzá.
+
+### <a name="primary-contact-email"></a>Elsődleges kapcsolattartási e-mail cím
+
+Az elsődleges kapcsolattartási e-mail-cím, amelyet a rendszer a fiók ellenőrzésével kapcsolatos értesítésre használ. Nagyon fontos, hogy az elsődleges kapcsolathoz megadott e-mail-cím rendszeresen felügyelhető és figyelhető legyen.  
 
 További információ az [ellenőrzésről és a fiókadatokról](verification-responses.md).
 
@@ -129,7 +134,7 @@ Ha többet szeretne megtudni a partner Center-programok regisztrálásáról, te
 
 További információ a partner Center-programokban való regisztrálásról: a [partner hálózati erőforrásai](https://partner.microsoft.com/).
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [A partnerprofil frissítése](update-your-partner-profile.md)
 - [Felhasználói fiókok létrehozása és engedélyek beállítása](create-user-accounts-and-set-permissions.md)

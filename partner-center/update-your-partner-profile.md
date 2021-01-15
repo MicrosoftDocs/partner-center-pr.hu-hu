@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/14/2021
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3b0c9611927d644cc7a5beecc89e0a8cc6f066b7
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: 3dc16fe12a722a7e926dcb72d46eeb9be6b7d4ea
+ms.sourcegitcommit: 7d15e9bdb93a780886f588d294383d33c70a49f0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215883"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98235919"
 ---
 # <a name="verify-your-organization-profile-information-in-partner-center"></a>A szervezeti profil adatainak ellenőrzése a partner Centerben
 
@@ -27,8 +27,9 @@ Amikor globális rendszergazdaként először jelentkezik be a partner Centerbe,
 
 A partneri profilja a jogi üzleti adatokból, az elsődleges kapcsolattartó nevéből és az e-mailből, a vállalat által részt vevő programokból, valamint adott esetben más vállalatokból áll, amelyek mostantól a jogi üzleti tevékenység keretében egyesülnek. Győződjön meg arról, hogy a vállalat neve és címe a jogi üzleti profilban nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megfelel a vállalati üzleti regisztrációs rekordoknak. Ha kizárólagos tulajdonosként működik, a vállalat nevét a jogi neveként kell használnia.
 
-- Az MPN-fiókok esetében a globális rendszergazda és a fiók rendszergazdája is frissítheti a jogi cég nevét.
-- A SZOLGÁLTATÓi közvetett viszonteladói fiókok esetében a globális rendszergazda frissítheti a jogi cég nevét. 
+>[!Important]
+>- Az MPN-fiókok esetében a globális rendszergazda és a fiók rendszergazdája is frissítheti a jogi cég nevét.
+>- A SZOLGÁLTATÓi közvetett viszonteladói fiókok esetében a globális rendszergazda frissítheti a jogi cég nevét. 
 
 ## <a name="locate-the-legal-business-profile"></a>A jogi üzleti profil megkeresése
 
@@ -81,14 +82,9 @@ A CSP-fiókhoz társított MPN-azonosító frissítése:
 
 Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszergazdai ügynök, akkor megváltoztathatja a számlán megjelenő címeket a **kifizetési és az adózási profilban**. A számlán szereplő vállalatnevet azonban nem módosíthatja a számlázási rendszer korlátozásai miatt.
 
-## <a name="next-steps"></a>Következő lépések
-
+## <a name="next-steps"></a>További lépések
 
 - [Ellenőrzés állapotának ellenőrzése](verification-responses.md)
  
 - [MPN-helyszínek kezelése](manage-locations.md)
 
-
-
-Az MPN program esetében a globális rendszergazda és a fiók rendszergazdája a jogi cég nevét is frissítheti.
-A CSP közvetett viszonteladóként a globális rendszergazda frissítheti a jogi cég nevét.
