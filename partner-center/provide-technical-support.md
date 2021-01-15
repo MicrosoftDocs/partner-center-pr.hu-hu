@@ -9,21 +9,18 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e5ee0fcacb1d67fd015bd0e143d8d4e19b49ce71
-ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.openlocfilehash: e7488720bf0028dcccd86ee51b18d2a42b753e76
+ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "92528134"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215832"
 ---
 # <a name="provide-technical-support-to-help-customers-configure-manage-and-use-their-subscriptions"></a>Technikai támogatást nyújt az ügyfeleknek az előfizetések konfigurálásához, kezeléséhez és használatához
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felhasználói rendszergazda
 - Segélyszolgálat ügynöke
@@ -62,10 +59,14 @@ A partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelek
 
 ### <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázási, előfizetés-kezelési és technikai támogatás biztosítása 
 
-Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információkért lásd:
+Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információ:
 
 - [A CSP-n keresztül eladott Dynamics 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
 
 - [CSP-n keresztül eladott Azure-előfizetések](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5263#M31)
 
 - [A CSP-n keresztül eladott Office 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5264#M32)
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében – beleértve azt is, hogy mikor és hogyan történik](report-problems-on-behalf-of-a-customer.md)

@@ -9,30 +9,27 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 82eaf215bcbc107da6a3f9f5049e4eb89c952ab0
-ms.sourcegitcommit: 36a60f672c1c3d6b63fd225d04c5ffa917694ae0
+ms.openlocfilehash: 11a17550ed5c0ab2154ec0daa03818236b26e820
+ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "92527969"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215934"
 ---
 # <a name="provide-billing-support-for-your-customers-and-help-answer-their-billing-questions"></a>Számlázási támogatás biztosítása az ügyfelek számára, és a számlázási kérdések megválaszolása
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felhasználói rendszergazda
 - Segélyszolgálat ügynöke
 - Számlázási adminisztrátor
 - Értékesítési ügynök
 
-Ön rendelkezik a számlázási kapcsolattal ügyfeleivel, és Ön felelős az ügyfelek számlázási kérdéseinek megválaszolásáért.
+Ön rendelkezik a számlázási kapcsolattal az ügyfelekkel, és Ön felelős az ügyfelekkel kapcsolatos számlázási kérdések megválaszolásáért.
 
-- Az Ön felelőssége, hogy a Microsoft számára időben fizessen.
+- Az Ön felelőssége, hogy a Microsoft számára időben kifizessen.
 
 - Javasoljuk, hogy hozzon létre egy Clear Collections-szabályzatot azokkal az ügyfelekkel, akik a gyűjtemények folyamatát részletezik, és az ügyfél előfizetéseit, szolgáltatásait és szoftvereit is érinti.
 
@@ -59,11 +56,14 @@ A partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelek
 
 ### <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázási, előfizetés-kezelési és technikai támogatás biztosítása 
 
-Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információkért lásd:
+Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információ:
 
 - [A CSP-n keresztül eladott Dynamics 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
 
 - [CSP-n keresztül eladott Azure-előfizetések](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5263#M31)
 
 - [A CSP-n keresztül eladott Office 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5264#M32)
- 
+ 
+## <a name="next-steps"></a>Következő lépések
+
+- [Műszaki támogatás biztosítása](provide-technical-support.md)

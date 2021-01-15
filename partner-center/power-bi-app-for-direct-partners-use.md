@@ -10,18 +10,16 @@ author: v-sumukh
 ms.author: v-sumukh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 248527fdbc536c552f7b2d00f208838b4ef19085
-ms.sourcegitcommit: 0a6b1e6d845391539f54213efff00af4d23f028c
+ms.openlocfilehash: 244cb852728d47360cf8ecd1d1e9ccb641466b1d
+ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "92527976"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215747"
 ---
 # <a name="view-your-business-data-with-the-partner-center-analytics-app-for-microsoft-power-bi"></a>Üzleti adatai megtekinthetők a Microsoft Power BI partner Center Analytics alkalmazásával
 
-**A következőkre vonatkozik**
 
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -58,27 +56,27 @@ Tekintse meg az üzleti adatai vizuális megjelenítését a Power BIhez készü
 
 ### <a name="business-insights-report"></a>Üzleti célú adatjelentések
 
-- **Ügyfél bérlői** : a megvásárolt előfizetéseket használó ügyfelek eltérő Azure ad-bérlőinak száma
+- **Ügyfél bérlői**: a megvásárolt előfizetéseket használó ügyfelek eltérő Azure ad-bérlőinak száma
 
-- **Új (utolsó 30 nap)** : az új ügyfelek legalább egy előfizetést vásárolnak az elmúlt 30 napban
+- **Új (utolsó 30 nap)**: az új ügyfelek legalább egy előfizetést vásárolnak az elmúlt 30 napban
 
-- Forgalom **(utolsó 30 nap)** : az ügyfelek "aktív", "türelmi" vagy "letiltott" előfizetések nélkül
+- Forgalom **(utolsó 30 nap)**: az ügyfelek "aktív", "türelmi" vagy "letiltott" előfizetések nélkül
 
-- **Új (az elmúlt 24 órában)** : az új ügyfelek legalább egy előfizetést vásárolnak az elmúlt 24 órában
+- **Új (az elmúlt 24 órában)**: az új ügyfelek legalább egy előfizetést vásárolnak az elmúlt 24 órában
 
-- A **becsült havi költség az elmúlt 12 hónapban** : a becsült ÁFA utáni becsült összeg havi száma az elmúlt 12 hónap során összesítve
+- A **becsült havi költség az elmúlt 12 hónapban**: a becsült ÁFA utáni becsült összeg havi száma az elmúlt 12 hónap során összesítve
 
-- **Becsült költségek termékenként az elmúlt 12 hónapban** : eladott termékek – az elmúlt 12 hónap során összesítve becsült ÁFA után fizetendő összeg. Ez az állapot a legtöbb bevételt eredményező legfontosabb termékeket jelzi.
+- **Becsült költségek termékenként az elmúlt 12 hónapban**: eladott termékek – az elmúlt 12 hónap során összesítve becsült ÁFA után fizetendő összeg. Ez az állapot a legtöbb bevételt eredményező legfontosabb termékeket jelzi.
 
 - Az **elmúlt 12 hónapban** megjelenő ügyfelek: az új ügyfelek és a forgalomban lévő ügyfelek havi hónapja az elmúlt 12 hónap során összesítve
 
-- **Becsült költségek az ügyfél által az elmúlt 12 hónapban** : az ügyfelek az elmúlt 12 hónapra vonatkozó becsült ÁFA után fizetendő összeg alapján összesítve jelennek meg. Ez az állapot a legtöbb bevételt eredményező legfontosabb ügyfeleket jelzi.
+- **Becsült költségek az ügyfél által az elmúlt 12 hónapban**: az ügyfelek az elmúlt 12 hónapra vonatkozó becsült ÁFA után fizetendő összeg alapján összesítve jelennek meg. Ez az állapot a legtöbb bevételt eredményező legfontosabb ügyfeleket jelzi.
 
-- **Ügyfelek száma termék szerint** : az eladott termékek a társított ügyfelek szerint rendezve. Ez az állapot a legtöbb ügyfél számára eladott legfontosabb termékeket jelzi.
+- **Ügyfelek száma termék szerint**: az eladott termékek a társított ügyfelek szerint rendezve. Ez az állapot a legtöbb ügyfél számára eladott legfontosabb termékeket jelzi.
 
 ### <a name="subscription-insights-report"></a>Előfizetés-áttekintési jelentés
 
-- **Előfizetés állapota** :
+- **Előfizetés állapota**:
 
 - Aktív: az "aktív" vagy "a" türelmi állapotba tartozó előfizetések
 
@@ -86,7 +84,7 @@ Tekintse meg az üzleti adatai vizuális megjelenítését a Power BIhez készü
 
   - Kiépítve: "kiépített" vagy "lejárt" állapotba tartozó előfizetések
 
-- **Lejárati állapot** :
+- **Lejárati állapot**:
 
   - Lejárt: már lejárt előfizetések (az előfizetés lejárati dátuma korábbi)
 
@@ -94,75 +92,75 @@ Tekintse meg az üzleti adatai vizuális megjelenítését a Power BIhez készü
 
   - 30 nap alatt lejár: az előfizetések, amelyek a következő 30 napon belül lejárnak (az előfizetés befejezési dátuma ma és a következő 30 nap között van)
 
-- **Összes előfizetés** : az "Active", "" in Grace "vagy" disabled "állapotú előfizetések
+- **Összes előfizetés**: az "Active", "" in Grace "vagy" disabled "állapotú előfizetések
 
-- **Új (utolsó 30 nap)** : az ügyfelek által az elmúlt 30 napban vásárolt új előfizetések
+- **Új (utolsó 30 nap)**: az ügyfelek által az elmúlt 30 napban vásárolt új előfizetések
 
-- **Új (az elmúlt 24 óra)** : az ügyfelek által az elmúlt 24 órában vásárolt új előfizetések
+- **Új (az elmúlt 24 óra)**: az ügyfelek által az elmúlt 24 órában vásárolt új előfizetések
 
-- **30 nap alatt lejár** : az előfizetések, amelyek a következő 30 napon belül lejárnak
+- **30 nap alatt lejár**: az előfizetések, amelyek a következő 30 napon belül lejárnak
 
-- Forgalom **(utolsó 30 nap)** : az elmúlt 30 napban kiosztott vagy felfüggesztett (letiltott) előfizetések
+- Forgalom **(utolsó 30 nap)**: az elmúlt 30 napban kiosztott vagy felfüggesztett (letiltott) előfizetések
 
 - **Elosztás előfizetési típusok** szerint: az összes előfizetés%-os elosztása licenc-alapú és használati alapú előfizetési típus szerint
 
-- **Aktív előfizetés darabszáma termékenként** : aktív előfizetések száma szerint értékesített termékek száma
+- **Aktív előfizetés darabszáma termékenként**: aktív előfizetések száma szerint értékesített termékek száma
 
-- **Előfizetések az elmúlt 12 hónapban** : az új előfizetések és a változási előfizetések hónapja az elmúlt 12 hónap során összesített havi gyakorisággal
+- **Előfizetések az elmúlt 12 hónapban**: az új előfizetések és a változási előfizetések hónapja az elmúlt 12 hónap során összesített havi gyakorisággal
 
-- **Ügyfél-előfizetés részletei** : az ügyfelek, előfizetések és ajánlatok részletes áttekintése
+- **Ügyfél-előfizetés részletei**: az ügyfelek, előfizetések és ajánlatok részletes áttekintése
 
 ### <a name="license-insights-report"></a>Licencelési jelentés:
 
-- Összes **licenc** : teljes licenc-alapú előfizetések összesített száma
+- Összes **licenc**: teljes licenc-alapú előfizetések összesített száma
 
-- **Új (utolsó 30 nap)** : licenc hozzáadása az elmúlt 30 napban
+- **Új (utolsó 30 nap)**: licenc hozzáadása az elmúlt 30 napban
 
-- Adatforgalom **(utolsó 30 nap)** : a licencek csökkentése az elmúlt 30 napban
+- Adatforgalom **(utolsó 30 nap)**: a licencek csökkentése az elmúlt 30 napban
 
-- **Új (utolsó 24 óra)** : licenc hozzáadása az elmúlt 24 órában
+- **Új (utolsó 24 óra)**: licenc hozzáadása az elmúlt 24 órában
 
-- Az **elmúlt 90 napra vonatkozó licencek** : a licencek hozzáadásának hónapja, valamint az elmúlt 90 nap során összesített havi összesítések.
+- Az **elmúlt 90 napra vonatkozó licencek**: a licencek hozzáadásának hónapja, valamint az elmúlt 90 nap során összesített havi összesítések.
 
-- **Aktív licencek száma termék szerint** : az eladott termékek aktív licencek száma szerint rendezve
+- **Aktív licencek száma termék szerint**: az eladott termékek aktív licencek száma szerint rendezve
 
-- **Aktív licencek száma ügyfél szerint** : az ügyfelek az aktív licencek száma szerint rendezve
+- **Aktív licencek száma ügyfél szerint**: az ügyfelek az aktív licencek száma szerint rendezve
 
-- **Ügyfél-licencelési esemény részletei az elmúlt 90 napban** : az ügyfelek, előfizetések és előfizetési események részletes nézete, beleértve az esemény dátumát, az esemény nevét, a mennyiséget és a mennyiség változását.
+- **Ügyfél-licencelési esemény részletei az elmúlt 90 napban**: az ügyfelek, előfizetések és előfizetési események részletes nézete, beleértve az esemény dátumát, az esemény nevét, a mennyiséget és a mennyiség változását.
 
 ### <a name="licenses-usage-report"></a>Licencek használati jelentése:
 
-- **A termék által hozzárendelt licencek** : az eladott termékek licenc-hozzárendelések száma szerint rendezve
+- **A termék által hozzárendelt licencek**: az eladott termékek licenc-hozzárendelések száma szerint rendezve
 
-- **Termék által használt licencek** : a licencek használati száma szerint rendezve értékesített termékek
+- **Termék által használt licencek**: a licencek használati száma szerint rendezve értékesített termékek
 
-- **A hozzárendelt licencek ügyfél-eloszlása** : a teljes ügyfelek%-os elosztása a licenc-hozzárendeléssel számított 20%-ban
+- **A hozzárendelt licencek ügyfél-eloszlása**: a teljes ügyfelek%-os elosztása a licenc-hozzárendeléssel számított 20%-ban
 
-- A **használatban lévő licencek ügyfél-eloszlása** :%-ban a teljes ügyfél%-os elosztása a licencek kihasználtsága alapján%-kal megszakadt.
+- A **használatban lévő licencek ügyfél-eloszlása**:%-ban a teljes ügyfél%-os elosztása a licencek kihasználtsága alapján%-kal megszakadt.
 
-- **Ügyfél által hozzárendelt licencek** : az eladott licencek és az ügyfelek és termékek által hozzárendelt licencek részletes nézete
+- **Ügyfél által hozzárendelt licencek**: az eladott licencek és az ügyfelek és termékek által hozzárendelt licencek részletes nézete
 
-- **Ügyfél által használt licencek** : az eladott licencek és az ügyfelek és termékek által használt licencek részletes nézete
+- **Ügyfél által használt licencek**: az eladott licencek és az ügyfelek és termékek által használt licencek részletes nézete
 
 ### <a name="azure-insights-report"></a>Azure-beli bepillantást ismertető jelentés:
 
-- A **használaton alapuló ügyfelek az elmúlt 12 hónapban** : az új, használati alapú ügyfelek és a felhasználható használaton alapuló ügyfelek havi hónapjának trendje az elmúlt 12 hónap során összesítve
+- A **használaton alapuló ügyfelek az elmúlt 12 hónapban**: az új, használati alapú ügyfelek és a felhasználható használaton alapuló ügyfelek havi hónapjának trendje az elmúlt 12 hónap során összesítve
 
-- **Használaton alapuló előfizetések az elmúlt 12 hónapban** : az új használati-alapú előfizetések és a felhasználható használaton alapuló előfizetések havi hónapja az elmúlt 12 hónap során összesítve
+- **Használaton alapuló előfizetések az elmúlt 12 hónapban**: az új használati-alapú előfizetések és a felhasználható használaton alapuló előfizetések havi hónapja az elmúlt 12 hónap során összesítve
 
-- Az **ügyfél által az elmúlt 60 napban becsült használati költségek** : a használaton alapuló ügyfelek az utolsó 60 nap során összesítve becsült ÁFA nélküli számla összegét használják. Ez az állapot a legtöbb bevételt eredményező, legszélesebb körű használatú ügyfeleket jelzi
+- Az **ügyfél által az elmúlt 60 napban becsült használati költségek**: a használaton alapuló ügyfelek az utolsó 60 nap során összesítve becsült ÁFA nélküli számla összegét használják. Ez az állapot a legtöbb bevételt eredményező, legszélesebb körű használatú ügyfeleket jelzi
 
-- A **becsült használati költségek kategóriánként az elmúlt 60 napban** : a használati alapú előfizetések kategóriái az utolsó 60 nap során összesített, a számlán becsült, ÁFA nélküli számla összegével.
+- A **becsült használati költségek kategóriánként az elmúlt 60 napban**: a használati alapú előfizetések kategóriái az utolsó 60 nap során összesített, a számlán becsült, ÁFA nélküli számla összegével.
 
-- Az **előfizetés becsült használati díja az elmúlt 60 napban** : a használaton alapuló előfizetések száma az utolsó 60 nap során összesített, ÁFA nélkül számlázott összeg alapján.
+- Az **előfizetés becsült használati díja az elmúlt 60 napban**: a használaton alapuló előfizetések száma az utolsó 60 nap során összesített, ÁFA nélkül számlázott összeg alapján.
 
-- Az **ügyfél becsült használati díja költségvetés szerint** : az ügyfelek a jelenlegi használati költségkeretük százalékában meghaladják a küszöbértéket (100%).
+- Az **ügyfél becsült használati díja költségvetés szerint**: az ügyfelek a jelenlegi használati költségkeretük százalékában meghaladják a küszöbértéket (100%).
 
 ### <a name="azure-resource-usage-report"></a>Azure-Erőforrás-használati jelentés:
 
 - Az **Azure-erőforrások napi használata a kiválasztott időszakra** vonatkozóan: az elmúlt 60 napon belül minden használaton alapuló előfizetéshez tartozó napi fogyasztási egység
 
-- A **kiválasztott időszakra vonatkozó Azure-erőforrások becsült használati díja** : az elmúlt 60 napban megadott időszakra vonatkozó, a legújabb díjszabási kártyán alapuló becsült költségek az egyes használati alapú előfizetésekben 
+- A **kiválasztott időszakra vonatkozó Azure-erőforrások becsült használati díja**: az elmúlt 60 napban megadott időszakra vonatkozó, a legújabb díjszabási kártyán alapuló becsült költségek az egyes használati alapú előfizetésekben 
 
 ## <a name="next-steps"></a>Következő lépések
 

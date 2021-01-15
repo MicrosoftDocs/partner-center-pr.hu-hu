@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6f9908be183983c590c52b38465041c908c91d7c
-ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.openlocfilehash: 04d47cef596b2c0a0ae13ff3f087d4b1b5f0437c
+ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "92528131"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215900"
 ---
 # <a name="purchase-the-azure-plan-for-customers--access-the-latest-azure-services-at-pay-as-you-go-rates"></a>Az Azure-csomag megvásárlása az ügyfelek számára & a legújabb Azure-szolgáltatásokat az utólagos elszámolású díjszabás szerint érheti el
 
@@ -26,6 +26,7 @@ ms.locfileid: "92528131"
 Ha a Microsoft ügyfél-szerződés keretében vásárol Azure-csomagot ügyfeleinek, akkor a legújabb Azure-szolgáltatások teljes katalógusát az utólagos elszámolású díjszabásban érheti el. A CSP-partnerek mostantól hozzáférhetnek bármely Azure-szolgáltatáshoz, ha általánosan elérhetővé válnak. Egy partner több Azure-előfizetéssel is rendelkezhet egy Azure-csomag keretében. 
 
 ## <a name="countryregion-availability"></a>Ország/régió elérhetősége
+
 Az Azure-beli CSP új kereskedelmi tapasztalata jelenleg 139 országban van ütemezve. Tekintse meg az [országok/régiók](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x)teljes listáját. 
 
 ## <a name="how-to-purchase-azure-plan"></a>Az Azure-csomag megvásárlása
@@ -39,7 +40,7 @@ Az Azure-csomag megvásárlása hasonló a többi előfizetés megvásárlásáh
 
 A partnernek meg kell erősítenie, hogy az ügyfél áttekintette és elfogadta a Microsoft Customer szerződés feltételeit. A partner által elvégezhető megoldásról további információt a [Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyását](confirm-customer-agreement.md)ismertető cikkben találhat. Más erőforrások is elérhetők az [erőforrás-gyűjteményben](https://partner.microsoft.com/resources/collection/Microsoft-Customer-Agreement-in-the-CSP-program#/).
 
-**A megerősítéshez a következőket teheti** : 
+**A megerősítéshez a következőket teheti**: 
 
 1. Digitálisan vagy,
 
@@ -78,9 +79,9 @@ Az Azure-foglalásokat aktív Azure-csomaggal kell társítani. Válassza ki azt
 >Ha az ügyfél még nem rendelkezik aktív Azure-csomaggal, válassza az Azure-t a hozzáadáshoz. További útmutatásért olvassa el az [Azure-foglalások vásárlása](azure-reservations-buying.md#purchase-azure-reservations)című témakört.
 
 >[!Note]
->A foglalás hatóköre csak **megosztott** , jelenleg a partner Centerben adható meg. Ha egyetlen előfizetéshez tartozó hatókört szeretne kijelölni, vagy a megosztottról egyetlen előfizetésen-hatókörre kíván frissíteni, lépjen a következő utasításokkal **Microsoft Azure felügyeleti portál** 
+>A foglalás hatóköre csak **megosztott**, jelenleg a partner Centerben adható meg. Ha egyetlen előfizetéshez tartozó hatókört szeretne kijelölni, vagy a megosztottról egyetlen előfizetésen-hatókörre kíván frissíteni, lépjen a következő utasításokkal **Microsoft Azure felügyeleti portál** 
 
-:::image type="content" source="images/azure/addprods1.png" alt-text="Vásárlás":::
+:::image type="content" source="images/azure/addprods1.png" alt-text="Megosztott hatókörű foglalások beállítása":::
 
 Az ügyfél foglalásának kezelése a Azure Portalban: 
 
@@ -92,7 +93,7 @@ Az ügyfél foglalásának kezelése a Azure Portalban:
 
 Az **előfizetések** lap használat alapú szakaszában bontsa ki az **Azure-terv** elemet az Azure-csomaghoz tartozó társított Azure-előfizetések megtekintéséhez.
 
-:::image type="content" source="images/azure/addprods2.png" alt-text="Vásárlás"::: 
+:::image type="content" source="images/azure/addprods2.png" alt-text="Azure-előfizetések listájának megtekintése"::: 
 
 
 ## <a name="add-subscriptions-and-configure-resources"></a>Előfizetések hozzáadása és erőforrások konfigurálása

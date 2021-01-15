@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: 8ab1e2f2abae8af4c3949615653f83553e65fe25
-ms.sourcegitcommit: e4f30d29073cc0bcc28c4fe48791a19aa28ba734
+ms.openlocfilehash: 3475d606b3a59cf88bb9fb864ee765e4e9a20063
+ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97950586"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215951"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -26,7 +26,7 @@ ms.locfileid: "97950586"
 - Partner Sales csatlakozási (PSC) rendszergazda
 - Partner Sales csatlakozási (PSC) Deal Manager
 
-Ez a cikk a partneri értékesítési partnerektől a partneri központhoz való áttelepítést ismertető partnereket ismerteti, így továbbra is létrehozhatnak és kezelhetnek közös értékesítési ajánlatokat a partner Centerben.
+Ez a cikk útmutatást nyújt a partneri értékesítési partnerektől a partneri központhoz való áttelepítéshez, így továbbra is létrehozhatnak és kezelhetnek közös értékesítési ajánlatokat a partner Centerben.
 
 Amint tudja, a vállalata a 2021. március 31. után elveszíti a PSC-hez való hozzáférést. Azonban továbbra is mindent megtalál, amit szeretne tenni a partner Centerben, mint például a közös értékesítési ajánlatok létrehozása, az ajánlatok kezelése és a Microsoft-értékesítők által eljuttatott ajánlatok.
 
@@ -351,9 +351,8 @@ Ha még nem olvasta el a közös értékesítéssel foglalkozó témaköröket, 
 |Üzleti profil létrehozása és kezelése|[Üzleti profil kezelése](./create-a-marketing-profile.md)
 |Az üzleti profilhoz tartozó érdeklődők kezelése |[Érdeklődők kezelése](./manage-leads.md)|
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-Kövesse ezeket a további erőforrásokat:
 
 - [Partneri értékesítések kapcsolódás a partneri központ munkafüzetéhez](https://partner.microsoft.com/resources/detail/partner-sales-connect-to-partner-center-transition-workbook-pptx) – munkafüzet a partnerek értékesítési folyamatainak és szerepköreinek az új értékesítési folyamatokkal való összehangolásához a partner Center és a partner Sales-kapcsolat használatával.
 - A [partner Center közös értékesítéssel kapcsolatos útmutatója](https://partner.microsoft.com/resources/detail/co-sell-operating-model-guide-pptx) – útmutató egy működési modell azonosításához a partner centeren keresztül az érdeklődők felügyeletéhez, illetve a lehetőségek közös értékesítéséhez és regisztrálásához.

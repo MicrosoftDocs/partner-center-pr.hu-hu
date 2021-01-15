@@ -6,15 +6,15 @@ description: Megtudhatja, hogyan ellenőrizheti a vállalat adatait, például a
 author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
-ms.date: 12/17/2020
+ms.date: 01/14/2021
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 938713a08b52d7f5d601ef7801f300eec223b921
-ms.sourcegitcommit: 37c421eac547f6d9c2f5c8460a40f736ec8b8841
+ms.openlocfilehash: 3b0c9611927d644cc7a5beecc89e0a8cc6f066b7
+ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97666791"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98215883"
 ---
 # <a name="verify-your-organization-profile-information-in-partner-center"></a>A szervezeti profil adatainak ellenőrzése a partner Centerben
 
@@ -27,6 +27,11 @@ Amikor globális rendszergazdaként először jelentkezik be a partner Centerbe,
 
 A partneri profilja a jogi üzleti adatokból, az elsődleges kapcsolattartó nevéből és az e-mailből, a vállalat által részt vevő programokból, valamint adott esetben más vállalatokból áll, amelyek mostantól a jogi üzleti tevékenység keretében egyesülnek. Győződjön meg arról, hogy a vállalat neve és címe a jogi üzleti profilban nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megfelel a vállalati üzleti regisztrációs rekordoknak. Ha kizárólagos tulajdonosként működik, a vállalat nevét a jogi neveként kell használnia.
 
+- Az MPN-fiókok esetében a globális rendszergazda és a fiók rendszergazdája is frissítheti a jogi cég nevét.
+- A SZOLGÁLTATÓi közvetett viszonteladói fiókok esetében a globális rendszergazda frissítheti a jogi cég nevét. 
+
+## <a name="locate-the-legal-business-profile"></a>A jogi üzleti profil megkeresése
+
 1. Lépjen a **Beállítások** ikonra, és válassza a **Fiókbeállítások** lehetőséget.
  
 1. Válassza a **szervezeti profil** lehetőséget. 
@@ -37,15 +42,15 @@ Ha más vállalatait a jogi vállalata alá vonta össze, ezeket az információ
 
 ## <a name="update-your-legal-business-profile"></a>A jogi üzleti profil frissítése
 
-Most már frissítheti jogi címeit a partner Centerben.
+A jogi címek frissítése a partner Centerben.
 
-1. Lépjen a **Beállítások** menüpontra, és válassza a **szervezeti profil** lehetőséget.
+1. Lépjen a **Beállítások** elemre, és válassza a **szervezeti profil** lehetőséget.
 
 
 2. Válassza a **jogi**  lehetőséget, majd válassza ki a használni kívánt jogi üzleti profilt.
 
 >[!Important]
->Ha Ön egy felhőalapú megoldás-szolgáltató (CSP) partner, nem módosíthatja a jogi lakcíméhez tartozó országot. A jogi lakcím országa a bérlőhöz és a szolgáltatásokhoz, valamint az üzleti tevékenységhez használt pénznemhez van kötve. Ha nem szerepelnek a CSP programban, megváltoztathatja a jogi címként társított országot. A jogi cég neve nem frissíthető a partner Centerben, ha a bevett állapot "engedélyezett". [Létre kell hoznia egy támogatási jegyet](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=eb74583c-61b3-2124-bffc-00920e0ae772).
+>Ha Ön egy felhőalapú megoldás-szolgáltató (CSP) partner, nem módosíthatja a jogi lakcíméhez tartozó országot. A jogi lakcím országa a bérlőhöz és a szolgáltatásokhoz, valamint az üzleti tevékenységhez használt pénznemhez van kötve. Ha nem a CSP programban van, akkor módosíthatja a jogi címként társított országot. A jogi cég neve nem frissíthető a partner Centerben, ha az érvényesítési állapota "engedélyezett". Ha módosítania kell a nevet, [létre kell hoznia egy támogatási jegyet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=eb74583c-61b3-2124-bffc-00920e0ae772).
 
 3. Ha a **Submit (Küldés**) lehetőséget választja, a rendszer újraértékelni fogja a jogi identitását, és egy másik e-mailt fog kapni, amelyet el kell fogadnia.
 
@@ -85,3 +90,5 @@ Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszerg
 
 
 
+Az MPN program esetében a globális rendszergazda és a fiók rendszergazdája a jogi cég nevét is frissítheti.
+A CSP közvetett viszonteladóként a globális rendszergazda frissítheti a jogi cég nevét.
