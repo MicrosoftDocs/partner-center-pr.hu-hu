@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/07/2021
-ms.openlocfilehash: f92b801d5e3294e461d07f9089b545a41efc4d6a
-ms.sourcegitcommit: 7d15e9bdb93a780886f588d294383d33c70a49f0
+ms.date: 01/15/2021
+ms.openlocfilehash: 60a0f0a3c2d26d431cd4a79e606d96ae01fb50a1
+ms.sourcegitcommit: 7681c6fc51e78cba106c46a52f6bb27e1a5c1c6b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98235936"
+ms.lasthandoff: 01/18/2021
+ms.locfileid: "98560476"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -23,6 +23,112 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 2021 közlemények: január
 
 2020 bejelentések: [május](2020-may.md)  |  [június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) .  
+
+_____________ 
+
+## <a name="security-compliance-and-identity-sci-launches-coming-on-february-1-2021"></a><a name="9"></a>A biztonság, a megfelelőség és az identitás (SCI) a 2021. február 1-től érkezik 
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-15
+- Ajánlatok/piacok
+
+### <a name="summary"></a>Összefoglalás
+
+A januári árlista-előnézetben számos Microsoft 365 indul el, és 2021. február 1-től lesz elérhető.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="details"></a>Részletek
+
+#### <a name="microsoft-365-g5-compliance-component-skus-for-government"></a>[Microsoft 365 G5 megfelelőségi összetevőjének SKU a Government számára](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+
+Három új összetevőt indítunk el a Government közösségi felhő (GCC) és a GCC magas szintű ügyfelei számára, amelyek 2021. február 1-től lesznek elérhetők. Ezek az SKU-Microsoft 365 E5 Information Protection és irányítási, M365 E5 bennfentes kockázatkezelési és Microsoft 365 E5 elektronikus iratkezelési & audit, amelyek jelenleg kereskedelmi forgalomban érhetők el. 
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+   |-------------------|:------|:------|
+   |Microsoft 365 E5 Information Protection és a GCC irányítása|9e5397ab-f309-4d90-97f3-6fb5d53074d6|8QL-00002|
+   |Microsoft 365 E5-elektronikus iratkezelési és-naplózás a GCC-hez|5c9ef884-6307-47e7-a914-f5092feae51e|8RI-00002|
+   |Microsoft 365 E5 – belső kockázatkezelés a GCC-hez|11ccfdb3-80cb-4c80-8146-c9775045df17|8RF-00002|
+   |Microsoft 365 E5 Information Protection és DLP (bővítmény) a GCC-hez|911d3177-53a9-42ec-a0e9-3b73fce527f0|8QY-00002|
+
+#### <a name="10-year-audit-log-retention-add-on"></a>[10 éves napló-megőrzési bővítmény](https://docs.microsoft.com/microsoft-365/compliance/)
+
+A Microsoft 365 E5 előfeltételével elérhető bővítmény lehetővé teszi, hogy az ügyfelek 10 évig megtartsa az adattárolást. 
+
+   |**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+   |-------------------|:------|:------|
+   |10 éves naplózási napló adatmegőrzési bővítménye az EDU-hez|879b5e1a-eaa2-4ea9-a628-0b429b2e8732|8LC-00002|
+   |10 éves naplózási napló adatmegőrzési bővítménye|e14ce8d1-09f4-42d2-9b5e-ee85f32e7be4|8LB-00003|
+   
+#### <a name="frontline-worker-add-ons"></a>Az élvonalbeli munkavégző bővítmények
+
+A 2021. február 1-től az ügyfelek három új biztonsági és megfelelőségi programozási ajánlatot vásárolhatnak, amelyekkel az [Microsoft 365 F1 és F3 SKU](https://www.microsoft.com/microsoft-365/firstline-workers)-hoz kiegészítőként használhatók.
+
+Ezek a programozott ajánlatok a jelenlegi [biztonsági és megfelelőségi](https://microsoft.sharepoint.com/teams/M365LicensingNews/SitePages/Security-and-Compliance-Promotion-for-Firstline-Workers-Update.aspx) előléptetést fogják lecserélni **, amely 2021. február 28-** án lejár. A jelenlegi előléptetéstől eltérően az F5-bővítmények nagyobb kiszámíthatóságot biztosítanak az ügyfeleknek az előrejelzésekhez, mivel a munkaerő egyre növekszik.
+
+   
+   |**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+   |-------------------|:------|:------|
+   |Microsoft 365 F5 biztonság|a8fba59e-1fc2-4658-8684-5f3d0c71c490|8RQ-00003|
+   |Microsoft 365 F5 megfelelőség|6dc6cb1d-7bcb-4234-80cc-9c7a9cded044|8RL-00003|
+   |Microsoft 365 F5 biztonsági & megfelelőség|ad396924-ee4e-4059-b779-efe43dfa24d2|8RU-00003|
+   
+### <a name="next-steps"></a>További lépések
+
+Tekintse át az árlista előnézetét, és ossza meg a szervezete megfelelő szereplőivel. További információért látogasson el a [Microsoft biztonsági és megfelelőségi szolgáltatására – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-security-and/ct-p/MicrosoftSecurityandCompliance).
+
+### <a name="questions"></a>Kérdése van?
+
+Az ajánlatokkal kapcsolatos további kérdésekért keresse meg a megfelelő Yammer-közösségeket. 
+
+_____________ 
+
+## <a name="docusign-migration-to-adobe-sign-for-partners-under-microsoft-partner-agreements-mpas"></a><a name="8"></a>DocuSign áttelepítése a Microsoft partneri szerződések (MPAs) alá tartozó partnereinknek az Adobe Sign-ba 
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-15
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A Microsoft az összes elektronikus aláírás feldolgozását a DocuSign-ből az Adobe Sign-be fogja áttérni.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Meglévő közvetlen és közvetett felhőalapú megoldás-szolgáltatói (CSP) partnerek a MPA alatt. Az Ukrajnában, Oroszországban és Kazahsztánban található partnereknek évente fizikailag vagy elektronikus úton újra alá kell írniuk a lovast.
+
+### <a name="details"></a>Részletek
+
+Február 2021-án a Microsoft elkezdi az összes elektronikus aláírás feldolgozását a DocuSign-ről az Adobe-bejelentkezésre a CSP-partnerek számára. 
+
+A zökkenőmentes áttérés várható. A Migrálás után a DocuSign helyett e-mailt fog kapni, adobesign@adobesign.com Amikor elektronikus aláírásra van szükség. Ez az e-mail az Adobe Sign weboldalára mutató hivatkozást tartalmaz, amelyen be kell jelentkeznie. A Microsoft-partnereknek nem kell újra aláírnia a meglévő szerződéseket, csak a jövőbeli csatorna-szerződéseket. 
+
+Az előfizetési értesítő e-mail-címre [az erőforrás](https://partner.microsoft.com/resources/detail/adobe-sign-signature-request-email-pdf)-katalógusban talál példát. 
+
+**A legjobb megoldás érdekében tegye a következőket:**
+
+1. Adja hozzá adobesign@adobesign.com a biztonságos küldők listájához, hogy elkerülje a fiók e-mail-címeit közvetlenül a Levélszemét mappába.
+2. Az IT-részleggel az alábbiakkal dolgozhat:
+   - Adja hozzá az adobesign@adobesign.com e-mail-címet a biztonságos küldők listájához, és győződjön meg arról, hogy az nem szerepel az előzetesen létrehozott adathalászat-szabályban.
+   - Frissítse a meglévő biztonsági házirendeket annak biztosítása érdekében, hogy az összes szükséges címzett aláírja a dokumentációt az Adobe Sign Enterprise-licenc keretében.
+
+Az Adobe Sign a Microsoft által előnyben részesített elektronikus aláírási megoldás (ESS). Az Adobe Sign-ra való áttérés biztonságos és hatékony elektronikus aláírási élményt nyújt, amely nagyobb értéket biztosít ügyfeleinknek és partnereinknek.
+
+A dokumentumok elektronikus aláírásával és az elektronikus aláírás delegálásával kapcsolatos további információkért tekintse meg a következő **oktatóanyagokat**: 
+- [Dokumentumok elektronikus aláírása | Adobe Sign-oktatóanyagok](https://helpx.adobe.com/sign/how-to/adobe-for-signers.html?playlist=/ccx/v1/collection/product/sign/segment/designer/explevel/beginner/applaunch/continuinged/collection.ccx.js&ref=helpx.adobe.com)
+- [Valaki másnak delegált dokumentum aláírása | Adobe Sign-oktatóanyagok](https://helpx.adobe.com/sign/how-to/use-the-delegator-role.html?playlist=/ccx/v1/collection/product/sign/segment/designer/explevel/beginner/applaunch/orientation/collection.ccx.js&ref=helpx.adobe.com)
+
+### <a name="next-steps"></a>További lépések
+
+Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van, forduljon a regionális operatív központhoz a [Hívásnapló eszköz (CLT)](https://clt.partners.extranet.microsoft.com/CLT) használatával vagy az [MS](https://www.explore.ms/)-on. Kövesse a szabványos CLT folyamatot, hogy a lehető leggyorsabban fel tudja oldani a lekérdezést.
 
 _____________ 
 
