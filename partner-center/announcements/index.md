@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/04/2021
-ms.openlocfilehash: 2963a27a0b189b81540cf8c955feaa6237822e0b
-ms.sourcegitcommit: 0e8abea7445b7d3f0c4a6320380ecc7d0ef049f9
+ms.openlocfilehash: 6c7255f1bece1b107d173b8f1dc8a2b77defa992
+ms.sourcegitcommit: 7d15e9bdb93a780886f588d294383d33c70a49f0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "98062433"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98235953"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,11 +22,12 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései a norvég koronára vonatkozóan](2021-january.md#7)|Január 14.|
 |Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései az indiai rúpiára vonatkozóan](2021-january.md#6)|január 8.|
 |Ajánlatok/piacok|[A híváscsomag és a telefonos rendszer 2021. február 1-i frissítései](2021-january.md#5)|január 8.|
 |Ajánlatok/piacok|[A licencalapú árlista frissítései – 2021.](2021-january.md#4)|január 8.|
 |Modern munkahely|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2021-january.md#3)|Január 7.|
-|Funkciók|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
+|Képességek|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
 |Ajánlatok/piacok|[Dynamics 365-ajánlatok 2021. februárra](2021-january.md#1)|Január 4.|
 | **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |
 |Ajánlatok|[A csatornaösztönző fel nem használt együttműködési marketingösszegei a 2021-es pénzügyi év első felének (FY21 H1) használati időszakából a második felének (H2) használati időszakába kerülnek](2020-december.md#13)|December 22.|
