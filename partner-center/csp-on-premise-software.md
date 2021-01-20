@@ -1,7 +1,7 @@
 ---
 title: Helyszíni szoftverek eladása CSP-n keresztül
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 01/15/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a CSP program partnerei hogyan vásárolhatják meg, kezelhetik, adhatják meg és törölhetik a helyszíni szoftveres előfizetéseket a partner Centerben lévő ügyfelek nevében.
@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 179527f2edc710420be0b7119b758389dddf6947
-ms.sourcegitcommit: 8dc139749916c822c5c438f54a03d2f147697dd5
+ms.openlocfilehash: b1d9cddd46ac6ee23a92fab41fc41b1e7eb613a1
+ms.sourcegitcommit: c46658f4d70004596e758fe4cd8671b6e9dadeab
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "92528111"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98584176"
 ---
 # <a name="sell-on-premise-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
@@ -40,17 +40,12 @@ Ha előfizetést szeretne megvásárolni az ügyfél nevében, lépjen az ügyf�
 A szoftver megvásárlása után Önnek és az ügyfeleknek le kell töltenie. Ezt a következő eljárással végezheti el. 
 
 >[!NOTE]
->A kulcsok és a letöltések beszerzéséhez rendszergazdai ügynöknek kell tartoznia. 
+>A kulcsok és a letöltések beszerzéséhez rendszergazdai ügynöknek kell tartoznia.
 
-1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája. 
-2.  Bontsa ki a letölteni kívánt terméket. A **termék kiválasztása** mezőben válassza ki a kívánt **verziót** , **nyelvet** és **fájltípust/operációs rendszert** . 
-3.  Az adott termékek megjelenítéséhez válassza a **Submit (Küldés** ) lehetőséget. 
-4.  Válassza **a kulcsok és letöltések** letöltése lehetőséget. 
-5.  A letöltés megkezdéséhez válassza a **Letöltés** lehetőséget, vagy válassza a **hivatkozás másolása** lehetőséget a hivatkozás másolásához, majd küldje el az ügyfélnek. 
+1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
+2. Másolja a hivatkozást a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti portálra a termékkulcs letöltéséhez és beszerzéséhez.
 
->[!NOTE]
->Ez a hivatkozás két hét vagy 50 letöltés után lejár, attól függően, hogy melyik következik. Ha a hivatkozás lejár, térjen vissza ehhez az oldalhoz, és válassza a **kulcsok beolvasása és a letöltések** újra lehetőséget egy másik két hét vagy 50 letöltésének engedélyezéséhez. Ezt tetszőleges számú alkalommal megteheti. 
-
+Ha Ön vagy ügyfelei szeretnének többet megtudni a licenckulcs letöltéséről, tekintse meg a [szoftver és a termék licenc kulcsainak letöltése](https://go.microsoft.com/fwlink/p/?linkid=2152525)című témakört.
 
 ## <a name="cancel-a-purchase"></a>Vásárlás megszakítása
 
@@ -67,9 +62,9 @@ A vásárlás megszakításához kövesse az alábbi eljárást. A törlés befe
 
 2.  Az ügyfél adatai lapon válassza a **szoftver** lehetőséget. Ekkor megjelenik a megvásárolt szoftverek listája. 
 
-3.  Keresse meg a megszakítani kívánt szoftvert, és kattintson a **Mégse gombra** . Megnyílik a fiókpartner oldalával **kapcsolatos probléma** . 
+3.  Keresse meg a megszakítani kívánt szoftvert, és kattintson a **Mégse gombra**. Megnyílik a fiókpartner oldalával **kapcsolatos probléma** . 
 
-4.  A **részletek** , a **probléma típusa** listában válassza a **CSP vásárlás/visszatérítés az ügyfelek nevében** lehetőséget.
+4.  A **részletek**, a **probléma típusa** listában válassza a **CSP vásárlás/visszatérítés az ügyfelek nevében** lehetőséget.
 
 5.  Adja meg a **hatás** és a **cím** mezőket. 
 

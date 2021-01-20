@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/15/2021
-ms.openlocfilehash: 60a0f0a3c2d26d431cd4a79e606d96ae01fb50a1
-ms.sourcegitcommit: 7681c6fc51e78cba106c46a52f6bb27e1a5c1c6b
+ms.openlocfilehash: 9b972354fb21dbdfa4780717cee54bac14acdb0e
+ms.sourcegitcommit: 9bcccaf8864d8ee3c93e67691f773463f162b5f0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/18/2021
-ms.locfileid: "98560476"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98571669"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -24,7 +24,84 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 
 2020 bejelentések: [május](2020-may.md)  |  [június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) .  
 
-_____________ 
+________________
+## <a name="perpetual-software-now-generally-available-for-the-cloud-solution-provider-program"></a><a name="11"></a> Mostantól általánosan elérhető a Cloud Solution Provider program végleges szoftvere
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-19
+- Vállalkozás fejlesztése
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden CSP-partner
+
+### <a name="details"></a>Részletek
+
+A mai napon [bejelentette](https://blogs.partner.microsoft.com/mpn/general-availability-of-perpetual-software-licenses-in-the-cloud-solution-provider-program/) , hogy tájékoztatjuk, hogy az állandó kereskedelmi licenccel rendelkező szoftverek általánosan elérhetők az összes CSP-partner számára az értékesítéshez. A partner Center CSP Perpetual Software árlista újra közzé lett téve, és mostantól további termékeket és földrajzi régiókat is tartalmaz.
+
+Azt is vegye figyelembe, hogy napjainkban a partner Center szoftver-és licenckulcs-teljesítési képességét kivonták, és a partnerek és az ügyfelek továbbra is a Microsoft 365 felügyeleti központot használják erre a célra.
+További részletekért és a következő lépésekkel kapcsolatban lásd alább.
+
+### <a name="next-steps"></a>További lépések
+
+- Töltse le a **CSP Perpetual Software** árlista szakaszt a partner Center [díjszabási & ajánlatok](https://partnercenter.microsoft.com/en-us/pcv/sales) oldal **szoftver** szakaszában. [Itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf)megtalálja az újonnan hozzáadott termékek és földrajzi területek listáját.
+- Tekintse át a [Microsoft 365 felügyeleti központ örökös szoftver-és termékkulcs-kulcsait](https://go.microsoft.com/fwlink/p/?linkid=2152525) , és ossza meg az ügyfelekkel, amikor készen állnak a szoftverek és a licencek kulcsai letöltésére.
+- Tekintse át az [örökös szoftvereket a Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/software-in-csp#/) készenléti anyagaiban. Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
+
+### <a name="questions"></a>Kérdése van?
+
+További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
+
+_____________
+## <a name="reminder-introducingapithrottlingtopartners-calling-partner-centerapis"></a><a name="10"></a> Emlékeztető: API-szabályozás bemutatása a partner Center API-kat hívó partnereknek 
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-19
+- Vállalkozás fejlesztése
+
+### <a name="summary"></a>Összefoglalás
+
+A Microsoft API-szabályozást fog megvalósítani, hogy a partner Center API-kat hívó partnereink számára egy adott időszakon belül konzisztens teljesítményt biztosítson.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít  
+
+### <a name="details"></a>Részletek
+
+Február 2021-én a Microsoft az API-szabályozást fogja megvalósítani, hogy a partner Center API-kat hívó partnereink számára egy adott időszakon belül konzisztens teljesítményt lehessen biztosítani.A szabályozás korlátozza a szolgáltatásra irányuló kérések számát egy adott időszakban, hogy elkerülje az erőforrások túlzott mennyiségét.Ha túllépi a szabályozási küszöbértéket, a partneri központ egy adott időszakra korlátozza az ügyféltől érkező további kéréseket.
+  
+**Partneri előnyök:** A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a kérések túlnyomó száma néhány partnernél történik, a szabályozás az összes partner optimális teljesítményének és megbízhatóságának fenntartását segíti.  
+
+- A szabályozás minimális állásidőt biztosít.
+- A szabályozás csökkenti a nagy mennyiségű kérések számát, így biztosítva, hogy az összes partnernek konzisztens teljesítményt nyújtson.
+
+**Szabályozni kívánt API-k:**
+
+| Művelet | Partnerközpont dokumentációja |
+| ------ | ------- |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions  | [Ügyfél-s-előfizetések beolvasása](/partner-center/develop/get-all-of-a-customer-s-subscriptions&data) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}  | [Egy előfizetés lekérése azonosító alapján](/partner-center/develop/get-a-subscription-by-id) |
+|{baseURL}/v1/Customers/{customer_id}:/Orders  | [Az összes ügyfél rendelésének beolvasása](/partner-center/develop/get-all-of-a-customer-s-orders) |
+|{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}  | [Megrendelés lekérése azonosító alapján](/partner-center/develop/get-an-order-by-id) |
+|{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}/provisioningstatus  | [Előfizetés kiépítési állapotának lekérése](/partner-center/develop/get-subscription-provisioning-status) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}  | [Megrendelések kezelése és az előfizetés kezelése](/partner-center/develop/manage-orders#manage-a-subscription) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/addons  | [Egy előfizetés bővítménylistájának lekérése](/partner-center/develop/get-a-list-of-add-ons-for-a-subscription) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/azureEntitlements | [Az előfizetéshez tartozó Azure-jogosultságok listájának lekérése](/partner-center/develop/get-a-list-of-azure-entitlements-for-subscription) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/registrationstatus  | [Előfizetés regisztrációs állapotának lekérése](/partner-center/develop/get-subscription-registration-status) |
+|{baseURL}/v1/customers/{customer-tenant-id}/transfers  | [Ügyfél összes átadásának beolvasása](/partner-center/develop/get-all-of-a-customer-s-transfers) |
+|{baseURL}/v1/productUpgrades/{upgrade-id}/status  | [Termék frissítési állapotának lekérése](/partner-center/develop/get-product-upgrade-status) |
+|{baseURL}/v1/customers/{customer-id}/subscriptions/{subscription-id}/conversions   | [A próbaverzió átalakításával kapcsolatos ajánlatok listájának lekérése](/partner-center/develop/get-a-list-of-trial-conversion-offers) |
+ 
+Azt javasoljuk, hogy a partnerek a Activity log API-t használják nagyobb hatékonyság és a szabályozás elkerülése érdekében.A szolgáltatással kapcsolatos további információkért tekintse meg a részleteket [.](/partner-center/develop/api-throttling-guidance)  
+
+### <a name="next-steps"></a>További lépések
+
+Tekintse át a témakör [erőforrásait](/partner-center/develop/api-throttling-guidance)   , és végezze el a szükséges lépéseket.  
+
+_____________
 
 ## <a name="security-compliance-and-identity-sci-launches-coming-on-february-1-2021"></a><a name="9"></a>A biztonság, a megfelelőség és az identitás (SCI) a 2021. február 1-től érkezik 
 
@@ -43,7 +120,7 @@ Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
 
 ### <a name="details"></a>Részletek
 
-#### <a name="microsoft-365-g5-compliance-component-skus-for-government"></a>[Microsoft 365 G5 megfelelőségi összetevőjének SKU a Government számára](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+#### <a name="microsoft-365-g5-compliance-component-skus-for-government"></a>[Microsoft 365 G5 megfelelőségi összetevőjének SKU a Government számára](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 Három új összetevőt indítunk el a Government közösségi felhő (GCC) és a GCC magas szintű ügyfelei számára, amelyek 2021. február 1-től lesznek elérhetők. Ezek az SKU-Microsoft 365 E5 Information Protection és irányítási, M365 E5 bennfentes kockázatkezelési és Microsoft 365 E5 elektronikus iratkezelési & audit, amelyek jelenleg kereskedelmi forgalomban érhetők el. 
 
@@ -54,7 +131,7 @@ Három új összetevőt indítunk el a Government közösségi felhő (GCC) és 
    |Microsoft 365 E5 – belső kockázatkezelés a GCC-hez|11ccfdb3-80cb-4c80-8146-c9775045df17|8RF-00002|
    |Microsoft 365 E5 Information Protection és DLP (bővítmény) a GCC-hez|911d3177-53a9-42ec-a0e9-3b73fce527f0|8QY-00002|
 
-#### <a name="10-year-audit-log-retention-add-on"></a>[10 éves napló-megőrzési bővítmény](https://docs.microsoft.com/microsoft-365/compliance/)
+#### <a name="10-year-audit-log-retention-add-on"></a>[10 éves napló-megőrzési bővítmény](/microsoft-365/compliance/)
 
 A Microsoft 365 E5 előfeltételével elérhető bővítmény lehetővé teszi, hogy az ügyfelek 10 évig megtartsa az adattárolást. 
 
