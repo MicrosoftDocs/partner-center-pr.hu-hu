@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/04/2021
-ms.openlocfilehash: bc85c2537201c3fab95541798932fe1be0a9a231
-ms.sourcegitcommit: 7681c6fc51e78cba106c46a52f6bb27e1a5c1c6b
+ms.openlocfilehash: aa06fa03b29bb43d5b3c9d2c64e7208ebe9a9d5f
+ms.sourcegitcommit: 9bcccaf8864d8ee3c93e67691f773463f162b5f0
 ms.translationtype: HT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/18/2021
-ms.locfileid: "98560493"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98571652"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Vállalkozás fejlesztése|[Az állandó szoftverek mostantól általánosan elérhetők a felhőszolgáltatói programban](2021-january.md#11)|Január 19.|
+|Vállalkozás fejlesztése|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-january.md#10)|Január 19.|
 |Ajánlatok/piacok|[A biztonsággal, a megfelelőséggel és az identitással kapcsolatos bejelentések 2021. február 1-én](2021-january.md#9)|Január 15.|
 |Képességek|[A DocuSign migrálása az Adobe Sign rendszerébe a Microsoft-partnerszerződéseket (MPA-kat) kötött partnereknél](2021-january.md#8)|Január 15.|
 |Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései a norvég koronára vonatkozóan](2021-january.md#7)|Január 14.|
