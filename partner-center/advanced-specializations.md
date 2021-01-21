@@ -1,7 +1,7 @@
 ---
 title: További tudnivalók a speciális szakterületekről
 ms.topic: article
-ms.date: 01/12/2021
+ms.date: 01/21/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Erősítse meg üzleti profilját a Microsoft partneri címtárban. Ismerje meg azokat a speciális specializációkat, amelyek a meglévő arany-és ezüst-kompetenciákkal együtt érhetők el.
@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6ce29c533869214a15f18852c8946f46c0656a38
-ms.sourcegitcommit: 623d03feab847538d484e0d062dc56fe9d9d82f4
+ms.openlocfilehash: 61bb4bf8b340ac35c929738c43e8ef2da2e64aca
+ms.sourcegitcommit: f99424919f0d77bbe4f44293d84f9ea1e3317f13
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98204019"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98658399"
 ---
 # <a name="earn-an-advanced-specialization-to-showcase-your-validated-capabilities"></a>Speciális specializációt szerezhet az érvényesített képességek bemutatásához
 
@@ -45,6 +45,7 @@ Minden speciális specializáció a megoldási területnek felel meg:
 
 Az **Azure** speciális specializációi a következők:
 
+- Analitika Microsoft Azure
 - Adattárház migrálása a Microsoft Azure-ba
 - Kubernetes a Microsoft Azure-on
 - A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba

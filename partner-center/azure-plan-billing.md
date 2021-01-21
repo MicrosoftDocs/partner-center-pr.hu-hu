@@ -1,7 +1,7 @@
 ---
 title: Azure-csomag számlázása – & Recon-fájlok számlázása
 ms.topic: article
-ms.date: 07/02/2020
+ms.date: 01/20/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogyan érheti el és értelmezheti az Azure-csomag számlázásával kapcsolatos számlázási és egyeztetési adatstruktúrát.
@@ -9,12 +9,12 @@ author: khpavan
 ms.author: sakhanda
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1dc683c194de158dc7a4dac541b37631f3be1f1e
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: e230cc0d8ff3afea4bf2cc7b55d3847814696af6
+ms.sourcegitcommit: f99424919f0d77bbe4f44293d84f9ea1e3317f13
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534692"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98658433"
 ---
 # <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi felület a CSP-ben – Azure-számlázás 
 
@@ -46,7 +46,7 @@ A vállalat globális rendszergazdája vagy számlázási rendszergazdája e-mai
 
 A számla és a megbékélési fájl elérése:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/).
 
 2. A partner Center menüben válassza a **számlázás** lehetőséget.
 
@@ -140,9 +140,7 @@ A számla és a megbékélési fájl elérése:
 
 Az Azure-csomagokon keresztül az Azure-szolgáltatások díja USD lesz, és az ügyfél-országhoz rendelt pénznemben kell fizetni. Ha a számlázási pénznem nem USD, akkor a számla utolsó oldalán a használt deviza-(FX-) díj is megjelenik. Az FX díjszabását havonta határozzák meg, és a következő számlára kell alkalmazni. Az ország pénznemek teljes listájáért tekintse meg az [új kereskedelmi ajánlatok ország rendelkezésre állását és az ügyfél pénznemének mátrixát](https://go.microsoft.com/fwlink/?linkid=2112354).
 
-A Microsoft a Thomson Reuters használatával határozza meg, hogy milyen FX-díjakat kell kiszámítani az árképzés pénznemének számlázására. Az FX díjszabása a hónap első előtti napján frissül és elérhető lesz.
-
-**Példa**: a szolgáltatási időszak augusztus 1-től augusztus 31-ig érvényes használati díjait a számlázás a július 31-ig közzétett FX-díj alapján számoljuk el. Ezek a díjak a szeptember számlán jelennek meg, és az FX-díjat a számla utolsó oldalán fogjuk feltüntetni.
+A Microsoft a londoni tőzsdei árfolyamot követi az átalakításhoz. Az árfolyamot használjuk, amely a Londoni Értéktőzsdén a hónap utolsó munkanapján rögzített árfolyamot használja fel az utóbbi időben. Az FX díjszabása a hónap első előtti napján frissül és elérhető lesz.
 
 ## <a name="azure-reservations"></a>Azure Reserved Virtual Machine Instances
 
@@ -162,7 +160,7 @@ Mivel az Azure-szolgáltatások számlázási modellje az Azure-csomagon kereszt
 
 :::image type="content" source="images/azure/azurespend.png" alt-text="Azure-költség":::
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - Megtudhatja, hogyan számítja ki a partner által létrehozott kreditet (PEC). Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/) , és keresse meg az elérhető árlista listáját.
 
