@@ -1,7 +1,7 @@
 ---
 title: Speciális specializációk alkalmazása
 ms.topic: how-to
-ms.date: 11/30/2020
+ms.date: 01/21/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Erősítse meg üzleti profilját a Microsoft partneri címtárban. Megtudhatja, hogyan használhatja a partner centert a speciális szakosodások kérelmezésére és beszerzésére.
@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: dea98a5268feecbbea448592637a24f180d8eff2
-ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
+ms.openlocfilehash: aa616678832341ea38f5da6d5062c460ad4d22d9
+ms.sourcegitcommit: f99424919f0d77bbe4f44293d84f9ea1e3317f13
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96440059"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98658416"
 ---
 # <a name="use-partner-center-to-apply-for-advanced-specializations-and-check-their-status"></a>A partner Center használata a speciális specializációk alkalmazásához és az állapotuk állapotának ellenõrzéséhez
 
@@ -37,7 +37,7 @@ Ezen terület eléréséhez meg kell adnia az **MPN-fiók rendszergazdájának**
 
 ### <a name="follow-these-steps-to-access-this-area"></a>A következő lépésekkel érheti el ezt a térséget:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
 2. Válassza ki a partner Center menü **MPN** szakaszát, majd az **ADV. specializációkat**. A menü kibontásával megjelenítheti az összes elérhető speciális specializációt.
 
@@ -60,20 +60,21 @@ Mindkét feladat elvégezhető a partner Centerben.
 
 A harmadik féltől származó könyvvizsgálóval való vizsgálatot igénylő speciális specializációk a következők:
 
-- Adatraktár áttelepítése Microsoft Azurere
-- Kubernetes Microsoft Azure
-- A Linux és a nyílt forráskódú adatbázisok migrálása a Microsoft Azureba
-- Microsoft Windows rendszerű virtuális asztal
-- Webalkalmazások modernizálása Microsoft Azure
-- Windows Server és SQL Server Migrálás Microsoft Azurere
+- Analitika Microsoft Azure
+- Adattárház migrálása a Microsoft Azure-ba
+- Kubernetes a Microsoft Azure-on
+- Linuxos és nyílt forráskódú adatbázis migrálása a Microsoft Azure-ba
+- Microsoft Windows Virtual Desktop
+- A webalkalmazások modernizálása a Microsoft Azure-ban
+- A Windows Server és az SQL Server migrálása a Microsoft Azure-ba
 
 Az ügyfél-referenciákat igénylő speciális specializációk a következők:
 
-- Bevezetési és módosítási felügyelet
-- A Microsoft Teams meghívása
+- Bevezetés és változáskezelés
+- A Microsoft Teams hívása
 - Értekezletek és konferenciatermek a Microsoft Teams szolgáltatáshoz
 - Az SAP az Azure-on
-- Csapatmunka üzembe helyezése
+- Csapatmunkán alapuló telepítés
 - Identitás- és hozzáférés-kezelés
 - Veszélyforrások elleni védelem
 
@@ -85,7 +86,7 @@ A saját előfeltételei mellett néhány speciális specializációnak is szük
 
 Ezt követően a következő lépésekkel ütemezhet egy naplózást a partner Centerben:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
 2. Válassza ki a partner Center menü **MPN** szakaszát, majd az **ADV. specializációkat**. A menü kibontásával megjelenítheti az összes elérhető speciális specializációt.
 
@@ -104,7 +105,7 @@ A saját előfeltételei mellett néhány speciális specializációhoz is szük
 
 Ezután kövesse az alábbi lépéseket az ügyfél-referenciák megadásához a partner Centerben:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
 2. Válassza ki a partner Center menü **MPN** szakaszát, majd az **ADV. specializációkat**. A menü kibontásával megjelenítheti az összes elérhető speciális specializációt.
 
@@ -116,7 +117,7 @@ Ezután kövesse az alábbi lépéseket az ügyfél-referenciák megadásához a
 
 4. Amíg nem teljesíti az ezen az oldalon megjelenő összes előfeltételt, és megadhatja az ügyfélre mutató hivatkozásokat, az állapota **nem indul el**. Ha minden előfeltétel teljesült, az állapota **aktívra** változik.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - További információk a [speciális specializációkkal, azok előnyeivel és egyedi követelményeivel](https://partner.microsoft.com/membership/advanced-specialization)kapcsolatban.
 
