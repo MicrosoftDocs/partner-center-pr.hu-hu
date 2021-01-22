@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/15/2021
-ms.openlocfilehash: 9b972354fb21dbdfa4780717cee54bac14acdb0e
-ms.sourcegitcommit: 9bcccaf8864d8ee3c93e67691f773463f162b5f0
+ms.date: 01/20/2021
+ms.openlocfilehash: 02b1e93c84065b6223ffc06cf36ddfec757f9a6a
+ms.sourcegitcommit: 37a18fb999bfc713b4fe514d082c63fe58ef9236
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98571669"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98685922"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -23,6 +23,92 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 2021 közlemények: január
 
 2020 bejelentések: [május](2020-may.md)  |  [június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) .  
+
+________________
+## <a name="changes-to-azure-offer-availability-in-csp-related-to-the-new-commerce-experience-in-csp-for-azure"></a><a name="12"></a> Az Azure-ajánlat elérhetőségének változásai az Azure-beli CSP új kereskedelmi felületével kapcsolatos CSP-ben
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-21
+- Képességek
+ 
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolított.
+
+### <a name="details"></a>Részletek:
+
+#### <a name="the-new-commerce-experience-for-azure-in-csp"></a>Az Azure új kereskedelmi felülete a CSP-ben
+
+Az új Microsoft kereskedelmi élmény egységes és egyszerűsített vásárlási élményt nyújt az ügyfelek számára, és lehetővé teszi számukra a digitális átalakítást, és nagyobb rugalmasságot biztosítanak a vásárlóik és a vásárlásuk helyétől. A partnerek kritikus szerepet töltenek be az ügyfél felhőalapú utazásában, függetlenül attól, hogy az ügyfelek milyen csatornán és a Microsofttal folytatnak tranzakciót. A frissített kereskedelmi platform és modell a teljes körű elindítást követően lehetővé teszi a partnerek számára, hogy a nagyobb vállalati ügyfelek, valamint a kis-és közepes vállalatok értékesítési indítványai révén részt vegyenek a partnereknek az ügyfelek sikerességének növelésében.
+
+Az Azure-hoz készült új kereskedelmi élmény a Cloud Solution Provider programban kibővíti a partneri lehetőségeket a felügyelt szolgáltatások létrehozására és nyújtására, az ügyfélkör további kiterjesztésére, valamint az ügyfelek digitális átalakításra való segítésére.
+
+Az új kereskedelmi élmény a következő előnyöket biztosítja:
+
+- Leegyszerűsíti az Azure-vásárlási folyamatot az Azure-csomaggal.
+- Jobb árképzési igazítást hoz létre a csatornák között. Az ügyfél-és partneri visszajelzések alapján a Cloud Solution Provider program új Azure-felülete egyetlen árlistát fog használni USD-ben, és az ügyfelek és partnerek számára egységes díjszabást biztosítunk globális méretekben.
+- Csökkenti az ügyfelek beszerzésének akadályait azáltal, hogy olyan eszközöket biztosít, amelyek tartalmazzák a megfelelő irányítási, felhasználói élményt és szabályzatokat, hogy azok az új Azure-élménybe lépjenek a Cloud Solution Provider programban.
+- Lehetővé teszi, hogy a partnerek hatékonyabban kezeljék ügyfeleit az Azure Lighthouse és a Azure Cost Management képességeinek kihasználásával. 
+- Kibővíti az Azure Marketplace-hez való hozzáférést.
+
+Az Azure-hoz készült új kereskedelmi szolgáltatással bővült az áttérési eszközök, amelyekkel az Azure olyan rugalmasságot biztosít, amely az ügyfelek fejlődő üzleti igényeinek megfelelően alkalmazkodik, és segít az ügyfeleknek az új Azure-ajánlatnak a felhőalapú megoldás-szolgáltatói programban való beszerzésében. Tekintse át az Azure-előfizetések felhőalapú megoldás-szolgáltató programban való átállását támogató eszközök áttekintését.
+
+#### <a name="new-azure-in-cloud-solution-provider-program-offer-azure-plan"></a>Új Azure a Cloud Solution Provider program ajánlatában (Azure-csomag)
+
+Az új kereskedelmi tapasztalattal rendelkező partnereink az Azure-szolgáltatásokra vonatkozó utólagos elszámolású díjszabásban vehetik igénybe az Azure-szolgáltatásokat egy Azure-csomagon keresztül. Ez a csomag leegyszerűsíti a vásárlási élményt azáltal, hogy lehetővé teszi több Azure-előfizetés létrehozását az Azure-csomagon belül. Az Azure-előfizetések esetében már nem szükséges külön rendelést beküldeni a partner Centerben.
+
+#### <a name="changes-to-the-previous-azure-offer-availability-in-the-cloud-solution-provider-program"></a>Az előző Azure-ajánlat elérhetőségének módosítása a Cloud Solution Provider programban
+
+Amikor bejelentettük az új Azure-ajánlatot a Cloud Solution Provider programban (Azure-csomag), tájékoztatjuk partnereinket arról, hogy az előző Azure-ajánlat és-platform továbbra is elérhető lesz az új Azure-élmény mellett, és hogy hat hónappal korábban tájékoztatjuk a partnereket az előző Azure-ajánlat változásainak megkezdése előtt.
+
+Habár a Cloud Solution Provider program új Azure-ajánlata (Azure-csomag) jobb felhasználói élményt nyújt a partnereknek, a partnereknek az új Azure-funkciók bevonásához és az új felhasználói élményre való áttéréshez a partnereinknek időt szeretnénk adni.
+
+Az előző Azure-ajánlat változásának három fázisa lesz. Napjainkban több információt osztunk meg ezen a három fázison.
+
+#### <a name="three-phases"></a>Három fázis
+
+**1. fázis – 2021. július 21. kezdet**
+
+Az 1. fázisban minden új Azure Cloud Solution Provider program üzleti tevékenysége az új Azure-csomag ajánlata lesz. A következő irányelvek érvényesek:
+
+- Ha az ügyfél már megvásárolta az előző Azure-ajánlatot, a partnerek és az ügyfelek közötti meglévő viszonteladói kapcsolatok esetében a partner továbbra is folytathatja a tranzakciót, és az ügyfél továbbra is megvásárolhatja az előző Azure-ajánlatot a partnertől.
+- Az előző Azure-ajánlat már nem lesz elérhető a CSP-ben a net-új partnerek számára
+- A korábbi Azure-ajánlat már nem lesz elérhető az új ügyfelek számára a CSP-partneren keresztüli vásárláshoz
+- Az új viszonteladói kapcsolatok vagy új ügyfelek beszerzése esetén a partnerek csak az új Azure-ajánlat (Azure-csomag) tranzakcióit tudják lebonyolítani
+- A partnerek és az ügyfelek közötti meglévő viszonteladói kapcsolatok esetében, ha az ügyfél még soha nem vásárolta meg az Azure-t, a partner csak tranzakciót lehet lebonyolítani, és az ügyfél csak az új Azure-ajánlatot vásárolja meg az adott partnertől.
+
+**2. fázis – a 2022-as naptári évben**
+
+A 2. fázisban, amely a 2022-as naptári év során megkezdődik, az ösztönzők és a partneri árrés lehetőség el lesz távolítva az előző Azure-ajánlatból. A 2. fázis kezdő dátumát a partnereknek 6 hónappal előre fogjuk közölni.
+
+**3. fázis – dátum meghatározásának dátuma**
+
+A 3. fázisban az előző Azure-ajánlat fennmaradó ügyfelei átkerülnek az új Azure-ajánlatra a Cloud Solution Provider programban (Azure-csomag). Csakúgy, mint az előző fázisokban, a 3. fázis kezdő dátumát értesítjük a partnereknek 6 hónappal előre.
+
+#### <a name="partner-earned-credit-pec"></a>Partner által létrehozott kredit (PEC)
+
+Az új kereskedelmi tapasztalattal rendelkező partnerek a partner által létrehozott kredit modell segítségével folyamatosan felismerik a differenciált értéknövelt szolgáltatásokat. A partner által szerzett kreditek a fenntartható jövedelmezőséget előidéző értéknövelt szolgáltatások révén az ügyfelek sikerességére összpontosítanak.
+
+### <a name="next-steps"></a>További lépések:
+
+A partnereknek javasoljuk, hogy ismerkedjenek meg a következő erőforrásokkal:
+
+#### <a name="partner-earned-credit-pec"></a>Partner által létrehozott kredit (PEC)
+
+- [A partner által létrehozott kreditek ismertetése (útmutató) (Microsoft. com)](https://partner.microsoft.com/resources/detail/understanding-partner-earned-credit-pdf)
+- [Partner által létrehozott kredit – áttekintés – partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/partner-earned-credit?branch=main )
+- [Partner által létrehozott kredit a felügyelt szolgáltatásokhoz – partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/partner-earned-credit-explanation?branch=main)
+- [Szerepkörök, partnerek által létrehozott Credit-partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/azure-roles-perms-pec)
+- [Igény szerinti betanítási modul a partner által szerzett kreditekhez az Azure-ban a CSP-modulokban (eventbuilder.com)](https://commercial_licensing.eventbuilder.com/NewcommerceinCSPforAzuretrainingmodules)
+
+#### <a name="the-new-commerce-experience"></a>Az új kereskedelmi élmény
+
+- [Partneri erőforrások gyűjteménye: új kereskedelmi élmény az Azure-beli CSP-ben](https://partner.microsoft.com/resources/collection/new-azure-experience-in-csp#/)
+
+### <a name="questions"></a>Kérdése van?
+
+Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
 
 ________________
 ## <a name="perpetual-software-now-generally-available-for-the-cloud-solution-provider-program"></a><a name="11"></a> Mostantól általánosan elérhető a Cloud Solution Provider program végleges szoftvere
@@ -43,7 +129,7 @@ A mai napon [bejelentette](https://blogs.partner.microsoft.com/mpn/general-avail
 Azt is vegye figyelembe, hogy napjainkban a partner Center szoftver-és licenckulcs-teljesítési képességét kivonták, és a partnerek és az ügyfelek továbbra is a Microsoft 365 felügyeleti központot használják erre a célra.
 További részletekért és a következő lépésekkel kapcsolatban lásd alább.
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - Töltse le a **CSP Perpetual Software** árlista szakaszt a partner Center [díjszabási & ajánlatok](https://partnercenter.microsoft.com/en-us/pcv/sales) oldal **szoftver** szakaszában. [Itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf)megtalálja az újonnan hozzáadott termékek és földrajzi területek listáját.
 - Tekintse át a [Microsoft 365 felügyeleti központ örökös szoftver-és termékkulcs-kulcsait](https://go.microsoft.com/fwlink/p/?linkid=2152525) , és ossza meg az ügyfelekkel, amikor készen állnak a szoftverek és a licencek kulcsai letöltésére.
@@ -97,7 +183,7 @@ Február 2021-én a Microsoft az API-szabályozást fogja megvalósítani, hogy 
  
 Azt javasoljuk, hogy a partnerek a Activity log API-t használják nagyobb hatékonyság és a szabályozás elkerülése érdekében.A szolgáltatással kapcsolatos további információkért tekintse meg a részleteket [.](/partner-center/develop/api-throttling-guidance)  
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Tekintse át a témakör [erőforrásait](/partner-center/develop/api-throttling-guidance)   , és végezze el a szükséges lépéseket.  
 
@@ -153,7 +239,7 @@ Ezek a programozott ajánlatok a jelenlegi [biztonsági és megfelelőségi](htt
    |Microsoft 365 F5 megfelelőség|6dc6cb1d-7bcb-4234-80cc-9c7a9cded044|8RL-00003|
    |Microsoft 365 F5 biztonsági & megfelelőség|ad396924-ee4e-4059-b779-efe43dfa24d2|8RU-00003|
    
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Tekintse át az árlista előnézetét, és ossza meg a szervezete megfelelő szereplőivel. További információért látogasson el a [Microsoft biztonsági és megfelelőségi szolgáltatására – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-security-and/ct-p/MicrosoftSecurityandCompliance).
 
@@ -199,7 +285,7 @@ A dokumentumok elektronikus aláírásával és az elektronikus aláírás deleg
 - [Dokumentumok elektronikus aláírása | Adobe Sign-oktatóanyagok](https://helpx.adobe.com/sign/how-to/adobe-for-signers.html?playlist=/ccx/v1/collection/product/sign/segment/designer/explevel/beginner/applaunch/continuinged/collection.ccx.js&ref=helpx.adobe.com)
 - [Valaki másnak delegált dokumentum aláírása | Adobe Sign-oktatóanyagok](https://helpx.adobe.com/sign/how-to/use-the-delegator-role.html?playlist=/ccx/v1/collection/product/sign/segment/designer/explevel/beginner/applaunch/orientation/collection.ccx.js&ref=helpx.adobe.com)
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
 
@@ -279,7 +365,7 @@ Ezek az ajánlatok a kereskedelmi, a tanulói, az oktatói, a kormányzati köz�
    |Az USA és Kanada tanulói számára Microsoft 365 belföldi telefonálási terv|1f4b4375-3185-40cf-b044-117fe3b102c6|LM7-00007|
    |Az USA-beli és kanadai GCC-re vonatkozó belső hívási terv Microsoft 365|594ed84e-ddf8-4e40-9726-76c04bd29e3b|LM9-00023|
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - Ossza meg ezeket az információkat a szervezete megfelelő kapcsolataival, és Ismerje meg a upsell és az értékesítési lehetőségeket. 
 - Tekintse át a [Teams partner útmutatójának](https://aka.ms/teamscallingmeetingsguide)erőforrások szakaszát.
@@ -317,7 +403,7 @@ A január 2021-es és február 2021-os licenc-alapú árlista néhány helytelen
 
 A partnereknek a megfelelő árakra vonatkozóan a jelenleg elérhető január és február előzetes árlista-listát kell megjelenniük. 
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - A partnerek a partner Center legújabb árlista-fájljait tölthetik le, hogy a javított januári és februári árakat kapják meg. 
 - Az érintett bérlők globális rendszergazdái, akik a január 1. és január 6. között megvásárolt előfizetéseket, további részletekkel értesítjük a partner Center e-mail-címéről. 
@@ -371,7 +457,7 @@ Ez a frissítés csökkenti a többpénznemes számlázás összetettségét és
 - A partnerek a többszörös pénznemű számlázások által okozott csökkentett számlázási bonyolultságot észlelik, ami felszabadítja az időt és a jelenleg a fiókok egyeztetéséhez kapcsolódó erőforrásokat.
 - Azon partnereink számára, akik még nem vezették be új kereskedelmi ajánlatokat, ez a változás összhangban van az előző partner számlázási modellel, amely lehetővé teszi, hogy a partnerek könnyebben áttérjenek a CSP új kereskedelmi felületére
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Tekintse át a témakör információit az [operatív](https://partner.microsoft.com/resources/collection/eu-efta-changes-collection#/) katalógusban (a szükséges bejelentkezési adatokkal) a Microsoft partner webhelyén.  
 
@@ -396,7 +482,7 @@ A partner Center API-t használó, a Cloud Solution Provider program keretében 
 
 Ez a 2020 decemberében kiadott API-fejlesztések követése. 2020 decemberében megjelent az új GET és POST minősítési API-k, és ennek eredményeképpen a régi GET és PUT minősítési API-k a 2021 februárjában megszűnnek. Ebben az időben az új GET és POST partner Center API-kat kell használnia ahhoz, hogy oktatási ajánlatokat tudjon vásárolni. 
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 - Ha még nem tette meg, frissítsen az új API-kra sikeres és időben történő áttéréshez.
 - Tekintse át az új partner Center API-módosításokat, valamint [az operatív készültségi erőforrások: a partner Center oktatási ügyfelek ellenőrzési folyamatának fejlesztéseit ismertető témakört](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/).
@@ -460,7 +546,7 @@ Ezek az SKU-i a január 1-től 2021 végleges árlista alapján lettek eltávol�
    |Dynamics 365 Operations – AX Migration program eszköz|8c8b7c8f-cb3a-4737-8319-1752938c7be3|
    |A Dynamics 365 csapat tagjai a AX Migration programhoz|1eb3ad0b-9de3-419d-8bfe-0d61bdd945b2|
 
-### <a name="next-steps"></a>További lépések
+### <a name="next-steps"></a>Következő lépések
 
 Tekintse át a témakör erőforrásait, és ossza meg őket a szervezete megfelelő szereplőivel. 
 

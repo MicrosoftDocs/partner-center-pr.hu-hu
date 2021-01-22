@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/04/2021
-ms.openlocfilehash: aa06fa03b29bb43d5b3c9d2c64e7208ebe9a9d5f
-ms.sourcegitcommit: 9bcccaf8864d8ee3c93e67691f773463f162b5f0
-ms.translationtype: HT
+ms.openlocfilehash: 83d2abd4c799a9776087efc4fb4f5e755ecbadad
+ms.sourcegitcommit: 37a18fb999bfc713b4fe514d082c63fe58ef9236
+ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98571652"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98685905"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
+|Képességek|[Az Azure-ajánlat elérhetőségének változásai az Azure-beli CSP új kereskedelmi felületével kapcsolatos CSP-ben](2021-january.md#12)|Január 21|
 |Vállalkozás fejlesztése|[Az állandó szoftverek mostantól általánosan elérhetők a felhőszolgáltatói programban](2021-january.md#11)|Január 19.|
 |Vállalkozás fejlesztése|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-january.md#10)|Január 19.|
 |Ajánlatok/piacok|[A biztonsággal, a megfelelőséggel és az identitással kapcsolatos bejelentések 2021. február 1-én](2021-january.md#9)|Január 15.|
