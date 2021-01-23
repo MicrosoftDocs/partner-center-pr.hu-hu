@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 12/21/2020
-ms.openlocfilehash: f20015fff92e200bce1d17fd6fda7b7ced618e00
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 8cb81778c352e4e173cc70177675c7ee9bac4410
+ms.sourcegitcommit: 410f8ef9a5b944b454b1980cd1eb796fbdb4e6ea
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182562"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98705045"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
@@ -49,7 +49,7 @@ A jogcímeket a partner Center [jogcímek eszközön](https://partner.microsoft.
 
 A társ-op-egyenleget a partner Center [bevételi irányítópultján](https://partner.microsoft.com/dashboard/incentives/enrollment/summary)tekintheti meg. A jogosult tevékenységekről, a jogcímek beküldéséről és egyéb további információkért tekintse meg a Microsoft partner webhelyén található [Co-op Asset gyűjteményt](https://partner.microsoft.com/asset/collection/co-op-funds-resources#/) .
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Folytassa a marketing, a kereslet-létrehozási és készültségi erőfeszítések elvégzésével, valamint a jogosult tevékenységekre vonatkozó jogcímek beküldését 45 napon belül.
 - Rendszeresen ellenőrizze a Co-op-fiók egyenlegét, és győződjön meg arról, hogy a teljes mennyiséget a H2 használati időszakának zárása alapján, 2021. június 30-án használja.
@@ -81,7 +81,7 @@ Az Adobe Sign a Microsoft által előnyben részesített elektronikus aláírás
 
 Az Adobe Sign-ra való áttérés biztonságos és hatékony elektronikus aláírási élményt nyújt, amely nagyobb értéket biztosít ügyfeleinknek és partnereinknek. A fiók-áttelepítési tervekkel kapcsolatos további információkért tekintse meg a 2021. januári Adobe-bejelentkezést.  
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel. Az áttelepítéssel kapcsolatos további információkat a 2021-as januári verzióban talál.
 
@@ -111,7 +111,7 @@ A partneri központ díjszabása és katalógusa általában a hónap első napj
 
 Vegye figyelembe, hogy a szokásos ütemezés szerint az összes többi árlista-fájl elérhető, és a fenti két szolgáltatás némileg késleltetve lesz.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Összefoglalva, az alábbi díjszabási fájlok a szokásos módon lesznek elérhetők december 31-én, 2020-kor körülbelül 6 PST:
 
@@ -155,7 +155,7 @@ Az új Microsoft Edge egy modern böngésző legjobb kifejeződése, és örömm
 - **Március 9 2021**, a Microsoft Edge Legacy-hoz létrehozott alkalmazások és webhelyek továbbra is működni fognak az új Microsoft Edge-ben, de ha kompatibilitási probléma merül fel, akkor az [alkalmazás biztosítja az ígéretet](/fasttrack/products-and-capabilities#app-assure) , hogy támogatást nyújtson.
 - **Augusztus 17 2021** után az ügyfelek csökkentett teljesítményű élményt kapnak, vagy nem tudnak csatlakozni az Internet Explorer 11 Microsoft 365 alkalmazásaihoz és szolgáltatásaihoz. A Microsoft úgy véli, hogy az ügyfelek az [új Microsoft Edge](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)használatakor a legtöbbet a Microsoft 365 és a modern böngésző legjobb kifejeződésével fogják kipróbálni.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - A bejelentés részleteinek megismeréséhez olvassa el a blogbejegyzésben.
 - Ezzel a lehetőséggel elérheti a partnereit, hogy segítsen az új Microsoft Edge üzembe helyezésében.
@@ -182,7 +182,7 @@ Minden CSP-partner
 
 Ma, ahogy továbbra is [rangsorolni fogjuk a felhőt](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/), értesítést küldünk a nyilvános szektor (kormányzati, oktatási és non-profit) ügyfeleinek a nyílt licencelési program keretében megvásárolt jövőbeli változásairól, valamint a Cloud Solution Provider program kapcsolódó változásairól.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 A teljes bejelentés csak a Microsoft-partnerek számára érhető el. [Jelentkezzen be a teljes bejelentéshez való hozzáféréshez](https://partner.microsoft.com/resources/detail/public-sector-open-license-csp-evolution-to-a-better-experience-pc-announcement-pdf).
 
@@ -242,7 +242,7 @@ A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti
 
 A világ többi részén lévő ügyfelekkel rendelkező partnerek a 2021. márciusi időpontban jogosultak a **jogi azonosító**, a **telefonszám** és a **középső név** megadására az ügyfelek számára opcionális részletekként.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Részletesebb útmutatásért tekintse át a technikai dokumentációt és a dedikált [partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakran feltett kérdéseket.
 - Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
@@ -280,13 +280,13 @@ A következő ugyanezt a dátumot is végrehajtja:
 
 - A CSP Perpetual Software árlista újra közzé lesz téve a partner Centerben. Az [értékesítés > díjszabása & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldal **szoftver** szakaszában találhatja meg, amely további termékeket és földrajzi régiókat tartalmaz. Részletes információt [itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) talál.
 
-- A partner Center szoftver-és licenckulcs-teljesítési funkciója kivonásra kerül – lásd a [bejelentést](./2020-september.md#17) , és a partnerek a Microsoft 365 felügyeleti központot kizárólag erre a célra használják tovább. Ez biztosítja az ügyfelek számára legbiztonságosabb és leghatékonyabb élményt. A Microsoft 365 felügyeleti központ szoftverével kapcsolatos további információkért tekintse át az [Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), a [gyakori feladatok](/microsoft-365/admin/admin-overview/about-the-admin-center?preserve-view=true&view=o365-worldwide)és a [licencek kulcsának teljesítésére vonatkozó lehetőségeket](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf).
+- A partner Center szoftver-és licenckulcs-teljesítési funkciója megszűnik – lásd a [közleményt](./2020-september.md#17) , és a partnerek az Microsoft 365 felügyeleti központot kizárólag erre a célra fogják használni. Ez biztosítja az ügyfelek számára legbiztonságosabb és leghatékonyabb élményt. A Microsoft 365 felügyeleti központ szoftverével kapcsolatos további információkért tekintse át az [Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), a [gyakori feladatok](/microsoft-365/admin/admin-overview/about-the-admin-center?preserve-view=true&view=o365-worldwide)és a [licencek kulcsának teljesítésére vonatkozó lehetőségeket](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf).
 
 ### <a name="perpetual-software-in-csp"></a>Örökös szoftver a CSP-ben
 
 Az új kereskedelmi élményben lévő, a CSP programhoz való Perpetual szoftver hozzáadása csökkenti a partnerek által több licencelési program kezeléséhez szükséges időt és költségeket. Ez jobb értékesítési, működési és felügyeleti képességeket eredményez. A partnerek a különböző megoldásokkal és felügyelt szolgáltatásokkal bővítik a vállalatokat, hogy rugalmasan kombinálják a licenceket és a felügyelt szolgáltatásokat a hibrid felhőalapú környezetekhez, és így tovább gyorsulnak ügyfeleiknek a felhőre való áttéréssel. Az ügyfelek pedig egyszerűsített megközelítéssel és nagyobb rugalmassággal rendelkeznek a szoftveres licencek megvásárlásakor. Ez a vásárlási folyamat könnyen érthető, közvetlenül javítja a licencelési eszközök felügyeletét, és kiszámítható költségekkel rendelkezik.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át a következő erőforrásokat, és ossza meg őket a szervezete megfelelő névjegyeivel:
 
@@ -321,7 +321,7 @@ A Microsoft partneri szerződésével összhangban (lásd: az **online szolgált
 
 A frissített útmutató előnézete [itt érhető](https://partner.microsoft.com/resources/detail/update-guide-online-services-software-channel-authorization-jan-pdf)el, amely az [itt elérhető](https://partner.microsoft.com/resources/detail/update-guide-online-services-software-channel-authorization-jan-redline-pdf)módosításokat mutatja be. Ez a frissítés a jelen értesítés dátumától számítva 30 nappal lép érvénybe. Jelenleg nincs szükség további beavatkozásra.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Nincs szükség beavatkozásra. Ez csak tájékoztató.
 
@@ -468,7 +468,7 @@ Ez az ajánlat szerepel az ajánlati lista mátrixában, de a decemberi árlista
    |-------------------|:------|
    |Power Apps-csomag/alkalmazás|5e1087b6-246b-4503-b88a-b60bdf0b3840|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 A kibocsátási megjegyzéseket gyakran tekintheti meg, mivel más problémák is fel lesznek fűzve a jelen közleménybe.
 
@@ -514,7 +514,7 @@ A meglévő ügyfelek automatikusan az új ajánlatra lesznek átirányítva a m
    |-------------------|:------|:------|
    |Microsoft 365 Vállalati verzió hang (US)|9f9f2c7b-c961-402b-9421-8e3c9207eeb3|PZW – 00009|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ismerkedjen meg az árlistát, és ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
 

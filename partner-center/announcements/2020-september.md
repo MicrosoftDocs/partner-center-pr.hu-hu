@@ -9,18 +9,18 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 09/30/2020
-ms.openlocfilehash: ee876a479834b3538d2c0f8cf447a07fa2a59394
-ms.sourcegitcommit: 13d8e977f48448a7018747b39ec6eb3eeae123bc
+ms.openlocfilehash: 65f0d6a25811928a3639dc2ac6bacae31293e58f
+ms.sourcegitcommit: 410f8ef9a5b944b454b1980cd1eb796fbdb4e6ea
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94878800"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98705011"
 ---
 # <a name="september-2020-announcements"></a>2020. szeptemberi közlemények
 
 Ez az oldal a Microsoft partner Center hirdetményeit ismerteti a 2020 szeptemberében.
 
-2020 bejelentések: [február](2020-february.md)  |  [March](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [június](2020-june.md)  |  [July](2020-july.md)  |  [August](2020-august.md) | Szeptember
+2020 bejelentések: [február](2020-february.md)  |  [](2020-march.md)  |  [április](2020-april.md)  |  [május](2020-may.md)  |  [június](2020-june.md)  |  [](2020-july.md)  |  [](2020-august.md) | Szeptember
 
 ________________
 ## <a name="partner-center-software-license-key-and-download-fulfillment-notice"></a><a name="17"></a>A partner Center szoftverlicenc-kulcsa és a letöltési teljesítési nyilatkozat
@@ -36,7 +36,7 @@ Minden felhőalapú megoldási partner (CSP), amely a szoftveres ajánlatokat
 
 ### <a name="details"></a>Részletek
 
-Jelenleg a partnerek bármelyike használhatja a partner centert vagy a Microsoft 365 felügyeleti központot a szoftverek letöltéséhez és a licencek kulcsának teljesítéséhez a CSP-szoftverek megrendeléseihez. 2021. **január 19**-én a partner Center szoftver-és licenckulcs-teljesítési funkciója megszűnik, és a partnerek kizárólag erre a célra fogják használni a **Microsoft 365 felügyeleti központot** . A partner Center felhasználói szoftver lapja a Microsoft 365 felügyeleti központhoz tartozó, az ügyfél-licencek és a szoftverek letöltéséhez szükséges részletes hivatkozást tartalmazni fogja. Így biztosíthatja az ügyfelek számára legbiztonságosabb és hatékony élményt.
+Jelenleg a partnerek bármelyike használhatja a partner centert vagy a Microsoft 365 felügyeleti központot a szoftverek letöltéséhez és a licencek kulcsának teljesítéséhez a CSP-szoftverek megrendeléseihez. 2021. **január 19**-én a partner Center szoftver-és licenckulcs-teljesítési funkciója megszűnik, és a partnerek a **Microsoft 365 felügyeleti** központot kizárólag erre a célra használják. A partner Center felhasználói szoftver lapja a Microsoft 365 felügyeleti központba helyezi a kapcsolatot, ahol az ügyfelek megszerezhetik az ügyfél licenceit és a szoftver letöltéseit. Így biztosíthatja az ügyfelek számára legbiztonságosabb és hatékony élményt.
 
 A szoftverlicenc-kulcsok és a letöltési hivatkozások értékesek és rendkívül keresettek a szellemi tulajdonban lévő eszközök után. Ha kiszivárgott, gyorsan kimerítheti az aktiválási korlátokat, és negatív ügyfél-és partneri élményt eredményezhet. Ezért fontos, hogy a partnerek a legbiztonságosabb technológiát és ajánlott eljárásokat használják az értékes eszközök védelméhez és az ügyfelek védelméhez.
 
@@ -44,7 +44,7 @@ A szoftverlicenc-kulcsok és a letöltési hivatkozások értékesek és rendkí
 
 A Microsoft 365 felügyeleti központ fokozza a megvásárolt szoftverek biztonságos kézbesítését, és lehetővé teszi az ügyfeleknek, hogy az előfizetéseket kezeljék, és az ügyfelek által nyújtott felhasználói élményt használják. Ez csökkenti a licencek közvetlenül az ügyfélnek történő másolásához és elküldéséhez kapcsolódó kockázatokat, ami a partner Center használata esetén lehetséges. További biztonsági intézkedésként a rendszer az összes olyan partneri tevékenységet nyomon követi, amely a szoftveres kulcsok és a letöltések elérésére és továbbítására szolgál. Ezzel a tevékenység-naplózási funkcióval a partnerek nyomon követhetik a felhasználói hozzáférést a megrendelések létrehozásához, a kulcsok és a letöltések lekéréséhez, valamint a lehetséges csalások kockázatának csökkentéséhez.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - További információ a Microsoft 365 felügyeleti központ szoftverről: [Áttekintés](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3), [gyakori feladatok](/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide&preserve-view=true) és [licenckulcs-teljesítési képességek](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf).
 
@@ -70,7 +70,7 @@ Az összes partner a CSP-ben és a programok megnyitása
 
 A Microsoft CSP program exponenciálisan bővült, több mint 90 000 résztvevő vállalattal. Az elsődleges partneri forgalom kis-és közepes méretű vállalkozások számára, valamint a kisebb vállalati ügyfelek számára az új kereskedelmi tapasztalaton belül. Ezt a lendületet ma bejelentette, hogy a CSP programban partnereink számára bővülő lehetőségek állnak rendelkezésre. A részletek a [partner blogbejegyzésében](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/)olvashatók.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Tekintse át a [partner blogbejegyzését](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) , és ossza meg az információkat a szervezete megfelelő tagjaival.
 
@@ -94,7 +94,7 @@ ________________
 - A CSP Direct Bill-partnerek és a közvetett szolgáltatók hozzáférhetnek az áttérési eszközhöz.  
 - A viszonteladók a közvetett szolgáltatóval is dolgozhatnak. A szolgáltatók további információi érhetők el [az erőforrásokon](https://partner.microsoft.com/resources/collection/transition-tool-azure-subscriptions-new-commerce-experience-csp#/)belül. 
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 2020. szeptember 30-ig egy új áttérési eszköz, amely automatizálja az ügyfél Azure-előfizetéseit a CSP programban részt vevő partnerek között az Azure-hoz készült új kereskedelmi élmény (Azure Plan) keretében.
 
@@ -152,7 +152,7 @@ A korábban ismertetett fejlesztéseken kívül örömmel jelentjük, hogy a FY2
 >[!Note]
 > A Microsoft fenntartja a jogot arra, hogy áttekintse az ügyfelek vagy a javasolt ügyfelek állapotát a minősített oktatási felhasználóként. A részletekért tekintse meg a tanulmányi végzettséggel kapcsolatos [szakképzési felhasználói követelményeket](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) . 
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - Tekintse át a partner Center oktatási ügyfél-ellenőrzési folyamatának fejlesztéseit az operatív készültségi erőforrások között, ahol megismerheti az új [partner központ felhasználói felületét, az API-módosításokat és a tesztelési útmutatót](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/). 
 
@@ -177,7 +177,7 @@ Ha kérdése van az értesítéssel kapcsolatban, forduljon a [partner Center ü
 
 Minden partner a partner centeren keresztül a Cloud Solution Provider (CSP) programon keresztül lebonyolított. 
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 A rendszer frissíti a CSP O365 használati API-k által közzétett mérőszámok definícióit, így segítve a partnerek számára a O365 használatának mértékét. 
 
@@ -220,7 +220,7 @@ ________________
 
 Orosz mennyiségi licencelés (VL), Microsoft Business Solutions (MBS) és felhőalapú megoldások szolgáltatói (CSP) Channel-partnerek
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 Az Orosz Szövetségi jog által bevezetett #265 – FZ-es ÁFA-változások a 2021. január 1-től érvényesek.
 
@@ -252,7 +252,7 @@ ________________
 
 A Microsoft Partner Network összes partner szervezete. 
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 A partner Center-ismeretek hamarosan lecserélik a kivonási **MyInsights** jelentéskészítő eszközt. A partner Center-ismeretek gazdagabb vizualizációkat, több éleslátó jelentéskészítési képességeket és KPI-ket biztosítanak az ügyfelek, előfizetések, licencek kihasználtsága, viszonteladói teljesítmény, képzés, kompetenciák és előnyök biztosításához. Ezekkel az intelligens elemzésekkel világosan megismerheti a Microsoft vállalatát, és magabiztosan teheti meg az adatvezérelt döntéseket. Első lépésként **válassza ki az eredményeket a partner** Center bal oldali navigációs menüjéből.
 
@@ -289,7 +289,7 @@ ________________
 
 A partner Center .NET SDK-t használó CSP programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók.
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A szeptember 22 2020-tól kezdve a partnerek megkezdhetik a .NET Standard SDK Microsoft partner Center .NET SDK v 1.16.2 verziójának letöltését, valamint a nyilvános **partneri központ SDK GitHub-mintáit** is.
 
@@ -330,7 +330,7 @@ ________________
 
 Microsoft-mezők és-partnerek 
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 Mostantól elérhető az Azure SQL Edge, amely a legbiztonságosabb Microsoft SQL-adatmotort biztosítja a eszközök internetes hálózata (IoT) átjárók és a peremhálózati eszközök számára.
 
@@ -361,7 +361,7 @@ ________________
 
 Minden partner a partner centeren keresztül a Cloud Solution Provider (CSP) programon keresztül lebonyolított. 
 
-### <a name="summary"></a>Összegzés 
+### <a name="summary"></a>Összefoglalás 
 
 A rendszer frissíti a CSP O365 használati API-kat, hogy segítsen a partnereknek felmérni a O365 használatát.
 
@@ -466,7 +466,7 @@ Megjegyzés: az önkiszolgáló vásárlási képességek jelenleg nem érhetők
 A szükséges licencek beszerzéséhez olyan központosított informatikai beszerzési folyamatra van szükség, amely az egyéni felhasználók és csapatok számára biztosít szolgáltatásokat. A szolgáltatások az Microsoft 365 és a Power platform integrációs forgatókönyvei alapján a projektre és a Visio-re is kiterjedhetnek. A Visio-és a Project-próbaverziók megvásárlása előtt az ügyfelek is kipróbálhatják az [1. és a Visio 2](https://partner.microsoft.com/resources/collection/visio-availability-announcing-trial-offers#/)., valamint a (z) [1. projektben](https://www.microsoft.com/microsoft-365/project/compare-microsoft-project-management-software)elérhető projekteket.
 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Tekintse át az összes készültségi erőforrást az Operations Readiness Resources galériában: az ügyfél önkiszolgáló [vásárlási képessége](https://partner.microsoft.com/resources/collection/customer-self-serve-purchase#/). – További információ a Microsoft INSPIRE-munkamenet [újraépítése és a Microsoft Visio és a Power platform szolgáltatással való újraépítésének és újragondolása](https://www.microsoft.com/microsoft-365/partners/videos/inspire-visio-power-platform)terén elérhető partneri lehetőségekről a Visio és a Power platform megoldásaival.
 - További információkért tekintse meg az [önkiszolgáló felügyeleti útmutatót](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins?preserve-view=true&view=o365-worldwide) .
@@ -484,7 +484,7 @@ ________________
 
 Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 Az új SKU-ket a [Project Cortex](https://resources.techcommunity.microsoft.com/project-cortex-microsoft-365/) és a [Project Turing](https://msturing.org/) teljesítményének kihasználásához a 2020 október 1-től elérhetővé teszi a Transact.
 
@@ -516,7 +516,7 @@ Az intelligens tartalomkezelési szolgáltatások speciális AI-t használnak a 
    |További gráf-összekötő kapacitása|9c8b008f-d84f-46cd-a588-fea84947161d|1LA – 00002|
    |Extra gráf-összekötő kapacitása az oktatók számára|0e0eb210-86e7-4038-9905-4fd5bf71c4bd|1TL – 00003|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Tekintse át a témakör erőforrásait, és ossza meg őket a szervezete megfelelő szereplőivel.
 - Ha bármilyen kérdése van az ajánlatokkal kapcsolatban, ellenőrizze a kapcsolódó Yammer-közösségeket.
@@ -534,7 +534,7 @@ ________________
 
 Minden partner
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A partneri ösztönzők támogatása a továbbfejlesztett önsegítő tartalommal és a zökkenőmentes online jegy-beküldési folyamattal bővült.
 
@@ -549,7 +549,7 @@ Fejlesztéseket adtak hozzá a partneri ösztönzőkhöz, amelyekkel javítható
 - Új probléma – a hatókörrel kapcsolatos kérdések minden önsegítő témakörhöz elérhetők. Ezeknek a kérdéseknek a végrehajtásával a támogatási jegy elejétől kezdve a back és a-Forth nagy részét is elvégezheti, ha az ügynököt számos fontos információval látja el elöl.
 
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ossza meg ezeket az információkat a szervezet többi részével. 
 - Használja az új támogatási élményt a [partner centeren](https://aka.ms/IncentivesSupport) keresztül vagy a [Microsoft Partner Network](https://partner.microsoft.com/support/?stage=1) az összes ösztönző támogatási követelménynek megfelelően. 
@@ -569,7 +569,7 @@ ________________
 
 Microsoft Dynamics 365-et lebonyolító partnerek
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft Dynamics 365-ügyfelek számára készült közelgő ajánlatok közé tartozik a Microsoft Project-műveletek kiadása, valamint a további üzleti központi környezetek.
 
@@ -606,7 +606,7 @@ Tekintse át a [Dynamics CSP Offers-October 2020 Excel-dokumentum](https://partn
 
 Tekintse át az ajánlat-azonosító részleteit a [Dynamics CSP Offers-October 2020 Excel-dokumentum](https://partner.microsoft.com/resources/detail/microsoft-dynamics-365-new-ids-offers-csp-october-2020-xls) **további környezetek** lapján.
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Ossza meg ezt a frissítést a szervezete megfelelő kapcsolataival.
 
@@ -623,7 +623,7 @@ ________________
 
 A Cloud Solution Provider (CSP) partnerei, köztük a közvetlen szolgáltatók, a közvetett szolgáltatók és a közvetett viszonteladók
 
-### <a name="summary"></a>Összegzés
+### <a name="summary"></a>Összefoglalás
 
 A Microsoft örömmel jelentheti be, hogy a Meghívási terv a következő új piacokon lesz elérhető a 2020-es október 1-jén: Ausztria, Dánia, Olaszország, Portugália, Svédország és Svájc. 
 
@@ -656,7 +656,7 @@ A Calling Plan jelenleg a következő címen érhető el: Belgium, Kanada, Franc
    |A tanulók számára Microsoft 365 belföldi hívási terv (120 perc)|353d7f89-2e6f-4deb-9145-80f281a782ab|HRE-11641|
    |Microsoft 365 belföldi hívási terv (120 perc) az oktatók számára|80fc6c74-cc94-478d-97b0-8455593a5987|HRE-11640|
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
 
@@ -681,7 +681,7 @@ Termék ajánlatának részletei:
 - Ajánlat neve: Microsoft Defender ATP for Servers for Education
 - Ajánlat azonosítója: c7b9ab7e-8f80-4b4b-8aed-dcad61f2899
 
-### <a name="next-steps"></a>Következő lépések
+### <a name="next-steps"></a>További lépések
 
 - Ossza meg ezeket az információkat a szervezetében található megfelelő partnerekkel.
 - A termékkel kapcsolatos további információkért olvassa el a [Microsoft DEFENDER ATP dokumentációját](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) .
