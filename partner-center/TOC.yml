@@ -110,6 +110,9 @@
     - name: Microsoft-partnerszerződés – CSP-k
       href: microsoft-partner-agreement.md
       displayName: 'csp, mpn'
+    - name: Hogyan segítik a közvetett szolgáltatók a viszonteladóik számára a TERMÉKAKTIVÁLÁSI rendszer bevezetését
+      href: mpa-indirect-provider-faq.md
+      displayName: 'csp, mpa, indirect, provider'
     - name: Közvetlen CSP-partnerek követelményei
       href: direct-partner-new-requirements.md
       displayName: 'indirect, reseller, csp'
