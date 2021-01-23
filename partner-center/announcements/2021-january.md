@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/20/2021
-ms.openlocfilehash: b31191aa5d6f6a09b3f5708044df17f5efe69d7a
-ms.sourcegitcommit: 410f8ef9a5b944b454b1980cd1eb796fbdb4e6ea
+ms.openlocfilehash: 2716c4724528714cdc64a6a36ae85bee3cd92712
+ms.sourcegitcommit: e5f48e327d91f358778b3216f24087db412cb21f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98705028"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98717828"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -23,6 +23,38 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 2021 közlemények: január
 
 2020 bejelentések: [május](2020-may.md)  |  [június](2020-june.md)  |  [](2020-july.md)  |  [augusztus](2020-august.md)  |  [szeptember](2020-september.md)  |  [](2020-October.md)  |  [](2020-november.md)  |  [](2020-december.md) .  
+
+________________
+## <a name="partner-center-audit-log-changes-to-include-two-new-operation-types-for-dap"></a><a name="13"></a> A partner Center naplózási naplójának módosításai két új műveleti típust tartalmaznak a DAP-hoz
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-25
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden CSP-partner
+
+### <a name="details"></a>Részletek
+
+A mai napon bejelentette, hogy tájékoztatjuk Önt arról, hogy a partner Center tevékenységi naplóiban két új műveleti típust tettünk elérhetővé, hogy megismertesse a partnereket, amikor az ügyfél jóváhagyta vagy eltávolította a meghatalmazott rendszergazdai kapcsolatokat.
+
+Az új műveleti típusok alább láthatók:
+
+"operationType": "dap_admin_relationship_terminated"
+
+"operationType": "dap_admin_relationship_approved",
+
+### <a name="next-steps"></a>További lépések
+
+- Az új műveleti típusok használatával nyomon követheti az eseményeket, amikor az ügyfél jóváhagyta a DAP-t, és leállította az ügyfelet.  
+- [A partner Center-tevékenység – a partner Center-alkalmazás fejlesztője által feljegyezhető rekord beszerzése | Microsoft Docs](https://docs.microsoft.com/partner-center/develop/get-a-record-of-partner-center-activity-by-user)
+- [Naplózási erőforrások – a partner Center alkalmazás fejlesztője | Microsoft Docs](https://docs.microsoft.com/partner-center/develop/auditing-resources)
+
+### <a name="questions"></a>Kérdése van?
+
+További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
 
 ________________
 ## <a name="changes-to-azure-offer-availability-in-csp-related-to-the-new-commerce-experience-in-csp-for-azure"></a><a name="12"></a> Az Azure-ajánlat elérhetőségének változásai az Azure-beli CSP új kereskedelmi felületével kapcsolatos CSP-ben
@@ -130,7 +162,7 @@ Azt is vegye figyelembe, hogy napjainkban a partner Center szoftver-és licencku
 
 ### <a name="next-steps"></a>További lépések
 
-- Töltse le a **CSP Perpetual Software** árlista szakaszt a partner Center [díjszabási & ajánlatok](https://partnercenter.microsoft.com/en-us/pcv/sales) oldal **szoftver** szakaszában. [Itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf)megtalálja az újonnan hozzáadott termékek és földrajzi területek listáját.
+- Töltse le a **CSP Perpetual Software** árlista szakaszt a partner Center [díjszabási & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldal **szoftver** szakaszában. [Itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf)megtalálja az újonnan hozzáadott termékek és földrajzi területek listáját.
 - Tekintse át a [Microsoft 365 felügyeleti központ örökös szoftver-és termékkulcs-kulcsait](https://go.microsoft.com/fwlink/p/?linkid=2152525) , és ossza meg az ügyfelekkel, amikor készen állnak a szoftverek és a licencek kulcsai letöltésére.
 - Tekintse át az [örökös szoftvereket a Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/software-in-csp#/) készenléti anyagaiban. Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
 
@@ -516,7 +548,7 @@ A Microsoft bejelenti a közelgő új Dynamics 365-ajánlatok változásait, ame
 
 2021. február 1-jén a Microsoft egy új "további válasz" ajánlatot hoz létre, amely 1 – K Response jogosultsággal rendelkezik, hogy lecserélje a meglévő ajánlatot 2 – K felmérési válaszokkal, amelynek az eladásának vége a 2021. február 1-jén történik.
 
-Tekintse meg a [Dynamics CSP Offers-February 2021 Excel-dokumentum](https://partner.microsoft.com/resources/detail/dynamics-csp-offers-february-2021-xls) "Customer Voice további RESP" lapját az SKU részleteinek megtekintéséhez. További információért tekintse meg a [Microsoft Dynamics 365-ügyfél hangpostájának kezdőlapját](https://dynamics.microsoft.com/en-us/customer-voice/overview/) .
+Tekintse meg a [Dynamics CSP Offers-February 2021 Excel-dokumentum](https://partner.microsoft.com/resources/detail/dynamics-csp-offers-february-2021-xls) "Customer Voice további RESP" lapját az SKU részleteinek megtekintéséhez. További információért tekintse meg a [Microsoft Dynamics 365-ügyfél hangpostájának kezdőlapját](https://dynamics.microsoft.com/customer-voice/overview/) .
 
 **Dynamics 365 ügyfél-szolgáltatás – az élet vége**
 
