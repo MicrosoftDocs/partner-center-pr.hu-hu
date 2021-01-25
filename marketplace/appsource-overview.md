@@ -6,12 +6,12 @@ ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: b1eb9eeed676cc07b042659dffd77d04ebd50326
-ms.sourcegitcommit: 4e8e5a18e6e64892761dadcf182e179a128dcbc7
+ms.openlocfilehash: 5c89ef94977882b72563763744c6437c6c7f368a
+ms.sourcegitcommit: 79e45aa581ad7785e2417660ed6c73689988f58b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98166698"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "98759869"
 ---
 # <a name="what-is-microsoft-appsource"></a>Mi az a Microsoft AppSource?
 
@@ -46,7 +46,7 @@ A AppSource-ben elérhető minden termék meghatározott feltételek szerint let
 
 A szoftver gyártója határozza meg az árat, a végfelhasználói licencszerződést és az adatvédelmi szabályzatokat. A AppSource minden ajánlata a kiadói licencszerződésre és az adatvédelmi szabályzatra mutató hivatkozásokat tartalmaz. A szerződések megtekintése és visszaigazolása a vásárlás folyamatának részét képezi. Részletekért lásd: [jogi szerződések](legal-contracts.md).
 
-## <a name="discover-saas-and-m365-integrated-apps"></a>SaaS-és M365 integrált alkalmazások felderítése
+## <a name="discover-saas-and-microsoft-365-integrated-apps"></a>SaaS-és Microsoft 365 integrált alkalmazások felderítése
 
 Partnereink összekapcsolhatják a SaaS-alkalmazások és a hozzájuk tartozó beépülő modulok közötti kapcsolatot a Microsoft 365. Ez lehetővé teszi, hogy az adott Microsoft 365-szolgáltatásokból vagy termékekből származó bővítményeket letöltse és használja, ha a beépülő modulokkal összekapcsolt SaaS-alkalmazást kap.
 
@@ -65,6 +65,6 @@ Microsoft 365 rendszergazda felhasználók az SaaS-és a beépülő modulokat eg
 
 Az összes tőzsdei lapon megtalálhatja a többi ügyfél minősítéseit és felülvizsgálatait. A minősítések öt csillagos skálát használnak, az átlag minősítés pedig az egyes ajánlati kártyákon jelenik meg. A Verbatim-értékelések szintén elérhetők, így megismerheti a többi ügyfél élményét. Miután megvásárolta a megoldást, elhagyhat egy minősítést, és áttekintheti, hogy más ügyfelek is megtehetik döntéseit.
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Szoftvervásárlás a Microsoft AppSource-on?](purchase-software-appsource.md)
