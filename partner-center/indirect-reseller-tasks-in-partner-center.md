@@ -1,29 +1,27 @@
 ---
 title: Közvetett szolgáltatók használata a CSP programban
 ms.topic: how-to
-ms.date: 12/16/2020
+ms.date: 01/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a közvetett viszonteladók hogyan dolgozhatnak a Microsoft közvetett szolgáltatókkal (vagy forgalmazókkal), hogy segítséget kérjenek az ügyfélszolgálat és a számlázás terén.
 ms.prod: ''
 ms.custom: contperf-fy21q2
-author: BillLinzbach
-ms.author: BillLi
+author: vinayks
+ms.author: vinayks
 ms.localizationpriority: high
-ms.openlocfilehash: c1929a68146c09beae16e5aabd96b1f192db3a31
-ms.sourcegitcommit: 3ff229fd6f80b9e935d151280b17a60b8c39e8a9
+ms.openlocfilehash: 7717f51504563ebb0193f693728229252827d7e3
+ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97636024"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98773446"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
 
 **Megfelelő szerepkörök**
 
-
-- Az összes Microsoft-partner a Cloud Solution Provider programban való regisztrálás iránt érdeklődő
-
+- Globális rendszergazda
 
 A felhőalapú megoldások és szolgáltatások gyorsan növekvő igénye számos lehetőséget kínál a Microsoft partnerei számára, hogy nyereséges felhőalapú megoldási vállalkozásokat építsenek. Azok a partnerek, akik készen állnak a piacra lépésre, de nem szeretnének több szállítót kezelni, vagy akik nem rendelkeznek teljes körű ügyfélkapcsolat-kezelési infrastruktúrával, a Microsoft felhőalapú megoldás-szolgáltatói (CSP) programjának közvetett viszonteladóként való regisztrálására is jogosultak.
 
@@ -80,12 +78,11 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
 
 5. Az MPN-azonosító hozzárendelése az Azure ID-bérlőhöz.
 
-    1. Válassza ki az **azonosítókat** a **Fiókbeállítások** közül.
-
-    1. A **CSP** szakaszban a **frissítés** HIVATKOZÁSRA kattintva frissítse a CSP-fiókjához társított MPN-azonosítót. 
- 
+    1. Jelentkezzen be MPN-fiókjával. Nyissa meg a **Beállítások**  ->  **Fiókbeállítások**  ->  **szervezeti profil**  ->  **azonosítóit**. Tekintse meg az MPN-azonosítókat, és válassza ki azt az országot, amelynek az országa megegyezik a CSP-fiókjának országával. Más szóval a CSP-fióknak és a társított MPN-AZONOSÍTÓnak ugyanabban az országban/régióban kell lennie.
+    
+     
  > [!IMPORTANT]  
-   > Válassza ki az aktív vállalati profilhoz társított MPN-azonosítót, amely ugyanabban az országban vagy régióban található, mint az Azure AD-bérlő.
+   > Válassza ki azt az MPN-azonosítót, amely ugyanabban az országban vagy régióban található, mint a CSP-fiókja.
 
 6. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
 
@@ -135,7 +132,7 @@ Ha egy közvetett szolgáltató csatlakozni szeretne Önnel a partneri központb
 A SZOLGÁLTATÓi közvetett viszonteladói tartózkodási helye határozza meg azokat a közvetett szolgáltatókat, akikkel Ön dolgozhat, valamint azokat a régiókat, amelyeken a CSP-üzletet el tudja végezni. További információ: a [Cloud Solution Provider program regionális piacainak és pénznemének olvasása, ahol a CSP-ajánlatokat értékesítheti](regional-authorization-overview.md).
 
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [A fiók-ellenőrzési folyamat](verification-responses.md)
 
@@ -146,5 +143,5 @@ A SZOLGÁLTATÓi közvetett viszonteladói tartózkodási helye határozza meg a
 - [Üzleti profil létrehozása](create-a-marketing-profile.md)
 
 - [Az ellenőrzési folyamat ismertetése](verification-responses.md)
- 
+
 - [Lásd: közvetlen számlázási partneri követelmények](direct-partner-new-requirements.md)

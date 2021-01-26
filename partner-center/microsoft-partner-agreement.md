@@ -1,20 +1,20 @@
 ---
 title: A CSP-hez készült Microsoft partneri szerződés (MPA)
 ms.topic: how-to
-ms.date: 12/09/2020
+ms.date: 01/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a Microsoft CSP-partnerének követelményeit az egységes, digitálisan elfogadott Microsoft partneri szerződés (MPA) aláírásához és ellenőrzéséhez.
-author: BillLinzbach
-ms.author: BillLi
+author: vinayks
+ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: c557e517f46be09a9f903273d8bec37ce5ec0d04
-ms.sourcegitcommit: 8cb98de420f6ab5bb4cb3efc9007262c4d7d3327
+ms.openlocfilehash: 68d7bfa23a03d46afe44475023c91109f2f1cfa6
+ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98105511"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98773484"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -68,6 +68,20 @@ Ahhoz, hogy továbbra is részt vegyen a CSP programban, a Microsoft partneri sz
 
 Ne feledje, hogy fogadja el a CSP kapcsolati kérést a közvetett szolgáltatóval.
 
+## <a name="sign-the-mpa"></a>Az MPA aláírása
+
+1. Jelentkezzen be a partner Centerbe a CSP közvetett viszonteladói fiókjával. Globális rendszergazdának kell lennie.
+1. Nyissa meg a **[CSP – áttekintés](https://partner.microsoft.com/pcv/dashboard/overview)** lapot.  Ha nem jelenik meg az **elfogadás és a folytatás** , vagy a zöld szalagcím, amely azt jelzi, hogy az MPa aláírása megtörtént, nem rendelkezik a megfelelő szerepkörrel a MPa aláírásához. A MPA aláírásához forduljon a globális rendszergazdához.
+
+1. Ha az aláírás előtt szeretné megtekinteni és letölteni a **Microsoft partneri szerződést** , kattintson a Microsoft partneri szerződés hivatkozásra az alább látható módon.
+
+:::image type="content" source="images/agreement-three.png" alt-text="Új MPA-szerződés helye":::
+
+>[!NOTE]
+>Ha nem látja a **Microsoft partneri szerződés** hivatkozást, ellenőrizze a szerepkört a partner Centerben. Csak a CSP bérlő globális rendszergazdái tekinthetik meg és jelentkezhetnek be a partner Centerben. A szerepkör ellenõrzéséhez lépjen a **felhasználói felügyelet** elemre, és győződjön meg arról, hogy a bejelentkezett fiók **globális rendszergazdaként** van megjelölve. Ha nem, akkor ez a fiók nem használható a MPA aláírására. A vállalaton belüli globális rendszergazdákat a felhasználói kezelés lapon keresheti meg.
+
+:::image type="content" source="images/user-management-clean.png" alt-text="A szerepkör megkeresése":::
+
 ## <a name="verify-that-you-have-signed-the-mpa"></a>Annak ellenőrzése, hogy aláírta-e az MPA-t
 
 Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
@@ -75,17 +89,17 @@ Ha meg szeretné tudni, hogy aláírta-e az MPA-t:
  A vállalat globális rendszergazdája nyissa meg a [CSP áttekintését](https://partner.microsoft.com/pcv/dashboard/overview) , és tekintse meg a zöld bannert, amely értesíti, hogy elfogadta a MPa-t.
 
  
-:::image type="content" source="images/mpagreen.png" alt-text="A következő zöld banner a MPA elfogadás":::
+:::image type="content" source="images/banner-boxed.png" alt-text="A következő zöld banner a MPA elfogadás":::
 
 >[!NOTE]
 >Csak a vállalat globális rendszergazdája tekintheti meg és írja alá a MPA-t. Ha nem a globális rendszergazda, meg kell kérnie a globális rendszergazdát, hogy ellenőrizze a MPA-t.
 
 Azt is láthatja, hogy aláírta-e a szerződést **a** **Fiókbeállítások** lehetőséggel.
 
-:::image type="content" source="images/agreements/agreements.png" alt-text="Az MPA aláírásának jelzése":::
+:::image type="content" source="images/agreement-new.png" alt-text="Az MPA aláírásának jelzése":::
 
 
-## <a name="download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-process"></a>Töltse le a lépésről lépésre haladó útmutatót, amely arra szolgál, hogy hol található a folyamatban
+## <a name="download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-mpa-signing-process"></a>Töltse le a lépésről lépésre haladó útmutatót, amely arra szolgál, hogy hol található a MPA aláírási folyamatában
 
 1. Ha a PMC-ből a Partnerközpontba migrálja MPN-fiókját: [Migrálás a PMC-ből a Partnerközpontba, és a Microsoft Partnerszerződés elfogadása](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 
@@ -93,6 +107,6 @@ Azt is láthatja, hogy aláírta-e a szerződést **a** **Fiókbeállítások** 
 
 3. Ha a fenti 1. és/vagy 2. lépés elvégzése után szeretné ellenőrizni MPA-állapotát a Partnerközpontban: [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Regisztráció a felhőszolgáltatói programban](indirect-reseller-tasks-in-partner-center.md)

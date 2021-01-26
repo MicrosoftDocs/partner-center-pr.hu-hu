@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5ca7dd4239821fedfdb017c7a475b31b9e91cf68
-ms.sourcegitcommit: e5f48e327d91f358778b3216f24087db412cb21f
+ms.openlocfilehash: a6cf5bc3d1e0f28a9c4e0a11d8a603297fa57bf9
+ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98717700"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98773491"
 ---
 # <a name="how-indirect-providers-can-help-their-indirect-resellers-adopt-the-microsoft-partner-agreement-mpa"></a>Hogyan segíthetnek a közvetett szolgáltatók a közvetett viszonteladók számára a Microsoft partneri szerződés (MPA) bevezetésében
 
@@ -126,13 +126,13 @@ Ha problémák merülnek fel, [támogatási jegyet](https://partner.microsoft.co
 ### <a name="i-want-to-migrate-my-mpn-account-from-partner-membership-center-to-partner-center-how-can-i-do-it-i-do-not-know-who-was-my-mpn-admin-in-pmc--how-can-i-migrate-"></a>Szeretném áttelepíteni az MPN-fiókot a Partner tagsági központból a partneri központba. Hogyan tehetem meg? Nem tudom, hogy ki volt az MPN-rendszergazda a PMC-ben, hogyan lehet migrálni? 
 
 **Válasz** Ugorjon végig a lépésenkénti útmutatóban, amely bemutatja, hogyan [migrálhatja át az MPN-t a PMC-ről a számítógépre](guide-to-migration.md). Különböző hivatkozásokat tartalmaz az áttelepített HEP-ra.
--   [A CSP-hez készült Microsoft partneri szerződés (MPA)](microsoft-partner-agreement.md#download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-process)
+-   [A CSP-hez készült Microsoft partneri szerződés (MPA)](microsoft-partner-agreement.md)
 
 Ha problémák merülnek fel, [támogatási jegyet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=2da4e1c7-3b4b-5672-6227-56bc75a936b4) is felvehet a partner centeren belülről. 
 
 ### <a name="are-there-any-localized-step-by-step-instructions-available"></a>Vannak olyan honosított lépésenkénti utasítások?
 
-**Válasz** Igen, a honosított útmutatónk itt érhető el: [közvetett viszonteladói előkészítés a Microsoft partneri szerződéshez a CSP programban](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp/data=04%7C01%7Cchimil%40microsoft.com%7C4ced38f77d8e4888d3cb08d8961d18dc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C1%7C637424399031516927%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=jMq4Izi2Oreg5%2BpgKDOXGpUgzA3MnkJ1QMewnogc%2BY8%3D&reserved=0)  (elérhető nyelvek: spanyol, Koreai, kínai, Japán)
+**Válasz** Igen, honosított útmutatónk a következő címen érhető el: [indirekt viszonteladói előkészítés Microsoft partneri szerződéssel a CSP programban](https://partner.microsoft.com/resources/collection/indirect-reseller-onboarding-for-mpa-in-csp/data=04%7C01%7Cchimil%40microsoft.com%7C4ced38f77d8e4888d3cb08d8961d18dc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C1%7C637424399031516927%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=jMq4Izi2Oreg5%2BpgKDOXGpUgzA3MnkJ1QMewnogc%2BY8%3D&reserved=0)  (elérhető nyelvek: spanyol, Koreai, kínai, Japán)
 
 ### <a name="i-dont-know-who-the-partner-center-admin-is-who-can-sign-mpa-"></a>Nem tudom, ki a partner Center rendszergazdája, aki aláírhatja a MPA-t?
 
@@ -159,8 +159,8 @@ A **Fiókbeállítások** területen válassza a **jogi profil** lap **partner**
 
 Ha nem tudja kijavítani a problémát a saját eszközén, egy támogatási jegyet is létrehozhat a partner centeren belül a CSP-fiókjával való bejelentkezéssel és a következővel:
 
-- Üzleti ellenőrzési problémák esetén kattintson [ide](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=52ac28f3-d58f-99d9-9846-3df5a6477c54)  
-- A foglalkoztatás-ellenőrzési problémákért kattintson [ide](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=c34a5c81-a111-476d-11a4-81c808c37a6b)
+- Üzleti ellenőrzési problémák esetén hozzon létre egy [támogatási kérést](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=52ac28f3-d58f-99d9-9846-3df5a6477c54).  
+- A foglalkoztatás-ellenőrzési problémák esetén hozzon létre egy [támogatási kérést](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=c34a5c81-a111-476d-11a4-81c808c37a6b).
 
 :::image type="content" source="images/rejected-faq-mpa.png" alt-text="elutasította":::
 

@@ -1,7 +1,7 @@
 ---
 title: Telephelyek kezelése a partneri fiókban
 ms.topic: how-to
-ms.date: 11/23/2020
+ms.date: 01/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogyan vehet fel új helyet, és hogyan használják a Location MPN ID-t az ösztönző programok, a CSP-üzleti, az előfizetések és az egyéb tranzakciók során.
@@ -9,18 +9,15 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 03c4fb5a4adeb49602fe3736971e140ac6da6f4f
-ms.sourcegitcommit: 245b4792e8221468f781f6effd1c9b23be05499a
+ms.openlocfilehash: 38ea8a451f51d80998643e2a023420ea3efaa6ba
+ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514799"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98773432"
 ---
 # <a name="manage-your-mpn-account-locations-and-add-a-new-location"></a>Az MPN-fiók helyeinek kezelése és új hely hozzáadása
 
-**A következőre érvényes:**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -38,7 +35,7 @@ A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelk
 
 :::image type="content" source="images/locations/locations1.png" alt-text="MPN-helyszínek szerkezete":::
 
-## <a name="prerequisites-in-order-to-add-a-new-location-for-a-csp-business"></a>Előfeltételek egy új hely megadásához a CSP vállalat számára
+## <a name="prerequisites-in-order-to-add-a-new-account-location-for-a-csp-business"></a>Előfeltételek egy új fiók helyének a CSP-üzlethez való hozzáadásához
 
 Új CSP üzleti hely hozzáadásához több előfeltétel van:
 
@@ -78,6 +75,6 @@ Jogi cég adatainak megadása, beleértve a jogi cég nevét, a lakcímét, az e
 3. Válassza ki a régiót és a jogi személyt, és **küldje** el.
 
   
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - További információ az [ellenőrzési folyamatról](verification-responses.md).
