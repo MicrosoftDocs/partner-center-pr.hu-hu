@@ -51,6 +51,9 @@
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
           displayName: mpn
+        - name: A pay kompetencia díjai
+          href: mpn-pay-fee-silver-gold-competency.md
+          displayName: mpn
     - name: Kompetenciák
       items:
         - name: A kompetenciák ismertetése
