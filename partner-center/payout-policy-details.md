@@ -6,13 +6,13 @@ ms.subservice: partnercenter-marketplace-publisher
 ms.topic: conceptual
 author: eunjkim520
 ms.author: eunjkim
-ms.date: 11/25/2020
-ms.openlocfilehash: bb7a6673d2dee5a35f1c5be96f354451633eecf5
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.date: 12/04/2020
+ms.openlocfilehash: 09e1301cb106c9e1ed40ff1fb6f70da92d2695ee
+ms.sourcegitcommit: 6632d7452be36010bfc8c6823efe5a5197377989
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492670"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861410"
 ---
 # <a name="payout-schedules-and-processes"></a>Kifizetési ütemtervek és folyamatok
 
@@ -33,10 +33,11 @@ Ha egy ügyfél Microsoft AppSource vagy az Azure Marketplace-en vásárol egy t
 
 A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél nem fizet a Microsoftnak, de már kiállítottunk egy kifizetést, tekintse meg az [ügyfél nem fizetési folyamatát](#process-for-customer-non-payment) ismertető szakaszt.
 
-| Esemény | Description | Jelentéskészítés láthatósága | Időzítés |
+| Esemény | Leírás | Jelentéskészítés láthatósága | Időzítés |
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | A Microsoft kiszámítja a számlázási összeget | Teljes használat meghatározása, tranzakciók összesen | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
+| Az ügyfél által fizetett számla | A Microsoft fizetési lehetőséget gyűjt az ügyféltől | Nincs változás besorolás | **2. hónap** |
 | Kifizetés közzétéve | Az ügynökségi díj és a kifizetés eredményének meghatározása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap (1. hét)** |
 | Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A [kifizetési utasításban](payout-statement.md) a tranzakciós előzményekben közelgőként van megjelölve | **3. hónap (1. hét)** |
 | **Kifizetés elküldése** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a [kifizetési nyilatkozat](payout-statement.md) fizetési szakaszában** | **3. hónap (nem később, mint a 15.)** |
@@ -51,7 +52,7 @@ A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél 
 
 Az összes bankkártyával vagy havi számlával történő vásárlás 30 napos időszakot biztosít, amely biztosítja, hogy az ügyfelek az ügyféltől gyűjtsék a forrásokat.
 
-| Esemény | Description | Jelentéskészítés láthatósága | Időzítés |
+| Esemény | Leírás | Jelentéskészítés láthatósága | Időzítés |
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | Az ügyfél által fizetett számla | A teljes használat, a tranzakció teljes értéke és az ügyfél által fizetett számla meghatározása | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
@@ -79,10 +80,10 @@ A következő példa egy ütemezett ütemtervet mutat be:
 | --- | --- | --- |
 | Példa a kifizetés dátumára | 10/15/2020 | A kifizetési **irányítópulton a** tranzakciós előzmények és a fizetések részben ellátottként van megjelölve |
 | <font color="red">Ha az ügyfél nem fizet a Microsoftnak</font> | 12/2/2020 – 12/5/2020 | Nincs változás, ugyanaz, mint fent |
-| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincsenek |
-| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincsenek |
+| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincs |
+| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincs |
 | Valószínűleg a közzétevő értesítést kap a kiírásról | 1/7/2021 | A közzétevőnek küldött e-mail-értesítés, amelyet az ügyfele még nem küldött el. A tranzakció-azonosító és a dollár összege is szerepel. |
-| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincsenek |
+| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincs |
 | A gyűjtési folyamat vége/az alapok le vannak írva | 2/15/2021 | A közzétevőnek elküldött e-mail-értesítés, amelyből a rendszer kiírta a forrásokat. A tranzakció-azonosító és a dollár összege is szerepel. |
 | A kifizetés le van vonva | 2021. 03. 01. | A közzétevő negatív tranzakciót fog látni a partner Center kifizetési utasításban |
 | A kifizetés megtagadva | 3/15/2021 | A jövőbeli kifizetések a partner Center kifizetési nyilatkozatában jelennek meg. A közzétevő nem kap fizetést, amíg az egyenleg már nem negatív.  |
@@ -104,6 +105,6 @@ A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk,
 | Átutalás      | 7-10 munkanap                         |
 |
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 - [Adó részletei](tax-details-marketplace.md)

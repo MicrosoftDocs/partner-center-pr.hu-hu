@@ -1,7 +1,7 @@
 ---
 title: Partneri hozzájárulási mutatók – SMMCS
 ms.topic: article
-ms.date: 01/13/2021
+ms.date: 01/26/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerkedjen meg a partneri hozzájárulási mutatók (PCI) partnereivel ahhoz, hogy elérjék a kis-és Midmarket Cloud Solutions kompetenciát.
@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cbde581a5a2d0b79b92be54abfba4920b53cbba4
-ms.sourcegitcommit: 623d03feab847538d484e0d062dc56fe9d9d82f4
+ms.openlocfilehash: e7fc9961c74d11e3bb36332d0cfff5ea4f9378be
+ms.sourcegitcommit: 6632d7452be36010bfc8c6823efe5a5197377989
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98204142"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861427"
 ---
 # <a name="use-partner-contribution-indicators-to-attain-the-small-and-midmarket-cloud-solutions-competency"></a>A kis-és Midmarket Cloud Solutions kompetenciát a partneri hozzájárulási mutatók használatával érheti el
 
@@ -157,11 +157,10 @@ A nettó új bevétel a [teljesítmény mutatója](partner-contribution-indicato
 - A nettó új bevétel az összes értékesítési csatornán, a Dynamics 365-termékek minősítéséhez használt nettó új számlázott bevételként van meghatározva.
 - A nettó új bevétel egy 12 hónapos időszakra van összegezve, amely legfeljebb 10 pontot tesz elérhetővé.
 - A nettó új bevételi pontok számlázások mínusz kreditek, és 12 hónapra összesítve kerülnek kiszámításra.
-- A nettó új bevétel kiszámítása a következők alapján történik, a megfelelő termékek esetében, amelyek vagy az ügyfél-bevonási útvonalon, vagy a pénzügyi és műveleti útvonalon vannak:
+- A nettó új bevétel kiszámítása a következő, a minősítési termékek kombinációja alapján történik:
   - Dynamics 365 Customer engagement – a minősítéssel rendelkező termékek közé tartoznak a következők: értékesítés, marketing, ügyfélszolgálat, mező szolgáltatás, Project Server, 1. csomag, automatizálás, marketing, Microsoft kapcsolat értékesítés
-  - Pénzügy és üzemeltetés – a megfelelő termékek közé tartozik az üzleti központi, a kapacitás és a tárolás, a Pénzügy és a műveletek (beleértve a csalások elleni védelmet, a műveleteket, a kiskereskedelmi, a HR, a 2. csomag), a vegyes valóságot, a csapattagot
-  - Dynamics 365 Business Central
-
+  - Pénzügy és műveletek – a minősítéssel rendelkező termékek: Dynamics 365 Business Central, kapacitás és tárolás, Pénzügy és műveletek (beleértve a csalások elleni védelmet, a műveleteket, a kiskereskedelmi, a HR, a 2. csomag), vegyes valóságot, csapattagot
+  
 - Az értékesítési csatornák közé tartozik a Nagyvállalati Szerződés (EA), a Cloud Solution Provider (CSP) és a web Direct.
 - Csak Nagyvállalati Szerződés bevétel esetén: Ez a bevétel a szerződés első évének bevételét foglalja magában. A második és a harmadik év ismétlődő bevételét nem tartalmazza.
 
@@ -307,6 +306,6 @@ A partneri hozzájárulási mutatók táblázatának megtekintéséhez kövesse 
 
    :::image type="content" source="images/partner-contribution-indicators-small-and-midmarket-view-progress.png" alt-text="A partneri hozzájárulási mutatók táblázatának beolvasása":::
 
-## <a name="next-steps"></a>Következő lépések
+## <a name="next-steps"></a>További lépések
 
 Tekintse meg ezeket az [információforrásokat](https://partner.microsoft.com/training/assets/collection/cloud-business-applications-smb-option-for-smmcs-competency-attainment#/) , ha többet szeretne megtudni arról, hogyan érheti el az arany-vagy ezüst kis-és Midmarket Cloud Solutions kompetenciát a Cloud Business Applications SMB lehetőséggel.
