@@ -1,7 +1,7 @@
 ---
 title: Közvetett szolgáltatók használata a CSP programban
 ms.topic: how-to
-ms.date: 01/25/2021
+ms.date: 01/27/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a közvetett viszonteladók hogyan dolgozhatnak a Microsoft közvetett szolgáltatókkal (vagy forgalmazókkal), hogy segítséget kérjenek az ügyfélszolgálat és a számlázás terén.
@@ -10,12 +10,12 @@ ms.custom: contperf-fy21q2
 author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
-ms.openlocfilehash: 7717f51504563ebb0193f693728229252827d7e3
-ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
+ms.openlocfilehash: a2fc1fee31a72364179deee5d18f9af3c5b626fc
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98773446"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98924984"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
 
@@ -76,30 +76,39 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
    > [!IMPORTANT]  
    > A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és (2) hogy ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését. A regisztrálási állapot frissítéseit az elsődleges partnernek küldjük.
 
-5. Az MPN-azonosító hozzárendelése az Azure ID-bérlőhöz.
+5. Az MPN-azonosító hozzárendelése a CSP-fiókhoz. 
+  A CSP-fióknak és a társított MPN-AZONOSÍTÓnak ugyanabban az országban kell lennie.
 
-    1. Jelentkezzen be MPN-fiókjával. Nyissa meg a **Beállítások**  ->  **Fiókbeállítások**  ->  **szervezeti profil**  ->  **azonosítóit**. Tekintse meg az MPN-azonosítókat, és válassza ki azt az országot, amelynek az országa megegyezik a CSP-fiókjának országával. Más szóval a CSP-fióknak és a társított MPN-AZONOSÍTÓnak ugyanabban az országban/régióban kell lennie.
+   a. Jelentkezzen be a partner Centerbe az "MPN" fiók hitelesítő adataival (az MPN hitelesítő adatai eltérhetnek a CSP hitelesítő adataitól).
+   
+   b. Nyissa meg a **Beállítások**  ->  **Fiókbeállítások**  ->  **szervezeti profil**  ->  **azonosítóit**.
+ 
+    c. Keresse meg a "location" típusú MPN-azonosítót, amely megfelel a CSP-fiók országának. 
+
+    d. Ha nem találja a használni kívánt CSP-fióknak megfelelő Location MPN-azonosítót, új helyet is hozzáadhat, amely új MPN-azonosítót hoz létre. További információ: [helyszínek kezelése](manage-locations.md).
+
+    e. Ezzel a lépéssel elhalaszthatja ezt a lépést, de nem fogja tudni aláírni a Microsoft partneri szerződést (MPA) vagy a Transact-t a CSP-ben, amíg be nem fejeződik az MPN-azonosító társítása a CSP-fiókjával.
     
      
  > [!IMPORTANT]  
-   > Válassza ki azt az MPN-azonosítót, amely ugyanabban az országban vagy régióban található, mint a CSP-fiókja.
+   > Válassza ki a CSP-fiókkal azonos országban található MPN-azonosítót.
 
-6. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
+6. Miután a Microsoft elvégezte a regisztráció ellenőrzését, amely 3-5 munkanapot vesz igénybe, írja alá a Microsoft partneri szerződést a [partner Center irányítópult áttekintésében](https://partner.microsoft.com/pcv/dashboard/overview) a globális rendszergazdai hitelesítő adatok használatával. Ha az aláírás előtt szeretné megtekinteni és letölteni a **Microsoft partneri szerződést** , kattintson a Microsoft partneri szerződés hivatkozásra az alább látható módon.  Ha a fiókja 5 munkanapon belül elakad az ellenőrzésbe, olvassa el [a fiók-ellenőrzési folyamatot](verification-responses.md).
+
+
+:::image type="content" source="images/agreement-three.png" alt-text="Új MPA-szerződés helye":::
+
+ 
+7. Ellenőrizze, hogy aláírta-e a Microsoft partneri szerződést a partner profil **program információi** szakaszában. Emellett a rendszer megerősítő szalagcím-értesítést is tartalmaz a CSP Áttekintés oldalán. 
+
+:::image type="content" source="images/mpagreen.png" alt-text="Zöld elfogadható szalagcím":::
+
+
+8. Ha a fiókpartner-fiók használatra kész, ellenőrizze, hogy hozzá lett-e adva a felügyeleti ügynök csoportjához. A fiók beállításának befejezéséhez, beleértve a más felhasználók hozzáadását is, rendszergazdai jogosultságokkal kell rendelkeznie. Az engedélyek megtekintéséhez vagy frissítéséhez kövesse az alábbi lépéseket:
 
    1. A partner Center irányítópultján válassza a **Beállítások** ikont, majd a **Fiókbeállítások** területen válassza a **felhasználói kezelés** lehetőséget.
 
    2. A felhasználók listájából válassza ki a nevét. Ezután válassza ki a **felügyeleti ügynököt** , ha még nincs kiválasztva. Válassza a **Frissítés** lehetőséget.
-
-## <a name="all-indirect-resellers-need-to-sign-the-microsoft-partner-agreement"></a>Minden közvetett viszonteladónak alá kell írnia a Microsoft partneri szerződést
-
-1.  Ha még nem helyezte át a partner centert a partneri tagsági központban, tegye meg most. A partner Centerre való áttéréssel kapcsolatos segítségért olvassa el a következő témakört: a [PMC-ról a partneri központba való Migrálás](guide-to-migration.md) 
-
-2.  Ha van egy partner Center-tagsági fiókja (MPN-azonosítója), akkor is hivatalosan regisztrálnia kell a Cloud Solution Provider programban. A tagsági állapot ellenőrzéséhez lépjen a [**partner profiljába**](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) , és erősítse meg a fiók típusát. Ezután [regisztrálja magát a CSP-ben közvetett viszonteladóként](enrolling-in-the-csp-program.md). Miután regisztrálta magát a közvetett viszonteladóként, [fogadja el a CSP-kapcsolat kérését a közvetett szolgáltatótól](indirect-reseller-tasks-in-partner-center.md).
-
-3.  Ha már regisztrált a partner Centerben közvetett viszonteladóként, fogadja el a Microsoft partneri szerződést a [partner Center irányítópultjának áttekintésében](https://partner.microsoft.com/pcv/dashboard/overview) a globális rendszergazdai hitelesítő adatok használatával. Ellenőrizze, hogy aláírta-e a Microsoft partneri szerződést a partner profil **program információi** szakaszában. Emellett a rendszer megerősítő szalagcím-értesítést is tartalmaz a CSP Áttekintés oldalán. 
-
-:::image type="content" source="images/mpagreen.png" alt-text="Zöld elfogadható szalagcím":::
-
 
 ## <a name="connect-with-an-indirect-provider"></a>Kapcsolat felvétele közvetett szolgáltatóval
 
@@ -132,7 +141,7 @@ Ha egy közvetett szolgáltató csatlakozni szeretne Önnel a partneri központb
 A SZOLGÁLTATÓi közvetett viszonteladói tartózkodási helye határozza meg azokat a közvetett szolgáltatókat, akikkel Ön dolgozhat, valamint azokat a régiókat, amelyeken a CSP-üzletet el tudja végezni. További információ: a [Cloud Solution Provider program regionális piacainak és pénznemének olvasása, ahol a CSP-ajánlatokat értékesítheti](regional-authorization-overview.md).
 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A fiók-ellenőrzési folyamat](verification-responses.md)
 
@@ -145,3 +154,4 @@ A SZOLGÁLTATÓi közvetett viszonteladói tartózkodási helye határozza meg a
 - [Az ellenőrzési folyamat ismertetése](verification-responses.md)
 
 - [Lásd: közvetlen számlázási partneri követelmények](direct-partner-new-requirements.md)
+- [Microsoft-partnerszerződés](microsoft-partner-agreement.md)

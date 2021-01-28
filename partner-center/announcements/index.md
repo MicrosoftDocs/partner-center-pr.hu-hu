@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/04/2021
-ms.openlocfilehash: 205f882cccb2375a7ad2681556103e39b9a88185
-ms.sourcegitcommit: e5f48e327d91f358778b3216f24087db412cb21f
+ms.date: 01/27/2021
+ms.openlocfilehash: 6001199d4da9d000f82f16f9fcf2f945c3c3e08b
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98717845"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98924928"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,17 +22,18 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
-|Képességek|[A partner Center naplózási naplójának módosításai két új műveleti típust tartalmaznak a DAP-hoz](2021-january.md#13)|Január 25|
-|Képességek|[Az Azure-ajánlat elérhetőségének változásai az Azure-beli CSP új kereskedelmi felületével kapcsolatos CSP-ben](2021-january.md#12)|Január 21|
-|Vállalkozás fejlesztése|[Az állandó szoftverek mostantól általánosan elérhetők a felhőszolgáltatói programban](2021-january.md#11)|Január 19.|
-|Vállalkozás fejlesztése|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-january.md#10)|Január 19.|
-|Ajánlatok/piacok|[A biztonsággal, a megfelelőséggel és az identitással kapcsolatos bejelentések 2021. február 1-én](2021-january.md#9)|Január 15.|
-|Képességek|[A DocuSign migrálása az Adobe Sign rendszerébe a Microsoft-partnerszerződéseket (MPA-kat) kötött partnereknél](2021-january.md#8)|Január 15.|
-|Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései a norvég koronára vonatkozóan](2021-january.md#7)|Január 14.|
-|Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései az indiai rúpiára vonatkozóan](2021-january.md#6)|január 8.|
-|Ajánlatok/piacok|[A híváscsomag és a telefonos rendszer 2021. február 1-i frissítései](2021-january.md#5)|január 8.|
-|Ajánlatok/piacok|[A licencalapú árlista frissítései – 2021.](2021-january.md#4)|január 8.|
-|Modern munkahely|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2021-january.md#3)|Január 7.|
+|Modern munkahely|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2021-january.md#14)|Január 27|
+|Képességek|[Microsoft partneri szerződés (MPA) – közvetett viszonteladói frissítés & új GYIK](2021-january.md#13)|Január 27|
+|Képességek|[A partner Center naplózási naplójának módosításai két új műveleti típust tartalmaznak a DAP-hoz](2021-january.md#12)|Január 25|
+|Képességek|[Az Azure-ajánlat elérhetőségének változásai az Azure-beli CSP új kereskedelmi felületével kapcsolatos CSP-ben](2021-january.md#11)|Január 21|
+|Vállalkozás fejlesztése|[Az állandó szoftverek mostantól általánosan elérhetők a felhőszolgáltatói programban](2021-january.md#10)|Január 19.|
+|Vállalkozás fejlesztése|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-january.md#9)|Január 19.|
+|Ajánlatok/piacok|[A biztonsággal, a megfelelőséggel és az identitással kapcsolatos bejelentések 2021. február 1-én](2021-january.md#8)|Január 15.|
+|Képességek|[A DocuSign migrálása az Adobe Sign rendszerébe a Microsoft-partnerszerződéseket (MPA-kat) kötött partnereknél](2021-january.md#7)|Január 15.|
+|Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései a norvég koronára vonatkozóan](2021-january.md#6)|Január 14.|
+|Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései az indiai rúpiára vonatkozóan](2021-january.md#5)|január 8.|
+|Ajánlatok/piacok|[A híváscsomag és a telefonos rendszer 2021. február 1-i frissítései](2021-january.md#4)|január 8.|
+|Ajánlatok/piacok|[A licencalapú árlista frissítései – 2021.](2021-january.md#3)|január 8.|
 |Képességek|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
 |Ajánlatok/piacok|[Dynamics 365-ajánlatok 2021. februárra](2021-january.md#1)|Január 4.|
 | **Kategória** | **2020. decemberi közlemények** | **Bejelentve** |

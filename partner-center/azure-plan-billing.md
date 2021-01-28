@@ -9,12 +9,12 @@ author: khpavan
 ms.author: sakhanda
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e230cc0d8ff3afea4bf2cc7b55d3847814696af6
-ms.sourcegitcommit: f99424919f0d77bbe4f44293d84f9ea1e3317f13
+ms.openlocfilehash: 819f90ca9a8467de4a8001a1b10f8409d3fb1b81
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98658433"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98924997"
 ---
 # <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi felület a CSP-ben – Azure-számlázás 
 
@@ -36,7 +36,7 @@ Ez a cikk azt ismerteti, hogyan érheti el és értelmezheti az Azure-csomag sz�
 
 - **Számla fizetési ideje**: nettó 60 nap.
 
-- **Számla pénzneme**: a partnerek továbbra is az ügyfél country's rendelt pénznemében lesznek számlázva. Ha például a számlázott partner Írországban, az Egyesült Királyságban, Norvégiában és Németországban található ügyfelekkel, akkor a számlázott partner GBP, NOK és EUR számla/Recon összegű számlát kap.
+- **Számla pénzneme**: január 28-ig 2021, az EU/EFTA és az Egyesült Királyság régiójában lévő partnereink, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat az első alkalommal, amikor a bérlők a 2020. május 11. előtt jöttek létre, a partneri hely pénznemében megjelenő vásárlásért kell fizetni. Az EU/EFTA és az Egyesült Királyság régióján kívüli partnerek továbbra is a partneri hely pénznemében lesznek számlázva.
 
 - **Partneri ösztönzők**: a számlázási hónap végétől számított 45 nappal.
 

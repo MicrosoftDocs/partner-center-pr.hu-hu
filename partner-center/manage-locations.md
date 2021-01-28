@@ -1,7 +1,7 @@
 ---
 title: Telephelyek kezelése a partneri fiókban
 ms.topic: how-to
-ms.date: 01/25/2021
+ms.date: 01/26/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogyan vehet fel új helyet, és hogyan használják a Location MPN ID-t az ösztönző programok, a CSP-üzleti, az előfizetések és az egyéb tranzakciók során.
@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 38ea8a451f51d80998643e2a023420ea3efaa6ba
-ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
+ms.openlocfilehash: e39f264485e71c5a96916c224c0ea1a85c17a55b
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98773432"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925005"
 ---
 # <a name="manage-your-mpn-account-locations-and-add-a-new-location"></a>Az MPN-fiók helyeinek kezelése és új hely hozzáadása
 
@@ -35,46 +35,52 @@ A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelk
 
 :::image type="content" source="images/locations/locations1.png" alt-text="MPN-helyszínek szerkezete":::
 
-## <a name="prerequisites-in-order-to-add-a-new-account-location-for-a-csp-business"></a>Előfeltételek egy új fiók helyének a CSP-üzlethez való hozzáadásához
+## <a name="prerequisites-in-order-to-add-a-new-account-for-a-csp-business"></a>Előfeltételek új fiók hozzáadásához a CSP vállalat számára
 
-Új CSP üzleti hely hozzáadásához több előfeltétel van:
+Új CSP üzleti fiók hozzáadásához először győződjön meg arról, hogy teljesítette az előfeltételeket.
 
-1. Rendelkeznie kell egy Location MPN-AZONOSÍTÓval abban az országban, ahol üzleti tevékenységet kíván végezni.
-
-1. Szüksége lesz egy új Azure AD-bérlőre a [vállalati régióban](regional-authorization-overview.md) , amely még nincs regisztrálva a CSP-ben. Hozza létre ezt a tanúsítványt a CSP-ben való regisztráláskor.
- 
-3. Az új HRE-bérlő használatával regisztráljon a CSP programba a régióban.
-Jogi cég adatainak megadása, beleértve a jogi cég nevét, a lakcímét, az elsődleges kapcsolattartási adatokat. Ez a fiók ellenőrzés alá kerül, ezért mindenképpen adjon meg érvényes információt.
+1. Rendelkeznie kell egy Location MPN-AZONOSÍTÓval abban az országban, ahol a CSP vállalatot szeretné elvégezni. Új MPN-hely létrehozásához olvassa el az alábbi "MPN-hely hozzáadása" című szakaszt.
+  
+1. Új CSP közvetett viszonteladói regisztrációjának létrehozásához olvassa el a [közvetett szolgáltatók használata](indirect-reseller-tasks-in-partner-center.md#get-started) 
 
 >[!NOTE] 
- >Ne felejtse el bejelentkezni az **új** Azure ad-bérlő **új** hitelesítő adataival. Ne használja a meglévő hitelesítő adatait, mert a partneri központ már rendelkezik fiókkal.
+ >Ne felejtse el bejelentkezni az **új** CSP-fiók **új** hitelesítő adataival. Ne használja a meglévő hitelesítő adatait, mert a partneri központ már rendelkezik fiókkal.
 
-4. Fogadja el a Microsoft partneri szerződést, és aktiválja a fiókot.
+2. Fogadja el a Microsoft partneri szerződést, és aktiválja a fiókot.
 
 ## <a name="add-an-mpn-location"></a>MPN-hely hozzáadása
 
-1. Jelentkezzen be az MPN-fiókkal a partner Centerben. Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell rendelkeznie. 
+1. Jelentkezzen be az MPN-fiókkal a partner Centerben. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól). Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell rendelkeznie. 
 
-1. A **beállítás ikonban** válassza ki a **szervezet beállításait**.
+1. A **Beállítások ikonban** válassza ki a **Fiókbeállítások** elemet, majd válassza a **szervezeti profil** lehetőséget.
 
-2. Válassza a **jogi** lehetőséget, majd válassza a **helyszínek lehetőséget.**
+2. Válassza a **jogi** lehetőséget, majd a **partner** lapon válassza az **üzleti helyek lehetőséget,** majd kattintson a **hely hozzáadása** lehetőségre.
 
-3. Válassza a **hely hozzáadása** lehetőséget, és szúrja be a vállalathoz hozzáadni kívánt hely, valamint a helyhez tartozó elsődleges kapcsolattartó címe adatait.
+3. Adja meg a szükséges adatokat, beleértve az üzleti nevet, a lakcímet és a kapcsolattartót a vállalatához hozzáadni kívánt helyhez.
+ 
+1. Kattintson a **hely hozzáadása** gombra. Ekkor létrejön egy új MPN-azonosító az új helyhez, amelyet a CSP-tranzakciókhoz és-ösztönzőkhöz használhat.
+
+:::image type="content" source="images/legal-biz.png" alt-text="Új jogi üzleti tevékenység hozzáadása":::
 
 > [!NOTE]
 > Miután hozzáadta a helyet a partner Centerben, nem távolítható el. Ha a megfelelő MPN-azonosítót használta a bejelentkezéshez, az **MPN** a partner Center bal oldali menüjében jelenik meg.
 
-## <a name="change-global-partner-account-location"></a>Globális partneri fiók helyének módosítása
+## <a name="change-country-of-partner-global-account"></a>Partner globális fiók országának módosítása 
 
-1. Az **[üzleti helyszíneken](https://partner.microsoft.com/dashboard/account/v3/organization/legalinfo#mpn)** tekintse meg a helyek listáját, és győződjön meg arról, hogy a kívánt hely szerepel a jogi személy listáján. Ha nem, adja hozzá.
+1. Jelentkezzen be az MPN-fiókkal a partner Centerben. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól). Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell rendelkeznie. 
 
-   :::image type="content" source="images/accountsettings/location1.png" alt-text="A partner Center-fiókok helyei lap képernyőképe az összes aktuális hely listájáról.":::
+2. A **partner** lapon lépjen az **üzleti helyek** elemre, és ellenőrizze a helyek listáját, és győződjön meg arról, hogy az Ön által használt hely szerepel a jogi személy listáján. 
+ 
+1. Hely hozzáadásához kattintson a **hely hozzáadása** lehetőségre, és a kilépéskor adja meg a szükséges adatokat, beleértve az üzleti nevét, a lakcímét és az elsődleges kapcsolattartót a vállalatához hozzáadni kívánt helyhez. 
+ 
+1. Válassza az ország **/régió** legördülő lista melletti **ország módosítása** lehetőséget, és kövesse a lépéseket. 
 
-2. Válassza a **jogi** lehetőséget, majd válassza a **jogi üzleti profil frissítése** elemet.
+:::image type="content" source="images/lbp.png" alt-text="Jogi üzleti profilra vonatkozó adatvesztés":::
+
+5. Kattintson a **Mentés** gombra.
+
+6. Az MPN globális fiók országa az új jogi országra lesz módosítva.
   
-3. Válassza ki a régiót és a jogi személyt, és **küldje** el.
-
-  
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - További információ az [ellenőrzési folyamatról](verification-responses.md).

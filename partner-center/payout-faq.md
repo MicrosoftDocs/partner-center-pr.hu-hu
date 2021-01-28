@@ -1,5 +1,5 @@
 ---
-title: Kifizetések és adózási profil – gyakori kérdések
+title: Kifizetésekkel és adóprofilokkal kapcsolatos gyakori kérdések
 description: Válaszok a partner Centerben befizetésekkel és adózással kapcsolatos gyakori kérdésekre. Válaszokat tartalmaz arról, hogy a bevétel miért különbözik a várttól.
 ms.service: marketplace
 ms.subservice: partnercenter-marketplace-publisher
@@ -7,12 +7,12 @@ ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 11/25/2020
-ms.openlocfilehash: 3b09f0a08cd974f88afe5c5708df307830491f3f
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: a1dda9c49486d9da92b7f7f5623a37739736873f
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492585"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98924905"
 ---
 # <a name="common-questions-about-payouts-and-taxes"></a>A kifizetésekkel és az adókkal kapcsolatos gyakori kérdések
 
@@ -128,10 +128,6 @@ A tranzakciós előzmények letöltései között keresse meg az Adózási model
 
 Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. Megjelenik egy hivatkozás, amely a szolgáltatási díjjal kapcsolatos adónyomtatványra irányítja olyan fizetés esetén, amely szolgáltatási díjra vonatkozó adót tartalmaz.
 
-#### <a name="how-do-i-download-a-withholding-tax-form-in-pdf"></a>Hogyan tölthetem le a forrásadóra vonatkozó adónyomtatványt PDF formátumban?
-
-Nyissa meg a *Kifizetések* oldalt, majd a **Kifizetések listája** részt. A kifizetés mellett megjelenik egy hivatkozás, amely a forrásadóra vonatkozó adónyomtatványhoz irányítja.
-
 #### <a name="where-do-i-find-year-end-tax-forms"></a>Hol találom az év végi adónyomtatványokat?
 
 Az év végi adónyomtatványok megtekintéséhez lépjen a [Profil oldalra](https://partner.microsoft.com/dashboard/payee/profiles/partner/manage).
@@ -170,7 +166,7 @@ Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. M
 
 #### <a name="how-do-i-download-a-withholding-tax-form-in-pdf"></a>Hogyan letölt egy adóelőleg-űrlapot a PDF-ben?
 
-Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. A kifizetés mellett megjelenik egy hivatkozás, amely a forrásadóra vonatkozó adónyomtatványhoz irányítja.
+Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. A kifizetés mellett megjelenik egy hivatkozás, amely a forrásadóra vonatkozó adónyomtatványhoz irányítja. A visszatartási adó űrlap csak a kiválasztott ösztönző programokra vonatkozik, a kereskedelmi piactér kifizetésére nem.
 
 #### <a name="where-do-i-find-year-end-tax-forms"></a>Hol találom az év végi adónyomtatványokat?
 

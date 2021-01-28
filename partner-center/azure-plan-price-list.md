@@ -9,12 +9,12 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 02cea980626ec32d3dd60f646b1f8744130792ea
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: f11031c6071dadb427d2d5b93edd90af1a844131
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534726"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98924972"
 ---
 # <a name="price-list-for-the-new-commerce-experience-in-csp-for-azure"></a>Az Azure-beli CSP új kereskedelmi felületének árlistája
 
@@ -27,7 +27,7 @@ ms.locfileid: "96534726"
 - Értékesítési ügynök
 - Felhasználói felügyeleti rendszergazda
 
-A CSP új Azure-beli kereskedelmi élményének árlista a következő címen érhető el: a partner Centerben. Az árlista dinamikus kézbesítése valós időben történik, és az árak csak USD-ben jelennek meg. A számlázás azonban az ügyfél pénznemének megfelelő támogatott pénznemben történik. Az ügyfél pénznemének megfizetésével kapcsolatos további információkért olvassa el az [Azure-csomag számlázása](azure-plan-billing.md)című témakört.
+A CSP új Azure-beli kereskedelmi élményének árlista a következő címen érhető el: a partner Centerben. Az árlista dinamikus kézbesítése valós időben történik, és az árak csak USD-ben jelennek meg. Január 28-ig 2021, az EU/EFTA és az Egyesült Királyság régiójában lévő partnereink, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat az első alkalommal, hogy a bérlők a 2020. május 11. előtt jöttek létre, a partneri hely pénznemében megjelenő vásárlásért kell fizetni.  Az EU/EFTA és az Egyesült Királyság régióján kívüli partnerek továbbra is a partneri hely pénznemében lesznek számlázva, az [Azure-csomag számlázása](azure-plan-billing.md).
 
 ## <a name="see-pricing-for-subscriptions-under-the-azure-plan-pricing"></a>Az Azure-csomag díjszabása alá tartozó előfizetések díjszabása
 
@@ -79,7 +79,7 @@ A CSP új Azure-beli kereskedelmi élményének árlista a következő címen é
 |TermDuration|A kifejezésen alapuló termékek esetében a feltételek hossza, a foglalásokra alkalmazható.|
 |Piaci|A díjszabás piaca|
 |Pénznem|A díjszabás pénzneme|
-|Egységár|Egységár|
+|UnitPrice|Egységár|
 |PricingTierRangeMin|A többszintű díjszabáshoz a minimális díj vonatkozik|
 |PricingTierRangeMax|A többszintes díjszabás esetében a maximális ár vonatkozik|
 |EffectiveStartDate|A díjszabás kezdő dátuma|
@@ -94,7 +94,7 @@ Az Azure-csomag árlista a partner Center [díjszabási és ajánlatok oldalár�
 
 Néhány Azure-beli csomag-használati szolgáltatás támogatja a többplatformos díjszabást. A partnerek ezeket a termékeket és SKU-ket az Azure-csomag árlista listájában érhetik el. A díjszabási rétegek oszlopaiban található értékekkel rendelkező elemek lehetővé teszik a partnerek számára, hogy a használat alapján megértsék az árakat. Az alábbi példában a mintaadatok használatával három díjszabási csomaggal rendelkezünk egy termék SKU-val.
 
-|**ProductId**   |**SkuId**   |**Egységár**   |**PricingTierRangeMin**   |**PricingTierRangeMax**   |
+|**ProductId**   |**SkuId**   |**UnitPrice**   |**PricingTierRangeMin**   |**PricingTierRangeMax**   |
 |:---------------|:-----------|:---------------|:-------------------------|:-------------------------|
 |DDD123456ABC|01AB|.50|100001|9223372036854780000|
 |DDD123456ABC|01AB|.80|101|100000|
@@ -115,6 +115,6 @@ Ez az API a partnerek számára is lehetővé teszi a havi árfolyamok beolvasá
 
 Az Azure-csomag díjszabásával és a deviza-díjszabási API-kkal kapcsolatos további információkért tekintse meg a teljes [díjszabási API dokumentációját](/partner/develop/pricing).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)

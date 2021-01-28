@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 254543c353669166ed9971d57e6255bd589ccb7d
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: d34a264f366cc21109bb0f0ae379d34130f6f590
+ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570705"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98924950"
 ---
 # <a name="billing-overview-for-csp-program-partners-working-in-partner-center"></a>Számlázás áttekintése a Partnerközpontban dolgozó, CSP-programban részt vevő partnerek számára 
 
@@ -33,7 +33,7 @@ Ez a cikk a partner Centerben lévő CSP-partnerek alapszintű számlázási és
 
 A számla megkeresése:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
 2. A partner Center menüben válassza a **számlázás** lehetőséget.
 
@@ -53,7 +53,7 @@ A fiókpartner számlázási típusai közé tartozik a **licenc alapú számlá
 
 **Licenc-alapú és használaton alapuló számlázás**: a termék (ek) számlázása azon ország vagy régió pénznemében történik, amelyben Ön található. A díjat a termék (ek) értékesítésének helyétől függetlenül kell megfizetni.
 
-**Egyszeri számlázás**: a számla az ügyfél pénznemének kontextusában jön létre. Ez azt jelenti, hogy ha Ön olyan partner, amely különböző számlázható pénznemekkel rendelkező ügyfelekkel rendelkezik, minden egyes ügyfél-pénznem típushoz számlát fog kapni. Tudjon meg többet az [egykori és az ismétlődő](azure-plan-billing.md)szolgáltatásról. 
+**Egyszeri számlázás** 2021: az EU/EFTA és az Egyesült Királyság régiójában lévő azon partnereink, akik új ügyfelekkel és meglévő CSP-ügyfelekkel rendelkeznek, új kereskedelmi ajánlatokat vásárolnak az első alkalommal, amikor a bérlők a 2020. május 11. előtt jöttek létre, a partneri hely pénznemében megjelenő vásárlásért kell fizetni.  Az EU/EFTA és az Egyesült Királyság régióján kívüli partnerek továbbra is a partneri hely pénznemében lesznek számlázva. Tudjon meg többet az [egykori és az ismétlődő](azure-plan-billing.md)szolgáltatásról. 
 
 ## <a name="invoices"></a>Számlák
 
@@ -150,15 +150,15 @@ A mért szolgáltatási díjak a számlázási cikluson belül változhatnak.
 
 Az aktuális számlázási állapot, számlák és egyeztetési fájlok megtekintéséhez:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 2. A bal oldali menüben válassza a **számlázás**, majd az **ismétlődő és egyszeri vásárlások** lehetőséget.
-3. A számlázási állapot lapon válassza ki a számlát vagy a megbékélési fájlt, és tekintse meg a részletesebb információkat.
+3. A számlázási állapot oldalán válassza ki a számlát vagy az egyeztetési fájlt a részletesebb információk megtekintéséhez.
 
 ### <a name="customer-order-history"></a>Vevői rendelés előzményei
 
 Az ügyfél rendelési előzményeinek megtekintése:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 2. A bal oldali menüben válassza az **ügyfelek** lehetőséget.
 3. Az **ügyfelek** lapon keresse meg azt az ügyfelet, amelynek a megtekinteni kívánt előzményeit meg szeretné tekinteni. Kattintson a lefelé mutató nyílra az ügyfél rekordjának kibontásához.
 4. A **megrendelések megtekintése** elemre kattintva megjelenítheti az ügyfél rendelési előzményeit.
@@ -172,7 +172,7 @@ Előfordulhat, hogy a következő okok miatt kreditet vagy számlázást kell k�
 
 **Az egyszeri és az ismétlődő tranzakciók esetében** a Microsoft jóváírási megjegyzést is kiadhat, amikor jóváírást vagy számlázást kér. A rendszer a jóváírás kiállításakor megszakítja a számlát. 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A számla és a megbékélési fájl megismerése](read-your-bill.md)
 - [A CSP program partnereinek általános számlázási forgatókönyvei](common-billing-scenarios.md)
