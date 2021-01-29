@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/20/2021
-ms.openlocfilehash: 555ccc81fcce924b44d6e4da5db3e3ff4aeb87d7
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.date: 01/28/2021
+ms.openlocfilehash: 2879a129879f894da89f57dc79366d2122a4a160
+ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98924889"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042735"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -26,7 +26,7 @@ Ez az oldal részletesen ismerteti a Microsoft-partner központjának közlemén
 
 _____________ 
 
-## <a name="phase-1-now-live-euefta--uk-change-of-partner-billing-currency-for-new-commerce-offers"></a><a name="14"></a> 1. fázis most élő: EU/EFTA & Egyesült királyságbeli partneri számlázási pénznem változása új kereskedelmi ajánlatok esetén
+## <a name="phase-1-now-live-euefta--uk-change-of-partner-billing-currency-for-new-commerce-offers"></a><a name="15"></a> 1. fázis most élő: EU/EFTA & Egyesült királyságbeli partneri számlázási pénznem változása új kereskedelmi ajánlatok esetén
 
 ### <a name="categories"></a>Kategóriák
 
@@ -87,6 +87,74 @@ Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a 
 - 2021. január 28.: 
     -    Az 1. fázis bejelentése élő 
     -    Annak pontosítása, hogy az Egyesült Királyság nem szerepel az EU/EFTA-ban, a [Microsoft európai régiójában és piacán](https://docs.microsoft.com/partner-center/regional-authorization-overview) is részt vesznek, és az érintettek lesznek
+
+
+________________
+## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="14"></a> A Cloud Solution Provider (CSP) ügyfél bevezetési követelményeinek módosításai
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-01-28
+- Fokozott biztonság és megfelelőség
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A CSP közvetlen számlázási partnerei és olyan közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban.
+
+### <a name="summary"></a>Összefoglalás
+
+A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként a további vásárlói adatokat fogjuk megkeresni, amelyeknek az érvényességi időszaka március 2021.
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. A 2021. márciusi időszak végén bemutatjuk a partner Center API és a felhasználói felület (UI) fejlesztéseit, amelyek hatással lesznek a következő feltételeknek megfelelő partnerekre:
+
+1. A partner közvetlen számlázási kapcsolatban áll a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlás partner vagy közvetett szolgáltató).
+2. A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban:
+    - Thaiföld
+    - Vietnam
+    - Törökország
+    - Lengyelország
+    - Dél-afrikai Köztársaság
+    - India
+    - Brazília
+    - Irak
+    - Mianmar
+    - Dél-Szudán
+    - Szaúd-Arábia
+    - Egyesült Arab Emírségek
+    - Venezuela
+
+A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél **jogi azonosítóját** (más néven az ügyfél **szervezeti fogadóját**) és a **telefonszámot** , amikor új ügyfelek bevezetését vagy meglévő vásárlói adatok módosítását teszik elérhetővé. Ezek a partnerek **középső nevet** is megadhatnak az ügyfél számára.
+
+A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti partnerek már egy korábbi kiadásban, 2020 novemberében lettek bevezetve.
+
+- Örményország
+- Azerbajdzsán
+- Belarusz
+- Magyarország
+- Kazahsztán
+- Kirgizisztán
+- Moldova
+- Oroszország
+- Tádzsikisztán
+- Ukrajna
+- Üzbegisztán
+
+A világ többi részén lévő ügyfelekkel rendelkező partnerek a 2021. márciusi időpontban jogosultak a **jogi azonosító**, a **telefonszám** és a **középső név** megadására az ügyfelek számára opcionális részletekként.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a dedikált [partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) (bejelentkezés szükséges) kapcsolatos gyakori kérdéseket.
+- Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
+- Ügyeljen arra, hogy új ügyfelek beléptetése vagy a meglévő ügyfél adatainak módosításakor küldje el a további adatokat.
+- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van a jogi azonosítóval (más néven INN vagy TIN) kapcsolatban, forduljon az adó-tanácsadóhoz vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben.
+
+Ha támogatásra van szüksége a Microsofttal folytatott műveleteihez, [Nyisson meg egy szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8) (bejelentkezés szükséges).
 
 ________________
 ## <a name="microsoft-partner-agreement-mpa--indirect-reseller-update--new-faqs"></a><a name="13"></a> Microsoft partneri szerződés (MPA) – közvetett viszonteladói frissítés & új GYIK 
@@ -453,7 +521,7 @@ A teljes bejelentés csak a Microsoft-partnerek számára érhető el. [Jelentke
 
 ________________
 
-## <a name="calling-plan-and-phone-system-updates-for-february-1-20201"></a><a name="4"></a>A terv és a telefonos rendszer frissítéseinek meghívása 20201 február 1-én
+## <a name="calling-plan-and-phone-system-updates-for-february-1-2021"></a><a name="4"></a>A terv és a telefonos rendszer frissítéseinek meghívása 2021 február 1-én
 
 ### <a name="categories"></a>Kategóriák
 

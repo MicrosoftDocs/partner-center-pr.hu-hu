@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/27/2021
-ms.openlocfilehash: 6001199d4da9d000f82f16f9fcf2f945c3c3e08b
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.date: 01/28/2021
+ms.openlocfilehash: 6e5a9f4bcc9918a78833121c22c410aac9fac79c
+ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98924928"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042701"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,7 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |---------|:---------|:---------|
-|Modern munkahely|[Az EU/EFTA partnerszámlázási pénznemének változása új kereskedelmi ajánlatok esetén](2021-january.md#14)|Január 27|
+|Modern munkahely|[1. fázis most élő: EU/EFTA & Egyesült királyságbeli partneri számlázási pénznem változása új kereskedelmi ajánlatok esetén](2021-january.md#15)|Január 28|
+|Modern munkahely|[A felhőszolgáltatói (CSP) ügyfél-előkészítési követelmények változásai](2021-january.md#14)|Január 28|
 |Képességek|[Microsoft partneri szerződés (MPA) – közvetett viszonteladói frissítés & új GYIK](2021-january.md#13)|Január 27|
 |Képességek|[A partner Center naplózási naplójának módosításai két új műveleti típust tartalmaznak a DAP-hoz](2021-january.md#12)|Január 25|
 |Képességek|[Az Azure-ajánlat elérhetőségének változásai az Azure-beli CSP új kereskedelmi felületével kapcsolatos CSP-ben](2021-january.md#11)|Január 21|

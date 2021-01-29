@@ -1,7 +1,7 @@
 ---
 title: A partner Center számlázásának áttekintése
 ms.topic: article
-ms.date: 05/05/2020
+ms.date: 01/28/2021
 description: Ismerje meg a partner Centerben lévő CSP-partnerek alapszintű számlázási és számlázási információit. Magában foglalja a számlázást és a számla megkeresését és beolvasását.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d34a264f366cc21109bb0f0ae379d34130f6f590
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.openlocfilehash: 21cc9ddcffe2e9a29e920e235e79a5ce0bbd86b8
+ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98924950"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042718"
 ---
 # <a name="billing-overview-for-csp-program-partners-working-in-partner-center"></a>Számlázás áttekintése a Partnerközpontban dolgozó, CSP-programban részt vevő partnerek számára 
 
@@ -86,6 +86,8 @@ A kredit vagy a helyesbítés alkalmazása után a következő számlázási sz�
 A fizetési feltételek nettó 60 nap. A számlákat a számla esedékes dátuma (a számlázási dátum után 60 nap) után kell fizetni, vagy a fiókja a bűnöző lesz, ami hatással lehet a regisztrációra a CSP-ben. 
 
 A felfüggesztett fiókok teljes funkcionalitását visszanyerheti a lejárt esedékes összeg kifizetése után.
+
+A helyesbített számlázási információk megadását követően a fizetés 5 munkanapon belül látható lesz a partner Center számlázási oldalán.
 
 ### <a name="taxes-and-vat"></a>Adók és áfa
 

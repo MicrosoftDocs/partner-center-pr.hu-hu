@@ -1,19 +1,19 @@
 ---
 title: Az MPN-kompetenciáért fizetendő díj megfizetése
 ms.topic: how-to
-ms.date: 01/26/2021
+ms.date: 01/28/2021
 description: Megtudhatja, hogyan fizethet egy vagy több Silver vagy Gold-kompetencia megszerzésével vagy megújításával kapcsolatos díj vagy frissítés után fizetendő fizetési adatokat.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ad807f958dd568fe098e341b80429bf517fb87d
-ms.sourcegitcommit: 06c272d86722a2315a65aa536fb32727aab5178d
+ms.openlocfilehash: 490cb13b99b15f9c88fdab4d7bca79d1ab018eca
+ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98921178"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99042684"
 ---
 # <a name="how-to-pay-the-fee-associated-with-a-silver-or-gold-competency"></a>Silver vagy Gold kompetenciával kapcsolatos díj megfizetése
 
@@ -25,7 +25,7 @@ ms.locfileid: "98921178"
 Ez a cikk azt ismerteti, hogyan és mikor kell fizetni az ezüst vagy arany Microsoft Partner Network kompetenciához való bevezetéshez kapcsolódó díjat. A cikk azt is leírja, hogyan módosíthatja az előnyben részesített fizetési módot, hogyan vonhatja vissza a rendelést, és hogyan lehet 25%-os díjszabási kedvezményt kapni Ezüst-arany kompetenciára való áttéréskor.
 
 > [!NOTE]
-> Ha többet szeretne megtudni a Silver vagy Gold kompetenciák elérésének előnyeiről, az elérhető speciális kompetenciák és azok egyedi követelményeiről, tekintse meg a [Microsoft Partner Network kompetenciák](https://partner.microsoft.com/membership/competencies)című témakört. Az egyes rendelkezésre álló kompetenciák előnyeiről további információt a Microsoft Partner Network [a kompetenciák használati táblázatai] című cikkben talál.
+> Ha többet szeretne megtudni a Silver vagy Gold kompetenciák elérésének előnyeiről, az elérhető speciális kompetenciák és azok egyedi követelményeiről, tekintse meg a [Microsoft Partner Network kompetenciák](https://partner.microsoft.com/membership/competencies)című témakört. A [kompetenciák](https://assetsprod.microsoft.com/mpn-maps-software-iur-competency-license-table.docx) Microsoft Partner Network is megtekintheti az egyes rendelkezésre álló kompetenciák előnyeiről.
 
 ## <a name="meet-a-competencys-requirements-and-pay-the-fee"></a>A kompetenciára vonatkozó követelmények teljesítése és a díj megfizetése
 
@@ -43,7 +43,7 @@ Ellenkező esetben kövesse az alábbi lépéseket egy Silver vagy Gold kompeten
 
 2. Válassza ki a [tagsági ajánlatokat](https://partner.microsoft.com/dashboard/mpn/offers) a navigációs menüből. 
 
-3. A **megvásárolható ajánlatok** területen keresse meg az adott kompetenciához tartozó Silver tagság * * csempét vagy **arany tagsági** csempét. 
+3. A **megvásárolható ajánlatok** területen keresse meg az **ezüst tagsági** csempe vagy az adott kompetenciához társított **arany tagsági** csempét. 
 
 4. Válassza az adott ezüst vagy arany tagsági csempe jobb alsó sarkában található **előfizetés** lehetőséget.
 
@@ -54,7 +54,7 @@ Ellenkező esetben kövesse az alábbi lépéseket egy Silver vagy Gold kompeten
 
 4. A **vásárlás részletei** lapon tekintse át és erősítse meg a részleteket.
 
-   (További információ a [céges adó- **azonosító** információk](https://docs.microsoft.com/partner-center/organization-tax-info) vagy a vállalat [ **számlájának**](https://docs.microsoft.com/partner-center/mpn-get-action-pack)és a vállalat által eladott összegének a frissítéséről.
+   (További információ a [céges adó- **azonosító** információk](https://docs.microsoft.com/partner-center/organization-tax-info) vagy a vállalata és a vállalata által a cég [ **számára eladott számla**](https://docs.microsoft.com/partner-center/mpn-get-action-pack)frissítéséről.)
 
    :::image type="content" source="images/offers/2-mpn-competency-payment-preference.png" alt-text="A tagság a fizetési beállításokkal rendelkező vásárlási részletek lapot kínálja." border="false":::
 
@@ -130,7 +130,7 @@ Ha az ezüst vagy arany tagság díját elektronikus átutalással fizeti, akkor
 
    :::image type="content" source="images/offers/7-mpn-competency-payment-upload-proof.png" alt-text="A részleteket tartalmazó lap, amely tartalmazza a választható lehetőség megjelenítésének igazolását, a fizetési igazolás feltöltését, minden egyes megvásárolt ajánlat esetében." border="false":::
 
-1. Töltse ki a legutóbbi elektronikus átutalási tranzakcióval kapcsolatos egyéb mezők adatait, például a **fizetési dátumot**, * a fiók száma * * és a **tranzakció/ref nem.** értéket.
+1. Töltse ki a legutóbbi elektronikus átutalási tranzakcióval kapcsolatos egyéb mezők adatait, például a **fizetési dátumot**, **a számlaszám és a** **tranzakció/ref nem** értéket.
 
   Előfordulhat, hogy zöld üzenet jelenik meg, amely közli, hogy a kérés sikeresen befejeződött.
 

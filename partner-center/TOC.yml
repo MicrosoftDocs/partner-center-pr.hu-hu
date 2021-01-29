@@ -84,7 +84,10 @@
           displayName: mpn
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.md
-          displayName: 'renew, license, mpn'
+          displayName: 'renew, license,'
+        - name: Azure-és felhőalapú előnyök
+          href: mpn-benefits-azure-cloud.md
+          displayname: 'activate, azure license, mpn, renew'
     - name: Marketplace Rewards
       href: marketplace-rewards.md
     - name: Frissítési garancia
