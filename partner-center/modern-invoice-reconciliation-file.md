@@ -1,19 +1,19 @@
 ---
 title: Felderítési fájl mezői a CSP egyszeri vásárlásokhoz
 ms.topic: conceptual
-ms.date: 11/10/2020
+ms.date: 01/29/2021
 description: Ismerje meg a CSP egyszeri beszerzési egyeztetési fájljának összes elemét a partner Centerben, beleértve a Sample értékeket is.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
-ms.openlocfilehash: 29574dad6c3dd5eedbcf93dd555509cb04144ef5
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: f1606cceaf9dec1f04850fd85b3924ef75bbfda0
+ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182579"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99098805"
 ---
 # <a name="csp-one-time-purchase-reconciliation-file-fields"></a>CSP egyszeri beszerzési egyeztetési fájl mezői
 
@@ -64,6 +64,9 @@ Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [a megb
 | PCToBCExchangeRateDate | Az a dátum, amikor az árképzési pénznemet meg kell határozni a számlázási pénznemben. | *2020. 09. 30.* |
 | MeterDescription | Mérőműszer leírása.  | *Táblák – tárolt LRS-adatkészletek (GB/hó)* |
 | ReservationOrderId | A foglalási rendelés azonosítója. | *E21A6344E398FFC1C4D7...* |
+
+>[!NOTE]
+>Az Azure-beli felhasználást az egyszeri vásárlási felderítési fájlban is összehangolhatja. Ehhez nyissa meg a napi értékelésű használati felderítési fájlt, és keresse meg a SubscriptionID. Ekkor megjelenik az Azure-csomag azonosítójával kapcsolatos összes költség. Az Azure-SubscriptionID EntitlementID jelenik meg.
 
 ## <a name="next-steps"></a>Következő lépések
 

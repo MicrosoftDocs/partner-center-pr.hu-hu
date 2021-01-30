@@ -1,7 +1,7 @@
 ---
 title: Helyszíni szoftverek eladása CSP-n keresztül
 ms.topic: how-to
-ms.date: 01/15/2021
+ms.date: 01/29/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a CSP program partnerei hogyan vásárolhatják meg, kezelhetik, adhatják meg és törölhetik a helyszíni szoftveres előfizetéseket a partner Centerben lévő ügyfelek nevében.
@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b1d9cddd46ac6ee23a92fab41fc41b1e7eb613a1
-ms.sourcegitcommit: c46658f4d70004596e758fe4cd8671b6e9dadeab
+ms.openlocfilehash: e0ca730da28f320de50a1990a1bcfe13b195bbbf
+ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98584176"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99098856"
 ---
 # <a name="sell-on-premise-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
@@ -37,13 +37,16 @@ Ha előfizetést szeretne megvásárolni az ügyfél nevében, lépjen az ügyf�
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-A szoftver megvásárlása után Önnek és az ügyfeleknek le kell töltenie. Ezt a következő eljárással végezheti el. 
+A szoftver megvásárlása után az ügyfeleknek le kell tölteniük. Ezt a következő eljárással végezheti el.
 
 >[!NOTE]
 >A kulcsok és a letöltések beszerzéséhez rendszergazdai ügynöknek kell tartoznia.
 
 1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
-2. Másolja a hivatkozást a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti portálra a termékkulcs letöltéséhez és beszerzéséhez.
+2. Másolja a "Deep Link" (részletes hivatkozás) elemet a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti központba, hogy letöltse és beszerezze a termék kulcsait.
+
+>[!NOTE]
+>A Microsoft felügyeleti központban csak az ügyfelek láthatják a termékkulcsot és tölthetik le az adatokat. A partnerek nem látják ezeket az információkat.
 
 Ha Ön vagy ügyfelei szeretnének többet megtudni a licenckulcs letöltéséről, tekintse meg a [szoftver és a termék licenc kulcsainak letöltése](https://go.microsoft.com/fwlink/p/?linkid=2152525)című témakört.
 

@@ -1,7 +1,7 @@
 ---
 title: Szoftver-előfizetések értékesítése felhőszolgáltatón keresztül
 ms.topic: how-to
-ms.date: 06/18/2020
+ms.date: 01/29/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a CSP program partnerei hogyan használhatják a partner centert az Azure-beli fenntartott példányok és a kiszolgálói előfizetések megvásárlásához, kezeléséhez, értékesítéséhez és megszüntetéséhez.
@@ -9,16 +9,16 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bd14a82472f1a102902f1962479640b1437ef495
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 07fdc40ae9232a5cf2636b309dae45a52538edf2
+ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530000"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99098839"
 ---
 # <a name="sell-software-subscriptions-through-the-cloud-solution-provider-csp-program"></a>A szoftveres előfizetések értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
 - Felhőszolgáltatók
 
@@ -60,7 +60,7 @@ A Azure Hybrid Benefit segítségével több értéket érhet el Windows Server-
 > | Burundi     | Laosz     | Sint Maarten     |
 > | Kambodzsa     | Lesotho     | Salamon-szigetek     |
 > | Közép-afrikai Köztársaság     | Libéria     | Szomália     |
-> | Csád     | Madagaszkár     | Déli-Georgia és Déli-Sandwich-szigetek     |
+> | Csád     | Madagaszkár     | Dél-Georgia és Déli-Sandwich-szigetek     |
 > | Kína     | Malawi     | Dél-Szudán     |
 > | Karácsony-sziget     | Maldív-szigetek     | Szent Ilona, Ascension, Tristan da Cunha     |
 > | Cocos (Keeling)-szigetek     | Mali     | Suriname     |
@@ -72,7 +72,7 @@ A Azure Hybrid Benefit segítségével több értéket érhet el Windows Server-
 > | Dominika     | Montserrat     | Tonga   |
 > | Egyenlítői-Guinea     | Mozambik     | Turks- és Caicos-szigetek   |
 > | Eritrea     | Mianmar     | Tuvalu   |
-> | Falkland-szigetek     | Nauru     | Az Amerikai Egyesült Államok lakatlan külbirtokai   |
+> | Falkland-szigetek     | Nauru     | Amerikai Egyesült Államok lakatlan külbirtokai   |
 > | Francia Guyana     | Új-Kaledónia     | Vanuatu   |
 > | Francia Polinézia     | Niger     | Vatikán   |
 > | Francia Déli Területek     | Niue     | Wallis és Futuna   |
@@ -92,31 +92,22 @@ Szoftveres Előfizetések vásárlása az ügyfél nevében:
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-Miután megvásárolta a szoftver-előfizetést, kövesse az alábbi lépéseket a letöltéshez.
+A szoftver megvásárlása után az ügyfeleknek le kell tölteniük. Ezt a következő eljárással végezheti el.
 
 >[!NOTE]
->A szoftver letöltéséhez és az aktiválási kulcsok lekéréséhez rendszergazdai ügynöknek kell lennie.
+>A kulcsok és a letöltések beszerzéséhez rendszergazdai ügynöknek kell tartoznia.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
-
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
-
-3. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája. 
-
-4. Bontsa ki a letölteni kívánt terméket. A **termék kiválasztása** mezőben válassza ki a kívánt **verziót** , **nyelvet** és **fájltípust/operációs rendszert** . 
-
-5. Az adott termékek megjelenítéséhez válassza a **Submit (Küldés** ) lehetőséget. 
-
-6. Válassza **a kulcsok és letöltések** letöltése lehetőséget. 
-
-7. A letöltés megkezdéséhez válassza a **Letöltés** lehetőséget, vagy válassza a **hivatkozás másolása** lehetőséget a hivatkozás másolásához, majd küldje el az ügyfélnek. 
+1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
+2. Másolja a "Deep Link" (részletes hivatkozás) elemet a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti központba, hogy letöltse és beszerezze a termék kulcsait.
 
 >[!NOTE]
->Ez a hivatkozás két hét vagy 50 letöltés után lejár, attól függően, hogy melyik következik. Ha a hivatkozás lejár, térjen vissza ehhez az oldalhoz, és válassza a **kulcsok beolvasása és a letöltések** újra lehetőséget egy másik két hét vagy 50 letöltésének engedélyezéséhez. Ezt tetszőleges számú alkalommal megteheti. 
+>A Microsoft felügyeleti központban csak az ügyfelek láthatják a termékkulcsot és tölthetik le az adatokat. A partnerek nem látják ezeket az információkat.
+
+Ha Ön vagy ügyfelei szeretnének többet megtudni a licenckulcs letöltéséről, tekintse meg a [szoftver és a termék licenc kulcsainak letöltése](https://go.microsoft.com/fwlink/p/?linkid=2152525)című témakört.
 
 ## <a name="server-subscription-download-and-license-keys-available-through-microsoft-365-admin-center-for-customers"></a>A kiszolgálói előfizetés letöltési és licenckulcs elérhetők Microsoft 365 felügyeleti központban az ügyfelek számára 
 
-Az ügyfelek megkapják a CSP-kiszolgáló előfizetési licenc kulcsait és letöltéseit Microsoft 365 felügyeleti központból. Ha szeretné megtekinteni a CSP-kiszolgáló előfizetési licencének kulcsait és letöltéseit, az ügyfélnek Microsoft 365 felügyeleti központban kell megadnia > **számlázási > termékeit > szoftver lapot** . További részletekért tekintse meg a [szoftverek lapot a számlázás alatt](/microsoft-365/admin/whats-new-in-preview#billing--subscriptions).  
+Az ügyfelek megkapják a CSP-kiszolgáló előfizetési licenc kulcsait és letöltéseit Microsoft 365 felügyeleti központból. Ha szeretné megtekinteni a CSP-kiszolgáló előfizetési licencének kulcsait és letöltéseit, az ügyfélnek Microsoft 365 felügyeleti központban kell megadnia > **számlázási > termékeit > szoftver lapot**. További részletekért tekintse meg a [szoftverek lapot a számlázás alatt](/microsoft-365/admin/whats-new-in-preview#billing--subscriptions).  
 
 ## <a name="view-activity-for-software-key-access-and-software-downloads"></a>A szoftveres kulcsokhoz való hozzáférés és a szoftverek letöltésére vonatkozó tevékenység megtekintése
 
@@ -159,7 +150,7 @@ A vásárlás megszakításához kövesse az alábbi lépéseket:
 
 4. Az ügyfél adatai lapon válassza a **szoftver** lehetőséget az ügyfél számára megvásárolt szoftverek listájának megtekintéséhez. 
 
-5. Keresse meg a megszakítani kívánt szoftvert, majd kattintson a **Mégse gombra** . Ekkor megjelenik egy párbeszédpanel.
+5. Keresse meg a megszakítani kívánt szoftvert, majd kattintson a **Mégse gombra**. Ekkor megjelenik egy párbeszédpanel.
 
 6. A sorrend száma legördülő listából válassza ki a megszüntetni kívánt rendelési azonosító számát. (A megrendelés vagy a megrendelési azonosító számával kapcsolatos további információk az ügyfél **Order History** (rendelés előzményei) lapján tekinthetők meg.)
 
@@ -194,7 +185,7 @@ Ha a partner centeren keresztül próbálta megszakítani a szoftver megvásárl
 
 1. Ha a vásárlás megszakítása ablakból kiválasztja az **ügyfél-támogatási kérés** hivatkozást, a **jelentés a partner Center oldalával kapcsolatos problémát** is megnyithatja.
 
-2. A **részletek** , a probléma típusa listában válassza a **CSP vásárlás/visszatérítés az ügyfelek nevében** lehetőséget.
+2. A **részletek**, a probléma típusa listában válassza a **CSP vásárlás/visszatérítés az ügyfelek nevében** lehetőséget.
 
 3. Adja meg a hatás és a cím mezőket.
 

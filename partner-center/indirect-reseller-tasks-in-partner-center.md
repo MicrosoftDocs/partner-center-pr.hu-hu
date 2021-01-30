@@ -10,12 +10,12 @@ ms.custom: contperf-fy21q2
 author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
-ms.openlocfilehash: a2fc1fee31a72364179deee5d18f9af3c5b626fc
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.openlocfilehash: d93a94ce1171770d76617a9ec8bed9a1dd96d287
+ms.sourcegitcommit: 1aeabd40513f06809cb111131b4e6bc188975ce6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98924984"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99065471"
 ---
 # <a name="learn-how-to-partner-with-indirect-providers-in-the-cloud-solution-provider-program"></a>Ismerje meg, hogyan csatlakozhat a közvetett szolgáltatókkal a Cloud Solution Provider programban
 
@@ -76,8 +76,8 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
    > [!IMPORTANT]  
    > A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges kapcsolattartót annak ellenőrzéséhez, hogy (1) bejelentkezett-e a partner Center-fiókra, és (2) hogy ez az e-mail-cím a vállalathoz tartozik-e. Miután az elsődleges kapcsolat ellenőrzi a saját e-mail-címét, folytatjuk a megadott információk áttekintését. A regisztrálási állapot frissítéseit az elsődleges partnernek küldjük.
 
-5. Az MPN-azonosító hozzárendelése a CSP-fiókhoz. 
-  A CSP-fióknak és a társított MPN-AZONOSÍTÓnak ugyanabban az országban kell lennie.
+5. Az MPN-azonosító hozzárendelése a CSP-fiókhoz. A CSP-fióknak és a társított MPN-AZONOSÍTÓnak ugyanabban az országban kell lennie, és az MPN-AZONOSÍTÓnak a partner Centerben kell lennie.
+  
 
    a. Jelentkezzen be a partner Centerbe az "MPN" fiók hitelesítő adataival (az MPN hitelesítő adatai eltérhetnek a CSP hitelesítő adataitól).
    
@@ -88,10 +88,9 @@ Október 2020-ig az összes Microsoft-partner a CSP-ben regisztrálva lesz a CSP
     d. Ha nem találja a használni kívánt CSP-fióknak megfelelő Location MPN-azonosítót, új helyet is hozzáadhat, amely új MPN-azonosítót hoz létre. További információ: [helyszínek kezelése](manage-locations.md).
 
     e. Ezzel a lépéssel elhalaszthatja ezt a lépést, de nem fogja tudni aláírni a Microsoft partneri szerződést (MPA) vagy a Transact-t a CSP-ben, amíg be nem fejeződik az MPN-azonosító társítása a CSP-fiókjával.
-    
-     
+
  > [!IMPORTANT]  
-   > Válassza ki a CSP-fiókkal azonos országban található MPN-azonosítót.
+ > Válassza ki a partner Centerben és a CSP-fiókkal azonos országban elérhető MPN-azonosítót, és győződjön meg arról, hogy az MPN-azonosító a partner Centerben található.
 
 6. Miután a Microsoft elvégezte a regisztráció ellenőrzését, amely 3-5 munkanapot vesz igénybe, írja alá a Microsoft partneri szerződést a [partner Center irányítópult áttekintésében](https://partner.microsoft.com/pcv/dashboard/overview) a globális rendszergazdai hitelesítő adatok használatával. Ha az aláírás előtt szeretné megtekinteni és letölteni a **Microsoft partneri szerződést** , kattintson a Microsoft partneri szerződés hivatkozásra az alább látható módon.  Ha a fiókja 5 munkanapon belül elakad az ellenőrzésbe, olvassa el [a fiók-ellenőrzési folyamatot](verification-responses.md).
 

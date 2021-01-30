@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e39f264485e71c5a96916c224c0ea1a85c17a55b
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.openlocfilehash: 21d82fc3ec4470d4941d3ca7436089d3e892439e
+ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925005"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99098890"
 ---
 # <a name="manage-your-mpn-account-locations-and-add-a-new-location"></a>Az MPN-fiók helyeinek kezelése és új hely hozzáadása
 
@@ -47,6 +47,20 @@ A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelk
  >Ne felejtse el bejelentkezni az **új** CSP-fiók **új** hitelesítő adataival. Ne használja a meglévő hitelesítő adatait, mert a partneri központ már rendelkezik fiókkal.
 
 2. Fogadja el a Microsoft partneri szerződést, és aktiválja a fiókot.
+
+## <a name="view-your-mpn-locations"></a>MPN-hely megtekintése
+
+1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home) az MPN-fiókja hitelesítő adataival. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól) 
+ 
+1. A **Beállítások** ikonban válassza a **Fiókbeállítások**, **szervezeti profil**, **jogi** lehetőséget. 
+
+1. A **partner** lapon ellenőrizze, hogy nincs-e szalagcím-hibaüzenet, amely arra kéri, hogy javítsa az áttelepített helyet a PMC-ból. Ha van, kövesse az utasításokat, és javítsa ki ezeket a helyszíneket. 
+
+3. Ha nem jelenik meg hibaüzenet, a  **Beállítások** területen válassza a  **Fiókbeállítások**, **szervezeti profil**, **azonosítók** lehetőséget.
+
+4. Keresse meg a "location" típusú MPN-azonosítót, amely megfelel a CSP-fiók országának, és használja az alábbi kereséshez és a társítás befejezéséhez.
+
+5. Ha nem találja a használni kívánt CSP-fióknak megfelelő Location MPN-azonosítót, új helyet is hozzáadhat, amely új MPN-azonosítót hoz létre. Lásd: **MPN-hely hozzáadása** alább.
 
 ## <a name="add-an-mpn-location"></a>MPN-hely hozzáadása
 
