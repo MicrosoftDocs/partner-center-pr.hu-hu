@@ -64,6 +64,8 @@
           displayName: 'renew, mpn'
         - name: Alkalmazásfejlesztési kompetencia kivétele
           href: app-dev-isv.md
+        - name: A szaktudás jelentés használata
+          href: mpn-skills-report.md
     - name: Haladó specializációk
       items:
         - name: A szaktudás bemutatása
