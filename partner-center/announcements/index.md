@@ -8,20 +8,24 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/28/2021
-ms.openlocfilehash: 6e5a9f4bcc9918a78833121c22c410aac9fac79c
-ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
+ms.date: 02/03/2021
+ms.openlocfilehash: 9002e77d364985ffec170dbf3887dde0ab324746
+ms.sourcegitcommit: efd37a9c5db4b87f75de1d13d75ce470b84b31f6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99042701"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99552414"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
 Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat gyakran frissítjük, ezért érdemes gyakran visszalátogatnia ide.
 
-| **Kategória** | **2021. januári közlemények** | **Bejelentve** |
+|**Kategória**|**Február 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[Válasz a COVID-19-re: Microsoft Partner Network Update](2021-february.md#3)|Február 4.|
+|Képességek|[Az átirányítási modulok új frissítései a partner Centerben](2021-february.md#2)|Február 4.|
+|Modern munkahely|[A PUT minősítési API-k elavultak és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 25-én, 2021-ig, a minősítés pedig május 4-ig, 2021](2021-february.md#1)|Február 4.|
+| **Kategória** | **2021. januári közlemények** | **Bejelentve** |
 |Modern munkahely|[1. fázis most élő: EU/EFTA & Egyesült királyságbeli partneri számlázási pénznem változása új kereskedelmi ajánlatok esetén](2021-january.md#15)|Január 28|
 |Modern munkahely|[A felhőszolgáltatói (CSP) ügyfél-előkészítési követelmények változásai](2021-january.md#14)|Január 28|
 |Képességek|[Microsoft partneri szerződés (MPA) – közvetett viszonteladói frissítés & új GYIK](2021-january.md#13)|Január 27|

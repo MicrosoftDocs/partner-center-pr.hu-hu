@@ -1,7 +1,7 @@
 ---
 title: A Microsoft Partner Network előnyei – gyakori kérdések
 ms.topic: article
-ms.date: 12/10/2020
+ms.date: 02/04/2021
 description: A Microsoft Partner Networki előnyökkel kapcsolatos szabályzatokra adott válaszok.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
@@ -9,12 +9,12 @@ author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: ''
-ms.openlocfilehash: ef57b282a1a062ac34d48e7fc247175aa9dab32c
-ms.sourcegitcommit: df7f26b46d1ca46e962e528578d20330804638f9
+ms.openlocfilehash: 521e3a3adb51f528fd7b2a35103f78b0c193f1d1
+ms.sourcegitcommit: efd37a9c5db4b87f75de1d13d75ce470b84b31f6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97349546"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99552402"
 ---
 # <a name="microsoft-partner-network-benefits-faq"></a>A Microsoft Partner Network előnyei – gyakori kérdések
 
@@ -22,8 +22,13 @@ ms.locfileid: "97349546"
 
 - MPN-partner rendszergazdája
 
-
 A következő cikk a legfontosabb kérdések Microsoft Partner Network (MPN) partnereinek ad választ az MPN tagsági előnyeiről, a kompetenciáról és a termék licencekről.
+
+## <a name="responding-to-covid-19"></a>Válasz a COVID-19-re
+
+**K.** **a kompetenciával kapcsolatos évfordulónk hamarosan megérkezik, és a COVID-19-re vonatkozó hatások miatt nem tudjuk kielégíteni a kompetenciára vonatkozó követelményeket. Mi a teendő?**
+
+A. Ha a kompetenciájának évfordulója 2021. január 1. és június 30. között van, akkor a meglévő kompetenciáját vagy kompetenciáit (a Cloud Business Applications kompetencia kivételével) kiterjesztjük a következő, a 2022-es évfordulós időpontban. Nem kell teljesítenie a vizsga vagy a teljesítmény követelményeit, de továbbra is a kompetencia díját kell megfizetnie.További információt a [blogbejegyzésben](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/)talál.
 
 ## <a name="membership"></a>Tagság
 
@@ -140,18 +145,7 @@ A. A kompetencia-megvalósítás és a Action Pack vásárlás a partneri globá
 
 A. Ha szükséges, a [partner központ támogatási részén](https://partner.microsoft.com/support) találhat olyan hivatkozásokat, amelyek hasznosak lehetnek, vagy ha szükséges, a partner támogatási csapatával is megnyithatja a jegyet.
 
-## <a name="competency-extension-to-offset-effects-of-covid-19"></a>Kompetencia-bővítmény a COVID-19 hatásának ellensúlyozására
-
-**K: a Microsoft a nehézségekkel küzdő partnereknek nyújt segítséget?**
-
-A: 2020. július 1. és december 31. között a kompetenciával rendelkező partnerek esetében a partner meglévő kompetenciáját vagy kompetenciáit a 2021-os következő évfordulós időpontban bővítjük. A partner megújítási felszólítást kap, hogy tükrözze az új ajánlatot. A partnernek a 30 napos megújítási időszakon belül kell megfizetnie a kompetenciájuk díját.
-
-**K: mi a teendő, ha egy partner kihagyta a 30 napos megújítási időszakot?**
-
-A: a partner újra aktiválhatja a kompetenciáját, és visszanyerheti a hozzáférést az erőforrásokhoz és az előnyökhöz azáltal, hogy a partner központ tagsági ajánlatok lapján akár 30 napig is kifizeti a saját évfordulójának napját. Ha egy partner kihagyta a 30 napos türelmi időszakot az évfordulójuk után, a partner centeren keresztül kell benyújtania egy támogatási jegyet, amely a 30 napos megújítási időszak lejárta után COVID felülbírálást kér.
-
-További információért olvassa el az [MPN-ajánlat megújítása](renew-mpn-offers.md)című témakört.
-
 ## <a name="next-steps"></a>Következő lépések
 
-- [A Microsoft Partner Network előnyeinek meghatározása](mpn-find-benefits.md) 
+- [A Microsoft Partner Network előnyeinek meghatározása](mpn-find-benefits.md)
+- [MPN-ajánlat megújítása](renew-mpn-offers.md)
