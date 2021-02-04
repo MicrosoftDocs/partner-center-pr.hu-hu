@@ -9,14 +9,14 @@ author: vikrambmsft
 ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: c3ca88d367ea9dea8df1bb2bb4945ecc7b900b26
-ms.sourcegitcommit: 351c7ff4e6ebbb615a00190b2310156381f9cf03
+ms.openlocfilehash: 1f8d9f04920a4f2a0fab40523c217835d9b0e4ef
+ms.sourcegitcommit: 9cb7dc98faae06c255dbc025f8e452d75380c16a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96776808"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99530833"
 ---
-# <a name="analyze-your-leads---see-how-well-you-attract-target-customers-and-potential-referrals"></a>Az érdeklődők elemzése – Ismerje meg, hogy milyen jól vonzza a megcélzott ügyfeleket és a lehetséges hivatkozásokat
+# <a name="analyze-your-leads---see-how-well-you-attract-target-customers-and-potential-referrals"></a>Az érdeklődők elemzése – kiderül, milyen jól vonzza a célügyfeleket és a lehetséges javaslatokat
 <!-- 
 https://go.microsoft.com/fwlink/?linkid=849120
 -->
@@ -24,11 +24,6 @@ https://go.microsoft.com/fwlink/?linkid=849120
 **Megfelelő szerepkörök**
 
 - Ajánlói rendszergazda
-
-**A következőkre vonatkozik**
-
-- Piactéri érdeklődők
-- Minősített érdeklődők
 
 Az átirányítások **elemzési** szakasza alatt található **érdeklődők** oldalon láthatja, hogyan végezheti el az átirányítási feladatokat. Rendszeresen tekintse át ezeket a mérőszámokat, hogy azonosítsa a trendeket vagy a figyelmet igénylő területeket, és megkezdje az üzleti célok elérését.
 
@@ -115,3 +110,7 @@ Több oka is lehet annak, hogy az alább leírtak szerint hogyan lehet üres dia
 
 > [!TIP]
 > Ha szeretné megtekinteni, hogyan működnek a közös értékesítési lehetőségek, tekintse át a [közös értékesítési lehetőségek](referral-insights.md)elemzését ismertető oldalt.
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Érdeklődők kezelése](manage-leads.md)

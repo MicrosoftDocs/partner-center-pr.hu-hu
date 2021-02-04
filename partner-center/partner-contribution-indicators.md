@@ -1,7 +1,7 @@
 ---
 title: Partneri hozzájárulási mutatók – CBA
 ms.topic: article
-ms.date: 01/13/2021
+ms.date: 02/03/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan érheti el egy ezüst vagy arany Felhőbeli Business Applications kompetenciát.
@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 853af76627fcd2554492fbc918e147b8464a3e1f
-ms.sourcegitcommit: 623d03feab847538d484e0d062dc56fe9d9d82f4
+ms.openlocfilehash: c6698d955433e8fe180fe5537c52d1aba6deea3b
+ms.sourcegitcommit: 9cb7dc98faae06c255dbc025f8e452d75380c16a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98204070"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99530816"
 ---
 # <a name="use-partner-contribution-indicators-to-attain-the-cloud-business-applications-competency"></a>Partneri hozzájárulási mutatók használata a Cloud Business Applications kompetencia eléréséhez
 
@@ -125,7 +125,7 @@ A részletekért tekintse meg a következő táblázatokat:
 | PCI-metrika | Teljesítmény kijelző: nettó új bevétel | Teljesítménymutató: új ügyfél – Hozzáadás | Képesség kijelző: funkcionális tanácsadók | Képesség kijelző: funkcionális tanácsadói növekedés | Képesség kijelző: fejlesztők | Az ügyfél sikerességének mutatója: új nagyméretű telepítések | Az ügyfél sikerességének mutatója: havi aktív felhasználói növekedés |
 |---|---|---|---|---|---|---|---|
 | **Maximális pontok** | 10 pont | 10 pont | 15 pont | 15 pont | 5 pont | 20 pont | 25 pont |
-| **Fejlesztett** | $300 000 | 10 | 10 | *\* Lásd: Megjegyzés* | 5 | 5 | 25% |
+| **Fejlesztett** | $300 000 | 10 | 15 | *\* Lásd: Megjegyzés* | 5 | 5 | 25% |
 | **Fejlesztése** | $150 000 | 5  | 5  |*\* Lásd: Megjegyzés* | 2 | 1 | 25% |
 
 *\* Megjegyzés: a növekedési célok az alapszolgáltatások számától és a partnerek által a pontok beszerzéséhez használt konkrét lehetőségtől függően változnak. Ha többet szeretne megtudni a pontok beszerzésével vagy az egyes lehetőségek konkrét növekedési céljaival kapcsolatban, tekintse meg [a funkcionális tanácsadók növekedésének definícióit](partner-contribution-indicators.md#definitions-for-pci-metric-4---functional-consultant-growth).*

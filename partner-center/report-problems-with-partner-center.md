@@ -9,12 +9,12 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7d978ca3c48ccadaabb7d714ea9a5d2900bef819
-ms.sourcegitcommit: 7dff27bd799951c28bd1ef2665aa564cce71aff0
+ms.openlocfilehash: c06b11a3ddd6a91d4e939b21d603dd33aa138716
+ms.sourcegitcommit: 9cb7dc98faae06c255dbc025f8e452d75380c16a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94983341"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99530663"
 ---
 # <a name="how-to-report-problems-with-partner-center-and-submit-any-log-or-diagnostics-information"></a>A partner centerrel kapcsolatos problémák jelentése és naplózási vagy diagnosztikai információk elküldése
 
@@ -53,7 +53,7 @@ Ha a probléma a támogatási tanácsadóval folytatott beszélgetést igényli,
 
 2. A partner Center a támogatási ügyvédi naptárban ellenőrzi a rendelkezésre állást.
 
-1. Amikor beütemezhet egy találkozót, a partner Center egy naptári meghívót küld Önnek, amely arról tájékoztatja, hogy a támogatási tanácsadó hogyan fogja felvenni Önnel a kapcsolatot, így nyomon követheti a találkozót a saját munkahelyi naptárában.
+1. Amikor beütemezhet egy találkozót, a partner Center egy naptári meghívót küld Önnek, amely arról tájékoztatja, hogy a támogatási tanácsadó hogyan fogja felvenni Önnel a kapcsolatot, így nyomon követheti a találkozót a saját munkahelyi naptárában.  Bár ez a funkció még mindig előzetes verzióban érhető el, az e-mail-cím és a naptár meghívása angol nyelven fog megjelenni, de az ügyvéd támogatni fogja Önt a jegy létrehozásakor kiválasztott nyelven.
 
 :::image type="content" source="images/support/ticket3.png" alt-text="Dátum és idő":::
 
