@@ -9,18 +9,54 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 02/03/2021
-ms.openlocfilehash: dd389d0857f1ddf391086155ea5a595f0fa5b2d6
-ms.sourcegitcommit: efd37a9c5db4b87f75de1d13d75ce470b84b31f6
+ms.openlocfilehash: 30dc62c9c4b6ca2997f60da0caa2706f66d02961
+ms.sourcegitcommit: 2a3fe71ef30fbda25cc70f8f526b3efd2b3df687
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99554345"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99588716"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központtal kapcsolatos bejelentéseket a 2021 februárjában.
 
 _______________
+
+## <a name="premium-assessments-an-add-on-to-compliance-manager-is-coming-on-march-1-2021"></a><a name="4"></a>A prémium szintű felmérések, a megfelelőségi kezelő bővítménye a 2021. március 1-től érkezik
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-05
+- Képességek
+
+### <a name="affected-audience"></a>Érintett célközönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="summary"></a>Összefoglalás
+
+A prémium szintű felmérések a februári árlista előzetes verziójában szerepelnek, és 2021. március 1-től lesznek elérhetők.
+
+### <a name="details"></a>Részletek
+
+A prémium szintű értékelések egy opcionális bővítmény a megfelelőség-kezelőhöz, és segíthetnek az ügyfeleknek az adatgyűjtést és-felhasználást szabályozó nemzeti, regionális és iparági követelményeknek való megfelelésben. A prémium szintű felmérések az Office 365 E5, a5 és G5, valamint Microsoft 365 E5, a5 és G5 ügyfelek számára vannak fenntartva.
+
+|**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+|------------------|:--------------------|:------------------|
+|CSP-Corp-addon|[76be61a7-2c03-4b3e-8330-63b11bd904ed](https://commoffertool.catalog.cp.microsoft.com/Prod/Office365/offer/details/76be61a7-2c03-4b3e-8330-63b11bd904ed)|8JA-00003|
+|CSP-Corp-Trial|[f2f6ae44-24fe-450c-9cd7-529e7c8cfcb4](https://commoffertool.catalog.cp.microsoft.com/Prod/Office365/offer/details/f2f6ae44-24fe-450c-9cd7-529e7c8cfcb4)|8JA-00004|
+|CSP-oktatási-kari-addon|[fa7f5773-063a-48cf-b3e2-de509ea1262f](https://commoffertool.catalog.cp.microsoft.com/Prod/Office365/offer/details/fa7f5773-063a-48cf-b3e2-de509ea1262f)|8JB-00003|
+|CSP-oktatási-kari-próbaverzió|[828cecbd-8728-4339-b0c2-51e009a67d88](https://commoffertool.catalog.cp.microsoft.com/Prod/Office365/offer/details/828cecbd-8728-4339-b0c2-51e009a67d88)|8JB-00004|
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a témakör alábbi forrásait, és ossza meg az információkat a szervezete megfelelő szereplőivel.   
+
+- [Az E5 biztonsági és megfelelőségi Microsoft 365](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise?rtc=1&activetab=m365-enterprise:primaryr5)
+- [Értékelések készítése és kezelése a Microsoft megfelelőségi kezelőjében](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments&preserve-view=true=o365-worldwide)
+
+_________________________________________________________
+
 ## <a name="responding-to-covid-19-microsoft-partner-network-update"></a><a name="3"></a> Válasz a COVID-19-re: Microsoft Partner Network Update
 
 ### <a name="categories"></a>Kategóriák

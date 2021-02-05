@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 02/03/2021
-ms.openlocfilehash: 9002e77d364985ffec170dbf3887dde0ab324746
-ms.sourcegitcommit: efd37a9c5db4b87f75de1d13d75ce470b84b31f6
+ms.date: 02/05/2021
+ms.openlocfilehash: 9dd646b693f718f47c2f5edd4778836694fb0954
+ms.sourcegitcommit: 2a3fe71ef30fbda25cc70f8f526b3efd2b3df687
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99552414"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99588733"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Február 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[A prémium szintű felmérések, a megfelelőségi kezelő bővítménye a 2021. március 1-től érkezik](2021-february.md#4)|Február 5.|
 |Képességek|[Válasz a COVID-19-re: Microsoft Partner Network Update](2021-february.md#3)|Február 4.|
 |Képességek|[Az átirányítási modulok új frissítései a partner Centerben](2021-february.md#2)|Február 4.|
 |Modern munkahely|[A PUT minősítési API-k elavultak és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 25-én, 2021-ig, a minősítés pedig május 4-ig, 2021](2021-february.md#1)|Február 4.|

@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: 3475d606b3a59cf88bb9fb864ee765e4e9a20063
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: f84ceb4d17be7e02a4380e4da55d7ac199f43515
+ms.sourcegitcommit: 2a3fe71ef30fbda25cc70f8f526b3efd2b3df687
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215951"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99588750"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -127,7 +127,70 @@ Időnként előfordulhat, hogy az áttelepítés meghiúsul, és hibákat eredm�
 3. A felhasználónak már van hozzárendelve egy átirányítási szerepkör a partner Centerben.
     - Ellenőrizheti a felhasználó meglévő szerepkörét. A partner központ jobb felső sarkában válassza a **Beállítások** (a fogaskerék ikon), majd a **Fiókbeállítások** lehetőséget. Amikor megjelenik a bal oldali navigációs menü, válassza a **felhasználók kezelése** lehetőséget, és keresse meg a felhasználót.
 
-A felhasználó áttelepítésének befejezése után az alábbi útmutatást követve döntse el az áttelepítési stratégiát:
+## <a name="psc-deals-migration"></a>A PSC-ajánlatok migrálása
+
+A felhasználók áttelepítésének befejezése után a közös értékesítés lehetőségei lapon a Deals Migration (ajánlatok áttelepítése) varázslót használhatja a PSC-ről a számítógépre irányuló összes jogosult nyitott ajánlat létrehozásához. **A Deals áttelepítési hivatkozás csak a teljes szervezeti hatókörrel rendelkező hivatkozó rendszergazdák számára lesz látható a partner Centerben.** A közös értékesítési lehetőségek oldal jobb felső sarkában a **"PSC Deal Migration"** nevű hivatkozás jelenik meg, amely megnyitja az üzlet áttelepítési varázslóját.
+
+Az ügylet áttelepítésének megkezdése előtt olvassa el ezt a szakaszt.
+
+**Áttelepítésre jogosult**
+
+Csak néhány ajánlat jogosult a PSC-ről a PC-re való áttelepítésre. Ez az áttelepítési varázsló úgy van felépítve, hogy segítse a partnereket abban, hogy az üzletük lezárásához aktívan használják a partneri központot. **Csak a nyitott állapotban lévő, érvényes partneri fiók részleteivel (érvényes MPN-AZONOSÍTÓval) rendelkező, és nem az üzlet regisztrációja esetén használhatók.**
+
+**Nem jogosult az áttelepítésre**
+
+- A megoldás-értékelési ajánlatok nem jogosultak az üzlet áttelepítésére
+- Az OEM licencelési üzleti ajánlatok nem jogosultak az üzlet áttelepítésére
+- A PSC-ben megnyertként megjelölt összes ügylet nem jogosult az áttelepítésre. Az ügylet regisztrálása, ha jogosult a megnyertként megjelölt ajánlatokra, a PSC-ben kell befejezni.
+
+## <a name="pre-requisites-for-deal-migration"></a>Az üzlet áttelepítéséhez szükséges előfeltételek
+
+Mielőtt elindítja az ügylet áttelepítését a SZÁMÍTÓGÉPRŐL, kövesse az alábbi utasításokat a PSC-beli ajánlatok sikeres áttelepítéshez való beállításához.
+
+1. A vállalaton belül a nyitott ajánlatokon dolgozó összes értékesítési csapat tagja tájékoztatja erről az áttelepítésről.
+2. A Sales csapat tagjai a partner Center for Deal-felügyelet használatára vannak kiképezve.
+3. Az ajánlatok az alább leírtak szerint rendelkeznek az összes szükséges információval.
+    - Az ügyfél vállalatának adatai, beleértve a nevet és a címeket
+    - Az ügyfél elérhetőségi adatai, ha közös értékesítéssel foglalkoznak
+    - Legalább egy megoldás
+    - Legalább egy csapattag az összes adattal: Utónév, vezetéknév, e-mail azonosító és telefonszám
+    - Ügylet értéke
+    - Becsült mennyiség záró dátuma
+    - Partneri megjegyzések
+
+A PSC tömeges letöltés és feltöltés funkciója segítségével megtisztíthatja az összes jogosult ajánlathoz tartozó adatok mennyiségét.
+
+>[!Note]
+> Az üzlet áttelepítése akkor is sikeres lesz, ha a fenti előfeltételek nem teljesülnek. Az ügylet állapota azonban nem módosítható, ha a fentiekben említett kötelező mezők bármelyike nem érhető el a partner Centerben. Ezután meg kell adnia az összes szükséges információt a partner Centerben, hogy megkezdje a munkát. **Nyomatékosan javasoljuk, hogy a PSC-re való Migrálás előtt tisztítsa meg a jogosult ajánlatokat a partneri központba.**
+
+A partner Centerben a Deal Migrálás Egy kattintásos élményre épül. Mindössze annyit kell tennie, hogy az **"ajánlatok áttelepítésére"** gombra kattint, miután a vállalat készen áll a jogosult ajánlatok áttelepítésére. **A PSC-ből áttelepíteni kívánt ajánlatokat nem választhatja ki. Ha nem szeretne áttelepíteni semmilyen ajánlatot a partneri központba, az áttelepítés megkezdése előtt helyezze át őket a PSC-ben lezárt állapotba.**
+
+>[!Note]
+> Az áttelepítés megkezdése után **akár 24 óráig is eltarthat, amíg a rendszer áttelepíti az ajánlatokat**.
+
+Az áttelepítés befejezését követően a szalagcím üzenet állapota módosul, és az áttelepítési jelentésre mutató hivatkozás is megjelenik. Töltse le a jelentést, és tekintse meg a PSC-ről a számítógépre migrált ajánlatok részleteit.
+
+A jelentés az alábbi részleteket tartalmazza.
+
+1. A **partner Center ENGAGEMENT azonosítója** – a partneri központban lévő egyedi azonosító a engagement összes ajánlata esetében. A partner Centerben két üzlet létezik – egyet a partnerhez, egyet a Microsofthoz.
+2. A partneri **központ hivatkozási azonosítója** – a partner központ egyedi azonosítója a partnerhez tartozó üzlethez.
+3. A PSC-ben lévő üzlet **neve** – azonosító.
+4. **PSC Deal ID** – az üzlethez tartozó PSC egyedi azonosítója.
+5. **Hibák** – jelezheti, hogy hiba történt egy adott üzlet áttelepítése során.
+
+Az összes sikeresen áttelepített ajánlat nem lesz látható a PSC-ben. Az áttelepített ügyletek a SZÁMÍTÓGÉPeken is használhatók. A közös értékesítéssel foglalkozó Microsoft-értékesítők közötti interakciók nem változnak.
+
+A PSC-ről áttelepített ajánlatok a bejövő és kimenő lapokon lesznek elérhetők az üzlet forrása alapján. Az összes partner által létrehozott üzlet elérhető lesz a kimenő lapon, a Microsoft által kezdeményezett ajánlatok pedig a partner központ bejövő lapján lesznek elérhetők. A Migrálás után két típusú ügylet lesz létrehozva.
+
+1. **Közös értékesítéssel** foglalkozó ajánlatok – a PSC-ben közös értékesítésre jelölt ajánlatok a partnervállalat közös értékesítéssel foglalkozó ajánlatával lesznek létrehozva.
+2. **Partner által vezetett ajánlatok** – a partner-központba nem kerülő partnerek által vezetett ajánlatokként létrehozott ajánlatok. A partner által vezetett ajánlatok láthatók a Microsoft-értékesítők számára, és a terminál állapotának (megnyert, elveszett) elérése előtt is frissíthetők a közös értékesítési ajánlatokra. Emellett a partner által vezetett ügyletek is jogosultak az ügyletekre, ha az üzletben ösztönző jogosult megoldás van.
+
+>[!Important]
+> Ha olyan hibák merülnek fel, amelyek miatt egyes ajánlatok nem telepíthetők át, **akkor az ügylet áttelepítése gombra kattintva újra elindíthatja az üzlet áttelepítését**. A szolgáltatás csak akkor lesz engedélyezve, ha van még egy jogosult ügylet, amely még nem telepíthető át. Ez abban az esetben is hasznos lehet, ha olyan átmeneti fázisban van, ahol az üzlet áttelepítése után a PSC-ben egyre több új ajánlat jön létre.
+
+Ha az összes ajánlat sikeresen át lett telepítve, akkor a " **nincsenek áttelepíthető ajánlatok** " felirat jelenik meg a **letiltott** **"ajánlatok átmigrálása"** gombbal.
+
+A felhasználók migrálása és/vagy a Migrálás befejezése után az alábbi útmutatást követve döntse el az áttelepítési stratégiát:
 
 Ha a vállalata rendelkezik egy partner Development Managerrel (PDM) – Ha a partner Center-fiókja be van állítva, és a felhasználók áthelyezték a szerepköröket és engedélyeket, áthelyezheti a közös értékesítési tevékenységeket a partner központba. Tájékoztassa a PDM, hogy ne várjon, amíg az áttelepítés befejeződik, és így az összes új ügylet a fiókpartner-központba kerül.
 
