@@ -9,21 +9,18 @@ author: aarzh-AaronZhang
 ms.author: v-aarzh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e3cd791f5f9f781980d73c79f0ec18627585372a
-ms.sourcegitcommit: b4771fd0781d95551e65baa481a572291c729d7d
+ms.openlocfilehash: ceaf3fd0819937177648814a02df4a2a266ee06f
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795865"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624306"
 ---
 # <a name="transition-from-cloud-solution-provider-csp-direct-bill-partner-to-csp-indirect-reseller"></a>Váltás egy közvetlen felhőszolgáltatói (Cloud Solution Provider, CSP-) számlázási partnerről egy közvetett CSP-viszonteladóra
 
-**A következőkre vonatkozik:**
-- Partnerközpont
-
 **Megfelelő szerepkörök**
 
-- Minden CSP közvetlen számlázási partner
+- Globális rendszergazdák
 
 >[!Note]
 >Ez a cikk olyan közvetlen számlázási partnerek számára készült, akik úgy döntöttek, hogy áttérnek a közvetett viszonteladók felé. Ha azonban még nem hozott létre explicit döntést a közvetett viszonteladóként való regisztráláshoz, akkor a Microsoft tájékoztatja a közvetlen számlázást a CSP közvetlen számlázási partneri programjára vonatkozó új [követelmények](direct-partner-new-requirements.md) teljesítéséről, ha a [közvetlen számlázási funkciói korlátozottak](restricted-direct-bill-capabilities.md)lesznek.
@@ -41,7 +38,7 @@ A meglévő közvetlen számlázási bérlő használatával regisztrálhat a k�
 
 3. Tekintse át a partner adatait a beléptetési űrlapon.
 
-   :::image type="content" source="images/direct/direct2a.png" alt-text="Áttekintés":::
+   :::image type="content" source="images/direct/direct2a.png" alt-text="Regisztráljon most":::
 
 4. Válassza a regisztrálás most lehetőséget. A közvetett viszonteladó vállalata ugyanazt a HRE-bérlőt fogja használni, amelyet a közvetlen üzleti tevékenységhez használ.
 
@@ -51,13 +48,13 @@ A meglévő közvetlen számlázási bérlő használatával regisztrálhat a k�
 5. A regisztráció jóváhagyása után jelentkezzen be újra a partner Centerben.
 
     > [!NOTE]
-    > Habár a jóváhagyás általában azonnali, akár öt munkanapot is igénybe vehet. A jóváhagyást követően értesítést kap arról az e-mail címre, amelyet az elsődleges partnernél megadott a beléptetési űrlapon. A regisztrációs állapotát a **Beállítások**  >  **partner beállításai**  >  **partner profilja** > program adatai területen is megtekintheti.
+    > Habár a jóváhagyás általában azonnali, akár öt munkanapot is igénybe vehet. A jóváhagyást követően értesítést kap arról az e-mail címre, amelyet az elsődleges partnernél megadott a beléptetési űrlapon. A regisztrációs állapotát a **Beállítások**  >  **fiók beállításai**  >  **partner profilja** > program adatai alatt tekintheti meg.
 
 6. Az **Áttekintés** oldalon a közvetett viszonteladói szerződés jelenik meg. Válassza **az elfogadás és folytatás** lehetőséget. Ez a művelet engedélyezi a közvetett viszonteladói képességeket.
 
 Ha elfogadta a közvetett viszonteladói szerződést, figyelje meg, hogy a partner profilja a közvetlen számlát és a közvetett viszonteladót **is** azonosítja.
 
-:::image type="content" source="images/direct/direct3.png" alt-text="Áttekintés":::
+:::image type="content" source="images/direct/direct3.png" alt-text="Közvetett viszonteladói szerződés":::
 
 > [!IMPORTANT]
 > Miután regisztrálta magát közvetett viszonteladóként az új képességgel, nincs lehetőség arra, hogy visszaállítson egy közvetlen, csak számlázási bérlőre. A közvetett viszonteladóként való regisztrálás előtt győződjön meg arról, hogy az üzleti igények teljes körű kiértékelése megtörtént.
@@ -66,7 +63,7 @@ Ha elfogadta a közvetett viszonteladói szerződést, figyelje meg, hogy a part
 
 Ebben a fázisban továbbra is kezelheti a közvetlen ügyfelek előfizetési igényeit, beleértve a számlázási folyamatot is. Megkezdheti az ügyfelek fogadását a közvetett szolgáltatótól, és közvetett viszonteladóként is működik.
 
-:::image type="content" source="images/direct/direct4.png" alt-text="Áttekintés":::
+:::image type="content" source="images/direct/direct4.png" alt-text="Ön a közvetlen számla és a közvetett viszonteladó is":::
 
 ## <a name="find-an-indirect-provider"></a>Közvetett szolgáltató keresése
 
@@ -172,13 +169,13 @@ A viszonteladói kapcsolat kiterjesztése funkcióval viszonteladói kapcsolatot
 
 A szolgáltatás használata meglévő ügyfél-bérlőn:
 
-1. Jelentkezzen be a partner Centerbe **rendszergazdai ügynökként** .
+1. Jelentkezzen be a partner Centerbe **rendszergazdai ügynökként**.
 
 2. Az **ügyfelek lapon** válasszon ki egy meglévő ügyfelet, és kattintson a **gyors hivatkozások** ikonjára az ügyfél összefoglaló nézetének kibontásához.
 
 3. A **közvetett szolgáltató (k)** alatt kattintson **az ügyfél átvitele közvetett szolgáltatóra** elemre.
 
-    :::image type="content" source="images/direct/direct5-1.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct5-1.png" alt-text="Ügyfél átvitele közvetett szolgáltatóba":::
 
 4. Az előugró ablakban válassza ki azt a **közvetett szolgáltatót** , amelyhez viszonteladói kapcsolatot szeretne adni az ügyféllel.
 
@@ -186,7 +183,7 @@ A szolgáltatás használata meglévő ügyfél-bérlőn:
 
 6. Ellenőrizze, hogy a kiválasztott közvetett szolgáltató megjelenik **-e a közvetett szolgáltató (k)** alatt.
 
-    :::image type="content" source="images/direct/direct5-2.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct5-2.png" alt-text="Közvetett szolgáltató listázva":::
 
 ### <a name="send-an-indirect-reseller-invitation-to-the-customer"></a>Közvetett viszonteladói Meghívás küldése az ügyfélnek
 
@@ -196,7 +193,7 @@ A közvetett szolgáltató nem tud megrendeléseket beküldeni meglévő közvet
 
 2. Válassza az **új ügyfelek meghívása** lehetőséget, hogy meghívjon egy ügyfelet a viszonteladói kapcsolat létrehozására az Önnel és a közvetett szolgáltatóval egyszerre. A szolgáltatónak viszonteladói kapcsolattal kell rendelkeznie az ügyféllel, így megrendeléseket küldhet az ügyfél nevében, amikor az ügyfél új előfizetéseket szeretne vásárolni, vagy új licenceket szeretne hozzáadni meglévő előfizetésekhez.
 
-    :::image type="content" source="images/direct/direct6.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct6.png" alt-text="Új ügyfelek meghívása":::
 
 3. A következő lapon tekintse át az e-mail-üzenet piszkozatát. E-mailben megnyithatja az üzenet piszkozatát, vagy átmásolhatja az üzenetet a vágólapra, és beillesztheti egy e-mailbe.
 
@@ -251,19 +248,19 @@ A szolgáltatás egy 4 lépésből álló folyamat, ahol:
 > [!NOTE]
 > A [partner Center API/SDK](/partner-center/develop/manage-customers) használatával is átviheti a meglévő előfizetéseket a közvetett szolgáltatóba.
 >
-> - [Ügyfél-előfizetések áthelyezési jogosultságának beszerzése](/partner-center/develop/get-customer-s-subscriptions-transfer-eligibility)
-> - [Ügyfél átvitelének létrehozása](/partner-center/develop/create-a-transfer)
-> - [Ügyfél átvitelének visszavonása](/partner-center/develop/withdraw-a-transfer)
-> - [Ügyfél átvitelének elfogadása](/partner-center/develop/accept-a-transfer)
+> - [Egy ügyfél előfizetési áthelyezési jogosultságainak lekérése](/partner-center/develop/get-customer-s-subscriptions-transfer-eligibility)
+> - [Egy ügyfél áthelyezésének létrehozása](/partner-center/develop/create-a-transfer)
+> - [Egy ügyfél áthelyezésének visszavonása](/partner-center/develop/withdraw-a-transfer)
+> - [Egy ügyfél áthelyezésének elfogadása](/partner-center/develop/accept-a-transfer)
 > - [Ügyfél átvitelének elutasítása](/partner-center/develop/reject-a-transfer)
-> - [Ügyfél-átutalások beszerzése](/partner-center/develop/get-all-of-a-customer-s-transfers)
+> - [Egy ügyfél áthelyezéseinek lekérése](/partner-center/develop/get-all-of-a-customer-s-transfers)
 > - [Adatátviteli adatok beolvasása azonosító alapján](/partner-center/develop/get-transfer-by-id)
 
 ### <a name="transitioning-partner---create-transfer-request"></a>Áttérés a partnernek – átviteli kérelem létrehozása
 
 Átviteli kérelem létrehozása áttérési partnerként:
 
-1. Jelentkezzen be a partner Centerbe **rendszergazdai ügynökként** .
+1. Jelentkezzen be a partner Centerbe **rendszergazdai ügynökként**.
 
 2. Az **ügyfelek** lapon válassza ki a kívánt ügyfelet, majd kattintson a gyors hivatkozások ikonra az ügyfél összefoglaló nézetének kibontásához.
 
@@ -271,21 +268,21 @@ A szolgáltatás egy 4 lépésből álló folyamat, ahol:
 
 4. Kattintson az **előfizetések megtekintése** elemre.
 
-5. Az **előfizetések** oldalon keresse meg az **előfizetés átvitelét** .
+5. Az **előfizetések** oldalon keresse meg az **előfizetés átvitelét**.
 
 6. Az **előfizetés átvitele** területen kattintson az **előfizetés-átvitel kérése** elemre.
 
-    :::image type="content" source="images/direct/direct8.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct8.png" alt-text="Előfizetés-átvitel kérése":::
 
 7. Az átadási kérelem párbeszédpanelen válasszon ki egy vagy több átvinni kívánt előfizetést.
 
-    :::image type="content" source="images/direct/direct9.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct9.png" alt-text="Adatátviteli kérelem létrehozása":::
 
-8. Kattintson a **Létrehozás** gombra.
+8. Kattintson a **Létrehozás** lehetőségre.
 
 9. Az **előfizetés átvitele** alatt megjelenik egy aktív előfizetés-átvételi kérelem.
 
-    :::image type="content" source="images/direct/direct10.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct10.png" alt-text="Adatátviteli kérelmek listája":::
 
 10. Tájékoztassa a közvetett szolgáltatót arról, hogy létrehozott egy előfizetés-áthelyezési kérelmet.
 
@@ -293,7 +290,7 @@ A szolgáltatás egy 4 lépésből álló folyamat, ahol:
 
 Adatátviteli kérelem felülvizsgálata és elfogadása közvetett szolgáltatóként:
 
-1. Jelentkezzen be a partner központjába **rendszergazdai** ügynökként vagy **értékesítési ügynökként** .
+1. Jelentkezzen be a partner központjába **rendszergazdai** ügynökként vagy **értékesítési ügynökként**.
 
 2. Az **ügyfelek** lapon válassza ki a kívánt ügyfelet, majd kattintson a gyors hivatkozások ikonjára az ügyfél összefoglaló nézetének kibontásához.
 
@@ -301,15 +298,15 @@ Adatátviteli kérelem felülvizsgálata és elfogadása közvetett szolgáltat�
 
 4. Kattintson az **előfizetések megtekintése** elemre.
 
-5. Az **előfizetések** oldalon keresse meg az **előfizetés átvitelét** .
+5. Az **előfizetések** oldalon keresse meg az **előfizetés átvitelét**.
 
-    :::image type="content" source="images/direct/direct11.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct11.png" alt-text="Adatátviteli kérelem megtekintése":::
 
 6. Az **előfizetés átvitele** területen kattintson a felülvizsgálati kérelemre.
 
-7. Szükség szerint kattintson az **elfogadás** (vagy **elutasítás** ) lehetőségre.
+7. Szükség szerint kattintson az **elfogadás** (vagy **elutasítás**) lehetőségre.
 
-    :::image type="content" source="images/direct/direct12.png" alt-text="Áttekintés":::
+    :::image type="content" source="images/direct/direct12.png" alt-text="Adatátviteli kérelem elfogadása":::
 
 8. Várjon, amíg az átviteli kérelem befejeződik.
 
@@ -323,13 +320,13 @@ Adatátviteli kérelem felülvizsgálata és elfogadása közvetett szolgáltat�
 
 Az átállási partnernek a következőket kell tennie:
 
-1. Jelentkezzen be a partner Centerbe **rendszergazdai ügynökként** vagy **értékesítési ügynökként** .
+1. Jelentkezzen be a partner Centerbe **rendszergazdai ügynökként** vagy **értékesítési ügynökként**.
 
 2. Az **ügyfelek** lapon válassza ki a kívánt ügyfelet, majd kattintson a **gyors hivatkozások** ikonra az ügyfél összefoglaló nézetének kibontásához.
 
 3. Kattintson az **előfizetések megtekintése** elemre.
 
-4. Az **előfizetések** oldalon keresse meg az **előfizetés átvitelét** .
+4. Az **előfizetések** oldalon keresse meg az **előfizetés átvitelét**.
 
 5. Ellenőrizze, hogy az átviteli kérelem **készként** van-e megjelölve.
 
@@ -339,7 +336,7 @@ Az átállási partnernek a következőket kell tennie:
 
    2. Ha ez egy licenc-alapú előfizetés (Office 365, Dynamics, Intune), akkor a rendszer **felfüggesztve** állapotba sorolja.
 
-   :::image type="content" source="images/direct/direct13.png" alt-text="Áttekintés":::
+   :::image type="content" source="images/direct/direct13.png" alt-text="Előfizetés felfüggesztve":::
 
 ### <a name="considerations"></a>Megfontolandó szempontok
 

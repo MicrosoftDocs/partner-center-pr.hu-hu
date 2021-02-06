@@ -8,18 +8,15 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 1e97e2e9db798e5ef90858cf96dc06602bbfe427
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: 282fdacc8689ff71e885a2f0ea01ce9570611707
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492466"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624238"
 ---
 # <a name="create-and-manage-incentives-payout-and-tax-profiles-in-partner-center"></a>Ösztönzők létrehozása és kezelése a partner Centerben
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök:**
 
@@ -64,7 +61,7 @@ Az alábbi szakasz végigvezeti a fizetési és adózási profilok a partner Cen
    - Ha csak a tartományba tud bejelentkezni @onmicrosoft.com , lépjen kapcsolatba a fiók rendszergazdájával, és adjon hozzá további tartományokat az Azure ad-fiókhoz.
    - Ha a rendszer kéri, hogy válassza a munkahelyi vagy **iskolai fiók** vagy a **személyes fiók** lehetőséget, válassza a **munkahelyi vagy iskolai fiók** lehetőséget.
 
-2. Kattintson a fogaskerék ikonra a **Beállítások** menü megnyitásához, majd válassza a **partner beállításai** lehetőséget.
+2. Kattintson a fogaskerék ikonra a **Beállítások** menü megnyitásához, majd válassza a **Fiókbeállítások** lehetőséget.
 
 3. A **Fiókbeállítások** menüben válassza a **kifizetés és az adó** lehetőséget. 
 
@@ -72,7 +69,7 @@ Az alábbi szakasz végigvezeti a fizetési és adózási profilok a partner Cen
 
 1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/), majd kattintson a fogaskerék ikonra a **Beállítások** menü megnyitásához. 
 
-2. Válassza ki a **partner beállításait**, bontsa ki a **kifizetés és adó szakaszt**, majd válassza a **kifizetés és az adó profil hozzárendelése** lehetőséget. 
+2. Válassza ki a **Fiókbeállítások** lehetőséget, bontsa ki a **kifizetés és adó szakaszt**, majd válassza a **kifizetés és az adó profil hozzárendelése** lehetőséget. 
    
    Ekkor megjelenik a programok listája. A profil részleteinek megtekintéséhez kattintson a program melletti nyílra. 
 

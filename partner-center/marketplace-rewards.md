@@ -9,12 +9,12 @@ author: billlinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5822fbc1cb874f0199c4dc8e1e2c541a3ed3f9bd
-ms.sourcegitcommit: c4f2561fb7f224554c31e3af491de4ad65644158
+ms.openlocfilehash: 7909b795be03bcd1b110da3f2c3b77019753730d
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "92528015"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624255"
 ---
 # <a name="manage-marketplace-rewards-in-partner-center--activate-marketing-sales-and-technical-benefits"></a>A Piactéri juttatások kezelése a partner Centerben & a marketing, az értékesítés és a technikai előnyök aktiválása
 
@@ -60,7 +60,7 @@ A Piactéri juttatások információi elérhetők az Azure AD-bérlőn és az MP
 
 1. A globális rendszergazda vagy a fiók rendszergazdája jelentkezzen be a partner Centerben.
 
-2. Válassza a **Beállítások** (a jobb felső sarokban), a **partner beállításai** , a **bérlők** lehetőséget. 
+2. Válassza a **Beállítások** (jobb felső), **Fiókbeállítások**, **bérlők** lehetőséget. 
 
 3. Válassza a **másik Azure ad-bérlő hozzárendelése** lehetőséget, majd válassza ki azt az Azure ad-bérlőt, amelyet hozzá szeretne rendelni a PGA-hoz.
 

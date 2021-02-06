@@ -9,27 +9,22 @@ ms.author: iswillia
 ms.localizationpriority: high
 ms.topic: conceptual
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 673728ad03d6617fa60ba4119f0ebbbaaa4ce328
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: 3f521e05fbf0b3a6c209a84ed9ab53d2502960a5
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132963"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624153"
 ---
 # <a name="security-requirements-status-report"></a>Biztonsági követelmények – állapotjelentés
 
-**A következőkre vonatkozik**
-
-- A Cloud Solution Provider program összes partnere
-- A Vezérlőpult összes szállítója
-- Minden tanácsadó
-
-**Megfelelő felhasználók**
-- Az összes engedélyezett felhasználó, beleértve a vendég felhasználókat
+**Megfelelő szerepkörök**
+- Vezérlőpult-szállítók
+- Globális rendszergazdák
 
 Ez a cikk ismerteti a biztonsági követelmények állapotáról szóló jelentést a partner Centerben. Ez a jelentés a partner bérlő felhasználói számára a többtényezős hitelesítés (MFA) [partneri biztonsági követelményeinek](partner-security-requirements.md) megfelelőségére vonatkozó mérőszámokat biztosít.
 
-Ha ezt a jelentést szeretné elérni a [partner Centerben](https://partner.microsoft.com/dashboard), lépjen a **Beállítások**  >  **partner beállításai**  >  **biztonsági követelmények állapot** elemre. A jelentés naponta frissül, és a bejelentkezési adatokat tükrözi az elmúlt hét napban.
+Ha ezt a jelentést szeretné elérni a [partner Centerben](https://partner.microsoft.com/dashboard), lépjen a **Beállítások**  >  **fiók beállításai**  >  **biztonsági követelmények állapot** elemre. A jelentés naponta frissül, és a bejelentkezési adatokat tükrözi az elmúlt hét napban.
 
 >[!NOTE]
 >A biztonsági követelmények állapotáról szóló jelentés csak a partner Centerben támogatott. Az Egyesült Államok kormánya vagy Microsoft Cloud Németország Microsoft Cloud nem érhető el. Azt javasoljuk, hogy a szuverén felhőn (USA-beli kormányzaton és Németországban) keresztül lebonyolított összes partner azonnal alkalmazza ezeket az új biztonsági követelményeket. Ezek a partnerek azonban jelenleg nem szükségesek az új biztonsági követelmények teljesítéséhez. A Microsoft további részleteket biztosít a szuverén felhőkre vonatkozó biztonsági követelmények végrehajtásával kapcsolatban a jövőben.
@@ -107,7 +102,7 @@ Ismerje meg, hogy az aktuális implementáció csak bizonyos körülmények köz
 
 Ha harmadik féltől származó MFA-megoldást használ, azonosítsa, hogyan integrálja azt az Azure AD-vel. Általánosságban két módszer létezik, például az összevonás és az egyéni vezérlők:
 
-* **Identitás-összevonás** – ha az Azure ad hitelesítési kérelmet kap, az Azure ad átirányítja a felhasználót az összevont identitás-szolgáltatóba a hitelesítéshez. A sikeres hitelesítés után az összevont identitás-szolgáltató átirányítja a felhasználót az Azure AD-re, és egy SAML-tokent is. Ahhoz, hogy az Azure AD felismerje, hogy a felhasználó az összevont identitás-szolgáltatóhoz való hitelesítés során az MFA-ellenőrzés befejeződött, az SAML-jogkivonatnak tartalmaznia kell a *authenticationmethodsreferences* jogcímet ( *multipleauthn* ). Győződjön meg arról, hogy az összevont identitás-szolgáltató támogatja-e a jogcímek kiállítását. Ha igen, ellenőrizze, hogy az összevont identitás-szolgáltató konfigurálva van-e. Ha a jogcím hiányzik, az Azure AD (és így a partner központ) nem fogja tudni, hogy a felhasználó az MFA-ellenőrzés befejezése után hiányzik a jogcím, a metrika nem lehet 100%.
+* **Identitás-összevonás** – ha az Azure ad hitelesítési kérelmet kap, az Azure ad átirányítja a felhasználót az összevont identitás-szolgáltatóba a hitelesítéshez. A sikeres hitelesítés után az összevont identitás-szolgáltató átirányítja a felhasználót az Azure AD-re, és egy SAML-tokent is. Ahhoz, hogy az Azure AD felismerje, hogy a felhasználó az összevont identitás-szolgáltatóhoz való hitelesítés során az MFA-ellenőrzés befejeződött, az SAML-jogkivonatnak tartalmaznia kell a *authenticationmethodsreferences* jogcímet ( *multipleauthn*). Győződjön meg arról, hogy az összevont identitás-szolgáltató támogatja-e a jogcímek kiállítását. Ha igen, ellenőrizze, hogy az összevont identitás-szolgáltató konfigurálva van-e. Ha a jogcím hiányzik, az Azure AD (és így a partner központ) nem fogja tudni, hogy a felhasználó az MFA-ellenőrzés befejezése után hiányzik a jogcím, a metrika nem lehet 100%.
 
 * **Egyéni vezérlő** – az Azure ad egyéni vezérlője nem használható annak azonosítására, hogy egy felhasználó egy harmadik féltől származó MFA-megoldáson keresztül végezte-e az MFA-ellenőrzést. Ennek eredményeképpen minden olyan felhasználó, aki az MFA-ellenőrzést egy egyéni vezérlőn végezte el, mindig az Azure AD-ben fog megjelenni (és a partneri központban), mivel nem fejeződött be az MFA-ellenőrzés. Ha lehetséges, javasoljuk, hogy az Azure AD-vel való integráció során egyéni vezérlőként váltson az identitás-összevonás használatára.
 

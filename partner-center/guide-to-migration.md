@@ -9,12 +9,12 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8b6646ff943ff219c41c975d60e66a46d1e0f595
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: dd566a6d9ef60747eb7fd515b4d63d87d991da2a
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530535"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624187"
 ---
 # <a name="guide-to-migrating-from-pmc-to-partner-center"></a>Útmutató PMC-ből a Partnerközpontba történő áttelepítéshez
 
@@ -53,7 +53,7 @@ Ha a vállalat nem rendelkezik munkahelyi e-mail-címmel és HRE-Bérlővel, akk
 >[!NOTE]
 >Ha Ön Kínában található partner, és a Microsoft Partner Network és a Cloud Solution Provider (CSP) programban is regisztrálva lesz, minden egyes fiókhoz külön bérlő fog rendelkezni. A felhőalapú megoldás-szolgáltatói programmal rendelkező fiókját a rendszer felügyeli a nemzeti felhőben, és a Microsoft Partner Network-fiókját a globális felhő kezeli. A két fiók nem csatolható.
 
-:::image type="content" source="images/migration/newtellusabout.png" alt-text="Első lépések":::
+:::image type="content" source="images/migration/newtellusabout.png" alt-text="Ossza meg velünk vállalatát":::
 
 Miután ellenőrizte vagy frissítette az adatokat, válassza az **elfogadás és folytatás** lehetőséget.
 Az oldalon megjelenő feltételek és kikötések **pontosan ugyanazok** , mint a vállalat által a PMC-ban már aláírt szerződés.  
@@ -71,7 +71,7 @@ Az **elfogadás és folytatás** lehetőséget választva a következő művelet
 
 Az új Azure AD-bérlő létrehozásakor meghívhatja alkalmazottaikat, hogy jelentkezzenek be a fiókpartner központjába.
 
-:::image type="content" source="images/migration/invite.png" alt-text="Első lépések":::
+:::image type="content" source="images/migration/invite.png" alt-text="Alkalmazottak meghívása":::
 
 Ha már bejelentkezett egy meglévő HRE-Bérlővel, az alkalmazottak átkerülnek Önnel. Ebben az esetben rendelje hozzá az alkalmazottak szerepköreit, amelyek meghatározzák, hogy mit tehetnek a partner Centerben. 
 
@@ -84,11 +84,11 @@ Ha a HRE-bérlő új, a globális rendszergazda szerepkört senki nem rendeli ho
 
 Habár használhatja a már megvásárolt ajánlatokat, nem vásárolhat új ajánlatokat, amíg el nem végzi a globális rendszergazda hozzárendelésének lépését.
 
-:::image type="content" source="images/migration/takecontrol.png" alt-text="Első lépések":::
+:::image type="content" source="images/migration/takecontrol.png" alt-text="Irányítás átvétele":::
 
 Az első lépések lehetőség kiválasztásakor a következő képernyő jelenik meg:
 
-:::image type="content" source="images/migration/verifytxt.png" alt-text="Első lépések":::
+:::image type="content" source="images/migration/verifytxt.png" alt-text="A tartomány tulajdonjogának igazolása":::
 
 A tartományregisztráló már ki lesz töltve Önnek. Csak a tartomány tulajdonosa tudja frissíteni a DNS-fájlt, így a szövegfájlnak a DNS-rekordba való másolásával és hozzáadásával ellenőrizheti, hogy Ön a tulajdonos. A frissítés elvégzése néhány percet is igénybe vehet. Ki kell jelentkeznie a partneri központból, majd újra be kell jelentkeznie. A szerepkör a globális rendszergazda értékre módosult.
 
@@ -96,11 +96,11 @@ A tartományregisztráló már ki lesz töltve Önnek. Csak a tartomány tulajdo
 
 Az irányítópult bemutatójának megtekintése. Itt kezelheti a tagságát, hozzáadhat egy üzleti profilt az átirányítási feltételekhez, regisztrálhat a Cloud Solution Provider programba, és az **irányítópult** kiválasztásával bármikor megtekintheti a vállalata számára releváns értesítéseket és ajánlatokat. Emellett kezelheti az ösztönzőket, megvásárolhatja a piactéren, regisztrálhat a piacra jutási szolgáltatásokra, és így tovább.  
 
-:::image type="content" source="images/migration/fre.png" alt-text="Első lépések":::
+:::image type="content" source="images/migration/fre.png" alt-text="A bemutató elkészítése":::
 
 ## <a name="sign-the-microsoft-partner-agreement"></a>A Microsoft partneri szerződés aláírása
 
-Ha Ön közvetett viszonteladó, akkor a partner Center-fiók beállítása után is hivatalosan regisztrálnia kell a Cloud Solution Provider programban. A tagsági állapot ellenőrzéséhez lépjen a [partner profiljába](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) , és erősítse meg a fiók típusát. Ezután regisztrálja magát a CSP-ben [közvetett viszonteladóként](enrolling-in-the-csp-program.md).
+Ha Ön közvetett viszonteladó, akkor a partner Center-fiók beállítása után is hivatalosan regisztrálnia kell a Cloud Solution Provider programban. A tagsági állapot ellenőrzéséhez lépjen a [jogi profiljába](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) , és erősítse meg a fiók típusát. Ezután regisztrálja magát a CSP-ben [közvetett viszonteladóként](enrolling-in-the-csp-program.md).
 
  Miután regisztrálta magát a közvetett viszonteladóként, fogadja el a [CSP-kapcsolat kérését a közvetett szolgáltatónál](indirect-reseller-tasks-in-partner-center.md).
 

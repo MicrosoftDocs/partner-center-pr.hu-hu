@@ -9,12 +9,12 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 4db0c81bf9f92975cc119215de76565e6acbadbd
-ms.sourcegitcommit: 54c19f62474a4841d0bbd6a02a84b9c597f70fae
+ms.openlocfilehash: b18f42f34951e09272d59c75b4588e962809ce62
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96755622"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624204"
 ---
 # <a name="add-a-vat-id-to-your-billing-profile"></a>ÁFA-azonosító hozzáadása a számlázási profilhoz
 
@@ -31,11 +31,11 @@ Az alábbi eljárást követve frissítheti a számlázási profilt, hogy tartal
 ## <a name="update-your-billing-profile-with-your-vat-id"></a>A számlázási profil frissítése az ÁFA-azonosítójával
 
 1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).
-2. A **Beállítások** menüben (fogaskerék ikon) válassza a **partneri beállítások** lehetőséget.
+2. A **Beállítások** menüben (fogaskerék ikon) válassza a **Fiókbeállítások** lehetőséget.
 3. A **Fiókbeállítások** lapon válassza a **partner számlázási profil** elemet az oldal menüjében.
 4. A **pénzügyi** adatpontok szakaszban válassza a **frissítés** lehetőséget.
 5. A **Vállalati adó azonosítója** mezőben adja meg az ÁFA azonosítószámát.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Adózás és adómentesség](tax-and-tax-exemptions.md)

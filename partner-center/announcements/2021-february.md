@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 02/03/2021
-ms.openlocfilehash: 30dc62c9c4b6ca2997f60da0caa2706f66d02961
-ms.sourcegitcommit: 2a3fe71ef30fbda25cc70f8f526b3efd2b3df687
+ms.date: 02/04/2021
+ms.openlocfilehash: cb9bc726acb5d76f4774c9a515443d58f7947fbd
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99588716"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624170"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
@@ -70,22 +70,7 @@ Minden partner
 
 ### <a name="details"></a>Részletek
 
-A Microsoft lemond a kompetenciáról és a speciális specializációs követelményekről az összes olyan partnerre vonatkozóan, akik évfordulós dátummal (AD) rendelkeznek a 2021. január 1. és a 2021. június 30. között. Ez alól kivételt képez a Cloud Business Applications (CBA) kompetencia, amelynek az a célja, hogy az 2021-as vagy későbbi AD-vel rendelkező partnereknek az 2021. június 30-ig a 15 ponttal jutalmazzák a funkcionális tanácsadói növekedési metrika követelményét a PCI-konstrukción belül.  
-
-Az **2021-as és a 2021-es év január 1. és 30. közötti évfordulós időponttal rendelkező partnerek (a Cloud Business Applications kompetencia kivételével)** jogosultak egy egyéves kompetenciás bővítményre. Meglévő kompetenciáját vagy kompetenciáit a következő évfordulós dátumon, 2022-ban bővítjük.A szervezetre vonatkozó információk februártól kezdődően, a megújítási időkerethez igazodva lesznek elérhetők a partner Centerben.Szüksége lesz rá. Ha a partner Centerben szeretné kifizetni a kompetenciát, és el kell végeznie a megújítást.Ha a 30 napos kompetencia-megújítási időszak végére közeledik, és nem tudja megújítani a partner Centerben, forduljon a [partner támogatási szolgálatához](https://partner.microsoft.com/support) segítségért.  
-
-**A Cloud Business Applications kompetenciával rendelkező partnerek számára:** Amint azt korábban közölték, a partneri hozzájárulási mutatók (PCI) pontozása 2021. április 1-jén lép érvénybe. Ha a Cloud Business Applications kompetenciához tartozó évfordulós dátum január 1-től 2021 és 2021. március 31-ig tart, meg kell felelnie a partner Centerben közzétett követelményeknek, és meg kell fizetnie a megújítási díjat. Ha a Cloud Business Applications kompetencia évfordulójának dátuma 2021 április 1. és 2021. június 30. között van, akkor a funkcionális tanácsadó növekedési metrikájának 15 pontját kell megadnia. Meg kell felelnie a partner Centerben közzétett többi követelménynek, és meg kell fizetnie a kompetencia díját a megújítás befejezéséhez.  
-
-**A 2021-es speciális specializáció megújítása partnereink számára:** A 2021 január 1. és a 2021. június 30. között a speciális specializációs évfordulós időszakokkal rendelkező partnerek jogosultak az 2022-ra való egyéves kiterjesztésre, amennyiben megtartja a speciális specializációhoz igazodó, szükséges Gold kompetenciát, amely magában foglalhatja a megújítási kompetencia díját is. A szervezetre vonatkozó információk februártól kezdődően, a megújítási időkerethez igazodva lesznek elérhetők a partner Centerben.  
-
-### <a name="next-steps"></a>Következő lépések
-
-- További frissítések [: válasz a COVID-19: Microsoft Partner Network Update-Microsoft Partner Network](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/).
-
-### <a name="questions"></a>Kérdése van?
-
-Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
-
+A Microsoft a kompetenciák kiterjesztését (a Cloud Business Applications kompetencia kivételével) és a speciális specializációs bővítményt ajánlja az évfordulós (AD) dátummal rendelkező partnerek számára a 2021 január 1. és a 2021. június 30. között. További információért tekintse át a [partner blogbejegyzését](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/) .
 ________________
 ## <a name="new-updates-to-the-referrals-module-in-partner-center"></a><a name="2"></a> Az átirányítási modulok új frissítései a partner Centerben
 
@@ -129,7 +114,7 @@ Ha segítségre van szüksége az új funkciók használatával kapcsolatban, te
 További támogatásért [Nyisson meg egy jegyet a partner támogatási csapatával](https://partner.microsoft.com/support/?stage=1).
 
 ________________
-## <a name="deprecation-and-retirement-of-put-qualification-apis-for-the-education-customer-validation-process-by-february-25th-2021-and-get-qualification-by-may-4th-2021"></a><a name="1"></a> A PUT minősítési API-k elutasítása és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 25-én, 2021-ig, a minősítés pedig a 2021. május 4-ig tart.
+## <a name="deprecation-and-retirement-of-put-qualification-apis-for-the-education-customer-validation-process-by-february-25-2021-and-get-qualification-by-may-4-2021"></a><a name="1"></a> A PUT minősítési API-k elutasítása és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 25-én, 2021-ig, a minősítés pedig a 2021. május 4. után.
 
 ### <a name="categories"></a>Kategóriák
 
@@ -142,7 +127,7 @@ A partner Center API-t használó partnerek a Cloud Solution Provider programon 
 
 ### <a name="details"></a>Részletek
 
-Ez a partneri központ [decemberben megjelent fejlesztései](https://docs.microsoft.com/partner-center/announcements/2020-december#1). Ennek a kiadásnak a részeként üzembe lett helyezve az új GET és POST minősítési API-k, és ennek eredményeképpen **a meglévő Put minősítési API-k partneri központ API-jai 2021. február 25**-én kivonják a minősítést, és az 2021. Ebben az időben át kell térnie az új POST partner Center API-k használatára az oktatási ajánlatok megvásárlásához és az új képesítések beszerzése API-hoz az előre minősített nonprofit és GCC-ajánlatok megvásárlásához.
+Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](https://docs.microsoft.com/partner-center/announcements/2020-december#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen **a meglévő Put minősítési API-k a partner Center API-k február 25-én, 2021-ig, a minősítés pedig 2021**. Ebben az időben át kell térnie az új POST partner Center API-k használatára az oktatási ajánlatok megvásárlásához és az új képesítések beszerzése API-hoz az előre minősített nonprofit és GCC-ajánlatok megvásárlásához.
 
 ### <a name="next-steps"></a>Következő lépések
 

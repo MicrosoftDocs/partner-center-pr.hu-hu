@@ -1,5 +1,5 @@
 ---
-title: Értékesítés speciális iparágakba
+title: Értékesítés különleges ágazatoknak
 description: Ismerje meg a Microsoft különleges, csökkentett díjszabását bizonyos vevőcsoportok esetében, beleértve az oktatási ügyfeleket, a nonprofit ügyfeleket és a kormányzati felhasználókat.
 ms.topic: how-to
 ms.date: 06/05/2020
@@ -9,18 +9,14 @@ author: alikhaki
 ms.author: alikhaki
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c25bafc4b152ce0ca205860b3692293aaadf3636
-ms.sourcegitcommit: c40f826bb1143555bf3a1c2c806c34024f0f6019
+ms.openlocfilehash: 24343b4cf7d51398410c33403efa7dc596adf891
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "92528299"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624051"
 ---
 # <a name="sell-to-specialized-industries-like-education-non-profit-and-government-users"></a>Értékesítés olyan különleges ágazatok számára, mint az oktatás, a nonprofit és a kormányzati felhasználók
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -34,9 +30,9 @@ A Microsoft speciális, csökkentett díjszabást biztosít az ügyfelek, péld�
 
 |**Speciális díjszabás**   |**Viszonteladók számára szükséges minősítések**   |**Az ügyfél számára szükséges minősítések**   |
 |----------------------------|:---------------------------------|:------------------------------------------|
-|Education   |Nincsenek   | [Minősített oktatási felhasználónak](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7)kell lennie.   |
-|Államigazgatás   |Az Azure értékesítéséhez regisztráljon a [Microsoft US government Cloud Validation Form](https://azuregov.microsoft.com/csp)használatával. A licenc-alapú előfizetések kormányzati rendszerbe való értékesítéséhez nincs szükség a szükséges minősítésre.|   Nincsenek|
-|Nonprofit  |Nincsenek<br/> Nem nyereséges Azure Active Directory Bérlőnek kell lennie.<br/> További információk a [nonprofit különleges ajánlatokról](https://assetsprod.microsoft.com/mpn/nonprofit-skus-in-csp-faq.pdf).   |Regisztráljon a [Microsoft nonprofit programra](https://nonprofit.microsoft.com/#/register) , hogy jogosult legyen.   |
+|Education   |Nincs   | [Minősített oktatási felhasználónak](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7)kell lennie.   |
+|Államigazgatás   |Az Azure értékesítéséhez regisztráljon a [Microsoft US government Cloud Validation Form](https://azuregov.microsoft.com/csp)használatával. A licenc-alapú előfizetések kormányzati rendszerbe való értékesítéséhez nincs szükség a szükséges minősítésre.|   Nincs|
+|Nonprofit  |Nincs<br/> Nem nyereséges Azure Active Directory Bérlőnek kell lennie.<br/> További információk a [nonprofit különleges ajánlatokról](https://assetsprod.microsoft.com/mpn/nonprofit-skus-in-csp-faq.pdf).   |Regisztráljon a [Microsoft nonprofit programra](https://nonprofit.microsoft.com/#/register) , hogy jogosult legyen.   |
 
 ## <a name="check-your-reseller-qualifications"></a>Viszonteladói minősítések keresése
 
@@ -44,15 +40,15 @@ A következő lépések csak a közvetett szolgáltatókra és a közvetlen szá
 
 1. A fiókpartner [irányítópultján](https://partner.microsoft.com/dashboard)kattintson az ablak jobb felső sarkában található fogaskerék ikonra a **Fiókbeállítások** megnyitásához.
 
-2. A **partner profiljában** , a **program adatai** szakaszban keresse meg a **viszonteladói minősítések** részt.
+2. A **jogi profilban**, a **program adatai** szakaszban keresse meg a **viszonteladói minősítések** részt.
 
-3. Ha nem látja a **viszonteladói minősítéseket** , még nem engedélyezte a különleges ajánlatok megvásárlását.
+3. Ha nem látja a **viszonteladói minősítéseket**, még nem engedélyezte a különleges ajánlatok megvásárlását.
 
 ## <a name="check-the-customer-qualifications"></a>Az ügyfél képzettségének keresése
 
 1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget. Válassza ki az ügyfelet a listából.
 
-2. Az ügyfél menüben válassza a **fiók** lehetőséget. A **vállalati adatok** szakaszban keresse meg a **speciális minősítéseket** .
+2. Az ügyfél menüben válassza a **fiók** lehetőséget. A **vállalati adatok** szakaszban keresse meg a **speciális minősítéseket**.
 
 3. Ha a **speciális képzettség** **nincs megadva, de** az ügyfél valóban megfelel a minősítéseknek, **frissítheti** az adatait, hogy azok is szerepeljenek.
 
@@ -77,8 +73,8 @@ Vásárlási szabályok az ügyfeleknek szóló különleges ajánlatok értéke
 | Education |Kereskedelmi, oktatási | Nonprofit vagy kormányzati közösségi felhő |
 | Kormányzati közösségi felhő |Kormányzati közösségi felhő | Nonprofit, oktatási vagy kereskedelmi |
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Értékesítési Minecraft: Education Edition-előfizetés az oktatási ügyfeleknek](minecraft-subscriptions.md)
 
-- [Az USA kormányzati szerveinek Microsoft Cloud a partneri központ](partner-center-for-microsoft-us-govt-cloud.md)
+- [A Microsoft Cloud for US Government Partnerközpontja](partner-center-for-microsoft-us-govt-cloud.md)

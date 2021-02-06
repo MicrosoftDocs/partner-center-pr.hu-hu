@@ -1,7 +1,7 @@
 ---
 title: Telephelyek kezelése a partneri fiókban
 ms.topic: how-to
-ms.date: 01/26/2021
+ms.date: 02/05/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogyan vehet fel új helyet, és hogyan használják a Location MPN ID-t az ösztönző programok, a CSP-üzleti, az előfizetések és az egyéb tranzakciók során.
@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 21d82fc3ec4470d4941d3ca7436089d3e892439e
-ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
+ms.openlocfilehash: c5ac31b772c6757468c5ea9d463643731571b31f
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99098890"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624272"
 ---
 # <a name="manage-your-mpn-account-locations-and-add-a-new-location"></a>Az MPN-fiók helyeinek kezelése és új hely hozzáadása
 
@@ -47,6 +47,8 @@ A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelk
  >Ne felejtse el bejelentkezni az **új** CSP-fiók **új** hitelesítő adataival. Ne használja a meglévő hitelesítő adatait, mert a partneri központ már rendelkezik fiókkal.
 
 2. Fogadja el a Microsoft partneri szerződést, és aktiválja a fiókot.
+
+1. Ha közvetlen számlás partnerként szeretne regisztrálni, olvassa el [a közvetlen számlázási partnereinkre vonatkozó követelményeket](direct-partner-new-requirements.md)
 
 ## <a name="view-your-mpn-locations"></a>MPN-hely megtekintése
 

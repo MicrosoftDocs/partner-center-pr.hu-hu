@@ -9,12 +9,12 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f274103feeadfa6fd135f99632f3013c29601972
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 010f74164b0428a5cd6ffcde5000b52ac6a6993f
+ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182409"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99624000"
 ---
 # <a name="how-the-partner-earned-credit-is-calculated-and-paid"></a>A partneri jóváírás kiszámításának és kifizetésének részletei
 
@@ -52,7 +52,7 @@ A partner által létrehozott kredit (PEC) megszerzéséhez a következő követ
 
 ### <a name="calculation"></a>Számítás
 
-A PEC napi rendszerességgel van kiszámítva, és a napi használati fájlban és a havi számlaengedmény-fájlban is megtekinthető. Egy partnernek (közvetett szolgáltató vagy közvetett viszonteladó) hozzáféréssel kell rendelkeznie a teljes naphoz (nonstop) annak biztosításához, hogy a PEC-t keresnek. A PEC kiszámítása napi rendszerességgel történik a felügyelt Azure-eszközökön. Egy adott számlázási időszak (hónap) maximális PEC-értéke 15%. Az állandó jogosultsági szintű hozzáférést a hónapban (a hozzáférés hatóköre) és az összes jogosult erőforráshoz (a hozzáférés hatóköre) megőrzött partnereknek a teljes PEC-t 15%-kal kell megszerezniük. A hatókör-és a sávszélesség-csökkentés az adott hónapban alacsonyabb PEC-arányt eredményez. A napi névleges használati fájl napi rendszerességgel jelenik meg egy Azure-eszközön, függetlenül attól, hogy a PEC van-e alkalmazva. A partnerek riasztásokat is regisztrálhatnak az állandó jogosultsági szintű hozzáférés változásainak figyelésére.
+A PEC napi rendszerességgel van kiszámítva, és a napi használati fájlban és a havi számlaengedmény-fájlban is megtekinthető. Egy partnernek (közvetett szolgáltató vagy közvetett viszonteladó) hozzáféréssel kell rendelkeznie a teljes naphoz (nonstop) annak biztosításához, hogy a PEC-t keresnek. A PEC kiszámítása napi rendszerességgel történik a felügyelt Azure-eszközökön. Az állandó jogosultsági szintű hozzáférés a hónapban (a hozzáférés hatóköre) és az összes jogosult erőforrás (a hozzáférés hatóköre) megőrzi a teljes PEC-t. A hatókör-és a sávszélesség-csökkentés az adott hónapban alacsonyabb PEC-arányt eredményez. A napi névleges használati fájl napi rendszerességgel jelenik meg egy Azure-eszközön, függetlenül attól, hogy a PEC van-e alkalmazva. A partnerek riasztásokat is regisztrálhatnak az állandó jogosultsági szintű hozzáférés változásainak figyelésére.
 
 ## <a name="azure-cost-management"></a>Azure Cost Management
 
