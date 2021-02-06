@@ -129,7 +129,7 @@
       displayName: 'indirect, reseller, csp'
     - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
       href: agreements.md
-      displayName: 'regio, region'
+      displayName: 'regio, region, MPA'
     - name: Korlátozott közvetlen számlahozzáférés
       href: restricted-direct-bill-capabilities.md
       displayName: 'indirect, reseller'
