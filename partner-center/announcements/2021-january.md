@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/28/2021
-ms.openlocfilehash: e450e109205481ff9c973935583307bf965e02ee
-ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
+ms.openlocfilehash: 7195dbd9bb9a862b7b3064ed641739f04bcab512
+ms.sourcegitcommit: 99e4ca8495860a3119debb139509b9c8a9db4c87
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99098873"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "99974756"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -587,8 +587,8 @@ A január 2021-es és február 2021-os licenc-alapú árlista néhány helytelen
 
 Érintett pénznemek: 
 
-- A Microsoft 365 E3 díjszabási problémái csak a következő pénznemekre korlátozódnak: JPY (Japán Yen), GBP (nagy angol font), EUR (Európai Unió), AUD (Ausztrál dollár). 
-- Microsoft 365 Vállalati verzió alapszintű problémák csak USD-re (Egyesült Államok dollárra) korlátozódnak. 
+- A Microsoft 365 E3 díjszabási problémái csak a következő pénznemekre korlátozódnak: Japán Yen (JPY), nagy angol font (GBP), Európai Unió (EUR), Ausztrál dollár (AUD). 
+- Microsoft 365 Vállalati verzió alapszintű problémák csak Egyesült Államok dollárra (USD) korlátozódnak. 
 
 A partnereknek a megfelelő árakra vonatkozóan a jelenleg elérhető január és február előzetes árlista-listát kell megjelenniük. 
 
