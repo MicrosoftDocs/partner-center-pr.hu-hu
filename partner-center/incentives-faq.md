@@ -1,19 +1,19 @@
 ---
 title: Ösztönzők – gyakori kérdések
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 02/05/2021
 description: Gyakori kérdések a Microsoft ösztönzői közül. Ez a cikk a felhasználói szerepkörökkel, a regisztrálással, illetve a hibaüzenetek elvégzésével kapcsolatos kérdéseket tartalmaz.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
-ms.openlocfilehash: 166e120af2f00cef50ec0681913dd3787a4f9f39
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: 332832b14e3434824aee2b1a6bcf7eb321fb7a60
+ms.sourcegitcommit: 2d1f0d7bc897278ef37af6d43c1a088f5ca14807
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624221"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99835067"
 ---
 # <a name="frequently-asked-questions-on-incentives"></a>Gyakori kérdések az ösztönzőkről
 
@@ -67,17 +67,11 @@ Valószínűleg nem látja az ösztönzőket, hogy nem rendelkezik a megfelelő 
 
 ## <a name="some-enrollments-are-missing-from-the-incentives-overview-page"></a>Néhány regisztráció hiányzik az ösztönzők áttekintése lapon.
 
-Ha kevesebb regisztrációt lát, mint amennyit várt az ösztönzők **áttekintése** lapon, a következőket teheti.
+Ha vagy kapott egy meghívót, vagy regisztrált a alkalmazásban, egy olyan ösztönző program, amely már nem látható az irányítópulton, ellenőrizze, hogy rendelkezik-e a megfelelő hozzáféréssel. Csak az ösztönző felhasználói vagy ösztönző rendszergazdai szerepkörrel rendelkező felhasználók tekinthetik meg a programot. Lásd: [a szerepkör megkeresése](https://docs.microsoft.com/partner-center/find-your-role).
 
-1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
+Ha módosítania kell a szerepkört vagy az engedélyeket, forduljon a vállalat globális vagy rendszergazdai fiókjához. Ha szeretné megtudni, hogy kik is ezek az emberek, olvassa el [a globális rendszergazda megkeresése](https://docs.microsoft.com/partner-center/find-your-role#find-your-global-admin)című témakört.
 
-2. A **Beállítások** területen válassza a [felhasználói kezelés](https://partner.microsoft.com/pcv/users)lehetőséget.
-
-3. Az engedélyek megtekintéséhez válassza ki a nevét.
-
-Ha módosítania kell a szerepkört vagy az engedélyeket, tekintse meg a vállalat globális vagy rendszergazdai fiókját.
-
-Vegye figyelembe, hogy ez a lap csak az Azure AD-bérlőhöz társított partner globális fiókhoz (PGA) társított regisztrációkat jeleníti meg. Ha a vállalat több PGA-val rendelkezik, akkor mindegyikhez különböző hitelesítő adatokra van szükség.
+Vegye figyelembe, hogy az áttekintő oldal csak azokat a regisztrációkat jeleníti meg, amelyek az Azure AD-bérlőhöz társított partner globális fiókkal (PGA) vannak társítva. Ha a vállalat több PGA-val rendelkezik, akkor mindegyikhez különböző hitelesítő adatokra van szükség.
 
 ## <a name="who-should-i-contact-if-i-get-an-error-message-or-need-help-during-the-enrollment-process"></a>Kihez kell csatlakozni, ha hibaüzenetet kapok, vagy segítségre van szükségem a beléptetési folyamat során?
 

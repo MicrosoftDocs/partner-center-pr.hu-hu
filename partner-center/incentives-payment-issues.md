@@ -1,19 +1,19 @@
 ---
 title: Kifizetéssel és bevételekkel kapcsolatos problémák elhárítása
 ms.topic: article
-ms.date: 10/30/2020
+ms.date: 02/05/2021
 description: Megtudhatja, Hogyan oldhatók meg olyan problémák, mint például a hiányzó vagy helytelen keresetek, a jogosultsági problémák és az ösztönző jövedelmek egyeztetése.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: e3a8890127ce9ff73fd09b7a35d4e167b5629f45
-ms.sourcegitcommit: 7f595faf952bf2d6cdc229da38bd67ee701b2083
+ms.openlocfilehash: 971b053119a263ed5c7f8e25fb532b4137e1cb13
+ms.sourcegitcommit: 2d1f0d7bc897278ef37af6d43c1a088f5ca14807
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93189764"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99834883"
 ---
 # <a name="troubleshooting-missing-payments-incorrect-earnings-and-other-issues"></a>Hiányzó kifizetések, helytelen bevételek és egyéb problémák elhárítása
 
@@ -21,7 +21,7 @@ ms.locfileid: "93189764"
 
 - Partnerközpont
 
-**Megfelelő szerepkörök** :
+**Megfelelő szerepkörök**:
 
 - Ösztönzők rendszergazdája
 
@@ -62,17 +62,35 @@ A hiányzó vagy helytelen kifizetéseket gyakran a következők egyike okozza:
   
   3. Válassza ki a kívánt dokumentum-hivatkozást, majd tekintse át a szakaszt 
 
-A **partnerek támogathatósága** és a **jogosult bevételi szabályok** .
+A **partnerek támogathatósága** és a **jogosult bevételi szabályok**.
 
 - **Lehet, hogy a fizetési profil hiányos.** Az ösztönző bevételeinek kezdő dátuma annak a hónapnak az első napja, amely során Ön az összes jogosultsági követelményt teljesítette, a kifizetési és adóadatok megadását is ideértve. A bevételek a kifizetési és adóadatok megadását megelőző hónapokban nem lesznek elérhetők. Például, ha 2020 április hónapjában teljesíti az összes követelményt, a bevételek kezdő dátuma 2020. április 1-je lesz.
-- **Lehetséges, hogy van egy függőben lévő művelete** .  Előfordulhat, hogy az ösztönzők feldolgozása azért nem történik meg, mert Önnek egy függőben lévő művelete van.
+- **Lehetséges, hogy van egy függőben lévő művelete**.  Előfordulhat, hogy az ösztönzők feldolgozása azért nem történik meg, mert Önnek egy függőben lévő művelete van.
 
   **A függőben lévő műveletek megtekintése**
 
   1. Jelentkezzen be a [partneri ösztönzőkbe](https://partner.microsoft.com/membership/partner-incentives).
-  2. Nyissa meg a **tranzakció előzményei** lapot. Tekintse át az ezen a lapon található mezőket a befejezésre váró összes művelethez, például a **függőben lévő adózási profilhoz** , a **függőben lévő fizetési profilhoz** vagy a **függőben lévő adófizetési számla küldéséhez**
+  2. Nyissa meg a **tranzakció előzményei** lapot. Tekintse át az ezen a lapon található mezőket a befejezésre váró összes művelethez, például a **függőben lévő adózási profilhoz**, a **függőben lévő fizetési profilhoz** vagy a **függőben lévő adófizetési számla küldéséhez**
 
 Ha ezek a műveletek nem segítenek, és a fizetések továbbra is hiányoznak vagy helytelenek, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
+
+## <a name="how-can-i-reconcile-my-adjustments"></a>Hogyan lehet összehangolni a módosításokat?
+
+A módosításokat megkeresheti és egyeztetheti a beszerzések és a tranzakciók részleteinek letöltésével.
+
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
+2. A felső navigációs sávon válassza a pénz ikont, majd válassza a **tranzakciók előzményei** lehetőséget.
+3. Alkalmazza a megfelelő szűrőket. (Lásd az alábbi **fontos** megjegyzést.)
+4. Miután szűrte az adatait, válassza a **Letöltés indítása** lehetőséget, majd válassza **Az adatexportálás** lehetőséget. Az adatai egy CSV-fájlban fognak megnyílni.
+5. A CSV-fájlban navigáljon a P oszlophoz, a **keresett típushoz**.
+6. Az oszlop szűrése a **helyesbítéshez – engedmény**. Az egyes beállítások hónapját a következő oszlopban tekintheti meg:.
+
+>[!IMPORTANT]
+>Az előző bevételi időszakokra alkalmazott módosítások nem lesznek láthatók azon hónap bevételeiben, amelyben a módosítást alkalmazták. A korrekciók mindig az adott hónapra vonatkozó bevételi jelentésben szerepelnek, amelyre a módosítást alkalmazták.
+>
+>Például a 2019 szeptemberében feldolgozott januári 2019-as hozamok esetében a szeptember 2019-as bevételi összeg nem fog szerepelni. Ha azonban a szeptember 2019-es fizetési díj érkezik, az tartalmazza a szeptemberben alkalmazott januári 2019-os módosítást. Ebben az esetben le kell töltenie a tranzakció részleteit január 2019-ra, hogy láthassa az alkalmazott módosítást.
+>
+>Ezt tartsa szem előtt, amikor beállítja a dátum szűrőit. A fent említettek szerint a korábbi időszakok módosításai csak abban a hónapban lesznek láthatók, amikor a módosítást alkalmazták. Ellenőrizze, hogy a kiválasztott dátumtartomány megfelel-e a keresett módosítás hónapjának. Előfordulhat, hogy az **összes törlése** elemre kell kattintania a szűrők eltávolításához, majd újakat kell alkalmaznia.
 
 ## <a name="why-are-my-co-op-claim-payments-made-in-two-different-currencies"></a>Miért vannak az együttműködési igényhez kapcsolódó kifizetéseim két különböző pénznemben?
 

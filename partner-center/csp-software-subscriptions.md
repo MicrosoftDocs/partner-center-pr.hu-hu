@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 07fdc40ae9232a5cf2636b309dae45a52538edf2
-ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
+ms.openlocfilehash: 5355dd6229d22d154512be8536e5fd4ab9b900ad
+ms.sourcegitcommit: 2d1f0d7bc897278ef37af6d43c1a088f5ca14807
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99098839"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99834856"
 ---
 # <a name="sell-software-subscriptions-through-the-cloud-solution-provider-csp-program"></a>A szoftveres előfizetések értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
@@ -95,7 +95,7 @@ Szoftveres Előfizetések vásárlása az ügyfél nevében:
 A szoftver megvásárlása után az ügyfeleknek le kell tölteniük. Ezt a következő eljárással végezheti el.
 
 >[!NOTE]
->A kulcsok és a letöltések beszerzéséhez rendszergazdai ügynöknek kell tartoznia.
+>A kulcsok és a letöltések hivatkozásának beszerzéséhez rendszergazdai ügynöknek kell lennie.
 
 1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
 2. Másolja a "Deep Link" (részletes hivatkozás) elemet a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti központba, hogy letöltse és beszerezze a termék kulcsait.
