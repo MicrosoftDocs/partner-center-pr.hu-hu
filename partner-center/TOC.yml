@@ -59,6 +59,9 @@
         - name: A kompetenciák ismertetése
           href: learn-about-competencies.md
           displayName: mpn
+        - name: Regisztrálás tanulási partnerként
+          href: mpn-benefits-map-competency-learning-option-enroll.md
+          displayName: mpn
         - name: Kompetenciák – GYIK
           href: competencies-faq.md
           displayName: 'renew, mpn'
