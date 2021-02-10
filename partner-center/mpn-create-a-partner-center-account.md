@@ -1,5 +1,5 @@
 ---
-title: Partnerközpontfiók létrehozása
+title: MPN-fiók létrehozása a partner Centerben
 ms.topic: article
 ms.date: 02/08/2021
 ms.service: partner-dashboard
@@ -9,23 +9,23 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 129cdd337f9b475b37d14c4e68058736b473fe33
-ms.sourcegitcommit: 5768f10cd122a20fe3df3062ea34e7096d99f639
+ms.openlocfilehash: 39ff18e82782dcc19e1bda5cd774012f241a0b3a
+ms.sourcegitcommit: df3360786b46f9c2724dbd521e11366ffcbda307
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "100005920"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013690"
 ---
-# <a name="create-a-partner-center-account-to-manage-network-benefits-and-competencies"></a>Partner Center-fiók létrehozása hálózati előnyök és kompetenciák kezeléséhez
+# <a name="create-an-mpn-account-in-partner-center-to-manage-network-benefits-and-competencies"></a>MPN-fiók létrehozása a partner Centerben a hálózati előnyök és kompetenciák kezeléséhez
 
 
-Ha új Microsoft Partner Network, és nem rendelkezik MPN-AZONOSÍTÓval, a regisztrációs [utasításokat](https://partner.microsoft.com/dashboard/account/v3/enrollment/introduction/partnership)követve elindíthatja a regisztrációt.
+Ha új Microsoft Partner Network (MPN), és nem rendelkezik MPN-AZONOSÍTÓval, a regisztrációs [utasításokat](https://partner.microsoft.com/dashboard/account/v3/enrollment/introduction/partnership)követve elindíthatja a regisztrációt.
 
 ## <a name="prerequisites"></a>Előfeltételek 
 
 Ha készen áll egy fiók létrehozására a partner Centerben, a kezdéshez a következő elemeket kell megadnia.  Az első lépések megkezdése előtt érdemes lehet néhány percet igénybe venni:
 
-- Vállalati munkahelyi e-mail vagy Office 365 munkahelyi fiók. További információk [a munkahelyi fiók és a partner Center](azure-active-directory-tenants-and-partner-center.md) beolvasásával kapcsolatban 
+- Vállalati munkahelyi e-mail vagy Office 365 munkahelyi fiók. További információért olvassa el [munkahelyi fiókját és a partneri központot](azure-active-directory-tenants-and-partner-center.md) 
  
 - A vállalat jogi üzleti neve és címe.
 
@@ -61,7 +61,7 @@ Miután megadta a vállalati adatokat, adja meg az elsődleges kapcsolattartási
 Az elsődleges kapcsolattartónak a vállalatban lévő személynek kell lennie, akivel kapcsolatba léphet az alkalmazással (ez lehet Ön vagy egy másik személy a cégnél).
 
 >[!IMPORTANT]
->A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges partnert az e-mail-cím ellenőrzéséről, valamint arról, hogy az e-mail-cím a vállalathoz tartozik, miután az elsődleges Kapcsolatfelvétel ellenőrzi az e-mail-címet, folytatjuk a megadott információk áttekintését. Az ellenőrzés általában 3-5 munkanapot vesz igénybe. 
+>A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges partnert az e-mail-cím ellenőrzéséről, valamint arról, hogy az e-mail-cím a vállalathoz tartozik. Miután az elsődleges Kapcsolatfelvétel ellenőrzi az e-mail-címet, folytatjuk a megadott információk áttekintését. Az ellenőrzés általában 3-5 munkanapot vesz igénybe. 
 
 ## <a name="how-to-view-account-details-or-view-and-download-the-mpn-agreement"></a>A fiók adatainak megtekintése, illetve az MPN-szerződés megtekintése és letöltése
 
