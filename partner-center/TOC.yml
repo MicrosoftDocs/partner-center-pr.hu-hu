@@ -9,7 +9,7 @@
     - name: Legyen Ön is Microsoft-partner
       href: mpn-overview.md
       displayName: mpn
-    - name: Partnerközpontfiók létrehozása
+    - name: MPN-fiók létrehozása a partner Centerben
       href: mpn-create-a-partner-center-account.md
       displayName: mpn
     - name: Munkahelyi e-mail-cím beszerzése
@@ -47,6 +47,9 @@
           displayName: 'renew, mpn'
         - name: A saját ajánlatok megújítása
           href: renew-mpn-offers.md
+          displayName: mpn
+        - name: Visszatérítés igénylése
+          href: mpn-refund-request.md
           displayName: mpn
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
@@ -86,6 +89,9 @@
           displayName: mpn
         - name: Piaci bevezetési előnyök
           href: mpn-learn-about-go-to-market-benefits.md
+          displayName: mpn
+        - name: Az MPN-partnerek bemutatói
+          href: mpn-demos.md
           displayName: mpn
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.md
