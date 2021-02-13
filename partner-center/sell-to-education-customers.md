@@ -9,12 +9,12 @@ author: alikhaki
 ms.author: alikhaki
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5af6ae0d3c11d2ea59e4b8ef2224393e48d6a3df
-ms.sourcegitcommit: cd4047e46ed116339bd9918b94af7138bcae6603
+ms.openlocfilehash: a101c3d29b947950179ca0ae446f049ccf785bb8
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97916916"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281305"
 ---
 # <a name="how-to-sell-offers-to-education-customers-and-how-to-create-an-education-customer-in-partner-center"></a>Ajánlatok értékesítése az oktatási ügyfeleknek és oktatási ügyfelek létrehozása a partner Centerben
 
@@ -27,7 +27,7 @@ ms.locfileid: "97916916"
 
 ## <a name="create-an-education-customer"></a>Oktatási ügyfél létrehozása
 
-Ez a cikk bemutatja, hogyan hozhat létre oktatási ügyfelet a partner Centerben, és hogyan adhat hozzájuk oktatási termékeket. Azt is ismerteti, hogyan tekintheti meg az ellenőrzési állapotot, és szükség esetén küldje el újra az ellenőrzési kérelmet.
+Ez a cikk bemutatja, hogyan hozhat létre oktatási ügyfelet a partner Centerben, és hogyan adhat hozzájuk oktatási termékeket. Azt is ismerteti, hogyan tekintheti meg az ellenőrzési állapotot, és szükség esetén küldje el újra az ellenőrzési kérelmet. Az oktatási ajánlatok jelenleg **csak olyan licencelési szolgáltatásokhoz érhetők el** , mint a Microsoft 365, a Dynamics, az Intune stb. Más típusú (szoftver-előfizetések, örökös szoftverek vagy Azure-termékek) esetén nem érhető el.
 
 > [!IMPORTANT]
 > A Microsoft ellenőrzi, hogy az újonnan létrehozott oktatási ügyfelek bérlői jogosultak-e az oktatási ajánlatokra.  Ügyeljen arra, hogy a szükséges információkat a lehető legpontosabban és teljes mértékben adja meg az ellenőrzési folyamat késésének elkerülése érdekében.
@@ -75,7 +75,7 @@ Példák az állapotra:
 
 Ha az ügyfél a kezdeti ellenőrzést elmulasztja, megadhatja az adatokat, és újból elküldheti azt.
 
-### <a name="correct-the-customer-account-information"></a>Az ügyfél-fiók adatainak javítása
+### <a name="correct-the-customer-account-information"></a>Ügyfélfiók adatainak javítása
 
 Az ügyfél adatainak frissítéséhez globális rendszergazdai jogosultságokkal kell rendelkeznie. Frissíti az Office 365-portál adatait, mivel ezek az adatok nem frissíthetők a partner Center portálról.
 

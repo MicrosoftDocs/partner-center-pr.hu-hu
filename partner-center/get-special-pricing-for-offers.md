@@ -9,12 +9,12 @@ author: alikhaki
 ms.author: alikhaki
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 24343b4cf7d51398410c33403efa7dc596adf891
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: 2c1cb2adc28a19f265643c5e2756fbdf1195b970
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624051"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281271"
 ---
 # <a name="sell-to-specialized-industries-like-education-non-profit-and-government-users"></a>Értékesítés olyan különleges ágazatok számára, mint az oktatás, a nonprofit és a kormányzati felhasználók
 
@@ -24,7 +24,7 @@ ms.locfileid: "99624051"
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
-A Microsoft speciális, csökkentett díjszabást biztosít az ügyfelek, például az oktatási ügyfelek, a nonprofit ügyfelek, a kisvállalkozások és a kormányzati szervek számára. Önnek és az ügyfélnek is minősítettnek kell lennie, mielőtt speciális díjszabást kínálna. 
+A Microsoft speciális, csökkentett díjszabást biztosít az ügyfelek, például az oktatási ügyfelek, a nonprofit ügyfelek, a kisvállalkozások és a kormányzati szervek számára. Önnek és az ügyfélnek is minősítettnek kell lennie, mielőtt speciális díjszabást kínálna. Ezek a kedvezményes árú ajánlatok jelenleg **csak olyan licencelési szolgáltatásokhoz érhetők el** , mint a Microsoft 365, a Dynamics, az Intune stb. Más típusú (szoftver-előfizetések, örökös szoftverek vagy Azure-termékek) esetén nem érhető el.
 
 ## <a name="requirements-to-sell-to-specialized-industries"></a>A speciális iparágakba való értékesítésre vonatkozó követelmények
 

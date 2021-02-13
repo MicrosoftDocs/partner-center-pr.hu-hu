@@ -127,9 +127,6 @@
     - name: Microsoft-partnerszerződés – CSP-k
       href: microsoft-partner-agreement.md
       displayName: 'csp, mpn'
-    - name: Helyek kezelése
-      href: manage-locations.md
-      displayName: 'mpn, csp'
     - name: Hogyan segítik a közvetett szolgáltatók a viszonteladóik számára a TERMÉKAKTIVÁLÁSI rendszer bevezetését
       href: mpa-indirect-provider-faq.md
       displayName: 'csp, mpa, indirect, provider'
@@ -197,6 +194,9 @@
           displayName: mpn
         - name: Munkahelyi fiók csatlakoztatása
           href: azure-active-directory-tenants-and-partner-center.md
+        - name: Helyek kezelése
+          href: manage-locations.md
+          displayName: 'mpn, csp'
         - name: A tartomány tulajdonjogának igazolása
           href: become-global-admin.md
         - name: Fiókadatok ellenőrzése
@@ -262,6 +262,8 @@
       items:
         - name: Információ az együttes értékesítéssel kapcsolatos érdeklődőkről
           href: manage-co-sell-opportunities.md
+        - name: Tömeges műveletek
+          href: bulk-operations.md
         - name: Együttes értékesítési CRM-összekötők használata
           items:
             - name: A Dynamics 365-höz

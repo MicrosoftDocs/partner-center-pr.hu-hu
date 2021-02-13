@@ -9,18 +9,18 @@ ms.localizationpriority: medium
 author: dhirajgandhi
 ms.author: dhgandhi
 ms.date: 07/29/2020
-ms.openlocfilehash: 992dd7f9901efd0176395fb626e4048d5229e82b
-ms.sourcegitcommit: e10d2a19dea7e317d227d7fbdcf1bbc3dc4f6257
+ms.openlocfilehash: 94df138eb94d79fb0e472744f19337ad536eb90d
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530235"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281260"
 ---
 # <a name="learn-how-to-transfer-a-customers-azure-subscriptions-to-another-partner"></a>Megtudhatja, hogyan adhatja át egy ügyfél Azure-előfizetéseit egy másik partnernek
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 - A Microsoft globális felhőhöz tartozó partneri központ
 - Partnerek a Cloud Solution Provider (CSP) programban
 
@@ -53,26 +53,26 @@ Ha az ügyfél Azure-szolgáltatásait vagy előfizetéseit egy másik partnerre
    
    5. A 2. lépésben válassza a **C-minimal Impact** lehetőséget, majd a probléma típusaként válassza ki a **többi általános kérdést** .
    
-   6. Töltse le a [CSP-előfizetés átvitele űrlapot](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ATIA).
+   6. Töltse le a [CSP-előfizetés átvitele űrlapot](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWwTWC).
 
-3. Az előfizetés partnere: töltse ki a [CSP-előfizetés továbbítása űrlapot](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ATIA), írja alá, majd küldje el az ügyfélnek. 
+3. Az előfizetés partnere: töltse ki a [CSP-előfizetés továbbítása űrlapot](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWwTWC), írja alá, majd küldje el az ügyfélnek. 
 
    Az űrlap kitöltéséhez a következő információkra lesz szüksége:
 
-   - Az aktuális partner kapcsolattartási adatai és a Microsoft azonosítója. A partner Center menüben válassza a **Fiókbeállítások** &gt; **szervezeti profil** lehetőséget, és használja az ott **felsorolt Microsoft-azonosító** , **szervezet neve** és **címe** elemet.
+   - Az aktuális partner kapcsolattartási adatai és a Microsoft azonosítója. A partner Center menüben válassza a **Fiókbeállítások** &gt; **szervezeti profil** lehetőséget, és használja az ott **felsorolt Microsoft-azonosító**, **szervezet neve** és **címe** elemet.
 
-   - Az ügyfél Microsoft-azonosítója. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd bontsa ki az ügyfél listáját, hogy megtekintse a **Microsoft-azonosítót** .
+   - Az ügyfél Microsoft-azonosítója. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd bontsa ki az ügyfél listáját, hogy megtekintse a **Microsoft-azonosítót**.
 
-   - Az átvinni kívánt előfizetés-azonosító. A kibontott ügyfelek listájában válassza az **előfizetések megtekintése** lehetőséget, majd a kiválasztott előfizetés kibontásával tekintse meg az **előfizetés azonosítóját** .
+   - Az átvinni kívánt előfizetés-azonosító. A kibontott ügyfelek listájában válassza az **előfizetések megtekintése** lehetőséget, majd a kiválasztott előfizetés kibontásával tekintse meg az **előfizetés azonosítóját**.
 
    >[!Note]
-   >Az előfizetések továbbítása két előfizetés-azonosítóval történik, amelyet az átvitt előfizetés **előfizetés szerkesztése** lapján láthat: **1** – a partner Center előfizetés-azonosítója a számlázási célokra szolgál. **2** – az eredeti Azure-ELŐfizetési azonosítót megőrzi a rendszer, és megjelenik a partner Centerben és az Azure felügyeleti portálján is. Ez az azonosító megjelenik a Recon-fájlban.  **A támogatási jegyek naplózásakor mindkét azonosítót kell használnia.**
+   >Az előfizetések továbbítása két előfizetés-azonosítóval történik, amelyet az átvitt előfizetés **előfizetés szerkesztése** lapján láthat: **1**– a partner Center előfizetés-azonosítója a számlázási célokra szolgál. **2**– az eredeti Azure-ELŐfizetési azonosítót megőrzi a rendszer, és megjelenik a partner Centerben és az Azure felügyeleti portálján is. Ez az azonosító megjelenik a Recon-fájlban.  **A támogatási jegyek naplózásakor mindkét azonosítót kell használnia.**
 
 4. Az előfizetéshez tartozó ügyfél és új partner:
 
    Tekintse át az űrlapot, adja meg az új partner adatait, és jelentkezzen be. Győződjön meg arról, hogy az új ügyfél szerződést kötött. Küldje vissza az űrlapot a rekord aktuális partnerének.
 
-   *Fontos* : Ha az új CSP-partner nem rendelkezik viszonteladói kapcsolattal az ügyféllel, az előfizetés átadása előtt létre kell hoznia egyet. [Itt megtudhatja, hogyan teheti ezt meg](request-a-relationship-with-a-customer.md).
+   *Fontos*: Ha az új CSP-partner nem rendelkezik viszonteladói kapcsolattal az ügyféllel, az előfizetés átadása előtt létre kell hoznia egyet. [Itt megtudhatja, hogyan teheti ezt meg](request-a-relationship-with-a-customer.md).
 
    >[!Note]
    >Az új CSP-partnernek és az ügyfél bérlőnek ugyanabban az országban kell lennie. 
@@ -92,7 +92,7 @@ Ha az ügyfél Azure-szolgáltatásait vagy előfizetéseit egy másik partnerre
      ```
 
      >[!NOTE]
-     > Az ügyfél **bérlői azonosítója** a partner Centerben jelenik meg az ügyfél **Microsoft-azonosítójaként** . Egy adott ügyfél Microsoft-AZONOSÍTÓjának (bérlői AZONOSÍTÓjának) megkereséséhez jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard). Ezután válassza az **ügyfelek** lehetőséget a menüből. Keresse meg az ügyfelet a listán. Válassza ki a lefelé mutató nyilat az ügyfél listájának kibontásához. Az ügyfél *tartománynevét* és az ügyfél **Microsoft-azonosítóját** fogja látni. Használja a 16 számjegyű **Microsoft-azonosítót** a PowerShell-parancsmagot.
+     > Az ügyfél **bérlői azonosítója** a partner Centerben jelenik meg az ügyfél **Microsoft-azonosítójaként**. Egy adott ügyfél Microsoft-AZONOSÍTÓjának (bérlői AZONOSÍTÓjának) megkereséséhez jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard). Ezután válassza az **ügyfelek** lehetőséget a menüből. Keresse meg az ügyfelet a listán. Válassza ki a lefelé mutató nyilat az ügyfél listájának kibontásához. Az ügyfél *tartománynevét* és az ügyfél **Microsoft-azonosítóját** fogja látni. Használja a 16 számjegyű **Microsoft-azonosítót** a PowerShell-parancsmagot.
 
    - A fiók szerepköreinek megtekintése, beleértve a korábbi CSP-partnereket:
 

@@ -9,12 +9,12 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bf2630ffcdd36aee17b74a07ac03782ae4d9c9f0
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: 086f5423d748ca2a84062577cd934987decc88f8
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979821"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281293"
 ---
 # <a name="pricing-and-offers-for-office-365-dynamics-crm-enterprise-mobility-suite-azure-and-more"></a>Az Office 365, a Dynamics CRM, a nagyvállalati mobilitási csomag és az Azure díjszabása és ajánlatai
 
@@ -82,7 +82,7 @@ A használati díjak az egész hónapban változhatnak. Az Azure-erőforrások a
 
 ## <a name="pricing-and-special-segments"></a>Díjszabás és különleges szegmensek
 
-A CSP bizonyos szolgáltatásokat biztosít a speciális piaci szegmensekhez, például az oktatási, a nonprofit és a kormányzati közösségi felhőhöz. Nem minden szolgáltatás érhető el minden csatornán. Nincs alapértéke a "kereskedelmi" szegmensnek. Az összes licenccel kapcsolatos díjszabás a díjszabási és ajánlatok lapon, a licenc-alapú árlista keretében érhető el. A Azure Government díjszabása a használaton alapuló árlista esetében érhető el, ha bejelentkezett a Azure Government engedélyezett CSP-bérlőbe.
+A CSP bizonyos szolgáltatásokat biztosít a speciális piaci szegmensekhez, például az oktatási, a nonprofit és a kormányzati közösségi felhőhöz. Nem minden szolgáltatás érhető el minden csatornán. Nincs alapértéke a "kereskedelmi" szegmensnek. Az összes licenccel kapcsolatos díjszabás a díjszabási és ajánlatok lapon, a licenc-alapú árlista keretében érhető el. A Azure Government díjszabása a használaton alapuló árlista esetében érhető el, ha bejelentkezett a Azure Government engedélyezett CSP-bérlőbe. A szoftveres előfizetések és az örökös szoftverek még nem támogatják ezeket a speciális szegmenseket.
 
 |**Segment**   |**Kinek kell jogosultnak lennie**   |**Partner jogosult ügyfél**|**Engedélyezett terméktípusok**|
 |-------------------|-----------------------|----------------------------|-----------------------------|

@@ -1,7 +1,7 @@
 ---
 title: A CSP-hez készült Microsoft partneri szerződés (MPA)
 ms.topic: how-to
-ms.date: 01/25/2021
+ms.date: 02/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a Microsoft CSP-partnerének követelményeit az egységes, digitálisan elfogadott Microsoft partneri szerződés (MPA) aláírásához és ellenőrzéséhez.
@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 68d7bfa23a03d46afe44475023c91109f2f1cfa6
-ms.sourcegitcommit: e99882e9b6c9b1a0f7427fb133693b1d977be76b
+ms.openlocfilehash: 829b444f1990058cd323e3effec6da6d7585155a
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98773484"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281326"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -34,6 +34,8 @@ Ahhoz, hogy továbbra is részt vegyen a CSP programban, a Microsoft partneri sz
 ## <a name="verify-your-mpn-id-is-active-and-migrated-to-partner-center"></a>Ellenőrizze, hogy az MPN-azonosító aktív-e, és hogy migrálva van-e a partner Centerben
 
 1. Ha még nem telepítette MPN-fiókját a partner Membership Center (PMC) szolgáltatásból a partneri központba, akkor [át kell telepítenie MPN-fiókját a partner](move-pmc-pc-map.md)központba. Az áttelepítés befejezése után végre kell hajtania a további lépéseket. 
+
+1. Ha nem rendelkezik MPN-fiókkal vagy -azonosítóval, először csatlakozzon a Microsoft Partner Network programhoz. [Ismerje meg, hogyan csatlakozhat az MPN-](mpn-create-a-partner-center-account.md)hez.
 
 1. Jelentkezzen be a partner Centerbe az MPN-fiókja hitelesítő adataival.
  
@@ -107,6 +109,6 @@ Azt is láthatja, hogy aláírta-e a szerződést **a** **Fiókbeállítások** 
 
 3. Ha a fenti 1. és/vagy 2. lépés elvégzése után szeretné ellenőrizni MPA-állapotát a Partnerközpontban: [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Regisztráció a felhőszolgáltatói programban](indirect-reseller-tasks-in-partner-center.md)

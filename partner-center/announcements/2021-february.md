@@ -9,16 +9,66 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 02/04/2021
-ms.openlocfilehash: cb9bc726acb5d76f4774c9a515443d58f7947fbd
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: ac5c82887ddf17e66045e36c0f4de607529f6024
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624170"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281217"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központtal kapcsolatos bejelentéseket a 2021 februárjában.
+
+_______________
+
+## <a name="microsoft-365-e3-price-changes-coming-for-march-2021"></a><a name="6"></a>A 2021. márciusi árak változásainak Microsoft 365 E3
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-11
+- Ajánlatok/piacok
+
+### <a name="affected-audience"></a>Érintett célközönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül, EUR, AUD, GBP és JPY nyelven halad.
+
+### <a name="details"></a>Részletek
+
+A 2021 márciusi licenc-alapú előzetes árlista frissült, és tartalmazza a Microsoft 365 E3 árának változásait. Az érintett ajánlat és pénznemek az alábbiakban láthatók. 
+ 
+Ajánlat neve: Microsoft 365 E3-ajánlat azonosítója: 2b3b8d2d-10aa-4be4-b5fd-7f2feb0c3091 anyag azonosítója: AAA-35638
+
+Ezek a Microsoft 365 E3-árak csak a következő pénznemekre korlátozódnak: JPY (Japán Yen), GBP (nagy angol font), EUR (Európai Unió), AUD (Ausztrál dollár). A márciusi fájlban más árváltozások is módosulnak, és a partnereknek a legújabb előzetes verzióban kell megtekinteniük a többi várható változást.
+
+### <a name="next-steps"></a>Következő lépések
+
+A partnerek a legújabb árlista-fájlokat a partneri központból tölthetik le. 
+
+_______________
+
+## <a name="license-based-preview-price-list-updated-for-norwegian-krone"></a><a name="5"></a>A Norvég korona licenc-alapú előzetes verziójának árlista
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-10
+- Ajánlatok/piacok
+
+### <a name="affected-audience"></a>Érintett célközönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="summary"></a>Összefoglalás
+
+A licenc-alapú előzetes árlista frissítve lett az 2021-es március 1-től a Norvég korona díjszabásához.
+
+### <a name="details"></a>Részletek
+
+A márciusi FX-díjszabási változások nem szerepeltek az előző március licenc-alapú árlista-listán. Ez a fájl frissítve lett a várt Norvég korona-árak változásainak megfelelően. A partnereknek a legújabb előzetes verzió díjszabási fájlját kell beszerezniük, hogy megtekintsék ezeket a módosításokat a 2021. március 1-től. Ezek a módosítások csak a Norvég korona pénznemének díjszabása szerint változnak.
+
+### <a name="next-steps"></a>Következő lépések
+
+A partnereknek le kell tölteniük a jelenlegi árlista-előnézeti fájlt az 2021. március 1-től várt változásokhoz.
 
 _______________
 

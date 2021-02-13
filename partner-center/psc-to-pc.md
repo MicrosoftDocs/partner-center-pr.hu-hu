@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: f84ceb4d17be7e02a4380e4da55d7ac199f43515
-ms.sourcegitcommit: 2a3fe71ef30fbda25cc70f8f526b3efd2b3df687
+ms.openlocfilehash: 03271459ccdea5b62192ec176557a6c3b8f1a556
+ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "99588750"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "100281343"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -158,7 +158,7 @@ Mielőtt elindítja az ügylet áttelepítését a SZÁMÍTÓGÉPRŐL, kövesse 
     - Becsült mennyiség záró dátuma
     - Partneri megjegyzések
 
-A PSC tömeges letöltés és feltöltés funkciója segítségével megtisztíthatja az összes jogosult ajánlathoz tartozó adatok mennyiségét.
+A PSC tömeges letöltés és feltöltés funkciója segítségével hozzáadhatja az összes hiányzó részletet az üzletben az összes jogosult ajánlathoz.
 
 >[!Note]
 > Az üzlet áttelepítése akkor is sikeres lesz, ha a fenti előfeltételek nem teljesülnek. Az ügylet állapota azonban nem módosítható, ha a fentiekben említett kötelező mezők bármelyike nem érhető el a partner Centerben. Ezután meg kell adnia az összes szükséges információt a partner Centerben, hogy megkezdje a munkát. **Nyomatékosan javasoljuk, hogy a PSC-re való Migrálás előtt tisztítsa meg a jogosult ajánlatokat a partneri központba.**
@@ -178,9 +178,9 @@ A jelentés az alábbi részleteket tartalmazza.
 4. **PSC Deal ID** – az üzlethez tartozó PSC egyedi azonosítója.
 5. **Hibák** – jelezheti, hogy hiba történt egy adott üzlet áttelepítése során.
 
-Az összes sikeresen áttelepített ajánlat nem lesz látható a PSC-ben. Az áttelepített ügyletek a SZÁMÍTÓGÉPeken is használhatók. A közös értékesítéssel foglalkozó Microsoft-értékesítők közötti interakciók nem változnak.
+Az összes sikeresen áttelepített ajánlat nem lesz látható a PSC-ben. Továbbra is dolgozhat az áttelepített ügyleteken a SZÁMÍTÓGÉPeken, beleértve az üzlet regisztrációjának befejezését a számítógépen. A közös értékesítéssel foglalkozó Microsoft-értékesítők közötti interakciók nem változnak.
 
-A PSC-ről áttelepített ajánlatok a bejövő és kimenő lapokon lesznek elérhetők az üzlet forrása alapján. Az összes partner által létrehozott üzlet elérhető lesz a kimenő lapon, a Microsoft által kezdeményezett ajánlatok pedig a partner központ bejövő lapján lesznek elérhetők. A Migrálás után két típusú ügylet lesz létrehozva.
+A PSC-ről áttelepített ajánlatok a bejövő és kimenő lapokon lesznek elérhetők az üzlet forrása alapján. A vállalat által megosztott összes ügylet elérhető lesz a kimenő lapon, a Microsoft által kezdeményezett ajánlatok pedig a partner központ bejövő lapján lesznek elérhetők. A Migrálás után két típusú ügylet lesz létrehozva.
 
 1. **Közös értékesítéssel** foglalkozó ajánlatok – a PSC-ben közös értékesítésre jelölt ajánlatok a partnervállalat közös értékesítéssel foglalkozó ajánlatával lesznek létrehozva.
 2. **Partner által vezetett ajánlatok** – a partner-központba nem kerülő partnerek által vezetett ajánlatokként létrehozott ajánlatok. A partner által vezetett ajánlatok láthatók a Microsoft-értékesítők számára, és a terminál állapotának (megnyert, elveszett) elérése előtt is frissíthetők a közös értékesítési ajánlatokra. Emellett a partner által vezetett ügyletek is jogosultak az ügyletekre, ha az üzletben ösztönző jogosult megoldás van.
@@ -386,12 +386,20 @@ A PDM nem érhető el közvetlenül a PSC-től eltérően. A funkció engedélye
 
 ## <a name="finding-the-correct-mpn-id-if-your-account-in-psc-is-not-associated-with-a-valid-mpn"></a>A helyes MPN-azonosító megkeresése, ha a PSC-fiókja nincs érvényes MPN-hez társítva
 
-Ha azért van itt, mert a PSC-ben a "PSC érvénytelen MPN-azonosító társítása" problémára hivatkozik, akkor Ön a megfelelő helyen található.
+Ha azért van itt, mert a PSC-ben a "PSC érvénytelen MPN-azonosító társítása" problémára hivatkozik, akkor Ön a megfelelő helyen található. Lehet, hogy a fiókja a következő okok miatt érvénytelen MPN-AZONOSÍTÓhoz lett társítva
+
+- A vállalat nem rendelkezik partneri központ-fiókkal.
+- A PDM hibát vétett a fiók MPN-AZONOSÍTÓjának beírásakor a belső rendszerekben, amelyek a PSC-fiókját a partner Center-fiókhoz (MPNID) kapcsolják.
+- A vállalat nem végezte el az áttelepítést a partner Membership Center (PMC) rendszerről a számítógépre.
 
 Először keresse meg a megfelelő MPN-azonosítót az alábbi lépések végrehajtásával
 
 - Jelentkezzen be a partner Center-fiókjába
 - Az MPN-azonosító megkereséséhez használja a [Fiókbeállítások dokumentációjában](./partner-center-account-setup.md#locate-your-mpn-id) megadott útmutatót.
+
+Alább látható egy képernyőkép, amely a partner Center MPN-AZONOSÍTÓjának pontos helyét jeleníti meg
+
+:::image type="content" source="images/pscmigration/findingMPNID.png" alt-text="A fiók beállításait tartalmazó kép, ahol a partner megtalálja az MPN-AZONOSÍTÓját."  lightbox="images/pscmigration/findingMPNID.png":::
 
 Next (Tovább)
 
