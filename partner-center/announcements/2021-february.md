@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 02/04/2021
-ms.openlocfilehash: ac5c82887ddf17e66045e36c0f4de607529f6024
-ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
+ms.openlocfilehash: f1822a0bba6c14f48da3dfca3081bba5da3c6a2e
+ms.sourcegitcommit: b41c8e1715bc55cb263af17f2781722a143d29bc
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100281217"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490172"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
@@ -22,11 +22,49 @@ Ez az oldal részletesen ismerteti a Microsoft-partneri központtal kapcsolatos 
 
 _______________
 
+## <a name="introducing-microsoft-viva-topics"></a><a name="7"></a>A Microsoft Viva témaköreinek bemutatása
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: február 12., 2021
+- Képességek
+
+### <a name="affected-audience"></a>Érintett célközönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+
+### <a name="details"></a>Részletek
+
+A Microsoft Viva témakörei mesterséges intelligenciát (AI) alkalmaznak a szervezeten belüli ismeretek és szaktudás azonosítására, valamint a megosztott témakörökre, például termékekre, ügyfelekre vagy projektekre. A részletes témakör-kártyák és a témakörök oldalain az ismeretek a csapatok, a projektek és a dokumentumok kontextusában is megtalálhatók. Az AI és az emberek együttműködve javítják az ismereteket, és felhasználhatják azokat az egyes napokon használt alkalmazásokban. 
+
+A felhasználóknak licenccel kell rendelkezniük a következők valamelyikével, hogy jogosultak legyenek a Viva-témakörökre:   
+- Microsoft 365 F1, F3, E3, a3, E5 vagy a5 
+- Office 365 F3, E1, a1, E3, a3, E5 vagy a5 
+- Alapszintű, standard vagy prémium szintű Microsoft 365 Vállalati verzió 
+- SharePoint K, 1. csomag vagy Plan2 
+
+**Ajánlat részletei**
+
+Ezeknek az ajánlatoknak a neve a február 1 árlista szerint a "témakör tapasztalatai". Ezek a nevek a "Viva-témakörökkel" frissülnek, ha a árlista frissítése március 1-jén történik.
+
+|**Ajánlat neve**|**Ajánlat azonosítója**|**Anyag azonosítója**|
+|------------------|:--------------------|:------------------|
+|Viva-témakörök|b9ef0c81-9ca6-45fd-a6c1-627745ba8b8a|1JV – 00005|
+|Viva-témakörök az oktatók számára|8c930d38-db61-4afa-83f9-77c595c5cdfc|1TK – 00006|
+|Viva-témakörök diákoknak|5de461d5-8ccc-4a8e-98ae-58a3ad400a57|1TK-00007|
+
+### <a name="next-steps"></a>Következő lépések
+
+- Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.  
+- További információt a [Viva témakörök Resource Center webhelyen](https://resources.techcommunity.microsoft.com/viva-topics)talál.
+
+_______________
+
 ## <a name="microsoft-365-e3-price-changes-coming-for-march-2021"></a><a name="6"></a>A 2021. márciusi árak változásainak Microsoft 365 E3
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-11
+- Dátum: február 11., 2021
 - Ajánlatok/piacok
 
 ### <a name="affected-audience"></a>Érintett célközönség
@@ -51,7 +89,7 @@ _______________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-10
+- Dátum: február 10., 2021
 - Ajánlatok/piacok
 
 ### <a name="affected-audience"></a>Érintett célközönség
@@ -76,7 +114,7 @@ _______________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-05
+- Dátum: február 5., 2021
 - Képességek
 
 ### <a name="affected-audience"></a>Érintett célközönség
@@ -111,7 +149,7 @@ _________________________________________________________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-04
+- Dátum: február 4., 2021
 - Képességek
 
 ### <a name="impacted-audience"></a>Érintett közönség
@@ -120,13 +158,13 @@ Minden partner
 
 ### <a name="details"></a>Részletek
 
-A Microsoft a kompetenciák kiterjesztését (a Cloud Business Applications kompetencia kivételével) és a speciális specializációs bővítményt ajánlja az évfordulós (AD) dátummal rendelkező partnerek számára a 2021 január 1. és a 2021. június 30. között. További információért tekintse át a [partner blogbejegyzését](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/) .
+A Microsoft a kompetenciák kiterjesztését (kivéve a Cloud Business Applications kompetenciát) és a speciális specializációs bővítményt ajánlja az évfordulós (AD) dátummal rendelkező partnerek számára a 2021 január 1. és a 2021. június 30. között. További információért tekintse át a [partner blogbejegyzését](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/) .
 ________________
 ## <a name="new-updates-to-the-referrals-module-in-partner-center"></a><a name="2"></a> Az átirányítási modulok új frissítései a partner Centerben
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-03
+- Dátum: február 5., 2021
 - Képességek
  
 ### <a name="impacted-audience"></a>Érintett közönség
@@ -151,7 +189,7 @@ A partner Center Referrals moduljának újdonságai:
 
 #### <a name="partners-with-co-sell-ready-offers"></a>Partnereink közös értékesítésre kész ajánlatainkkal
 
-- [Közös értékesítés más partnerekkel](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities): meghívhat egy másik partnert a hatékony partneri ökoszisztémáról a közös értékesítésre és a további vásárlói közönségek hozzáférésének feloldására.  
+- [Közös értékesítés más partnerekkel](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities): meghívhat egy másik partnert a hatékony partneri ökoszisztémáról a közös értékesítésre és a több vásárlói közönséghez való hozzáférés feloldására.  
 
 #### <a name="partners-with-a-transactable-offer-using-an-azure-incentive-eligible-solution-in-the-commercial-marketplace"></a>A kereskedelmi piactéren elérhető Azure-alapú ösztönző megoldással rendelkező partnereink
 
@@ -161,14 +199,14 @@ A partner Center Referrals moduljának újdonságai:
 
 Ha segítségre van szüksége az új funkciók használatával kapcsolatban, tekintse meg a Tudásbázis bevezetések [című szakaszát](https://docs.microsoft.com/partner-center/referrals) , illetve a [közös értékesítési tapasztalati galériában](https://aka.ms/CoSellExperience) elérhető segédanyagokat (bejelentkezés szükséges).
 
-További támogatásért [Nyisson meg egy jegyet a partner támogatási csapatával](https://partner.microsoft.com/support/?stage=1).
+A támogatási [csapattal megnyithatja a partneri ügyfélszolgálattal rendelkező jegyet](https://partner.microsoft.com/support/?stage=1) .
 
 ________________
 ## <a name="deprecation-and-retirement-of-put-qualification-apis-for-the-education-customer-validation-process-by-february-25-2021-and-get-qualification-by-may-4-2021"></a><a name="1"></a> A PUT minősítési API-k elutasítása és kivonása az oktatási ügyfél-ellenőrzési folyamathoz február 25-én, 2021-ig, a minősítés pedig a 2021. május 4. után.
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-04
+- Dátum: február 4., 2021
 - Képességek
 
 ### <a name="impacted-audience"></a>Érintett közönség
@@ -181,7 +219,7 @@ Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](http
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Ha még nem tette meg, **frissítse az új API-kat** sikeres és időben történő áttéréshez
+- **Az új API** -k frissítése sikeres és időben történő áttéréshez
 - **Tekintse át az új partneri központ API-változásait és útmutatóját** az operatív készültségi erőforrások: a [partner Center oktatási ügyfelek ellenőrzési folyamatának továbbfejlesztései](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/)
 - **Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal** és a viszonteladókkal, hogy előkészítse ezeket a módosításokat.
 
