@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 02/05/2021
-ms.openlocfilehash: 6698a56aa90c20db22c2dd6765cbec9b310bc40a
-ms.sourcegitcommit: b41c8e1715bc55cb263af17f2781722a143d29bc
+ms.openlocfilehash: 7974d6f02951db944a44634543cda5bba49df976
+ms.sourcegitcommit: 0416562dd89408524f8312a8acd5b6944b6d91c4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100490155"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100540981"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Február 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[Most élő: a Microsoft partneri szerződések (MPAs) alá tartozó partnerek Adobe-DocuSign való áttelepítése](2021-february.md#9)|Február 16.|
+|Növelje üzletét|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-february.md#8)|Február 16.|
 |Képességek|[A Microsoft Viva témaköreinek bemutatása](2021-february.md#7)|Február 12.|
 |Ajánlatok/piacok|[A 2021. márciusi árak változásainak Microsoft 365 E3](2021-february.md#6)|Február 11.|
 |Ajánlatok/piacok|[A Norvég korona licenc-alapú előzetes verziójának árlista](2021-february.md#5)|Február 10|

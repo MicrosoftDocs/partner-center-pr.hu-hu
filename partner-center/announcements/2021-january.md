@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/28/2021
-ms.openlocfilehash: 7195dbd9bb9a862b7b3064ed641739f04bcab512
-ms.sourcegitcommit: 99e4ca8495860a3119debb139509b9c8a9db4c87
+ms.openlocfilehash: f6179e76e9bcb05f75551056fa7a9e81f6d74d12
+ms.sourcegitcommit: 0416562dd89408524f8312a8acd5b6944b6d91c4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "99974756"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100541016"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -348,7 +348,9 @@ Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít�
 
 Február 2021-én a Microsoft az API-szabályozást fogja megvalósítani, hogy a partner Center API-kat hívó partnereink számára egy adott időszakon belül konzisztens teljesítményt lehessen biztosítani.A szabályozás korlátozza a szolgáltatásra irányuló kérések számát egy adott időszakban, hogy elkerülje az erőforrások túlzott mennyiségét.Ha túllépi a szabályozási küszöbértéket, a partneri központ egy adott időszakra korlátozza az ügyféltől érkező további kéréseket.
   
-**Partneri előnyök:** A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a kérések túlnyomó száma néhány partnernél történik, a szabályozás az összes partner optimális teljesítményének és megbízhatóságának fenntartását segíti.  
+**Partneri előnyök:**
+
+A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a kérések túlnyomó száma néhány partnernél történik, a szabályozás az összes partner optimális teljesítményének és megbízhatóságának fenntartását segíti.  
 
 - A szabályozás minimális állásidőt biztosít.
 - A szabályozás csökkenti a nagy mennyiségű kérések számát, így biztosítva, hogy az összes partnernek konzisztens teljesítményt nyújtson.

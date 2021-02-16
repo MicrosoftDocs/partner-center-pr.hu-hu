@@ -9,16 +9,120 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 02/04/2021
-ms.openlocfilehash: f1822a0bba6c14f48da3dfca3081bba5da3c6a2e
-ms.sourcegitcommit: b41c8e1715bc55cb263af17f2781722a143d29bc
+ms.openlocfilehash: 8348179438ad65449ea75cd5ebce8ba0a92d7b9a
+ms.sourcegitcommit: 0416562dd89408524f8312a8acd5b6944b6d91c4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100490172"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100540998"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központtal kapcsolatos bejelentéseket a 2021 februárjában.
+
+________________
+## <a name="now-live-docusign-migration-to-adobe-sign-for-partners-under-microsoft-partner-agreements-mpas"></a><a name="9"></a> Most élő: a Microsoft partneri szerződések (MPAs) alá tartozó partnerek Adobe-DocuSign való áttelepítése
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-16
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A Microsoft az összes elektronikus aláírás feldolgozását a DocuSign-ből az Adobe Sign-be fogja áttérni.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Meglévő közvetlen és közvetett felhőalapú megoldás-szolgáltatói (CSP) partnerek a MPA alatt.
+
+### <a name="details"></a>Részletek
+
+Február 2021-án a Microsoft elkezdi az összes elektronikus aláírás feldolgozását a DocuSign-ről az Adobe-bejelentkezésre a CSP-partnerek számára.
+
+A zökkenőmentes áttérés várható. A Migrálás után a DocuSign helyett e-mailt fog kapni, adobesign@adobesign.com Amikor elektronikus aláírásra van szükség. Ez az e-mail az Adobe Sign weboldalára mutató hivatkozást tartalmaz, amelyen be kell jelentkeznie. A Microsoft-partnereknek nem kell újra aláírnia a meglévő szerződéseket, csak a jövőbeli csatorna-szerződéseket. Az Ukrajnában, Oroszországban és Kazahsztánban található partnereknek évente fizikailag vagy elektronikus úton újra alá kell írniuk a lovast.
+
+Az előfizetési értesítő e-mail-címre [az erőforrás](https://partner.microsoft.com/resources/detail/adobe-sign-signature-request-email-pdf)-katalógusban talál példát.
+
+A legjobb megoldás érdekében tegye a következőket:
+
+1. Adja hozzá adobesign@adobesign.com a biztonságos küldők listájához, hogy elkerülje a fiók e-mail-címeit közvetlenül a Levélszemét mappába.
+2. Az IT-részleggel az alábbiakkal dolgozhat:
+    - Adja hozzá az adobesign@adobesign.com e-mail-címet a biztonságos küldők listájához, és győződjön meg arról, hogy az nem szerepel az előzetesen létrehozott adathalászat-szabályban.
+    - Frissítse a meglévő biztonsági házirendeket annak biztosítása érdekében, hogy az összes szükséges címzett aláírja a dokumentációt az Adobe Sign Enterprise-licenc keretében.
+
+A bevezetéssel, a funkcionalitással és az üzleti folyamatokkal kapcsolatos kérdésekre az [Adobe Sign Migration partner oldalán](https://aka.ms/eSignature/External)találhat további forrásokat.
+
+Az Adobe Sign a Microsoft által előnyben részesített elektronikus aláírási megoldás (ESS). Az Adobe Sign-ra való áttérés biztonságos és hatékony elektronikus aláírási élményt nyújt, amely nagyobb értéket biztosít ügyfeleinknek és partnereinknek.
+
+A dokumentumok elektronikus aláírásával és az elektronikus aláírás delegálásával kapcsolatos további információkért tekintse meg a következő oktatóanyagokat:
+
+- [Dokumentumok elektronikus aláírása | Adobe Sign-oktatóanyagok](https://helpx.adobe.com/sign/how-to/adobe-for-signers.html?playlist=/ccx/v1/collection/product/sign/segment/designer/explevel/beginner/applaunch/continuinged/collection.ccx.js&ref=helpx.adobe.com)
+- [Valaki másnak delegált dokumentum aláírása | Adobe Sign-oktatóanyagok](https://helpx.adobe.com/sign/how-to/use-the-delegator-role.html?playlist=/ccx/v1/collection/product/sign/segment/designer/explevel/beginner/applaunch/orientation/collection.ccx.js&ref=helpx.adobe.com)
+
+### <a name="next-steps"></a>Következő lépések
+
+Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van, forduljon a regionális operatív központhoz a [Hívásnapló eszköz (CLT)](https://clt.partners.extranet.microsoft.com/CLT) használatával vagy az [MS](https://www.explore.ms/)-on. Kövesse a szabványos CLT folyamatot, hogy a lehető leggyorsabban fel tudja oldani a lekérdezést.
+
+### <a name="change-log"></a>Módosítási napló
+
+- 2021. január 15.: eredeti kiadvány 
+- Február 16., 2021: most élő, új erőforrás: az Adobe Sign Migration partner lapja 
+
+_____________
+
+## <a name="reminder-introducingapithrottlingtopartners-calling-partner-centerapis"></a><a name="8"></a> Emlékeztető: API-szabályozás bemutatása a partner Center API-kat hívó partnereknek
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-16
+- Vállalkozás fejlesztése
+
+### <a name="summary"></a>Összefoglalás
+
+A Microsoft API-szabályozást fog megvalósítani, hogy a partner Center API-kat hívó partnereink számára egy adott időszakon belül konzisztens teljesítményt biztosítson.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít  
+
+### <a name="details"></a>Részletek
+
+Február 2021-én a Microsoft az API-szabályozást fogja megvalósítani, hogy a partner Center API-kat hívó partnereink számára egy adott időszakon belül konzisztens teljesítményt lehessen biztosítani.A szabályozás korlátozza a szolgáltatásra irányuló kérések számát egy adott időszakban, hogy elkerülje az erőforrások túlzott mennyiségét.Ha túllépi a szabályozási küszöbértéket, a partneri központ egy adott időszakra korlátozza az ügyféltől érkező további kéréseket.
+
+**Partneri előnyök:**
+
+A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a kérések túlnyomó száma néhány partnernél történik, a szabályozás az összes partner optimális teljesítményének és megbízhatóságának fenntartását segíti.  
+
+- A szabályozás minimális állásidőt biztosít.
+- A szabályozás csökkenti a nagy mennyiségű kérések számát, így biztosítva, hogy az összes partnernek konzisztens teljesítményt nyújtson.
+
+**Szabályozni kívánt API-k:**
+
+| Művelet | Partnerközpont dokumentációja |
+| ------ | ------- |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions  | [Ügyfél-s-előfizetések beolvasása](/partner-center/develop/get-all-of-a-customer-s-subscriptions&data) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}  | [Egy előfizetés lekérése azonosító alapján](/partner-center/develop/get-a-subscription-by-id) |
+|{baseURL}/v1/Customers/{customer_id}:/Orders  | [Az összes ügyfél rendelésének beolvasása](/partner-center/develop/get-all-of-a-customer-s-orders) |
+|{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}  | [Megrendelés lekérése azonosító alapján](/partner-center/develop/get-an-order-by-id) |
+|{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}/provisioningstatus  | [Előfizetés kiépítési állapotának lekérése](/partner-center/develop/get-subscription-provisioning-status) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}  | [Megrendelések kezelése és az előfizetés kezelése](/partner-center/develop/manage-orders#manage-a-subscription) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/addons  | [Egy előfizetés bővítménylistájának lekérése](/partner-center/develop/get-a-list-of-add-ons-for-a-subscription) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/azureEntitlements | [Az előfizetéshez tartozó Azure-jogosultságok listájának lekérése](/partner-center/develop/get-a-list-of-azure-entitlements-for-subscription) |
+|{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/registrationstatus  | [Előfizetés regisztrációs állapotának lekérése](/partner-center/develop/get-subscription-registration-status) |
+|{baseURL}/v1/customers/{customer-tenant-id}/transfers  | [Ügyfél összes átadásának beolvasása](/partner-center/develop/get-all-of-a-customer-s-transfers) |
+|{baseURL}/v1/productUpgrades/{upgrade-id}/status  | [Termék frissítési állapotának lekérése](/partner-center/develop/get-product-upgrade-status) |
+|{baseURL}/v1/customers/{customer-id}/subscriptions/{subscription-id}/conversions   | [A próbaverzió átalakításával kapcsolatos ajánlatok listájának lekérése](/partner-center/develop/get-a-list-of-trial-conversion-offers) |
+ 
+Azt javasoljuk, hogy a partnerek a Activity log API-t használják nagyobb hatékonyság és a szabályozás elkerülése érdekében.A szolgáltatással kapcsolatos további információkért tekintse meg a részleteket [.](/partner-center/develop/api-throttling-guidance)  
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a témakör [erőforrásait](/partner-center/develop/api-throttling-guidance)   , és végezze el a szükséges lépéseket.  
 
 _______________
 
