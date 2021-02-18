@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 02/03/2021
-ms.openlocfilehash: 831fbc294bfd82caef77489f74747bb32cf0b12c
-ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
+ms.openlocfilehash: 16975e78c10aeb73bf141c1a1d0a215ac885039c
+ms.sourcegitcommit: 64243caed029ffe40e2bbc369f4ee96f4f0ca26f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100334589"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100645639"
 ---
 # <a name="bulk-operations-for-co-sell-opportunities-using-comma-separated-valuecsv-files"></a>Tömeges műveletek a vesszővel tagolt (CSV) fájlok használatával történő közös értékesítési lehetőségekhez
 
@@ -71,7 +71,7 @@ Osztás neve|Yes|A hivatkozáshoz tartozó ajánlat rövid neve.|Egyesült Kirá
 Customer City|Yes|Az a város, ahol az ügyfél szervezete található.|Redmond
 Ügyfél állapota|No|Az az állapot, amelyben az ügyfél szervezete található.|Washington
 Ügyfél postai irányítószáma|No|Azon régió irányítószáma, ahol az ügyfél szervezete található.|98052
-Ügyfél országa|Yes|Az az ország/régió, ahol az ügyfél szervezete található. Az [itt]( https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)leírtak szerint használja a három betűs országkód szerinti kódokat.|USA
+Ügyfél országa|Yes|Az az ország/régió, ahol az ügyfél szervezete található. Használja az [itt]( https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)említett két betűs országkód-kódokat.|USA
 Ügyfél – D-U-N-S azonosító|No|Próbálja meg beolvasni az ügyfél-szervezet DUNS-AZONOSÍTÓját. Ez segít az ügyfél-szervezet gyorsabb egyeztetésében a Microsoft oldalán, ami segít a gyorsabb eladó-hozzárendelésben. A jelen [webhelyről](https://www.dnb.com/duns-number/lookup.html)ingyenesen beszerezheti a Duns ID-t.|81466849
 Ügyfél kapcsolattartójának keresztneve|Függ|Az utónév csak akkor kötelező, ha Microsoft súgóra van szüksége. Az ügyfél szervezete által az adott üzleten dolgozó elsődleges partner utóneve.|John
 Ügyfél kapcsolattartójának vezetékneve|Függ|A vezetéknevet csak akkor kötelező megadni, ha Microsoft súgóra van szüksége. Az ügyfél-szervezetnél az adott üzletben dolgozó elsődleges partner vezetékneve.|Ügyfél

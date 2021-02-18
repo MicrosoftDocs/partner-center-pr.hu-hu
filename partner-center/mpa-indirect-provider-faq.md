@@ -1,7 +1,7 @@
 ---
 title: Hogyan segíthetnek a közvetett szolgáltatók a viszonteladók számára a Microsoft partneri szerződés elfogadásában – GYIK
 ms.topic: article
-ms.date: 02/04/2021
+ms.date: 02/17/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: A Microsoft partneri szerződéssel kapcsolatos legfontosabb kérdések
@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c1c8ea56307dcac64842e2485099e525efa3145a
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: 3572056d38966427f8970cf48268ac21a261b505
+ms.sourcegitcommit: 64243caed029ffe40e2bbc369f4ee96f4f0ca26f
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624289"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100645894"
 ---
 # <a name="how-indirect-providers-can-help-their-indirect-resellers-accept-the-microsoft-partner-agreement-mpa"></a>Hogyan tudják a közvetett viszonteladók a Microsoft partneri szerződést (MPA) fogadni a közvetett szolgáltatók számára
 
@@ -26,7 +26,7 @@ ms.locfileid: "99624289"
 
 A következő kérdések és válaszok foglalkoznak a potenciális problémákkal és megoldásokkal, amelyek segítenek a közvetett viszonteladók számára, hogy megértse, hogyan és miért fogadja el a MPA-t 
 
-A közvetett szolgáltatók, a közvetlen számlázási partnerek és a Felhőbeli megoldás-szolgáltatói programban a közvetett viszonteladók hasznosnak találják ezeket az információkat.
+A közvetett szolgáltatók, a közvetlen számlázási partnerek és a közvetett viszonteladók a felhőalapú megoldás-szolgáltató programban hasznos információkat találnak.
 
 ## <a name="questions-on-mpa-program-and-policy"></a>A TERMÉKAKTIVÁLÁSI programra és a szabályzatra vonatkozó kérdések
 
@@ -117,7 +117,7 @@ Ha különböző országokban van leányvállalata, létrehozhat MPN-helyeket ez
 
 •[Telephelyek kezelése a partneri fiókban](manage-locations.md)
 
-Ha problémák merülnek fel, [támogatási jegyet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=1af7f3a0-1757-3543-4b6a-c945c3ad187b) is felvehet a partner centeren belülről. 
+Ha problémákat tapasztal, egy [támogatási jegyet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=1af7f3a0-1757-3543-4b6a-c945c3ad187b) is felvehet a partner centeren belülről. 
 
 
 #### <a name="i-dont-know-which-mpn-id-to-use-while-enrolling-into-csp-indirect-reseller-program"></a>Nem tudom, hogy melyik MPN-azonosítót kell használni a CSP közvetett viszonteladói programba való regisztráláskor?
@@ -142,7 +142,7 @@ Ha a CSP közvetett viszonteladó, akkor ugyanahhoz a régióhoz tartozó közve
 
 #### <a name="why-cant-i-associate-my-mpn-id-to-my-tenant"></a>Miért nem rendelhető hozzá az MPN-azonosító a bérlőhöz?
 
-**Válasz**  Ha nem tudja hozzárendelni az MPN-azonosítót a bérlőhöz, és hibaüzenet jelenik meg, az azt jelenti, hogy az MPN-azonosító és a bérlő nem ugyanabban az országban található. Ahhoz, hogy a társítás működjön, mindkettőnek ugyanabban az országban kell lennie. Ennek az az oka, hogy a Microsoft ösztönzőket országonként és MPN-azonosító szinten fizetik ki. Ha például Franciaországban van CSP-fiókja, akkor a fizetős ösztönzők beszerzése érdekében a franciaországi MPN-helyet (MPN-azonosítót) is meg kell adni. Egy MPN-azonosító az Egyesült Királyságban a nem fog működni, bár ugyanabban a CSP régióban vannak. 
+**Válasz**  Ha nem tudja hozzárendelni az MPN-azonosítót a bérlőhöz, és hibaüzenet jelenik meg, az azt jelenti, hogy az MPN-azonosító és a bérlő nem ugyanabban az országban található. Ahhoz, hogy a társítás működjön, mindkettőnek ugyanabban az országban kell lennie. Ennek a követelménynek az az oka, hogy a Microsoft ösztönzőket országonként és MPN-azonosító szinten fizetik ki. Ha például Franciaországban van CSP-fiókja, akkor a fizetős ösztönzők beszerzése érdekében a franciaországi MPN-helyet (MPN-azonosítót) is meg kell adni. Egy MPN-azonosító az Egyesült Királyságban a nem fog működni, bár ugyanabban a CSP régióban vannak. 
 
 Ennek megoldásához hozzon létre egy MPN-helyet ugyanabban az országban, mint a CSP országot. További információ az MPN- [helyszínek kezeléséről](manage-locations.md).
 
@@ -154,10 +154,10 @@ Ennek megoldásához hozzon létre egy MPN-helyet ugyanabban az országban, mint
 
 **Válasz** nem. A CSP egy regionális program. A közvetett viszonteladó és a közvetett szolgáltató CSP-fiókjának ugyanabban a CSP-régióban kell lennie, hogy üzleti tevékenységet végezzen. Ennek megoldásához létre kell hoznia egy új CSP-fiókot az európai régióban, és létre kell hoznia egy MPN-helyet ugyanabban az országban, mint a CSP-fiók országa, majd el kell fogadnia a kapcsolati kérelmet a közvetett szolgáltatótól. Például létrehozhat egy CSP közvetett viszonteladói fiókot Franciaországban, létrehozhat egy MPN-helyet Franciaországban, majd elfogadhatja a közvetett szolgáltatótól érkező meghívót, aki Franciaországban vagy a CSP európai régiójában lévő más országokban található.
 
-#### <a name="can-i-have-more-than-1-mpn-and-csp-accounts-in-partner-center"></a>Használhatok több mint 1 MPN-és CSP-fiókot a partner Centerben?
+#### <a name="can-i-have-more-than-one-mpn-and-csp-accounts-in-partner-center"></a>Több MPN-és CSP-fiók is lehet a partner Centerben?
 
-**Válasz** Csak egy MPN-fiókkal (bejelentkezéssel) és egy vagy több CSP-fiókkal (bejelentkezéssel) rendelkezhet, attól függően, hogy a vállalata milyen CSP-régiót használ. Például az Egyesült Államokban (HQ) az USA (leányvállalat), az Egyesült Királyság (leányvállalat) és az Ausztrália (leányvállalat) helyszíneit is használhatja.
-Az Egyesült Államokban egyetlen olyan CSP-fiókkal (Office 365 munkahelyi fiókkal) rendelkezhet, amely az MPN-fiókkal azonos bejelentkezési hitelesítő adatokkal rendelkezik. Az Egyesült Királyságban második CSP-fiókkal is rendelkezhet a különböző bejelentkezési hitelesítő adatokkal rendelkezik az európai régióban lévő CSP-üzleti felügyelethez, és egy harmadik olyan Ausztráliában, amely más bejelentkezési hitelesítő adatokkal rendelkezik a másik kettőtől az Ausztráliában lévő CSP-üzlet kezeléséhez.
+**Válasz** Csak egy MPN-fiókkal (bejelentkezéssel) és egy vagy több CSP-fiókkal (bejelentkezéssel) rendelkezhet, attól függően, hogy a vállalata milyen CSP-régiót használ. Tegyük fel például, hogy az Egyesült Államokban (HQ) elérhető MPN-fiókja az USA (leányvállalat), az Egyesült Királyság (leányvállalat) és Ausztrália (leányvállalat) helyein található.
+Az Egyesült Államokban egyetlen olyan CSP-fiókkal (Office 365 munkahelyi fiókkal) rendelkezhet, amely az MPN-fiókkal azonos bejelentkezési hitelesítő adatokkal rendelkezik. Az Egyesült Királyságban második CSP-fiókkal is rendelkezhet amely különböző bejelentkezési hitelesítő adatokkal rendelkezik az európai régióban található CSP-üzlet kezeléséhez, és harmadik egy Ausztráliában, amely különböző bejelentkezési hitelesítő adatokkal rendelkezik a másik kettőtől az Ausztráliában lévő CSP-üzlet kezeléséhez.
 
 Mind a három CSP-fiókot hozzá kell rendelni az MPN ID Location-fiókokhoz, hogy üzleti tevékenységet végezzenek, és ösztönzőket szerezzenek ezekben a leányvállalatokban. Az MPN-kompetenciákat és-előnyöket csak az MPN-fiók kezelhetik.
 
@@ -169,17 +169,17 @@ Mind a három CSP-fiókot hozzá kell rendelni az MPN ID Location-fiókokhoz, ho
 
 #### <a name="i-want-to-migrate-my-mpn-account-from-partner-membership-center-to-partner-center-how-can-i-do-it-i-do-not-know-who-was-my-mpn-admin-in-pmc--how-can-i-migrate-"></a>Szeretném áttelepíteni az MPN-fiókot a Partner tagsági központból a partneri központba. Hogyan tehetem meg? Nem tudom, hogy ki volt az MPN-rendszergazda a PMC-ben, hogyan lehet migrálni? 
 
-**Válasz** Töltse le az MPN áttelepítésének lépésenkénti útmutatóját a [PMC és a számítógép között](guide-to-migration.md). Különböző hivatkozásokat tartalmaz az áttelepített HEP-ra. https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx"
+**Válasz** Töltse le az MPN áttelepítésének lépésenkénti útmutatóját a [PMC és a számítógép között](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx).
 
-Az MPN-fiók áttelepítése után további információ a következő témakörben olvasható: MPA aláírása, olvasás [Microsoft-partner-szerződés] 9microsoft-partner-szerződés. MD # letöltés – a-Step-by-Step-Guide – ez a Right-for-where-on-the-a-MPa-aláírás-Process)
+Az MPN-fiók áttelepítését követően további információt a [Microsoft-partner-szerződés](microsoft-partner-agreement.md#download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-mpa-signing-process)beolvasásával foglalkozó témakörben olvashat.
 
 Ha problémák merülnek fel, [támogatási jegyet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=2da4e1c7-3b4b-5672-6227-56bc75a936b4) is felvehet a partner centeren belülről.
 
 #### <a name="how-do-i-check-if-my-mpn-id-is-migrated-into-partner-center"></a>Hogyan ellenőrizze, hogy az MPN-azonosító áttelepült-e a fiókpartner-központba?
 
-**Válasz**  Jelentkezzen be az MPN-fiókjába bármilyen szerepkörrel (MPN és CSP bejelentkezési hitelesítő adatok eltérőek lehetnek). 
+**Válasz**  Jelentkezzen be az MPN-fiókjába bármilyen szerepkörrel (MPN és CSP bejelentkezési hitelesítő adatai eltérőek lehetnek). 
 
-A **Fiókbeállítások** területen válassza a **jogi profil** lap **partner** lap elemét. Ha a program adatai területen a "MPN-program állapota" látható, az MPN-azonosító a partner Centerben található. Ha nem látja az "MPN-program állapota" lehetőséget a "partner" lapon, akkor vagy már bejelentkezett a CSP-fiókjával, vagy az MPN-fiókja még nem található a partner Centerben. Előfordulhat, hogy továbbra is át kell telepítenie az MPN-fiókot a PMC-ről a számítógépre.
+A **Fiókbeállítások** területen válassza a **jogi profil** lap **partner** lap elemét. Ha a program adatai területen a "MPN-program állapota" látható, az MPN-azonosító a partner Centerben található. Ha nem látja az "MPN-program állapota" lehetőséget a "partner" lapon, akkor vagy már bejelentkezett a CSP-fiókjával, vagy az MPN-fiókja még nem szerepel a partner Centerben. Előfordulhat, hogy továbbra is át kell telepítenie az MPN-fiókot a PMC-ről a számítógépre.
 
 
 :::image type="content" source="images/legal-info-mpn.png" alt-text="Hol tekintheti meg az MPN-program adatait":::
@@ -204,11 +204,11 @@ Ha nem tudja kijavítani a problémát a saját eszközén, egy támogatási jeg
 
 #### <a name="i-enrolled-in-mpn-program--csp-indirect-reseller-program-but-my-legal-business-profile-verification-status-seems-to-be-stuck-in-the-pending-state-what-should-i-do"></a>Regisztráltam az MPN program/CSP közvetett viszonteladói programban, de úgy tűnik, hogy a jogi üzleti profil ellenőrzési állapota függő állapotban van. Mit tegyek?
 
-**Válasz**  Ha a CSP közvetett viszonteladói jogi üzleti profilja több mint öt munkanapon belül **függőben** van, akkor a partner Center [ügyfélszolgálata](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=345795c0-26bd-dd95-d291-b78ed4a8edce)lehetőségre kattintva egy támogatási jegyet kell létrehoznia a partner Centerben.
+**Válasz**  Ha a CSP közvetett viszonteladói jogi üzleti profilja több mint öt munkanapon belül **függőben lévő minősítési** állapotba kerül, a [partner Center támogatás](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=345795c0-26bd-dd95-d291-b78ed4a8edce)lehetőségre kattintva emeljen ki egy támogatási jegyet a partner Centerben.
 
 :::image type="content" source="images/pending.png" alt-text="Az állapot függőben van":::
 
-## <a name="question-about-working-in-partner-center"></a>A partneri központban való munkával kapcsolatos kérdés
+## <a name="questions-about-working-in-partner-center"></a>A partner Centerben való munkával kapcsolatos kérdések
 
 #### <a name="i-dont-know-who-the-partner-center-admin-is-who-can-accept-mpa-"></a>Nem tudom, kik elfogadják az MPA-t a partner Center-rendszergazdától?
 
