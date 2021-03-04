@@ -7,21 +7,26 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 04ad6a0c2c7a6330d2e1230f046ee78b2a7405c8
-ms.sourcegitcommit: 36a60f672c1c3d6b63fd225d04c5ffa917694ae0
+ms.openlocfilehash: d3941d09d6ec808f3d188521c4f0c51c9a6d0222
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "92527973"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101755763"
 ---
 # <a name="understand-usage-based-reconciliation-files-and-their-specific-fields-in-partner-center"></a>A használaton alapuló egyeztetési fájlok és a partnervállalat konkrét mezőinek megismerése
 
 A következőkre vonatkozik:
 
 - Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
-Ha egyeztetni kívánja az ügyfelek használati feladatait, hasonlítsa össze a **ResellerID** , a **viszonteladó neve** és a **ResellerBillableAccount** az egyeztetési fájlból a partner Center **ügyfél** -és **előfizetés-azonosítójával** .
+**Megfelelő szerepkörök**
+
+- Fiókadminisztrátor
+- Számlázási adminisztrátor
+
+Ha egyeztetni kívánja az ügyfelek használati feladatait, hasonlítsa össze a **ResellerID**, a **viszonteladó neve** és a **ResellerBillableAccount** az egyeztetési fájlból a partner Center **ügyfél** -és **előfizetés-azonosítójával** .
 
 ## <a name="fields-in-usage-based-reconciliation-files"></a>Mezők a használaton alapuló egyeztetési fájlokban
 
@@ -43,31 +48,35 @@ Az alábbi mezőkből megtudhatja, hogy mely szolgáltatásokat használták, é
 | SubscriptionDescription | A szolgáltatási ajánlat üzletága. | *Microsoft Azure* |
 | OrderID | Egy rendelés egyedi azonosítója a Microsoft számlázási platformon. Hasznos lehet azonosítani az előfizetést, amikor kapcsolatba lép a támogatási szolgálattal. Nem használatos egyeztetéshez. | *566890604832738111* |
 | ServiceName | A kérdéses Azure-szolgáltatás neve. | *VIRTUÁLIS GÉPEK* |
-| ServiceType | Az Azure-szolgáltatás adott típusa. | *Service Bus – egyéni vagy csomag* , *SQL Azure adatbázis – üzleti vagy webes kiadás* |
+| ServiceType | Az Azure-szolgáltatás adott típusa. | *Service Bus – egyéni vagy csomag*, *SQL Azure adatbázis – üzleti vagy webes kiadás* |
 | ResourceGuid (Erőforrás GUID azonosítója) | A szolgáltatás összes adatának és árképzési struktúrájának egyedi azonosítója. | *DA41BC5F-C52D-4464-8A8D-8C8DCC43503B* |
-| ResourceName nevű erőforrásáról | Az Azure-Erőforrás neve. | *Adatátvitel (GB)* , *kimenő adatforgalom (GB)* |
-| Régió | Az a régió, amelyre a használat vonatkozik. Elsődlegesen az adatátviteli díjak kiosztására szolgálnak, mivel a díjszabás régiónként eltérő. | *Ázsia és a csendes-óceáni térség* , *Európa* , *Latin-Amerika* , *Észak-Amerika* |
+| ResourceName nevű erőforrásáról | Az Azure-Erőforrás neve. | *Adatátvitel (GB)*, *kimenő adatforgalom (GB)* |
+| Region | Az a régió, amelyre a használat vonatkozik. Elsődlegesen az adatátviteli díjak kiosztására szolgálnak, mivel a díjszabás régiónként eltérő. | *Ázsia és a csendes-óceáni térség*, *Európa*, *Latin-Amerika*, *Észak-Amerika* |
 | SKU | Egyedi Microsoft-azonosító egy ajánlathoz. | *7UD – 00001* |
 | DetailLineItemId | Egy adott számlázási időszakban egy szolgáltatás vagy erőforrás különböző díjszabását itemize azonosító és mennyiség. Az Azure-előállítók díjszabása esetében előfordulhat, hogy egy adott mennyiségű számlázható egységhez legfeljebb egy díjat számítunk fel. | *1* |
 | ConsumedQuantity | A jelentési időszak alatt felhasznált szolgáltatás mennyisége (például óra vagy GB). A korábbi jelentési időszakok nem számlázott használatát is magában foglalja. | *11* |
 | IncludedQuantity | Az ajánlat részét képező egységek. Általában nem szerepel a CSP-ben. | *0* |
-| OverageQuantity | Az ajánlat részeként nem szereplő egységek. Ezeket a partnernek kell fizetnie. Egyenlő a **ConsumedQuantity** mínusz **IncludedQuantity** . | *11* |
+| OverageQuantity | Az ajánlat részeként nem szereplő egységek. Ezeket a partnernek kell fizetnie. Egyenlő a **ConsumedQuantity** mínusz **IncludedQuantity**. | *11* |
 | ListPrice | Az előfizetés kezdő dátumánál érvényes ár. | *$0,0808* |
-| PretaxCharges | Egyenlő a **ListPrist** megszorozva a **OverageQuantity** , a legközelebbi%-ra kerekítve. | *$0,085* |
+| PretaxCharges | Egyenlő a **ListPrist** megszorozva a **OverageQuantity**, a legközelebbi%-ra kerekítve. | *$0,085* |
 | TaxAmount | A fizetendő adó összege. A piaci adószabályok és a konkrét körülmények alapján. | *$0,08* |
 | PostTaxTotal | ÁFA után összesen, ha az adó érvényes. | *$0,93* |
-| Currency (Pénznem) | Pénznem típusa Minden számlázási entitásnak csak egy pénzneme van. Győződjön meg arról, hogy az megfelel az első számlájának, majd a főbb számlázási platformok frissítései után. | *EUR* |
-| PretaxEffectiveRate | Egységenkénti ÁFA díj. Egyenlő a **PretaxCharges** osztva **OverageQuantity** , a legközelebbi%-ra kerekítve. | *$0,08* |
-| PostTaxEffectiveRate | Adózás utáni díj egységenként. Egyenlő a **PostTaxTotal** osztva **OverageQuantity** , a legközelebbi%-ra kerekítve. Vagy egyenlő a **PretaxEffectiveRate** és az egységenkénti adókulcs összegével, a legközelebbi%-ra kerekítve. | *$0,08* |
+| Pénznem | Pénznem típusa Minden számlázási entitásnak csak egy pénzneme van. Győződjön meg arról, hogy az megfelel az első számlájának, majd a főbb számlázási platformok frissítései után. | *EUR* |
+| PretaxEffectiveRate | Egységenkénti ÁFA díj. Egyenlő a **PretaxCharges** osztva **OverageQuantity**, a legközelebbi%-ra kerekítve. | *$0,08* |
+| PostTaxEffectiveRate | Adózás utáni díj egységenként. Egyenlő a **PostTaxTotal** osztva **OverageQuantity**, a legközelebbi%-ra kerekítve. Vagy egyenlő a **PretaxEffectiveRate** és az egységenkénti adókulcs összegével, a legközelebbi%-ra kerekítve. | *$0,08* |
 | ChargeType | A [díj](recon-file-charge-types.md) vagy a beállítás típusa. | Tekintse meg a [díjszabási típusokat](recon-file-charge-types.md). |
 | CustomerId | Az ügyfél egyedi Microsoft-azonosítója GUID formátumban. | *ORDDC52E52FDEF405786F0642DD0108BE4* |
 | DomainName | Az ügyfél tartományneve. Ez a mező üresen jelenhet meg a második számlázási ciklusig. | *example.onmicrosoft.com* |
-| BillingCycleType | Az idő számlázási gyakorisága.| **Havi**  |
-| Egység | Az erőforrás **nevének** egysége. | *GB* vagy *óra* |
+| BillingCycleType | Az idő számlázási gyakorisága.| **Havonta**  |
+| Unit (Egység) | Az erőforrás **nevének** egysége. | *GB* vagy *óra* |
 | CustomerBillableAccount | Egyedi fiókazonosító a Microsoft számlázási platformon. | *1280018095* |
 | UsageDate | A szolgáltatás központi telepítésének dátuma. | *2/1/2019 0:00* |
-| MeteredRegion | Meghatározza egy adatközpont helyét a régión belül (azon szolgáltatások esetében, amelyeknél ez az érték alkalmazható és fel van töltve). | *Kelet-Ázsia* , *Dél-Kelet-Ázsia* , *Észak-Európa* , *Nyugat-Európa* , az *USA északi középső* régiója, az *USA déli középső* régiója |
-| MeteredService | Azonosítja az egyes Azure-szolgáltatások használatát, ha a **szolgáltatásnév** oszlopban nem kifejezetten van meghatározva. Az adatátvitelek például *Microsoft Azure – minden szolgáltatásként* jelennek meg a **szolgáltatásnév** oszlopban. | *AccessControl* , *CDN* , *számítási* , *adatbázis* , *ServiceBus* , *Storage* |
+| MeteredRegion | Meghatározza egy adatközpont helyét a régión belül (azon szolgáltatások esetében, amelyeknél ez az érték alkalmazható és fel van töltve). | *Kelet-Ázsia*, *Dél-Kelet-Ázsia*, *Észak-Európa*, *Nyugat-Európa*, az *USA északi középső* régiója, az *USA déli középső* régiója |
+| MeteredService | Azonosítja az egyes Azure-szolgáltatások használatát, ha a **szolgáltatásnév** oszlopban nem kifejezetten van meghatározva. Az adatátvitelek például *Microsoft Azure – minden szolgáltatásként* jelennek meg a **szolgáltatásnév** oszlopban. | *AccessControl*, *CDN*, *számítási*, *adatbázis*, *ServiceBus*, *Storage* |
 | MeteredServiceType | Az Azure-szolgáltatások használatának további tisztázását biztosító **MeteredService** mező alcíme. | *KÜLSŐ* |
 | Project | A szolgáltatási példány ügyfél által definiált neve. | *ORDDC52E52FDEF405786F0642DD0108BE4* |
 | ServiceInfo | Az adott napon kiosztott és felhasznált Azure Service Bus kapcsolatok száma. | *1,000000 kapcsolat/30 nap* (ha egy 30 napos hónap alatt külön kiosztott kapcsolatra volt szükség), *25 kapcsolat/30 nap – használatban: 1,000000* (ha 25 csomaggal rendelkezett Service Bus-kapcsolat kiosztott, és az adott napon 1. |
+
+## <a name="next-steps"></a>Következő lépések
+
+- [A partner Center licenc-alapú egyeztető fájljaiban található mezők ismertetése](license-based-recon-files.md)

@@ -8,12 +8,12 @@ ms.subservice: partnercenter-csp
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: c7e4f2b395ac421c9c01a813689723901374124a
-ms.sourcegitcommit: 99e4ca8495860a3119debb139509b9c8a9db4c87
+ms.openlocfilehash: 12fea98deb0b4ad0fc85783d04912ac7f76b8115
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "99975985"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756137"
 ---
 # <a name="use-partner-center-to-enroll-as-a-microsoft-learning-partner"></a>A partner Center használata Microsoft Learning-partnerként való regisztráláshoz
 
@@ -115,7 +115,7 @@ A KPI-vel való találkozás nem a képzés időtartamára vonatkozik. Ha többe
 
 ### <a name="q-why-dont-i-appear-as-a-microsoft-learning-partner-in-the-learning-partner-directory"></a>K. Miért nem jelenik meg Microsoft Learning-partnerként a Learning partneri címtárban?
 
-Előfordulhat, hogy fel kell vennie az [oktatási partneri címtárba](https://docs.microsoft.com/learn/certifications/partners). A webhelyhez a Learning partner címtára lapon hivatkozhat.
+Előfordulhat, hogy fel kell vennie az [oktatási partneri címtárba](/learn/certifications/partners). A webhelyhez a Learning partner címtára lapon hivatkozhat.
 
 Ez egy manuális folyamat, amely havonta egyszer, a harmadik hét során lesz elküldve. Az ezt követő frissítést a következő hónap első hetének végére fogja látni. A helyzet megoldásához forduljon a [partner Front támogatási szolgálatához](https://partner.microsoft.com/support). Készüljön fel a következő adatok megadására:
 

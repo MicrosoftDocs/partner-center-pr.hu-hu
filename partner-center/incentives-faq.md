@@ -8,12 +8,12 @@ ms.subservice: partnercenter-incentives
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
-ms.openlocfilehash: 332832b14e3434824aee2b1a6bcf7eb321fb7a60
-ms.sourcegitcommit: 2d1f0d7bc897278ef37af6d43c1a088f5ca14807
+ms.openlocfilehash: 2ee2ba7c3a04453927bd8e508190f23ec295da1d
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99835067"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756713"
 ---
 # <a name="frequently-asked-questions-on-incentives"></a>Gyakori kérdések az ösztönzőkről
 
@@ -67,9 +67,9 @@ Valószínűleg nem látja az ösztönzőket, hogy nem rendelkezik a megfelelő 
 
 ## <a name="some-enrollments-are-missing-from-the-incentives-overview-page"></a>Néhány regisztráció hiányzik az ösztönzők áttekintése lapon.
 
-Ha vagy kapott egy meghívót, vagy regisztrált a alkalmazásban, egy olyan ösztönző program, amely már nem látható az irányítópulton, ellenőrizze, hogy rendelkezik-e a megfelelő hozzáféréssel. Csak az ösztönző felhasználói vagy ösztönző rendszergazdai szerepkörrel rendelkező felhasználók tekinthetik meg a programot. Lásd: [a szerepkör megkeresése](https://docs.microsoft.com/partner-center/find-your-role).
+Ha vagy kapott egy meghívót, vagy regisztrált a alkalmazásban, egy olyan ösztönző program, amely már nem látható az irányítópulton, ellenőrizze, hogy rendelkezik-e a megfelelő hozzáféréssel. Csak az ösztönző felhasználói vagy ösztönző rendszergazdai szerepkörrel rendelkező felhasználók tekinthetik meg a programot. Lásd: [a szerepkör megkeresése](./find-your-role.md).
 
-Ha módosítania kell a szerepkört vagy az engedélyeket, forduljon a vállalat globális vagy rendszergazdai fiókjához. Ha szeretné megtudni, hogy kik is ezek az emberek, olvassa el [a globális rendszergazda megkeresése](https://docs.microsoft.com/partner-center/find-your-role#find-your-global-admin)című témakört.
+Ha módosítania kell a szerepkört vagy az engedélyeket, forduljon a vállalat globális vagy rendszergazdai fiókjához. Ha szeretné megtudni, hogy kik is ezek az emberek, olvassa el [a globális rendszergazda megkeresése](./find-your-role.md#find-your-global-admin)című témakört.
 
 Vegye figyelembe, hogy az áttekintő oldal csak azokat a regisztrációkat jeleníti meg, amelyek az Azure AD-bérlőhöz társított partner globális fiókkal (PGA) vannak társítva. Ha a vállalat több PGA-val rendelkezik, akkor mindegyikhez különböző hitelesítő adatokra van szükség.
 

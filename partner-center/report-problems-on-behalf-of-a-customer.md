@@ -1,7 +1,7 @@
 ---
 title: Problémabejelentés ügyfél nevében
 ms.topic: how-to
-ms.date: 06/05/2020
+ms.date: 02/26/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy mikor kell kibővíteni az ügyfélszolgálati problémát a Microsoftnak, és hogyan lehet támogatási jegyet benyújtani a különböző típusú Microsoft-szolgáltatásokhoz.
@@ -9,12 +9,12 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: baeb53d237ba1aeb987b08097526eda5c6235512
-ms.sourcegitcommit: df7f26b46d1ca46e962e528578d20330804638f9
+ms.openlocfilehash: 30670f44ddfeb2a798b191fb646ff894434537cb
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97153145"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756437"
 ---
 # <a name="report-a-service-problem-on-behalf-of-a-customer---including-when-and-how-to-do-so"></a>Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében – beleértve azt is, hogy mikor és hogyan történik
 
@@ -146,8 +146,6 @@ Ha közvetlenül az Office 365 felügyeleti központba jelentkezik be, a közpon
 Ha a következőhöz kapcsolódó problémák merülnek fel: Dynamics 365 csomag előfizetések, licencelés, Számlázás, pénzügyi & műveletek, Dynamics 365 termék-licencek, vagy további technikai támogatásra van szükség:
  
 Kapcsolatfelvétel a [Dynamics ügyfélszolgálatával](/dynamics365/customer-engagement/admin/contact-technical-support)
-
-[Microsoft Dynamics-támogatás](https://support.microsoft.com/help/4052881/faq-microsoft-dynamics-365-for-unified-operations-iur) olvasása
 
 ## <a name="next-steps"></a>Következő lépések
 

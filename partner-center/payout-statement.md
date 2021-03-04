@@ -7,12 +7,12 @@ ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 10/29/2020
-ms.openlocfilehash: f74dcdc240553cea2c9d226364a8bd6242acc200
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: 4a511dc026e3c71f05c5b18ca6d8915bd2654826
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492636"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756163"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
@@ -99,7 +99,7 @@ A becsült fizetési hónap jelenleg minden olyan típushoz elérhető, kivéve 
 
 A következő táblázat egy becsült fizetési hónapra vonatkozó példát mutat be.
 
-| Month (hónap) | Mennyiség |
+| Month (hónap) | Összeg |
 | ------ | :-----------: |
 |  Sep – 2020 |  $7 273,99   |
 |  Oct – 2020 | $8 692,30  |
@@ -129,7 +129,7 @@ Ha további részleteket szeretne megtekinteni egy adott feladatról, válassza 
 >- **lastPaymentCurrency**  Az a pénznem, amelyben a legutóbbi fizetés érkezett, az összes olyan MPNs, amelyhez a jelenleg bejelentkezett partner hozzáfér. Ha nem érkezik fizetés, az utolsó fizetési pénznem USA dollár lesz.
 >- **earningAmountInLastPaymentCurrency**  Az utolsó fizetési pénznemben szereplő jövedelemszerzési összeg.
 
-| Oszlop neve | Description | Ösztönző programok/piactérek alkalmazhatósága |
+| Oszlop neve | Leírás | Ösztönző programok/piactérek alkalmazhatósága |
 | --- | --- | --- |
 | agreementEndDate | Szerződés befejezési dátuma | Ösztönzők – csak néhány program |
 | agreementNumber | Szerződés száma | Ösztönzők – csak néhány program |
@@ -138,7 +138,7 @@ Ha további részleteket szeretne megtekinteni egy adott feladatról, válassza 
 | claimId | Jogcím egyedi azonosítója | Ösztönzők – csak néhány program |
 | customerCountry | Ügyfél országa/régiója | piacterek |
 | customerEmail |  |  |
-| Customername ( | Mindig üres lesz | Csak ösztönző programok (kivétel: OEM) és piactér |
+| Customername ( | Lehet üres | Csak ösztönző programok (kivétel: OEM) és piactér. A CSP-tranzakciók esetében a piactéren a CSP neve jelenik meg |
 | customerTenantId |  |  |
 | distributorId | Terjesztő azonosítója | Ösztönzők – csak néhány program |
 | distributorName | Terjesztő neve | Ösztönzők – csak néhány program |
@@ -259,18 +259,18 @@ A következő táblázat ismerteti a különböző jövedelemszerzési állapoto
 
 | Jövedelemszerzési állapot | Ok | Partneri beavatkozás szükséges? |
 | --- | --- | --- |
-| Feldolgozatlan | A kereset jogosult a fizetésre. Ebben az állapotban marad az ösztönző program program útmutatójában meghatározott hűtési időszakra vonatkozóan. | No |
-| Közelgő | A függőben lévő belső felülvizsgálatok által a fizetés feldolgozása előtt generált fizetési sorrend. | No |
+| Feldolgozatlan | A kereset jogosult a fizetésre. Ebben az állapotban marad az ösztönző program program útmutatójában meghatározott hűtési időszakra vonatkozóan. | Nem |
+| Közelgő | A függőben lévő belső felülvizsgálatok által a fizetés feldolgozása előtt generált fizetési sorrend. | Nem |
 | Függőben lévő adó számla | Az adó számla nem teljes vagy érvénytelen. | A fizetés előtt frissítenie kell az áfát |
 | Elutasította a felülvizsgálat során | A rendszer elutasította a fizetést a felülvizsgálat során. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
 | Sikertelen | A fizetés Microsoft rendszerhiba miatt nem sikerült. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Folyamatban | A fizetés folyamatban van. | No |
-| Helytelen fizetés | A fizetési Újracsatlakozás folyamatban van. | No |
-| Elküldött | A rendszer elküldje a fizetést a banknak. | No |
-| Újrafeldolgozás | A fizetés Microsoft rendszerhibát észlelt, és folyamatban van az újrafeldolgozása. | No |
-| Reversed | A fizetést a bank fordította, és a következő fizetési ciklusban ismét elküldi a rendszer. | No |
+| Folyamatban | A fizetés folyamatban van. | Nem |
+| Helytelen fizetés | A fizetési Újracsatlakozás folyamatban van. | Nem |
+| Elküldött | A rendszer elküldje a fizetést a banknak. | Nem |
+| Újrafeldolgozás | A fizetés Microsoft rendszerhibát észlelt, és folyamatban van az újrafeldolgozása. | Nem |
+| Reversed | A fizetést a bank fordította, és a következő fizetési ciklusban ismét elküldi a rendszer. | Nem |
 | Számlaösszeg elutasítva | Az adó számla elutasítása a felülvizsgálat során megtörtént. Az összes függőben lévő kifizetés addig tart, amíg az adó számla felülvizsgálata be nem fejeződik. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Adózási számla a felülvizsgálat alatt | Az adó számla felülvizsgálata folyamatban van. A kifizetését az adó-számla jóváhagyása után bocsátja ki a rendszer. | No |
+| Adózási számla a felülvizsgálat alatt | Az adó számla felülvizsgálata folyamatban van. A kifizetését az adó-számla jóváhagyása után bocsátja ki a rendszer. | Nem |
 | Elutasítva | A Bank elutasította a fizetést. | Részletekért forduljon a bankhoz. |
 |
 
@@ -278,7 +278,7 @@ A következő táblázat ismerteti a különböző jövedelemszerzési állapoto
 
  A következő táblázat a jelentés egyes oszlopait mutatja be. Ha további részleteket szeretne megtudni a kifizetésekről, válassza a **Letöltés** lehetőséget a fizetések lap tetején.
 
-| Oszlop neve | Description |
+| Oszlop neve | Leírás |
 | --- | --- |
 | participantID | A program keretében keresett partner elsődleges identitása |
 | participantIDType | Általában a program azonosítója az ösztönző programokhoz és az eladói AZONOSÍTÓhoz az áruházi programokhoz |
@@ -325,7 +325,7 @@ Az **adatexportálás** összegzése is hozzáférést biztosít a korábbi utas
 
 Az alábbi táblázat a korábbi utasítások egyes oszlopait mutatja be.
 
-| Mező neve | Description |
+| Mező neve | Leírás |
 | --- | --- |
 | Bevétel forrása | A bevétel forrása, amely alapján a tranzakció bekövetkezett, például Microsoft Store, Windows Phone-telefon áruház, Windows áruház 8 vagy reklám |
 | Rendelésazonosító | Egyedi megrendelési azonosító. Ez az azonosító lehetővé teszi a vásárlási tranzakciók azonosítását a megfelelő nem vásárlási tranzakciókkal, például a visszatérítéssel vagy a jóváírásokkal kapcsolatban. Mindkettő ugyanazzal a megrendelési AZONOSÍTÓval fog rendelkezni. Továbbá, ha van olyan felosztott díj, amelyben több fizetési módszert használtak egyetlen vásárláshoz, akkor a vásárlási tranzakciók összekapcsolhatók. |

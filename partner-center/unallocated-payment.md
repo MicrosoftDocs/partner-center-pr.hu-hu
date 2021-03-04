@@ -1,5 +1,5 @@
 ---
-title: Nem lefoglalt kifizetések kezelése
+title: Nem lefoglalt fizetések kezelése
 ms.topic: how-to
 ms.date: 06/08/2020
 ms.service: partner-dashboard
@@ -9,18 +9,19 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bddf0482e20817f9087a3610104652dabdef72c4
-ms.sourcegitcommit: 37b0b2a7141907c8d21839de3128fb8a98575886
+ms.openlocfilehash: d3920cbdc52a844477aacac9c7ac2122c14edeba
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "92528139"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101755812"
 ---
 # <a name="manage-unallocated-payments-on-your-partner-center-billing-page"></a>A nem lefoglalt kifizetések kezelése a partner Center számlázási oldalán
 
-**A következőkre vonatkozik**
+**Megfelelő szerepkörök**
 
-- Partnerközpont
+- Számlázási adminisztrátor
+- Fiókadminisztrátor
 
 Időnként előfordulhat, hogy a számlázási oldalon nem lefoglalt fizetés szerepel. A nem lefoglalt fizetések olyan fizetések, amelyeket a Microsoft nem adott számlára alkalmazott.
 
@@ -35,3 +36,7 @@ Időnként előfordulhat, hogy a számlázási oldalon nem lefoglalt fizetés sz
 Ha alkalmazni szeretné ezt az összeget egy adott számlára, e-mail-címre, bposcapp@microsoft.com és mondja el, hogy melyik számlán kell alkalmazni a fizetést. Ügyeljen arra, hogy az összes olyan információt tartalmazza, amelyet Ön kifizetett volna. A számlázási oldal 5-6 nap múlva frissülni fog. 
 
 A nem lefoglalt kifizetések mindaddig nem lesznek lefoglalva, amíg hozzá nem rendeli őket egy számlához. 
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Kereskedelmi piactér-termékek és-előfizetések számlázása a partner Centerben](csp-commercial-marketplace-billing.md)

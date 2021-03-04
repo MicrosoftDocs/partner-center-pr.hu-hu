@@ -8,12 +8,12 @@ ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: 490cb13b99b15f9c88fdab4d7bca79d1ab018eca
-ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
+ms.openlocfilehash: 5ce5dadfc7fbb22ffc206e2dd48cccc0b274c499
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99042684"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101757390"
 ---
 # <a name="how-to-pay-the-fee-associated-with-a-silver-or-gold-competency"></a>Silver vagy Gold kompetenciával kapcsolatos díj megfizetése
 
@@ -37,7 +37,7 @@ Ellenkező esetben kövesse az alábbi lépéseket egy Silver vagy Gold kompeten
 
 - Már teljesítette a [követelményeket](https://partner.microsoft.com/membership/competencies) egy adott ezüst-vagy arany-kompetencia eléréséhez.
 
-- Hozzárendelte a [globális rendszergazda vagy az MPN-partner rendszergazdája](https://docs.microsoft.com/partner-center/permissions-overview)partneri központjának szerepkörét. Ha Ön nem rendelkezik ilyen szerepkörökkel, a rendszer megtagadja a hozzáférést az alább ismertetett partner Center-lapokhoz. Ha ez történik, [forduljon a globális rendszergazdához](https://docs.microsoft.com/partner-center/find-your-role) , és kérje meg, hogy rendelje hozzá a megfelelő szerepkört. 
+- Hozzárendelte a [globális rendszergazda vagy az MPN-partner rendszergazdája](./permissions-overview.md)partneri központjának szerepkörét. Ha Ön nem rendelkezik ilyen szerepkörökkel, a rendszer megtagadja a hozzáférést az alább ismertetett partner Center-lapokhoz. Ha ez történik, [forduljon a globális rendszergazdához](./find-your-role.md) , és kérje meg, hogy rendelje hozzá a megfelelő szerepkört. 
 
 1. A szervezet munkahelyi fiókjának hitelesítő adataival jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
@@ -54,7 +54,7 @@ Ellenkező esetben kövesse az alábbi lépéseket egy Silver vagy Gold kompeten
 
 4. A **vásárlás részletei** lapon tekintse át és erősítse meg a részleteket.
 
-   (További információ a [céges adó- **azonosító** információk](https://docs.microsoft.com/partner-center/organization-tax-info) vagy a vállalata és a vállalata által a cég [ **számára eladott számla**](https://docs.microsoft.com/partner-center/mpn-get-action-pack)frissítéséről.)
+   (További információ a [céges adó- **azonosító** információk](./organization-tax-info.md) vagy a vállalata és a vállalata által a cég [ **számára eladott számla**](./mpn-get-action-pack.md)frissítéséről.)
 
    :::image type="content" source="images/offers/2-mpn-competency-payment-preference.png" alt-text="A tagság a fizetési beállításokkal rendelkező vásárlási részletek lapot kínálja." border="false":::
 

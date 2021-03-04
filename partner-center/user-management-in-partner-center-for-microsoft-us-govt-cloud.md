@@ -10,27 +10,22 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5f81022c3ea32eefc0e1f85bea1b1830603620e7
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: e3cf34aa52bd1d0359736dbcf6cc5ed9029f6d9e
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529940"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756762"
 ---
 # <a name="user-and-license-management-in-partner-center-for-microsoft-cloud-for-us-government"></a>Felhasználói és licencelési felügyelet a partner Centerben a Microsoft Cloud az USA kormányzati szervei számára
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
-A következő feladatok kezelhetők a Microsoft Azure felügyeleti portálon a Microsoft Cloud az USA kormányzati szervei számára:
+**Megfelelő szerepkörök**
 
-- Partner-felhasználók kezelése
-
-- Felhasználói és licencelési felügyelet
-
-- A felhasználók jelszavainak alaphelyzetbe állítása
-
+- Globális rendszergazda
 
 ## <a name="how-to-manage-users-in-the-azure-portal-for-microsoft-cloud-for-us-government"></a>Felhasználók kezelése a Azure Portalban Microsoft Cloud az USA kormányzati szervei számára
 
@@ -49,6 +44,6 @@ Miután sikeresen bejelentkezett Microsoft Cloud az Egyesült Államok kormányz
 
 **Kapcsolódó témakörök**
 
--  [**Az USA kormányzati szerveinek Microsoft Cloud a partneri központ**](partner-center-for-microsoft-us-govt-cloud.md)
+-  [**A Microsoft Cloud for US Government Partnerközpontja**](partner-center-for-microsoft-us-govt-cloud.md)
 
 -  [**Regisztráljon a Cloud Solution Provider programba az Egyesült Államok kormányzati szerveinek Microsoft Cloud**](enroll-in-csp-for-microsoft-us-govt-cloud.md)

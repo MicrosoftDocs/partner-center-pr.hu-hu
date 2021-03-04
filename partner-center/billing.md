@@ -9,12 +9,12 @@ ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
 ms.date: 04/05/2020
-ms.openlocfilehash: 6bb915681d65213c1180bab1f44f49372cb72697
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 27bdb4aab3c8092b1ffc458e4da29250e2dbf23e
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570637"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756725"
 ---
 # <a name="overview-main-billing-and-tax-articles-in-partner-center"></a>Áttekintés: fő számlázási és adózási cikkek a partner Centerben
 
@@ -25,10 +25,10 @@ ms.locfileid: "96570637"
 - Globális rendszergazda
 - Értékesítési ügynök
 
-Ez a artilce a fiókpartner számlázási és adózási témaköreire mutató hivatkozásokat tartalmaz, beleértve a számlázási erőforrásokat, a számlákat, a CSP számlázási adatait és az adókat.
+Ez a cikk a partner Center számlázási és adózási témaköreivel kapcsolatos információkra mutató hivatkozásokat tartalmaz, beleértve a számlázási erőforrásokat, a számlákat, a CSP számlázását és az adókat.
 
 
-| Témakör | Description |
+| Témakör | Leírás |
 | ----- | ----------- |
 | [A számlázás alapjai](billing-basics.md) | A partner Center-számlázás alapjai (beleértve a kifizetéseket, a számlákat és a megbékélési fájlokat). |
 | [Számlázási típusok](billing-different-types.md) | A partner Center különböző számlázási típusait ismerteti. |
@@ -43,6 +43,6 @@ Ez a artilce a fiókpartner számlázási és adózási témaköreire mutató hi
 
 Ha a partner Center API számlázási információit és erőforrásait keresi, tekintse meg a [fejlesztői számlázási dokumentációját](/partner-center/develop/manage-billing).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Fizetés fogadása a kereskedelmi piactéren](marketplace-get-paid.md)

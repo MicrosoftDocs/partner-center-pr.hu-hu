@@ -9,18 +9,14 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: eff687f59e433e3465048173e3f74821280bde41
-ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
+ms.openlocfilehash: c66a0d4ed7aa798321c42de34d879dc63de6a16b
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96556412"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101755831"
 ---
 # <a name="upgrade-some-education-customers-from-windows-10-home-to-windows-10-education"></a>Néhány oktatási ügyfél frissítése a Windows 10 Home rendszerről a Windows 10-es oktatásba
-
-**A következőre érvényes:**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 

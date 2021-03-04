@@ -6,19 +6,19 @@ author: mingshen-ms
 ms.author: mingshen
 ms.localizationpriority: medium
 ms.date: 12/04/2020
-ms.openlocfilehash: 2f46213cb72717c36461f58c159fa6a5803e3bb2
-ms.sourcegitcommit: 54c19f62474a4841d0bbd6a02a84b9c597f70fae
+ms.openlocfilehash: 6ed9f7b9bbe33e209a2e482ab4f3035decb46245
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96755639"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101755738"
 ---
 # <a name="value-added-tax-vat-information"></a>Hozzáadottérték-adó (ÁFA) adatai
 
-**Hatóköre:**
+**Megfelelő szerepkörök**
 
-- Partnerközpont
-- Kereskedelmi piactér
+- Fiókadminisztrátor
+
 
 Ha a partneri központ regisztrációs folyamata során meg kell adnia egy ÁFA-azonosítót, itt talál néhány információt a kezdéshez.
 
@@ -78,6 +78,7 @@ Vegye figyelembe, hogy a Microsoft nem nyújt adózási tanácsokat, és az alá
 |Spanyolország |– ÁFA-szám formátuma: 9 számjegy<br/>-Ország/régió kódja: ES<br/>– Példa: X12345678, 12345678X vagy X1234567X<br/>-Megjegyzések: 1 vagy 2 betűt tartalmaz: első, utolsó, vagy első és utolsó. |
 |Svédország |– ÁFA-szám formátuma: 12 számjegy<br/>-Ország/régió kódja: SE<br/>– Példa: 123456789001<br/>-Megjegyzések: az utolsó két karakternek "01" értékűnek kell lennie. |
 |Egyesült Királyság |– ÁFA-szám formátuma: 9 vagy 12 számjegy<br/>-Ország/régió kódja: GB<br/>– Példa: 123456789 vagy 123456789001<br/>-Megjegyzések: 9 számjegy általában, de 12 számjegy, ha a szám egy csoporton belüli alvállalatot képvisel. |
-## <a name="next-steps"></a>További lépések
+
+## <a name="next-steps"></a>Következő lépések
 
 - [A céges adó adatai, valamint a fiókpartner-vásárlások ÁFA-azonosítóinak hozzáadása vagy elküldése](organization-tax-info.md)

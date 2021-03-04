@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 01/28/2021
-ms.openlocfilehash: f6179e76e9bcb05f75551056fa7a9e81f6d74d12
-ms.sourcegitcommit: 0416562dd89408524f8312a8acd5b6944b6d91c4
+ms.openlocfilehash: d07555d3559b2f8dbbb15f9cfe90753e50db0c04
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "100541016"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756281"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -86,7 +86,7 @@ Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a 
 - 2021. január 7.: további forgatókönyv az 1. és 2. fázisban
 - 2021. január 28.: 
     -    Az 1. fázis bejelentése élő 
-    -    Annak pontosítása, hogy az Egyesült Királyság nem szerepel az EU/EFTA-ban, a [Microsoft európai régiójában és piacán](https://docs.microsoft.com/partner-center/regional-authorization-overview) is részt vesznek, és az érintettek lesznek
+    -    Annak pontosítása, hogy az Egyesült Királyság nem szerepel az EU/EFTA-ban, a [Microsoft európai régiójában és piacán](../regional-authorization-overview.md) is részt vesznek, és az érintettek lesznek
 
 
 ________________
@@ -170,13 +170,13 @@ Az összes közvetett viszonteladó & a közvetett szolgáltatók a Cloud Soluti
 
 ### <a name="details"></a>Részletek
 
-A közvetett viszonteladók számára a Microsoft partneri szerződés (MPA) megvalósítása jelenleg folyamatban van. A szolgáltatók és a viszonteladók további támogatásához meghallottuk visszajelzését, és már összevontuk a gyakori lekérdezéseket arról, hogyan fogadja el a MPA-t egy új, [Gyakori kérdések oldalára](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq).
+A közvetett viszonteladók számára a Microsoft partneri szerződés (MPA) megvalósítása jelenleg folyamatban van. A szolgáltatók és a viszonteladók további támogatásához meghallottuk visszajelzését, és már összevontuk a gyakori lekérdezéseket arról, hogyan fogadja el a MPA-t egy új, [Gyakori kérdések oldalára](../mpa-indirect-provider-faq.md).
 
 ### <a name="next-steps"></a>Következő lépések
 
-**Közvetett viszonteladók:** Ha nem fogadta el a MPA-t, tekintse át az [MPa gyakori kérdések](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) című témakört, és kövesse az [itt](https://docs.microsoft.com/partner-center/microsoft-partner-agreement) elérhető lépésenkénti útmutatót az MPa elfogadásához.
+**Közvetett viszonteladók:** Ha nem fogadta el a MPA-t, tekintse át az [MPa gyakori kérdések](../mpa-indirect-provider-faq.md) című témakört, és kövesse az [itt](../microsoft-partner-agreement.md) elérhető lépésenkénti útmutatót az MPa elfogadásához.
 
-**Közvetett szolgáltatók:** Folytassa a közvetett viszonteladókkal, és támogassa azokat a [MPa gyakori kérdések](https://docs.microsoft.com/partner-center/mpa-indirect-provider-faq) és az [itt](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)elérhető lépésenkénti útmutató segítségével.
+**Közvetett szolgáltatók:** Folytassa a közvetett viszonteladókkal, és támogassa azokat a [MPa gyakori kérdések](../mpa-indirect-provider-faq.md) és az [itt](../microsoft-partner-agreement.md)elérhető lépésenkénti útmutató segítségével.
 
 ### <a name="questions"></a>Kérdése van?
 
@@ -207,8 +207,8 @@ Az új műveleti típusok alább láthatók:
 ### <a name="next-steps"></a>Következő lépések
 
 - Az új műveleti típusok használatával nyomon követheti az eseményeket, amikor az ügyfél jóváhagyta a DAP-t, és leállította az ügyfelet.  
-- [A partner Center-tevékenység – a partner Center-alkalmazás fejlesztője által feljegyezhető rekord beszerzése | Microsoft Docs](https://docs.microsoft.com/partner-center/develop/get-a-record-of-partner-center-activity-by-user)
-- [Naplózási erőforrások – a partner Center alkalmazás fejlesztője | Microsoft Docs](https://docs.microsoft.com/partner-center/develop/auditing-resources)
+- [A partner Center-tevékenység – a partner Center-alkalmazás fejlesztője által feljegyezhető rekord beszerzése | Microsoft Docs](/partner-center/develop/get-a-record-of-partner-center-activity-by-user)
+- [Naplózási erőforrások – a partner Center alkalmazás fejlesztője | Microsoft Docs](/partner-center/develop/auditing-resources)
 
 ### <a name="questions"></a>Kérdése van?
 
@@ -287,9 +287,9 @@ A partnereknek javasoljuk, hogy ismerkedjenek meg a következő erőforrásokkal
 #### <a name="partner-earned-credit-pec"></a>Partner által létrehozott kredit (PEC)
 
 - [A partner által létrehozott kreditek ismertetése (útmutató) (Microsoft. com)](https://partner.microsoft.com/resources/detail/understanding-partner-earned-credit-pdf)
-- [Partner által létrehozott kredit – áttekintés – partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/partner-earned-credit?branch=main )
-- [Partner által létrehozott kredit a felügyelt szolgáltatásokhoz – partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/partner-earned-credit-explanation?branch=main)
-- [Szerepkörök, partnerek által létrehozott Credit-partner Center | Microsoft Docs](https://docs.microsoft.com/partner-center/azure-roles-perms-pec)
+- [Partner által létrehozott kredit – áttekintés – partner Center | Microsoft Docs](../partner-earned-credit.md?branch=main)
+- [Partner által létrehozott kredit a felügyelt szolgáltatásokhoz – partner Center | Microsoft Docs](../partner-earned-credit-explanation.md?branch=main)
+- [Szerepkörök, partnerek által létrehozott Credit-partner Center | Microsoft Docs](../azure-roles-perms-pec.md)
 - [Igény szerinti betanítási modul a partner által szerzett kreditekhez az Azure-ban a CSP-modulokban (eventbuilder.com)](https://commercial_licensing.eventbuilder.com/NewcommerceinCSPforAzuretrainingmodules)
 
 #### <a name="the-new-commerce-experience"></a>Az új kereskedelmi élmény
@@ -321,7 +321,7 @@ Azt is vegye figyelembe, hogy napjainkban a partner Center szoftver-és licencku
 ### <a name="next-steps"></a>Következő lépések
 
 - Töltse le a **CSP Perpetual Software** árlista szakaszt a partner Center [díjszabási & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldal **szoftver** szakaszában. [Itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf)megtalálja az újonnan hozzáadott termékek és földrajzi területek listáját.
-- Tekintse át a [Microsoft 365 felügyeleti központ örökös szoftver-és termékkulcs-kulcsait](https://go.microsoft.com/fwlink/p/?linkid=2152525) , és ossza meg az ügyfelekkel, amikor készen állnak a szoftverek és a licencek kulcsai letöltésére.
+- Tekintse át a [Microsoft 365 felügyeleti központ örökös szoftver-és termékkulcs-kulcsait](/microsoft-365/admin/setup/download-software-licenses-csp) , és ossza meg az ügyfelekkel, amikor készen állnak a szoftverek és a licencek kulcsai letöltésére.
 - Tekintse át az [örökös szoftvereket a Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/software-in-csp#/) készenléti anyagaiban. Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
 
 ### <a name="questions"></a>Kérdése van?

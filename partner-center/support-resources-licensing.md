@@ -1,25 +1,22 @@
 ---
 title: Microsoft licencelési erőforrások
 ms.topic: article
-ms.date: 08/25/2020
+ms.date: 02/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Microsoft-partnerként előfordulhat, hogy különböző Microsoft licencelési programok használatával kapcsolatban kérdése van. Ez a cikk segítséget nyújt az olyan erőforrásokhoz, amelyek segíthetnek.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
-ms.openlocfilehash: 70b9381cf67a54f2e8c7e1c7764610c91fca1b1b
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: a00ae527b1ac89e14f33960517ec20f8a5bec624
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528519"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756815"
 ---
 # <a name="guide-to-licensing-resources-for-microsoft-partners"></a>Erőforrás-licencelési útmutató Microsoft-partnerek számára 
 
-**A következőkre vonatkozik**
-
-- Microsoft MPN-partnerek, CSP-partnerek és egyebek
 
 Ez a cikk olyan erőforrásokat oszt meg, amelyek segíthetnek a partnerek licencelésével kapcsolatos kérdések megválaszolásában.
 
@@ -32,7 +29,7 @@ Ha kérdése van a programok működésével kapcsolatban, akkor ezek az erőfor
 > [!NOTE]
 > Ha segítségre van szüksége részletesebb licencelési kérdésekben vagy egy ügyfél-árajánlatban, kezdje a licencelési program hozzárendelt közvetett szolgáltatójának (a CSP program) vagy a program terjesztője számára. Ezek gyakran az Ön legjobb, kezdeti kapcsolattartási pontjai konkrét licencekkel kapcsolatos kérdésekre, vagy az ügyfél-árajánlatok, az SKU-vásárlások vagy az előfeltételek létrehozásával kapcsolatos kérdésekben. Ha nem rendelkezik a szerepkört kiszolgáló partnerrel, tekintse meg az egyik [partnert](find-a-partner.md) a kereséshez.
 >
-> Lehetősége van arra is, hogy felhasználja a Microsoft-kapcsolattartókat a licencelési szakértők belső csapatának kihasználására. Ha nem rendelkezik konkrét Microsoft-partnerekkel, lépjen a [partner-támogatás](https://partner.microsoft.com/support/v2/?stage=1) elemre, és írja be a **licencet** a támogatási oldal **problémák** mezőjébe. Itt megismerheti az Ön számára elérhető egyéb licencelési támogatási forrásokat. Ha továbbra is segítségre van szüksége, egy támogatási jegyet is bejelentkezhet, amely segít a konkrét licencekkel kapcsolatos kérdések megválaszolásában, vagy segít megtalálni a megfelelő termék SKU-t.
+> Lehetősége van arra is, hogy felhasználja a Microsoft-kapcsolattartókat a licencelési szakértők belső csapatának kihasználására. Ha nem rendelkezik konkrét Microsoft-partnerekkel, lépjen a [partner-támogatás](https://partner.microsoft.com/support/v2/?stage=1) elemre, és írja be a **licencet** a támogatási oldal **problémák** mezőjébe. 
 
 ## <a name="general-resources-about-licensing-and-license-training"></a>A licenceléssel és a licenccel kapcsolatos képzés általános erőforrásai
 
@@ -43,7 +40,7 @@ Az alábbi forrásokból többet is megtudhat az adott licencelési programokró
 
 |Cél  | Olvassa el ezt  |
 |:------------------|:--------------- |
-|A CSP program licencének összehasonlítása más licencelési modellekkel *(magas szintű áttekintés)* | Nyissa meg a [CSP-regisztráció lapot](https://partner.microsoft.com/licensing/). Görgessen lefelé, amíg meg nem jelenik a szakasz, a *CSP összehasonlítása más licencelési modellekkel* .  |
+|A CSP program licencének összehasonlítása más licencelési modellekkel *(magas szintű áttekintés)* | Nyissa meg a [CSP-regisztráció lapot](https://partner.microsoft.com/licensing/). Görgessen lefelé, amíg meg nem jelenik a szakasz, a *CSP összehasonlítása más licencelési modellekkel*.  |
 |A Microsoft Cloud Services és a helyszíni szoftverek különböző partneri licencszerződésének összehasonlítása *(Részletes nézet)*  | [Microsoft licencelési szerződések](https://partner.microsoft.com/licensing/licensing-agreements)  |
 |További információ a mennyiségi licencelésről (VL) és az egyes megoldások licenceléséről  | [Microsoft licencelés – termékek és megoldások](https://www.microsoft.com/licensing/default) |
 |További információ a mennyiségi licenceléssel kapcsolatos képzésekről és erőforrásokról, amelyek segítséget nyújtanak a VL díjszabásához, az árajánlatokhoz, a szerződésekhez, a termékaktiválás és egyéb eszközökhöz  | [Microsoft Partner Network képzés és erőforrások](https://partner.microsoft.com/licensing/training-and-resources) |

@@ -1,28 +1,27 @@
 ---
-title: Privát Azure Marketplace létrehozása és kezelése Azure Portal
+title: Privát Azure Marketplace létrehozása és kezelése a Azure Portal
 description: Ismerje meg, hogyan hozhat létre és kezelhet privát Azure Marketplace-t (előzetes verzió) a Azure Portal. A privát Azure Marketplace (előzetes verzió) lehetővé teszi, hogy a rendszergazdák szabályozzák, hogy a felhasználók mely harmadik féltől származó megoldásokat használhatják.
 ms.prod: marketplace-customer
 ms.topic: how-to
 author: msjogarrig
 ms.author: jogarrig
-ms.date: 12/22/2020
-ms.openlocfilehash: 09f7bcb29dc619e4e31c0aa3d5c73fade5218819
-ms.sourcegitcommit: 30d154cdf40aa75400be7805cd9b2685b66a1382
+ms.date: 02/24/2021
+ms.openlocfilehash: 73b9137728fba93704d9b0cb2bc93a3f6498bd90
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "97760832"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101757069"
 ---
-# <a name="create-and-manage-private-azure-marketplace-preview-in-the-azure-portal"></a>Privát Azure Marketplace létrehozása és kezelése (előzetes verzió) a Azure Portal
+# <a name="create-and-manage-private-azure-marketplace-in-the-azure-portal"></a>Privát Azure Marketplace létrehozása és kezelése a Azure Portal
 
-A privát Azure Marketplace (előzetes verzió) lehetővé teszi, hogy a rendszergazdák szabályozzák, hogy a felhasználók mely harmadik féltől származó megoldásokat használhatják. Ezzel lehetővé teszi, hogy csak az Ön által jóváhagyott és a vállalati szabályzatoknak megfelelő ajánlatokat telepítse. A privát Azure piactéren a felhasználók az online áruházban kereshetik meg a megfelelő ajánlatokat a vásárláshoz és az üzembe helyezéshez. 
+A privát Azure piactér lehetővé teszi, hogy a rendszergazdák szabályozzák, hogy a felhasználók mely harmadik féltől származó megoldásokat használhatják. Ez a beállítás lehetővé teszi, hogy a felhasználó csak a rendszergazda által jóváhagyott ajánlatokat telepítsen, és megfeleljen a vállalat szabályzatának. A privát Azure piactéren a felhasználók megkereshetik és üzembe helyezhetik a megfelelő ajánlatokat az online áruházban.
 
-Piactéri rendszergazdaként (hozzárendelt szerepkör) egy letiltott és üres privát tárolóval kell kezdenie, ahol a jóváhagyott ajánlatokat és csomagokat is felveheti. Ez a cikk bemutatja, hogyan hozhat létre, kezelhet és engedélyezhet privát Azure Marketplace-t a felhasználók számára.
+Piactéri rendszergazdaként (hozzárendelt szerepkör) egy letiltott és üres privát tárolóval kell kezdenie, ahol a jóváhagyott ajánlatokat és csomagokat is felveheti. Ez a cikk a szükséges szerepkör hozzárendelését, a privát tárolók létrehozását, az elemek kezelését, a felhasználói kérések jóváhagyását és a saját Azure Marketplace engedélyezését mutatja be a felhasználók számára.
 
-Megjegyzések:
-
-- A privát Azure piactér bérlői szinten található, így a bérlő összes felhasználója ugyanazokat a kurátori listát fogja látni.
-- Az összes Microsoft-megoldás automatikusan hozzáadódik a privát Azure Marketplace-hez.
+> [!NOTE]
+> - A privát Azure piactér bérlői szinten található, így a bérlő összes felhasználója ugyanazokat a kurátori listát fogja látni.
+> - Az összes Microsoft-megoldás (beleértve a [támogatott Linux-disztribúciókat](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)is) automatikusan hozzá lesz adva a privát Azure Marketplace-hez.
 
 ## <a name="assign-the-marketplace-admin-role"></a>A piactér rendszergazdai szerepkörének kiosztása
 
@@ -33,28 +32,28 @@ A bérlői globális rendszergazdának hozzá kell rendelnie a **piactér rendsz
 
 ### <a name="prerequisites"></a>Előfeltételek
 
-Ezeket az előfeltételeket csak akkor kell teljesítenie, ha a piactér rendszergazdai szerepkört a bérlői hatókörben lévő felhasználóhoz rendeli hozzá:
+Ezek az előfeltételek akkor szükségesek, ha a piactér rendszergazdai szerepkört a bérlői hatókörben lévő felhasználóhoz rendeli hozzá:
 
 - **Globális rendszergazda** felhasználóhoz férhet hozzá.
 - A bérlőnek legalább egy előfizetése van (bármilyen típus lehet).
 - A kiválasztott előfizetéshez a globális rendszergazda felhasználó hozzá van rendelve a **közreműködő** szerepkörhöz vagy magasabbhoz.
 
-### <a name="assign-the-marketplace-admin-role-with-iam"></a>A piactér rendszergazdai szerepkörének kiosztása IAM-val
+### <a name="assign-the-marketplace-admin-role-with-access-control-iam"></a>A piactér rendszergazdai szerepkörének kiosztása hozzáférés-vezérléssel (IAM)
 
 1. Jelentkezzen be az [Azure Portalra](https://portal.azure.com/).
 1. Válassza **a minden szolgáltatás** , majd a **piactér** lehetőséget.
+1. Válassza a **privát piactér** lehetőséget a bal oldali menüben.
 
-   :::image type="content" source="media/private-azure/azure-portal-marketplace.png" alt-text="Azure Portal fő ablak.":::
+    [![Megjeleníti a piactér bal oldalán található privát piactér menüpontot.](media/private-azure/private-marketplace.png)](media/private-azure/private-marketplace-zoom.png#lightbox)
 
-3. Válassza a **privát piactér** lehetőséget a bal oldalon található beállítások közül.
 1. A piactér rendszergazdai szerepkörének hozzárendeléséhez válassza a **hozzáférés-vezérlés (iam)** lehetőséget.
 
-    :::image type="content" source="media/private-azure/access-control-iam.png" alt-text="IAM hozzáférés-vezérlési képernyő.":::
+    :::image type="content" source="media/private-azure/access-control-iam.png" alt-text="Megjeleníti az I M hozzáférés-vezérlési képernyőt.":::
 
 1. Válassza a **+ Hozzáadás** > **Szerepkör-hozzárendelés hozzáadása** lehetőséget.
 1. A **szerepkör** területen válassza a **piactér rendszergazdája** elemet.
 
-    :::image type="content" source="media/private-azure/iam-role-assignment.png" alt-text="Szerepkör-hozzárendelés menü.":::
+    :::image type="content" source="media/private-azure/iam-role-assignment.png" alt-text="A szerepkör-hozzárendelés menüt jeleníti meg.":::
 
 1. Válassza ki a kívánt felhasználót a legördülő listából, majd válassza a **kész** lehetőséget.
 
@@ -157,52 +156,50 @@ Az az. Portal PowerShell-modulban található parancsmagokkal kapcsolatos továb
 1. Jelentkezzen be az [Azure Portalra](https://portal.azure.com/).
 2. Válassza **a minden szolgáltatás** , majd a **piactér** lehetőséget.
 
-   :::image type="content" source="media/private-azure/azure-portal-marketplace.png" alt-text="Azure Portal fő ablak.":::
+   :::image type="content" source="media/private-azure/azure-portal-marketplace.png" alt-text="Megjeleníti a Azure Portal fő ablakát.":::
 
-3. Válassza a **privát piactér** lehetőséget a bal oldalon található beállítások közül.
-
-    :::image type="content" source="media/private-azure/private-marketplace.png" alt-text="Válassza ki a privát piactér elemet a Azure Portal főablakon.":::
+3. Válassza a **privát piactér** lehetőséget a bal oldali menüben.
 
 4. Válassza az első **lépések** lehetőséget a privát Azure Marketplace létrehozásához (ezt csak egyszer kell megtennie).
 
-    :::image type="content" source="media/private-azure/private-marketplace-get-started.png" alt-text="Válassza az első lépések lehetőséget a Azure Portal főablakban.":::
+    :::image type="content" source="media/private-azure/private-marketplace-get-started.png" alt-text="Bemutatja, hogyan választható ki az &quot;első lépések a Azure Portal&quot; főablakban.":::
 
     Ha a bérlőhöz már létezik privát Azure Marketplace, akkor a **piactér kezelése** alapértelmezés szerint ki lesz választva.
 
 5. Ha elkészült, üres és letiltott privát Azure Marketplace-t fog tartalmazni.
 
-    :::image type="content" source="media/private-azure/new-private-marketplace.png" alt-text="Az üres privát Azure Marketplace-képernyő.":::
+    :::image type="content" source="media/private-azure/new-private-marketplace.png" alt-text="Megjeleníti az üres privát Azure Marketplace-képernyőt.":::
 
 ## <a name="add-items-from-gallery"></a>Elemek hozzáadása a gyűjteményből
 
-Az elemek egy ajánlat és egy csomag kombinációja. A piactér kezelése oldalon megkeresheti és hozzáadhatja az elemeket.
+Az elemek egy ajánlat és egy csomag kombinációja. A piactér kezelése oldalon kereshet és hozzáadhat elemeket.
 
 1. Válassza az **elemek hozzáadása** elemet.
 
 2. Tallózással keresse **meg a katalógust, vagy a** Keresés mező használatával keresse meg a kívánt elemeket.
 
-    :::image type="content" source="media/private-azure/marketplace-gallery.png" alt-text="Tallózással keresse meg a katalógust, vagy használja a keresőmezőt.":::
+    [![Bemutatja, hogyan böngészhet a katalógusban, vagy hogyan használhatja a keresési mezőt.](media/private-azure/marketplace-gallery.png)](media/private-azure/marketplace-gallery-zoom.png#lightbox)
 
-3. Alapértelmezés szerint az új ajánlat hozzáadásakor az összes aktuális csomag hozzá lesz adva az engedélyezett listához. Ha módosítani szeretné a csomag kijelölését a kijelölt elemek hozzáadása előtt, válassza a legördülő menüt az ajánlat csempén, és frissítse a szükséges terveket.
+3. Alapértelmezés szerint új ajánlat hozzáadásakor a rendszer az összes aktuális csomagot hozzáadja a jóváhagyott listához. Ha módosítani szeretné a csomag kijelölését a kijelölt elemek hozzáadása előtt, válassza a legördülő menüt az ajánlat csempén, és frissítse a szükséges terveket.
 
-    :::image type="content" source="media/private-azure/update-plans-400.png" alt-text="A kötelező csomagok frissítése.":::
+    :::image type="content" source="media/private-azure/update-plans-400.png" alt-text="Bemutatja a szükséges csomagok frissítésének módját.":::
 
 4. Kattintson a **kész** gombra a bal alsó sarokban, miután elvégezte a beállításokat.
 
 >[!Note]
-> Az **elemek hozzáadása** a piactérhez csak a nem Microsoft-ajánlatok számára érhető el. A Microsoft-ajánlatok alapértelmezés szerint engedélyezve vannak.
+> Az **elemek hozzáadása** a piactérhez csak a nem Microsoft-ajánlatok számára érhető el. A Microsoft-megoldások (beleértve a [támogatott Linux-disztribúciókat](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)) "alapértelmezés szerint jóváhagyva" néven lesznek megjelölve, és nem kezelhetők a privát piactéren.
 
-## <a name="edit-item-plans"></a>Elemszintű csomagok szerkesztése
+## <a name="edit-items-plans"></a>Az elemek csomagjainak szerkesztése
 
-A piactér kezelése oldalon szerkesztheti az elemek terveit.
+A piactér kezelése lapon szerkesztheti az elemek terveit.
 
 1. A **csomagok** oszlopban tekintse át az elérhető csomagokat az adott elem legördülő menüjéből.
 2. Jelölje be a jelölőnégyzeteket, vagy törölje a jelölést a felhasználók számára elérhetővé tenni kívánt csomagok kiválasztásához.
 
-    :::image type="content" source="media/private-azure/edit-items.png" alt-text="A kötelező elemet tartalmazó jelölőnégyzet bejelölése vagy törlése.":::
+    :::image type="content" source="media/private-azure/edit-items.png" alt-text="Azt mutatja be, hogyan lehet kijelölni vagy törölni a kötelező elemhez tartozó jelölőnégyzetet.":::
 
 > [!NOTE]
-> Minden ajánlatnak legalább egy tervet ki kell választania, hogy a frissítés megtörténjen. Az ajánlattal kapcsolatos összes csomag eltávolításához törölje a teljes ajánlatot (lásd a következő szakaszt).
+> Minden ajánlatnak legalább egy, a frissítéshez kiválasztott csomagra van szüksége. Az ajánlattal kapcsolatos összes csomag eltávolításához törölje a teljes ajánlatot (lásd a következő szakaszt).
 
 ## <a name="delete-offers"></a>Ajánlatok törlése
 
@@ -212,42 +209,134 @@ A piactér kezelése lapon jelölje be az ajánlat neve melletti jelölőnégyze
 
 A piactér kezelése oldalon láthatja az alábbi szalagcímeket, amelyek a privát Azure Marketplace aktuális állapotát mutatják be:
 
-:::image type="content" source="media/private-azure/state-disable.png" alt-text="Állapot szalagcímének letiltása":::
+:::image type="content" source="media/private-azure/state-disable.png" alt-text="Az állapot letiltásának szalagcímét jeleníti meg.":::
 
-:::image type="content" source="media/private-azure/state-enable.png" alt-text="Állapot szalagcímének engedélyezése":::
+:::image type="content" source="media/private-azure/state-enable.png" alt-text="Az &quot;állapot engedélyezése&quot; szalagcímet jeleníti meg.":::
 
 Igény szerint engedélyezheti vagy letilthatja a privát Azure Marketplace-t.
 
 - Ha le van tiltva, válassza a **saját piactér** engedélyezése lehetőséget.
 - Ha engedélyezve van, a letiltáshoz válassza a **privát piactér letiltása** lehetőséget.
 
+## <a name="private-azure-marketplace-notification-center"></a>Privát Azure Marketplace-értesítési központ
+
+Az értesítési központ háromféle típusú értesítésből áll, és lehetővé teszi, hogy a piactér rendszergazdája a következő értesítés alapján tegyen lépéseket:
+
+- A jóváhagyott listán nem szereplő elemekre vonatkozó jóváhagyási kérések a felhasználóktól (lásd [az ajánlatok vagy a csomagok hozzáadására vonatkozó kérést](#request-to-add-offers-or-plans) ).
+- Új csomag-értesítések olyan ajánlatokhoz, amelyeken már van egy vagy több csomag a jóváhagyott listában.
+- A rendszer eltávolította a jóváhagyott listán szereplő elemek megtervezésére vonatkozó értesítéseket, de eltávolították őket a globális Azure piactéren.
+
+Az értesítési központ elérése:
+
+1. Válassza az **értesítések** lehetőséget a bal oldali menüben.
+
+    [![Az értesítések menüt jeleníti meg.](media/private-azure/marketplace-notifications-small.png)](media/private-azure/marketplace-notifications.png#lightbox)
+
+1. Válassza a három pont menüt a további műveletek elvégzéséhez.
+
+    :::image type="content" source="media/private-azure/notifications-more-options.png" alt-text="A további beállítások menü eredményét jeleníti meg.":::
+
+1. A csomagra vonatkozó kérelmek esetében a **kérelmek megjelenítése** lehetőség megnyitja a jóváhagyási kérelem űrlapot, ahol áttekintheti az adott ajánlat összes felhasználói kérelmét.
+1. Válassza a **jóváhagyás** vagy az **elutasítás** lehetőséget.
+
+    [![Megjeleníti a jóváhagyás és az elutasítás lehetőséget.](media/private-azure/notifications-approve-reject-small.png)](media/private-azure/notifications-approve-reject.png#lightbox)
+
+1. Válassza ki a jóváhagyni kívánt tervet a legördülő menüből.
+1. Adjon hozzá egy megjegyzést, és válassza a **Küldés** lehetőséget.
+
 ## <a name="browsing-private-azure-marketplace"></a>Privát Azure piactér tallózása
 
-Ha a privát Azure Marketplace engedélyezve van, a felhasználók láthatják, hogy a piactér rendszergazdája milyen terveket engedélyezett.
+Ha a privát Azure Marketplace engedélyezve van, a felhasználók láthatják, hogy a piactér rendszergazdája mely terveket hagyta jóvá.
 
-- A zöld **megengedett** értesítés egy olyan partner (nem Microsoft) ajánlatot jelöl, amely engedélyezett.
-- A kék **megengedett** értesítés egy engedélyezett Microsoft-ajánlatot jelez.
+- A zöld **jóváhagyott** nyilatkozat egy jóváhagyott partner (nem Microsoft) ajánlatot jelöl.
+- A kék **jóváhagyott** értesítés a jóváhagyott Microsoft-ajánlatokat (beleértve a [támogatott Linux-disztribúciókat](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)is) jelzi.
 
-A felhasználók a (z) és a nem engedélyezett ajánlatok között szűrhetők:
+A felhasználók a nem jóváhagyott ajánlatok között szűrhetik a következőket:
 
-:::image type="content" source="media/private-azure/filter-option.png" alt-text="Szűrési beállítás.":::
+[![Megjeleníti a szűrési lehetőséget.](media/private-azure/filter-option-small.png)](media/private-azure/filter-option.png#lightbox)
 
 ## <a name="buy-or-deploy-in-private-azure-marketplace"></a>Vásárlás vagy üzembe helyezés a privát Azure piactéren
 
-Míg a termék részletei lap a nyilvános Azure piactérhez hasonlóan működik, három privát Azure Marketplace-re vonatkozó forgatókönyv található.
+Míg a termék részletei lap a globális Azure piactérhez hasonlóan működik, három privát Azure Marketplace-re vonatkozó forgatókönyv található.
 
-- Ha egy felhasználó egy engedélyezett csomagot választ, a **Létrehozás** gomb engedélyezve lesz:
+- Ha egy felhasználó jóváhagyott csomagot választ, a **Létrehozás** gomb engedélyezve lesz:
 
-    :::image type="content" source="media/private-azure/button-create-enabled.png" alt-text="Ajánlati szalagcím, amelyből egy terv hozható létre.":::
+    [![Megjeleníti az ajánlati szalagcímet, amelyből egy terv hozható létre.](media/private-azure/button-create-enabled-small.png)](media/private-azure/button-create-enabled.png#lightbox)
 
-- Ha a felhasználó egy nem engedélyezett csomagot választ ki, a szalagcím megjegyzi, hogy a csomag nem engedélyezett, és a **Létrehozás** gomb le van tiltva.
+- Ha a termékre vonatkozó csomag kiválasztása nem jelenik meg a termék részletei lapon, de a rendszergazda jóváhagyta egy vagy több csomagot, a rendszer egy szalagcímet jelenít meg, amelyet jóváhagy, és engedélyezve van a **Létrehozás** gomb:
 
-   :::image type="content" source="media/private-azure/button-create-disabled.png" alt-text="Ajánlati szalagcím – a terv nem hozható létre.":::
+    [![Megjeleníti az ajánlati szalagcímet, amely szerint egy terv hozható létre, és megjeleníthető az elérhető csomagok.](media/private-azure/button-create-enabled-and-plans-small.png)](media/private-azure/button-create-enabled-and-plans.png#lightbox)
 
-- Ha a termékre vonatkozó csomag kiválasztása nem jelenik meg a termék részletei lapon, de a rendszergazda jóváhagyta egy vagy több csomagot, a szalagcím megállapítja, hogy mely csomagok engedélyezettek, és engedélyezve van a **Létrehozás** gomb:
+- Ha a felhasználó egy nem jóváhagyott csomagot választ, a szalagcím nem jóváhagyottként veszi fel a csomagot, és a **Létrehozás** gomb le lesz tiltva. A felhasználó továbbra is kérheti a terv hozzáadását a jóváhagyott listához (lásd a következő szakaszt).
 
-    :::image type="content" source="media/private-azure/button-create-enabled-and-plans.png" alt-text="Az ajánlat szalagcíme megállapítja, hogy egy terv hozható létre, és megjeleníthető a rendelkezésre álló csomagok.":::
+## <a name="request-to-add-offers-or-plans"></a>Ajánlatok és csomagok hozzáadására vonatkozó kérelem
+
+Kérheti, hogy olyan nyilvános ajánlatot vagy csomagot adjon hozzá, amely jelenleg nem lett jóváhagyva a privát Azure piactéren.
+
+1. Válassza ki a szalagcímbe **felvenni kívánt kérelmet** a **hozzáférési kérelem űrlapjának** megnyitásához.
+
+    [![Megjeleníti a "kérés a hozzáadáshoz" hivatkozást tartalmazó szalagcímet.](media/private-azure/request-banner-small.png)](media/private-azure/request-banner.png#lightbox)
+
+    [![Az ajánlatok és csomagok hozzáférési kérelmi űrlapját jeleníti meg.](media/private-azure/access-request-form-small.png)](media/private-azure/access-request-form.png#lightbox)
+
+1. Válassza ki, hogy melyik csomagot kívánja hozzáadni a kérelemhez (**bármely csomag** azt jelzi, hogy a piactér rendszergazdája nem rendelkezik az ajánlaton belüli csomagokra vonatkozó beállításokkal).
+
+1. Adjon meg egy **indoklást** , és válassza a **kérelem** lehetőséget a kérelem elküldéséhez.
+  
+    [![Az ajánlatok és csomagok hozzáférési kérelmi űrlapját jeleníti meg a minták bejegyzéseivel.](media/private-azure/access-request-form-filled-small.png)](media/private-azure/access-request-form-filled.png#lightbox)
+
+1. Egy függőben lévő kérés jelzése megjelenik a hozzáférési kérelem űrlapján a **kérelem visszavonására** szolgáló lehetőséggel.
+
+    [![A visszavont kérelmek hivatkozással rendelkező jóváhagyott vagy függőben lévő csomagok listáját jeleníti meg.](media/private-azure/approved-pending-plans-small.png)](media/private-azure/approved-pending-plans.png#lightbox)
+
+> [!NOTE]
+> A jóváhagyást követően a rendszer elküldi a jóváhagyási kérelem űrlapját [a piactér](#private-azure-marketplace-notification-center) rendszergazdája számára a kérelem áttekintéséhez és a művelet elvégzéséhez.
+
+## <a name="frequently-asked-questions-faqs"></a>Gyakori kérdések (GYIK)
+
+#### <a name="i-am-already-blocking-marketplace-third-party-application-through-azure-policy-how-is-this-different"></a>Már blokkolja a Marketplace harmadik féltől származó alkalmazást a Azure Policyon keresztül. Miben különbözik?
+
+A harmadik féltől származó szolgáltatásokat jelenleg két módon lehet korlátozni a piactéren:
+
+1. Az EA portálon vagy a Azure Portalon tiltsa le a harmadik féltől származó szolgáltatásokat, vagy korlátozza az "ingyenes vagy BYOL SKU-ra".
+
+    :::image type="content" source="media/private-azure/disable-services.png" alt-text="Bemutatja, hogyan lehet korlátozni a szolgáltatásokat a Azure Portalban.":::
+
+    :::image type="content" source="media/private-azure/disable-services-other-view.png" alt-text="Bemutatja, hogyan lehet korlátozni a szolgáltatásokat az E-portálon.":::
+
+2. Hozzon létre egy Azure-szabályzatot, hogy csak bizonyos virtuális gépeket engedélyezzen. A Windows rendszerű virtuális gépekre vonatkozó szabályzatok kikapcsolásával kapcsolatos további információkért lásd: [házirendek alkalmazása a Windows rendszerű virtuális gépekre Azure Resource Manager használatával](https://docs.microsoft.com/azure/virtual-machines/windows/policy).
+
+A privát Azure piactér nagyobb rugalmasságot tesz lehetővé az egyes ajánlatok és csomagok korlátozására és engedélyezésére. A végfelhasználók számára elérhetővé teszi a Piactéri katalógusban való üzembe helyezést, még mielőtt külső szolgáltatásokat próbálnak üzembe helyezni. A harmadik féltől származó szolgáltatások üzembe helyezésének engedélyezéséhez állítsa be az Azure Marketplace-t az EA Portálon és a Azure Portalon.
+
+- A privát Azure Marketplace-en a partneri megoldások nem korlátozódnak a virtuális gépekre.
+- A privát Azure Marketplace a csomag szintjén is megadható, és az "aktuális és jövőbeli terv" is megadható.
+- A privát Azure piactér tájékoztathatja a végfelhasználókat arról, hogy mit lehet és nem lehet telepíteni.
+
+#### <a name="whats-the-difference-between-a-private-offer-and-private-azure-marketplace"></a>Mi a különbség a privát ajánlat és a privát Azure Marketplace között?
+
+A **privát ajánlat** lehetővé teszi, hogy a kiadók olyan csomagokat hozzanak létre, amelyek csak a célközönség számára láthatók. Ez lehetővé teszi, hogy a testreszabott megoldásokat megosszák az egyeztetett díjszabással, a privát feltételekkel és a speciális konfigurációkkal. Részletekért lásd: [privát ajánlatok a kereskedelmi piactéren](https://docs.microsoft.com/azure/marketplace/private-offers).
+
+A Azure Portal **privát Azure Marketplace** lehetővé teszi a rendszergazdák számára, hogy előzetesen hagyják el, hogy a felhasználók milyen külső megoldásokat telepíthetnek. A privát Azure piactéren a felhasználók a megfelelő ajánlatok megkeresésével, megvásárlásával és üzembe helyezésével élvezheti az Azure Marketplace előnyeit. Az előfizetés-alapú privát ajánlatok felügyeletéhez a piactér rendszergazdájának legalább "READ" szerepkörrel kell rendelkeznie az adott előfizetésben.
+
+#### <a name="i-added-a-private-offer-to-the-private-azure-marketplace-why-is-it-not-showing-in-the-manage-marketplace-tab"></a>Felvettem egy privát ajánlatot a privát Azure Marketplace-re, miért nem jelenik meg a piactér kezelése lapon?
+
+Az előfizetés-alapú privát ajánlatok csak a privát ajánlat beállításaiban felsorolt előfizetések esetében láthatók. A privát ajánlat megtekintéséhez győződjön meg arról, hogy a globális előfizetés-szűrő az összes előfizetést megjeleníti.
+
+[![A privát piactér szűrőjét jeleníti meg.](media/private-azure/private-marketplace-filter.png)](media/private-azure/private-marketplace-filter.png#lightbox)
+
+#### <a name="can-we-include-custom-images-in-private-azure-marketplace"></a>Használhatunk egyéni lemezképeket a privát Azure piactéren?
+
+Nem. A privát Azure Marketplace lehetővé teszi a rendszergazda számára, hogy a globális Azure piactéren felügyelje és betekintse harmadik féltől származó megoldásokat. Mivel az egyéni lemezképek nem a globális Azure Marketplace piactéren találhatók, a rendszergazda nem választhat ki és nem választhatja ki az egyéni lemezképeket. Ha egyéni rendszerképeket szeretne megosztani, használja a [megosztott képtárat](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries).
+
+1. Részletes útmutató a közös rendszerkép-katalógus ([parancssori](https://docs.microsoft.com/azure/virtual-machines/shared-images-cli)felület, [PowerShell](https://docs.microsoft.com/azure/virtual-machines/shared-images-powershell)) létrehozásához.
+2. Rendszerkép-definíció létrehozása a SIG-ban. Az ügyfélnek az operációs rendszer állapot mezőjében **általánosított** elemet kell választania. ([CLI](https://docs.microsoft.com/azure/virtual-machines/image-version-managed-image-cli#create-an-image-definition), [PowerShell](https://docs.microsoft.com/azure/virtual-machines/image-version-vm-powershell#create-an-image-definition)).
+3. Felügyelt rendszerkép bekapcsolása a megosztott rendszerkép-katalógusba ([CLI](https://docs.microsoft.com/azure/virtual-machines/image-version-managed-image-cli), [PowerShell](https://docs.microsoft.com/azure/virtual-machines/image-version-managed-image-powershell)).
+4. A SIG VM-lemezképek egy előfizetésben találhatók. Ha más előfizetésekhez is elérhetővé kívánja tenni, használja az alkalmazás regisztrációját ([CLI](https://docs.microsoft.com/azure/virtual-machines/linux/share-images-across-tenants), [PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/share-images-across-tenants)).
+
+#### <a name="why-do-i-see-some-offers-approved-by-default-even-though-the-publisher-is-not-microsoft"></a>Miért jelenik meg, hogy egyes ajánlatok **alapértelmezés szerint jóvá vannak hagyva** , noha a közzétevő nem a Microsoft?
+
+A Microsoft támogatja a Linux és a nyílt forráskódú technológiák használatát az Azure-ban. A támogatott [Linux-disztribúciók](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros) az Azure-ban támogatottak, és az ár a virtuális gépeken van integrálva. Mivel az Azure Linux-ügynök már előre telepítve van az Azure Marketplace-en, a Microsoft-ajánlathoz hasonló módon kezelik. Mivel a Microsoft ajánlatait alapértelmezés szerint jóváhagyják, a támogatott Linux-disztribúciók nem kezelhetők a privát Azure piactéren, és alapértelmezés szerint jóváhagyjuk azokat.
 
 ## <a name="contact-support"></a>Kapcsolatfelvétel a támogatási szolgáltatással
 
-Az Azure Marketplace támogatásához látogasson el a [Microsoft Q&a](/answers/products/)-ra. 
+- Az Azure Marketplace támogatásához látogasson el a [Microsoft Q&a](/answers/products/)-ra.

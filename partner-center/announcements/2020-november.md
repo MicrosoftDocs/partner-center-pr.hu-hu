@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 8d247d4f39b85423bfd128056595b414238b113c
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 8c9e978fb636392d7cfd1ad48c101eadeececcc6
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182545"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756402"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -98,7 +98,7 @@ Bevezetünk egy új Office 365 E1 promot a középső piacra, amely a LATAM, Ind
 Az összes partner a Cloud Solution Provider (CSP) programon keresztül lebonyolítja a fent felsorolt részt vevő piacokon.
 
 ### <a name="details"></a>Részletek
-A promóció 30%-os kedvezményt biztosít a CSP-hez készült Office 365 E1-es verziójában. 2020. december 1-jén indul el, és 6 hónapig, 2020. május 31-ig lesz elérhető. Ez a promo csak olyan ügyfelek számára érhető el, akik újak az MW-felhőben, és legfeljebb 500 ülőhellyel rendelkeznek. Vegye figyelembe, hogy ez a LATAM, India és APAC feltörekvő piacaira korlátozódik, hogy lehetővé váljon a felhőre való áttérés. 
+A promóció 30%-os kedvezményt biztosít a CSP-hez készült Office 365 E1-es verziójában. 2020. december 1-jén indul el, és 6 hónapig, 2021. május 31-ig lesz elérhető. Ez a promo csak olyan ügyfelek számára érhető el, akik újak az MW-felhőben, és legfeljebb 500 ülőhellyel rendelkeznek. Vegye figyelembe, hogy ez a LATAM, India és APAC feltörekvő piacaira korlátozódik, hogy lehetővé váljon a felhőre való áttérés. 
 
 #### <a name="offer-details"></a>Ajánlat részletei
 
@@ -273,7 +273,7 @@ Az új kereskedelmi ajánlatok ebben a változásban: az Azure-csomag, az Azure-
 
 - Azon partnereink számára, akik még nem fogadták el az új kereskedelmi ajánlatokat, ez a változás az előző partner számlázási modelljével összhangban van, így a partnerek könnyebben tudnak áttérni az új kereskedelmi élményre a CSP-ben. 
 
-### <a name="resources"></a>További források 
+### <a name="resources"></a>Források 
 
 Tekintse át a témakör információit az [Operations Gallery] (a https://partner.microsoft.com/resources/collection/eu-efta-changes-collection#/ Microsoft partner webhelyén.  
 
@@ -469,14 +469,14 @@ A prémium ajánlat keretében az ügyfelek hozzáférhetnek az újonnan kiadott
 
    |****|**Microsoft Teams standard USD15-eszköz havonta**|**Microsoft Teams Rooms Premium USD50-eszköz havonta**|
    |-------------------|:------|:------|
-   |Skype Vállalati verzió|Yes| |
-   |Microsoft Teams|Igen|Yes|
-   |Telefonos rendszer|Igen|Yes|
-   |Hangkonferencia|Igen|Yes|
-   |Microsoft Intune|Igen|Yes|
+   |Skype Vállalati verzió|Igen| |
+   |Microsoft Teams|Igen|Igen|
+   |Telefonos rendszer|Igen|Igen|
+   |Hangkonferencia|Igen|Igen|
+   |Microsoft Intune|Igen|Igen|
    | |A Microsoft Teams standard szintű USD15 eszközönként havonta|Microsoft Teams Rooms Premium USD50/hó|
-   |Microsoft Teams Rooms – felügyelt szolgáltatások| |Yes|
-   |Globális elérhetőség|Yes|A piacok kiválasztása|
+   |Microsoft Teams Rooms – felügyelt szolgáltatások| |Igen|
+   |Globális elérhetőség|Igen|A piacok kiválasztása|
 
 #### <a name="microsoft-teams-rooms-managed-services"></a>Microsoft Teams Rooms – felügyelt szolgáltatások
 

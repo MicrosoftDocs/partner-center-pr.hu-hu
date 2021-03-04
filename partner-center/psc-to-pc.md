@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: 03271459ccdea5b62192ec176557a6c3b8f1a556
-ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
+ms.openlocfilehash: 84863e96278ba17ecc9922ff9589abc504ff1fe0
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100281343"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756186"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -28,12 +28,15 @@ ms.locfileid: "100281343"
 
 Ez a cikk útmutatást nyújt a partneri értékesítési partnerektől a partneri központhoz való áttelepítéshez, így továbbra is létrehozhatnak és kezelhetnek közös értékesítési ajánlatokat a partner Centerben.
 
-Amint tudja, a vállalata a 2021. március 31. után elveszíti a PSC-hez való hozzáférést. Azonban továbbra is mindent megtalál, amit szeretne tenni a partner Centerben, mint például a közös értékesítési ajánlatok létrehozása, az ajánlatok kezelése és a Microsoft-értékesítők által eljuttatott ajánlatok.
-
-Azonban eltérőek lesznek. A következő útmutató segítséget nyújt a partneri központ gördülékenyebb és egyszerűbb átállásához.
+>[!Note]
+> Ha azért van itt, mert az áttelepítéssel kapcsolatban egy, a PSC-ben megjelenő szalagcím található, akkor Ön a megfelelő helyen található. Ez az útmutató nem alkalmazható a megoldás-értékelési (SA) és az OEM licencelési üzleti partnerek számára, akik a PSC-ben lévő ügyleteket kezelik.
 
 >[!Important]
-> Ha azért van itt, mert az áttelepítéssel kapcsolatban egy, a PSC-ben megjelenő szalagcím található, akkor Ön a megfelelő helyen található. Ez az útmutató nem alkalmazható megoldás-értékelési (SA) és OEM IOT-partnerek számára, akik a PSC-ben lévő ügyleteit kezelik.
+> 2021. május 1-től a vállalata nem tudja létrehozni vagy szerkeszteni a PSC-t. **A meglévő ajánlatok adatai továbbra is letölthetők a PSC tömeges exportálási funkciójával. Ezen dátum után a PSC-ről a partneri központba is [áttelepítheti a nyitott ajánlatokat](psc-to-pc.md#psc-deals-migration) .** <br><br> Ha vannak olyan ügyletek, amelyekben aktívan dolgozik, és az IP-címek közös értékesítését ösztönző megoldásokat tartalmaz, két lehetőség közül választhat: <br><br> 1. az ügyletet elnyert értékként jelöli meg a PSC-ben, 2021 április 30-ig. <br> 2. [telepítse át az ajánlatokat](psc-to-pc.md#psc-deals-migration) a partneri központba, így több időt kell igénybe vennie a Deal és a Deal regisztráció megkezdéséhez.
+
+Amint tudja, a **vállalat a 2021. május 31-ig elveszíti a PSC-hez való hozzáférést**. Azonban továbbra is mindent megtalál, amit szeretne tenni a partner Centerben, mint például a közös értékesítési ajánlatok létrehozása, az ajánlatok kezelése és a Microsoft-értékesítők által eljuttatott ajánlatok.
+
+Azonban eltérőek lesznek. A következő útmutató segítséget nyújt a partneri központ gördülékenyebb és egyszerűbb átállásához.
 
 ## <a name="before-you-move-things-you-need-to-know"></a>Mielőtt továbblép, meg kell ismernie a szükséges dolgokat
 
@@ -90,7 +93,7 @@ A vállalati fiók rendszergazdájának megkeresése:
 Miután beállította a fiókját a partner Centerben, a közös értékesítési lehetőségek lapon a felhasználói áttelepítési varázsló használatával automatikusan hozzárendelheti a partner Center-szerepköröket a vállalat alkalmazottaihoz.
 
 >[!Note]
-> A felhasználók áttelepítését csak a vállalata [fiók-rendszergazdái](permissions-overview.md#manage-mpn-membership-and-your-company) tudják elvégezni. Ha nem rendelkezik fiók-rendszergazdai szerepkörrel, keresse meg a fiók rendszergazdáját, aki segítségére lehet a felhasználói fiókok beállításában a felhasználói áttelepítési varázsló segítségével. A felhasználó áttelepítési funkciója 2020. november 18-án kezdődik.
+> A felhasználók áttelepítését csak a vállalata [fiók-rendszergazdái](permissions-overview.md#manage-mpn-membership-and-your-company) tudják elvégezni. Ha nem rendelkezik fiók-rendszergazdai szerepkörrel, keresse meg a fiók rendszergazdáját, aki segítségére lehet a felhasználói fiókok beállításában a felhasználói áttelepítési varázsló segítségével.
 
 :::image type="content" source="images/pscmigration/psc-user-migration.png" alt-text="A felhasználó áttelepítési varázslóját ábrázoló kép.":::
 
@@ -135,7 +138,7 @@ Az ügylet áttelepítésének megkezdése előtt olvassa el ezt a szakaszt.
 
 **Áttelepítésre jogosult**
 
-Csak néhány ajánlat jogosult a PSC-ről a PC-re való áttelepítésre. Ez az áttelepítési varázsló úgy van felépítve, hogy segítse a partnereket abban, hogy az üzletük lezárásához aktívan használják a partneri központot. **Csak a nyitott állapotban lévő, érvényes partneri fiók részleteivel (érvényes MPN-AZONOSÍTÓval) rendelkező, és nem az üzlet regisztrációja esetén használhatók.**
+Csak néhány ajánlat jogosult a PSC-ről a PC-re való áttelepítésre. Ez az áttelepítési varázsló úgy van felépítve, hogy segítse a partnereket abban, hogy az üzletük lezárásához aktívan használják a partneri központot. **Csak a nyílt állapotú, az 2020-as és az érvényes partneri fiók részleteivel (érvényes MPN-AZONOSÍTÓval) létrehozott, de nem az ügyletekhez való regisztrációra jogosult ügyletek telepíthetők.**
 
 **Nem jogosult az áttelepítésre**
 
@@ -200,7 +203,7 @@ Ha a vállalata rendelkezik egy partner Development Managerrel (PDM) – Ha a pa
 Ha a vállalat nem rendelkezik PDM – győződjön meg arról, hogy az összes felhasználói fiók be van állítva és ellenőrizhető az összes felhasználó számára. A rendszer e-mailben és egy, a PSC-n lévő szalagcímben értesíti a pontos dátumról, amikor a partner Centerben megkezdi a közös értékesítést. Ne feledje, hogy továbbra is a PSC-ben meglévő aktív ajánlatokat kell kezelnie.
 
 >[!Important]
->Az aktív ajánlatokat a rendszer nem telepíti át a számítógépre. Az ajánlatok lezárása és regisztrálása 2021. március 31-ig tart.
+> A megnyertként megjelölt ajánlatokat a 2021. április 30-ig kell regisztrálni.
 
 ## <a name="next-steps-for-psc-admins-psc-deal-managers-and-psc-sellers"></a>A PSC-rendszergazdák, a PSC Deal managerek és a PSC-értékesítők következő lépései
 

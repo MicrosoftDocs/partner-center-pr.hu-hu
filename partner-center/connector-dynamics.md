@@ -1,19 +1,19 @@
 ---
 title: A Dynamics 365 CRM-partneri központ közös értékesítési összekötője
 ms.topic: how-to
-ms.date: 02/16/2021
+ms.date: 03/01/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Szinkronizálja a partner Centerben lévő hivatkozásokat a Dynamics 365 CRM-hez készült közös értékesítési összekötővel. Az értékesítők ezután a Microsofttal közösen értékesíthetők a CRM-rendszereken belül.
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: e465130b96886cf2bb77bcd94f56c1a12545a5d5
-ms.sourcegitcommit: 64243caed029ffe40e2bbc369f4ee96f4f0ca26f
+ms.openlocfilehash: 10062fd20e3553856d8b595efd3224ff456c2c49
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "100645772"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756802"
 ---
 # <a name="co-sell-connector-for-dynamics-365-crm--overview"></a>Közös értékesítésű összekötő a Dynamics 365 CRM-hez – áttekintés
 
@@ -31,11 +31,11 @@ A megoldás a Microsoft Power automatizálási megoldásán alapul, és a partne
 |**Témakörök**   |**Részletek**   |**Hivatkozások**   |
 |--------------|--------------------|------|
 |Microsoft Partner Network azonosítója |Érvényes MPN-AZONOSÍTÓra van szüksége|Az [MPN](https://partner.microsoft.com/) csatlakoztatása|
-|Értékesítésre kész|Az IP-/szolgáltatási megoldásnak közös értékesítéssel kell rendelkeznie.|[Értékesítés a Microsofttal](https://partner.microsoft.com/membership/sell-with-microsoft)| 
+|Közös értékesítés kész|Az IP-/szolgáltatási megoldásnak közös értékesítéssel kell rendelkeznie.|[Értékesítés a Microsofttal](https://partner.microsoft.com/membership/sell-with-microsoft)| 
 |Partnerközpont-fiók|A partner Center-bérlőhöz társított MPN-AZONOSÍTÓnak meg kell egyeznie a közös értékesítési megoldáshoz társított MPN-azonosítóval. Az összekötők üzembe helyezése előtt győződjön meg arról, hogy a partner Center portálon megtekintheti a közös értékesítéssel kapcsolatos hivatkozásokat.|[Saját fiók kezelése](create-user-accounts-and-set-permissions.md)|
 |A partner Center felhasználói szerepkörei|Az összekötőket telepítő és használó alkalmazottnak hivatkozói rendszergazdának kell lennie|[Felhasználói szerepkörök és engedélyek hozzárendelése](create-user-accounts-and-set-permissions.md)| 
 |Dynamics 365 CRM|A CRM-felhasználói szerepkör a rendszergazda vagy a rendszertestreszabó|[Szerepkörök társítása a Dynamics 365-ben](/dynamics365/customerengagement/on-premises/customize/privileges-required-customization)|
-|Power automatizáló folyamat fiókja|Hozzon létre új éles környezetet az adatbázissal tesztelési, előkészítési és éles környezetben. Ha van meglévő éles környezete az adatbázissal, akkor újra felhasználható. Az összekötő-megoldást telepítő felhasználónak automatizálnia kell a szükséges energiagazdálkodási licencet, és hozzá kell férnie ehhez a környezethez. Nyomon követheti a folyamat előrehaladását, és további részleteket is megtudhat, ha a telepítés nem sikerül a [Power gyorsbüféban](https://flow.microsoft.com/) , ha az előzmények megtekintése elemre kattint|[Környezet létrehozása vagy kezelése](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-with-a-database)|
+|Power automatizáló folyamat fiókja|Hozzon létre új éles környezetet az adatbázissal tesztelési, előkészítési és éles környezetben. Ha van meglévő éles környezete az adatbázissal, akkor újra felhasználható. Az összekötő-megoldást telepítő felhasználónak automatizálnia kell a szükséges energiagazdálkodási licencet, és hozzá kell férnie ehhez a környezethez. Nyomon követheti a folyamat előrehaladását, és további részleteket is megtudhat, ha a telepítés nem sikerül a [Power gyorsbüféban](https://flow.microsoft.com/) , ha az előzmények megtekintése elemre kattint|[Környezet létrehozása vagy kezelése](/power-platform/admin/create-environment#create-an-environment-with-a-database)|
 
 ## <a name="install-partner-center-referrals-synchronization-for-dynamics-365-power-automate-solution"></a>A partneri központ átirányítási szinkronizálásának telepítése a Dynamics 365-hez (Power automatizáló megoldás)
 
@@ -110,7 +110,7 @@ Mielőtt telepítené, konfigurálja és testreszabja az automatizálási megold
 
 1. Térjen vissza a **megoldások** lapra, és válassza az **alapértelmezett megoldás** lehetőséget. Válassza a **kapcsolatok referenciája (előzetes verzió)** lehetőséget az **összes** elemre kattintva.
 
-:::image type="content" source="images/cosellconnectors/dynamics-3.png" alt-text="Kapcsolódás":::
+:::image type="content" source="images/connection-reference-video.gif" alt-text="A kapcsolatok szerkesztése":::
 
 2. Szerkessze az egyes kapcsolatokat egyenként a három pont ikon kiválasztásával. Adja hozzá a megfelelő kapcsolatokat.
 
@@ -141,9 +141,9 @@ A partner Center webhook API-k lehetővé teszik az Erőforrás-változási esem
 
 3. Kattintson a **Másolás** ikonra a megadott http post URL-cím másolásához.
 
-   :::image type="content" source="images/cosellconnectors/copyurl.png" alt-text="URL-cím másolása":::
+ :::image type="content" source="images/webhook-video.gif" alt-text="Az erőforrás-módosítások regisztrálása webhookok használatával":::
 
-4. Most válassza ki a "partneri központ webhook-regisztráció (Insider előzetes verzió)" energiaellátás-automatizálási folyamat elemet, és válassza a **Futtatás** lehetőséget.
+4. Válassza ki a "partneri központ webhook-regisztráció (Insider előzetes verzió)" energiaellátás-automatizálási folyamat elemet, majd válassza a **Futtatás** lehetőséget.
 
 5. Győződjön meg arról, hogy a jobb oldali ablaktáblán megnyílik a "Futtatás folyamata" ablak, és kattintson a **Folytatás** gombra.
 
@@ -205,7 +205,7 @@ Környezeti változó értékének frissítése:
 
 3. Frissítse az **aktuális értéket** (ne frissítse az alapértelmezett értéket) **új érték** beállítással, és adja meg az értéket. Az értéknek meg kell egyeznie a változó adattípusával, például az igen/nem adattípus esetén az igen vagy a No érték lesz elfogadva.
 
-:::image type="content" source="images/cosellconnectors/dynamics-5.png" alt-text="Alapértelmezett értékekhez tartozó mező szerkesztése":::
+:::image type="content" source="images/environment-variables-video.gif" alt-text="Környezeti változók frissítése":::
 
 - Végpontok közötti kétirányú, közös értékesítésre hivatkozó átirányítás szinkronizálása
 

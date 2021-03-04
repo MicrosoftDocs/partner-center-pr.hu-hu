@@ -7,12 +7,12 @@ ms.topic: conceptual
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 12/04/2020
-ms.openlocfilehash: 09e1301cb106c9e1ed40ff1fb6f70da92d2695ee
-ms.sourcegitcommit: 6632d7452be36010bfc8c6823efe5a5197377989
+ms.openlocfilehash: 9c4ad89eb25e811c4bea11e7e7e5d3845ceafee6
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98861410"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756841"
 ---
 # <a name="payout-schedules-and-processes"></a>Kifizetési ütemtervek és folyamatok
 
@@ -37,7 +37,6 @@ A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél 
 | --- | --- | --- | --- |
 | A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
 | A Microsoft kiszámítja a számlázási összeget | Teljes használat meghatározása, tranzakciók összesen | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
-| Az ügyfél által fizetett számla | A Microsoft fizetési lehetőséget gyűjt az ügyféltől | Nincs változás besorolás | **2. hónap** |
 | Kifizetés közzétéve | Az ügynökségi díj és a kifizetés eredményének meghatározása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap (1. hét)** |
 | Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A [kifizetési utasításban](payout-statement.md) a tranzakciós előzményekben közelgőként van megjelölve | **3. hónap (1. hét)** |
 | **Kifizetés elküldése** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a [kifizetési nyilatkozat](payout-statement.md) fizetési szakaszában** | **3. hónap (nem később, mint a 15.)** |
@@ -105,6 +104,6 @@ A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk,
 | Átutalás      | 7-10 munkanap                         |
 |
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Adó részletei](tax-details-marketplace.md)

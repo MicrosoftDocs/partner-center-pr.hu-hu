@@ -1,19 +1,19 @@
 ---
 title: Kifizetések és adóprofilok a Partnerközpontban
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 02/24/2021
 description: Létrehozhatja és kezelheti a kifizetési és az adózási profilt, így Ön fizethet az ösztönzőkért. Ide tartozik a különböző profilok létrehozása, kezelése és használata.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 282fdacc8689ff71e885a2f0ea01ce9570611707
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: ba8c1a811d66a5e6233f625c3981283341ea546c
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624238"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756585"
 ---
 # <a name="create-and-manage-incentives-payout-and-tax-profiles-in-partner-center"></a>Ösztönzők létrehozása és kezelése a partner Centerben
 
@@ -86,10 +86,22 @@ Az alábbi szakasz végigvezeti a fizetési és adózási profilok a partner Cen
 
     >[!NOTE]
     >A fizetési mód rendelkezésre állása az ösztönző program szabályaitól függ.
+
+    - Ha a hely MPN-AZONOSÍTÓját egy helyi Microsoft-leányvállalat fizeti ki egy adott ösztönző programhoz, és lehetővé teszi a LRD (korlátozott kockázatú forgalmazó) jóváírást fizetési módszerként, akkor a fizetési profilt előre ki kell tölteni a LRD jóváírási fizetési móddal. A megfelelő ösztönző program és a hely MPN-AZONOSÍTÓjának LRD jóváírása fizetési mód sorában a **megerősítve** vagy az **ellenőrzéshez szükséges** állapot jelenik meg a fizetési profil szakaszban.
+    
+       Válassza az **ellenőrzés szükséges** elemet a CSP-bérlői azonosító részleteinek megerősítéséhez és ellenőrzéséhez, amelyek az MPN-hez és a fizetési módszerhez vannak társítva a jóváírási fizetés fogadásához. A **jóváírás részletei** párbeszédpanelen tekintse át és ellenőrizze, hogy helyesek-e a CSP-bérlői azonosító és a megadott adatok. Ha egynél több bérlői azonosítót mutat be, gondosan válassza ki azt a CSP-bérlői azonosítót, amelyen fizetéseket szeretne kapni. Ezután válassza a **megerősítés** lehetőséget, hogy erősítse meg, hogy a vállalat adatai helyesek, és hogy az ösztönző kifizetést a kiválasztott CSP-BÉRLŐi azonosítóra kell tenni.
+ 
+      Ha az állapot **megerősítve** értékre van állítva, a CSP-bérlő azonosítójának hozzárendelése befejeződött, és nincs szükség további műveletre. A hozzárendelés részleteinek megtekintéséhez továbbra is kiválaszthatja a megerősítést.
+   
+      Azokban az országokban, amelyeknek explicit módon kell megkövetelniük az adómentesség alkalmazását, lehetőség van arra, hogy adómentességet alkalmazzon az adórendszer mellett az ösztönző program és a Location MPN adózási profilja szakaszában. Ha bejelöli ezt a jelölőnégyzetet, a rendszer adómentességi kedvezményt alkalmaz az ösztönző jóváírásra. 
+   
+      Jelenleg ez a fizetési mód csak Ausztráliában, Új-Zélandon és kanadai partnereken érhető el a Microsoft kereskedelmi ösztönző programhoz. Ha Ön az MCI-programhoz regisztrált három ország közvetlen számlázási partnere vagy közvetett szolgáltatója, és nem látja a LRD jóváírási megjegyzését a rendelkezésre álló fizetési módszerként, akkor erősítse meg, hogy a bérlői azonosító társítva van a megfelelő partner MPN-hely fiókhoz. További információ erről: a [szervezeti profil frissítése](update-your-partner-profile.md).
+
     
 5. Válassza ki a **pénznemet**.
 
 6. Az összes fizetési mező kitöltése után válassza a **Küldés** lehetőséget.
+
 
 ## <a name="create-your-bank-profile"></a>A bank profiljának létrehozása
 

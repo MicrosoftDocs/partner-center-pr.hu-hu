@@ -6,19 +6,209 @@ ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: brentserbus
 ms.author: brserbus
-ms.custom: announcement
+ms.custom: references_regions
 ms.localizationpriority: high
-ms.date: 02/04/2021
-ms.openlocfilehash: 8348179438ad65449ea75cd5ebce8ba0a92d7b9a
-ms.sourcegitcommit: 0416562dd89408524f8312a8acd5b6944b6d91c4
+ms.date: 02/25/2021
+ms.openlocfilehash: dcdbbda3a93bdf80dfe2c8eacc74ea4f78a7d07e
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "100540998"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756341"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központtal kapcsolatos bejelentéseket a 2021 februárjában.
+
+________________
+## <a name="put-qualification-apis-are-retired-get-to-retire-in-may"></a><a name="14"></a> A minősítési API-k üzembe helyezése megszűnik, a májusi kivonulás
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: február 25., 2021
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A partner Center API-t használó partnerek a Cloud Solution Provider programon keresztül tudományos, non-profit és GCC-ajánlatokat árusítanak
+
+### <a name="details"></a>Részletek
+
+Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](2020-december.md#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen **a meglévő Put minősítési API**-k kivonásra kerültek, a minősítés pedig 2021. május 4-én megszűnik. Ha ez bekövetkezik, át kell térnie az új POST partner Center API-k használatára az oktatási ajánlatok megvásárlása érdekében. Hasonlóképpen az új képesítések beszerzése API-val kell használnia az előre minősített nonprofit és GCC-ajánlatok megvásárlásához.
+
+### <a name="next-steps"></a>Következő lépések
+
+- **Az új API** -k frissítése sikeres és időben történő áttéréshez
+- **Tekintse át az új partneri központ API-változásait és útmutatóját** az operatív készültségi erőforrások: a [partner Center oktatási ügyfelek ellenőrzési folyamatának továbbfejlesztései](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/)
+- **Ossza meg ezeket az információkat** a szervezeten belüli megfelelő csapatokkal és a viszonteladókkal, hogy előkészítse ezeket a módosításokat
+
+### <a name="questions"></a>Kérdése van?
+
+Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
+
+### <a name="change-log"></a>Változási napló
+
+- Február: frissített ütemtervek a GET & PUT minősítések érvénytelenítéséhez
+- Január: emlékeztető a GET & beszerzésének közelgő elavulása
+
+________________
+## <a name="share-co-sell-deals-at-scale-using-the-partner-center-bulk-operations-capability"></a><a name="13"></a> Közös értékesítések megosztása a partner Center tömeges üzemeltetési képességével
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-25
+- Fokozott biztonság és megfelelőség
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Partnerek közös értékesítés a partner Centerben
+
+### <a name="summary"></a>Összefoglalás
+
+A közös értékesítéssel rendelkező partnerek mostantól az új partner Center CSV-fájl tömeges műveletek funkciójának használatával exportálhatók és importálhatók a lehetőségek.
+
+### <a name="details"></a>Részletek
+
+A közös értékesítéssel rendelkező partnerek mostantól az új partner Center CSV-fájl tömeges műveletek funkciójának használatával exportálhatók és importálhatók a lehetőségek. Ezzel egyesítheti az átirányítási megosztási élményt, és biztosíthatja az üzletmenet folytonosságát a partneri értékesítési csatlakozásból való áttéréskor. Emellett a partner Center API-ban is a beruházás alternatívája.
+
+A részletekért tekintse meg a következő szakaszban említett cikket. 
+
+### <a name="next-steps"></a>Következő lépések
+
+További információk a tömeges műveletekről a tömeges [műveletek a vesszővel tagolt (CSV) fájlok használatával történő közös értékesítésre való](https://docs.microsoft.com/partner-center/bulk-operations)olvasásával.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha további kérdése van, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1) .
+
+________________
+## <a name="migrate-your-deals-from-partner-sales-connect-psc-using-the-new-deal-migration-feature"></a><a name="12"></a>Telepítse át az ajánlatokat a partner Sales-összekötőről (PSC) az új Deal Migration szolgáltatás használatával
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-25
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Partnerek a PSC-ben található ügyletekkel
+
+### <a name="summary"></a>Összefoglalás
+
+A partneri értékesítési összekötővel (PSC) foglalkozó partnerek a partner centeren belüli új, közös értékesítéssel kapcsolatos tapasztalatok kihasználhatják a közös értékesítési ajánlatokat az alku áttelepítési funkciójának használatával.
+
+### <a name="details"></a>Részletek
+
+A PSC-mel rendelkező partnerek mostantól gyorsabban elérhetik a partner centeren belüli új közös értékesítési élményt, és megszüntetik a két platformon való munkát azáltal, hogy az alku áttelepítési funkciója segítségével áttelepítik a partneri központot a partnerek központjába.
+
+A részletekért tekintse meg a következő szakaszban említett cikket.
+
+### <a name="next-steps"></a>Következő lépések
+
+További információ az alku áttelepítéséről: a partneri [értékesítési összekötőről (PSC) áttelepíteni kívánt](https://docs.microsoft.com/partner-center/psc-to-pc)partnereknek szóló útmutató a fiókpartner- **ajánlatok áttelepítése** című szakaszának áttekintésével.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha további kérdése van, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1) .
+
+________________
+## <a name="increased-flexibility-with-partner-led-co-sell-deals"></a><a name="11"></a>Nagyobb rugalmasság a partner által vezetett közös értékesítési ajánlatokkal
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-25
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Közös értékesítésre kész megoldásokkal rendelkező partnerek
+
+### <a name="summary"></a>Összefoglalás
+
+A partnerek a partner által vezetett közös értékesítési üzlet létrehozása után meghívhatják a Microsoft-értékesítőket, hogy együttműködési eladási tevékenységet hozzanak létre.
+
+### <a name="details"></a>Részletek
+
+A partnerek mostantól meghívhatják a Microsoft-értékesítőket, miután létrehoztak egy partner által vezetett közös értékesítési üzletet, hogy együttműködési eladási tevékenységet lehessen végezni. Az üzlet részleteit a Microsoft Sales csapat nem osztja meg addig, amíg a partner kifejezetten nem kéri a Microsoft értékesítő segítségét. Ez a forgatókönyv jogosult a Microsoft értékesítői ösztönzőre is.
+
+Vegye figyelembe, hogy a partner által vezetett, közös értékesítéssel foglalkozó ajánlatok bármikor frissíthetők az aktív közös értékesítésre.
+
+A részletekért tekintse meg a következő szakaszban említett cikket.
+
+### <a name="next-steps"></a>Következő lépések
+
+További információ: útmutató a [közös értékesítés lehetőségeinek kezeléséhez a partner Centerben](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities).
+
+### <a name="questions"></a>Kérdése van?
+
+Ha további kérdése van, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1) .
+
+________________
+## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="10"></a> A Cloud Solution Provider (CSP) ügyfél bevezetési követelményeinek módosításai
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-02-25
+- Fokozott biztonság és megfelelőség
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A CSP közvetlen számlázási partnerei és olyan közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban.
+
+### <a name="summary"></a>Összefoglalás
+
+A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként további vásárlói adatokat fogunk igénybe venni, ami a 2021. március 25-én érvényes.
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. 2021. március 25-én bevezetjük a partner Center API-t és a felhasználói felület (UI) fejlesztéseit, amelyek hatással lesznek a következő feltételeknek megfelelő partnerekre:
+
+1. A partner közvetlen számlázási kapcsolatban áll a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlás partner vagy közvetett szolgáltató).
+2. A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban:
+    - Thaiföld
+    - Vietnam
+    - Törökország
+    - Lengyelország
+    - Dél-afrikai Köztársaság
+    - India
+    - Brazília
+    - Irak
+    - Mianmar
+    - Dél-Szudán
+    - Szaúd-Arábia
+    - Egyesült Arab Emírségek
+    - Venezuela
+
+A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél **jogi azonosítóját** (más néven az ügyfél **szervezeti fogadóját**) és a **telefonszámot** , amikor új ügyfelek bevezetését vagy meglévő vásárlói adatok módosítását teszik elérhetővé. Ezek a partnerek **középső nevet** is megadhatnak az ügyfél számára.
+
+A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti partnerek már egy korábbi kiadásban, 2020 novemberében lettek bevezetve.
+
+- Örményország
+- Azerbajdzsán
+- Belarusz
+- Magyarország
+- Kazahsztán
+- Kirgizisztán
+- Moldova
+- Oroszország
+- Tádzsikisztán
+- Ukrajna
+- Üzbegisztán
+
+A világ többi részén lévő ügyfelekkel rendelkező partnerek a 2021. március 25-én megadhatják a **jogi azonosítót**, a **telefonszámot** és a **középső nevet** az ügyfeleknek választható részletekként.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a dedikált [partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) (bejelentkezés szükséges) kapcsolatos gyakori kérdéseket.
+- Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
+- Ügyeljen arra, hogy új ügyfelek beléptetése vagy a meglévő ügyfél adatainak módosításakor küldje el a további adatokat.
+- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van a jogi azonosítóval (más néven INN vagy TIN) kapcsolatban, forduljon az adó-tanácsadóhoz vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben.
+
+Ha támogatásra van szüksége a Microsofttal folytatott műveleteihez, [Nyisson meg egy szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8) (bejelentkezés szükséges).
 
 ________________
 ## <a name="now-live-docusign-migration-to-adobe-sign-for-partners-under-microsoft-partner-agreements-mpas"></a><a name="9"></a> Most élő: a Microsoft partneri szerződések (MPAs) alá tartozó partnerek Adobe-DocuSign való áttelepítése
@@ -245,7 +435,7 @@ A prémium szintű értékelések egy opcionális bővítmény a megfelelőség-
 Tekintse át a témakör alábbi forrásait, és ossza meg az információkat a szervezete megfelelő szereplőivel.   
 
 - [Az E5 biztonsági és megfelelőségi Microsoft 365](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise?rtc=1&activetab=m365-enterprise:primaryr5)
-- [Értékelések készítése és kezelése a Microsoft megfelelőségi kezelőjében](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments&preserve-view=true=o365-worldwide)
+- [Értékelések készítése és kezelése a Microsoft megfelelőségi kezelőjében](/microsoft-365/compliance/compliance-manager-assessments?preserve-view=true&view=o365-worldwide)
 
 _________________________________________________________
 
@@ -285,23 +475,23 @@ A partner Center Referrals moduljának újdonságai:
 
 #### <a name="all-partners-using-the-referrals-module-in-partner-center"></a>Az összes partner, amely a partner Center Ajánlói modulját használja  
 
-- [Új SMB-kapcsolatok létrehozása](https://docs.microsoft.com/partner-center/connect-with-your-customers): közös értékesítés és Microsoft-értékesítők használata az SMB-ügyfelekkel kapcsolatos bejövő lehetőségek beszerzéséhez.
+- [Új SMB-kapcsolatok létrehozása](../connect-with-your-customers.md): közös értékesítés és Microsoft-értékesítők használata az SMB-ügyfelekkel kapcsolatos bejövő lehetőségek beszerzéséhez.
 
-- [Átirányítási engedélyek kibontása](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals): felhasználói hivatkozói engedélyek kiosztása, attól függően, hogy szeretne-e rendszergazdai jogosultságokkal rendelkezni (hozzáférés az összes közös értékesítési lehetőséghez) vagy felhasználói engedélyekkel (a felhasználó konkrét közös értékesítési lehetőségeihez való hozzáférés).
+- [Átirányítási engedélyek kibontása](../permissions-overview.md#manage-referrals): felhasználói hivatkozói engedélyek kiosztása, attól függően, hogy szeretne-e rendszergazdai jogosultságokkal rendelkezni (hozzáférés az összes közös értékesítési lehetőséghez) vagy felhasználói engedélyekkel (a felhasználó konkrét közös értékesítési lehetőségeihez való hozzáférés).
 
-- [Partneri értékesítések összekapcsolásának felhasználói áttelepítése](https://docs.microsoft.com/partner-center/psc-to-pc#user-migration): a meglévő partner-értékesítők csatlakoztatása a felhasználói engedélyekhez a megfelelő partner Center Referral admin és a hivatkozó felhasználói engedélyek, majd a Mass alkalmazza az új engedélyeket a felhasználók számára. Tekintse át az átirányítási [engedélyek dokumentációját](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals) , hogy többet tudjon meg az átirányítási felügyeletről.  
+- [Partneri értékesítések összekapcsolásának felhasználói áttelepítése](../psc-to-pc.md#user-migration): a meglévő partner-értékesítők csatlakoztatása a felhasználói engedélyekhez a megfelelő partner Center Referral admin és a hivatkozó felhasználói engedélyek, majd a Mass alkalmazza az új engedélyeket a felhasználók számára. Tekintse át az átirányítási [engedélyek dokumentációját](../permissions-overview.md#manage-referrals) , hogy többet tudjon meg az átirányítási felügyeletről.  
 
 #### <a name="partners-with-co-sell-ready-offers"></a>Partnereink közös értékesítésre kész ajánlatainkkal
 
-- [Közös értékesítés más partnerekkel](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities): meghívhat egy másik partnert a hatékony partneri ökoszisztémáról a közös értékesítésre és a több vásárlói közönséghez való hozzáférés feloldására.  
+- [Közös értékesítés más partnerekkel](../manage-co-sell-opportunities.md): meghívhat egy másik partnert a hatékony partneri ökoszisztémáról a közös értékesítésre és a több vásárlói közönséghez való hozzáférés feloldására.  
 
 #### <a name="partners-with-a-transactable-offer-using-an-azure-incentive-eligible-solution-in-the-commercial-marketplace"></a>A kereskedelmi piactéren elérhető Azure-alapú ösztönző megoldással rendelkező partnereink
 
-- Az [automatikus ügylet regisztrációjának használata](https://docs.microsoft.com/partner-center/register-deals): időt takaríthat meg, és biztosíthatja, hogy a Microsoft kereskedelmi piactéren elérhető Azure-ajánlatokat a következő jelölőnégyzettel regisztrálja: "Ez az ügylet/győzelem az Azure Marketplace-en vagy a AppSource keresztül történik." Ha a tranzakció dátuma helyes, a Deal regisztrációra vonatkozó információk közvetlenül a Microsoft kereskedelmi piactérről lesznek kihúzva.
+- Az [automatikus ügylet regisztrációjának használata](../register-deals.md): időt takaríthat meg, és biztosíthatja, hogy a Microsoft kereskedelmi piactéren elérhető Azure-ajánlatokat a következő jelölőnégyzettel regisztrálja: "Ez az ügylet/győzelem az Azure Marketplace-en vagy a AppSource keresztül történik." Ha a tranzakció dátuma helyes, a Deal regisztrációra vonatkozó információk közvetlenül a Microsoft kereskedelmi piactérről lesznek kihúzva.
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha segítségre van szüksége az új funkciók használatával kapcsolatban, tekintse meg a Tudásbázis bevezetések [című szakaszát](https://docs.microsoft.com/partner-center/referrals) , illetve a [közös értékesítési tapasztalati galériában](https://aka.ms/CoSellExperience) elérhető segédanyagokat (bejelentkezés szükséges).
+Ha segítségre van szüksége az új funkciók használatával kapcsolatban, tekintse meg a Tudásbázis bevezetések [című szakaszát](../referrals.md) , illetve a [közös értékesítési tapasztalati galériában](https://aka.ms/CoSellExperience) elérhető segédanyagokat (bejelentkezés szükséges).
 
 A támogatási [csapattal megnyithatja a partneri ügyfélszolgálattal rendelkező jegyet](https://partner.microsoft.com/support/?stage=1) .
 
@@ -319,7 +509,7 @@ A partner Center API-t használó partnerek a Cloud Solution Provider programon 
 
 ### <a name="details"></a>Részletek
 
-Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](https://docs.microsoft.com/partner-center/announcements/2020-december#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen **a meglévő Put minősítési API-k a partner Center API-k február 25-én, 2021-ig, a minősítés pedig 2021**. Ebben az időben át kell térnie az új POST partner Center API-k használatára az oktatási ajánlatok megvásárlásához és az új képesítések beszerzése API-hoz az előre minősített nonprofit és GCC-ajánlatok megvásárlásához.
+Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](./2020-december.md#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen **a meglévő Put minősítési API-k a partner Center API-k február 25-én, 2021-ig, a minősítés pedig 2021**. Ebben az időben át kell térnie az új POST partner Center API-k használatára az oktatási ajánlatok megvásárlásához és az új képesítések beszerzése API-hoz az előre minősített nonprofit és GCC-ajánlatok megvásárlásához.
 
 ### <a name="next-steps"></a>Következő lépések
 

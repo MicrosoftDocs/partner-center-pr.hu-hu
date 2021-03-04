@@ -1,7 +1,7 @@
 ---
 title: Felhasználók kezelése az ügyfelek fiókjaihoz
 ms.topic: how-to
-ms.date: 05/13/2020
+ms.date: 02/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Felhasználók kezelése a partner Centerben – felhasználói fiókok létrehozása, felhasználói licencek hozzáadása vagy eltávolítása, jelszavak alaphelyzetbe állítása, valamint a felhasználói fiókok törlése vagy visszaállítása.
@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cea1ac8bff9690edfe4b257c910fc3c335d2836c
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 0e2bb4ceb146174da83e9c08a9ff030380298bd0
+ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570739"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101756085"
 ---
 # <a name="manage-users-and-user-licenses-for-customer-accounts"></a>Felhasználói fiókok és felhasználói licencek kezelése az ügyfelek fiókjaihoz 
 
@@ -29,11 +29,14 @@ Az ügyfél fiókjában új felhasználókat hozhat létre és törölhet. A tö
 
 Amikor új előfizetést vásárol az ügyfél számára, az ügyfélnek meg kell adnia az összes olyan felhasználó listáját, akiknek szükségük van a fiókra, a felhasználói engedélyeire és az egyes felhasználók által igényelt szolgáltatásokra.  
 
+>[!NOTE]
+>Az **ügyfél** lap **felhasználók és licencek** szakasza megjeleníti az adott ügyfél bérlője által létrehozott összes felhasználót, beleértve a más CSP-partnertől vagy egy másik beszerzési csatornától vásárolt licenccel rendelkező felhasználókat is.
+
 Egyszerre [több felhasználóhoz is hozzárendelhet előfizetéseket](bulk-license-provisioning-for-multiple-users.md) úgy, hogy a neveket egy [Excel-kompatibilis. csv számolótábla-fájllal](adding-multiple-users-to-a-customer-account.md)importálja.
 
 <a href="" id="createuseraccounts"></a>
 
-## <a name="create-user-accounts-for-a-customer"></a>Felhasználói fiókok létrehozása az ügyfelek számára
+## <a name="create-user-accounts-for-a-customer"></a>Felhasználói fiókok létrehozása egy ügyfélnél
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
@@ -72,7 +75,7 @@ A következő lépések a Microsoft-termékekhez tartozó felhasználói licence
 
 ## <a name="reset-a-users-password-for-a-customer"></a>Felhasználó jelszavának alaphelyzetbe állítása az ügyfél számára
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard).
 
 2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
 
@@ -108,7 +111,7 @@ Ha vissza kell állítania ezt a fiókot, az ügyfél **felhasználói és licen
 
     Az összes kiválasztott felhasználói fiók újra megjelenik a **felhasználók és licencek** lapon.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Licencek hozzárendelése vagy visszavonása több felhasználó esetében](bulk-license-provisioning-for-multiple-users.md)
 
