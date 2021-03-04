@@ -99,6 +99,11 @@
         - name: Azure-és felhőalapú előnyök
           href: mpn-benefits-azure-cloud.md
           displayname: 'activate, azure license, mpn, renew'
+        - name: A Visual Studio előnyei
+          href: mpn-benefits-visual-studio.md
+          displayname: 'visual studio, mpn, activate'
+        - name: Technikai értékesítéssel és üzembe helyezéssel járó előnyök
+          href: technical-benefits.md
     - name: Marketplace Rewards
       href: marketplace-rewards.md
     - name: Frissítési garancia
@@ -447,6 +452,8 @@
           displayName: 'region, regio'
         - name: SLA-jóváírás kérése a Microsofttól
           href: request-credit.md
+        - name: Az adózási szabályzatok hatása a kifizetésre
+          href: tax-policies-affect-payout.md
     - name: Azure-költségvetés beállítása az ügyfelek számára
       href: set-an-azure-spending-budget-for-your-customers.md
       displayName: csp
