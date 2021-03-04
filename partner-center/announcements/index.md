@@ -8,20 +8,22 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 02/25/2021
-ms.openlocfilehash: df9cbea19ff51839e6624aba3e5050c41a55f32e
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.date: 03/03/2021
+ms.openlocfilehash: 5db9dc04f6ff4bf1020eb7a97778b152275d5ea5
+ms.sourcegitcommit: a7897284b79abb1ceeee79deb3a87b72d59900dc
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756155"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102029933"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
 Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat gyakran frissítjük, ezért érdemes gyakran visszalátogatnia ide.
 
-|**Kategória**|**Február 2021 közlemények**|**Bejelentve**|
+|**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[A Microsoft Universal Print már elérhető néhány lakosztályban](2021-march.md#1)|Március 3.|
+|**Kategória**|**Február 2021 közlemények**|**Bejelentve**|
 |Képességek|[A minősítési API-k üzembe helyezése megszűnik, a májusi kivonulás](2021-february.md#14)|Február 25|
 |Képességek|[Közös értékesítések megosztása a partner Center tömeges üzemeltetési képességével](2021-february.md#13)|Február 25|
 |Képességek|[Telepítse át az ajánlatokat a partner Sales-összekötőről (PSC) az új Deal Migration szolgáltatás használatával](2021-february.md#12)|Február 25|

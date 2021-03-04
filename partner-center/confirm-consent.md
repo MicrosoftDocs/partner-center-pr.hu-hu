@@ -1,5 +1,5 @@
 ---
-title: A Microsoft ügyfél-szerződés elfogadásának megerősítése
+title: Annak megerősítése, hogy az ügyfél elfogadta a Microsoft Ügyfélszerződést
 description: Megtudhatja, hogyan erősítheti meg a Microsoft-ügyfél szerződését. Erre szükség lehet a Microsoft termékeinek és szolgáltatásainak megrendeléséhez az ügyfelek számára.
 ms.topic: how-to
 ms.service: partner-dashboard
@@ -8,15 +8,15 @@ author: aarzh-AaronZhang
 ms.author: v-aarzh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.date: 06/30/2020
-ms.openlocfilehash: f2513213bff38a6296832253a13725ff2508f1f8
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.date: 03/02/2021
+ms.openlocfilehash: ab2f5be77f6480b4a8b47bef0e0fd5096f7c1776
+ms.sourcegitcommit: a7897284b79abb1ceeee79deb3a87b72d59900dc
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354610"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102029916"
 ---
-# <a name="updated-method-to-confirm-customer-acceptance-of-the-microsoft-customer-agreement"></a>Frissített módszer a Microsoft ügyfél-szerződés megkötésének megerősítéséhez
+# <a name="confirm-customer-acceptance-of-the-microsoft-customer-agreement"></a>Annak megerősítése, hogy az ügyfél elfogadta a Microsoft-ügyfélszerződést
 
 
 **Megfelelő szerepkörök**
@@ -30,8 +30,6 @@ ms.locfileid: "97354610"
 > * A Microsoft Cloud Germany Partnerközpontja
 > * A Microsoft Cloud for US Government Partnerközpontja
 
->[!NOTE]
->2020. január 31-ig az összes meglévő és új ügyfélnek alá kell írnia az új Microsoft Customer szerződést. További információért olvassa el [a Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyása](confirm-customer-agreement.md)című témakört.
 
 Partnerként be kell szereznie a Microsoft-ügyfél szerződését, mielőtt a Microsoft termékeit és szolgáltatásait megrendeli az adott ügyfélhez. A partnereknek a megfelelőségi követelményeknek való megfelelés érdekében a Microsoft felkéri a partnereket, hogy erősítse meg az elfogadást a szerződést elfogadó személyre vonatkozó alábbi részletek megadásával:
 
@@ -46,6 +44,9 @@ Partnerként be kell szereznie a Microsoft-ügyfél szerződését, mielőtt a M
 - Elfogadás dátuma
 
 A közvetlen számlás partnereknek és a közvetett szolgáltatóknak meg kell erősíteniük a Microsoft-ügyfél szerződését a partner Center vagy a partner Center API-n keresztül történő átadáskor. A megerősítés *kötelező*.
+
+>[!NOTE]
+>2020. január 31-ig az összes meglévő és új ügyfélnek alá kell írnia az új Microsoft Customer szerződést. További információért olvassa el [a Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyása](confirm-customer-agreement.md)című témakört.
 
 Ha nincs megadva visszaigazolás az adott ügyfélhez:
 
