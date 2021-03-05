@@ -1,20 +1,20 @@
 ---
-title: További bérlők hozzáadása a partner Center-fiókhoz
+title: Bérlők hozzáadása a partner Center-fiókhoz
 ms.topic: article
 ms.date: 01/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan adhat hozzá, összevonhat vagy kezelhet több Azure AD-bérlőt a partner Center-fiókban. Ismerje meg az egyes okokat is, amelyeket érdemes megtennie.
+description: Megtudhatja, hogyan adhat hozzá, összevonhat vagy kezelhet több Azure AD-bérlőt a partner Center-fiókban, és megtudhatja, miért érdemes ezt megtenni.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f9852b4e1c3997b82f744555db25fe64e1afc8ad
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 2f3094489f65b7164b4a55804047f9a4ab5f11cb
+ms.sourcegitcommit: 79d2f00c352db61252e523f45abf93fe2a2742a5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182433"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102124805"
 ---
 # <a name="add-and-manage-multiple-tenants-in-your-partner-center-account"></a>Több bérlő hozzáadása és kezelése a partner Center-fiókban
 
@@ -24,57 +24,58 @@ ms.locfileid: "98182433"
 - Globális rendszergazda
 - Fiókadminisztrátor
 
-Ez a funkció lehetővé teszi több, a vállalathoz tartozó bérlő kezelését és konszolidálását a Partnerközpont-fiókban. Számos oka lehet annak, hogy több Azure AD-bérlőt kell kezelnie a partner Center-fiókjában. Például:
+Ez a cikk azt ismerteti, hogyan lehet összevonni több Azure Active Directory (Azure AD) bérlőt a vállalat számára, majd a partner Center-fiókban felvenni és felügyelni azokat. Ennek számos oka van. Például:
 
-- A vállalat megvásárolhat egy másik vállalatot, és azt szeretné, hogy az új vállalat alkalmazottai használni tudják a partner centert. Azonban azt szeretné, hogy a két vállalat külön maradjon. Ebben az esetben az új vállalati Azure AD-bérlőt a partner globális fiókjával (PGA) társíthatja. Ez a társítás azt teszi lehetővé, hogy mindkét vállalat felhasználói működjenek a partner Centerben.
+- Tegyük fel, hogy vállalata, a contoso, megszerezte a fabrikam egy másik vállalatát. Azt szeretné, hogy a két vállalat külön maradjon, de azt szeretné, hogy az új alkalmazottak használni tudják a partner centert. Ebben az esetben az új vállalati Azure AD-bérlőt a partner globális fiókjával (PGA) társítja. Ez a társítás lehetővé teszi, hogy mindkét vállalat felhasználói működjenek a partner Centerben.
 
-- Ha több Bérlővel is futtatja vállalkozását (pl.: contoso.com, contoso.uk, contoso.in), a több-bérlős használatával összekapcsolhatja őket ugyanazzal a PC-fiókkal.
+- Ha több Bérlővel is futtatja vállalkozását (például *contoso.com*, *contoso.uk* és *contoso.in*), a bérlős segítségével csoportosíthatja azokat ugyanazon a számítógép-fiókban.
 
-- Az egyesülések és a beszerzések esetében több bérlőt kell használni (például ha a contoso a Fabrikamt szerezte be, akkor mindkét Constoso.com és a Fabrikam.com megfelelő bérlőt kell használnia).
+- Ha az összeolvadások és a beszerzések irányelvei megkövetelik, hogy mindkét vállalat bérlői is működjenek, akkor a *constoso.com* és a *fabrikam.com* bérlőket is használni fogja.
 
-- A bérlők bármelyikének a következőket kell tudnia:
-    1.  Partneri központ elérése képzéshez, digitális letöltésekhez, MCP-társításhoz
-    2.  Hozzá kell rendelni a partner Center-szerepköröket, például az MPN-rendszergazdát, az ösztönzők rendszergazdáját stb.
+- A bérlők felhasználói számára a következőket kell tudnia:
+    * A Microsoft Certified Professional (MCP) társításának elérése a partner centerrel.
+    * Társítsa a partner Center-szerepköröket, például a Microsoft Partner Network (MPN) rendszergazdai vagy ösztönző rendszergazdát.
 
+## <a name="add-an-azure-ad-tenant-to-your-account"></a>Azure AD-bérlő hozzáadása a fiókjához
 
-## <a name="add-another-azure-ad-tenant-to-your-account"></a>Másik Azure AD-bérlő hozzáadása a fiókhoz
+1. Jelentkezzen be globális rendszergazdaként a [Microsoft partner Centerbe](https://partner.microsoft.com/dashboard).
 
-1. Globális rendszergazdaként jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
-1. A **Beállítások** ikonban válassza a **Fiókbeállítások** , majd a **bérlők** lehetőséget.
+1. A jobb felső sarokban válassza a **Beállítások** lehetőséget, válassza a **Fiókbeállítások** lehetőséget, majd válassza a **bérlők** lehetőséget.
  
-:::image type="content" source="images/merge-accounts/multitenantNew.png" alt-text="bérlők hozzárendelése"::: 
+   :::image type="content" source="images/merge-accounts/multitenantNew.png" alt-text="Képernyőkép az Azure AD-profil ablaktábla hozzárendelés gombjáról."::: 
 
-3. Válassza a **másik ad-bérlő hozzárendelése** lehetőséget, és jelölje ki a hozzárendelni kívánt bérlőt.
+1. Válassza a **hozzárendelés** lehetőséget, majd adja meg a hozzárendelni kívánt bérlőt.
 
-1. Globális rendszergazdaként jelentkezzen be a társítani kívánt bérlőbe, és erősítse meg a társítást. 
+1. A parancssorban jelentkezzen be globális rendszergazdaként a hozzárendelni kívánt bérlőre, majd válassza a **Confirm (megerősítés**) lehetőséget. 
 
-:::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="bérlők hozzárendelésének megerősítése"::: 
+   :::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="Képernyőkép az új Azure AD-társítás megerősítése panel megerősítés gombjáról."::: 
 
-5. A megerősítést követően megjelenik az **összes beállított** értesítés.  Válassza a **Visszatérés a bérlői felügyelethez** lehetőséget, majd megjelenik az újonnan hozzáadott bérlő. 
+   Miután megerősítette a társítást, megjelenik az **összes beállított** üzenet. Az újonnan hozzáadott bérlő megtekintéséhez válassza a **Visszatérés a bérlői felügyeletbe** lehetőséget. 
  
-
 >[!NOTE]
->Nem lehet bérlőt társítani egy fiókhoz, ha már társítva van egy másik partner Center-fiókhoz.
+>Ha már társítva van egy másik partner Center-fiókkal, akkor nem lehet bérlőt társítani a fiókhoz.
 
 
 ## <a name="remove-a-tenant-from-your-account"></a>Bérlő eltávolítása a fiókból
  
-1. Globális rendszergazdaként jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be globális rendszergazdaként a [Microsoft partner Centerbe](https://partner.microsoft.com/dashboard).
 
-1. A **Beállítások** ikonban válassza a **Fiókbeállítások** – > bérlők lehetőséget, és kattintson a **partner** fülre.
+1. A jobb felső sarokban válassza a **Beállítások** ikont, majd válassza a **Fiókbeállítások** lehetőséget.
+
+1. A bal oldali ablaktáblán válassza a **bérlők** lehetőséget. Az **Azure ad-bérlők kezelése** területen válassza a **partner** lapot.
  
-3. Kattintson az **Eltávolítás** gombra a leválasztani kívánt bérlőhöz.
+1. Válassza az **Eltávolítás** lehetőséget azon bérlő mellett, amelynek társítását el szeretné távolítani.
 
-4. A bérlők leválasztása azt jelenti, hogy a bérlő felhasználóinak többé nem lesz hozzáférésük a partner Center-fiókhoz, és ez hatással lehet a kompetenciára. 
+   :::image type="content" source="images/disassociate.png" alt-text="Képernyőkép az aktuális bérlői társításokról és azok eltávolítási kapcsolatairól.":::
 
-Az **Eltávolítás** gomb minden társított bérlő esetében engedélyezve van, kivéve az elsődleges bérlőt és azt a bérlőt, amelyhez jelenleg be van jelentkezve.
+   Ahogy az előző képernyőképen is látható, az **eltávolítási** hivatkozások minden társított bérlőhöz engedélyezve vannak, kivéve az elsődleges bérlőt és a bérlőt, amelyre jelenleg bejelentkezett. 
 
-:::image type="content" source="images/disassociate.png" alt-text="az Eltávolítás gombbal rendelkező bérlők":::
- 
+   > [!NOTE]   
+   > Ha eltávolít egy bérlőt, az adott bérlő felhasználói már nem férnek hozzá a partner Center-fiókhoz, és az Eltávolítás hatással lehet a kompetenciára. 
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Felhasználók hozzáadása](create-user-accounts-and-set-permissions.md)
+- [Felhasználói fiókok létrehozása](create-user-accounts-and-set-permissions.md)
 
 
 

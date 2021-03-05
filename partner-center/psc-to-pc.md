@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: 84863e96278ba17ecc9922ff9589abc504ff1fe0
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 495d9899db36d0e4911647b337a99105a063236c
+ms.sourcegitcommit: 79d2f00c352db61252e523f45abf93fe2a2742a5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756186"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102124822"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -32,9 +32,9 @@ Ez a cikk útmutatást nyújt a partneri értékesítési partnerektől a partne
 > Ha azért van itt, mert az áttelepítéssel kapcsolatban egy, a PSC-ben megjelenő szalagcím található, akkor Ön a megfelelő helyen található. Ez az útmutató nem alkalmazható a megoldás-értékelési (SA) és az OEM licencelési üzleti partnerek számára, akik a PSC-ben lévő ügyleteket kezelik.
 
 >[!Important]
-> 2021. május 1-től a vállalata nem tudja létrehozni vagy szerkeszteni a PSC-t. **A meglévő ajánlatok adatai továbbra is letölthetők a PSC tömeges exportálási funkciójával. Ezen dátum után a PSC-ről a partneri központba is [áttelepítheti a nyitott ajánlatokat](psc-to-pc.md#psc-deals-migration) .** <br><br> Ha vannak olyan ügyletek, amelyekben aktívan dolgozik, és az IP-címek közös értékesítését ösztönző megoldásokat tartalmaz, két lehetőség közül választhat: <br><br> 1. az ügyletet elnyert értékként jelöli meg a PSC-ben, 2021 április 30-ig. <br> 2. [telepítse át az ajánlatokat](psc-to-pc.md#psc-deals-migration) a partneri központba, így több időt kell igénybe vennie a Deal és a Deal regisztráció megkezdéséhez.
+> 2021. április 1-től a vállalat nem tudja létrehozni vagy szerkeszteni a PSC-t. **A meglévő ajánlatok adatai továbbra is letölthetők a PSC tömeges exportálási funkciójával. Ezen dátum után a PSC-ről a partneri központba is [áttelepítheti a nyitott ajánlatokat](psc-to-pc.md#psc-deals-migration) .** <br><br> Ha vannak olyan ügyletek, amelyekben aktívan dolgozik, és az IP-címek közös értékesítését ösztönző megoldásokat tartalmaz, két lehetőség közül választhat: <br><br> 1. adja meg az ügyletet megnyertként, és fejezze be az ügylet regisztrációját a PSC-ben, a 2021 március 31-ig. <br> 2. [telepítse át az ajánlatokat](psc-to-pc.md#psc-deals-migration) a partneri központba, így több időt kell igénybe vennie a Deal és a Deal regisztráció megkezdéséhez.
 
-Amint tudja, a **vállalat a 2021. május 31-ig elveszíti a PSC-hez való hozzáférést**. Azonban továbbra is mindent megtalál, amit szeretne tenni a partner Centerben, mint például a közös értékesítési ajánlatok létrehozása, az ajánlatok kezelése és a Microsoft-értékesítők által eljuttatott ajánlatok.
+Amint tudja, a **vállalat a 2021. április 30-ig elveszíti a PSC-hez való hozzáférést**. Azonban továbbra is mindent megtalál, amit szeretne tenni a partner Centerben, mint például a közös értékesítési ajánlatok létrehozása, az ajánlatok kezelése és a Microsoft-értékesítők által eljuttatott ajánlatok.
 
 Azonban eltérőek lesznek. A következő útmutató segítséget nyújt a partneri központ gördülékenyebb és egyszerűbb átállásához.
 
