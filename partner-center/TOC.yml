@@ -102,8 +102,12 @@
         - name: A Visual Studio előnyei
           href: mpn-benefits-visual-studio.md
           displayname: 'visual studio, mpn, activate'
-        - name: Technikai értékesítéssel és üzembe helyezéssel járó előnyök
+        - name: Értékesítés előtti műszaki és üzembehelyezési szolgáltatások
           href: technical-benefits.md
+          displayname: 'TPD, presales, deployment, technical'
+        - name: Technikai előnyök
+          href: mpn-benefits-technical-support.md
+          displayname: 'support, incidents, technical'
     - name: Marketplace Rewards
       href: marketplace-rewards.md
     - name: Frissítési garancia

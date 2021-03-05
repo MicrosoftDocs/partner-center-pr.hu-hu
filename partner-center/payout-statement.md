@@ -6,13 +6,13 @@ ms.service: marketplace
 ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
-ms.date: 10/29/2020
-ms.openlocfilehash: 4a511dc026e3c71f05c5b18ca6d8915bd2654826
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.date: 3/2/2021
+ms.openlocfilehash: 681080b654ca1a12523a7ff63fc75a44daaab9b7
+ms.sourcegitcommit: 7ef441a0e4dbef11012212bfc087c5244a75765e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756163"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102185349"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
@@ -56,8 +56,7 @@ A [partneri kifizetési API](https://apidocs.microsoft.com/services/partnerpayou
 
 ## <a name="transaction-history"></a>Tranzakciók előzményei
 
-A **tranzakciók előzményei** oldalon látható a bevétel összegzése, a becsült következő fizetés, valamint a bevétel és a fizetések trendje az elmúlt 36 hónapban. Ebből a szakaszból a tranzakciók részleteit is letöltheti.
-
+A **tranzakciók előzményei** oldalon látható a bevétel összegzése, a becsült következő fizetés, valamint a bevétel és a fizetések trendje az elmúlt 36 hónapban. Ebből a szakaszból is letöltheti a tranzakció részleteit.<br><br>Ez a jelentés a kifizetésre jogosult összes bevételt megjeleníti, beleértve a még el nem juttatott kifizetéseket is. A bevétel jogosult a kifizetésre, ha egy ISV befejezte az összes banki és adózási információt a partner Centerben, >$50, az ISV-fiók aktív, és az ügyfél számlázása megtörtént (EA-tranzakciók esetében), vagy a fizetés megérkezett (nem EA tranzakciók esetében).
 
 :::image type="content" source="images/payouts/transaction-overview.png" alt-text="Tranzakciók áttekintése.":::
 
