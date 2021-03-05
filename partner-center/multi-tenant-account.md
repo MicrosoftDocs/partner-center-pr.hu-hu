@@ -1,80 +1,81 @@
 ---
-title: További bérlők hozzáadása a partner Center-fiókhoz
+title: Bérlők hozzáadása a partner Center-fiókhoz
 ms.topic: article
 ms.date: 01/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan adhat hozzá, összevonhat vagy kezelhet több Azure AD-bérlőt a partner Center-fiókban. Ismerje meg az egyes okokat is, amelyeket érdemes megtennie.
+description: Megtudhatja, hogyan adhat hozzá, összevonhat vagy kezelhet több Azure AD-bérlőt a partner Center-fiókban, és megtudhatja, miért érdemes ezt megtenni.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f9852b4e1c3997b82f744555db25fe64e1afc8ad
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 2f3094489f65b7164b4a55804047f9a4ab5f11cb
+ms.sourcegitcommit: 79d2f00c352db61252e523f45abf93fe2a2742a5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182433"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102124805"
 ---
-# <a name="add-and-manage-multiple-tenants-in-your-partner-center-account"></a><span data-ttu-id="55e5f-104">Több bérlő hozzáadása és kezelése a partner Center-fiókban</span><span class="sxs-lookup"><span data-stu-id="55e5f-104">Add and manage multiple tenants in your Partner Center account</span></span>
+# <a name="add-and-manage-multiple-tenants-in-your-partner-center-account"></a><span data-ttu-id="ced8b-103">Több bérlő hozzáadása és kezelése a partner Center-fiókban</span><span class="sxs-lookup"><span data-stu-id="ced8b-103">Add and manage multiple tenants in your Partner Center account</span></span>
 
 
-<span data-ttu-id="55e5f-105">**Megfelelő szerepkörök**</span><span class="sxs-lookup"><span data-stu-id="55e5f-105">**Appropriate roles**</span></span>
+<span data-ttu-id="ced8b-104">**Megfelelő szerepkörök**</span><span class="sxs-lookup"><span data-stu-id="ced8b-104">**Appropriate roles**</span></span>
 
-- <span data-ttu-id="55e5f-106">Globális rendszergazda</span><span class="sxs-lookup"><span data-stu-id="55e5f-106">Global admin</span></span>
-- <span data-ttu-id="55e5f-107">Fiókadminisztrátor</span><span class="sxs-lookup"><span data-stu-id="55e5f-107">Account admin</span></span>
+- <span data-ttu-id="ced8b-105">Globális rendszergazda</span><span class="sxs-lookup"><span data-stu-id="ced8b-105">Global admin</span></span>
+- <span data-ttu-id="ced8b-106">Fiókadminisztrátor</span><span class="sxs-lookup"><span data-stu-id="ced8b-106">Account admin</span></span>
 
-<span data-ttu-id="55e5f-108">Ez a funkció lehetővé teszi több, a vállalathoz tartozó bérlő kezelését és konszolidálását a Partnerközpont-fiókban.</span><span class="sxs-lookup"><span data-stu-id="55e5f-108">This feature allows you to manage multiple tenants for your company and to consolidate them into your Partner Center account.</span></span> <span data-ttu-id="55e5f-109">Számos oka lehet annak, hogy több Azure AD-bérlőt kell kezelnie a partner Center-fiókjában.</span><span class="sxs-lookup"><span data-stu-id="55e5f-109">There are many reasons why you may need to manage multiple Azure AD tenants in your Partner Center account.</span></span> <span data-ttu-id="55e5f-110">Például:</span><span class="sxs-lookup"><span data-stu-id="55e5f-110">For example:</span></span>
+<span data-ttu-id="ced8b-107">Ez a cikk azt ismerteti, hogyan lehet összevonni több Azure Active Directory (Azure AD) bérlőt a vállalat számára, majd a partner Center-fiókban felvenni és felügyelni azokat.</span><span class="sxs-lookup"><span data-stu-id="ced8b-107">This article discusses how to consolidate multiple Azure Active Directory (Azure AD) tenants for your company and then add and manage them in your Partner Center account.</span></span> <span data-ttu-id="ced8b-108">Ennek számos oka van.</span><span class="sxs-lookup"><span data-stu-id="ced8b-108">There are many reasons to do so.</span></span> <span data-ttu-id="ced8b-109">Például:</span><span class="sxs-lookup"><span data-stu-id="ced8b-109">For example:</span></span>
 
-- <span data-ttu-id="55e5f-111">A vállalat megvásárolhat egy másik vállalatot, és azt szeretné, hogy az új vállalat alkalmazottai használni tudják a partner centert.</span><span class="sxs-lookup"><span data-stu-id="55e5f-111">Your company may purchase another company, and you want the employees in the new company to be able to use Partner Center.</span></span> <span data-ttu-id="55e5f-112">Azonban azt szeretné, hogy a két vállalat külön maradjon.</span><span class="sxs-lookup"><span data-stu-id="55e5f-112">However, you want the two companies to remain separate.</span></span> <span data-ttu-id="55e5f-113">Ebben az esetben az új vállalati Azure AD-bérlőt a partner globális fiókjával (PGA) társíthatja.</span><span class="sxs-lookup"><span data-stu-id="55e5f-113">In this case, you'd associate the new company's Azure AD tenant with your Partner global account (PGA).</span></span> <span data-ttu-id="55e5f-114">Ez a társítás azt teszi lehetővé, hogy mindkét vállalat felhasználói működjenek a partner Centerben.</span><span class="sxs-lookup"><span data-stu-id="55e5f-114">This association would enable users in both companies to work in Partner Center.</span></span>
+- <span data-ttu-id="ced8b-110">Tegyük fel, hogy vállalata, a contoso, megszerezte a fabrikam egy másik vállalatát.</span><span class="sxs-lookup"><span data-stu-id="ced8b-110">Let's say your company, Contoso, has acquired another company, Fabrikam.</span></span> <span data-ttu-id="ced8b-111">Azt szeretné, hogy a két vállalat külön maradjon, de azt szeretné, hogy az új alkalmazottak használni tudják a partner centert.</span><span class="sxs-lookup"><span data-stu-id="ced8b-111">You want the two companies to remain separate, but you want the new employees to be able to use Partner Center.</span></span> <span data-ttu-id="ced8b-112">Ebben az esetben az új vállalati Azure AD-bérlőt a partner globális fiókjával (PGA) társítja.</span><span class="sxs-lookup"><span data-stu-id="ced8b-112">In this case, you associate the new company's Azure AD tenant with your Partner global account (PGA).</span></span> <span data-ttu-id="ced8b-113">Ez a társítás lehetővé teszi, hogy mindkét vállalat felhasználói működjenek a partner Centerben.</span><span class="sxs-lookup"><span data-stu-id="ced8b-113">This association enables users in both companies to work in Partner Center.</span></span>
 
-- <span data-ttu-id="55e5f-115">Ha több Bérlővel is futtatja vállalkozását (pl.: contoso.com, contoso.uk, contoso.in), a több-bérlős használatával összekapcsolhatja őket ugyanazzal a PC-fiókkal.</span><span class="sxs-lookup"><span data-stu-id="55e5f-115">If you have more than one tenant to run your business (e.g. contoso.com, contoso.uk, contoso.in) you can use multi-tenancy to tie them under the same PC account.</span></span>
+- <span data-ttu-id="ced8b-114">Ha több Bérlővel is futtatja vállalkozását (például *contoso.com*, *contoso.uk* és *contoso.in*), a bérlős segítségével csoportosíthatja azokat ugyanazon a számítógép-fiókban.</span><span class="sxs-lookup"><span data-stu-id="ced8b-114">If you run your business with more than one tenant (for example, *contoso.com*, *contoso.uk*, and *contoso.in*), you can use multitenancy to group them in the same PC account.</span></span>
 
-- <span data-ttu-id="55e5f-116">Az egyesülések és a beszerzések esetében több bérlőt kell használni (például ha a contoso a Fabrikamt szerezte be, akkor mindkét Constoso.com és a Fabrikam.com megfelelő bérlőt kell használnia).</span><span class="sxs-lookup"><span data-stu-id="55e5f-116">Mergers and acquisitions requires you to work with more than one tenant (e.g. If Contoso acquires Fabrikam, you would need to be able to use both Constoso.com and Fabrikam.com respective tenants).</span></span>
+- <span data-ttu-id="ced8b-115">Ha az összeolvadások és a beszerzések irányelvei megkövetelik, hogy mindkét vállalat bérlői is működjenek, akkor a *constoso.com* és a *fabrikam.com* bérlőket is használni fogja.</span><span class="sxs-lookup"><span data-stu-id="ced8b-115">If mergers and acquisitions guidelines require you to work with tenants of both companies, you would use both the *constoso.com* and *fabrikam.com* tenants.</span></span>
 
-- <span data-ttu-id="55e5f-117">A bérlők bármelyikének a következőket kell tudnia:</span><span class="sxs-lookup"><span data-stu-id="55e5f-117">Users from any of the tenants would need to be able to:</span></span>
-    1.  <span data-ttu-id="55e5f-118">Partneri központ elérése képzéshez, digitális letöltésekhez, MCP-társításhoz</span><span class="sxs-lookup"><span data-stu-id="55e5f-118">Access Partner Center for training, digital downloads, MCP association</span></span>
-    2.  <span data-ttu-id="55e5f-119">Hozzá kell rendelni a partner Center-szerepköröket, például az MPN-rendszergazdát, az ösztönzők rendszergazdáját stb.</span><span class="sxs-lookup"><span data-stu-id="55e5f-119">Be assigned Partner Center roles like MPN Admin, Incentives Admin etc.</span></span>
+- <span data-ttu-id="ced8b-116">A bérlők felhasználói számára a következőket kell tudnia:</span><span class="sxs-lookup"><span data-stu-id="ced8b-116">Users of any of the tenants need to be able to:</span></span>
+    * <span data-ttu-id="ced8b-117">A Microsoft Certified Professional (MCP) társításának elérése a partner centerrel.</span><span class="sxs-lookup"><span data-stu-id="ced8b-117">Access Partner Center for training, digital downloads, or Microsoft Certified Professional (MCP) association.</span></span>
+    * <span data-ttu-id="ced8b-118">Társítsa a partner Center-szerepköröket, például a Microsoft Partner Network (MPN) rendszergazdai vagy ösztönző rendszergazdát.</span><span class="sxs-lookup"><span data-stu-id="ced8b-118">Be assigned Partner Center roles such as Microsoft Partner Network (MPN) admin or incentives admin.</span></span>
 
+## <a name="add-an-azure-ad-tenant-to-your-account"></a><span data-ttu-id="ced8b-119">Azure AD-bérlő hozzáadása a fiókjához</span><span class="sxs-lookup"><span data-stu-id="ced8b-119">Add an Azure AD tenant to your account</span></span>
 
-## <a name="add-another-azure-ad-tenant-to-your-account"></a><span data-ttu-id="55e5f-120">Másik Azure AD-bérlő hozzáadása a fiókhoz</span><span class="sxs-lookup"><span data-stu-id="55e5f-120">Add another Azure AD tenant to your account</span></span>
+1. <span data-ttu-id="ced8b-120">Jelentkezzen be globális rendszergazdaként a [Microsoft partner Centerbe](https://partner.microsoft.com/dashboard).</span><span class="sxs-lookup"><span data-stu-id="ced8b-120">Sign in as global admin to [Microsoft Partner Center](https://partner.microsoft.com/dashboard).</span></span>
 
-1. <span data-ttu-id="55e5f-121">Globális rendszergazdaként jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).</span><span class="sxs-lookup"><span data-stu-id="55e5f-121">As the global admin, sign into the Partner Center [dashboard](https://partner.microsoft.com/dashboard).</span></span>
-1. <span data-ttu-id="55e5f-122">A **Beállítások** ikonban válassza a **Fiókbeállítások** , majd a **bérlők** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="55e5f-122">From the **Settings** icon, select **Account settings** and then select **Tenants**.</span></span>
+1. <span data-ttu-id="ced8b-121">A jobb felső sarokban válassza a **Beállítások** lehetőséget, válassza a **Fiókbeállítások** lehetőséget, majd válassza a **bérlők** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="ced8b-121">At the upper right, select **Settings**, select **Account settings**, and then select **Tenants**.</span></span>
  
-:::image type="content" source="images/merge-accounts/multitenantNew.png" alt-text="bérlők hozzárendelése"::: 
+   :::image type="content" source="images/merge-accounts/multitenantNew.png" alt-text="Képernyőkép az Azure AD-profil ablaktábla hozzárendelés gombjáról."::: 
 
-3. <span data-ttu-id="55e5f-124">Válassza a **másik ad-bérlő hozzárendelése** lehetőséget, és jelölje ki a hozzárendelni kívánt bérlőt.</span><span class="sxs-lookup"><span data-stu-id="55e5f-124">Select **Associate another AD tenant** and indicate the tenant you want to associate.</span></span>
+1. <span data-ttu-id="ced8b-123">Válassza a **hozzárendelés** lehetőséget, majd adja meg a hozzárendelni kívánt bérlőt.</span><span class="sxs-lookup"><span data-stu-id="ced8b-123">Select **Associate**, and then indicate the tenant you want to associate.</span></span>
 
-1. <span data-ttu-id="55e5f-125">Globális rendszergazdaként jelentkezzen be a társítani kívánt bérlőbe, és erősítse meg a társítást.</span><span class="sxs-lookup"><span data-stu-id="55e5f-125">As global admin, sign into the tenant you want to associate and confirm the association.</span></span> 
+1. <span data-ttu-id="ced8b-124">A parancssorban jelentkezzen be globális rendszergazdaként a hozzárendelni kívánt bérlőre, majd válassza a **Confirm (megerősítés**) lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="ced8b-124">At the prompt, sign in as global admin to the tenant you want to associate, and then select **Confirm**.</span></span> 
 
-:::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="bérlők hozzárendelésének megerősítése"::: 
+   :::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="Képernyőkép az új Azure AD-társítás megerősítése panel megerősítés gombjáról."::: 
 
-5. <span data-ttu-id="55e5f-127">A megerősítést követően megjelenik az **összes beállított** értesítés.</span><span class="sxs-lookup"><span data-stu-id="55e5f-127">After you confirm, you will see an **All set** notice.</span></span>  <span data-ttu-id="55e5f-128">Válassza a **Visszatérés a bérlői felügyelethez** lehetőséget, majd megjelenik az újonnan hozzáadott bérlő.</span><span class="sxs-lookup"><span data-stu-id="55e5f-128">Select **Return to tenant management** and you'll see the newly added tenant listed.</span></span> 
+   <span data-ttu-id="ced8b-126">Miután megerősítette a társítást, megjelenik az **összes beállított** üzenet.</span><span class="sxs-lookup"><span data-stu-id="ced8b-126">After you've confirmed the association, an **All set** message is displayed.</span></span> <span data-ttu-id="ced8b-127">Az újonnan hozzáadott bérlő megtekintéséhez válassza a **Visszatérés a bérlői felügyeletbe** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="ced8b-127">To view the newly added tenant, select **Return to tenant management**.</span></span> 
  
-
 >[!NOTE]
-><span data-ttu-id="55e5f-129">Nem lehet bérlőt társítani egy fiókhoz, ha már társítva van egy másik partner Center-fiókhoz.</span><span class="sxs-lookup"><span data-stu-id="55e5f-129">You can't associate a tenant to an account if it is already associated to another Partner Center account.</span></span>
+><span data-ttu-id="ced8b-128">Ha már társítva van egy másik partner Center-fiókkal, akkor nem lehet bérlőt társítani a fiókhoz.</span><span class="sxs-lookup"><span data-stu-id="ced8b-128">You can't associate a tenant with an account if it's already associated with another Partner Center account.</span></span>
 
 
-## <a name="remove-a-tenant-from-your-account"></a><span data-ttu-id="55e5f-130">Bérlő eltávolítása a fiókból</span><span class="sxs-lookup"><span data-stu-id="55e5f-130">Remove a tenant from your account</span></span>
+## <a name="remove-a-tenant-from-your-account"></a><span data-ttu-id="ced8b-129">Bérlő eltávolítása a fiókból</span><span class="sxs-lookup"><span data-stu-id="ced8b-129">Remove a tenant from your account</span></span>
  
-1. <span data-ttu-id="55e5f-131">Globális rendszergazdaként jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).</span><span class="sxs-lookup"><span data-stu-id="55e5f-131">As the global admin, sign into the Partner Center [dashboard](https://partner.microsoft.com/dashboard).</span></span>
+1. <span data-ttu-id="ced8b-130">Jelentkezzen be globális rendszergazdaként a [Microsoft partner Centerbe](https://partner.microsoft.com/dashboard).</span><span class="sxs-lookup"><span data-stu-id="ced8b-130">Sign in as global admin to [Microsoft Partner Center](https://partner.microsoft.com/dashboard).</span></span>
 
-1. <span data-ttu-id="55e5f-132">A **Beállítások** ikonban válassza a **Fiókbeállítások** – > bérlők lehetőséget, és kattintson a **partner** fülre.</span><span class="sxs-lookup"><span data-stu-id="55e5f-132">From the **Settings** icon, select **Account settings** -> Tenants and click on the **Partner** tab.</span></span>
+1. <span data-ttu-id="ced8b-131">A jobb felső sarokban válassza a **Beállítások** ikont, majd válassza a **Fiókbeállítások** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="ced8b-131">At the upper right, select the **Settings** icon, and then select **Account settings**.</span></span>
+
+1. <span data-ttu-id="ced8b-132">A bal oldali ablaktáblán válassza a **bérlők** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="ced8b-132">On the left pane, select **Tenants**.</span></span> <span data-ttu-id="ced8b-133">Az **Azure ad-bérlők kezelése** területen válassza a **partner** lapot.</span><span class="sxs-lookup"><span data-stu-id="ced8b-133">Under **Manage Azure AD tenants**, select the **Partner** tab.</span></span>
  
-3. <span data-ttu-id="55e5f-133">Kattintson az **Eltávolítás** gombra a leválasztani kívánt bérlőhöz.</span><span class="sxs-lookup"><span data-stu-id="55e5f-133">Click **Remove** for the tenant you want to dissociate.</span></span>
+1. <span data-ttu-id="ced8b-134">Válassza az **Eltávolítás** lehetőséget azon bérlő mellett, amelynek társítását el szeretné távolítani.</span><span class="sxs-lookup"><span data-stu-id="ced8b-134">Select **Remove** next to the tenant whose association you want to remove.</span></span>
 
-4. <span data-ttu-id="55e5f-134">A bérlők leválasztása azt jelenti, hogy a bérlő felhasználóinak többé nem lesz hozzáférésük a partner Center-fiókhoz, és ez hatással lehet a kompetenciára.</span><span class="sxs-lookup"><span data-stu-id="55e5f-134">Dissociating a tenant means that the users on that tenant will no longer have access to the Partner Center account, and this could have an impact on your competencies.</span></span> 
+   :::image type="content" source="images/disassociate.png" alt-text="Képernyőkép az aktuális bérlői társításokról és azok eltávolítási kapcsolatairól.":::
 
-<span data-ttu-id="55e5f-135">Az **Eltávolítás** gomb minden társított bérlő esetében engedélyezve van, kivéve az elsődleges bérlőt és azt a bérlőt, amelyhez jelenleg be van jelentkezve.</span><span class="sxs-lookup"><span data-stu-id="55e5f-135">The **Remove** button is enabled for all associated tenants, except the primary tenant and the tenant which you are currently signed into.</span></span>
+   <span data-ttu-id="ced8b-136">Ahogy az előző képernyőképen is látható, az **eltávolítási** hivatkozások minden társított bérlőhöz engedélyezve vannak, kivéve az elsődleges bérlőt és a bérlőt, amelyre jelenleg bejelentkezett.</span><span class="sxs-lookup"><span data-stu-id="ced8b-136">As shown in the preceding screenshot, the **Remove** links are enabled for all associated tenants, except for the primary tenant and the tenant that you're currently signed in to.</span></span> 
 
-:::image type="content" source="images/disassociate.png" alt-text="az Eltávolítás gombbal rendelkező bérlők":::
- 
+   > [!NOTE]   
+   > <span data-ttu-id="ced8b-137">Ha eltávolít egy bérlőt, az adott bérlő felhasználói már nem férnek hozzá a partner Center-fiókhoz, és az Eltávolítás hatással lehet a kompetenciára.</span><span class="sxs-lookup"><span data-stu-id="ced8b-137">When you remove a tenant, the users on that tenant no longer have access to the Partner Center account, and the removal might have an impact on your competencies.</span></span> 
 
-## <a name="next-steps"></a><span data-ttu-id="55e5f-137">Következő lépések</span><span class="sxs-lookup"><span data-stu-id="55e5f-137">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="ced8b-138">Következő lépések</span><span class="sxs-lookup"><span data-stu-id="ced8b-138">Next steps</span></span>
 
-- [<span data-ttu-id="55e5f-138">Felhasználók hozzáadása</span><span class="sxs-lookup"><span data-stu-id="55e5f-138">Add users</span></span>](create-user-accounts-and-set-permissions.md)
+- [<span data-ttu-id="ced8b-139">Felhasználói fiókok létrehozása</span><span class="sxs-lookup"><span data-stu-id="ced8b-139">Create user accounts</span></span>](create-user-accounts-and-set-permissions.md)
 
 
 
