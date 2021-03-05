@@ -8,17 +8,91 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/03/2021
-ms.openlocfilehash: 0ffc09fc6496fc053a8ca150bd85235976153c03
-ms.sourcegitcommit: 7ef441a0e4dbef11012212bfc087c5244a75765e
+ms.date: 03/04/2021
+ms.openlocfilehash: 8b86623c6af832de654e3c4ad9fea666427eb51d
+ms.sourcegitcommit: b0734f9c9ef6c582095573eb0a73cc0c39c7e65b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "102185264"
+ms.locfileid: "102220295"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="partner-center-software-license-key-and-download-fulfillment"></a><a name="4"></a>A partner Center szoftverlicenc-kulcsa és a letöltés teljesítése
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-04
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A partner Center szoftver letöltése és a licencek kulcsának teljesítésére szolgáló képesség vissza lett állítani.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden olyan felhőalapú megoldás-szolgáltatói (CSP) partner, amely az örökös és a kiszolgálói előfizetési szoftverek rendeléseit a partner centeren keresztül
+
+### <a name="details"></a>Részletek
+
+A partneri visszajelzések megválaszolásával a visszaállítja teljesítjük a szoftver-és licenckulcs beszerzését az örökös és a kiszolgálói előfizetési szoftverek rendeléseihez. A rendszer a korábbi állapotába állítja vissza, mielőtt a 2021. január 19-én megszűnik. (Lásd a [közleményt](2020-september.md#17).)
+
+Vegye figyelembe, hogy a szoftverlicenc-kulcsok és a letöltési hivatkozások értékesek és rendkívül keresettek a szellemi tulajdonban lévő eszközök után. Ha kiszivárgott, gyorsan kimerítheti az aktiválási korlátokat, és negatív ügyfél-és partneri élményt eredményezhet.
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a következő forrásokat a használati utasításokhoz, valamint a szoftveres kulcs terjesztésével kapcsolatos fontos útmutatást:
+
+- [Helyszíni szoftverek értékesítése a CSP programon keresztül](https://docs.microsoft.com/partner-center/csp-on-premise-software)
+- A [partner Center új kereskedelmi üzemeltetési útmutatója](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf) (lásd: **útmutató a szoftveres kulcs terjesztéséhez** .)
+
+### <a name="questions"></a>Kérdése van?
+
+Ha további kérdése van a nyilatkozattal kapcsolatban, tekintse meg a megfelelő Yammer-közösségeket.
+
+________________
+## <a name="migrate-your-deals-from-partner-sales-connect-psc-to-partner-center"></a><a name="3"></a>A partner értékesítési összekötő (PSC) és a partner Center közötti ajánlatok áttelepíthetők
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-04
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A partner Sales-kapcsolódás (PSC) a 2021-as naptól kezdődő írásvédett hozzáférésre vált, ezért javasoljuk, hogy kezdje el áttelepíteni az ajánlatokat a PSC-ből a partneri központba.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Partnerek a PSC-ben található ügyletekkel
+
+### <a name="details"></a>Részletek
+
+A növekedés iránti közös elkötelezettségünk részeként a **Microsofttal közösen értékesítjük** a **felderített, szakértelmét, és kiterjesztjük** az ügyfél-lábnyomot a pozitív ügyfelek eredményeire. Ha átlagosan **3,5-szor gyorsabb** , mint a normál, a partner Center közös értékesítésű felhasználói élményének kezelése lehetővé teszi a közvetlen ügyfél-, partner-és Microsoft-értékesítői csatornák értékesítését, és egy helyen kezelheti a teljes átirányítási folyamatot.
+
+A **PSC** a **2021**-as naptól kezdve **csak olvasási hozzáférésre** kerül át, ezért javasoljuk, hogy indítsa el a partneri központba való áttérést 
+
+- A Microsoft és a megfelelő eladó közötti megosztások **pontosabb irányítása** a szükséges segítségnyújtási típus alapján.
+- **Előzetes támogatási jogosultságok érvényesítése** az ösztönzőre jogosult megoldások esetében, valamint az ISV kapcsolódási program feltételeinek teljesítése, a jóváhagyási folyamat és a végrehajtás végleges igazolása (PoE) igazolása.
+- **Zökkenőmentes felhasználói élmény** , amellyel egyetlen helyen kezelheti az összes közös értékesítéssel kapcsolatos lehetőséget és értékesítési minősítéssel rendelkező érdeklődőket.
+
+Nemrégiben új funkciókat is hozzáadott a partner Centerben, hogy segítséget nyújtson az áthelyezéshez:
+
+- [Tömeges műveletek közös értékesítési lehetőségekhez](https://docs.microsoft.com/partner-center/bulk-operations)
+- Az [ügylet áttelepítési funkciója](https://docs.microsoft.com/partner-center/psc-to-pc) (lásd: a **PSC-ajánlatok áttelepítése** szakasz)
+
+Az értékesítési csapatoknak több idő áll rendelkezésére a partner Center közös értékesítéssel kapcsolatos tapasztalataira, így az érdeklődők és a lehetőségek kiépítésére, az ajánlatok bezárására és a tartós ügyfélkapcsolatok létrehozására összpontosítanak.
+
+### <a name="next-steps"></a>Következő lépések
+
+A partneri központ [áttérési útmutatója](https://docs.microsoft.com/partner-center/psc-to-pc) végigvezeti Önt az ajánlatok PSC-ből a partneri központba való átirányításának lépésein.
+
+### <a name="questions"></a>Kérdése van?
+
+További kérdésekért forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1).
 
 ________________
 ## <a name="new-microsoft-dynamics-365-products-and-offers-available-on-april-1-2021"></a><a name="2"></a>Új Microsoft Dynamics 365-termékek és-ajánlatok, amelyek az 2021. április 1-jén érhetők el

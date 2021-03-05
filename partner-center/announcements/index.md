@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/04/2021
-ms.openlocfilehash: 2911dadc6efb2ad03d775d4476c50e8ca887c174
-ms.sourcegitcommit: 7ef441a0e4dbef11012212bfc087c5244a75765e
+ms.openlocfilehash: c504c3b7ed0cffe8b698b308ca66ab591e55cccf
+ms.sourcegitcommit: b0734f9c9ef6c582095573eb0a73cc0c39c7e65b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "102185281"
+ms.locfileid: "102220274"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[A partner Center szoftverlicenc-kulcsa és a letöltés teljesítése](2021-march.md#4)|Március 5.|
+|Képességek|[A partner értékesítési összekötő (PSC) és a partner Center közötti ajánlatok áttelepíthetők](2021-march.md#3)|Március 5.|
 |Képességek|[Új Microsoft Dynamics 365-termékek és-ajánlatok, amelyek az 2021. április 1-jén érhetők el](2021-march.md#2)|Március 4.|
 |Képességek|[A Microsoft Universal Print már elérhető néhány lakosztályban](2021-march.md#1)|Március 3.|
 |**Kategória**|**Február 2021 közlemények**|**Bejelentve**|

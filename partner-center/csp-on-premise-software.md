@@ -1,35 +1,31 @@
 ---
-title: Helyszíni szoftverek eladása CSP-n keresztül
+title: Helyszíni szoftverek értékesítése CSP-n keresztül
 ms.topic: how-to
-ms.date: 01/29/2021
+ms.date: 03/04/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a CSP program partnerei hogyan vásárolhatják meg, kezelhetik, adhatják meg és törölhetik a helyszíni szoftveres előfizetéseket a partner Centerben lévő ügyfelek nevében.
+description: Ismerje meg, hogy a CSP program partnerei hogyan vásárolhatják meg, kezelhetik, értékesítik és törölhetik a helyszíni szoftveres előfizetéseket a partner Centerben lévő ügyfelek nevében.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 927135e3615d554ed4180dc9100ab0c4d5a3586e
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 6c442711a3b60f5014397b3b2d8bdfd75a852fcc
+ms.sourcegitcommit: b0734f9c9ef6c582095573eb0a73cc0c39c7e65b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756051"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102220244"
 ---
-# <a name="sell-on-premise-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek értékesítése a Cloud Solution Provider (CSP) programon keresztül
+# <a name="sell-on-premises-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
 **Megfelelő szerepkörök**
 
 - Felügyeleti ügynök
 - Globális rendszergazda
 
-A CSP-ben lévő helyszíni szoftverek támogatják a felhőbe való zökkenőmentes áttérést azáltal, hogy a helyszíni szoftvereket felhőbe irányított programban bevezetik.Ez az új ajánlat lehetővé teszi, hogy a hozzáadott értékkel rendelkező partner minden vásárlási forgatókönyvben elérhető legyen, mivel egyetlen platformot biztosítanak az összes Microsoft-termék lebonyolításához. CSP-ként mostantól a partner centeren keresztül is értékesítheti a helyszíni szoftvereket a jelenleg használatban lévő Open, EA és más programok mellett. A CSP-ben a helyszíni szoftverek egy új értékesítési program, és nem helyettesíthetik a Microsoft más mennyiségi licencelési programját. 
+A CSP-ben lévő helyszíni szoftverek a felhőbe való zökkenőmentes áttérést támogatják a helyszíni szoftverek felhőalapú programban való bevezetésével.Ez az új ajánlat lehetővé teszi, hogy a hozzáadott értékkel rendelkező partner minden vásárlási forgatókönyvben elérhető legyen, mivel egyetlen platformot biztosítanak az összes Microsoft-termék lebonyolításához. A kriptográfiai szolgáltatóként mostantól a partner centeren keresztül is értékesítheti a helyszíni szoftvereket a jelenleg használatban lévő Open, EA és más programok mellett.  
  
-Miközben a legjobb általános vásárlói értéket biztosítjuk a helyszíni szoftverlicenc-beállításokkal, az üzleti modellt is a lehető legkedvezőbb módon tesszük elérhetővé. A helyszíni szoftverek egyszerű licencelése a CSP-ben a költségek kiszámíthatóságát és a zökkenőmentes értékesítési folyamatot jelenti. Ez az új üzleti modell megkönnyíti az ügyfelek számára a helyszíni szoftverek beszerzését, kezelését és árát, így Ön a nyertes üzletre összpontosíthat, és kibővített portfólióval bővítheti az informatikai felügyeletet. 
-
->[!NOTE]
->A helyszíni szoftverek jelenleg korlátozott számú partner számára érhetők el. Ha szeretné megtudni, hogy jogosult-e, tekintse meg a Microsoft-névjegyét. 
-
+Miközben a legjobb általános vásárlói értéket biztosítjuk a helyszíni szoftverlicenc-beállításokkal, az üzleti modellt is a lehető legkedvezőbb módon tesszük elérhetővé. A helyszíni szoftverek egyszerű licencelése a CSP-ben a költségek kiszámíthatóságát és a zökkenőmentes értékesítési folyamatot jelenti. Ez az új üzleti modell megkönnyíti az ügyfelek számára a helyszíni szoftverek beszerzését, kezelését és díjszabását, így Ön a nyertes üzletre összpontosíthat, és kibővített portfólióval bővítheti az informatikai részleg által hozzáadott megoldásait.
 
 ## <a name="buy-software-subscriptions-on-behalf-of-customers"></a>Szoftveres Előfizetések vásárlása ügyfelek nevében
 
@@ -37,18 +33,16 @@ Ha előfizetést szeretne megvásárolni az ügyfél nevében, lépjen az ügyf�
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-A szoftver megvásárlása után az ügyfeleknek le kell tölteniük. Ezt a következő eljárással végezheti el.
+A szoftver megvásárlása után Önnek vagy az ügyfeleknek le kell töltenie. Ezt a következő eljárással végezheti el.
 
 >[!NOTE]
 >A kulcsok és a letöltések hivatkozásának beszerzéséhez rendszergazdai ügynöknek kell lennie.
 
 1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
-2. Másolja a "Deep Link" (részletes hivatkozás) elemet a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti központba, hogy letöltse és beszerezze a termék kulcsait.
+2. Kövesse a [partner üzemeltetési útmutatójának](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf) utasításait, hogy az ügyfél nevében teljesítse a szoftverek vásárlásának teljesítését.
 
 >[!NOTE]
 >A Microsoft felügyeleti központban csak az ügyfelek láthatják a termékkulcsot és tölthetik le az adatokat. A partnerek nem látják ezeket az információkat.
-
-Ha Ön vagy ügyfelei szeretnének többet megtudni a licenckulcs letöltéséről, tekintse meg a [szoftver és a termék licenc kulcsainak letöltése](/microsoft-365/admin/setup/download-software-licenses-csp)című témakört.
 
 ## <a name="cancel-a-purchase"></a>Vásárlás megszakítása
 
