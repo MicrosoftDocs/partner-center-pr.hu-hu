@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 11/11/2020
-ms.openlocfilehash: 93ee3e142bf11c3b329fd27ec7320b93aea780b8
-ms.sourcegitcommit: cc30a06abe55b9da32177a24e74bfd6fc7d8bbb9
+ms.openlocfilehash: a59cf0b271a0ccf5fd5a1d8e3e85ff43818a3801
+ms.sourcegitcommit: fe867be44de3479607be3309940b904d7ea9fc6e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94532038"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102247707"
 ---
 # <a name="add-azure-partner-shared-services-so-partners-can-buy-azure-subscriptions-for-their-own-use"></a>Azure partner megosztott szolgáltatások hozzáadása, hogy a partnerek saját használatra tudják megvásárolni az Azure-előfizetéseket
 
@@ -45,7 +45,7 @@ Az Azure partner Shared Services egy új ajánlat típusa a CSP programban lév�
 
 - A Azure-Internal/Shared Services-előfizetés egy olyan új Azure-ajánlat típusa, amely a partner centeren keresztül érhető el, és a partnerek az Azure-t használják.
 
-- Azure-Internal/Shared Services ajánlat kedvezményeket és ösztönzőket vehet igénybe.  Az Azure partner Shared Services-előfizetések jogosultak, és a RIs megvásárlására is használhatók.
+- Az Azure partner Shared Services-előfizetések jogosultak, és a RIs megvásárlására is használhatók.
 
 - Az Azure-Internal/Shared Services ajánlat csak a megosztott szolgáltatások bérlőre alkalmazható.
 
@@ -59,7 +59,7 @@ Az Azure-beli felhasználást a CSP-számlán és a megbékélési fájlban tal�
 
 ## <a name="azure-partner-shared-services-pricing"></a>Az Azure partner megosztott szolgáltatásainak díjszabása
 
-Ha szeretné megtekinteni az Azure partner megosztott szolgáltatásainak új díjszabási fájlját, válassza a **Sell**  >  **díjszabás és ajánlatok** eladása lehetőséget, és válassza ki az aktuális hónap árlista listáját. Az elkövetkező hetekben egy adott díj kártya API-t is kiadunk.
+Ha szeretné megtekinteni az Azure partner megosztott szolgáltatásainak új díjszabási fájlját, válassza a   >  **díjszabás és ajánlatok** eladása lehetőséget, és válassza ki az aktuális hónap árlista listáját. Az elkövetkező hetekben egy adott díj kártya API-t is kiadunk.
 
 ## <a name="marketplace-offers-and-azure-partner-shared-services"></a>Piactéri ajánlatok és az Azure partner megosztott szolgáltatásai
 

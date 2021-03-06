@@ -1,7 +1,7 @@
 ---
 title: Regionális adók és adómentességek
 ms.topic: article
-ms.date: 12/04/2020
+ms.date: 03/05/2021
 description: A CSP-programbeli partnereink számára régiónként tájékozódhat az adózási feladatokról, a CSP-értékesítésekre vonatkozó adómentességek beküldéséről, valamint az adóügyi kérdések támogatásáról.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,19 +9,15 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3777ea3dbf6d889787c942e584087b2378659adb
-ms.sourcegitcommit: 54c19f62474a4841d0bbd6a02a84b9c597f70fae
+ms.openlocfilehash: f423687cacb1f1b2d53750075ff7db9837e8125c
+ms.sourcegitcommit: fe867be44de3479607be3309940b904d7ea9fc6e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96755588"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102247675"
 ---
 # <a name="read-about-taxes-and-tax-exemption-details-by-region-or-country-for-partners-in-the-csp-program"></a>További információ az adó-és adómentességi részletekről régió vagy ország szerint a CSP programban résztvevő partnerek számára
 
-Hatóköre:
-
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
 
 A Cloud Solution Provider (CSP) program egy értékesítési csatorna, amely a termékek partneri viszonteladására koncentrál. Ennek eredményeképpen a Microsoft nem mindig köteles fizetni a partneri számlákra vonatkozó forgalmi adót. A szabályok országonként és/vagy régiónként változnak. Megtekintheti [az országspecifikus és régió-specifikus adatokat az adómentességek tekintetében](#country-and-region-tax-details).
 
@@ -33,7 +29,6 @@ A kanadai és a Egyesült Államok számára speciális, adózással kapcsolatos
 
 Ha egy olyan országban vagy régióban van, amely adót számít fel, tekintse meg [az egyéb régiók információit](#other-regions).
 
-Ha további kérdése [van, kérjen támogatást a partner Centerben](#support).
 
 ### <a name="canada"></a>Kanada
 
@@ -71,6 +66,6 @@ Ha készen áll az adómentesség beszerzésére, nyisson meg egy jegyet [Micros
 
 Az adómentességekkel és visszatérítésekkel, illetve az egyéb, adózással kapcsolatos kérdésekkel kapcsolatos kérdésekben kérjen támogatást a partner Centerben. Engedélyezzen két hétig a Microsoft számára, hogy kapcsolatba lépjen Önnel, és hárítsa el a problémát.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Számlázás](billing.md)

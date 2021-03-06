@@ -6,13 +6,13 @@ ms.subservice: partnercenter-marketplace-publisher
 ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
-ms.date: 11/25/2020
-ms.openlocfilehash: a1dda9c49486d9da92b7f7f5623a37739736873f
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.date: 03/05/2021
+ms.openlocfilehash: 4cbbf89ef0df9c3fd1c1d4c59977a8ba34317673
+ms.sourcegitcommit: fe867be44de3479607be3309940b904d7ea9fc6e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98924905"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "102247655"
 ---
 # <a name="common-questions-about-payouts-and-taxes"></a>A kifizetésekkel és az adókkal kapcsolatos gyakori kérdések
 
@@ -63,7 +63,14 @@ A vállalat feladata annak biztosítása, hogy az ösztönzők adminisztrátori 
 
 #### <a name="my-tax-profile-has-expired-how-do-i-fix-this"></a>Az adó profil lejárt. Hogyan javítsa ezt?
 
-Az adórendszer frissítéséhez használja az [adózási profil létrehozása vagy frissítése](set-up-your-payout-account.md#create-or-update-your-tax-profile) című témakör lépéseit. Az **adózási profil** lapon láthatja, hogy a lejárt vagy hamarosan lejáró profilok a **Lejárat dátuma** oszlopban láthatók. 
+Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Microsoftnak megadott adózási űrlapot frissíteni kell. Az alábbi lépéseket követve frissítheti az adózási profilt:
+
+1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home), majd kattintson a fogaskerék ikonra a **Beállítások** menü megnyitásához.
+2. Válassza ki a **Fiókbeállítások** lehetőséget, bontsa ki a **kifizetés és adó** szakaszt, majd válassza a **kifizetés és az adó** profil lehetőséget.
+3. **Adózási** profil kiválasztása
+4. Jelölje be az oszlop **lejárati dátumát** , és navigáljon a lejárt vagy hamarosan lejáró adózási profilhoz.
+5. Válassza a **Szerkesztés** lehetőséget az adózási profil szerkesztési folyamatának elindításához.
+6. Az adó űrlap szakaszban adja meg a frissített adatokat.
 
 ## <a name="earnings-incorrect-or-missing"></a>Helytelen vagy hiányzó bevétel
 
