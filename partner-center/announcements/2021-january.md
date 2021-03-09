@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/08/2021
-ms.openlocfilehash: 103b21e92ea32f251812770d66abcd413254cb36
-ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
+ms.openlocfilehash: 71deeb121fdc8b95499a7f12e08f2d116c370c7c
+ms.sourcegitcommit: 6e505d043d54e36cade511cb4b803eae64c63ff0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475228"
+ms.locfileid: "102514119"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -330,6 +330,12 @@ Azt is vegye figyelembe, hogy napjainkban a partner Center szoftver-és licencku
 ### <a name="questions"></a>Kérdése van?
 
 További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
+
+### <a name="change-log"></a>Változási napló:
+
+- 2021. január 19: eredeti kiadvány 
+
+- 2021. március 5.: a partner Center szoftver-és licenckulcs-teljesítési képességének visszaállítására vonatkozó megjegyzés felül lett adva
 
 _____________
 ## <a name="reminder-introducingapithrottlingtopartners-calling-partner-centerapis"></a><a name="9"></a> Emlékeztető: API-szabályozás bemutatása a partner Center API-kat hívó partnereknek 

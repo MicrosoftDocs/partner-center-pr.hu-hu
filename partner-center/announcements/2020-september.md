@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/08/2021
-ms.openlocfilehash: b8fd7fdea5cfbbc43826e7ebe05eeca11b5fddc4
-ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
+ms.openlocfilehash: 3702c362090b1764b6b9d6595fbe9f9a5f0aa55d
+ms.sourcegitcommit: 6e505d043d54e36cade511cb4b803eae64c63ff0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475279"
+ms.locfileid: "102514085"
 ---
 # <a name="september-2020-announcements"></a>2020. szeptemberi közlemények
 
@@ -57,6 +57,12 @@ A Microsoft 365 felügyeleti központ fokozza a megvásárolt szoftverek biztons
 
 Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
 
+### <a name="change-log"></a>Változási napló:
+
+- 2020. szeptember 30-ig: eredeti kiadvány 
+
+- 2021. március 5.: a partner Center szoftver-és licenckulcs-teljesítési képességének visszaállítására vonatkozó megjegyzés felül lett adva.
+
 ________________
 ## <a name="cloud-solution-provider-csp-program-evolution-and-open-license-program-changes-journey-to-a-better-partner-and-customer-experience"></a><a name="16"></a>A Cloud Solution Provider (CSP) program evolúciója és nyílt licencelési program változásai: utazás a jobb partneri és felhasználói élmény érdekében
 
@@ -71,6 +77,9 @@ Az összes partner a CSP-ben és a programok megnyitása
 
 ### <a name="details"></a>Részletek
 
+>[!NOTE]
+>A partneri visszajelzések miatt a visszaállítja teljesíti az örökös és a kiszolgálói előfizetési szoftverek megrendeléséhez szükséges szoftver-és licenckulcs beszerzésének lehetőségét. A rendszer a korábbi állapotába állítja vissza, mielőtt a 2021. január 19-én megszűnik. További információ: [március 2021 közlemény](https://docs.microsoft.com/partner-center/announcements/2021-march#4).
+
 A Microsoft CSP program exponenciálisan bővült, több mint 90 000 résztvevő vállalattal. Az elsődleges partneri forgalom kis-és közepes méretű vállalkozások számára, valamint a kisebb vállalati ügyfelek számára az új kereskedelmi tapasztalaton belül. Ezt a lendületet ma bejelentette, hogy a CSP programban partnereink számára bővülő lehetőségek állnak rendelkezésre. A részletek a [partner blogbejegyzésében](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/)olvashatók.
 
 ### <a name="next-steps"></a>Következő lépések
@@ -83,6 +92,11 @@ A Microsoft CSP program exponenciálisan bővült, több mint 90 000 résztvevő
 
 Az ezzel az értesítéssel kapcsolatos kérdésekért forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
 
+### <a name="change-log"></a>Változási napló:
+
+- 2020. szeptember 30-ig: eredeti kiadvány.
+
+- 2021. március 5.: a partner Center szoftver-és licenckulcs-teljesítési képességének visszaállítására vonatkozó megjegyzés felül lett adva.
 
 ________________
 ## <a name="availability-of-new-subscriptions-transition-tool-between-partners-for-azure-plan"></a><a name="15"></a>Új előfizetések átmeneti eszközének rendelkezésre állása az Azure-beli partnerek között 
