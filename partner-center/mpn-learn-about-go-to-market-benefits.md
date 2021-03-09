@@ -1,7 +1,7 @@
 ---
 title: További információ a Microsoft által kínált piaci megjelenésekről
 ms.topic: article
-ms.date: 06/15/2020
+ms.date: 03/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogy a Microsoft által kínált ajánlatok hogyan segíthetnek a piacra jutásban, az érdeklődők létrehozásában és a vállalat bővítésében.
@@ -9,19 +9,14 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d09dce7f4a80ed3014ecc8345d6f2bdf93da214d
-ms.sourcegitcommit: c4f2561fb7f224554c31e3af491de4ad65644158
+ms.openlocfilehash: d4f06f1983ab4bf3b6f9f77d02e7ae94817feeab
+ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "92528024"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102475262"
 ---
 # <a name="explore-your-go-to-market-with-microsoft-offers"></a>Ismerkedjen meg a Microsoft ajánlatokkal a piacon
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Microsoft Partner Network tagok
 
 **Megfelelő szerepkörök**
 
@@ -39,18 +34,18 @@ A piaci megjelenést lehetővé teszi a kizárólagos értékesítési és marke
 
 A piacra jutási ajánlatok az MPN-tagság, a specializációk és az Ön által elérni kívánt [kompetenciák](learn-about-competencies.md) alapján eltérőek lehetnek.
 
-Minden MPN-tag hozzáférhet bizonyos szabványos GTM-erőforrásokhoz. Ezek közé tartozik a Ready-to-go marketing-eszközök, az értékesítési engedélyezési platform és az igény szerinti digitális marketing. Emellett még több piacra jutási ajánlat és program érhető el olyan partnereink számára, akik ezüst-vagy arany-kompetenciát és/vagy ISV-partnereket érnek el közös értékesítésre kész megoldással.
+Minden MPN-tag hozzáférhet bizonyos szabványos GTM-erőforrásokhoz. Ezek közé tartozik a Ready-to-go marketing-eszközök, az értékesítési engedélyezési platform és az igény szerinti digitális marketing. Még több piacra jutási ajánlatot és programot is elérhetővé tehet olyan partnereink számára, akik ezüst-vagy arany-kompetenciákat és/vagy ISV-partnereket érnek el közös értékesítésre kész ajánlattal.
 
 >[!NOTE]
->A piaci értékesítéshez szükséges erőforrások, ajánlatok és programok a hozzáadások és a módosítások hatálya alá esnek. Látogasson el a Microsoft Partner Network [piaci megjelenés oldalra](https://partner.microsoft.com/membership/go-to-market) , ahol megismerheti azokat a partnereket, akik különböző kompetenciás szinteket és/vagy ISV-partnereket biztosítanak közös értékesítésre kész megoldással.
+>A piaci értékesítéshez szükséges erőforrások, ajánlatok és programok a hozzáadások és a módosítások hatálya alá esnek. Látogasson el a Microsoft Partner Network [piaci megjelenés oldalára](https://partner.microsoft.com/membership/go-to-market) , ahol megismerheti azokat a partnereinknek szóló legújabb forrásokat és ajánlatokat, amelyek különböző kompetenciás szinteket és/vagy ISV-partnereket érnek el közös értékesítésre kész ajánlattal.
 
-Az olyan további piacra jutási ajánlatok, amelyek a **Silver** kompetenciával és/vagy ISV-partnerekkel együtt, közös értékesítésre kész megoldással érhetők el:
+További piacra jutási ajánlatokat a **Silver** kompetenciával és/vagy az olyan ISV-partnerekkel, akik közös értékesítési ösztönző ajánlattal rendelkeznek:
 
 - Minden MPN standard szintű piaci erőforrás
 - Üzleti profil optimalizálása és az átirányítás kezelése
 - A Microsoft piacra jutása
 
-További piacra jutási ajánlatokat biztosítunk a **Gold** kompetenciát és/vagy ISV-partnereket tartalmazó partnereknek az IP közös értékesítésre kész megoldással:
+Az **arany** kompetenciával és/vagy ISV-partnerekkel rendelkező partnerek számára elérhető további piacra jutási ajánlatok a közös értékesítésre jogosult ajánlat keretében:
 
 - Minden MPN standard szintű piaci erőforrás
 - Minden ezüst/ISV közös értékesítésre kész piacra lépésre alkalmas ajánlat
@@ -78,14 +73,14 @@ Ekkor megjelenik a már aktív, vagy az aktiváláshoz elérhető piacra jutási
 
 ## <a name="manage-or-activate-go-to-market-offers-in-partner-center"></a>Piaci megjelenéssel kapcsolatos ajánlatok kezelése vagy aktiválása a partner Centerben
 
-A piaci megjelenéssel kapcsolatos ajánlatok aktiválásához és kezeléséhez tekintse meg [a piaci megjelenéssel kapcsolatos ajánlatok felügyeletét](manage-your-partner-network-benefits.md#manage-go-to-market-offers)ismertető témakört. Ennek a folyamatnak a részeként hozzá kell rendelnie egy marketing-személyt a követő e-mailekhez és a kommunikációhoz a piaci megjelenést segítő ajánlatokkal kapcsolatban.
+A piaci megjelenéssel kapcsolatos ajánlatok aktiválásához és kezeléséhez tekintse meg [a piaci megjelenéssel kapcsolatos ajánlatok felügyeletét](manage-your-partner-network-benefits.md#manage-go-to-market-offers)ismertető témakört. Az aktiválási folyamat részeként hozzá kell rendelnie egy marketing-személyt a követési e-mailek és az Ön által a piacra lépéshez szükséges kommunikáció tekintetében.
 
 >[!IMPORTANT]
 >Globális rendszergazdai vagy MPN-partneri rendszergazdának kell lennie az adott piaci megjelenési ajánlatok aktiválásához és egy kapcsolódó marketing-kapcsolat hozzárendeléséhez. Ha szükséges, globális rendszergazdaként az [ **előnyök** oldalon](https://partnercenter.microsoft.com/pcv/partnership/benefits) található utasításokat követve (bejelentkezés szükséges). Előfordulhat, hogy a vállalata már rendelkezik globális rendszergazdai jogosultságokkal, ezért mindenképpen ellenőrizze a csapatát.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [A partner hálózati előnyeinek kezelése](manage-your-partner-network-benefits.md)
+- [A Partner Network-előnyök kezelése](manage-your-partner-network-benefits.md)
 
 - [Microsoft Action Pack-előfizetés vásárlása vagy megújítása](mpn-get-action-pack.md)
 

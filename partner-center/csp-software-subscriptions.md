@@ -1,7 +1,7 @@
 ---
 title: Szoftver-előfizetések értékesítése felhőszolgáltatón keresztül
 ms.topic: how-to
-ms.date: 01/29/2021
+ms.date: 03/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a CSP program partnerei hogyan használhatják a partner centert az Azure-beli fenntartott példányok és a kiszolgálói előfizetések megvásárlásához, kezeléséhez, értékesítéséhez és megszüntetéséhez.
@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b6e08baf11061bc027b52d4662311bdc91ee0202
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: a095f35c58cb6eb0c45f888bdf379edfd3cfe379
+ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756092"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102475194"
 ---
 # <a name="sell-software-subscriptions-through-the-cloud-solution-provider-csp-program"></a>A szoftveres előfizetések értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
@@ -92,18 +92,25 @@ Szoftveres Előfizetések vásárlása az ügyfél nevében:
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-A szoftver megvásárlása után az ügyfeleknek le kell tölteniük. Ezt a következő eljárással végezheti el.
+A szoftver megvásárlása után Önnek vagy ügyfeleinek le kell töltenie azt (partnerek a partner Center használatával, az Microsoft 365 felügyeleti központot használó ügyfelekkel). Ezt a következő eljárással végezheti el. Fontos megérteni a hivatkozások másolásával és a szoftverek letöltésével kapcsolatos kockázatokat. További információ: a partner Center **használata az ügyfélszoftverek letöltésére és a licenckulcs megszerzésére** a [partner Center új kereskedelmi üzemeltetési útmutatójában](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf).
 
 >[!NOTE]
->A kulcsok és a letöltések hivatkozásának beszerzéséhez rendszergazdai ügynöknek kell lennie.
+>A kulcsokra és a letöltésekre mutató hivatkozás beszerzéséhez rendszergazdai ügynöknek kell lennie a partner Centerben.
 
 1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
-2. Másolja a "Deep Link" (részletes hivatkozás) elemet a **szoftvertermék kulcsaira mutató hivatkozással** , és ossza meg a hivatkozást az ügyféllel. Ha ezt a hivatkozást választja, a rendszer átirányítja a Microsoft felügyeleti központba, hogy letöltse és beszerezze a termék kulcsait.
+
+2. Válassza a termék **verziója**, **nyelv**, **bit**, majd a **kulcsok és letöltések beolvasása** elemet. 
+
+3. Válassza a **kulcs lekérése** lehetőséget, amely megjeleníti az 32 számjegyű terméket egy előugró dialógusban, amelyet másolhat és küldhet az ügyfélnek. 
+
+4. A BITS letöltéséhez kattintson a **Letöltés** gombra. 
+
+5. Válassza a **hivatkozás másolása** lehetőséget, ha el szeretné küldeni az ügyfelet a BITS letöltésére mutató hivatkozással. 
+
+6. **Megszakíthatja** a szoftver megrendelését, és 100%-os kreditet kap (ha a 60 nap lemondási ideje szerint történik).
 
 >[!NOTE]
->A Microsoft felügyeleti központban csak az ügyfelek láthatják a termékkulcsot és tölthetik le az adatokat. A partnerek nem látják ezeket az információkat.
-
-Ha Ön vagy ügyfelei szeretnének többet megtudni a licenckulcs letöltéséről, tekintse meg a [szoftver és a termék licenc kulcsainak letöltése](/microsoft-365/admin/setup/download-software-licenses-csp)című témakört.
+>Csak az ügyfelek férhetnek hozzá a termékkulcs megtekintéséhez és az információk letöltéséhez a Microsoft 365 felügyeleti központban (globális rendszergazdai szerepkör szükséges). A partnereknek a fiókpartner használatával kell megtekinteniük ezeket az információkat.
 
 ## <a name="server-subscription-download-and-license-keys-available-through-microsoft-365-admin-center-for-customers"></a>A kiszolgálói előfizetés letöltési és licenckulcs elérhetők Microsoft 365 felügyeleti központban az ügyfelek számára 
 

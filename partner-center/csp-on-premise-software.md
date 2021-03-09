@@ -1,7 +1,7 @@
 ---
 title: Helyszíni szoftverek értékesítése CSP-n keresztül
 ms.topic: how-to
-ms.date: 03/04/2021
+ms.date: 03/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy a CSP program partnerei hogyan vásárolhatják meg, kezelhetik, értékesítik és törölhetik a helyszíni szoftveres előfizetéseket a partner Centerben lévő ügyfelek nevében.
@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6c442711a3b60f5014397b3b2d8bdfd75a852fcc
-ms.sourcegitcommit: b0734f9c9ef6c582095573eb0a73cc0c39c7e65b
+ms.openlocfilehash: 650f8085ba0e204b01f97a23640a37388ef57f17
+ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220244"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102475210"
 ---
 # <a name="sell-on-premises-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek értékesítése a Cloud Solution Provider (CSP) programon keresztül
 
@@ -33,20 +33,29 @@ Ha előfizetést szeretne megvásárolni az ügyfél nevében, lépjen az ügyf�
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-A szoftver megvásárlása után Önnek vagy az ügyfeleknek le kell töltenie. Ezt a következő eljárással végezheti el.
+A szoftver megvásárlása után Önnek vagy ügyfeleinek le kell töltenie azt (partnerek a partner Center használatával, az Microsoft 365 felügyeleti központot használó ügyfelekkel). Ezt a következő eljárással végezheti el. Fontos megérteni a hivatkozások másolásával és a szoftverek letöltésével kapcsolatos kockázatokat. További információ: a partner Center **használata az ügyfélszoftverek letöltésére és a licenckulcs megszerzésére** a [partner Center új kereskedelmi üzemeltetési útmutatójában](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf).
 
 >[!NOTE]
->A kulcsok és a letöltések hivatkozásának beszerzéséhez rendszergazdai ügynöknek kell lennie.
+>A kulcsokra és a letöltésekre mutató hivatkozás beszerzéséhez rendszergazdai ügynöknek kell lennie a partner Centerben.
 
 1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
-2. Kövesse a [partner üzemeltetési útmutatójának](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf) utasításait, hogy az ügyfél nevében teljesítse a szoftverek vásárlásának teljesítését.
+
+2. Válassza a termék **verziója**, **nyelv**, **bit**, majd a **kulcsok és letöltések beolvasása** elemet. 
+
+3. Válassza a **kulcs lekérése** lehetőséget, amely megjeleníti az 32 számjegyű terméket egy előugró dialógusban, amelyet másolhat és küldhet az ügyfélnek. 
+
+4. A BITS letöltéséhez kattintson a **Letöltés** gombra. 
+
+5. Válassza a **hivatkozás másolása** lehetőséget, ha el szeretné küldeni az ügyfelet a BITS letöltésére mutató hivatkozással. 
+
+6. **Megszakíthatja** a szoftver megrendelését, és 100%-os kreditet kap (ha a 60 nap lemondási ideje szerint történik).
 
 >[!NOTE]
->A Microsoft felügyeleti központban csak az ügyfelek láthatják a termékkulcsot és tölthetik le az adatokat. A partnerek nem látják ezeket az információkat.
+>Csak az ügyfelek férhetnek hozzá a termékkulcs megtekintéséhez és az információk letöltéséhez a Microsoft 365 felügyeleti központban (globális rendszergazdai szerepkör szükséges). A partnereknek a fiókpartner használatával kell megtekinteniük ezeket az információkat.
 
 ## <a name="cancel-a-purchase"></a>Vásárlás megszakítása
 
-A vásárlás megszakításához kövesse az alábbi eljárást. A törlés befejezése után a rendszer visszavonja a szoftver kulcsát. 
+A vásárlás megszakításához kövesse az alábbi eljárást. A törlés befejezése után a rendszer visszavonja a szoftver kulcsát.
 
 >[!NOTE]
 >A vásárlás megszakításához rendszergazdai ügynöknek kell lennie. 

@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 01/28/2021
-ms.openlocfilehash: d07555d3559b2f8dbbb15f9cfe90753e50db0c04
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.date: 03/08/2021
+ms.openlocfilehash: 103b21e92ea32f251812770d66abcd413254cb36
+ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756281"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102475228"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -313,6 +313,9 @@ ________________
 Minden CSP-partner
 
 ### <a name="details"></a>Részletek
+
+>[!NOTE]
+>A partneri visszajelzések miatt a visszaállítja teljesíti az örökös és a kiszolgálói előfizetési szoftverek megrendeléséhez szükséges szoftver-és licenckulcs beszerzésének lehetőségét. A rendszer a korábbi állapotába állítja vissza, mielőtt a 2021. január 19-én megszűnik. További információ: [március 2021 közlemény](https://docs.microsoft.com/partner-center/announcements/2021-march#4).
 
 A mai napon [bejelentette](https://blogs.partner.microsoft.com/mpn/general-availability-of-perpetual-software-licenses-in-the-cloud-solution-provider-program/) , hogy tájékoztatjuk, hogy az állandó kereskedelmi licenccel rendelkező szoftverek általánosan elérhetők az összes CSP-partner számára az értékesítéshez. A partner Center CSP Perpetual Software árlista újra közzé lett téve, és mostantól további termékeket és földrajzi régiókat is tartalmaz.
 
