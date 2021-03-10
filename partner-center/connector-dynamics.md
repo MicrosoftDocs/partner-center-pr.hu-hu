@@ -8,12 +8,12 @@ description: Szinkronizálja a partner Centerben lévő hivatkozásokat a Dynami
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: 10062fd20e3553856d8b595efd3224ff456c2c49
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 3724b53f527ebe294590c09d7ad77d0dbcfd9c34
+ms.sourcegitcommit: 5e9ca304cce4575eed05ca3b17fb77c9711402a5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756802"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102532047"
 ---
 # <a name="co-sell-connector-for-dynamics-365-crm--overview"></a>Közös értékesítésű összekötő a Dynamics 365 CRM-hez – áttekintés
 
@@ -104,7 +104,7 @@ Mielőtt telepítené, konfigurálja és testreszabja az automatizálási megold
      
       7. Az összes hozzáadott kapcsolat után a következő kapcsolatokat kell látnia a környezetben:
 
-:::image type="content" source="images/cosellconnectors/dynamics-2.png" alt-text="Kapcsolatok":::
+         :::image type="content" source="images/cosellconnectors/dynamics-2.png" alt-text="Kapcsolatok":::
    
 ## <a name="edit-the-connections"></a>Kapcsolatok szerkesztése
 
@@ -141,7 +141,7 @@ A partner Center webhook API-k lehetővé teszik az Erőforrás-változási esem
 
 3. Kattintson a **Másolás** ikonra a megadott http post URL-cím másolásához.
 
- :::image type="content" source="images/webhook-video.gif" alt-text="Az erőforrás-módosítások regisztrálása webhookok használatával":::
+   :::image type="content" source="images/webhook-video.gif" alt-text="Az erőforrás-módosítások regisztrálása webhookok használatával":::
 
 4. Válassza ki a "partneri központ webhook-regisztráció (Insider előzetes verzió)" energiaellátás-automatizálási folyamat elemet, majd válassza a **Futtatás** lehetőséget.
 
@@ -205,7 +205,7 @@ Környezeti változó értékének frissítése:
 
 3. Frissítse az **aktuális értéket** (ne frissítse az alapértelmezett értéket) **új érték** beállítással, és adja meg az értéket. Az értéknek meg kell egyeznie a változó adattípusával, például az igen/nem adattípus esetén az igen vagy a No érték lesz elfogadva.
 
-:::image type="content" source="images/environment-variables-video.gif" alt-text="Környezeti változók frissítése":::
+ :::image type="content" source="images/environment-variables-video.gif" alt-text="Környezeti változók frissítése":::
 
 - Végpontok közötti kétirányú, közös értékesítésre hivatkozó átirányítás szinkronizálása
 
