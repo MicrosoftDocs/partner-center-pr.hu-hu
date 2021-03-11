@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: 495d9899db36d0e4911647b337a99105a063236c
-ms.sourcegitcommit: 79d2f00c352db61252e523f45abf93fe2a2742a5
+ms.openlocfilehash: adbe4bf9fd329f7443608dd1a1e123208212ef43
+ms.sourcegitcommit: 26095af7950817099764bf47370cb3e77e0dce7c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "102124822"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "102770274"
 ---
 # <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
 
@@ -81,7 +81,7 @@ A vállalati fiók rendszergazdájának megkeresése:
 
    A lap megjeleníti az összes fiók rendszergazdáját a hozzájuk tartozó e-mail-címükkel. Küldje el az egyiket, és kérje meg őket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
 
-  :::image type="content" source="images/pscmigration/account-admin.png" alt-text="A partner-beállítások felhasználói kezelés lapján található fiók-rendszergazdákat bemutató kép.":::
+  :::image type="content" source="images/pscmigration/account-admin.gif" alt-text="A partner-beállítások felhasználói kezelés lapján található fiók-rendszergazdákat bemutató kép.":::
 
 >[!Important]
 >- Ha a szerepkör csak a PSC-felhasználók felügyeletét foglalja magában, kérje meg a vállalat fiókjának rendszergazdáját, hogy rendelje hozzá a [fiók rendszergazdai](permissions-overview.md#manage-mpn-membership-and-your-company) szerepkörét a partner Centerben. 
@@ -95,7 +95,7 @@ Miután beállította a fiókját a partner Centerben, a közös értékesítés
 >[!Note]
 > A felhasználók áttelepítését csak a vállalata [fiók-rendszergazdái](permissions-overview.md#manage-mpn-membership-and-your-company) tudják elvégezni. Ha nem rendelkezik fiók-rendszergazdai szerepkörrel, keresse meg a fiók rendszergazdáját, aki segítségére lehet a felhasználói fiókok beállításában a felhasználói áttelepítési varázsló segítségével.
 
-:::image type="content" source="images/pscmigration/psc-user-migration.png" alt-text="A felhasználó áttelepítési varázslóját ábrázoló kép.":::
+:::image type="content" source="images/pscmigration/user-migration.gif" alt-text="A felhasználó áttelepítési varázslóját ábrázoló kép.":::
 
 A fiókok rendszergazdái a PSC felhasználói áttelepítési varázsló hivatkozását fogják látni az átirányítási útmutató melletti közös értékesítési lehetőségek lapon. A hivatkozásra kattintva elindíthatják a felhasználók áttelepítését. A felhasználók áttelepítésének elindításához a rendszergazdák kiválaszthatják a hivatkozást. Ezt a felhasználói áttelepítési lépést többször is elvégezhetik, amíg minden felhasználó hozzá nem rendeli a megfelelő szerepköröket a partner Centerben.
 

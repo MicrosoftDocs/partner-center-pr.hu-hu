@@ -9,19 +9,19 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c66a0d4ed7aa798321c42de34d879dc63de6a16b
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 6b5741ba09cedccd5f421374c4aa5ca609823bcd
+ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101755831"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "103022740"
 ---
 # <a name="upgrade-some-education-customers-from-windows-10-home-to-windows-10-education"></a>Néhány oktatási ügyfél frissítése a Windows 10 Home rendszerről a Windows 10-es oktatásba
 
 **Megfelelő szerepkörök**
 
 - Felügyeleti ügynök
-- Segélyszolgálat ügynöke
+- Számlázási adminisztrátor
 
 ## <a name="overview"></a>Áttekintés
 
@@ -57,8 +57,8 @@ A partnereknek támogatási kérést kell létrehozniuk, és kulcsokat kell lek�
 
 - **Cím:** Windows 10 Home – Windows 10 Education verziófrissítési termékkulcs
 - **Leírás:** [Szám beszúrása] kulcsok kérése a Windows 10 oktatásra való frissítés engedélyezéséhez. (Vegye figyelembe, hogy a kért kulcsok száma nem lehet nagyobb, mint a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetési licenc.) Ügyfél előfizetés-azonosítója [az ügyfelek előfizetési AZONOSÍTÓjának GUID azonosítója a Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 előfizetéshez.]
-- **Kapcsolattartó száma:** Ezt a rendszer előtölti; Tekintse át a megerősítést vagy a frissítést.
-- **E-mail cím:** Ezt a rendszer előtöltötte, és a Microsoft Portal-rendszergazdaként használt e-mail-cím legyen (csak globális rendszergazda vagy számlázási rendszergazda).
+- **Kapcsolattartó száma:** Ez előre ki lesz töltve; Tekintse át a megerősítést vagy a frissítést.
+- **E-mail cím:** Ez előre ki lesz töltve, és a Microsoft Portal-rendszergazdaként használt e-mailnek kell lennie (csak globális rendszergazda vagy számlázási rendszergazda).
 - **Előnyben részesített kapcsolatfelvételi módszer**: válassza a **telefon** lehetőséget, vagy **ütemezzen vissza egy hívást**.
 
 8. Válassza a **Kapcsolatfelvétel** lehetőséget. A várt várakozási időt a **segítség szükséges?** ablaktáblában kell megadni.
@@ -92,8 +92,9 @@ Az oktatási ügyfeleknek érdemes megfontolniuk [az](https://www.microsoft.com/
 **Van olyan határidő, amikor kapcsolatba kell lépnie a támogatási szolgálattal, és megkapja a frissítési kulcsot?**
 A Windows 10-es oktatási frissítése az ügyfél aktív Microsoft 365 a3/a5 vagy Windows 10 Enterprise a3/a5 licenc-előfizetésén alapul. Ha az ügyfél nem terjeszti ki vagy nem újítja meg az előfizetést, a frissítésre való jogosultság is lejár.
 
+## <a name="next-steps"></a>Következő lépések
+
 **Hol kaphatok további információt a Windows 10 Education szolgáltatásról?**
-A következő hivatkozásokat követve további információkhoz juthat:
 
 - [A Windows oktatás funkciói](https://www.microsoft.com/education/products/windows/features)
 - [Windows oktatási központ](/education/windows/)

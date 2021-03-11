@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/04/2021
-ms.openlocfilehash: c504c3b7ed0cffe8b698b308ca66ab591e55cccf
-ms.sourcegitcommit: b0734f9c9ef6c582095573eb0a73cc0c39c7e65b
+ms.date: 03/09/2021
+ms.openlocfilehash: a524dbf8162886d88a4a9548653d32e094d8620f
+ms.sourcegitcommit: d7fbaff51c7ac29fbf700d7f7fdef798fd97c6fa
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220274"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102619426"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[Az új kereskedelmi élmény kibővítése az Azure-beli Cloud Solution Provider (CSP) program keretében](2021-march.md#5)|Március 10|
 |Képességek|[A partner Center szoftverlicenc-kulcsa és a letöltés teljesítése](2021-march.md#4)|Március 5.|
 |Képességek|[A partner értékesítési összekötő (PSC) és a partner Center közötti ajánlatok áttelepíthetők](2021-march.md#3)|Március 5.|
 |Képességek|[Új Microsoft Dynamics 365-termékek és-ajánlatok, amelyek az 2021. április 1-jén érhetők el](2021-march.md#2)|Március 4.|

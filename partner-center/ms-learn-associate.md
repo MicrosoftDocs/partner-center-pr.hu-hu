@@ -9,12 +9,12 @@ author: kbangalore
 ms.author: kiranban
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9828c791cf1b1ee99eb8a23ec84869472a2c8114
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 515a35584d8c31538b6722a282c53181c7809420
+ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756577"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "103022723"
 ---
 # <a name="link-or-unlink-a-microsoft-certification-profile-id-mcid-to-a-microsoft-partner-network-mpn-account"></a>Microsoft minősítési profil AZONOSÍTÓjának (MCID) csatolása vagy leválasztása Microsoft Partner Network (MPN) fiókhoz
 
@@ -33,8 +33,7 @@ Használja az alábbi eljárást a partneri Egyetem eléréséhez.
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 2. Válassza a kék **saját profil** ikont a jobb felső sarokban
-3. A **saját tanulás** mezőben válassza a **partneri Egyetem hozzáférésének beolvasása** lehetőséget.
-A partneri egyetemi fiók most már társítva lesz a partner Center felhasználói fiókjához. A felmérések a 72hrs-on belül a partner Center felhasználói szaktudás jelentésében is megjelennek. Az újonnan átadott értékelések a jelentésben szereplő 7-10 napig is eltarthat.
+3. A **saját tanulás** mezőben válassza a **partneri Egyetem hozzáférésének beolvasása** lehetőséget. Meg kell adnia a partner University-fiókja hitelesítő adatait (nem a partneri központ fiókját), a partner egyetemi fiókja most már társítva lesz a partner Center felhasználói fiókjához. A felmérések a 72hrs-on belül a partner Center felhasználói szaktudás jelentésében is megjelennek. Az újonnan átadott értékelések a jelentésben szereplő 7-10 napig is eltarthat.
 4. A társítás eltávolításához válassza a **hozzáférés eltávolítása** lehetőséget.
 
 ## <a name="associate-a-microsoft-learning-account"></a>Microsoft Learning-fiók hozzárendelése
@@ -48,6 +47,10 @@ A Microsoft Learning-fiók hozzárendeléséhez kövesse az alábbi eljárást.
 >[!NOTE]
 >Ha a Microsoft Learning-fiók hitelesítő adatai megegyeznek a partneri Egyetem fiókjának hitelesítő adataival, válassza a használat lehetőséget a **email@address Microsoft Learning-fiók hozzárendeléséhez**.
 
+## <a name="download-skills-report-microsoft-certification-list"></a>Készségek letöltése jelentés (Microsoft minősítési lista)
+Ha részletekre van szüksége, a skillsreport bármely globális rendszergazda vagy MPN-partner rendszergazdája elérheti és letöltheti a partner Centerből. [További információ](https://docs.microsoft.com/partner-center/mpn-skills-report#view-skills-report-data).
+
+
 ## <a name="frequently-asked-questions-about-linking-accounts"></a>Gyakran ismételt kérdések a fiókok összekapcsolásával kapcsolatban
 
 ### <a name="how-can-a-user-link-their-microsoft-certification-profile-id-mcid-with-the-microsoft-partner-network-mpn-organization-they-work-for"></a>Hogyan kapcsolhatja össze a felhasználó a Microsoft minősítési profiljának AZONOSÍTÓját (MCID) az általuk használt Microsoft Partner Network (MPN) szervezettel?
@@ -60,7 +63,7 @@ Jelentkezzen be a partner Centerbe, navigáljon a **saját profilba** , majd vá
 
 ### <a name="the-user-left-company-a-and-now-works-for-company-b-how-can-they-link-their-microsoft-certification-profile-id-mcid-with-company-b"></a>A felhasználó elhagyta a vállalatot, és most már a B vállalatnál is működik. Hogyan kapcsolhatják össze a Microsoft Certificate profil-AZONOSÍTÓját (MCID) a B vállalattal?
 
-A felhasználónak a B vállalattal kell összekapcsolnia a MCID a fenti eljárást követve. Ha a felhasználó a B vállalattal kapcsolódik a MCID, a rendszer automatikusan lekapcsolja az A vállalattól.
+A felhasználónak a fenti eljárást követve össze kell kapcsolnia a MCID a B vállalattal. Ha a felhasználó a B vállalattal kapcsolódik a MCID, a rendszer automatikusan lekapcsolja az A vállalattól.
 
 ### <a name="the-user-left-company-a-and-no-longer-has-access-to-partner-center-they-want-to-unlink-their-mcid-from-company-a-and-are-not-planning-to-link-it-with-another-mpn-organization-at-the-moment"></a>A felhasználó elhagyta a vállalatot, és már nem fér hozzá a partner központhoz. Le szeretnék kapcsolni a MCID az A vállalattól, és jelenleg nem tervezik azt egy másik MPN-szervezettel összekapcsolni.
 

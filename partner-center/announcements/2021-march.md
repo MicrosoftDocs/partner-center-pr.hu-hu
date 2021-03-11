@@ -8,17 +8,37 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/04/2021
-ms.openlocfilehash: 8b86623c6af832de654e3c4ad9fea666427eb51d
-ms.sourcegitcommit: b0734f9c9ef6c582095573eb0a73cc0c39c7e65b
+ms.date: 03/09/2021
+ms.openlocfilehash: 2f3fd11125619ca3eaf3e0c870f5460a0abe2b4d
+ms.sourcegitcommit: d7fbaff51c7ac29fbf700d7f7fdef798fd97c6fa
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102220295"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102619443"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="expanding-the-new-commerce-experience-in-the-cloud-solution-provider-csp-program-for-azure-to-russia"></a><a name="5"></a>Az új kereskedelmi élmény kibővítése az Azure-beli Cloud Solution Provider (CSP) program keretében
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-10
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Az Oroszországban lévő összes partner a Cloud Solution Provider (CSP) programon keresztül lebonyolítja a tranzakciót.
+
+### <a name="details"></a>Részletek
+
+A 10 2021. március 1-től örömmel jelentjük be, hogy elérhetővé tettük az **új kereskedelmi élményt az Azure-beli CSP-ben Oroszországban**. Ez a tapasztalat egyszerűsíti és javítja az Azure-szolgáltatások vásárlásának és felhasználásának módját. Emellett a CSP program partnereinek is egységes áttekintést nyújt az Azure díjszabásáról az értékesítési mozgások során, a globális konzisztencia, a számlázási dátum-igazítás és a Azure Cost Management elérésének USD-díja.
+
+### <a name="next-steps"></a>Következő lépések
+
+Számos erőforrás érhető el az új Azure-beli kereskedelmi élmény bevezetéséhez és további információk biztosításához. A legújabb gyakori kérdések, a paklik, a videók és egyebek a [CSP program frissítésének erőforrás-gyűjteményében](https://partner.microsoft.com/resources/collection/new-azure-experience-in-csp#/)találhatók.
 
 ________________
 ## <a name="partner-center-software-license-key-and-download-fulfillment"></a><a name="4"></a>A partner Center szoftverlicenc-kulcsa és a letöltés teljesítése

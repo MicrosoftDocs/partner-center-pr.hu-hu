@@ -9,12 +9,12 @@ author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 3d163271329e2f2a117d7df3abcf9b31f2c4979f
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 4c4b3a9a71027f5fb02bc29566c20c214e3df371
+ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101755855"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "103022808"
 ---
 # <a name="view-your-incentives-program-details"></a>Ösztönző program részleteinek megtekintése
 
@@ -22,18 +22,17 @@ ms.locfileid: "101755855"
 
 - Ösztönző rendszergazda
 - Ösztönző felhasználó
-- Ösztönző írásvédett megjelenítő
 - Globális rendszergazda
 - MPN-partner rendszergazdája
 
-Ez a cikk bemutatja, hogyan érheti el a **saját ösztönzők áttekintése** lapot, amely megjeleníti az ösztönző programok általános állapotát, valamint az egyes programok állapotát az egyes helyeken. Emellett a regisztráció különböző állapotait is megadja. 
+Ez a cikk a **saját ösztönzők áttekintése** lapot ismerteti, amely az ösztönző programok általános állapotát, valamint az egyes programok állapotát mutatja be az egyes helyeken. Emellett a regisztráció különböző állapotait is megadja.
 
 >[!NOTE]
 >További információ a fiókpartner ösztönzőkről és ösztönző funkcióiról: [partner Investments and ösztönzők](https://partner.microsoft.com/membership/partner-incentives) (bejelentkezés szükséges).
 
 ## <a name="access-the-incentives-overview-page"></a>Az ösztönzők áttekintése oldal elérése
 
-1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
 1. Válassza az **ösztönzők**, majd az **Áttekintés** lehetőséget a menüből.
 1. A bevételek és kifizetések összegzése az oldal tetején, a további részletek pedig az alatta lévő táblázatban tekinthetők meg. A csatolt táblázatot is rendezheti, csoportosíthatja és kiterjesztheti:
 

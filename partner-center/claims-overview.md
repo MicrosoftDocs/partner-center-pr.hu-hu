@@ -1,7 +1,7 @@
 ---
 title: Ösztönzők a Co-op és a jogcímek áttekintéséhez
 ms.topic: article
-ms.date: 10/29/2020
+ms.date: 03/10/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 description: Megtudhatja, hogyan küldhet be az ösztönzőkhöz sikeres Co-op-jogcímeket a megfelelő dokumentáció, számlák, utasítások és végrehajtás igazolásának megszervezésével.
@@ -9,12 +9,12 @@ author: kaushikgMSFT
 ms.author: kaushikg
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 00761df0cb51e8fcd3238141a51a53107c7c8523
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.openlocfilehash: 99098b49ded4808edfd4ee895565d1563c52675a
+ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354508"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "103022706"
 ---
 # <a name="earn-cooperative-marketing-funds"></a>Kooperatív marketing-alapok beszerzése
 
@@ -54,10 +54,10 @@ Az alábbi táblázat a különböző jövedelemszerzési, használati és igén
 
 |  Ha a jövedelemszerzési/felhalmozás időtartama  |Az Ön pénzügyi félévi időszaka:  |  A használati időszak  |  Az igénylés időtartama  |
 | :-----------: | :-----------: | :-----------: | :-----------: |
-|**Július-Dec 2020**| FY20 H1  |  Január – június 2021  |  Február 16 – augusztus 15 2021  |
-|**Január – június 2021** |  FY20 H2  |  Július-Dec 2021  |  Augusztus 16 2021 – Feb 15 2022  |
-|**Július-Dec 2021**|  FY21 H1  |  Január – június 2022  |  Február 16 – augusztus 15 2022  |
-|**Január – június 2022** |  FY21 H2  |  Július-Dec 2022  |  Augusztus 16 2022 – Feb 15 2023  |
+|**Július-Dec 2020**| FY21 H1  |  Január – június 2021  |  Február 16 – augusztus 15 2021  |
+|**Január – június 2021** |  FY21 H2  |  Július-Dec 2021  |  Augusztus 16 2021 – Feb 15 2022  |
+|**Július-Dec 2021**|  FY22 H1  |  Január – június 2022  |  Február 16 – augusztus 15 2022  |
+|**Január – június 2022** |  FY22 H2  |  Július-Dec 2022  |  Augusztus 16 2022 – Feb 15 2023  |
 
 >[!NOTE]
 >A Microsoft fenntartja a jogot arra, hogy eredeti igazolási (PoE) dokumentumokat kérjen. Az összes eredeti dokumentumot a tevékenység dátumát követő 24 hónapig kell megőrizni.
