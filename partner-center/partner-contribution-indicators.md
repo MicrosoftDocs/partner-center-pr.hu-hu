@@ -1,7 +1,7 @@
 ---
 title: Partneri hozzájárulási mutatók – CBA
 ms.topic: article
-ms.date: 02/26/2021
+ms.date: 03/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan érheti el egy ezüst vagy arany Felhőbeli Business Applications kompetenciát.
@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 53711ce9c480c195886096f0445c048307bee9db
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: b9a70d723c3b12bfcf279f63da3ab22f8a8d1601
+ms.sourcegitcommit: ddb9ad42d7bd8fb433d86f84a839f793a42600dd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756554"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103193647"
 ---
 # <a name="use-partner-contribution-indicators-to-attain-the-cloud-business-applications-competency"></a>Partneri hozzájárulási mutatók használata a Cloud Business Applications kompetencia eléréséhez
 
@@ -274,11 +274,11 @@ A partner két lehetőség közül választhat az ehhez a metrikához elérhető
 
 - **Nem kapnak részleges pontot.** Az alapszintű pillanatképen felüli növekedésnek meg kell felelnie vagy meg kell haladnia az alábbi táblázatban jelzett küszöbértékeket. A táblázat egy **fejlett** és **fejlődő** oszlopot mutat be, amely a funkcionális tanácsadó alapterve, amely szükséges a pontok beszerzéséhez.
 
-  | Fejlesztett | Fejlesztése | Az összes 15 pont beszerzéséhez szükséges növekedés *
+  | Fejlesztett | Fejlesztése | Az összes 15 pont beszerzéséhez szükséges növekedés
   |:---:|:---:|:---:|
   | 15-29 | 5-14 | 35% |
   | 30-49 | 15-24 | 25% |
-  | 50 és újabb verziók | 25 és újabb | 15% |
+  | 50 és újabb verziók | 25 és újabb | Lásd az alábbi lehetőségeket |
 
 **Két lehetőség a pontok beszerzéséhez:**
 

@@ -8,17 +8,51 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/09/2021
-ms.openlocfilehash: 2f3fd11125619ca3eaf3e0c870f5460a0abe2b4d
-ms.sourcegitcommit: d7fbaff51c7ac29fbf700d7f7fdef798fd97c6fa
+ms.date: 03/11/2021
+ms.openlocfilehash: 479f18318a2cc85ca16c399a0379e5528090d229
+ms.sourcegitcommit: ddb9ad42d7bd8fb433d86f84a839f793a42600dd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "102619443"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103193630"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="migrate-your-solutions-from-one-commercial-partner-ocp-go-to-market-gtm-to-the-microsoft-commercial-marketplace"></a><a name="6"></a> Megoldásait áttelepítheti egy kereskedelmi partnertől (OCP) a Microsoft kereskedelmi Marketplace-re (GTM)
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-12
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+2021. március 29-én elkezdjük korlátozni a kereskedelmi partneri (OCP) piacra lépéseit (GTM). Javasoljuk, hogy telepítse át megoldásait a kereskedelmi piactérre a partner Centerben.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+OCP GTM-megoldásokkal közösen értékesítő szervezetek
+
+### <a name="details"></a>Részletek
+
+2020 decemberében kezdtük el utunkat a Microsoft OCP GTM eszközről a Microsoft kereskedelmi piactérről a partner Centerben. Ez az áttérés kibővíti a kereskedelmi piactér képességeit, ahol több millió ügyfél számára is kiterjesztheti megoldásait, és kétirányú módon megoszthatja a lehetőségeket más Microsoft-és partner-értékesítővel, és közösen értékesítheti az innovatív megoldásokat.
+
+Az áttérés következő mérföldköve a 2021. március 29-én kerül megadásra. Ez az, amikor elkezdi megtapasztalni a korlátozott OCP GTM képességeket, és egyes mezők csak olvashatók lesznek. Ha jelenleg a OCP GTM-megoldásokkal együtt értékesíti a megoldásokat, javasoljuk, hogy a megoldásait a kereskedelmi piactérre telepítse át, hogy kiaknázza a képességeit, és egyszerűsítse a közzétételi élményt. 
+
+A kereskedelmi piactérre való áttéréssel a partneri központ az elsődleges cél a közös értékesítésű közzétételi élmény. Így tovább bővítheti üzleti tevékenységét úgy, hogy a Microsoft-termékekhez hasonló csatornákkal és a termékkel kapcsolatos felhasználói élményekkel összeköti megoldásait közös ügyfeleinkkel. [További információ a kereskedelmi piactérről](https://blogs.partner.microsoft.com/mpn/getting-started-with-the-microsoft-commercial-marketplace/).
+
+### <a name="next-steps"></a>Következő lépések
+
+- Ha még nem helyezte át a megoldásait, kövesse az [áttérési útmutatóban](https://docs.microsoft.com/azure/marketplace/co-sell-solution-migration) részletezett utasításokat, vagy tekintse meg az összes áttelepítési tevékenység befejezéséhez szükséges [útmutatót, és](https://partner.microsoft.com/asset/detail/ocp-gtm-to-the-microsoft-commercial-marketplace-mp4) kezdje el közzétenni a megoldás (oka) t a kereskedelmi piactéren.
+
+- A OCP-GTM korlátozott képességekkel kapcsolatos kérdéseivel kapcsolatban tekintse meg a [Microsoft kereskedelmi piactéren feltett gyakori kérdések című szakaszban közzétett közös értékesítésre vonatkozó követelményeket](https://partner.microsoft.com/resources/detail/co-sell-requirements-publish-commercial-marketplace-faq-pdf). (Lásd a "OCP GTM korlátozott képességek" című szakaszt, amely 2021. március 29-én kezdődik. ")
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van, vagy további információra van szüksége, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1) .
 
 ________________
 ## <a name="expanding-the-new-commerce-experience-in-the-cloud-solution-provider-csp-program-for-azure-to-russia"></a><a name="5"></a>Az új kereskedelmi élmény kibővítése az Azure-beli Cloud Solution Provider (CSP) program keretében
