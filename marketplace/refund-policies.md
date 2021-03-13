@@ -1,17 +1,17 @@
 ---
 title: A Microsoft AppSource és az Azure Marketplace-re vonatkozó visszatérítési szabályzatok
 description: A Microsoft AppSource és az Azure Marketplace-en értékesített termékekre vonatkozó visszatérítési szabályzatok ismertetése
-ms.prod: marketplace-customer
+ms.service: marketplace-customer
 ms.topic: article
 author: anbene
 ms.author: jeweber
 ms.date: 11/20/2020
-ms.openlocfilehash: 28792f2666f8d7fd2171002dc71b62b151b44c7b
-ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
+ms.openlocfilehash: 10055b164610d5a9d0eb9da5e7240164581afbee
+ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95007559"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103412675"
 ---
 # <a name="refund-policies-for-microsoft-appsource-and-azure-marketplace"></a>A Microsoft AppSource és az Azure Marketplace-re vonatkozó visszatérítési szabályzatok
 
@@ -39,7 +39,7 @@ Az Azure által felügyelt alkalmazások nem téríthetők vissza.
 
 Az Azure-beli fenntartott példányokra vonatkozó visszatérítési szabályzatok az [önkiszolgáló cserékben és a Azure Reservations-](/azure/cost-management-billing/reservations/exchange-and-refund-azure-reservations)visszatérítésekben érhetők el.
 
-## <a name="azure-support-plans"></a>Azure-támogatás ügyfeleknek
+## <a name="azure-support-plans"></a>Azure-támogatási csomagok
 
 Ha áthelyezi vagy módosítja az Azure-támogatási csomagot, akkor jogosult lehet részleges visszatérítésre. A visszatérített összeg az előfizetési időszak hátralévő részén alapul.
 

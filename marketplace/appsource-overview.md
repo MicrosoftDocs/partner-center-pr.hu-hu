@@ -1,17 +1,17 @@
 ---
 title: Microsoft AppSource áttekintése
 description: Ismerkedjen meg a Microsoft AppSource online áruházával, valamint arról, hogy miként találhatja meg és tekintheti meg a szoftverek és megoldások részletes katalógusát.
-ms.prod: marketplace-customer
+ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: 5c89ef94977882b72563763744c6437c6c7f368a
-ms.sourcegitcommit: 79e45aa581ad7785e2417660ed6c73689988f58b
+ms.openlocfilehash: 6e0ca8e63276d63230b3862d7618ad0c649d8ffe
+ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "98759869"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103412522"
 ---
 # <a name="what-is-microsoft-appsource"></a>Mi az a Microsoft AppSource?
 
@@ -65,6 +65,6 @@ Microsoft 365 rendszergazda felhasználók az SaaS-és a beépülő modulokat eg
 
 Az összes tőzsdei lapon megtalálhatja a többi ügyfél minősítéseit és felülvizsgálatait. A minősítések öt csillagos skálát használnak, az átlag minősítés pedig az egyes ajánlati kártyákon jelenik meg. A Verbatim-értékelések szintén elérhetők, így megismerheti a többi ügyfél élményét. Miután megvásárolta a megoldást, elhagyhat egy minősítést, és áttekintheti, hogy más ügyfelek is megtehetik döntéseit.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Szoftvervásárlás a Microsoft AppSource-on?](purchase-software-appsource.md)

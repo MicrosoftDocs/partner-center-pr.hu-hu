@@ -1,17 +1,17 @@
 ---
 title: Szoftverek és megoldások vásárlása az Azure Marketplace-ről
 description: Ismerje meg azokat az eszközöket, amelyek egyszerűbbé és egyszerűbbé teszik a szoftverek vásárlását és felügyeletét az Azure Marketplace-en.
-ms.prod: marketplace-customer
+ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 01/18/2021
-ms.openlocfilehash: de58fad7af7dd2cd6b8c98e5763557d54cc776a2
-ms.sourcegitcommit: c46658f4d70004596e758fe4cd8671b6e9dadeab
+ms.openlocfilehash: ac20b3c0603f886104499ab8de6da1d3459bbd57
+ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98584209"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103412573"
 ---
 # <a name="azure-marketplace-purchasing"></a>Az Azure Marketplace megvásárlása
 
@@ -75,6 +75,6 @@ Az Azure Marketplace-en keresztüli ajánlat megvásárlása különböző okok 
 1. A privát piactér engedélyezve van az előfizetéshez, és az ajánlat nem szerepel az engedélyezett ajánlatok listáján.
 1. Az ajánlat az egyes ügyfelekhez tartozó Private/Preview, az előfizetés pedig nem szerepel az engedélyezett ügyfelek listáján.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Számlázás és számlakiállítás](billing-invoicing.md)
