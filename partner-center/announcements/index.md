@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/12/2021
-ms.openlocfilehash: bbc4d02d4834a4bb13f7c58de709b74ce09e1f4d
-ms.sourcegitcommit: e75c09f539ba4ead74db9c729be0485e71b7b6b1
+ms.date: 03/15/2021
+ms.openlocfilehash: f7cca5e0d026ad78fb66c4a5eb623c279d3d2c98
+ms.sourcegitcommit: af8cfd89218f55467bd3bbd4102f7baf890e5066
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103481007"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570175"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|A meghajtó hatékonyságának & skálázása|[Jogi cég nevének frissítése a partner centeren keresztül](2021-march.md#9)|Március 16|
 |Képességek|[Frissítés a Cloud Solution Provider (CSP) program fejleményeire és a licencelési program megnyitására](2021-march.md#8)|Március 15.|
 |Növelje üzletét|[Frissítés korábbi bejelentésre: prémium szintű felmérések, a megfelelőségi vezető bővítménye](2021-march.md#7)|Március 15.|
 |Képességek|[Megoldásait áttelepítheti egy kereskedelmi partnertől (OCP) a Microsoft kereskedelmi Marketplace-re (GTM)](2021-march.md#6)|Március 12.|

@@ -8,17 +8,60 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/12/2021
-ms.openlocfilehash: f5b9069ffe0ebfa15053a3ed18fc2ee3706d9c96
-ms.sourcegitcommit: e75c09f539ba4ead74db9c729be0485e71b7b6b1
+ms.date: 03/15/2021
+ms.openlocfilehash: 435d14ec89a9582f16f77f5a63af90ceac9e2e4c
+ms.sourcegitcommit: af8cfd89218f55467bd3bbd4102f7baf890e5066
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103480986"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103570192"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="update-a-legal-company-name-through-partner-center"></a><a name="9"></a> Jogi cég nevének frissítése a partner centeren keresztül
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-16
+- A meghajtó hatékonyságának & skálázása
+
+### <a name="summary"></a>Összefoglalás
+
+Március 2021, Microsoft Partner Network (MPN) partnerek és a felhőalapú megoldás-szolgáltató (CSP) közvetett viszonteladók a partner centeren keresztül frissíthetik a vállalatuk nevét.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+MPN-partnerek és CSP közvetett viszonteladók (nem alkalmazható a CSP Direct Bill-partnereknek)
+
+### <a name="details"></a>Részletek
+
+A március 2021-től kezdődően az MPN-partnerek és a CSP közvetett viszonteladók megfelelő, önkiszolgáló módon frissíthetik a vállalatuk nevét a partner centeren keresztül. Ezzel az új funkcióval a partnereknek többé nem kell beküldeniük a partner Center támogatási jegyét a vállalat nevének frissítéséhez. Így jelentős mennyiségű időt takaríthat meg a partnerek számára ezen tevékenységek végrehajtásakor.
+
+A jogi cég nevének frissítéséhez kövesse az alábbi lépéseket:
+
+1. A globális rendszergazdának vagy a fiók rendszergazdájának be kell jelentkeznie a partner Centerbe, és meg kell [nyitnia a Fiókbeállítások menüpontot](https://partner.microsoft.com/dashboard/account/v3/organization/legalinfo#mpn).
+
+2. Frissítse a jogi cég nevét.
+
+3. A frissített név mentése után a Microsoft ellenőrzi a megadott adatokat. Az ellenőrzés öt – hét napig is függőben lehet.
+
+4. Az ellenőrzés befejezése után a rendszer a frissített jogi nevet fogja társítani a partner bérlőhöz.
+
+5. Ha az ellenőrzés állapota Elutasítva értékűre változik, a probléma megoldásához tekintse meg a [fiókadatok ellenőrzése című témakört](https://docs.microsoft.com/partner-center/verification-responses) .
+
+>[!NOTE]
+>Győződjön meg arról, hogy a vállalat neve a jogi üzleti profilban nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megfelel a vállalati üzleti regisztrációs rekordoknak. A szervezeti profil frissítésével kapcsolatos további információkért tekintse meg a [szervezet profiljának ellenőrzése](https://docs.microsoft.com/partner-center/update-your-partner-profile#update-your-legal-business-profile)című témakört.
+
+### <a name="next-steps"></a>Következő lépések
+
+Ossza meg ezt az információt a szervezeten belül, hogy a megfelelő csapat áttekintse és frissítse a folyamatait.
+
+### <a name="questions"></a>Kérdése van?
+
+Kérdéseivel, lekérdezésekkel vagy további információkkal kapcsolatban forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?category=csp) .
 
 ________________
 ## <a name="update-to-cloud-solution-provider-csp-program-evolution-and-open-license-program-changes"></a><a name="8"></a> Frissítés a Cloud Solution Provider (CSP) program fejleményeire és a licencelési program megnyitására
