@@ -5,43 +5,54 @@ ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
-ms.date: 11/20/2020
-ms.openlocfilehash: 5fbcb4809f13081479078be9cff07cbf65e1f91a
-ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
+ms.custom: contperf-fy21q3
+ms.date: 03/09/2021
+ms.openlocfilehash: 96e8d686d2048856791a691ccc1d03f541ad856d
+ms.sourcegitcommit: 062ee7d60eb552b25b4dc7cd2493da0a0a267635
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103412590"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103486933"
 ---
 # <a name="what-is-azure-marketplace"></a>Mi az Azure Marketplace?
 
-Az Azure Marketplace egy online áruház, amely az iparág vezető technológiai vállalatai által készített több ezer informatikai alkalmazást és szolgáltatást tartalmaz. Az Azure piactéren megtalálhatja, kipróbálhatja, megvásárolhatja és üzembe helyezheti az új megoldások létrehozásához és a felhőalapú infrastruktúra kezeléséhez szükséges szoftvereket és szolgáltatásokat. A katalógus a különböző iparágak és technikai területek, az ingyenes próbaverziók és a Microsoft-partnerek tanácsadói szolgáltatásainak megoldásait is tartalmazza.
+Az [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/security) egy online áruház, amely az iparág vezető technológiai vállalatai által készített több ezer informatikai alkalmazást és szolgáltatást tartalmaz. Az Azure piactéren megtalálhatja, kipróbálhatja, megvásárolhatja és üzembe helyezheti az új megoldások létrehozásához és a felhőalapú infrastruktúra kezeléséhez szükséges szoftvereket és szolgáltatásokat. A katalógus a különböző iparágak és technikai területek, az ingyenes próbaverziók és a Microsoft-partnerek tanácsadói szolgáltatásainak megoldásait is tartalmazza.
 
 ## <a name="find-what-you-need-in-azure-marketplace"></a>Megtudhatja, mire van szüksége az Azure Marketplace-en
 
-Keressen a katalógusban név alapján, vagy keresse meg a kategóriákat, például az elemzési, a biztonsági, a hálózati, a tárolási és a DevOps. Az Azure Marketplace egyszerűbbé teszi a szoftverek beszerzését és felügyeletét (a különböző díjszabási lehetőségekkel és több üzembe helyezési módszerekkel), így rugalmasságot biztosíthat az egyedi üzleti igények kielégítése érdekében. Emellett a standard szintű szerződések, a konszolidált számlázás és a számlázás, valamint a központosított előfizetés-kezelés terén is egyszerűsíti a beszerzést.
+Az Azure Marketplace egyszerű keresési és szűrési lehetőségeket kínál, amelyek segítségével gyorsan megtalálhatja, amit keres. A lap tetején található keresési sáv segítségével megkeresheti a gyártó, a terméknév vagy a kulcsszavak által kínált megoldásokat.
 
-Az Azure Marketplace katalógus az online áruházból és a Azure Portalon keresztül érhető el.  
+:::image type="content" source="media/azure-marketplace/azure-marketplace-select.png" alt-text="Megjeleníti az Azure piactér fő ablakát, ahol kiválaszthatja, hogy az alkalmazások és a tanácsadási szolgáltatások böngészhetnek-e.":::
 
-### <a name="search-the-online-store"></a>Keresés az online áruházban
+Az alkalmazás-katalógus feltárásakor a felül található szűrők használatával szűkítheti az eredményeket az ingyenes próbaverzió vagy a tesztelési meghajtó, az operációs rendszer, a közzétevő, a díjszabási modell vagy a terméktípus rendelkezésre állása alapján.
 
-Látogasson el az [online áruházba](https://azuremarketplace.microsoft.com/) , és válassza ki, hogy az **alkalmazások** és a **tanácsadási szolgáltatások** böngészhetnek-e. Az itt vásárolt alkalmazások az Azure Marketplace-en lesznek üzembe helyezve.
+:::image type="content" source="media/azure-marketplace/azure-marketplace-filters.png" alt-text="Megjeleníti az Azure Marketplace ablak tetején található szűrőket.":::
 
-:::image type="content" source="media/azure-marketplace/azure-marketplace-select.png" alt-text="Az Azure Marketplace-en válassza a felül lehetőséget, hogy böngéssze-e az alkalmazásokat vagy a tanácsadási szolgáltatásokat.":::
+A bal oldali ablaktábla lehetővé teszi a katalógus szűrését olyan kategóriák alapján, mint az analitikai, a biztonsági, a hálózati, a tárolási és a DevOps. Válasszon ki egy kategóriát a rendelkezésre álló alkategóriák megtekintéséhez.
 
-Használja a képernyő felső részén található keresősáv vagy a termékkategóriák távolabbi oldalát (ez nem látható) az igényeinek legmegfelelőbb eszköz megtalálásához.
+:::image type="content" source="media/azure-marketplace/categories-subcategories.png" alt-text="Az alkategóriákkal rendelkező kategóriákat jeleníti meg.":::
 
-A tanácsadási szolgáltatások csak az online áruházban érhetők el, nem pedig a Azure Portal.
+Az Azure Marketplace egyszerűbbé teszi a szoftverek beszerzését és felügyeletét (a különböző díjszabási lehetőségekkel és több üzembe helyezési módszerekkel), így rugalmasságot biztosíthat az egyedi üzleti igények kielégítése érdekében. Emellett a standard szintű szerződések, a konszolidált számlázás és a számlázás, valamint a központosított előfizetés-kezelés terén is egyszerűsíti a beszerzést. Az Azure Marketplace katalógus az online áruházból és a Azure Portalon keresztül érhető el.
 
-### <a name="search-in-the-azure-portal"></a>Keresés a Azure Portalban
+## <a name="microsoft-preferred-solutions"></a>A Microsoft által előnyben részesített megoldások
+
+A katalógus keresésekor vagy szűrése során az eredmények tartalmazhatják a Microsoft által előnyben részesített megoldásokat, amelyek az alkalmazás kártyajának jobb alsó sarkában, illetve a Product Details (jelvény) lapon található, az előnyben részesített megoldások alapján azonosíthatók.
+
+:::image type="content" source="media/azure-marketplace/preferred-solution-badge.png" alt-text="Az Azure Marketplace előnyben részesített szolgáltatójának jelvényét jeleníti meg.":::
+
+Az előnyben részesített megoldásokat a Microsoft szakértői csoportja választhatja ki, és a Microsoft partnerei részletes, bevált szaktudást és képességeket biztosítanak, hogy egy kategória-, iparági vagy iparági vertikális felhasználói igényekkel foglalkozzanak.
+
+## <a name="search-in-the-azure-portal"></a>Keresés a Azure Portalban
 
 A Azure Portal válassza az **+ erőforrás létrehozása** vagy a "piactér" kifejezésre. Ezután tallózással keresse meg a kategóriákat a bal oldalon, vagy használja a keresési sávot, amely tartalmaz egy Filter függvényt.
 
 :::image type="content" source="media/azure-marketplace/azure-portal.png" alt-text="Alkalmazások kiválasztása a Azure Portalban.":::
 
+A tanácsadási szolgáltatások csak az online áruházban érhetők el, nem pedig a Azure Portal.
+
 ## <a name="take-action-on-a-listing"></a>Művelet elvégzése egy listán
 
-Az Azure Marketplace minden listája a következő műveletek közül egyet vagy többet támogat:
+A következők közül egy vagy több kiválasztásával tegyen lépéseket egy listáról:
 
 - **Szerezze be most** a megoldás azonnali megvásárlását.
 - **Test Drive** – Fedezzen fel egy kurátori bemutatót. A tesztelési meghajtókhoz nincs szükség konfigurációra. Lehetővé teszik annak megállapítását, hogy a megoldás megfelel-e az üzleti igényeknek a termelési adatai vagy a környezete használata nélkül.

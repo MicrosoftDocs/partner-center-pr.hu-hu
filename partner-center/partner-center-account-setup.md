@@ -1,7 +1,7 @@
 ---
 title: A Partnerközpontfiók kezelése
 ms.topic: conceptual
-ms.date: 01/14/2021
+ms.date: 03/15/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan használhatja a partner centert a vállalat profiljának, banki és adózási információinak, szerepköreinek, engedélyeinek és egyéb adatainak kezeléséhez.
@@ -9,12 +9,12 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9c1a17b6703981dee93acbb057bff2405d1f4f11
-ms.sourcegitcommit: 7d15e9bdb93a780886f588d294383d33c70a49f0
+ms.openlocfilehash: c2acc97a5f509f97b0ffeb6904f511cf755e4ca5
+ms.sourcegitcommit: 062ee7d60eb552b25b4dc7cd2493da0a0a267635
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98235970"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103487004"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
@@ -26,7 +26,7 @@ A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti a
 Tekintse [meg az alkalmazottak meghívása a partner központba](guide-to-migration.md) című cikket, és [adjon hozzá egy új felhasználót](create-user-accounts-and-set-permissions.md).
 
 >[!NOTE]
->A Fiókbeállítások menü attól függően változik, hogy milyen programok vannak regisztrálva. Ha például Ön a felhőalapú megoldás-szolgáltató program (CSP) egyik partnere, akkor az Azure-beli megosztott szolgáltatások a Fiókbeállítások alapján kezelhetők.
+>A Fiókbeállítások menü attól függően változik, hogy milyen programok vannak regisztrálva. Ha például Ön a felhőalapú megoldás-szolgáltató program (CSP) egyik partnere, akkor az Azure-beli megosztott szolgáltatások a **Fiókbeállítások** alapján kezelhetők.
 
 ## <a name="account-management"></a>Fiókkezelés
 
@@ -51,6 +51,20 @@ Ha a **Beállítások** ikont választja, és megnyitja a **Fiókbeállítások*
 A partner lap tartalmazza az összes olyan jogi üzleti információt, mint például a bejegyzett jogi név és a vállalat, valamint az elsődleges kapcsolattartó és az üzleti telephely. A CSP businesst segítő partnerek viszonteladói lapja magában foglalja az **ügyfélszolgálati profilt**.
 
 Ha a vállalat nem vesz részt a CSP-ben, az alapértelmezett nézet csak a **partner** lapot fogja megjeleníteni, amely tartalmazza az **ügyfélszolgálati profilt**.
+
+### <a name="when-you-are-in-more-than-one-account"></a>Ha egynél több fiókkal rendelkezik
+
+Több fiók is része lehet. A bal oldali navigációs menüben megtekintheti, hogy a "fiók kiválasztása" beállítással több fiók is tagja-e.
+
+:::image type="content" source="images/accountsettings/account-picker.png" alt-text="A fiók-választó azonosítása":::
+
+Ha nem látja a fiók-választót, csak egy fiókhoz tartozik. 
+
+Ha rákattint erre a választóra, a rendszer az összes olyan fiókot listázza, amelynek a részét képezi. Ezután rákattinthat bármelyikre, és átválthat erre a fiókra. Minden, ami azután megjelenik a fiók környezetében.  
+
+Az alábbi példában a bejelentkezett felhasználó a három kiemelt fiók részét képezi. A felhasználó egy fiókra kattintva válthat egymás között.
+
+:::image type="content" source="images/accountsettings/picked-accounts.png" alt-text="A fiók, amelynek Ön a része":::
 
 ## <a name="organization-profile"></a>Szervezeti profil
 
@@ -90,13 +104,13 @@ Ez az oldal tartalmazza a kifizetési és adózási adatokat, beleértve a **Sz�
 
 ## <a name="user-management"></a>Felhasználókezelés
 
-A partner Centerben, illetve a frissíteni vagy megtekinteni kívánt területek a szerepkörtől és a szerepkörhöz csatolt engedélyektől függenek. Ha például Ön nem ösztönző rendszergazda, akkor nem fog tudni bármit módosítani az ösztönző lapokon, de előfordulhat, hogy megtekintheti az adott adatait.
+A partner Centerben, illetve a frissíteni vagy megtekinteni kívánt területek a szerepkörtől és a szerepkörhöz csatolt engedélyektől függenek. Ha például Ön nem ösztönző rendszergazda, akkor nem fog tudni bármit módosítani az ösztönző lapokon, de előfordulhat, hogy megtekintheti az adott adatait. További információ a [szerepkörökről és engedélyekről](permissions-overview.md)
 
 ### <a name="update-preferred-email"></a>Előnyben részesített e-mail frissítése
 
 Az előnyben részesített e-mailek frissítése a partneri központ értesítéseinek fogadásához:
 
-1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
 1. Lépjen az [**engagement preferencia**](https://partner.microsoft.com/dashboard/engagement/preference)elemre, válassza a **módosítás** hivatkozást, frissítse az e-mail-címet, majd kattintson a **Mentés** gombra.
 
 ### <a name="find-your-user-role"></a>Felhasználói szerepkör megkeresése
@@ -134,7 +148,7 @@ Ha többet szeretne megtudni a partner Center-programok regisztrálásáról, te
 
 További információ a partner Center-programokban való regisztrálásról: a [partner hálózati erőforrásai](https://partner.microsoft.com/).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A partnerprofil frissítése](update-your-partner-profile.md)
 - [Felhasználói fiókok létrehozása és engedélyek beállítása](create-user-accounts-and-set-permissions.md)

@@ -5,13 +5,14 @@ ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
-ms.date: 11/20/2020
-ms.openlocfilehash: 6e0ca8e63276d63230b3862d7618ad0c649d8ffe
-ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
+ms.date: 03/12/2021
+ms.custom: contperf-fy21q3
+ms.openlocfilehash: 26de300413e9b718545489b1ab4a3aa6a0286bf3
+ms.sourcegitcommit: 062ee7d60eb552b25b4dc7cd2493da0a0a267635
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103412522"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "103486868"
 ---
 # <a name="what-is-microsoft-appsource"></a>Mi az a Microsoft AppSource?
 
@@ -21,13 +22,25 @@ A AppSource-katalógus a Microsoft-partnerektől származó, Microsoft Azure, Dy
 
 ## <a name="find-what-you-need-on-appsource"></a>A AppSource megkeresése
 
-A AppSource egyszerű keresési és szűrési lehetőségeket kínál, amelyek segítségével gyorsan megtalálhatja, amit keres. A lap tetején található keresési sáv segítségével megkeresheti a gyártó, a terméknév vagy a kulcsszavak által kínált megoldásokat. A lap tetején található szűrők segítségével szűkítheti az eredményeket az ingyenes próbaverzió vagy tesztvezetés, a díjszabási modell (ingyenes vagy fizetős) és a minősítések rendelkezésre állása alapján.
+A AppSource egyszerű keresési és szűrési lehetőségeket kínál, amelyek segítségével gyorsan megtalálhatja, amit keres. A lap tetején található **keresési** sáv segítségével megkeresheti a gyártó, a terméknév vagy a kulcsszavak által kínált megoldásokat.
 
-A bal oldali ablaktábla lehetővé teszi az eredmények szűrését a terméktípusok, kategóriák és iparágak listája alapján. A AppSource-terméktípusok olyan termékeken alapulnak, mint a Microsoft 365 és a Power apps. A kategóriák olyan üzleti funkciókon alapulnak, mint az együttműködés és a marketing. Kiválaszthatja az olyan iparágak listáját is, mint például a mezőgazdaság és a gyártás.
+[![Megjeleníti a Microsoft Appsource kezdőlapját.](media/appsource-overview/appsource-home-page.png)](media/appsource-overview/appsource-home-page.png#lightbox)
+
+Az [alkalmazás](https://appsource.microsoft.com/marketplace/apps)-katalógus felfedezése során az oldal tetején található szűrők segítségével szűkítheti az eredményeket az ingyenes próbaverzió vagy tesztvezetés, a díjszabási modell (ingyenes vagy fizetős) és az ügyfél-minősítések rendelkezésre állása alapján.
+
+A bal oldali ablaktábla lehetővé teszi az eredmények szűrését a terméktípusok, kategóriák és iparágak listája alapján. A AppSource-terméktípusok olyan termékeken alapulnak, mint a Microsoft 365, a Dynamics 365 és a Power platform. A kategóriák olyan üzleti funkciókon alapulnak, mint az értékesítés, az együttműködés vagy a marketing. Kiválaszthatja az olyan iparágak listáját is, mint például a pénzügyi szolgáltatások, az egészségügy és a terjesztés.
+
+## <a name="microsoft-preferred-solutions"></a>A Microsoft által előnyben részesített megoldások
+
+A katalógus keresésekor vagy szűrése során az eredmények tartalmazhatják a Microsoft által előnyben részesített megoldásokat, amelyek az alkalmazás kártyajának jobb alsó sarkában, illetve a Product Details (jelvény) lapon található, az előnyben részesített megoldások alapján azonosíthatók.
+
+:::image type="content" source="media/appsource-overview/preferred-solution-badge.png" alt-text="Megjeleníti a AppSource előnyben részesített szolgáltatói jelvényét.":::
+
+Az előnyben részesített megoldásokat a Microsoft szakértői csoportja választhatja ki, és a Microsoft partnerei részletes, bevált szaktudást és képességeket biztosítanak, hogy egy kategória-, iparági vagy iparági vertikális felhasználói igényekkel foglalkozzanak.
 
 ## <a name="take-action-on-a-listing"></a>Művelet elvégzése egy listán
 
-Amikor kiválaszt egy alkalmazást az _alkalmazás eredményei_ közül, megjelenik az alkalmazás listázási lapja. A AppSource összes listája a következő listaelemek közül egyet vagy többet támogat:
+Válasszon ki egy alkalmazást az *alkalmazás eredményei* közül, és tekintse meg az alkalmazás listázási lapját. A következők közül egy vagy több kiválasztásával tegyen lépéseket egy listáról:
 
 - **Szerezze be most**: a megoldás azonnali megvásárlása.
 - **Test Drive**: Fedezzen fel egy kurátori bemutatót. A tesztvezetés nem használja éles adatait vagy környezetét, de lehetővé teszi annak meghatározását, hogy a megoldás megfelel-e az üzleti igényeinek.

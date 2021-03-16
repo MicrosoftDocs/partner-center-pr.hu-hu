@@ -8,17 +8,91 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/11/2021
-ms.openlocfilehash: 479f18318a2cc85ca16c399a0379e5528090d229
-ms.sourcegitcommit: ddb9ad42d7bd8fb433d86f84a839f793a42600dd
+ms.date: 03/12/2021
+ms.openlocfilehash: f5b9069ffe0ebfa15053a3ed18fc2ee3706d9c96
+ms.sourcegitcommit: e75c09f539ba4ead74db9c729be0485e71b7b6b1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103193630"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "103480986"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="update-to-cloud-solution-provider-csp-program-evolution-and-open-license-program-changes"></a><a name="8"></a> Frissítés a Cloud Solution Provider (CSP) program fejleményeire és a licencelési program megnyitására
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-15
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+Az új kereskedelmi és közszektorbeli örökös szoftverek a Cloud Solution Provider (CSP) programba kerülnek, valamint az Open licencelési program módosításait.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A nyílt licencelési programon keresztül árusító kereskedelmi terjesztők és felügyelt viszonteladók, valamint az örökös szoftvereket lebonyolító CSP-partnerek
+
+### <a name="details"></a>Részletek
+
+A Microsoft szeptember 2020-án [bejelentette](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) a digitális átalakulás lépéseinek egy sorozatát, amely kibővíti a partnereinkkel kapcsolatos lehetőségeket a CSP programban, beleértve a helyszíni szoftverek rendelkezésre állását a partnerek számára. Ezek a változások lehetővé teszik, hogy a partnerek a CSP-ben a szoftver licenceit kihasználva növeljék üzleti tevékenységüket Emellett képessé teszik az ügyfeleket a felhőre való áttérésre, és lehetővé teszik a partnerek számára a hibrid felhőalapú környezetekhez szükséges rugalmasságot.
+
+A digitális átalakítás folytatásakor a következő módosításokat tesszük közzé:
+
+- 2021. július 1-jén: a program nem ad hozzá új SKU-t, terméket vagy előléptetést az Open szoftverlicenc-árlista listájához.
+
+- Július 7., 2021: két kereskedelmi ajánlat, valódi Windows-és Visual Studio Professional-és nyilvános szektor-ajánlatok (kormányzati, oktatási és nonprofit – lásd a [bejelentést](https://docs.microsoft.com/partner-center/announcements/2020-december#9)) a CSP Perpetual Software Prices listához lesznek hozzáadva.  Az árlista a partner Center [értékesítési > díjszabása & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldalának szoftver szakaszában található, és ezen a napon újra közzé lesz téve.
+
+A CSP-program evolúciójának és a licencelési program változásának részletes ismertetését az alábbi, **következő lépésekben** találhatja meg.
+
+### <a name="next-steps"></a>További lépések:
+
+- CSP-program evolúciója: Tekintse át az [örökös szoftvereket a Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/software-in-csp#/) készenléti anyagaiban. Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
+
+- A licencelési program módosításainak megnyitása: Tekintse át a [CSP-program evolúcióját, és nyissa meg a licencelési program változásait](https://partner.microsoft.com/resources/collection/csp-open-evolution-to-a-better-experience#/) . Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/csp-open-evolution-to-a-better-experience-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
+
+### <a name="questions"></a>Kérdések
+
+További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
+
+_______________
+## <a name="update-to-a-previous-announcement-premium-assessments-an-add-on-to-compliance-manager"></a><a name="7"></a>Frissítés korábbi bejelentésre: prémium szintű felmérések, a megfelelőségi vezető bővítménye
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-15
+- Vállalkozás fejlesztése
+
+### <a name="summary"></a>Összefoglalás
+
+A próbaverziós ajánlatokat nem lehet listázni az árlista alapján, és el lesznek távolítva.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Felhőalapú megoldás-szolgáltatón keresztül lebonyolított partnerek
+
+### <a name="details"></a>Részletek
+
+A próbaverziós ajánlatokat nem tartalmazza az árlista. Ezeket a rendszer eltávolítja a 2021-es árlista-listából.
+
+Az eredeti hirdetmény [itt](https://docs.microsoft.com/partner-center/announcements/2021-february#4)található.
+
+### <a name="additional-resources"></a>További források
+
+- [Az E5 biztonsági és megfelelőségi Microsoft 365](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise?activetab=m365-enterprise:primaryr5)
+
+- [Értékelések készítése és kezelése a Microsoft megfelelőségi kezelőjében – Microsoft 365 megfelelőség | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments?view=o365-worldwide)
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
+
+### <a name="questions"></a>Kérdése van?
+
+Az ajánlatokkal kapcsolatos kérdésekben keresse meg a megfelelő Yammer-közösségeket.
 
 ________________
 ## <a name="migrate-your-solutions-from-one-commercial-partner-ocp-go-to-market-gtm-to-the-microsoft-commercial-marketplace"></a><a name="6"></a> Megoldásait áttelepítheti egy kereskedelmi partnertől (OCP) a Microsoft kereskedelmi Marketplace-re (GTM)
