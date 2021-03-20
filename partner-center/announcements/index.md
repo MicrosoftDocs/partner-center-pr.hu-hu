@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/15/2021
-ms.openlocfilehash: f7cca5e0d026ad78fb66c4a5eb623c279d3d2c98
-ms.sourcegitcommit: af8cfd89218f55467bd3bbd4102f7baf890e5066
+ms.date: 03/18/2021
+ms.openlocfilehash: 87d71434a44bcfe66f7a928291007237e9c958c6
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103570175"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712290"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,9 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[CSP kereskedelmi Marketplace ajánlat és FY21 CSP-ösztönzők a jogosult ajánlatok számára](2021-march.md#12)|Március 18|
+|Képességek|[Power BI Premium ajánlat elnevezési és előfeltétel-frissítése](2021-march.md#11)|Március 18|
+|Ajánlatok/piacok|[A Microsoft 365 F3 díjszabási frissítései](2021-march.md#10)|Március 16|
 |A meghajtó hatékonyságának & skálázása|[Jogi cég nevének frissítése a partner centeren keresztül](2021-march.md#9)|Március 16|
 |Képességek|[Frissítés a Cloud Solution Provider (CSP) program fejleményeire és a licencelési program megnyitására](2021-march.md#8)|Március 15.|
 |Növelje üzletét|[Frissítés korábbi bejelentésre: prémium szintű felmérések, a megfelelőségi vezető bővítménye](2021-march.md#7)|Március 15.|

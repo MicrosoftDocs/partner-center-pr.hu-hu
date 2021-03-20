@@ -1,7 +1,7 @@
 ---
 title: MPN-fiók létrehozása a partner Centerben
 ms.topic: article
-ms.date: 03/15/2021
+ms.date: 03/18/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogy Microsoft Partner Network tagok hogyan hozhatnak létre partneri központot a hálózati előnyeiknek és kompetenciáinak kezeléséhez.
@@ -9,12 +9,12 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 16d19ce353c081359ab59a34bf0a21392fc7d484
-ms.sourcegitcommit: af8cfd89218f55467bd3bbd4102f7baf890e5066
+ms.openlocfilehash: a099b30753d2ea6de217001e7b13e4a333e40f55
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103570209"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712919"
 ---
 # <a name="create-an-mpn-account-in-partner-center-to-manage-network-benefits-and-competencies"></a>MPN-fiók létrehozása a partner Centerben a hálózati előnyök és kompetenciák kezeléséhez
 
@@ -40,14 +40,14 @@ Ha készen áll egy fiók létrehozására a partner Centerben, akkor a követke
 
 ## <a name="get-started"></a>Bevezetés
 
-1. Az első [**lépések**](https://partner.microsoft.com/dashboard/account/v3/enrollment/introduction/partnership) lapon Kezdje a vállalata által megadott munkahelyi e-mail-címével you@yourcompanyname.com .
+1. Az első [**lépések**](https://partner.microsoft.com/dashboard/account/v3/enrollment/introduction/partnership) lapon Kezdje a vállalata által megadott munkahelyi e-mail-címmel, például: you@yourcompanyname.com .
 
  
-    a.  Az e-mail-címnek érvényesnek és elérhetőnek kell lennie, mivel a folytatáshoz el kell küldeni egy ellenőrző kódot.
+    a.  Az e-mail-címnek érvényesnek és elérhetőnek kell lennie, mert a folytatáshoz el kell küldenie egy ellenőrző kódot az e-mail-címre.
 
-    b.  Az e-mail-cím nem tartalmazhat olyan szavakat, mint az "info", "admin", "" email@. . " Vagy " marketing@.. .", mivel ezek nem támogatottak.
+    b.  Az e-mail-cím nem tartalmazhat olyan szavakat, mint az "info", "admin", "" email@ . " Vagy " marketing@.. ."; ezek a Címformátum nem támogatottak.
 
-    c.  A térképek megvásárlásához vagy a kompetenciák kezeléséhez frissítenie kell ezt a fiókot a tartomány ellenőrzésével és a rendszergazda bevezetésével. 
+    c.  A térképek megvásárlásához vagy a kompetenciák kezeléséhez frissítenie kell ezt a fiókot a [tartomány ellenőrzésével](become-global-admin.md) és a rendszergazda bevezetésével. 
 
 2. Bejelentkezhet az Office 365 munkahelyi fiókjával, például: you@contoso.onmicrosoft.com .
 
@@ -58,8 +58,11 @@ Ha készen áll egy fiók létrehozására a partner Centerben, akkor a követke
 
 Megkeresheti a vállalati profilt, vagy manuálisan is megadhatja a vállalati adatokat. Ha a vállalata [Dun & bradstreettől](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)van regisztrálva, a Duns-azonosító használatával megkeresheti a vállalati adatokat. Ha meg szeretné adni a vállalat adatait, válassza a **manuális** lehetőséget.
 
-Miután megadta a vállalati adatokat, adja meg az elsődleges kapcsolattartási adatokat, majd válassza a **regisztrálás most** lehetőséget.
-Az elsődleges kapcsolattartónak a vállalatban lévő személynek kell lennie, akivel kapcsolatba léphet az alkalmazással (ez lehet Ön vagy egy másik személy a cégnél).
+Ha a vállalata **Örményországban**, **Magyarországon**, **Kirgizisztánban**, **Moldovában**, **Üzbegisztánban** vagy **Oroszországban** található, és manuálisan adja meg a saját címeit, a rendszer érvényesíti Önnek a címedet. Ha az Ön által megadott típus eltér az ellenőrzötttől, javasoljuk, hogy használja a hitelesített címeket. Ez biztosítja, hogy a cím elemei szabványosítva legyenek az ország postai hatósága által meghatározott módon, megfelelően formázva és shippable.  
+
+Miután megadta a vállalati adatokat, adja meg az elsődleges kapcsolattartási adatokat. Az elsődleges kapcsolattartónak a vállalat azon személyének kell lennie, akivel kapcsolatba tud lépni az alkalmazással (ez a kapcsolat lehet Ön vagy egy másik személy a cégnél).
+
+4. Válassza a **regisztrálás most** lehetőséget.
 
 >[!IMPORTANT]
 >A vállalat biztonságának és adatvédelmének biztosítása érdekében e-mailben értesítjük az elsődleges partnert az e-mail-cím ellenőrzéséről, valamint arról, hogy az e-mail-cím a vállalathoz tartozik. Miután az elsődleges Kapcsolatfelvétel ellenőrzi az e-mail-címet, folytatjuk a megadott információk áttekintését. Az ellenőrzés általában 3-5 munkanapot vesz igénybe. 
@@ -75,14 +78,14 @@ Az alábbi képernyőképen látható módon megtekintheti a többi fontos infor
 
 ## <a name="next-steps"></a>Következő lépések
 
--   [Felhasználói fiókok hozzáadása és engedélyek kiosztása](create-user-accounts-and-set-permissions.md)
+-  [Felhasználói fiókok hozzáadása és engedélyek kiosztása](create-user-accounts-and-set-permissions.md)
 
--   [Microsoft Action Pack-előfizetés vásárlása vagy megújítása](mpn-get-action-pack.md)
+-  [Microsoft Action Pack-előfizetés vásárlása vagy megújítása](mpn-get-action-pack.md)
 
--   [Tagsági előnyök kezelése](manage-your-partner-network-benefits.md)
+-  [Tagsági előnyök kezelése](manage-your-partner-network-benefits.md)
 
--   [Ismerje meg az arany-és ezüst-tagságra vonatkozó kompetenciával kapcsolatos követelményeket](https://partner.microsoft.com/membership/competencies)
+-  [Ismerje meg az arany-és ezüst-tagságra vonatkozó kompetenciával kapcsolatos követelményeket](https://partner.microsoft.com/membership/competencies)
 
--   [Üzleti profil létrehozása a potenciális vásárlók figyelmének felkeltéséhez a Microsofton keresztül](create-a-marketing-profile.md)
+-  [Üzleti profil létrehozása a potenciális vásárlók figyelmének felkeltéséhez a Microsofton keresztül](create-a-marketing-profile.md)
 
--   [Értékesítési érdeklődők beszerzése és kezelése a Microsofttól](manage-leads.md)
+-  [Értékesítési érdeklődők beszerzése és kezelése a Microsofttól](manage-leads.md)

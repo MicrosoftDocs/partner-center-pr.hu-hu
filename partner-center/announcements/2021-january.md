@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/08/2021
-ms.openlocfilehash: 71deeb121fdc8b95499a7f12e08f2d116c370c7c
-ms.sourcegitcommit: 6e505d043d54e36cade511cb4b803eae64c63ff0
+ms.openlocfilehash: 2dd1563aab9d2505932bf35a9f1fe7ef22c1be28
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102514119"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712460"
 ---
 # <a name="january-2021-announcements"></a>2021. januári közlemények
 
@@ -315,7 +315,7 @@ Minden CSP-partner
 ### <a name="details"></a>Részletek
 
 >[!NOTE]
->A partneri visszajelzések miatt a visszaállítja teljesíti az örökös és a kiszolgálói előfizetési szoftverek megrendeléséhez szükséges szoftver-és licenckulcs beszerzésének lehetőségét. A rendszer a korábbi állapotába állítja vissza, mielőtt a 2021. január 19-én megszűnik. További információ: [március 2021 közlemény](https://docs.microsoft.com/partner-center/announcements/2021-march#4).
+>A partneri visszajelzések miatt a visszaállítja teljesíti az örökös és a kiszolgálói előfizetési szoftverek megrendeléséhez szükséges szoftver-és licenckulcs beszerzésének lehetőségét. A rendszer a korábbi állapotába állítja vissza, mielőtt a 2021. január 19-én megszűnik. További információ: [március 2021 közlemény](./2021-march.md#4).
 
 A mai napon [bejelentette](https://blogs.partner.microsoft.com/mpn/general-availability-of-perpetual-software-licenses-in-the-cloud-solution-provider-program/) , hogy tájékoztatjuk, hogy az állandó kereskedelmi licenccel rendelkező szoftverek általánosan elérhetők az összes CSP-partner számára az értékesítéshez. A partner Center CSP Perpetual Software árlista újra közzé lett téve, és mostantól további termékeket és földrajzi régiókat is tartalmaz.
 

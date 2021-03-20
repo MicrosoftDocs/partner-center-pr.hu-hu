@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 11/02/2020
-ms.openlocfilehash: 8c9e978fb636392d7cfd1ad48c101eadeececcc6
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 08eb760769f86f6568703590b28142c1581583a8
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756402"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712528"
 ---
 # <a name="november-2020-announcements"></a>2020. novemberi közlemények
 
@@ -273,7 +273,7 @@ Az új kereskedelmi ajánlatok ebben a változásban: az Azure-csomag, az Azure-
 
 - Azon partnereink számára, akik még nem fogadták el az új kereskedelmi ajánlatokat, ez a változás az előző partner számlázási modelljével összhangban van, így a partnerek könnyebben tudnak áttérni az új kereskedelmi élményre a CSP-ben. 
 
-### <a name="resources"></a>Források 
+### <a name="resources"></a>Erőforrások 
 
 Tekintse át a témakör információit az [Operations Gallery] (a https://partner.microsoft.com/resources/collection/eu-efta-changes-collection#/ Microsoft partner webhelyén.  
 
@@ -305,11 +305,11 @@ A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a k�
 
 ### <a name="apis-to-be-throttled"></a>Szabályozni kívánt API-k
 
-|**Művelet**|**Partnerközpont dokumentációja**|
+| **Művelet** | **Partnerközpont dokumentációja** |
 |-------------------------|----------------------------------|
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions|[Ügyfél előfizetésének beolvasása](https://docs.microsoft.com/partner-center/develop/get-all-of-a-customer-s-subscriptions)|  
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}|[Egy előfizetés lekérése azonosító alapján](https://docs.microsoft.com/partner-center/develop/get-a-subscription-by-id) | 
-|{baseURL}/v1/Customers/{customer_id}:/Orders||[Egy ügyfél összes megrendelésének lekérése](/partner-center/develop/get-all-of-a-customer-s-orders)|  
+|{baseURL}/v1/Customers/{customer_id}:/Orders|[Egy ügyfél összes megrendelésének lekérése](/partner-center/develop/get-all-of-a-customer-s-orders)|  
 |{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}|[Megrendelés lekérése azonosító alapján](/partner-center/develop/get-an-order-by-id)|  
 |{baseURL}/v1/Customers/{customer_id}/Orders/{order_id}/provisioningstatus|[Előfizetés kiépítési állapotának lekérése](/partner-center/develop/get-subscription-provisioning-status)|  
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}|[Megrendelések kezelése és az előfizetés kezelése](/partner-center/develop/manage-orders#manage-a-subscription)| 
@@ -318,7 +318,7 @@ A partneri központ nagy mennyiségű kérelem kezelésére szolgál, de ha a k�
 |{baseURL}/v1/Customers/{customer_id}/Subscriptions/{subscription_id}/registrationstatus|[Előfizetés regisztrációs állapotának lekérése](/partner-center/develop/get-subscription-registration-status)| 
 |{baseURL}/v1/customers/{customer-tenant-id}/transfers|[Ügyfél összes átadásának beolvasása](/partner-center/develop/get-subscription-registration-status)| 
 |{baseURL}/v1/productUpgrades/{upgrade-id}/status|[Termék frissítési állapotának lekérése](/partner-center/develop/get-all-of-a-customer-s-transfers)| 
-|{baseURL}/v1/customers/{customer-id}/subscriptions/{subscription-id}/conversions|[A próbaverzió átalakításával kapcsolatos ajánlatok listájának lekérése](/partner-center/develop/get-all-of-a-customer-s-transfers) 
+|{baseURL}/v1/customers/{customer-id}/subscriptions/{subscription-id}/conversions|[A próbaverzió átalakításával kapcsolatos ajánlatok listájának lekérése](/partner-center/develop/get-all-of-a-customer-s-transfers) |
   
 
 Ez a közlemény célja, hogy a partnerek számára a közelgő változások korai tudatában legyenek, így előkészítse őket. Javasoljuk, hogy a partnerek ismerkedjenek meg ezekkel az API-kkal, és fontolják meg a műveletnapló API használatát a hatékonyság növelése és a szabályozás elkerülése érdekében. A szolgáltatással kapcsolatos további információkért tekintse meg az API- [szabályozási útmutató](/partner-center/develop/api-throttling-guidance)részleteit. 
@@ -469,14 +469,14 @@ A prémium ajánlat keretében az ügyfelek hozzáférhetnek az újonnan kiadott
 
    |****|**Microsoft Teams standard USD15-eszköz havonta**|**Microsoft Teams Rooms Premium USD50-eszköz havonta**|
    |-------------------|:------|:------|
-   |Skype Vállalati verzió|Igen| |
-   |Microsoft Teams|Igen|Igen|
-   |Telefonos rendszer|Igen|Igen|
-   |Hangkonferencia|Igen|Igen|
-   |Microsoft Intune|Igen|Igen|
+   |Skype Vállalati verzió|Yes| |
+   |Microsoft Teams|Igen|Yes|
+   |Telefonos rendszer|Igen|Yes|
+   |Hangkonferencia|Igen|Yes|
+   |Microsoft Intune|Igen|Yes|
    | |A Microsoft Teams standard szintű USD15 eszközönként havonta|Microsoft Teams Rooms Premium USD50/hó|
-   |Microsoft Teams Rooms – felügyelt szolgáltatások| |Igen|
-   |Globális elérhetőség|Igen|A piacok kiválasztása|
+   |Microsoft Teams Rooms – felügyelt szolgáltatások| |Yes|
+   |Globális elérhetőség|Yes|A piacok kiválasztása|
 
 #### <a name="microsoft-teams-rooms-managed-services"></a>Microsoft Teams Rooms – felügyelt szolgáltatások
 

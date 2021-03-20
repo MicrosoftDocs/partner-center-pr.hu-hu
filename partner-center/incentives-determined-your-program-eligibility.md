@@ -1,27 +1,23 @@
 ---
 title: Ösztönző program támogathatósága
-description: Gondoskodjon arról, hogy az ösztönző program jogosult legyen a fizetésre. Ez a folyamat az alkalmazási útmutatóban való megfelelőség ellenőrzését is magában foglalja.
+description: Győződjön meg arról, hogy teljesítette az ösztönző program támogathatósági követelményeit. Ez a folyamat az alkalmazási útmutatóban való megfelelőség ellenőrzését is magában foglalja.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.date: 09/11/2020
-ms.openlocfilehash: 89d523d637a5a7641e9a9a8be255a1525ca66752
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.date: 03/16/2021
+ms.openlocfilehash: 405f7603639a3d460a307fab467872550487e936
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530547"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712161"
 ---
 # <a name="determine-your-incentives-program-eligibility"></a>Ösztönző program támogathatóságának meghatározása
 
-**A** következőkre vonatkozik:
-
-- Partnerközpont
-
-**Megfelelő szerepkörök** :
+**Megfelelő szerepkörök**:
 
 - Globális rendszergazda
 - Ösztönzők rendszergazdája
@@ -40,7 +36,11 @@ A programjához tartozó adott jogosultsági követelmények a program útmutat�
 
 3. Válassza ki a kívánt programot.
 
-4. A **Program részletei** mezőben válassza a **Program útmutatója** lehetőséget.
+4. Az **állapot** mezőben válassza a **támogathatósági követelmények** lehetőséget.
+
+   :::image type="content" source="images/incentives/eligibility.png" alt-text="A képernyőkép az ösztönző követelményekre mutat példát.":::
+
+5. A jogosultságok teljesítése érdekében be kell fejeznie az összes bejelölt területet. Minden ösztönző programhoz saját követelmények vonatkoznak.
 
 ## <a name="next-steps"></a>Következő lépések
 

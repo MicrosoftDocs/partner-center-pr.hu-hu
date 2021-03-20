@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/10/2021
 ms.localizationpriority: medium
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 5ade6d7c587561cc1af4a7645d1e4b0cce9a505e
-ms.sourcegitcommit: 26095af7950817099764bf47370cb3e77e0dce7c
+ms.openlocfilehash: 6e9afa8689f34203bdbf1f56f69aa9289e38ae15
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "102770243"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712596"
 ---
 # <a name="verify-or-update-your-company-profile-information"></a>A vállalati profil adatainak ellenőrzése vagy frissítése 
 
@@ -55,7 +55,7 @@ Frissítse a jogi cég nevét vagy címeit a partner Centerben.
 
 1. Kattintson a vállalat neve/címe melletti **frissítés**  elemre, és módosítsa a részleteket.
  
-1. Ha a **Submit (Küldés**) lehetőséget választja, a rendszer újra megvizsgálja a jogi identitást.
+1. Ha a **Submit (Küldés**) lehetőséget választja, a rendszer újra megvizsgálja a jogi identitást. Csak azt kell újraértékelni, hogy mi változott.
 
 1. Ha az ellenőrzés sikertelen, olvassa el [a probléma megoldását](verification-responses.md)ismertető témakört.
 

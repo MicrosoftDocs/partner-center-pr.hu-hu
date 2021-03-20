@@ -8,12 +8,12 @@ ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
-ms.openlocfilehash: f1606cceaf9dec1f04850fd85b3924ef75bbfda0
-ms.sourcegitcommit: 81017727107a907bf1f3246097b51667d7c5fb18
+ms.openlocfilehash: 74974c68c607ddcee4aff6abd53284a60653fb0b
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99098805"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712256"
 ---
 # <a name="csp-one-time-purchase-reconciliation-file-fields"></a>CSP egyszeri beszerzési egyeztetési fájl mezői
 
@@ -64,6 +64,7 @@ Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [a megb
 | PCToBCExchangeRateDate | Az a dátum, amikor az árképzési pénznemet meg kell határozni a számlázási pénznemben. | *2020. 09. 30.* |
 | MeterDescription | Mérőműszer leírása.  | *Táblák – tárolt LRS-adatkészletek (GB/hó)* |
 | ReservationOrderId | A foglalási rendelés azonosítója. | *E21A6344E398FFC1C4D7...* |
+| CreditReasonCode | A kredit leírása. | *Azure-beli felhasználási kredit* |
 
 >[!NOTE]
 >Az Azure-beli felhasználást az egyszeri vásárlási felderítési fájlban is összehangolhatja. Ehhez nyissa meg a napi értékelésű használati felderítési fájlt, és keresse meg a SubscriptionID. Ekkor megjelenik az Azure-csomag azonosítójával kapcsolatos összes költség. Az Azure-SubscriptionID EntitlementID jelenik meg.

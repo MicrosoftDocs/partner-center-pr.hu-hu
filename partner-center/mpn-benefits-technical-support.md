@@ -9,12 +9,12 @@ author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 85287746381ee0ac18bc570650cc310df7ef6219
-ms.sourcegitcommit: 7ef441a0e4dbef11012212bfc087c5244a75765e
+ms.openlocfilehash: ea26eb7755aebea67bad1b4bc97e9662c2054591
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102187363"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712902"
 ---
 # <a name="technical-support-benefits"></a>Technikai támogatási előnyök
 
@@ -58,12 +58,10 @@ A technikai támogatás egy adott probléma, hibaüzenet vagy olyan funkció hib
 A Microsoft Partner Network tagság részeként a partnerek jogosultak a következő technikai támogatásra
 
 
-|                           Technikai támogatás                          |  Action Pack |                                      Silver kompetencia                                      |                                        Gold kompetencia                                        |   |
-|:--------------------------------------------------------------------:|:------------:|:-------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|:-:|
-| Microsoft terméktámogatás<br>A közelmúltban a helyszíni <br>csak termékek | 10 incidens | 15 incidens                                                                                | 20 incidens                                                                                  |   |
-| Aláírási felhő támogatása<br>Csak felhőalapú termékek esetén                   |              | Felhőbeli kompetenciák:<br>Korlátlan<br>         <br>Egyéb kompetenciák:<br>5 incidens         | Felhőbeli kompetenciák:<br>Korlátlan<br>          <br>Egyéb kompetenciák:<br>10 incidens   
-
-
+| Technikai támogatás |  Action Pack | Silver kompetencia | Gold kompetencia |
+|:---:|:---:|:---:|:---:|
+| Microsoft terméktámogatás<br>A közelmúltban a helyszíni <br>csak termékek | 10 incidens | 15 incidens  | 20 incidens |
+| Aláírási felhő támogatása<br>Csak felhőalapú termékek esetén |  | Felhőbeli kompetenciák:<br>Korlátlan<br><br>Egyéb kompetenciák:<br>5 incidens  | Felhőbeli kompetenciák:<br>Korlátlan<br>          <br>Egyéb kompetenciák:<br>10 incidens  |
 
 * A Felhőbeli kompetenciák a következők: Security kompetencia, Cloud Business Applications, Cloud platform, Felhőbeli termelékenység, nagyvállalati mobilitási felügyelet, kis-és Midmarket felhőalapú megoldások.
 

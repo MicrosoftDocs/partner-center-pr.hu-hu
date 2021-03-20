@@ -9,19 +9,19 @@ author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 4c4b3a9a71027f5fb02bc29566c20c214e3df371
-ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
+ms.openlocfilehash: a66e32a3c9320ac32b0749c67197c6a27574ce75
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "103022808"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712613"
 ---
 # <a name="view-your-incentives-program-details"></a>Ösztönző program részleteinek megtekintése
 
 **Megfelelő szerepkörök**
 
-- Ösztönző rendszergazda
-- Ösztönző felhasználó
+- Ösztönzők rendszergazdája
+- Ösztönzők felhasználója
 - Globális rendszergazda
 - MPN-partner rendszergazdája
 

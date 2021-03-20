@@ -1,7 +1,7 @@
 ---
-title: Azure-kiadások költségkeretének beállítása az ügyfelek számára
+title: Azure-költségvetés beállítása az ügyfelek számára
 ms.topic: how-to
-ms.date: 06/03/2020
+ms.date: 03/17/2021
 description: Megtudhatja, hogyan állíthatja be vagy távolíthatja el az ügyfelek havi Azure-költségkeretét, valamint megtekintheti az Azure-kiadások adatait, és megadhatja a költségvetéssel kapcsolatos értesítéseket is.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,19 +9,18 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e311af31bbce65ed38c20df12243d325c7a63d04
-ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
+ms.openlocfilehash: eaf54898d7a130ca38e5a2aaeba279fb722c9e66
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96438980"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712749"
 ---
 # <a name="set-check-or-remove-monthly-azure-spending-budgets-for-customers-in-partner-center"></a>A partner Center ügyfelei számára havi Azure-költségkeretek beállítása, bejelölése vagy eltávolítása
 
-A következőkre vonatkozik:
+**Megfelelő szerepkörök**
 
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
+- Felügyeleti ügynök
 
 Megadhatja a partner Center [ügyfeleinek havi Azure-költségkeretét](#set-azure-spending-budget) . Ez segít az ügyfeleknek az Azure-kiadások kezelésében. Ez a beállítás lehetővé teszi, hogy az ügyfelek Azure-kiadásait a hónap folyamán összehasonlítsa a költségvetésbe. Emellett az ügyfelek számára is lehetővé teszi az Azure-kiadások költségvetését, így a havi számla nem nagyobb, mint amennyire várható.
 
@@ -48,7 +47,7 @@ A kiadási adat *naponta egyszer frissül*. Az ügyfelek továbbra is használha
 
 A partner Centerben több ügyfél számára is *beállíthat havi Azure-költségkeretet* :
 
-1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
 2. A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.
 
@@ -60,7 +59,7 @@ A partner Centerben több ügyfél számára is *beállíthat havi Azure-költs�
 
 Megadhat *egy költségvetést is egy egyéni ügyfél* számára az előfizetési beállításokban:
 
-1. Jelentkezzen be a partner Center irányítópultra.
+1. Jelentkezzen be a Partnerközpont irányítópultjába.
 
 2. A bal oldali menüben a **CSP** területen válassza az **ügyfelek** lehetőséget.
 
@@ -76,7 +75,7 @@ Megadhat *egy költségvetést is egy egyéni ügyfél* számára az előfizeté
 
 A partner Centerben a következő *havi Azure-költségkeretet távolíthatja el* ügyfeleinek:
 
-1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
 2. A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.
 
@@ -88,7 +87,7 @@ A partner Centerben a következő *havi Azure-költségkeretet távolíthatja el
 
 *Az ügyfelek aktuális Azure-kiadásait és havi költségkereteit bármikor nyomon követheti* :
 
-1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/).
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
 2. A bal oldali menü **CSP** területén válassza az Azure- **kiadások** lehetőséget.
 
@@ -126,3 +125,8 @@ A partner Centerben a következő *havi Azure-költségkeretet távolíthatja el
 4. Az ügyfél **előfizetések** lapján, a **használat alapú előfizetések** területen válassza ki az **előfizetés** nevét.
 
 5. Az előfizetés lapján áttekintheti a **részletezett költségeket** a szolgáltatás alapján, valamint az aktuális hónap **becsült felhasználását** .
+
+
+## <a name="next-steps"></a>Következő lépések
+
+- [Új kereskedelmi felület a CSP-ben – Azure-számlázás](azure-plan-billing.md)

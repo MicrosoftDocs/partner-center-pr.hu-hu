@@ -9,18 +9,18 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0a7cc7d6335cdda0cec19a7676d2b6103592842e
-ms.sourcegitcommit: c46658f4d70004596e758fe4cd8671b6e9dadeab
+ms.openlocfilehash: b60b86bec70b5c33d65532599fa0421604d9ba12
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98584195"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712885"
 ---
 # <a name="if-you-cant-sign-into-partner-center-and-need-to-reset-your-password"></a>Ha nem tud bejelentkezni a partneri központba, és vissza kell állítania a jelszavát
 
 **Megfelelő szerepkörök**
 
-- Partneri központ felhasználói
+- A partner Centerben érdekelt összes partner
 
 Ha elfelejtette a jelszavát, és nem tud bejelentkezni a partneri központba, forduljon az ügyfélszolgálathoz. Keresse meg a megfelelő kapcsolatot az [üzleti termékek támogatásához](/microsoft-365/admin/contact-support-for-business-products). 
 
@@ -30,7 +30,7 @@ A jelszó alaphelyzetbe állításának és a munkahelyi fiókhoz való hozzáf�
 
 A munkahelyi fiók jelszavának alaphelyzetbe állítása után hozzáférhet a partner központhoz. 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Fiókadatok ellenőrzése](verification-responses.md)
 - [Saját jelszó visszaállítása](reset-my-pasword.md)

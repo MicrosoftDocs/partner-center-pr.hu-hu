@@ -11,12 +11,12 @@ ms.custom:
 - references_regions
 ms.localizationpriority: high
 ms.date: 02/25/2021
-ms.openlocfilehash: 43614ebde27b6b0df0878bd7041163f1b7ca8882
-ms.sourcegitcommit: 79d2f00c352db61252e523f45abf93fe2a2742a5
+ms.openlocfilehash: c4ea0af46aa2dee02e2270e1f2d58eeff0f59ff4
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "102124788"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712477"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
@@ -77,7 +77,7 @@ A részletekért tekintse meg a következő szakaszban említett cikket.
 
 ### <a name="next-steps"></a>Következő lépések
 
-További információk a tömeges műveletekről a tömeges [műveletek a vesszővel tagolt (CSV) fájlok használatával történő közös értékesítésre való](https://docs.microsoft.com/partner-center/bulk-operations)olvasásával.
+További információk a tömeges műveletekről a tömeges [műveletek a vesszővel tagolt (CSV) fájlok használatával történő közös értékesítésre való](../bulk-operations.md)olvasásával.
 
 ### <a name="questions"></a>Kérdése van?
 
@@ -107,7 +107,7 @@ A részletekért tekintse meg a következő szakaszban említett cikket.
 
 ### <a name="next-steps"></a>Következő lépések
 
-További információ az alku áttelepítéséről: a partneri [értékesítési összekötőről (PSC) áttelepíteni kívánt](https://docs.microsoft.com/partner-center/psc-to-pc)partnereknek szóló útmutató a fiókpartner- **ajánlatok áttelepítése** című szakaszának áttekintésével.
+További információ az alku áttelepítéséről: a partneri [értékesítési összekötőről (PSC) áttelepíteni kívánt](../psc-to-pc.md)partnereknek szóló útmutató a fiókpartner- **ajánlatok áttelepítése** című szakaszának áttekintésével.
 
 ### <a name="questions"></a>Kérdése van?
 
@@ -139,7 +139,7 @@ A részletekért tekintse meg a következő szakaszban említett cikket.
 
 ### <a name="next-steps"></a>Következő lépések
 
-További információ: útmutató a [közös értékesítés lehetőségeinek kezeléséhez a partner Centerben](https://docs.microsoft.com/partner-center/manage-co-sell-opportunities).
+További információ: útmutató a [közös értékesítés lehetőségeinek kezeléséhez a partner Centerben](../manage-co-sell-opportunities.md).
 
 ### <a name="questions"></a>Kérdése van?
 

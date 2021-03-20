@@ -6,12 +6,12 @@ ms.topic: how-to
 author: msjogarrig
 ms.author: jogarrig
 ms.date: 02/24/2021
-ms.openlocfilehash: dbd67ee1d4e9775d37318ec6389888f03a50b6ec
-ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
+ms.openlocfilehash: 8cfe0e95d1655530c9bc9d24b1efe85e6432236b
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103412709"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712766"
 ---
 # <a name="create-and-manage-private-azure-marketplace-in-the-azure-portal"></a>Privát Azure Marketplace létrehozása és kezelése a Azure Portal
 
@@ -21,7 +21,7 @@ Piactéri rendszergazdaként (hozzárendelt szerepkör) egy letiltott és üres 
 
 > [!NOTE]
 > - A privát Azure piactér bérlői szinten található, így a bérlő összes felhasználója ugyanazokat a kurátori listát fogja látni.
-> - Az összes Microsoft-megoldás (beleértve a [támogatott Linux-disztribúciókat](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)is) automatikusan hozzá lesz adva a privát Azure Marketplace-hez.
+> - Az összes Microsoft-megoldás (beleértve a [támogatott Linux-disztribúciókat](/azure/virtual-machines/linux/endorsed-distros)is) automatikusan hozzá lesz adva a privát Azure Marketplace-hez.
 
 ## <a name="assign-the-marketplace-admin-role"></a>A piactér rendszergazdai szerepkörének kiosztása
 
@@ -187,7 +187,7 @@ Az elemek egy ajánlat és egy csomag kombinációja. A piactér kezelése oldal
 4. Kattintson a **kész** gombra a bal alsó sarokban, miután elvégezte a beállításokat.
 
 >[!Note]
-> Az **elemek hozzáadása** a piactérhez csak a nem Microsoft-ajánlatok számára érhető el. A Microsoft-megoldások (beleértve a [támogatott Linux-disztribúciókat](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)) "alapértelmezés szerint jóváhagyva" néven lesznek megjelölve, és nem kezelhetők a privát piactéren.
+> Az **elemek hozzáadása** a piactérhez csak a nem Microsoft-ajánlatok számára érhető el. A Microsoft-megoldások (beleértve a [támogatott Linux-disztribúciókat](/azure/virtual-machines/linux/endorsed-distros)) "alapértelmezés szerint jóváhagyva" néven lesznek megjelölve, és nem kezelhetők a privát piactéren.
 
 ## <a name="edit-items-plans"></a>Az elemek csomagjainak szerkesztése
 
@@ -249,7 +249,7 @@ Az értesítési központ elérése:
 Ha a privát Azure Marketplace engedélyezve van, a felhasználók láthatják, hogy a piactér rendszergazdája mely terveket hagyta jóvá.
 
 - A zöld **jóváhagyott** nyilatkozat egy jóváhagyott partner (nem Microsoft) ajánlatot jelöl.
-- A kék **jóváhagyott** értesítés a jóváhagyott Microsoft-ajánlatokat (beleértve a [támogatott Linux-disztribúciókat](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros)is) jelzi.
+- A kék **jóváhagyott** értesítés a jóváhagyott Microsoft-ajánlatokat (beleértve a [támogatott Linux-disztribúciókat](/azure/virtual-machines/linux/endorsed-distros)is) jelzi.
 
 A felhasználók a nem jóváhagyott ajánlatok között szűrhetik a következőket:
 
@@ -304,7 +304,7 @@ A harmadik féltől származó szolgáltatásokat jelenleg két módon lehet kor
 
     :::image type="content" source="media/private-azure/disable-services-other-view.png" alt-text="Bemutatja, hogyan lehet korlátozni a szolgáltatásokat az E-portálon.":::
 
-2. Hozzon létre egy Azure-szabályzatot, hogy csak bizonyos virtuális gépeket engedélyezzen. A Windows rendszerű virtuális gépekre vonatkozó szabályzatok kikapcsolásával kapcsolatos további információkért lásd: [házirendek alkalmazása a Windows rendszerű virtuális gépekre Azure Resource Manager használatával](https://docs.microsoft.com/azure/virtual-machines/windows/policy).
+2. Hozzon létre egy Azure-szabályzatot, hogy csak bizonyos virtuális gépeket engedélyezzen. A Windows rendszerű virtuális gépekre vonatkozó szabályzatok kikapcsolásával kapcsolatos további információkért lásd: [házirendek alkalmazása a Windows rendszerű virtuális gépekre Azure Resource Manager használatával](/azure/virtual-machines/windows/policy).
 
 A privát Azure piactér nagyobb rugalmasságot tesz lehetővé az egyes ajánlatok és csomagok korlátozására és engedélyezésére. A végfelhasználók számára elérhetővé teszi a Piactéri katalógusban való üzembe helyezést, még mielőtt külső szolgáltatásokat próbálnak üzembe helyezni. A harmadik féltől származó szolgáltatások üzembe helyezésének engedélyezéséhez állítsa be az Azure Marketplace-t az EA Portálon és a Azure Portalon.
 
@@ -314,7 +314,7 @@ A privát Azure piactér nagyobb rugalmasságot tesz lehetővé az egyes ajánla
 
 #### <a name="whats-the-difference-between-a-private-offer-and-private-azure-marketplace"></a>Mi a különbség a privát ajánlat és a privát Azure Marketplace között?
 
-A **privát ajánlat** lehetővé teszi, hogy a kiadók olyan csomagokat hozzanak létre, amelyek csak a célközönség számára láthatók. Ez lehetővé teszi, hogy a testreszabott megoldásokat megosszák az egyeztetett díjszabással, a privát feltételekkel és a speciális konfigurációkkal. Részletekért lásd: [privát ajánlatok a kereskedelmi piactéren](https://docs.microsoft.com/azure/marketplace/private-offers).
+A **privát ajánlat** lehetővé teszi, hogy a kiadók olyan csomagokat hozzanak létre, amelyek csak a célközönség számára láthatók. Ez lehetővé teszi, hogy a testreszabott megoldásokat megosszák az egyeztetett díjszabással, a privát feltételekkel és a speciális konfigurációkkal. Részletekért lásd: [privát ajánlatok a kereskedelmi piactéren](/azure/marketplace/private-offers).
 
 A Azure Portal **privát Azure Marketplace** lehetővé teszi a rendszergazdák számára, hogy előzetesen hagyják el, hogy a felhasználók milyen külső megoldásokat telepíthetnek. A privát Azure piactéren a felhasználók a megfelelő ajánlatok megkeresésével, megvásárlásával és üzembe helyezésével élvezheti az Azure Marketplace előnyeit. Az előfizetés-alapú privát ajánlatok felügyeletéhez a piactér rendszergazdájának legalább "READ" szerepkörrel kell rendelkeznie az adott előfizetésben.
 
@@ -326,16 +326,16 @@ Az előfizetés-alapú privát ajánlatok csak a privát ajánlat beállításai
 
 #### <a name="can-we-include-custom-images-in-private-azure-marketplace"></a>Használhatunk egyéni lemezképeket a privát Azure piactéren?
 
-Nem. A privát Azure Marketplace lehetővé teszi a rendszergazda számára, hogy a globális Azure piactéren felügyelje és betekintse harmadik féltől származó megoldásokat. Mivel az egyéni lemezképek nem a globális Azure Marketplace piactéren találhatók, a rendszergazda nem választhat ki és nem választhatja ki az egyéni lemezképeket. Ha egyéni rendszerképeket szeretne megosztani, használja a [megosztott képtárat](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries).
+Nem. A privát Azure Marketplace lehetővé teszi a rendszergazda számára, hogy a globális Azure piactéren felügyelje és betekintse harmadik féltől származó megoldásokat. Mivel az egyéni lemezképek nem a globális Azure Marketplace piactéren találhatók, a rendszergazda nem választhat ki és nem választhatja ki az egyéni lemezképeket. Ha egyéni rendszerképeket szeretne megosztani, használja a [megosztott képtárat](/azure/virtual-machines/shared-image-galleries).
 
-1. Részletes útmutató a közös rendszerkép-katalógus ([parancssori](https://docs.microsoft.com/azure/virtual-machines/shared-images-cli)felület, [PowerShell](https://docs.microsoft.com/azure/virtual-machines/shared-images-powershell)) létrehozásához.
-2. Rendszerkép-definíció létrehozása a SIG-ban. Az ügyfélnek az operációs rendszer állapot mezőjében **általánosított** elemet kell választania. ([CLI](https://docs.microsoft.com/azure/virtual-machines/image-version-managed-image-cli#create-an-image-definition), [PowerShell](https://docs.microsoft.com/azure/virtual-machines/image-version-vm-powershell#create-an-image-definition)).
-3. Felügyelt rendszerkép bekapcsolása a megosztott rendszerkép-katalógusba ([CLI](https://docs.microsoft.com/azure/virtual-machines/image-version-managed-image-cli), [PowerShell](https://docs.microsoft.com/azure/virtual-machines/image-version-managed-image-powershell)).
-4. A SIG VM-lemezképek egy előfizetésben találhatók. Ha más előfizetésekhez is elérhetővé kívánja tenni, használja az alkalmazás regisztrációját ([CLI](https://docs.microsoft.com/azure/virtual-machines/linux/share-images-across-tenants), [PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/share-images-across-tenants)).
+1. Részletes útmutató a közös rendszerkép-katalógus ([parancssori](/azure/virtual-machines/shared-images-cli)felület, [PowerShell](/azure/virtual-machines/shared-images-powershell)) létrehozásához.
+2. Rendszerkép-definíció létrehozása a SIG-ban. Az ügyfélnek az operációs rendszer állapot mezőjében **általánosított** elemet kell választania. ([CLI](/azure/virtual-machines/image-version-managed-image-cli#create-an-image-definition), [PowerShell](/azure/virtual-machines/image-version-vm-powershell#create-an-image-definition)).
+3. Felügyelt rendszerkép bekapcsolása a megosztott rendszerkép-katalógusba ([CLI](/azure/virtual-machines/image-version-managed-image-cli), [PowerShell](/azure/virtual-machines/image-version-managed-image-powershell)).
+4. A SIG VM-lemezképek egy előfizetésben találhatók. Ha más előfizetésekhez is elérhetővé kívánja tenni, használja az alkalmazás regisztrációját ([CLI](/azure/virtual-machines/linux/share-images-across-tenants), [PowerShell](/azure/virtual-machines/windows/share-images-across-tenants)).
 
 #### <a name="why-do-i-see-some-offers-approved-by-default-even-though-the-publisher-is-not-microsoft"></a>Miért jelenik meg, hogy egyes ajánlatok **alapértelmezés szerint jóvá vannak hagyva** , noha a közzétevő nem a Microsoft?
 
-A Microsoft támogatja a Linux és a nyílt forráskódú technológiák használatát az Azure-ban. A támogatott [Linux-disztribúciók](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros) az Azure-ban támogatottak, és az ár a virtuális gépeken van integrálva. Mivel az Azure Linux-ügynök már előre telepítve van az Azure Marketplace-en, a Microsoft-ajánlathoz hasonló módon kezelik. Mivel a Microsoft ajánlatait alapértelmezés szerint jóváhagyják, a támogatott Linux-disztribúciók nem kezelhetők a privát Azure piactéren, és alapértelmezés szerint jóváhagyjuk azokat.
+A Microsoft támogatja a Linux és a nyílt forráskódú technológiák használatát az Azure-ban. A támogatott [Linux-disztribúciók](/azure/virtual-machines/linux/endorsed-distros) az Azure-ban támogatottak, és az ár a virtuális gépeken van integrálva. Mivel az Azure Linux-ügynök már előre telepítve van az Azure Marketplace-en, a Microsoft-ajánlathoz hasonló módon kezelik. Mivel a Microsoft ajánlatait alapértelmezés szerint jóváhagyják, a támogatott Linux-disztribúciók nem kezelhetők a privát Azure piactéren, és alapértelmezés szerint jóváhagyjuk azokat.
 
 ## <a name="contact-support"></a>Kapcsolatfelvétel a támogatási szolgáltatással
 

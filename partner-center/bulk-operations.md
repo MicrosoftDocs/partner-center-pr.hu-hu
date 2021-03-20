@@ -9,12 +9,12 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 02/03/2021
-ms.openlocfilehash: 8b69b430344c64f3d74e0b5058d561358bdd2b45
-ms.sourcegitcommit: d7fbaff51c7ac29fbf700d7f7fdef798fd97c6fa
+ms.openlocfilehash: 39a1370ad4e5da9120c74b46dfb0c20cd93df4e3
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "102619392"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712189"
 ---
 # <a name="bulk-operations-for-co-sell-opportunities-using-comma-separated-value-csv-files"></a>Tömeges műveletek a vesszővel tagolt (CSV) fájlok használatával történő közös értékesítési lehetőségekhez
 
@@ -89,7 +89,7 @@ CRM-AZONOSÍTÓ|No|Az adott hivatkozás azonosítója a CRM-rendszerben, ha van 
 Marketingkampány azonosítója|No|Ebben a mezőben a marketing kampány látható, amely az adott átirányítást eredményezte. Általában a ROI számításához használatos|BingSummer2020
 Jegyzetek|No|Az átirányítással kapcsolatos frissítéseket jelző részletes megjegyzések|Ez egy minta Megjegyzés
 Microsoft Súgó szükséges?|Yes|Ezzel a beállítással jelezheti, hogy a Microsoft segíteni kíván-e a közös értékesítésre vonatkozó kérelem elvégzésében|Yes
-Milyen konkrét segítséget nyújt a Microsoft?|Függ|A Microsoft által felhasználható hat különböző módszer egyike. Ez csak akkor alkalmazható, ha a nem lehetőséget választja a "Microsoft Súgó szükséges?" kérdésre? " <br/> **Adjon meg egy számot az alábbi lehetőségek alapján** <br/><br/> **1**– munkaterhelés-specifikus érték kiosztása  <br/> **2**– ügyfél-technikai architektúra  <br/> **3**– a koncepció/demo bizonyítása  <br/> **4**– idézőjelek és licencelés  <br/> **5**– értékesítés utáni ügyfél sikeressége  <br/> **6**– általános vagy egyéb|1|
+Milyen konkrét segítséget nyújt a Microsoft?|Függ|A Microsoft által felhasználható hat különböző módszer egyike. Ez csak akkor alkalmazható, ha az Igen lehetőséget választja a "Microsoft Súgó szükséges?" kérdésre? " <br/> **Adjon meg egy számot az alábbi lehetőségek alapján** <br/><br/> **1**– munkaterhelés-specifikus érték kiosztása  <br/> **2**– ügyfél-technikai architektúra  <br/> **3**– a koncepció/demo bizonyítása  <br/> **4**– idézőjelek és licencelés  <br/> **5**– értékesítés utáni ügyfél sikeressége  <br/> **6**– általános vagy egyéb|1|
 Megosztás a Microsoft értékesítési csapatával|Yes|Ez azt jelzi, hogy meg kívánja-e osztani a Microsoft értékesítési csapatával való alku részleteit, vagy sem. Ez csak akkor alkalmazható, ha a nem lehetőséget választja a "Microsoft Súgó szükséges?" kérdésre? "|Yes
 Megjegyzések a Microsoftnak|No|A Microsoftnak adott megjegyzések, ha segítségre van szüksége a Microsofttól|Segítségre van szüksége a contoso-ügyfélhez
 Ügyfél/partner kapcsolat megosztásának beleegyezike|Yes|Az ügyfél kapcsolattartási adatainak és a vállalat alkalmazottainak megosztható kapcsolattartási adataival az üzleten dolgozik. **Az ajánlatok nem jönnek létre vagy nem frissülnek, ha a nem lehetőséget választja ehhez az oszlophoz.** |Yes

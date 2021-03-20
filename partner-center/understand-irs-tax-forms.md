@@ -4,14 +4,16 @@ description: Ismerje meg a Microsoft által kiadott adózási űrlapokat, beleé
 ms.topic: article
 author: mingshen-ms
 ms.author: mingshen
+ms.service: partner-dashboard
+ms.subservice: partnercenter-mpn
 ms.localizationpriority: medium
 ms.date: 09/30/2020
-ms.openlocfilehash: 5543ec62397a72a042c5aa64c6c8f77ce7286f4c
-ms.sourcegitcommit: 95a5afdf68d88b6be848729830dcd114e3fb0c0f
+ms.openlocfilehash: 42c5d6f0d31e6509253fe44d5b97606fc688f177
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94487873"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712817"
 ---
 # <a name="understand-irs-tax-forms-issued-by-microsoft"></a>A Microsoft által kiadott adóhatósági adózási űrlapok ismertetése
 
@@ -24,7 +26,7 @@ Ez a cikk részletesebben ismerteti ezeket az űrlapokat, beleértve az azok fog
 | IRS-adó űrlapja | Description | Rendelkezésre állás |
 |--------------|-------------|--------------|
 |1099 – MISC, 1099-K | Értékesítési tevékenységhez és/vagy a Microsoft piactéren való részvételhez nyújtott fizetésekhez kapcsolódóan | A nyomtatott űrlapok **január 31-ig** vagy azt megelőzően postmarked lesznek. a PDF-másolatok a [partner Centerben](https://partner.microsoft.com/dashboard) lesznek elérhetők (a **partner Center fiók beállításaiban** a **kifizetések és adók > a kifizetések és az adó-profilok** között). |
-|1042 – S | A kifizetésekhez kapcsolódóan, amelyekre Egyesült Államok forrásadó vonatkozik | A nyomtatott űrlapok **március 15** -én vagy azt megelőzően postmarked lesznek. a PDF-másolatok a partner Centerben lesznek elérhetők (a **partner Center fejlesztői beállításaiban** a **kifizetések és az adó >** a kifizetések és az adó profilok között).  |
+|1042 – S | A kifizetésekhez kapcsolódóan, amelyekre Egyesült Államok forrásadó vonatkozik | A nyomtatott űrlapok **március 15**-én vagy azt megelőzően postmarked lesznek. a PDF-másolatok a partner Centerben lesznek elérhetők (a **partner Center fejlesztői beállításaiban** a **kifizetések és az adó >** a kifizetések és az adó profilok között).  |
 
 > [!NOTE]
 > Az IRS-adózási űrlapokon használt címnek a [kifizetési fiók és az adózási űrlapok beállításakor](set-up-your-payout-account.md)az adó-profilban szereplő címről származik. Ha a címe módosult, ügyeljen arra, hogy frissítse az **adózási profilban** szereplő címeket.
@@ -53,7 +55,7 @@ A rendszer a következő címekről küldi el az adó űrlapokat:
 
 | Ha Egyesült Államok a fizetős alkalmazásokat értékesítő fejlesztő vagyok, és...   | A következő űrlapot kell megkapnia: |
 |------------------------|-----------------------|
-| Több **mint 200 alkalmazás értékesítésével** rendelkezem, és a vonatkozó adózási évben a **$20 000 USD-nél nagyobb** mennyiségű értékesítési összeg szerepel ( **nem** számítva a Brazíliában és Kínában a Microsoft Store a Windows 10 rendszeren.)| **1099 – K:**<br/>Filer: Microsoft Corporation<br/>Ein: \* \* \* \* \* 4442<br/><br/>**Fontos:** A 1099 – K űrlap **bruttó vásárlási** összegeket tartalmaz, és nem fizet Önnek.| 
+| Több **mint 200 alkalmazás értékesítésével** rendelkezem, és a vonatkozó adózási évben a **$20 000 USD-nél nagyobb** mennyiségű értékesítési összeg szerepel (**nem** számítva a Brazíliában és Kínában a Microsoft Store a Windows 10 rendszeren.)| **1099 – K:**<br/>Filer: Microsoft Corporation<br/>Ein: \* \* \* \* \* 4442<br/><br/>**Fontos:** A 1099 – K űrlap **bruttó vásárlási** összegeket tartalmaz, és nem fizet Önnek.| 
 | **Legalább $10-os fizetést** kaptam a Brazíliában és kínában a Microsoft Store a Windows 10-es vagy (II) értékesítések keretében a Minecraft piactéren.<br/><br/>**OR**<br/><br/>Legalább $600 érkezett a Microsoft által a vonatkozó adózási évben nem kapcsolódó, az alkalmazás értékesítésével kapcsolatos kifizetésekben (például a versenytől vagy promóciótól származó ösztönző kifizetések vagy kifizetések)| **1099 – MISC:**<br/>Megbízó: Microsoft Corporation<br/>Ein: \* \* \* \* \* 4442<br/><br/>**Fontos:** Bizonyos üzleti entitások nem kapnak 1099 – MISC űrlapot, a Microsofttól kapott fizetési összegektől függetlenül.  További információért forduljon a Tax Professional szolgáltatáshoz.| 
 | A fentiek egyike sem érvényes.| Nincsenek |
 | <br/><br/>**Ha Egyesült Államok fejlesztő vagyok, aki hirdetéseket dolgoz fel az alkalmazásokban, és...** |<br/><br/>**A következő űrlapot kell megkapnia:** |
@@ -64,7 +66,7 @@ A rendszer a következő címekről küldi el az adó űrlapokat:
 ## <a name="for-developers-located-outside-of-the-united-states"></a>A Egyesült Államokon kívül található fejlesztők számára
 
 
-| | |
+| **Kérdés** | **Válasz** |
 |---|---|
 | **1042-S formátumú űrlapot kaptam a Microsofttól. Mi ez?** | A Microsoft megadta Önnek a 1042-S űrlapokat vagy űrlapokat, mivel a Egyesült Államok adóhatóságnak bejelentésnek minősülő bevételt kifizette, és a rendszer visszatartási adót jelentett.  Ehhez a jelentési követelményhez a 1042-S formanyomtatványt használjuk. | 
 | **Mit tegyek az űrlapokkal?** | Általában nincs szükség konkrét műveletre az Ön részéről. A 1042-S űrlap akkor lehet hasznos, ha a helyi adóhatóságot bármilyen adójóváírás esetén alkalmazni kívánja.  További információt a témakörről a saját adó-tanácsadókkal foglalkozó cikkben talál. | 
@@ -76,6 +78,6 @@ A rendszer a következő címekről küldi el az adó űrlapokat:
 > [!NOTE]
 > Ha további kérdései vagy az **IRS-adózási űrlapokkal** kapcsolatos problémái vannak, lépjen a [Súgó és támogatás](https://partner.microsoft.com/dashboard/support/) elemre a partner Center irányítópultján. A Microsoft nem tud válaszolni az adott adózási körülményekkel kapcsolatos kérdésekre; ezekre a kérdésekre kérjük, kérjen tanácsot az adó szakembertől.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Fizetés fogadása a kereskedelmi piactéren](marketplace-get-paid.md)

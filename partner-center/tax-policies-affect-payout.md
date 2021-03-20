@@ -6,12 +6,12 @@ ms.service: partner-dashboard
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 02/09/2021
-ms.openlocfilehash: 3630824c839ccd9f54f3e8e5199a573b5824bb91
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 19acb085b601212f1bf94316aab2b72c54aecc1a
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101758910"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712953"
 ---
 # <a name="how-tax-policies-affect-payout-for-azure-marketplace"></a>Az adózási szabályzatok hatása az Azure Marketplace-re való kifizetésre
 
@@ -47,7 +47,7 @@ A nem USA-beli közzétevő és az Egyesült államokbeli ügyfél közötti tra
 
 **C. forgatókönyv** – a közzétevő által felügyelt adózási országban egy kiadó és egy ügyfél között zajló tranzakciók, amelyek nem írnak elő forrásadót az ügyfeleken. Az ügyfelek nem fizetnek adót az eladási helyen, és a kiadó köteles fizetni az összes vonatkozó adót.
 
-Az országspecifikus díjszabással (például a közelgő adózás ellensúlyozására) kapcsolatos további információkért tekintse meg a [kereskedelmi Piactéri ajánlatok csomagjait és díjszabását](https://docs.microsoft.com/azure/marketplace/plans-pricing#custom-prices).
+Az országspecifikus díjszabással (például a közelgő adózás ellensúlyozására) kapcsolatos további információkért tekintse meg a [kereskedelmi Piactéri ajánlatok csomagjait és díjszabását](/azure/marketplace/plans-pricing#custom-prices).
 
 :::image type="content" source="images/tax-policies/payout-scenario-c.png" alt-text="A kifizetési folyamat C. forgatókönyvének munkafolyamatát mutatja be.":::
 
@@ -77,5 +77,5 @@ Az országspecifikus díjszabással (például a közelgő adózás ellensúlyoz
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Közzétevő – gyakori kérdések](https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide)
-- [Fizetési és adózási profilok létrehozásához szükséges utasítások](https://docs.microsoft.com/partner-center/set-up-your-payout-account?context=/azure/marketplace/context/context#create-a-payment-profile)
+- [Közzétevő – gyakori kérdések](/azure/marketplace/marketplace-faq-publisher-guide)
+- [Fizetési és adózási profilok létrehozásához szükséges utasítások](./set-up-your-payout-account.md?context=%2fazure%2fmarketplace%2fcontext%2fcontext#create-a-payment-profile)

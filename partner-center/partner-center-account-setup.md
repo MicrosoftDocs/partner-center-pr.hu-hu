@@ -1,7 +1,7 @@
 ---
 title: A Partnerközpontfiók kezelése
 ms.topic: conceptual
-ms.date: 03/15/2021
+ms.date: 03/18/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, hogyan használhatja a partner centert a vállalat profiljának, banki és adózási információinak, szerepköreinek, engedélyeinek és egyéb adatainak kezeléséhez.
@@ -9,19 +9,19 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c2acc97a5f509f97b0ffeb6904f511cf755e4ca5
-ms.sourcegitcommit: 062ee7d60eb552b25b4dc7cd2493da0a0a267635
+ms.openlocfilehash: 514c8d1e1c94c0a500384502ad57bad977dcc368
+ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103487004"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "104712848"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
 **Megfelelő szerepkörök** – globális rendszergazda
 - MPN-fiók rendszergazdája
 
-A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti adatok regisztrálása. Miután létrehozta a fiókot, befejezi a vállalat teljes profiljának beállítását, beleértve a támogatás részleteit, a fájlok adómentességét, ha szükséges, és az elsődleges kapcsolattartási adatokat is. A vállalat fiókja olyan felhasználói fiókokat is tartalmaz, akik a partner centert használják az ügyfelek hozzáadásához és kezeléséhez, az előfizetések értékesítéséhez, a számlázáshoz és a számlázáshoz, az üzleti profilok létrehozásához, az átirányítások kezeléséhez, az ösztönző programok használatához és a támogatás biztosításához.
+A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti adatok regisztrálása. Miután létrehozta a fiókot, befejezi a vállalat teljes profiljának beállítását, beleértve a támogatás részleteit, a fájlok adómentességét, ha szükséges, és az elsődleges kapcsolattartási adatokat is. A céges fiók emellett felhasználói fiókokat is tartalmaz a csapatának, akik a partner centert fogják használni. Az általuk végzett munka magában foglalja az ügyfelek hozzáadását és felügyeletét, az előfizetések értékesítését, a számlázással és a számlázással, az üzleti profilok létrehozásával, az átirányítások kezelésével, az ösztönzők bevezetésével, a támogatás biztosításával és egyéb
 
 Tekintse [meg az alkalmazottak meghívása a partner központba](guide-to-migration.md) című cikket, és [adjon hozzá egy új felhasználót](create-user-accounts-and-set-permissions.md).
 
@@ -30,7 +30,7 @@ Tekintse [meg az alkalmazottak meghívása a partner központba](guide-to-migrat
 
 ## <a name="account-management"></a>Fiókkezelés
 
-Ha a partner Centerben szeretné elérni az összes partnert, a kereskedelmi és a fejlesztői fiókot, jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard) , és válassza a **Beállítások** (a fogaskerék ikon) lehetőséget a képernyő jobb felső sarkában, majd a **Fiókbeállítások** menüpontot. Már nem kell választania a partner és a fejlesztői beállítások között, mivel az összes profil és beállítás össze van építve.
+Az összes kereskedelmi és fejlesztői partner a fiókpartner hozzáférés- **vezérlése** a partner Center [irányítópultra](https://partner.microsoft.com/dashboard) való bejelentkezéssel, majd a **Beállítások** (a fogaskerék ikon) a képernyő jobb felső sarkában, majd a **Fiókbeállítások** lehetőség választásával érhető el. Már nem kell választania a partner és a fejlesztői beállítások között. Az összes profil és beállítás már össze van építve.
 
 :::image type="content" source="images/accountsettings/opening.png" alt-text="beállítások ikon":::
 
@@ -56,7 +56,7 @@ Ha a vállalat nem vesz részt a CSP-ben, az alapértelmezett nézet csak a **pa
 
 Több fiók is része lehet. A bal oldali navigációs menüben megtekintheti, hogy a "fiók kiválasztása" beállítással több fiók is tagja-e.
 
-:::image type="content" source="images/accountsettings/account-picker.png" alt-text="A fiók-választó azonosítása":::
+:::image type="content" source="images/accountsettings/picker-one.png" alt-text="A fiók-választó azonosítása":::
 
 Ha nem látja a fiók-választót, csak egy fiókhoz tartozik. 
 
@@ -64,7 +64,7 @@ Ha rákattint erre a választóra, a rendszer az összes olyan fiókot listázza
 
 Az alábbi példában a bejelentkezett felhasználó a három kiemelt fiók részét képezi. A felhasználó egy fiókra kattintva válthat egymás között.
 
-:::image type="content" source="images/accountsettings/picked-accounts.png" alt-text="A fiók, amelynek Ön a része":::
+:::image type="content" source="images/accountsettings/picker-two.png" alt-text="A fiók, amelynek Ön a része":::
 
 ## <a name="organization-profile"></a>Szervezeti profil
 
@@ -74,11 +74,17 @@ Ezekkel a lapokkal az üzleti tevékenység részletes területeit kezelheti, be
 
 ### <a name="legal-info"></a>Jogi információk
 
-Amikor először csatlakozik a partneri központhoz, a vállalat egy ellenőrzési folyamaton keresztül halad a Microsofttal. Az ellenőrzés állapotát a **jogi információk** lapon követheti nyomon. Itt látható az elsődleges Kapcsolatfelvétel (a Microsoft kapcsolatba lép a partneri kérdésekkel kapcsolatban), valamint az elsődleges jogi kapcsolatfelvételsel (a jogi információkat és az állapotot kezelő személysel). A vállalata összes üzleti telephelye szerepel a listán, és Itt adhatók hozzá.
+Amikor először csatlakozik a partneri központhoz, a vállalat egy ellenőrzési folyamaton keresztül halad a Microsofttal. Az ellenőrzés állapotát a **jogi információk** lapon követheti nyomon. Itt látható az elsődleges partner (aki a Microsoft kapcsolatba lép a partnerekkel kapcsolatos kérdésekkel) és az elsődleges jogi kapcsolatfelvételsel (a jogi információkat és az állapotot felügyelő személy). A vállalata összes üzleti telephelye szerepel a listán, és Itt adhatók hozzá. 
+
+### <a name="provide-your-companys-legal-business-details"></a>Adja meg vállalata jogi üzleti adatait
+
+Megkeresheti a vállalati profilt, vagy manuálisan is megadhatja a vállalati adatokat. Ha a vállalata [Dun & bradstreettől](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)van regisztrálva, a Duns-azonosító használatával megkeresheti a vállalati adatokat. Ha meg szeretné adni a vállalat adatait, válassza a **manuális** lehetőséget.
+
+Ha a vállalata **Örményországban**, **Magyarországon**, **Kirgizisztánban**, **Moldovában**, **Üzbegisztánban** vagy **Oroszországban** található, és manuálisan adja meg a saját címeit, a rendszer érvényesíti Önnek a címedet. Ha az Ön által megadott típus eltér az ellenőrzötttől, javasoljuk, hogy használja a hitelesített címeket. Az ellenőrzéssel biztosítható, hogy a címek pontosak legyenek, és a szállítása is megtörténik.
 
 ### <a name="primary-contact-email"></a>Elsődleges kapcsolattartási e-mail cím
 
-Az elsődleges kapcsolattartási e-mail-cím, amelyet a rendszer a fiók ellenőrzésével kapcsolatos értesítésre használ. Nagyon fontos, hogy az elsődleges kapcsolathoz megadott e-mail-cím rendszeresen felügyelhető és figyelhető legyen.  
+Az elsődleges kapcsolattartási e-mail-cím, amelyet a rendszer a fiók ellenőrzésével kapcsolatos értesítésre használ. Fontos, hogy az elsődleges kapcsolathoz megadott e-mail-cím rendszeresen felügyelhető és megfigyelhető legyen.  
 
 További információ az [ellenőrzésről és a fiókadatokról](verification-responses.md).
 
