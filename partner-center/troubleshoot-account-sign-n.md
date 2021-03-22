@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9622f02039360e8ab39f459c9a2fe082ec70c854
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 7d80651c4e5e4afb476dada388f23c118e0bdf25
+ms.sourcegitcommit: 35fe0fdc41886f6f5af71ec74e4a4ebd245dfe1d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756748"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104768703"
 ---
 # <a name="troubleshoot-account-setup-or-mpn-renewal-issues"></a>A Fiókbeállítások vagy az MPN megújítási problémáinak elhárítása
 
@@ -28,20 +28,20 @@ ms.locfileid: "101756748"
 
 ## <a name="what-happens-if-you-are-migrating-from-partner-membership-center-and-you-cant-edit-any-company-information-fields"></a>Mi történik, ha a Partner tagsági központjából telepít át, és nem szerkesztheti a vállalati adatok mezőit
 
-Azokban az esetekben, amikor a vállalata már rendelkezik jelenléttel a partner Centerben (például CSP-fiók) – egy írásvédett képernyő jelenik meg. Ezen a képernyőn jelennek meg a vállalatra vonatkozó összes információ a partner Centerben.
+Azokban az esetekben, amikor a vállalata már rendelkezik jelenléttel a partner Centerben (például egy CSP-fiók), csak olvasható képernyő jelenik meg. Ezen a képernyőn jelennek meg a vállalatra vonatkozó összes információ a partner Centerben.
 
 Ezen a képernyőn nem módosítható a részletek. Ez a kialakítás és nem egy hiba.
 
 Válassza az **elfogadás** lehetőséget, és folytassa a **folytatást** .
 
 
-### <a name="if-the-it-department-has-turned-off-sign-up-for-partner-center"></a>Ha az informatikai részleg kikapcsolta a **partneri központ regisztrációját**.
+### <a name="if-the-it-department-has-turned-off-sign-up-for-partner-center"></a>Ha az informatikai részleg kikapcsolta a **partner Centerre való regisztrációt**
 
 Ez az üzenet jelenik meg, mert a vírusos felhasználók le vannak tiltva, vagy mert a vírusos regisztráció le van tiltva az Azure AD-bérlőn. Az Azure AD-fiók globális rendszergazdája a következő PowerShell-parancs futtatásával engedélyezheti a szükséges szolgáltatásokat:
 
 **Set-Msolcompanysettings parancsmagjával-AllowEmailVerifiedUsers $true-AllowAdHocSubscriptions $true**
 
-További információért olvassa el az [önkiszolgáló regisztrációt](/azure/active-directory/users-groups-roles/directory-self-service-signup) ismertető témakört.
+További tudnivalókért olvassa el az [önkiszolgáló regisztrációt](/azure/active-directory/users-groups-roles/directory-self-service-signup)ismertető témakört.
 
 ## <a name="you-forgot-your-password"></a>Elfelejtette a jelszavát
 

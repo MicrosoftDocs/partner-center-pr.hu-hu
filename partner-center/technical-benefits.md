@@ -9,12 +9,12 @@ ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 02/24/2021
-ms.openlocfilehash: b3f62bb6d6d48e9dbcdcb906041a1653de436606
-ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
+ms.openlocfilehash: 3e3f1d576c03e437c218f7902c7770a1203eba70
+ms.sourcegitcommit: 35fe0fdc41886f6f5af71ec74e4a4ebd245dfe1d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "103022791"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104768720"
 ---
 # <a name="explore-technical-presales-and-deployment-services-tpd"></a>A Technical Sales and Deployment Services (megbízható közzétételi szolgáltatások) megismerése 
 
@@ -22,7 +22,7 @@ Ismerje meg, hogy milyen előnyökkel jár Microsoft Partner Network a technikai
 
 ## <a name="develop-your-technical-know-how"></a>Technikai know-how fejlesztése
 
-A technikai előadásainak és központi telepítési szolgáltatásainak (megbízható közzétételi szolgáltatások) használata a személyre szabott egyszeri konzultációkhoz a technikai képességek gyorsabb kiépítéséhez, az értékesítések hatékonyabb üzembe helyezéséhez és az alkalmazások fejlesztésének gyorsításához. [További információk](https://aka.ms/TPD).
+A technikai előadásainak és központi telepítési szolgáltatásainak (megbízható közzétételi szolgáltatások) használata a személyre szabott egyszeri konzultációkhoz a technikai képességek gyorsabb kiépítéséhez, az értékesítések hatékonyabb üzembe helyezéséhez és az alkalmazások fejlesztésének gyorsításához. [További információ](https://aka.ms/TPD).
 
 Minden Felhőbeli vagy hibrid megoldás támogatott a helyszíni Windows 10, a Windows Server és a Microsoft SQL Server mellett. 
 
@@ -30,7 +30,7 @@ Minden Felhőbeli vagy hibrid megoldás támogatott a helyszíni Windows 10, a W
 
 - Az arany-és ezüst partnerek korlátlan, előfizetéses segítséget kapnak. 
 
-- A hálózati tagok a [Action Pack](https://partner.microsoft.com/membership/action-pack) öt tanácsadói óra fogadására vásárolhatnak  
+- A hálózati tagok a [Action Pack](https://partner.microsoft.com/membership/action-pack) öt tanácsadói óra fogadására vásárolhatnak.  
 
 |     Csomag típusa    | A tanácsadási órák száma |   Technikai értékesítések   |
 |:-----------------:|:------------------------:|:----------------------:|
@@ -46,7 +46,7 @@ Jelentkezzen be bármely MPN-vel társított felhasználói fiókkal **[egy Tech
 
 A technikai előfizetési és központi telepítési szolgáltatások (megbízható közzétételi szolgáltatások) előnyeit a rendszer automatikusan aktiválja, és az összes MPN-hez társított felhasználó számára elérhetővé válik. 
 
-A technikai előnyök megtekintése a partner Centerben
+A technikai előnyök megtekintése a partner Centerben:
 
 1. Jelentkezzen be az MPN-hez társított fiókjával a partner Center [irányítópultján](https://partner.microsoft.com/dashboard). 
 

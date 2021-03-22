@@ -9,18 +9,18 @@ author: aarzh-AaronZhang
 ms.author: v-aarzh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ceaf3fd0819937177648814a02df4a2a266ee06f
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: 0e7676df62aa6ea91492f9904ac810397fb0e5aa
+ms.sourcegitcommit: 35fe0fdc41886f6f5af71ec74e4a4ebd245dfe1d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624306"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "104768754"
 ---
 # <a name="transition-from-cloud-solution-provider-csp-direct-bill-partner-to-csp-indirect-reseller"></a>Váltás egy közvetlen felhőszolgáltatói (Cloud Solution Provider, CSP-) számlázási partnerről egy közvetett CSP-viszonteladóra
 
 **Megfelelő szerepkörök**
 
-- Globális rendszergazdák
+- Globális rendszergazda
 
 >[!Note]
 >Ez a cikk olyan közvetlen számlázási partnerek számára készült, akik úgy döntöttek, hogy áttérnek a közvetett viszonteladók felé. Ha azonban még nem hozott létre explicit döntést a közvetett viszonteladóként való regisztráláshoz, akkor a Microsoft tájékoztatja a közvetlen számlázást a CSP közvetlen számlázási partneri programjára vonatkozó új [követelmények](direct-partner-new-requirements.md) teljesítéséről, ha a [közvetlen számlázási funkciói korlátozottak](restricted-direct-bill-capabilities.md)lesznek.
@@ -127,9 +127,9 @@ A közvetlen számlázási ügyfelek és a közvetett viszonteladói ügyfelek k
 
 ### <a name="to-identify-customers-that-you-acquired-as-a-direct-bill-partner"></a>A közvetlen számlázási partnernek beszerzett ügyfelek azonosítása
 
-1. **Ügyfelek** kiválasztása
+1. Válassza az **Ügyfelek** lehetőséget.
 
-2. Válasszon ki egy ügyfelet a részletek megtekintéséhez
+2. Válasszon ki egy ügyfelet a részletek megtekintéséhez.
 
 3. Ha ezt az ügyfelet közvetlen számlás partnerként szerezte be, akkor a termékek **hozzáadásával** vagy **megtekintésével** kapcsolatos lehetőségek jelennek meg, és látni fogja az előfizetéseit.
 
@@ -162,7 +162,7 @@ A viszonteladói kapcsolat kiterjesztése funkcióval viszonteladói kapcsolatot
 
 - A közvetett szolgáltató nem lesz biztosítva [delegált rendszergazdai jogosultságokkal](customers-revoke-admin-privileges.md) az ügyfél bérlője számára. Ha a közvetett szolgáltató delegált rendszergazdai jogosultságokat igényel, akkor ehelyett egy közvetett viszonteladói meghívót kell küldenie az ügyfélnek.
 
-- A viszonteladói kapcsolat létrejötte után a közvetett szolgáltató CSP-partnerként fog megjelenni az ügyfél számára a [M365 felügyeleti központ](https://admin.microsoft.com/AdminPortal/Home#/partners) partner kapcsolatok lapján, valamint [a vállalati Microsoft Store](/microsoft-store/work-with-partner-microsoft-store-business).
+- A viszonteladói kapcsolat létrejötte után a közvetett szolgáltató CSP-partnerként fog megjelenni az ügyfél számára a [Microsoft 365 felügyeleti központ](https://admin.microsoft.com/AdminPortal/Home#/partners) partner kapcsolatok lapján, és [Microsoft Store vállalatnál](/microsoft-store/work-with-partner-microsoft-store-business).
 
     > [!IMPORTANT]
     > A félreértések és a félreértések elkerülése érdekében a partneri szerződése arra kötelezi Önt, hogy tájékoztassa és szerezzen be hozzájárulást a közvetlen számlázási ügyféltől, mielőtt a kapcsolati bővítményt használja a meglévő közvetlen számlázási ügyfél és a közvetett szolgáltató közötti viszonteladói kapcsolat létesítéséhez.
@@ -223,9 +223,9 @@ Microsoft Cloud szerződés 2020. január 31-ig érvényes. Ezt követően az ö
 
 A CSP közvetett modellben a közvetett viszonteladók nem rendelkeznek számlázási kapcsolattal a Microsofttal. Ehelyett a közvetett viszonteladók előfizetéseket szereznek be ügyfeleiknek a közvetett szolgáltatókon keresztül. A közvetlen számlázási partnertől a közvetett viszonteladóig történő áttérés során át kell adnia a meglévő előfizetéseket, amelyek közvetlen számlás partnere a közvetett szolgáltatónak. A partner Center irányítópultján használhatja a saját kiszolgálású előfizetés-átvitel funkciót.
 
-### <a name="pre-requisites"></a>Előfeltételek
+### <a name="prerequisites"></a>Előfeltételek
 
-- Ez a funkció csak olyan partnereink átváltására használható, akik a közvetett viszonteladói regisztrációt elvégezték meglévő közvetlen számlázási partner-bérlőik használatával
+- Ez a funkció csak olyan partnereink átváltására használható, akik a közvetett viszonteladói regisztrációt elvégezték meglévő közvetlen számlázási partner-bérlőik használatával.
 
 - Egy adott ügyfélhez társított előfizetések továbbítása előtt az áttérési partnernek át kell helyeznie az ügyfelet egy közvetett szolgáltatóra.
 
