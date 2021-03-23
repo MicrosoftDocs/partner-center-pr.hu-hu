@@ -8,17 +8,105 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/18/2021
-ms.openlocfilehash: eb6f57ed9a1b3031aeaaff51260e718ce3420ae3
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.date: 03/22/2021
+ms.openlocfilehash: a3172b78d41a966b52a824703a7f15f163467d63
+ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712307"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104880735"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="corrections-made-to-march-1-2021-perpetual-software-price-list"></a><a name="14"></a>Helyesbítések a 2021-es végleges szoftverek árlista
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-23
+- Ajánlatok/piacok
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A közvetett szolgáltatók és a közvetlen számlázási partnerek örökös szoftvereket mutatnak a felhőalapú megoldás-szolgáltató programban 
+
+### <a name="details"></a>Részletek
+
+A 2021. március 1-én közzétett, Perpetual szoftverekhez tartozó árlista olyan piacokat foglal magában, amelyek nem voltak ott. A végleges szoftverhasználat-árlista 2021. március 17-én frissült a megfelelő értékekkel. Ezek a javítások csak a következőre voltak érvényesek:
+
+- Termék azonosítója: DF77X4D43RKT 
+- Terméknév: Windows 10 Home to Pro verziófrissítés Microsoft 365 Vállalati verzió
+- Eltávolított vagy nem támogatott piacok: AE, AF, AL, AM, AO, BA, BB, BD, BH, BM, BN, BO, BR, BS, BW, BY, BZ, CI, CL, CM, CO, CR, CW, DO, DZ, EC, EG, ET, FJ, FO, GE, GH, GT, HN, IL, IN, IQ, JM, JO, KE, KG, KN, KW, KY, az LB, az LK, a MU, a NA, a NG , NI, NP, OM, PA, PE, PH, PK, PR, UY, QA, RS, RU, RW, SG, SN, SV, TH, TJ, TM, TN, TT, TZ, UA, UG,, UZ, VE, VN, YE, ZM, ZW
+
+Ezek a módosítások csak a fenti termékre vonatkoznak. Más termékek nem voltak kijavítani. 
+
+### <a name="next-steps-and-resources"></a>Következő lépések és erőforrások
+
+- Az örökös szoftvereket futtató partnereknek le kell tölteniük a legfrissebb végleges szoftverek árlista listáját.
+- A [régióbeli országkód](https://docs.microsoft.com/azure/marketplace/commercial-marketplace-co-sell-countries) alapján a két betűs rövidítések országokra való rövid hozzárendelését lehet megkeresni.
+________________
+## <a name="sdk-release-on-net-standard-v1170"></a><a name="13"></a> SDK-kiadás a .NET standardban (v 1.17.0)
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-23
+
+- Képességek
+ 
+### <a name="impacted-audience"></a>Érintett közönség
+
+A partner Center .NET SDK-t használó CSP programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók.
+
+### <a name="details"></a>Részletek
+
+Március 23 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK (NuGet Gallery) verziójának letöltését. Microsoft. Store. PartnerCenter 1.17.0)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.17.0), valamint a frissített Public partner Center SDK [GitHub-mintákat](https://github.com/Microsoft/Partner-Center-DotNet-Samples). Ez a verzió a következő módszerek frissítéseit tartalmazza:
+
+#### <a name="audit-updated-new-operation-types"></a>Naplózás frissítve: új műveleti típusok
+
+Új [műveleti típusok](https://docs.microsoft.com/partner-center/develop/auditing-resources) lettek hozzáadva, amelyekből megtudhatja, mikor hagyta jóvá és szakítja meg a DAP szolgáltatást.
+
+- DapAdminRelationshipApproved
+
+- DapAdminRelationshipTerminated
+
+#### <a name="audit-updated-new-resource-and-operation-types"></a>Napló frissítve: új erőforrás-és műveleti típusok
+
+Új [erőforrás-és műveleti típusok](https://docs.microsoft.com/partner-center/develop/auditing-resources) lettek hozzáadva az ügyfél-címtár szerepkör-forgatókönyv támogatásához.
+
+- Új erőforrástípus: "CustomerDirectoryRole"
+
+- A "AddUserMember" és a "RemoveUserMember" típusú műveletek
+
+#### <a name="sdk-updates-to-customer-accounts"></a>Ügyfél-fiókok SDK-frissítései
+
+- Támogatás a/customers/{customer-tenant-id}/directSignedMicrosoftCustomerAgreementStatus beolvasásához
+
+- /Customers/{Customer-Tenant-ID}/Qualifications beolvasása
+
+- POST/Customers/{customer_id}/Qualifications? Code = {validationCode}
+
+#### <a name="additional-changes"></a>További módosítások
+
+A következő változások az új kereskedelmi szolgáltatás részeként jelennek meg, és a meghívással jelenleg csak olyan partnereink számára érhetők el, akik a M365/D365 új kereskedelmi élményhez tartoznak. Azok a partnerek, akik nem részei az új kereskedelmi technikai előzetes verziónak, nem észlelik a hatásokat, és visszamenőlegesen kompatibilisnek kell lenniük.
+
+- Katalógus változásai:
+
+  - /Products/{Product-ID}/SKUs/{SKU-ID} beolvasása
+
+- Vásárlás és kezelés:
+  - /Customers/{customerId}/subscriptions beolvasása
+  - /Customers/{customerId}/subscriptions/{subscriptionId} beolvasása
+  - /Customers/{customerId}/subscriptions/{subscriptionId} javítása
+  - /Customers/{customerId}/subscriptions/{subscriptionId}/transitioneligibilities beolvasása
+  - /Customers/{customerId}/subscriptions/{subscriptionId}/transitions beolvasása
+  - /Customers/{customerId}/subscriptions/{subscriptionId}/transitions közzététele
+
+### <a name="next-steps"></a>Következő lépések
+
+- Töltse le a legújabb verziót: [MicrosoftPartnerCenter. NETSDK (NuGet Gallery | Microsoft. Store. PartnerCenter 1.17.0)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.17.0)
+- A [GitHub-minták](https://github.com/Microsoft/Partner-Center-DotNet-Samples) letöltése és áttekintése
 
 ________________
 ## <a name="csp-commercial-marketplace-offer-and-fy21-csp-incentives-for-eligible-offers"></a><a name="12"></a>CSP kereskedelmi Marketplace ajánlat és FY21 CSP-ösztönzők a jogosult ajánlatok számára

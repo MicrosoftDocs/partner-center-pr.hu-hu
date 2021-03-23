@@ -1,7 +1,7 @@
 ---
 title: A CSP-hez készült Microsoft partneri szerződés (MPA)
 ms.topic: how-to
-ms.date: 02/11/2021
+ms.date: 03/23/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a Microsoft CSP-partnerének követelményeit az egységes, digitálisan elfogadott Microsoft partneri szerződés (MPA) aláírásához és ellenőrzéséhez.
@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 829b444f1990058cd323e3effec6da6d7585155a
-ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
+ms.openlocfilehash: 34f43895da6b25ca62e32b0d56eaa401564cca92
+ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100281326"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104880803"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára
 
@@ -110,5 +110,7 @@ Azt is láthatja, hogy aláírta-e a szerződést **a** **Fiókbeállítások** 
 3. Ha a fenti 1. és/vagy 2. lépés elvégzése után szeretné ellenőrizni MPA-állapotát a Partnerközpontban: [A Microsoft Partnerszerződés elfogadási állapotának ellenőrzése](https://assetsprod.microsoft.com/mpn/verify-mpa-acceptance-status.pptx)
  
 ## <a name="next-steps"></a>Következő lépések
+
+- [Hogyan segíthetnek a közvetett szolgáltatók a viszonteladók számára a Microsoft partneri szerződés elfogadásában – GYIK](mpa-indirect-provider-faq.md)
 
 - [Regisztráció a felhőszolgáltatói programban](indirect-reseller-tasks-in-partner-center.md)

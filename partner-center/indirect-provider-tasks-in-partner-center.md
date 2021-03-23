@@ -8,13 +8,13 @@ author: BillLinzbach
 ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
-ms.date: 07/01/2020
-ms.openlocfilehash: 12b902f8134a4fcf6d93439658da95fff6d80c4f
-ms.sourcegitcommit: a2ea54f814fdbd619421a83482831b22f49416f6
+ms.date: 03/23/2021
+ms.openlocfilehash: ece0e5f3bedf1496a252ac8e8c1545fb22ec8108
+ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94567049"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104880769"
 ---
 # <a name="partner-with-indirect-resellers-in-the-cloud-solution-provider-program"></a>Partnerkapcsolat kiépítése a közvetett viszonteladókkal a felhőszolgáltatói programban
 
@@ -168,6 +168,10 @@ Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meg
 7. Ha elkészült, válassza a **Küldés** lehetőséget.
 
 ## <a name="next-steps"></a>Következő lépések
+
+Válaszok a Microsoft partneri szerződéssel kapcsolatos kérdéseire
+
+- [Hogyan segíthetnek a közvetett szolgáltatók a viszonteladók számára a Microsoft partneri szerződés elfogadásában – GYIK](mpa-indirect-provider-faq.md)
 
 A vevői fiókok és előfizetések kezelésével kapcsolatos további információkért lásd:
 

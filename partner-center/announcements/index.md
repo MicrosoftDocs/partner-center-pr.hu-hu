@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/18/2021
-ms.openlocfilehash: 87d71434a44bcfe66f7a928291007237e9c958c6
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.date: 03/22/2021
+ms.openlocfilehash: 669bf079b095cff1c7198aa63dc900453bbd745a
+ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712290"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104880752"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Ajánlatok/piacok|[Helyesbítések a 2021-es végleges szoftverek árlista](2021-march.md#14)|Március 23.|
+|Képességek|[SDK-kiadás a .NET standardban (v 1.17.0)](2021-march.md#13)|Március 23.|
 |Képességek|[CSP kereskedelmi Marketplace ajánlat és FY21 CSP-ösztönzők a jogosult ajánlatok számára](2021-march.md#12)|Március 18|
 |Képességek|[Power BI Premium ajánlat elnevezési és előfeltétel-frissítése](2021-march.md#11)|Március 18|
 |Ajánlatok/piacok|[A Microsoft 365 F3 díjszabási frissítései](2021-march.md#10)|Március 16|
