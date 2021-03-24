@@ -111,6 +111,8 @@
         - name: Technikai előnyök
           href: mpn-benefits-technical-support.md
           displayname: 'support, incidents, technical'
+        - name: Embléma létrehozása a logo Builder használatával
+          href: mpn-logo-builder.md
     - name: Marketplace Rewards
       href: marketplace-rewards.md
     - name: Frissítési garancia
