@@ -9,19 +9,14 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b37e1ffef291defec0cba03aa9306f7bc82f5cd9
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 0f90162ce7d3848fc930c956077ae96994848696
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528531"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028451"
 ---
 # <a name="use-partner-center-to-sell-customers-subscriptions-to-commercial-marketplace-products"></a>A partner Center használata az ügyfelek kereskedelmi Marketplace-termékekre való előfizetésének értékesítéséhez
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- CSP-partnerek
 
 A CSP programban partnerként használhatja a partner centert a kereskedelmi piactéren ([Microsoft AppSource](https://appsource.microsoft.com/) és az [Azure Marketplace](https://azuremarketplace.microsoft.com/)-en) közzétett, független szoftvergyártók által kiadott szoftveres (SaaS) termékek előfizetésének értékesítéséhez.
 

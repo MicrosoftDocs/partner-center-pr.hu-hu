@@ -2,20 +2,21 @@
 title: Kifizetési fiók beállítása & adóügyi űrlapok – Microsoft kereskedelmi piactér
 description: Ha pénzt szeretne kapni a kereskedelmi piactéren elérhető ajánlat értékesítéséből, Ismerje meg, hogyan állíthatja be a kifizetési fiókját, és töltse ki a szükséges adózási űrlapokat.
 ms.topic: conceptual
-ms.service: marketplace
+ms.service: partner-dashboard
+ms.subservice: partnercenter-mpn
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 12/10/2019
-ms.openlocfilehash: 58a981dbed3aa9a38a29cdd2b085d661b9341232
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: c08dfb816e08efdc194dbeff8800a2cbcec2b972
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492687"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028434"
 ---
 # <a name="set-up-your-payout-account-and-tax-forms"></a>Kifizetési számla és űrlapok beállítása
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Fiókadminisztrátor
 - Globális rendszergazda
@@ -54,7 +55,7 @@ Először létre kell hoznia egy adózási profilt, és hozzá kell rendelnie az
 
 4. Ha meglévő adózási profilt szeretne használni, válassza ki a legördülő menüből. Ellenkező esetben válassza az **új profil létrehozása** elemet, majd kattintson a **Küldés** gombra. Ekkor megnyílik az adó-profilok lap.
 
-5. Az adózási adatok szerkesztéséhez kattintson a **Szerkesztés** gombra.
+5. Kattintson a **Szerkesztés** gombra az adózási adatok szerkesztéséhez.
 
 6. Válassza ki a megfelelő választógombot, és ha a rendszer kéri, válassza ki az országot/régiót. Ez a lépés határozza meg a Microsoft üzleti entitást, amelyet a rendszer a fiókon kifizetéshez használ.
 
@@ -91,7 +92,7 @@ A kifizetési fiók az a bankszámla, amelyre a bevételeket küldjük. A profil
 
 3. Válassza ki a konfigurálni kívánt fizetési módot.
 
-4. Válasszon ki egy meglévő fizetési profilt, vagy kattintson az **új fizetési profil létrehozása** lehetőségre új profil létrehozásához a választott fizetési módhoz.
+4. Válasszon ki egy meglévő fizetési profilt, vagy válassza az **új fizetési profil létrehozása** lehetőséget új profil létrehozásához a választott fizetési módhoz.
 
 ### <a name="create-a-bank-based-payment-profile"></a>Banki alapú fizetési profil létrehozása
 
@@ -111,7 +112,7 @@ Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a k
 
 5. Minden programban részt vevő programhoz ki kell választania egy fizetési profilt, de több program esetében ugyanazt a profilt használhatja.
 
-6. A módosítások mentéséhez kattintson a Submit (küldés) gombra.
+6. A módosítások mentéséhez válassza a Submit (küldés) lehetőséget.
 
    > [!NOTE]
    > A Microsoft akár 48 órát is igénybe vehet a profilban lévő információk érvényesítéséhez. Ha ez a folyamat befejeződött, **a teljes** *ellenőrzés állapota* megjelenik
@@ -130,7 +131,7 @@ Ha módosítani vagy javítani szeretné a helytelen adatokat, módosíthatja a 
 
 2. A *kifizetés és az adó* fejléc alatt válassza a **kifizetési és adózási profilok** lehetőséget.
 
-3. A fizetési profilok az állapotukkal együtt lesznek felsorolva. Keresse meg a szerkeszteni kívánt profilt, és kattintson a jobb szélen található **Szerkesztés** gombra.
+3. A fizetési profilok az állapotukkal együtt lesznek felsorolva. Keresse meg a szerkeszteni kívánt profilt, majd válassza a **Szerkesztés** lehetőséget a jobb szélen
 
 > [!IMPORTANT]
 > A kifizetési fiók módosítása akár egy fizetési ciklusban is késleltetheti a befizetését. Ez a késleltetés azért fordul elő, mert ellenőrizni kell a fiók változását, ugyanúgy, ahogy a kifizetési fiók első beállításakor. A fiók ellenőrzése után továbbra is a teljes összegért kell fizetnie. a rendszer a jelenlegi fizetési ciklus miatt esedékes összes kifizetést hozzáadja a következőhöz. További információért tekintse meg [a kereskedelmi piactéren befizetett](marketplace-get-paid.md)információkat.
@@ -203,7 +204,7 @@ Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a k
 3. Adja meg a kedvezményezett adatait.
 4. A profil- *hozzárendelés* lapon válassza ki azt a pénznemet, amelyet a kifizetések kiválasztásakor használni szeretne.
 5. Minden programban részt vevő programhoz ki kell választania egy fizetési profilt, de több program esetében ugyanazt a profilt használhatja.
-6. A módosítások mentéséhez kattintson a Submit (küldés) gombra.
+6. A módosítások mentéséhez válassza a Submit (küldés) lehetőséget.
 
 ## <a name="next-steps"></a>Következő lépések
 

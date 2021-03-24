@@ -9,18 +9,14 @@ ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 06/03/2020
-ms.openlocfilehash: c9ad5b1c0671ff1d27d25c6f92499b72d77e6c22
-ms.sourcegitcommit: c40f826bb1143555bf3a1c2c806c34024f0f6019
+ms.openlocfilehash: 67c1689136892443937748b6cc9e31e4f0ac9983
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "92528318"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028417"
 ---
 # <a name="migrate-skype-for-business-online-plan-1-subscriptions-to-newer-office-365-versions"></a>Skype Vállalati online verzió (1. csomag) előfizetéseinek migrálása újabb Office 365-verziókba
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 A Skype vállalati online verzió 1. csomagjának kivonása megszűnik, hatályba lép 2018. augusztus 1-től. Ezt követően az ügyfelek már nem vásárolhatják meg az új Skype vállalati csomag 1 előfizetést, és a meglévő előfizetések nem fognak automatikusan megújítani, amikor lejárnak, és nem biztosítanak megújítási lehetőséget. Az előfizetés részletei lapon a Skype vállalati online verzió 1. csomag előfizetés állapota "lejár [date]" értékre változott az "automatikus megújítások [date]" kifejezésből.  
 

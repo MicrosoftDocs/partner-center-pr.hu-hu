@@ -9,24 +9,21 @@ author: MalloryPrincipe
 ms.author: mallp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: fec01e6c4554421593de4135ccd1af5c5e7ce13b
-ms.sourcegitcommit: 1840767efa4c5de41889bc9245567cf286a084c8
+ms.openlocfilehash: 7a7e3ed40dcc6b1248f008201bff667a9eb9a0f8
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917254"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028315"
 ---
 # <a name="customer-associations-via-the-claimed-partner-of-record-cpor-model-for-microsoft-365-and-dynamics-365"></a>Ügyfél-hozzárendelések a Microsoft 365 és a Dynamics 365-es rekord (CPOR) modellje révén
 
-**A következőre érvényes:**
 
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
 
-2019. október 1-jén a Microsoft megkezdte a CPOR-modell igénylési partnerének használatát a Microsoft 365 és a Dynamics 365-ügyfelekkel folytatott társítások kezeléséhez az online szolgáltatások tanácsadó (OSA) értékesítés, online szolgáltatások használata (OSU) Microsoft 365 és OSU-Business alkalmazási ösztönzők tekintetében.
+2019. október 1-jén a Microsoft megkezdte a CPOR-modell igénylési partnerének használatát a Microsoft 365 és a Dynamics 365-ügyfelekkel kapcsolatos társítások kezeléséhez az online szolgáltatások tanácsadó (OSA) értékesítés, online szolgáltatások használata (OSU) – Microsoft 365 és OSU-Business alkalmazási ösztönzők tekintetében.
 
 >[!Important]
 > Az ügyfél-hozzárendelési (CPOR) jogcímek csak az online szolgáltatások tanácsadó (OSA) értékesítésére, az online szolgáltatások használatára (OSU) vonatkoznak, és a OSU-Business alkalmazás Microsoft 365-ösztönző programokra. Ha egy másik programhoz (például a felhőalapú megoldás-szolgáltatóhoz, a felügyelt viszonteladóhoz, az üzemeltetéshez vagy a felszínhez) tartozó együttes op-jogcímet küld, tekintse meg az itt ismertetett együttes op-jogcímek folyamatát. <br><br>A jogcímek beküldésekor a Microsoft érvényesíti azt. Ezen a ponton további információkat kérhetünk. A társulási kérelem ügyfelét is értesíteni fogjuk. Az ügyfeleknek öt munkanapon belül kell kijelentkezniük. Ha nem, akkor az adott Bérlővel és munkaterheléssel való társítása hivatalos lesz. Ezen a ponton elérheti az ügyfél használati adatait. 
@@ -39,11 +36,11 @@ A jogcímek elvégzéséhez a következő információkra lesz szüksége:
 
 - Az ügyfél **címtár-azonosítójának** vagy **bérlői azonosítójának** [megkeresése](find-ids-and-domain-names.md)
 
-- A **megoldási területen** , például Business Applications vagy Microsoft 365
+- A **megoldási területen**, például Business Applications vagy Microsoft 365
 
 - A végrehajtott **tevékenység** és a kívánt jogcím típusa, például értékesítés előtti, használati vagy bevételi társítás
 
-- Az ügyfél **kapcsolattartási neve** , címe és e-mail-címe
+- Az ügyfél **kapcsolattartási neve**, címe és e-mail-címe
 
 - A Dynamics 365 esetében meg kell adnia az ügyfél **technikai kapcsolattartójának** nevét, címét és e-mail-címét is.
 
@@ -53,9 +50,9 @@ A jogcímek elvégzéséhez a következő információkra lesz szüksége:
 
 - Az Ön által igényelt **termék (ek)** vagy számítási feladat (ok)
 
-- A **végrehajtás igazolása (PoE)** , például az ügyfél által aláírt munkavégzési utasítás. Le is töltheti a használni kívánt PoE-sablont.
+- A **végrehajtás igazolása (PoE)**, például az ügyfél által aláírt munkavégzési utasítás. Le is töltheti a használni kívánt PoE-sablont.
 
-- Csak a bevételi társulást igénylő partnerek esetén: a **Dynamics-megoldás eladójának neve** , az **ügyfél neve** és **az ISV termék/megoldás neve** . 
+- Csak a bevételi társulást igénylő partnerek esetén: a **Dynamics-megoldás eladójának neve**, az **ügyfél neve** és **az ISV termék/megoldás neve**. 
 
 A következő szempontokat is ismernie kell:
 
@@ -73,11 +70,11 @@ A következő szempontokat is ismernie kell:
 
 3. Az ügyfél-hozzárendelések lap tetején válassza a **+ Ügyfél-hozzárendelés** lehetőséget.
 
-4. Válassza ki az ügyfélhez társítani kívánt partnerhely **MPN-azonosítóját** , majd adja hozzá az ügyfél tartománynevét és címtár-azonosítóját. [Keresés](find-ids-and-domain-names.md)
+4. Válassza ki az ügyfélhez társítani kívánt partnerhely **MPN-azonosítóját**, majd adja hozzá az ügyfél tartománynevét és címtár-azonosítóját. [Keresés](find-ids-and-domain-names.md)
 
 5. Válassza a **Folytatás** lehetőséget.
 
-6. Válassza ki a **megoldási területeket** és **tevékenységeket** . 
+6. Válassza ki a **megoldási területeket** és **tevékenységeket**. 
 
    >[!Note]
    >
