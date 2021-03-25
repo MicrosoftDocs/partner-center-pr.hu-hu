@@ -9,16 +9,15 @@ ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 11/11/2020
-ms.openlocfilehash: a59cf0b271a0ccf5fd5a1d8e3e85ff43818a3801
-ms.sourcegitcommit: fe867be44de3479607be3309940b904d7ea9fc6e
+ms.openlocfilehash: 756fbfda3438933b50fc51936b396291986472a7
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102247707"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028281"
 ---
 # <a name="add-azure-partner-shared-services-so-partners-can-buy-azure-subscriptions-for-their-own-use"></a>Azure partner megosztott szolgáltatások hozzáadása, hogy a partnerek saját használatra tudják megvásárolni az Azure-előfizetéseket
 
- 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
@@ -59,7 +58,7 @@ Az Azure-beli felhasználást a CSP-számlán és a megbékélési fájlban tal�
 
 ## <a name="azure-partner-shared-services-pricing"></a>Az Azure partner megosztott szolgáltatásainak díjszabása
 
-Ha szeretné megtekinteni az Azure partner megosztott szolgáltatásainak új díjszabási fájlját, válassza a   >  **díjszabás és ajánlatok** eladása lehetőséget, és válassza ki az aktuális hónap árlista listáját. Az elkövetkező hetekben egy adott díj kártya API-t is kiadunk.
+Ha szeretné megtekinteni az Azure partner megosztott szolgáltatásainak új díjszabási fájlját, lépjen a díjszabás és ajánlatok **eladása** lehetőségre,  >   és válassza ki az aktuális havi árlista elemet. Az elkövetkező hetekben egy adott díj kártya API-t is kiadunk.
 
 ## <a name="marketplace-offers-and-azure-partner-shared-services"></a>Piactéri ajánlatok és az Azure partner megosztott szolgáltatásai
 

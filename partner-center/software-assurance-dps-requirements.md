@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6955f28c78978e1f9f9e887ef612d38d57568d77
-ms.sourcegitcommit: 9c7a8a33c73c9536142a59a6c65027202ec20547
+ms.openlocfilehash: 2cf45807c6347ad62ad343d2be8a477ab8ea9d33
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528287"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028264"
 ---
 # <a name="view-eligibility-requirements-for-planning-services-engagements"></a>A szolgáltatások megtervezéséhez szükséges támogathatósági követelmények megtekintése
 
@@ -23,7 +23,7 @@ ms.locfileid: "92528287"
 - Globális rendszergazda
 - MPN-partner rendszergazdája
 
-Ebből a témakörből megtudhatja, milyen jogosultsági követelményekkel kell rendelkeznie ahhoz, hogy a vállalata a Microsoft számára is regisztrálja vagy kézbesítse a frissítési garanciával kapcsolatos tervezési szolgáltatásokat.
+Ebből a cikkből megtudhatja, milyen jogosultságokkal kell rendelkeznie ahhoz, hogy a vállalata a Microsoft számára a frissítési garanciát biztosító tervezési szolgáltatások beléptetését vagy biztosítását is kielégítse.
 
 >[!NOTE]
 > Emellett a tervezési szolgáltatások nyújtásának feltételeinek kielégítése mellett számos további lépést is el kell végeznie, mielőtt a frissítési garanciát biztosító szolgáltatások bevonását el tudja juttatni. Az összes szükséges lépés áttekintéséhez tekintse meg a [frissítési garancia tervezési szolgáltatások a partner Centerben](software-assurance-dps.md)című témakört.

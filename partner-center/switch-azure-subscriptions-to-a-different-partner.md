@@ -9,20 +9,19 @@ ms.localizationpriority: medium
 author: dhirajgandhi
 ms.author: dhgandhi
 ms.date: 02/09/2021
-ms.openlocfilehash: b9058b00708e0ed745c7d6343dfd9c04382cfa9e
-ms.sourcegitcommit: 64243caed029ffe40e2bbc369f4ee96f4f0ca26f
+ms.openlocfilehash: 20e00034e9c20a5d41500892df059b34a9347a63
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "100645656"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028298"
 ---
 # <a name="learn-how-to-transfer-a-customers-azure-subscriptions-to-another-partner"></a>Megtudhatja, hogyan adhatja át egy ügyfél Azure-előfizetéseit egy másik partnernek
 
 **A következőre érvényes:**
 
-- A Microsoft Cloud for US Government Partnerközpontja
+- Partneri központ a Microsoft Government cloudhoz
 - A Microsoft globális felhőhöz tartozó partneri központ
-- Partnerek a Cloud Solution Provider (CSP) programban
 
 Ez a cikk azt ismerteti, hogy az ügyfelek hogyan válthatják át a Microsoft Azure szolgáltatásaikat egy felhőalapú megoldás-szolgáltatóról (CSP) egy másikra.
 
@@ -43,7 +42,7 @@ Ha az ügyfél Azure-szolgáltatásait vagy előfizetéseit egy másik partnerre
 
    Hozzon létre egy Azure-szolgáltatási jegyet a partner Centertől az előfizetés-átvitel igényléséhez:
 
-   1. A partner Center menüben válassza az **ügyfelek** lehetőséget, válassza ki az ügyfelet a listából, majd válassza a **Service Management** lehetőséget. 
+   1. A partner Center menüben válassza az **ügyfelek** lehetőséget, válassza ki az ügyfelet a listából, majd válassza a **Service Management** lehetőséget.
 
    2. A **támogatási jegyek** szakaszban válassza ki az **új jegy** legördülő menüt, és válassza a **Microsoft Azure** lehetőséget.
    
@@ -100,12 +99,12 @@ Ha az ügyfél Azure-szolgáltatásait vagy előfizetéseit egy másik partnerre
      Get-AzRoleAssignment
      ```
 
-7. Elavult hozzáférési engedélyek eltávolítása
+7. Elavult hozzáférési engedélyek eltávolítása:
 
    - A partner Center menüben válassza az **ügyfelek** lehetőséget.
-   - Keresse meg az ügyfelet a listán. Válassza ki (kattintson duplán) a vállalata nevére. Ekkor megnyílik az ügyfél- **előfizetések** lap.
+   - Keresse meg az ügyfelet a listán. Válassza ki (kattintson duplán) a vállalata nevére. Ez a művelet megnyitja az ügyfél- **előfizetések** lapot.
    - Az ügyfél részletei menüben válassza a **Service Management** lehetőséget.
-   - A **Microsoft Azure** alatt kattintson a hivatkozásra a **a Microsoft Azure felügyeleti portálja** való ugráshoz.
+   - A **Microsoft Azure** alatt válassza ki a hivatkozást, és nyissa meg a **a Microsoft Azure felügyeleti portálja**.
 
 ## <a name="next-steps"></a>Következő lépések
 

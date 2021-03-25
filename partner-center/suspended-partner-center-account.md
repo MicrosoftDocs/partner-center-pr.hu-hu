@@ -9,21 +9,20 @@ author: kbangalore
 ms.author: kiranban
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7d362e78cccf1372760a38f849b0a29a0a31c1ac
-ms.sourcegitcommit: 2e206627323ff175c0e0d10646cdba80e9881891
+ms.openlocfilehash: 194ae71b026b3dc5419ad86d0988249223137462
+ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "92528043"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "105028247"
 ---
 # <a name="restore-a-suspended-partner-center-account---learn-why-it-happens-and-what-to-do-about-it"></a>Felfüggesztett Partnerközpontfiók visszaállítása – ismerje meg a kiváltó okokat és az ezzel kapcsolatos teendőit
 
 Ez a cikk a Partnerközpontfiók felfüggesztése esetén elvégzendő teendőket ismerteti.
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
--  Partnerközpont
--  Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
 
@@ -37,7 +36,7 @@ Ez a cikk a Partnerközpontfiók felfüggesztése esetén elvégzendő teendőke
 
 A Microsoft a következő okok egyike miatt felfüggeszti a partneri központ fiókját:
 
-- Ha az aktuális számlázási összeg meghaladja a 60 napos késést 
+- Ha az aktuális számlázási összeg meghaladja a 60 napos késést
 - Jelentős fiókkal való visszaélés észlelésekor
 - Ha a problémák befolyásolják a közvetett szolgáltatói műveleteket, és negatív hatással vannak a fiókra (csak közvetett viszonteladók)
 - Ha a fiók profilja sikertelen vagy visszautasított állapotban van
@@ -48,7 +47,7 @@ Ha tudja, hogy a fiókja aktuális, tekintse meg a [partneri profil](https://par
 
 Ha nem biztos abban, hogy a fiókja aktuális, válassza a **számlázás** lehetőséget a **partner központ** menüjében a számla ellenőrzéséhez. A számlázási oldal megjeleníti a számlázási előzményeket és trendeket, az aktuális hónap esedékes egyenlegét, a számlára és a megbékélési fájlokra mutató hivatkozásokat, valamint a legutóbbi fizetést.
 
-Ha a fiókja késésben van, kövesse a számlán megjelenő utasításokat a fizetés elvégzéséhez, majd küldjön egy támogatási kérést a fiókja visszaállításához. 
+Ha a fiókja késésben van, kövesse a számlán megjelenő utasításokat a fizetés elvégzéséhez, majd küldjön egy támogatási kérést a fiókja visszaigényléséhez. 
 
 A fiók újraaktiválásával kapcsolatos további segítségért forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create).
 
