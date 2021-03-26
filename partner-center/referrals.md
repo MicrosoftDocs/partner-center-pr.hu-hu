@@ -9,18 +9,14 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bf832377cdaa6a680fef3ea3c2535f20a3ad65e1
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 391768b14473c3cbdaf5049007c36bbf28dd1167
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528475"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549209"
 ---
 # <a name="grow-your-business-with-referrals-from-microsoft"></a>Vállalatfejlesztés a Microsoft javaslatai segítségével
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 Számos ügyfelünk keres minősített szakértőket a Microsoft technológiai és üzleti megoldásai megvalósításában. A Microsoftnál gyakran a marketing tevékenységek és a belső Microsoft értékesítési ügynökök segítségével közvetlen kéréseket kapunk segítségre az ügyfeleknek. Az ügyfelek a [ **megoldás keresése**](https://www.microsoft.com/solution-providers/search) lehetőséget is használhatják az üzleti igényeknek megfelelő vállalatok megtalálására. 
 

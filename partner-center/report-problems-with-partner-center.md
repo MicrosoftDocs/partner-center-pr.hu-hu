@@ -9,21 +9,22 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e680856c0bf1f1ed4e8eb5acea3833255576f5e3
-ms.sourcegitcommit: c4bae49f6c303f0b77a404a0441c2440e7cb112b
+ms.openlocfilehash: 33955d85e4b3bd713d15807911067c643d12c912
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103582036"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549175"
 ---
 # <a name="partner-center-portal-requests-and-diagnostic-tool"></a>A partner Center portál kérései és diagnosztikai eszköze
 
 **A következőre érvényes:**
 
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
+
+- A partner Centerben érdekelt összes partner
 
 Az összes bejelentkezett fiókpartner-felhasználó létrehozhat egy partneri támogatási kérelmet. A felhasználók csak a partner központba való bejelentkezés után elküldött támogatási kérelmeket tekinthetik meg.
 Ha problémák merülnek fel, vagy segítségre van szüksége a partner Center portál hibáihoz, lépjen kapcsolatba a partner Center ügyfélszolgálatával. Diagnosztika küldése a probléma gyorsabb megjavításának engedélyezéséhez.
@@ -77,7 +78,7 @@ Ha hiba lép fel a partneri központ oldalán, a rendszer kérni fogja a naplóz
 
 Megtekintheti a diagnosztikai adatokat, majd mentheti a támogatási kérelemben csatolható fájlba. Küldje el nekünk az adatokat:
 
-3. Az elküldés előtt tekintse át a fájlban található információkat, mivel azok tartalmazhatnak személyes azonosításra alkalmas adatokat, amelyeket érdemes lehet eltávolítani.
+3. A fájl elküldése előtt tekintse át a fájlban található információkat, mivel azok személyes adatokat is tartalmazhatnak, amelyeket el szeretne távolítani.
 
     >[!NOTE]
     >Egyes böngészőkben az **előnézet** lap alján található **oldal nézet** szakasz üresen is megjelenhet. Ez rendben van.

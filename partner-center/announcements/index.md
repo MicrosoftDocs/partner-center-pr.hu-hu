@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/22/2021
-ms.openlocfilehash: 669bf079b095cff1c7198aa63dc900453bbd745a
-ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
+ms.openlocfilehash: e2cba4baf497fb51ecd05c01f10e67632bb05c39
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104880752"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549039"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Ajánlatok/modern munkahely|[Microsoft-műveletek: a termék indítási naptárának bemutatása](2021-march.md#16)|Március 25.|
+|Képességek|[A CSP-ügyfél bevezetési követelményeinek változásai](2021-march.md#15)|Március 25.|
 |Ajánlatok/piacok|[Helyesbítések a 2021-es végleges szoftverek árlista](2021-march.md#14)|Március 23.|
 |Képességek|[SDK-kiadás a .NET standardban (v 1.17.0)](2021-march.md#13)|Március 23.|
 |Képességek|[CSP kereskedelmi Marketplace ajánlat és FY21 CSP-ösztönzők a jogosult ajánlatok számára](2021-march.md#12)|Március 18|

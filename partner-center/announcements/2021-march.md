@@ -8,17 +8,139 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/22/2021
-ms.openlocfilehash: a3172b78d41a966b52a824703a7f15f163467d63
-ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
+ms.date: 03/24/2021
+ms.openlocfilehash: 8b9b034a7241bba5de54b28edb64c961a05a8f64
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104880735"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549073"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="microsoft-operations-introducing-the-product-launch-calendar"></a><a name="16"></a>Microsoft-műveletek: a termék indítási naptárának bemutatása
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-25
+- Ajánlatok | Modern munkahely
+
+### <a name="summary"></a>Összefoglalás
+
+A partneri visszajelzések megválaszolásával a Microsoft műveletei egyszerűbbé teszik a termékekkel kapcsolatos kommunikációt.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A Cloud Solution Provider (CSP) partnerei
+
+### <a name="details"></a>Részletek
+
+A Microsoft elkötelezte magát a partneri élmény folyamatos javítására. Visszajelzést kapott arról, hogy túl sok kommunikációt kapott a Microsofttól, beleértve a termék által indított ismétlődő hirdetményeket is.
+
+Visszajelzése alapján a Microsoft egyszerűsítette a termékre vonatkozó készültségi tapasztalatot, amely új és meglévő ajánlatokat tartalmaz.
+
+Most az Operations Readiness Resource Galleryben közzétett, a termékre vonatkozó, egyetlen havi nézetet is biztosítunk. Ez a havi [termék-indítási naptár nézet](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) az egyes termékek indításával kapcsolatos kommunikációt az Operations Readiness Resource Galleryben és a partner Center bejelentésekben fogja lecserélni.
+
+A [termék elindítására vonatkozó naptárat](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) a [közösségi gyűjtemények](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/), a [Naptár-nézetek](https://partner.microsoft.com/resources/assets#/?type=collection&search=Calendar&sort=updated)és a CSP- [hírlevelek](https://partner.microsoft.com/resources/collection/csp-monthly-update#/)segítségével is elérheti. Értesítjük Önt, ha minden hónap termék-indítási naptárát közzéteszik az Operations Readiness Resource Galleryben bejelentéssel.
+
+Továbbra is megtalálhatja az új és meglévő ajánlatokkal kapcsolatos információkat a árlista előnézetében és a árlista változási naplóiban, valamint a Product blogs, a licencelési útmutatók és a termékek marketing oldalain.
+
+A módosítás a következő termékek esetében érvényes lesz:
+
+- Helyszíni Dynamics
+- Microsoft 365
+- Microsoft Dynamics 365
+- Windows
+- Kiszolgáló  
+- Eszközök
+- Csapatok és távközlési
+
+Továbbra is küldünk olyan, a termékre vonatkozó bejelentéseket, amelyek szükségesek az Operations Readiness részleteiről.
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
+
+### <a name="questions"></a>Kérdése van?
+
+Az ajánlatokkal kapcsolatos további kérdésekért keresse meg a megfelelő Yammer-közösségeket.
+
+________________
+## <a name="changes-to-csp-customer-onboarding-requirements"></a><a name="15"></a>A CSP-ügyfél bevezetési követelményeinek változásai
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-25
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként további vásárlói adatokat fogunk kérni, amelyek 2021. március 25-én érvényesek.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Cloud Solution Provider (CSP) közvetlen számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. 2021. március 25-én bevezetjük a partner Center API-t és a felhasználói felület (UI) fejlesztéseit, amelyek hatással lesznek a következő feltételeknek megfelelő partnerekre:
+
+1. A partner közvetlen számlázási kapcsolatban áll a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlás partner vagy közvetett szolgáltató).
+
+2. A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban:
+
+    - Thaiföld
+    - Vietnam
+    - Törökország
+    - Lengyelország
+    - Dél-afrikai Köztársaság
+    - India
+    - Brazília
+    - Irak
+    - Mianmar
+    - Dél-Szudán
+    - Szaúd-Arábia
+    - Egyesült Arab Emírségek
+    - Venezuela
+
+A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél **vállalati regisztrációs azonosítóját** (más néven az ügyfél **szervezeti** webhelyét) és a **telefonszámot** , amikor új ügyfeleket vesznek fel, vagy módosíthatják a meglévő ügyfelek adatait. Ezek a partnerek **középső nevet** is megadhatnak az ügyfél számára.
+
+Vegye figyelembe, hogy a vállalati regisztrációs azonosító hozzáadásakor az üzleti adó azonosítót kell használnia, nem pedig az ügyfél személyes AZONOSÍTÓját.
+
+A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti partnerek már egy korábbi kiadásban, 2020 novemberében lettek bevezetve.
+
+- Örményország
+- Azerbajdzsán
+- Belarusz
+- Magyarország
+- Kazahsztán
+- Kirgizisztán
+- Moldova
+- Oroszország
+- Tádzsikisztán
+- Ukrajna
+- Üzbegisztán
+
+A világ többi részén ügyfelekkel rendelkező partnerek a 2021. március 25-én megadhatják a **vállalati regisztrációs azonosítót**, a **telefonszámot** és a **középső nevet** az ügyfelek számára opcionális részletekként.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a [dedikált partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakran feltett kérdéseket.
+
+- Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
+
+- Ügyeljen arra, hogy új ügyfelek beléptetése vagy a meglévő ügyfél adatainak módosításakor küldje el a további adatokat.
+
+- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van a jogi azonosítóval (más néven INN vagy TIN) kapcsolatban, forduljon az adó-tanácsadóhoz vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben.
+
+Ha támogatásra van szüksége a Microsoft által végzett műveletekhez, [Nyisson meg egy szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8).
 
 ________________
 ## <a name="corrections-made-to-march-1-2021-perpetual-software-price-list"></a><a name="14"></a>Helyesbítések a 2021-es végleges szoftverek árlista

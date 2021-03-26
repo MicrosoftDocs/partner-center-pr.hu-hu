@@ -1,25 +1,26 @@
 ---
-title: Egyeztetési felszámított fájlok típusai
+title: Egyeztetési fájlok díjtípusai
 ms.topic: article
 ms.date: 06/05/2020
 description: Fedezze fel a (például licenc-alapú, használati és egyszeri), kreditek és kedvezmények típusát a partner Center egyeztetési fájljaiban.
+ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f65c4a6496082934e8c38fbd924b96ef969be95b
-ms.sourcegitcommit: e7931fbe7ce16a62124e00b2802520a17d7285b8
+ms.openlocfilehash: ba42ac5beb28a3cf819c54a86385fb79853cdcd0
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "92528061"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549226"
 ---
 # <a name="understand-the-different-charge-types-in-partner-center-reconciliation-files"></a>A különböző díjszabási típusok ismertetése a partner Center egyeztetési fájljaiban
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
 
@@ -27,12 +28,12 @@ ms.locfileid: "92528061"
 - Számlázási adminisztrátor
 - Globális rendszergazda
 
-Ez a témakör a számla szakasz és a társított díjszabási típusok közötti leképezéseket ismerteti, amelyek lehetnek a megbékélési fájlban. A számla a díjak összegzését tartalmazza. Az egyeztetési fájl részletesen részletezi a line-Item tranzakciókat, beleértve a díjszabási típusokat is. Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [a megbékélési fájlok használata](use-the-reconciliation-files.md).
+Ez a cikk a számla szakasz és a társított díjszabási típusok közötti leképezéseket ismerteti, amelyek lehetnek a megbékélési fájlban. A számla a díjak összegzését tartalmazza. Az egyeztetési fájl részletesen részletezi a line-Item tranzakciókat, beleértve a díjszabási típusokat is. Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [a megbékélési fájlok használata](use-the-reconciliation-files.md).
 
 A [használaton alapuló egyeztetési fájlok](usage-based-recon-files.md) és a [licenc-alapú egyeztetési fájlok](license-based-recon-files.md) csak a használattal kapcsolatos tranzakciókat és díjakat (a felhasznált egységek és a kapcsolódó díjak) mutatják.
 
 > [!NOTE]
-> A számlán megjelenő egyszeri kreditek, kedvezmények vagy visszatérítések nem jelennek meg az egyeztetési fájlban. **Adjustments**
+> A számlán megjelenő egyszeri kreditek, kedvezmények vagy visszatérítések nem jelennek meg az egyeztetési fájlban. 
 
 ## <a name="map-charge-types-to-invoice-charges"></a>Vegyesköltség-típusok hozzárendelése a számlázáshoz
 

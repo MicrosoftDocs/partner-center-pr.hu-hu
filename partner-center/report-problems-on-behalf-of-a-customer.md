@@ -9,19 +9,18 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 30670f44ddfeb2a798b191fb646ff894434537cb
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 0cf8769bcf45ba90a714231a7c9db7660efce0b0
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756437"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549056"
 ---
 # <a name="report-a-service-problem-on-behalf-of-a-customer---including-when-and-how-to-do-so"></a>Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében – beleértve azt is, hogy mikor és hogyan történik
 
 **A következőre érvényes:**
 
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
 
@@ -104,7 +103,7 @@ Az ISV kapcsolattartási adatainak megkeresése:
 
 ## <a name="faq"></a>GYIK
 
-Az ügyfél nevében elküldhető szolgáltatási kérelmekkel kapcsolatos gyakori kérdésekért lásd az alábbi információkat. 
+Tekintse meg az ügyfél nevében elküldhető szolgáltatási kérelmekkel kapcsolatos alábbi gyakori kérdéseket. 
 
 ### <a name="what-is-included-as-part-of-the-support-entitlement"></a>Mit tartalmaz a támogatási jogosultság része?
 
@@ -120,7 +119,7 @@ A kezdeti válaszidőt a beküldött incidens súlyossága határozza meg. A pro
 
 A technikai hibajavítási **incidensek** kezdeti válaszideje:
 
-- Kritikus hatás (A súlyossági szint): 2 óra (a szolgáltatások jelentős elvesztése vagy romlása). Éles üzemi szolgáltatások.)
+- Kritikus hatás (A súlyossági szint): két óra (A szolgáltatások jelentős elvesztése vagy romlása). Éles üzemi szolgáltatások.)
 - Mérsékelt hatás ("B" súlyosság): négy óra (a szolgáltatások mérsékelt elvesztése vagy romlása). Az éles üzemi szolgáltatások részben érintettek.)
 - Minimális hatás (súlyosság C): nyolc óra (a szolgáltatások minimális elvesztése vagy romlása). A szolgáltatások továbbra is elérhetők vagy nem éles üzemi szolgáltatásokat érintenek.)
 

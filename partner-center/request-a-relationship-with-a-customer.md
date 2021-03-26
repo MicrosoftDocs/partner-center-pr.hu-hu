@@ -8,22 +8,18 @@ description: Kérjen kapcsolatot egy ügyféllel többpartneres, többcsatornás
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
-ms.openlocfilehash: 26f39943ecc06f70b0194f1e892c4cfa218f5ee9
-ms.sourcegitcommit: e73a8a926476c47ea280735d1939b8a366982d33
+ms.openlocfilehash: 2403ec6cdb2776ab04fa76a37d690a748de38714
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530091"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105548971"
 ---
 # <a name="how-to-request-a-reseller-relationship-from-a-customer-in-partner-center"></a>Viszonteladói kapcsolat kérése egy ügyféltől a Partnerközpontban
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-
 Ha az ügyfél szolgáltatását vagy előfizetését az Ön nevében szeretné kezelni, az ügyfélnek Önnek rendszergazdai engedélyeket kell adnia az adott szolgáltatáshoz vagy előfizetéshez, és alá kell írnia a Microsoft ügyfél-szerződést.
 
-Ha viszonteladói kapcsolatot szeretne létesíteni egy ügyféllel, és csak az Ön által kiépített Azure-előfizetéseket szeretné kezelni, akkor nem szükséges rendszergazdai engedélyeket kérnie.
+Ha viszonteladói kapcsolatot szeretne létesíteni egy ügyféllel, és csak az Ön által kiépített Azure-előfizetéseket szeretné kezelni, nem kell megszereznie a rendszergazdai engedélyeket.
 
 >[!NOTE] 
 >A nem igényelhető engedélyek nem érhetők el az Egyesült Államok kormányzati szerveinek vagy Microsoft Cloud Németországnak Microsoft Cloud működő partnereink számára. További információért lásd: [az ügyfelek rendszergazdai jogosultságokat delegálnak a partnereknek](customers-revoke-admin-privileges.md).
@@ -65,6 +61,6 @@ A felhőalapú megoldás-szolgáltatói partnertől érkező viszonteladói kapc
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Támogatási kapcsolattartók társítása](assign-support-contacts.md)
+- [Támogatási kapcsolattartók hozzárendelése](assign-support-contacts.md)
 
 - [Ügyféllel való kapcsolat eltávolítása](remove-a-relationship.md)

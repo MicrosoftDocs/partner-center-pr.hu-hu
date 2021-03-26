@@ -9,21 +9,16 @@ author: rajap-ms
 ms.author: rajap
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b09f661cfc091732dddb2d7cb79303af60d3919a
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: f58a7cc34b5b5b5755f652faf220d290ec2a355d
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756494"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549260"
 ---
 # <a name="get-referral-insights-in-partner-center-and-find-out-how-your-referrals-are-doing"></a>Az Ajánlói elemzések beszerzése a partner Centerben
 
-**A következőre érvényes:**
-
-- Közös értékesítés lehetőségei
-- Privát ajánlatok
-
-Az átirányítások **elemzési** szakasza alatt a **közös értékesítési lehetőségek** oldalon láthatja, hogyan végezheti el az átirányítási feladatokat. Rendszeresen tekintse át ezeket a mérőszámokat, hogy azonosítsa a trendeket vagy a figyelmet igénylő területeket, és megkezdje az üzleti célok elérését.
+Az átirányítások **elemzési** szakasza alatt a **közös értékesítési lehetőségek** oldalon láthatja, hogyan történik a hivatkozások használata. Rendszeresen tekintse át ezeket a mérőszámokat, hogy azonosítsa a trendeket vagy a figyelmet igénylő területeket, és megkezdje az üzleti célok elérését.
 
 Ha szeretné megtekinteni az Ön közös értékesítési lehetőségeit, a partner Center menüjéből válassza az **átirányítási > az elemzési > a közös értékesítés lehetőségeit**.
 
@@ -32,9 +27,9 @@ Ha szeretné megtekinteni az Ön közös értékesítési lehetőségeit, a part
 
 ## <a name="apply-filters"></a>Szűrők alkalmazása
 
-A **közös értékesítés lehetőségei** lap tetején kiválaszthatja azt az időszakot, amelyben az adatmegjelenítést meg szeretné jeleníteni. Az alapértelmezett beállítás a **3m** (három hónap), de dönthet úgy, hogy hat hónapig vagy egy évnél hosszabb ideig jeleníti meg az adatmennyiséget. Azt is megteheti, hogy a **Custom (egyéni** ) lehetőséget választja az összes átirányítási információhoz egy adott időszakban.
+A **közös értékesítés lehetőségei** lap tetején kiválaszthatja azt az időszakot, amelyben az adatmegjelenítést meg szeretné jeleníteni. Az alapértelmezett beállítás a **3m** (három hónap), de dönthet úgy is, hogy hat hónapig vagy egy évig kívánja megjeleníteni az adatmegjelenítést. Azt is megteheti, hogy a **Custom (egyéni** ) lehetőséget választja az összes átirányítási információhoz egy adott időszakban.
 
-A szűrők gombra kattintva megnyithatja a panelt, amely lehetővé teszi a lapon lévő összes érték szűrését az ügyfél neve, az ország, az üzlet típusa, az osztás iránya, a megoldás neve és az állapot szerint. Alább láthatók a szűrők részletei.
+A **szűrők** gombra kattintva megnyithatja a panelt, amely lehetővé teszi a lapon lévő összes érték szűrését az ügyfél neve, az ország, az üzlet típusa, az osztás iránya, a megoldás neve és az állapot szerint. Alább láthatók a szűrők részletei.
 
 - **Ügyfél neve**: az alapértelmezett érték az **összes**, de az adathalmazt egy vagy több kiválasztott ügyfél számára is korlátozhatja.
 - **Ország**: az alapértelmezett érték **mind**, de a kiválasztott ügyfél egy vagy több országára korlátozhatja az adatmennyiséget.
@@ -43,11 +38,11 @@ A szűrők gombra kattintva megnyithatja a panelt, amely lehetővé teszi a lapo
 - **Megoldás neve**: az alapértelmezett érték az **összes**, de dönthet úgy, hogy korlátozza az olyan átirányítási értékre, amely egy vagy több kiválasztott megoldást tartalmaz.
 - **Állapot**: az alapértelmezett érték az **összes**, de dönthet úgy, hogy korlátozza az olyan átirányítási állapotokra vonatkozó hivatkozásokat, amelyek egy vagy több, például elfogadott, visszautasított, lejárt, elveszett és megnyert átadási állapotot tartalmaznak.
 
-Az alábbi táblázatokban szereplő információk a dátumtartományt és a kiválasztott szűrőket tükrözik, kivéve az alábbiakat. Egyes részekben további szűrőket is alkalmazhat, például egy adott megoldás szűrését.
+Az alábbi táblázatokban szereplő információk a dátumtartományt és a kiválasztott szűrőket tükrözik, kivéve az alábbiakat. Egyes részekben további szűrőket is alkalmazhat, például a szűrést egy adott megoldásra.
 
 ## <a name="referrals-summary"></a>Hivatkozások összegzése
 
-Ez a kártya áttekintést nyújt a közös értékesítési lehetőségek végrehajtásáról.
+Ez a kártya áttekintést nyújt a közös értékesítés lehetőségeiről.
 
 A diagram az ajánlatok teljes számát, a megnyert számot, az elvesztett számot és az összes ügyleti mennyiséget (USD) jeleníti meg a kiválasztott időszakban.
 
@@ -63,7 +58,7 @@ Ez a szakasz egy vizualizációs kijelzőt mutat be, amely bemutatja, hogyan té
 
 ## <a name="deals-by-geography"></a>Ajánlatok földrajz szerint
 
-Ez a szakasz azokat az országokat/régiókat mutatja be, amelyekben a ügyletek származnak, valamint az egyes országok/régiók részleteit. Az egyes országok esetében az összes ország Térkép nézetével együtt egy táblázatos nézet látható. A táblázat egy adott országára kattinthat, vagy a Térkép nézetre kattintva megnyithatja az adott országra.
+Ez a szakasz azokat az országokat/régiókat mutatja be, amelyekben a ügyletek származnak, valamint az egyes országok/régiók részleteit. Az egyes országok esetében az összes ország Térkép nézetével együtt egy táblázatos nézet látható. Kiválaszthat egy adott országot a táblában, vagy kiválaszthatja a Térkép nézetet egy adott országra való nagyításhoz.
 
 :::image type="content" source="images/referrals/cosellanalyticsgeodistribution.png" alt-text="Az átirányítások földrajzi eloszlását ábrázoló kép.":::
 
@@ -94,7 +89,7 @@ Az adatösszehasonlításhoz választható három dimenzió
 - Piacok
 - Megoldások
 
-Ha az alku típusa lehetőség van kiválasztva, lehetősége van összehasonlítani az átirányítási teljesítményt a közös értékesítési lehetőségekkel és a privát ajánlatokkal kapcsolatban. Mindkét piacon és megoldásban három különböző lehetőség közül választhat a teljesítményük összehasonlításához. Az első gráf, amely egy sávdiagram, a fő kimutatás, amely a kötet vagy a Deals értéke, egy hónapra vonatkozó tendenciát mutat be. A sávdiagram jobb oldalán egy tortadiagram is látható, amely az azonos adatmennyiségek százalékos eloszlását mutatja.
+Ha az alku típusa lehetőség van kiválasztva, összehasonlíthatja az átirányítási teljesítményt a közös értékesítés lehetőségeivel és a privát ajánlatokkal kapcsolatban. Mindkét piacon és megoldásban három különböző lehetőség közül választhat a teljesítményük összehasonlításához. Az első gráf, amely egy sávdiagram, a fő kimutatás, amely a kötet vagy a Deals értéke, egy hónapra vonatkozó tendenciát mutat be. A sávdiagram jobb oldalán egy tortadiagram is látható, amely az azonos adatmennyiségek százalékos eloszlását mutatja.
 
 :::image type="content" source="images/referrals/cosellanalyticscompare.png" alt-text="Az összehasonlítási szakaszt ábrázoló kép.":::
 

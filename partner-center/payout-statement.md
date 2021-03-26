@@ -6,13 +6,13 @@ ms.service: marketplace
 ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
-ms.date: 3/2/2021
-ms.openlocfilehash: 681080b654ca1a12523a7ff63fc75a44daaab9b7
-ms.sourcegitcommit: 7ef441a0e4dbef11012212bfc087c5244a75765e
+ms.date: 3/22/2021
+ms.openlocfilehash: afe9793e3a1ef9c0e3e8ecba6d1c3419b7e16604
+ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102185349"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "105549243"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
@@ -169,7 +169,7 @@ Ha további részleteket szeretne megtekinteni egy adott feladatról, válassza 
 | participantName | A jövedelemszerzési partner neve | Mind |
 | partnerCountryCode | A jövedelemszerzési partner helye/országa/régiója | Mind |
 | partNumber | Mindig üres lesz | Néhány ösztönző program és piactér |
-| paymentId | A fizetés egyedi azonosítója. Ez a szám általában a banki utasításban látható | Csak SAP-fizetések |
+| paymentId | Egyedi azonosító a tranzakciós jelentésben szereplő összes tranzakció összekapcsolásához a fizetési jelentésben megadott fizetéssel | Mind |
 | paymentStatus | Fizetési állapot | Mind |
 | paymentStatusDescription | A fizetési állapot rövid leírása | Mind |
 | productId | Egyedi termékazonosító | piacterek |
@@ -258,18 +258,18 @@ A következő táblázat ismerteti a különböző jövedelemszerzési állapoto
 
 | Jövedelemszerzési állapot | Ok | Partneri beavatkozás szükséges? |
 | --- | --- | --- |
-| Feldolgozatlan | A kereset jogosult a fizetésre. Ebben az állapotban marad az ösztönző program program útmutatójában meghatározott hűtési időszakra vonatkozóan. | Nem |
-| Közelgő | A függőben lévő belső felülvizsgálatok által a fizetés feldolgozása előtt generált fizetési sorrend. | Nem |
+| Feldolgozatlan | A kereset jogosult a fizetésre. Ebben az állapotban marad az ösztönző program program útmutatójában meghatározott hűtési időszakra vonatkozóan. | No |
+| Közelgő | A függőben lévő belső felülvizsgálatok által a fizetés feldolgozása előtt generált fizetési sorrend. | No |
 | Függőben lévő adó számla | Az adó számla nem teljes vagy érvénytelen. | A fizetés előtt frissítenie kell az áfát |
 | Elutasította a felülvizsgálat során | A rendszer elutasította a fizetést a felülvizsgálat során. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
 | Sikertelen | A fizetés Microsoft rendszerhiba miatt nem sikerült. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Folyamatban | A fizetés folyamatban van. | Nem |
-| Helytelen fizetés | A fizetési Újracsatlakozás folyamatban van. | Nem |
-| Elküldött | A rendszer elküldje a fizetést a banknak. | Nem |
-| Újrafeldolgozás | A fizetés Microsoft rendszerhibát észlelt, és folyamatban van az újrafeldolgozása. | Nem |
-| Reversed | A fizetést a bank fordította, és a következő fizetési ciklusban ismét elküldi a rendszer. | Nem |
+| Folyamatban | A fizetés folyamatban van. | No |
+| Helytelen fizetés | A fizetési Újracsatlakozás folyamatban van. | No |
+| Elküldött | A rendszer elküldje a fizetést a banknak. | No |
+| Újrafeldolgozás | A fizetés Microsoft rendszerhibát észlelt, és folyamatban van az újrafeldolgozása. | No |
+| Reversed | A fizetést a bank fordította, és a következő fizetési ciklusban ismét elküldi a rendszer. | No |
 | Számlaösszeg elutasítva | Az adó számla elutasítása a felülvizsgálat során megtörtént. Az összes függőben lévő kifizetés addig tart, amíg az adó számla felülvizsgálata be nem fejeződik. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Adózási számla a felülvizsgálat alatt | Az adó számla felülvizsgálata folyamatban van. A kifizetését az adó-számla jóváhagyása után bocsátja ki a rendszer. | Nem |
+| Adózási számla a felülvizsgálat alatt | Az adó számla felülvizsgálata folyamatban van. A kifizetését az adó-számla jóváhagyása után bocsátja ki a rendszer. | No |
 | Elutasítva | A Bank elutasította a fizetést. | Részletekért forduljon a bankhoz. |
 |
 
@@ -324,7 +324,7 @@ Az **adatexportálás** összegzése is hozzáférést biztosít a korábbi utas
 
 Az alábbi táblázat a korábbi utasítások egyes oszlopait mutatja be.
 
-| Mező neve | Leírás |
+| Mező neve | Description |
 | --- | --- |
 | Bevétel forrása | A bevétel forrása, amely alapján a tranzakció bekövetkezett, például Microsoft Store, Windows Phone-telefon áruház, Windows áruház 8 vagy reklám |
 | Rendelésazonosító | Egyedi megrendelési azonosító. Ez az azonosító lehetővé teszi a vásárlási tranzakciók azonosítását a megfelelő nem vásárlási tranzakciókkal, például a visszatérítéssel vagy a jóváírásokkal kapcsolatban. Mindkettő ugyanazzal a megrendelési AZONOSÍTÓval fog rendelkezni. Továbbá, ha van olyan felosztott díj, amelyben több fizetési módszert használtak egyetlen vásárláshoz, akkor a vásárlási tranzakciók összekapcsolhatók. |
