@@ -167,13 +167,9 @@
     - name: Útmutató a CSP regionális engedélyezési bérlőösszevonáshoz
       href: csp-regional-authorization-tenant-consolidation.md
       displayName: 'regio, region, csp'
-    - name: A Microsoft-ügyfélszerződés ügyfél általi elfogadásának megerősítésére szolgáló módszer frissítése
-      href: confirm-consent.md
-    - name: A Microsoft-ügyfélszerződés elfogadásának megerősítése
+    - name: A Microsoft ügyfél-szerződés elfogadásának megerősítése
       href: confirm-customer-agreement.md
-      displayName: csp
-    - name: Az Ügyfélszerződés ügyfél általi elfogadásának igazolására meghatározott időpont
-      href: attest-acceptance-customer-agreement.md
+      displayName: 'csp, agreement'
     - name: Országos felhőkörnyezetekben történő értékesítés esetén alkalmazandó
       href: csp-national-clouds-overview.md
       items:

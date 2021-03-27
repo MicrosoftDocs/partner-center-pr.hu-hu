@@ -9,12 +9,12 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e7488720bf0028dcccd86ee51b18d2a42b753e76
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: 2750e7ce06b04042c9f8953f65202a3c4ce718d0
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215832"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633845"
 ---
 # <a name="provide-technical-support-to-help-customers-configure-manage-and-use-their-subscriptions"></a>Technikai támogatást nyújt az ügyfeleknek az előfizetések konfigurálásához, kezeléséhez és használatához
 
@@ -22,7 +22,7 @@ ms.locfileid: "98215832"
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Segélyszolgálat ügynöke
 - Felügyeleti ügynök
 
@@ -45,9 +45,9 @@ A partner Centerben a következőket teheti:
 
 A CSP-modellben lebonyolított partnerek a megbízható tanácsadók az ügyfelek számára, és a végpontok közötti kapcsolat tulajdonosai, beleértve a támogatást, ha az ügyfeleik kérdése vagy probléma van. A támogatás érintésével a partnerek további információkat kaphatnak az ügyfélről és az üzletről, hogy azonosítsák az új szolgáltatásokat és megoldásokat.
 
-A támogatási követelmény teljesítése érdekében a partner más entitástól is értékesítheti a támogatást, de a támogatási struktúra teljes vagy egy részét kiszervezheti, és/vagy beállíthat egy olyan struktúrát, amely közvetlenül nyújt támogatást.  A partner az ügyfeleknek nyújtott támogatás teljes vagy részleges díját is felszámíthatja. A partnernek meg kell jelennie az ügyfeleknek az általuk nyújtott támogatástól, a szolgáltatási óráktól és a kapcsolattartási módszertől, valamint a díjszabástól (ha a támogatásért díjat számítunk fel). 
+A támogatási követelmény teljesítése érdekében a partner más entitástól is értékesítheti a támogatást, de a támogatási struktúra teljes vagy egy részét kiszervezheti, és/vagy beállíthat egy olyan struktúrát, amely közvetlenül nyújt támogatást.  A partner az ügyfeleknek nyújtott támogatás teljes vagy részleges díját is felszámíthatja. A partnernek meg kell jelennie az ügyfeleknek az általuk biztosított támogatástól, a szolgáltatási óráktól és a kapcsolattartási módszertől, valamint a díjszabástól (ha a támogatásért díjat számítunk fel). 
 
-A partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelektől, a problémák diagnosztizálását a partner képességei közül, majd fel kell oldania az alapkonfiguráció-támogatási határok hatókörén belüli problémákat. Ha a partner nem tudja elhárítani a problémát, a következő támogatási járműveken keresztül a Microsofttal megadhatja a problémákat:
+A partnereknek bejövő támogatási kérelmeket kell kapniuk az ügyfelektől, a problémák diagnosztizálását a partner képességei közül, majd fel kell oldania az alapkonfiguráció-támogatási határok hatókörén belüli problémákat. Ha a partner nem tudja elhárítani a problémát, a következő támogatási járműveken keresztül a Microsofttal megadhatja a problémákat:
 
 - A **kereskedelmi** problémák támogatása a CSP program összes partnere számára elérhető
 
@@ -59,7 +59,7 @@ A partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelek
 
 ### <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázási, előfizetés-kezelési és technikai támogatás biztosítása 
 
-Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információ:
+Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információkért lásd:
 
 - [A CSP-n keresztül eladott Dynamics 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
 

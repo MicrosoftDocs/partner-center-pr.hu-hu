@@ -9,18 +9,19 @@ author: parthpandyamsft
 ms.author: parthp
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: be4250864bd07e555b0eb2079c28f3dfb4920805
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: b267f89ec1c7b27e87eaaf3d7b594ebbd0fd6942
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528535"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633879"
 ---
 # <a name="prepare-for-your-move-from-partner-membership-center-pmc-to-partner-center"></a>Felkészülés a partner Membership Center (PMC) és a partner Center közötti mozgásra
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Értékesítési ügynök
 - Felügyeleti ügynök
 
@@ -158,7 +159,7 @@ A vállalat annyi üzleti profilt hozhat létre, amennyire szüksége van a vál
 
 ### <a name="how-will-referrals-be-assigned-what-changes-can-i-expect-for-example-if-i-have-a-global-company-in-one-market-and-locations-in-other-markets-how-will-referrals-be-assigned"></a>Hogyan lesznek hozzárendelve az átirányítások, milyen módosításokat várhatok el? Ha például globális vállalatom van az egyik piacon és más piacokon, akkor hogyan lesz hozzárendelve a hivatkozások?
 
-Az átirányítások hozzárendelése az ügyfél által definiált keresési paraméterek alapján történik. Függetlenül attól, hogy rendelkezik-e egy vagy több hellyel, ha az ügyfelek egy kívánt helyet határoznak meg, és olyan üzlettel rendelkezik, amely megfelel a többi paraméternek, akkor az átirányításnak erre a helyre kell esnie.
+Az átirányítások hozzárendelése az ügyfél által definiált keresési paraméterek alapján történik. Függetlenül attól, hogy rendelkezik-e egy vagy több hellyel, ha az ügyfél egy kívánt helyet ad meg, és olyan üzleti tevékenységgel rendelkezik, amely megfelel a többi paraméternek, akkor az átirányításnak erre a helyre kell esnie.
 
 ### <a name="i-am-migrating-to-partner-center-from-within-russia-i-get-an-error-message-about-web-direct-how-do-i-continue-with-the-migration"></a>Áttelepítik a partneri központba az Oroszországból. Hibaüzenetet kapok a web Directről. Hogyan folytatja az áttelepítést?
 

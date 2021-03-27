@@ -10,25 +10,27 @@ author: v-sumukh
 ms.author: v-sumukh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 754b3310918df9b38129cf1374ae3731d9d8062e
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: ad0c2f3ee7d130c49dea6ba354e6794e29fd9e9f
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215849"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633692"
 ---
 # <a name="install-and-preview-the-partner-center-analytics-app-for-microsoft-power-bi"></a>A Partnerközpont adatelemzési alkalmazás a Microsoft Power BI-hoz telepítése és előzetes verziója
 
 
 **Megfelelő szerepkörök**
--   Globális rendszergazda
--   Felhasználói rendszergazda
--   Értékesítési ügynök
--   Felügyeleti ügynök
+
+- Globális rendszergazda
+- Felhasználói felügyeleti rendszergazda
+- Értékesítési ügynök
+- Felügyeleti ügynök
 
 ## <a name="before-you-begin"></a>Előkészületek
 
 Válassza ki a vállalata számára leginkább megfelelő alkalmazást az elérhető Power BI alkalmazások alábbi listájából:
+
 - [Közvetlen szolgáltató](https://appsource.microsoft.com/product/power-bi/partnercenteranalytics.direct_provider_partner_analytics)
 
 - [Közvetett szolgáltató](https://appsource.microsoft.com/product/power-bi/partnercenteranalytics.indirect_provider_partner_analytics)
@@ -49,25 +51,25 @@ A partner Center Analytics-alkalmazás előzetes verziójának telepítése elő
 
 ## <a name="to-install-the-app"></a>Az alkalmazás telepítése
 
-1. Kattintson az adott alkalmazás forrás hivatkozására (közvetlen szolgáltató/közvetett szolgáltató/közvetett viszonteladó) a fenti szakaszban.
+1. Válassza ki az adott alkalmazás forrásának hivatkozását (közvetlen szolgáltató/közvetett szolgáltató/közvetett viszonteladó) a fenti szakaszban.
 
-2. Kattintson a **Letöltés most** lehetőségre. 
+2. Válassza a **Letöltés most** lehetőséget. 
 
 3. A **Folytatás** gombra kattintva fogadja el a feltételeket és a kikötéseket.
 
 4. Már van fiókja? válassza **a bejelentkezés** lehetőséget.
 
-5. A következő lapon adja meg Power BI felhasználónevét és jelszavát, majd válassza a bejelentkezés lehetőséget.
+5. A következő lapon adja meg Power BI felhasználónevét és jelszavát, majd válassza a **Bejelentkezés** lehetőséget.
 
 6. A munkaterület nevének megadásával telepítse a munkaterületet.
 
 7. Megtalálhatja az alkalmazások szakaszban telepített sablonok alkalmazásait.
 
-8. Kattintson az alkalmazások elemre, és válassza ki a telepített alkalmazásokat.
+8. Válassza az **alkalmazások** lehetőséget, és válassza ki a telepített alkalmazásokat.
 
 9. Megnyílik az új alkalmazás képernyője.
 
-10. Az adatkapcsolathoz kattintson a **Kapcsolódás** gombra.
+10. Az adatkapcsolathoz válassza a **Kapcsolódás** lehetőséget.
 
 11. A **Kapcsolódás a partneri központ Analytics** előugró ablakhoz lapon ellenőrizze, hogy a **hitelesítési módszer** a **oAuth2** értékre van-e állítva, vagy válassza a **oAuth2** lehetőséget a listából, ha nem. 
 

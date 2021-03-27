@@ -10,12 +10,12 @@ author: v-sumukh
 ms.author: v-sumukh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 244cb852728d47360cf8ecd1d1e9ccb641466b1d
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: f5bdb166562593b970f40c23921dc80b2a1cb8ad
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215747"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633862"
 ---
 # <a name="view-your-business-data-with-the-partner-center-analytics-app-for-microsoft-power-bi"></a>Üzleti adatai megtekinthetők a Microsoft Power BI partner Center Analytics alkalmazásával
 
@@ -24,7 +24,7 @@ ms.locfileid: "98215747"
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Értékesítési ügynök
 - Felügyeleti ügynök
 
@@ -48,7 +48,7 @@ Tekintse meg az üzleti adatai vizuális megjelenítését a Power BIhez készü
 
 - A becsült költségek díjszabása adózási/számlázási, és nem jogilag kötelező. A becsült költségek csak az adatelemzések esetében használhatók.
 
-- Az ügyfél adatai az előfizetéseken alapulnak. Azok a felhasználók, akikkel a közelmúltban létrehozott fiókokat, de még nincsenek előfizetések, nem számítanak bele a számba.
+- Az ügyfél adatai az előfizetéseken alapulnak. Azok az ügyfelek, akikkel a közelmúltban létrehozott fiókokat, de még nem rendelkeznek előfizetéssel, nem számítanak bele a számba.
 
 - A becsült költség a legújabb díjszabási kártyán alapul, amely a CSP díjszabásán alapul.
 

@@ -9,12 +9,12 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 086f5423d748ca2a84062577cd934987decc88f8
-ms.sourcegitcommit: 64b43ad8fb7bb56628450bea06b9cd2606c36b03
+ms.openlocfilehash: 8aeb47f6968e364eecb05efd2c0d4a1b3e1ba267
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "100281293"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633760"
 ---
 # <a name="pricing-and-offers-for-office-365-dynamics-crm-enterprise-mobility-suite-azure-and-more"></a>Az Office 365, a Dynamics CRM, a nagyvállalati mobilitási csomag és az Azure díjszabása és ajánlatai
 
@@ -22,15 +22,15 @@ ms.locfileid: "100281293"
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - MPN-partner rendszergazdája
 - Értékesítési ügynök
 - Számlázási adminisztrátor
 
-Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portálon, válassza a következőt: **Sell > díjszabás és ajánlatok**. Külön árlistát talál az elérhető különböző típusú termékekhez. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
+Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portálon, válassza a következőt: **Sell > díjszabás és ajánlatok**. Külön árlistát talál az elérhető termékek különböző típusaihoz. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
 
-- A **licenccel rendelkező szolgáltatások** az Office 365, az Enterprise Mobility és a Security E3, valamint a Dynamics 365 díjszabási információit tartalmazzák. A licenc alapú díjszabás szakasz az aktuális és az előzetes verzió díjszabását, valamint az ajánlati lista mátrixát tartalmazza. Az árlisták tartalmazzák a lista árát és a becsült kiskereskedelmi árakat (ERP) az összes támogatott pénznemben. Az ajánlati lista mátrixa tartalmazza a piac rendelkezésre állását és az ajánlatokkal kapcsolatos egyéb fontos információkat. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
+- A **licenccel rendelkező szolgáltatások** az Office 365, a nagyvállalati mobilitás és a Security E3, valamint a Dynamics 365 díjszabási információit tartalmazzák. A licenc alapú díjszabás szakasz az aktuális és az előzetes verzió díjszabását, valamint az ajánlati lista mátrixát tartalmazza. Az árlisták tartalmazzák a lista árát és a becsült kiskereskedelmi árakat (ERP) az összes támogatott pénznemben. Az ajánlati lista mátrixa tartalmazza a piac rendelkezésre állását és az ajánlatokkal kapcsolatos egyéb fontos információkat. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
 - A **használaton alapuló szolgáltatások** a Microsoft Azure és a Visual Studio díjszabási információit tartalmazzák. Használhatja az [Azure-szolgáltatásokat is a CSP árképzési kalkulátorban](https://azure.microsoft.com/pricing/calculator/). A használaton alapuló Letöltés az összes támogatott pénznemhez tartozó CSP árlista, valamint a megosztott szolgáltatások árképzési fájljait is tartalmazza az ERP-ben. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
 - **Microsoft Azure fenntartott példányok** az Azure-beli fenntartott példányok összes támogatott pénznemének díjszabási információit tartalmazzák. A díjszabás letöltése a megosztott szolgáltatások díjszabását is magában foglalja az ERP-ben. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
 - A **szoftveres előfizetések** az összes támogatott pénznem esetében tartalmazzák a term-alapú szoftveres előfizetések díjszabását. Az árlista tartalmazza az összes támogatott pénznemet, a listázási árat és a MSRP-t. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
@@ -95,7 +95,7 @@ A partneri árrések, a lista ára és a becsült kiskereskedelmi árak között
 
 ## <a name="add-on-offer-types"></a>Kiegészítő ajánlatok típusai
 
-A licenc-alapú szolgáltatások a következők egyike lehet: alapszintű ajánlatok vagy bővítmények. A partner Center-katalógusban csak az alapszintű ajánlatok kereshetők és megvásárolhatóak. A bővítményeket az alapajánlatok megvásárlása után kell alkalmazni. A licenc-alapú árlista **másodlagos licenc típusa** oszlop az egyes ajánlatokra és típusokra vonatkozó információkat tartalmaz. Az alapszintű ajánlatok **nem specifikus** értékekkel rendelkeznek a másodlagos licenc típusa oszlopban, és megvásárolhatók a katalógusban. A **bővítmény** másodlagos licencelési típusának értéke nem vásárolható meg a katalógusban. A következő bővítmények megvásárlása:
+A licenc-alapú szolgáltatások a következők egyike lehet: alapszintű ajánlatok vagy bővítmények. A partner Center-katalógusban csak az alapszintű ajánlatok kereshetők és megvásárolhatóak. Az alapajánlatok megvásárlása után kiegészítő bővítményeket kell alkalmaznia. A licenc-alapú árlista **másodlagos licenc típusa** oszlop az egyes ajánlatokra és típusokra vonatkozó információkat tartalmaz. Az alapszintű ajánlatok **nem specifikus** értékekkel rendelkeznek a másodlagos licenc típusa oszlopban, és megvásárolhatók a katalógusban. A **bővítmény** másodlagos licencelési típusának értéke nem vásárolható meg a katalógusban. A következő bővítmények megvásárlása:
 
 1. A bővítmény megvásárlása előtt tekintse meg az ajánlati lista mátrixát, ahol megtekintheti a megvásárolni kívánt ajánlat-azonosítók listáját.
 2. Az alapszintű ajánlat megvásárlása a katalógusból
@@ -143,9 +143,9 @@ A partneri központ CSP-árlista minden díjszabása adó-ellátást tartalmaz. 
 
 ### <a name="36-month-offers"></a>36 havi ajánlatok
 
-A rendszer körülbelül 50 Dynamics-ajánlatot tartalmaz, amelyek hároméves feltételekkel rendelkeznek. Ezeket a **(36 Mo)** azonosítja az ajánlatok címében. Ezek az ajánlatok nagyon hasonlítanak az éves időszakos ajánlatokra. Az egyetlen különbség a kifejezésük körüli. Az ajánlatok három éves időszakot jelentenek, ami azt jelenti, hogy az előfizetések egy három év után automatikusan megújítják az előfizetéseket. Az alábbi összefoglalás az ajánlatok működésének módját mutatja be:
+A rendszer körülbelül 50 Dynamics-ajánlatot tartalmaz, amelyek hároméves feltételekkel rendelkeznek. Ezeket a **(36 Mo)** azonosítja az ajánlatok címében. Ezek az ajánlatok hasonlóak az éves időszakos ajánlatokhoz. Az egyetlen különbség a kifejezésük körüli. Ezek az ajánlatok hároméves időszakot biztosítanak, hogy az előfizetések a három év helyett automatikusan megújítva legyenek. Az alábbi összefoglalás az ajánlatok működésének módját mutatja be:
 
-- A feltételek 36 hónap, az előfizetések három év elteltével automatikusan megújulnak
+- A feltételek 36 hónap, az előfizetések három év után automatikusan megújítva lesznek
 - A partnerek megtörölhetik vagy módosíthatják a licencek számát az előfizetés időtartama alatt
 - Az éves megújítás a hároméves időszakra vonatkozó vásárlási idő árán fog megjelenni.
 - A számlázási gyakoriság még éves vagy havi
@@ -162,11 +162,11 @@ Microsoft 365 a1 alapajánlat 6 évre szól.  Az Office 365 a1-es bővítmények
 
 Az alábbi összefoglalás az ajánlatok működésének módját mutatja be:
 
-- A kifejezés 72 hónap vagy 6 év
-- Az előfizetés nem újítható meg, és 6 év elteltével lejár
+- A kifejezés 72 hónapig vagy hat évig érvényes
+- Az előfizetés nem újítható meg, és hat év elteltével lejár
 - Az ajánlat számlázási gyakorisága évesnek számít, de a partnert az első számla után számlázjuk fel az előfizetés megszerzése után
 - Az a1 72-havi előfizetések a vásárlás után zárolva vannak, és nem vonhatók le, és a rendszer nem tudja megszakítani az előfizetést, és a vásárlás után nem adható hozzá
-- Ez az előfizetés nem visszavonhatatlan és nem téríthető vissza.
+- Ez az előfizetés nem vonható vissza, és nem téríthető vissza.
 
 ## <a name="estimated-retail-price-erp"></a>Becsült kiskereskedelmi ár (ERP)
 
@@ -182,7 +182,7 @@ A legtöbb árlista tartalmazza a lista árát, a partner díját és a becsült
 |Az Azure-csomag használatának alapja  |Az árak kiskereskedelmi kedvezményt mutatnak az árlista keretében  |
 |Azure-csomag – foglalások  |Az Azure Reservations Shared Services árlista  |
 |Szoftver-előfizetések  |A szoftveres előfizetések díjszabásában található MSRP néven szerepel  |
-|Marketplace  |A Piactéri árlista-beli MSRP néven szerepel  |
+|Piactér  |A Piactéri árlista-beli MSRP néven szerepel  |
 
 További források: 
 

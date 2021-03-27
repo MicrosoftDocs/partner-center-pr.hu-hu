@@ -1,5 +1,5 @@
 ---
-title: Annak megerősítése, hogy az ügyfél elfogadta a Microsoft-ügyfélszerződést
+title: Annak ellenőrzése, hogy az ügyfél elfogadta-e a Microsoft ügyfél-szerződést a CSP programhoz
 description: A Microsoft-szolgáltatások ügyfeleknek való megrendelése előtt a Cloud Solution Provider (CSP) partnereinek meg kell erősíteniük a Microsoft ügyfél-szerződését.
 ms.topic: how-to
 ms.service: partner-dashboard
@@ -8,29 +8,23 @@ author: aarzh-AaronZhang
 ms.author: v-aarzh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.date: 05/05/2020
-ms.openlocfilehash: 423cf1aab281ad8e77e03aa386b43360e1b99b3c
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.date: 03/24/2021
+ms.openlocfilehash: ebb52a3a8223d3b1101e3a8e78728fcc167e25e3
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570569"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633778"
 ---
-# <a name="confirm-customer-acceptance-of-the-microsoft-customer-agreement-in-the-csp-partner-program"></a>Erősítse meg a Microsoft Customer szerződés ügyfél általi elfogadását a CSP-partner programban
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Microsoft 365 felügyeleti központ
+# <a name="how-to-confirm-that-your-customer-has-accepted-the-microsoft-customer-agreement-to-the-csp-program"></a>Annak ellenőrzése, hogy az ügyfél elfogadta-e a Microsoft ügyfél-szerződést a CSP programhoz
 
 **Megfelelő szerepkörök**
 
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
-2019. október 1-jén a Microsoft bevezette a **Microsoft ügyfél-szerződést** a CSP programba, hogy lecserélje a Microsoft Cloud szerződést. További [útmutatást](indirect-reseller-tasks-in-partner-center.md) a közvetett viszonteladók számára című témakörben talál. A partnereknek az új szerződésre való áttelepítésének megkönnyítése érdekében mindkét szerződés a CSP-programban a 2020. január 31-ig is létezett. 2020. február 1-től a Microsoft Customer szerződése lecserélte a Microsoft Cloud szerződést.
 
-Az ügyfelek két lehetőség közül választhatnak a Microsoft ügyfél-szerződés elfogadásához. 
+Az ügyfelek két lehetőség közül választhatnak, hogy elfogadják a Microsoft ügyfél-szerződését.
 
 **1. lehetőség**: az ügyfél-hitelesítés partneri igazolása – a partner megerősítheti az ügyfelek elfogadását a partner Center API/SDK használatával vagy a partner Center irányítópultján.
 
@@ -42,7 +36,7 @@ A Microsoft Customer Agreement sablon legújabb verzióját manuálisan is letö
 
 ## <a name="option-1-confirm-customer-acceptance-in-partner-center"></a>1. lehetőség: az ügyfelek elfogadásának megerősítése a partner Centerben
 
-A partnerek megerősítik a Microsoft ügyfél-szerződését a partner Centerben az új és a meglévő ügyfelek számára. A viszonteladók nem tanúsítják az ügyfeleik nevében, és nem kell együttműködni a közvetett szolgáltatóval az igazolás befejezéséhez.
+A közvetlen számla partnerei megerősítik a Microsoft ügyfél-szerződését a partner Centerben az új és a meglévő ügyfelek számára. A közvetett viszonteladók nem tanúsítják az ügyfeleik nevében, és nem kell együttműködni a közvetett szolgáltatóval az igazolás befejezéséhez.
 
 ### <a name="confirm-customer-acceptance-for-new-customers"></a>Az ügyfelek elfogadásának megerősítése új ügyfelek esetén
 
@@ -80,7 +74,7 @@ Ennek elvégzéséhez rendszergazdai vagy értékesítési ügynöknek kell lenn
 
 ### <a name="retrieve-confirmation-of-customer-acceptance"></a>Az ügyfél-elfogadás megerősítésének beolvasása
 
-A következő lépésekkel kérheti le, hogy egy meglévő ügyfél elfogadta a Microsoft ügyfél-szerződést. Ehhez rendszergazdai ügynöknek vagy értékesítési ügynöknek kell lennie.
+A következő lépések végrehajtásával kérheti le, hogy egy meglévő ügyfél elfogadta a Microsoft ügyfél-szerződést. Ehhez rendszergazdai ügynöknek vagy értékesítési ügynöknek kell lennie.
 
 1. Válassza ki az **ügyfelek** lehetőséget, majd keresse meg és válassza ki a megtekinteni kívánt ügyfelet.
 
@@ -92,11 +86,11 @@ A következő lépésekkel kérheti le, hogy egy meglévő ügyfél elfogadta a 
 
 A partner Center API/SDK használatával megerősítheti a Microsoft-ügyfél szerződését. Az API-val/SDK-val kapcsolatos részletekért tekintse meg a következőt:
 
-- [Szerződési metaadatok beszerzése a Microsoft ügyfél-szerződéshez](/partner-center/develop/get-customer-agreement-metadata)
+- [A Microsoft Ügyfélszerződés szerződési metaadatainak lekérése](/partner-center/develop/get-customer-agreement-metadata)
 
-- [A Microsoft ügyfél-szerződés elfogadásának megerősítése](/partner-center/develop/confirm-customer-consent-customer-agreement)
+- [Annak megerősítése, hogy az ügyfél elfogadta a Microsoft Ügyfélszerződést](/partner-center/develop/confirm-customer-consent-customer-agreement)
 
-- [A Microsoft ügyfél-szerződés elfogadásának megerősítése](/partner-center/develop/get-confirmation-of-customer-agreement)
+- [A Microsoft Ügyfélszerződés ügyfél általi elfogadási megerősítésének lekérése](/partner-center/develop/get-confirmation-of-customer-agreement)
 
 - [Letöltési hivatkozás letöltése a Microsoft ügyfél-szerződési sablonhoz](/partner-center/develop/download-customer-agreement-template)
 
@@ -121,12 +115,12 @@ A következő lépésekkel hozzon létre egy új ügyfelet a partner Centerben, 
 
 2. A **fiókadatok** területen adja meg az új ügyfél adatait az összes kötelező mezőben, beleértve az ügyfél vállalatának nevét és az elsődleges kapcsolattartót is.
 
-3. Az **ügyfél szerződése** területen válassza az első lehetőséget, a **rendszer felkéri az ügyfelet, hogy fogadja el a Microsoft Customer szerződést Microsoft 365 felügyeleti központban**. Hajtsa végre az oldalon található egyéb kötelező mezőket.
+3. Az **ügyfél szerződése** területen válassza **az ügyfél lehetőséget, hogy fogadja el a Microsoft Customer szerződést Microsoft 365 felügyeleti központban**. Hajtsa végre az oldalon található egyéb kötelező mezőket.
 
 4. Válassza a Next (tovább) lehetőséget **: Tekintse át** , majd folytassa az ügyfél-bérlő létrehozásához szükséges lépéseket. 
 
 >[!NOTE] 
->Az új ügyfelek nem tudnak új vásárlást végezni, amíg el nem fogadják a Microsoft Customer szerződést.  
+>Az új ügyfelek nem vásárolhatják meg a vásárlást, amíg el nem fogadják a Microsoft Customer szerződést.  
 
    :::image type="content" source="images/mca/create-new-customer.jpg" alt-text="Új ügyfél létrehozása":::
 
@@ -140,9 +134,9 @@ A következő lépésekkel hozzon létre egy új ügyfelet a partner Centerben, 
 
 7. Az ügyfél ezután megkapja az e-mailes meghívót a partnertől, és kiválasztja az [URL-címet](https://admin.microsoft.com/AdminPortal/Home?ref=/BillingAccounts/agreement).
 
-8. Az ügyfél a partnertől kapott ügyfél-hitelesítő adatokkal jelentkezik be Microsoft 365 felügyeleti központba.
+8. Az ügyfél a megadott felhasználói hitelesítő adatokkal jelentkezik be Microsoft 365 felügyeleti központba.
 
-9. Az ügyfél ezután megkeresi a mezőt, hogy fogadja el a Microsoft ügyfél-szerződést.
+9. Az ügyfél ellenőrzi a mezőt, hogy fogadja el a Microsoft ügyfél-szerződést.
 
 ## <a name="invite-a-new-customer-to-review-and-accept-the-reseller-relationship-and-microsoft-customer-agreement"></a>Új ügyfél meghívása a viszonteladói kapcsolat és a Microsoft ügyfél-szerződés áttekintéséhez és elfogadásához 
 
@@ -160,7 +154,7 @@ A következő lépésekkel meghívhat egy új ügyfelet a viszonteladói kapcsol
 
 5. Az ügyfél e-mailben fogadja a meghívót, és rákattint a paraméteres URL-címre. 
 
-6. Az ügyfél a partner e-mailben megadott hitelesítő adatait használja a Microsoft 365 felügyeleti központba való bejelentkezéshez.
+6. Az ügyfél az e-mailben megadott hitelesítő adatokat használja a Microsoft 365 felügyeleti központba való bejelentkezéshez.
 
 7. Az ügyfél ellenőrzi a mezőt, hogy elfogadja a **viszonteladói kapcsolatot** és a **Microsoft ügyfél-szerződést**. 
 
@@ -186,15 +180,35 @@ A következő lépésekkel meghívhat egy meglévő ügyfelet a Microsoft Custom
    :::image type="content" source="images/mca/customeraccept.png" alt-text="ügyfél":::
 
 >[!NOTE]
->Bizonyos esetekben előfordulhat, hogy az ügyfelek nem tudják közvetlenül elfogadni a Microsoft ügyfél-szerződést. Ha többet szeretne megtudni ezekről a helyzetekről, tekintse meg az alábbi [két forgatókönyvet, ahol igazolnia kell az ügyfél nevében](attest-acceptance-customer-agreement.md).
+>Bizonyos esetekben előfordulhat, hogy az ügyfelek nem tudják közvetlenül elfogadni a Microsoft ügyfél-szerződést. Ha többet szeretne megtudni ezekről a helyzetekről, olvassa el a következő két forgatókönyvet, ahol az ügyfél nevében kell tanúsítani az alábbi lépéseket.
 
-### <a name="historical-timeline-details"></a>Korábbi idővonal részletei
+## <a name="two-scenarios-where-you-need-to-attest-on-behalf-of-your-customer"></a>Két forgatókönyv, ahol az ügyfél nevében kell tanúsítani
 
-| Dátum | Mérföldkő | Részletek |
-|------------|------------|--------------------------------|
-|Augusztus 01., 2019| Az UX előzetes verziója elérhető a homokozóban| A partnerek megerősítik a Microsoft ügyfél-szerződését a CSP homokozó környezetében található partner Center irányítópult használatával. Partnerek, akik hozzáférnek a CSP homokozó környezethez – előzetes verzió a felhasználói élmény változásairól. A sandbox-hozzáférés nélküli partnerek megismerhetik a jelen témakör változásait.|
-|Szeptember 03., 2019|Az API előzetes verziója elérhető a homokozóban.|A partner megerősítheti a Microsoft-ügyfél szerződését a Customer Center API használatával a CSP homokozó környezetében. Az API-partnerek ezzel a lehetőséggel megtekinthetik az API-módosításokat, és megkezdhetik a munkát az API-integrációban az új szerződés támogatásához.|
-|Szeptember 20., 2019|A .NET SDK előzetes verziója elérhető a homokozóban.|A partner megerősítheti a Microsoft-ügyfél szerződését a partner Center .NET SDK-val a CSP homokozó környezetében. Az API-partnerek ezt a lehetőséget használhatják a .NET SDK változásainak megtekintésére és az API-integráció használatának megkezdésére az új szerződés támogatásához.|
-|Október 01, 2019|A Microsoft ügyfél-szerződése az éles környezetben érhető el|A Microsoft bevezeti a Microsoft ügyfél-szerződést a CSP programba, hogy lecserélje a Microsoft Cloud szerződést. A partnerek megerősítik a Microsoft ügyfél-szerződését a partner Center irányítópultjának és az éles környezetben futó API-nak a használatával. A Microsoft Cloud szerződés továbbra is támogatott a CSP-partner programon belül. A partnerek azonban azt tanácsolják, hogy kezdjen el migrálni a Microsoft ügyfél-szerződésbe. A meglévő előfizetésekhez tartozó új vásárlások és licencek száma a Microsoft ügyfél-szerződéssel vagy a Microsoft Cloud Szerződéssel való partneri megerősítést igényel. Bizonyos új ajánlatok (például az új Azure-csomag) megerősítést igényelnek a Microsoft ügyfél-szerződéshez.|
-|2020. január 31.|Microsoft Cloud a szerződés el lett távolítva az éles környezetből|A Microsoft Cloud szerződés már nem fogadható el a CSP-partner programon belül. A meglévő előfizetésekhez tartozó új vásárlások és licencek számának változása esetén a partnernek meg kell erősítenie a Microsoft ügyfél-szerződést. Ez a követelmény olyan új ügyfelekre és meglévő ügyfelekre vonatkozik, akik korábban elfogadták a Microsoft Cloud szerződést.|
-|Február 3., 2020|A partnernek lehetősége van arra, hogy meghívja az ügyfelet egy URL-címen keresztül, hogy áttekintse és elfogadja a megállapodást a hitelesített Microsoft 365 felügyeleti központban. | Az ügyfél elfogadhatja a Microsoft Customer szerződést Microsoft 365 felügyeleti központban. Az ügyfél Microsoft 365 felügyeleti központban lévő szerződésének közvetlen elfogadása megerősíti a feltételek jóváhagyását. 
+Két forgatókönyv esetén előfordulhat, hogy az ügyfelek nem tudják közvetlenül elfogadni a Microsoft ügyfél-szerződést a Microsoft 365 felügyeleti központban.
+
+**1. eset**: egy meglévő ügyfél a következők bármelyikét vásárolta egy meglévő partneri kapcsolaton keresztül: ajánlatok, szoftver-vagy szoftver-előfizetések, fenntartott példányok vagy Azure-csomag. Az ügyfél most megpróbál új vásárlást végezni (az automatikus megújítás kivételével). Amikor az ügyfél az URL-címre kattint, a "Kérjük, forduljon a partneréhez, hogy erősítse meg a Microsoft-ügyfél szerződését."  
+
+**Megoldás**: az ügyfél nevében kell tanúsítani.
+
+:::image type="content" source="images/mca/accept-scenario-1.png" alt-text="Képernyőkép a Microsoft 365 felügyeleti központ oldaláról, amely arra kéri, hogy forduljon a partnerhez a Microsoft ügyfél-szerződés elfogadásának megerősítéséhez.":::
+
+**2. forgatókönyv**: egy meglévő ügyfél megvásárolta a következő ajánlatok bármelyikét, a szoftver-és szoftver-előfizetéseket, a fenntartott példányokat és az Azure-csomagot. Az ügyfél most megpróbál új partnert vásárolni.
+
+Amikor az ügyfél az új partneri kapcsolat és a szerződés elfogadásához rákattint az Microsoft 365 felügyeleti központ URL-címére, a következő üzenet jelenik meg: "Kérjük, forduljon a partneréhez, hogy erősítse meg a Microsoft-ügyfél szerződését."  
+
+**Megoldás**: az ügyfél nevében kell tanúsítani.  
+
+## <a name="confirm-that-a-customer-has-accepted-the-agreement"></a>Erősítse meg, hogy az ügyfél elfogadta a szerződést
+
+Ha olyan meglévő ügyfélhez próbál új rendelést létrehozni, akit még nem erősített meg, a megerősítés befejezésére vonatkozó kérést kap. Ezt a következő eljárással végezheti el.
+
+1. Adja meg a szerződést elfogadó felhasználó **utónevét**, **vezetéknevét**, **e-mail címét** és **telefonszámát** (nem kötelező).
+
+2. A **Szerződés elfogadásának dátuma** mezőben adja meg a megfelelő dátumot. Ez nem állítható be jövőbeli dátumra.
+
+3. Válassza a **Mentés és folytatás** lehetőséget. 
+
+## <a name="next-steps"></a>Következő lépések
+
+- [A vállalati profil adatainak ellenőrzése vagy frissítése](update-your-partner-profile.md)
+- [Microsoft Ügyfélszerződés (régió és nyelv szerint)](Agreements.md)

@@ -1,7 +1,7 @@
 ---
 title: A megbékélési fájlok használata
 ms.topic: article
-ms.date: 03/10/2021
+ms.date: 03/26/2021
 description: Ismerje meg a fiókpartner egyeztetési fájljait, valamint azt, hogy miként értelmezhető az adott számlázási időszakra vonatkozó díjak részletes, sorokra vonatkozó nézetei.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e6b9e466402d71c988729052bd72ba2346a9d977
-ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
+ms.openlocfilehash: 4a6a1455304f12e364d71e666cbd548821f8be55
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "103022774"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633896"
 ---
 # <a name="learn-how-to-read-the-line-items-in-your-partner-center-reconciliation-files"></a>Megtudhatja, hogyan olvashatja el a partner Center-egyeztetési fájlok sorát
 
@@ -56,6 +56,27 @@ A következő lépések végrehajtásával javítsa ki az egyeztetési fájlok f
 
 Az egyeztetési fájlok nagyon nagy méretűek lehetnek, és időnként nehéz letölteni. Ha programozott módon szeretné letölteni az egyeztetési fájlokat, tekintse meg a [Számlázási sorok beolvasása című cikket](/partner-center/develop/get-invoiceline-items).
 
+## <a name="if-your-file-exceeds-the-row-limit-in-excel"></a>Ha a fájl túllépi az Excelben megadott korlátot
+
+Ha le tudja tölteni az egyeztetési fájlt, de nem nyitja meg a Microsoft Excelben, valószínűleg azt jelenti, hogy a fájl több sort is tartalmaz, mint amennyit az Excel engedélyez. Ha ez történik, a fájl megnyitásához használhatja az alábbi eljárások egyikét.
+
+### <a name="open-a-recon-file-in-power-bi"></a>Felderítési fájl megnyitása Power BI
+
+1. Töltse le az egyeztetési fájlt a szokásos módon.
+2. Power BI-példány letöltése, telepítése és megnyitása.
+3. A Power BI **Kezdőlap** lapon válassza az **adatlekérdezés** lehetőséget.
+4. A **gyakori adatforrások** listájában válassza a **text/CSV** lehetőséget.
+5. Ha a rendszer kéri, nyissa meg a Recon-fájlt.
+
+### <a name="open-a-recon-file-in-an-excel-pivot-table"></a>Egy Recon-fájl megnyitása egy Excel-pivot táblában
+
+1. Töltse le az egyeztetési fájlt a szokásos módon.
+2. Nyisson meg egy új fájlt a Microsoft Excelben.
+3. Az **adatok** lapon válassza az **adatok lekérése** elemet, válassza a **fájlból** lehetőséget, majd válassza a **text/CSV** lehetőséget.
+4. Ha a rendszer kéri, nyissa meg a Recon-fájlt. Ekkor megjelennek az adatai.
+5. A **Betöltés** legördülő menüben válassza a **Betöltés a** következőhöz lehetőséget, majd **az OK gombot**.
+6. Az **adatimportálás** párbeszédpanelen válassza a **kimutatás jelentést** a fájl megnyitásához.
+
 ## <a name="map-taxes-or-vat"></a>Adók vagy ÁFA leképezése
 
 Adók vagy hozzáadottérték-adó (ÁFA) hozzárendelése a számlához:
@@ -67,7 +88,7 @@ Adók vagy hozzáadottérték-adó (ÁFA) hozzárendelése a számlához:
 
 A **közvetett modellben** lévő partnerek ezeket a további mezőket használhatják a licenc-és a használati alapú egyeztetési fájlokban is, hogy itemize a fájlokat a viszonteladók által.
 
-| MPN-azonosító | Leírás |
+| MPN-azonosító | Description |
 | ------ | ----------- |
 | MPN-azonosító | A Cloud Solution Provider (CSP) partner (közvetlen vagy közvetett) Microsoft Partner Network (MPN) azonosítója. |
 | [Viszonteladói MPN-azonosító](#reseller-mpn-id) | Az [előfizetéshez tartozó rekord viszonteladójának MPN-azonosítója](#reseller-mpn-id). Ez a mező az adott előfizetéshez tartozó, a partner Centerben megadott viszonteladói AZONOSÍTÓnak felel meg. Csak a közvetett modellben lévő partnereknek szóló egyeztető fájlokban jelenik meg. |

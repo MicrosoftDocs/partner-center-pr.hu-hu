@@ -4,17 +4,17 @@ ms.topic: article
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg a CSP-program partnerei által igényelt ügyfél-számlázási támogatást. Ide tartozik az ügyfél számlázási kapcsolatának tulajdonosa és a számlázási kérdések megválaszolása.
+description: Ismerje meg a CSP-program partnerei által igényelt ügyfél-számlázási támogatást. Ez a támogatás magában foglalja az ügyfél számlázási kapcsolatának tulajdonosát és a számlázási kérdések megválaszolását.
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 11a17550ed5c0ab2154ec0daa03818236b26e820
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: b369cd263f1852c54c260fa39860e7acafae5f90
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215934"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633658"
 ---
 # <a name="provide-billing-support-for-your-customers-and-help-answer-their-billing-questions"></a>Számlázási támogatás biztosítása az ügyfelek számára, és a számlázási kérdések megválaszolása
 
@@ -22,14 +22,14 @@ ms.locfileid: "98215934"
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Segélyszolgálat ügynöke
 - Számlázási adminisztrátor
 - Értékesítési ügynök
 
 Ön rendelkezik a számlázási kapcsolattal az ügyfelekkel, és Ön felelős az ügyfelekkel kapcsolatos számlázási kérdések megválaszolásáért.
 
-- Az Ön felelőssége, hogy a Microsoft számára időben kifizessen.
+- Az Ön felelőssége, hogy a Microsoft számára időben fizessen.
 
 - Javasoljuk, hogy hozzon létre egy Clear Collections-szabályzatot azokkal az ügyfelekkel, akik a gyűjtemények folyamatát részletezik, és az ügyfél előfizetéseit, szolgáltatásait és szoftvereit is érinti.
 
@@ -39,12 +39,12 @@ ms.locfileid: "98215934"
 
 A CSP-modellben lebonyolított partnerek a megbízható tanácsadók az ügyfelek számára, és a végpontok közötti kapcsolat tulajdonosai, beleértve a támogatást, ha az ügyfeleik kérdése vagy probléma van. A támogatás érintésével a partnerek további információkat kaphatnak az ügyfélről és az üzletről, hogy azonosítsák az új szolgáltatásokat és megoldásokat.
 
-A támogatási követelmény teljesítése érdekében a partner más entitástól is értékesítheti a támogatást, de a támogatási struktúra teljes vagy egy részét kiszervezheti, és/vagy beállíthat egy olyan struktúrát, amely közvetlenül nyújt támogatást.  A partner az ügyfeleknek nyújtott támogatás teljes vagy részleges díját is felszámíthatja. A partnernek meg kell jelennie az ügyfeleknek az általuk nyújtott támogatástól, a szolgáltatási óráktól és a kapcsolattartási módszertől, valamint a díjszabástól (ha a támogatásért díjat számítunk fel). 
+A támogatási követelmény teljesítése érdekében a partner más entitástól is értékesítheti a támogatást, de a támogatási struktúra teljes vagy egy részét kiszervezheti, és/vagy beállíthat egy olyan struktúrát, amely közvetlenül nyújt támogatást.  A partner az ügyfeleknek nyújtott támogatás teljes vagy részleges díját is felszámíthatja. A partnernek meg kell jelennie az ügyfeleknek az általuk biztosított támogatástól, a szolgáltatási óráktól és a kapcsolattartási módszertől, valamint a díjszabástól (ha a támogatásért díjat számítunk fel). 
 
 >[!Note]
 >Ha Ön nem CSP, és kérdése van az ügyfél számlázásával kapcsolatban, tekintse meg az adott portálon a megfelelő termékeket és szolgáltatásokat.
 
-A partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelektől, a problémák diagnosztizálását a partner képességei közül, majd fel kell oldania az alapkonfiguráció-támogatási határok hatókörén belüli problémákat. Ha a partner nem tudja elhárítani a problémát, a következő támogatási járműveken keresztül a Microsofttal megadhatja a problémákat:
+A partnereknek bejövő támogatási kérelmeket kell kapniuk az ügyfelektől, a problémák diagnosztizálását a partner képességei közül, majd fel kell oldania az alapkonfiguráció-támogatási határok hatókörén belüli problémákat. Ha a partner nem tudja elhárítani a problémát, a következő támogatási járműveken keresztül a Microsofttal megadhatja a problémákat:
 
 - A **kereskedelmi** problémák támogatása a CSP program összes partnere számára elérhető
 
@@ -56,7 +56,7 @@ A partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelek
 
 ### <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázási, előfizetés-kezelési és technikai támogatás biztosítása 
 
-Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információ:
+Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információkért lásd:
 
 - [A CSP-n keresztül eladott Dynamics 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
 

@@ -9,18 +9,18 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 04d47cef596b2c0a0ae13ff3f087d4b1b5f0437c
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: 7645495e481010a92cc4f9cd95bf26f5e3783b70
+ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215900"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "105633828"
 ---
 # <a name="purchase-the-azure-plan-for-customers--access-the-latest-azure-services-at-pay-as-you-go-rates"></a>Az Azure-csomag megvásárlása az ügyfelek számára & a legújabb Azure-szolgáltatásokat az utólagos elszámolású díjszabás szerint érheti el
 
 **Megfelelő szerepkörök**
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Értékesítési ügynök
 
 Ha a Microsoft ügyfél-szerződés keretében vásárol Azure-csomagot ügyfeleinek, akkor a legújabb Azure-szolgáltatások teljes katalógusát az utólagos elszámolású díjszabásban érheti el. A CSP-partnerek mostantól hozzáférhetnek bármely Azure-szolgáltatáshoz, ha általánosan elérhetővé válnak. Egy partner több Azure-előfizetéssel is rendelkezhet egy Azure-csomag keretében. 
@@ -79,7 +79,7 @@ Az Azure-foglalásokat aktív Azure-csomaggal kell társítani. Válassza ki azt
 >Ha az ügyfél még nem rendelkezik aktív Azure-csomaggal, válassza az Azure-t a hozzáadáshoz. További útmutatásért olvassa el az [Azure-foglalások vásárlása](azure-reservations-buying.md#purchase-azure-reservations)című témakört.
 
 >[!Note]
->A foglalás hatóköre csak **megosztott**, jelenleg a partner Centerben adható meg. Ha egyetlen előfizetéshez tartozó hatókört szeretne kijelölni, vagy a megosztottról egyetlen előfizetésen-hatókörre kíván frissíteni, lépjen a következő utasításokkal **Microsoft Azure felügyeleti portál** 
+>A foglalás hatóköre csak **megosztott**, jelenleg a partner Centerben adható meg. Ha egyetlen előfizetési hatókört szeretne kijelölni, vagy a megosztottról egyetlen előfizetésre vonatkozó frissítést szeretne használni, lépjen **Microsoft Azure felügyeleti portálra** a következő utasítások használatával 
 
 :::image type="content" source="images/azure/addprods1.png" alt-text="Megosztott hatókörű foglalások beállítása":::
 
