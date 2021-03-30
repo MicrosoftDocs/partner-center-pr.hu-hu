@@ -1,7 +1,7 @@
 ---
 title: Partneri hozzájárulási mutatók – CBA
 ms.topic: article
-ms.date: 03/11/2021
+ms.date: 03/26/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg a hét partneri hozzájárulási mutatót (PCI), amely bemutatja, hogyan érheti el egy ezüst vagy arany Felhőbeli Business Applications kompetenciát.
@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b9a70d723c3b12bfcf279f63da3ab22f8a8d1601
-ms.sourcegitcommit: ddb9ad42d7bd8fb433d86f84a839f793a42600dd
+ms.openlocfilehash: 8c050a14e258675369d8ff847c806192f44c7509
+ms.sourcegitcommit: dd51744a4af3797493a5ebbfc766dab86ff00477
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103193647"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "105730263"
 ---
 # <a name="use-partner-contribution-indicators-to-attain-the-cloud-business-applications-competency"></a>Partneri hozzájárulási mutatók használata a Cloud Business Applications kompetencia eléréséhez
 
@@ -25,6 +25,8 @@ ms.locfileid: "103193647"
 - Fiókadminisztrátor
 
 Ez a cikk a partnereknek a Silver vagy Gold Cloud Business Applications kompetenciák elérése vagy megtartása irányába tett előrehaladásának értékeléséhez használt hét legfontosabb partneri hozzájárulási mutatót (PCI) ismerteti.
+
+A PCI-előrehaladást a partneri közreműködés irányítópulton tekintheti meg. Az adatok minden hónap 20. napján frissülnek, az előző hónapból származó adatokkal. A februári adatértékek például március 20-án lesznek közzétéve.
 
 > [!NOTE]
 > Ismerje meg, hogy a partnerek hogyan használhatják különböző partneri hozzájárulási mutatók mérőszámait, hogy elérjék az ezüst vagy arany kis-és Midmarket Cloud Solutions kompetenciát a Cloud Business Applications SMB lehetőséggel. További információ: [a kis-és Midmarket Cloud Solutions kompetenciához tartozó partneri hozzájárulási mutatók használata](partner-contribution-indicators-small-and-midmarket-cloud-business-option.md). [További](https://partner.microsoft.com/membership/competencies) információkat a kompetenciákkal és azok követelményeivel kapcsolatban is olvashat.
@@ -109,6 +111,20 @@ A következő kép egy gyors, vizuális referenciát kínál.
 
 Minden PCI-metrika rendelkezik Microsoft-set küszöbértékekkel, amelyek a vállalat maximális pontjait tudják keresni. Ezek a küszöbértékek eltérnek a Felhőbeli Business Applications kompetenciák eléréséhez használt ügyfél-engagement és pénzügyi és üzemeltetési útvonalaktól. A küszöbértékek a fejlett piacokon működő partnereknek és a kizárólag a piacokat fejlesztő partnereknek is eltérhetnek. Az országok **fejlesztése** vagy **fejlesztése** a [Microsoft Partner Network definíciók](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf)alapján történik.
 
+Vegye figyelembe, hogy a 4 mérőszámot a partner üzleti tevékenységének helye, és nem az MPN helyének regisztrálása alapján méri. Ez azt jelenti, hogy egy olyan fejlesztési piacon regisztrált partner, aki a fejlett piac ügyfeleivel rendelkezik, meg kell felelnie a fejlett országok PCI-pontszámának.
+
+Az alábbi táblázat azt mutatja, hogy a metrika melyik helyet alkalmazza.
+
+| Metrika neve | Hely |
+|:-------|:--------|
+| Nettó új bevétel | Ügyfél helye |
+| NET-ügyfél hozzáadása | Ügyfél helye |
+| Funkcionális tanácsadó | Partner helye |
+| Fejlesztő | Partner helye |
+| Funkcionális tanácsadói növekedés | Partner helye |
+| MAU-növekedés | Ügyfél helye |
+| Új nagyméretű központi telepítések | Ügyfél helye |
+
 Az egyes mérőszámokon belüli pontok a különböző PCI-pontszámot eredményezik az ügyfelek bevonása, valamint a Pénzügy és a műveletek számára. Ez a pontszám havonta lesz frissítve.
 
 A partnerek az adott metrika maximális pontjait érhetik el, ha azok megfelelnek vagy túllépik az alább jelzett küszöbértékeket. A részleges pontok az összes metrika esetében megtekinthetők, kivéve a funkcionális tanácsadók növekedését.
@@ -160,7 +176,7 @@ A partner akkor válik CPOR, ha az előfizetés szintjén a Dynamics 365 Online 
 A partner akkor válik DPOR, ha a terméken belüli előfizetési szinten társítva van egy ügyféllel.
 
 > [!NOTE]
-> Ha a CPOR és a DPOR is létezik egy adott ügyfél-előfizetéshez, a CPOR az adott előfizetéshez tartozó kapcsolódó PCI-metrikák jóváírását fogja kapni. Ha a társítás az OSA-n keresztül volt, a CPOR megkapja a nettó új bevétel és a nettó ügyfél által hozzáadott kreditet. Ha a társítás a OSU-on keresztül volt, a CPOR megkapja az új üzemelő példányok és a havi aktív felhasználói növekedés kreditjét.
+> Ha a CPOR és a DPOR is létezik egy adott ügyfél-előfizetéshez, a CPOR az adott előfizetéshez tartozó kapcsolódó PCI-metrikák jóváírását fogja kapni. Ha a társítás az OSA (bevételi jogcím) használatával volt, a CPOR megkapja a nettó új bevétel és a nettó ügyfél által hozzáadott kreditet. Ha a társítás OSU (használati jogcímen) keresztül volt, a CPOR megkapja az új üzemelő példányok és a havi aktív felhasználói növekedés kreditjét. Az értékesítés előtti jogcímek nem jogosultak a PCI használatára.
 
 ## <a name="detailed-pci-metrics-definitions-for-this-competency"></a>A kompetencia részletes PCI-metrikáinak definíciói
 
@@ -324,9 +340,10 @@ Az új nagyméretű központi telepítések az [ügyfelek sikerességi mutatója
   
   (A fejlett és a piac fejlesztésével kapcsolatos részletekért tekintse meg ezeket a [Microsoft Partner Network definíciókat](https://assetsprod.microsoft.com/mpn/mpn-developed-and-developing-countries.pdf).)
 
-- A bérlő akkor számít, ha a bérlő a következő havi aktív felhasználói küszöbértéket adta át: 
+- A bérlő akkor számít, ha a bérlő a következő havi aktív felhasználói küszöbértéket adta át:
 
-  - A megadott küszöbérték alatt 12 hónappal ezelőtt, *és*
+  - A megadott küszöbérték alatt 12 hónappal ezelőtt, **és**
+
   - Ezt a küszöbértéket legalább egyszer átlépte a következő 11 hónap során.
 
 - A havi aktív felhasználókat a bérlői szinten számítjuk fel, és a bérlőn belül csak a fizetős előfizetések között összesítjük.

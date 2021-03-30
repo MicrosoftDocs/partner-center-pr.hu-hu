@@ -9,16 +9,59 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/24/2021
-ms.openlocfilehash: 8b9b034a7241bba5de54b28edb64c961a05a8f64
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: e2e40807ddeb7fc3aa0fcfb20f34eb71d0a9e118
+ms.sourcegitcommit: dd51744a4af3797493a5ebbfc766dab86ff00477
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105549073"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "105730083"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="new-exchange-admin-center-eac-experience"></a><a name="17"></a>Az új Exchange felügyeleti központ (EAC) felülete
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-29
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+2021. április 27-én az Exchange felügyeleti központ (EAC) új felhasználói élményt nyújt, amely javítani fogja a felhasználók napi hatékonyságát.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A partner centeren keresztül az Exchange-hez hozzáférő delegált rendszergazdák
+
+### <a name="details"></a>Részletek
+
+2021. április 27-étől kezdve a partner centeren keresztül az Exchange-hez navigáló partnerek átirányítva lesznek az új EAC-ra.
+
+Ez az új felhasználói felület jelenleg előzetes verzióként érhető el, és a rendszergazdák a klasszikus EAC jobb felső sarkában lévő váltógomb kiválasztásával aktiválhatja ezt a felhasználói élményt. Az új EAC-t úgy is megnyithatja, hogy kijelöli az összes oldalon megjelenő "kipróbálás most" szalagcímet.
+
+Az új EAC előnyei a következők:
+
+- További bepillantást, jelentéseket és riasztási mechanizmusokat a levelezés folyamatával kapcsolatos problémákhoz. 
+
+- Személyre szabott irányítópultok a hatékonyság növelése érdekében.
+
+Ha segítségre van szüksége az új felülettel való átálláshoz, a videók az új EAC-élmény **tanítás & útmutató** szakaszában találhatók. Ezek áttekintést nyújtanak arról, hogyan használhatja a legjobban az új portált.
+
+>[!NOTE]
+>Ezzel a módosítással a klasszikus EAC-élmény nem lesz elavult. A módosítások végrehajtása előtt a rendszer előzetes értesítést küld.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Tekintse meg az [ebben a témakörben található forrásokat](https://partner.microsoft.com/resources/collection/new-exchange-admin-center-experience#/), ahol megtekintheti az új felület képernyőképeit.
+
+- Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel. 
+
+### <a name="questions"></a>Kérdése van?
+
+A változásokkal kapcsolatos bármilyen kérdés esetén keresse meg a megfelelő Yammer-közösségeket.
 
 ________________
 ## <a name="microsoft-operations-introducing-the-product-launch-calendar"></a><a name="16"></a>Microsoft-műveletek: a termék indítási naptárának bemutatása

@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4a6a1455304f12e364d71e666cbd548821f8be55
-ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
+ms.openlocfilehash: aefd5258c778fd8a7b92bfe49f245bf818497fb8
+ms.sourcegitcommit: dd51744a4af3797493a5ebbfc766dab86ff00477
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105633896"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "105730082"
 ---
 # <a name="learn-how-to-read-the-line-items-in-your-partner-center-reconciliation-files"></a>Megtudhatja, hogyan olvashatja el a partner Center-egyeztetési fájlok sorát
 
@@ -76,6 +76,15 @@ Ha le tudja tölteni az egyeztetési fájlt, de nem nyitja meg a Microsoft Excel
 4. Ha a rendszer kéri, nyissa meg a Recon-fájlt. Ekkor megjelennek az adatai.
 5. A **Betöltés** legördülő menüben válassza a **Betöltés a** következőhöz lehetőséget, majd **az OK gombot**.
 6. Az **adatimportálás** párbeszédpanelen válassza a **kimutatás jelentést** a fájl megnyitásához.
+
+## <a name="negative-amount-displayed"></a>Megjelenített negatív mennyiség
+
+Az egyeztetési fájlban negatív összeg jelenhet meg. Ezt valószínűleg az alábbi dolgok okozzák:
+
+- A közelmúltban megszakította vagy csökkentette a licencek számát
+- A szolgáltatás licencszerződése (SLA) vagy az Azure-beli felhasználás esetében kreditet kapott
+
+Ha további információt szeretne kapni erről a tranzakcióról, tekintse át a reegyeztető fájlban lévő Charge Type attribútumát.
 
 ## <a name="map-taxes-or-vat"></a>Adók vagy ÁFA leképezése
 

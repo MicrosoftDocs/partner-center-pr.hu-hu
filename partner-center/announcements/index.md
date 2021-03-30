@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 03/22/2021
-ms.openlocfilehash: e2cba4baf497fb51ecd05c01f10e67632bb05c39
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: 0020a43bd17e42bdfc13ab6745a65f63637c702b
+ms.sourcegitcommit: dd51744a4af3797493a5ebbfc766dab86ff00477
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105549039"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "105730059"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
 |---------|:---------|:---------|
+|Ajánlatok/modern munkahely|[Az új Exchange felügyeleti központ (EAC) felülete](2021-march.md#17)|Március 29.|
 |Ajánlatok/modern munkahely|[Microsoft-műveletek: a termék indítási naptárának bemutatása](2021-march.md#16)|Március 25.|
 |Képességek|[A CSP-ügyfél bevezetési követelményeinek változásai](2021-march.md#15)|Március 25.|
 |Ajánlatok/piacok|[Helyesbítések a 2021-es végleges szoftverek árlista](2021-march.md#14)|Március 23.|
