@@ -9,19 +9,19 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 464a277cc62f8b3349e8f7957106b902081eded8
-ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
+ms.openlocfilehash: 5561c2e183c1dc50b573f89769da27317c83ba00
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96556395"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086532"
 ---
 # <a name="partner-earned-credit---an-overview-of-how-it-works-in-the-new-commerce-experience-in-csp"></a>Partner által szerzett kredit – áttekintés arról, hogyan működik a CSP új kereskedelmi felületén
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Számlázási adminisztrátor
 - Értékesítési ügynök
@@ -30,7 +30,7 @@ A CSP-ben az új kereskedelmi tapasztalattal rendelkező partneri kreditek egy �
 
 A díjszabás számos ügyfél és partner számára kihívást jelenthet, különösen akkor, ha az Azure-ban több ezer szolgáltatást és több vásárlási lehetőséget is figyelembe vesz. Az Azure-hoz készült új kereskedelmi tapasztalattal összhangban vagyunk az összes tranzakcióra érvényes, egyetlen globális díjszabási alapelvekkel. A CSP-partnerek az Azure-t a közzétett árakon tudják biztosítani. Ez nagyobb átláthatóságot biztosít az ügyfelek számára, és megbízhatóságot épít.
 
-Ügyfeleink digitális átalakítási igényeinek megfelelően módosítjuk a partnerek által kínált érték jellegét. Sok ügyfél megkeresi a partnereket arra, hogy a tranzakciót meghaladó szolgáltatásokat nyújtsanak. Ezek a szolgáltatások segíthetnek a Felhőbeli utazás zökkenőmentes kihasználása és az Azure-szolgáltatások hatékony felhasználása érdekében. Ezek a szolgáltatások folyamatosak, és az Azure Estate monitoring, a házirendek és az irányítás kezelése, a Finomhangolás, a technikai támogatás és számos más szolgáltatás beállításával és konfigurálásával is rendelkeznek. 
+Ügyfeleink digitális átalakítási igényeinek megfelelően módosítjuk a partnerek által kínált érték jellegét. Sok ügyfél megkeresi a partnereket arra, hogy a tranzakciót meghaladó szolgáltatásokat nyújtsanak. Ezek a szolgáltatások segíthetnek a Felhőbeli utazás zökkenőmentes kihasználása és az Azure-szolgáltatások hatékony felhasználása érdekében. Ezek a szolgáltatások folyamatosak, és tartalmazzák az Azure Estate monitoringot, a házirend-és irányítási felügyeletet, a finomhangolást, a technikai támogatást és számos más szolgáltatást. 
 
 Ezeknek a szolgáltatásoknak egy partnert kell megismerniük az ügyfél Azure-környezetében, és az általuk felügyelt mögöttes erőforrások folyamatos és megfelelő irányításával és felügyeletével kell rendelkezniük. A 24 X 7 felhő-Operations kezelési tevékenységet biztosító számlázási partnereink jogosultak lesznek arra, hogy a partner által szabályozott és felügyelt ügyfelek által **felügyelt szolgáltatásokra** vonatkozó, a partner által irányított és ellenőrzött szolgáltatások számára kreditet kapjanak.
 
@@ -51,7 +51,7 @@ Mivel az ügyfelek felhő-számítástechnikai platformokra váltottak, nem csup
 
 Az ügyfelek az Azure-ban üzemeltetett üzleti tevékenységük legtöbbje számára nyújtanak segítséget. A felügyelt szolgáltatásokkal rendszeresen biztosíthatja ügyfelei számára a fehér kesztyűs szolgáltatást. Az Ön által megadható napi műveletek és támogatások némelyike az alábbiakat tartalmazza:
 
-- **Cloud Operations and Management Services**: az ügyfelek a Microsoft partnerei számára biztosítják, hogy csökkentsék a költségeket az Azure-ban, miközben visszaállítják az elkülönítést, a biztonsági házirendeket és a jelenleg is elérhető ellenőrzési modelleket. Arra is számíthatnak, hogy a partnerek a számítási feladatok megfelelőségének, valamint az Azure egyszeri üzembe helyezésének és folyamatos működési költségeinek eléréséhez hozzáférjenek a kiforrott eszközökhöz. Emellett az ügyfeleknek támogatnia kell az automatizálást és a koordinálást, a frissítések javítását, a konfiguráció felügyeletét, a biztonsági mentést és a vész-helyreállítást, valamint az Identitáskezelés kezelését. 
+- **Cloud Operations and Management Services**: az ügyfelek a Microsoft partnerei számára biztosítják, hogy csökkentsék a költségeket az Azure-ban, miközben visszaállítják az elkülönítést, a biztonsági házirendeket és a jelenleg is elérhető ellenőrzési modelleket. Arra is számíthatnak, hogy a partnerek a számítási feladatok megfelelőségének, valamint az Azure egyszeri üzembe helyezésének és a folyamatos üzemeltetési költségeknek a kiforrott eszközeivel is hozzáférhessenek. Emellett az ügyfeleknek támogatnia kell az automatizálást és a koordinálást, a frissítések javítását, a konfiguráció felügyeletét, a biztonsági mentést és a vész-helyreállítást, valamint az Identitáskezelés kezelését. 
 
 - **Felhőbeli monitorozás és technikai támogatás**: a Felhőbeli fogyasztási világban az eszközök és a követelmények kialakultak, de az informatikai infrastruktúra kezeléséhez szükséges erőforrás megtalálásával kapcsolatos aggályok nem változtak. A legtöbb szervezet egyszerűen nem rendelkezik az összes aspektusának figyeléséhez szükséges idővel, erőforrásokkal vagy dedikált személyzettel, és ez az a hely, ahol Ön, mint a megbízható partner, adja hozzá a legtöbb értéket. Míg az Azure számos beépített figyelési képességgel rendelkező partnert kínál, amelyek további, mélyebb monitorozási eszközöket biztosítanak, a valós riasztásokból származó hamis pozitív adatok osztályozását, és proaktív módon intézkednek a riasztásokról, mielőtt a teljesítmény mérhető. 
 

@@ -9,30 +9,27 @@ author: Brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8575d87ab3c4c7970135a87b7ef7564c4fe06232
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: 363c97b8c2b62e8d6b62cbe3b2807fb3c0ef3e38
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92528007"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132740"
 ---
 # <a name="migrate-dynamics-365-and-customer-engagement-plan-from-basic-qualified-offers-to-newer-versions"></a>A Dynamics 365 és a Customer Engagement Plan migrálása az Alapszintű szolgáltatásról (arra jogosult ajánlatokról) újabb verziókra
 
-**A következőkre vonatkozik**
-
--  Partnerközpont
-
 **Megfelelő szerepkörök**
--   Globális rendszergazda
--   Felhasználói rendszergazda
--   Felügyeleti ügynök
--   Értékesítési ügynök
+
+- Globális rendszergazda
+- Felhasználói felügyeleti rendszergazda
+- Felügyeleti ügynök
+- Értékesítési ügynök
 
 Az alapszintű (minősített ajánlatok) előfizetések által kínált, a Dynamics 365 for Sales/Customer engagements csomaggal rendelkező ügyfelek a továbbiakban nem tudják megújítani ezeket a régi ajánlatokat: 2019. január 1-től a meglévő előfizetések lejáratakor a rendszer nem újítja meg automatikusan. Az előfizetés részleteit tartalmazó lapon az előfizetés állapota "lejár [date]" értékre változik a "automatikusan megújítva [date]" állapotból. 
 
 Az ügyfelek folytonosságának biztosítása érdekében az alább felsorolt támogatott lehetőségekre kell áttérnie a lejáró előfizetésekkel. Javasoljuk, hogy az előfizetések éves befejezési dátuma előtt helyezze át az ügyfeleket új előfizetésekre, hogy elkerülje a szolgáltatások leállását az ügyfelek számára.
 
-Ha az API-t (vagy a CREST vagy a partner centert) használja, a lejárati előfizetéseket az előfizetés befejezési dátumának és az automatikus megújítás = hamis tulajdonságnak a kiértékelésével érheti el. A kérdéses előfizetések az automatikus megújítás = false értékre lesznek állítva, január 1-jén 2019. Az ügyfeleket bármikor át lehet helyezni egy új csomagba. 
+Ha az API-t (vagy a CREST vagy a partner centert) használja, a lejárati előfizetéseket az előfizetés befejezési dátumának és az automatikus megújítás = hamis tulajdonságnak a kiértékelésével érheti el. A kérdéses előfizetések az automatikus megújítás = false értékre lesznek állítva 2019 január 1-jén. Az ügyfeleket bármikor át lehet helyezni egy új csomagba. 
 
 ### <a name="the-dynamics-365-offers-being-retired"></a>A Dynamics 365-ajánlatok kivonulnak
 
@@ -107,9 +104,9 @@ Miután áthelyezte a licenceket az új előfizetésre, megszakíthatja a régi 
 2. Az előfizetés részletei lapon állítsa a régi előfizetést **felfüggesztve** értékre, és válassza a **Küldés** lehetőséget.
 
 A régi előfizetés már fel van függesztve, és az új előfizetés aktív. A felfüggesztett előfizetés 120 nap elteltével automatikusan kiépítve lesz. Az ügyfél a régi előfizetéshez nem jár további költségekkel.
- 
+ 
 
- 
+ 
 
 
 

@@ -8,16 +8,16 @@ description: A partner Center használata a Microsofttal és ügyfeleivel folyta
 author: laurabrenner
 ms.author: labrenne
 ms.localizationpriority: high
-ms.openlocfilehash: 3b5627e9ade9a1e7fd8b5576ed8fd80202b974eb
-ms.sourcegitcommit: c4bae49f6c303f0b77a404a0441c2440e7cb112b
+ms.openlocfilehash: 992e02e2ae27e4cf03071e114de22f42f11f7601
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103582648"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132247"
 ---
 # <a name="what-is-partner-center"></a>Mi az a Partnerközpont?
 
-##### <a name="appropriate-roles"></a>Megfelelő szerepkörök
+**Megfelelő szerepkörök**
 
 - A partner Centerben érdekelt összes partner
 
@@ -53,7 +53,7 @@ Hozza létre üzleti profilját a vállalata szakterületének megjelenítéséh
 
 ## <a name="co-sell-with-microsoft-and-other-partners"></a>Közös értékesítés a Microsofttal és más partnerekkel
 
-A közös értékesítés célja, hogy a partnerek közösen értékesítsenek a Microsofttal és más partnerekkel együttműködésen alapuló, jobban összegyűjthető értékesítéssel és pozitív ügyfelek eredményeivel. A közös értékesítés lehetővé teszi a Microsoft globális márkájának, értékesítési csapatának, igény szerinti generálási képességeinek és a kereskedelmi piactérnek az új ügyfelek globális elérését. Értékesítsen más partnerekkel és velünk. További információ a [közös értékesítéssel kapcsolatos lehetőségek kezeléséről](manage-co-sell-opportunities.md).
+A közös értékesítés célja, hogy a partnerek közösen értékesítsenek a Microsofttal és más partnerekkel együttműködésen alapuló, jobban összegyűjthető értékesítéssel és pozitív ügyfelek eredményeivel. A közös értékesítés lehetővé teszi, hogy a Microsoft globális márkáját, értékesítési csapatait, igény szerinti generációjának képességeit és a kereskedelmi piactért az új ügyfelek számára világszerte elérhetővé teheti. Értékesítsen más partnerekkel és velünk. További információ a [közös értékesítéssel kapcsolatos lehetőségek kezeléséről](manage-co-sell-opportunities.md).
 
 ## <a name="manage-customer-software-needs"></a>Az ügyfél szoftveres igényeinek kezelése
 

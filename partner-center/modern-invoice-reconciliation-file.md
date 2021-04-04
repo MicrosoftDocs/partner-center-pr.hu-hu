@@ -8,12 +8,12 @@ ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
-ms.openlocfilehash: 74974c68c607ddcee4aff6abd53284a60653fb0b
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 66159d886914336180e8531ec07db3a9d8880a88
+ms.sourcegitcommit: 766b2bb46dffd29e532b42106359f83e51b96700
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712256"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106103774"
 ---
 # <a name="csp-one-time-purchase-reconciliation-file-fields"></a>CSP egyszeri beszerzési egyeztetési fájl mezői
 
@@ -51,8 +51,8 @@ Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [a megb
 | PublisherId | A partner Center által a közzétevő azonosítására használt egyedi azonosító. | *NA* |
 | SubscriptionDescription | Az ügyfél által a árlista alapján megvásárolt szolgáltatási ajánlat neve. Ez az oszlop a OfferName azonos mezője. | *Azure-csomag* |
 | SubscriptionId | Egy előfizetéshez tartozó egyedi azonosító a Microsoft számlázási platformon. Nem használatos egyeztetéshez. Vegye figyelembe, hogy ez az azonosító nem egyezik meg a partner felügyeleti konzol előfizetés-azonosítójával. | *307628f1-d9d2-f09c-ea1f-4183f0cae308* |
-| ChargeStartDate | Az a dátum, amikor a partneri központ felszámítja az előfizetési díjat. Ha az előfizetést éves számlázási időszakra és havi számlázási csomagra vásárolja meg, akkor az első egyeztetési fájlban ez az a nap, amikor az előfizetés megvásárlásra kerül. A következő egyeztetési fájllal kezdődően a rendszer 30 nappal növeli a növekményt. | *9/1/2020* |
-| ChargeEndDate | Az előfizetés számlázási ciklusára vonatkozó díjak befejezési napja. Ha az előfizetést éves számlázási időszakra és havi számlázási csomagra vásárolja meg, akkor az első egyeztetési fájlban ez az előfizetés megvásárlását követő 30. nap. A következő egyeztetési fájllal kezdődően a rendszer 30 nappal növeli a növekményt. | *2020. 09. 30.* |
+| ChargeStartDate | Az előfizetés számlázási időszakának kezdési dátuma. | *9/1/2020* |
+| ChargeEndDate | Az előfizetés számlázási időszakának lejárati dátuma. | *2020. 09. 30.* |
 | TermAndBillingCycle | A vásárlás időpontjában az előfizetés folytatásához szükséges időtartam. | *Tárolt adat (GB/hó)* |
 | EffectiveUnitPrice | Az elszámolási egység díja a számlázási ciklus árának kiszámításához. A kedvezmények, a számlázási napok módosítása és más tényezők határozzák meg a hatályos egység árát. További információ: a [hatékony egység árának kiszámítása](./effective-unit-price-calculation.md).  | *0,03825* |
 | UnitType | Az egység típusa, amelyben a mérőszámot terhelik. | *1 GB/hónap* |

@@ -9,21 +9,22 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a6fc3fbfbc5ebf874460fbf2f0065150089db39d
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: dae147c45aca27657f1e88b6943279f9771313d6
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92528005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132995"
 ---
 # <a name="moving-from-partner-membership-center-pmc-to-partner-center"></a>Áthelyezés a partneri tagsági központból (PMC) a partner központba
 
 **Megfelelő szerepkörök**
--    Globális rendszergazda
+
+- Globális rendszergazda
 
 Megkönnyítjük az Ön számára, hogy üzleti tevékenységet végezzen egy olyan webhely (partner Center) bevezetésével, amely központi szerepvállalásként szolgál. Mindent megtalál, amit a partner Membership Centerben (PMC) a partner Center-irányítópulton lehet elérni. 
 
-Emellett sokkal több és mindezt is elvégezheti anélkül, hogy el kellene hagyni az egyik webhelyet. Néhány terminológia és funkció azonban eltérő lehet. Ha szeretné enyhíteni a kezdeti, az adott és a dolgokkal kapcsolatos problémákat, ügyeljen rá, hogy az irányítópulton megtekintse a webhely bemutatóját.
+Sokkal többet is elvégezheti az egyetlen webhely elhagyása nélkül. Néhány terminológia és funkció azonban eltérő lehet. Ha meg szeretné tudni, hogy hová kell elvégeznie bizonyos feladatokat, és hogy milyen funkciók érhetők el, akkor érdemes megismernie az irányítópult helyének bemutatóját.
 
 Ez a táblázat a PMC és a partner központ közötti különbségeket mutatja be.
 
@@ -43,7 +44,7 @@ Ez a táblázat a PMC és a partner központ közötti különbségeket mutatja 
 
 |**PMC**   |**Partnerközpont**|
 |----------------------|:-----------------------------|
-|Használhatja a Microsoft-fiók (MSA) vagy a személyes fiók hitelesítő adatait joe@outlook.com|A munkahelyi fiók hitelesítő adatait () kell használnia joe@joescompany.com . További információért olvassa el [a munkahelyi munkahelyi fiókot és a partner centert](azure-active-directory-tenants-and-partner-center.md).|
+|Használhatja a Microsoft-fiók (MSA) vagy a személyes fiók hitelesítő adatait joe@outlook.com|A munkahelyi fiók hitelesítő adatait (például:) kell használnia joe@joescompany.com . További információért olvassa el [a munkahelyi munkahelyi fiókot és a partner centert](azure-active-directory-tenants-and-partner-center.md).|
 
 ## <a name="user-roles"></a>Felhasználói szerepkörök
 
@@ -61,7 +62,7 @@ Ez a táblázat a PMC és a partner központ közötti különbségeket mutatja 
 |További előnyökkel (ABTKs) rendelkezhet, amíg a kivonásuk nem történt meg a 2018 októberében.|Nincs ABTKs; egy vállalatnál egy Térkép; egy ezüst kompetencia vállalaton keresztül; egy Gold kompetencia vállalaton keresztül|
 ||Ha még nem rendelkezik a MAPS szolgáltatással, megvásárolhatja. A MAPS-tulajdonos nem kötődik a kompetenciához.  
 |Az előnyök a partneri digitális letöltés (PDD) esetében érhetők el |Az összes előny elérhető a partner Centerben|
-|A kompetenciák és előnyök több hely között oszlanak el|Az összes hely kompetenciáját és előnyeit a vállalat (PGA) szintjén konszolidáljuk, és az évforduló napjáig meg kell őrizni. Ekkor a vállalat szintjén kell megvásárolnia vagy megújítani. A teljesítmény és a képességek, valamint a kompetenciák globális szinten vannak összesítve|
+|A kompetenciák és előnyök több hely között oszlanak el|Az összes hely kompetenciáját és előnyeit a vállalat (PGA) szintjén konszolidáljuk, és az évforduló napjáig meg kell őrizni. Ekkor a vállalat szintjén kell megvásárolnia vagy megújítani. A teljesítmény, a képességek és a kompetenciák globális szinten vannak összesítve|
 |A szoftverfrissítési utalványok jogcímei a voucher Validation and Redemption (VVR) eszközben történnek|Mostantól a SATV és/vagy üzembe helyezett tervezési szolgáltatásokat (DPS) is elérheti és kezelheti a partner centeren belül.  Az örökölt VVR eszközt 2019 október 1-jén szereli le a rendszer.  |
 
 ## <a name="associating-mcp-ids-to-partner-center"></a>Az MCP-azonosítók társítása a partner központhoz
@@ -84,7 +85,7 @@ Ez a táblázat a PMC és a partner központ közötti különbségeket mutatja 
 |----------------------|:-----------------------------|
 |PDD  |Előnyök|
 |CHIP, ICP, PIE | Ösztönzők|
-||Áttétel|
+||Javaslatok|
 |Partneri ismeretek| Elemzés|
 |A voucher érvényesítési és beváltási eszköze| A voucher érvényesítési és beváltási eszköze|
 |           |Felhőalapú megoldás-szolgáltatói programok|

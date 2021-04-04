@@ -8,17 +8,130 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/24/2021
-ms.openlocfilehash: e2e40807ddeb7fc3aa0fcfb20f34eb71d0a9e118
-ms.sourcegitcommit: dd51744a4af3797493a5ebbfc766dab86ff00477
+ms.date: 04/02/2021
+ms.openlocfilehash: 5b8c5f52207a7b9a49d07885a36b61486be45497
+ms.sourcegitcommit: 60bbb8f4056120264b769f94431f84d86984c2e9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "105730083"
+ms.lasthandoff: 04/03/2021
+ms.locfileid: "106280870"
 ---
 # <a name="march-2021-announcements"></a>Március 2021 közlemények
 
 Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+
+________________
+## <a name="updated-csp-customer-address-validation-api-now-available-for-testing"></a><a name="18"></a>A frissített CSP-ügyfél címe ellenőrzési API már elérhető teszteléshez
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-03-31
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+Elkötelezettségünk részeként, hogy a partnerek és az ügyfelek a bizalmi kapcsolaton alapuló üzleti tevékenységet futtassák, a globális partnereket a ValidateAddress API változásainak tesztelésére fogjuk meghívni.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+Minden CSP közvetlen számlás partner és olyan közvetett szolgáltató, aki új vagy meglévő ügyfél-címzési adatokat hoz létre vagy frissít
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-címek ellenőrzésének elküldéséhez az ügyfél-előfizetések átadásához a CSP programban. Ma, 2021. március 31-én bevezetjük a ValidateAddress API-t, amelyet szeretnénk meghívni a 2021 tesztelésre. 
+
+Vegye figyelembe, hogy ezek a módosítások csak a ValidateAddress API-t érintik. A CreateCustomer és a UpdateBillingProfile API-kat nem érinti a rendszer.
+
+A válasz a következő állapotüzenetek egyikét fogja visszaadni:
+
+| Állapot | Leírás | A visszaadott javasolt címek száma |
+|----------|-------------|-------------------|
+| VerifiedShippable | A címek ellenőrzése megtörtént, és a következőre küldhető:. | Egyirányú |
+| Ellenőrzött | A címnek ellenőrzése megtörtént. | Egyirányú |
+| InteractionRequired | A javasolt címek jelentősen módosultak, és felhasználói megerősítést igényelnek. | Egyirányú |
+| StreetPartial | A címben megadott utca részleges, és további információra van szüksége. | Több – legfeljebb három|
+| PremisesPartial | A megadott hely (építési szám, csomag száma stb.) részleges, és további információra van szüksége. | Több – legfeljebb három |
+| Többszörös | Több mező is van, amelyek részben szerepelnek a címben (potenciálisan a StreetPartial és a PremisesPartial is beleértve). | Több – legfeljebb három |
+| Nincsenek | A címe helytelen. | Nincsenek |
+| NotValidated | A címeket nem sikerült elküldeni az érvényesítési folyamaton keresztül.  | Nincsenek |
+
+Miután elküldte a címet a ValidateAddress API-val való ellenőrzésre, a rendszer a következő választ adja vissza:
+
+```csharp
+
+// <summary>
+/// Object represents the address validation response.
+/// </summary>
+
+public class AddressValidationResponse
+{
+   /// <summary>
+   /// Gets or sets the original address
+   /// </summary>
+   /// <value>
+   /// Original Address
+   /// </value>
+   public Address OriginalAddress { get; set; }
+
+   /// <summary>
+   /// Gets or sets the suggested addresses
+   /// </summary>
+   /// <value>
+   /// Suggested Addresses
+   /// </value>
+   public List<Address> SuggestedAddresses { get; set; }
+
+   /// <summary>
+   /// Gets or sets the validation status
+   /// </summary>
+   /// <value>
+   /// Status
+   /// </value>
+   public string Status { get; set; }
+
+   /// <summary>
+   /// Gets or sets the validation message
+   /// </summary>
+   /// <value>
+   /// Validation Message
+   /// </value>
+   public string ValidationMessage { get; set; }
+   ```
+
+Tekintse meg ezt a választ. Vegye figyelembe, hogy az Egyesült Államokban a válasz egy további négyjegyű utótagot ad vissza az irányítószám sorához, ha csak öt számjegyet ír be a zip-kódra.
+
+```csharp
+// IAggregatePartner partnerOperations;
+// string customerId;
+// s{
+"suggested_address": {
+    "Country": "US",
+    "region": "WA",
+    "city": "Redmond",
+    "address_line1": "1 Microsoft Way",
+    "postal_Code": "98052-8300"
+},
+"original_address": {
+    "Country": "US",
+    "region": "WA",
+    "city": "Redmond",
+    "address_line1": "1 Micro Way",
+    "postal_Code": "98052"
+},
+"status":  "InteractionRequired",
+"validation_message": "Address field invalid for property: ‘Street’"
+}
+```
+
+### <a name="next-steps"></a>Következő lépések
+
+- Ossza meg a homokozó bérlői AZONOSÍTÓját a test Flight (kis-és nagyvállalati) szakértővel, Ali khaki-val, hogy a tesztelési célú repülésben is szerepeljen, így elkezdheti a frissítés előkészítését.
+
+- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha bármilyen kérdése van, vagy támogatásra van szüksége a Microsoft által végzett műveletekhez, forduljon a partner támogatási Yammer csoportjához.
 
 ________________
 ## <a name="new-exchange-admin-center-eac-experience"></a><a name="17"></a>Az új Exchange felügyeleti központ (EAC) felülete

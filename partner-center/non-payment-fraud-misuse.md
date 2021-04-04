@@ -1,5 +1,5 @@
 ---
-title: Nem fizetés, csalás vagy visszaélés kezelése
+title: Fizetéselmaradás, csalás vagy visszaélés kezelése
 description: Ismerje meg az online tranzakciók során felmerülő kockázatokat, valamint a kockázatok kezelésével és enyhítésével kapcsolatos ajánlott eljárásokat a partner Centerben.
 ms.topic: article
 ms.service: partner-dashboard
@@ -9,27 +9,27 @@ ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 07/14/2020
-ms.openlocfilehash: 43a35f91be9ce656157065a3d19b3643ddeff68a
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 75881544097abdfac8d6f96bde37e9700eb28cf7
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528478"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132349"
 ---
 # <a name="managing-non-payment-fraud-or-misuse-in-partner-center"></a>Fizetés elmaradása, csalás vagy visszaélés a Partnerközpontban
 
 A következőkre vonatkozik:
 
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Számlázási adminisztrátor
 
-Ön pénzügyi felelőssége, hogy az ügyfelek és/vagy a megvásárolt szolgáltatások nem fizetik ki az ügyfeleit. Ezért javasoljuk, *hogy a csalások megelőzésére és észlelésére vonatkozó kockázatkezelési vezérlőket helyezzen üzembe* .
+Ön pénzügyi felelőssége, hogy az ügyfelek és/vagy a megvásárolt szolgáltatások nem fizetik ki az ügyfeleit. Ezért javasoljuk, *hogy a csalások megelőzésére és észlelésére vonatkozó kockázatkezelési vezérlőket helyezzen üzembe*.
 
 A csalárd tevékenységek és a visszaélések elkerülése és/vagy elhárítása érdekében fontos megérteni a lehetséges kockázatokat, valamint olyan házirendeket és gyakorlatokat, amelyek csökkenthetik a kitettséget.
 

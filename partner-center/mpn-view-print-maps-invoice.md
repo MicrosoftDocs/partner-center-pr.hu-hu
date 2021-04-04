@@ -9,30 +9,26 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4102dae63c07a85993f1cf4a9a9dc91e42ee493a
-ms.sourcegitcommit: 0eafb2098d9ac58ebf75a3c1489d12eb97ee1eb6
+ms.openlocfilehash: b61fd5c3c68b3bbd9396cf55a53c22b85523d976
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "92528035"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132791"
 ---
 # <a name="invoices-and-taxes-in-the-microsoft-partner-network"></a>Számlák és adók a Microsoft Partner Network
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - MPN-partner rendszergazdája
 - Számlázási adminisztrátor
 - Felügyeleti ügynök
 
 ## <a name="view-or-download-your-mpn-membership-invoice"></a>MPN-tagsági számla megtekintése vagy letöltése
 
-Az alábbi lépésekkel megtekintheti vagy letöltheti a végső számlát a Microsoft Partner Network tagságához kapcsolódó rendeléshez. A számlák általában tíz nappal a kifizetés befejezése után érhetők el. További információért forduljon a regionális szolgáltatási központhoz.  
+Az alábbi lépésekkel megtekintheti vagy letöltheti a végső számlát a Microsoft Partner Network tagságához kapcsolódó rendeléshez. A számlák általában 10 nappal a kifizetés befejezése után érhetők el. További információért forduljon a regionális szolgáltatási központhoz.  
 
 Az eljárás végrehajtásához globális rendszergazdai vagy MPN-partneri rendszergazdának kell lennie. 
 

@@ -9,22 +9,16 @@ author: isaiahwilliams
 ms.author: iswillia
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b6985054e927dd777d61ae30bd435ab4c6c4ea8c
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: 21e0ebd58835be34f9cc161072ff3690b30abf57
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93133125"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086362"
 ---
 # <a name="mandating-multi-factor-authentication-mfa-for-your-partner-tenant"></a>A többtényezős hitelesítés (MFA) meghatalmazása a partner bérlője számára
 
-**A következőkre vonatkozik**
-
-- A Cloud Solution Provider program összes partnere
-- A Vezérlőpult összes szállítója
-- Minden tanácsadó
-
-**Érintett szerepkörök**
+**Megfelelő szerepkörök**
 
 - Felügyeleti ügynök
 - Értékesítési ügynök
@@ -174,7 +168,7 @@ Az általános élmény hasonló ahhoz a forgatókönyvhöz, amelyben egy végfe
 
 ### <a name="using-service-apis"></a>A Service API-k használata
 
-Bizonyos Microsoft Online Services API-k (például Azure Resource Manager, Azure AD Graph, Microsoft Graph stb.) támogatják a partner meghatalmazott rendszergazdai jogosultságokat használó partnereket az ügyfelek erőforrásainak programozott kezeléséhez. Ezen API-kkal delegált rendszergazdai jogosultságok kihasználása érdekében a partner alkalmazásnak tartalmaznia kell egy hozzáférési jogkivonatot az API-kérelem engedélyezési fejlécében, ahol a hozzáférési jogkivonatot a partner felhasználói fiókkal kell megszereznie az Azure AD-vel való hitelesítéshez, és az ügyfél Azure AD-készletét hitelesítési környezetként kell beállítani. A partneri alkalmazásnak egy partner-felhasználói fiókkal kell bejelentkeznie az ügyfél bérlője számára.
+Bizonyos Microsoft Online Services API-k (például Azure Resource Manager, Azure AD Graph, Microsoft Graph stb.) támogatják a partner meghatalmazott rendszergazdai jogosultságokat használó partnereket az ügyfelek erőforrásainak programozott kezeléséhez. Ha az API-kkal delegált rendszergazdai jogosultságokat szeretne használni, a partner alkalmazásnak tartalmaznia kell egy hozzáférési jogkivonatot az API-kérelem engedélyezési fejlécében, ahol a hozzáférési tokent a partner felhasználói fiókja kapja az Azure AD-vel való hitelesítéshez, és az ügyfél Azure AD-készletét hitelesítési környezetként kell beállítani. A partneri alkalmazásnak egy partner-felhasználói fiókkal kell bejelentkeznie az ügyfél bérlője számára.
 
 Ha az Azure AD például hitelesítési kérést kap, az Azure AD-nek szüksége lesz a partner felhasználói fiókra az MFA-ellenőrzés elvégzéséhez. Ha a partner felhasználói fiók korábban nem regisztrált az MFA-ra, a rendszer először a felhasználói fiókot fogja kérni az MFA-regisztráció befejezéséhez.
 
@@ -194,7 +188,7 @@ Az MFA ellenőrzése során, ha a partner fiók még korábban nem regisztrált 
 
 A **tovább** gombra kattintás után a rendszer megkéri a felhasználót, hogy válasszon az ellenőrzési módszerek listájáról.
 
-:::image type="content" source="images/MfaRegistration2.png" alt-text="MFA-regisztráció 1. lépés":::
+:::image type="content" source="images/MfaRegistration2.png" alt-text="MFA-regisztráció 2. lépés":::
 
 A sikeres regisztráció után a felhasználónak a felhasználó által választott ellenőrzés alapján be kell fejeznie az MFA-ellenőrzést.
  
@@ -205,7 +199,7 @@ Mielőtt [technikai kivételt](#how-to-submit-a-request-for-technical-exception)
 #### <a name="issue-1-partner-needs-more-time-to-implement-mfa-for-their-partner-agents"></a>1. probléma: a partnernek több időre van szüksége az MFA megvalósításához a partnerek ügynökei számára
 Egy partner nem indult el, vagy még mindig folyamatban van az MFA bevezetésének folyamata a partnerek ügynökei számára, akiknek szükségük van a Microsoft Online Services portálokhoz való hozzáférésre a partner által delegált rendszergazdai jogosultságokkal az ügyfelek erőforrásainak kezelése A partnernek több időre van szüksége az MFA megvalósításának elvégzéséhez. A probléma a technikai kivétel érvényes oka?
 
-**Válasz** : nem. A partnernek tervbe kell vennie az MFA megvalósítását a felhasználók számára a fennakadás elkerülése érdekében.
+**Válasz**: nem. A partnernek tervbe kell vennie az MFA megvalósítását a felhasználók számára a fennakadás elkerülése érdekében.
 
 > [!NOTE]
 > Annak ellenére, hogy a partner nem implementálta az MFA-t a partnerek ügynökei számára, a partner ügynökök továbbra is hozzáférhetnek a Microsoft Online Services-portálokhoz a partner által delegált rendszergazdai jogosultságok használatával, ha az ügyfél bérlője számára történő bejelentkezéskor a rendszer felszólítja az MFA regisztrálására Az MFA-regisztráció befejezése nem engedélyezi automatikusan a felhasználót az MFA-hoz.
@@ -213,23 +207,23 @@ Egy partner nem indult el, vagy még mindig folyamatban van az MFA bevezetésén
 ##### <a name="issue-2-partner-has-not-implemented-mfa-for-user-accounts-not-using-delegated-admin-privileges"></a>2. probléma: a partner nem implementálta az MFA-t a delegált rendszergazdai jogosultságokat nem használó felhasználói fiókok esetében
 A partnerek olyan felhasználókkal rendelkeznek, akik nem igénylik a Microsoft Online Services portálok hozzáférését a partneri erőforrások kezeléséhez a partner által delegált rendszergazdai jogosultságok használatával. A partner az MFA bevezetésének folyamata a felhasználók számára, és több időre van szüksége a befejezéshez. A probléma a technikai kivétel érvényes oka?
 
-**Válasz** : nem. Mivel ezek a felhasználói fiókok nem használnak partneri delegált rendszergazdai jogosultságokat az ügyfelek erőforrásainak kezeléséhez, nem kell bejelentkezniük az ügyfél bérlője számára. Az Azure AD nem fogja érinteni az MFA-ellenőrzést igénylő bejelentkezést az ügyfél bérlője számára.
+**Válasz**: nem. Mivel ezek a felhasználói fiókok nem használnak partneri delegált rendszergazdai jogosultságokat az ügyfelek erőforrásainak kezeléséhez, nem kell bejelentkezniük az ügyfél bérlője számára. Az Azure AD nem fogja érinteni az MFA-ellenőrzést igénylő bejelentkezést az ügyfél bérlője számára.
 
 ##### <a name="issue-3-partner-has-not-implemented-mfa-for-user-service-accounts"></a>3. probléma: a partner nem implementálta az MFA-t a felhasználói szolgáltatásfiókok számára
-Egy partnernek van néhány felhasználói fiókja a partner bérlőben, amelyet az eszközök a szolgáltatásfiókokként használnak. Ezek alacsony jogosultsági szintű fiókok, amelyek nem igénylik a hozzáférési partneri központ és a Microsoft Online Services portálok számára az ügyfelek erőforrásainak a meghatalmazott rendszergazdai jogosultságokkal történő kezelését. A probléma a technikai kivétel érvényes oka?
+Egy partnernek van néhány felhasználói fiókja a partner bérlőben, amelyet az eszközök a szolgáltatásfiókokként használnak. Ezek olyan alacsony jogosultsági szintű fiókok, amelyek nem igénylik a hozzáférési partneri központot és a Microsoft Online Services portálokat az ügyfelek erőforrásainak a partner által delegált rendszergazdai jogosultságokkal való kezeléséhez. A probléma a technikai kivétel érvényes oka?
 
-**Válasz** : nem. Mivel ezek a felhasználói fiókok nem használnak partneri delegált rendszergazdai jogosultságokat az ügyfelek erőforrásainak kezeléséhez, nem kell bejelentkezniük az ügyfél bérlője számára. Az Azure AD nem fogja érinteni az MFA-ellenőrzést igénylő bejelentkezést az ügyfél bérlője számára.
+**Válasz**: nem. Mivel ezek a felhasználói fiókok nem használnak partneri delegált rendszergazdai jogosultságokat az ügyfelek erőforrásainak kezeléséhez, nem kell bejelentkezniük az ügyfél bérlője számára. Az Azure AD nem fogja érinteni az MFA-ellenőrzést igénylő bejelentkezést az ügyfél bérlője számára.
 
 ##### <a name="issue-4-partner-cannot-implement-mfa-using-ms-authenticator-app"></a>4. probléma: a partner nem tudja megvalósítani az MFA-t az MS hitelesítő alkalmazás használatával
 Egy partner "tiszta asztali" szabályzattal rendelkezik, amely nem teszi lehetővé, hogy az alkalmazottak a saját mobil eszközeiket a munkaterületre hozzanak. A személyes mobileszközök elérésének hiányában az alkalmazottak nem telepíthetik az MS hitelesítő alkalmazást, amely az Azure AD biztonsági Alapértelmezések által támogatott egyetlen MFA-ellenőrzés. A probléma a technikai kivétel érvényes oka?
 
-**Válasz** : nem, ez a technikai kivétel nem érvényes oka. A partnernek a következő alternatívákat kell figyelembe vennie, hogy alkalmazottaik továbbra is elvégezzenek MFA-ellenőrzést a partneri központ elérésekor:
+**Válasz**: nem, ez a technikai kivétel nem érvényes oka. A partnernek a következő alternatívákat kell figyelembe vennie, hogy alkalmazottaik továbbra is elvégezzenek MFA-ellenőrzést a partneri központ elérésekor:
 - A partner regisztrálhat prémium szintű Azure AD vagy harmadik féltől származó, az Azure AD-vel kompatibilis MFA-megoldásokra is, amelyek további ellenőrzési módszereket is biztosíthatnak.
 
 ##### <a name="issue-5-partner-cannot-implement-mfa-due-to-the-use-of-legacy-authentication-protocols"></a>5. probléma: a partner nem tudja megvalósítani az MFA-t az örökölt hitelesítési protokollok használata miatt
 A partner rendelkezik olyan partneri ügynökökkel, akik továbbra is örökölt hitelesítési protokollokat használnak, amelyek nem kompatibilisek az MFA-val. Például a felhasználók továbbra is az Outlook 2010-et használják, amely örökölt hitelesítési protokollokon alapul. Ha engedélyezi az MFA-t ezen partnerek ügynökei számára, az örökölt hitelesítési protokollok használatát megszakítja.
 
-**Válasz** : nem, ez a technikai kivétel nem érvényes oka. A partnereknek határozottan javasoljuk, hogy az örökölt hitelesítési protokollok használatát a lehetséges biztonsági következmények miatt eltérjenek, mivel ezeket a protokollokat nem lehet az MFA-ellenőrzéssel védeni, és sokkal érzékenyebbek a hitelesítő adatok biztonságára. Ha az örökölt hitelesítési protokollok használatából való elmozdulás nem lehetséges, a partnereknek érdemes megfontolniuk a prémium szintű Azure AD regisztrálását, amely támogatja az alkalmazások jelszavainak használatát. Az alkalmazás jelszavai egyszeri, rendszer által generált jelszavak, és általában erősebbek, mint az emberi által generált jelszavak. Az alkalmazás jelszavainak használatával a partnerek az MFA-t implementálják a felhasználók számára, miközben az alkalmazás jelszavait csak az örökölt hitelesítési protokollok esetében érik el.
+**Válasz**: nem, ez a technikai kivétel nem érvényes oka. A partnereknek határozottan javasoljuk, hogy az örökölt hitelesítési protokollok használatát a lehetséges biztonsági következmények miatt eltérjenek, mivel ezeket a protokollokat nem lehet az MFA-ellenőrzéssel védeni, és sokkal érzékenyebbek a hitelesítő adatok biztonságára. Ha az örökölt hitelesítési protokollok használatából való elmozdulás nem lehetséges, a partnereknek érdemes megfontolniuk a prémium szintű Azure AD regisztrálását, amely támogatja az alkalmazások jelszavainak használatát. Az alkalmazás jelszavai egyszeri, rendszer által generált jelszavak, és általában erősebbek, mint az emberi által generált jelszavak. Az alkalmazás jelszavainak használatával a partnerek az MFA-t implementálják a felhasználók számára, miközben az alkalmazás jelszavait csak az örökölt hitelesítési protokollok esetében érik el.
 
 Olvassa el az [alapszintű hitelesítésről és az Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282) -ról szóló bejegyzést, amelyből megismerheti az Outlookhoz való örökölt hitelesítés támogatásának legújabb tervét, és kövesse az [Exchange csapat blogját](https://techcommunity.microsoft.com/t5/exchange-team-blog/bg-p/Exchange) a közelgő Hírek beszerzéséhez. 
 
@@ -239,7 +233,7 @@ Olvassa el az [alapszintű hitelesítésről és az Exchange Online](https://tec
 ##### <a name="issue-6-partner-has-implemented-third-party-mfa-that-isnt-recognized-by-azure-ad"></a>6. probléma: a partner olyan harmadik féltől származó MFA-t implementált, amelyet az Azure AD nem ismer fel
 Egy harmadik féltől származó MFA-megoldást használó partner az MFA-t implementálta a felhasználók számára. A partner azonban nem tudja megfelelően konfigurálni a harmadik féltől származó MFA-megoldást az Azure AD-be való továbbításra, hogy a felhasználó hitelesítése során az MFA ellenőrzése befejeződött. Ez a technikai kivétel érvényes oka?
 
-**Válasz** : igen, ezt a problémát a technikai kivétel érvényes okaként lehet figyelembe venni. A technikai kivételre vonatkozó kérelem elküldése előtt erősítse meg a harmadik féltől származó MFA-megoldás szolgáltatóját, hogy az MFA-megoldás nem konfigurálható úgy, hogy az *authenticationmethodsreferences* -jogcímet ( *multipleauthn* értékkel) az Azure ad-be, hogy az MFA-ellenőrzés a felhasználó hitelesítése során is befejeződik. A technikai kivételre vonatkozó kérelem elküldésekor meg kell adnia a használatban lévő harmadik féltől származó MFA-megoldás részleteit, és jeleznie kell az integrációs módszert (például az identitás-összevonás vagy az egyéni Azure AD-vezérlő használata), és a következő információkat kell megadnia a technikai kivételi kérelemben a támogató dokumentumként:
+**Válasz**: igen, ezt a problémát a technikai kivétel érvényes okaként lehet figyelembe venni. A technikai kivételre vonatkozó kérelem elküldése előtt erősítse meg a harmadik féltől származó MFA-megoldás szolgáltatóját, hogy az MFA-megoldás nem konfigurálható úgy, hogy az *authenticationmethodsreferences* -jogcímet ( *multipleauthn* értékkel) az Azure ad-be, hogy az MFA-ellenőrzés a felhasználó hitelesítése során is befejeződik. A technikai kivételre vonatkozó kérelem elküldésekor meg kell adnia a használatban lévő harmadik féltől származó MFA-megoldás részleteit, és jeleznie kell az integrációs módszert (például az identitás-összevonás vagy az egyéni Azure AD-vezérlő használata), és a következő információkat kell megadnia a technikai kivételi kérelemben a támogató dokumentumként:
 
 - A harmadik féltől származó MFA-konfigurációk.
 
@@ -253,13 +247,13 @@ A partnerek technikai kivételt alkalmazhatnak az MFA-ellenőrzés letiltásáho
 
 Technikai kivételre vonatkozó kérelem küldése:
 
-1. Jelentkezzen be a partner Center szolgáltatásba globális rendszergazdai vagy rendszergazdai ügynökként.
+1. Jelentkezzen be a partner Center szolgáltatásba globális rendszergazdaként vagy rendszergazdai ügynökként.
 
-2. Hozzon létre egy új partneri szolgáltatási kérelmet a **Support**  >  **partneri támogatási kérelmek** támogatásához, majd az **új kérelem** lehetőségre kattintva.
+2. Hozzon létre egy új partneri szolgáltatási kérelmet a   >  **partneri támogatási kérelmek** támogatásához és az **új kérelem** kiválasztásához.
 
-3. **MFA-kérelem** keresése a keresőmezőbe; vagy válassza a **CSP** kategóriából lehetőséget, majd válassza a **fiókok, előkészítés, hozzáférés** a témához lehetőséget, majd válassza az **MFA – kérelem** az altémakörből, majd a **következő lépés** lehetőséget.
+3. **MFA-kérelem** keresése a keresőmezőbe; vagy válassza a **CSP** kategóriából lehetőséget, majd válassza a **fiókok, előkészítés, hozzáférés** a témakörből lehetőséget, majd válassza az **MFA-kérelem kivételt** az altémakörből, majd válassza a **következő lépés** lehetőséget.
 
-4. Adja meg a technikai kivételt kérő szolgáltatás beküldéséhez kért adatokat, majd kattintson a **Submit (Küldés** ) gombra.
+4. Adja meg a technikai kivételre vonatkozó szolgáltatási kérelem elküldésére, valamint a **Submit (Küldés**) gombra vonatkozó adatokat.
 
 A Microsoft akár három munkanapot is igénybe vehet, hogy választ adjon a technikai kivételre vonatkozó kérelemre.
 

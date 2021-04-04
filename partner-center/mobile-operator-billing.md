@@ -1,19 +1,19 @@
 ---
 title: Mobilszolgáltató számlázási Microsoft Store
 description: A Microsoft Store az ezt a képességet támogató mobilszolgáltatók számára fizetési módszerként kínálja a mobilszolgáltató számlázási szolgáltatását.
-ms.date: 05/29/2020
+ms.date: 04/01/2021
 ms.service: partner-dashboard
 ms.topic: article
 ms.author: hickeys
 author: hickeys
 keywords: Windows 10, uwp, mobil operátorok, mobil számlázás, mobilszolgáltatók számlázása
 ms.localizationpriority: medium
-ms.openlocfilehash: 010451506df0d6115a8e1b4781e6fb40ab8853bb
-ms.sourcegitcommit: a84812b650ec8b6d0513c46c04840e4bbb0c8460
+ms.openlocfilehash: 5556da39b252f5004cd7d1828310743875a8da7f
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "92530109"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106178816"
 ---
 # <a name="mobile-operator-billing"></a>Mobilszolgáltatói számlázás
 
@@ -35,17 +35,19 @@ A következő mobileszközök jelenleg támogatják a mobilszolgáltatók száml
 | Ausztria              | A1 Telekom, Hutchison 3G Ausztria, T-Mobile/tele. Ring  |
 | Belgium              | Alap, proximus                                          |
 | Kanada               | Telus                                                   |
-| Csehország              | T-Mobile                                                |
+| Csehország              | T-Mobile, Vodafone, O2                                  |
 | Dánia              | 3, TDC/YouSee, Telenor, Telia                         |
 | Finnország              | DNS, ELISA                                              |
 | Franciaország               | Narancssárga                                                  |
 | Németország              | O2, Telekom Deutschland, Vodafone                       |
 | Magyarország              | Telenor                                                 |
-| Olaszország                | Tre, szél                                               |
+| Olaszország                | Tre, Wind, Vodafone                                     |
+| Dél-Korea                | SK Telecom                                              |
 | Malajzia             | Digi                                                    |
-| Hollandia          | KPN/Telfort                                           |
+| Hollandia          | KPN/Telfort, Vodafone                                 |
 | Norvégia               | Telenor/Talkmore, Telia/OneCall                     |
-| Lengyelország               | Narancssárga, lejátszás                                            |
+| Lengyelország               | Orange, Play, T-Mobile                                  |
+| Szaúd-Arábia         | STC                                                     |
 | Szingapúr            | M1 Limited, csillag                                     |
 | Szlovákia             | Szlovák Telekom                                          |
 | Dél-afrikai Köztársaság         | Vodacom                                                 |

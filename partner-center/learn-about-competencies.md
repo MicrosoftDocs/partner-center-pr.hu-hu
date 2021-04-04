@@ -9,18 +9,19 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 10d2cbf848cb2c9a5d9aafb98f1ab6869f417182
-ms.sourcegitcommit: 06c272d86722a2315a65aa536fb32727aab5178d
+ms.openlocfilehash: a642c9fc8b920668bd6883c01573e5fbf5523e53
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98912539"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106178867"
 ---
 # <a name="differentiate-your-business-by-attaining-microsoft-competencies"></a>A Microsoft kompetenciák megvalósításával megkülönböztetheti vállalkozását
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 
 Bemutatjuk a bevált szakértelmét, hogy minőségi megoldásokat nyújtson be egy vagy több speciális üzleti területen. A Microsoft kompetenciák célja, hogy előkészítse az ügyfelek igényeinek kielégítését, és segítsen a Microsoft által minősített megoldás-szolgáltatók számára keresett új ügyfelek megszerzésében. Csatlakozzon a Microsoft-partnerek elit szintjéhez, és álljon ki a társaitól.
 

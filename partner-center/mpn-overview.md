@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4a3b00db6b48d95da58cdc130832ba5dc1ab990f
-ms.sourcegitcommit: 147813ba322653c989df5afe0b3bf0c252523a92
+ms.openlocfilehash: 4e7ff0ae1f5ca99cee25e3fa8740212d0b697f70
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96556378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132944"
 ---
 # <a name="partner-with-microsoft-and-discover-membership-benefits"></a>Partner a Microsofttal és a tagság előnyeinek felderítése
 
@@ -22,10 +22,10 @@ ms.locfileid: "96556378"
 
 - Globális rendszergazda
 - MPN-partner rendszergazdája
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 
-A Microsoft Partner Network (MPN) a termékek széles választékát kínálja az iparágban, valamint a program azon lehetőségeit, amelyekkel megkülönböztetheti vállalatát, megtekintheti a piacot, és értékesítheti megoldásait. Vegyen részt díjmentesen, majd válassza ki, hogyan fektessen be a partnerségbe egy Microsoft Action Pack, Starter Kit vagy kompetencia használatával.
+A Microsoft Partner Network (MPN) a termékek széles választékát kínálja az iparágban, és a program lehetőségei alapján megkülönböztetheti vállalkozását, megtekintheti a piacot, és értékesítheti megoldásait. Vegyen részt díjmentesen, majd válassza ki, hogyan fektessen be a partnerségbe egy Microsoft Action Pack, Starter Kit vagy kompetencia használatával.
 
 Egy Microsoft partneri programhoz való csatlakozáskor egy globális közösség részévé válik, amely összekapcsolja Önt az ügyfelek elcsodálkozása és az üzleti növekedés elősegítése érdekében szükséges kapcsolatokkal, információkkal, eszközökkel, erőforrásokkal és programokkal. Az üzleti célok eléréséhez vegyen részt a programban olyan szinten, amely megfelel az egyedi igényeknek, és fejleszti a kapcsolatot az USA-val és más partnerekkel a hálózaton. 
 

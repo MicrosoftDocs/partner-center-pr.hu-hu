@@ -9,24 +9,19 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 494c9d7ff8e726e8bd183456926761c3cebf10ee
-ms.sourcegitcommit: 6ed7268356445939db8613f2af96016707c55d64
+ms.openlocfilehash: 7a42381e6c7f3b33acae887f78fb87b5d309279e
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94691367"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106178935"
 ---
 # <a name="use-metrics-in-partner-center-to-increase-adoption-and-satisfaction"></a>A partner Center metrikáinak használata az elfogadás és az elégedettség növeléséhez
-
-**A következőre érvényes:**
-
-- Partnerközpont
-- Felhőszolgáltató program
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
@@ -61,7 +56,7 @@ A licenc-és felhasználói adatait egyetlen ügyfélhez vagy a portfólióhoz i
 
 Terminológia:
 
-- **Jogosultság** = az a licenc, amelyet a felhasználó használhat (nem felfüggesztette csalás vagy nem fizetés miatt, nem lett frissítve másik licencre, de a felhasználó nem törölte, stb.)
+- **Jogosultság** = az a licenc, amelyet a felhasználó használhat (nem felfüggesztett csalás vagy fizetés nélkül, nem lett frissítve másik licencre, de a felhasználó nem törölte, vagy egy másik probléma).
 
 - **Aktív** = ha az előfizetett felhasználó használta a jogosultságot egy adott feladathoz az elmúlt 28 naptári napban.
 
@@ -69,7 +64,7 @@ Terminológia:
 
 - **Használat%** = aktív felhasználó/összes felhasználó
 
-   Előfordul, hogy a (z)% a kihasználtsága (%) vagy nagyobb, mint 100%. Ennek több oka is lehet:
+   Előfordul, hogy a (z)% a kihasználtsága (%) vagy nagyobb, mint 100%. A probléma több okból is előfordulhat:
 
   - Ha az ügyfél az alkalmazottak forgalmát használta, és a licenc egy új felhasználónak lett átadva.
 
@@ -77,7 +72,7 @@ Terminológia:
 
   - Ha az ügyfél próbaverziós előfizetéssel rendelkezik, a rendszer megszámolja a tevékenységet, de az előfizetés nem számít bele a teljes jogosultságokra.
 
-  - Ha egyes ügyfelek a Yammer jelentősen nagyobb mértékben használják, mint amennyit a licencük jogosult, akkor az adatvesztést jelentősen elferdítheti.
+  - Ha egyes ügyfelek jelentősen több Yammer használnak, mint amennyit a licencük jogosult, az adatvesztést okozhat az adatkezelésben.
 
 ## <a name="next-steps"></a>Következő lépések
 
@@ -87,7 +82,7 @@ Ha sok segítséget és útmutatást szeretne feltenni, a fiókban lévő beveze
 
 **Probléma**: a felhasználó bevezetési sebessége alacsony, és számos licenc nincs használatban.
 
-**Mit érdemes figyelembe venni**: Előfordulhat, hogy az ügyfelek nem értik a szoftver által megadható értéket. Segítségre van szükségük annak megtervezésében, hogy milyen módokon tudnák beépíteni őket a mai napig a már folyamatban lévő feladatok egyszerűsítése vagy az új típusú termelékenység lehetővé tétele érdekében.
+**Mit érdemes figyelembe venni**: Előfordulhat, hogy az ügyfelek nem értik a szoftver által megadható értéket. Segítségre van szükségük ahhoz, hogy megtanítsák, milyen módokon tudnák beépíteni őket a mai napig, hogy leegyszerűsítse a már folyamatban lévő feladatokat, vagy hogy új típusú termelékenységet engedélyezzen.
 
 **Mit kell kipróbálni**: esettanulmányok, felhasználói visszajelzések konkrét forgatókönyvekről, oktatóanyag-Blogokról vagy videókról.
 

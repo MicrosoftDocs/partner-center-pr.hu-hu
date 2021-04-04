@@ -9,19 +9,20 @@ author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ea26eb7755aebea67bad1b4bc97e9662c2054591
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 6adf7039f6ad389f61c9cd0b5e4ad9454db06a5b
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712902"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106133029"
 ---
 # <a name="technical-support-benefits"></a>Technikai támogatási előnyök
 
 **Megfelelő szerepkörök**
--   Globális rendszergazda 
--   MPN-partner rendszergazdája 
--   Felügyeleti ügynök 
+
+- Globális rendszergazda
+- MPN-partner rendszergazdája
+- Felügyeleti ügynök
 
 ## <a name="overview"></a>Áttekintés
 
@@ -38,7 +39,7 @@ Technikai előnyeinek megtekintése és aktiválása a partner Centerben:
 2. Bontsa ki az előnyök elemet a bal oldali navigációs menüben, és válassza a **technikai előnyök** lehetőséget. A technikai kedvezmények oldal a Gold, Silver vagy Microsoft Action Pack tagsági ajánlatokhoz elérhető technikai támogatási előnyök listájával jelenik meg. 
 
     > [!NOTE]
-    >Ha nem rendelkezik aktív tagsági ajánlatokkal, a "úgy tűnik, hogy még nincsenek előnyei" üzenet jelenik meg. Ha a vállalata aktív tagsági ajánlatokkal rendelkezik, de nem látja őket, előfordulhat, hogy nem megfelelő fiókkal jelentkezett be. A fiók megtekintéséhez kattintson a lap jobb felső sarkában található **fiók** ikonra, és kattintson a **bejelentkezés másik fiókkal** (ha szükséges) lehetőségre.
+    >Ha nem rendelkezik aktív tagsági ajánlatokkal, a "úgy tűnik, hogy még nincsenek előnyei" üzenet jelenik meg. Ha a vállalata aktív tagsági ajánlatokkal rendelkezik, de nem látja őket, előfordulhat, hogy nem megfelelő fiókkal jelentkezett be. A fiók megtekintéséhez válassza a lap jobb felső sarkában található **fiók** ikont, és válassza a **bejelentkezés másik fiókkal** lehetőséget (ha szükséges).
 
 3. A Microsoft terméktámogatási vagy aláírási terméktámogatási szolgálatának használatának megkezdéséhez aktiválnia kell a kedvezményt. A sikeres aktiválás után a hozzáférési azonosító és a szerződés azonosítója is megjelenik. 
 
@@ -73,7 +74,7 @@ Az előny első használatakor szüksége lesz a hozzáférési AZONOSÍTÓra é
 
 Bármely felhasználói fiók (HRE vagy MSA) technikai támogatást használhat a helyszíni termékekhez, ha rendelkeznek a hozzáférési AZONOSÍTÓval és a szerződés AZONOSÍTÓval
 
-Kattintson a [vállalati támogatás](https://support.serviceshub.microsoft.com/supportforbusiness/create) elemre, ha támogatási kérést szeretne létrehozni egy helyszíni termékhez.
+Válassza a [vállalati támogatás](https://support.serviceshub.microsoft.com/supportforbusiness/create) lehetőséget, ha támogatási kérést szeretne létrehozni egy helyszíni termékhez.
 
 ## <a name="signature-cloud-support-cloud-only"></a>Aláírási felhő támogatása (csak felhőben)
 
@@ -83,13 +84,13 @@ Az előny első használatakor szüksége lesz a hozzáférési AZONOSÍTÓra é
 
 Az Azure-kérelmeket létrehozó CSP-partnerek támogatási szerződés hozzáadása nélkül használhatják a "Cloud Solution Provider" támogatási csomagot.
 
-A **rendszergazdai ügynök** szerepkörrel rendelkező felhasználók a bal oldali navigációs menüben a CSP területen választhatják **ki az** [ügyfeleket](https://partner.microsoft.com/commerce/customers/list) , majd az **új kérelem** lehetőségre kattintva.  Amikor kiválasztja a megfelelő munkaterhelést, megnyílik a munkaterhelés-specifikus portál, és felvesz egy támogatási szerződést, és létrehozza a kérelmet.
+A **rendszergazdai ügynök** szerepkörrel rendelkező felhasználók a bal oldali navigációs menüben, a **szolgáltatásvezérlő** lehetőségre, majd az **új kérelem** elemre kattintva választhatják ki az [ügyfeleket](https://partner.microsoft.com/commerce/customers/list) a CSP területen.  Amikor kiválasztja a megfelelő munkaterhelést, megnyílik a munkaterhelés-specifikus portál, és felvesz egy támogatási szerződést, és létrehozza a kérelmet.
 
 ## <a name="partner-support-plans"></a>Partneri támogatási csomagok
 
 A Microsoft fizetett támogatást nyújt, amely technikai támogatást és számos extra szolgáltatási lehetőséget tartalmaz. 
 
-A [partneri támogatási terveket összehasonlíthatja](https://partner.microsoft.com/support/partnersupport) , vagy megtekintheti az alábbi Partner-specifikus csomagokat:
+[Összehasonlíthatja a partneri támogatási](https://partner.microsoft.com/support/partnersupport) csomagokat, vagy megtekintheti az alábbiakat a Partner-specifikus csomagok esetében:
 
 - [Premier szintű támogatás partnerek számára](https://partner.microsoft.com/support/microsoft-services-premier-support) – a Microsoft technikai támogatásának legfelső szintű
 - [Speciális támogatás a partnerek számára](https://partner.microsoft.com/support/advanced-cloud-support) – csak felhőalapú termékek

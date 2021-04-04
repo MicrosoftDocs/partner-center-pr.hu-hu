@@ -9,22 +9,23 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8d03533d69df4600879dbc90622b640a932ab069
-ms.sourcegitcommit: 5f31146f50e01dc4c1922e0a5bc369f0a3cd8162
+ms.openlocfilehash: 292b5535bdcc40164e738ec967a689c51f6d8f47
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528243"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086260"
 ---
 # <a name="competencies-report-available-from-the-partner-center-insights-dashboard"></a>A kompetenciák jelentés elérhető a partner Center-adatáttekintési irányítópultról
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
 - Executive Report Viewer
 
-A kompetenciák lehetővé teszik a vállalat számára, hogy bemutassa a Microsoft-megoldások nyújtásának technikai képességét. A Microsoft kompetenciák úgy vannak kialakítva, hogy megfeleljenek ügyfelei igényeinek, és bemutassanak szaktudását a leendő ügyfelek számára. A Microsoft számos előnnyel jár, többek között az Azure-beli használattal, a felhőalapú termékekhez, például a O365, a technikai támogatáshoz, a piacra jutási ajánlatokhoz stb. A következő kategóriák összesen 19 kompetenciával rendelkeznek: **alkalmazás-és infrastruktúra** -, **üzleti alkalmazások** , **adatkezelés, AI** és **modern munkahely** . A kompetenciák az ezüst vagy arany szintekre vannak bontva, például. A Gold kompetenciához egy magasabb szintű sáv, valamint a rendelkezésre álló marketing-erőforrások, ajánlatok és programok elérhetők.  
+A kompetenciák lehetővé teszik a vállalat számára, hogy bemutassa a Microsoft-megoldások nyújtásának technikai képességét. A Microsoft kompetenciák úgy vannak kialakítva, hogy megfeleljenek ügyfelei igényeinek, és bemutassanak szaktudását a leendő ügyfelek számára. A Microsoft számos előnnyel jár, többek között az Azure-beli használattal, a Felhőbeli termékekhez, például az Office 365-hez, a technikai támogatáshoz, a piaci megjelenéssel kapcsolatos ajánlatokhoz és egyebekhez. A következő kategóriák összesen 19 kompetenciával rendelkeznek: **alkalmazás-és infrastruktúra**-, **üzleti alkalmazások**, **adatkezelés, AI** és **modern munkahely**. A kompetenciák az ezüst vagy arany szintekre vannak bontva, például. A Gold kompetenciához egy magasabb szintű sáv, valamint a rendelkezésre álló marketing-erőforrások, ajánlatok és programok elérhetők.  
 
 Ha többet szeretne megtudni a kompetenciák életciklusáról, a kompetenciák megvalósításáról és az egyéb kompetenciás jelentés részleteiről, többet fog tudni használni a kompetencia jelentésből.
 
@@ -53,7 +54,7 @@ A kompetenciák jelentés következő részeit tekintheti meg:
 
 ### <a name="summary"></a>Összefoglalás
 
-Az összegző nézet a kompetenciák számát mutatja az egyes kompetenciák szintjén (arany/ezüst) a kompetencia életciklusának minden szakaszában. A kompetencia életciklusának szakaszai a következők: **elindítva** , **minősített** , **aktív** és **veszélyeztetett** . Példa: a Cloud kompetencia követelményei két kategóriába sorolhatók: szaktudás és teljesítmény.
+Az összegző nézet a kompetenciák számát mutatja az egyes kompetenciák szintjén (arany/ezüst) a kompetencia életciklusának minden szakaszában. A kompetencia életciklusának szakaszai a következők: **elindítva**, **minősített**, **aktív** és **veszélyeztetett**. Példa: a Cloud kompetencia követelményei két kategóriába sorolhatók: szaktudás és teljesítmény.
 
 - Elindítva: azon kompetenciák száma, amelyekhez egy vagy több folyamatban lévő követelmény van.
 Az elindított kompetenciák részletezése kompetenciával (Ezüst/arany) a kompetenciák neveivel.
@@ -73,10 +74,10 @@ Ez a nézet a kompetenciák metrikáinak állapotát jeleníti meg a partnerek s
 
 A jelentés a következő két Dátumtartomány alapján állítható be:
 
-1. TTM nézet: a partner teljesítményének enumerálása az elmúlt tizenkét hónapban (TTM).
+1. TTM nézet: a partner teljesítményének enumerálása az elmúlt 12 hónapban (TTM).
 2. Évfordulós év nézet: Ez a partner teljesítményét az előző évforduló napjától a következő évfordulóra sorolja.
 
-:::image type="content" source="images/pci/pci-competencies-comp-metrics-analysis-2.png" alt-text="kompetenciák összegzése":::
+:::image type="content" source="images/pci/pci-competencies-comp-metrics-analysis-2.png" alt-text="kompetencia mérőszámának elemzése":::
 
 > [!NOTE]
  > Nem minden metrika szerepel az elemzésben. Jelenleg a tanuláshoz és a minősítéshez társított mérőszámok nem támogatottak a kompetenciák jelentésében. A Cloud Business Applications (CBA) kompetenciák jelenleg nem támogatottak az **aktív** kompetencia állapotának mérőszám-elemzésében.
@@ -85,7 +86,7 @@ A jelentés a következő két Dátumtartomány alapján állítható be:
 
 Ez a nézet az eddig elért kompetenciák részletes táblázatát jeleníti meg, a kompetenciák szintjével és a kompetenciával.
 
-:::image type="content" source="images/pci/pci-competencies-comp-history-3.png" alt-text="kompetenciák összegzése":::
+:::image type="content" source="images/pci/pci-competencies-comp-history-3.png" alt-text="kompetenciák előzményei":::
 
 ## <a name="next-steps"></a>Következő lépések
 

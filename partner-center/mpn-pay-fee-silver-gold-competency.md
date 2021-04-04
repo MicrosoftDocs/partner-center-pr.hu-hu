@@ -8,19 +8,19 @@ ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: 5ce5dadfc7fbb22ffc206e2dd48cccc0b274c499
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: b8e7d7e7bdd5cb8bc9b90b3461528859eb801d0d
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101757390"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132485"
 ---
 # <a name="how-to-pay-the-fee-associated-with-a-silver-or-gold-competency"></a>Silver vagy Gold kompetenciával kapcsolatos díj megfizetése
 
 **Megfelelő szerepkörök**
 
 - MPN-partner rendszergazdája
-- MPN-fiók rendszergazdája
+- Fiókadminisztrátor
 
 Ez a cikk azt ismerteti, hogyan és mikor kell fizetni az ezüst vagy arany Microsoft Partner Network kompetenciához való bevezetéshez kapcsolódó díjat. A cikk azt is leírja, hogyan módosíthatja az előnyben részesített fizetési módot, hogyan vonhatja vissza a rendelést, és hogyan lehet 25%-os díjszabási kedvezményt kapni Ezüst-arany kompetenciára való áttéréskor.
 

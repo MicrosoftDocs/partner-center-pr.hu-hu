@@ -9,20 +9,16 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0162766018087112ebe34c82f29902b3225822b1
-ms.sourcegitcommit: c5e9175792a4e2aac50bfae78fcef18e3cc9922a
+ms.openlocfilehash: 2ad3e686c90c286465911e8d01d12686d2c6ad15
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95812842"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132978"
 ---
 # <a name="locate-your-microsoft-partner-network-benefits"></a>A Microsoft Partner Network előnyeinek meghatározása 
 
-### <a name="applies-to"></a>A következőre érvényes:
-
-- Partnerközpont
-
-### <a name="appropriate-roles"></a>Megfelelő szerepkörök
+**Megfelelő szerepkörök**
 
 - MPN-partner rendszergazdája
 - Globális rendszergazda
@@ -89,7 +85,7 @@ Ha szeretné megtudni, hogy mely előnyök érhetők el a Microsoft Action Pack,
 
 Ha szeretné megtudni, hogyan használhatja ezeket az előnyöket, tekintse meg a [termék használati útmutatóját](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Alkalmazott Microsoft Learn-fiókok hozzárendelése](ms-learn-associate.md)
 - [Microsoft Partner Network előnyök és ajánlatok kezelése](manage-your-partner-network-benefits.md)

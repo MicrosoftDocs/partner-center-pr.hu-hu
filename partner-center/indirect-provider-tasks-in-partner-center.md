@@ -9,25 +9,25 @@ ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
 ms.date: 03/23/2021
-ms.openlocfilehash: ece0e5f3bedf1496a252ac8e8c1545fb22ec8108
-ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
+ms.openlocfilehash: 6ba6fce58df6ab6047a5ec6e7c46e1538b49756d
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104880769"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106178952"
 ---
 # <a name="partner-with-indirect-resellers-in-the-cloud-solution-provider-program"></a>Partnerkapcsolat kiépítése a közvetett viszonteladókkal a felhőszolgáltatói programban
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
 Az ilyen összetett és gyorsan változó technológiai piactéren az ügyfelek azt szeretnék, hogy a technológiai megoldások milyen versenyelőnyt biztosítanak számukra. Ilyen körülmények között érdemes a partnereknek partneri szerepvállalást befektetni az ajánlatok kibővítésére és az ügyfelek számára, hogy még többet tegyenek elérhetővé.
 
-Az új viszonteladók a piacra kerülnek, és megoldásokat keresnek az ügyfeleknek a piacain és a területieken kívüli ügyfelek számára. Meglévő technológiai szolgáltatóként jó helyzetben van, hogy a piacra irányítsa. Partner a Cloud Solution Provider (CSP) program közvetett viszonteladókkal való összekapcsolásához más partnerekkel való kapcsolódáshoz, új megoldások a piacon, valamint a Cloud Services előzetes bevezetését elősegítő ügyfelek számára.
+Az új viszonteladók a piacra kerülnek, és megoldásokat keresnek az ügyfeleknek a piacain és a területieken kívüli ügyfelek számára. Meglévő technológiai szolgáltatóként jó helyzetben van a piacra jutási útvonala. Partner a Cloud Solution Provider (CSP) program közvetett viszonteladókkal való összekapcsolásához más partnerekkel való kapcsolódáshoz, új megoldások a piacon, valamint a Cloud Services előzetes bevezetését elősegítő ügyfelek számára.
 
 A közvetett szolgáltató – viszonteladói (kétszintű) modellben a közvetett viszonteladókkal partnereknek ajánljuk a Microsoft felhőalapú megoldásait az ügyfeleknek. Termékeit és előfizetéseit közvetlenül a Microsofttól vásárolhatja meg, majd ezeket a megoldásokat a viszonteladók számára ajánljuk fel az ügyfeleknek.
 
@@ -45,7 +45,7 @@ Arról, hogy mi szükséges ahhoz, hogy a CSP programban részt vegyenek közvet
 
 ## <a name="indirect-provider-tasks-in-the-partner-center"></a>Közvetett szolgáltatói feladatok a Partnerközpontban
 
-A következő lépések végrehajtásával hozhat létre és kezelhet partnereket közvetett viszonteladókkal és ügyfelekkel. A második és a harmadik lépéseket az alábbiakban részletesebben ismertetjük.
+A következő lépések végrehajtásával hozhat létre és kezelhet partnereket közvetett viszonteladókkal és ügyfelekkel. A 2. és a 3. lépést az alábbiakban részletesebben ismertetjük.
 
 1. Tekintse át a vállalat profilját a [Microsoft hivatalos közvetett szolgáltatók listáján](https://partnercenter.microsoft.com/partner/find-a-provider).
 
@@ -111,7 +111,7 @@ Az alábbi lépéseket követve távolíthatja el a kapcsolatot a meglévő köz
 
 1. Az irányítópulton a partner központ menüjében válassza a **közvetett viszonteladók** lehetőséget. 
 
-2. A **közvetett viszonteladók** lapon válassza a **partnerség eltávolítása** lehetőséget. Ekkor megjelenik egy üzenet, amely kéri a megerősítést, hogy a folytatáshoz válassza az Igen lehetőséget.
+2. A **közvetett viszonteladók** lapon válassza a **partnerség eltávolítása** lehetőséget. Egy üzenet jelenik meg, amely megerősítést kér. A folytatáshoz válassza az **Igen** lehetőséget.
 
 :::image type="content" source="images/ip-ir-relationship.png" alt-text="Partnerség eltávolítása":::
 
@@ -151,7 +151,7 @@ Amikor új ügyfél-fiókkal társít egy viszonteladót, a fiók-és előfizet�
 
 ### <a name="add-new-subscriptions-to-customer-accounts"></a>Új előfizetések hozzáadása az ügyfelek fiókjaihoz
 
-Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meglévőket, vagy további licenceket vásárolnak, ezeket a módosításokat az ügyfél fiókján keresztül a M365-portálon keresztül teheti meg. Ezt a Azure Portal nem teheti meg.
+Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meglévőket, vagy további licenceket vásárolnak, akkor ezeket a módosításokat az ügyfél fiókján keresztül a Microsoft 365-portálon teheti meg. Ezt a Azure Portal nem teheti meg.
 
 1. Válassza ki az **ügyfeleket** a **partner Center** menüjéből.
 

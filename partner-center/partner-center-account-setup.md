@@ -9,17 +9,19 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 514c8d1e1c94c0a500384502ad57bad977dcc368
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 8e62462b6d35e8e6994e5e596ce433b37d222fc2
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712848"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132281"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
-**Megfelelő szerepkörök** – globális rendszergazda
-- MPN-fiók rendszergazdája
+**Megfelelő szerepkörök** 
+
+- Globális rendszergazda
+- Fiókadminisztrátor
 
 A partner Centerben létrehozott fiók a munkahelyi e-mail-cím és az üzleti adatok regisztrálása. Miután létrehozta a fiókot, befejezi a vállalat teljes profiljának beállítását, beleértve a támogatás részleteit, a fájlok adómentességét, ha szükséges, és az elsődleges kapcsolattartási adatokat is. A céges fiók emellett felhasználói fiókokat is tartalmaz a csapatának, akik a partner centert fogják használni. Az általuk végzett munka magában foglalja az ügyfelek hozzáadását és felügyeletét, az előfizetések értékesítését, a számlázással és a számlázással, az üzleti profilok létrehozásával, az átirányítások kezelésével, az ösztönzők bevezetésével, a támogatás biztosításával és egyéb
 
@@ -48,7 +50,7 @@ Ha a **Beállítások** ikont választja, és megnyitja a **Fiókbeállítások*
 
 :::image type="content" source="images/accountsettings/reseller.png" alt-text="A menü megjeleníti a partnerek és a viszonteladók lapjait":::
 
-A partner lap tartalmazza az összes olyan jogi üzleti információt, mint például a bejegyzett jogi név és a vállalat, valamint az elsődleges kapcsolattartó és az üzleti telephely. A CSP businesst segítő partnerek viszonteladói lapja magában foglalja az **ügyfélszolgálati profilt**.
+A partner lap tartalmazza az összes olyan jogi üzleti információt, mint például a vállalatnál bejegyzett jogi név és a cég, valamint az elsődleges kapcsolattartó és az üzleti telephely. A CSP businesst segítő partnerek viszonteladói lapja magában foglalja az **ügyfélszolgálati profilt**.
 
 Ha a vállalat nem vesz részt a CSP-ben, az alapértelmezett nézet csak a **partner** lapot fogja megjeleníteni, amely tartalmazza az **ügyfélszolgálati profilt**.
 
@@ -60,7 +62,7 @@ Több fiók is része lehet. A bal oldali navigációs menüben megtekintheti, h
 
 Ha nem látja a fiók-választót, csak egy fiókhoz tartozik. 
 
-Ha rákattint erre a választóra, a rendszer az összes olyan fiókot listázza, amelynek a részét képezi. Ezután rákattinthat bármelyikre, és átválthat erre a fiókra. Minden, ami azután megjelenik a fiók környezetében.  
+Ha kijelöli ezt a választót, a rendszer az összes olyan fiókot listázza, amelynek a részét képezi. Ezután kiválaszthatja az egyiket, és átválthat erre a fiókra. Minden, ami azután megjelenik a fiók környezetében.  
 
 Az alábbi példában a bejelentkezett felhasználó a három kiemelt fiók részét képezi. A felhasználó egy fiókra kattintva válthat egymás között.
 
@@ -74,17 +76,17 @@ Ezekkel a lapokkal az üzleti tevékenység részletes területeit kezelheti, be
 
 ### <a name="legal-info"></a>Jogi információk
 
-Amikor először csatlakozik a partneri központhoz, a vállalat egy ellenőrzési folyamaton keresztül halad a Microsofttal. Az ellenőrzés állapotát a **jogi információk** lapon követheti nyomon. Itt látható az elsődleges partner (aki a Microsoft kapcsolatba lép a partnerekkel kapcsolatos kérdésekkel) és az elsődleges jogi kapcsolatfelvételsel (a jogi információkat és az állapotot felügyelő személy). A vállalata összes üzleti telephelye szerepel a listán, és Itt adhatók hozzá. 
+Amikor először csatlakozik a partneri központhoz, a vállalat egy ellenőrzési folyamaton keresztül halad a Microsofttal. Az ellenőrzés állapotát a **jogi információk** lapon követheti nyomon. Itt látható az elsődleges partner (aki a Microsoft felveszi a kapcsolatot a partneri kérdésekkel) és az elsődleges jogi kapcsolatfelvételt (a jogi információkat és az állapotot kezelő személyt). A vállalata összes üzleti telephelye szerepel a listán, és Itt adhatók hozzá. 
 
 ### <a name="provide-your-companys-legal-business-details"></a>Adja meg vállalata jogi üzleti adatait
 
 Megkeresheti a vállalati profilt, vagy manuálisan is megadhatja a vállalati adatokat. Ha a vállalata [Dun & bradstreettől](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)van regisztrálva, a Duns-azonosító használatával megkeresheti a vállalati adatokat. Ha meg szeretné adni a vállalat adatait, válassza a **manuális** lehetőséget.
 
-Ha a vállalata **Örményországban**, **Magyarországon**, **Kirgizisztánban**, **Moldovában**, **Üzbegisztánban** vagy **Oroszországban** található, és manuálisan adja meg a saját címeit, a rendszer érvényesíti Önnek a címedet. Ha az Ön által megadott típus eltér az ellenőrzötttől, javasoljuk, hogy használja a hitelesített címeket. Az ellenőrzéssel biztosítható, hogy a címek pontosak legyenek, és a szállítása is megtörténik.
+Ha a vállalata **Örményországban**, **Magyarországon**, **Kirgizisztánban**, **Moldovában**, **Üzbegisztánban** vagy **Oroszországban** található, és manuálisan adja meg a saját címeit, a rendszer érvényesíti Önnek a címedet. Ha a beírt adatok eltérnek az ellenőrzötttől, javasoljuk, hogy használja az ellenőrzött címeket. Az ellenőrzéssel biztosítható, hogy a címek pontosak legyenek, és a szállítása is megtörténik.
 
 ### <a name="primary-contact-email"></a>Elsődleges kapcsolattartási e-mail cím
 
-Az elsődleges kapcsolattartási e-mail-cím, amelyet a rendszer a fiók ellenőrzésével kapcsolatos értesítésre használ. Fontos, hogy az elsődleges kapcsolathoz megadott e-mail-cím rendszeresen felügyelhető és megfigyelhető legyen.  
+Az elsődleges kapcsolattartási e-mail-cím, amellyel értesítjük a fiókja ellenőrzéséről. Fontos, hogy az elsődleges kapcsolathoz megadott e-mail-cím rendszeresen felügyelhető és megfigyelhető legyen.  
 
 További információ az [ellenőrzésről és a fiókadatokról](verification-responses.md).
 

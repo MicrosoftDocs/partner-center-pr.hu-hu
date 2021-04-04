@@ -9,18 +9,18 @@ author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a60d83a79151d90ff98ead8d5be00c259a9cf4b3
-ms.sourcegitcommit: 673c467aa8ef4e02ff24fbc3e7d4f904316141e4
+ms.openlocfilehash: 40b2867695a7692cb863a00062101c2b5521c657
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104924264"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132400"
 ---
 # <a name="how-to-create-a-partner-logo-certified-letter-or-award-using-logo-builder"></a>Partneri embléma, minősített levél vagy díj létrehozása a logo Builder használatával
 
 **Megfelelő szerepkörök**
 
-- Minden partner Center-felhasználó, aki többet szeretne megtudni a logo Builder szolgáltatásról
+- A logo Builder szolgáltatással kapcsolatos további tudnivalókat az összes partner
 
 A Silver vagy Gold kompetenciák elérésének értéke az ügyfelekkel való különbségtétel lehetősége. Az Ön által elért kompetenciák vagy kompetenciák beszerzéséhez a partner Centerben az értékesítési és marketing anyagokon és a céges profilban használható emblémát is bemutatjuk. 
 
@@ -28,7 +28,7 @@ Ha már elfogadták az Azure Expert MSP-programot, az év egy partnerét kapta, 
 
 ## <a name="what-is-available-in-logo-builder"></a>Az embléma-szerkesztőben elérhető elemek
 
-Az embléma-szerkesztőben lévő vállalat számára elérhetővé válik a Microsoft Partner Network (MPN) tagsága. Az MPN-tagság változása akár 24 óráig is eltarthat, például egy új kompetencia megszerzéséhez.  
+Az embléma-szerkesztőben a vállalat számára elérhető emblémák a Microsoft Partner Network (MPN) tagsághoz vannak igazítva. Az MPN-tagság változása akár 24 óráig is eltarthat, például egy új kompetencia megszerzéséhez.
 
 Az embléma-szerkesztőben létrehozható eszközök a következők:
 

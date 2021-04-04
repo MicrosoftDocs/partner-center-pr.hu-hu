@@ -8,16 +8,17 @@ description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelek 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 03224c029104101c2187d07bfce720294e43cf88
-ms.sourcegitcommit: ce1331c0e600e2f73b85a90ac159a9026ab6a691
+ms.openlocfilehash: e05ea33665ded2e52eae2ef8f096b30d3bfe9ee5
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98147105"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086294"
 ---
 # <a name="power-bi-usage-report-available-from-the-partner-center-insights-dashboard"></a>Power BI használati jelentés elérhető a partner Center-adatáttekintési irányítópultról
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
@@ -38,15 +39,15 @@ A Power BI használati jelentés használati adatokat biztosít az ügyfelek sz�
 
 Az összefoglalás szakasz az ügyfelek számára eladott vagy kezelt Power BI használati előfizetésekkel kapcsolatos legfontosabb mutatók pillanatképét jeleníti meg. 
 
-- Rendelkezésre álló helyek: a kiválasztott időkereten belül eladott licencek teljes száma.
+- Rendelkezésre álló helyek: a kiválasztott időszakban eladott licencek teljes száma.
 
    A Micro diagram a kiválasztott dátumtartomány esetében a rendelkezésre álló ülőhelyek számának havi hónapját mutatja.
 
-- Hozzárendelt ülőhelyek: a kijelölt időkereten belül hozzárendelt licencek teljes száma.
+- Hozzárendelt ülőhelyek: a kijelölt időkeretben hozzárendelt licencek teljes száma.
 
    A Micro diagram a kijelölt időtartományban a hozzárendelt ülőhelyek számának havi hónapját mutatja.
 
-- Aktív ülőhelyek: a kiválasztott időkereten belül használatos licencek teljes száma. 
+- Aktív ülőhelyek: a kiválasztott időszakon belül használatos licencek teljes száma. 
 
    A Micro diagram a havi aktív ülések havi trendjét mutatja be a kiválasztott időszakban.
 

@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 32b8eafa688ce6210ec0732368d8dd6892e61d75
-ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
+ms.openlocfilehash: 3b75bffcab2c51ac81e3c2f623ad74a9314339b9
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97514731"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132298"
 ---
 # <a name="buy-or-renew-a-microsoft-action-pack-subscription-or-silver-and-gold-competencies"></a>Microsoft Action Pack-előfizetés, illetve Silver és Gold kompetencia vásárlása vagy megújítása
 
@@ -22,12 +22,12 @@ ms.locfileid: "97514731"
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - MPN-partner rendszergazdája
 - Felügyeleti ügynök
 
 
-A partnervállalat [irányítópultján](https://partner.microsoft.com/dashboard)a Microsoft Partner Network (MPN) tagjai vásárolhatnak vagy megújítanak juttatási ajánlatokat, beleértve a Microsoft Action Pack előfizetését, valamint az ezüst és arany kompetenciákat.
+A partner Center [irányítópultján](https://partner.microsoft.com/dashboard)a Microsoft Partner Network (MPN) tagjai Benefit ajánlatokat vásárolhatnak vagy újítanak meg, beleértve a Microsoft Action Pack-előfizetést és az ezüst-és arany-kompetenciát is.
 
 ## <a name="buy-microsoft-action-pack-for-the-first-time"></a>Microsoft Action Pack vásárlása első alkalommal
 
@@ -97,7 +97,7 @@ A szolgáltatási kérelem állapotának vizsgálatához válassza ki a **támog
 
 3. Válassza a **számla letöltése** lehetőséget.
  
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 -   [A Action Pack előnyeinek használatának megkezdése](manage-your-partner-network-benefits.md)
 

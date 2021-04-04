@@ -9,16 +9,17 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c7b0be301b9c0fc56200c128b225fc849a2f04c2
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: b7d963bffcfeebed3b7540dfd02aadd876dfcaa6
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530565"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086226"
 ---
 # <a name="download-reports"></a>Jelentések letöltése
 
 **Megfelelő szerepkörök**
+
 - Executive Report Viewer
 - Jelentés megjelenítője
 
@@ -34,7 +35,7 @@ Jelentés létrehozásához először válassza ki a jelentést a **Select Repor
 
 :::image type="content" source="images/pci/create-new-report.png" alt-text="Új jelentés létrehozása":::
 
-:::image type="content" source="images/pci/generated-reports.png" alt-text="Új jelentés létrehozása":::
+:::image type="content" source="images/pci/generated-reports.png" alt-text="Generált jelentések":::
 
 >[!NOTE] 
 >Csak azok a felhasználók tölthetik le a jelentéseket, akik a vezetői jelentések megjelenítői. További információ az információkhoz tartozó irányítópult-jelentésekhez való szerepköralapú hozzáférésről: [PCI-szerepkörök](pci-roles.md). 
@@ -43,7 +44,7 @@ Jelentés létrehozásához először válassza ki a jelentést a **Select Repor
 
 A következő jelentések tölthetők le:
 
-A **partner profil** a partnerrel kapcsolatos részleteket tartalmazza. A jelentésben a partner-azonosító, a partner neve, a partner városa, a partner országa és egyéb adatai érhetők el. Ehhez a jelentéshez nem alkalmazható összesítés vagy lookback.
+A **partner profil** a partnerrel kapcsolatos részleteket tartalmazza. A jelentésben a partner-azonosító, a partner neve, a partner városa és a partnerország adatai érhetők el. Ehhez a jelentéshez nem alkalmazható összesítés vagy lookback.
 
 Az **ügyfél adatai** a partner által társított ügyfelek adatait ismertetik. Emellett olyan kulcsfontosságú mérőszámokat is biztosít, mint az eladott licencek, az összesített ACR és így tovább. A jelentést havonta összesítjük.
 

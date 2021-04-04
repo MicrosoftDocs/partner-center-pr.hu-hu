@@ -1,22 +1,22 @@
 ---
 title: Kifizetési ütemtervek és folyamatok
 description: Ismerje meg a kifizetéseket és tranzakciókat, például a kereskedelmi piactér és egyéb tranzakciók fizetési ütemterveit és újrakapcsolási folyamatait.
-ms.service: marketplace
-ms.subservice: partnercenter-marketplace-publisher
+ms.service: partner-dashboard
+ms.subservice: partnercenter-mpn
 ms.topic: conceptual
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 12/04/2020
-ms.openlocfilehash: 9c4ad89eb25e811c4bea11e7e7e5d3845ceafee6
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: f4d31a5cf0752d03248b0efddb98ce621f9174f9
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756841"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086175"
 ---
 # <a name="payout-schedules-and-processes"></a>Kifizetési ütemtervek és folyamatok
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Fiókadminisztrátor
 - Globális rendszergazda
@@ -73,16 +73,16 @@ Az itt megfogalmazott kifizetési folyamat alapján a Microsoft már kifizette a
 
 A Microsoft a következő módszerek egyikének használatával visszakapcsolja az Ön számára már kifizetett kifizetéseket: (1) a Microsoft kivonja a jövőbeli kifizetésekből kifizetett összegeket. Ha például a kifizetések $1 000-es értéke nem gyűjthető és nem írható, a jövőbeli kifizetések visszatartásra kerülnek, amíg a $1 000 vissza nem áll, vagy (2) a Microsoft visszatérítési vagy számlázási közzétevőket igényelhet a nem gyűjtött összegekért.
 
-A következő példa egy ütemezett ütemtervet mutat be:
+A következő ütemterv egy példa:
 
 | Esemény | Hozzávetőleges dátum * | Partner láthatósága |
 | --- | --- | --- |
 | Példa a kifizetés dátumára | 10/15/2020 | A kifizetési **irányítópulton a** tranzakciós előzmények és a fizetések részben ellátottként van megjelölve |
 | <font color="red">Ha az ügyfél nem fizet a Microsoftnak</font> | 12/2/2020 – 12/5/2020 | Nincs változás, ugyanaz, mint fent |
-| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincs |
-| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincs |
+| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincsenek |
+| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincsenek |
 | Valószínűleg a közzétevő értesítést kap a kiírásról | 1/7/2021 | A közzétevőnek küldött e-mail-értesítés, amelyet az ügyfele még nem küldött el. A tranzakció-azonosító és a dollár összege is szerepel. |
-| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincs |
+| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincsenek |
 | A gyűjtési folyamat vége/az alapok le vannak írva | 2/15/2021 | A közzétevőnek elküldött e-mail-értesítés, amelyből a rendszer kiírta a forrásokat. A tranzakció-azonosító és a dollár összege is szerepel. |
 | A kifizetés le van vonva | 2021. 03. 01. | A közzétevő negatív tranzakciót fog látni a partner Center kifizetési utasításban |
 | A kifizetés megtagadva | 3/15/2021 | A jövőbeli kifizetések a partner Center kifizetési nyilatkozatában jelennek meg. A közzétevő nem kap fizetést, amíg az egyenleg már nem negatív.  |
@@ -92,7 +92,7 @@ A következő példa egy ütemezett ütemtervet mutat be:
 
 ## <a name="number-of-days-for-payments-to-reach-a-payout-account"></a>A kifizetési fiókhoz való befizetéshez szükséges napok száma
 
-A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk, de további időt vesz igénybe, hogy a fizetés elérje a fiókját. A napok száma a fiókhoz használt fizetési módszertől függ, az alább leírtak szerint.
+A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk, de egy másik alkalommal is eltarthat, amíg a fizetés megérkezik a fiókjába. A napok száma a fiókhoz használt fizetési módszertől függ, az alább leírtak szerint.
 
 > [!NOTE]
 > Az alább látható napok a következők: közelítő; a fizetés több vagy kevesebb időt vehet igénybe a fiókja eléréséhez.

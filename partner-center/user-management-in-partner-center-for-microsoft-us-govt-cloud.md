@@ -1,6 +1,6 @@
 ---
 title: Felhasználói és licencelési felügyelet
-titleSuffix: Microsoft Cloud for US Government - Partner Center
+titleSuffix: Microsoft Government Cloud - Partner Center
 description: Ismerje meg, hogyan és hol kezelheti a Microsoft Cloud az USA kormányzati partnerei, ügyfelei és licencei, valamint a jelszavak alaphelyzetbe állítása során.
 ms.topic: article
 ms.date: 03/15/2019
@@ -10,14 +10,14 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f2f1a4ce2ed1ea4ed21de68454a123458120edfd
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 0fce25dc07f5cd07138cde2619cdf0989cd17251
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712936"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086566"
 ---
-# <a name="user-and-license-management-in-partner-center-for-microsoft-cloud-for-us-government"></a>Felhasználói és licencelési felügyelet a partner Centerben a Microsoft Cloud az USA kormányzati szervei számára
+# <a name="user-and-license-management-in-partner-center-for-government-microsoft-cloud"></a>Felhasználói és licencelési felügyelet a partner Centerben kormányzati Microsoft Cloud
 
 **A következőre érvényes:**
 
@@ -29,9 +29,9 @@ ms.locfileid: "104712936"
 
 ## <a name="how-to-manage-users-in-the-azure-portal-for-microsoft-cloud-for-us-government"></a>Felhasználók kezelése a Azure Portalban Microsoft Cloud az USA kormányzati szervei számára
 
-Ha bejelentkezett a partner Centerbe Microsoft Cloud az USA kormányzati szerveinek, akkor Azure Portal az USA-beli kormányzati szerveknek szóló Microsoft Cloud megnyitásához nem kell újra bejelentkeznie. Ha azonban közvetlenül be kell jelentkeznie a Azure Portal Microsoft Cloud az Egyesült Államok kormányzati szervei számára, lépjen a ( https://portal.azure.us/) és jelentkezzen be az Azure ad-bérlőhöz tartozó globális rendszergazdai hitelesítő adatokkal Microsoft Cloud az Egyesült Államok kormányzati szervei számára.
+Ha bejelentkezett a partneri központba Microsoft Cloud az Egyesült Államok kormánya számára, akkor Azure Portal a Microsoft Government Cloud-hoz való bejelentkezést anélkül is megnyithatja, hogy újra be kellene jelentkeznie. Ha azonban közvetlenül be kell jelentkeznie a Microsoft Government Cloud Azure Portalba, lépjen a ( https://portal.azure.us/) és jelentkezzen be az Azure ad-bérlőhöz tartozó globális rendszergazdai hitelesítő adatokkal a Microsoft Government Cloud szolgáltatáshoz.
 
-Miután sikeresen bejelentkezett Microsoft Cloud az Egyesült Államok kormányzati szerveinek Azure Portal, nyissa meg az Azure Active Directory (Azure AD) áttekintés oldalt, és kövesse az alábbi témakörökben található utasításokat:
+Miután sikeresen bejelentkezett a Microsoft Government Cloud Azure Portalba, nyissa meg a Azure Active Directory (Azure AD) áttekintés oldalt, majd kövesse a következő témakörökben található utasításokat:
 
 > [!NOTE]  
 > Az alábbi hivatkozásokra kattintva egy másik webhelyre kerül. 
@@ -44,6 +44,6 @@ Miután sikeresen bejelentkezett Microsoft Cloud az Egyesült Államok kormányz
 
 **Kapcsolódó témakörök**
 
--  [**A Microsoft Cloud for US Government Partnerközpontja**](partner-center-for-microsoft-us-govt-cloud.md)
+-  [**Partneri központ a Microsoft Government Cloudhoz**](partner-center-for-microsoft-us-govt-cloud.md)
 
--  [**Regisztráljon a Cloud Solution Provider programba az Egyesült Államok kormányzati szerveinek Microsoft Cloud**](enroll-in-csp-for-microsoft-us-govt-cloud.md)
+-  [**Regisztráljon a Microsoft Government Cloud felhőalapú megoldás-szolgáltató programjában**](enroll-in-csp-for-microsoft-us-govt-cloud.md)

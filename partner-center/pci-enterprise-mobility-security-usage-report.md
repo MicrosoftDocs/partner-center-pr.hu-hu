@@ -8,16 +8,17 @@ description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelek 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 48577571e77bd0181b78e01558a07edd1a3b925d
-ms.sourcegitcommit: ce1331c0e600e2f73b85a90ac159a9026ab6a691
+ms.openlocfilehash: c62e074c7329ada33390b77be13c523660344d49
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98147106"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086277"
 ---
 # <a name="enterprise-mobility--security-usage-report-available-from-the-partner-center-insights-dashboard"></a>Enterprise Mobility + Security használati jelentés elérhető a partner Center-adatáttekintési irányítópultról
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
@@ -38,11 +39,11 @@ A Enterprise Mobility + Security használati jelentés használati adatokat bizt
 
 Az összefoglalás szakasz az ügyfelek számára eladott vagy kezelt Enterprise Mobility + Security használati előfizetésekkel kapcsolatos legfontosabb mutatók pillanatképét jeleníti meg. 
 
-- Új előfizetések: a kiválasztott időkereten belül eladott vagy kezelt előfizetések teljes száma.
+- Új előfizetések: a kiválasztott időszakban eladott vagy kezelt előfizetések teljes száma.
 
    A Micro diagram a kiválasztott dátumtartomány új előfizetésének havi hónapját mutatja be.
 
-- Rendelkezésre álló helyek: a kiválasztott időkereten belül eladott licencek teljes száma.
+- Rendelkezésre álló helyek: a kiválasztott időszakban eladott licencek teljes száma.
 
    A Micro diagram a rendelkezésre álló ülőhelyek száma hónapról hónapra kiterjedő trendjét mutatja be a kiválasztott Dátumtartomány alapján.
 
@@ -54,7 +55,7 @@ Az összefoglalás szakasz az ügyfelek számára eladott vagy kezelt Enterprise
 
 ## <a name="enterprise-mobility--security-usage-by-geography"></a>Használat Enterprise Mobility + Security földrajz szerint
 
-A **földrajzilag Enterprise Mobility + Security földrajzi elhelyezkedés** a havi aktív felhasználók (Mau) és a fizetős rendelkezésre álló egységek (Pau) elosztását mutatja be az ügyfél országa szerint. A MAU az előző hónapban használt licencek száma és a PAU a kiválasztott időkereten belül eladott vagy kezelt fizetett helyek számára vonatkozik. A Térkép világosabb színei alacsonyabb értékeket jelölnek, míg a sötétebb színek nagyobb értékeket jelentenek. A rácson kereshet és kijelölhet egy országot. Részletesebben is megtekintheti a nagyítást.
+A **földrajzilag Enterprise Mobility + Security földrajzi elhelyezkedés** a havi aktív felhasználók (Mau) és a fizetős rendelkezésre álló egységek (Pau) elosztását mutatja be az ügyfél országa szerint. A MAU az előző hónapban használt licencek számára utal, és a PAU a kiválasztott időkereten belül eladott vagy kezelt, díjköteles munkaállomásokra utal. A Térkép világosabb színei alacsonyabb értékeket jelölnek, míg a sötétebb színek nagyobb értékeket jelentenek. A rácson kereshet és kijelölhet egy országot. Részletesebben is megtekintheti a nagyítást.
 
 Az **országok/** régiók tábla száma az összes olyan országot és régiót mutatja be, ahol az Azure-használati események jönnek létre.
 

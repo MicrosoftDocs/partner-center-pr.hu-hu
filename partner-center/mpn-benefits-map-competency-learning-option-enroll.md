@@ -8,19 +8,19 @@ ms.subservice: partnercenter-csp
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: 12fea98deb0b4ad0fc85783d04912ac7f76b8115
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: de833ae713fe88335103e9dbaa96153ad20ec84e
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756137"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106133046"
 ---
 # <a name="use-partner-center-to-enroll-as-a-microsoft-learning-partner"></a>A partner Center használata Microsoft Learning-partnerként való regisztráláshoz
 
 **Megfelelő szerepkörök**
 
 - MPN-partner rendszergazdája
-- MPN-fiók rendszergazdája
+- Fiókadminisztrátor
 
 Ez a cikk ismerteti, hogyan regisztrálhat a partner a Microsoft Partner Network a Learning partner programba.
 
@@ -50,7 +50,7 @@ A Learning Action Pack az alapszintű bejegyzés a Learning partner programba. H
 
 A Learning Action Pack támogatja azokat a partnereket, akik képzési szolgáltatásokat, ajánlatokat vagy kedvezményeket kívánnak biztosítani a tanfolyami piactéren, és hasznos előnyökkel szolgálnak a partnerek számára a különböző Microsoft-termékcsaládok szakértői számára.
 
-A nem tanulási partnerek teljes díj ellenében vásárolhatják meg a kurzusokat, csak a belső képzést. Ha a tartalmat a szervezeten kívülre szeretné kézbesíteni, szüksége lesz egy Microsoft Certified Trénerre (1 MCT), és regisztrálnia kell a tanulási Action Packra.
+A nem tanulási partnerek teljes díj ellenében vásárolhatják meg a kurzusokat, csak a belső képzést. Ha a tartalmat a szervezeten kívülre szeretné kézbesíteni, szüksége lesz egy Microsoft Certified Trénerre (egy MCT), és regisztrálnia kell a tanulási Action Packra.
 
 Miután elérte a szükséges KPI-ket, elvégezheti a további követelményeket, és megadhatja, hogy egy ezüst/arany tanulási lehetőségre frissítsen.
 
@@ -109,7 +109,7 @@ Forduljon a [partneri Front támogatási szolgálatához](https://partner.micros
 
 A KPI-jelentések havonta egyszer frissülnek a hónap közepén. A tanulási program megújítására vonatkozó jogosultság mérése az elmúlt 12 hónap során elért teljesítménymutatók alapján, az évfordulós dátum alapján. Például a 2020. január 15-től kezdődően a KPI-adatmennyiség a 2019 – december 2019-ig jelenik meg. Ha a számla a 2020. januári dátummal lett ellátva, a megfelelő KPI-k a 2019. február 15-én lesznek láthatók. **A rendelés megerősítése és a partneri jelentések nem lesznek elfogadva.** Csak a tényleges számlák lesznek elfogadva.
 
-### <a name="q-does-a-one-day-training-equate-to-1-kpi"></a>K. Az egynapos képzés 1 KPI-vel egyenlő?
+### <a name="q-does-a-one-day-training-equate-to-one-kpi"></a>K. Az egynapos képzések egyetlen KPI-vel egyenlőek?
 
 A KPI-vel való találkozás nem a képzés időtartamára vonatkozik. Ha többet szeretne megtudni a KPI-k méréséről, tekintse meg a [learning partner beléptetési útmutatójának](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/)teljesítményre vonatkozó példáit.
 

@@ -9,24 +9,23 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5f743834578b4a4b40453704a9ca1ef5adf4bc82
-ms.sourcegitcommit: 6d45415908711cd0e28aeb19756b036274dcd326
+ms.openlocfilehash: 925532881b6f28b2e7a9d06372a92eed95716d48
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "92527985"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132723"
 ---
 # <a name="multi-channel-support---using-other-partners-to-support-customer-subscriptions-purchased-elsewhere"></a>Többcsatornás támogatás – más partnerek használata a máshol vásárolt ügyfél-előfizetések támogatásához
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Partnerközpont
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Értékesítési ügynök
 
 A partner Center többcsatornás funkciója olyan forgatókönyveket támogat, amelyekben az ügyfél a máshol vásárolt előfizetések kezeléséhez és támogatásához szeretne partnert felvenni. A többcsatornás támogatás akkor érvényes, ha a felhasználó:

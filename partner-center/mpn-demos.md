@@ -8,21 +8,21 @@ ms.subservice: partnercenter-mpn
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 458f055dc55d6026ec042c4c40766635d229c08b
-ms.sourcegitcommit: df3360786b46f9c2724dbd521e11366ffcbda307
+ms.openlocfilehash: 26162b4164d3bb8f1572c460f431efab056e1a8a
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100083251"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132587"
 ---
 # <a name="demos-for-mpn-partners--microsoft-365-dynamics-365-teams-and-more"></a>Az MPN-partnerek – Microsoft 365, Dynamics 365, csapatok és egyéb bemutatók
 
-**Megfelelő szerepkörök**:
+**Megfelelő szerepkörök**
 
 - MPN-partner rendszergazdája
 - Fiókadminisztrátor
 
-A Microsoft Partner Network számos demót biztosít ezüst-, arany-és Action Pack-partnerek számára.
+A Microsoft Partner Network (MPN) számos demót biztosít ezüst-, arany-és Action Pack-partnerek számára.
 
 ## <a name="access-mpn-demos"></a>Hozzáférés MPN-bemutatók
 

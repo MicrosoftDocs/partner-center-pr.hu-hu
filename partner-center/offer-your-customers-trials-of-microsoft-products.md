@@ -9,23 +9,20 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a51504a5e560f8a8041c448c3e5d9e7f0cfdae07
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 53f4a16ac5d0f33fd534d7fd9a13eaf5a25cf3ea
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528471"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132331"
 ---
 # <a name="give-customers-30-day-free-trials-of-microsoft-products"></a>30 napos ingyenes próbaverziók a Microsoft-termékekhez
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-
 **Megfelelő szerepkörök**
--   Globális rendszergazda 
--   Felhasználói rendszergazda
--   Értékesítési ügynök
+
+- Globális rendszergazda
+- Felhasználói felügyeleti rendszergazda
+- Értékesítési ügynök
 
 Az ügyfelek új Microsoft-termékekhez való bevezetésének jó módja, ha 30 napos ingyenes próbaverziót kínál. A katalógus próbaverzióit ugyanúgy regisztrálhat, mint sok más online szolgáltatások. Minden partner részt vehet.
 
@@ -54,12 +51,12 @@ A próbaverziós licenceket ugyanúgy kell hozzárendelni a felhasználókhoz, m
 Próbaverzió beszerzése az ügyfélnek a partner Centerben:
 
 1. A partner Centerben **válassza a** **katalógus** lehetőséget. 
-2. A katalógusban, a **Számlázási gyakoriság** listából válassza a **próbaverziós ajánlat lehetőséget** . Ez lehetővé teszi, hogy csak az ingyenes kísérletek megjelenjenek és letiltsák a nem ingyenes egyéb ajánlatokat. A próbaverziók a katalógus **próbaverziók** lapján jelennek meg.
-3. Válassza ki az ajánlathoz használni kívánt ingyenes próbaverziót, majd kattintson a **Submit (Küldés** ) gombra. Az összes próbaverzió 30 napig tart, amíg nem számlázunk. A próbaverzióban bármikor átalakíthatja a fizetős előfizetést is.
+2. A katalógusban, a **Számlázási gyakoriság** területen válassza a **próbaverziós ajánlat** lehetőséget. Ez lehetővé teszi, hogy csak az ingyenes kísérletek megjelenjenek és letiltsák a nem ingyenes egyéb ajánlatokat. A próbaverziók a katalógus **próbaverziók** lapján jelennek meg.
+3. Válassza ki az ajánlathoz használni kívánt ingyenes próbaverziót, majd kattintson a **Submit (Küldés**) gombra. Az összes próbaverzió 30 napig tart, és nem számítunk fel díjat. A próbaverzióban bármikor átalakíthatja a fizetős előfizetést is.
 
 ## <a name="converting-trials-to-paid-subscriptions"></a>Próbaverziók konvertálása fizetős előfizetésekre
 
-Az ingyenes próbaverziót a rendszer nem konvertálja automatikusan fizetős előfizetésre. Harminc nap elteltével egy ingyenes próbaverziót kell konvertálni egy fizetős előfizetésre, vagy [lejár](#expiring-offers). Az ingyenes próbaverziókat nem lehet kiterjeszteni.
+Az ingyenes próbaverziót a rendszer nem konvertálja automatikusan fizetős előfizetésre. 30 nap elteltével az ingyenes próbaverziót fizetős előfizetésre kell átalakítani, vagy [lejár](#expiring-offers). Az ingyenes próbaverziókat nem lehet kiterjeszteni.
 
 A próbaverziót a fizetős előfizetésbe kell alakítania. Ezt [a partner Center](#convert-trials-using-partner-center) vagy [a partner Center API](#convert-trials-using-apis)-k segítségével teheti meg.
 
@@ -73,14 +70,14 @@ A próbaverziókat fizetős előfizetésekre is konvertálhatja a partner Center
 1. Lépjen az ügyfél előfizetése oldalra, és válassza ki az ingyenes próbaverziót.
 2. Válassza **a próbaverzió konvertálása fizetős előfizetésre** lehetőséget.
 3. Adja meg a kívánt licenc mennyiségét és a számlázási gyakoriságot, majd kattintson az **alkalmaz** gombra.
-4. A fizetős előfizetés számlázása az átalakítás dátumától kezdődik, és az előfizetés az átalakítás dátumától számítva tizenkét hónappal meghosszabbítja az előfizetést. 
+4. A fizetős előfizetés számlázása az átalakítás dátumától kezdődik, az előfizetés pedig az átalakítás dátumától számítva 12 hónapig automatikusan megújítja az előfizetést. 
 
 ### <a name="convert-trials-using-apis"></a>Kísérletek konvertálása API-k használatával
 
 Előfordulhat, hogy módosítania kell az API-kat, hogy az ingyenes próbaverziót egy fizetős előfizetésre konvertálja. További információkért tekintse meg a következő fejlesztői dokumentációt:
 
-- [Próbaverziós előfizetés átalakítása fizetős verzióra](/partner-center/develop/convert-a-trial-subscription-to-paid)
-- [A próbaverziós konvertálási ajánlatok listájának beolvasása](/partner-center/develop/get-a-list-of-trial-conversion-offers)
+- [Próbaverziós előfizetés átalakítása fizetőssé](/partner-center/develop/convert-a-trial-subscription-to-paid)
+- [A próbaverzió átalakításával kapcsolatos ajánlatok listájának lekérése](/partner-center/develop/get-a-list-of-trial-conversion-offers)
 
 ### <a name="trials-without-conversions"></a>Konverzió nélküli próbaverziók
 
@@ -88,7 +85,7 @@ Nem minden próbaverzió konvertálható fizetős előfizetésre. A partnerek ol
 
 |**Próba**   |**Kompatibilis kisméretű üzleti ajánlatok**   |**Kompatibilis nagyvállalati ajánlatok**   |
 |----------------------------|:---------------------------------|:------------------------------------------|
-|Microsoft Teams – kereskedelmi felhő (felhasználó által kezdeményezett) próbaverzió   |Alapszintű, Microsoft 365 Vállalati verzió standard, Microsoft 365 Vállalati verzió Premium Microsoft 365 Vállalati verzió   | F3 (korábban F1), Office 365 vállalati (E1, E3 és E5), M365 F1/F3, M365 Enterprise (E3)   |
+|Microsoft Teams – kereskedelmi felhő (felhasználó által kezdeményezett) próbaverzió   |Alapszintű, Microsoft 365 Vállalati verzió standard, Microsoft 365 Vállalati verzió Premium Microsoft 365 Vállalati verzió   | F3 (korábban F1), Office 365 nagyvállalati (E1, E3 és E5), Microsoft 365 F1/F3, Microsoft 365 Nagyvállalati verzió (E3)   |
 
 >[!NOTE]
 >A fenti ajánlat hasonló szolgáltatásokkal rendelkezik, mint a hasonló funkciókkal, azonban lehetséges, hogy az ajánlatok között eltérések állnak fenn.
@@ -107,7 +104,7 @@ Az éves számlázási és ingyenes próbaverziók megegyeznek a szuverén felh�
 
 Az ingyenes próbaverziók havi és éves díj ellenében is felhasználhatók. Ha a próbaverziót fizetős előfizetésre alakítja át, akkor kiválaszthatja a számlázási gyakoriságot.
 
-Az előfizetés kezdő dátuma az átalakítás dátumától függ. Ha az ingyenes próbaverziót az éves számlázással rendelkező fizetős ajánlatra konvertáljuk, az előfizetés megújításának dátuma tizenkét hónap lesz az átalakítás dátumától számítva. Ha az ingyenes próbaverziót havi számlázással rendelkező fizetős ajánlatra konvertáljuk, az előfizetés megújításának dátuma tizenkét hónap lesz az átalakítás dátumát követő számlázási dátumtól számítva.
+Az előfizetés kezdő dátuma az átalakítás dátumától függ. Ha az ingyenes próbaverziót az éves számlázással rendelkező fizetős ajánlatra konvertáljuk, az előfizetés megújítási dátuma 12 hónapig lesz az átalakítás dátumától számítva. Ha az ingyenes próbaverziót havi számlázással rendelkező fizetős ajánlatra konvertáljuk, az előfizetés megújításának dátuma tizenkét hónap lesz az átalakítás dátumát követő számlázási dátumtól számítva.
 
 ### <a name="invoices"></a>Számlák
 

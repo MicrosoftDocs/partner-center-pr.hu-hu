@@ -9,23 +9,19 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7c42533027977853322a0bf815e3b1d387d8ad88
-ms.sourcegitcommit: 511c21ae664bd438dc9d11f880cd58400a5d9eea
+ms.openlocfilehash: 8fc5566b780c10a953cfb322ad13ce7373dc87cd
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94932844"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106133097"
 ---
 # <a name="manage-your-microsoft-partner-network-membership-benefits-and-offers-in-partner-center"></a>A Microsoft Partner Network tagsági előnyeinek és ajánlatának kezelése a partner Centerben
-
-**A következőre érvényes:**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - MPN-partner rendszergazdája
 
@@ -41,11 +37,11 @@ A tagsági juttatási csomag megvásárlása után meg kell kapnia a szoftver ku
 >[!IMPORTANT]
 >Noha nem kell globális rendszergazdának lennie a cégnél az előnyök megvásárlásához, a globális rendszergazdának kell lennie ahhoz, hogy előnyöket rendeljen az alkalmazottakhoz. Ha szükséges, globális rendszergazdaként az [ **előnyök** oldalon](https://partnercenter.microsoft.com/pcv/partnership/benefits) található utasításokat követve (bejelentkezés szükséges). Előfordulhat, hogy a vállalata már rendelkezik globális rendszergazdai jogosultságokkal, ezért mindenképpen ellenőrizze a csapatát.
 
-A juttatási csomagok közé tartoznak a licencelt szoftverek, a Cloud Services, a Visual Studio-előfizetések és a technikai támogatás foglalásai. Az ellátások csomagjai tartalmazhatnak bizonyos piacra jutási erőforrásokat, ajánlatokat és a piactal kapcsolatos programokat is. Action Pack-előfizetés részleteit a [Microsoft Partner Network](https://partner.microsoft.com/membership/internal-use-software) webhelyen érheti el.  
+A juttatási csomagok közé tartozik a licencelt szoftverek, a Cloud Services, a Visual Studio-előfizetések és a technikai támogatás kiosztása. Az ellátások csomagjai tartalmazhatnak bizonyos piacra jutási erőforrásokat, ajánlatokat és a piactal kapcsolatos programokat is. Action Pack-előfizetés részleteit a [Microsoft Partner Network](https://partner.microsoft.com/membership/internal-use-software) webhelyen érheti el.  
 
 Az összes tagsági kedvezmény megtekintéséhez és kezeléséhez lépjen az [ **előnyök** oldalra](https://partnercenter.microsoft.com/pcv/partnership/benefits) (bejelentkezés szükséges). Másik lehetőségként bejelentkezhet a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), és a bal oldali menüben válassza az [**előnyök lehetőség**] lehetőséget, majd válassza ki a megjelenített előnyöket.  
 
-A legtöbb előny aktiválásához vagy a kapcsolódó szoftverek letöltéséhez stb. a partner Center általában a globális rendszergazda vagy az MPN-partner rendszergazda szerepkörének hozzárendelését igényli. Ha nem látja az előnyöket, vagy nem tudja aktiválni az előnyöket, forduljon a partner Center globális rendszergazdájához, és győződjön meg arról, hogy rendelkezik a megfelelő engedélyekkel. [További információ a partner Center szerepköreiről](permissions-overview.md).
+A legtöbb előny aktiválásához vagy a kapcsolódó szoftverek letöltéséhez a partner Center általában a globális rendszergazda vagy az MPN-partner rendszergazdája szerepkört rendeli hozzá. Ha nem látja az előnyöket, vagy nem tudja aktiválni az előnyöket, forduljon a partner Center globális rendszergazdájához, és győződjön meg arról, hogy rendelkezik a megfelelő engedélyekkel. [További információ a partner Center szerepköreiről](permissions-overview.md).
 
 ## <a name="manage-software-benefits"></a>A szoftverek előnyeinek kezelése
 
@@ -76,18 +72,18 @@ Kétféle, a használattal kapcsolatos előfizetést kaphat, attól függően, h
 Az alábbiakkal lehet kiépíteni:
 
 - $100/hónap (vagy azzal egyenértékű a helyi pénznemben) Azure havi kredit vagy/és
-- $6000, $12000 vagy/és $13000/év (vagy mindegyik egyenértékű a helyi pénznemben) Azure bulk Credit
+- $6 000, $12 000 vagy/és $13000/év (vagy mindegyik egyenértékű a helyi pénznemben) Azure bulk Credit
 
 Ha Microsoft Azure-előfizetést szeretne aktiválni a partner Centerben, rendeljen hozzá hozzáférést a vállalaton belüli felhasználóhoz (beleértve a vendég felhasználókat), amelyhez a Azure Active Directory létrehozott felhasználói bejegyzés tartozik.
 A $100/month (vagy azzal egyenértékű helyi pénznemben) Azure havi kreditek esetében bármikor hozzáadhat vagy eltávolíthat felhasználókat ebből az előfizetésből. 
 
-Az Azure bulk (éves) kreditek esetében az eltávolítási lehetőség nem érhető el a partner Centerben, de a regisztrálási év során átviheti a tömeges jóváírást másnak. Az Azure bulk (éves) kredit-előfizetés nem kombinálható más licencelési, előre fizetett vagy jóváírási ajánlatokkal (pl.: Microsoft Nagyvállalati Szerződés, Cloud Solution partner, Azure in Open licencprogram, Azure Pass, Action Pack stb.).
+Az Azure bulk (éves) kreditek esetében az eltávolítási lehetőség nem érhető el a partner Centerben, de a regisztrálási év során átviheti a tömeges jóváírást másnak. Az Azure bulk (éves) kredit-előfizetés nem kombinálható más licencelési, előre fizetett vagy jóváírási ajánlatokkal (azaz Microsoft Nagyvállalati Szerződés, felhőalapú megoldási partner, Azure in Open licencprogram, Azure Pass, Action Pack stb.).
 
 ## <a name="license-based-subscriptions"></a>Licenc alapú előfizetések
 
-Az Azure & Cloud Products lap licenc-alapú előfizetések szakaszában megtalálja az összes olyan felhőalapú terméket, amely az aktiváláshoz szükséges termékkulcsot igényel, például a Microsoft O365, a Microsoft Dynamics, a Microsoft Intune, az Azure AD alapszintű, a Power BI stb., amely az MPN-partnerként (MAPS, Silver vagy Gold) aktív ajánlat típusától függően elérhetővé válik.
+Az Azure & Cloud Products lap licenc-alapú előfizetések szakasza felsorolja az összes olyan felhőalapú terméket, amely az aktiváláshoz szükséges termékkulcsot igényel, például Microsoft Office 365, a Microsoft Dynamics, a Microsoft Intune, az Azure AD alapszintű és a Power BI. Az MPN-partnerként aktív ajánlat típusa – MAPS, Silver vagy Gold – szabályozza, hogy mely termékek vannak felsorolva.
 
-A licenc alapú előfizetések aktiválásához kattintson a legördülő listára, amely az érintett termékkel összhangban található, és olvassa el a kulcsok beváltására vonatkozó utasításokat. Ha elolvasta az utasításokat, válassza ki azt a hivatkozást, amely átirányítja a portálra a kulcsok beváltásához, valamint a termékhez rendelt kulcs megadásához.
+A licenc alapú előfizetések aktiválásához kattintson a legördülő listára, amely az érintett termékkel összhangban található, és olvassa el a kulcsok beváltására vonatkozó utasításokat. Ha elolvasta az utasításokat, válassza ki azt a hivatkozást, amely átirányítja a portálra a kulcsok és a termékhez rendelt kulcs beváltásához.
 
 >[!IMPORTANT]
 >Vegye figyelembe, hogy a kulcs beváltását követően ugyanazt a kulcsot nem lehet Másodszor beváltani, ezért ügyeljen arra, hogy ha további licenceket kell hozzáadnia, vagy a befejezési dátumot kell kiterjesztenie. Ha úgy dönt, hogy további licenceket ad hozzá, és nem terjeszti ki a befejezési dátumot, a rendszer kevesebb, mint 12 hónapig aktív előfizetést fog biztosítani. Győződjön meg arról, hogy a megfelelő hitelesítő adatokkal van bejelentkezve, hogy aktiválja a kulcsokat a megfelelő bérlőn.

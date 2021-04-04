@@ -9,24 +9,23 @@ author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 728a1b7ec4d6b51174f1d3f6fcf21a6385fc4e7a
-ms.sourcegitcommit: c79137fba9e70037a2dc0e4a99c7334696c3740a
+ms.openlocfilehash: c2f8e4d3351c9905d7066534946b24bd9a8c8cd4
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96322117"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132264"
 ---
 # <a name="multi-partner-support-for-customers-who-want-to-work-with-more-than-one-partner"></a>Többpartneres támogatás olyan ügyfelek számára, akik egynél több partnerrel szeretnének dolgozni
 
 **A következőre érvényes:**
 
-- Partnerközpont
-- A Microsoft Cloud for US Government Partnerközpontja
+- Partneri központ a Microsoft Government cloudhoz
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Értékesítési ügynök
 
 A partner központ többpartneres funkciója olyan forgatókönyveket támogat, amelyekben az ügyfél egynél több partnerrel szeretne dolgozni. Előfordulhat például, hogy egy ügyfél egy partnert szeretne felvenni szakértelmére az Office 365-ben, de egy másik partnert kíván felvenni a Microsoft Azurera.

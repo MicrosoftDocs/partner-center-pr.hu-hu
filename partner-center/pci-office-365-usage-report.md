@@ -8,16 +8,17 @@ description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelek 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 727c370fbb787f1a63f50b28b4ef6ae703b7f1a3
-ms.sourcegitcommit: ce1331c0e600e2f73b85a90ac159a9026ab6a691
+ms.openlocfilehash: d1710215f5fd1d7058232c81ae68ae9cd1ba5240
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98147102"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086311"
 ---
 # <a name="office-365-usage-report-available-from-the-partner-center-insights-dashboard"></a>Az Office 365 használati jelentése a partner Center bepillantást ismertető irányítópultján érhető el
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
@@ -54,7 +55,7 @@ A Summary (összefoglalás) szakasz az Office 365-előfizetésekkel kapcsolatos,
 
 ## <a name="office-365-usage-by-geography"></a>Office 365-használat földrajz szerint
 
-Az **Office 365 földrajz szerint** a havi aktív felhasználók (Mau) és a fizetős egységek (Pau) elosztása az ügyfél országa szerint. A MAU az előző hónapban használt licencek számára utal, és a PAU a kiválasztott időkereten belül eladott vagy kezelt, díjköteles munkaállomásokra utal. A Térkép világosabb színei alacsonyabb értékeket jelölnek, míg a sötétebb színek nagyobb értékeket jelentenek. A rácson kereshet és kijelölhet egy országot. Részletesebben is megtekintheti a nagyítást.
+Az **Office 365 földrajz szerint** a havi aktív felhasználók (Mau) és a fizetős egységek (Pau) elosztása az ügyfél országa szerint. A MAU az előző hónapban felhasznált licencek száma, a PAU pedig a kiválasztott időkereten belül eladott vagy kezelt fizetett helyek számát jelöli. A Térkép világosabb színei alacsonyabb értékeket jelölnek, míg a sötétebb színek nagyobb értékeket jelentenek. A rácson kereshet és kijelölhet egy országot. Részletesebben is megtekintheti a nagyítást.
 
 Az **országok/** régiók tábla száma az összes olyan országot és régiót mutatja be, ahol az Azure-használati események jönnek létre.
 

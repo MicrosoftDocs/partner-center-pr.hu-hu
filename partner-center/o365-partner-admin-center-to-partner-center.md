@@ -9,24 +9,19 @@ author: billLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 51dd9bc389077f4b472e2e13f1170214ad1d382d
-ms.sourcegitcommit: 7575fa314fd9efbbf90089999de4f0703f94898c
+ms.openlocfilehash: 9e4f67bd7dcea1cc41a7e4400aa0624eb4dbada5
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97720815"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132706"
 ---
 # <a name="office-365-partner-admin-center-partners---get-ready-to-move-business-operations-to-partner-center"></a>Office 365 partner felügyeleti központ partnerei – felkészülés az üzleti műveletek a partner központba való áthelyezésére
-
-**A következőre érvényes:** 
-
-- Partnerközpont
-- Office 365 partner felügyeleti központ
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 

@@ -9,24 +9,21 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bbd2aceac62a7e726ed81a78305ea23213c94156
-ms.sourcegitcommit: 36a60f672c1c3d6b63fd225d04c5ffa917694ae0
+ms.openlocfilehash: 8a9662e0ce99fc054149dfbd4149532ce336eff6
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "92527966"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132621"
 ---
 # <a name="migrate-office-365-e4-subscriptions-to-newer-office-365-versions"></a>Office 365 E4-előfizetések migrálása újabb Office 365-verziókba
 
-**A következőkre vonatkozik**
-
--  Partnerközpont
-
 **Megfelelő szerepkörök**
--   Globális rendszergazda
--   Felhasználói rendszergazda
--   Felügyeleti ügynök
--   Értékesítési ügynök
+
+- Globális rendszergazda
+- Felhasználói felügyeleti rendszergazda
+- Felügyeleti ügynök
+- Értékesítési ügynök
 
 Az Office 365 Enterprise E4-csomag kivonásra kerül, amely 2017. április 7-én érvényes. Ezen időpont után már nem vásárolhat új Office 365 E4-előfizetést, és a meglévő E4-előfizetések nem fognak automatikusan megújítani a lejárat után.
 
@@ -87,7 +84,7 @@ Az alábbi lépéseket követve áttelepítheti az ügyfél Office 365 Enterpris
 
 1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget, válassza ki az áthelyezni kívánt ügyfelet, majd válassza a **felhasználók és licencek** lehetőséget. Megnyílik az ügyfél felhasználói és licencek lapja.
 
-2. A felhasználói licencek ismételt hozzárendeléséhez válassza ki az újból hozzárendelni kívánt felhasználót, majd válassza a **licencek kezelése** lehetőséget.
+2. A felhasználói licencek újbóli hozzárendeléséhez válassza ki az újból hozzárendelni kívánt felhasználót, majd válassza a **licencek kezelése** lehetőséget.
 
 3. A **licencek kezelése** lapon törölje az **Office 365 Enterprise E4** -licenc jelölőnégyzet jelölését, és válasszon ki egy új szolgáltatási csomagot ahhoz az előfizetéshez, amelyet az ügyfél áthelyez.
 
@@ -109,7 +106,7 @@ A régi előfizetés fel van függesztve, és az új előfizetés aktív. A felf
 
 
 
- 
+ 
 
 
 

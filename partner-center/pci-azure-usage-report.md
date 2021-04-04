@@ -4,27 +4,28 @@ ms.topic: article
 ms.date: 05/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelek számára eladott vagy kezelt Azure-előfizetések használatát.
+description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelei számára eladott vagy kezelt Azure-előfizetések használatát.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 932fdc0efa2b28f5c57f81b33eac166dc5f4eda8
-ms.sourcegitcommit: 5f31146f50e01dc4c1922e0a5bc369f0a3cd8162
+ms.openlocfilehash: ef72aa2e44797c906cdd0a216cf2d8355668c0a9
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528255"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086209"
 ---
 # <a name="azure-usage-report-available-from-the-partner-center-insights-dashboard"></a>Az Azure-használati jelentés elérhető a partner Center bepillantást ismertető irányítópultján
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
 - Executive Report Viewer
 
-Az Azure-használati jelentés az ügyfelek Azure-előfizetésével kapcsolatos metrikákat jeleníti meg. Ez magában foglalja az Azure-beli felhasználás bevételét és a mérési kategóriák szerinti használatot. A következő szakaszt az Azure használati jelentésében tekintheti meg.
+Az Azure-használati jelentés az ügyfelek Azure-előfizetésével kapcsolatos metrikákat jeleníti meg. Ez a jelentés az Azure-beli fogyasztás bevételét és a mérési kategóriák alapján történő használatát foglalja magában. A következő szakaszt az Azure használati jelentésében tekintheti meg.
 
 - Összefoglalás
 - Az Azure használata földrajz szerint
@@ -37,9 +38,10 @@ Az Azure-használati jelentés az ügyfelek Azure-előfizetésével kapcsolatos 
 
 Az összefoglalás szakasz az ügyfelek számára eladott vagy az Ön által felügyelt Azure-előfizetésekhez kapcsolódó fő teljesítménymutatók (KPI-k) pillanatkép-nézetét jeleníti meg.  
 
-- Azure-előfizetések: az Azure-előfizetések által eladott vagy kezelt Azure-előfizetések aktuális száma a kiválasztott dátumtartomány szerint.
+- Azure-előfizetések: az Ön által eladott vagy felügyelt Azure-előfizetések aktuális száma.
+Az Azure-előfizetések százalékos növekedése vagy elutasítása a kiválasztott dátumtartomány során.
 
-A Micro diagram az Azure-előfizetések darabszámát mutatja be a kiválasztott Dátumtartomány alapján
+A Micro diagram az Azure-előfizetések darabszámát mutatja be a kiválasztott Dátumtartomány alapján.
 - Aktív Azure-előfizetések: az Ön által eladott vagy felügyelt Azure-előfizetések aktuális száma az elmúlt 30 napban.
 Az előfizetések százalékos növekedése vagy elutasítása a kijelölt dátumtartomány során.
 
@@ -64,7 +66,7 @@ Az **országok/** régiók tábla száma az összes olyan országot és régiót
 
 Megkeresheti és kiválaszthatja a rács egyik országát, hogy a térképen lévő helyre nagyítson. Válassza ki a **Kezdőlap** lehetőséget a térképen, és térjen át az eredeti nézetre.
 
-:::image type="content" source="images/pci/pci-azure-usage-by-geography-2.png" alt-text="Azure-használati összefoglalás":::
+:::image type="content" source="images/pci/pci-azure-usage-by-geography-2.png" alt-text="Az Azure használata földrajz szerint":::
 
 ## <a name="azure-utilization"></a>Azure-kihasználtság
 
@@ -72,7 +74,7 @@ Ez a nézet a hónapon felüli Azure-beli fogyasztási bevételt és a használa
 
 A oszlopdiagram a havi bevétel/használat óra trendet mutatja be. A vonalas diagram az előző hónaphoz viszonyított növekedési trendet mutatja be a kiválasztott Azure-szolgáltatási szint/mérőszám kategóriák esetében.
 
-:::image type="content" source="images/pci/pci-azure-usage-utilization-3.png" alt-text="Azure-használati összefoglalás":::
+:::image type="content" source="images/pci/pci-azure-usage-utilization-3.png" alt-text="Azure-használat kihasználtsága":::
 
 ## <a name="next-steps"></a>Következő lépések
 

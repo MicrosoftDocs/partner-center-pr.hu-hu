@@ -8,13 +8,13 @@ ms.author: amrava
 ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.date: 07/08/2020
-ms.openlocfilehash: 45a088129d09395abf355efde08c772744b98672
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.date: 03/31/2021
+ms.openlocfilehash: 3f84026cc6402bea71837b06a5e330f2c879a06b
+ms.sourcegitcommit: 766b2bb46dffd29e532b42106359f83e51b96700
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474087"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106103791"
 ---
 # <a name="analyze-subscriptions-and-licenses-to-help-you-drive-business-decisions-and-new-goals"></a>Előfizetések és licencek elemzése az üzleti döntések és az új célok meghozatalának elősegítése érdekében
 
@@ -28,6 +28,10 @@ ms.locfileid: "96474087"
 Az adatmeghajtók üzleti döntéseket hoznak. Az **előfizetés és a licenc** elemzése oldalon található mérőszámok segítségével azonosíthatja a sikereket és a nagyobb figyelmet igénylő területeket. Ezeket az információkat az új üzleti célok megtervezése során használhatja.
 
 **CSP-TTM bevétel (USD)**: Ez a metrika a partneri hely fiókjaihoz és a partner globális fiókjához (PGA) tartozó tizenkét hónapos időszakra (TTM) vonatkozó összesített CSP számlázott bevételt jelenti, amelyhez ez a CSP-fiók társítva van. Ha más CSP-fiókkal rendelkezik, akkor be kell jelentkeznie, hogy megtekinthesse a megfelelő összesített TTM bevételt.  Kattintson a letöltés részletei hivatkozásra, hogy lebontsa a TTM bevétel (USD) egy MPN-AZONOSÍTÓját.
+
+>[!NOTE]
+>A kereskedelmi forgalomban lévő helyi pénznemek díjszabása (a régi kereskedelmi FX) a US dollárok +/-5%-ában van kezelve. A régi kereskedelmi árfolyam (FX) eltér az Azure által a modern kereskedelmi élményben használt számlázási FX-díjaktól. A modern kereskedelmi számlázási FX díjszabása a Microsoft P&L díjszabásán alapul (a Reuters FX díjszabása a Treasury-hírcsatornától). A régi kereskedelmi FX díjszabása a Microsoft bizalmas.
+
 
 A jelentés további részei a következő termékek alapján forgathatók el:
 
@@ -83,6 +87,8 @@ A következő mérőszámokat követjük nyomon:
 
  - Az elindított próbaverziók listája, ahol a befejezési dátum 30 napon belül van, és az előfizetéshez nem tartozik fizetett kezdési dátum.  
 
-## <a name="next-steps"></a>További lépések
+
+
+## <a name="next-steps"></a>Következő lépések
 
 - [A közvetett viszonteladók teljesítményének elemzése](analyze-indirect-resellers.md)

@@ -8,20 +8,24 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 03/22/2021
-ms.openlocfilehash: 0020a43bd17e42bdfc13ab6745a65f63637c702b
-ms.sourcegitcommit: dd51744a4af3797493a5ebbfc766dab86ff00477
+ms.date: 04/01/2021
+ms.openlocfilehash: a345ae94c5765231ac69e703941770855a1df878
+ms.sourcegitcommit: 60bbb8f4056120264b769f94431f84d86984c2e9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "105730059"
+ms.lasthandoff: 04/03/2021
+ms.locfileid: "106280853"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
 Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat gyakran frissítjük, ezért érdemes gyakran visszalátogatnia ide.
 
-|**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
+|**Kategória**|**Április 2021 bejelentések**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[A felhőszolgáltatói (CSP) ügyfél-előkészítési követelmények változásai](2021-april.md#2)|Április 2.|
+|Képességek|[A hónap termék-és ajánlatok megtekintése](2021-april.md#1)|Április 1.|
+|**Kategória**|**Március 2021 közlemények**|**Bejelentve**|
+|Képességek|[A frissített CSP-ügyfél címe ellenőrzési API már elérhető teszteléshez](2021-march.md#18)|Március 31.|
 |Ajánlatok/modern munkahely|[Az új Exchange felügyeleti központ (EAC) felülete](2021-march.md#17)|Március 29.|
 |Ajánlatok/modern munkahely|[Microsoft-műveletek: a termék indítási naptárának bemutatása](2021-march.md#16)|Március 25.|
 |Képességek|[A CSP-ügyfél bevezetési követelményeinek változásai](2021-march.md#15)|Március 25.|

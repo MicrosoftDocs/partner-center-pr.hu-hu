@@ -9,19 +9,19 @@ author: parthpandyaMSFT
 ms.author: ParthP
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 459f347d960a06f78a30a398dc51b67f2fa7d27b
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 0787056d8d32db4a2975f7488bb65141c240ff88
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528539"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132655"
 ---
 # <a name="moving-multiple-companies-to-partner-center-from-partner-membership-center-pmc"></a>Több vállalat áthelyezése a partneri központba a Partner tagsági központból (PMC)
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
@@ -47,7 +47,7 @@ Ha azt tapasztalja, hogy az áttelepítés után nem a megfelelő vállalati fi�
 
 Ekkor megjelenik a meglévő fiókja, és egy megjegyzés arról, hogy a vállalat adatai (az aktuálisan bejelentkezett fiók) összevonva lesznek ebbe a fiókba.
 
-:::image type="content" source="images/migration/existingaccount2.png" alt-text="Meglévő fiók":::
+:::image type="content" source="images/migration/existingaccount2.png" alt-text="Fiók a partner Centerben":::
 
 Ezen a képernyőn megtekintheti a partner Centerben már létrehozott meglévő fiók (név és címe) adatait, valamint az elsődleges névjegy részleteit.
 
@@ -76,11 +76,11 @@ Ellenőrizze a vállalat adatait, és szükség esetén szerkessze azokat.  A re
 A részletek a PMC adatain alapulnak, és a rendszer ellenőrzi, hogy a vállalat jogos-e.
 
 
-:::image type="content" source="images/migration/review.png" alt-text="Meglévő fiók":::
+:::image type="content" source="images/migration/review.png" alt-text="Részletek áttekintése":::
 
 Ha az áthelyezett fiók ugyanabban az országban vagy régióban található, mint a meglévő fiók, eldöntheti, hogy szeretné-e használni ezt a helyet, vagy egy másikat hozzáadni. Ha úgy dönt, hogy más-más címeket használ, a rendszer ellenőrzi, hogy az adott címen található-e. Ha ugyanazt a lakcímet szeretné használni, akkor a rendszer a meglévő és az elsődleges kapcsolatot fogja használni.
 
-Miután ellenőrizte/szerkesztte az információkat ezen a képernyőn, kattintson a Submit (küldés) gombra, és a fiókok konszolidálva lesznek.
+Miután ellenőrizte/szerkesztte az információkat ezen a képernyőn, válassza a **Submit (Küldés** ) lehetőséget, és a rendszer összevonja a fiókokat.
 
 ## <a name="partner-profile"></a>Partneri profil
 

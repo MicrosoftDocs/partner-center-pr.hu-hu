@@ -9,22 +9,22 @@ ms.author: iswillia
 ms.localizationpriority: high
 ms.topic: conceptual
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3f521e05fbf0b3a6c209a84ed9ab53d2502960a5
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: d56b9675ea405b29190f68420037ea9a92f3d831
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624153"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086549"
 ---
 # <a name="security-requirements-status-report"></a>Biztonsági követelmények – állapotjelentés
 
 **Megfelelő szerepkörök**
-- Vezérlőpult-szállítók
-- Globális rendszergazdák
+- CPV-rendszergazda
+- Globális rendszergazda
 
-Ez a cikk ismerteti a biztonsági követelmények állapotáról szóló jelentést a partner Centerben. Ez a jelentés a partner bérlő felhasználói számára a többtényezős hitelesítés (MFA) [partneri biztonsági követelményeinek](partner-security-requirements.md) megfelelőségére vonatkozó mérőszámokat biztosít.
+Ez a cikk ismerteti a biztonsági követelmények állapotáról szóló jelentést a partner Centerben. Ez a jelentés a partner bérlő felhasználói számára a többtényezős hitelesítéssel (MFA) kapcsolatos [partneri biztonsági követelményekkel](partner-security-requirements.md) összhangban mutató mérőszámokat biztosít.
 
-Ha ezt a jelentést szeretné elérni a [partner Centerben](https://partner.microsoft.com/dashboard), lépjen a **Beállítások**  >  **fiók beállításai**  >  **biztonsági követelmények állapot** elemre. A jelentés naponta frissül, és a bejelentkezési adatokat tükrözi az elmúlt hét napban.
+Ha ezt a jelentést szeretné elérni a [partner Centerben](https://partner.microsoft.com/dashboard), lépjen a **Beállítások**  >  **fiók beállításai**  >  **biztonsági követelmények állapot** elemre. A jelentés naponta frissül, és az elmúlt hét napban mutatja be a bejelentkezési adatait.
 
 >[!NOTE]
 >A biztonsági követelmények állapotáról szóló jelentés csak a partner Centerben támogatott. Az Egyesült Államok kormánya vagy Microsoft Cloud Németország Microsoft Cloud nem érhető el. Azt javasoljuk, hogy a szuverén felhőn (USA-beli kormányzaton és Németországban) keresztül lebonyolított összes partner azonnal alkalmazza ezeket az új biztonsági követelményeket. Ezek a partnerek azonban jelenleg nem szükségesek az új biztonsági követelmények teljesítéséhez. A Microsoft további részleteket biztosít a szuverén felhőkre vonatkozó biztonsági követelmények végrehajtásával kapcsolatban a jövőben.
@@ -53,7 +53,7 @@ A **partner Center-portálon keresztüli** metrika a partneri központ irányít
 - A második napon John bejelentkezett a fiókpartner-irányítópultra az MFA-ellenőrzés nélkül, és öt műveletet hajtott végre.
 - A harmadik napon Jane bejelentkezett a partner Center-irányítópultra az MFA-ellenőrzés és két művelet végrehajtásával.
 - A fennmaradó négy napon belül nem történt művelet az ügynöktől.
-- A 7 napos ablakban végrehajtott 10 műveletből kettőt a felhasználó MFA-ellenőrzéssel végzett. A metrika ezért 20%-ot mutat.
+- A hét napos időszakban végrehajtott 10 műveletből kettőt a felhasználó MFA-ellenőrzéssel készített. A metrika ezért 20%-ot mutat.
 
 Az **MFA nélküli fájlkiszolgáló-kérések** használatával megtudhatja, hogy melyik felhasználó jelentkezett be a fiókpartner-irányítópultra az MFA-ellenőrzés nélkül, valamint a legutóbbi látogatás időpontját a jelentéskészítési időszak során.
 
@@ -82,7 +82,7 @@ Egyes, MFA-t megvalósító partnerek a 100% alatti jelentés metrikáit láthat
 
 ### <a name="implemented-mfa-for-your-partner-tenant"></a>Implementált MFA a partner bérlője számára
 
-A megfelelőség eléréséhez az MFA-t kell megvalósítani a partner bérlője számára. Az MFA megvalósításával kapcsolatos további információkért lásd: [a partner Center vagy a partner Center API-k használatának biztonsági követelményei](partner-security-requirements.md).
+Meg kell valósítania az MFA-t a partner bérlője számára a megfelelőség eléréséhez. Az MFA megvalósításával kapcsolatos további információkért lásd: [a partner Center vagy a partner Center API-k használatának biztonsági követelményei](partner-security-requirements.md).
 
 >[!NOTE]
 > Az MFA-metrikák napi rendszerességgel vannak kiszámítva, és figyelembe veszik az elmúlt hét napban végrehajtott műveleteket. Ha csak a közelmúltban végezte el az MFA-implementációt a partner bérlője számára, akkor a metrikák még nem jelennek meg 100%-ban.

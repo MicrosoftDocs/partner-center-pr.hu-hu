@@ -4,17 +4,17 @@ ms.topic: conceptual
 ms.date: 02/01/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg, hogyan használhatja a szaktudás jelentését annak biztosítására, hogy vállalata naprakész legyen a kompetenciák megvalósításában.
+description: Ismerje meg, hogyan használhatja a szaktudás jelentést annak biztosításához, hogy a vállalata naprakész legyen a kompetenciák megvalósításában.
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 419dba1490e19c8895fce35a031c7424114e5125
-ms.sourcegitcommit: 493130f8b8e9cf9b6ad31035bb4d7f78863788ac
+ms.openlocfilehash: 76b540364b1a47de66d0343f0646ab035b8de97c
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99474333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132434"
 ---
 # <a name="using-the-skills-report"></a>A szaktudás jelentés használata
 
@@ -25,7 +25,7 @@ ms.locfileid: "99474333"
 
 A szaktudás jelentés lehetővé teszi a Microsoft Partner Network partnerei számára, hogy felmérjék a partner vállalatánál lévő felhasználók által végzett ismereteket. A jelentésben szereplő ismeretek közé tartozhatnak a partner technikai felhasználói által készített értékelések, minősítések vagy vizsgák. 
 
-Az ilyen típusú képességek egyike az, hogy a partner egy adott Microsoft-kompetencián belüli ezüst-vagy arany-állapot elérésére vonatkozó követelmény. A partnerek a kompetenciákat arra használják, hogy a jelenlegi és az új ügyfelek számára mutassák be a technikai szaktudásuk területeit. Emellett számos előnyt kínálnak az azokat elérő partnereink számára. Az elérhető kompetenciákkal és azok előnyeivel kapcsolatos további információkért tekintse meg a Microsoft Partner Network [kompetenciák](https://partner.microsoft.com/membership/competencies) lapot.
+Az ilyen típusú képességek egyike az, hogy a partner egy adott Microsoft-kompetencián belüli ezüst-vagy arany-állapot elérésére vonatkozó követelmény. A partnerek a kompetenciákat arra használják, hogy a jelenlegi és az új ügyfelek számára mutassák be a technikai szaktudásuk területeit. Emellett számos előnyt kínálnak az azokat elérő partnereink számára. További információ az elérhető kompetenciákkal és azok előnyeivel kapcsolatban: Microsoft Partner Network [kompetenciák](https://partner.microsoft.com/membership/competencies) oldala.
 
 A vállalat MPN-partneri rendszergazdája vagy globális rendszergazdája a következő, a szaktudás jelentéssel kapcsolatos feladatokat is el szeretné végezni:
 
@@ -59,9 +59,9 @@ Az alábbi lépéseket követve megtekintheti a partner Centerből származó is
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard)a megfelelő partner Center-szerepkörrel rendelkező felhasználói fiók használatával.
 2. A bal oldali navigációs menüben válassza az **MPN** , majd a **kompetenciák** elemet.
-3. Keresse meg a következő beállításokat a kompetenciák oldal jobb felső részén:  **kompetencia-jelentés** és **készségek letöltése jelentés**. Lehetősége van megtekinteni a partner Center felhasználói felületén vagy a letöltött számolótáblán belüli ismeretek jelentéseit.
+3. Keresse meg a következő beállításokat a kompetenciák oldal jobb felső részén:  **kompetencia-jelentés** és a **szaktudás letöltése jelentés**. Lehetősége van megtekinteni a partner Center felhasználói felületén vagy a letöltött számolótáblán belüli ismeretek jelentéseit.
    :::image type="content" source="images/competencies/mpn-skills-report-1.png" alt-text="A jobb felső sarokban a partner Center kompetenciák oldalon két lehetőség van kiemelve." border="true":::
-   - A szaktudás jelentéssel kapcsolatos információk könnyen olvasható megjelenítéséhez válassza a **kompetencia teljesítmény jelentés** lehetőséget, majd a kompetencia jelentés oldal bal felső részén található **felhasználói ismeretek adatai** elemet. 
+   - A szaktudás jelentéssel kapcsolatos információk könnyen olvasható megjelenítéséhez válassza a **kompetencia teljesítmény jelentés** lehetőséget, majd a kompetencia-jelentés lap bal felső részén található **felhasználói ismeretek adatai** elemet. 
       :::image type="content" source="images/competencies/mpn-skills-report-2.png" alt-text="A bal felső sarokban található felhasználói ismeretekkel kapcsolatos adatjelentést tartalmazó partner Center kompetencia jelentés lapja." border="true":::
    - A jelentés táblázatos formátumban való letöltéséhez válassza a **szaktudás letöltése jelentést**. Ha a fájl letöltése és megnyitása megtörtént, megjelenik egy táblázat, amely az egyes felhasználók képességeire vonatkozó információkat tartalmazza. A **PMC** -hoz és a **számítógéphez kapcsolódó** oszlopokhoz tartozó oszlopok azt jelzik, hogy a felhasználó képességei már hozzá vannak-e rendelve a korábbi partner MEMBERSHIP Center-(PMC-) fiókhoz és a partner Center-fiókhoz (PC). Ha a felhasználók továbbra is a PMC-ben működnek, tekintse meg a következő szakaszt a PMC Felhasználóin.
    
@@ -94,7 +94,7 @@ Ha a szaktudás jelentés nem jeleníti meg a felhasználóhoz tartozó ismerete
 
 - Előfordulhat, hogy egy másik olyan MCID egyesített, amely **nincs** társítva a partner Center felhasználói fiókjával
 
-Ha a felhasználó duplikált fiókkal rendelkezik, a szükséges készségek két vagy több fiókra oszthatók fel. Előfordulhat például, hogy a MSA egy MCID van kötve (ahogy az a szaktudás jelentés **MCID oszlopában** látható), de az átirat minősítése egy másik MCID is hivatkozik. Ebben az esetben egyesíteni kell a MCID az átiratból a szaktudás jelentésben már megjelenő MCID. Ehhez vegye fel a kapcsolatot a [Microsoft minősítési szakképzési támogatási csapatával](https://trainingsupport.microsoft.com/mcp/forum). Az MCP-egyesítés megerősítése után nem kell újból hozzárendelni a MSA. A partner Centerben már társítva lesz. Ez a folyamat akár 24 órát is igénybe vehet, hogy megjelenjen a partneri központban.
+Ha a felhasználó duplikált fiókkal rendelkezik, a szükséges készségek két vagy több fiókra oszthatók fel. Előfordulhat például, hogy a MSA egy MCID van kötve (ahogy az a szaktudás jelentés **MCID oszlopában** látható), de az átirat minősítése egy másik MCID is hivatkozik. Ebben az esetben egyesíteni kell a MCID az átiratból a szaktudás jelentésben már megjelenő MCID. Ehhez vegye fel a kapcsolatot a [Microsoft minősítési szakképzési támogatási csapatával](https://trainingsupport.microsoft.com/mcp/forum). Az MCP-egyesítés megerősítése után a MSA újra hozzá kell rendelnie. A partner Centerben már társítva lesz. Ez a folyamat akár 24 órát is igénybe vehet, hogy megjelenjen a partneri központban.
 
 ### <a name="why-do-i-see-an-error-message-when-i-try-to-download-the-skills-report"></a>Miért látok hibaüzenetet, amikor megpróbálom letölteni az ismeretek jelentését?
 

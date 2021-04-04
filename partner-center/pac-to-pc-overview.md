@@ -9,22 +9,19 @@ author: parthpandyamsft
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: db35696483c8a1e67f173ec7953cfa33a428a022
-ms.sourcegitcommit: 7575fa314fd9efbbf90089999de4f0703f94898c
+ms.openlocfilehash: c266d3e271cd114bd771f17280e1390fb5f765d3
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97720832"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086498"
 ---
 # <a name="partner-admin-center-is-moving-to-the-partner-center"></a>A partner felügyeleti központ átkerül a partneri központba
 
-**A következőre érvényes:**
-
-- Partnerközpont
-
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
@@ -41,7 +38,7 @@ A Microsoft a partner centert egy olyan helyre fejlesztjük, ahol a Microsofttal
 
 - Felhőalapú megoldások szolgáltatói partnerei: ha Ön CSP-partner, akkor a rendszer a 2018. áprilistól kezdődően automatikusan átirányítja Önt a partner központba.
 
-- Advisor-partnerek (ha nem a CSP-n keresztül végzi a tranzakciót, és a PAC-t használja az ügyfelekre vonatkozó próbaverziók/árajánlatok biztosításához): ha Ön tanácsadó partner, a rendszer a 2020-es naptól kezdve automatikusan átirányítja Önt a partner központba.
+- Advisor-partnerek (ha nem a CSP-n keresztül végzi a tranzakciót, és a PAC-t használja az ügyfelekre vonatkozó próbaverziók/árajánlatok biztosításához): ha Ön tanácsadó partner, akkor a rendszer automatikusan átirányítja Önt a partnervállalat 2020.
 
 ## <a name="start-using-the-microsoft-partner-center-now"></a>Kezdje el használni a Microsoft partner centert most!
 

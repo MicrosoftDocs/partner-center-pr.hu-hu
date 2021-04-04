@@ -8,16 +8,16 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: eb92824bf3fc7a2d93435ca89fc70ca303957d1a
-ms.sourcegitcommit: df3360786b46f9c2724dbd521e11366ffcbda307
+ms.openlocfilehash: 39a925bbfccb720951a63f4e11207df4a3252200
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100083248"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132910"
 ---
 # <a name="request-a-refund-for-an-mpn-benefit"></a>Az MPN-juttatásra vonatkozó visszatérítés igénylése
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - MPN-partner rendszergazdája
 - Fiókadminisztrátor

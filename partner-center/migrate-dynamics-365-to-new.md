@@ -9,22 +9,19 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d441d121c28c2762d1f1c71d6f6a1e81d089f99c
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: e83c06c11638bdde508fd27904038bcb6d8c9e9c
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92528006"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132638"
 ---
 # <a name="migrate-dynamics-365-business-edition-offers-to-newer-versions"></a>A Dynamics 365 Business Edition-ajánlatok migrálása újabb verziókba
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 
@@ -32,7 +29,7 @@ ms.locfileid: "92528006"
 
 Az ügyfelek folytonosságának biztosítása érdekében az alább felsorolt támogatott lehetőségekre kell áttérnie a lejáró előfizetésekkel. Javasoljuk, hogy az előfizetések éves befejezési dátuma előtt helyezze át az ügyfeleket új előfizetésekre, hogy elkerülje a szolgáltatások leállását az ügyfelek számára.
 
-Ha az API-t (vagy a CREST vagy a partner centert) használja, a lejárati előfizetéseket az előfizetés befejezési dátumának és az automatikus megújítás = hamis tulajdonságnak a kiértékelésével érheti el. A kérdéses előfizetések az automatikus megújítás = false értékre lesznek állítva, január 1-jén 2019. Az ügyfeleket bármikor át lehet helyezni egy új csomagba. 
+Ha az API-t (vagy a CREST vagy a partner centert) használja, a lejárati előfizetéseket az előfizetés befejezési dátumának és az automatikus megújítás = hamis tulajdonságnak a kiértékelésével érheti el. A kérdéses előfizetések az automatikus megújítás = false értékre lesznek állítva 2019 január 1-jén. Az ügyfeleket bármikor át lehet helyezni egy új csomagba. 
 
 ## <a name="the-dynamics-365-business-editions-being-retired"></a>A Dynamics 365 üzleti kiadása kivonult
 

@@ -9,21 +9,14 @@ author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 84dcb87f4a5594fdcd3a7099e12331a9e4459b38
-ms.sourcegitcommit: 37562b0e29ab921b6b454bb9801376f1feedb715
+ms.openlocfilehash: 94bcde2402b7276bef8eaaf84975f2a5677723fe
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "92528013"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106133114"
 ---
 # <a name="manage-different-leads-like-customer-inquiries-marketing-qualified-leads-and-sales-qualified-leads"></a>A különböző érdeklődők kezelése, például az ügyfelek kérdései, marketing szempontból minősített (MQL) érdeklődők és értékesítési szempontból minősített (SQL) érdeklődők
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Áttétel
-- Microsoft-megoldás szolgáltatója
-- Üzleti profilok
 
 **Megfelelő szerepkörök**
 
@@ -46,9 +39,9 @@ Az érdeklődők fogadásához szükséges előfeltételek a vállalat [üzleti 
 
 Az érdeklődők szakasz három legfelső szintű lapot tartalmaz. 
 
-**Marketplace-érdeklődők** – a Microsoft megoldás-szolgáltató oldaláról származó összes érdeklődőt megkeresi az ügyfél által megjelenő lekérdezések alapján.
+**Marketplace-érdeklődők** – ezek a Microsoft-megoldások szolgáltatói oldaláról származó összes érdeklődő, amelyek az ügyfél által megkérdezett keresések.
 
-**Minősített érdeklődők** – az összes marketing minősítésű és értékesítési minősítésű érdeklődő ebben a lapon érhető el.
+**Minősített érdeklődők** – ezek mind a marketing minősítésű, mind a Sales típusú érdeklődők.
 
 **Kedvencek** – a Piactéri érdeklődők vagy a minősített érdeklődők lapon kedvencként megjelölt érdeklődők jelennek meg ezen a lapon. Bármelyik érdeklődőt megjelölheti kedvencként, ha az érdeklődő szív ikonjára kattint a listanézet nézetben. Az érdeklődőt a Kedvencek közül úgy távolíthatja el, hogy egyszerűen ugyanarra az ikonra kattint.
 
@@ -62,9 +55,9 @@ Ebben a szakaszban új érdeklődőt kapott közvetlenül az ügyféltől vagy e
 
 Ebben a szakaszban két műveletet is végrehajthat – elfogadhatja vagy elutasíthatja az átirányítást:
 
-- **Elfogadás:** Adja meg az üzlet nevét, a becsült ügyleti értéket és a becsült vásárlási időkeretet. A **Megjegyzések** mezőben is meg kell adnia az adatokat, hogy többet is megismertessen arról, hogy az ügyfél mit keres. Itt megadhatja a CRM-azonosítót (csak a hivatkozáshoz), a marketing kampány azonosítóját, amely az adott érdeklődőhöz vezetett, és további névjegyeket adhat a vállalattól. Ha elkészült, kattintson a **Tovább gombra** . A **következő szakaszra** helyezzük át az átirányítást, ami azt jelenti, hogy aktívan kell részt vennie az ügyféllel a szükséges igények kielégítése érdekében. Ezt az információt arra is felhasználjuk, hogy a jövőben hasonló ajánlatokat találjon. 
+- **Elfogadás**: adja meg az üzlet nevét, a becsült ügyleti értéket és a becsült vásárlási időszakot. A **Megjegyzések** mezőben is meg kell adnia az adatokat, hogy többet is megismertessen arról, hogy az ügyfél mit keres. Itt megadhatja a CRM-azonosítót (csak a hivatkozáshoz), a marketing kampány AZONOSÍTÓját, amely az adott érdeklődőhöz vezetett, és további névjegyeket adhat a vállalattól. Ha elkészült, kattintson a **Tovább gombra**. A **következő szakaszra** helyezzük át az átirányítást, ami azt jelenti, hogy aktívan kell részt vennie az ügyféllel a szükséges igények kielégítése érdekében. Ezt az információt arra is felhasználjuk, hogy a jövőben hasonló ajánlatokat találjon. 
 
-- **Elutasítás** : válassza ki az üzlet lecsökkenésének okát, és vegye fel a felvenni kívánt megjegyzéseket, majd válassza az üzlet **lezárása** lehetőséget. Archiváljuk az **elutasítást** , és értesítjük az ügyfelet, hogy válasszon egy másik partnert.
+- **Elutasítás**: válassza ki az üzlet lecsökkenésének okát, és vegye fel a felvenni kívánt megjegyzéseket, majd válassza az üzlet **lezárása** lehetőséget. A rendszer **elutasította** , és értesíti az ügyfelet, hogy válasszon egy másik partnert.
 
 - Ha a megadott időn belül nem válaszol (jelenleg 14 nap), archiváljuk **lejártként** , és értesítjük a Microsoftot vagy a partnert, aki ezt a lehetőséget elküldte.
 
@@ -73,7 +66,7 @@ Ebben a szakaszban két műveletet is végrehajthat – elfogadhatja vagy elutas
 
 ### <a name="accepted-stage"></a>Elfogadott szakasz
 
-Az üzlet bezárásához, ha módosítani szeretné az elfogadott átirányításhoz megadott adatokat, válassza a **Szerkesztés** lehetőséget. Ezután frissítheti az üzlet nevét, a becsült vásárlás dátumát, a becsült értéket, a megjegyzéseket, a CRM-azonosítót és/vagy a marketing kampány azonosítóját.  Azt is megteheti, hogy az **alkalmazottak hozzáadása** lehetőséggel megadja az üzletben dolgozó bármely további személy nevét, telefonszámát és e-mail-címét.
+Az üzlet bezárásához, ha módosítani szeretné az elfogadott átirányításhoz megadott adatokat, válassza a **Szerkesztés** lehetőséget. Ezután frissítheti az üzlet nevét, a becsült vásárlás dátumát, a becsült értéket, a megjegyzéseket, a CRM-azonosítót és/vagy a marketing kampány AZONOSÍTÓját.  Azt is megteheti, hogy az **alkalmazottak hozzáadása** lehetőséggel megadja az üzletben dolgozó bármely további személy nevét, telefonszámát és e-mail-címét.
 
 Ha elkészült, elvégezheti a két művelet egyikét, amely a **megnyert** vagy **elveszett** ügyletet jelöli az eredmény jelentéséhez, így azt ennek megfelelően archiválhatja.
 
@@ -85,17 +78,17 @@ Ez egy olyan terminál-fázis, ahol minden lehetőség végül elérhető. Ebben
 
 Íme néhány tipp, amely segítséget nyújt a megfelelő átirányítások megszerzéséhez:
 
-- Válassza ki azokat a kulcsszavakat és beállításokat, amelyek az Ön [üzleti profiljában](create-a-marketing-profile.md) **egyedi szaktudást és üzleti modellt képviselnek** . Távolítsa el azokat a kulcsszavakat, amelyek nem érdeklik. Ha nem érdekli, hogy bizonyos méretű vállalkozásokkal foglalkoznak, frissítse ezt a beállítást.
+- **Válassza ki azokat a kulcsszavakat és beállításokat, amelyek az Ön [üzleti profiljában](create-a-marketing-profile.md)egyedi szaktudást és üzleti modellt képviselnek**. Távolítsa el azokat a kulcsszavakat, amelyek nem érdeklik. Ha nem érdekli, hogy bizonyos méretű vállalkozásokkal foglalkoznak, frissítse ezt a beállítást.
 
-- Az **egyes helyekhez tartozó [üzleti profilban](create-a-marketing-profile.md) tekintse át a kapcsolattartási adatokat** Győződjön meg arról, hogy csapata beolvassa a bejövő riasztásokat.
+- **Tekintse át a kapcsolattartási adatait az [üzleti profiljában](create-a-marketing-profile.md) az egyes helyekhez**. Győződjön meg arról, hogy csapata beolvassa a bejövő riasztásokat.
 
-- **Gyors reagálás az átirányításokra** Ha időben válaszol a beérkező kérelmekre, a jövőbeli ügyfelek keresési eredményeiben növeljük a láthatóságot. Győződjön meg arról, hogy csapata gyorsan reagál a szándékára.
+- **Gyorsan reagálhat az átirányításokra**. Ha időben válaszol a beérkező kérelmekre, a jövőbeli ügyfelek keresési eredményeiben növeljük a láthatóságot. Győződjön meg arról, hogy csapata gyorsan reagál a szándékára.
 
-- **Legyen válogatós az Ön által elfogadott ajánlatokkal** Figyelemmel kísérjük az Ön által elfogadott és visszautasított ajánlatok típusait, és ezeket az információkat a hasonló ajánlatok megtalálására használják. A nem megfelelő illeszkedésű ajánlatok nem javítják a keresési eredményeket, és befolyásolhatják a kapott érdeklődők minőségét.
+- Választhatja **az Ön által elfogadott ajánlatokat**. Figyelemmel kísérjük az Ön által elfogadott és visszautasított ajánlatok típusait, és ezeket az információkat a hasonló ajánlatok megtalálására használják. A nem megfelelő illeszkedésű ajánlatok nem javítják a keresési eredményeket, és befolyásolhatják a kapott érdeklődők minőségét.
 
-- **Jelentse vissza a becsült ügyleti méreteket, a záró dátumokat, valamint az ajánlatok végső állapotát** (megnyert vagy elveszett). Ezt az információt fogjuk használni, hogy továbbra is minőségi ajánlásokat nyújtson.
+- **Jelentse vissza a becsült ügyleti méreteket, a záró dátumokat, valamint az ajánlatok végső állapotát (megnyert vagy elveszett)**. Ezt az információt fogjuk használni, hogy továbbra is minőségi ajánlásokat nyújtson.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
 

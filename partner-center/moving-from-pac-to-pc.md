@@ -9,20 +9,17 @@ author: parthpandyamsft
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8a7ed3ad04846b1e222d3827488a8ac188653cac
-ms.sourcegitcommit: bc44a6e0c5ef048cda6e882fdb543c13c5b64912
+ms.openlocfilehash: 064235ebdfee1e85a95908cf7a03f8e6fc676b00
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96869282"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132604"
 ---
 # <a name="moving-from-partner-admin-center-pac-to-the-partner-center"></a>Áthelyezés a partneri felügyeleti központból (PAC) a partner központjába
 
-**A következőre érvényes:**
-- Partnerközpont
-- Partner felügyeleti központ
-
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 
 A partner Center egy olyan helyen fejlődik, ahol a Microsofttal és az ügyfelekkel való együttműködését fogja kezelni. A partneri központban kezelheti a tagságot, az ügyfelekre vonatkozó ajánlásokat és ösztönzőket, valamint a Cloud Solution Provider program (CSP) minden egyéb aspektusát. A PAC-ban végzett munka nagy része a partner Centerben is elvégezhető, bár a funkciók vagy műveletek némelyike másképp fog működni.

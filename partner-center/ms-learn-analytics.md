@@ -9,18 +9,19 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 42c7af80ab49cee6e7043587207e553d2ffaa3ac
-ms.sourcegitcommit: a7376c0ba8f4f3d01361bc227640311b486b3b6e
+ms.openlocfilehash: 5b9a0ea8c4eefee1a87b9ccd626b1f2864234521
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92530745"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106132315"
 ---
 # <a name="the-microsoft-learn-analytics-report-shows-the-status-of-learners-in-your-company"></a>A Microsoft Learn Analytics-jelentés megjeleníti a tanulók állapotát a cégnél
 
 **Megfelelő szerepkörök**
--   Globális rendszergazda
--   MPN-partner rendszergazdája
+
+- Globális rendszergazda
+- MPN-partner rendszergazdája
 
 A Microsoft Learn jelentés a vállalaton belüli tanulókkal kapcsolatos információkat nyújt, beleértve az elvégzett modulokat és a képzési útvonalakat. A jelentés az egyes tanulók állapotát jeleníti meg. A vállalat globális rendszergazdája és MPN-rendszergazdája megtekintheti az adatait.
 
@@ -31,19 +32,19 @@ A Microsoft Learn jelentés a vállalaton belüli tanulókkal kapcsolatos inform
 Ezek a diagramok összefoglalják a darabszámot és a havi összesített trendeket a betanított személyeknek, a modulok befejezésének és a képzési útvonalaknak.
 
 
-**Betanított személyek száma** : az összes olyan különböző tanuló száma, akik legalább egy modult teljesítettek a kijelölt dátumtartomány alapján 
+**Betanított személyek száma**: az összes olyan különböző tanuló száma, akik legalább egy modult teljesítettek a kijelölt dátumtartomány alapján 
 
-**Betanított személyek trend mini-diagramja** : az aktív tanulók havi összesített száma 
+**Betanított személyek trend mini-diagramja**: az aktív tanulók havi összesített száma 
 
-**Modul-befejezések száma** : a kiválasztott dátumtartomány szerint a partner vállalata által végzett modulok befejezésének száma.
+**Modul-befejezések száma**: a kiválasztott dátumtartomány szerint a partner vállalata által végzett modulok befejezésének száma.
 Ha például az 1. modult 15 személy végzi el, és a "2. modult" ugyanazon 15 személy végezte el, a modul befejezési száma 30 lesz. A modul befejezési dátumának a kiválasztott dátumtartományt kell esnie.
 
-**Modul-befejezési trend mini-diagram** : hónap a modul befejezésének összesített száma havonta 
+**Modul-befejezési trend mini-diagram**: hónap a modul befejezésének összesített száma havonta 
 
 A **képzési terv befejezési** eredményeinek száma: a partner vállalatán belüli tanulási terv befejezésének száma a kiválasztott Dátumtartomány alapján.
 Ha például a "Path 1" képzési útvonalat 20 személy teljesíti, és az "elérési út 2" képzési útvonalat ugyanaz a 20 személy végezte el, a képzési útvonal befejezési száma 40 lesz. A képzési terv befejezési dátumának a kiválasztott dátumtartomány alá kell esnie.
 
-A **képzési terv befejezési trend mini-diagramja** : havi hónap a képzési terv befejezésének összesített száma 
+A **képzési terv befejezési trend mini-diagramja**: havi hónap a képzési terv befejezésének összesített száma 
 
 ### <a name="trained-individuals-monthly-trend"></a>Képzett személyek havi trendje
 
@@ -73,7 +74,7 @@ Az **Y tengely** az adott hónapban a modulok befejezésének száma. Ez nem ös
 
 **Modul lap**
 
-Ezen a lapon megtalálhatók a vállalaton belül befejezett modulok részletezése az 5 modul első neveivel. az a termék, amelyhez a modul társítva van; és a modulhoz tartozó felhasználói szerepkör.  
+Ezen a lapon a vállalaton belül befejezett modulok részletezése szerepel az első öt modul neve alapján. az a termék, amelyhez a modul társítva van; és a modulhoz tartozó felhasználói szerepkör.  
 
 - Modul-befejezési fánk diagram: a modulok befejezésének részletezése (az összefoglalás szakaszban megjelenő darabszám) a modulok nevei szerint.
 
@@ -89,7 +90,7 @@ A diagram közepén megjelenő szám a modul befejezéséhez tartozó különbö
 
 **Tanulási útvonal lap**   
 
-Ezen a lapon megtalálhatók a vállalaton belül a Top 5 modul neve, a tanulási útvonalak részletezése. az a termék, amelyre a képzési útvonal le van rendelve; valamint az ehhez a képzési tervhez tartozó szerepkör.  
+Ezen a lapon megtalálhatók a vállalaton belül az öt modul neve alapján befejezett tanulási útvonalak részletezése. az a termék, amelyre a képzési útvonal le van rendelve; valamint az ehhez a képzési tervhez tartozó szerepkör.  
 
 - Képzési útvonalak befejezése fánk diagram: a képzési terv befejezésének részletezése (az összefoglalás szakaszban megjelenő darabszám) név szerint.
 
@@ -131,7 +132,7 @@ Miután a globális rendszergazda új felhasználót adott hozzá, a felhasznál
 
 3. Megnézhetem a vállalat azon felhasználóit, akik bejelentkeznek a Microsoft Learnba egy MSA-fiókkal a jelentésben?
 
-Jelenleg a legjobb módszer az, ha hozzáadja ezeket a felhasználókat az Azure AD-bérlőhöz, és hozzáadja őket a partneri központhoz, hogy az Microsoft Learn-fiókját a partner Center **saját profiljához** lehessen rendelni. 
+Jelenleg ennek a legjobb módja az, hogy hozzáadja ezeket a felhasználókat az Azure AD-bérlőhöz, majd hozzáadja őket a partneri központhoz, hogy az Microsoft Learn-fiókját a partner Center **saját profiljához** lehessen rendelni. 
 
 Azon felhasználók számára, akik csak a MSA-fiókot használják a képzéshez, a közeljövőben a Microsoft Learn csapata lehetővé teszi, hogy a munkahelyi e-maileket a saját Microsoft Learn profiljához rendelje. 
 

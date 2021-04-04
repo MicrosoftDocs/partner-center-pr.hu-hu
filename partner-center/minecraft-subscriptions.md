@@ -8,24 +8,21 @@ description: A Minecraft Education Edition előfizetéseit a Microsoft Education
 author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
-ms.openlocfilehash: dc4fa7c3828bc6c6bc3fb711184a876c0b92b925
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 2c1c49dee1e9531a725f679b52adc18d4e5d856b
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106133012"
 ---
 # <a name="sell-minecraft-education-edition-subscriptions-to-education-customers"></a>Értékesítési Minecraft: Education Edition-előfizetés az oktatási ügyfeleknek
 
-**A következőkre vonatkozik**
-
--  Partnerközpont
-
 **Megfelelő szerepkörök**
--   Globális rendszergazda
--   Felhasználói rendszergazda
--   Értékesítési ügynök
--   Felügyeleti ügynök
+
+- Globális rendszergazda
+- Felhasználói felügyeleti rendszergazda
+- Értékesítési ügynök
+- Felügyeleti ügynök
 
 Az oktatási intézményekkel együttműködő partnereink a **Minecraft: Education Edition** -előfizetéseket is felhasználhatják. Megvásárolja az előfizetést az ügyfél nevében a partner Centerben, majd az ügyfél letölti a szoftvert az [oktatási Microsoft Store](https://educationstore.microsoft.com). 
 
@@ -38,7 +35,7 @@ Az oktatási intézményekkel együttműködő partnereink a **Minecraft: Educat
 Az alábbi lépéseket követve vásárolhatja meg a **Minecraft: Education Edition** -előfizetéseket a [partner Centerben](https://partnercenter.microsoft.com/pcv/dashboard/overview
 ) (bejelentkezés szükséges):
 
-  1.  Válassza az **ügyfelek** lehetőséget a partner központ menüjében.
+  1.  Válassza ki az **ügyfelek** elemet a partner központ menüből.
   
   2.  Válassza ki az oktatási ügyfelet az ügyfél listából, majd válassza az **előfizetések hozzáadása** lehetőséget.
   

@@ -1,21 +1,22 @@
 ---
 title: Fizetés a partner Centerben
-description: Ismerje meg, hogyan fogadhat fizetéseket Microsoft-partnerként, például kereskedelmi Piactéri ajánlatokon, ösztönző programokon és a Cloud Solution Provider programon keresztül. Tartalmazza a kifizetési szabályzatot, a kifizetéssel kapcsolatos állapotot és a kifizetési utasításokat.
-ms.service: marketplace
+description: Ismerje meg, hogyan fogadhat fizetéseket Microsoft-partnerként, például kereskedelmi Piactéri ajánlatokon, ösztönző programokon és a Cloud Solution Provider programon keresztül. Magában foglalja a kifizetési szabályzatot, a kifizetés megtartásának állapotát és a kifizetési utasításokat.
+ms.service: partner-dashboard
+ms.subservice: partnercenter-mpn
 ms.topic: conceptual
 ms.date: 11/25/2020
 author: eunjkim520
 ms.author: eunjkim
-ms.openlocfilehash: fc1eea0d8a90bb2b5e11dad24a71c9c34fd1a4a0
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: 94ed17106b64b078c51de351d1e44e29d3745921
+ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492449"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "106133080"
 ---
 # <a name="getting-paid-in-partner-center"></a>Fizetés a partner Centerben
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Fiókadminisztrátor
 - Globális rendszergazda
@@ -38,7 +39,7 @@ Az első befizetést megelőzően be kell állítania a kifizetési fiókját, �
 
 ### <a name="payout-hold-status"></a>Kifizetés holdjának állapota
 
-Alapértelmezés szerint a fentiekben leírtak szerint havi rendszerességgel küldjük el a kifizetéseket. Lehetősége van azonban arra is, hogy a kifizetéseit egy megtartott programba helyezi el, és a Microsoft nem szabadítja fel a számláján befizetett összegeket. Ha úgy dönt, hogy megtartja a befizetését, a **nyeremények** oldalon továbbra is rögzítjük a bevételt. Azonban addig nem küldünk fizetést a fiókjába, amíg el nem távolítja a tárolót.
+Alapértelmezés szerint a fentiekben leírtak szerint havi rendszerességgel küldjük el a kifizetéseket. A kifizetéseit azonban megtarthatja a programban, és a Microsoft nem szabadítja fel a fiókjában befizetett összegeket. Ha úgy dönt, hogy megtartja a befizetését, a **nyeremények** oldalon továbbra is rögzítjük a bevételt. Azonban addig nem küldünk fizetést a fiókjába, amíg el nem távolítja a tárolót.
 
 A befizetések tárolásához kattintson a jobb felső sarokban található **Beállítások** fogaskerék ikonra, majd a **Fiókbeállítások** lehetőségre. Válassza ki a **kifizetés és az adó** lehetőséget a bal oldali menüben, és a **kifizetési és adózási profil hozzárendelése** szakaszban keresse meg azt a programot, amelyhez a kifizetéseket tárolni szeretné. Jelölje be a **fizetés megtartása** jelölőnégyzetet a programhoz tartozó fizetések tárolásához. Bármikor módosíthatja a kifizetési állapotot, de a döntés a következő havi kifizetésre is hatással lesz. Ha például a április végét szeretné megtartani, mindenképpen **a március vége előtt állítsa** be a kifizetési Holding állapotát.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Cloud németországi partneri központ
+title: A Microsoft Cloud Germany Partnerközpontja
 ms.topic: article
 ms.date: 10/12/2020
 ms.service: partner-dashboard
@@ -9,23 +9,23 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 606806f3796796873c37f6dfcac35e5993efe575
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: f36d7c0e99600d9de63d4e6377a2b3688a043885
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530468"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086515"
 ---
 # <a name="partner-center-for-microsoft-cloud-germany-for-partners-selling-to-customers-in-eu--efta-countries"></a>Microsoft Cloud Németország partneri központja az EU-& EFTA-országokban lévő ügyfeleknek értékesítő partnereknek
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
--  Microsoft Cloud németországi partneri központ
+- A Microsoft Cloud Germany Partnerközpontja
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Értékesítési ügynök
 - Számlázási adminisztrátor
@@ -41,7 +41,7 @@ Microsoft Cloud Németország külön [Microsoft Azure](https://go.microsoft.com
 
 ## <a name="migrate-customers-from-microsoft-cloud-germany-to-another-european-region"></a>Microsoft Cloud Germany-beli ügyfelek migrálása egy másik európai régióba
 
-Mielőtt áttelepít egy ügyfél-előfizetést Microsoft Cloud Németországból egy másik európai régióba, rendelkeznie kell egy, az adott régióban található meglévő CSP-fiókkal, és aktívnak kell lennie. Ha még nem rendelkezik ilyennel, a rendszer arra kéri, hogy hozzon létre egyet a fiókpartner-fiók kiválasztása során a partner Centerben. Az új fiók létrehozása után az ügyfelek a kiválasztott bérlőhöz lesznek társítva.
+Mielőtt áttelepít egy ügyfél-előfizetést Microsoft Cloud Németországból egy másik európai régióba, rendelkeznie kell egy, a régióban található meglévő felhőalapú megoldás-szolgáltatói (CSP-) fiókkal, és aktívnak kell lennie. Ha még nem rendelkezik ilyennel, a rendszer arra kéri, hogy hozzon létre egyet a fiókpartner-fiók kiválasztása során a partner Centerben. Az új fiók létrehozása után az ügyfelek a kiválasztott bérlőhöz lesznek társítva.
 
 ### <a name="you-already-have-a-csp-account"></a>Már rendelkezik CSP-fiókkal
 
@@ -53,7 +53,7 @@ Mielőtt áttelepít egy ügyfél-előfizetést Microsoft Cloud Németországbó
 
 1. Jelentkezzen be a bérlőbe globális rendszergazdaként.
  
-1. Tekintse át a megerősítő lapon található információkat, majd válassza a **Confirm (megerősítés** ) lehetőséget.
+1. Tekintse át a megerősítő lapon található információkat, majd válassza a **Confirm (megerősítés**) lehetőséget.
  
 6.  Ha a művelet sikeres, a rendszer a **részletek megtekintése** vagy az **irányítópult megtekintése** lehetőségre kattintva további információkat jeleníthet meg. 
 
@@ -72,7 +72,7 @@ Mielőtt áttelepít egy ügyfél-előfizetést Microsoft Cloud Németországbó
 1. Jelentkezzen be a CSP Microsoft Cloud Germany-bérlőre globális rendszergazdaként.
 
 1. Navigáljon a CSP – áttekintés lapra a bal oldali menüben.
-. 
+ 
 1. Ha a rendszer kéri, válassza **a nincs bérlő az európai régióban** lehetőséget, majd válassza az **új fiók létrehozása** lehetőséget. 
  
 1. Ekkor megjelenik a partneri központ beléptetése oldal, ahol új bérlői és CSP-fiókot hozhat létre egy európai régióban.
