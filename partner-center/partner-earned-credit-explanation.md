@@ -9,24 +9,24 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 010f74164b0428a5cd6ffcde5000b52ac6a6993f
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: 022e7aabd0d850660f8236dce9a4fab9069af01b
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99624000"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106087127"
 ---
 # <a name="how-the-partner-earned-credit-is-calculated-and-paid"></a>A partneri jóváírás kiszámításának és kifizetésének részletei
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói rendszergazda
+- Felhasználói felügyeleti rendszergazda
 - Felügyeleti ügynök
 - Számlázási adminisztrátor
 - Értékesítési ügynök
 
-A felügyelt szolgáltatások (PEC) partner által létrehozott kreditje felismeri és jutalmazza a partnereket, akik a saját nonstop, illetve az ügyfelek teljes, Azure-környezetének felügyeletét és felügyeletét végzik. A CSP-ben alapértelmezés szerint a partnerek megkapják a szükséges hozzáférési jogosultságokat az ügyfél előfizetéséhez, amely lehetővé teszi, hogy az előfizetéshez tartozó erőforrások 24 X 7 működési felügyeletét és felügyeletét végezzék el. A következő szakasz ismerteti az ügyfelek által a transacting partnerhez való hozzáférés kiépítésének további módjait. A havi számla összege a partneri jóváírás levonása utána érték. A partnerek megtekinthetik a PEC részleteit a havi Recon-fájlon. Az [Azure-csomag előfizetések és erőforrások kezelése](azure-plan-manage.md)című cikkből megtudhatja, hogy az ügyfél hogyan építhet ki hozzáférést a transacting partnerhez.
+A felügyelt szolgáltatások (PEC) partner által létrehozott kreditje felismeri és jutalmazza a partnereket, akik a saját nonstop, illetve az ügyfelek teljes, Azure-környezetének felügyeletét és felügyeletét végzik. A CSP-ben alapértelmezés szerint a partnerek megkapják a szükséges hozzáférési jogosultságokat az ügyfél előfizetéséhez, amely lehetővé teszi, hogy az előfizetéshez tartozó erőforrások 24 X 7 működési felügyeletét és felügyeletét végezzék el. A következő szakasz ismerteti, hogy az ügyfelek hogyan építhetnek ki hozzáférést a Transact partnerekhez. A havi számla összege a partner által felkeresett kreditek nettó mennyisége. A partnerek megtekinthetik a PEC részleteit a havi Recon-fájlon. Az [Azure-csomag előfizetések és erőforrások kezelése](azure-plan-manage.md)című cikkből megtudhatja, hogy az ügyfél hogyan építhet ki hozzáférést a transacting partnerhez.
 
 Olvassa el [a rendszergazdai jogosultságok visszaállítása az Azure CSP-előfizetésekhez](revoke-reinstate-csp.md) lehetőséget is.
 
@@ -66,7 +66,7 @@ A Cost Analysis Azure Cost Management (ACM) lehetővé teszi, hogy partnereként
 
    A Cost Analysis View (költség elemzése) nézetben megjelennek a Számlázási fiók költségei, a Microsoft által megvásárolt és felhasznált összes szolgáltatás esetében.
 
-4. Válassza a **PartnerEarnedCreditApplied** lehetőséget a kimutatás legördülő listájában a PEC-t alkalmazó költségek megtekintéséhez. Ha a **PartnerEarnedCreditApplied** tulajdonság értéke TRUE (igaz), a kapcsolódó díj a partner által létrehozott kredit előnye. 
+4. Válassza a **PartnerEarnedCreditApplied** lehetőséget a kimutatás legördülő listájában a PEC által alkalmazott költségek megtekintéséhez. Ha a **PartnerEarnedCreditApplied** tulajdonság értéke TRUE (igaz), a kapcsolódó díj a partner által létrehozott kredit előnye. 
 
    Ha a PartnerEarnedCreditApplied tulajdonság értéke false (hamis), akkor a kapcsolódó költség nem teljesült a kredithez szükséges jogosultsággal, vagy a megvásárolt szolgáltatás nem jogosult a partner által szerzett kreditre.
 
@@ -79,10 +79,10 @@ A Cost Analysis Azure Cost Management (ACM) lehetővé teszi, hogy partnereként
 
 - [Partner által létrehozott kredit – áttekintés](partner-earned-credit.md)
 
-- A partneri kreditek kiszámítására vonatkozó részletes példákat az árlista tartalmazza, amely a partner Center irányítópultján érhető el (bejelentkezés szükséges).
+- A partner által létrehozott kreditek számításának részletes példái a partner Center irányítópultján elérhető árlista alapján érhetők el (bejelentkezés szükséges).
 
 - [Áttérés az Azure planre – első lépések](azure-plan-get-started.md)
 
 - [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)
 
-- [Rendszergazdai jogosultságok visszavonása vagy újraindítása az Azure CSP-előfizetésekhez](revoke-reinstate-csp.md)
+- [Rendszergazdai jogosultságok visszavonása vagy visszaállítása az Azure CSP-előfizetésekhez](revoke-reinstate-csp.md)

@@ -8,20 +8,16 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e3d2ec916a8c8a9d29b5ba82db6542d55bd84e8
-ms.sourcegitcommit: b91119c587d37b4ed36dda00c2b0b1946beb3012
+ms.openlocfilehash: 1ad11a42a91cfacb625a05b850b0cdfee3d48d0b
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "92528394"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179258"
 ---
 # <a name="generate-a-marketing-plan-for-your-incentives-program"></a>Marketing terv létrehozása az ösztönző programhoz
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
 - Számlázási adminisztrátor
@@ -42,7 +38,7 @@ Az adott ösztönző program terveivel kapcsolatos további információkért te
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A bal oldali navigációs panelen válassza az **Ösztönzők** elemet, majd a **Programot** , végül pedig válassza ki a programját. 
+2. A bal oldali navigációs panelen válassza az **Ösztönzők** elemet, majd a **Programot**, végül pedig válassza ki a programját. 
 
 3. A **program** lapon keresse meg a csomag megfelelő piacát, majd válassza a **terv létrehozása** lehetőséget. 
 
@@ -58,7 +54,7 @@ Az adott ösztönző program terveivel kapcsolatos további információkért te
 
 9. Az **Új tevékenység** lapon töltse ki a kötelező mezőket. Több országot is kiválaszthat. Ha elkészült, válassza a **Mentés** lehetőséget. 
 
-10. Az állapotot jelző lapon újból ellenőrizze a megadott információkat. A terv a beküldést követően már nem lesz szerkeszthető. Ha elkészült, válassza az **Elküldés** , majd a **Megerősítés** lehetőséget.
+10. Az állapotot jelző lapon újból ellenőrizze a megadott információkat. A csomag elküldése után nem szerkesztheti. Ha elkészült, válassza az **Elküldés**, majd a **Megerősítés** lehetőséget.
 
 Az Ön tervének elküldése megtörtént. A Microsoft akkor fogja értesíteni az Ösztönző rendszergazdáját, ha a tervet jóváhagyták, vagy ha további információra van szükségünk. A terv állapotát az állapotot jelző lap Állapot ablakában tekintheti meg.
 
@@ -90,9 +86,9 @@ A tervet a programév utolsó napjáig kell létrehoznia és beküldenie. Ezt k�
 
 A Microsoft minden hónapban az Ön bevétele és a terv korlátai alapján fizet. A kifizetések biztosítása a következő hónap 15. napján történik.
 
-Ha például a terve 10 000 dollárra lett jóváhagyva, és áprilisban 5000 dollárt keresett, május 15-én 5000 dollárt fog kapni.
+Ha például a terve $10 000-re van jóváhagyva, és április hónapjában elérte a $5 000-et, akkor a $5 000 május 15-én fog kapni.
 
-Ugyanennek a tervnek a keretében, ha áprilisban 15 000 dollárt keresett, május 15-én 10 000 dollárt fog kapni, mert a terv korlátja 10 000 dollár. Ha több kifizetést szeretne kapni, fel kell emelnie a terv korlátját a következő hónapra.
+Ugyanezen terv szerint, ha április hónapjában $15 000-et szerez, a $10 000 május 15-én fog megjelenni, mert az $10 000 volt a csomagra vonatkozó korlát. Ha több kifizetést szeretne kapni, fel kell emelnie a terv korlátját a következő hónapra.
 
 ## <a name="next-steps"></a>Következő lépések
 

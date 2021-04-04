@@ -8,20 +8,16 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: ab2c26cf097d6212375382cadd9ac5f4f80b5c2a
-ms.sourcegitcommit: b91119c587d37b4ed36dda00c2b0b1946beb3012
+ms.openlocfilehash: 30639725c0a852046251e83c3791f56d788931c1
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "92528386"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179211"
 ---
 # <a name="issues-with-claimed-partner-of-record-cpor-customer-associations"></a>A Recording (CPOR) ügyfél-társítások által jelentett problémák
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Számlázási adminisztrátor
 - Globális rendszergazda
@@ -95,4 +91,4 @@ Ha olyan CPOR-társítási jogcímet hoz létre egy ügyfélhez és azokhoz a te
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

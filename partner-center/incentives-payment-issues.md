@@ -8,24 +8,20 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 971b053119a263ed5c7f8e25fb532b4137e1cb13
-ms.sourcegitcommit: 2d1f0d7bc897278ef37af6d43c1a088f5ca14807
+ms.openlocfilehash: c6ff8915384f8c7ab98fa058f2e45e3d0b4f7214
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99834883"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179513"
 ---
 # <a name="troubleshooting-missing-payments-incorrect-earnings-and-other-issues"></a>Hiányzó kifizetések, helytelen bevételek és egyéb problémák elhárítása
 
-**A** következőkre vonatkozik:
-
-- Partnerközpont
-
-**Megfelelő szerepkörök**:
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
 
-Ez a cikk segítséget nyújt az ösztönző programokban felmerülő keresetek és fizetési problémák megoldásában. A témakörök közé tartoznak a kifizetések időzítése, a keresetek támogathatóságának ellenőrzése, valamint a kifizetési és az adó-profilok megfelelő beállításának fontossága.
+Ez a cikk segítséget nyújt az ösztönző programokban felmerülő keresetek és fizetési problémák megoldásában. A kezelt témák közé tartozik a kifizetések időzítése, a keresetek támogathatóságának ellenőrzése, valamint a kifizetési és adózási profilok megfelelő beállításának fontossága.
 
 ## <a name="who-can-create-or-update-payout-and-tax-profiles-for-my-organization"></a>Kik hozhatnak létre vagy frissíthetnek a saját szervezethez tartozó kifizetési és adózási profilokat?
 
@@ -122,7 +118,7 @@ A bevétel a **tranzakció előzményei** lapon és a **fizetési** oldalon is m
 
 :::image type="content" source="images/incentives/paymenticon.png" alt-text="Tranzakciós adatok":::
 
-Előfordulhat, hogy a tranzakciós előzmények nézetben a havi jövedelemszerzési összegek nem illeszkednek az adott hónapra kapott fizetési összeghez. Ennek oka az, hogy a későbbi befizetésekre alkalmazott korábbi jövedelemszerzési időszakok újraszámítása és módosítása történik.
+Előfordulhat, hogy a tranzakciós előzmények nézetben a havi jövedelemszerzési összegek nem illeszkednek az adott hónapra kapott fizetési összeghez. Ennek oka a jövőbeli befizetésekre alkalmazott korábbi jövedelemszerzési időszakok újraszámítása és módosítása.
 
 Például a 2019 szeptemberében feldolgozott januári 2019-as előállítások esetében a szeptember 2019-ra vonatkozó bevételi összeg nem jelenik meg. Ha azonban a szeptember 2019-es fizetési díj érkezik, az tartalmazza a szeptemberben alkalmazott januári 2019-os módosítást.
 
@@ -141,11 +137,11 @@ Ez a nézet lehetővé teszi, hogy megtekintse az összes program és MPN-azonos
 | Megtekintheti a fizetési adatokat soronként, beleértve a jövedelemszerzési és fizetési összegeket a helyi pénznemben  | Tekintse meg a **fizetések listája** mezőt   |
 | Átutalási levél letöltése   |  **Fizetési átutalás** kiválasztása  |
 | Adott fizetés tranzakciós szintjének adatainak megtekintése |  **Nézet** kiválasztása  |
-| Tranzakció részleteinek exportálása Excelbe  |  Válassza a **Letöltés indítása** lehetőséget, majd kattintson **Az adatexportálás** elemre. Vegye figyelembe, hogy az összes kiválasztott szűrő az exportált értékekre lesz alkalmazva. Ha az állapot Befejezettre változott, válassza a **Letöltés** lehetőséget, és kövesse az utasításokat a részletes tranzakciók jelentés exportálásához. Frissítse az oldalt, ha az állapota öt percen belül nem frissül.  |
+| Tranzakció részleteinek exportálása Excelbe  |  Válassza a **Letöltés indítása** lehetőséget, majd válassza **Az adatexportálás** lehetőséget. Az összes kiválasztott szűrő az exportált értékekre lesz alkalmazva. Ha az állapot Befejezettre változott, válassza a **Letöltés** lehetőséget, és kövesse az utasításokat a részletes tranzakciók jelentés exportálásához. Frissítse az oldalt, ha az állapota öt percen belül nem frissül.  |
 
 ### <a name="missing-or-incorrect-earnings-and-payments"></a>Hiányzó vagy helytelen bevétel és fizetés
 
-Ha nem talál fizetési vagy tranzakciós adatokat, ellenőrizze, hogy alkalmazta-e a megfelelő szűrőket. Vegye figyelembe, hogy mivel egyes programnév-nevek módosultak (például a CSP közvetlen 1T-partnere most CSP Direct Bill partner), lehet, hogy több kijelölést kell használnia.
+Ha nem talál fizetési vagy tranzakciós adatokat, ellenőrizze, hogy alkalmazta-e a megfelelő szűrőket. Mivel egyes programnév-nevek módosultak (például a CSP közvetlen 1T-partner most CSP Direct Bill partner), lehet, hogy több kijelölést kell használnia.
 
 Ha továbbra sem találja a bevételeit, vagy nem biztos benne, hogy a kimutatott bevétel helytelen, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
 

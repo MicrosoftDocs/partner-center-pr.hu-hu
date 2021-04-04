@@ -1,22 +1,22 @@
 ---
 title: Kifizetési utasítások
 description: A kifizetési utasítások és összegzések ismertetése, valamint a Microsoft partner Center fizetési adatainak megtekintése és exportálása
-ms.subservice: partnercenter-marketplace-publisher
-ms.service: marketplace
+ms.subservice: partnercenter-mpn
+ms.service: partner-dashboard
 ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 3/22/2021
-ms.openlocfilehash: afe9793e3a1ef9c0e3e8ecba6d1c3419b7e16604
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: fd0aaeb84651a84aba4748795309512295f9485a
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105549243"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106087093"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Fiókadminisztrátor
 - Globális rendszergazda
@@ -73,7 +73,7 @@ Ha további részletekre kíváncsi, kattintson az oldal jobb oldalán találhat
 
 ### <a name="transaction-history-summary"></a>Tranzakció előzményeinek összegzése
 
-Ez a jövedelemszerzési adatokat jeleníti meg, beleértve az eladott termékből származó bevétel dátumát, állapotát és a becsült fizetési hónapot.
+Ez a nézet a kereset részleteit jeleníti meg, beleértve a termék által eladott bevételi dátumokat, az állapotot és a becsült fizetési hónapot.
 
 :::image type="content" source="images/payouts/transaction-history.png" alt-text="Tranzakciók előzményei.":::
 
@@ -324,7 +324,7 @@ Az **adatexportálás** összegzése is hozzáférést biztosít a korábbi utas
 
 Az alábbi táblázat a korábbi utasítások egyes oszlopait mutatja be.
 
-| Mező neve | Description |
+| Mező neve | Leírás |
 | --- | --- |
 | Bevétel forrása | A bevétel forrása, amely alapján a tranzakció bekövetkezett, például Microsoft Store, Windows Phone-telefon áruház, Windows áruház 8 vagy reklám |
 | Rendelésazonosító | Egyedi megrendelési azonosító. Ez az azonosító lehetővé teszi a vásárlási tranzakciók azonosítását a megfelelő nem vásárlási tranzakciókkal, például a visszatérítéssel vagy a jóváírásokkal kapcsolatban. Mindkettő ugyanazzal a megrendelési AZONOSÍTÓval fog rendelkezni. Továbbá, ha van olyan felosztott díj, amelyben több fizetési módszert használtak egyetlen vásárláshoz, akkor a vásárlási tranzakciók összekapcsolhatók. |

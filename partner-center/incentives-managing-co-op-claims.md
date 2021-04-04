@@ -8,20 +8,16 @@ ms.author: kashanum
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 10/29/2020
-ms.openlocfilehash: 54c90cce33a1eabc87357048c348ffa2cc03de19
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: 29e67bbeca2b136146a1d9d1ee7eef4d0f9d3b0c
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93133150"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179156"
 ---
 # <a name="manage-incentives-co-op-claims"></a>Ösztönzők kezelése együttes op-jogcímek
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
 
@@ -71,7 +67,7 @@ Ha az együttműködési igénnyel együtt benyújtott anyagok nem megfelelőek,
 
 4. Az oldal alján kattintson a **Vitatás** elemre.
 
-Az együttműködési igényeket ellenőrző csapat öt munkanapon belül felülvizsgálja az igényt. Ez idő alatt az igény **Vitatott** állapotúként jelenik meg. Előfordulhat, hogy további információk begyűjtése céljából felvesszük Önnel a kapcsolatot. Ha a felülvizsgálat elkészült, az ellenőrzési csapat frissíti az állapotot a következők egyikére: **Jóváhagyva** , **Elutasítva** vagy **Partneri beavatkozás szükséges** .
+Az együttműködési igényeket ellenőrző csapat öt munkanapon belül felülvizsgálja az igényt. Ez idő alatt az igény **Vitatott** állapotúként jelenik meg. Előfordulhat, hogy további információk begyűjtése céljából felvesszük Önnel a kapcsolatot. Ha a felülvizsgálat elkészült, az ellenőrzési csapat frissíti az állapotot a következők egyikére: **Jóváhagyva**, **Elutasítva** vagy **Partneri beavatkozás szükséges**.
 
 ## <a name="next-steps"></a>Következő lépések
 

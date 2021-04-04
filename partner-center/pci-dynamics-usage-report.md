@@ -8,16 +8,17 @@ description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelek 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: d8755cadf7b572972c5abe1483ff6f0be98a1eb8
-ms.sourcegitcommit: ce1331c0e600e2f73b85a90ac159a9026ab6a691
+ms.openlocfilehash: 60c0eebccff963858b1af09318b5202016ea5291
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98147098"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086923"
 ---
 # <a name="dynamics-usage-report-available-from-the-partner-center-insights-dashboard"></a>A Dynamics-használati jelentés a partner Center-adatok irányítópultján érhető el
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
@@ -38,15 +39,15 @@ A Dynamics-használati jelentés használati adatokat biztosít az ügyfelek sz�
 
 Az összefoglalás szakasz az ügyfelek számára eladott vagy kezelt Dynamics-használati előfizetésekkel kapcsolatos legfontosabb mutatók pillanatképét jeleníti meg.  
 
-- Rendelkezésre álló helyek: a kiválasztott időkereten belül eladott licencek teljes száma.
+- Rendelkezésre álló helyek: a kiválasztott időszakban eladott licencek teljes száma.
 
    A Micro diagram a kiválasztott dátumtartomány esetében a rendelkezésre álló ülőhelyek számának havi hónapját mutatja.
 
-- Hozzárendelt ülőhelyek: a kijelölt időkereten belül hozzárendelt licencek teljes száma.
+- Hozzárendelt ülőhelyek: a kijelölt időkeretben hozzárendelt licencek teljes száma.
 
    A Micro diagram a kijelölt időtartományban a hozzárendelt ülőhelyek számának havi hónapját mutatja.
 
-- Aktív ülőhelyek: a kiválasztott időkereten belül használatos licencek teljes száma. 
+- Aktív ülőhelyek: a kiválasztott időszakon belül használatos licencek teljes száma. 
 
    A Micro diagram a havi aktív ülések havi trendjét mutatja be a kiválasztott időszakban.
 

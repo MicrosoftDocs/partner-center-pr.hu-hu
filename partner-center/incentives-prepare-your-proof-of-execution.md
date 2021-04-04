@@ -8,20 +8,16 @@ ms.author: kashanum
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: 82c45a1edcc19dc26dfefff88f59c598ab9bc6ea
-ms.sourcegitcommit: b91119c587d37b4ed36dda00c2b0b1946beb3012
+ms.openlocfilehash: d0e5dca008f73a13fb25e9322c492a053037e633
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "92528366"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179445"
 ---
 # <a name="create-and-submit-documents-for-your-incentives-proof-of-execution-poe"></a>Dokumentumok létrehozása és elküldése az ösztönzők végrehajtásának igazolására (PoE)
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
 
@@ -81,6 +77,6 @@ Az ösztönzők befizetése előtt meg kell adnia a végrehajtás (PoE) részlet
    - Approved
    - Elutasítva
 
-## <a name="next-steps"></a>Következő lépések:
+## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

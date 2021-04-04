@@ -1,28 +1,28 @@
 ---
 title: Kifizetésekkel és adóprofilokkal kapcsolatos gyakori kérdések
 description: Válaszok a partner Centerben befizetésekkel és adózással kapcsolatos gyakori kérdésekre. Válaszokat tartalmaz arról, hogy a bevétel miért különbözik a várttól.
-ms.service: marketplace
-ms.subservice: partnercenter-marketplace-publisher
+ms.service: partner-dashboard
+ms.subservice: partnercenter-incentives
 ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 03/05/2021
-ms.openlocfilehash: 4cbbf89ef0df9c3fd1c1d4c59977a8ba34317673
-ms.sourcegitcommit: fe867be44de3479607be3309940b904d7ea9fc6e
+ms.openlocfilehash: 00cb707dd6d94cc6cbae889e2db1a700d246e2ed
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "102247655"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106087042"
 ---
 # <a name="common-questions-about-payouts-and-taxes"></a>A kifizetésekkel és az adókkal kapcsolatos gyakori kérdések
 
-**Megfelelő szerepkörök**:
+**Megfelelő szerepkörök**
 
 - Fiókadminisztrátor
 - Globális rendszergazda
 - Ösztönzők rendszergazdája
 
-Ez a cikk a partner Centerben megjelenő kifizetési és adózási adatokkal kapcsolatos gyakori kérdésekre ad választ. a témakörök a kifizetések időzítését, a keresetek támogathatóságának ellenőrzését, valamint a kifizetési és adózási profilok megfelelő beállításának fontosságát tárgyalják.
+Ez a cikk a partner Centerben befizetésekkel és adózással kapcsolatos gyakori kérdésekre ad választ. A kezelt témák közé tartozik a kifizetések időzítése, a keresetek támogathatóságának ellenőrzése, valamint a kifizetési és adózási profilok megfelelő beállításának fontossága.
 
 ## <a name="profile-management"></a>Profilok kezelése
 
@@ -42,7 +42,7 @@ Előfordulhat, hogy nem rendelkezik a megfelelő engedélyekkel, vagy olyan fió
 
 #### <a name="im-only-able-to-sign-in-with-my-onmicrosoftcom-domain-what-should-i-do"></a>Csak a saját tartománnyal tudok bejelentkezni @onmicrosoft.com . Mit tegyek?
 
-Vegye fel a kapcsolatot a fiókadminisztrátorral, ha az AAD-fiókhoz további tartományokat szeretne hozzáadni.
+Forduljon a fiók rendszergazdájához, és adjon hozzá további tartományokat a HRE-fiókhoz.
  
 #### <a name="my-organization-is-participating-in-multiple-programs-do-i-need-to-provide-my-payment-and-tax-profile-multiple-times"></a>A szervezetem több programban is részt vesz. Többször kell megadnia a fizetési és az adózási profilt?
 
@@ -61,7 +61,7 @@ Ha a vállalatot több program meghívására kéri, használhatja ugyanazt a fi
 
 A vállalat feladata annak biztosítása, hogy az ösztönzők adminisztrátori szerepköre – kik rendelkeznek az adatok szerkesztéséhez szükséges engedélyekkel – csak a megfelelő alkalmazottak számára adható meg.
 
-#### <a name="my-tax-profile-has-expired-how-do-i-fix-this"></a>Az adó profil lejárt. Hogyan javítsa ezt?
+#### <a name="my-tax-profile-has-expired-how-do-i-fix-update-it"></a>Az adó profil lejárt. Hogyan javítsa a frissítést?
 
 Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Microsoftnak megadott adózási űrlapot frissíteni kell. Az alábbi lépéseket követve frissítheti az adózási profilt:
 
@@ -83,7 +83,7 @@ Ha egy adózási profil lejárt vagy hamarosan lejár, az azt jelenti, hogy a Mi
 #### <a name="why-is-my-earnings-amount-different-than-what-i-expected"></a>Miért különböznek a bevételem a várttól eltérő összegtől?
 
 - Ha az ügyfél részben fizette meg a rendelést, a bevétel összege a költségek és a megfelelő adó kivonása utáni részben fizetett összeg alapján történik.
-- Az adó felelősségének ellenőrzését ország szerint. Azon országok esetében, amelyekben az adójogi felelősség a Microsoftot terheli, a Microsoft szedi be és vonja le az adót a közzétevői bevételekből. A kimutatásban szereplő tranzakcióösszeg az adózás utáni összeg. Tekintse meg az [Adó részleteit](tax-details-marketplace.md).
+- Az adó felelősségének ellenőrzését ország szerint. Azokban az országokban, ahol az adó a Microsoft által felelős, a Microsoft gyűjti és levonja a kiadói jövedelmek alóli adót. A kimutatásban szereplő tranzakcióösszeg az adózás utáni összeg. Tekintse meg az [Adó részleteit](tax-details-marketplace.md).
 - Az SaaS-és IaaS a standard 20% helyett 10%-os kedvezményt biztosítunk, így 90%-os bevételi arányt kell fizetni. Ez a promóciós ajánlat 2021. június 30-ig érvényes.
 
 **További olvasnivaló**: [kereskedelmi Marketplace kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560), [kifizetési szabályzat részletei](payout-policy-details.md), [fizetési küszöbérték, módszer és időkeret](payment-thresholds-methods-timeframes.md), [fizetés,](marketplace-get-paid.md) [adó részletei](tax-details-marketplace.md), [kifizetési utasítások](payout-statement.md)
@@ -113,7 +113,7 @@ A kifizetési tranzakció előzményei jelentésben megjelenő AssetID, Rendelé
 
 
 #### <a name="how-do-i-set-my-account-to-not-receive-payment"></a>Hogyan beállítani a fiókomat, hogy ne kapjon fizetést?
-A [kifizetés a kifizetési profilban](https://partner.microsoft.com/dashboard/commercial-marketplace/overview)is megtartható; Egyszerűen jelölje be a **megtartás gombot**. A Microsoft csak akkor kapja meg a fizetést, ha kiadja a megtartást.
+A [kifizetés a kifizetési profilban](https://partner.microsoft.com/dashboard/commercial-marketplace/overview)is tarthat. Ehhez be kell tartania a **holdot** , és a Microsoft csak akkor fizet, ha kiadja a megtartást.
 
 #### <a name="why-do-i-receive-in-a-different-currency-than-the-purchase-currency"></a>Miért kapom a kifizetést más pénznemben, mint a vásárlási pénznem?
 
@@ -121,7 +121,7 @@ A kifizetés pénzneme a Kifizetési profil területen kiválasztott pénznemen 
 
 #### <a name="how-do-i-reconcile-adjustments"></a>Hogyan egyeztethetem a módosításokat?
 
-A kifizetési módosítások olyan kifizetési korrekciók, amelyek (például rendszerhibák esetén) kompenzációs módosításokat tesznek lehetővé. A kifizetési kimutatásban az okkód határozza meg a módosítás okát. Ezek nem egyeztethetők össze közvetlenül az egyes tranzakciókkal.
+A kifizetési módosítások olyan kifizetési korrekciók, amelyek (például rendszerhibák esetén) kompenzációs módosításokat tesznek lehetővé. A kifizetési utasításban a ReasonCode meghatározza a beállítás okát. Ezek nem csupán az egyes tranzakciók összeegyeztetését jelentik.
 
 **További olvasnivaló**: [kereskedelmi Marketplace kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560), [kifizetési szabályzat részletei](payout-policy-details.md), [adózási adatok](tax-details-marketplace.md), [fizetési küszöbérték, módszer és időkeret](payment-thresholds-methods-timeframes.md)
 
@@ -199,7 +199,7 @@ Használja a [partneri kifizetési API](https://apidocs.microsoft.com/services/p
 
 #### <a name="how-do-i-find-the-current-agency-fee-and-the-payout-rate"></a>Hol található az aktuális közvetítői díj és a kifizetési arány?
 
-- Tekintse meg a kereskedelmi piactérre vonatkozó közzétevői megállapodást. A közvetítői díj általában 20%. A SaaS Co-Sell jogosult tranzakciói díja 10%. A promóciós közvetítői díjakkal kapcsolatban figyelje a bejelentéseket.
+- Tekintse meg a kereskedelmi piactérre vonatkozó közzétevői megállapodást. A közvetítői díj általában 20%. A SaaS közös értékesítésre jogosult tranzakciók kedvezményes díja 10%. A promóciós közvetítői díjakkal kapcsolatban figyelje a bejelentéseket.
 - A kifizetési nyilatkozatban a jövedelemszerzési díj meghatározza az adott tranzakcióhoz tartozó tényleges kifizetési arányt.
 
 #### <a name="when-can-i-expect-a-payment-from-microsoft-once-earnings-appear-on-my-statement"></a>Mikor számíthatok kifizetésre a Microsofttól, miután megjelentek a bevételek a kimutatásban?

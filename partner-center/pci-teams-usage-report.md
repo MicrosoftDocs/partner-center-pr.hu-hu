@@ -8,16 +8,17 @@ description: Megtudhatja, mit csinál jól, és hol javíthatja az ügyfelek sz�
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 345e721ebec5396a0681ec2f357b8778169c0887
-ms.sourcegitcommit: ce1331c0e600e2f73b85a90ac159a9026ab6a691
+ms.openlocfilehash: 2292e9640224a2bdf333cb8ddb0e2245f34564e9
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98147094"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086719"
 ---
 # <a name="teams-usage-report-available-from-the-partner-center-insights-dashboard"></a>A Teams használati jelentése a partner Center-adatok irányítópultján érhető el
 
 **Megfelelő szerepkörök**
+
 - Globális rendszergazda
 - Felügyeleti ügynök
 - Jelentés megjelenítője
@@ -51,19 +52,19 @@ Az összefoglalás szakasz egy pillanatkép-nézetet jelenít meg az ügyfelek s
 
 ## <a name="conversations-trend"></a>Beszélgetések trendje
 
-A beszélgetések trend ábrázolja a csapatok üléseinek, hívásainak és telefonos rendszereinek havi trendjét, valamint az értekezletek átlagos időtartamát percben.
+A beszélgetések trend jelentés a csapatok üléseinek, hívásának és telefonos rendszereinek havi trendjét mutatja, valamint az átlagos értekezlet időtartamát percben.
 
 :::image type="content" source="images/pci/pci-teams-usage-conversation-trends.png" alt-text="csapatok használati beszélgetések trendjei":::
 
 ## <a name="teams-usage-by-workloads"></a>Csoportok használata munkaterhelések szerint
 
-A munkaterhelések által használt csapatok az asztali, mobil és webes felhasználók munkaterhelések szerinti felosztásának havi felosztását ábrázolják.
+A Teams munkaterhelések jelentése szerint a munkaterhelések alapján a csapatok az asztali, mobil és webes felhasználók havi felosztását jelenítik meg.
 
 :::image type="content" source="images/pci/pci-teams-usage-workload.png" alt-text="Csoportok használata munkaterhelések szerint":::
 
 ## <a name="top-customers-by-usage"></a>Legnépszerűbb ügyfelek használat szerint
 
-A legnépszerűbb ügyfelek a felhasználók által a csapat ülésein, a hívásoknál és a telefonos rendszerekben, valamint a harmadik féltől származó alkalmazásokban való használatot ábrázolják.
+A Top Customers by használati jelentés a csapatok üléseinek, hívásoknak és telefonos rendszereknek, illetve harmadik féltől származó alkalmazásoknak a legnépszerűbb ügyfeleinek használatát mutatja be.
 
 :::image type="content" source="images/pci/pci-teams-usage-top-customer.png" alt-text="Legnépszerűbb ügyfelek használat szerint":::
 

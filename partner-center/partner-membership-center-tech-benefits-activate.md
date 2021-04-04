@@ -9,24 +9,21 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ee7ca469619e548dc59db390566d19a1b1c8cc24
-ms.sourcegitcommit: 5f31146f50e01dc4c1922e0a5bc369f0a3cd8162
+ms.openlocfilehash: e769758e14f48f6f7deb9dfe3354fa377a559c87
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528231"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106087110"
 ---
 # <a name="activate-microsoft-partner-network-technical-benefits-outside-of-partner-center"></a>A partner centeren kívüli technikai előnyök aktiválása Microsoft Partner Network
 
+
+**Megfelelő szerepkörök**
+
+- Minden partner Center-felhasználó
+
 Ez a cikk Microsoft Partner Network (MPN) tagok számára is használható a partner Membership Center (PMC) használatával. Ezeknek a tagoknak segítségre van szükségük bizonyos MPN-tagsági előnyök (például technikai előnyök) aktiválásához az aktuális [partneri központ irányítópultján](https://partner.microsoft.com/dashboard)kívül.
-
-### <a name="applies-to"></a>A következőre érvényes:
-
-- Partner tagsági központ felhasználói
-
-### <a name="appropriate-roles"></a>Megfelelő szerepkörök
-
-- A Partner tagsági központját (PMC) használó MPN-partnerek
 
 Számos Microsoft Partner Network (MPN) tag már [át lett telepítve a Partner tagsági központból a partner Centerbe](prepare-pmc-pc-migration.md) a felhasználók, az ügyfelek és az MPN előnyeinek kezeléséhez.
 

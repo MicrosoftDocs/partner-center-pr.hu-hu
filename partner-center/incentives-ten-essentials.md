@@ -8,19 +8,14 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/15/2020
-ms.openlocfilehash: 41ea71b2461c8497b90acc0f265c4f946faa55b7
-ms.sourcegitcommit: b91119c587d37b4ed36dda00c2b0b1946beb3012
+ms.openlocfilehash: 6000ba464a7751a159d8a390b13d2af6ffb59894
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "92528363"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179105"
 ---
 # <a name="the-10-essentials-for-working-with-incentives"></a>A 10 Essentials for ösztönzők használata
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Partnerek a Microsoft Partner Networkban (MPN)
 
 **Megfelelő szerepkörök**
 
@@ -49,7 +44,7 @@ Fontos, hogy alapos ismereteket kapjon az ösztönző programhoz tartozó szerep
 
 ## <a name="5-review-the-incentives-faq"></a>5. az ösztönzők áttekintése – gyakori kérdések
 
-A gyakori ösztönző kérdésekre adott válaszok megválaszolása előtt is választ kaphat. Az ösztönzők gyakori kérdéseit gyakran a Microsoft ügyfélszolgálata információk használatával, valamint a partnerekkel való közvetlen kommunikációval frissítjük. [Itt](incentives-faq.md)megtekintheti a gyakori kérdéseket.
+A gyakori ösztönző kérdésekre adott válaszok megválaszolása előtt is választ kaphat. Az ösztönzők gyakori kérdéseit gyakran frissítjük az Microsoft ügyfélszolgálata és a partnerekkel való közvetlen kommunikáció segítségével. [Itt](incentives-faq.md)megtekintheti a gyakori kérdéseket.
 
 ## <a name="6-confirm-your-program-eligibility"></a>6. a program támogathatóságának megerősítése
 
@@ -71,6 +66,6 @@ A Microsoft ösztönzői és a partner központtal kapcsolatban számos jó cikk
 
 Részletes eljárásokat talál a fent felsorolt feladatok végrehajtásához. A teljes ösztönzők szakasz körülbelül egy órát is igénybe vehet, és a legtöbb cikk egy-két percet is igénybe vehet. A Súgó olvasásának megkezdéséhez tekintse meg az [első lépések](incentives-get-started-intro.md)című témakört.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

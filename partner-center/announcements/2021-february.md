@@ -10,13 +10,13 @@ ms.custom:
 - announcement
 - references_regions
 ms.localizationpriority: high
-ms.date: 02/25/2021
-ms.openlocfilehash: c4ea0af46aa2dee02e2270e1f2d58eeff0f59ff4
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.date: 04/02/2021
+ms.openlocfilehash: 79d492fa907f9d2b9318ba9fa9850401b61a2b7d
+ms.sourcegitcommit: 60bbb8f4056120264b769f94431f84d86984c2e9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712477"
+ms.lasthandoff: 04/03/2021
+ms.locfileid: "106280904"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
@@ -150,23 +150,25 @@ ________________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-02-25
+- Dátum: 2021-04-02
 - Fokozott biztonság és megfelelőség
-
-### <a name="impacted-audience"></a>Érintett közönség
-
-A CSP közvetlen számlázási partnerei és olyan közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban.
 
 ### <a name="summary"></a>Összefoglalás
 
-A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként további vásárlói adatokat fogunk igénybe venni, ami a 2021. március 25-én érvényes.
+A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként további vásárlói adatokat fogunk kérni, amelyek 2021. március 25-én érvényesek.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A CSP közvetlen számlázási partnerei és olyan közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban
 
 ### <a name="details"></a>Részletek
 
 A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. 2021. március 25-én bevezetjük a partner Center API-t és a felhasználói felület (UI) fejlesztéseit, amelyek hatással lesznek a következő feltételeknek megfelelő partnerekre:
 
 1. A partner közvetlen számlázási kapcsolatban áll a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlás partner vagy közvetett szolgáltató).
+
 2. A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban:
+
     - Thaiföld
     - Vietnam
     - Törökország
@@ -181,7 +183,9 @@ A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, ho
     - Egyesült Arab Emírségek
     - Venezuela
 
-A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél **jogi azonosítóját** (más néven az ügyfél **szervezeti fogadóját**) és a **telefonszámot** , amikor új ügyfelek bevezetését vagy meglévő vásárlói adatok módosítását teszik elérhetővé. Ezek a partnerek **középső nevet** is megadhatnak az ügyfél számára.
+A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél vállalati regisztrációs AZONOSÍTÓját (más néven az ügyfél szervezeti FOGADÓBAN) és a telefonszámot, amikor a következő frissítést vagy előfizetést hoznak létre az adott ügyfél számára. Ezek a partnerek középső nevet is megadhatnak az ügyfél számára.
+
+Vegye figyelembe, hogy a vállalati regisztrációs azonosító hozzáadásakor az üzleti adó azonosítót kell használnia, nem pedig az ügyfél személyes AZONOSÍTÓját.
 
 A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti partnerek már egy korábbi kiadásban, 2020 novemberében lettek bevezetve.
 
@@ -197,20 +201,35 @@ A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti
 - Ukrajna
 - Üzbegisztán
 
-A világ többi részén lévő ügyfelekkel rendelkező partnerek a 2021. március 25-én megadhatják a **jogi azonosítót**, a **telefonszámot** és a **középső nevet** az ügyfeleknek választható részletekként.
+A világ többi részén található ügyfelekkel rendelkező partnerek a 2021 márciusi időszak végéig jogosultak a vállalati regisztrációs azonosító, a telefonszám és a középső név megadására az ügyfelek számára opcionális részletekként.
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a dedikált [partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) (bejelentkezés szükséges) kapcsolatos gyakori kérdéseket.
+- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a dedikált [partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakran feltett kérdéseket.
 - Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
 - Ügyeljen arra, hogy új ügyfelek beléptetése vagy a meglévő ügyfél adatainak módosításakor küldje el a további adatokat.
 - Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha bármilyen kérdése van a jogi azonosítóval (más néven INN vagy TIN) kapcsolatban, forduljon az adó-tanácsadóhoz vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben.
+Ha bármilyen kérdése van a vállalati regisztrációs AZONOSÍTÓval (más néven INN vagy TIN) kapcsolatban, forduljon a Tax Advisor vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben.
 
-Ha támogatásra van szüksége a Microsofttal folytatott műveleteihez, [Nyisson meg egy szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8) (bejelentkezés szükséges).
+Ha támogatásra van szüksége a Microsofttal folytatott műveleteihez, nyisson meg egy [szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8).
+
+### <a name="change-log"></a>Változási napló:
+
+December 17., 2020: eredeti kiadvány
+
+2021. január 28.: a közzététel nem változik
+
+Február 25., 2021: adott indítási dátum bejelentve
+
+2021. április 2.: a frissítések a következőket tartalmazzák:
+
+- Indítás dátuma megadva
+- A céges vendéglő címe frissítve lett a vállalati regisztrációs AZONOSÍTÓra 
+- Megjegyzés hozzáadva a vállalati regisztrációs azonosító pontosításához
+
 
 ________________
 ## <a name="now-live-docusign-migration-to-adobe-sign-for-partners-under-microsoft-partner-agreements-mpas"></a><a name="9"></a> Most élő: a Microsoft partneri szerződések (MPAs) alá tartozó partnerek Adobe-DocuSign való áttelepítése
@@ -377,7 +396,7 @@ Ezek a Microsoft 365 E3-árak csak a következő pénznemekre korlátozódnak: J
 
 ### <a name="next-steps"></a>Következő lépések
 
-A partnerek a legújabb árlista-fájlokat a partneri központból tölthetik le. 
+A partnerek a legújabb árlista-fájlokat a partneri központból tölthetik le.
 
 _______________
 

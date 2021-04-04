@@ -8,22 +8,18 @@ ms.subservice: partnercenter-incentives
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
-ms.openlocfilehash: eeb6fabcc1b84e72c8e418e97a8582916225552b
-ms.sourcegitcommit: bfc9e6f6476766cf10ba714f03ca2e96560003b1
+ms.openlocfilehash: 22233b8dd41776b34bb4ec1d202f6e84a6ded3fc
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94626014"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179138"
 ---
 # <a name="enrollment-and-user-management-in-the-incentives-program"></a>Regisztráció és felhasználói felügyelet az ösztönzők programban
 
-**A következőkre vonatkozik:**
+**Megfelelő szerepkörök**
 
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
-
-- Ösztönző rendszergazda
+- Ösztönzők rendszergazdája
 
 >[!NOTE]
 >Az ösztönző programba való regisztrálás előtt el kell végeznie a partneri központ [áttelepítését](prepare-pmc-pc-migration.md).
@@ -59,6 +55,6 @@ A beléptetési folyamattal kapcsolatos további információkért töltse le az
 
 Az ösztönzők beléptetése a pénzügyi év végén lejár. Ha azonban a jogosult partner aktív szerződéssel rendelkezik, a Microsoft a következő pénzügyi évre továbbítja az ösztönzők beléptetését. Semmilyen műveletet nem kell végrehajtania, ha az ösztönző programhoz szükséges kifizetési és adózási információk befejeződik az ösztönző program szabályainak megfelelően.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [A programban való részvétel jogosultságának meghatározása](incentives-determined-your-program-eligibility.md)

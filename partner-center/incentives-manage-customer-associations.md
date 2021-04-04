@@ -8,20 +8,16 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: 37b64d686549562a26aa818a576bad6c85f86670
-ms.sourcegitcommit: b91119c587d37b4ed36dda00c2b0b1946beb3012
+ms.openlocfilehash: 91ff0d9b0696e1ef77cf21ce288afbc51c3fe528
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "92528375"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179479"
 ---
 # <a name="manage-incentives-customer-associations"></a>Ösztönző ügyfelek társításának kezelése
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Számlázási adminisztrátor
 - Globális rendszergazda
@@ -87,7 +83,7 @@ Ha 30 nap telt el, és továbbra is meg szeretné vitatni egy elutasított jogc�
 
 A CPOR társítási jogcímek elutasításának három fő oka van.
 
-**Partneri kérelem:** A partnerek kérhetik a társításuk elutasítását. Ezt az indoklást többnyire akkor használja a rendszer, ha a partner CPOR-társítási jogcímet helytelen MPN használatával hozott létre, és helytelen tevékenységet választott (például:...). Az előfizetések helyett a bevételi társítást választotta, vagy ha már nem működik együtt az ügyféllel.
+**Partneri kérelem:** A partnerek kérhetik a társításuk elutasítását. Ezt az indoklást többnyire akkor használja a rendszer, ha a partner CPOR-társítási jogcímet hozott létre tévedésből egy helytelen MPN-vel, helytelen tevékenységet választott (például a bevételi társítást az értékesítés előtti művelet helyett választotta), vagy ha már nem működik együtt az ügyféllel.
 
 **Ügyfél elutasítása:** Ha a CPOR társítási jogcímet sikeresen elvégezte a PoE-jóváhagyási folyamaton, az állapota Jóváhagyottra változik, amíg az ügyfél meg nem tagadja a társítás beleegyezését. Ha az ügyfél megtagadja a beleegyezést, sor kerül a társítás elutasítására.
 
@@ -125,4 +121,4 @@ A CPOR társítási jogcímen a jobb felső sarokban található egy **Előzmén
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

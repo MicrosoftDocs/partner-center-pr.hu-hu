@@ -8,20 +8,16 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 82d1db0175a8038d0297eddd8f86dfba26bb8401
-ms.sourcegitcommit: 3c45a181ef86b3a4866e97fb50efeae8714ab3f7
+ms.openlocfilehash: 2eb0fe92b5b62b56742ef06617275451e6850011
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92530505"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179275"
 ---
 # <a name="confirm-your-incentives-earnings-eligibility"></a>Az ösztönző jövedelmek támogathatóságának megerősítése
 
-**A következőkre vonatkozik:**
-
-- Partnerközpont
-
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
 - Globális rendszergazda
@@ -31,9 +27,9 @@ Ahhoz, hogy kifizesse a munkáját az ösztönzők programban, először el kell
 ## <a name="how-do-i-check-my-earning-eligibility-and-revenue-rules"></a>Hogyan ellenőrizhetem a bevételi jogosultságomat és a bevételi szabályokat?
 
 1. Jelentkezzen be a [partneri ösztönzőkbe](https://partner.microsoft.com/membership/partner-incentives).
-2. Görgessen le az érdekelt program dokumentumaihoz, és kattintson a megfelelő program dokumentum hivatkozására.
+2. Görgessen le az érdekelt program dokumentumaihoz, és válassza ki a megfelelő programhoz tartozó dokumentum hivatkozását.
 3. A dokumentumban tekintse meg a **partnerek támogathatóságára** és a **jogosult bevételi szabályokra vonatkozó** szakaszt.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Az ösztönzők első lépései](incentives-get-started-intro.md)
+- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)

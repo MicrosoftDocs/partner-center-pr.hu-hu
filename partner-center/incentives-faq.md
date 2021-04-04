@@ -8,19 +8,18 @@ ms.subservice: partnercenter-incentives
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
-ms.openlocfilehash: 2ee2ba7c3a04453927bd8e508190f23ec295da1d
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 1c3cafa6b5ea280a924a0142da78483d54a18ab9
+ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756713"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106179496"
 ---
 # <a name="frequently-asked-questions-on-incentives"></a>Gyakori kérdések az ösztönzőkről
 
-**Megfelelő szerepkörök:**
+**Megfelelő szerepkörök**
 
 - Ösztönzők rendszergazdája
-
 - Ösztönzők felhasználója
 
 ## <a name="do-i-need-to-be-the-global-admin-to-enroll-in-incentives"></a>A globális rendszergazdának kell lennie az ösztönzők beléptetéséhez?
@@ -55,7 +54,7 @@ További információ: [a szerepkör megkeresése](find-your-role.md).
 
 ## <a name="i-cant-access-incentives-using-my-credentials"></a>Nem tudom elérni a saját hitelesítő adataim használatával járó ösztönzőket.
 
-Valószínűleg nem látja az ösztönzőket, hogy nem rendelkezik a megfelelő engedélyekkel. A következő eljárással tekintse meg ezt a javítást.
+Valószínűleg nem látja az ösztönzőket, hogy nem rendelkezik a megfelelő engedélyekkel. Ezt a következő eljárással lehet kijavítani.
 
 1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard/) az Azure ad-bérlői hitelesítő adataival (a munkahelyi hitelesítő adataival). Ha nem tud bejelentkezni, forduljon a vállalat globális rendszergazdájához.
 
@@ -71,7 +70,7 @@ Ha vagy kapott egy meghívót, vagy regisztrált a alkalmazásban, egy olyan ös
 
 Ha módosítania kell a szerepkört vagy az engedélyeket, forduljon a vállalat globális vagy rendszergazdai fiókjához. Ha szeretné megtudni, hogy kik is ezek az emberek, olvassa el [a globális rendszergazda megkeresése](./find-your-role.md#find-your-global-admin)című témakört.
 
-Vegye figyelembe, hogy az áttekintő oldal csak azokat a regisztrációkat jeleníti meg, amelyek az Azure AD-bérlőhöz társított partner globális fiókkal (PGA) vannak társítva. Ha a vállalat több PGA-val rendelkezik, akkor mindegyikhez különböző hitelesítő adatokra van szükség.
+Az Áttekintés oldalon csak az Azure AD-bérlőhöz társított partner Global-fiókhoz (PGA) társított regisztrációk jelennek meg. Ha a vállalat több PGA-val rendelkezik, akkor mindegyikhez különböző hitelesítő adatokra van szükség.
 
 ## <a name="who-should-i-contact-if-i-get-an-error-message-or-need-help-during-the-enrollment-process"></a>Kihez kell csatlakozni, ha hibaüzenetet kapok, vagy segítségre van szükségem a beléptetési folyamat során?
 

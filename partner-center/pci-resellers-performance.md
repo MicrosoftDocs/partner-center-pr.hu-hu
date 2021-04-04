@@ -9,12 +9,12 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 94cf24309486628d92878e0d8d5038b45c7b85df
-ms.sourcegitcommit: eef446698ed4e21afee7fe091fe9c2664767755c
+ms.openlocfilehash: 7d2331cfb1b0edf25815de0070b5668d0b91df6f
+ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528263"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106086889"
 ---
 # <a name="reseller-performance-dashboard-in-partner-center-insights"></a>Viszonteladói teljesítmény irányítópultja a partneri központban – áttekintés
 
@@ -68,57 +68,57 @@ A Micro diagram a bevétel hónapon belüli alakulását mutatja be a kiválaszt
 
 ## <a name="geographical-spread-of-resellers"></a>Viszonteladók földrajzi eloszlása
 
-A * * viszonteladók földrajz szerint nézet a viszonteladók földrajzi eloszlását adja meg. Ezen Widget használatával a partnerek megtekinthetik az összes **viszonteladót** , **új viszonteladót** és **számlázott bevételt (USD)** , különböző földrajzi területek felosztásával.
+A * * viszonteladók földrajz szerint nézet a viszonteladók földrajzi eloszlását adja meg. Ezen Widget használatával a partnerek megtekinthetik az összes **viszonteladót**, **új viszonteladót** és **számlázott bevételt (USD)**, különböző földrajzi területek felosztásával.
 
 Megkeresheti és kiválaszthatja a rács egyik országát, hogy a térképen lévő helyre nagyítson. A térképen a **Home (Kezdőlap** ) lehetőség megnyomásával visszaállíthatja az eredeti nézetet. Vigye az egérmutatót a térképen a **számlázott bevétel (USD)** országonkénti megtekintéséhez. A rácson számlázott bevétel (USD) mező rendezhető.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-by-geo-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-resel-by-geo-1.png" alt-text="Viszonteladók földrajz szerint ":::
 
 ## <a name="resellers-addchurns"></a>Viszonteladók hozzáadása/adatforgalom
 
-Ez a nézet egy hónapot biztosít az **új viszonteladók** , a megszakított **viszonteladók** és a **meglévő viszonteladók** számára. 
+Ez a nézet egy hónapot biztosít az **új viszonteladók**, a megszakított **viszonteladók** és a **meglévő viszonteladók** számára. 
 
 - Új viszonteladók: azoknak a viszonteladóknak a száma, akik újonnan regisztráltak a közvetett szolgáltatónál a kiválasztott dátumtartomány során.
 - Átesett viszonteladók: azon viszonteladók száma, akik nem rendelkeznek tranzakcióval az elmúlt hat hónapban, kivéve az aktuális hónapot.
 - Meglévő viszonteladók: az előző hónapban lebonyolított viszonteladók száma.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-add-churn-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-resel-add-churn-1.png" alt-text="Viszonteladók hozzáadása/adatforgalom":::
 
 ## <a name="resellers-revenue-trend"></a>Viszonteladói bevételi trend 
 
-Ez a nézet a számlázott bevétel (USD) havi trendjét biztosítja a termékek (például O365, D365, EMS, Power BI és Azure) alapján. A teljes metrikák összesítése a különböző termékek között történik minden hónapban. A partner megkeresheti az adott viszonteladó nevét, és megkeresheti az adott viszonteladóra vonatkozó adatkeresést. A rácson számlázott bevétel (USD) mező rendezhető.
+Ez a nézet a számlázott bevétel (USD) havi trendjét biztosítja a termékek (például a O365, a D365, az EMS, a Power BI és az Azure) felosztásával. A teljes metrikák összesítése a különböző termékek között történik minden hónapban. A partner megkeresheti az adott viszonteladó nevét, és megkeresheti az adott viszonteladóra vonatkozó adatkeresést. A rácson számlázott bevétel (USD) mező rendezhető.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-rev-trend-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-resel-rev-trend-1.png" alt-text="Viszonteladói bevételi trend":::
 
 ## <a name="reseller-performance-by-products"></a>Viszonteladói teljesítmény termékek szerint
 
-Ez a nézet a legfontosabb metrikákat, például a számlázott bevételeket, az előfizetések számát és a licencek darabszámát adja meg havonta, havonta. A jobb oldali tortadiagram azt jelzi, hogy a metrikák teljes felosztása különböző termékek alapján történik, így a partner gyors áttekintést nyújt a különböző termékekből származó felbomlásról, amelyet a viszonteladó árul.
+Ez a nézet a legfontosabb metrikákat, például a számlázott bevételeket, az előfizetések darabszámát, valamint a licencek darabszámát adja meg havonta, a különböző termékek alapján. A jobb oldali tortadiagram azt jelzi, hogy a metrikák teljes felosztása különböző termékek alapján történik, így a partner gyors áttekintést nyújt a különböző termékekből származó felbomlásról, amelyet a viszonteladó árul.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-perf-product-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-resel-perf-product-1.png" alt-text="Viszonteladói teljesítmény termékek szerint":::
 
 ## <a name="active-resellers-by-partner-locations"></a>Aktív viszonteladók partneri helyük szerint
 
 Ez a nézet a partneri földrajzi területek aktív viszonteladóinak felosztását biztosítja. Az első öt földrajzi terület a jelmagyarázatban látható, a fennmaradóak pedig "others" kategóriába vannak sorolva.
 
-:::image type="content" source="images/pci/pci-res-perf-part-loc-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-part-loc-1.png" alt-text="Aktív viszonteladók partneri helyük szerint":::
 
 ## <a name="revenue-geo-distribution-trend"></a>Bevétel földrajzi eloszlásának trendje
 
 Ez a nézet egy hónapot biztosít az első öt földrajzi régió által felosztott számlázott bevétel (USD) havi trendjeiről.  A bevétel többi részét "Egyebek"-ként kategorizáljuk.
 
-:::image type="content" source="images/pci/pci-res-perf-rev-geo-trend-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-rev-geo-trend-1.png" alt-text="Bevétel földrajzi eloszlásának trendje":::
 
 ## <a name="reseller-performance-by-customer-segment"></a>Viszonteladói teljesítmény az ügyfél szegmense szerint
 
 Ez a nézet lehetővé teszi a partner számára, hogy megértse a bevétel USD, az előfizetések és a licencek számát, a különböző felhasználói szegmensek felosztásával. Az első öt ügyfél szegmens látható a diagramon, és a fennmaradó elemek a "mások" kategóriába vannak kategorizálva.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-cust-seg-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-resel-cust-seg-1.png" alt-text="Viszonteladói teljesítmény az ügyfél szegmense szerint":::
 
 ## <a name="reseller-mpa-signing-status"></a>Viszonteladói MPA aláírási állapota
 
 Ez a nézet a viszonteladók (MPA) aláírási állapotát, valamint a további metaadatokat, például az MPN-ellenőrzés állapotát, a PMC és a számítógép áttelepítési állapotát tartalmazza.
 
-:::image type="content" source="images/pci/pci-res-perf-mpa-stat-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-mpa-stat-1.png" alt-text="Viszonteladói MPA aláírási állapota":::
 
 ## <a name="next-steps"></a>Következő lépések
 
