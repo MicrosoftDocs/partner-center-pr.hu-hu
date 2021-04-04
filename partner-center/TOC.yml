@@ -93,6 +93,8 @@
         - name: Az MPN-partnerek bemutatói
           href: mpn-demos.md
           displayName: mpn
+        - name: Előnyök szabályzat és használat – gyakori kérdések
+          href: benefits-faq-new.md
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.md
           displayName: 'renew, license,'
