@@ -11,17 +11,64 @@ ms.custom:
 - references_regions
 ms.localizationpriority: high
 ms.date: 04/02/2021
-ms.openlocfilehash: 091ba83408ccd7896a0395b6d77c7f3a40f9d985
-ms.sourcegitcommit: 60bbb8f4056120264b769f94431f84d86984c2e9
+ms.openlocfilehash: 2cd791425fd30d18b8db5f999eb773fc0e2f37e6
+ms.sourcegitcommit: c6c741475604b8daf386fb54bb2795a6445ac887
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/03/2021
-ms.locfileid: "106280887"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "106374433"
 ---
 # <a name="april-2021-announcements"></a>Április 2021 bejelentések
 
 Ez az oldal a Microsoft partner Center 2021-es áprilisi hirdetményeit tartalmazza.
 
+________________
+## <a name="new-format-for-the-new-commerce-pdf-invoice-in-csp"></a><a name="3"></a>Új formátum az új Commerce PDF-számla számára a CSP-ben
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-04-05
+- Képességek
+
+### <a name="summary"></a>Összefoglalás
+
+A Microsoft a Cloud Solution Provider (CSP) programban új formátumot vezet be az új kereskedelmi PDF-számlára, amely a számlázási adatokat a termék részletei alapján jeleníti meg az SKU leírása helyett.
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A CSP programon keresztül lebonyolított partnerek
+
+### <a name="details"></a>Részletek
+
+Az 2021-as naptól kezdve a Microsoft új formátumot vezet be az új kereskedelmi PDF-számla számára a CSP programban, hogy a számlázási adatokat a termék részletezése alapján jelenítse meg a SKU leírása helyett. Ezzel az új frissítéssel a rendszer terméktípus szerint összesíti az elemeket, miközben minden terméket egy adott sorban megjelenít.
+
+A partnerek ezt a változást a 2021 április 1. és a 2021. április 30-ig érvényes számlázási időszakra vonatkozó számlán jelennek meg. Az érintett ajánlatok Microsoft Azure fenntartott példány, Azure-előfizetések (Azure-csomag) és piactér.
+
+A rendszer az új formátumban hozza létre a számla formátumának frissítése után elvégzett jóváírási kérelmeket.
+
+#### <a name="partner-benefits"></a>Partneri előnyök
+
+Ez a frissítés a következő fejlesztési lehetőségeket kínálja a partnerek számlázási élményéhez:
+
+- A számlázási méret csökkentése a kritikus adatmennyiség megőrzése mellett
+
+- A formátum igazítása az iparági szabványokhoz kompakt és felhasználóbarát számlákhoz 
+
+A következő elemeket nem érinti a rendszer:
+
+- Számlázási összefoglalás lap a számla PDF-fájlján
+
+- Meglévő számlázási API-k
+
+- Egyeztetési fájlok (a felderítési fájlok használhatók a részletes adatok beolvasásához.) 
+
+- Használati és licenc-alapú díjak számlázása
+
+### <a name="next-steps"></a>Következő lépések
+
+Tekintse át a jelen témakör információit a Microsoft partner webhelyének [Operations Readiness Resource galériájában](https://partner.microsoft.com/resources/collection/introducing-new-format-for-the-new-commerce-invoice-in-csp#/) . A számlázási és adózási témakörökkel kapcsolatos további információkért, beleértve a számlázási erőforrásokat, a számlákat, a CSP számlázását és az adókat, látogasson el a partner Center [Számlázási szakaszára](https://docs.microsoft.com/partner-center/billing) .
+
+________________
 ## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="2"></a>A Cloud Solution Provider (CSP) ügyfél bevezetési követelményeinek módosításai
 
 ### <a name="categories"></a>Kategóriák
