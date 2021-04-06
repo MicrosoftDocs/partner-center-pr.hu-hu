@@ -9,18 +9,14 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a095f35c58cb6eb0c45f888bdf379edfd3cfe379
-ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
+ms.openlocfilehash: ac6169ea6680ea0b36cd5caa3f3e8276f557bea2
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475194"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502552"
 ---
 # <a name="sell-software-subscriptions-through-the-cloud-solution-provider-csp-program"></a>A szoftveres előfizetések értékesítése a Cloud Solution Provider (CSP) programon keresztül
-
-**A következőre érvényes:**
-
-- Felhőszolgáltatók
 
 **Megfelelő szerepkörök**
 
@@ -31,7 +27,7 @@ Az Azure-foglalások és a kiszolgálói előfizetések (Windows Server és SQL 
 
 Az Azure-fenntartásokat és-kiszolgáló-előfizetéseket mostantól a partner centeren és a Azure Portalon keresztül is beszerezheti, kiépítheti és kezelheti a kereskedelmi ügyfelek nevében a Azure Hybrid Benefit kihasználva.
 
-A Azure Hybrid Benefit segítségével több értéket érhet el Windows Server-licencei közül, és akár 40%-ot is megtakaríthat a virtuális gépeken. A kedvezményt a frissítési garanciával rendelkező Windows Server Datacenter és Standard Edition licenccel is használhatja. A kiadástól függően a licenceket a Windows Server rendszerű virtuális gépek Azure-ban való futtatásához vagy újbóli használatára használhatja, és alacsonyabb számítási sebességet (például linuxos virtuális gépek díjszabását) kell fizetnie.
+A Azure Hybrid Benefit segítségével több értéket érhet el Windows Server-licencei közül, és akár 40%-ot is megtakaríthat a virtuális gépeken. A kedvezményt a frissítési garanciával rendelkező Windows Server Datacenter és Standard Edition licenccel is használhatja. A kiadástól függően a licenceket a Windows Server rendszerű virtuális gépek Azure-ban való futtatására és az alacsonyabb számítási sebesség (például a linuxos virtuális gépek díjszabása) alapján alakíthatja át vagy használhatja újra.
 
 ## <a name="azure-reservations-unavailable-markets"></a>Azure-foglalások nem elérhető piacai
 
@@ -101,7 +97,7 @@ A szoftver megvásárlása után Önnek vagy ügyfeleinek le kell töltenie azt 
 
 2. Válassza a termék **verziója**, **nyelv**, **bit**, majd a **kulcsok és letöltések beolvasása** elemet. 
 
-3. Válassza a **kulcs lekérése** lehetőséget, amely megjeleníti az 32 számjegyű terméket egy előugró dialógusban, amelyet másolhat és küldhet az ügyfélnek. 
+3. A **kulcs lekérése** lehetőség kiválasztásával megjelenítheti az 32 számjegyű terméket egy előugró párbeszédpanelen, amelyet másolhat és küldhet az ügyfélnek. 
 
 4. A BITS letöltéséhez kattintson a **Letöltés** gombra. 
 
@@ -114,7 +110,7 @@ A szoftver megvásárlása után Önnek vagy ügyfeleinek le kell töltenie azt 
 
 ## <a name="server-subscription-download-and-license-keys-available-through-microsoft-365-admin-center-for-customers"></a>A kiszolgálói előfizetés letöltési és licenckulcs elérhetők Microsoft 365 felügyeleti központban az ügyfelek számára 
 
-Az ügyfelek megkapják a CSP-kiszolgáló előfizetési licenc kulcsait és letöltéseit Microsoft 365 felügyeleti központból. Ha szeretné megtekinteni a CSP-kiszolgáló előfizetési licencének kulcsait és letöltéseit, az ügyfélnek Microsoft 365 felügyeleti központban kell megadnia > **számlázási > termékeit > szoftver lapot**. További részletekért tekintse meg a [szoftverek lapot a számlázás alatt](/microsoft-365/admin/whats-new-in-preview#billing--subscriptions).  
+Az ügyfelek megkapják a CSP-kiszolgáló előfizetési licenc kulcsait és letöltéseit Microsoft 365 felügyeleti központból. Ha szeretné megtekinteni a CSP-kiszolgáló előfizetési licencének kulcsait és letöltéseit, az ügyfélnek Microsoft 365 felügyeleti központban kell megadnia > **számlázási > termékeit > szoftver lapot**. További részletekért lásd a [számlázás alatt található szoftverek lapot](/microsoft-365/admin/whats-new-in-preview#billing--subscriptions).  
 
 ## <a name="view-activity-for-software-key-access-and-software-downloads"></a>A szoftveres kulcsokhoz való hozzáférés és a szoftverek letöltésére vonatkozó tevékenység megtekintése
 
@@ -145,7 +141,7 @@ A vásárlás megszakításához kövesse az alábbi lépéseket:
 
 1. A megszakítási folyamat megkezdése előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 
-    - Az ügyfél neve, bérlői GUID vagy tartománynév
+    - Az ügyfél neve, a bérlő GUID azonosítója vagy a tartománynév
 
     - A megszüntetni kívánt termék neve
     

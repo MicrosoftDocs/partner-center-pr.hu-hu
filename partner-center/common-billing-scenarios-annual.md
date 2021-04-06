@@ -2,17 +2,19 @@
 title: Éves számlázás – gyakori forgatókönyvek
 ms.topic: article
 ms.date: 05/05/2020
+ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
 description: Partneri Központ – éves számlázás – új előfizetések hozzáadásakor, licencek hozzáadása a számlázási dátum előtt, a licencek mennyiségének módosítása, illetve az előfizetések felfüggesztése/újraaktiválása.
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 086a7d359e1b903684af4ecddac37eda584e55f8
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: 7494fd7cc003d1179c0ed959b21e1be2cbcc3255
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92527998"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502480"
 ---
 # <a name="common-annual-billing-scenarios-in-partner-center"></a>Közös éves számlázási forgatókönyvek a partner Centerben
 
@@ -27,9 +29,9 @@ A példában szereplő [általános számlázási forgatókönyvek](common-billi
 
 ## <a name="new-annual-subscription"></a>Új éves előfizetés
 
-A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést egy licenccel a $4/hónapra, és válassza az éves számlázás lehetőséget. A január 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést a $4/month egy licenccel, és kiválaszthatja az éves számlázást. A január 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Díjszabási díjak a vásárláskor|48,00|1|48,00
 
@@ -41,22 +43,22 @@ Egy új előfizetést vásárol a 2/11/17-es verzióban egy $211.20/év licencce
 
 2/12/17-on vásárol egy második licencet. A számlázási dátum 2/14/17. Létrejön egy számla-és egyeztetési fájl. Az egyeztetési fájl a következő számlázási sorokat fogja tartalmazni:
 
-|Díj kezdő dátuma  |Díj befejezési dátuma  |Díj típusa  |Egységár |Mennyiség | Mennyiség |
+|Díj kezdő dátuma  |Díj befejezési dátuma  |Díj típusa  |Egységár |Mennyiség | Összeg |
 |      :---:   |      :---:   |      :---:   |      :---:   |:---:   |:---:   |
 |2/11/2017 |2/10/2018 |Díjszabási díjak a vásárláskor |211,20 |1 | 211,20 |
 
 Az előfizetése 3/11/17-es évfordulóján a Microsoft számlázási rendszere a következő számlázási sorokat hozza létre a 2/12/17-es licencek növeléséhez:
 
 - $211,20 kredit a 2/11/17 – 2/10/18 időszakra.
-- $0,58 a 2/11/17 – 2/11/17 időszakra vonatkozó licencelési díj 1 licenccel számolva.
-- $15,62 a 2/12/17 – 3/10/2017 időszakra vonatkozó, 2 licenccel elszámolt díj.
-- $195,00 a 3/11/2017 – 2/10/2018 időszakra vonatkozó, 2 licenccel elszámolt díj.
+- $0,58 a 2/11/17 – 2/11/17 időszakra vonatkozó licenccel egy licenccel elszámolt díjat számítunk fel.
+- $15,62 – a 2/12/17 – 3/10/2017 időszakra vonatkozó licencek alapján, kétféle díjat számítunk fel.
+- $195,00 – a 3/11/2017 – 2/10/2018 időszakra vonatkozó licencek alapján, kétféle díjat számítunk fel.
 
-Az 2/11/17-es előfizetés megvásárlásakor. 2/12/17-on hozzáadunk egy licencet. A számlázási dátum 2/14/17. Az előfizetéshez tartozó 2/11/18-es verzióban.
+A 2/11/17-es verzióban vásárolja meg az előfizetést. A 2/12/17-es licencet ad hozzá. A számlázási dátum 2/14/17. Az előfizetéshez tartozó 2/11/18-es verzióban.
 
-A következő számlázási dátum 3/14/17, és létrejön egy számla & egyeztetési fájl. Az egyeztetési fájl a következő számlázási sorokat fogja tartalmazni:
+A következő számlázási dátum 3/14/17, és létrejön egy számla-és egyeztetési fájl. Az egyeztetési fájl a következő számlázási sorokat fogja tartalmazni:
 
-|Díj kezdő dátuma  |Díj befejezési dátuma  |Díj típusa  |Egységár |Mennyiség | Mennyiség |
+|Díj kezdő dátuma  |Díj befejezési dátuma  |Díj típusa  |Egységár |Mennyiség | Összeg |
 |      :---:   |      :---:   |      :---:   |      :---:   |:---:   |:---:   |
 |2/11/2017 |2/10/2018 |Ciklus példányának gyakorisága |– 211,20 |1 |– 211,20 |
 |2/11/2017 |2/11/2017 |Ciklus példányának gyakorisága |0,58 |1 |0,58 |
@@ -67,15 +69,15 @@ Az előfizetés 2/11/18 egy másik 12 hónapos időszakra újítja meg az előfi
 
 ## <a name="change-license-quantity"></a>Licenc mennyiségének módosítása
 
-A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést egy licenccel a $4/hónapra, és válassza az éves számlázás lehetőséget. A január 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést a $4/month egy licenccel, és kiválaszthatja az éves számlázást. A január 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Díjszabási díjak a vásárláskor|48,00|1|48,00
 
-Február 1-jén növeljük a licencek mennyiségét egy-két értékre. A február 15-én a licenc-alapú egyeztetési fájl a következő számlázási sorokat fogja tartalmazni:
+Február 1-jén megnövelheti a licencek mennyiségét egy-két értékkel. A február 15 licenc-alapú egyeztetési fájl a következő számlázási sorokat fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Ciklus példányának gyakorisága|– 48,00|1|– 48,00
 1/13/2018|1/31/2018|Ciklus példányának gyakorisága|2,47|1|2,47
@@ -95,30 +97,30 @@ Ezért az egység ára = 44,98 (346x 0.13 x2)
 
 ## <a name="suspend-before-30-days"></a>Felfüggesztés 30 nap előtt
 
-A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést egy licenccel a $4/hónapra, és válassza az éves számlázás lehetőséget. A január 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést a $4/month egy licenccel, és kiválaszthatja az éves számlázást. A január 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Díjszabási díjak a vásárláskor|48,00|1|48,00
 
-Február 1-jén felfüggesztheti az előfizetését. A február 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+Február 1-jén felfüggesztheti az előfizetését. A február 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Megszakított díj|– 48,00|1|– 48,00
 
 ## <a name="suspend-after-30-days"></a>Felfüggesztés 30 nap után
 
-A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést egy licenccel a $4/hónapra, és válassza az éves számlázás lehetőséget. A január 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést a $4/month egy licenccel, és kiválaszthatja az éves számlázást. A január 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Díjszabási díjak a vásárláskor|48,00|1|48,00
 
-A február 15-től a licenc-alapú egyeztető fájl nem tartalmaz számlázási sort ehhez az előfizetéshez.
-Március 1-től felfüggesztheti az előfizetést. A március 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+A február 15 licenc-alapú egyeztetési fájl nem tartalmaz számlázási sort ehhez az előfizetéshez.
+Március 1-jén felfüggesztjük az előfizetését. A márciusi 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 3/1/2018|1/12/2019|Megszakított díj|– 41,34|1|– 41,34
 
@@ -132,21 +134,21 @@ Ezért az egység ára = 41,34 (318x 0.13 X1). Mivel ez egy kredit, az egység �
 
 ## <a name="suspend-and-reactivate"></a>Felfüggesztés és újraaktiválás
 
-A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést egy licenccel a $4/hónapra, és válassza az éves számlázás lehetőséget. A január 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+A számlázási dátum minden hónap 15. Január 13-án vásárolhat egy új előfizetést a $4/month egy licenccel, és kiválaszthatja az éves számlázást. A január 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Díjszabási díjak a vásárláskor|48,00|1|48,00
 
-Február 1-jén felfüggesztheti az előfizetését. A február 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+Február 1-jén felfüggesztheti az előfizetését. A február 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 1/13/2018|1/12/2019|Megszakított díj|– 48,00|1|– 48,00
 
-Március 1-én aktiválja újra az előfizetését. A március 15-én a licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
+Március 1-jén aktiválja újra az előfizetését. A márciusi 15 licenc-alapú egyeztetési fájl a következő számlázási sort fogja tartalmazni:
 
-|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Mennyiség |
+|Díj kezdő dátuma |Díj befejezési dátuma |Díj típusa |Egységár |Mennyiség |Összeg |
 |       :---:      |    :---:       | :---:      |:---:      |:---:    |:---:  |
 3/1/2018|1/12/2019|Díjszabási díjak a vásárláskor|41,34|1|41,34
 

@@ -9,18 +9,17 @@ author: billLinzbach
 ms.author: billli
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8d4984f3a4612e8b0b0023f8cbfcb9a2805a3177
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: 77d56a22e12b369b5df6fc50a8ee28b7db73192b
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979692"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502884"
 ---
 # <a name="cloud-solution-provider-program-guide-agreements-price-lists-and-offers"></a>A felhőszolgáltatói program útmutatója, szerződései, árlistái és ajánlatai
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Partnerközpont
 - A Microsoft Cloud for US Government Partnerközpontja
 
 
@@ -78,7 +77,7 @@ A Crest use Record API-t használó CSP-partnerek esetén a Microsoft a **díjsz
 
 A független szoftvergyártók (ISV-ket) által közzétett Azure Marketplace-ajánlatokról a bal oldali navigációs menü **piactér** lapján tájékozódhat. Jelenleg csak a SaaS (szolgáltatott szoftver) terméktípusok vásárolhatók meg a partner Centerben. További Azure Marketplace-ajánlatok beszerzéséhez látogasson el a Azure Portal.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Tudnivalók a Microsoft partneri szerződésről](microsoft-partner-agreement.md)
 - [Regisztráció a felhőszolgáltatói programban](enrolling-in-the-csp-program.md)

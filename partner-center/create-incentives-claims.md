@@ -9,18 +9,14 @@ author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: seodec18
-ms.openlocfilehash: 9b2f0b3acbbf3ad9648301b85cec3b8837e3e51e
-ms.sourcegitcommit: 98f5eebe7d08ba214ed5a078f1ac770439e41eb7
+ms.openlocfilehash: 9780aa80fdcaab6cfd240127b80155cbfb8dcd26
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132946"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502918"
 ---
 # <a name="create-and-manage-an-incentives-co-op-claim"></a>Ösztönzők együttes op-jogcím létrehozása és kezelése
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
 
 **Megfelelő szerepkörök**
 
@@ -38,7 +34,7 @@ A partner centeren belül is kezdeményezhet ösztönző jogcímet.
 
 4. Új jogcím létrehozásához válassza **a jogcím létrehozása** lehetőséget.
 
-5. Ha kitöltötte a kezdeti űrlapot és a kiválasztott **létrehozási jogcímet** , akkor a jogcím részletei oldalra kerül, ahol SZÁMLÁKAT, CSR-t, igazoló dokumentumokat és mérőszámokat adhat hozzá. Igény szerint további információkat is felvehet.
+5. Ha kitöltötte a kezdeti űrlapot és a kiválasztott **létrehozási jogcímet**, akkor a jogcím részletei oldalra kerül, ahol SZÁMLÁKAT, CSR-t, igazoló dokumentumokat és mérőszámokat adhat hozzá. Igény szerint további információkat is felvehet.
 
 Az igénylés részleteit tartalmazó lapon felkérheti a szervezet más tagjait, hogy dokumentumokat töltsenek fel az űrlapra. A feltöltött támogató dokumentumok mindegyikét magyarázó információkkal is kiegészítheti. 
 

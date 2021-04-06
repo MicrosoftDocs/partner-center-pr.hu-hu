@@ -4,25 +4,23 @@ ms.topic: how-to
 ms.date: 07/22/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan értékesítheti ügyfelei előfizetéseit a Microsoft által közzétett termékekre, valamint a harmadik féltől származó független szoftvergyártók által közzétett SaaS-termékekre.
+description: Megtudhatja, hogyan értékesítheti az ügyfeleknek a Microsoft által közzétett, valamint a harmadik féltől származó független szoftvergyártók által közzétett SaaS-termékek előfizetéseit.
 author: BillLinzbach
 ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
-ms.openlocfilehash: 85a40974557817825d58246c2c010c7cf8a6a5e1
-ms.sourcegitcommit: f34f2f69e6df4f260479a205d94010cf47987ff2
+ms.openlocfilehash: 559d1fbd2efc1417ae89931279b9d3c9a1d67f7c
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96038880"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502935"
 ---
 # <a name="create-suspend-or-cancel-customer-subscriptions"></a>Ügyfél-előfizetések létrehozása, felfüggesztése vagy lemondása
 
 **A következőre érvényes:**
 
-- Partnerközpont
 - A Microsoft Cloud for US Government Partnerközpontja
-- CSP-partnerek
 
 **Megfelelő szerepkörök**
 
@@ -32,7 +30,7 @@ ms.locfileid: "96038880"
 - Segélyszolgálat ügynöke
 - Értékesítési ügynök
 
-Miután létrehozott egy rekordot az ügyfélről a partner Centerben, a katalógusban lévő termékek előfizetéseit is értékesítheti. Ide tartoznak a Microsoft által közzétett termékek, valamint a harmadik féltől származó független szoftvergyártók (ISV-ket) által a [kereskedelmi piactéren](https://azuremarketplace.microsoft.com/marketplace)közzétett szoftveres (SaaS) termékek.
+Miután létrehozott egy rekordot az ügyfélről a partner Centerben, a katalógusban lévő termékek előfizetéseit is értékesítheti. Ide tartoznak a Microsoft és a szolgáltatott szoftverek (SaaS) által közzétett, harmadik féltől származó független szoftvergyártók által közzétett termékek a [kereskedelmi piactéren](https://azuremarketplace.microsoft.com/marketplace).
 
 Egyes ajánlatok felhasználónként egy előfizetésre korlátozódnak. Ha szeretné megtekinteni, hogy mely ajánlatok vannak korlátozva, látogasson el a partner Center díjszabási és ajánlatok oldalára.
 
@@ -80,7 +78,7 @@ Egyes ajánlatok felhasználónként egy előfizetésre korlátozódnak. Ha szer
    
 ## <a name="update-subscriptions-with-add-ons"></a>Előfizetések frissítése bővítményekkel 
 
-Bővítmény vásárlásához az ügyfélnek először aktív alapszintű előfizetéssel kell rendelkeznie.  A katalóguson keresztül nem vásárolhat bővítményeket.
+Egy bővítmény megvásárlásához az ügyfélnek először aktív alapszintű előfizetéssel kell rendelkeznie.  A katalóguson keresztül nem vásárolhat bővítményeket.
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
@@ -93,7 +91,7 @@ Bővítmény vásárlásához az ügyfélnek először aktív alapszintű előfi
 5. Frissítse a licencek mennyiségét az egyes szükséges bővítményekhez. Küldje el a módosításokat a **Küldés** gombbal.
 
 A partnerek központon keresztüli megvásárlásának lehetősége csak a közvetlen számla és a közvetett szolgáltatók számára érhető el.
-Csak a jogosult bővítmények jelennek meg az alapkövetelmények és a regionális elérhetőség alapján. A díjszabással és az ajánlatokkal kapcsolatban további információért tekintse meg a felhőszolgáltatások viszonteladójának ajánlati mátrixát.  Az alapszintű előfizetés felfüggesztése a kapcsolódó bővítményeket is felfüggeszti.
+Csak a jogosult bővítmények jelennek meg az alapkövetelmények és a regionális elérhetőség alapján. A díjszabással és ajánlatokkal kapcsolatos további információkért tekintse meg a felhőalapú viszonteladói ajánlat mátrixát. Az alapszintű előfizetés felfüggesztése a kapcsolódó bővítményeket is felfüggeszti.
 
 A bővítmények kezdő dátuma az alapszintű előfizetéshez igazodik, és a díjakat a díj kezdő dátuma és a díj befejezési dátuma alapján számítjuk ki, az első számlán pedig arányosított díjak szerepelnek. További információ: [licenc alapú számlázás](license-based-billing.md).
 
@@ -120,7 +118,7 @@ Egy előfizetés felfüggesztése esetén a **felfüggesztett** gomb alatt láth
 
 ### <a name="cancel-a-subscription"></a>Előfizetés megszakítása
 
-Lehetősége van megszakítani a licenc-alapú SaaS-előfizetéseket a harmadik féltől származó ISV-közzétevők között a partner Center [kereskedelmi piactéren](csp-commercial-marketplace-overview.md). Ha a lemondási időszakon belül megszakítja a megszakítást, teljes visszatérítést fog kapni.
+A licenc-alapú SaaS-előfizetéseket a partner Center [kereskedelmi piactéren](csp-commercial-marketplace-overview.md)található külső gyártóktól származó ISV-gyártóktól is megszakíthatja. Ha a lemondási időszakon belül megszakítja a megszakítást, teljes visszatérítést fog kapni.
 
 Az ISV-ajánlatokhoz havonta számlázunk:
 
@@ -174,7 +172,7 @@ Aktív kereskedelmi piactér-előfizetés leállítása automatikus megújítás
 
 6. Válassza a **Küldés** lehetőséget.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Kereskedelmi piactéren vásárolt termékek vásárlása ügyfelei számára](csp-commercial-marketplace-purchase.md)
 

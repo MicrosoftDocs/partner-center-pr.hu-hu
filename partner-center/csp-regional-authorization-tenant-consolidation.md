@@ -10,19 +10,18 @@ ms.author: billLi
 ms.localizationpriority: medium
 robots: noindex,nofollow
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0ae107c005eaf6b8ff8a6d99a91075ebc560cf81
-ms.sourcegitcommit: 940dad4527f51781f6f966e196b3aa08389613a2
+ms.openlocfilehash: 2171e2b10101e99bdd8d415a936ba98af65c2a1b
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "92530252"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502570"
 ---
-# <a name="instructions-for-csp-regional-authorization-tenant-consolidation"></a>Útmutató a CSP regionális engedélyezési bérlői összevonásához
+# <a name="instructions-for-csp-regional-authorization-tenant-consolidation"></a>Útmutató a CSP regionális engedélyezési bérlőösszevonáshoz
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
--  Partnerközpont
--  Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 **Megfelelő szerepkörök**
 
@@ -48,7 +47,7 @@ A bérlőket összevonhatja a vállalata számára. Ezekkel az utasításokkal �
 
 2. Válassza az **Ügyfelek** lehetőséget.
 
-3. Kattintson **a viszonteladói kapcsolat kérése** elemre. Az ügyfeleknek küldött alapértelmezett e-mail-üzenet jelenik meg. Ez az üzenet egy olyan URL-címet tartalmaz, amely az új partner Center-fiókban egyedi szervezeti AZONOSÍTÓval rendelkezik.
+3. Válassza **a viszonteladói kapcsolat kérése** lehetőséget. Az ügyfeleknek küldött alapértelmezett e-mail-üzenet jelenik meg. Ez az üzenet egy olyan URL-címet tartalmaz, amely az új partner Center-fiókban egyedi szervezeti AZONOSÍTÓval rendelkezik.
 
 4. **Ügyfél-művelet:** Győződjön meg arról, hogy az áttelepíteni kívánt összes aktív ügyfél meglátogatja ezt az URL-címet. Az URL megnyitásakor a rendszer felszólítja az ügyfelet, hogy jelentkezzen be az Office 365 portálra. Az ügyfél ugyanazzal a szervezeti AZONOSÍTÓval jelentkezik be, amelyet az Azure-és Office 365 felügyeleti portálok elérésére használ.
 
@@ -70,7 +69,7 @@ Az ügyfelek a partner ügyfeleinek listájában jelennek meg, miután elküldt�
 
    :::image type="content" source="images/regionalcustomer2.png" alt-text="ügyfelek listája":::
 
-6. Kattintson a **Submit (küldés) gombra.**
+6. Válassza a **Küldés lehetőséget.**
 
    A szolgáltatásokat mostantól a partner fiókba való **áttéréssel** biztosítjuk az ügyfélnek.
 
@@ -89,7 +88,7 @@ Ha letiltja a CSP-előfizetést a partneri fiókokból **való áttérés alatt,
 
 2. Nyissa meg a letiltani kívánt előfizetésekkel rendelkező ügyfelet, majd válassza ki az első letiltani ajánlatot.
 
-3. Állítsa az előfizetést **felfüggesztve** értékre, majd kattintson a **Submit (Küldés** ) gombra.
+3. Állítsa az előfizetést **felfüggesztve** értékre, majd válassza a **Küldés** lehetőséget.
 
    >[!Note]
    >Az előfizetés felfüggesztése biztosítja a kettős számlázást.
@@ -102,7 +101,7 @@ Ha letiltja a CSP-előfizetést a partneri fiókokból **való áttérés alatt,
 
 ## <a name="migrating-azure-usage-based-subscriptions"></a>Azure-alapú használati előfizetés áttelepítése
 
-Az Office 365 CSP-előfizetésekkel ellentétben az Azure-ban nem kell manuálisan áttelepíteni a használati alapú CSP-előfizetéseket. Microsoft Azure támogatás áttelepíti az Azure-előfizetéseket, valamint az összes telepített szolgáltatást vagy erőforrást **a CSP-** viszonteladói fiókoktól a CSP-viszonteladói fiókra **való áttéréstől** . Az áttelepítés során az ügyfél nem zavarja a szolgáltatást.
+Az Office 365 CSP-előfizetésekkel ellentétben az Azure-ban nem kell manuálisan áttelepíteni a használati alapú CSP-előfizetéseket. Microsoft Azure támogatás áttelepíti az Azure-előfizetéseket **és az összes** telepített szolgáltatást vagy erőforrást a CSP-viszonteladói fiókoktól a CSP viszonteladói fiókra **való áttéréstől** . Az áttelepítés során az ügyfél nem zavarja a szolgáltatást.
 
 1. Győződjön meg arról, hogy az Azure-előfizetésekkel rendelkező felhasználói fiókok elfogadták az új, CSP-re **való áttéréssel** kapcsolatos szerződést.
 
@@ -134,11 +133,11 @@ Az Office 365 CSP-előfizetésekkel ellentétben az Azure-ban nem kell manuális
 
 Az **Exportálás funkcióval** rögzítheti az új összevont struktúrában használni kívánt előfizetéseket:
 
-1. Az ügyfelek listájának megtekintéséhez kattintson a partner központ **ügyfelei** elemére. 
+1. Válassza ki az **ügyfeleket** a partner központban az ügyfelek listájának megtekintéséhez. 
 
 2. Nyissa meg a kívánt ügyfél nevét.
 
-3. Az **előfizetések** lapon kattintson az **előfizetések exportálása** lehetőségre, hogy az előfizetések adatait egy Excel-fájlba exportálja.
+3. Az **előfizetések** lapon válassza az előfizetések **exportálása** lehetőséget, hogy egy Excel-fájlba exportálja az előfizetések részleteit.
 
 4. Ezzel a listával újból létrehozhatja az előfizetéseket az új konszolidált bérlőben.
 

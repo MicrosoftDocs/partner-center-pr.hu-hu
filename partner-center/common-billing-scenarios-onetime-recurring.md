@@ -2,17 +2,19 @@
 title: Egyszeri & ismétlődő vásárlások számlázása
 ms.topic: article
 ms.date: 05/05/2020
+ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
 description: A partner Center számlázási mintái egyszeri és ismétlődő vásárlások esetén – Előfizetések vásárlása esetén további előfizetések hozzáadása, licencek hozzáadása vagy eltávolítása.
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a301aa85310142b3327baabbf3c8545b31f489bd
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.openlocfilehash: 329675e10205755819a19710976073d22f73eb58
+ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354389"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106502531"
 ---
 # <a name="partner-center-billing-scenarios-for-one-time-and-select-recurring-purchases"></a>A partner Center számlázási forgatókönyvei egyszeri használatra és az ismétlődő vásárlások kiválasztása
 
@@ -32,10 +34,10 @@ Az 1. forgatókönyvben a $4-es egységáron vásárolhat meg egy előfizetést.
 A Recon-fájl a következőket tartalmazza:
 
 - $4 számla a szolgáltatási időszakban, június 10 – július 9.
-- $-4,00, arányosan elszámolt, a szolgáltatási időszak 11. június 11. Ez az az időszak, amikor 1 licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 30 x 1 = 4,00.
-- $8,00 arányosan elszámolt kiszámlázva a szolgáltatási időszakban, június 10 – július 9. Ez az az időszak, amikor 2 licenccel rendelkezett. Számítás = (4/30) x 30 x 2 = 8,00.
+- $-4,00, arányosan elszámolt, a szolgáltatási időszak 11. június 11. Ez az az időszak, amikor licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 30 x 1 = 4,00.
+- $8,00 arányosan elszámolt kiszámlázva a szolgáltatási időszakban, június 10 – július 9. Ez az az időszak, amikor két licenccel rendelkezett. Számítás = (4/30) x 30 x 2 = 8,00.
 
-|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Mennyiség** |**Díj típusa** |
+|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Összeg** |**Díj típusa** |
 |:------:|:------:|:------:|:------:|:------:|:------:|:-----:|
 |6/11/2019      |6/10/2019   |7/09/2019         |$4                |1                 |$4            |Új         |
 |6/11/2019     | 6/10/2019    |7/09/2019        |$4        |1        | – $4       |addQuantity           |
@@ -48,10 +50,10 @@ A 2. forgatókönyvben egy, a $4-es egységáron vásárolt előfizetést, és j
 A Recon-fájl a következőket tartalmazza:
 
 - $4 számla a szolgáltatási időszakban, június 10 – július 9.
-- $-3,87 arányosan elszámolt, a szolgáltatási időszakra vonatkozó, 11. június 12. Ez az az időszak, amikor 1 licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 29 x 1 = 3,87.
-- $7,74 a szolgáltatási időszakra vonatkozó, 12 – július 9. Ez az az időszak, amikor 2 licenccel rendelkezett. Számítás = (4/30) x 29 x 2 = 7,74.
+- $-3,87 arányosan elszámolt, a szolgáltatási időszakra vonatkozó, 11. június 12. Ez az az időszak, amikor egy licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 29 x 1 = 3,87.
+- $7,74 a szolgáltatási időszakra vonatkozó, 12 – július 9. Ez az az időszak, amikor két licenccel rendelkezett. Számítás = (4/30) x 29 x 2 = 7,74.
 
-|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Mennyiség** |**Díj típusa** |
+|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Összeg** |**Díj típusa** |
 |:------:|:------:|:------:|:------:|:------:|:------:|:-----:|
 |6/11/2019 (egy licenccel rendelkezik)     |6/10/2019   |7/09/2019         |$4         |1        |$4            |Új         |
 |6/12/2019     | 6/10/2019    |7/09/2019        |$4        |1        | – $3,87       |addQuantity           |
@@ -64,10 +66,10 @@ A 3. forgatókönyvben két előfizetést vásárol ugyanarra a termékre, a $4-
 A Recon-fájl a következőket tartalmazza:
 
 - $8 számla két, a szolgáltatási időszakra vonatkozó, 10 – július 9 licenchez.
-- $-8,00, arányosan elszámolt, a szolgáltatási időszak 11. június 11. Ez az az időszak, amikor 2 licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 30 x 2 = 8,00.
-- $4,00 arányosan elszámolt, a szolgáltatási időszak 11 – július 9. Ez az az időszak, amikor 1 licenccel rendelkezett. Számítás = (4/30) x 30 x 1 = 4,00.
+- $-8,00, arányosan elszámolt, a szolgáltatási időszak 11. június 11. Ez az az időszak, amikor két licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 30 x 2 = 8,00.
+- $4,00 arányosan elszámolt, a szolgáltatási időszak 11 – július 9. Ez az az időszak, amikor egy licenccel rendelkezett. Számítás = (4/30) x 30 x 1 = 4,00.
 
-|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Mennyiség** |**Díj típusa** |
+|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Összeg** |**Díj típusa** |
 |:------:|:------:|:------:|:------:|:------:|:------:|:-----:|
 |6/11/2019      |6/10/2019   |7/09/2019         |$4                |2                 |$8            |Új         |
 |6/11/2019     | 6/10/2019    |7/09/2019        |$4        |2        | – $8       |removeQuantity           |
@@ -75,19 +77,19 @@ A Recon-fájl a következőket tartalmazza:
 
 ## <a name="purchase-a-subscription-and-remove-licenses-later"></a>Előfizetés vásárlása és licencek eltávolítása később
 
-A 4. forgatókönyvben 2 előfizetést vásárol a $4-es egységáron, és június 12-én törli az egyik licencet.
+A 4. forgatókönyvben a $4-es egységáron két előfizetést vásárol, és június 12-én eltávolítja az egyik licencet.
 
 A Recon-fájl a következőket tartalmazza:
 
 - $8 számla a szolgáltatási időszakban, június 10 – július 9.
-- $-7,74 arányosan elszámolt, a szolgáltatási időszakra vonatkozó, 11. június 12. Ez az az időszak, amikor 2 licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 29 x 2 = 7,74.
-- $3,87 a szolgáltatási időszakra vonatkozó, 12 – július 9. Ez az az időszak, amikor 1 licenccel rendelkezett. Számítás = (4/30) x 29 x 1 = 3,87.
+- $-7,74 arányosan elszámolt, a szolgáltatási időszakra vonatkozó, 11. június 12. Ez az az időszak, amikor két licenccel rendelkezett. Számítás = (havi díj/teljes nap a szolgáltatási időszakban) x nap az elszámolású szolgáltatási időszakban x licencek száma = (4/30) x 29 x 2 = 7,74.
+- $3,87 a szolgáltatási időszakra vonatkozó, 12 – július 9. Ez az az időszak, amikor egy licenccel rendelkezett. Számítás = (4/30) x 29 x 1 = 3,87.
 
-|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Mennyiség** |**Díj típusa** |
+|**Vásárlás dátuma**   |**Díj kezdete** |**Díj vége**  |**Egység ára**  |**Mennyiség**  |**Összeg** |**Díj típusa** |
 |:------:|:------:|:------:|:------:|:------:|:------:|:-----:|
-|6/11/2019 (2 licenccel rendelkezik)     |6/10/2019   |7/09/2019         |$4         |2        |$8       |Új       |
+|6/11/2019 (két licenccel rendelkezik)     |6/10/2019   |7/09/2019         |$4         |2        |$8       |Új       |
 |6/12/2019     | 6/10/2019    |7/09/2019        |$4        |2        | – $7,74       |removeQuantity           |
-|6/12/2019 (1 licenccel rendelkezik)    | 6/10/2019    |7/09/2019   |$4    |1      |$3,87    |removeQuantity |
+|6/12/2019 (egy licenccel rendelkezik)    | 6/10/2019    |7/09/2019   |$4    |1      |$3,87    |removeQuantity |
 
 ## <a name="next-steps"></a>Következő lépések
 
