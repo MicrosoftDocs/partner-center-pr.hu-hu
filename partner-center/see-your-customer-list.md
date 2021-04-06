@@ -9,18 +9,18 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 38ab5b3ef871aa8a969e8da48e2cb6f4cfebf4c6
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: 244a8cfc661b371b611a19a5c90ddf131b42a46a
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028332"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441965"
 ---
 # <a name="manage-your-customer-list---search-update-or-export-customers-in-partner-center"></a>Az ügyfelek listájának kezelése – ügyfelek keresése, frissítése vagy exportálása a partner Centerben
 
 **A következőre érvényes:**
 
-- Partneri központ a Microsoft Government cloudhoz
+- A Microsoft Cloud for US Government Partnerközpontja
 
 Az ügyfelek rekordjai a partner Center legfontosabb információs eszközei közé tartoznak. Megkeresheti a felhasználói fiókok adatbázisát, exportálhatja a teljes ügyfél-adatbázist, vagy exportálhat egy részhalmazt egy Excel-kompatibilis, vesszővel tagolt formátumú fájlformátumba (. csv). Az ügyfél előfizetési adatait egy. csv-fájlba is exportálhatja.
 

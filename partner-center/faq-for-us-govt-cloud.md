@@ -8,18 +8,18 @@ author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.date: 11/20/2019
-ms.openlocfilehash: bdce3cd4b2095a0c2d87521a879a15bcbbd7d0fd
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 97e7e19f54e3dd98a37409747cfac5464080c86e
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92530042"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441472"
 ---
 # <a name="frequently-asked-questions-for-partner-center-for-microsoft-cloud-for-us-government"></a>A partner centerrel kapcsolatos gyakori kérdések az Egyesült Államok kormányzati szerveinek Microsoft Cloud
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 ## <a name="general-questions"></a>Általános kérdések
 
@@ -27,11 +27,11 @@ Ezekkel a gyakori kérdésekkel többet tudhat meg az USA kormányzati szerveine
 
 ### <a name="what-is-microsoft-cloud-for-us-government"></a>Mi Microsoft Cloud az USA kormányzati szerveinek?
 
-Az Egyesült Államok kormányának az alapoktól kezdve, Microsoft Cloud a kormányzat számára lehetővé teszi az állami szektorban működő ügyfelek számára a Egyesült Államok – a nagy szövetségi szervektől a kisvárosi kormányzatig –, hogy kiválasszon egy sor felhőalapú számítástechnikai szolgáltatást. Ahhoz, hogy a legjobb megoldást biztosítson az ügyfelek igényeire, a Microsoft jelentős befektetéseket hajtott végre az adatközpontokban, és az Egyesült Államok szövetségi és állami szabályzatával, megbízatásával és követelményeivel való megfelelést hivatott kielégíteni.
+Az Egyesült Államok kormányának az alapoktól kezdve, Microsoft Cloud az USA kormányzati szervei számára lehetővé teszi az állami szektorban működő ügyfelek számára a Egyesült Államok – a nagy szövetségi szervektől a kisvárosi kormányzatig –, hogy kiválasszák számos felhőalapú számítástechnikai szolgáltatásból. Ahhoz, hogy a legjobb megoldást biztosítson az ügyfelek igényeire, a Microsoft jelentős befektetéseket hajtott végre az adatközpontokban, és az Egyesült Államok szövetségi és állami szabályzatával, megbízatásával és követelményeivel való megfelelést hivatott kielégíteni.
 
 ### <a name="who-is-eligible-for-the-csp-program-for-microsoft-cloud-for-us-government"></a>Ki jogosult az Egyesült Államok kormányzati szerveinek Microsoft Cloud CSP-programjára?
 
-Az Egyesült Államok szövetségi, állami és helyi kormányzati szervei által a kormányzati kapacitásban kiszolgáló Egyesült Államok partnerek jogosultak a Microsoft Government Cloud CSP-programjára. A Microsoft szigorú ellenőrzési program segítségével határozza meg, hogy a partnerek hozzáférhessenek-e a Microsoft Government Cloud szolgáltatáshoz. A jogosultsághoz bizonyítania kell, hogy együttműködik a kormányzati ügyfelekkel. A Microsoft által kiadott CSP-program regisztrációs folyamata az Egyesült Államok kormánya számára bővült, hogy további adatok rögzíthetők az érvényesítés végrehajtásához. A bizonyítási típusok tartalmazhatnak, de nem korlátozódnak a kormányzati szerződések számára és a kormányzati ügyfelétől érkező szponzorálási levélre.
+Az USA-beli szövetségi, állami és helyi kormányzati szerveket kiszolgáló Egyesült Államok partnerek jogosultak az Egyesült Államok kormányzati szerveinek Microsoft Cloud CSP-programjára. A Microsoft szigorú ellenőrzési program segítségével dönti el, hogy a partnerek hozzáférhessenek-e a Microsoft Cloud az USA kormányzati szerveinek. A jogosultsághoz bizonyítania kell, hogy együttműködik a kormányzati ügyfelekkel. A Microsoft által kiadott CSP-program regisztrációs folyamata az Egyesült Államok kormánya számára bővült, hogy további adatok rögzíthetők az érvényesítés végrehajtásához. A bizonyítási típusok tartalmazhatnak, de nem korlátozódnak a kormányzati szerződések számára és a kormányzati ügyfelétől érkező szponzorálási levélre.
 
 ### <a name="is-customer-pricing-the-same-as-for-csp-commercial"></a>Az ügyfelek díjszabása megegyezik a CSP kereskedelmi szolgáltatásával?
 
@@ -43,13 +43,13 @@ Igen. Az Egyesült Államok kormánya számára Microsoft Cloud CSP-programhoz t
 
 ### <a name="csp-commercial-is-an-existing-partner-program-how-is-the-csp-program-for-microsoft-government-cloud-different"></a>A CSP kereskedelmi egy meglévő partneri program. Miben különbözik a Microsoft Government Cloud CSP-programja?
 
-A Microsoft Government Cloud CSP-programja eltér a CSP kereskedelmi szolgáltatástól a következő területeken:
+Az Egyesült Államok kormányzati szerveinek Microsoft Cloud CSP-programja különbözik a CSP kereskedelmi szolgáltatástól, a következő területeken:
 
-- Jogosultság: a Microsoft Government Cloud CSP-programja csak olyan Egyesült Államok partnerek számára érhető el, amelyek kormányzati minőségükben az Egyesült Államok szövetségi, állami és helyi kormányzati szerveit szolgálják ki. A Microsoft érvényesítési programja alapján határozza meg, hogy a partnerek hozzáférhessenek-e az Egyesült államokbeli kormányzati felhőhöz.
+- Jogosultság: az Egyesült Államok kormányzati szervei számára Microsoft Cloud CSP program csak olyan Egyesült Államok partnerei számára érhető el, amelyek kormányzati minőségükben az Egyesült Államok szövetségi, állami és helyi kormányzati szerveit szolgálják ki. A Microsoft érvényesítési programja alapján határozza meg, hogy a partnerek hozzáférhessenek-e az Egyesült államokbeli kormányzati felhőhöz.
 
 - Előkészítés: a partnereknek be kell jelentkezniük a CSP-programba Microsoft Cloud az USA kormányzati szerveinek a CSP kereskedelmi szolgáltatástól függetlenül.
 
-- Termék rendelkezésre állása: az Azure Government és a licenc-alapú szolgáltatások, például az Office 365, a Enterprise Mobility + Security és a Dynamics 365 a Microsoft Government Cloud CSP programjában érhetők el.
+- Termék rendelkezésre állása: a Azure Government és a licenc-alapú szolgáltatások, például az Office 365, a Enterprise Mobility + Security és a Dynamics 365 elérhetők a CSP programban az USA kormányzati szervei számára Microsoft Cloud.
 
 - Szerződéskötés: a Microsoft Cloud viszonteladói szerződés (MCRA) frissítve lett, hogy tükrözze az egyedi kormányzati feltételeket.
 
@@ -93,7 +93,7 @@ Az Egyesült Államok kormányzati szerveinek Microsoft Cloud MCDA a következő
 
 ### <a name="what-are-the-qualifications-to-sell-microsoft-cloud-for-us-government"></a>Milyen képesítéssel kell eladni Microsoft Cloud az USA kormányzati szerveinek?
 
-A Microsoft Government Cloud CSP-programjának értékesítéséhez szükséges minősítési feltételek ugyanazok, mint a CSP kereskedelmi minősítési feltételei, nyitottak mind a közvetlen partnerek, mind a közvetett viszonteladók számára. Nem kell újból kinevezni, hogy a Microsoft Government Cloud CSP-programjának közvetett viszonteladója legyen, ha Ön jóváhagyja közvetett viszonteladóként a CSP kereskedelmi szolgáltatását.
+Az Amerikai Egyesült Államok kormánya számára Microsoft Cloud CSP-program értékesítésére vonatkozó minősítési feltételek ugyanazok, mint a CSP kereskedelmi minősítési feltételei, nyitott a közvetlen partnerek és a közvetett viszonteladók számára. Nem kell újból kinevezni, hogy közvetett viszonteladó legyen az Egyesült Államok kormányának Microsoft Cloud az USA kormányzati szervei számára, ha Ön a CSP kereskedelmi célú közvetett viszonteladóként van jóváhagyva.
 
 ### <a name="i-am-an-existing-partner-what-do-i-need-to-do-to-sell-microsoft-cloud-for-us-government"></a>Meglévő partner vagyok. Mit kell tennem az USA kormányzati szerveinek Microsoft Cloud értékesítéséhez?
 
@@ -133,19 +133,19 @@ Az API-k és az integrációs követelmények az Egyesült államokbeli kormány
 >A CREST API-k nem lesznek elérhetők az Egyesült Államok kormányzati szervei számára Microsoft Cloud CSP-programhoz. Ezek az API-k elavultak a CSP-ben, ezért nem érhetők el Microsoft Cloud az USA kormányzati szervei számára. A szabályozási és megfelelőségi követelmények teljesítése érdekében a következő API-k nem lesznek elérhetők az Egyesült Államok kormányzati szerveinek Microsoft Cloud CSP programjában.
 >
 > **Felhasználói fiókok kezelése**
->- Felhasználói fiókok létrehozása az ügyfelek számára
+>- Felhasználói fiókok létrehozása egy ügyfélnél
 >- Ügyfelek felhasználói fiókjainak törlése
->- Ügyfelek felhasználói fiókjainak frissítése
->- Az ügyfélhez tartozó összes felhasználói fiók listájának beolvasása
->- Ügyfél felhasználói jelszavának alaphelyzetbe állítása
->- Ügyfél felhasználói szerepköreinek beolvasása
->- Felhasználói szerepkörök beállítása egy ügyfélhez
->- Ügyfél törölt felhasználóinak megtekintése
->- Törölt felhasználó visszaállítása egy ügyfél számára
+>- Felhasználói fiókok frissítése egy ügyfélnél
+>- Egy ügyfél összes felhasználói fiókját tartalmazó lista lekérése
+>- Egy ügyfél felhasználói jelszavának alaphelyzetbe állítása
+>- Egy ügyfél felhasználói szerepköreinek lekérése
+>- Felhasználói szerepkörök beállítása egy ügyfélnél
+>- Egy ügyfél törölt felhasználóinak megtekintése
+>- Törölt felhasználó visszaállítása egy ügyfélnél
 >
 > **Licencek kezelése**
->- Az elérhető licencek listájának beolvasása
->- Licencek kiosztása egy felhasználóhoz
+>- A rendelkezésre álló licencek listájának lekérése
+>- Licencek hozzárendelése egy felhasználóhoz
 >-  A felhasználóhoz rendelt licencek meghatározása
 
 ### <a name="is-there-a-workaround-for-apis-not-available-in-the-csp-program-for-microsoft-cloud-for-us-government"></a>Van olyan Áthidaló megoldás, amely nem érhető el a CSP programban Microsoft Cloud az USA kormányzati szerveinek?

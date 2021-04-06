@@ -9,19 +9,14 @@ author: amitravat
 ms.author: amrava
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 19f86ec5353abc21e14a3a8ac2ef17dd17924cfe
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 4feaa8cba8ba17f553b5e936dcf892ffbf7ccc82
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529982"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441302"
 ---
 # <a name="give-customers-permission-in-partner-center-to-buy-their-own-products-or-services"></a>A partner Centerben a saját termékeinek vagy szolgáltatásainak megvásárlására jogosult ügyfelek számára
-
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Partnerek a CSP programban
 
 **Megfelelő szerepkörök**
 
@@ -103,7 +98,7 @@ Annak ellenőrzéséhez, hogy az ügyfél hozzá van-e rendelve egy Azure-előfi
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
-2. Válassza a **CSP** , majd az **ügyfelek** lehetőséget, és válassza ki az adott ügyfelet.
+2. Válassza a **CSP**, majd az **ügyfelek** lehetőséget, és válassza ki az adott ügyfelet.
 
 3. Válassza ki az ügyfél **előfizetéseit** , és keresse meg az adott Azure-előfizetést.
 
@@ -119,7 +114,7 @@ Felhasználói engedélyek bekapcsolása (vagy kikapcsolása) a partner Centerbe
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
 
-2. A bal oldali navigációs menüben válassza a **CSP** , majd az **ügyfelek** lehetőséget. Megjelenik egy ügyfél lista.
+2. A bal oldali navigációs menüben válassza a **CSP**, majd az **ügyfelek** lehetőséget. Megjelenik egy ügyfél lista.
 
 3. Válasszon ki egy adott ügyfél nevét.
 

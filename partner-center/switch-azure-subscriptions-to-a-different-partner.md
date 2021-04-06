@@ -9,19 +9,18 @@ ms.localizationpriority: medium
 author: dhirajgandhi
 ms.author: dhgandhi
 ms.date: 02/09/2021
-ms.openlocfilehash: 20e00034e9c20a5d41500892df059b34a9347a63
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: 886c39d192316987dcb68bff4d75302cc18a1305
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028298"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441914"
 ---
 # <a name="learn-how-to-transfer-a-customers-azure-subscriptions-to-another-partner"></a>Megtudhatja, hogyan adhatja át egy ügyfél Azure-előfizetéseit egy másik partnernek
 
 **A következőre érvényes:**
 
-- Partneri központ a Microsoft Government cloudhoz
-- A Microsoft globális felhőhöz tartozó partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
 Ez a cikk azt ismerteti, hogy az ügyfelek hogyan válthatják át a Microsoft Azure szolgáltatásaikat egy felhőalapú megoldás-szolgáltatóról (CSP) egy másikra.
 

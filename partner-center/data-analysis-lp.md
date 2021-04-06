@@ -9,12 +9,12 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 19e7cf9442660a24d36b5f7c20fab156fdc0d59a
-ms.sourcegitcommit: bfc9e6f6476766cf10ba714f03ca2e96560003b1
+ms.openlocfilehash: 3aec8c8abe6184be48fd54e0f76bc7e0c08e4792
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "94626072"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441880"
 ---
 # <a name="use-analytics-to-learn-more-about-subscription-revenue"></a>Az előfizetés bevételének megismerése az Analytics használatával
 
@@ -28,7 +28,7 @@ Egy CSP-vállalkozás fejlesztésének megtervezéséhez fontos tudni, hogy az �
 ## <a name="access-to-the-subscription-analytics"></a>Hozzáférés az előfizetés-elemzéshez
 
 1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
-1. A partner Center menüjéből válassza az **elemzés** , majd az **előfizetés-elemzés** lehetőséget.
+1. A partner Center menüjéből válassza az **elemzés**, majd az **előfizetés-elemzés** lehetőséget.
 
 1. A jelenleg tizenkét hónapos CSP-bevétel megjelenik az oldal tetején.
 
@@ -36,9 +36,9 @@ Egy CSP-vállalkozás fejlesztésének megtervezéséhez fontos tudni, hogy az �
 
 ## <a name="trailing-twelve-month-ttm-csp-revenue"></a>Záró Twelve-Month (TTM) CSP-bevétel
 
-A 12 hónapos CSP-bevétel nyomon követő befizetése a felhőalapú megoldás szolgáltatói programjának bevételét jelenti USD-ben a partner globális fiók szintjén. A rendszer minden hónap 8. napján frissíti az adatmennyiséget, hogy az előző hónap végéig a tizenkét hónapos bevételt jelenítse meg. Például szeptember 9-én a 2020-es rögzített időszakra vonatkozóan láthatja az TTM-t az 2020 augusztus 2019-ig terjedő időszakban.
+A 12 hónapos CSP-bevétel nyomon követő befizetése a felhőalapú megoldás szolgáltatói programjának bevételét jelenti USD-ben a partner globális fiók szintjén. A rendszer minden hónap nyolcadik napján frissíti az adatmennyiséget, hogy az előző hónap végéig a tizenkét hónapos bevételt jelenítse meg. Például szeptember 9-én a 2020-es rögzített időszakra vonatkozóan láthatja az TTM-t az 2020 augusztus 2019-ig terjedő időszakban.
 
-A partner Centerben megjelenő bevétel tizenkét hónapos rögzített időtartamra van kiszámítva, és nem módosítható rövidebb időszakra.
+A partner Centerben megjelenő bevétel a 12 hónapos rögzített időtartamra van kiszámítva, és nem módosítható rövidebb időszakra.
 
 A partner helyének fiókja szintjén megjelenő bevétel részletezésének megtekintéséhez:
 
@@ -51,14 +51,14 @@ A partner helyének fiókja szintjén megjelenő bevétel részletezésének meg
 
 A képernyő alsó fele az előfizetések összegzését jeleníti meg. Használja a következő szűrőket a szükséges előfizetés részleteinek megtekintéséhez:  
 
-1. **Időtartam** : dönthet úgy, hogy megtekinti az előfizetés összegzését 
+1. **Időtartam**: dönthet úgy, hogy megtekinti az előfizetés összegzését 
 
 - 30D – elmúlt 30 nap
 - 3M – elmúlt 3 hónap
 - 6M – elmúlt 6 hónap
 - 12M – elmúlt 12 hónap
 
-2. **Terméktípus** :
+2. **Terméktípus**:
  
 - Office 365
 - Microsoft 365
@@ -69,7 +69,7 @@ Ezen szűrők alkalmazása nem befolyásolja a jelentés elején található TTM
 
 
  
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Elemezze, hogy az ügyfelek hogyan használják a megvásárolt licenceket](increasing-adoption-and-satisfaction.md)  
 - [Az ügyféltevékenységi naplók megtekintése](activity-logs.md)

@@ -7,24 +7,20 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5817e5bb010cee0ab280c83408167f28915a6237
-ms.sourcegitcommit: 9b36128fdbd24e4bfe4597b1e6104bd560583c5c
+ms.openlocfilehash: 411932923e6bd35732e64521abe567f40f7499e9
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "92528358"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441489"
 ---
 # <a name="regional-taxes-regulations-for-public-switched-telephone-network-ptsn-services"></a>Regionális adók, nyilvános kapcsolású telefonos hálózati (PTSN) szolgáltatások szabályai
 
-**A következőkre vonatkozik**
-
-- Partnerközpont
-- Office 365-partnerek a hangalapú termékek Microsoft 365
-
 **Megfelelő szerepkörök**
--    Globális rendszergazda
--    Felhasználói rendszergazda
--    Felügyeleti ügynök
+
+- Globális rendszergazda
+- Felhasználói rendszergazda
+- Felügyeleti ügynök
 
 Bizonyos illetékességi területeken a nyilvános kapcsolású telefonos hálózati (PSTN) szolgáltatások olyan speciális adózási és szabályozási követelmények alá esnek, amelyek befolyásolhatják a partnerek sorrendjét és a számlázást. A Egyesült Államok, beleértve a Puerto Rico-t, a PSTN-szolgáltatásokat, például a hangkonferenciákat, a Meghívási terveket és a kommunikációs krediteket, a speciális adózási és szabályozási követelmények hatálya alá esnek. A Egyesült Államok és a Puerto Rico-ban a Microsoft a PSTN-szolgáltatásokat ÁFA-ként számítja fel.  Az egyedi PSTN-adók és-szabályozások hatással vannak az Office 365-partnerek által Microsoft 365 hangalapú termékekre.  Ha egy partner egy Microsoft PSTN-szolgáltatás árát jelzi, akkor a PSTN-adók és-díjak kiszámításához és az azokhoz való átutaláshoz felelősek lehetnek.
 
@@ -34,7 +30,7 @@ Az adó-és jogi tanácsadással tisztában lehet azzal, hogy a szervezet felel�
 
 ## <a name="invoice-presentation-and-partner-reconciliation-file"></a>Számla bemutatási és partneri egyeztetési fájlja
 
-A CSP-számlák és a CSP-egyeztetési fájlok a Egyesült Államok, Puerto Rico és Kanada esetében, beleértve a Skype for Business PSTN-t, és a Microsoft 365 hangszolgáltatások külön vonalakat biztosítanak a PSTN-és a nem PSTN-összetevőkhöz.
+A CSP-számlák és a CSP-egyeztetési fájlok a Egyesült Államokban, Puerto Ricoban és Kanadában, beleértve a Skype for Business PSTN-t és a Microsoft 365 hangszolgáltatásokat, külön vonalakat biztosítanak a PSTN-és a nem PSTN-összetevőkhöz.
 
 A CSP-számlák emellett a következő lábjegyzetet is megjelenítik:
 

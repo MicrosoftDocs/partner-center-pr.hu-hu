@@ -1,7 +1,7 @@
 ---
 title: Telephelyek kezelése a partneri fiókban
 ms.topic: how-to
-ms.date: 02/08/2021
+ms.date: 04/05/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogyan vehet fel új helyet, és hogyan használják a Location MPN ID-t az ösztönző programok, a CSP-üzleti, az előfizetések és az egyéb tranzakciók során.
@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 41ffaeaf0fb46659142949872295523546bb91c1
-ms.sourcegitcommit: 5768f10cd122a20fe3df3062ea34e7096d99f639
+ms.openlocfilehash: 7ca8c866479fbe153c1e0192edd33e8258b9d6e7
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "100005902"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441327"
 ---
 # <a name="manage-your-mpn-account-locations-and-add-delete-a-location"></a>Az MPN-fiók helyeinek kezelése és hely hozzáadása (törlése)
 
@@ -26,9 +26,9 @@ ms.locfileid: "100005902"
 
 A hely MPN-azonosítója azonosítja a vállalat minden egyes helyét. Az MPN-azonosítót a következő helyen regisztrálhatja az ösztönző programokban: a Cloud Solution Provider (CSP) üzletág és más üzleti tranzakciók. A globális MPN-azonosító a nem tranzakciós tevékenységek, például a támogatási kérelmek esetében használatos.
 
-## <a name="the-following-is-a-typical-scenario"></a>A következő tipikus forgatókönyv:
+## <a name="the-following-scenario-is-typical"></a>A következő forgatókönyv tipikus:
 
-A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelkezik. Ez a regisztrált jogi üzleti tevékenység, globális MPN-azonosítója pedig az összes nem tranzakciós üzlet kezelésére szolgál. A contoso az Egyesült Királyság, Franciaország és az Egyesült Államok területén is rendelkezik leányvállalatokkal vagy részlegekkel egyenértékű partneri hellyel (PLA). Az MPN-fiók struktúrájában ezek a PLAsok egyedi Location MPN-azonosítóként jelennek meg. A PLAs a tranzakciós vállalkozások, például a CSP-vagy ösztönző programok esetében használatos. A kifizetések adott helyszínekhez vannak kötve. 
+A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelkezik. A PGA a regisztrált jogi üzleti tevékenység, a globális MPN-azonosító pedig az összes nem tranzakciós üzlet kezelésére szolgál. A contoso az Egyesült Királyság, Franciaország és az Egyesült Államok területén is rendelkezik leányvállalatokkal vagy részlegekkel egyenértékű partneri hellyel (PLA). Az MPN-fiók struktúrájában ezek a PLAsok egyedi Location MPN-azonosítóként jelennek meg. A PLAs a tranzakciós vállalkozások, például a CSP-vagy ösztönző programok esetében használatos. A kifizetések adott helyszínekhez vannak kötve. 
 
 >[!NOTE]
 >1-1 kapcsolat van a CSP-bérlő és az MPN-hely azonosítója között.
@@ -56,13 +56,32 @@ A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelk
  
 1. A **Beállítások** ikonban válassza a **Fiókbeállítások**, **szervezeti profil**, **jogi** lehetőséget. 
 
-1. A **partner** lapon ellenőrizze, hogy nincs-e szalagcím-hibaüzenet, amely arra kéri, hogy javítsa az áttelepített helyet a PMC-ból. Ha van, kövesse az utasításokat, és javítsa ki ezeket a helyszíneket. 
+1. A **partner** lapon ellenőrizze, hogy nincs-e szalagcím-hibaüzenet, amely arra kéri, hogy javítsa az áttelepített helyet a PMC-ból.  Ha a helyük nincsenek helyesen beállítva a PMC-ben, és még nem váltották át a SZÁMÍTÓGÉPekre, frissítenie kell ezeket a helyeket.
 
-3. Ha nem jelenik meg hibaüzenet, a  **Beállítások** területen válassza a  **Fiókbeállítások**, **szervezeti profil**, **azonosítók** lehetőséget.
+:::image type="content" source="images/locations/location-two.png" alt-text="A screencap bemutatja, hogyan lehet frissíteni a helyet.":::
+ 
+4.  A **PMC-helyszínek áttekintése** képernyőn válassza a **frissítés** lehetőséget.
+Frissítse a következő mezőket:
 
-4. Keresse meg a "location" típusú MPN-azonosítót, amely megfelel a CSP-fiók országának, és használja az alábbi kereséshez és a társítás befejezéséhez.
+- **Név mező**: Ellenőrizze, hogy helyes-e a vállalati hely neve. Ha ismétlődő hiba jelenik meg, próbálkozzon a következővel:, például contoso – contoso, Inc.
 
-5. Ha nem találja a használni kívánt CSP-fióknak megfelelő Location MPN-azonosítót, új helyet is hozzáadhat, amely új MPN-azonosítót hoz létre. Lásd: **MPN-hely hozzáadása** alább.
+- **Jogi személy mező**: Győződjön meg arról, hogy a helyhez kötött jogi személyt választotta
+
+- **1. címtartomány & 2 mező**: Ellenőrizze, hogy helyes-e a címe.
+
+- **Város & állam/megye mezők**: Ellenőrizze, hogy helyes-e a város és az állam/tartomány közötti kombináció. Vannak olyan országok, amelyekben az állam/megye kiválasztására szolgáló legördülő menü lesz érvényes, és más országokban is be kell szúrni a mezőt.
+
+- **Irányítószám mező**: Győződjön meg arról, hogy az irányítószám mező megfelel a jelzett országnak, régiónak, városnak vagy címnek.
+
+- **Elsődleges kapcsolattartási adatok mezői**: Győződjön meg arról, hogy az utónév és a vezetéknév mező ki van töltve, és hogy a megadott e-mail cím egy munkahelyi e-mail cím, és nem személyes (például @outlook.com @live.com stb.).
+
+- **Telefonszám mező**: Ügyeljen arra, hogy a telefonszám ne tartalmazzon speciális karaktereket, szóközöket vagy országkódot. A telefonszám mezőben megadott érték mindig legfeljebb 10 karaktert tartalmazhat.
+
+5. Ha nem jelenik meg hibaüzenet, a  **Beállítások** területen válassza a  **Fiókbeállítások**, **szervezeti profil**, **azonosítók** lehetőséget.
+
+6. Keresse meg a "location" típusú MPN-azonosítót, amely megfelel a CSP-fiók országának, és használja a társítás befejezéséhez.
+
+7. Ha nem találja a használni kívánt CSP-fióknak megfelelő Location MPN-azonosítót, új helyet adhat hozzá, amely létrehoz egy új MPN-azonosítót. Lásd: **MPN-hely hozzáadása** alább.
 
 ## <a name="add-an-mpn-location"></a>MPN-hely hozzáadása
 
@@ -80,6 +99,7 @@ A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelk
 
 > [!NOTE]
 > Miután hozzáadta a helyet a partner Centerben, nem távolíthatja el. Ha a megfelelő MPN-azonosítót használta a bejelentkezéshez, az **MPN** a partner Center bal oldali menüjében jelenik meg.
+
 
 ## <a name="delete-a-location"></a>Hely törlése
 

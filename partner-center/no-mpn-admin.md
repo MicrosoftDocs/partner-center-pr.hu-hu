@@ -9,18 +9,20 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 03cd603cf65b1e999cf95fd10d76e6ccc6c403e8
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: 3702ebd5a9421036a053a9a142a2f40d3e488137
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92528474"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441999"
 ---
 # <a name="what-to-do-if-the-only-admin-for-your-mpn-program-has-left-the-company"></a>Mi a teendő, ha az MPN-program egyetlen rendszergazdája elhagyta a vállalatot?
 
-**A következőkre vonatkozik**
+**Megfelelő szerepkörök**
 
-- Partnerközpont
+- MPN-partner rendszergazdája
+- Fiókadminisztrátor
+- Globális rendszergazda
 
 A következő cikk bemutatja, hogy mi a teendő, ha az MPN rendszergazdája elhagyta a vállalatot.
 
@@ -28,7 +30,7 @@ A következő cikk bemutatja, hogy mi a teendő, ha az MPN rendszergazdája elha
 
 Ebben az esetben a vállalat egy másik személye is hozzárendelheti az MPN partner-rendszergazda szerepkört. Adott MPN-partner rendszergazda/fiók rendszergazdai szerepkör szerepkörének hozzárendeléséhez:
 
-1. Jelentkezzen be a partner Center-fiókjába a munkahelyi fiókjával (például tom@contoso.com ).
+1. Jelentkezzen be a partner Center-fiókjába a munkahelyi fiókjával (például: tom@contoso.com ).
 1. A globális rendszergazda **felhasználó-felügyeleti** oldalának szűrésével megtekintheti, hogy kik a vállalat globális rendszergazdái. 
 1. Lépjen kapcsolatba az egyik globális rendszergazdával, és kérje meg őket, hogy rendelje hozzá a szükséges MPN-specifikus szerepkört. 
 

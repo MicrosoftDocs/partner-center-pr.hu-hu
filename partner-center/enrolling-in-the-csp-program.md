@@ -9,18 +9,14 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9c1296c0e28412bfece328be2d8033c2d080bfdc
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 8cc74ac7549dd9c58827eac4ca7ff780062cc519
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712273"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441812"
 ---
 # <a name="enroll-in-the-cloud-solution-provider-program"></a>Regisztráció a felhőszolgáltatói programban
-
-**A következőre érvényes:**
-
-- Partnerközpont  
 
 **Megfelelő szerepkörök**
 
@@ -73,7 +69,7 @@ Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal a
 |**MPN-azonosító**   |Aktív tagság a Microsoft Partner Network és az MPN-AZONOSÍTÓban azon a helyen, ahová az értékesítést el szeretné adni.    |
 |**Ajánlás**   |A jogi szerződések elfogadására és aláírására szolgáló hatóság a szervezet nevében.|
 |**Támogatás**   |A felhőalapú terméktámogatás első szintjének megadásának lehetősége az ügyfelek számára. <br>Egy Microsoft támogatási csomag, amely a partnerek (ASfP) vagy a Premier szintű támogatás for Partners (PSfP) speciális támogatása az igényeitől függően. A [támogatási csomagok összehasonlítása](https://partner.microsoft.com/support/partnersupport).<br> Fontos: a támogatási csomag megvásárlása előtt el kell juttatnia a kredit-ellenőrzését. A kredit-ellenőrzés átadásakor e-mailt küldünk Önnek. |
-|**Bevételi követelmény**|Meg kell felelnie legalább USD300K a Cloud Solution Provider programban az előző tizenkét hónapban közvetett viszonteladóként végzett éves bevételnek. A partnerek tizenkét hónapos bevételt tekinthetnek meg a partner Centerben.<br/>A USD300K követő tizenkét hónapos bevételt alkotó értékesítéseket a Microsoft felülvizsgálja és igazolja, és előfordulhat, hogy további információkat kell megadnia. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.|
+|**Bevételi követelmény**|Meg kell felelnie legalább USD300K a Cloud Solution Provider program keretében az előző 12 hónap során közvetett viszonteladóként. A partnerek 12 hónapos bevételt tekinthetnek meg a partneri központban.<br/>A USD300K záró 12 hónapos bevételt alkotó értékesítéseket a Microsoft felülvizsgálja és igazolja, és további információkat kérhet. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.|
 |**Kinnlevőségek** |Az ügyfél számlázásának és kiépítésének kezelésére szolgáló szervezeti infrastruktúra.|
 |**Ajánlás**|             |
 |**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfél-megoldás alkalmazás. További információ a [felügyelt szolgáltatások](https://partner.microsoft.com/business-opportunities/managed-services-provider)hozzáadásáról.|

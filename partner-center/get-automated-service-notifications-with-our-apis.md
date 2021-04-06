@@ -9,23 +9,19 @@ author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7bb97c696c4694c9052403444eec0e27f65d325c
-ms.sourcegitcommit: 51e3c912eba8cfa72733206c0fee22386fbc34aa
+ms.openlocfilehash: bdcc9feb9f6f022642ece217aa1ba17e24bd20da
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "92529988"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441438"
 ---
 # <a name="use-apis-for-automated-service-notifications-for-azure-insights--office-365-service-communications"></a>API-k használata az Azure-információk automatizált szolgáltatásával kapcsolatos értesítések használatához & Office 365 Service Communications
-
-**A következőkre vonatkozik**
-
--  Partnerközpont
 
 **Megfelelő szerepkörök**
 
 - Felügyeleti ügynök
-- Globális 
+- Globális rendszergazda
 - Értékesítési ügynök
 - Segélyszolgálat ügynöke
 
@@ -33,11 +29,9 @@ Az Office 365 és Microsoft Azure minden olyan API-t biztosít, amelyet a partne
 
 Ezek az API-k elérhetők a fejlesztőknek:
 
-[Office 365 Service kommunikációs API](/office/office-365-management-api/office-365-service-communications-api-reference)
+- [Office 365 Service kommunikációs API](/office/office-365-management-api/office-365-service-communications-api-reference)
+- Azure-áttekintés – REST [API-referenciák](/rest/api/monitor/)
 
+ 
 
-Azure-áttekintés – REST [API-referenciák](/rest/api/monitor/)
-
- 
-
- 
+ 

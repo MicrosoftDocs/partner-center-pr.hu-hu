@@ -3,22 +3,23 @@ title: Napi besorolású használati egyeztetési fájlok
 ms.topic: article
 ms.date: 06/12/2020
 description: Ismerje meg, hogyan olvashatja el a napi rendszerességű használat egyeztetési fájljait a partner Centerben. A Recon-fájlban megadott mezők leírásait tartalmazza.
+ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 531f28ae2bceed2d854c6fb139d0abb837a047b5
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 89080cb580d9b451454d108c6ef0ce0a08c1bf0c
+ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712239"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "106441897"
 ---
 # <a name="learn-how-to-read-daily-rated-usage-reconciliation-files-in-partner-center"></a>Ismerje meg, hogyan olvashatja el a napi besorolású használat egyeztetési fájljait a partner Centerben
 
 **A következőre érvényes:**
 
-- Partnerközpont
 - A Microsoft Cloud for US Government Partnerközpontja
 
 **Megfelelő szerepkörök**
