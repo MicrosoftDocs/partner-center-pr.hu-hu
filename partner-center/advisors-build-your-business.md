@@ -9,19 +9,19 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 83acde5e5cb29ea8249bfbba78a15cf3efbdf271
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: 31d8be49e0270f32c472f3fbe0a54d5ceadc9098
+ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474172"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106557732"
 ---
 # <a name="advisors-build-your-client-base-with-office-365-trial-invitations-and-purchase-offers"></a>Advisors: az ügyfélkör kiépítése Office 365 próbaverziós meghívásokkal és vásárlási ajánlatokkal
 
 
 **Megfelelő szerepkörök**
 
-- Tanácsadók
+- Advisor
 
 
 Meghatalmazott Microsoft advisorként a **partneri központ** lehetőséget kínál az ügyfélkör növelésére és tartós kapcsolatok létrehozására az ügyfelekkel. A partner Center segítségével elküldheti ügyfeleinek próbaverziós meghívásait és vásárlási ajánlatait, valamint delegált adminisztrációs szolgáltatásokat biztosíthat, attól függően, hogy milyen szolgáltatásokra jogosult.
@@ -45,12 +45,12 @@ A próbaverziós meghívásokról további információt a [próbaverziós megh�
 > [!NOTE]
 > Ez a funkció csak azon Microsoft-partnerek számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.
 
-Miután elküldte a próbaverziót az ügyfeleknek, kövesse a vásárlási ajánlatokat. Testre szabhatja az ajánlatokat, hogy az tartalmazza az ügyfél által igényelt szolgáltatásokat, valamint a megfelelő számú felhasználói licencet. Ha hitelesített felügyeletet biztosít, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi az előfizetés felügyeletét az ügyfél nevében.
+Miután elküldte a próbaverziót az ügyfeleknek, kövesse a vásárlási ajánlatokat. Testre szabhatja az ajánlatokat, hogy az tartalmazza az ügyfél igényeinek megfelelő szolgáltatásokat és a felhasználói licencek helyes számát. Ha hitelesített felügyeletet biztosít, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi az előfizetés felügyeletét az ügyfél nevében.
 
 A vételi ajánlat létrehozásakor létrejön egy egyéni URL-cím. Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként. Ezt az URL-címet használhatja egy vagy több ügyfél számára. Küldje el e-mailben az ügyfélnek az URL-címet, vagy tegye közzé a webhelyén.
 
 Ha az ügyfél eltérő számú licencet szeretne, küldjön nekik egy új ajánlatot, vagy megváltoztathatják a licencek számát az előfizetés megvásárlásakor.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 További információ a vásárlási ajánlatokról: [vásárlási ajánlat létrehozása](advisor-create-a-purchase-offer.md).

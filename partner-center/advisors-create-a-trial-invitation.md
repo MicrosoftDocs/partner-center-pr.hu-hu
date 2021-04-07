@@ -9,19 +9,19 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: e180485a6ee769c911b3d2119869661ea118ccc1
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: 8c6f6cb5ba700618aebe773cffd566e4077a676d
+ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474155"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106557715"
 ---
 # <a name="advisors-create-and-send-a-trial-invitation-for-clients-to-try-office-365"></a>Advisors: próbaverziós meghívás létrehozása és küldése az ügyfeleknek az Office 365 kipróbálásához
 
 
 **Megfelelő szerepkörök**
 
-- Tanácsadók
+- Advisor
 
 > [!NOTE]
 > Ez a funkció csak azon Microsoft-partnerek számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.
@@ -55,6 +55,6 @@ Ha hitelesített felügyeletet biztosít, akkor hozzáadhat egy olyan lehetősé
 
 6. Küldje el a próbaverziós meghívót az ügyfélnek.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Vásárlási ajánlat létrehozása](advisor-create-a-purchase-offer.md)

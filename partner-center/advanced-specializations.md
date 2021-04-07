@@ -9,21 +9,21 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 61bb4bf8b340ac35c929738c43e8ef2da2e64aca
-ms.sourcegitcommit: f99424919f0d77bbe4f44293d84f9ea1e3317f13
+ms.openlocfilehash: 1f941894c8d4ac8611c4b1869bd731d6b56ec4ae
+ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98658399"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106557766"
 ---
 # <a name="earn-an-advanced-specialization-to-showcase-your-validated-capabilities"></a>Speciális specializációt szerezhet az érvényesített képességek bemutatásához
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- MPN-fiók rendszergazdája
+- Fiókadminisztrátor
 
-A Microsoft fejlett szakterületei a kapcsolódó [arany kompetenciákkal](learn-about-competencies.md) foglalkozó partnerek számára is megszerezhetnek. A Gold kompetenciák és a hozzájuk kapcsolódó speciális specializációk révén a partnerek tovább tudják megkülönböztetni képességeiket az ügyfelek számára.
+A Microsoft fejlett specializációi a kapcsolódó [arany kompetenciákkal](learn-about-competencies.md) foglalkoznak, amelyeket a partnerek szerezhetnek. A Gold kompetenciák és a hozzájuk kapcsolódó speciális specializációk révén a partnerek tovább tudják megkülönböztetni képességeiket az ügyfelek számára.
 
 A speciális specializáció beszerzése érdekében a partnernek gyakran kell megfelelnie az igényes követelményeknek, például az ügyfél-referenciák beszerzése, a harmadik féltől származó auditok beszerzése, a megfelelő képzettségi csoport megvalósításának bizonyítása és bizonyos, más teljesítményű mérések teljesítése.
 

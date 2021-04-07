@@ -9,19 +9,19 @@ author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 56a8438ad2503ab22151ed4da7e8ef4b43794543
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: a60b75c9eee3601b488fd52fe22b4d2551b526e3
+ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474138"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106557749"
 ---
 # <a name="advisors-create-a-purchase-offer"></a>Advisors: vásárlási ajánlat létrehozása
 
  
 **Megfelelő szerepkörök**
 
-- Tanácsadók
+- Advisor
 
 
 > [!NOTE]
@@ -67,6 +67,6 @@ Ha az ügyfél eltérő számú licencet szeretne küldeni, küldjön nekik egy 
     - Tájékoztassa az ügyfeleket arról, hogy szabályozzák a megvásárolt felhasználói licencek számát, és módosíthatják a licencek számát, ha elfogadják az ajánlatot.
     - Ha delegált felügyeletre vonatkozó ajánlatot tesz, magyarázza el, hogy mit jelent, és milyen kötelezettségei vannak. A delegált felügyelettel kapcsolatos további információkért lásd: [delegált felügyelet nyújtása](customers-revoke-admin-privileges.md).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Ügyfélkör létrehozása az Office 365 próbaverziós meghívásával és a vásárlási ajánlatokkal](advisors-build-your-business.md)

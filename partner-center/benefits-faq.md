@@ -9,18 +9,18 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOJUNE20
-ms.openlocfilehash: f4ed4fe8946c6cacba1277921aececd84863c465
-ms.sourcegitcommit: 1d4d06642a5203d4d313fe76b137dd6be45d4728
+ms.openlocfilehash: 8a81e287412394427003e489352312faba6984b9
+ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97514693"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106557698"
 ---
 # <a name="benefits-faq"></a>Az előnyökkel kapcsolatos gyakori kérdések
 
 **Megfelelő szerepkörök**
 
-- MPN-rendszergazda
+- MPN-partner rendszergazdája
 
 A jelen cikk Microsoft Partner Network (MPN) előnyeivel kapcsolatos gyakori kérdéseket tárgyalja.
 
@@ -118,6 +118,6 @@ A telepítés, az aktiválás és az egyéb termékkel kapcsolatos súgó a Micr
 
 6. Válassza ki a telepíteni kívánt terméket, majd hozzon létre egy technikai támogatási jegyet.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Szerezzen be egy speciális specializációt a szaktudás bemutatásához](advanced-specializations.md)
