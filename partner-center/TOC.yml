@@ -390,8 +390,6 @@
     - name: A számlázás alapjai
       href: billing-basics.md
       displayName: invoice
-    - name: A Partnerközpont számlázási típusai
-      href: billing-different-types.md
     - name: A számla értelmezése
       href: read-your-bill.md
       displayName: invoice
