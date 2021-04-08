@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 43c2605d750d35bc2e0095b1fed413ed91a1a28e
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: e93bc59d4ddb8ac2323807a716d7ba6404b00fce
+ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215815"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106964357"
 ---
 # <a name="understand-your-bill-and-reconciliation-file---learn-how-to-find-them-in-partner-center"></a>A számla és a megbékélési fájl megismerése – Ismerje meg, hogyan keresheti meg őket a partner Centerben
 
@@ -27,6 +27,20 @@ ms.locfileid: "98215815"
 
 
 A **számla** az **összes partner Center-díj** (a program, az összes termék és minden ügyfél) összefoglalása. 
+
+## <a name="find-your-bill-and-reconciliation-file"></a>A számla és a megbékélési fájl megkeresése 
+
+A számla a partner Center irányítópultjának számlázási lapján található. Ezen a lapon megtekintheti a számlázási előzményeit, a kiadások trendjét és a fájlok egyeztetését. 
+
+1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home). 
+
+2. A bal oldali menüben válassza a **számlázás** lehetőséget. 
+
+3. A számlázási állapot oldalán válassza ki a számlát vagy az egyeztetési fájlt a részletesebb információk megtekintéséhez. 
+
+Az oldal tetején található utolsó számlára mutató hivatkozást a számla egyenlege a legutóbbi számlázási dátum alapján lehetőségre kattintva találja. 
+
+A korábbi számlákat a számlázási előzmények szakaszban találja. Válassza ki a megfelelő évet, majd válassza a megfelelő számlázási időszak melletti legördülő nyilat. Válassza a számlák melletti hivatkozást (. pdf) az adott időszak számlájának letöltéséhez. 
 
 ## <a name="invoice-types"></a>Számlák típusai
 
@@ -52,19 +66,6 @@ Példa:
 
 - A partner egy másik számla PDF-fájlját és egy egyeztetési fájlt fog kapni, amely az 145p ajánlat díjait (vagy a partner számlázási pénznemét) tartalmazza. 
 
-## <a name="find-your-bill"></a>Számla megkeresése 
-
-A számla a partner Center irányítópultjának számlázási lapján található. Ezen a lapon megtekintheti a számlázási előzményeit, a kiadások trendjét és a fájlok egyeztetését. 
-
-1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home). 
-
-2. A bal oldali menüben válassza a **számlázás** lehetőséget. 
-
-3. A számlázás lapon válassza ki a letölteni kívánt számlát. 
-
-Az oldal tetején található utolsó számlára mutató hivatkozást a számla egyenlege a legutóbbi számlázási dátum alapján lehetőségre kattintva találja. 
-
-A korábbi számlákat a számlázási előzmények szakaszban találja. Válassza ki a megfelelő évet, majd válassza a megfelelő számlázási időszak melletti legördülő nyilat. Válassza a számlák melletti hivatkozást (. pdf) az adott időszak számlájának letöltéséhez. 
 
 ## <a name="understanding-invoice-pdf"></a>A számla PDF-fájljának ismertetése 
 

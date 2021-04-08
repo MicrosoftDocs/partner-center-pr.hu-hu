@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e6b0de64a9ac3d86c77cc47f6b69b8a132606309
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: c5617bbec82bd8e4b6fbeb2e6a33608889f14502
+ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502867"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106964340"
 ---
 # <a name="overview-of-partner-offers-in-the-cloud-solution-provider-program"></a>Partnerajánlatok áttekintése a felhőszolgáltatói programban
 
@@ -105,6 +105,15 @@ Ha termékeket és szolgáltatásokat szeretne megvásárolni a CSP ügyfeleinek
 
 8. A következő oldalon megjelennek a megrendelés részletei, beleértve a megrendelés számát is. A **kész** gombra kattintva lépjen a **rendelési előzmények** lapra.
 
+### <a name="customer-order-history"></a>Vevői rendelés előzményei
+
+Az ügyfél rendelési előzményeinek megtekintése:
+
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
+2. A bal oldali menüben válassza az **ügyfelek** lehetőséget.
+3. Az **ügyfelek** lapon keresse meg azt az ügyfelet, amelynek a megtekinteni kívánt előzményeit meg szeretné tekinteni. Kattintson a lefelé mutató nyílra az ügyfél rekordjának kibontásához.
+4. A **megrendelések megtekintése** elemre kattintva megjelenítheti az ügyfél rendelési előzményeit.
+ 
 ## <a name="rules-for-special-segments"></a>Speciális szegmensek szabályai
 
 Egyes licenc-alapú ajánlatokat csak bizonyos körülmények között lehet megvásárolni. A Speciális szegmensek közé tartoznak az oktatási, non-profit vagy Government közösségi felhő (GCC) ajánlatok. Ezekről a vásárlási feltételekről a [speciális szegmensekre vonatkozó vásárlási szabályokban találhat további](get-special-pricing-for-offers.md#purchase-rules-for-special-segments)információt.

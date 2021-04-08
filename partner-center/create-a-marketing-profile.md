@@ -9,12 +9,12 @@ author: rajap-ms
 ms.author: rajap
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 80f7882da44c8072db1dd287f6fbee4f79341d29
-ms.sourcegitcommit: af8cfd89218f55467bd3bbd4102f7baf890e5066
+ms.openlocfilehash: db9166b0d2c4fe1c9f61921a9632c9704eaca74d
+ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103570158"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106964390"
 ---
 # <a name="create-a-business-profile-to-get-microsoft-sales-leads-and-help-customers-find-you"></a>Üzleti profil létrehozása a Microsoft értékesítési érdeklődők beszerzéséhez és az ügyfelek megtalálásához
 
@@ -84,16 +84,7 @@ Első lépésként adja hozzá saját címkéit a partner szakértelmét ismerte
 
 A keresésben használt egyéb Címkék:
 
--  A **kompetenciák címkéi** a vállalat képességeinek bemutatására szolgálnak.
--  A rendszer akkor kapja meg a **záradék címkéit** , ha a Microsoft vagy az Ön által dolgozott ügyfeleink a munkáját támogatják.
-
-#### <a name="allow-microsoft-to-endorse-my-areas-of-expertise"></a>Annak engedélyezése, hogy a Microsoft támogassa a saját szakterületeit
-
-Javasoljuk, hogy hagyja bejelölve ezt a beállítást. 
-
-Ahogy a partneri központon keresztül, illetve más Microsoft-tanúsítványokban vagy programokban való részvételben is bemutatjuk a sikert, automatikusan hozzáadjuk az adott termékekhez, szolgáltatásokhoz és iparágakhoz a sikerhez hozzájáruló bejegyzéseket. A bejegyzések fontos szerepet játszanak a keresési eredményekben.
-
-Ha olyan termékeket biztosít, amelyek nem jelennek meg a profiljában, akkor törölheti ezt a jelölőnégyzetet, és manuálisan kezelheti a profilt. Ezek a bejegyzések el lesznek rejtve az ügyfelek nézetből, de később bármikor hozzáadhatók a profilhoz.
+- A **kompetenciák címkéi** a vállalat képességeinek bemutatására szolgálnak.
 
 ### <a name="customer-preferences"></a>Ügyfél beállításai
 
@@ -121,13 +112,12 @@ Ha 5 legfelső szintű helyen van, és módosítania kell az egyiket, először 
 
 A profil közzététele után a frissítések 24 órán belül megjelennek a [megoldás-szolgáltató keresése](https://www.microsoft.com/solution-providers/home) keresésében.
 
-## <a name="improve-the-visibility-of-your-profile"></a>A profil láthatóságának javítása 
+## <a name="improve-the-visibility-of-your-profile"></a>A profil láthatóságának javítása
 
 - **[Gyorsan reagálhat a kérelmekre](manage-leads.md)**. Ha megkapta az ügyfél-átirányítást, a gyorsabb válasz nagyobb eredményeket eredményezhet a jövőbeli ügyfelek keresési oldalain.
 
 - **Szelektívnek kell lennie a címkékkel**.  Jobb, ha kevesebb címkével rendelkezik, amely a legjobban képviseli a vállalat ajánlatait, megoldásait, értékeit, és az egyedi pozíciót, ahol következetesen bizonyíthatja a sikert.  Ez a jövőbeli keresési eredményekben osztalékot fog fizetni.
 - A Microsofton keresztül **szerezheti be a kompetenciákat** , hogy bemutassa a szaktudását termékeinkben.
-- Kipróbálhatja a munkahelye által értékelt ügyfelektől kapott **záradék-címkéket** .
 
 ## <a name="next-steps"></a>Következő lépések
 

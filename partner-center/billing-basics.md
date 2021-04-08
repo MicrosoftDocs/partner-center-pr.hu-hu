@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 21cc9ddcffe2e9a29e920e235e79a5ce0bbd86b8
-ms.sourcegitcommit: 98f41b32c39adad83ed29050084d2d31057b7c2e
+ms.openlocfilehash: 051d638024200fe58ca5e07f42b758b304b58219
+ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99042718"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106964374"
 ---
 # <a name="billing-overview-for-csp-program-partners-working-in-partner-center"></a>Számlázás áttekintése a Partnerközpontban dolgozó, CSP-programban részt vevő partnerek számára 
 
@@ -67,11 +67,7 @@ Egyszeri és ismétlődő számlázás esetén a számlázási időszak a naptá
 
 Az árlisták havonta frissülnek. Az előzetes árlista egy (1) hónapban érhető el előre.
 
-Árlisták megtekintése:
-
-1. [Jelentkezzen be a partner Center irányítópultra](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza az **értékesítés**, majd a **díjszabás és ajánlatok** lehetőséget.
-3. A **díjszabás és ajánlatok** oldalon 6 hónap árlista látható (beleértve az aktuális hónapot) és az előzetes verzió árlista (ahol alkalmazható).
+Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portál irányítópultján, válassza a következőt: **értékesítés > díjszabás és ajánlatok**. Külön árlistát talál az elérhető termékek különböző típusaihoz. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
 
 A **licenc-alapú** árak az előfizetés feltételeinek megfelelően garantáltak, általában a vásárlás dátumától számítva 12 hónapig. 
 
@@ -99,19 +95,6 @@ A hozzáadottérték **-adó (ÁFA) alóli kivétel** esetén a szolgáltatási 
 
 További adózási adatokat a helyi adóhivatal vagy a Tax Advisor segítségével talál.
 
-### <a name="change-billing-frequency"></a>Számlázási gyakoriság módosítása
-
-A számlázási gyakoriság a megrendelés szintjén módosul, és a gyakoriság megváltozása után a rendszer a módosított számlázási ciklust alkalmazza az adott rendelésen belüli összes előfizetésre. 
-
-Az ügyfél online szolgáltatásának számlázási gyakoriságának módosítása:
-
-1. [Jelentkezzen be a partner Center irányítópultra](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza az **ügyfelek** lehetőséget.
-3. Válassza ki azt az ügyfelet, amelynek előfizetési számlázási gyakoriságát módosítani kívánja.
-4. Az ügyfél **előfizetések** lapján válassza ki a módosítani kívánt előfizetést.
-5. A **részletek** lapon a **Számlázási gyakoriság** területen válassza a **havi** vagy az **éves** lehetőséget. Ekkor megjelenik egy megerősítő oldal, amely fontos információkkal szolgál a számlázási gyakoriság módosításához, valamint a módosítandó előfizetések listájához.
-6. Kattintson az **OK** gombra a módosítás elvégzéséhez **(vagy a visszavonás visszavonásához** ).
-
 ### <a name="adjustmentscreditscancellations"></a>Beállítások/kreditek/lemondás
 
 A licenccel ellátott szolgáltatásokra vonatkozó lemondási kreditek a nem használt napokra érvényesek a félidős lemondások esetében (és a licenc a következő képlet szerint csökken:
@@ -121,6 +104,7 @@ A licenccel ellátott szolgáltatásokra vonatkozó lemondási kreditek a nem ha
 A Microsoft nem számít fel a licenc-alapú szolgáltatások törlésére vonatkozó korai lemondási díjakat.
 
 ### <a name="billing-rules"></a>Számlázási szabályok
+
 A számlázási gyakoriságoknak két típusa van: évente & havonta.  
 A mért szolgáltatási díjak a számlázási cikluson belül változhatnak.
 
@@ -146,24 +130,6 @@ A mért szolgáltatási díjak a számlázási cikluson belül változhatnak.
 
 - A kapott számla csak az adott hónapra felhalmozott díjakat fogja tartalmazni. 
 
-## <a name="manage-one-time-billing"></a>Egyszeri számlázás kezelése
-
-### <a name="billing-status-invoices-and-reconciliation-files"></a>Számlázási állapot, számlák és egyeztetési fájlok
-
-Az aktuális számlázási állapot, számlák és egyeztetési fájlok megtekintéséhez:
-
-1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza a **számlázás**, majd az **ismétlődő és egyszeri vásárlások** lehetőséget.
-3. A számlázási állapot oldalán válassza ki a számlát vagy az egyeztetési fájlt a részletesebb információk megtekintéséhez.
-
-### <a name="customer-order-history"></a>Vevői rendelés előzményei
-
-Az ügyfél rendelési előzményeinek megtekintése:
-
-1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza az **ügyfelek** lehetőséget.
-3. Az **ügyfelek** lapon keresse meg azt az ügyfelet, amelynek a megtekinteni kívánt előzményeit meg szeretné tekinteni. Kattintson a lefelé mutató nyílra az ügyfél rekordjának kibontásához.
-4. A **megrendelések megtekintése** elemre kattintva megjelenítheti az ügyfél rendelési előzményeit.
 
 ### <a name="credit-notes"></a>Jóváírási megjegyzések
 
@@ -178,3 +144,6 @@ Előfordulhat, hogy a következő okok miatt kreditet vagy számlázást kell k�
 
 - [A számla és a megbékélési fájl megismerése](read-your-bill.md)
 - [A CSP program partnereinek általános számlázási forgatókönyvei](common-billing-scenarios.md)
+- [Számlázási gyakoriság módosítása](common-billing-scenarios.md)
+- [Vevői rendelés előzményei](csp-offers.md) 
+- [Díjszabás és ajánlatok](pricing-and-offers.md)

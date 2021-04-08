@@ -9,12 +9,12 @@ author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8aeb47f6968e364eecb05efd2c0d4a1b3e1ba267
-ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
+ms.openlocfilehash: b960a903c2ba85963047033094636da6dc599f90
+ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105633760"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "106964425"
 ---
 # <a name="pricing-and-offers-for-office-365-dynamics-crm-enterprise-mobility-suite-azure-and-more"></a>Az Office 365, a Dynamics CRM, a nagyvállalati mobilitási csomag és az Azure díjszabása és ajánlatai
 
@@ -28,7 +28,7 @@ ms.locfileid: "105633760"
 - Értékesítési ügynök
 - Számlázási adminisztrátor
 
-Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portálon, válassza a következőt: **Sell > díjszabás és ajánlatok**. Külön árlistát talál az elérhető termékek különböző típusaihoz. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
+Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portál irányítópultján, válassza a következőt: **értékesítés > díjszabás és ajánlatok**. Külön árlistát talál az elérhető termékek különböző típusaihoz. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
 
 - A **licenccel rendelkező szolgáltatások** az Office 365, a nagyvállalati mobilitás és a Security E3, valamint a Dynamics 365 díjszabási információit tartalmazzák. A licenc alapú díjszabás szakasz az aktuális és az előzetes verzió díjszabását, valamint az ajánlati lista mátrixát tartalmazza. Az árlisták tartalmazzák a lista árát és a becsült kiskereskedelmi árakat (ERP) az összes támogatott pénznemben. Az ajánlati lista mátrixa tartalmazza a piac rendelkezésre állását és az ajánlatokkal kapcsolatos egyéb fontos információkat. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
 - A **használaton alapuló szolgáltatások** a Microsoft Azure és a Visual Studio díjszabási információit tartalmazzák. Használhatja az [Azure-szolgáltatásokat is a CSP árképzési kalkulátorban](https://azure.microsoft.com/pricing/calculator/). A használaton alapuló Letöltés az összes támogatott pénznemhez tartozó CSP árlista, valamint a megosztott szolgáltatások árképzési fájljait is tartalmazza az ERP-ben. Ezeket a fájlokat minden hónap első napján frissíti a rendszer.
