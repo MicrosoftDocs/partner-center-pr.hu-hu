@@ -1,31 +1,43 @@
 ---
-title: Frissítési Garanciához kapcsolódó tervezési szolgáltatások
+title: Frissítési garancia tervezési szolgáltatások – nyugdíjazás
 ms.topic: article
-ms.date: 12/02/2020
+ms.date: 04/07/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Megtudhatja, hogyan regisztrálhat és minősítheti a Microsoft Planning Services engagements szolgáltatásait, így a képzési és egyéb szolgáltatásokat biztosíthatja az ügyfeleknek a frissítési garanciával.
+description: A Microsoft tervezési szolgáltatásainak kivonása folyamatban van.
 author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4b931f616417d8781b8864d7bcb9b0d6d47560ec
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: cb3f6d6d4b719a8c4988ef935bde07c9660942c5
+ms.sourcegitcommit: 799d4d52afc511d0e0fad0e59dbdfc60081a1aa8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028225"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "107024993"
 ---
-# <a name="software-assurance-planning-services-in-partner-center"></a>Frissítési garanciához kapcsolódó tervezési szolgáltatások a Partnerközpontban
+# <a name="software-assurance-planning-services-retirement"></a>Frissítési garancia tervezési szolgáltatások – nyugdíjazás
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
 - MPN-partner rendszergazdája
 
-Jóváhagyott tervezési szolgáltatási partnerként a Microsoft kompenzálja Önt, hogy a nagyvállalati ügyfelek számára az üzembe helyezés előtti tervezési bevezetést biztosítson. A programban való részvétel segíthet a több ügyfél megszerzésében, a megbízható tervezési partnerként való részvétellel, valamint a további ügyfelek bevonásához.
 
-## <a name="get-started"></a>Bevezetés
+A tervezési szolgáltatások teljes mértékben kimaradnak a frissítési garanciák előnyeitől, de az ügyfelek továbbra is dolgozhatnak a partnerekkel a tervezési szolgáltatások napi megtervezéséhez, amíg a bizonylatok érvényesek. Ezek azok a jelentős dátumok, amelyek a program kivonását eredményezik: 
+
+- Február 1., 2020: a tervezési szolgáltatások Felhőbeli bevonásai kivonultak.  
+- 2020. február 1.: a betanítási utalványok már nem alakíthatók át tervezési szolgáltatások napjaira.  
+- 2021. február 1.: az ügyfelek már nem vehetik igénybe a tervezési szolgáltatások előnyeit. 
+- Június 30., 2021: az elmúlt nap, hogy az ügyfelek megtervezni vagy kiosztani a tervezési szolgáltatások utalványait. Az összes fennmaradó tervezési szolgáltatás napja 2021. július 1-től lesz eltávolítva.
+- 2022. január 1.: az elmúlt nap a partnerek számára a tervezési szolgáltatások utalványának beváltásához. A beváltást követően a partner 60 napon belül elvégezheti a fizetési kérelem folyamatát.  
+
+>[!NOTE]
+>A voucher életciklusa nem változik. Miután létrehozta/hozzárendelte a bizonylatot, a voucher-foglalást, az ügyfél-bevonást és a bizonylatok beváltását 180 napon belül el kell végezni a vouch lejárata előtt.  A szolgáltatások megtervezésével kapcsolatos további információkért tekintse meg az [itt](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) található gyakori kérdéseket (bejelentkezés szükséges).  Forduljon közvetlenül a regionális partneri támogatási csapathoz: [EMEA partneri](mailto:savoucher@msdirectservices.com)támogatás; [Általános partneri támogatás](https://partner.microsoft.com/dashboard/support/servicerequests)
+
+## <a name="until-june-30-2021"></a>2021. június 30-ig
+
+### <a name="get-started"></a>Bevezetés
 
 Ha most ismerkedik a frissítési garancia-tervezési szolgáltatásokkal, kövesse az alábbi lépéseket. Ha már aktív a tervezési szolgáltatási program (ok) ban, kezdjen el minden új bevonást az alábbi 4. lépésnél.
 
@@ -62,8 +74,6 @@ Miután a vállalat megfelelt a jogosultsági követelményeknek, készen áll a
 
 Először is tekintse át az összes [tervezési szolgáltatási program házirendjét](https://go.microsoft.com/fwlink/?linkid=2115984). Ezután kövesse a munkafolyamat 2. [lépésében](https://go.microsoft.com/fwlink/?linkid=2115983) található utasításokat a szolgáltatások megtervezése a partner Centerben.
 
->[!NOTE]
-> Minden évben meg kell újítania a követelményeket, és újra regisztrálnia kell a tervezési szolgáltatások programjaiban.
 
 ## <a name="create-or-update-your-companys-business-profile-new-partners"></a>Vállalati üzleti profil létrehozása vagy frissítése (új partnerek)
 

@@ -1,28 +1,37 @@
 ---
-title: Frissítési garancia képzési utalvány programja
+title: Frissítési garancia képzési utalvány programjának nyugdíjazása
 ms.topic: article
-ms.date: 12/09/2020
+ms.date: 04/07/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Megtudhatja, hogyan regisztrálhat a frissítési garanciát biztosító betanítási programba, hogy kompenzálja a képzést és a vállalati ügyfelek tervezését.
+description: A frissítési garancia betanítási bizonylata folyamatban van.
 author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: 786f69858dc90a9c0993e88c4900a647a07ba81f
-ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
+ms.openlocfilehash: ddff97664474230224c788f732ac1f32f377abf7
+ms.sourcegitcommit: 799d4d52afc511d0e0fad0e59dbdfc60081a1aa8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926608"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "107024976"
 ---
-# <a name="software-assurance-training-voucher-satv-program-in-partner-center"></a>Frissítési garanciához kapcsolódó oktatási utalványprogram (SATV) a Partnerközpontban
+# <a name="training-vouchers-program-retirement"></a>A betanítási utalványok programjának nyugdíjazása
 
-Növelje vállalkozását a frissítési garanciát biztosító partneri programokban való regisztrálással. A Microsoft kompenzálja az olyan partnereket, akik képzési, tervezési és egyéb szolgáltatásokat biztosítanak a frissítési garanciával rendelkező nagyvállalati ügyfeleknek.
+A betanítási bizonylatok teljes mértékben kimaradnak a frissítési garancia előnyeitől, de az ügyfelek továbbra is használhatják a voucher-napokat az oktató által vezetett képzéshez, amíg a bizonylatok érvényesek. Ezek azok a jelentős dátumok, amelyek a program kivonását eredményezik: 
 
-A Microsoft jóváhagyott frissítési garanciát biztosító képzési partnerként kompenzálja a technikai képzést a nagyvállalati ügyfelek számára az Exchange-ben a frissítési garanciával beszerezhető utalványok esetében. A programban való részvétel révén több ügyfelet vonzhat, és megbízható tanulási partnere lehet.
+- 2020. február 1.: az Azure betanítása kivonult a betanítási utalvány katalógusból.
+- 2020. február 1.: a betanítási utalványok már nem alakíthatók át tervezési szolgáltatások napjaira.  
+- 2021. február 1.: az ügyfelek már nem vehetik igénybe a betanítási előnyöket. 
+- 2021. június 30.: az elmúlt nap, hogy az ügyfelek betanítási utalványokat hozzanak létre/rendeljenek hozzájuk. Az összes fennmaradó betanítási utalvány napja 2021. július 1-jén lesz eltávolítva.
+- 2022. január 1.: az elmúlt nap, hogy a partnerek beváltsák a betanítási utalványokat. A beváltást követően a partner 60 napon belül elvégezheti a fizetési kérelem folyamatát.  
 
-## <a name="get-started"></a>Bevezetés
+>[!NOTE]
+>A voucher életciklusa nem változik. Miután létrehozta/hozzárendelte a bizonylatot, a bizonylatok foglalása, a betanítási munkamenetek és a bizonylatok beváltását 180 napon belül el kell végezni a vouch lejárata előtt.  A következő témakörben talál további [információt a](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) betanítási utalványok bevezetéséről: További információ (bejelentkezés szükséges).  Tekintse meg a SATV által jogosult tanfolyamok teljes listáját a betanítási juttatások termékkatalógusában.  Forduljon közvetlenül a regionális partneri támogatási csapathoz: [EMEA partneri](mailto:savoucher@msdirectservices.com)támogatás; [Általános partneri támogatás](https://partner.microsoft.com/dashboard/support/servicerequests).
+
+## <a name="until-june-30-2021"></a>2021. június 30-ig
+
+### <a name="get-started"></a>Bevezetés
 
 Ha még nem ismeri a frissítési garancia betanítási szolgáltatásait, kövesse az alábbi lépéseket. Ha már aktív a betanítási bizonylat programban, kezdje az alábbi négy lépéssel (4). 
 
