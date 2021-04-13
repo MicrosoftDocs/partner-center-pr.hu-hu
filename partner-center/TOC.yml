@@ -14,14 +14,6 @@
       displayName: mpn
     - name: Fiókbeállítások hibaelhárítása
       href: troubleshoot-account-sign-n.md
-    - name: Áthelyezés a Partnerközpontba
-      items:
-        - name: Áthelyezés a PAC-ból – áttekintés
-          href: pac-to-pc-overview.md
-        - name: PAC- és PC-feladatok összehasonlítása
-          href: moving-from-pac-to-pc.md
-        - name: PAC-feladatok végrehajtása a PC-ben
-          href: o365-partner-admin-center-to-partner-center.md
     - name: Áthelyezés a PMC-ből
       items:
         - name: A PMC-ből történő migrálás előkészítése
@@ -159,8 +151,6 @@
     - name: 'CSP-megállapodások, árlista, ajánlatok'
       href: csp-documents-and-learning-resources.md
       displayName: csp
-    - name: Az Azure Cost Management by Cloudyn CSP-k számára
-      href: azure-cost-management-app-for-csp-partners.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
       displayName: 'regio, region, csp'

@@ -6,15 +6,15 @@ description: Megtudhatja, hogyan ellenőrizheti a vállalat adatait, például a
 author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
-ms.date: 03/10/2021
+ms.date: 04/12/2021
 ms.localizationpriority: medium
-ms.custom: contperf-fy21q3
-ms.openlocfilehash: 6e9afa8689f34203bdbf1f56f69aa9289e38ae15
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.custom: contperf-fy21q4
+ms.openlocfilehash: 08e35e24dc94c81db56807b4211874996f0f487e
+ms.sourcegitcommit: 89be77c9f35c77463d9558826293202afc6dec56
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712596"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107315871"
 ---
 # <a name="verify-or-update-your-company-profile-information"></a>A vállalati profil adatainak ellenőrzése vagy frissítése 
 
@@ -92,6 +92,17 @@ A CSP-fiókhoz társított MPN-azonosító frissítése:
 ## <a name="update-your-csp-legal-billing-address"></a>A CSP jogi számlázási cím frissítése
 
 Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszergazdai ügynök, akkor megváltoztathatja a számlán megjelenő címeket a **kifizetési és az adózási profilban**. A számlán szereplő vállalatnevet azonban nem módosíthatja a számlázási rendszer korlátozásai miatt.
+
+:::image type="content" source="images/billing-profile.png" alt-text="Képernyőfelvétel arról a területről, ahol a számlázási adatok hozzá lettek adva":::
+
+|**Mező**  |**Leírás**|  
+|---------------------|:------------------|
+|Számlázási cégnév|A vállalat neve, amely a CSP-számla Bill-To információjában jelenik meg.  Ez a partner Centerben nem szerkeszthető.  A frissítéshez hozzon létre egy támogatási jegyet.|
+|Számlázási címek|A CSP-számlán látható Számlázási címek. Frissítés – képes a [Számlázási profilból](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial).|
+|Számlázási kapcsolat|A számlázási kapcsolattartási adatok (Utónév, vezetéknév, elsődleges szám) a CSP-fiókhoz.  Frissítés – képes a [Számlázási profilból](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial).|
+|POSTAFIÓK száma|A partner számláján megjelenő megrendelés száma.  Frissítés – képes a [Számlázási profilból](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial).|
+|Vállalati adó azonosítója|Egyes országokban a vállalatok megadhatják a hozzáadottérték [-adó (ÁFA) számát vagy a helyi megfelelőjét](https://docs.microsoft.com/partner-center/organization-tax-info#submit-vat-id-number). Az adó-/héa-azonosító frissítéséhez globális rendszergazdának, számlázási rendszergazdának vagy rendszergazdai ügynöknek kell lennie.|
+|Számlázási pénznem|A CSP-fiók számlázási pénznemét a CSP-fiók jogi országa határozza meg.  Ezt a CSP-fiók létrehozása után nem lehet módosítani.|
 
 
 ## <a name="next-steps"></a>Következő lépések

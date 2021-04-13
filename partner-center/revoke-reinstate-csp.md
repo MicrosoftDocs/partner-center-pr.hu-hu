@@ -1,7 +1,7 @@
 ---
 title: Rendszergazdai jogosultságok visszaállítása az Azure CSP-hez
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 04/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Ismerje meg, hogy az ügyfelek hogyan állíthatják vissza a partner rendszergazdai jogosultságait, hogy a partner segítsen kezelni az ügyfelek Azure CSP-előfizetéseit.
@@ -9,12 +9,12 @@ author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 13fdeb01ecd73dc1a63d174a4ad5cb8e1bdc813a
-ms.sourcegitcommit: 455894365fa488368f7572ac72312e84a267ef5e
+ms.openlocfilehash: f536d975d3c644a7afa29a95a3cb45608f6b2c9f
+ms.sourcegitcommit: 89be77c9f35c77463d9558826293202afc6dec56
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97011502"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107315847"
 ---
 # <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszaállítása az ügyfél Azure CSP-előfizetései esetében  
 
@@ -23,66 +23,76 @@ ms.locfileid: "97011502"
 - Globális rendszergazda
 - Felügyeleti ügynök
 
-CSP-partnerként az ügyfelek gyakran elvárják, hogy az Azure-használatot és azok rendszereit is kezelni tudják. Ehhez rendszergazdai jogosultságokkal kell rendelkeznie. Ezeket a jogosultságokat akkor kell megadnia, amikor a viszonteladói kapcsolat létrejött az ügyféllel. Másokat az ügyfél biztosít Önnek.
+CSP-partnerként az ügyfelek gyakran elvárják, hogy az Azure-használatot és azok rendszereit is kezelni tudják. Ehhez rendszergazdai jogosultságokkal kell rendelkeznie. Bizonyos jogosultságokat akkor kell megadni, ha a viszonteladói kapcsolat létrejött az ügyféllel. Másokat az ügyfél biztosít Önnek.
 
 ## <a name="admin-privileges-for-azure-in-csp"></a>Rendszergazdai jogosultságok az Azure-ban a CSP-ben
 
 Az Azure-ban a CSP-ben két rendszergazdai jogosultsági szint van.
 
-**Bérlői szintű rendszergazdai jogosultságok** (**delegált rendszergazdai jogosultságok**) – a CSP-partnerek megkapják ezeket a jogosultságokat a CSP viszonteladói kapcsolat ügyfelekkel való létrehozásakor. Ez lehetővé teszi, hogy a CSP-partnerek hozzáférhessenek az ügyfelek bérlői számára, így olyan rendszergazdai feladatokat végezhetnek, mint például a felhasználók hozzáadása vagy kezelése, a jelszavak alaphelyzetbe állítása és a felhasználói licencek kezelése.
+**Bérlői szintű rendszergazdai jogosultságok** (**delegált rendszergazdai jogosultságok**) – a CSP-partnerek megkapják ezeket a jogosultságokat a CSP viszonteladói kapcsolat ügyfelekkel való létrehozásakor. A delegált rendszergazdai jogosultságok lehetővé teszik a CSP-partnerek számára, hogy hozzáférjenek az ügyfelek bérlői számára, így olyan rendszergazdai feladatokat hajthatnak végre, mint például felhasználók hozzáadása/kezelése, jelszavak alaphelyzetbe állítása és felhasználói licencek kezelése.
 
 **Előfizetés szintű rendszergazdai jogosultságok** – a CSP-partnerek megkapják ezeket a jogosultságokat az Azure CSP-előfizetések létrehozásakor az ügyfelek számára. Ezek a jogosultságok lehetővé teszik a CSP-partnerek számára az Azure-erőforrások kiépítését és kezelését.
 
 ## <a name="reinstate-csp-partners-admin-privileges"></a>A CSP-partnerek rendszergazdai jogosultságának visszaállítása
 
-A delegált rendszergazdai jogosultságok visszaszerzéséhez az ügyfelet kell használnia.
+Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha megadja az ügyfélnek az AdminAgents-csoport objektumazonosítót. A delegált rendszergazdai jogosultságok visszaszerzéséhez az ügyfelet kell használnia.
 
 1. Jelentkezzen be a partner Center irányítópultra, és válassza a partner Center menü **ügyfelek** elemét.
 
 2. Válassza ki azt az ügyfelet, aki dolgozik, és **kérjen egy viszonteladói kapcsolatot.** Ez létrehoz egy hivatkozást arra a felhasználóra, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
 
-3. A felhasználónak ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolat kérését.
+3. Az ügyfélnek ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolat kérését.
 
-   :::image type="content" source="images/azure/revoke4.png" alt-text="viszonteladói kapcsolat":::
+   :::image type="content" source="images/azure/revoke4.png" alt-text="E-mail-példa viszonteladói kapcsolat létrehozására":::
 
-## <a name="adding-the-admin-agents-group-as-an-owner-for-the-azure-csp-subscription"></a>A felügyeleti ügynökök csoport hozzáadása az Azure CSP-előfizetés tulajdonosaként
+4. Önnek, a partnernek csatlakoznia kell a partner bérlőhöz a AdminAgents-csoport objektumazonosító beszerzéséhez.
 
-Az ügyfélnek hozzá kell adnia a felügyeleti ügynök csoportját az Azure CSP-előfizetés, egy erőforráscsoport vagy egy erőforrás tulajdonosaként. 
-
-1. A PowerShell-konzol vagy a PowerShell integrált parancsfájlkezelési környezet (ISE) használata. Győződjön meg arról, hogy a AzureAD modulok telepítve vannak.
-
-2. Kapcsolódjon az Azure AD-bérlőhöz.
-
-   ```powershell
-   Connect-AzureAD
-   ```
-
-3. A felügyeleti ügynökök csoportjai ObjectId beolvasása.
-
-   ```powershell
-   Get-AzureADGroup
-   ```
-   A következő lépéseket az ügyfél azon vállalata végzi, aki tulajdonosi hozzáféréssel rendelkezik az Azure CSP-előfizetéshez.
-
-4. Az Azure CSP-előfizetéshez tulajdonosi hozzáféréssel rendelkező felhasználó hitelesítő adataival bejelentkezik az Azure-ba.
-
-   ```powershell
-   Connect-AzureRmAccount
-   ```
-
-5. Ezután hozzáadhatja a felügyeleti ügynök csoportját tulajdonosként a CSP Azure-előfizetéshez, az erőforráscsoporthoz vagy az erőforráshoz egy megfelelő erőforrás-URI alkalmazásával a hatókör-paraméterben. 
-
+  
     ```powershell
-    # Grant owner role at subscription level
-    New-AzureRmRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "/subscriptions/<SubscriptionId of CSP subscription>"
 
-    # Grant owner role at resource group level
-    New-AzureRmRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "/subscriptions/<SubscriptionId of CSP subscription>/resourceGroups/<Resource group name>"
+    PS C:\WINDOWS\system32> Connect-AzAccount -Tenant "Partner tenant"
+      Get Object ID of AdminAgents group
+   
+    
 
-    # Grant owner role at resource level
-    New-AzureRmRoleAssignment -ObjectId <Object Id that you got from step 3> -RoleDefinitionName Owner -Scope "<Resource Uri>"
+   S C:\WINDOWS\system32> Get-AzADGroup -DisplayName AdminAgents
     ```
+
+
+5. Az a felhasználó, aki rendelkezik a **tulajdonosi vagy a felhasználói hozzáférés-adminisztrátor** szerepkörrel, és jogosult szerepkör-hozzárendelés létrehozására az előfizetési szinten, a következő műveleteket végzi el:
+
+
+    1. Csatlakozik ahhoz a bérlőhöz, ahol a CSP-előfizetés létezik.
+      ```powershell
+        PS C:\WINDOWS\system32> Connect-AzAccount -TenantID "Customer tenant"
+      ```
+
+    2. Csatlakozás az előfizetéshez (csak akkor alkalmazható, ha a felhasználó szerepkör-hozzárendelési engedéllyel rendelkezik több előfizetéshez a bérlőn).
+   
+         PS CWindowsSystem32> Set-AzContext-SubscriptionID "CSP előfizetés azonosítója" "
+
+
+    3. Létrehozza a szerepkör-hozzárendelést.
+    
+    ```powershell
+      PS C:\WINDOWS\system32> New-AzRoleAssignment -ObjectID "Object ID of the Admin Agents group- needs to be provided by partner" -RoleDefinitionName "Owner" -Scope "/subscriptions/CSP subscription ID"
+    ```
+
+
+Ha azt szeretné, hogy az erőforrás-csoport szintjén vagy az erőforrás szintjén adja meg a tulajdonosi szerepkör engedélyt az előfizetés hatóköre helyett, a következő parancsok működhetnek:
+
+
+```powershell
+Grant owner role at resource group level
+
+   New-AzRoleAssignment -ObjectID "Object ID that you got from step 3" -RoleDefinitionName Owner -Scope "/subscriptions/"SubscriptionID of CSP subscription"/resourceGroups/"Resource group name"
+
+Grant owner role at resource level
+
+   New-AzRoleAssignment -ObjectID <Object ID that you got from step 3> -RoleDefinitionName Owner -Scope "Resource URI"
+```
+
 
 ## <a name="next-steps"></a>Következő lépések
 
-[Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)
+- [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)

@@ -9,12 +9,12 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8e62462b6d35e8e6994e5e596ce433b37d222fc2
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 08499c306079d0cb900d528247309afdf21b23bb
+ms.sourcegitcommit: 89be77c9f35c77463d9558826293202afc6dec56
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106132281"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107315898"
 ---
 # <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>A partneri központ fiókjának kezelése – vállalati profil, banki információk, szerepkörök, engedélyek és egyebek
 
@@ -42,7 +42,7 @@ Ez megjeleníti a Fiókbeállítások lapot.
 
 ### <a name="locate-your-mpn-id"></a>Az MPN-azonosító megkeresése
 
-Akár partnert, akár fejlesztőt használ, használja az MPN-AZONOSÍTÓját olyan dolgokhoz, mint a támogatási jegyek naplózása. Az MPN-azonosító a te **jogi információk** oldalon található. Azt is megtalálhatja az **Identity profilban**.
+Akár partnert, akár fejlesztőt használ, használja az MPN-AZONOSÍTÓját olyan dolgokhoz, mint a támogatási jegyek naplózása. Az MPN-azonosító a **jogi információk** oldalon található. Azt is megtalálhatja az **Identity profilban**.
 
 ## <a name="account-settings---partners-resellers"></a>Fiókbeállítások – partnerek, viszonteladók
 
