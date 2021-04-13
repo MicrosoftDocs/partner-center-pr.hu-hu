@@ -10,17 +10,51 @@ ms.custom:
 - announcement
 - references_regions
 ms.localizationpriority: high
-ms.date: 04/02/2021
-ms.openlocfilehash: 2cd791425fd30d18b8db5f999eb773fc0e2f37e6
-ms.sourcegitcommit: c6c741475604b8daf386fb54bb2795a6445ac887
+ms.date: 04/08/2021
+ms.openlocfilehash: 441d41e6212399657124b6116e1f2c05ce734211
+ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106374433"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107266520"
 ---
 # <a name="april-2021-announcements"></a>Április 2021 bejelentések
 
 Ez az oldal a Microsoft partner Center 2021-es áprilisi hirdetményeit tartalmazza.
+
+________________
+## <a name="reminder-deprecation-of-get-qualification-on-may-4-2021"></a><a name="4"></a>Emlékeztető: a GET minősítés elavulása május 4-én, 2021
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-04-09
+- Képességek
+
+### <a name="impacted-audience"></a>Érintett közönség
+
+A tudományos, nonprofit és kormányzati közösségi felhő (GCC) ajánlatokat értékesítő partnerek a Cloud Solution Provider programon keresztül a partner Center API használatával
+
+### <a name="details"></a>Részletek
+
+Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](https://docs.microsoft.com/partner-center/announcements/2020-december#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen a meglévő GET minősítés a 2021. május 4-én megszűnik. Ebben az időben át kell térnie az új POST partner Center API-k használatára a vásárlási oktatási ajánlatokban, valamint az új képesítési API-t az előminősített nonprofit és GCC-ajánlatok megvásárlásához.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Frissítsen az új API-kra a sikeres és az időben történő áttéréshez.
+
+- Tekintse át az új partneri központ API-változásait és útmutatóját az operatív készültségi erőforrások: a [partner Center oktatási ügyfelek ellenőrzési folyamatának fejlesztései](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/)című témakörben.
+
+- Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal és a viszonteladókkal, hogy előkészítse ezeket a módosításokat.
+
+### <a name="questions"></a>Kérdése van?
+
+Az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
+
+### <a name="change-log"></a>Változási napló
+
+- Április: emlékeztető a GET minősítés közelgő elavulása esetén 
+- Február: frissített ütemtervek a GET & PUT minősítések érvénytelenítéséhez
+- Január: emlékeztető a GET & beszerzésének közelgő elavulása
 
 ________________
 ## <a name="new-format-for-the-new-commerce-pdf-invoice-in-csp"></a><a name="3"></a>Új formátum az új Commerce PDF-számla számára a CSP-ben

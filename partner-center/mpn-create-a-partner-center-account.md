@@ -1,7 +1,7 @@
 ---
 title: MPN-fiók létrehozása a partner Centerben
 ms.topic: article
-ms.date: 03/18/2021
+ms.date: 04/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Ismerje meg, hogy Microsoft Partner Network tagok hogyan hozhatnak létre partneri központot a hálózati előnyeiknek és kompetenciáinak kezeléséhez.
@@ -9,12 +9,12 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a099b30753d2ea6de217001e7b13e4a333e40f55
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 00d45b18dc4c2d55ec4af0456512a685ba111ee1
+ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712919"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107266537"
 ---
 # <a name="create-an-mpn-account-in-partner-center-to-manage-network-benefits-and-competencies"></a>MPN-fiók létrehozása a partner Centerben a hálózati előnyök és kompetenciák kezeléséhez
 
@@ -25,7 +25,7 @@ Ha új Microsoft Partner Network (MPN), és nem rendelkezik MPN-AZONOSÍTÓval, 
 
 Ha készen áll egy fiók létrehozására a partner Centerben, akkor a következő elemeket kell megadnia.  Az első lépések megkezdése előtt érdemes lehet néhány percet igénybe venni:
 
-- Vállalati munkahelyi e-mail vagy Office 365 munkahelyi fiók. További információért olvassa el [munkahelyi fiókját és a partneri központot](azure-active-directory-tenants-and-partner-center.md) 
+- Vállalati munkahelyi e-mail vagy Office 365 munkahelyi fiók. Előfordulhat, hogy a vállalatának e-mail-tartományt kell megvásárolnia ahhoz, hogy munkahelyi e-mail-címeket állítson be az alkalmazottak számára. További információért olvassa el [a munkahelyi munkahelyi fiókot és a partner centert](azure-active-directory-tenants-and-partner-center.md). 
  
 - A vállalat jogi üzleti neve és címe.
 

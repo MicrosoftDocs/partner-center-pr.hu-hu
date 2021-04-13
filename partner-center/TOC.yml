@@ -12,8 +12,6 @@
     - name: MPN-fiók létrehozása a partner Centerben
       href: mpn-create-a-partner-center-account.md
       displayName: mpn
-    - name: Munkahelyi e-mail-cím beszerzése
-      href: buy-email-domain.md
     - name: Fiókbeállítások hibaelhárítása
       href: troubleshoot-account-sign-n.md
     - name: Áthelyezés a Partnerközpontba
@@ -246,7 +244,7 @@
           href: reset-a-user-password.md
         - name: Saját jelszó visszaállítása
           href: reset-my-pasword.md
-        - name: A felhasználó nem tud bejelentkezni
+        - name: Bejelentkezési problémák elhárítása
           href: unable-to-sign-in.md
         - name: A felhasználónak nincs MPN-rendszergazdai jogosultsága
           href: no-mpn-admin.md

@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 04/02/2021
-ms.openlocfilehash: f550a1b145a4de7a6ecd13dd42241b059da55533
-ms.sourcegitcommit: c6c741475604b8daf386fb54bb2795a6445ac887
+ms.date: 04/08/2021
+ms.openlocfilehash: c2941c6dcda9551a97ca903f050488ea8fe363c1
+ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106374416"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107266452"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**Április 2021 bejelentések**|**Bejelentve**|
 |---------|:---------|:---------|
+|Képességek|[Emlékeztető: a GET minősítés elavulása május 4-én, 2021](2021-april.md#4)|Április 9.|
 |Képességek|[Új formátum az új Commerce PDF-számla számára a CSP-ben](2021-april.md#3)|Április 5.|
 |Képességek|[A felhőszolgáltatói (CSP) ügyfél-előkészítési követelmények változásai](2021-april.md#2)|Április 2.|
 |Képességek|[A hónap termék-és ajánlatok megtekintése](2021-april.md#1)|Április 1.|

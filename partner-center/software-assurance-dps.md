@@ -9,12 +9,12 @@ author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cb3f6d6d4b719a8c4988ef935bde07c9660942c5
-ms.sourcegitcommit: 799d4d52afc511d0e0fad0e59dbdfc60081a1aa8
+ms.openlocfilehash: 9ab6afc85a696b3b614ea5c3b5edc644d92bfc21
+ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "107024993"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107266503"
 ---
 # <a name="software-assurance-planning-services-retirement"></a>Frissítési garancia tervezési szolgáltatások – nyugdíjazás
 
@@ -35,7 +35,6 @@ A tervezési szolgáltatások teljes mértékben kimaradnak a frissítési garan
 >[!NOTE]
 >A voucher életciklusa nem változik. Miután létrehozta/hozzárendelte a bizonylatot, a voucher-foglalást, az ügyfél-bevonást és a bizonylatok beváltását 180 napon belül el kell végezni a vouch lejárata előtt.  A szolgáltatások megtervezésével kapcsolatos további információkért tekintse meg az [itt](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) található gyakori kérdéseket (bejelentkezés szükséges).  Forduljon közvetlenül a regionális partneri támogatási csapathoz: [EMEA partneri](mailto:savoucher@msdirectservices.com)támogatás; [Általános partneri támogatás](https://partner.microsoft.com/dashboard/support/servicerequests)
 
-## <a name="until-june-30-2021"></a>2021. június 30-ig
 
 ### <a name="get-started"></a>Bevezetés
 

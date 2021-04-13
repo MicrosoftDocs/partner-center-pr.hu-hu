@@ -10,48 +10,52 @@ ms.custom:
 - announcement
 - references_regions
 ms.localizationpriority: high
-ms.date: 04/02/2021
-ms.openlocfilehash: 79d492fa907f9d2b9318ba9fa9850401b61a2b7d
-ms.sourcegitcommit: 60bbb8f4056120264b769f94431f84d86984c2e9
+ms.date: 04/08/2021
+ms.openlocfilehash: b72d736fdeafc438fbfa848c0b2b1e51ab66b261
+ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/03/2021
-ms.locfileid: "106280904"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107266469"
 ---
 # <a name="february-2021-announcements"></a>Február 2021 közlemények
 
 Ez az oldal részletesen ismerteti a Microsoft-partneri központtal kapcsolatos bejelentéseket a 2021 februárjában.
 
 ________________
-## <a name="put-qualification-apis-are-retired-get-to-retire-in-may"></a><a name="14"></a> A minősítési API-k üzembe helyezése megszűnik, a májusi kivonulás
+## <a name="reminder-deprecation-of-get-qualification-on-may-4-2021"></a><a name="14"></a>Emlékeztető: a GET minősítés elavulása május 4-én, 2021
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: február 25., 2021
+- Dátum: 2021-04-09
 - Képességek
 
 ### <a name="impacted-audience"></a>Érintett közönség
 
-A partner Center API-t használó partnerek a Cloud Solution Provider programon keresztül tudományos, non-profit és GCC-ajánlatokat árusítanak
+A tudományos, nonprofit és kormányzati közösségi felhő (GCC) ajánlatokat értékesítő partnerek a Cloud Solution Provider programon keresztül a partner Center API használatával
 
 ### <a name="details"></a>Részletek
 
-Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](2020-december.md#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen **a meglévő Put minősítési API**-k kivonásra kerültek, a minősítés pedig 2021. május 4-én megszűnik. Ha ez bekövetkezik, át kell térnie az új POST partner Center API-k használatára az oktatási ajánlatok megvásárlása érdekében. Hasonlóképpen az új képesítések beszerzése API-val kell használnia az előre minősített nonprofit és GCC-ajánlatok megvásárlásához.
+Ez a közlemény a partneri központ [decemberben megjelent fejlesztéseit](https://docs.microsoft.com/partner-center/announcements/2020-december#1)követi nyomon. Ennek a kiadásnak a részeként üzembe helyezte az új GET és POST minősítési API-kat, és ennek eredményeképpen a meglévő GET minősítés a 2021. május 4-én megszűnik. Ebben az időben át kell térnie az új POST partner Center API-k használatára a vásárlási oktatási ajánlatokban, valamint az új képesítési API-t az előminősített nonprofit és GCC-ajánlatok megvásárlásához.
 
 ### <a name="next-steps"></a>Következő lépések
 
-- **Az új API** -k frissítése sikeres és időben történő áttéréshez
-- **Tekintse át az új partneri központ API-változásait és útmutatóját** az operatív készültségi erőforrások: a [partner Center oktatási ügyfelek ellenőrzési folyamatának továbbfejlesztései](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/)
-- **Ossza meg ezeket az információkat** a szervezeten belüli megfelelő csapatokkal és a viszonteladókkal, hogy előkészítse ezeket a módosításokat
+- Frissítsen az új API-kra a sikeres és az időben történő áttéréshez.
+
+- Tekintse át az új partneri központ API-változásait és útmutatóját az operatív készültségi erőforrások: a [partner Center oktatási ügyfelek ellenőrzési folyamatának fejlesztései](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/)című témakörben.
+
+- Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal és a viszonteladókkal, hogy előkészítse ezeket a módosításokat.
 
 ### <a name="questions"></a>Kérdése van?
 
-Az ezzel az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
+Az értesítéssel kapcsolatos bármilyen kérdés esetén forduljon a [partner Center ügyfélszolgálatához](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals).
 
 ### <a name="change-log"></a>Változási napló
 
+- Április: emlékeztető a GET minősítés közelgő elavulása esetén 
 - Február: frissített ütemtervek a GET & PUT minősítések érvénytelenítéséhez
 - Január: emlékeztető a GET & beszerzésének közelgő elavulása
+
 
 ________________
 ## <a name="share-co-sell-deals-at-scale-using-the-partner-center-bulk-operations-capability"></a><a name="13"></a> Közös értékesítések megosztása a partner Center tömeges üzemeltetési képességével
