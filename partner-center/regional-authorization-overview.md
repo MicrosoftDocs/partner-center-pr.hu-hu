@@ -1,45 +1,50 @@
 ---
 title: CSP globális piacok
 ms.topic: article
-ms.date: 06/05/2020
+ms.date: 04/15/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Tekintse meg azokat az országokat, régiókat és pénznemeket, amelyekben a vállalata tartózkodási helye alapján értékesítheti a CSP-ajánlatokat.
+description: Tekintse meg az országokat, régiókat és pénznemeket, ahol csp-ajánlatokat értékesíthet a vállalat helye alapján.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 98ad8e3f78b8181013b21d6146744337de6976bd
-ms.sourcegitcommit: 175fa04ba45a1133b77d8055a0123561bd987415
+ms.openlocfilehash: 216103ae3e94b7ba1525f9fa1199d0bf0311fd0b
+ms.sourcegitcommit: 9f6be9bc8d9a065422d1ec8388bd770eb6cd9f33
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96926661"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107528610"
 ---
-# <a name="cloud-solution-provider-program-regional-markets-and-currencies-where-you-can-sell-csp-offers"></a>A Cloud Solution Provider program regionális piacai és pénznemei, amelyekben a CSP-ajánlatok értékesíthetők
+# <a name="cloud-solution-provider-program-regional-markets-and-currencies-where-you-can-sell-csp-offers"></a>Felhőszolgáltató regionális piacok és pénznemek, ahol CSP-ajánlatokat értékesíthet
 
-A vállalat piacát a vállalat földrajzi helye határozza meg. Az Ön piaca tartalmazza azokat a régiókat és/vagy országokat, ahol a Cloud Solution Provider (CSP) program ajánlatait értékesítheti.
+A vállalat piacát a vállalat földrajzi helye határozza meg. A piac azokat a régiókat és/vagy országokat tartalmazza, ahol értékesíthet Felhőszolgáltató (CSP) program keretében.
 
-Ha például a vállalata a Egyesült Államok található, akkor a CSP-ajánlatokat az Egyesült Államokban és az Amerikai Egyesült Államokban lévő ügyfeleknek is értékesítheti. Ha a vállalata Brazíliában található, akkor a CSP-ajánlatokat csak Brazíliában értékesítheti az ügyfeleknek. Ha a vállalata az afrikai régióban található, akkor a CSP-ajánlatokat az afrikai régió összes 18 országában értékesítheti ügyfeleinek.
+Ha például a vállalata a Egyesült Államok van, CSP-ajánlatokat értékesíthet az Egyesült Államokban és az Egyesült Államokban található, outlying-szigeteken található ügyfeleknek. Ha vállalata Brazília területén található, csp-ajánlatokat csak Brazília ügyfeleinek értékesíthet. Ha a vállalata az Afrika régióban található, csp-ajánlatokat értékesíthet az ügyfeleknek mind a 18 országban az afrikai régióban.
 
-Ahhoz, hogy a CSP-ajánlatokat egy ügyfél nevében rendeljék el, az ügyfélnek alá kell írnia a Microsoft ügyfél-szerződést. [Itt](agreements.md)találja a régiója/országa számára megfelelő Microsoft-ügyfél-szerződést.
+Ahhoz, hogy CSP-ajánlatokat rendeljen egy ügyfél nevében, az ügyfélnek alá kell írnia a Microsoft Ügyfélszerződés. A régióra/országra vonatkozó Microsoft Ügyfélszerződés itt [találja.](agreements.md)
+
+## <a name="azure-plan-for-csp-region-availability"></a>Azure-csomag a CSP-régiók rendelkezésre állásához  
+
+Az Azure Plan for CSP kevesebb régióban érhető el, mint az Azure Software for CSP.  Az  [Azure-csomag regionális](purchase-azure-plan.md) rendelkezésre állásának legújabb frissítéseit az Azure-csomag megvásárlásával kapcsolatban lásd: Az Azure-csomag megvásárlása. 
 
 >[!IMPORTANT]
-> Meg kell győződnie arról, hogy az ügyfél elfogadta a Microsoft ügyfél-szerződést, és információt nyújt az azt aláíró személyről. További részletekért lásd a [Microsoft ügyfél-szerződés elfogadásának megerősítése](confirm-consent.md) című témakört.
+> Meg kell erősítenie, hogy az ügyfél elfogadta a Microsoft Ügyfélszerződés meg kell adni az azt aláíró személy adatait. További [részletekért lásd:](confirm-consent.md) A Microsoft Ügyfélszerződés ügyfél általi elfogadásának megerősítése.
 
-A CSP-ajánlatok értékesítési helyének meghatározásához keresse meg a vállalata helyét az alábbi listában. Rendelkeznie kell egy aktív Microsoft Partner Network (MPN) AZONOSÍTÓval ahhoz a helyhez, amelyet el szeretne adni.  
+Annak megállapításához, hogy hol értékesíthet CSP-ajánlatokat, keresse meg a vállalat helyét az alábbi listák egyikében. Az értékesíteni kívánt helyhez Microsoft Partner Network (MPN) azonosítóval kell lennie.  
 
-## <a name="for-unsupported-countries"></a>Nem támogatott országok esetén
 
-Ha az Ön országa nem támogatott, az Office-rendszergazda URL-címével hozza létre az ügyfél CSP-kapcsolatát. 
+## <a name="for-unsupported-countries"></a>Nem támogatott országok esetében
 
-- A közvetlen számlázási partnerek a következő URL-címet használják: https://portal.office.com/partner/partnersignup.aspx?type=ResellerRelationship&id=partnertenantguid&csp=1&msppid=0 . Cserélje le a **partnertenantguid** -t a BÉRLŐi azonosítóra. 
+Ha az ön országa nem támogatott, hozza létre az ügyfél CSP-kapcsolatát az Office rendszergazdai URL-címével. 
 
-- A közvetett viszonteladók URL-címe a következő: https://portal.office.com/partner/partnersignup.aspx?type=IndirectResellerRelationship&id=IRtenantguid&csp=1&msppid=IRMPNID&indirectCSP=IPtenantguid . A **IRtenantguid** a BÉRLŐi azonosítóval kell helyettesítenie. Cserélje le az **IRMPNID** -t az MPN-azonosítóra, és cserélje le a **IPtenantguid** -t a közvetett szolgáltató bérlői azonosítójával.
+- A közvetlen számlázási partnerek a következő URL-címet használják: https://portal.office.com/partner/partnersignup.aspx?type=ResellerRelationship&id=partnertenantguid&csp=1&msppid=0 . Cserélje **le a partnertenantguid helyére** a bérlőazonosítóját. 
+
+- A közvetett viszonteladók URL-címe: https://portal.office.com/partner/partnersignup.aspx?type=IndirectResellerRelationship&id=IRtenantguid&csp=1&msppid=IRMPNID&indirectCSP=IPtenantguid . Az **IRtenantguid** helyére a bérlőazonosítóját kell be helyettesítenie. Cserélje **le az IRMPNID** helyére az MPN-azonosítóját, az **IPtenantguid** helyére pedig a közvetett szolgáltató bérlőazonosítóját.
 
 ## <a name="africa-region-and-market"></a>Afrika régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 | Ország/régió           | Pénznem |
 | ------------------------ |:--------:|
@@ -79,22 +84,22 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 | Nigéria                  |   USD    |
 | Réunion                  |   USD    |
 | Ruanda                   |   USD    |
-| São Tomé és Príncipe    |   USD    |
+| Sémo Tomé és Príncipe    |   USD    |
 | Szenegál                  |   USD    |
 | Seychelle-szigetek               |   USD    |
 | Sierra Leone             |   USD    |
 | Szomália                  |   USD    |
 | Dél-Szudán              |   USD    |
-| Szent Ilona, Ascension, Tristan da Cunha|    USD   |
+| St Majda, Ascension, Tristan da Canha|    USD   |
 | Tanzánia                 |   USD    |
 | Togo                     |   USD    |
 | Uganda                   |   USD    |
 | Zambia                   |   USD    |
 |
 
-## <a name="asia-and-pacific-region-and-market"></a>Ázsiai és csendes-óceáni régió és piac
+## <a name="asia-and-pacific-region-and-market"></a>Ázsia és a Csendes-óceáni térség régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 | Ország/régió     | Pénznem |
 | --------------     |:--------:|
@@ -118,9 +123,9 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Vietnam           |   USD    |
 |
 
-## <a name="australia-region-and-market"></a>Ausztráliai régió és piac
+## <a name="australia-region-and-market"></a>Ausztrália régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió        | Pénznem |
 |  --------------        |:--------:|
@@ -151,7 +156,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 ## <a name="brazil-region-and-market"></a>Brazília régiója és piaca
 
-Ha a vállalata Brazíliában található, a CSP-ajánlatokat a Brazíliában lévő ügyfeleknek is értékesítheti.
+Ha vállalata brazíliai helyen található, CSP-ajánlatokat értékesíthet Brazília ügyfeleinek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -160,7 +165,7 @@ Ha a vállalata Brazíliában található, a CSP-ajánlatokat a Brazíliában l�
 
 ## <a name="canada-region-and-market"></a>Kanada régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -170,7 +175,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 ## <a name="europe-region-and-market"></a>Európa régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió | Pénznem  |
 |  -------------- |:--------:|
@@ -221,9 +226,9 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Vatikán   |          |
 |
 
-## <a name="india-region-and-market"></a>Indiai régió és piac
+## <a name="india-region-and-market"></a>India régiója és piaca
 
-Ha a cég székhelye India, akkor a CSP-ajánlatokat az indiai vásárlók számára is értékesítheti.
+Ha vállalata helye India, csp-ajánlatokat értékesíthet az indiai ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -232,25 +237,25 @@ Ha a cég székhelye India, akkor a CSP-ajánlatokat az indiai vásárlók szám
 
 ## <a name="japan-region-and-market"></a>Japán régió és piac
 
-Ha a vállalata Japánban van, akkor a CSP-ajánlatokat a japán ügyfeleknek is értékesítheti.
+Ha a vállalat helye Japán, akkor a CSP-ajánlatokat Japánban értékesítheti az ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Japán          |   JPY    |
 |
 
-## <a name="korea-republic-of-region-and-market"></a>Koreai Köztársaság, régió és piac
+## <a name="korea-republic-of-region-and-market"></a>Korea, Régiók és Piaci Köztársaság
 
-Ha a vállalata Korea, a Köztársaság, a (z) központjának forgalmazói ajánlatait értékesítheti a Koreában.
+Ha vállalata helye Dél-Korea, a Köztársaság, akkor CSP-ajánlatokat értékesíthet Dél-Korea és Köztársaság ügyfeleinek.
 
 |  Ország/régió    | Pénznem |
 |  --------------    |:--------:|
 |  Koreai Köztársaság|   KRW    |
 |
 
-## <a name="latin-america-and-the-caribbean-region-and-market"></a>Latin-Amerika és a karibi régió és piac
+## <a name="latin-america-and-the-caribbean-region-and-market"></a>Latin-Amerika régió és a régió és a piac
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -300,7 +305,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Saint Vincent és Grenadine-szigetek| USD |
 |  Sint Eustatius |   USD    |
 |  Sint Maarten   |   USD    |
-|  Déli-Georgia és Déli-Sandwich-szigetek| USD|
+|  Dél-Georgia és Déli-Sandwich-szigetek| USD|
 |  Suriname       |   USD    |
 |  Trinidad és Tobago|USD   |
 |  Turks- és Caicos-szigetek| USD|
@@ -309,9 +314,9 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Amerikai Virgin-szigetek| USD |
 |
 
-## <a name="middle-east-central-europe-and-eastern-europe-region-and-market"></a>Közel-Kelet, Közép-Európa és kelet-európai régió és piac
+## <a name="middle-east-central-europe-and-eastern-europe-region-and-market"></a>Közel-Kelet, Közép-Európa és Kelet-Európa régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -336,7 +341,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Libanon        |   USD    |
 |  Lesotho        |   USD    |
 |  Líbia          |   USD    |
-|  Macedónia, Köztársaság|   |
+|  Észak-Afrikai Köztársaság|   |
 |  Mauritánia     |   USD    |
 |  Moldova        |   USD    |
 |  Mongólia       |   USD    |
@@ -345,7 +350,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Mozambik     |   USD    |
 |  Omán           |   USD    |
 |  Pakisztán       |   USD    |
-|  Palesztin terület, foglalt |        |
+|  Területének, foglalt |        |
 |  Katar          |   USD    |
 |  Szaúd-Arábia   |   USD    |
 |  Szerbia         |   USD    |
@@ -364,7 +369,7 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 
 ## <a name="new-zealand-region-and-market"></a>Új-Zéland régiója és piaca
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -374,30 +379,30 @@ Ha a cég helye az alábbi listában található, akkor a listán szereplő öss
 |  Vanuatu        |   NZD    |
 |
 
-## <a name="russia-region-and-market"></a>Oroszország régiója és piaca
+## <a name="russia-region-and-market"></a>Oroszországi régió és piac
 
-Ha a cég tartózkodási helye Oroszország, akkor a CSP-ajánlatokat az ügyfeleknek értékesítheti Oroszországban.
+Ha a vállalata helye Oroszország, csp-ajánlatokat értékesíthet Az orosz ügyfelek számára.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Oroszország         |    RUB   |
 |
 
-## <a name="taiwan-region-and-market"></a>Tajvani régió és piac
+## <a name="taiwan-region-and-market"></a>Tajvan régiója és piaca
 
-Ha a cég székhelye Tajvan, a CSP-ajánlatokat a tajvani ügyfeleknek is értékesítheti.
+Ha a vállalat helye Tajvan, csp-ajánlatokat értékesíthet Tajvan ügyfeleinek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
 |  Tajvan         |   TWD    |
 |
 
-## <a name="united-states-region-and-market"></a>Egyesült Államok régió és piac
+## <a name="united-states-region-and-market"></a>Egyesült Államok és piac
 
-Ha a cég helye az alábbi listában található, akkor a listán szereplő összes helyen értékesítheti a CSP-ajánlatokat az ügyfeleknek.
+Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékesíthet a listában található összes helyen található ügyfeleknek.
 
 |  Ország/régió       | Pénznem |
 |  -------------        |:--------:|
 |  Egyesült Államok        |   USD    |
-|  Az Amerikai Egyesült Államok lakatlan külbirtokai|   USD    |
+|  Az Usa-beli, outlying-szigetek|   USD    |
 |

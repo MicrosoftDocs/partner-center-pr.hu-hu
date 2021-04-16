@@ -2,64 +2,66 @@
 title: Tényleges egységár kiszámítása
 ms.topic: how-to
 ms.date: 04/02/2021
-description: Ismerje meg a hatályos egység árát és a számítás módját. Ez a cikk egy minta számítást is tartalmaz.
+description: Megismeri a tényleges egységárat és számítását. Ez a cikk egy mintaszámítást is tartalmaz.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a662e0b815c979b3454762c5b35eb510887c96ad
-ms.sourcegitcommit: c6c741475604b8daf386fb54bb2795a6445ac887
+ms.openlocfilehash: 6c3c3a672de015c9f38fa0e34232da8d9913177c
+ms.sourcegitcommit: 9f6be9bc8d9a065422d1ec8388bd770eb6cd9f33
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106374392"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107528569"
 ---
-# <a name="effective-unit-price-calculation-for-azure-plan-consumption"></a>Az Azure-csomag felhasználásának tényleges számítási egysége
+# <a name="effective-unit-price-calculation-for-azure-plan-consumption"></a>Az Azure-csomagfelhasználás tényleges egységárának kiszámítása
 
-## <a name="the-effective-unit-price"></a>A hatályos egység ára
+## <a name="the-effective-unit-price"></a>A tényleges egységár
 
-A tényleges egység árát a mérési szint alapján számítjuk ki (az erőforrás szintjével szemben), és napi rendszerességgel korrigáljuk a mérési adatok alapján.
+A tényleges egységár számítása a fogyasztásmérő szintjén történik (nem az erőforrás szintjén), és a mérőhasználat alapján naponta lesz módosítva.
 
-A következő három tényezővel számítjuk ki a hatályos egység árát:
+A tényleges egységárat az alábbi három tényező alapján számítjuk ki:
 
-- A teljes számlázási ciklusban naponta figyelt felhasználás
-- A fogyasztásmérő számlázandó díja
-- Rétegek (ha alkalmazható)
+- Felhasználás, amelyet naponta figyelnek a számlázási ciklus során
+- A fogyasztásmérő számlázható költsége
+- Rétegezés (ha van)
 
-Mivel napi rendszerességgel figyeli a használatot a számlázási időszakban, a hatályos egység ára ingadozni fog. Az adott elszámolási időszakra vonatkozó végleges díj a felhasználás kiszámításának leállítása és a számlázási idő lezárása után lesz elérhető. A legtöbb változást a negyedik vagy az ötödik tizedesjegy után fogja látni.
+Mivel a használatot naponta monitorozni fogjuk a számlázási ciklusban, a tényleges egységár ingadozni fog. Egy adott számlázási ciklus végső ára akkor lesz elérhető, ha leállítjuk a használat számítását, és lezárjuk a számlázási időszakot. A használat legnagyobb változását a negyedik vagy ötödik tizedesjegy után fogja látni.
 
-## <a name="find-out-whether-your-meter-uses-tiered-pricing"></a>Megtudhatja, hogy a mérőszám a lépcsőzetes díjszabást használja-e
+## <a name="find-out-whether-your-meter-uses-tiered-pricing"></a>Annak kiderítése, hogy a fogyasztásmérő rétegzett díjszabást használ-e
 
-Ha nem tudja, hogy a mérőszáma a lépcsőzetes díjszabást használja-e, az alábbi eljárással derítheti ki. 
+Ha nem tudja, hogy a fogyasztásmérő rétegzett díjszabást használ-e, az alábbi eljárással derítse ki. 
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
-2. Válassza az **értékesítés** lehetőséget, válassza a **díjszabás és ajánlatok** lehetőséget, majd válassza az **Azure-csomag díjszabása** lehetőséget.
-3. Keresse meg a mérőt azonosító alapján, majd töltse le a díjszabási adatait. 
+2. Válassza **az Értékesítés** lehetőséget, válassza a Díjszabás és **ajánlatok** lehetőséget, majd az **Azure-csomag díjszabása lehetőséget.**
+3. Keresse meg a fogyasztásmérőt azonosító alapján, majd töltse le a díjszabási adatokat. 
 
-## <a name="sample-calculation"></a>Minta kiszámítása
+## <a name="sample-calculation"></a>Mintaszámítás
 
-Az alábbi táblázat bemutatja, hogyan számítjuk ki a hatályos egység árát a nyitott időszak alatt.
+Az alábbi táblázat egy példát mutat be arra, hogyan számítjuk ki a tényleges egységárat a nyitott időszakban.
 
 A táblázatban a következő értékek érvényesek: 
 
-- **Up** = az erőforrás egységenkénti ára/óra = 0,868
+- **UP** = az erőforrás egységára óránként = 0,868
 
-- **BCU** = a mérőhöz tartozó számlázható fogyasztási egység
+- **BCU** = A fogyasztásmérő számlázható fogyasztási egysége
 
-- **BC** = a mérőhöz tartozó számlázandó díj = BCU * fel * 0,85. Ez megfelel a 15%-os PEC kedvezmény beállításának. Ezután a függvény alsó határát használjuk az értéknek a tizedesvessző utáni két számjegyre való korlátozásához a minimális mennyiség kiszámításához. 
+- **BC** = a fogyasztásmérő számlázható költsége = BCU * UP * 0,85. Ez a 15%-os PEC-kedvezmény kiigazítását tükrözi. Ezután a függvény alsó korlátját használva a tizedesvessző utáni két számjegyre korlátozjuk az értéket a minimális összeg felszámizálása érdekében. 
 
-- **Érvényes egységár** = BCU/BC
+- **Tényleges egységár** = BCU/BC
 
 >[!NOTE]
->Az ebben a példában szereplő mérőszámhoz nem tartoznak díjszabási szintek. A hatályos egység díjszabása a kedvezmények százalékában és egyéb beállításokban.
 
-| Date | BCU (számlázható fogyasztási egység) | BC (számlázható díj) | Érvényes Egységár |
+>Megjegyzés: A példában a fogyasztásmérő nem rendelkezik tarifacsomagokkal vagy egyéb kedvezményekkel – az Effective Unit Price a kedvezmény százalékos arányait és egyéb kiigazításokat is figyelembe veszi.
+
+
+| Date | BCU (számlázható fogyasztási egység) | BC (számlázható költség) | Tényleges egységár |
 | ------ | ----------- | ----------- | ----------- |  
-| 3 – augusztus | 29 | 21,39 | 0.737586206896552 |
-| 10 – augusztus | 210,950039 | 155,63 | 0.737757626107858 |
-| 25 – augusztus | 555,950039 | 410,17 | 0.737782122900436 |
+| 3–Aug. | 29 | 21.39 | 0.737586206896552 |
+| 10-Aug. | 210.950039 | 155.63 | 0.737757626107858 |
+| 25-Aug. | 555.950039 | 410.17 | 0.737782122900436 |
 
 ## <a name="next-steps"></a>Következő lépések
 
