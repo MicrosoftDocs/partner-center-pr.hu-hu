@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 04/20/2021
-ms.openlocfilehash: 47723bd4b2deed703e224f7151a1d85a478aa8a7
-ms.sourcegitcommit: 0488a6cca02dafbfc84211643035212296df9689
+ms.date: 04/22/2021
+ms.openlocfilehash: 4e5faf1467ea12aac8f4dfaa4c35455159f64632
+ms.sourcegitcommit: 1e1aea329fdeef526e5273d2a4d8f5ec767ac49c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107823367"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107917616"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -76,7 +76,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 |Képességek|[A DocuSign migrálása az Adobe Sign rendszerébe a Microsoft-partnerszerződéseket (MPA-kat) kötött partnereknél](2021-january.md#7)|Január 15.|
 |Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései a norvég koronára vonatkozóan](2021-january.md#6)|Január 14.|
 |Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései az indiai rúpiára vonatkozóan](2021-january.md#5)|január 8.|
-|Ajánlatok/piacok|[A híváscsomag és a telefonos rendszer 2021. február 1-i frissítései](2021-january.md#4)|január 8.|
+|Ajánlatok/piacok|[A hívási terv és a telefonos rendszer frissítései 2021. február 1-hez](2021-january.md#4)|január 8.|
 |Ajánlatok/piacok|[A licencalapú árlista frissítései – 2021.](2021-january.md#3)|január 8.|
 |Képességek|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
 |Ajánlatok/piacok|[Dynamics 365-ajánlatok 2021. februárra](2021-january.md#1)|Január 4.|

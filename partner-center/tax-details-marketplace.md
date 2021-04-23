@@ -6,12 +6,12 @@ ms.service: partner-dashboard
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 04/16/2021
-ms.openlocfilehash: fcd3905777cd69665158ebff73f115bf6dd00b9d
-ms.sourcegitcommit: 1f090ea858b25d1d0664d6e94cb4a6898e91dd85
+ms.openlocfilehash: 1838c047cff119cafb2711d6f044c03f197a9963
+ms.sourcegitcommit: e33a9451e99f4276fe616fca35754ef43f70391e
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "107715918"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107894060"
 ---
 # <a name="tax-details-for-commercial-marketplace-publishers"></a>Adóadatok a kereskedelmi piactér közzétevői számára
 
@@ -19,19 +19,19 @@ ms.locfileid: "107715918"
 
 - Globális rendszergazda
 
-Ez az oldal a kereskedelmi piactéri közzétevők (közzétevők) és a fogyasztói piactér fejlesztői (fejlesztők) adózási feladatait és adózási szempontjait határozza meg a közzétevői/fejlesztői termékek végfelhasználói vásárlásával kapcsolatban, amelyek a [Microsoft Azure Marketplace](https://go.microsoft.com/fwlink/p/?LinkID=699560) Publisher-szerződésnek és a [Alkalmazásfejlesztői szerződés-nek](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4o4bH)halmazra vonatkoznak.  Az alábbi információk a Microsoft-közzétevői szerződés és a microsoftos licencszerződés feltételeinek kiegészítését szolgálják, és nem Alkalmazásfejlesztői szerződés.  Ha másként nincs jelezve, az alábbi információk a kereskedelmi piactér közzétevőire és a fogyasztói Marketplace fejlesztőire egyaránt vonatkoznak, akik a Microsoft Marketplace-en keresztül elérhetővé teszik a termékeiket/ajánlatukat. 
+Ez az oldal a kereskedelmi piactéri közzétevők (közzétevők) és a fogyasztói piactér fejlesztői (fejlesztők) adózási feladatait és adózási szempontjait határozza meg a közzétevői/fejlesztői termékek végfelhasználói vásárlásával kapcsolatban, amelyek a [Microsoft Azure Marketplace](https://go.microsoft.com/fwlink/p/?LinkID=699560) Publisher-szerződésnek és a [Alkalmazásfejlesztői szerződés-nek](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4o4bH)halmazra vonatkoznak.  Az alábbi információk a Microsoft-közzétevői szerződés és a microsoftos licencszerződés feltételeinek kiegészítését szolgálják, és nem helyettesítik Alkalmazásfejlesztői szerződés.  Ha másként nincs jelezve, az alábbi információk a kereskedelmi piactér közzétevőire és a fogyasztói Marketplace fejlesztőire egyaránt vonatkoznak, akik a Microsoft Marketplace-en keresztül elérhetővé teszik a termékeiket/ajánlatukat. 
 
 ## <a name="end-customer-taxation"></a>Végfelhasználói adózási
 
 A Microsoft és közzétevők/fejlesztők értékesítési, használati, termék- és szolgáltatás-, hozzáadott értékekkel és hasonló adókkal kapcsolatos feladatai (ha vannak), a végfelhasználói **értékesítések**(végfelhasználói adózási végadatok) attól az országtól függnek, amelyben a közzétevők/fejlesztők az Microsoft Marketplace(k)on keresztül választják a termékeket/ajánlatokat elérhetővé tenni a végfelhasználók számára. Az alábbi táblázat a végfelhasználói adózási körülményeket és felelősséget határozza meg az olyan országokban, amelyekben az értékesítések jogosultak a Microsoft Marketplace keresztül.  Az alábbi információk változhatnak, és a közzétevők/fejlesztők felelnek az oldal aktuális, pontos információinak áttekintéséért.
 
-A **Közzétevő/Fejlesztő** által felügyelt országokban a Microsoft a Közzétevő/Fejlesztő ügynökeként vagy jutalékaként (ha van) működik. A közzétevők/fejlesztők tudomásul veszi és beleegyeznek abba, hogy a közzétevők/fejlesztők kizárólagos felelőssége, hogy meghatározzák az összes követelménynek való megfelelőséget, valamint hogy kezelniük kell a végfelhasználói adózási szolgáltatásokat, beleértve többek között a regisztrációt, az adószámítást, az adófizetést, az ügyfelek üzleti állapotának érvényesítését és az adószámlák ügyfeleknek történő nyújtását. A közzétevők/fejlesztők tudomásul veszi, hogy a Közzétevő/Fejlesztő által felügyelt országban történő értékesítések esetén előfordulhat, hogy a Microsoft jelenleg nem tudja megadni a közzétevők/fejlesztők számára az adószámlák biztosítanak az ügyfelek számára a tranzakció részleteit. 
+A **Közzétevő/Fejlesztő** által felügyelt országokban a Microsoft a Közzétevő/Fejlesztő ügynökeként vagy jutalékaként (ha van) működik. A közzétevők/fejlesztők tudomásul veszi és beleegyeznek abba, hogy a közzétevők/fejlesztők kizárólagos felelőssége, hogy meghatározzák az összes követelménynek való megfelelőséget, valamint hogy kezelniük kell a végfelhasználói adózási szolgáltatásokat, beleértve többek között a regisztrációt, az adózási számítást, az adóbesorlást, az adófizetést, az ügyfelek üzleti állapotának érvényesítését és az adószámlák ügyfelek számára történő nyújtását. A közzétevők/fejlesztők tudomásul veszi, hogy a Közzétevő/Fejlesztő által felügyelt országban történő értékesítések esetén előfordulhat, hogy a Microsoft jelenleg nem tudja megadni a közzétevők/fejlesztők számára az adószámlák biztosítanak az ügyfelek számára a tranzakció részleteit. 
 
-A **Microsoft által felügyelt országokban a** Microsoft a közzétevő/fejlesztő ügynökeként működik. A Microsoft vállal felelősséget a végfelhasználói adózási költségek kezeléséért, beleértve bizonyos adók kiszámítását, gyűjtését és/vagy átutalását. A kereskedelmi piactér esetében ez magában foglalhatja a végfelhasználók üzleti állapotának az adóregisztrációs számok vagy a kivételtanúsítványok beszerzésével való érvényességét is. A Végfelhasználói adózási szolgáltatások helyi társvállalatok vagy helyileg regisztrált távoli társvállalatok segítségével kezelhetők. Microsoft-számlák a Microsoft regisztrációs száma alatt. A Microsoft a végfelhasználóktól a Microsoft adóbevallása alapján bekért adókat tartalmazza.
+A **Microsoft által felügyelt országokban a** Microsoft a közzétevő/fejlesztő ügynökeként működik. A Microsoft vállal felelősséget a végfelhasználói adózási költségek kezeléséért, beleértve bizonyos adók kiszámítását, gyűjtését és/vagy átutalását. A kereskedelmi piactér esetében ez magában foglalhatja a végfelhasználók üzleti állapotának az adóregisztrációs számok vagy a kivételtanúsítványok beszerzésével való érvényességének érvényességét is. A Microsoft helyi társvállalatok vagy a helyileg regisztrált távoli társvállalatok révén kezeli a végfelhasználói adózási adózási adózási szakját. Microsoft-számlák a Microsoft regisztrációs száma alatt. A Microsoft a végfelhasználóktól a Microsoft adóbevallása alapján bekért adókat tartalmazza.
 
 A Microsoft nem vállal semmilyen garanciát arra, hogy a Microsoft által tett műveletek teljes mértékben megfelelnek a Microsoft által felügyelt országokban a közzétevői/fejlesztői kötelezettségeknek.  A Microsoft által felügyelt összes ország esetében a Microsoft határozottan javasolja, hogy a közzétevők/fejlesztők a saját adótanácsadóival együtt döntsék el, hogy a Microsoft által felügyelt adóáttevő megfelelően megfelel-e a közzétevők/fejlesztők megfelelőségi követelményeinek. Ez különösen fontos minden olyan, a Microsoft által felügyelt országban, ahol a közzétevők/fejlesztők értékesítik a termékeiket/ajánlatukat.  A Microsoft a Közzétevő/Fejlesztő ügynökeként működik a Microsoft által felügyelt országokban.
 
-A **Reseller országokban** a Microsoft viszonteladóként működik, nem közzétevői/fejlesztői ügynökként, és a közzétevői/fejlesztői termékeket/ajánlatokat elérhetővé teszi a végfelhasználók számára a Microsoft Marketplace(k)ban.  A közzétevők/fejlesztők felelősek az értékesítésért, a felhasználásért, a termékek és ajánlatok Microsoftnak történő értékesítéséért, a felhasználásért, a termékekért és ajánlatokért, valamint a végfelhasználóknak történő újraértékesítésért.
+A **Reseller országokban** a Microsoft viszonteladóként működik a közzétevő/fejlesztő ügynöke helyett, és a közzétevői/fejlesztői termékeket/ajánlatokat elérhetővé teszi a végfelhasználók számára a Microsoft Marketplace(k)ban.  A közzétevők/fejlesztők felelősek az értékesítésért, a felhasználásért, a termékek és ajánlatok Microsoftnak történő értékesítéséért, a felhasználásért, a termékekért és ajánlatokért, valamint a végfelhasználóknak történő újraértékesítésért.
 
 
 ### <a name="publisherdeveloper-managed-countries"></a>Közzétevő/Fejlesztők által felügyelt országok: 
@@ -39,16 +39,16 @@ A **Reseller országokban** a Microsoft viszonteladóként működik, nem közz�
 |   |    |    |   |
 |---------------|:------------------|:--------|:----------|
 |Amerikai Virgin-szigetek|Kongó (KDK)|Jersey|Norfolk-sziget|
-|Afganisztán|Cook-szigetek|Jordánia|Ukrajna|
-|Albánia|Costa Rica|Kazahsztán|Vanuatu|
-|Algéria|Cote d'Ivore|Kenya|Vatikán|
-|Amerikai Szamoa|Curacao|Kiribati|Venezuela|
-|Andorra|Dübouti|Kuvait|Vietnam|
-|Angola|Dominika|Kirgizisztán|Wallis & Futuna|
-|Anguilla|Dominikai Köztársaság|Laosz|Jemen|
-|Antarktisz|Ecuador|Libanon|Zambia|
-|Antigua & Barbuda|Egyiptom|Lesotho|Uruguay||Észak-Macedónia|
-|Aruba|Salvador|Libéria|
+|Afganisztán|Cook-szigetek|Jordánia|Észak-Macedónia|
+|Albánia|Costa Rica|Kazahsztán|Ukrajna|
+|Algéria|Cote d'Ivore|Kenya|Vanuatu|
+|Amerikai Szamoa|Curacao|Kiribati|Vatikán|
+|Andorra|Dübouti|Kuvait|Venezuela|
+|Angola|Dominika|Kirgizisztán|Vietnam|
+|Anguilla|Dominikai Köztársaság|Laosz|Wallis & Futuna|
+|Antarktisz|Ecuador|Libanon|Jemen|
+|Antigua & Barbuda|Egyiptom|Lesotho|Zambia|
+|Aruba|Salvador|Libéria|Uruguay|
 |Azerbajdzsán|Egyenlítői-Guinea|Líbia|
 |Banglades|Eritrea|Makaó |
 |Barbados|Etiópia|Madagaszkár|
@@ -103,16 +103,16 @@ Csehország|Lettország|Oroszország|EAE|
 |Brazília|Viszonteladó, kivéve: A közzétevő által kezelt vásárlások a CSP-ügyfél vásárlási forgatókönyve alapján|A fejlesztő által felügyelt, kivéve: Viszonteladó a következőn futó eszközökön keresztül vásárolt Windows 10|
 |Mexikó|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|A Microsoft által felügyelt|
 |Ausztrália|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|A Microsoft által felügyelt|
-Kína|A Marketplace nincs engedélyezve|Viszonteladó engedélyezve, kivéve: a Windows Phone 7.x rendszerű mobilkommunikációs eszközök és a Windows 8.x rendszerű személyi számítógépeken futó fejlesztők által felügyelt eszközök|
-|Bahrein|Közzétevő által felügyelt|Microsoft által felügyelt|
-|Omán|Közzétevő által felügyelt|Microsoft által felügyelt|
+Kína|A Marketplace nincs engedélyezve|A viszonteladó engedélyezett, kivéve: a Windows Phone 7.x rendszerű mobilkommunikációs eszközök és a Windows 8.x rendszerű személyi számítógépeken futó fejlesztők által kezelt|
+|Bahrein|Közzétevő által felügyelt|A Microsoft által felügyelt|
+|Omán|Közzétevő által felügyelt|A Microsoft által felügyelt|
 
 
 ## <a name="tax-considerations-on-payouts"></a>Kifizetésekkel kapcsolatos adózási szempontok
 
-A Közzétevők/Fejlesztők által felügyelt országokban a Microsoft a közzétevőknek/fejlesztőknek fizetendő összege nem számítja ki az áruházi díjat és a vonatkozó adókat, amelyek a következők bármelyikét tartalmazhatják: adóelőleg és értékesítés, felhasználás, termékek és szolgáltatások, az áruházi díjhoz hozzáadott érték vagy hasonló adók.
+A Közzétevők/Fejlesztők által felügyelt országokban a Microsoft a közzétevőknek/fejlesztőknek fizetendő díjakat és az esetlegesen alkalmazandó adókat nem tartalmazza, amelyek a következők bármelyikét tartalmazhatják: visszatartott adó és értékesítés, felhasználás, termékek és szolgáltatások, az áruházi díjhoz hozzáadott érték vagy hasonló adók.
 
-A Microsoft által felügyelt érintett országokban és viszonteladókban a Microsoft a közzétevőknek/fejlesztőknek való kifizetése az áruházi díj és az esetlegesen alkalmazandó adók összegének nettó összege, amely a következők bármelyikét tartalmazhatja: végfelhasználói adó, visszatartott adó és értékesítés, felhasználás, termékek és szolgáltatások, az áruházi díjhoz hozzáadott érték vagy hasonló adó. A [Microsoft](payout-statement.md) által a közzétevők/fejlesztők számára elérhetővé tesz jelentések azonosítják az adók összegét. 
+A Microsoft által felügyelt érintett országokban és viszonteladókban a Microsoft közzétevőknek/fejlesztőknek történő kifizetése az áruházi díj és az esetlegesen alkalmazandó adók nélkül értendő, amelyek a következők bármelyikét tartalmazhatják: végfelhasználói adó, visszatartott adó és értékesítés, használat, termékek és szolgáltatások, az áruházi díjhoz hozzáadott érték vagy hasonló adó. A [Microsoft](payout-statement.md) által a közzétevők/fejlesztők számára elérhetővé tesz jelentések azonosítják az adók összegét. 
 
 A Microsoft a következő országokban gyűjti be az áruházi díjakra vonatkozó adókat, ahol a közzétevők/fejlesztők úgy döntenek, hogy a termékeket/ajánlatokat a végfelhasználók számára elérhetővé teszik a Microsoft Marketplace(k)on keresztül:
 
