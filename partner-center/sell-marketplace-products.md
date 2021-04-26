@@ -1,27 +1,31 @@
 ---
-title: Kereskedelmi piactér-előfizetések értékesítése
+title: Kereskedelmi piactéri előfizetések eladása
 ms.topic: article
 ms.date: 06/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A partner Centerben megtudhatja, hogyan értékesítheti az ügyfelek előfizetéseit a kereskedelmi piactéren független szoftvergyártók (ISV-EK) által közzétett SaaS-termékek számára.
+description: A Partnerközpont a független szoftverszállítók (ISV-k) által a kereskedelmi piactéren közzétett SaaS-termékekre való előfizetések értékesítésével kapcsolatos tudnivalókat.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0f90162ce7d3848fc930c956077ae96994848696
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: b339c0eec72d2184e15301270633305682799461
+ms.sourcegitcommit: 26e6b470756aa9c1b3b0b919301b0eb38a335a52
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028451"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "108002875"
 ---
-# <a name="use-partner-center-to-sell-customers-subscriptions-to-commercial-marketplace-products"></a>A partner Center használata az ügyfelek kereskedelmi Marketplace-termékekre való előfizetésének értékesítéséhez
+# <a name="use-partner-center-to-sell-customers-subscriptions-to-commercial-marketplace-products"></a>A Partnerközpont értékesítés kereskedelmi piactéri termékekre való előfizetések értékesítéséhez
 
-A CSP programban partnerként használhatja a partner centert a kereskedelmi piactéren ([Microsoft AppSource](https://appsource.microsoft.com/) és az [Azure Marketplace](https://azuremarketplace.microsoft.com/)-en) közzétett, független szoftvergyártók által kiadott szoftveres (SaaS) termékek előfizetésének értékesítéséhez.
+**Megfelelő szerepkörök**
 
-Ez segítheti a vállalatok megkülönböztetését, és biztosíthatja ügyfelei számára az adott üzleti igényeknek megfelelő szoftveres csomagokat. A piactéren elérhető SaaS-termékek licenceit és előfizetéseit a Microsoft-termékekhez hasonlóan kezelheti.
+- Értékesítési ügynök
 
-Ha szeretné megtudni, hogy a CSP programban résztvevő partnerek hogyan használhatják a kereskedelmi piactért, tekintse meg a [kereskedelmi piactér áttekintését a felhőalapú megoldások szolgáltatói számára](csp-commercial-marketplace-overview.md)című témakört.
+A CSP-programban partnerként a Partnerközpont független szoftverszállítók (ISV-k) által a kereskedelmi piactéren[(Microsoft AppSource](https://appsource.microsoft.com/) és [Azure Marketplace)](https://azuremarketplace.microsoft.com/)közzétett SaaS-termékekre való előfizetéseket értékesítheti az ügyfelek számára.
 
-Ha többet szeretne megtudni a kereskedelmi piactéren található ISV-how különböző szerepköreiről, tekintse meg a [piactérsel kapcsolatos gyakori kérdések](/azure/marketplace/marketplace-faq-publisher-guide)című témakört.
+Ez segíthet megkülönböztetni vállalkozását, és az ügyfelek számára az adott üzleti igényeiknek megfelelő szoftvercsomagokat biztosítani. Ezeknek a Marketplace SaaS-termékeknek a licenceit és előfizetését a Microsoft-termékekhez is kezelheti.
+
+Ha meg szeretne ismerkedni a CSP-program partnereinek a kereskedelmi piactér használatával, tekintse meg a kereskedelmi piactér felhőszolgáltatókra vonatkozó [áttekintését.](csp-commercial-marketplace-overview.md)
+
+Vagy ha meg szeretne ismerkedni az ISV-k különböző szerepekkel a kereskedelmi piactéren, tekintse meg a [Marketplace gyakori kérdésekét.](/azure/marketplace/marketplace-faq-publisher-guide)

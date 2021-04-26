@@ -4,21 +4,19 @@ ms.topic: article
 ms.date: 06/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan állíthatja vissza a felfüggesztett partneri központ fiókját, a partneri fiókok felfüggesztését, valamint azt, hogy miként használhatja a fiókját a felfüggesztés során.
+description: Megtudhatja, hogyan állítható vissza egy felfüggesztett Partnerközpont fiók, miért történik a partnerfiók felfüggesztése, és hogyan használhatja a fiókját a felfüggesztés során.
 author: kbangalore
 ms.author: kiranban
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cd0f1065e426a77beafe031c1e7b304fa910eeb0
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: d9366ccb7c091fded16387c963dc2f2eab4b2d88
+ms.sourcegitcommit: 26e6b470756aa9c1b3b0b919301b0eb38a335a52
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441557"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "108002824"
 ---
 # <a name="restore-a-suspended-partner-center-account---learn-why-it-happens-and-what-to-do-about-it"></a>Felfüggesztett Partnerközpontfiók visszaállítása – ismerje meg a kiváltó okokat és az ezzel kapcsolatos teendőit
-
-Ez a cikk a Partnerközpontfiók felfüggesztése esetén elvégzendő teendőket ismerteti.
 
 **A következőre érvényes:**
 
@@ -28,31 +26,32 @@ Ez a cikk a Partnerközpontfiók felfüggesztése esetén elvégzendő teendőke
 
 - Globális rendszergazda
 
+Ez a cikk a Partnerközpontfiók felfüggesztése esetén elvégzendő teendőket ismerteti.
 
 > [!IMPORTANT]  
 > A meglévő üzemelő példányok, licencek és szolgáltatások kezelését a Partnerközpontfiók felfüggesztése esetén is folytathatja. Új licenceket és szolgáltatásokat azonban addig nem engedélyezhet vagy értékesíthet, amíg a fiókja újra megfelelő állapotú nem lesz.
 
-## <a name="why-partner-center-accounts-are-suspended"></a>A partneri központ fiókjainak felfüggesztése
+## <a name="why-partner-center-accounts-are-suspended"></a>Miért Partnerközpont fel a fiók?
 
-A Microsoft a következő okok egyike miatt felfüggeszti a partneri központ fiókját:
+A Microsoft az alábbi okok Partnerközpont függeszti fel a fiókfiókot:
 
-- Ha az aktuális számlázási összeg meghaladja a 60 napos késést
-- Jelentős fiókkal való visszaélés észlelésekor
-- Ha a problémák befolyásolják a közvetett szolgáltatói műveleteket, és negatív hatással vannak a fiókra (csak közvetett viszonteladók)
-- Ha a fiók profilja sikertelen vagy visszautasított állapotban van
+- Ha az aktuális számlázási összeg több mint 60 nappal késik
+- Jelentős fiókkal való visszaélés észlelése esetén
+- Ha problémák befolyásolják a közvetett szolgáltatói műveleteket, és negatívan befolyásolják a fiókját (csak közvetett viszonteladók esetén)
+- Ha a fiókprofil sikertelen vagy elutasított állapotban van
 
-## <a name="what-to-do-if-your-account-is-suspended"></a>Mi a teendő, ha a fiókja fel van függesztve
+## <a name="what-to-do-if-your-account-is-suspended"></a>Mi a mi a tenni, ha a fiókja fel van függesztve?
 
-Ha tudja, hogy a fiókja aktuális, tekintse meg a [partneri profil](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) beállításait, és erősítse meg, hogy az aktív adatok befejeződik. 
+Ha tudja, hogy a fiókja aktuális, ellenőrizze a [partnerprofil beállításait,](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) és ellenőrizze, hogy az aktív adatok elkészültek-e. 
 
-Ha nem biztos abban, hogy a fiókja aktuális, válassza a **számlázás** lehetőséget a **partner központ** menüjében a számla ellenőrzéséhez. A számlázási oldal megjeleníti a számlázási előzményeket és trendeket, az aktuális hónap esedékes egyenlegét, a számlára és a megbékélési fájlokra mutató hivatkozásokat, valamint a legutóbbi fizetést.
+Ha nem biztos benne, hogy a  fiókja **aktuális-e,** válassza a Számlázási lehetőséget a Partnerközpont menüben a számla ellenőrzéshez. A számlázási oldal megjeleníti a számlázási előzményeket és trendeket, az aktuális hónap egyenlegét, a számla- és egyeztetési fájlokra mutató hivatkozásokat, valamint a legutóbbi kifizetést.
 
-Ha a fiókja késésben van, kövesse a számlán megjelenő utasításokat a fizetés elvégzéséhez, majd küldjön egy támogatási kérést a fiókja visszaigényléséhez. 
+Ha a fiókja késik, a számla utasításait követve rendezze el a fizetést, majd küldjön be egy támogatási kérést a fiók visszaállításához. 
 
-A fiók újraaktiválásával kapcsolatos további segítségért forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create).
+Ha további segítségre van szüksége a fiók újraaktiválásához, lépjen kapcsolatba a [támogatási szolgálattal.](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create)
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Partneri profil ellenőrzése](update-your-partner-profile.md)
+- [A partnerprofil ellenőrzése](update-your-partner-profile.md)
 
-- [Fiók adatainak ellenőrzése új partner Center-programban való regisztráláskor](verification-responses.md)
+- [Fiókinformációk ellenőrzése egy új Partnerközpont regisztrálva](verification-responses.md)
