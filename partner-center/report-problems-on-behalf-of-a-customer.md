@@ -4,19 +4,19 @@ ms.topic: how-to
 ms.date: 02/26/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy mikor kell kibővíteni az ügyfélszolgálati problémát a Microsoftnak, és hogyan lehet támogatási jegyet benyújtani a különböző típusú Microsoft-szolgáltatásokhoz.
+description: Megtudhatja, mikor kell eszkalálni egy ügyfélszolgálati problémát a Microsoftnak, és hogyan lehet támogatási jegyet be Microsoft-szolgáltatások.
 author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 80c617a97575fea3003ea8652d48396412033cc7
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: f67a3b6a403f09cb773a5ca663d6cf6db1b03e2e
+ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441948"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108018118"
 ---
-# <a name="report-a-service-problem-on-behalf-of-a-customer---including-when-and-how-to-do-so"></a>Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében – beleértve azt is, hogy mikor és hogyan történik
+# <a name="report-a-service-problem-on-behalf-of-a-customer---including-when-and-how-to-do-so"></a>Szolgáltatási probléma jelentése egy ügyfél nevében – beleértve azt is, hogy mikor és hogyan kell ezt megtenni
 
 **A következőre érvényes:**
 
@@ -24,125 +24,125 @@ ms.locfileid: "106441948"
 
 **Megfelelő szerepkörök**
 
-- Közvetett szolgáltató
+- Globális rendszergazda
 
-Ha az ügyfél olyan szolgáltatási problémát tapasztal, amely nem oldható fel, és amely megfelel a [problémák a Microsoftnak való](escalate-problems-to-microsoft.md)megadásával kapcsolatban ismertetett feltételeknek, a közvetett szolgáltató támogatási jegyet tud benyújtani számukra. Ez a folyamat hasznos lehet a számlázási problémák vagy a viták kiemeléséhez, valamint a csalással kapcsolatos problémák megoldásához is.
+Ha az ügyfél olyan szolgáltatásproblémát tapasztal, amely nem oldható meg, és amely megfelel a Problémák eszkalációja a [Microsoftnak](escalate-problems-to-microsoft.md)feltételeinek, a közvetett szolgáltató támogatási jegyet tud bejegyzni számukra. Ez a folyamat a számlázási problémák vagy vitatások eszkalálására, valamint csalással kapcsolatos problémák esetén is hasznos.
 
-## <a name="submit-a-service-request-for-a-customer"></a>Szolgáltatási kérelem küldése az ügyfél számára
+## <a name="submit-a-service-request-for-a-customer"></a>Szolgáltatáskérés elküldése egy ügyfélnek
 
-1. Válassza a partner Center menü CSP területén a **vevők** lehetőséget.
+1. A CSP Partnerközpont menüjében válassza az Ügyfelek **lehetőséget.**
 
-2. Az ügyfelek lapon válassza ki vagy keresse meg a kívánt ügyfelet
+2. Az Ügyfelek lapon válassza ki a kívánt ügyfelet, vagy keressen rá rá
     
-3. Az ügyfél menüben válassza a **szolgáltatási kérelmek** elemet.
+3. Az ügyfél menüjében válassza a **Szolgáltatáskérések elemet**
 
-4. Az **új kérelem** legördülő menüben válassza az **Azure** vagy **az Office 365, a Dynamics 365, a nagyvállalati mobilitási csomag** lehetőséget. A rendszer átirányítja az Microsoft Azure Portal vagy az Office 365 felügyeleti központba.
+4. Az Új **kérés legördülő** menüben válassza az **Azure** vagy az **Office 365, Dynamics 365, Nagyvállalati mobilitási csomag lehetőséget.** A rendszer átirányítja a Microsoft Azure Portal Office 365 felügyeleti központjába.
 
 >[!NOTE]
->Támogatási műveleti partnereink a Dynamics 365-et a CSP-ben lebonyolító támogatási szerződés fenntartásához szükséges a partneri (ASfP) csomag vagy magasabb szintű támogatáshoz. Ez a támogatási szerződés szükséges a Dynamics 365-incidensek beküldéséhez a CSP-ügyfél nevében. [További](https://partner.microsoft.com/support/partnersupport) információ a támogatási szerződés lehetőségeiről.
+>A Dynamics 365-öt CSP-ben tranzakciós támogatási műveleti partnereknek fenn kell tartaniuk a partneri (ASfP) csomagra vagy annál magasabb szintű támogatási szerződésre vonatkozó támogatási szerződést. Ez a támogatási szerződés szükséges a Dynamics 365-incidensek CSP-ügyfél nevében történő elküldéhez. [További információ](https://partner.microsoft.com/support/partnersupport) a támogatási szerződés lehetőségeiről.
 
 ### <a name="microsoft-azure"></a>Microsoft Azure
 
 > [!IMPORTANT]
-> Ha Azure-beli ügyfél-szolgáltatási kérelmet kell létrehoznia, vegye figyelembe a következőket:
+> Ha szolgáltatáskérést kell létrehoznia az ügyfél számára az Azure-ban, vegye figyelembe a következőket:
 >
->- Ahhoz, hogy Ön, mint a közvetett viszonteladó, szolgáltatási kérelmeket hozzon létre az ügyfél számára az Azure-ban, a közvetett szolgáltatónak hozzáférést kell biztosítania az ügyfél Azure-fiókjához. Ez eltér az Office 365-ügyfelek nevében való felügyelettől.
+>- Ahhoz, hogy Ön, mint közvetett viszonteladó szolgáltatási kéréseket hoz létre az Azure-beli ügyfél számára, a közvetett szolgáltatónak hozzáférést kell rendelnie Az ügyfél Azure-fiókjához. Ez eltér az Office 365-ügyfelek nevében történő felügyelettől.
 >
->- Bár a fiókpartner rendszergazdája nem tud szolgáltatási kérelmeket létrehozni az Azure-beli szolgáltatás-portálon, a következő műveleteket végezheti el: hozzon létre egy támogatási csoportot az Azure Service Portalon, és adja meg a csoportnak a támogatási kérések naplózásához szükséges engedélyeket.
+>- Bár az Partnerközpont ügyfélszolgálati rendszergazdája nem tud szolgáltatáskéréseket létrehozni az Azure szolgáltatásportálon, létrehozhatnak egy támogatási csoportot az Azure szolgáltatási portálon, és engedélyt adhatnak a csoportnak a támogatási kérelmek naplózására.
 
 1. Válassza az **Új támogatási kérelem** lehetőséget.
 
-2. Töltse ki a támogatási kérést a megfelelő információkkal, majd válassza a **Létrehozás** lehetőséget:
+2. Adja meg a megfelelő információkat a támogatási kérésben, majd válassza a **Létrehozás lehetőséget:**
 
-   - A támogatási kérelem **alapjai** szakaszban válassza ki a **Cloud Solution Provider** elemet a **támogatási csomag** mezőben.
+   - A támogatási kérelem Alapvető **beállítások** szakaszában válassza  az Felhőszolgáltató **mezőben.**
 
-   - A támogatási kérelem **kapcsolattartási** adatok szakaszában adja meg az adatait, nem az ügyfél adatait.
+   - A támogatási **kérelem Kapcsolattartási** adatok szakaszában adja meg az adatait, ne az ügyfél adatait.
 
-3. Később tekintse át az ügyfél szolgáltatási kérelmeit a Microsoft Azure Portalon a **támogatási kérések kezelése** lehetőség kiválasztásával.
+3. Később tekintse át az ügyfél szolgáltatási kérését a Microsoft Azure Portal **a Támogatási kérelmek kezelése lehetőség kiválasztásával.**
 
-Előfordulhat, hogy létre kell hoznia egy támogatási kérést az ügyfél számára, ha nem rendelkezik rendszergazdai engedélyekkel az adott ügyfél számára. Ez két forgatókönyv egyike esetén fordulhat elő:
+Előfordulhat, hogy támogatási kérést kell létrehoznia egy ügyfélhez, ha nem rendelkezik rendszergazdai engedélyekkel az adott ügyfélhez. Ez két forgatókönyv egyikében fordulhat elő:
 
-- A kapcsolat első létrehozásakor nem kért rendszergazdai jogosultságokat.
-- Csak az ügyfél Azure-előfizetéseit kezelheti, így nem rendelkezik rendszergazdai engedélyekkel.
+- Nem kért rendszergazdai jogosultságokat a kapcsolat első létrejöttekor.
+- Ön csak az ügyfél Azure-előfizetését kezeli, így nem rendelkezik rendszergazdai engedélyekkel.
  
-Mindkét esetben a következő eljárással hozhat létre támogatási kérést. 
+Ezekben az esetekben az alábbi eljárással hozhat létre támogatási kérést. 
 
-1. Másolja az ügyfél tartománynevét a partner Center fiók lapján.
+1. Másolja ki az ügyfél tartománynevét a fiókoldalról a Partnerközpont.
 
-2. Ugrás a következőre: https://portal.azure.com/ [customerdomainname]. 
+2. Ugrás https://portal.azure.com/ a[customerdomainname] elemre. 
 
 3. Válassza ki a támogatást igénylő Azure-előfizetést.
 
-4. Válassza az **új támogatási kérelem** lehetőséget, majd kövesse az utasításokat a kérelem létrehozásához. 
+4. Válassza **az Új támogatási kérelem** lehetőséget, majd kövesse az utasításokat a kérés létrehozásához. 
 
  
-### <a name="office-365-microsoft-dynamics-crm-online-enterprise-mobility-suite"></a>Office 365, Microsoft Dynamics CRM Online, nagyvállalati mobilitási csomag
+### <a name="office-365-microsoft-dynamics-crm-online-enterprise-mobility-suite"></a>Office 365, Microsoft Dynamics CRM Online, Nagyvállalati mobilitási csomag
 
-1. A **szolgáltatási kérelem létrehozása** szakaszban válassza ki a megfelelő támogatási kategóriát. Előfordulhat, hogy további cikkek megtekintéséhez a **továbbiak...** elemre kell kattintania.
+1. A **Szolgáltatáskérés létrehozása szakaszban** válassza ki a megfelelő támogatási kategóriát. Előfordulhat, hogy további cikkek **megtekintéséhez a További...** lehetőséget kell választania.
 
-2. Fejezze be a szolgáltatáskérelem űrlapot, és válassza a **Küldés** lehetőséget.
+2. Töltse ki a szolgáltatáskérési űrlapot, majd válassza a **Küldés lehetőséget.**
 
    > [!TIP]
-   > Ügyeljen arra, hogy a kapcsolattartási adatokat is tartalmazza, ne az ügyfelet.
+   > Ügyeljen arra, hogy a kapcsolattartási adatait tartalmazza, ne az ügyfélét.
 
-3. Később tekintse át az ügyfél szolgáltatási kérelmeit, ehhez nyissa meg az Office 365 felügyeleti központot, és kattintson az **összes támogatási jegy megtekintése** lehetőségre.
+3. Később tekintse át az ügyfél szolgáltatáskéréseit az Office 365 Felügyeleti központban, és válassza az **Összes támogatási jegy áttekintése et.**
 
-### <a name="support-for-commercial-marketplace-products"></a>A kereskedelmi piactér termékeinek támogatása
+### <a name="support-for-commercial-marketplace-products"></a>A kereskedelmi piactéren elérhető termékek támogatása
 
-A Microsoft nem nyújt terméktámogatást a kereskedelmi piactér termékeihez. Ahhoz, hogy támogatást kapjon, fel kell vennie a kapcsolatot a terméket közzétevő független szoftvergyártóval (ISV-val).
+A Microsoft nem nyújt terméktámogatást a kereskedelmi piactéren elérhető termékekhez. A támogatáshoz a független szoftverszállítóhoz (ISV) kell kapcsolatba lépnie, aki közzétette a terméket.
 
-Az ISV kapcsolattartási adatainak megkeresése:
+Az ISV kapcsolattartási adatait a következővel találhatja meg:
 
-1.  A **piactér** lapon válassza ki azt a terméket, amelyhez segítségre van szüksége.
+1.  A **Marketplace lapon** válassza ki azt a terméket, amelyhez segítségre van szüksége.
 
-2.  A termék oldalán találja a támogatási kapcsolattartási adatokat. A következő lehetőségek közül választhat:
+2.  A termék oldalán támogatási kapcsolattartási adatokat talál. Ez a következő lehetőségek közül egy vagy több lehet:
 
-    - Az ISV-k webhelyén található támogatási belépési pontra mutató hivatkozás
+    - Az ISV webhelyén található támogatási belépési pontra mutató hivatkozás
     - Támogatási e-mail
-    - Támogatási Kapcsolattartó telefonszáma
+    - Támogatási kapcsolattartó telefonszáma
 
 ## <a name="faq"></a>GYIK
 
-Tekintse meg az ügyfél nevében elküldhető szolgáltatási kérelmekkel kapcsolatos alábbi gyakori kérdéseket. 
+Tekintse meg az alábbi gyakori kérdéseket az ügyfelek nevében beküldhető szolgáltatáskérésekkel kapcsolatban. 
 
-### <a name="what-is-included-as-part-of-the-support-entitlement"></a>Mit tartalmaz a támogatási jogosultság része?
+### <a name="what-is-included-as-part-of-the-support-entitlement"></a>Mit tartalmaz a támogatási jogosultság?
 
-A szolgáltatási kérelmeket a partner centeren keresztül kell benyújtani. Az Azure-hoz, Microsoft Office 365, a Microsoft Dynamics CRM Online-hoz és a nagyvállalati mobilitási csomaghoz is elérhetők. A Cloud Solution Provider programban részt vevő partnerként a legfontosabb problémákra számíthat.
+A szolgáltatáskéréseket a szolgáltatáson keresztül kell Partnerközpont. Elérhetők az Azure, a Microsoft Office 365, a Microsoft Dynamics CRM Online és a Nagyvállalati mobilitási csomag számára. A Felhőszolgáltató programban részt vevő partnerként számíthat a nagyobb problémákra adott prioritású válaszidőre.
 
-A saját partner bérlő támogatása nem része a CSP támogatási juttatásnak. Azonban az Office 365, a Microsoft Dynamics CRM Online és a nagyvállalati mobilitási csomag nem számít fel külön támogatási előfizetési díjat a partnerek és az ügyfelek számára. Az Azure díj ellenében díjat számítunk fel, de ha Ön jogosult a Cloud support vagy más Microsoft Partner Network-(MPN-) kedvezményre, akkor ezeket a díjakat felhasználhatja.
+A saját partnerbérlő támogatása nem része a CSP támogatási juttatásnak. Az Office 365, Microsoft Dynamics CRM Online és a Nagyvállalati mobilitási csomag azonban nem számít fel külön támogatási előfizetési díjat a partnerek vagy ügyfelek számára. Az Azure díjat számít fel, de ha ön jogosult Signature Felhőtámogatás vagy más Microsoft Partner Network(MPN) előnyeire, akkor ezeket az előnyöket használhatja a díj fizetésére.
 
-Ez az előny a Cloud Solution Provider programban résztvevő összes partnerre vonatkozik, függetlenül attól, hogy díjköteles vagy próbaverziós időszakon belül van-e. A számlázási és előfizetés-kezelési támogatást a csomag ingyenes összetevője is tartalmazza.
+Ez az előny a Felhőszolgáltató programban részt vevő összes partnerre vonatkozik, akár fizetős, akár próbaidőszakban. A csomag ingyenes összetevője a számlázási és előfizetés-kezelési támogatás is.
 
-### <a name="how-quickly-will-i-get-an-initial-response"></a>Milyen gyorsan kapok egy kezdeti választ?
+### <a name="how-quickly-will-i-get-an-initial-response"></a>Milyen gyorsan kapok kezdeti választ?
 
-A kezdeti válaszidőt a beküldött incidens súlyossága határozza meg. A probléma súlyosságát a szolgáltatási kérelem elküldésekor felmerülő üzleti hatás határozza meg.
+A kezdeti válaszidő a beküldött incidens súlyosságától függ. A probléma súlyosságát a szolgáltatáskérés elküldésekor az üzletre gyakorolt hatásra utaló jelzés határozza meg.
 
-A technikai hibajavítási **incidensek** kezdeti válaszideje:
+A műszaki **hibajavítási incidensek kezdeti válaszideje:**
 
-- Kritikus hatás (A súlyossági szint): két óra (A szolgáltatások jelentős elvesztése vagy romlása). Éles üzemi szolgáltatások.)
-- Mérsékelt hatás ("B" súlyosság): négy óra (a szolgáltatások mérsékelt elvesztése vagy romlása). Az éles üzemi szolgáltatások részben érintettek.)
-- Minimális hatás (súlyosság C): nyolc óra (a szolgáltatások minimális elvesztése vagy romlása). A szolgáltatások továbbra is elérhetők vagy nem éles üzemi szolgáltatásokat érintenek.)
+- Kritikus hatás (A súlyosság): Két óra (a szolgáltatások jelentős elvesztése vagy csökkenése. Az éles szolgáltatások leálltak.)
+- Közepes hatás (B súlyosság): Négy óra (a szolgáltatások közepes mértékű elvesztése vagy csökkenése). Az éles szolgáltatások részben érintettek.)
+- Minimális hatás (C súlyosság): Nyolc óra (a szolgáltatások minimális elvesztése vagy romlása. A továbbra is elérhető vagy nem éles szolgáltatások érintettek.)
 
-A kezdeti válaszidő csak az angol nyelvű támogatás esetében használható. A helyi nyelvi támogatást munkaidőn belül biztosítjuk.
-A támogatási jogosultság határain belüli incidensek esetében, de nem minősülnek a hibajavítási incidenseknek, a kezdeti válaszidő akár egy munkanap is lehet.
+A kezdeti válaszidők csak angol nyelvű támogatáshoz vannak megszabadulva. A helyi nyelvi támogatás munkaidőben biztosított.
+Az olyan incidensek esetén, amelyek a támogatási jogosultság határain belülre esnek, de nem minősülnek javításra képes incidensnek, a kezdeti válaszidő akár egy nap is lehet.
 
-### <a name="can-i-submit-a-service-request-by-phone"></a>Küldhetek szolgáltatói kérelmet telefonon?
+### <a name="can-i-submit-a-service-request-by-phone"></a>Küldhetek szolgáltatáskérést telefonon?
 
-Nem, a program nem támogatja a telefonos támogatást.
+Nem, ehhez a programhoz nem áll rendelkezésre telefonos támogatás.
 
-### <a name="what-happens-if-i-sign-into-the-azure-portal-and-bypass-partner-center"></a>Mi történik, ha bejelentkeznek a Azure Portal és a kikerülő partner Centerbe?
+### <a name="what-happens-if-i-sign-into-the-azure-portal-and-bypass-partner-center"></a>Mi történik, ha bejelentkezek a Azure Portal és kihagyom a Partnerközpont?
 
-Ha közvetlenül jelentkezik be a Microsoft Azure Portalba, a központot saját kontextusban tekinti meg, nem pedig az ügyfél környezetében. Ezért csak akkor jelentkezzen be közvetlenül a Microsoft Azure Portal, amikor szolgáltatási kérést hoz létre saját előfizetéséhez.
+Ha közvetlenül jelentkezik be a Microsoft Azure Portal, akkor a központot a saját környezetében, nem pedig az ügyfél környezetében nézi meg. Ezért csak akkor jelentkezzen be közvetlenül a Microsoft Azure Portal amikor saját előfizetéséhez hoz létre szolgáltatáskérést.
 
-A CSP-program támogatási jogosultsága nem nyújt támogatást a saját partner-előfizetéséhez. Ezért meg kell adnia az érvényes támogatási csomag jogosultságát, ha olyan szolgáltatási kérelmet hoz létre, amely a saját partneri előfizetésére vonatkozik. Ilyenek például az MPN-szerződés azonosítója, Premier vagy egy Azure-támogatási csomag. További információ: [Azure-támogatás – gyakori kérdések](https://go.microsoft.com/fwlink/?LinkId=717532).
+A CSP-program támogatási jogosultsága nem biztosít támogatást a saját Partner-előfizetésében. Emiatt érvényes támogatási csomagja jogosultságát kell adnia, amikor olyan szolgáltatáskérést hoz létre, amely a saját partner-előfizetésére vonatkozik. Ilyen például az MPN-szerződés azonosítója, a Premier vagy Azure-támogatás csomag. További információt a gyakori kérdések [Azure ügyfélszolgálata talál.](https://go.microsoft.com/fwlink/?LinkId=717532)
 
-### <a name="what-happens-if-i-sign-into-the-office-365-admin-center-portal-and-bypass-partner-center"></a>Mi történik, ha bejelentkezik az Office 365 felügyeleti központ portálra, és megkerüli a partneri központot?
+### <a name="what-happens-if-i-sign-into-the-office-365-admin-center-portal-and-bypass-partner-center"></a>Mi történik, ha bejelentkezek az Office 365 Felügyeleti központ portálra, és kihagyom a Partnerközpont?
 
-Ha közvetlenül az Office 365 felügyeleti központba jelentkezik be, a központot a saját kontextusában, nem pedig az ügyfél környezetében tekintheti meg. Ezért csak akkor jelentkezzen be közvetlenül az Office 365 felügyeleti központba, amikor szolgáltatási kérést hoz létre saját előfizetéséhez.
+Ha közvetlenül az Office 365 felügyeleti központjába jelentkezik be, a központot a saját környezetében, nem pedig az ügyfél környezetében nézi meg. Ezért csak akkor jelentkezzen be közvetlenül az Office 365 Felügyeleti központba, amikor saját előfizetéséhez hoz létre szolgáltatáskérést.
 
-### <a name="how-do-i-get-additional-dynamics-365-support"></a>Hogyan további Dynamics 365-támogatást kaphat?
+### <a name="how-do-i-get-additional-dynamics-365-support"></a>Hogyan Dynamics 365 további támogatását?
 
-Ha a következőhöz kapcsolódó problémák merülnek fel: Dynamics 365 csomag előfizetések, licencelés, Számlázás, pénzügyi & műveletek, Dynamics 365 termék-licencek, vagy további technikai támogatásra van szükség:
+Ha a következő problémákat tapasztalja: Dynamics 365-csomag előfizetései, Licencelés, Számlázás, Finance & Operations, Dynamics 365-terméklicencek, vagy további technikai támogatásra van szüksége:
  
 Kapcsolatfelvétel a [Dynamics ügyfélszolgálatával](/dynamics365/customer-engagement/admin/contact-technical-support)
 

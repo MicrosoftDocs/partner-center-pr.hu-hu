@@ -1,51 +1,51 @@
 ---
-title: Rendszergazdai jogosultságok visszaállítása az Azure CSP-hez
+title: Rendszergazdai jogosultságok újbóli Azure CSP
 ms.topic: how-to
 ms.date: 04/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy az ügyfelek hogyan állíthatják vissza a partner rendszergazdai jogosultságait, hogy a partner segítsen kezelni az ügyfelek Azure CSP-előfizetéseit.
+description: Megtudhatja, hogyan segítheti az ügyfeleket a partner rendszergazdai jogosultságai visszaállításában, hogy a partner segítséget tudjon kérni az ügyfelek Azure CSP előfizetései kezeléséhez.
 author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f536d975d3c644a7afa29a95a3cb45608f6b2c9f
-ms.sourcegitcommit: 89be77c9f35c77463d9558826293202afc6dec56
+ms.openlocfilehash: 26768bdf33c03145a893fa445eab6ebf92ca9b1c
+ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107315847"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108018187"
 ---
-# <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszaállítása az ügyfél Azure CSP-előfizetései esetében  
+# <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszahelyezése egy ügyfél Azure CSP előfizetéséhez  
 
-**Alkalmazható szerepkörök**
+**Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felügyeleti ügynök
+- Rendszergazdai ügynök
 
-CSP-partnerként az ügyfelek gyakran elvárják, hogy az Azure-használatot és azok rendszereit is kezelni tudják. Ehhez rendszergazdai jogosultságokkal kell rendelkeznie. Bizonyos jogosultságokat akkor kell megadni, ha a viszonteladói kapcsolat létrejött az ügyféllel. Másokat az ügyfél biztosít Önnek.
+CSP-partnerként az ügyfelek gyakran elvárják, hogy Ön kezelje az Azure-használatot és azok rendszereit számukra. Ehhez rendszergazdai jogosultság szükséges. Bizonyos jogosultságok akkor kapnak, ha a viszonteladói kapcsolat létrejött az ügyféllel. Az ügyfél másokat is ad Önnek.
 
-## <a name="admin-privileges-for-azure-in-csp"></a>Rendszergazdai jogosultságok az Azure-ban a CSP-ben
+## <a name="admin-privileges-for-azure-in-csp"></a>Rendszergazdai jogosultságok a Azure in CSP
 
-Az Azure-ban a CSP-ben két rendszergazdai jogosultsági szint van.
+A rendszergazdai jogosultságoknak két szintje van a Azure in CSP.
 
-**Bérlői szintű rendszergazdai jogosultságok** (**delegált rendszergazdai jogosultságok**) – a CSP-partnerek megkapják ezeket a jogosultságokat a CSP viszonteladói kapcsolat ügyfelekkel való létrehozásakor. A delegált rendszergazdai jogosultságok lehetővé teszik a CSP-partnerek számára, hogy hozzáférjenek az ügyfelek bérlői számára, így olyan rendszergazdai feladatokat hajthatnak végre, mint például felhasználók hozzáadása/kezelése, jelszavak alaphelyzetbe állítása és felhasználói licencek kezelése.
+**Bérlői szintű rendszergazdai jogosultságok** (**Delegált** rendszergazdai jogosultságok ) – A CSP-partnerek a CSP-viszonteladói kapcsolat létrehozása közben kapják meg ezeket a jogosultságokat az ügyfelekkel. A delegált rendszergazdai jogosultságok hozzáférést adnak a CSP-partnereknek az ügyfeleik bérlőihez, ami lehetővé teszi számukra olyan rendszergazdai funkciók elvégzését, mint a felhasználók hozzáadása/kezelése, a jelszavak visszaállítása és a felhasználói licencek kezelése.
 
-**Előfizetés szintű rendszergazdai jogosultságok** – a CSP-partnerek megkapják ezeket a jogosultságokat az Azure CSP-előfizetések létrehozásakor az ügyfelek számára. Ezek a jogosultságok lehetővé teszik a CSP-partnerek számára az Azure-erőforrások kiépítését és kezelését.
+**Előfizetési szintű rendszergazdai jogosultságok** – A CSP-partnerek ezeket a jogosultságokat az Azure CSP létrehozásakor kapják meg az ügyfeleik számára. Ezek a jogosultságok teljes hozzáférést számukra biztosít a CSP-partnerek számára ezekhez az előfizetésekhez, ami lehetővé teszi számukra az Azure-erőforrások építését és kezelését.
 
-## <a name="reinstate-csp-partners-admin-privileges"></a>A CSP-partnerek rendszergazdai jogosultságának visszaállítása
+## <a name="reinstate-csp-partners-admin-privileges"></a>CSP-partnerek rendszergazdai jogosultságának újbóli state
 
-Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha megadja az ügyfélnek az AdminAgents-csoport objektumazonosítót. A delegált rendszergazdai jogosultságok visszaszerzéséhez az ügyfelet kell használnia.
+Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha Ön az AdminAgents csoport objektumazonosítóját adja meg az ügyfélnek. A delegált rendszergazdai jogosultságok visszaszerzése előtt az ügyféllel kell dolgoznia.
 
-1. Jelentkezzen be a partner Center irányítópultra, és válassza a partner Center menü **ügyfelek** elemét.
+1. Jelentkezzen be a Partnerközpont irányítópultra, és a Partnerközpont menüjében válassza az Ügyfelek **lehetőséget.**
 
-2. Válassza ki azt az ügyfelet, aki dolgozik, és **kérjen egy viszonteladói kapcsolatot.** Ez létrehoz egy hivatkozást arra a felhasználóra, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
+2. Válassza ki azt az ügyfelet, akinél dolgozik, és **kérjen viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
 
-3. Az ügyfélnek ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolat kérését.
+3. Az ügyfélnek ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolatkérést.
 
-   :::image type="content" source="images/azure/revoke4.png" alt-text="E-mail-példa viszonteladói kapcsolat létrehozására":::
+   :::image type="content" source="images/azure/revoke4.png" alt-text="Példa e-mailben viszonteladói kapcsolat létrehozására":::
 
-4. Önnek, a partnernek csatlakoznia kell a partner bérlőhöz a AdminAgents-csoport objektumazonosító beszerzéséhez.
+4. Önnek, a partnernek csatlakoznia kell a partnerbérlőhöz, hogy le tudja szerezni az AdminAgents csoport objektumazonosítóját.
 
   
     ```powershell
@@ -59,7 +59,7 @@ Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha megadja a
     ```
 
 
-5. Az a felhasználó, aki rendelkezik a **tulajdonosi vagy a felhasználói hozzáférés-adminisztrátor** szerepkörrel, és jogosult szerepkör-hozzárendelés létrehozására az előfizetési szinten, a következő műveleteket végzi el:
+5. Az ügyfél, aki  tulajdonosi vagy felhasználói hozzáférés-rendszergazdai szerepkört tölt be, és jogosultsággal rendelkezik szerepkör-hozzárendelés létrehozására az előfizetés szintjén, a következőket teszi:
 
 
     1. Csatlakozik ahhoz a bérlőhöz, ahol a CSP-előfizetés létezik.
@@ -67,19 +67,19 @@ Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha megadja a
         PS C:\WINDOWS\system32> Connect-AzAccount -TenantID "Customer tenant"
       ```
 
-    2. Csatlakozás az előfizetéshez (csak akkor alkalmazható, ha a felhasználó szerepkör-hozzárendelési engedéllyel rendelkezik több előfizetéshez a bérlőn).
+    2. Csatlakozik az előfizetéshez (csak akkor alkalmazható, ha a felhasználó több előfizetésre vonatkozó szerepkör-hozzárendelési engedélyekkel rendelkezik a bérlőben).
    
-         PS CWindowsSystem32> Set-AzContext-SubscriptionID "CSP előfizetés azonosítója" "
+         PS C:\WINDOWS\system32> Set-AzContext -SubscriptionID "CSP Subscription ID"
 
 
-    3. Létrehozza a szerepkör-hozzárendelést.
+    3. Létrehozza a szerepkör-hozzárendelést
     
     ```powershell
       PS C:\WINDOWS\system32> New-AzRoleAssignment -ObjectID "Object ID of the Admin Agents group- needs to be provided by partner" -RoleDefinitionName "Owner" -Scope "/subscriptions/CSP subscription ID"
     ```
 
 
-Ha azt szeretné, hogy az erőforrás-csoport szintjén vagy az erőforrás szintjén adja meg a tulajdonosi szerepkör engedélyt az előfizetés hatóköre helyett, a következő parancsok működhetnek:
+Ha az előfizetés hatóköre helyett erőforráscsoport- vagy erőforrásszinten szeretne tulajdonosi szerepköri engedélyt ad, a következő parancsok működnek:
 
 
 ```powershell

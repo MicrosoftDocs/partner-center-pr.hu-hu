@@ -4,79 +4,83 @@ ms.topic: article
 ms.date: 10/09/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg a CSP Direct Bill partneri követelményeket és a teendőket a korlátozott lehetőségek elkerüléséhez. Annak megállapítása, hogy a képességei korlátozottak-e.
+description: Ismerje meg a csp közvetlen számlázási partnerekre vonatkozó követelményeit, és hogy mi a helyzet a képességek korlátozásának elkerüléséhez. Derítse ki, hogy korlátozva vannak-e a képességei.
 author: billLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 38fe5d03784d0fcf0796545d31e8272f316d2878
-ms.sourcegitcommit: d37a3f353426e52dfbbac577b7576f9c3f6d2ddf
+ms.openlocfilehash: 05ccc6016e9dcd6e7582cdd31dbc4d0054c43f8d
+ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "99623983"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108018067"
 ---
-# <a name="restricted-direct-bill-capabilities-and-the-requirements-needed-for-csp-direct-bill-partners"></a>Korlátozott közvetlen számlázási képességek és a CSP közvetlen számlázási partnerekhez szükséges követelmények  
+# <a name="restricted-direct-bill-capabilities-and-the-requirements-needed-for-csp-direct-bill-partners"></a>Korlátozott közvetlen számlázási képességek és a közvetlen számlapartnerek CSP-hez szükséges követelményei
+
+**Megfelelő szerepkörök**
+
+- Globális rendszergazda
 
 ## <a name="overview"></a>Áttekintés
 
-A közvetlen számlázási partnereknek meg kell felelniük az új [követelményeknek](direct-partner-new-requirements.md) , hogy megmaradjanak a CSP Direct Bill partner programban. Ellenkező esetben a közvetlen számlázási funkciókhoz való hozzáférésük végül korlátozott lesz, és bizonyos feladatok elvégzése hosszabb időt is igénybe vehet, például az ügyfelek számára új vásárlásokat.
+A közvetlen számlázási partnereknek meg kell felelnie az [új](direct-partner-new-requirements.md) követelményeknek ahhoz, hogy a CSP közvetlen számlázási partnerprogramjában maradjanak. Ellenkező esetben a közvetlen számlázási képességekhez való hozzáférésük idővel korlátozott lesz, és tovább végezhet bizonyos feladatokat, például új vásárlásokat az ügyfeleik számára.
 
 > [!Note]
-> A Microsoft a közvetlen CSP-partneri programra vonatkozó új követelményeket nem teljesítő partnereket tájékoztatni fogja arról, ha a közvetlen számla funkciói korlátozottak lesznek. Ez az összes közvetlen számlázási partnerre vonatkozik, függetlenül attól, hogy a [közvetlen számlázási partnertől a közvetett viszonteladóig való áttérést](transition-direct-to-indirect.md) választotta-e.  
+> A Közvetlen csp-partnerprogram követelményeinek nem megfelelő közvetlen számlázási partnereket a Microsoft értesíti, ha a közvetlen számlázási képességeik korlátozva lesznek. Ez az összes közvetlen számlázási partnerre vonatkozik, függetlenül attól, hogy a közvetlen számlázási partnerről a közvetett viszonteladókra való áttérés mellett döntöttek-e. [](transition-direct-to-indirect.md)  
 
-## <a name="how-to-tell-if-your-direct-bill-capabilities-has-been-restricted"></a>Hogyan állapítható meg, hogy a közvetlen számlázási funkciók korlátozottak-e
+## <a name="how-to-tell-if-your-direct-bill-capabilities-has-been-restricted"></a>Hogyan lehet tudni, hogy korlátozva vannak-e a közvetlen számlázási képességek?
 
-Az alábbi lépéseket követve ellenőrizheti, hogy a közvetlen számlázási partner bérlőtől a közvetlen számlázási funkciókhoz való hozzáférés korlátozott-e.
+Annak megerősítéséhez, hogy a közvetlen számlázási partner bérlője hozzáférése a közvetlen számlázási képességekhez korlátozva van-e, kövesse az alábbi lépéseket.
 
-1. Jelentkezzen be a [partner Center irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
 
-2. Nyissa meg a **Fiókbeállítások**  ->  **jogi profilt**.
+2. Ugrás a **Fiókbeállítások**  ->  **Jogi profil elemre.**
 
-3. A **program adatai** területen keresse meg **Microsoft Cloud megoldás szolgáltatójának állapotát**.
+3. A **Programadatok alatt** keresse meg **a Microsoft felhőszolgáltató állapotát.**
 
-4. Ha a program állapota **korlátozott**, az azt jelenti, hogy a közvetlen számlás partner bérlője számára korlátozott a közvetlen számlázási funkciókhoz való hozzáférés.
+4. Ha a program állapotának értéke **korlátozott,** az azt jelenti, hogy a közvetlen számlázási partner bérlője nem férhet hozzá a közvetlen számlázási képességekhez.
 
-## <a name="affected-direct-bill-capabilities"></a>Érintett közvetlen számlázási képességek
+## <a name="affected-direct-bill-capabilities"></a>Az érintett közvetlen számlázási képességek
 
-Ha a közvetlen számla funkciói korlátozottak voltak, már nem lehet új vásárlásokat vásárolni az ügyfelek számára a partner Centerben. Ez a korlátozás az alábbiakat tartalmazza:
+Ha a közvetlen számlázási lehetőségek korlátozva vannak, nem vásárolhat új vásárlásokat az ügyfelek számára a Partnerközpont. Ez a korlátozás a következőket foglalja magában:
 
 - Azure-előfizetések
 
-- Licenc alapú előfizetések
+- Licencalapú előfizetések
 
-- Új bővítmények hozzáadása meglévő licenc-alapú előfizetésekhez.
+- Új bővítmények hozzáadása meglévő licencalapú előfizetéshez.
 
-- A szoftver-és foglalási termékek (például a szoftveres előfizetések, az örökös szoftverek és az Azure Reserved Virtual Machine instances) egyszeri vásárlása.
+- Vásároljon szoftvereket és foglalási termékeket (például szoftver-előfizetéseket, folyamatos szoftvereket és Azure Reserved Virtual Machine-példányokat).
 
-A CSP program keretében nem használhatja az [Azure partner megosztott szolgáltatások ajánlatát](shared-services.md) is, hogy új Azure-előfizetéseket vásároljon saját használatra.
+A CSP-program [keretében elérhető Azure-partnerek](shared-services.md) megosztott szolgáltatási ajánlatával nem vásárolhat saját használatra új Azure-előfizetéseket.
 
-A meglévő közvetlen számlázási előfizetéseket a rendszer nem érinti. Érvényesek maradnak, és automatikusan megújulnak. Továbbra is közvetlenül a Microsoft által számlázunk, amíg meg nem szakítják őket. A meglévő előfizetéseket továbbra is a következő módokon kezelheti:
+A meglévő közvetlen számlás előfizetések nem érintettek. Ezek érvényesek maradnak, és automatikusan megújulnak. A Microsoft a lemondásáig továbbra is közvetlenül önnek számláz. Továbbra is a következő módokon kezelheti a meglévő előfizetéseket:
 
 - Meglévő előfizetések felfüggesztése
 
-- Meglévő licenccel rendelkező előfizetések licencek számának módosítása
+- Meglévő licencalapú előfizetések licencszámának beállítása
 
-- A meglévő bővítmények licencek számának beállítása egy előfizetéshez. 
- 
-    >[!Note] 
-    >Nem adhat hozzá új bővítményeket meglévő előfizetésekhez, mert az új vásárlásként lesz kezelve.
+- Módosíthatja az előfizetés meglévő bővítményei licencszámát. 
 
-- Új Azure-erőforrások üzembe helyezése és meglévő Azure-erőforrások kezelése meglévő Azure-előfizetések alatt. Ide tartoznak az Azure Marketplace-en és a Visual Studio-előfizetéseken keresztül elérhető erőforrások.
+    >[!Note]
+    >A meglévő előfizetések nem adhatnak hozzá új bővítményeket, mivel a rendszer új vásárlásként kezeli őket.
 
-Az új vásárlásokon kívül a következő közvetlen számlázási funkciók nem érhetők el a partner Centerben:
+- Új Azure-erőforrások üzembe helyezése és meglévő Azure-erőforrások kezelése meglévő Azure-előfizetések alatt. Ide tartoznak az előfizetések és előfizetések Azure Marketplace Visual Studio elérhető erőforrások is.
 
-- Nem hozhat létre új ügyfél-bérlőket. Az **ügyfél létrehozása** lehetőség a partner központ **ügyfelek** lapján nem lesz elérhető.
+Az új vásárlások mellett a következő közvetlen számlázási funkciók nem biztosítanak hozzáférést a Partnerközpont:
 
-- A közvetlen viszonteladói kapcsolatra vonatkozó meghívót nem lehet előkészíteni. A partner Center **ügyfelek** lapján a **viszonteladói kapcsolat kérése** lehetőség nem lesz elérhető.
+- Nem hozhat létre új ügyfélbérlőket. Az **Ügyfél létrehozása lehetőség** nem lesz **Partnerközpont** ügyfelek oldalán.
+
+- Nem hozhat létre közvetlen viszonteladói kapcsolatot kérő meghívót az ügyfélnek. A  **Viszonteladói kapcsolat kérése** lehetőség nem érhető el az Ügyfelek Partnerközpont lapon.
 
     >[!NOTE]
-    >A közvetlen számlázási partnertől a közvetett viszonteladóig történő áttérés részeként, ha már regisztrálta a közvetlen számlás partner bérlőt közvetett viszonteladóként, akkor a közvetett viszonteladói kapcsolatra vonatkozó meghívót is létrehozhat.
+    >A közvetlen számlázási partnerről a közvetett viszonteladóra való áttérés részeként, ha már regisztrálta közvetett viszonteladóként a közvetlen számlázási partnerbérlőt, meghívót hozhat létre a közvetett viszonteladói kapcsolatot kérő ügyfélnek.
 
-- Nem hozhat létre új homokozó-bérlőt. Minden közvetlen számlázási partner bérlő létrehozhat egy homokozó bérlőt a közvetlen számlázási API-integráció céljára. Ha korábban még nem hozott létre ilyet, nem teheti ezt meg, miután megtörtént a számlázási partneri képesség korlátozása.  
+- Nem hozhat létre új sandbox-bérlőt. Minden közvetlen számlázási partnerbérlő létrehozhat egy sandbox-bérlőt a közvetlen számlázási API-integrációhoz. Ha korábban még nem hozott létre egyet, a közvetlen számlázási partner képességeinek korlátozását követően erre nincs jogosultsága.  
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [További információ a közvetett viszonteladók kiválásáról](https://assetsprod.microsoft.com/csp-directbill-to-indirect-transition.pdf)
+- [További információ a közvetett viszonteladóvá válásról](https://assetsprod.microsoft.com/csp-directbill-to-indirect-transition.pdf)
 
-- [CSP közvetlen partner új követelmények](direct-partner-new-requirements.md)
+- [A közvetlen CSP-partnerre vonatkozó új követelmények](direct-partner-new-requirements.md)

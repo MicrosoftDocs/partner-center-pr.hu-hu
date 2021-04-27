@@ -4,56 +4,60 @@ ms.topic: how-to
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan távolíthatja el az ügyfeleket a listáról a Microsoft Direct partnerei, hogyan távolíthatja el a meghatalmazott rendszergazdai jogosultságokat, és nem állíthatja le az ügyfelek támogatását vagy vásárlását.
+description: Ismerje meg, hogyan távolíthatja el a Microsoft közvetlen partnerei az ügyfeleket a listából, hogyan távolíthatja el a delegált rendszergazdai jogosultságokat, és hogyan állíthatja le az ügyfelek támogatását vagy vásárlását.
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 133df7a2e6fdcf9aad48d3937b04dac33c93122a
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: d6ff07d2c54d006478b290ad53c024a55dea4e18
+ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105549090"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108018101"
 ---
 # <a name="how-to-remove-a-reseller-relationship-with-a-customer-in-partner-center"></a>Viszonteladói kapcsolat eltávolítása egy ügyfélről a Partnerközpontban
 
-Ez a cikk azt ismerteti, Hogyan távolítható el a viszonteladói kapcsolat egy ügyféllel a partner Centerben.
+**Megfelelő szerepkörök**
 
-Közvetlen partnerek vagy közvetett szolgáltatók: Ha már nem használ ügyfelet, akkor eltávolíthatja a kapcsolatot a partner Centerben.
+- Globális rendszergazda
+
+Ez a cikk azt ismerteti, hogyan távolítható el egy viszonteladói kapcsolat egy ügyféllel a Partnerközpont.
+
+Közvetlen partnerek vagy közvetett szolgáltatók: ha már nem történik tranzakció egy ügyféllel, eltávolíthatja a kapcsolatot a Partnerközpont.
 
 Egy kapcsolat eltávolítása az alábbi következményekkel jár:
 
 - Eltávolítja az ügyfelet a Partnerközpontban lévő ügyféllistáról
-- Eltávolítja az ügyfele számára [elérhető támogatási névjegyek listájáról](assign-support-contacts.md)
+- Eltávolítja Az ügyfél [elérhető támogatási kapcsolattartói](assign-support-contacts.md) listájáról
 - Eltávolítja az ügyfél számára delegált rendszergazdai jogosultságait
 - A jövőben nem vásárolhat az ügyfél nevében
 
 ## <a name="how-to-remove-a-relationship"></a>Kapcsolat eltávolítása
 
-A kapcsolat eltávolításához meg kell szakítania az Azure RI-foglalásokat, meg kell szüntetnie a szoftverek vásárlását, és először a fennmaradó aktív előfizetéseket kell felfüggeszteni.
+A kapcsolat eltávolításához először le kell mondania az Azure RI-foglalásokat, le kell mondania a szoftvervásárlásokat, és fel kell függesztenie a fennmaradó aktív előfizetéseket.
 
-1. **Felfüggesztheti az aktív előfizetéseket.**
+1. **Függessze fel az aktív előfizetéseket.**
 
-   1. A partner Centerben lépjen az **ügyfelek** elemre, és válasszon egy ügyfelet
+   1. A Partnerközpont válassza az **Ügyfelek lehetőséget,** és válasszon ki egy ügyfelet
 
-   2. Az **előfizetések** területen válasszon egy előfizetést.
+   2. Az **Előfizetések alatt** válasszon ki egy előfizetést.
 
-   3. **Felfüggesztett** kijelölés
+   3. Válassza a **Felfüggesztve lehetőséget**
 
    4. Ismételje meg ezeket a lépéseket minden aktív előfizetésnél.
 
-2. **A kapcsolat eltávolítása a partner Centerben:**
+2. **Távolítsa el a kapcsolatot a Partnerközpont:**
 
-   a. A partner Centerben lépjen az **ügyfelek** elemre, és válasszon ki egy ügyfelet.
+   a. A Partnerközpont válassza az **Ügyfelek** lehetőséget, és válasszon ki egy ügyfelet.
 
-   b. Válassza ki a **fiókot**.
+   b. Válassza ki a **Account (Fiók) lehetőséget.**
 
-   c. Válassza a **viszonteladói kapcsolat eltávolítása** lehetőséget.
+   c. Válassza **a Viszonteladói kapcsolat eltávolítása lehetőséget.**
 
    > [!NOTE]
-   > Ha bármelyik előfizetés még aktív, akkor a **viszonteladói kapcsolat eltávolítása** hivatkozás inaktív lesz.
+   > Ha bármelyik előfizetés még aktív, a **Viszonteladó** eltávolítása kapcsolat hivatkozás inaktív lesz.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Ügyféllel való kapcsolat kérése vagy újbóli létrehozása](request-a-relationship-with-a-customer.md)
+- [Ügyfélkapcsolat kérése vagy újra létrehozása](request-a-relationship-with-a-customer.md)

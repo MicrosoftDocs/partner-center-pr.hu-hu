@@ -4,45 +4,49 @@ ms.topic: article
 ms.date: 02/04/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Megújítási Microsoft Partner Network (MPN) ajánlatok a kompetenciák és a speciális szakosodások számára – a megújítási időszak megkezdi a vásárlási dátum és egy nap évfordulóját.
+description: A Microsoft Partner Network (MPN) ajánlatok megújítása kompetenciákhoz és speciális specializációkhoz – a megújítási időszak a vásárlás dátumával és egy napkal való megújulásával kezdődik.
 author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9c0386d6cbaba1094659c76a3bd274d88e4fe948
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: 779f785899039765ba4a9da42d3e6bb4a828976d
+ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105549107"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108018084"
 ---
-# <a name="renew-your-mpn-offers-for-competencies-and-advanced-specializations-during-the-renewal-window"></a>A megújítási időszak alatt megújíthatja az MPN-ajánlatokat kompetenciák és speciális specializációk esetén
+# <a name="renew-your-mpn-offers-for-competencies-and-advanced-specializations-during-the-renewal-window"></a>A kompetenciákra és speciális specializációkra vonatkozó MPN-ajánlatok megújítása a megújítási időszak alatt
 
-## <a name="responding-to-covid-19-microsoft-partner-network-update"></a>Válasz a COVID-19-re: Microsoft Partner Network Update
+**Megfelelő szerepkörök**
 
-A Microsoft a kompetenciák kiterjesztését (a Cloud Business Applications kompetencia kivételével) és a speciális specializációs bővítményt ajánlja az évfordulós (AD) dátummal rendelkező partnerek számára a 2021 január 1. és a 2021. június 30. között. További információért tekintse át a [partner blogbejegyzését](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/) .
+- MPN-partner rendszergazdája
+
+## <a name="responding-to-covid-19-microsoft-partner-network-update"></a>Válasz a COVID-19-re: Microsoft Partner Network frissítése
+
+A Microsoft 2021. január 1. és 2021. június 30. között kompetenciabővítményt (kivéve a Cloud Business Applications kompetencia) és speciális specializációs bővítményt kínál a évfordulós dátumokkal (AD) rendelkező partnerek számára. További információt a [partner blogbejegyzésében talál.](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/)
 
 ## <a name="renewal-reminders"></a>Megújítási emlékeztetők
 
-A megújítás napját követő 30 nap elteltével. Az előnyök ebben az időszakban is folytatódnak. Tizenöt nappal az évfordulója előtt a Microsoft emlékeztetni fogja a közelgő évfordulóra. Az évforduló napját követő 23 nappal újabb emlékeztetőt fog kapni. Ha az évforduló és a 30 napos időszak alatt megújítja az előnyeit, az előnyök érintetlenek maradnak. Ha nem újítja meg a megújítási időszakot, az előnyök és a kompetenciák elvesznek.
+Az évforduló dátuma után 30 nappal meg kell újulni. Az előnyök ebben az időszakban is folytatódnak. 15 nappal az évforduló dátuma előtt a Microsoft emlékezteti Önt a közelgő évfordulóra. Az évforduló dátuma után 23 nappal újabb emlékeztetőt fog kapni. Ha az évforduló és a 30 napos időszak között újít meg, az előnyök változatlanok maradnak. Ha nem újít meg a megújítási időszakon belül, elveszíti az előnyeit és kompetenciáját.
 
-Amikor megújítja a megújítási időszakot, az új évforduló dátuma 365 nap lesz a jelenlegi évforduló után.
+Ha a megújítást a megújítási időszak alatt megújítja, az új évforduló dátuma az aktuális évfordulót követően 365 nappal lesz meg.
 
-### <a name="how-to-view-competency-renewal-information"></a>A kompetenciák megújítási adatainak megtekintése
+### <a name="how-to-view-competency-renewal-information"></a>Kompetencia megújítási információinak megtekintése
 
-1. Az irányítópulton a partner Center menüben válassza a **kompetenciák** lehetőséget.  
+1. Az irányítópult Partnerközpont menüjében válassza a **Kompetenciák lehetőséget.**  
 
-2. A rendelkezésre álló kompetenciák listájában a kompetenciákat befejezettként kell megjelölni.  
+2. Az elérhető kompetenciák listájában a kompetenciákat Befejezettként kell megjelölni.  
 
-3. Válassza ki az egyik kompetenciáját. Ekkor megjelenik egy értesítés arról, hogy a következő megújítási dátumig kivételt kapott a követelmények teljesítése alól.
+3. Válasszon ki egy kompetenciát. Egy értesítés fog látni, amely szerint a következő megújítási dátumig mentesül a követelmények alól.
 
-4. Az ajánlat kihasználása érdekében lépjen a **tagsági ajánlatokra**. Előfordulhat, hogy a kompetenciák megvásárlása vagy megújítása állapota alapján kell megfizetnie a kompetenciát a folyamat befejezéséhez.
+4. Az ajánlat előnyeinek kihasználtságáról a **Tagsági ajánlatok lehetőséget használhatja.** Előfordulhat, hogy a kompetenciadíjat a kompetencia megvásárlásának vagy megújításának állapotától függően kell kifizetnie a folyamat befejezéséhez.
 
-A bővítmény kihasználása érdekében át kell helyeznie a partner Membership Center (PMC) tagságát a partner központba, hogy megújítsa a kompetenciát, és megfizesse a díjat. Ha még nem helyezte át a tagságát, [Tudjon meg többet](prepare-pmc-pc-migration.md),   és [végezze el az áttérést](https://partners.microsoft.com/partnerprogram/Welcome.aspx)még   ma.  
+A bővítmény előnyeinek kihasználtságáról a Partner Membership Center (PMC) rendszerből Partnerközpont a kompetencia megújítása és a díj fizetése érdekében át kell vennie a tagságot. Ha még nem költözte át a tagságát, további [információért](prepare-pmc-pc-migration.md)   és a [váltásról még ma tájékozódni](https://partners.microsoft.com/partnerprogram/Welcome.aspx)   kell.  
 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Kompetenciák](learn-about-competencies.md)
 
-- [Előnyök kezelése](manage-your-partner-network-benefits.md)
+- [Az előnyök kezelése](manage-your-partner-network-benefits.md)
 
