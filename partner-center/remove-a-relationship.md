@@ -4,56 +4,60 @@ ms.topic: how-to
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan távolíthatja el az ügyfeleket a listáról a Microsoft Direct partnerei, hogyan távolíthatja el a meghatalmazott rendszergazdai jogosultságokat, és nem állíthatja le az ügyfelek támogatását vagy vásárlását.
+description: Ismerje meg, hogyan távolíthatja el a Microsoft közvetlen partnerei az ügyfeleket a listából, hogyan távolíthatja el a delegált rendszergazdai jogosultságokat, és hogyan állíthatja le az ügyfelek támogatását vagy vásárlását.
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 133df7a2e6fdcf9aad48d3937b04dac33c93122a
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: d6ff07d2c54d006478b290ad53c024a55dea4e18
+ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105549090"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "108018101"
 ---
-# <a name="how-to-remove-a-reseller-relationship-with-a-customer-in-partner-center"></a><span data-ttu-id="af78f-103">Viszonteladói kapcsolat eltávolítása egy ügyfélről a Partnerközpontban</span><span class="sxs-lookup"><span data-stu-id="af78f-103">How to remove a reseller relationship with a customer in Partner Center</span></span>
+# <a name="how-to-remove-a-reseller-relationship-with-a-customer-in-partner-center"></a><span data-ttu-id="e888b-103">Viszonteladói kapcsolat eltávolítása egy ügyfélről a Partnerközpontban</span><span class="sxs-lookup"><span data-stu-id="e888b-103">How to remove a reseller relationship with a customer in Partner Center</span></span>
 
-<span data-ttu-id="af78f-104">Ez a cikk azt ismerteti, Hogyan távolítható el a viszonteladói kapcsolat egy ügyféllel a partner Centerben.</span><span class="sxs-lookup"><span data-stu-id="af78f-104">This article describes how to remove a reseller relationship with a customer in Partner Center.</span></span>
+<span data-ttu-id="e888b-104">**Megfelelő szerepkörök**</span><span class="sxs-lookup"><span data-stu-id="e888b-104">**Appropriate roles**</span></span>
 
-<span data-ttu-id="af78f-105">Közvetlen partnerek vagy közvetett szolgáltatók: Ha már nem használ ügyfelet, akkor eltávolíthatja a kapcsolatot a partner Centerben.</span><span class="sxs-lookup"><span data-stu-id="af78f-105">Direct partners or Indirect providers: if you're no longer transacting with a customer, you can remove the relationship in Partner Center.</span></span>
+- <span data-ttu-id="e888b-105">Globális rendszergazda</span><span class="sxs-lookup"><span data-stu-id="e888b-105">Global admin</span></span>
 
-<span data-ttu-id="af78f-106">Egy kapcsolat eltávolítása az alábbi következményekkel jár:</span><span class="sxs-lookup"><span data-stu-id="af78f-106">Removing a relationship has the following consequences:</span></span>
+<span data-ttu-id="e888b-106">Ez a cikk azt ismerteti, hogyan távolítható el egy viszonteladói kapcsolat egy ügyféllel a Partnerközpont.</span><span class="sxs-lookup"><span data-stu-id="e888b-106">This article describes how to remove a reseller relationship with a customer in Partner Center.</span></span>
 
-- <span data-ttu-id="af78f-107">Eltávolítja az ügyfelet a Partnerközpontban lévő ügyféllistáról</span><span class="sxs-lookup"><span data-stu-id="af78f-107">Removes the customer from your list of customers in Partner Center</span></span>
-- <span data-ttu-id="af78f-108">Eltávolítja az ügyfele számára [elérhető támogatási névjegyek listájáról](assign-support-contacts.md)</span><span class="sxs-lookup"><span data-stu-id="af78f-108">Removes you from the [list of available support contacts](assign-support-contacts.md) for your customer</span></span>
-- <span data-ttu-id="af78f-109">Eltávolítja az ügyfél számára delegált rendszergazdai jogosultságait</span><span class="sxs-lookup"><span data-stu-id="af78f-109">Removes your delegation admin privileges for the customer</span></span>
-- <span data-ttu-id="af78f-110">A jövőben nem vásárolhat az ügyfél nevében</span><span class="sxs-lookup"><span data-stu-id="af78f-110">Prevents you from making future purchases for the customer</span></span>
+<span data-ttu-id="e888b-107">Közvetlen partnerek vagy közvetett szolgáltatók: ha már nem történik tranzakció egy ügyféllel, eltávolíthatja a kapcsolatot a Partnerközpont.</span><span class="sxs-lookup"><span data-stu-id="e888b-107">Direct partners or Indirect providers: if you're no longer transacting with a customer, you can remove the relationship in Partner Center.</span></span>
 
-## <a name="how-to-remove-a-relationship"></a><span data-ttu-id="af78f-111">Kapcsolat eltávolítása</span><span class="sxs-lookup"><span data-stu-id="af78f-111">How to remove a relationship</span></span>
+<span data-ttu-id="e888b-108">Egy kapcsolat eltávolítása az alábbi következményekkel jár:</span><span class="sxs-lookup"><span data-stu-id="e888b-108">Removing a relationship has the following consequences:</span></span>
 
-<span data-ttu-id="af78f-112">A kapcsolat eltávolításához meg kell szakítania az Azure RI-foglalásokat, meg kell szüntetnie a szoftverek vásárlását, és először a fennmaradó aktív előfizetéseket kell felfüggeszteni.</span><span class="sxs-lookup"><span data-stu-id="af78f-112">To remove the relationship, you'll need to cancel Azure RI reservations, cancel software purchases, and suspend any remaining active subscriptions first.</span></span>
+- <span data-ttu-id="e888b-109">Eltávolítja az ügyfelet a Partnerközpontban lévő ügyféllistáról</span><span class="sxs-lookup"><span data-stu-id="e888b-109">Removes the customer from your list of customers in Partner Center</span></span>
+- <span data-ttu-id="e888b-110">Eltávolítja Az ügyfél [elérhető támogatási kapcsolattartói](assign-support-contacts.md) listájáról</span><span class="sxs-lookup"><span data-stu-id="e888b-110">Removes you from the [list of available support contacts](assign-support-contacts.md) for your customer</span></span>
+- <span data-ttu-id="e888b-111">Eltávolítja az ügyfél számára delegált rendszergazdai jogosultságait</span><span class="sxs-lookup"><span data-stu-id="e888b-111">Removes your delegation admin privileges for the customer</span></span>
+- <span data-ttu-id="e888b-112">A jövőben nem vásárolhat az ügyfél nevében</span><span class="sxs-lookup"><span data-stu-id="e888b-112">Prevents you from making future purchases for the customer</span></span>
 
-1. <span data-ttu-id="af78f-113">**Felfüggesztheti az aktív előfizetéseket.**</span><span class="sxs-lookup"><span data-stu-id="af78f-113">**Suspend any active subscriptions.**</span></span>
+## <a name="how-to-remove-a-relationship"></a><span data-ttu-id="e888b-113">Kapcsolat eltávolítása</span><span class="sxs-lookup"><span data-stu-id="e888b-113">How to remove a relationship</span></span>
 
-   1. <span data-ttu-id="af78f-114">A partner Centerben lépjen az **ügyfelek** elemre, és válasszon egy ügyfelet</span><span class="sxs-lookup"><span data-stu-id="af78f-114">From the Partner Center, go to **Customers** and select a customer</span></span>
+<span data-ttu-id="e888b-114">A kapcsolat eltávolításához először le kell mondania az Azure RI-foglalásokat, le kell mondania a szoftvervásárlásokat, és fel kell függesztenie a fennmaradó aktív előfizetéseket.</span><span class="sxs-lookup"><span data-stu-id="e888b-114">To remove the relationship, you'll need to cancel Azure RI reservations, cancel software purchases, and suspend any remaining active subscriptions first.</span></span>
 
-   2. <span data-ttu-id="af78f-115">Az **előfizetések** területen válasszon egy előfizetést.</span><span class="sxs-lookup"><span data-stu-id="af78f-115">Under **Subscriptions**, select a subscription.</span></span>
+1. <span data-ttu-id="e888b-115">**Függessze fel az aktív előfizetéseket.**</span><span class="sxs-lookup"><span data-stu-id="e888b-115">**Suspend any active subscriptions.**</span></span>
 
-   3. <span data-ttu-id="af78f-116">**Felfüggesztett** kijelölés</span><span class="sxs-lookup"><span data-stu-id="af78f-116">Select **Suspended**</span></span>
+   1. <span data-ttu-id="e888b-116">A Partnerközpont válassza az **Ügyfelek lehetőséget,** és válasszon ki egy ügyfelet</span><span class="sxs-lookup"><span data-stu-id="e888b-116">From the Partner Center, go to **Customers** and select a customer</span></span>
 
-   4. <span data-ttu-id="af78f-117">Ismételje meg ezeket a lépéseket minden aktív előfizetésnél.</span><span class="sxs-lookup"><span data-stu-id="af78f-117">Repeat these steps for each active subscription.</span></span>
+   2. <span data-ttu-id="e888b-117">Az **Előfizetések alatt** válasszon ki egy előfizetést.</span><span class="sxs-lookup"><span data-stu-id="e888b-117">Under **Subscriptions**, select a subscription.</span></span>
 
-2. <span data-ttu-id="af78f-118">**A kapcsolat eltávolítása a partner Centerben:**</span><span class="sxs-lookup"><span data-stu-id="af78f-118">**Remove the relationship in Partner Center:**</span></span>
+   3. <span data-ttu-id="e888b-118">Válassza a **Felfüggesztve lehetőséget**</span><span class="sxs-lookup"><span data-stu-id="e888b-118">Select **Suspended**</span></span>
 
-   <span data-ttu-id="af78f-119">a.</span><span class="sxs-lookup"><span data-stu-id="af78f-119">a.</span></span> <span data-ttu-id="af78f-120">A partner Centerben lépjen az **ügyfelek** elemre, és válasszon ki egy ügyfelet.</span><span class="sxs-lookup"><span data-stu-id="af78f-120">From the Partner Center, go to **Customers** and select a customer.</span></span>
+   4. <span data-ttu-id="e888b-119">Ismételje meg ezeket a lépéseket minden aktív előfizetésnél.</span><span class="sxs-lookup"><span data-stu-id="e888b-119">Repeat these steps for each active subscription.</span></span>
 
-   <span data-ttu-id="af78f-121">b.</span><span class="sxs-lookup"><span data-stu-id="af78f-121">b.</span></span> <span data-ttu-id="af78f-122">Válassza ki a **fiókot**.</span><span class="sxs-lookup"><span data-stu-id="af78f-122">Select the **Account**.</span></span>
+2. <span data-ttu-id="e888b-120">**Távolítsa el a kapcsolatot a Partnerközpont:**</span><span class="sxs-lookup"><span data-stu-id="e888b-120">**Remove the relationship in Partner Center:**</span></span>
 
-   <span data-ttu-id="af78f-123">c.</span><span class="sxs-lookup"><span data-stu-id="af78f-123">c.</span></span> <span data-ttu-id="af78f-124">Válassza a **viszonteladói kapcsolat eltávolítása** lehetőséget.</span><span class="sxs-lookup"><span data-stu-id="af78f-124">Select **Remove reseller relationship**.</span></span>
+   <span data-ttu-id="e888b-121">a.</span><span class="sxs-lookup"><span data-stu-id="e888b-121">a.</span></span> <span data-ttu-id="e888b-122">A Partnerközpont válassza az **Ügyfelek** lehetőséget, és válasszon ki egy ügyfelet.</span><span class="sxs-lookup"><span data-stu-id="e888b-122">From the Partner Center, go to **Customers** and select a customer.</span></span>
+
+   <span data-ttu-id="e888b-123">b.</span><span class="sxs-lookup"><span data-stu-id="e888b-123">b.</span></span> <span data-ttu-id="e888b-124">Válassza ki a **Account (Fiók) lehetőséget.**</span><span class="sxs-lookup"><span data-stu-id="e888b-124">Select the **Account**.</span></span>
+
+   <span data-ttu-id="e888b-125">c.</span><span class="sxs-lookup"><span data-stu-id="e888b-125">c.</span></span> <span data-ttu-id="e888b-126">Válassza **a Viszonteladói kapcsolat eltávolítása lehetőséget.**</span><span class="sxs-lookup"><span data-stu-id="e888b-126">Select **Remove reseller relationship**.</span></span>
 
    > [!NOTE]
-   > <span data-ttu-id="af78f-125">Ha bármelyik előfizetés még aktív, akkor a **viszonteladói kapcsolat eltávolítása** hivatkozás inaktív lesz.</span><span class="sxs-lookup"><span data-stu-id="af78f-125">If any subscriptions are still active, the **Remove reseller relationship** link will be inactive.</span></span>
+   > <span data-ttu-id="e888b-127">Ha bármelyik előfizetés még aktív, a **Viszonteladó** eltávolítása kapcsolat hivatkozás inaktív lesz.</span><span class="sxs-lookup"><span data-stu-id="e888b-127">If any subscriptions are still active, the **Remove reseller relationship** link will be inactive.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="af78f-126">Következő lépések</span><span class="sxs-lookup"><span data-stu-id="af78f-126">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="e888b-128">Következő lépések</span><span class="sxs-lookup"><span data-stu-id="e888b-128">Next steps</span></span>
 
-- [<span data-ttu-id="af78f-127">Ügyféllel való kapcsolat kérése vagy újbóli létrehozása</span><span class="sxs-lookup"><span data-stu-id="af78f-127">Request or re-establish a relationship with a customer</span></span>](request-a-relationship-with-a-customer.md)
+- [<span data-ttu-id="e888b-129">Ügyfélkapcsolat kérése vagy újra létrehozása</span><span class="sxs-lookup"><span data-stu-id="e888b-129">Request or re-establish a relationship with a customer</span></span>](request-a-relationship-with-a-customer.md)
