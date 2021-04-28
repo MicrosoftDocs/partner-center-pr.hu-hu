@@ -9,42 +9,46 @@ author: rajap-ms
 ms.author: rajap
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 410ee9bee307f78cc93dabbafab147bb725a8d02
-ms.sourcegitcommit: 25336c9e4ff1e76669ac71539265f79d1b2b29f5
+ms.openlocfilehash: 4a8227fecae05d3752d65651dea4cdc62c9ea672
+ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "107941826"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120851"
 ---
 # <a name="get-referral-insights-in-partner-center-and-find-out-how-your-referrals-are-doing"></a>A hivatkozások elemzésének Partnerközpont és a hivatkozások ismereti
+
+**Megfelelő szerepkörök**
+
+- Ajánlói rendszergazda
 
 A **Hivatkozások Elemzés** szakaszában  található Együttműködési lehetőségek oldalon megtekintheti, hogyan állnak az ajánlások. Ezeket a metrikákat rendszeresen áttekintve azonosíthatja a trendeket vagy a figyelmet igényelő területeket, és elkezdi elérni az üzleti céljait.
 
 Az Együttműködési lehetőségek elemzési adataihoz a Partnerközpont menüben válassza a Hivatkozások > **Analytics > lehetőségek lehetőséget.**
 
 > [!Important]
-> Az ajánlattípus szűrője előre alkalmazva van, és **az** összes adathoz az értékesítés típusa van kiválasztva. Távolítsa el a szűrőt, ha a privát és a partner által vezetett ügyletekhez kapcsolódó adatokat szeretné elárolni.
+> Az üzlettípus szűrője előre alkalmazva van, és **az** összes adathoz az értékesítés típusa van kiválasztva. Távolítsa el a szűrőt, ha a privát és a partner által vezetett ügyletekhez kapcsolódó adatokat szeretné elárolni.
 
 ## <a name="apply-filters"></a>Szűrők alkalmazása
 
-Az Együttműködési lehetőségek  oldal tetején kiválaszthatja azt az időszakot, amelyre vonatkozóan meg szeretné jelenni az adatokat. Az alapértelmezett beállítás **3M** (három hónap), de választhatja azt is, hogy hat hónapra vagy egy évre vonatkozó adatokat mutat be. Az Egyéni lehetőséget **választva** egy adott időszakban az összes ajánlás adatait is láthatja.
+Az Együttműködési lehetőségek  oldal tetején kiválaszthatja azt az időszakot, amelyre vonatkozóan meg szeretné jelenni az adatokat. Az alapértelmezett beállítás **a 3M** (három hónap), de választhatja azt is, hogy hat hónapig, vagy inkább egy évig mutatja az adatokat. Az Egyéni lehetőséget **választva** egy adott időszakban az összes ajánló adatait is láthatja.
 
 A Szűrők  gombra kattintva megnyithatja a panelt, amely lehetővé teszi az oldalon található összes adat szűrését az Ügyfél neve, Ország, Az ajánlat típusa, az Ajánlat iránya, a Megoldás neve és az Állapot alapján. Az alábbiakban ezeknek a szűrőknek a részletei olvashatók.
 
 - **Ügyfél neve:** Az alapértelmezett érték **a Mind**, de az adatokat egy vagy több kiválasztott ügyfélre korlátozhatja.
 - **Ország:** Az alapértelmezett érték **a Mind**, de az adatokat a kiválasztott ügyfél egy vagy több országára korlátozhatja.
 - **Ügylet típusa:** Az  alapértelmezett érték az Közös értékesítés, de választhatja az Összes lehetőséget, vagy a választás alapján korlátozhatja az adatokat privát vagy partner által irányított ügyletekre.
-- **Az ajánlat iránya** Az alapértelmezett érték **a Mind**, de az  adatokat korlátozhatja bejövő (ön által kapott) vagy kimenő (ön által elküldött) hivatkozásokra. 
+- **Az üzlet iránya** Az alapértelmezett **érték a Mind**, de az  adatokat korlátozhatja bejövő (ön által kapott) vagy kimenő (elküldött) hivatkozásokra. 
 - **Megoldás neve:** Az alapértelmezett érték **a Mind**, de az adatokat korlátozhatja olyan hivatkozásokra, amelyek egy vagy több kiválasztott megoldást tartalmaznak.
-- **Állapot:** Az alapértelmezett érték **a Mind,** de az adatokat korlátozhatja olyan hivatkozásokra, amelyek egy vagy több hivatkozási állapottípust tartalmaznak, például a létrehozott, elfogadott, elutasított, lejárt, elveszett és megnyert adatokat.
+- **Állapot:** Az alapértelmezett érték a **Mind,** de az adatokat korlátozhatja olyan hivatkozásokra, amelyek egy vagy több hivatkozási állapottípust tartalmaznak, például a létrehozott, elfogadott, elutasított, lejárt, elveszett és megnyert adatokat.
 
-Az alább felsorolt diagramok adatai a dátumtartományt és a kiválasztott szűrőket tükrözik, kivéve az alább látható módon. Egyes szakaszokban további szűrőket is alkalmazhat, például szűrést egy adott megoldásra.
+Az alább felsorolt diagramok adatai a dátumtartományt és a kiválasztott szűrőket tükrözik, kivéve az alább látható módon. Egyes szakaszok további szűrők, például egy adott megoldás szűrését is lehetővé teszik.
 
 ## <a name="referrals-summary"></a>A hivatkozások összegzése
 
 Ez a kártya áttekintést nyújt az együttműködési lehetőségekről.
 
-A diagramon az Dealek teljes száma, a megnyert üzletek száma, az elveszett üzletek száma és a kiválasztott időszakra vonatkozó ügylet teljes mennyisége (USD-ben) látható.
+A diagramon az Dealek teljes száma, a megnyert összegek, az elveszettek száma és a kiválasztott időszakra vonatkozó ügylet teljes mennyisége (USD-ben) látható.
 
 A százalékos változási metrikák (piros vagy zöld színnel és  nyíljelzővel jelölve) jelzik a különbséget a kiválasztott dátumtartomány utolsó teljes hónapja és a tartomány első teljes hónapja **között.** Tegyük fel például, hogy az aktuális dátum június 15., és a **3 millió** szűrőt választotta az elmúlt három hónap adatainak megjelenítése érdekében. Ebben az esetben ezek a metrikák a májusi (a kiválasztott időszak utolsó teljes hónapja) és a március (a kiválasztott időszak első teljes hónapja) közötti különbséget mutatják, a kiválasztott dátumtartomány az elmúlt **3 millió,** az összehasonlítás a májusi és a márciusi adatok között lenne.
 
@@ -52,13 +56,13 @@ A százalékos változási metrikák (piros vagy zöld színnel és  nyíljelző
 
 ## <a name="conversion-funnel"></a>Konverziós tölcsér
 
-Ez a szakasz azt mutatja be, hogy hogyan mozognak az ügyletek az egyes államok között az életciklusuk során. A teljes életciklust megtekintheti az ajánlat mennyisége, valamint az ajánlat USD-ben megadott értéke alapján a szakasz fő kimutatása alapján. Az első szakasz az állapotával és az üzlet típusával is fel van címkézve, így típus szerint vizuálisan is jelzi a kötetet vagy az értéket. Van egy korábbi szakasz is, a **Referrals**(Hivatkozások) is, amely jelzi, hogy milyen ügyleteket tett annak érdekében, hogy elfogadja vagy visszautasítsa őket, vagy hogy a jelentéshez kiválasztott időszakban megnyertként/elveszettként jelölje meg őket. Szűrők alkalmazásával megtekintheti az ügyletek előrehaladását az életciklusuk különböző szakaszaiban.
+Ez a szakasz azt mutatja be, hogyan mozognak az ajánlatok az egyes államok között az életciklusuk során. A szakasz fő kimutatása alapján megtekintheti a teljes életciklust az ajánlat mennyisége és az üzlet USD-ben megadott értéke alapján. Az első szakasz az állapot és az deal típusa címkével van megcímkézve, így típus szerint vizuálisan is jelzi a kötetet vagy az értéket. Van egy korábbi szakasz is, a **Referrals**(Hivatkozások) is, amely jelzi, hogy milyen ügyleteket tett annak érdekében, hogy elfogadja vagy visszautasítsa őket, vagy hogy a jelentéshez kiválasztott időszakban megnyertként/elveszettként jelölje meg őket. Szűrők alkalmazásával megtekintheti az ügyletek előrehaladását az életciklusuk különböző szakaszaiban.
 
-Az közös értékesítés bejövő ügyletei vagy elfogadva, elutasítva vagy lejártként egyesíthetők, mivel a partnereknek el kell fogadniuk vagy elutasítaják a bejövő közös értékesítést.
+Az közös értékesítés bejövő ügyletei az Elfogadva, Elutasítva vagy Lejárt ügyletekbe egyesíthetők, mivel a partnereknek el kell fogadniuk vagy el kell utasítanunk a bejövő közös értékesítést.
 
 :::image type="content" source="images/referrals/inbound.png" alt-text="Kép a bejövő hivatkozások államairól.":::
 
-A partner által vezetett, a privát és az közös értékesítéshez kötött kimenő ügyletek a Létrehozva típusba fognak egyesülni, mivel az ilyen típusú ügyleteket partnerek hoznak létre.
+A partner által vezetett, a privát és az közös értékesítés kimenő ügyletei a Létrehozva típusba fognak egyesülni, mivel az ilyen típusú ügyleteket partnerek hoznak létre.
 
 :::image type="content" source="images/referrals/outbound.png" alt-text="A kimenő hivatkozások államát bemutató kép.":::
 
@@ -72,13 +76,13 @@ Ez a szakasz azokat az országokat/régiókat mutatja be, ahonnan az ügylet ér
 
 ## <a name="deals-by-solutions"></a>Megoldások alapján kötött ügyletek
 
-Ezen a diagramon láthatja, hogy mely megoldások vezetik a legtöbb ajánlást és a legnagyobb értékű ajánlatot. A táblázat három kimutatást tartalmazza: Közös értékesítés, partner által vezetett és privát.
+Ezen a diagramon láthatja, hogy mely megoldások vezetik a legtöbb ajánlást, és melyek a legnagyobb értékűek. A táblázat három kimutatást tartalmazza: Közös értékesítés, partner által vezetett és privát.
 A kimutatás kiválasztása alapján a megoldás szerint összesítve láthatja az ügyletek teljesítményét.
 
 > [!NOTE]
-> Ha egy ajánlat több megoldást is tartalmaz, a táblázatban ugyanaz az üzlet szerepel, amely beleszámolt az összes megoldásba. Ne adja össze a megoldásokhoz kapcsolódó értékeket, és hasonlítsa össze őket más hivatkozásmennyiség-metrikákkal. Ez a nézet segít megérteni a megoldás kimutatásának teljesítményét.
+> Ha egy ajánlat több megoldást is tartalmaz, a táblázatban ugyanaz az üzlet szerepel, amely beleszámolt az összes megoldásba. Ne adja hozzá a megoldásokhoz kapcsolódó értékeket, és hasonlítsa össze őket más hivatkozókötet-metrikákkal. Ez a nézet segít megérteni a megoldás kimutatásának teljesítményét.
 
-A táblázat tartalmazza az összes olyan ügyletet, amelyek tartalmazzák a megoldást, valamint az olyan államokat, mint az megnyert ügyletek, az elveszett ügyletek, az ügyletek lejártak, valamint az összes megnyert és elveszített ügylet USD pénznemben. A tábla jobb oldalon található egy ügyleti trendgrafikon is, amely a kiválasztott megoldás alapján mutatja az összes ügylet számát és az ügylet usd pénznemben megnyert értékét. Az alapértelmezett beállítás az összes megoldás.
+A táblázat tartalmazza az összes olyan ügyletet, amelyekben szerepel a megoldás, valamint az olyan államok, mint az megnyert ügyletek, az elveszett ügyletek, az ügyletek lejártak, valamint az összes megnyert és elveszett ügylet USD pénznemben. A tábla jobb oldalon található egy ügyleti trendgrafikon is, amely a kiválasztott megoldás alapján mutatja az összes ügylet számát és az ügylet usd pénznemben megnyert értékét. Az alapértelmezett beállítás az összes megoldás.
 
 :::image type="content" source="images/referrals/cosell-analytics-solutions-v2.png" alt-text="A megoldások teljesítményét bemutató kép.":::
 
@@ -86,7 +90,7 @@ A táblázat tartalmazza az összes olyan ügyletet, amelyek tartalmazzák a meg
 
 Ez a szakasz segít elemezni az okokat,  amelyek  miatt a vállalat elutasítottként vagy elveszettként jelöli meg az ügyleteket. Az ilyen ábrázolásokkal ugyanazok az okok állnak rendelkezésre, mint amit az értékesítők az üzlet elutasítása vagy csökkenése esetén választottak.
 
-:::image type="content" source="images/referrals/cosellanalyticsreasons.png" alt-text="A partner által a visszautasításkor vagy az üzlet elveszítésében kiválasztott okokat bemutató kép.":::
+:::image type="content" source="images/referrals/cosellanalyticsreasons.png" alt-text="A partner által a visszautasítás vagy az üzlet elveszítés esetén kiválasztott okokat bemutató kép.":::
 
 ## <a name="comparison-charts"></a>Összehasonlító diagramok
 
@@ -97,13 +101,13 @@ Az adatok összehasonlítására kiválasztható három dimenzió a következő:
 - Piacok
 - Megoldások
 
-Ha az ügylet típusa van kiválasztva, összehasonlíthatja a ajánlati teljesítményét az együttműködési lehetőségek, a partner által irányított és a privát ügyletek tekintetében. A piacokon és a megoldásokban is három különböző lehetőség közül választhat a teljesítményük összehasonlítására. Az első diagram, amely egy sávdiagram, havi trend szerint adatokat tartalmaz a fő kimutatás alapján, amely a mennyiség vagy az ügylet megnyert értéke. A sávdiagramtól jobbra egy tortadiagram is található, amely ugyanezen adatok százalékos eloszlását mutatja.
+Ha az ügylet típusa van kiválasztva, összehasonlíthatja a hivatkozási teljesítményét az együttműködési lehetőségek, a partner által irányított és a privát ügyletek tekintetében. A piacokon és a megoldásokban is három különböző lehetőség közül választhat a teljesítményük összehasonlítására. Az első diagram, amely egy sávdiagram, havi trend szerint adatokat tartalmaz a fő kimutatás alapján, amely a mennyiség vagy az ügylet megnyert értéke. A sávdiagramtól jobbra egy tortadiagram is látható, amely ugyanezen adatok százalékos eloszlását mutatja.
 
 :::image type="content" source="images/referrals/cosell-analytics-compare-v2.png" alt-text="Az összehasonlítás szakaszt bemutató kép.":::
 
 ## <a name="raw-data-table"></a>Nyers adattábla
 
-Az alábbi táblázat az együttműködési lehetőségekhez kapcsolódó nyers adatokat  tartalmazza, amelyek segítségével gyorsan exportálhatja az adatokat az elvégezni kívánt részletes vagy egyéni elemzésekhez.
+Az alábbi táblázat az együttműködési lehetőségekhez kapcsolódó összes nyers adattal  együtt segít gyorsan exportálni az adatokat az elvégezni kívánt részletes vagy egyéni elemzésekhez.
 
 :::image type="content" source="images/referrals/cosellanalyticsrawdata.png" alt-text="A hivatkozások nyers adattábláját bemutató kép.":::
 

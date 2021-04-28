@@ -1,116 +1,123 @@
 ---
-title: A partner Center-információk áttekintése irányítópult
+title: Partnerközpont Insights áttekintési irányítópultja
 ms.topic: article
 ms.date: 05/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan végzi el az értékesítést és a telepítést, az ügyfelek növekedését és a bevétel növekedését a licencek, az előfizetések és az Azure-felhasználás terén.
+description: Pillanatképet készíthet arról, hogyan használja az értékesítést és az üzembe helyezést, az ügyfélnövekedést és a bevételnövekedést licencekkel, előfizetésekkel és az Azure-használattal.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 91075e8aab1759904a1549dd38bee6fb886c1c65
-ms.sourcegitcommit: 5f31146f50e01dc4c1922e0a5bc369f0a3cd8162
+ms.openlocfilehash: 14d280a65fa7c72ed382fd8b27e0354a4aa9e190
+ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "92528242"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120817"
 ---
-# <a name="overview-dashboard-reports-available-in-partner-center-insights"></a>A partner Center-információk áttekintésében elérhető irányítópult-jelentések
+# <a name="overview-dashboard-reports-available-in-partner-center-insights"></a>A Partnerközpont Insightsban elérhető Partnerközpont irányítópult-jelentések
  
-Az elemzések áttekintésének irányítópultja a fő teljesítménymutatók (például ügyfelek, előfizetések, Azure-felhasználási bevétel, licencek stb.) pillanatkép-nézetét tartalmazza. Az Áttekintés jelentésben a következő diagramok láthatók.
+**Megfelelő szerepkörök**
+
+- Globális rendszergazda
+- Rendszergazdai ügynök
+- Jelentésmegjelenítő
+- Vezetői jelentésmegjelenítő
+
+Az Elemzések áttekintése irányítópult pillanatképet biztosít a fő teljesítménymutatókról, például az ügyfelekről, az előfizetésekről, az Azure consumption Revenue -ről és a Licencekről. A következő diagramokat az Áttekintés jelentésben ábrázolhatja.
 
 - Összefoglalás  
-- Az ügyfelek, előfizetések és licencek földrajzi eloszlása  
+- Az ügyfelek, előfizetések és licencek földrajzi eloszlése  
 - Ügyfelek növekedési trendje 
 - Előfizetések növekedési trendje 
-- Az Azure által felhasznált bevétel növekedési trendje 
-- A licencek növekedési trendje 
+- Az Azure felhasznált bevételnövekedési trendje 
+- Licencnövekedési trend 
 
 ## <a name="summary"></a>Összefoglalás
 
-Az összefoglalás információkat tartalmaz az ügyfelekről, az Azure által felhasznált bevételekről, az eladott előfizetésekről, az aktív előfizetésekről és a telepített licencekről. 
+Az Összefoglalás az ügyfelekkel, a Azure-viszonteladásból származó bevétel (ACR), az eladott előfizetésekkel, az aktív előfizetésekkel és az üzembe helyezett licencekkel kapcsolatos információkat tartalmaz. 
 
-:::image type="content" source="images/pci/summary.png" alt-text="Összegző licencek":::
+:::image type="content" source="images/pci/summary.png" alt-text="Összesítő licencek":::
 
-Az összefoglalás egyes szakaszaival kapcsolatos további információkért lásd alább.
+Az Összefoglalás egyes szakaszokkal kapcsolatos további információk a következőkben találhatóak.
 
 ### <a name="customers"></a>Ügyfelek
 
-Az **ügyfelek** rész a következőket tartalmazza:
+Az **Ügyfelek** terület a következőket tartalmazza:
 
-- Az összes olyan ügyfél aktuális száma, amelynek legalább egy aktív előfizetése társítva van a vállalathoz a különböző elosztási típusok és az összes felhőalapú termék között.
-- Az ügyfelek százalékos növekedése a kiválasztott dátumtartomány szerint.
-- A Micro diagram az ügyfelek számának hónapon belüli trendjét mutatja a kiválasztott Dátumtartomány alapján.
+- A vállalathoz legalább egy aktív előfizetéssel társított ügyfelek aktuális száma különböző forrásmegjelölési típusokon és az összes felhőalapú terméken keresztül.
+- Az ügyfelek százalékos növekedése a kiválasztott dátumtartományban.
+- A mikrodiagram a kiválasztott dátumtartományon belüli ügyfélszám havi trendjét mutatja.
 
-### <a name="azure-consumed-revenue-acr"></a>Az Azure által felhasznált bevétel (ACR)
+### <a name="azure-consumed-revenue-acr"></a>Azure-viszonteladásból származó bevétel (ACR)
 
-Az összefoglalás az **Azure által felhasznált bevétel (ACR)** területét tartalmazza:
+Az **Azure-viszonteladásból származó bevétel (ACR)** terület a következőket tartalmazza:
 
-- Az összes felhasznált Azure-bevétel (az USA $-ban) az Ön számára a kiválasztott Dátumtartomány alapján.
-- A kiválasztott időtartományban az ACR (US $) értékének százalékos növekedése vagy csökkenése.
-- A mikro-diagram az ACR US $ által a kiválasztott Dátumtartomány alapján megadott havi tendenciát mutatja be. 
+- A Azure-viszonteladásból származó bevétel dátumtartományhoz rendelt összes Azure-viszonteladásból származó bevétel (USD-ban).
+- A kijelölt dátumtartományhoz rendelt ACR százalékos növekedése vagy csökkenése (AZ USA $-ban).
+- A mikrodiagram a kiválasztott dátumtartományhoz rendelt ACR US$ havi trendjét mutatja be 
 
 > [!NOTE]
-> Az Azure által felhasznált bevételi (ACR) adat olyan felhasználók számára érhető el, akik hozzá lettek rendelve a Executive Report Viewer szerepkörhöz 
+> Azure-viszonteladásból származó bevétel (ACR) adatai a Vezetői jelentésmegjelenítő szerepkörhöz rendelt felhasználók számára érhetők el 
  
 ### <a name="subscriptions-sold"></a>Eladott előfizetések
 
-Az összegzésben az **előfizetések eladott** területei a következők:
+A **Summary (Összefoglalás) oldalon** található Subscriptions sold (Eladott előfizetések) terület a következőket tartalmazza:
 
-- Az Ön által eladott vagy kezelt felhőalapú termék-előfizetések (aktív és inaktív) teljes aktuális száma.  
-- Az előfizetések százalékos növekedése vagy elutasítása a kijelölt dátumtartomány szerint.
-- A Micro diagram az összes előfizetés hónapról hónapra kiterjedő trendjét mutatja be a kijelölt dátumtartomány szerint.
+- Az Ön által eladott vagy kezelt (aktív és inaktív) felhőalapú termék-előfizetések aktuális teljes száma.  
+- Az előfizetések százalékos növekedése vagy csökkenése a kiválasztott dátumtartományban.
+- A mikrodiagram az összes előfizetés havi trendjét mutatja a kiválasztott dátumtartományra.
 
 ### <a name="active-subscriptions"></a>Aktív előfizetések
 
-Az összefoglalás **aktív előfizetési** területei a következők:
+Az **Összefoglalás területen az** Aktív előfizetések terület a következőket tartalmazza:
 
-- A termék telemetria alapján mért aktív használattal rendelkező felhőalapú termék-előfizetések aktuális száma. Ez kizárja az összes próba-előfizetést az Azure-előfizetések esetében.  
-- Az aktív előfizetések százalékos növekedése a kijelölt dátumtartomány szerint.
-- A Micro diagram az aktív előfizetések hónapról hónapra eső trendjét mutatja be a kiválasztott dátumtartomány szerint.
+- A felhőalapú termék-előfizetések aktuális száma a termék-telemetria alapján mért aktív használattal. Ez az Azure-előfizetések esetében nem tartalmazza az összes próba-előfizetést.  
+- Az aktív előfizetések százalékos növekedése a kiválasztott dátumtartományban.
+- A mikrodiagram az aktív előfizetések havi trendjét mutatja a kiválasztott dátumtartományra.
  
-### <a name="licenses-deployed"></a>Telepített licencek
+### <a name="licenses-deployed"></a>Üzembe helyezett licencek
 
-Az összegzésben található **licencek** a következők:
+Az **Összefoglalás területen a** telepített licencek terület a következőket tartalmazza:
  
-- Az ügyfél-előfizetésekben üzembe helyezett összes felhőalapú termék licencének száma a kiválasztott időszakban. 
-- A licencek százalékos növekedése vagy elutasítása a kiválasztott dátumtartomány alatt. 
-- A Micro diagramon látható, hogy a hozzárendelt licencek havi hónapjának trendje a kijelölt dátumtartomány alapján van-e számítva.
+- Az ügyfél-előfizetésben üzembe helyezett összes felhőalapú terméklicenc száma a kiválasztott időszakban. 
+- A licencek százalékos növekedése vagy csökkenése a kiválasztott dátumtartományban. 
+- A mikrodiagram a hozzárendelt licencek számának havi trendjét jeleníti meg a kiválasztott dátumtartományban.
 
-## <a name="geographical-spread-of-your-customers-subscriptions-and-licenses"></a>Az ügyfelek, előfizetések és licencek földrajzi eloszlása
+## <a name="geographical-spread-of-your-customers-subscriptions-and-licenses"></a>Az ügyfelek, előfizetések és licencek földrajzi eloszlése
 
-Ez a nézet az ügyfelek, előfizetések és licencek országonkénti földrajzi eloszlása. A különböző lapokra kattintva megtekintheti a térképen látható összes ilyen bepillantást. Megkeresheti és kiválaszthatja a rács egyik országát, hogy a térképen lévő helyre nagyítson. A térképen a Kezdőlap gombra kattintva visszatérhet az eredeti nézethez. Ha rákattint az egyes lapokra (például ügyfelek, előfizetések), az egyes országok metrikájának értékét, valamint az ország teljes számát jeleníti meg.  
+Ez a nézet az összes ügyfél, előfizetés és licenc földrajzi eloszlása az ügyfél országa szerint. A különböző lapokat kiválasztva megtekintheti ezeket az elemzéseket a térképen. Megkeresheti és kiválaszthatja a rács egyik országát a térkép helyének nagyításához. A térképen a Kezdőlap gomb megnyomásával visszaállítható az eredeti nézet. Az egyes fülek (például ügyfelek, előfizetések) ikonra kattintva megjelenik az egyes országok metrikaértéke, valamint az ország teljes összegének százalékos értéke.  
 
-:::image type="content" source="images/pci/geosummary.png" alt-text="Összegző licencek":::
+:::image type="content" source="images/pci/geosummary.png" alt-text="Földrajzi összefoglalás":::
 
 ## <a name="customers-growth-trend"></a>Ügyfelek növekedési trendje
 
-A kiválasztott dátumtartomány összesített számának havi trendje. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig az adott hónap összes ügyfelének számát jelöli. 
+A kiválasztott dátumtartomány összes ügyfélszámának havi trendje. Az X tengely a kiválasztott dátumtartomány hónapját, az Y tengely pedig az adott hónap összes ügyfélszámát jelöli. 
 
-:::image type="content" source="images/pci/customergrowth.png" alt-text="Összegző licencek":::
+:::image type="content" source="images/pci/customergrowth.png" alt-text="ügyfelek növekedési trendje":::
 
 ## <a name="subscriptions-growth-trend"></a>Előfizetések növekedési trendje
 
-Ez jelzi az ügyfél-előfizetések számának trendjét a kiválasztott dátumtartomány esetében. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, és az Y tengely a termék előfizetések számát jelöli. Görgessen végig a diagram tetején lévő csúszkán a diagram adott időszakra való nagyításához. 
+Ez jelzi az ügyfél-előfizetések számának trendjét a kiválasztott dátumtartományra. Az X tengely a kiválasztott dátumtartomány hónapjait, az Y tengely pedig a kiválasztott termék előfizetési számát jelöli. Görgessen végig a diagram tetején található csúszkán a diagram adott időszakra való nagyításhoz. 
 
-:::image type="content" source="images/pci/subscriptiongrowth.png" alt-text="Összegző licencek":::
+:::image type="content" source="images/pci/subscriptiongrowth.png" alt-text="Előfizetés növekedési trendje":::
 
-## <a name="azure-consumed-revenue-growth-trend"></a>Az Azure által felhasznált bevétel növekedési trendje
+## <a name="azure-consumed-revenue-growth-trend"></a>Azure-viszonteladásból származó bevétel trend
 
-Az Azure által felhasznált havi trend az Egyesült államokbeli US $, a kiválasztott Dátumtartomány alapján. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig az Azure-ban felhasznált összes, a hónapban felhasznált US $-bevételt.
+Az Azure által a kiválasztott dátumtartományhoz rendelt, az Azure által felhasznált US$ bevétel havi trendje. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig az Azure teljes felhasznált bevételét (US$) az Ön számára a hónap során.
 
 > [!NOTE]
-> Az Azure által felhasznált bevétel (ACR) csak azoknál a felhasználóknál látható, akik hozzá lettek rendelve a vezetői jelentés megjelenítői szerepkörhöz. 
+> Azure-viszonteladásból származó bevétel (ACR) csak a Vezetői jelentésmegjelenítő szerepkörhöz rendelt felhasználók számára lesz látható. 
 
-:::image type="content" source="images/pci/azureconsumed.png" alt-text="Összegző licencek":::
+:::image type="content" source="images/pci/azureconsumed.png" alt-text="Azure-használat":::
 
-## <a name="licenses-growth-trend"></a>A licencek növekedési trendje
+## <a name="licenses-growth-trend"></a>Licencnövekedési trend
  
-A kiválasztott dátumtartomány által az összes ügyfél által hozzárendelt licencek trendje. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, és az Y tengely a kiválasztott termékhez tartozó licencek számát jelöli. Görgessen végig a diagram tetején lévő csúszkán a diagram adott időszakra való nagyításához.  
+Az összes ügyfél által a kiválasztott dátumtartományon belül hozzárendelt licencek trendje. Az X tengely a kiválasztott dátumtartomány hónapjait, az Y tengely pedig a kiválasztott termék licencszámát jelöli. Görgessen végig a diagram tetején található csúszkán a diagram adott időszakra való nagyításhoz.  
 
-:::image type="content" source="images/pci/licensesgrowth.png" alt-text="Összegző licencek":::
+:::image type="content" source="images/pci/licensesgrowth.png" alt-text="licencek":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-További jelentések: [partner Center](partner-center-insights.md)-információk.
+További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
