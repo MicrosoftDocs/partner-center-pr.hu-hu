@@ -9,14 +9,18 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6c3c3a672de015c9f38fa0e34232da8d9913177c
-ms.sourcegitcommit: 9f6be9bc8d9a065422d1ec8388bd770eb6cd9f33
+ms.openlocfilehash: 1473b3c0b90cca1152b4dab0b8efec86dbc3d22d
+ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "107528569"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172217"
 ---
 # <a name="effective-unit-price-calculation-for-azure-plan-consumption"></a>Az Azure-csomagfelhasználás tényleges egységárának kiszámítása
+
+**Megfelelő szerepkörök**
+
+- Számlázási adminisztrátor
 
 ## <a name="the-effective-unit-price"></a>A tényleges egységár
 
@@ -28,7 +32,7 @@ A tényleges egységárat az alábbi három tényező alapján számítjuk ki:
 - A fogyasztásmérő számlázható költsége
 - Rétegezés (ha van)
 
-Mivel a használatot naponta monitorozni fogjuk a számlázási ciklusban, a tényleges egységár ingadozni fog. Egy adott számlázási ciklus végső ára akkor lesz elérhető, ha leállítjuk a használat számítását, és lezárjuk a számlázási időszakot. A használat legnagyobb változását a negyedik vagy ötödik tizedesjegy után fogja látni.
+Mivel a használatot naponta monitorozni fogjuk a számlázási ciklusban, a tényleges egységár ingadozni fog. Az adott számlázási ciklus végső ára a használat kiszámításának leállítása és a számlázási időszak bezárása után lesz elérhető. A használat legtöbb változását a negyedik vagy ötödik tizedesjegy után fogja látni.
 
 ## <a name="find-out-whether-your-meter-uses-tiered-pricing"></a>Annak kiderítése, hogy a fogyasztásmérő rétegzett díjszabást használ-e
 
@@ -44,7 +48,7 @@ Az alábbi táblázat egy példát mutat be arra, hogyan számítjuk ki a tényl
 
 A táblázatban a következő értékek érvényesek: 
 
-- **UP** = az erőforrás egységára óránként = 0,868
+- **UP** = az erőforrás óránkénti egységára = 0,868
 
 - **BCU** = A fogyasztásmérő számlázható fogyasztási egysége
 
@@ -54,7 +58,7 @@ A táblázatban a következő értékek érvényesek:
 
 >[!NOTE]
 
->Megjegyzés: A példában a fogyasztásmérő nem rendelkezik tarifacsomagokkal vagy egyéb kedvezményekkel – az Effective Unit Price a kedvezmény százalékos arányait és egyéb kiigazításokat is figyelembe veszi.
+>Megjegyzés: Az ebben a példában található fogyasztásmérő nem rendelkezik tarifacsomagokkal vagy egyéb kedvezményekkel – a tényleges egységár a kedvezmény százalékos arányait és egyéb módosításokat is figyelembe veszi.
 
 
 | Date | BCU (számlázható fogyasztási egység) | BC (számlázható költség) | Tényleges egységár |

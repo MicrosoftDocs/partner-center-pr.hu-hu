@@ -1,61 +1,68 @@
 ---
-title: Mobilszolgáltató számlázási Microsoft Store
-description: A Microsoft Store az ezt a képességet támogató mobilszolgáltatók számára fizetési módszerként kínálja a mobilszolgáltató számlázási szolgáltatását.
+title: Mobilszolgáltatói számlázás – Microsoft Store
+description: Az Microsoft Store mobilszolgáltatói számlázást kínál fizetési módként az ezt a képességet támogató mobilszolgáltatók számára.
 ms.date: 04/01/2021
 ms.service: partner-dashboard
+ms.subservice: partnercenter-csp
 ms.topic: article
 ms.author: hickeys
 author: hickeys
-keywords: Windows 10, uwp, mobil operátorok, mobil számlázás, mobilszolgáltatók számlázása
+keywords: windows 10, uwp, mobilszolgáltatók, mobilszámlázás, mobilszolgáltatói számlázás
 ms.localizationpriority: medium
-ms.openlocfilehash: 5556da39b252f5004cd7d1828310743875a8da7f
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 20ce286814682277e375894e99f947d084206246
+ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106178816"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172387"
 ---
 # <a name="mobile-operator-billing"></a>Mobilszolgáltatói számlázás
 
-> [!NOTE]
-> Ha támogatásra [van](https://developer.microsoft.com/windows/support)szüksége a kifizetésekkel kapcsolatban, beleértve a kifizetési fiókok konfigurálását, a hiányzó kifizetéseket, a befizetések tárolását, vagy bármi mást, forduljon az ügyfélszolgálathoz.
+**Megfelelő szerepkörök**
 
-A Microsoft Store a Windows 10 rendszerű eszközökön, a Windows 10 Mobile-t és az Xbox One-konzolokat futtató telefonokon a mobileszköz-számlázást fizetési módszerként kínálja. Ha egy ügyfél mobilszolgáltató támogatja ezt a képességet, az ügyfél felveheti a mobileszköz-számlázást fizetési módszerként, és felhasználhatja az áruházbeli vásárlásokat a mobil fiókjuk használatával.
+- Globális rendszergazda
+
+> [!NOTE]
+> Ha kifizetésekkel kapcsolatos támogatást keres, beleértve a kifizetési fiókok konfigurálását, a hiányzó kifizetéseket, a kifizetéseket visszatartott stb., forduljon az [ügyfélszolgálathoz itt.](https://developer.microsoft.com/windows/support)
+
+Az Microsoft Store a mobilszolgáltatói számlázást fizetési módként kínálja a Windows 10, a Windows 10 Mobile és Xbox One eszközök esetében. Ha az ügyfél mobilszolgáltatója támogatja ezt a képességet, az ügyfél fizetési módként hozzáadhatja a mobilszolgáltatói számlázást, és a használatával áruházi vásárlásokat vásárolhat a mobil fiókjával.
 
 > [!TIP]
->  Ha az ügyfél mobileszköz-számlázást biztosít, de az ügyfél nem találja ezt a lehetőséget az eszközén, tekintse át ezeket a [lépéseket](https://support.microsoft.com/instantanswers/b25d6dd6-fb8b-3710-1e13-4d30eb01b51f).
+> Ha egy ügyfél mobilszolgáltatója kínál mobilszolgáltatói számlázást, de az ügyfél nem találja ezt a lehetőséget az eszközén, tekintse át az alábbi [lépéseket.](https://support.microsoft.com/instantanswers/b25d6dd6-fb8b-3710-1e13-4d30eb01b51f)
 
-Rendszeresen dolgozunk a mobileszközök használatával a fizetési mód rendelkezésre állásának kibővítéséhez. Ha azt szeretné, hogy egy, az alábbiakban nem látható mobilszolgáltató ne jelenjen meg, vegye fel a kapcsolatot a mobileszköz-kezelővel, és kérje meg, hogy adja hozzá ezt a fizetési módot.
+A mobilszolgáltatóval rendszeresen dolgozunk a fizetési mód rendelkezésre állásának bővítésén. Ha olyan mobilszolgáltatót szeretne javasolni, amely nem szerepel az alábbi listában, lépjen kapcsolatba a mobilszolgáltatóval, és kérje meg, hogy adja hozzá ezt a fizetési módot.
 
-A következő mobileszközök jelenleg támogatják a mobilszolgáltatók számlázási felszámolását.
+## <a name="operators-that-support-mobile-operator-billing"></a>A mobilszolgáltatói számlázást támogató kezelők
+
+Jelenleg a következő mobilszolgáltatók támogatják a mobilszolgáltatók számlázását.
 
 | Ország/régió       | Mobilszolgáltatók                                        |
 |----------------------|---------------------------------------------------------|
 | Ausztrália            | Optus                                                   |
-| Ausztria              | A1 Telekom, Hutchison 3G Ausztria, T-Mobile/tele. Ring  |
-| Belgium              | Alap, proximus                                          |
+| Ausztria              | A1 Telekom, Majdchison 3G Foga, T-Mobile / tele.ring  |
+| Belgium              | Alap, Proximus                                          |
 | Kanada               | Telus                                                   |
 | Csehország              | T-Mobile, Vodafone, O2                                  |
-| Dánia              | 3, TDC/YouSee, Telenor, Telia                         |
-| Finnország              | DNS, ELISA                                              |
+| Dánia              | 3, TDC / YouSee, Telenor, Telia                         |
+| Finnország              | DNA, Elisa                                              |
 | Franciaország               | Narancssárga                                                  |
 | Németország              | O2, Telekom Deutschland, Vodafone                       |
 | Magyarország              | Telenor                                                 |
 | Olaszország                | Tre, Wind, Vodafone                                     |
 | Dél-Korea                | SK Telecom                                              |
 | Malajzia             | Digi                                                    |
-| Hollandia          | KPN/Telfort, Vodafone                                 |
-| Norvégia               | Telenor/Talkmore, Telia/OneCall                     |
+| Hollandia          | KPN / Telfort, Vodafone                                 |
+| Norvégia               | Telenor / Talkmore, Telia / OneCall                     |
 | Lengyelország               | Orange, Play, T-Mobile                                  |
-| Szaúd-Arábia         | STC                                                     |
-| Szingapúr            | M1 Limited, csillag                                     |
-| Szlovákia             | Szlovák Telekom                                          |
+| Szaúd-Arábia         | Stc                                                     |
+| Szingapúr            | M1 Limited, StarHub                                     |
+| Szlovákia             | Szlováki Telekom                                          |
 | Dél-afrikai Köztársaság         | Vodacom                                                 |
 | Spanyolország                | Narancssárga                                                  |
 | Svédország               | 3, Telenor                                              |
-| Svájc          | Napkelte, Swisscom                                       |
-| Tajvan               | FarEasTone                                              |
+| Svájc          | Foga, Majdcom                                       |
+| Tajvan               | FarEasTone (FarEasTone)                                              |
 | Törökország               | Turkcell                                                |
 | Egyesült Arab Emírségek | Etisalat                                                |
 | Egyesült Államok        | Sprint, Verizon                                         |
-| Egyesült Királyság       | 3 Egyesült Királyság, EE, O2, Vodafone                                 |
+| Egyesült Királyság       | 3 Uk, EE, O2, Vodafone                                 |

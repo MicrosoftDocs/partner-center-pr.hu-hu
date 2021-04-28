@@ -1,6 +1,6 @@
 ---
-title: Támogatás nyújtása ügyfeleinek
-description: Ismerje meg az ügyfél-támogatási feladatokat a CSP programban részt vevő partnerek számára. A számlázási, előfizetés-kezelési és technikai problémák támogatását fedezi.
+title: Támogatás biztosítása az ügyfeleknek
+description: Ismerje meg a CSP-programban részt vevő partnerek ügyfélszolgálati feladatait. A számlázás, az előfizetés-kezelés és a technikai problémák támogatását fedi le.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: Kim-Davis
@@ -9,47 +9,49 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
 ms.date: 01/22/2021
-ms.openlocfilehash: 315089a3a20fdd5f9de283494e735f54bd351806
-ms.sourcegitcommit: 0416562dd89408524f8312a8acd5b6944b6d91c4
+ms.openlocfilehash: 2c44581b1c2d7fcf2e4a10de9194a8c7288791a2
+ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "100541027"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172268"
 ---
 # <a name="providing-different-types-of-support-to-your-customers"></a>Különböző típusú támogatás nyújtása az ügyfeleknek
 
 **A következőre érvényes:**
 
--  Partnerközpont
 -  A Microsoft Cloud for US Government Partnerközpontja
 
+**Megfelelő szerepkörök**
 
-## <a name="microsoft-partner-support-guidance"></a>A Microsoft partner támogatási útmutatója
+- Súgóügynök
 
-A CSP-modellben lebonyolított partnerek a megbízható tanácsadók az ügyfelek számára, és ha Ön közvetlen számlázási partner, a végpontok közötti kapcsolat. A közvetett viszonteladóknak a közvetett szolgáltatókkal együtt kell működniük az ügyfelek támogatásához. Ez a kapcsolat magában foglalja az ügyfelek támogatását, ha kérdése vagy problémája van. Ha támogatást nyújt ügyfeleinek, lehetősége van arra, hogy további információkat tudjon meg az ügyfelekről és azok vállalatáról. Így könnyebben azonosíthatja az értékkel rendelkező új szolgáltatásokat és megoldásokat.
+## <a name="microsoft-partner-support-guidance"></a>Microsoft-partnertámogatási útmutató
 
-A támogatási követelmény teljesítése érdekében egy másik vállalattól, a támogatási struktúra teljes vagy egy részének kiépítésével, illetve egy olyan struktúra kialakításával lehet értékesíteni a támogatást, amely közvetlenül nyújt támogatást. Az ügyfelek számára biztosított támogatás díját vagy egy részét is felszámíthatja. Ügyeljen arra, hogy tájékoztassa az ügyfeleket az Ön által biztosított támogatási típusokról, a szolgáltatási órákról, a kapcsolattartási módszerről és a díjszabásról (ha a támogatásért díjat számítunk fel).
+A CSP-modellben tranzakciós partnerek az ügyfeleik megbízható tanácsadói, és ha Ön közvetlen számlázási partner, a kapcsolat végpontok közötti tulajdonában van. A közvetett viszonteladóknak a közvetett szolgáltatóikkal együtt kell működniük az ügyfelek támogatásához. Ez a kapcsolat magában foglalja az ügyfelek támogatását, amikor kérdéseik vagy problémáik vannak. Ha támogatást nyújt az ügyfeleinek, további információkat is megtud megtudhatóak az ügyfelekről és az üzletükről. Így könnyebben azonosíthatja az értékeket hajtó új szolgáltatásokat és megoldásokat.
 
-A CSP-ügyfelek önmagukban nem hozhatnak létre támogatási jegyet. Segítségért kapcsolatba kell lépniük Önnel. A CSP-partnereknek meg kell kapniuk a bejövő támogatási kérelmeket az ügyfelektől, a problémák diagnosztizálását a lehető legjobb módon, majd fel kell oldani az alapkonfiguráció-támogatási határok hatókörén belüli problémákat. Ha nem tudja elhárítani a problémát, a következő támogatási járműveken keresztül is megadhatja a problémákat a Microsoftnak:
+A támogatási követelmény teljesítéséhez értékesíthet támogatást egy másik vállalattól, kiszervezheti a támogatási struktúra egészét vagy egy részét, és/vagy beállíthat egy olyan struktúrát, amely közvetlenül nyújt támogatást. Az ügyfeleknek nyújtott támogatás egészét vagy egy részét fel kell számoltathatja. Mindenképpen mondja el az ügyfeleknek az Ön által nyújtott támogatás típusait, a szolgáltatási órákat, a kapcsolatfelvételi módot és a díjszabást (ha a támogatás díjszabása van be).
 
-- A **kereskedelmi** problémák támogatása a CSP program összes partnere számára elérhető
+Maguk a CSP-ügyfelek nem hozhatnak létre támogatási jegyeket. Támogatásért kapcsolatba kell lépniük Önnel. A CSP-partnereknek bejövő támogatási kéréseket kell fogadniuk az ügyfeleiktől, a lehető legjobban diagnosztizálni a problémákat, majd meg kell oldaniuk az alapkonfigurációk támogatási határain belül található problémákat. Ha nem sikerül megoldania egy problémát, a következő támogatási járműveken keresztül eszkalálhatja a problémákat a Microsoftnak:
 
-- **Technikai** támogatási támogatás – a [partneri támogatási csomagok összehasonlításával](https://partner.microsoft.com/support/partnersupport) vagy további információkért tekintse meg az alábbi hivatkozásokat egy adott támogatási csomagról:
+- **A** kereskedelmi probléma támogatása a CSP-program összes partnere számára elérhető
 
-  - [Premier szintű támogatás partnerek számára](https://partner.microsoft.com/support/microsoft-services-premier-support) (díj alapja, felhasználás az összes termékhez)
+- **Technikai** problémák támogatása – összehasonlíthatja a [partnertámogatási](https://partner.microsoft.com/support/partnersupport) csomagokat, vagy további információért tekintse meg az adott támogatási csomagra vonatkozó alábbi hivatkozásokat:
 
-  - [Speciális támogatás partnereknek](https://partner.microsoft.com/support/advanced-cloud-support) (díj alapja, kizárólag felhőalapú termékekhez való használat)
+  - [Premier szintű támogatás](https://partner.microsoft.com/support/microsoft-services-premier-support) (díjbázis, használat minden termékhez)
 
-  - Az [aláírási felhő támogatása](manage-your-partner-network-benefits.md) (beleértve az MPN előnyeit az arany vagy ezüst kompetenciák esetében, csak a felhőalapú termékek esetében használható)
+  - [Speciális támogatás partnerek számára](https://partner.microsoft.com/support/advanced-cloud-support) (díjbázis, csak felhőalapú termékekhez való használat)
 
-  - [Terméktámogatási incidensek](manage-your-partner-network-benefits.md) (az MPN a Gold, Silver vagy a Microsoft Action Pack-partnerek számára is hasznos, de csak a közelmúltban helyszíni termékekhez használható)
+  - [Signature Felhőtámogatás](manage-your-partner-network-benefits.md) (a Gold vagy Silver kompetencia MPN-előnyei közé tartozik, csak felhőalapú termékekhez használható)
 
-## <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázási, előfizetés-kezelési és technikai támogatás biztosítása 
+  - [Terméktámogatási incidensek](manage-your-partner-network-benefits.md) (amelyek a Gold, Silver vagy Microsoft Action Pack MPN-előnyei közé tartoznak, csak a legutóbbi helyszíni termékekhez használhatók)
 
-Az egyes online szolgáltatások speciális és részletes követelményeket támasztanak a számlázással, az előfizetés kezelésével és az ügyfeleknek nyújtott technikai támogatással kapcsolatban. További információt a következő dokumentumokban talál.
+## <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázás, előfizetés-kezelés és műszaki támogatás biztosítása 
 
-- [A CSP-n keresztül eladott Dynamics 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
+Minden online szolgáltatás egyedi és részletes követelményekkel rendelkezik az ügyfelek számára a számlázás, az előfizetés-kezelés és a műszaki támogatás biztosításához. További információért tekintse meg az alábbi dokumentumokat.
 
-- [CSP-n keresztül eladott Azure-előfizetések](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5263#M31)
+- [A Dynamics 365 CSP-ben értékesített előfizetései](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
 
-- [A CSP-n keresztül eladott Microsoft Office 365-előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5264#M32)
+- [CSP-n keresztül értékesített Azure-előfizetések](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5263#M31)
+
+- [Microsoft Office CSP-ben értékesített 365 előfizetés](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5264#M32)

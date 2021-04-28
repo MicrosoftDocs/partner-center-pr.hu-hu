@@ -1,49 +1,49 @@
 ---
-title: Microsoft-Partner keresése
+title: Microsoft-partner megkeresve
 ms.topic: article
 ms.date: 08/25/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Microsoft-partnerként kérdése lehet az ügyfelek vagy adott programok segítésére. Találjon további partnereket, akik segíthetnek.
+description: Microsoft-partnerként előfordulhat, hogy kérdései vannak arról, hogyan segíthet az ügyfeleknek vagy bizonyos programoknak. Keresse meg a további partnereket, akik segíthetnek.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
-ms.openlocfilehash: 8b056d21fd1581c9fa478f720addec0c1d4c3c87
-ms.sourcegitcommit: 4feae1ea7fd3077934e3c931a5de801c96a4f995
+ms.openlocfilehash: df7ae61a88852d6ef2e4c1cb210b689a20235d0c
+ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "92528206"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172336"
 ---
-# <a name="find-a-partner-or-solution-provider-to-answer-questions-about-programs-licensing-or-customer-deals"></a>Partner-vagy megoldás-szolgáltató keresése a programokkal, a licenceléssel vagy az ügyfél-ajánlatokkal kapcsolatos kérdések megválaszolásához 
+# <a name="find-a-partner-or-solution-provider-to-answer-questions-about-programs-licensing-or-customer-deals"></a>Partner vagy megoldásszolgáltató megkeresve válaszolja meg a programokkal, licencekkel vagy ügyfélszerződésekkel kapcsolatos kérdéseket 
 
-**A következőkre vonatkozik**
+**Megfelelő szerepkörök**
 
-- Microsoft MPN-partnerek, CSP-partnerek és egyebek
+- Minden Microsoft-partner
 
-Ez a cikk azt ismerteti, hogy a Microsoft partnerei hogyan találhatják meg a Microsoft-termékekkel és-szolgáltatásokkal kapcsolatos segítséget nyújtó más partnereket és ügyfeleiket.
+Ez a cikk azt mutatja be a Microsoft partnereinek, hogyan találhatnak meg más partnereket, akik segíthetnek nekik és az ügyfeleiknek a Microsoft-termékek és -szolgáltatások sikeres alkalmazásában.
 
-## <a name="different-microsoft-partners-and-solution-providers"></a>Különböző Microsoft-partnerek és-megoldások szolgáltatói
+## <a name="different-microsoft-partners-and-solution-providers"></a>Különböző Microsoft-partnerek és megoldásszolgáltatók
 
-A Microsoft partner-ökoszisztémában számos fajta partner vagy terjesztő található. A cikkben említettek közül néhány:
+A Microsoft partneri ökoszisztémájában számos partner- vagy forgalmazótípus létezik. A cikkben említettek közül többek között a következőkről lesz szó:
 
-- A Cloud Solution Provider (CSP) program közvetett viszonteladói és a közvetett szolgáltatók
-- Mennyiségi licencelési program terjesztői
+- Felhőszolgáltató (CSP) program közvetett viszonteladói és közvetett szolgáltatói
+- Mennyiségi licencprogram terjesztői
 - OEM-forgalmazók
 
-A CSP programban a partneri kapcsolatokkal kapcsolatos további információkért lásd: a [partner Center más partnereivel használható különböző módok](work-with-other-partners.md).
+A CSP-programban a partnerkapcsolatokkal kapcsolatos további információkért lásd: Más partnerekkel való munka különböző módjai a [Partnerközpont.](work-with-other-partners.md)
 
-## <a name="find-a-partner-solution-provider-or-distributor"></a>Partner, megoldás-szolgáltató vagy terjesztő keresése
+## <a name="find-a-partner-solution-provider-or-distributor"></a>Partner, megoldásszolgáltató vagy terjesztő megkeresve
 
-A következő táblázat segítséget nyújt a partner vagy a terjesztő megkeresésében.
+A partner vagy terjesztő megtalálásához tekintse meg a következő táblázatot.
 
 |Cél  | Olvassa el ezt  |
 |:------------------|:--------------- |
-|Olyan CSP közvetett szolgáltató keresése *(CSP közvetett viszonteladók számára, akik még nem rendelkeznek hozzárendelt közvetett szolgáltatóval)* | [Microsoft Partner Network közvetett szolgáltató keresési lapja](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)  |
-|Mennyiségi licencelési programbeli megoldás-szolgáltató vagy terjesztő keresése  | [Microsoft-megoldás szolgáltatójának keresési lapja](https://www.microsoft.com/solution-providers/home)  |
-|Microsoft által jóváhagyott OEM-csatorna forgalmazójának keresése  | [Microsoft Device partner Center OEM-keresési oldal](https://devicepartner.microsoft.com/connect/distributor)  |
+|Közvetett CSP-szolgáltató keresése (közvetett CSP-viszonteladók esetében, akik még nem vannak hozzárendelt *közvetett szolgáltatóval)* | [Microsoft Partner Network közvetett szolgáltató keresési oldala](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)  |
+|Mennyiségilicenc-program megoldásszolgáltatójának vagy terjesztőjának megkeresása  | [A Microsoft-megoldásszolgáltató keresőoldala](https://www.microsoft.com/solution-providers/home)  |
+|Microsoft által engedélyezett OEM-csatorna terjesztő megkeresésével  | [Microsoft Device Partnerközpont OEM keresési oldala](https://devicepartner.microsoft.com/connect/distributor)  |
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Legyen közvetett viszonteladó a CSP programban](https://partner.microsoft.com/licensing)
-- [További információ a közvetett viszonteladókkal és a közvetett szolgáltatókkal kapcsolatban a CSP programban](work-with-other-partners.md)
+- [Legyen ön közvetett viszonteladó a CSP-programban](https://partner.microsoft.com/licensing)
+- [További információ a közvetett viszonteladókról és a közvetett szolgáltatókról a CSP-programban](work-with-other-partners.md)

@@ -1,57 +1,57 @@
 ---
-title: Az MPN előnyeinek aktiválása a partner centeren kívül
+title: MPN-előnyök aktiválása a Partnerközpont
 ms.topic: how-to
 ms.date: 08/27/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ha továbbra is a Partner tagsági központ (PMC) használatát használja, Ismerje meg, hogy kik lépjenek kapcsolatba az MPN technikai támogatási előnyeinek aktiválásához és előnyben részesülő támogatási azonosítók biztosításához.
+description: Ha továbbra is a Partner Membership Center (PMC)-t használja, megtudhatja, hogy kit kell kapcsolatba lépnie az MPN műszaki támogatási előnyeinek aktiválásához, és hogy milyen előnyöket biztosít a támogatáshoz.
 author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 62bb526d1eab17a13e70b147a318b6e6fdaa84fb
-ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
+ms.openlocfilehash: 5773432f829a701baf4b36bdbae026241d0357a2
+ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106964442"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172183"
 ---
-# <a name="activate-microsoft-partner-network-technical-benefits-outside-of-partner-center"></a>A partner centeren kívüli technikai előnyök aktiválása Microsoft Partner Network
+# <a name="activate-microsoft-partner-network-technical-benefits-outside-of-partner-center"></a>A Microsoft Partner Network kívüli műszaki előnyök aktiválása Partnerközpont
 
 
 **Megfelelő szerepkörök**
 
-- Minden partner Center-felhasználó
+- Minden Partnerközpont felhasználó
 
-Ez a cikk Microsoft Partner Network (MPN) tagok számára is használható a partner Membership Center (PMC) használatával. Ezeknek a tagoknak segítségre van szükségük bizonyos MPN-tagsági előnyök (például technikai előnyök) aktiválásához az aktuális [partneri központ irányítópultján](https://partner.microsoft.com/dashboard)kívül.
+Ez a cikk olyan Microsoft Partner Network (MPN) tagjainak, akik még mindig Partner Membership Center (PMC) használnak. Ezeknek a tagoknak segítségre van szükségük bizonyos MPN-tagsági előnyök, például a technikai előnyök aktiválásához az aktuális [irányítópulton Partnerközpont.](https://partner.microsoft.com/dashboard)
 
-Számos Microsoft Partner Network (MPN) tag már [át lett telepítve a Partner tagsági központból a partner Centerbe](prepare-pmc-pc-migration.md) a felhasználók, az ügyfelek és az MPN előnyeinek kezeléséhez.
+Számos Microsoft Partner Network (MPN) tag már [](prepare-pmc-pc-migration.md) migrálva lett a Partner Membership Center-Partnerközpont, hogy segítsen a felhasználók, az ügyfelek és az MPN-előnyök kezelésében.
 
-Ha az MPN-tagság még a Partner tagsági központban (PMC) van, akkor segítségre lehet szüksége az MPN-ellátások aktiválásához.
+Ha az MPN-tagság még Partner Membership Center (PMC) része, segítségre lesz szüksége az MPN-előnyök aktiválásával.
 
-## <a name="activate-technical-benefits-by-region"></a>Technikai előnyök kikapcsolása régiónként
+## <a name="activate-technical-benefits-by-region"></a>Műszaki előnyök aktiválása régiónként
 
-Ha Ön egy PMC-felhasználó, akkor a technikai előnyök aktiválásához a következő táblázatban talál segítséget.
+Ha Ön PMC-felhasználó, tekintse meg ezt a táblázatot a műszaki előnyök aktiválásával kapcsolatos segítségért.
 
-(Ha már rendelkezik egy globális rendszergazdai vagy MPN-partneri rendszergazdai hozzáféréssel rendelkező partner Center-fiókkal, tekintse [meg a technikai előnyök kezelése](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits#manage-technical-benefits) című témakört.
+(Ha már rendelkezik globális rendszergazdai Partnerközpont MPN-partneri rendszergazdai hozzáféréssel, tekintse meg a műszaki előnyök kezelésével kapcsolatos [témakört.](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits#manage-technical-benefits)
 
-|Ennél a régiónál  | Kapcsolattartó |
+|Ehhez a régióhoz  | Kapcsolattartó |
 |:--------|:------------|
-|Észak-Amerika  | [Partneri Front-támogatás](https://partner.microsoft.com/support?issueid=300-0042)  |
-|Latin-Amerika  | [Partneri Front-támogatás](https://partner.microsoft.com/support?issueid=300-0042)  |
+|Észak-Amerika  | [Partneri elővonal-támogatás](https://partner.microsoft.com/support?issueid=300-0042)  |
+|Latin-Amerika  | [Partneri elővonal-támogatás](https://partner.microsoft.com/support?issueid=300-0042)  |
 |Európa, Közel-Kelet és Afrika  | [regform@msdirectservices.com](mailto:regform@msdirectservices.com)*  |
-|Ausztrália, Új-Zéland és Tajvan  | [Partneri Front-támogatás](https://partner.microsoft.com/support?issueid=300-0042)  |
-|Ázsia és a Csendes-óceáni térség és Kína  | Technikai támogatás  |
+|Ausztrália, Új-Zéland és Tajvan  | [Partneri elővonal-támogatás](https://partner.microsoft.com/support?issueid=300-0042)  |
+|Ázsia és a Csendes-óceáni térség és Nagyobb-Kína  | Technikai támogatás  |
 
-\***Európa, a Közel-Kelet és Afrika területén található partnereink esetében:** Az e-mailek RegForm – a következők: partner-azonosító, MPN-hez társított e-mail-cím, név, vállalat neve, telefon, város és ország. A támogatási szerződések létrehozásával vagy aktiválásával kapcsolatos segítségért használja a RegForm –. Ha más MPN-vel kapcsolatos problémái merülnek fel, forduljon a [partner Frontline támogatási szolgálatához](https://partner.microsoft.com/support?issueid=300-0042).
+\*Csak az európai, közel-keleti és **afrikai (EMEA) partnerek esetén:** A beállításűrlap e-mail-küldésekor a következőket kell tartalmaznia: Partnerazonosító, MPN társított e-mail-címe, neve, vállalat neve, telefonja, városa és országa. A Regform használatával segítséget nyújt a támogatási szerződések létrehozásához vagy aktiválásához. Ha más MPN-sel kapcsolatos problémái vannak, lépjen kapcsolatba [a Partner Frontline ügyfélszolgálatával.](https://partner.microsoft.com/support?issueid=300-0042)
 
-Miután aktiválta a kedvezményt, a vállalat alapvető előnyeihez társított program terméktámogatási azonosítóval fog részesülni. Ezek az azonosítók a **hozzáférési azonosítót** és a **Szerződés azonosítóját** is tartalmazzák. 
+A kedvezmény aktiválása után a vállalat alapvető előnyeihez társított program-kapcsolattartó megkapja az erre a juttatásra vonatkozó terméktámogatási 1-ediket. Ezek az azonosítók tartalmazni fogják a **hozzáférési azonosítót** és **a szerződésazonosítót.** 
 
-Előfordulhat, hogy Ön vagy a vállalat felhasználói számára meg kell osztania ezeket a terméktámogatási azonosítókat, amikor első alkalommal küld támogatási kérelmet bizonyos termékekre vagy szolgáltatásokra vonatkozóan.
+Előfordulhat, hogy Önnek vagy a vállalatának felhasználóinak meg kell osztaniuk ezeket a terméktámogatási rendszereket, amikor először küld támogatási kérést bizonyos típusú termékekhez vagy szolgáltatásokhoz.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Migrálás partneri tagsági központból a partneri központba](prepare-pmc-pc-migration.md)
-- [További információ az MPN-kompetenciákkal és-előnyökkel kapcsolatban](learn-about-competencies.md)
-- [Ismerje meg, hogyan kezelheti MPN-előnyeit a partner Centerben](manage-your-partner-network-benefits.md)
-- [Az MPN előnyeinek és támogatási azonosítóinak megkeresése a partner Centerben](mpn-find-benefits.md)
+- [Áttelepítés Partner Membership Center Partnerközpont](prepare-pmc-pc-migration.md)
+- [További információ az MPN-kompetenciákról és -előnyökről](learn-about-competencies.md)
+- [Megtudhatja, hogyan kezelheti AZ MPN előnyeit a Partnerközpont](manage-your-partner-network-benefits.md)
+- [Az MPN-előnyök és -támogatási Partnerközpont](mpn-find-benefits.md)
