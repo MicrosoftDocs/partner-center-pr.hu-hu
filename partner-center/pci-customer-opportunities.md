@@ -1,139 +1,142 @@
 ---
-title: Partneri központ – CloudAscent-feljelentési jelentések
-description: Ismerje meg a CloudAscent-felkészítési jelentéseket a partner Centerben. Az ügyfél által a Microsoft-termékek megvásárlására való hajlamával kapcsolatos információkat tartalmaz.
+title: Partnerközpont Insights – CloudAscent Propensity-jelentések
+description: További információ a CloudAscent propensity jelentésekről a Partnerközpont. Arra vonatkozó információkat tartalmaz, hogy az ügyfelek hogyan nem vásárolhatnak Microsoft-termékeket.
 ms.topic: conceptual
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.date: 09/18/2020
-ms.openlocfilehash: 2cdb63c8f7e29fc8a56e920b587e47c382c6eacb
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.date: 04/27/2021
+ms.openlocfilehash: 91f64faeec0b97be2797d489e152cb84cbb2e192
+ms.sourcegitcommit: 8bd2e2f2f0f6bcd0fa202787df5b3c1f786f88f9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086957"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "108213446"
 ---
-# <a name="cloudascent-propensity-reports-available-from-partner-center-dashboard"></a>A CloudAscent-jelentések elérhetők a partner Center irányítópultján
+# <a name="cloudascent-propensity-reports-available-from-partner-center-dashboard"></a>Az irányítópulton elérhető CloudAscent propensity Partnerközpont jelentéseket
 
 **Megfelelő szerepkörök**
 
-- Executive Report Viewer
-- Jelentés megjelenítője
+- Vezetői jelentésmegjelenítő
+- Jelentésmegjelenítő
 
-A partneri központ irányítópultja a CloudAscent programból letölthető, a rendelkezésre bocsátó adatokra vonatkozó adatait biztosítja. Az adatkezelési szolgáltatás a Microsoft-termékek vásárlásához szükséges ügyfeleket jeleníti meg.  Ez a cikk ismerteti az adatbontást, a pontozás használatát és azt, hogy mit jelent.
+A Partnerközpont irányítópult letölthető propenitási adatokat biztosít a CloudAscent programból. Az adatok azt mutatják, hogy az ügyfelek milyen valószínűséggel vásárolhatnak Microsoft-termékeket.  Ez a cikk az adatok lebontását, a pontozás használatát és azt ismerteti, hogy mit jelent.
 
-## <a name="summary-definitions"></a>Összefoglaló definíciók
+## <a name="summary-definitions"></a>Összegzési definíciók
 
-- **SMC-ügyfelek**– ez az ügyfelek teljes száma a felszállási letöltésekben.  Az ügyfeleket a Record partner azonosítja.
-- **Lejárati szerződések**– az aktuális pénzügyi évben a lejáró szerződések számát biztosítjuk.
-- **Lejáró bevétel**– a lejáró szerződésekhez kapcsolódó bevétel.
-- **Nyissa meg a lejáró bevételt**– a nyitott lejáró szerződésekhez kapcsolódó bevételt.
+- **SMC-ügyfelek**– Ez a propensitásletöltésben található ügyfelek teljes száma.  Az ügyfeleket a rekordpartner azonosítja.
+- **Szerződések lejárata**– Az aktuális pénzügyi évben meg kell adtunk a lejáró szerződések számát.
+- Open Expiring Revenue (Nyitott **lejáró bevétel)**– A nyitott lejáró szerződésekhez társított bevétel.
 
-:::image type="content" source="images/pci/cust-oppor-1.png" alt-text="Képernyőkép az ügyfelek lehetőségeinek összefoglaló irányítópultról.":::
+:::image type="content" source="images/pci/cust-oppor-11.png" alt-text="Képernyőkép az Ügyfelek lehetőségek összegzése irányítópultról.":::
 
 ## <a name="cloudascent-smb-segmentation"></a>CloudAscent SMB-szegmentálás
 
-A kis-és közepes méretű üzleti (SMB) szegmensek további három különálló alszegmensre oszlanak.
+A kis- és középvállalati (SMB) szegmens három különálló alszegmensre oszlik.
 
-1. A legtöbbet nem **felügyelt** legfontosabb SMB-ügyfelek a Microsoft legnagyobb lehetőségével rendelkeznek. A legnépszerűbb nem felügyelt ügyfelek a felügyelt fiókokhoz hasonló jellemzőkkel rendelkeznek, nagyszámú alkalmazottal, nagy informatikai költségvetéssel és költve, valamint nagy mennyiségű lehetséges bevétel a Microsoft számára.
+1. **A leggyakoribb nem nem használt szolgáltatás a** Legnagyobb SMB-ügyfeleket tartalmazza, akik a legtöbb lehetőséget kínálják a Microsoft számára. A tipikus nem felügyelt ügyfelek hasonló jellemzőkkel rendelkeznek, mint a felügyelt fiókok, sok alkalmazottal, nagy it-költségkeretekkel és kiadásokkal, valamint nagy mennyiségű potenciális bevétellel a Microsoft számára.
 
-   A legfelső szintű felügyelet nélküli két módszert definiáljuk:
+   A nem nem felső szintűeket kétféleképpen definiáljuk:
 
-   - **Leggyakoribb nem felügyelt felhasználó**– a 300 vagy több alkalmazottat tartalmazó fiókokat tartalmaz. A User-Based-fiókok kiváló célokat szolgálnak az első vagy a felhasználó-alapú előfizetési termékek, például a Microsoft 365, a Dynamics 365 vagy a Surface kibővítéséhez.
-   - **Top nem felügyelt számítási alapú** – a $10k-nál nagyobb Azure-potenciállal rendelkező fiókokat tartalmaz. A számítási alapú fiókok közé tartozik a meglévő Azure. a jövőbeli éves potenciállal rendelkező fiókok és az Azure-t még nem megvásárló fiókok, de a $10k-nál nagyobb kapacitással rendelkeznek.
+   - **Top Unmanaged User Based**–, 300 vagy több alkalmazottal rendelkező fiókokat tartalmaz. User-Based fiókok kiváló célok az első alkalommal való vásárláshoz, illetve a felhasználóalapú előfizetési termékek (például a Microsoft 365, a Dynamics 365 vagy a Surface) bővítéséhez.
+   - **Top Unmanaged Compute Based** ( Top Unmanaged Compute Based – Olyan fiókokat tartalmaz, amelyek azure-beli potenciálisan nagyobbak 10 ezer dollárnál). A számítási alapú fiókok tartalmazzák a meglévő Azure-t. a jelentős jövő évi potenciális fiókokkal és olyan fiókokkal, amelyek még nem vásárolják meg az Azure-t, de az Azure-ra több mint 10 ezer usd-t is el lehet látni.
 
-2. A **Medium Business** a meglévő ügyfeleket és a 25 – 300 alkalmazottat foglalkoztató fiókokat tartalmaz.
+2. **A Medium Business** a meglévő ügyfeleket és a 25–300 alkalmazottal rendelkező potenciális ügyfeleket tartalmazza.
 
-3. A **kisvállalkozások több** mint 25 alkalmazottal rendelkező fennmaradó vállalatot foglalnak magukban.
+3. **A kisvállalatok** 10–25 alkalmazottal dolgozó vállalkozásokat foglalnak magába.
 
-:::image type="content" source="images/pci/cust-oppor-2.png" alt-text="Ügyfél által SMC-típus.":::
+4. **A Nagyon kisvállalatok** közé tartoznak az 1–9 alkalmazottal dolgozó üzletek.
 
-A nem **felügyelt** és **közepes méretű üzleti** Alszegmensek magas élettartamú (LTV) ügyfeleket képviselnek a Microsoft és a Microsoft partnerei számára. Emiatt ezek a szegmensek a növekedéshez való összpontosítása. Ebben a két alszegmensben jobb helyzetben vagyunk, hogy beszerezzük a szoftvercsatornát Microsoft 365okkal, a D365/Azure üzletági (LOB) alkalmazások további bevételeit, és magas LTV a Microsoft számára.
+:::image type="content" source="images/pci/cust-oppor-2.png" alt-text="Ügyfél SMC-típus szerint.":::
 
-Napjainkban a lehetőség két kulcsfontosságú területtel rendelkezik – 1. ügyfelünk bővíti a növekedést; 2. a D365 és az Azure-ban nagy lehetőségünk van arra, hogy jól beszerezzük a Microsoft 365hoz vezető felhőalapú szoftvercsatornát.
+**A nem és a közepes** üzleti alkategóriák a Microsoft és a Microsoft partnerei számára jelentős élettartamú (LTV) ügyfeleket képviselnek.  Emiatt ezek a területek a növekedés fő területei ebben a szegmensben. Ebben a két alszegben jobb helyzetben vagyunk a szoftvercsatornák Microsoft 365-val való megszerzéséhez, a D365/Azure üzletági (LOB) alkalmazásokból való további bevételhez, és a Microsoft magas LTV-használatának szerzéséhez.
 
-A következő képernyőkép a három SMB-alszegmenst és a piacra optimalizált útvonalakat mutatja. A CloudAscent rangsorolja az összes nem felügyelt és közepes üzleti fiók profilkészítését, pontozását és modellezését.
+Jelenleg két fő lehetőségünk van: 1. az ügyfél növekedést ad hozzá; 2. míg a felhőbeli szoftvercsatornákat jól Microsoft 365, a Dynamics 365-ben és az Azure-ban nagy lehetőségünk van.
 
-:::image type="content" source="images/pci/cust-oppor-3.png" alt-text="Képernyőkép az SMB-alszegmensekről.":::
+Az alábbi képernyőkép a négy SMB-alszegmentet ábrázolja. A CloudAscent rangsorolnia kell az összes legfontosabb nem nem és közepes üzleti fiók profilkészítését, pontozását és modellezését.
+
+:::image type="content" source="images/pci/cust-oppor-32.png" alt-text="Az SMB-alszegmentek képernyőképe.":::
 
 ## <a name="cloudascent-machine-learning"></a>CloudAscent Machine Learning
 
-Az SMB gépi tanulási technológiát használ a legfelső szintű nem felügyelt és közepes üzleti szegmensen belüli értékesítési és marketing-ügyfelek előrejelzéséhez. Hogyan történik a jelek begyűjtése és a szolgáltatásokra vonatkozó javaslatok bekapcsolása?
+Az SMB gépi tanulási technológiával használja az értékesítési és marketing ügyfél-előrejelzéseket a nem használt és közepes üzleti szegmensben. Hogyan gyűjti és váltja fel a jeleket a propensitási javaslatokké?
 
-- **Adatgyűjtés**: a webes beolvasók több milliárd ügyfél-jelet vizsgálnak és gyűjtenek a vállalati tartományok pingelésével és a figyeléssel: blogbejegyzések, sajtóközlemények, közösségi streamek és technikai fórumok.  Az összegyűjtött jeleken kívül a firmographics információkat a belső és külső forrásokból is gyűjtjük, például a D&B, a Microsoft belső előfizetése és a tranzakciós adatok.
+- **Adatgyűjtés:** A webbejárási webbejárások több milliárd ügyféljelet vizsgálnak és gyűjtenek a vállalati tartományok pingelése, a blogbejegyzések figyelése, a kiadások, a közösségi streamek és a technikai fórumok segítségével.  Az összegyűjtött jelek mellett a céges adatok olyan belső és külső forrásokból is gyűjtenek adatokat, mint a D&B, a Microsoft belső előfizetési és tranzakciós adatai.
 
-- **Machine learning**: a rendszer a jeleket a gépi tanulási modellbe helyezi, amely strukturált adatkészletet hoz létre az értékesítések és a marketing-előrejelzések alapján minden ügyfél számára a felhőalapú termék és a fürt számára.  Minden ügyfél egy, a Microsoft legfontosabb SMB-modelljét használja, amely meghatározza az ügyfél illeszkedését, valamint a gépi tanulási algoritmusokat, amelyek az ügyfél online viselkedését a szándék szerint határozzák meg. A pontozás olyan fürtökbe van egyesítve, amelyekben az ügyfél a Microsoft Cloud termékek megvásárlására való hajlamot jeleníti meg.
+- **Machine Learning:** A jelek be vannak állítva a gépi tanulási modellbe, amely az egyes ügyfelekre vonatkozó értékesítési és marketing-előrejelzések strukturált adatkészletét adja vissza a felhőalapú termékek és fürtök alapján.  Minden ügyfél pontozása a Microsoft legfelső SMB-hez hasonló, az ügyfél illeszkedést meghatározó modelljével, az ügyfél online viselkedését integráló gépi tanulási algoritmusokkal pedig szándékként van meghatározva. A pontozás olyan fürtökbe van egyesülve, amelyek megmutatják, hogy az ügyfél nem hajlandó Microsoft Cloud-termékeket vásárolni.
 
-- **Optimalizálás**: a Machine Learningrendszer optimalizálja a modelleket úgy, hogy a tranzakciós adatokat havonta és az előfizetési adatokat negyedévente felhasználva.  A nyerési/adatvesztési művelettel a Machine Learning módosítja az algoritmusokat, és ellenőrzi, hogy a modellek a várt módon működnek-e a fürt ajánlásainak összehasonlításával a MSX.
+- **Optimalizálás:** A Machine Learning optimalizálja a modelleket a tranzakciós adatok havi és az előfizetési adatok negyedévente való fogyasztásával.  A nyerés/veszteség adatok használatával a Machine Learning beállítja az algoritmusokat, és ellenőrzi, hogy a modellek a várt módon működnek-e, összehasonlítva a fürtre vonatkozó javaslatokat az MSX-hez használt lehetőségekkel.
 
-:::image type="content" source="images/pci/cust-oppor-4.png" alt-text="Képernyőkép az SMB Machine learningről.":::
+:::image type="content" source="images/pci/cust-oppor-4.png" alt-text="Képernyőkép az SMB gépi tanulásról.":::
 
-## <a name="cloudascent-propensity"></a>CloudAscent-hajlam
+## <a name="cloudascent-propensity"></a>CloudAscent Propensity
 
-Hogyan jönnek létre a megfogalmazási javaslatok?
+Hogyan jön létre a propensitási javaslatok létrehozása?
 
-A webes bejárásokkal és a különböző forrásokból származó adatokkal gyűjtött jelek használatával konszolidáljuk a firmographics-adatokat és az ügyfél közösségi médiájának jelzéseit.  A pontozás ezeket a jeleket és az adatelemzési modelleket használja az illesztési és pontozási modellekhez.
+A webes webbejárási eszközök és a különböző forrásokból származó adatok alapján gyűjtött jelek használatával konszolidáljuk a céges adatokat és az ügyfél közösségimédia-jeleit.  A pontozás ezeket a jeleket és adatokat használja összehasonlítási modellekben a szándékok illesztési és pontozási modelljeihez.
 
-1. Ügyfél-fiókhoz igazítás
+1. Ügyfélfiók illeszkedés
 
-   - A firmographics definiáló belső és külső adatpontok.
+   - Belső és külső adatpontok, amelyek a céges adatokat határozzák meg.
 
-   - Az illeszkedő pontozás a legjobb SMB modell használatával hasonlítja össze az ügyfeleket, és megtudhatja, hogy lehetséges-e a Microsoft Cloud termékekhez való illeszkedés.
+   - A illeszkedés pontozása a legjobb SMB-modellhez hasonlóan hasonlítja össze az ügyfeleket, és megnézi, hogy megfelelőek-e a Microsoft Cloud-termékekhez.
 
-   - Az illesztési pontozás negyedévente frissül
+   - A illeszkedés pontozása negyedévente frissül
 
-2. Vevői fiók leképezése
+2. Ügyfélfiók szándéka
 
    - A közösségi médiával és az ügyfél online viselkedésével kapcsolatos jelek határozzák meg a szándékot.
 
-   - A leképezési pontozás a fürtök definiálására alkalmas.
+   - A szándékpontozás felül megfelel a fürtök meghatározásának.
 
-   - A szándékok pontozása havonta frissül.
+   - A szándékpontozás havonta frissül.
 
    :::image type="content" source="images/pci/cust-oppor-5.png" alt-text="CloudAscent SMB prediktív modellek.":::
 
 3. Fürtözés
 
-   A megfelelő és a szándékú jelek összevonása egy fürtözési pontszámba történik. A CloudAscent négy fürttel rendelkezik:
+   Az illesztési és szándékra vonatkozó jelek egy fürtözési pontszámban vannak összesíteni. A CloudAscent négy fürtből rendelkezik:
 
-      - Azonnali működés – értékesítésre kész ügyfelek
-      - Kiértékelés – marketing-Ready ügyfelek
-      - Ápolás – a tudatosságnövelő kampányok
-      - Nevelés – képzés és monitorozás a szándékkal
+      - Act Now – értékesítésre kész ügyfelek
+      - Értékelés – marketingre kész ügyfelek
+      - Figyelemfelkeltő kampányok
+      - Oktatás – szándék oktatása és figyelése
 
-   A fürtözés lehetővé teszi a felhasználók számára, hogy meghatározott ügyfeleket célozzanak értékesítési és marketing kezdeményezésekhez szegmens tényezők alapján, például: termék, Geo, iparág és vertikális.
+   A fürtözés lehetővé teszi, hogy a felhasználók adott ügyfeleket célozzanak meg értékesítési és marketinges kezdeményezésekhez olyan szegmenstényezők alapján, mint például a termék, a földrajzi hely, az iparág és a vertikális.
 
-   A CloudAscent-munkafüzetek megosztó **modell** lapja megosztja a hajlamot és a becsült szóköz bevételt. A Fit és a szándék fürtözésének definiálásához végezze el a következő lépéseket:
+   A CloudAscent-munkafüzetek **Propensity Model (Propensity-modell)** lapja a propensitást és a becsült térbeli bevételt osztja meg. Az illeszkedés és a szándék fürtözésének meghatározásához a következő lépéseket kell végigmenni:
 
-      1. A ML-modellek használatával először a 100-es skálán számítjuk ki az ügyfél-igazítási pontszámot és a szándék pontszámát.  A pontos pontszámok ML modellek alapján változnak.  Példa az alábbi pontszámokra:
+      1. Ml-modellek használatával először kiszámítjuk a Customer Fit Score (Ügyfél illesztési pontszáma) és a Intent Score (szándék pontszáma) értékeket egy 100-as skálán.  A pontos pontszámok az ML-modellektől függően változnak.  Példa pontszámok alább:
 
          |**Osztályozás**|**Pontszám**|
          |---------|:---------|
-         |Magas|75 – 100|
-         |Közepes|55 – 74|
+         |Magas|75 - 100|
+         |Közepes|55 - 74|
          |Alacsony|30 - 54|
          |Nagyon alacsony|0 - 29|
 
-      2. A fenti szabály használatával a vállalatokat magas, közepes, alacsony és nagyon alacsony értékre osztályozjuk mind az ügyfél, mind a szándékos jelzések esetében.
+      2. A fenti szabályt használva a vállalatokat magas, közepes, alacsony és nagyon alacsony besorolásúként osztályozjuk mind az ügyfél illeszkedési, mind a szándékjel alapján.
 
-      3. Az ügyfél-igazítási és szándéki jeleket egy 2D-mátrixban ábrázoljuk, amely a hajlamot jelképező minden metszettel rendelkezik. Például: nagy teljesítményű + magas szándékú = a1, amely a legmagasabb szintű hajlamot jelöli.
+      3. Az ügyfelek illeszkedési és szándékjeleit egy 2D-s mátrixon ábrázoljuk, és minden metszet a nem megfelelőséget jelképez. Például: Magas illeszkedés + Magas szándék = A1, amely a legnagyobb propensitást képviseli.
 
-      4. Végül ezek a szegmensek csoportosítva alkotják a fürtöket.  Például: a1, a2, a3, a4, a jogszabály most fürt.
+      4. Végül ezek a szegmensek csoportosítva alkotnak fürtöt.  Például az A1, A2, A3, A4 az Act Now fürtöt alkotják.
 
-         :::image type="content" source="images/pci/cust-oppor-6.png" alt-text="CloudAscent modellek.":::
+         :::image type="content" source="images/pci/cust-oppor-6.png" alt-text="CloudAscent-modellek.":::
 
-   Ezen ügyfelek esetében javasoljuk, hogy most célozza meg a célzást, és értékelje az ügyfeleket.
+   Javasoljuk, hogy ezeknél az ügyfeleknél az Act Now (Most járjon el) és a Evaluate customers (Ügyfelek kiértékelése) célcsoportot célozza meg.
 
 ## <a name="cloudascent-products--models"></a>CloudAscent-termékek & modellek
 
-A következő ábra az egyes CloudAscent-modellekre vonatkozó nézeteket tartalmazza:
+Az alábbi ábra a CloudAscent szolgáltatáson belüli egyes támogatói modelleket tartalmazza:
 
-:::image type="content" source="images/pci/cust-oppor-7.png" alt-text="CloudAscent-modellezési modell.":::
+:::image type="content" source="images/pci/cust-oppor-7.png" alt-text="CloudAscent propensity modell.":::
 
-A szóközökből álló modellek olyan meglévő Microsoft-ügyfelek számára készült előrejelzésekből állnak, amelyek nem rendelkeznek termékkel és/vagy a nettó új potenciális ügyfelekkel.
+A téreltérmodellek olyan meglévő Microsoft-ügyfelek előrejelzései, akik nem tartalmaznak terméket, és/vagy nettó új potenciális ügyfelek.
 
-A upsell-modellek tranzakciós adataikkal jósolják meg az Azure-ban és Microsoft 365 SKU-ban felhasználható upsell-t.
+Az upsell modellek tranzakciós adatokkal jelezik előre az Azure-beli és a Microsoft 365 potenciális lehetőségeit.
 
-Az EOS a Windows 7, az Office 2010, a SQL Server és a Windows Server rendszerhez tartozó ügyfeleket osztja meg. Az EOS-adatok az MS Sales szolgáltatásból vannak leküldve, és az CloudAscent-modellezési modellezéssel, ahol elérhető. Az EOS-adatforgalom a modern és az Azure Sales szolgáltatásban is működik.
+Ezek az ügyfelek már most is az Azure-ral vagy a Microsoft 365, és az upsell modell azt mutatja, hogy valószínűleg többet fognak vásárolni a meglévő termékváltozatukból.
+
+Az EOS a Win 7, az Office 2010, a SQL Server és a Windows Server esetében megosztja a szolgáltatásvégi (EOS) ügyfeleket. Az EOS-adatokat a rendszer lekérte az MS Sales szolgáltatásból, és átfedi őket a CloudAscent propensity modellel, ha elérhető. Az EOS-adatok a Modern Workben és az Azure Salesben játszódnak.

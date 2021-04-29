@@ -1,20 +1,20 @@
 ---
 title: Regisztráció a felhőszolgáltatói programban
 ms.topic: how-to
-ms.date: 11/29/2020
+ms.date: 04/19/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan regisztrálhat a felhőalapú megoldás-szolgáltatói (CSP) program értékesítési modelljére, amely a legmegfelelőbb a vállalata számára, mint például a közvetett viszonteladó vagy a Direct-Bill partner.
+description: Megtudhatja, hogyan regisztrálható a Felhőszolgáltató (CSP) program üzleti számára leginkább megfelelő értékesítési modelljére, például közvetett viszonteladóra vagy közvetlen számlázási partnerre.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8cc74ac7549dd9c58827eac4ca7ff780062cc519
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 9307f57c0d356dbbce16de2f1566b4491867c361
+ms.sourcegitcommit: 8bd2e2f2f0f6bcd0fa202787df5b3c1f786f88f9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441812"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "108213380"
 ---
 # <a name="enroll-in-the-cloud-solution-provider-program"></a>Regisztráció a felhőszolgáltatói programban
 
@@ -24,75 +24,107 @@ ms.locfileid: "106441812"
 
 ## <a name="get-started"></a>Bevezetés
 
-A felhőalapú megoldások és szolgáltatások gyorsan növekvő igénye számos lehetőséget kínál a Microsoft partnerei számára, hogy nyereséges felhőalapú megoldási vállalkozásokat építsenek. Azok a partnerek, akik készen állnak a piacra lépésre, de nem szeretnének több szállítót kezelni, vagy akik nem rendelkeznek teljes körű ügyfélkapcsolat-kezelési infrastruktúrával, a Microsoft felhőalapú megoldás-szolgáltatói (CSP) programjának közvetett viszonteladóként való regisztrálására is jogosultak.
+A felhőalapú megoldások és szolgáltatások iránti gyorsan növekvő igény számos lehetőséget kínál a Microsoft-partnerek számára, hogy minden méretben nyereséges felhőmegoldás-vállalkozásokat építsenek. Azok a partnerek, akik készen állnak a piacra belépni, de nem szeretnék, hogy több szállítót is felügyeljenek, vagy akik nem állnak használatban végpontok közötti ügyfélkapcsolat-kezelési infrastruktúrával, regisztrálhatnak közvetett viszonteladóként a Microsoft Felhőszolgáltató (CSP) programjában.
 
-A Cloud Solution Provider programban való regisztráláshoz először MPN-AZONOSÍTÓra van szükség. Még nem rendelkezik ilyennel? Csatlakozzon [ide](https://partner.microsoft.com/).
+A Felhőszolgáltató programba való regisztráláshoz először MPN-azonosítóra van szükség. Még nincs ilyen? Csatlakozzon [ide.](https://partner.microsoft.com/)
 
-A CSP-alkalmazás elvégzéséhez szüksége lesz a vállalat MPN-AZONOSÍTÓJÁRA, a teljes üzleti címre, a banki adatokra és a partneri központ rendszergazdájaként tevékenykedő alkalmazott munkahelyi e-mail-címére.
+A CSP-alkalmazás befejezéséhez szüksége lesz a vállalat MPN-azonosítójára, teljes üzleti címére, banki adataira és a munkahelyi e-mail-címre, amely a vállalat rendszergazdája Partnerközpont.
 
-1. Jelentkezzen be a partner Centerbe munkahelyi e-mail-címével (azaz az Azure AD-bérlői hitelesítő adataival).
+1. Jelentkezzen be Partnerközpont e-mail-címére (az Azure AD-bérlő hitelesítő adataival).
 
-2. Hozzon létre egy partner-profilt, és rendelje hozzá az MPN-azonosítót a profilhoz.
-Több napot is igénybe vehet, hogy áttekintse és ellenőrizze a megadott adatokat. E-mailt küldünk Önnek, amikor elvégezte a felülvizsgálatot.
+2. Hozza létre a partnerprofilt, és társítsa MPN-azonosítóját a profiljához.
+A megadott információk áttekintése és ellenőrzése több napot is igénybe vehet. A felülvizsgálat befejezése után e-mailben értesítjük.
 
-3. Miután ellenőrizte az adatait, fogadja el a Microsoft közvetett viszonteladói szerződését.
+3. Az adatok ellenőrzése után fogadja el a Microsoft közvetett viszonteladói szerződését.
 
 > [!IMPORTANT]  
-> A CSP program egyik partnere nem tudja újra eladni online szolgáltatások a CSP program egy másik partneréhez. Ez a korlátozás csak a CSP-tranzakciók végrehajtásához használt bérlőre vonatkozik. Azok a CSP-partnerek, akik nem CSP bérlőt használnak a vállalati használatra, vásárolhatnak online szolgáltatások egy másik CSP-partnertől. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival vagy a szabályzat változásaival kapcsolatos híreket a szokásos kommunikációs csatornákon keresztül hirdetjük meg, beleértve a [partneri központ bejelentéseit](announcements/index.md)is.
+> A CSP-programban lévő partner jelenleg nem értékesíthet online szolgáltatások másik partnernek a CSP-programban. Ez a korlátozás csak a CSP-tranzakciók elvégzéséhez használt bérlőre vonatkozik. Azok a CSP-partnerek, akik nem CSP-bérlőt használnak a vállalati használatra, online szolgáltatások egy másik CSP-partnertől vásárolhatnak. A Microsoft folyamatosan áttekinti az összes program szabályzatát és képességeit. A funkció kiadásokkal vagy szabályzatváltozásokkal kapcsolatos híreket a szokásos kommunikációs csatornákon jelentjük be, beleértve [a Partnerközpont bejelentéseit is.](announcements/index.md)
 
 ## <a name="enroll-as-an-indirect-reseller"></a>Regisztráció közvetett viszonteladóként
 
-Ha a CSP program közvetett viszonteladóként van regisztrálva, nem közvetlenül a Microsofttól vásárolhatja meg a termékeket, és nem számlázhatja azokat. Ehelyett a közvetlenül a Microsofttal lebonyolított közvetett szolgáltatók (más néven terjesztők) is dolgozhatnak.
+Ha közvetett viszonteladóként regisztrál a CSP-programban, nem vásárol termékeket közvetlenül a Microsofttól, és nem is számláz ki közvetlenül. Ehelyett közvetett szolgáltatókkal (más néven forgalmazókkal) fog dolgozni, akik közvetlenül a Microsofttal dolgoznak.
 
-A közvetett szolgáltatókkal való partneri kapcsolat azt jelenti, hogy nem kell az infrastruktúrát a piacra lépnie, vagy közvetlenül a Microsofttól vásárolnia, de a sikeres működés érdekében egy tapasztalt technológiai szolgáltatóval is dolgozhat. A szolgáltató – viszonteladói modellben a szolgáltató felhőalapú megoldásokat és szolgáltatásokat vásárol a Microsofttól, és a termékek üzembe helyezésére és kiszolgálására támaszkodik.
+A közvetett szolgáltatóval való partneri kapcsolatot azzal jelenti, hogy nincs szüksége a piacra kerüléshez vagy a Microsofttól való közvetlen vásárláshoz szükséges infrastruktúrára, hanem egy tapasztalt technológiai szolgáltatóval is dolgozhat a siker biztosítása érdekében. A szolgáltató-viszonteladói modellben a szolgáltató felhőalapú megoldásokat és szolgáltatásokat vásárol a Microsofttól, és Önre támaszkodik a termékek üzembe helyezése és kiszolgálása érdekében.
 
-A különböző közvetett szolgáltatók különböző támogatást és szolgáltatásokat kínálnak, ezért érdemes kiértékelnie, hogy mely szolgáltatók felelnek meg legjobban az igényeinek. A legtöbb szolgáltató általában a következőket biztosítja:
+A különböző közvetett szolgáltatók különböző támogatást és szolgáltatásokat kínálnak, ezért érdemes kiértékelni az Ön területén található szolgáltatókat, hogy eldöntse, melyik felel meg legjobban az igényeinek. A legtöbb szolgáltató általában a következőt fogja:
 
-- Technikai képzést és segítséget nyújt
+- Műszaki képzés és segítségnyújtás
 
-- A termékek és szolgáltatások piacra jutásának elősegítése
+- Segítség a termékek és szolgáltatások piaci marketingjére
 
-- Segítséget nyújt a finanszírozási és a kredit feltételek létrehozásához
+- Segítség a szerződési és jóváírási feltételek megállapításához
 
-Ha még nem dolgozik szolgáltatóval (más néven terjesztővel), [a Microsoft a hivatalos Microsoft-szolgáltatók listájában](https://partnercenter.microsoft.com/partner/find-a-provider) kereshet egyet.
+Ha még nem dolgozik együtt egy szolgáltatóval (más néven terjesztővel), megkeresheti a hivatalos [Microsoft-szolgáltatók](https://partnercenter.microsoft.com/partner/find-a-provider) listájában.
 
-További információ arról, hogy mire van szükség a CSP programban való részvételhez közvetett viszonteladóként: az első lépések a [Microsoft Partner Network webhelyén](https://partner.microsoft.com/), [közvetett viszonteladóként](https://partner.microsoft.com/cloud-solution-provider/whats-required) .
+További információ a CSP-programban való részvételhez közvetett viszonteladóként: Első [](https://partner.microsoft.com/cloud-solution-provider/whats-required) lépések közvetett viszonteladóként az Microsoft Partner Network [webhelyén.](https://partner.microsoft.com/)
 
-## <a name="enroll-as-a-direct-bill-partner"></a>Regisztrálás közvetlen számlázási partnerként
+## <a name="enroll-as-a-direct-bill-partner"></a>Regisztráció közvetlen számlázási partnerként
 
-Közvetlen számlás partnerként Ön rendelkezik a teljes körű kapcsolattal az ügyféllel és a Microsofttal. Frissítettük a regisztrációs követelményeket a közvetlen számlázási partnereink számára, 2020. október 27-én. Ezek a követelmények segítenek felgyorsítani az üzleti növekedést a megfelelő felhőalapú megoldás-szolgáltatói modellel, és megerősítik az ügyfélkapcsolatokat értéknövelt szolgáltatásokkal és támogatással.  
+Közvetlen számlázási partnerként Ön a végpontok közötti kapcsolat az ügyféllel és a Microsofttal. 2020. október 27-én frissítettük a közvetlen számlázási partnerek regisztrációs követelményeit. Ezek a követelmények segítenek felgyorsítani az üzleti növekedést a megfelelő Felhőszolgáltató modellel, és az ügyfélkapcsolatokat értékkel bíró szolgáltatásokkal és támogatással erősítik.  
 
 ### <a name="minimum-requirements"></a>Minimális követelmények
 
 |**Követelmény**|  **Leírás**  |
 |--------------------------------|--------------------------------------------------------------|
-|**MPN-azonosító**   |Aktív tagság a Microsoft Partner Network és az MPN-AZONOSÍTÓban azon a helyen, ahová az értékesítést el szeretné adni.    |
-|**Ajánlás**   |A jogi szerződések elfogadására és aláírására szolgáló hatóság a szervezet nevében.|
-|**Támogatás**   |A felhőalapú terméktámogatás első szintjének megadásának lehetősége az ügyfelek számára. <br>Egy Microsoft támogatási csomag, amely a partnerek (ASfP) vagy a Premier szintű támogatás for Partners (PSfP) speciális támogatása az igényeitől függően. A [támogatási csomagok összehasonlítása](https://partner.microsoft.com/support/partnersupport).<br> Fontos: a támogatási csomag megvásárlása előtt el kell juttatnia a kredit-ellenőrzését. A kredit-ellenőrzés átadásakor e-mailt küldünk Önnek. |
-|**Bevételi követelmény**|Meg kell felelnie legalább USD300K a Cloud Solution Provider program keretében az előző 12 hónap során közvetett viszonteladóként. A partnerek 12 hónapos bevételt tekinthetnek meg a partneri központban.<br/>A USD300K záró 12 hónapos bevételt alkotó értékesítéseket a Microsoft felülvizsgálja és igazolja, és további információkat kérhet. A USD300K bevételi követelmény kiszámítása a felhőalapú bevétel alapján történik, és a rendszer kizárja az örökös szoftvereket a CSP-ben.|
-|**Kinnlevőségek** |Az ügyfél számlázásának és kiépítésének kezelésére szolgáló szervezeti infrastruktúra.|
+|**MPN-azonosító**   |Aktív tagság a Microsoft Partner Network és MPN-azonosító az értékesíteni kívánt helyhez.    |
+|**Ajánlás**   |A szervezet nevében elfogadhatja és aláírhatja a jogi megállapodásokat.|
+|**Támogatás**   |Az első szintű felhőalapú terméktámogatás lehetősége az ügyfelek számára. <br>A Microsoft támogatási csomagja, vagy a Partnerek speciális támogatása (ASfP) vagy Premier szintű támogatás partnerek számára (PSfP) az igényeinek megfelelően. [Támogatási csomagok összehasonlítása.](https://partner.microsoft.com/support/partnersupport)<br> FONTOS: Támogatási csomag vásárlása előtt át kell mennie egy hitelképesség-ellenőrzésen. A hitelkeret-ellenőrzésről e-mailben értesítjük. |
+|**Bevételi követelmény**|Legalább 300 000 USD Felhőszolgáltató program éves bevételét kell teljesítenie az előző 12 hónap során közvetett viszonteladóként. A partnerek a 12 hónapos bevételük után áttekintheti a Partnerközpont.<br/>A 300 000 USD összegű, 12 hónapos bevételt eredményező értékesítéseket a Microsoftnak át kell vizsgálnia és vissza kell vizsgálnia, és előfordulhat, hogy további információkat is meg kell adnia. A 300 000 USD bevételi követelményt a rendszer a felhőbeli bevétel alapján számítja ki, és kizárja a folyamatos szoftvereket a CSP-ben.|
+|**Kinnlevőségek** |Az ügyfelek számlázásának és kiépítésének kezeléséhez szükséges szervezeti infrastruktúra.|
 |**Ajánlás**|             |
-|**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfél-megoldás alkalmazás. További információ a [felügyelt szolgáltatások](https://partner.microsoft.com/business-opportunities/managed-services-provider)hozzáadásáról.|
+|**Felügyelt szolgáltatás**   |Legalább egy felügyelt szolgáltatás, IP-szolgáltatás vagy ügyfélmegoldási alkalmazás. További információ a felügyelt [szolgáltatások hozzáadásáról.](https://partner.microsoft.com/business-opportunities/managed-services-provider)|
 
-### <a name="verify-direct-bill-eligibility"></a>Közvetlen számlázási jogosultság ellenőrzése
+### <a name="verify-direct-bill-eligibility"></a>A közvetlen számla jogosultságának ellenőrzése
 
-Miután meggyőződött arról, hogy teljesíti a közvetlen számlázási partnerként való regisztráláshoz szükséges minimális követelményeket, folytassa a [beléptetési űrlap](https://partner.microsoft.com/pcv/register/joinnow/enrollmentwelcome/Reseller/migrate?cloudInstance=Global)használatával.
+Miután ellenőrizte, hogy megfelel-e a közvetlen számlázási partnerként való regisztrációhoz szükséges minimális követelményeknek, továbbléphet a regisztrációs [űrlapra.](https://partner.microsoft.com/pcv/register/joinnow/enrollmentwelcome/Reseller/migrate?cloudInstance=Global)
 
-Miután meggyőződött arról, hogy a vállalat megfelel a közvetlen számlázási partnerként való regisztrálásra vonatkozó jogosultsági követelményeknek, és végrehajtotta a beléptetési alkalmazást, áttekintjük és ellenőrizzük a beléptetési folyamat során megadott üzleti adatokat. Ennek a felülvizsgálatnak a részeként ellenőrizzük a vállalat kreditjét. Értesítjük e-mailben, ha a vállalata átadta a kredit-ellenőrzéseket.
+Miután meggyőződtünk arról, hogy a vállalat megfelel a közvetlen számlázási partnerként való regisztráció jogosultsági követelményeinek, és Ön befejezte a regisztrációs alkalmazást, áttekintjük és ellenőrizzük a regisztrációs folyamat során megadott üzleti adatokat. A felülvizsgálat részeként ellenőrizzük a céges krediteket. E-mailben értesítjük, ha a vállalata áteste a hitelkeret-ellenőrzést.
 >[!IMPORTANT]
->A céges kreditek ellenőrzése több napot is igénybe vehet. Ebben az időszakban fontos, hogy ne vásároljon Microsoft-támogatási csomagot. Csak akkor vásároljon Microsoft-támogatási csomagot, ha tájékoztatta Önt arról, hogy átadta a kreditek ellenőrzését.
+>A vállalati kreditek ellenőrzése több napot vagy többet is igénybe vehet. Ez idő alatt fontos, hogy NE vásároljon Microsoft-támogatási tervet. A Microsoft támogatási csomagját csak akkor érdemes megvásárolni, ha már tájékoztattunk arról, hogy a hitelkeret-ellenőrzésen már túl van.
 
-### <a name="transition-from-direct-bill-to-indirect-reseller"></a>Áttérés a közvetlen számlázásról a közvetett viszonteladóra
+### <a name="transition-from-direct-bill-to-indirect-reseller"></a>Váltás közvetlen számláról közvetett viszonteladóra
 
-Ahogy a CSP program folyamatosan fejlődik és növekedni fog, érdemes lehet közvetett viszonteladóként részt venni a közvetlen számlázási partner helyett. A közvetlen számlázási bérlőt áthelyezheti a partner Center közvetett viszonteladói modelljébe.
+Mivel a CSP-program folyamatosan fejlődik és növekszik, érdemes lehet közvetett viszonteladóként részt vennie a programban közvetlen számlázási partner helyett. A közvetlen számlázási bérlőt át lehet irányítani a közvetett viszonteladói modellre a Partnerközpont.
 
-A közvetlen számlázási partnertől a közvetett viszonteladóig történő áttéréssel kapcsolatos információkért lásd: [áttérés a Cloud Solution Provider (CSP) közvetlen számlázási partnertől a CSP közvetett viszonteladóval](transition-direct-to-indirect.md) .
+A közvetlen számlázási partnerről Felhőszolgáltató közvetett csp-viszonteladóra való áttérésről a közvetlen számlázási partnerről egy közvetett viszonteladóra való áttérésről lásd: Váltás közvetlen számlázási partnerről [(CSP)](transition-direct-to-indirect.md) közvetett viszonteladóra.
 
 ## <a name="csp-regional-markets-and-currencies"></a>CSP regionális piacok és pénznemek
 
-A vállalat piacát a vállalat földrajzi helye határozza meg. A piac azokat a régiókat és/vagy országokat jelenti, ahol a vállalat értékesítheti a CSP-ajánlatokat. Tekintse meg a [Cloud Solution Provider program regionális piacait és pénznemeit](regional-authorization-overview.md) a piaci helyszínekhez és pénznemekhez.
-Ügyeljen arra, hogy beolvassa az [előfeltételeket, hogy új helyet adjon a CSP-vállalat számára](manage-locations.md).
+A vállalat piacát a vállalat földrajzi helye határozza meg. A piac azokat a régiókat és/vagy országokat jelenti, ahol a vállalat értékesítheti a CSP-ajánlatokat. [Lásd Felhőszolgáltató program regionális piacai és pénznemei](regional-authorization-overview.md) a piaci helyekhez és pénznemekhez.
+Ha új helyet szeretne hozzáadni egy CSP-vállalkozáshoz, olvassa el az Előfeltételek [elolvasva.](manage-locations.md)
+
+## <a name="provide-partner-registration-id-number-for-specific-countries"></a>Adja meg a partnerregisztrációs azonosító számát adott országokhoz
+
+Ha Ön közvetett szolgáltató, közvetlen számlázási partner vagy közvetett viszonteladó, és a következő országokban új vagy meglévő ügyfelekkel üzleti kapcsolatban áll, meg kell adnia a vállalat regisztrációs azonosítószámait. Ha az alábbi listán nem szerepel az üzleti tevékenység országa, a regisztrációs azonosító megadása nem kötelező.
+
+- Örményország 
+- Azerbajdzsán 
+- Belarusz 
+- Brazília 
+- Magyarország 
+- India 
+- Irak 
+- Kazahsztán 
+- Kirgizisztán 
+- Moldova 
+- Mianmar 
+- Lengyelország 
+- Oroszország 
+- Szaúd-Arábia 
+- Dél-afrikai Köztársaság 
+- Dél-Szudán  
+- Tádzsikisztán 
+- Thaiföld
+- Törökország 
+- Ukrajna 
+- Egyesült Arab Emírségek 
+- Üzbegisztán 
+- Venezuela
+- Vietnam 
+
+
+További információkért olvassa el a [regisztrációs azonosító száminformációját.](reg-number-id.md)
 
 ## <a name="next-steps"></a>Következő lépések
 
-[Ismerje meg a Microsoft partneri szerződést (MPA) a CSP program partnerei számára](microsoft-partner-agreement.md)
+[További információ a Microsoft Partnerszerződés (MPA) a CSP-programpartnerek számára](microsoft-partner-agreement.md)

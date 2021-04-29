@@ -9,7 +9,7 @@
     - name: Legyen Ön is Microsoft-partner
       href: mpn-overview.md
       displayName: mpn
-    - name: MPN-fiók létrehozása a partner Centerben
+    - name: MPN-fiók létrehozása a Partnerközpont
       href: mpn-create-a-partner-center-account.md
       displayName: mpn
     - name: Fiókbeállítások hibaelhárítása
@@ -38,13 +38,13 @@
         - name: A saját ajánlatok megújítása
           href: renew-mpn-offers.md
           displayName: mpn
-        - name: Visszatérítés igénylése
+        - name: Visszatérítés kérése
           href: mpn-refund-request.md
           displayName: mpn
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
           displayName: mpn
-        - name: A pay kompetencia díjai
+        - name: Kompetenciadíjak fizetése
           href: mpn-pay-fee-silver-gold-competency.md
           displayName: mpn
     - name: Kompetenciák
@@ -52,7 +52,7 @@
         - name: A kompetenciák ismertetése
           href: learn-about-competencies.md
           displayName: mpn
-        - name: Regisztrálás tanulási partnerként
+        - name: Regisztráció tanulási partnerként
           href: mpn-benefits-map-competency-learning-option-enroll.md
           displayName: mpn
         - name: Kompetenciák – GYIK
@@ -60,7 +60,7 @@
           displayName: 'renew, mpn'
         - name: Alkalmazásfejlesztési kompetencia kivétele
           href: app-dev-isv.md
-        - name: A szaktudás jelentés használata
+        - name: A képességjelentés használata
           href: mpn-skills-report.md
     - name: Haladó specializációk
       items:
@@ -80,30 +80,30 @@
         - name: Piaci bevezetési előnyök
           href: mpn-learn-about-go-to-market-benefits.md
           displayName: mpn
-        - name: Az MPN-partnerek bemutatói
+        - name: Bemutatók MPN-partnereknek
           href: mpn-demos.md
           displayName: mpn
-        - name: Előnyök szabályzat és használat – gyakori kérdések
+        - name: Előnyökre vonatkozó szabályzat és használat – GYIK
           href: benefits-faq-new.md
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.md
           displayName: 'renew, license,'
-        - name: Azure-és felhőalapú előnyök
+        - name: Az Azure és a felhő előnyei
           href: mpn-benefits-azure-cloud.md
           displayname: 'activate, azure license, mpn, renew'
         - name: Szoftvertermékek
           href: mpn-benefits-software.md
           displayname: 'software, on-premise benefit, mpn'
-        - name: A Visual Studio előnyei
+        - name: Visual Studio előnyei
           href: mpn-benefits-visual-studio.md
           displayname: 'visual studio, mpn, activate'
         - name: Értékesítés előtti műszaki és üzembehelyezési szolgáltatások
           href: technical-benefits.md
           displayname: 'TPD, presales, deployment, technical'
-        - name: Technikai előnyök
+        - name: Műszaki előnyök
           href: mpn-benefits-technical-support.md
           displayname: 'support, incidents, technical'
-        - name: Embléma létrehozása a logo Builder használatával
+        - name: Embléma létrehozása az Logo Builder használatával
           href: mpn-logo-builder.md
     - name: Marketplace Rewards
       href: marketplace-rewards.md
@@ -133,7 +133,7 @@
     - name: Microsoft-partnerszerződés – CSP-k
       href: microsoft-partner-agreement.md
       displayName: 'csp, mpn'
-    - name: Hogyan segítik a közvetett szolgáltatók a viszonteladóik számára a TERMÉKAKTIVÁLÁSI rendszer bevezetését
+    - name: Hogyan segíthetnek a közvetett szolgáltatók a viszonteladóiknak az MPA elfogadásában?
       href: mpa-indirect-provider-faq.md
       displayName: 'csp, mpa, indirect, provider'
     - name: Közvetlen CSP-partnerek követelményei
@@ -151,13 +151,15 @@
     - name: 'CSP-megállapodások, árlista, ajánlatok'
       href: csp-documents-and-learning-resources.md
       displayName: csp
+    - name: Regisztrációs azonosító számának adatai
+      href: reg-number-id.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
       displayName: 'regio, region, csp'
     - name: Útmutató a CSP regionális engedélyezési bérlőösszevonáshoz
       href: csp-regional-authorization-tenant-consolidation.md
       displayName: 'regio, region, csp'
-    - name: A Microsoft ügyfél-szerződés elfogadásának megerősítése
+    - name: A feltételek ügyfél általi elfogadásának Microsoft Ügyfélszerződés
       href: confirm-customer-agreement.md
       displayName: 'csp, agreement'
     - name: Országos felhőkörnyezetekben történő értékesítés esetén alkalmazandó
@@ -279,7 +281,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők beszerzése
+    - name: Érdeklődők elemzésének lekért adatai
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -445,7 +447,7 @@
           displayName: 'region, regio'
         - name: SLA-jóváírás kérése a Microsofttól
           href: request-credit.md
-        - name: Az adózási szabályzatok hatása a kifizetésre
+        - name: Hogyan befolyásolják az adózási szabályzatok a kifizetéseket?
           href: tax-policies-affect-payout.md
     - name: Azure-költségvetés beállítása az ügyfelek számára
       href: set-an-azure-spending-budget-for-your-customers.md

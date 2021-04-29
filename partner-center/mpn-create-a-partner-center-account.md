@@ -1,7 +1,7 @@
 ---
 title: MPN-fiók létrehozása a Partnerközpont
 ms.topic: article
-ms.date: 04/08/2021
+ms.date: 04/20/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 description: Megtudhatja, Microsoft Partner Network tagok hogyan hozhatnak létre Partnerközpont fiókot a hálózati előnyeik és kompetenciáik kezeléséhez.
@@ -9,12 +9,12 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 27cd00b5475914019963fad381b36b47a017dcf1
-ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
+ms.openlocfilehash: 2b4c96f2099d50d05360320070d7c0d96f4590f6
+ms.sourcegitcommit: 8bd2e2f2f0f6bcd0fa202787df5b3c1f786f88f9
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120800"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "108213397"
 ---
 # <a name="create-an-mpn-account-in-partner-center-to-manage-network-benefits-and-competencies"></a>MPN-fiók létrehozása a Partnerközpont a hálózati előnyök és kompetenciák kezeléséhez
 
@@ -39,7 +39,7 @@ Amikor készen áll egy fiók létrehozására a Partnerközpont, a következő 
 - Az ellenőrzési folyamattal kapcsolatos információkért lásd: [Fiók ellenőrzése.](verification-responses.md)
 
 >[!NOTE]
->Ha a Microsoft Partner Network még a Partner Membership Center (PMC) tagja, azonnal át kell minomálnia a fiókját az Partnerközpont. A áttelepítéséhez töltse le a részletes [útmutatót.](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
+>Ha a Microsoft Partner Network tagsága még mindig a Partner Membership Center (PMC) tagja, akkor a fiókját azonnal át kell Partnerközpont. A áttelepítéséhez töltse le a részletes [útmutatót.](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
 
 ## <a name="get-started"></a>Bevezetés
 
@@ -57,13 +57,48 @@ Amikor készen áll egy fiók létrehozására a Partnerközpont, a következő 
    >[!NOTE]
    > Az MPN-hez való regisztrációhoz nem használhatja a meglévő CSP-fiók hitelesítő adatait.
 
-3. Adja meg a vállalata jogi üzleti adatait.
+3. Adja meg vállalata jogi üzleti adatait.
 
 Keresse meg a vállalati profilt, vagy adja meg manuálisan a céges adatokat. Ha a vállalata regisztrálva van [a & Bradstreet](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)vállalatnál, a CÉGes adatok ki- és lekért azonosítójával keresse meg a CÉGes adatokat. Ha saját maga szeretné biztosítani a cég adatait, válassza a **Manuális lehetőséget.**
 
-Ha a vállalata a Következő helyen található: **Egyesült** Államok, **Ifj.**,  **Kirgizisztán,** **Majd** **Uzbekistan** vagy Oroszország, és ön manuálisan adja meg a címét, a rendszer érvényesíti a címét. Ha a megadott cím eltér az ellenőrzött címtől, javasoljuk, hogy az ellenőrzött címet használja. Ez biztosítja, hogy a cím elemei az ország postai címe által meghatározott módon szabványosítottak, helyesen formázottak és szállításra használhatók.  
+Ha a vállalata Az Egyesült Államok, **Valamint** **Kirgizisztán,** **Valamint,** **Uzbekistan** vagy **Oroszország** területén található, és a címét manuálisan adja meg, akkor a címét érvényesítjük Ön után. Ha a megadott cím eltér az ellenőrzött címtől, javasoljuk, hogy az ellenőrzött címet használja. Ez biztosítja, hogy a cím elemei az ország postai címe által meghatározott módon szabványosítottak, helyesen formázottak és szállításra használhatók.  
 
 Miután megadotta a vállalati adatokat, adja meg az elsődleges kapcsolattartási adatokat. Az elsődleges kapcsolattartónak az a céges személynek kell lennie, akivel kapcsolatba léphetünk az alkalmazással kapcsolatban (ez lehet Ön vagy a vállalat egy másik személye).
+
+## <a name="registration-id-numbers-by-country"></a>Regisztrációs azonosítók száma országonként
+
+Ha Ön közvetett szolgáltató, közvetlen számlázási partner vagy közvetett viszonteladó, és a következő országokban új vagy meglévő ügyfelekkel üzleti kapcsolatban áll, meg kell adnia a vállalat regisztrációs azonosítószámait. Ha a vállalata országa nem szerepel az alábbi listában, a regisztrációs azonosító megadása nem kötelező.
+
+Az alábbi táblázat az egyes országokhoz gyűjtött regisztrációs számok mintáit tartalmazza. Abban az esetben, ha több listában szerepel, csak egy szükséges.
+
+| **Ország vagy régió** | **Részletek** | 
+|:--|:--|:--|:--|:--|:--|
+| **Örményország** | INN – Adóazonosító szám<br>Áfaszám – Más néven áfaregisztrációs szám. Ez az egyedi szám azonosítja az áfabevallott adózható személyt (vállalkozás) vagy nem adózható jogi személyt.<br>Nyilvános szolgáltatás száma |  |  | |  |
+| **Azerbajdzsán**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Azerbaijan-TIN.pdf) – Adóazonosító szám<br>INN – Adóazonosító szám |  |  |  |  |
+| **Belarusz**  | UNP – Ez egy kilencjegyű szám (szervezetek numerikus száma, egyéni személyek számára alfanumerikus szám), amely régióazonosítót, régiónkénti sorozatszámot és ellenőrző számjegyet tartalmaz. |  |  |  |  |
+|**Brazília** | [CNPJ](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Brazil-TIN.pdf) – (Cadastro Merto Pessoa Julika, vagy jogi entitások országos regisztrációs adatbázisa). Ez egy brazíliai vállalatoknak kiadott azonosító szám, amelyet Brazília szövetségi bevételi részlege adott ki  |  |  |  |  |
+| **Kína** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/China-TIN.pdf) – Adóazonosító szám |  |  |  |  |
+| **Magyarország**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Hungary-TIN.pdf) – Adóazonosító szám |  |  |  |  |
+| **India** | Adóazonosító<br>[PAN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/India-TIN.pdf) – (Presence Across India) A PAN India-részvétel azt jelenti, hogy van egy szervezet, amely számos helyen működik Indiában. |  |  |  |  |
+| **Irak** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Adóazonosító szám |  |  |  |  |
+| **Kazahsztán**  | BIN – Bankazonosító szám<br>IIN – Kiállítóazonosító szám |  |  |  |  |
+| **Kirgizisztán**  | INN – Adóazonosító szám |  |  |  |  |
+| **Moldova**  | IDNO – A jogi személyhez rendelt egyedi állapotazonosító szám (más néven: Pénzügyi kód).<br>IDNP – Születési személyes kód ("Numarul de Identificare") |  |  |  |  |
+| **Mianmar** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Adóazonosító szám |  |  |  |  |
+| **Lengyelország**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – Adóazonosító szám<br>[PESEL](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) – A lengyel Powszechny Elektronirosny Rendszer Ewidencji Ludnobilci, Universal Electronic System for Registration of the Population) által használt országos azonosító szám |  |  |  |  |
+| **Oroszország**  | [INN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Russia-TIN.pdf) – Adóazonosító szám (orosz "Egyéni Nomer Nalogoplatelshika") |  |  |  |  |
+| **Szaúd-Arábia** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Saudi-Arabia-TIN.pdf) – Adóazonosító szám |  |  |  |  |
+| **Dél-afrikai Köztársaság** | TRN – forgalomregisztrációs szám |  |  |  |  |
+| **Dél-Szudán** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Adóazonosító szám |  |  |  |  |
+| **Tádzsikisztán**  | INN – Adóazonosító szám<br>EIN – Munkáltatói azonosító szám<br>KPP – Ez egy olyan kód, amely tükrözi a szervezet regisztrációja okát. |  |  |  |  |
+| **Thaiföld** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Adóazonosító szám |  |  |  |  |
+| **Törökország** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Turkey-TIN.pdf) – Adóazonosító szám<br>Nin |  |  |  |  |
+| **Ukrajna**  | EGRPOU<br>EDRPOU – Helyi azonosító |  |  |  |  |
+| **Egyesült Arab Emírségek** | Adóazonosító<br>[Áfaszám](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/UAE-TIN.pdf) – Más néven áfaregisztrációs szám. Ez az egyedi szám azonosítja az áfabevallott adózható személyt (vállalkozás) vagy nem adózható jogi személyt. |  |  |  |  |
+| **Egyesült Államok** | [EIN](https://irs.ein-forms-gov.com/?keyword=employer%20identification%20number&source=Google&network=o&device=c&devicemodel=&mobile=&adposition%5d&targetid=kwd-81501461534755:loc-190&msclkid=458d3159f6051392f5286e8e75ed79ce) – Munkáltatói azonosító szám |  |  |  |  |
+| **Üzbegisztán**  | INN – Adóazonosító szám |  |  |  |  |
+| **Vietnam** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) – Adóazonosító szám |  |  |  |  |
+| **Venezuela** | RIF – egy adószám ("Registro de Identificación Fiscal") |  |  |  |  |
 
 4. Válassza **a Regisztráció lehetőséget.**
 
