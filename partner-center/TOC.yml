@@ -83,7 +83,7 @@
         - name: Bemutatók MPN-partnereknek
           href: mpn-demos.md
           displayName: mpn
-        - name: Előnyökre vonatkozó szabályzat és használat – GYIK
+        - name: A szabályzat és a használat előnyei – GYIK
           href: benefits-faq-new.md
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.md
@@ -151,7 +151,7 @@
     - name: 'CSP-megállapodások, árlista, ajánlatok'
       href: csp-documents-and-learning-resources.md
       displayName: csp
-    - name: Regisztrációs azonosító számának adatai
+    - name: Regisztrációs azonosító száminformációi
       href: reg-number-id.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
@@ -159,7 +159,7 @@
     - name: Útmutató a CSP regionális engedélyezési bérlőösszevonáshoz
       href: csp-regional-authorization-tenant-consolidation.md
       displayName: 'regio, region, csp'
-    - name: A feltételek ügyfél általi elfogadásának Microsoft Ügyfélszerződés
+    - name: 'Hogyan lehet megerősíteni, hogy az ügyfelek elfogadják a Microsoft Ügyfélszerződés'
       href: confirm-customer-agreement.md
       displayName: 'csp, agreement'
     - name: Országos felhőkörnyezetekben történő értékesítés esetén alkalmazandó
@@ -281,7 +281,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők elemzésének lekért adatai
+    - name: Érdeklődők elemzési adatainak lekérte
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -513,6 +513,9 @@
           displayName: csp
         - name: Piactéri ajánlatok vásárlása
           href: csp-commercial-marketplace-purchase.md
+          displayName: csp
+        - name: Licencelés kezelése a Marketplace-ajánlatokban
+          href: csp-commercial-marketplace-licensing.md
           displayName: csp
         - name: Kizárólag a piactéren elérhető ajánlatok független szoftverszállítóktól
           href: isv-opt-in.md

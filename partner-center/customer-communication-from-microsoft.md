@@ -1,34 +1,37 @@
 ---
-title: Ügyfél-kommunikáció a Microsofttól
+title: Ügyfél-tájékoztatás a Microsoft részéről
 ms.topic: article
 ms.date: 07/10/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a Microsoft hogyan várja az ügyfelek és partnerek közötti kommunikációt a Cloud Solution Provider programban.
+description: Megtudhatja, hogyan várja el a Microsoft az ügyfelek és partnerek közötti kommunikációt a Felhőszolgáltató programjában.
 author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 7b4e244a090b401afe2b0c86a532f5ecc6b5a154
-ms.sourcegitcommit: 8dc139749916c822c5c438f54a03d2f147697dd5
+ms.openlocfilehash: 6de0d50364930999a7d0f335016a7c5a1864d8ab
+ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "92528115"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108284349"
 ---
-# <a name="guidelines-for-successful-customer-communication-with-microsoft"></a>Útmutató a Microsofttal való sikeres ügyfél-kommunikációhoz
+# <a name="guidelines-for-successful-customer-communication-with-microsoft"></a>Irányelvek a Microsofttal való sikeres ügyfél-kommunikációhoz
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
--  Partnerközpont
--  Az USA kormányzati szerveinek Microsoft Cloud a partneri központ
+- A Microsoft Cloud for US Government Partnerközpontja
 
-Általánosságban elvárjuk, hogy az ügyféllel folytatott kommunikáció a Cloud Solution Provider-partnertől érkezik. Mivel Ön a vevői számlázási kapcsolat tulajdonosa, a Microsoft nem küld közvetlen kommunikációt az előfizetésével kapcsolatos ügyfeleinek.
+**Megfelelő szerepkörök**
+
+- Helpdesk agent
+
+Általánosságban arra számítunk, hogy az ügyféllel minden kommunikáció a partnertől Felhőszolgáltató fog. Mivel Ön az ügyfél számlázási kapcsolata, a Microsoft nem küld közvetlen kommunikációt az ügyfeleinek az előfizetéseikről.
 
 A Microsoft közvetlenül kommunikálhat az ügyfelekkel a szolgáltatási incidensekkel vagy más működési információkkal kapcsolatban.
 
-Azon ügyfelek esetében, akik már rendelkeznek a Microsofttal fennálló kereskedelmi kapcsolattal, a Microsoft továbbra is közvetlenül kommunikál velük a nem CSP-termékekkel és-szolgáltatásokkal kapcsolatban.
+Azok az ügyfelek, akik már meglévő kereskedelmi kapcsolatban vannak a Microsofttal, a Microsoft továbbra is közvetlenül kommunikál velük a nem CSP-termékekről és -szolgáltatásokról.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Az ügyfél önkiszolgáló támogatása Microsoft Office 365 felügyeleti központban vagy a Azure Portalon keresztül](customer-self-support.md)
+- [Az ügyfél önkiszolgáló támogatása a Microsoft Office 365 Felügyeleti központban vagy a Azure Portal](customer-self-support.md)

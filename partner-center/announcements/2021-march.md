@@ -1,6 +1,6 @@
 ---
-title: Március 2021 közlemények
-description: Március 2021 közlemények a Microsoft partner Centerben, beleértve az új képességeket, promóciókat, ajánlatokat, piacokat vagy a meglévő ajánlatok változásait.
+title: 2021. márciusi bejelentések
+description: A Microsoft 2021. márciusi közleményei Partnerközpont új képességeket, promóciókat, ajánlatokat, piacokat vagy a meglévő ajánlatok változásait is beleértve.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,53 +9,54 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 04/02/2021
-ms.openlocfilehash: 12954a5f7eafb138794de879a41026ef54c65da7
-ms.sourcegitcommit: c6c741475604b8daf386fb54bb2795a6445ac887
+ms.openlocfilehash: 17b8082b8a42050892ff434010952d5f91a39431
+ms.sourcegitcommit: 6c20c3cc4a226cada70c56df295966696affcec8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106374388"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108328066"
 ---
-# <a name="march-2021-announcements"></a>Március 2021 közlemények
+# <a name="march-2021-announcements"></a>2021. márciusi bejelentések
 
-Ez az oldal a Microsoft partner Center 2021. márciusi hirdetményeit tartalmazza.
+Ez az oldal a Microsoft 2021. márciusi Partnerközpont bejelentését mutatja be.
 
-________________
-## <a name="updated-csp-customer-address-validation-api-now-available-for-testing"></a><a name="18"></a>A frissített CSP-ügyfél címe ellenőrzési API már elérhető teszteléshez
+## <a name="readiness-changes-to-the-cloud-solution-provider-csp-customer-address-validation-api-going-live-in-june-testing-capability-now-available"></a><a name="18"></a>Készenlét: A Felhőszolgáltató (CSP) ügyfélcím-ellenőrzési API-jának változásai júniusban érvénybe fognak tolni; tesztelési képesség már elérhető
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-31
-- Képességek
+- Dátum: 2021-04-30
+- Készenlét
 
 ### <a name="summary"></a>Összefoglalás
 
-Elkötelezettségünk részeként, hogy a partnerek és az ügyfelek a bizalmi kapcsolaton alapuló üzleti tevékenységet futtassák, a globális partnereket a ValidateAddress API változásainak tesztelésére fogjuk meghívni.
+Annak érdekében, hogy a partnerek és az ügyfelek bizalom alapján futtassanak üzletüket, meghívjuk a partnereket, hogy teszteljék a Validate Address API módosításait az összes országban világszerte.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Minden CSP közvetlen számlás partner és olyan közvetett szolgáltató, aki új vagy meglévő ügyfél-címzési adatokat hoz létre vagy frissít
+A CSP közvetlen számlázási partnerek és közvetett szolgáltatók, akik új ügyfeleket hoznak létre vagy frissítik a címadatokat.
 
 ### <a name="details"></a>Részletek
 
-A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-címek ellenőrzésének elküldéséhez az ügyfél-előfizetések átadásához a CSP programban. Ma, 2021. március 31-én bevezetjük a ValidateAddress API-t, amelyet szeretnénk meghívni a 2021 tesztelésre. 
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos módszert biztosítsunk az ügyfélcímek érvényesítéséhez az ügyfél-előfizetések tranzakciója során a CSP-programban. 2021. március 31-én bevezettük a Validate Address API módosításait, amelyek tesztelésére hívtuk meg a partnereket, mielőtt a 2021. júniusi változásokat bevezettük volna.
 
-Vegye figyelembe, hogy ezek a módosítások csak a ValidateAddress API-t érintik. A CreateCustomer és a UpdateBillingProfile API-kat nem érinti a rendszer.
+A módosítások csak a Validate Address API-t érintik. A Create Customer and Update Billing Profile API-kat ez nem befolyásolja.
 
-A válasz a következő állapotüzenetek egyikét fogja visszaadni:
+A válasz a következő állapotüzenetek egyikét adja vissza:
 
-| Állapot | Leírás | A visszaadott javasolt címek száma |
-|----------|-------------|-------------------|
-| VerifiedShippable | A címek ellenőrzése megtörtént, és a következőre küldhető:. | Egyirányú |
-| Ellenőrzött | A címnek ellenőrzése megtörtént. | Egyirányú |
-| InteractionRequired | A javasolt címek jelentősen módosultak, és felhasználói megerősítést igényelnek. | Egyirányú |
-| StreetPartial | A címben megadott utca részleges, és további információra van szüksége. | Több – legfeljebb három|
-| PremisesPartial | A megadott hely (építési szám, csomag száma stb.) részleges, és további információra van szüksége. | Több – legfeljebb három |
-| Többszörös | Több mező is van, amelyek részben szerepelnek a címben (potenciálisan a StreetPartial és a PremisesPartial is beleértve). | Több – legfeljebb három |
-| Nincsenek | A címe helytelen. | Nincsenek |
-| NotValidated | A címeket nem sikerült elküldeni az érvényesítési folyamaton keresztül.  | Nincsenek |
+| Állapot     | Leírás |    A visszaadott javasolt címek száma |
+|-------|---------------|-------------------|
+|Ellenőrzött szállításra használható | A cím ellenőrizve van, és szállítható a címre. | Egyirányú |
+|Ellenőrzött | A cím ellenőrizve van. | Egyirányú |
+|Beavatkozás szükséges | A javasolt cím jelentős mértékben módosult, és a felhasználó megerősítését kell kér. | Egyirányú |
+|Utca részleges | A címben megadott utca részleges, és további információra van szüksége. | Többszörös – legfeljebb három |
+|Részleges helyszín | Az adott helyszín (épületszám, csomagszám stb.) részleges, és további információra van szüksége. | Többszörös – legfeljebb három |
+|Többszörös | Több mező is részleges a címben (beleértve az utca részleges és a helyszíni részleges mezőket is). | Többszörös – legfeljebb három |
+|Nincsenek | A cím helytelen. | Nincsenek |
+|Nincs ellenőrizve. | A cím nem lett elküldve az érvényesítési folyamaton keresztül. | Nincsenek |
 
-Miután elküldte a címet a ValidateAddress API-val való ellenőrzésre, a rendszer a következő választ adja vissza:
+Az USA-nak az irányítószámai további 4 számjegyet és kötőjelet ( például 12345-6789) fognak visszaadni.
+
+Miután a Validate Address API-val elküldött egy címet ellenőrzésre, a rendszer a következő válaszsémát fogja visszaadni:
 
 ```csharp
 
@@ -98,23 +99,23 @@ public class AddressValidationResponse
    public string ValidationMessage { get; set; }
    ```
 
-Tekintse meg ezt a választ. Vegye figyelembe, hogy az Egyesült Államokban a válasz egy további négyjegyű utótagot ad vissza az irányítószám sorához, ha csak öt számjegyet ír be a zip-kódra.
+Nézze meg ezt a mintaválaszt. Vegye figyelembe, hogy az Egyesült Államok esetén a válasz egy további négyjegyű utótagot ad vissza az irányítószámhoz, ha csak öt számjegyet ad meg az irányítószámhoz.
 
 ```csharp
 
 "suggested_address": {
-    "Country": "US",
-    "region": "WA",
-    "city": "Redmond",
-    "address_line1": "1 Microsoft Way",
-    "postal_Code": "98052-8300"
+              "Country": "US",
+              "region": "WA",
+              "city": "Redmond",
+              "address_line1": "1 Microsoft Way",
+              "postal_Code": "98052-8300"
 },
 "original_address": {
-    "Country": "US",
-    "region": "WA",
-    "city": "Redmond",
-    "address_line1": "1 Micro Way",
-    "postal_Code": "98052"
+              "Country": "US",
+              "region": "WA",
+              "city": "Redmond",
+              "address_line1": "1 Micro Way",
+              "postal_Code": "98052"
 },
 "status":  "InteractionRequired",
 "validation_message": "Address field invalid for property: ‘Street’"
@@ -123,16 +124,22 @@ Tekintse meg ezt a választ. Vegye figyelembe, hogy az Egyesült Államokban a v
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Ossza meg a homokozó bérlői AZONOSÍTÓját a test Flight (kis-és nagyvállalati) szakértővel, Ali khaki-val, hogy a tesztelési célú repülésben is szerepeljen, így elkezdheti a frissítés előkészítését.
+- Ossza meg a tesztgép bérlőazonosítóját a témaszakértővel (Ali Sandki), aki szerepelni fog a tesztúton, hogy megkezdje a frissítés előkészítését.
 
-- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+- Ha vezérlőpult-szállító (CPV) megoldást használ, tekintse meg a CPV-t.
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha bármilyen kérdése van, vagy támogatásra van szüksége a Microsoft által végzett műveletekhez, forduljon a partner támogatási Yammer csoportjához.
+Ha támogatásra van szüksége a Microsofttal kapcsolatos műveleteihez, a partnertámogatási Yammer-csoporthoz kell segítséget nyújtanunk.
+
+### <a name="change-log"></a>Változásnapló:
+
+- 2020. március 31. : Eredeti közzététel
+
+- 2021. április 30.: A mintaválasz és az irányítószám részleteinek frissítései
 
 ________________
-## <a name="new-exchange-admin-center-eac-experience"></a><a name="17"></a>Az új Exchange felügyeleti központ (EAC) felülete
+## <a name="new-exchange-admin-center-eac-experience"></a><a name="17"></a>Új Exchange felügyeleti központ (EAC) felhasználói élmény
 
 ### <a name="categories"></a>Kategóriák
 
@@ -141,41 +148,41 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-2021. április 27-én az Exchange felügyeleti központ (EAC) új felhasználói élményt nyújt, amely javítani fogja a felhasználók napi hatékonyságát.
+2021. április 27-től az Exchange felügyeleti központ (EAC) új felhasználói élményt nyújt, amely javítja a felhasználók napi hatékonyságát.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-A partner centeren keresztül az Exchange-hez hozzáférő delegált rendszergazdák
+Az Exchange-et a Partnerközpont
 
 ### <a name="details"></a>Részletek
 
-2021. április 27-étől kezdve a partner centeren keresztül az Exchange-hez navigáló partnerek átirányítva lesznek az új EAC-ra.
+2021. április 27-től az Exchange-hez Partnerközpont az új EAC-hoz lesznek átirányítva.
 
-Ez az új felhasználói felület jelenleg előzetes verzióként érhető el, és a rendszergazdák a klasszikus EAC jobb felső sarkában lévő váltógomb kiválasztásával aktiválhatja ezt a felhasználói élményt. Az új EAC-t úgy is megnyithatja, hogy kijelöli az összes oldalon megjelenő "kipróbálás most" szalagcímet.
+Ez az új felület jelenleg előzetes verzióként érhető el, és a rendszergazdák a klasszikus EAC jobb felső sarkában található váltógombot választva aktiválják ezt a felhasználói élményt. Az összes oldalon megjelenő "Kipróbálom most" szalagcímre kattintva is navigálhat az új EAC-hoz.
 
-Az új EAC előnyei a következők:
+Az új EAC előnyei többek között a következők:
 
-- További bepillantást, jelentéseket és riasztási mechanizmusokat a levelezés folyamatával kapcsolatos problémákhoz. 
+- Elemzések, jelentések és riasztási mechanizmusok hozzáadva a levélforgalomhoz kapcsolódó problémákhoz. 
 
 - Személyre szabott irányítópultok a hatékonyság növelése érdekében.
 
-Ha segítségre van szüksége az új felülettel való átálláshoz, a videók az új EAC-élmény **tanítás & útmutató** szakaszában találhatók. Ezek áttekintést nyújtanak arról, hogyan használhatja a legjobban az új portált.
+Az új felhasználói élményben való eligazodás érdekében a videók az új EAC-& képzési útmutató szakaszában érhetők el.  Ezek áttekintést nyújtanak arról, hogyan használhatja a legjobban az új portált.
 
 >[!NOTE]
->Ezzel a módosítással a klasszikus EAC-élmény nem lesz elavult. A módosítások végrehajtása előtt a rendszer előzetes értesítést küld.
+>Ezzel a módosítással a klasszikus EAC-élmény nem lesz elavult. A változások megvalósítása előtt értesítést kap.
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Tekintse meg az [ebben a témakörben található forrásokat](https://partner.microsoft.com/resources/collection/new-exchange-admin-center-experience#/), ahol megtekintheti az új felület képernyőképeit.
+- Tekintse meg az [ezzel a témakörvel](https://partner.microsoft.com/resources/collection/new-exchange-admin-center-experience#/)kapcsolatos forrásokat, ahol képernyőképeket készíthet az új felhasználói élményről.
 
-- Ossza meg ezeket az információkat a szervezete megfelelő szereplőivel. 
+- Ossza meg ezt az információt a szervezet megfelelő érdekelt felével. 
 
 ### <a name="questions"></a>Kérdése van?
 
-A változásokkal kapcsolatos bármilyen kérdés esetén keresse meg a megfelelő Yammer-közösségeket.
+A változásokkal kapcsolatos kérdésekért tekintse meg az érintett Yammer-közösségeket.
 
 ________________
-## <a name="microsoft-operations-introducing-the-product-launch-calendar"></a><a name="16"></a>Microsoft-műveletek: a termék indítási naptárának bemutatása
+## <a name="microsoft-operations-introducing-the-product-launch-calendar"></a><a name="16"></a>Microsoft Operations: A termékindítási naptár bevezetése
 
 ### <a name="categories"></a>Kategóriák
 
@@ -184,25 +191,25 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A partneri visszajelzések megválaszolásával a Microsoft műveletei egyszerűbbé teszik a termékekkel kapcsolatos kommunikációt.
+A microsoftos visszajelzésekre reagálva a Microsoft Operations leegyszerűsíti a termékbeindítások kommunikációját.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-A Cloud Solution Provider (CSP) partnerei
+Felhőszolgáltató (CSP) partnerek
 
 ### <a name="details"></a>Részletek
 
-A Microsoft elkötelezte magát a partneri élmény folyamatos javítására. Visszajelzést kapott arról, hogy túl sok kommunikációt kapott a Microsofttól, beleértve a termék által indított ismétlődő hirdetményeket is.
+A Microsoft elkötelezett amellett, hogy folyamatosan javítsa a partneri élményeket. Visszajelzést kaptunk Öntől, hogy túl sok információt kapott a Microsofttól, beleértve a termékbeindítások duplikált bejelentéseit is.
 
-Visszajelzése alapján a Microsoft egyszerűsítette a termékre vonatkozó készültségi tapasztalatot, amely új és meglévő ajánlatokat tartalmaz.
+Visszajelzésére válaszul a Microsoft leegyszerűsíti a termékindítások készenlétét az új és meglévő ajánlatokhoz.
 
-Most az Operations Readiness Resource Galleryben közzétett, a termékre vonatkozó, egyetlen havi nézetet is biztosítunk. Ez a havi [termék-indítási naptár nézet](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) az egyes termékek indításával kapcsolatos kommunikációt az Operations Readiness Resource Galleryben és a partner Center bejelentésekben fogja lecserélni.
+Mostantól a termékindítások egyetlen havi nézetét biztosítjuk, amely az Operations readiness erőforrás-katalógusban van közzétéve. Ez a [havi termékindítási naptárnézet](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) felváltja az egyes termékindítási kommunikációt az Üzemeltetési készenlét erőforrás-katalógusban és a Partnerközpont közlemények között.
 
-A [termék elindítására vonatkozó naptárat](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) a [közösségi gyűjtemények](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/), a [Naptár-nézetek](https://partner.microsoft.com/resources/assets#/?type=collection&search=Calendar&sort=updated)és a CSP- [hírlevelek](https://partner.microsoft.com/resources/collection/csp-monthly-update#/)segítségével is elérheti. Értesítjük Önt, ha minden hónap termék-indítási naptárát közzéteszik az Operations Readiness Resource Galleryben bejelentéssel.
+A termékindítási [](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) naptárt közösségi gyűjtemények, [](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/)naptárnézetek [és](https://partner.microsoft.com/resources/assets#/?type=collection&search=Calendar&sort=updated) [CSP-hírlevelek segítségével is elérheti.](https://partner.microsoft.com/resources/collection/csp-monthly-update#/) Az egyes hónap termékindítási naptárának közzétételekor értesítést adjuk át az Operations readiness erőforrás-katalógusban található bejelentéssel.
 
-Továbbra is megtalálhatja az új és meglévő ajánlatokkal kapcsolatos információkat a árlista előnézetében és a árlista változási naplóiban, valamint a Product blogs, a licencelési útmutatók és a termékek marketing oldalain.
+Az új és meglévő ajánlatokkal kapcsolatos információkat az árlista előnézetében és az árlista változásnaplóiban, valamint a termék blogjaiban, licencelési útmutatóiban és termék marketingoldalán találja.
 
-A módosítás a következő termékek esetében érvényes lesz:
+A módosítás a következő termékek indítására vonatkozik:
 
 - Helyszíni Dynamics
 - Microsoft 365
@@ -210,20 +217,20 @@ A módosítás a következő termékek esetében érvényes lesz:
 - Windows
 - Kiszolgáló  
 - Eszközök
-- Csapatok és távközlési
+- Teams és Telco
 
-Továbbra is küldünk olyan, a termékre vonatkozó bejelentéseket, amelyek szükségesek az Operations Readiness részleteiről.
+Továbbra is küldünk olyan termékindításokkal kapcsolatos konkrét közleményeket, amelyekhez műveleti készenlétre vonatkozó részletekre van szükség.
 
 ### <a name="next-steps"></a>Következő lépések
 
-Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
+Tekintse át a témakörre vonatkozó forrásokat, és ossza meg ezt az információt a szervezet megfelelő érdekelt felével.
 
 ### <a name="questions"></a>Kérdése van?
 
-Az ajánlatokkal kapcsolatos további kérdésekért keresse meg a megfelelő Yammer-közösségeket.
+Az ajánlatokkal kapcsolatos további kérdésekért tekintse meg az érintett Yammer-közösségeket.
 
 ________________
-## <a name="changes-to-csp-customer-onboarding-requirements"></a><a name="15"></a>A CSP-ügyfél bevezetési követelményeinek változásai
+## <a name="changes-to-csp-customer-onboarding-requirements"></a><a name="15"></a>A CSP-ügyfelekre vonatkozó, az ügyfelekre vonatkozó követelmények változásai
 
 ### <a name="categories"></a>Kategóriák
 
@@ -232,19 +239,19 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló elkötelezettségünk részeként további vásárlói adatokat fogunk kérni, amelyek 2021. március 25-én érvényesek.
+Elkötelezettségünk részeként, hogy segítsünk a partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló üzleti tevékenységben, további ügyféladatokat kérünk 2021. március 25-ig.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Cloud Solution Provider (CSP) közvetlen számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel rendelkeznek a következő szakaszban felsorolt országokban
+Felhőszolgáltató (CSP) közvetlen számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel vannak a következő szakaszban felsorolt országokban
 
 ### <a name="details"></a>Részletek
 
-A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, hogy megfelelő, biztonságos és biztonságos módszert biztosítanak az ügyfél-előfizetések lebonyolítására a CSP programban. 2021. március 25-én bevezetjük a partner Center API-t és a felhasználói felület (UI) fejlesztéseit, amelyek hatással lesznek a következő feltételeknek megfelelő partnerekre:
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos ügyfél-ellenőrzési módszert biztosítsunk az ügyfél-előfizetések tranzakciója során a CSP-programban. 2021. március 25-én bevezetünk egy API- és felhasználói felületi (UI) fejlesztéseket Partnerközpont, amelyek hatással lesznek az alábbi két feltételnek megfelelő partnerekre:
 
-1. A partner közvetlen számlázási kapcsolatban áll a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlás partner vagy közvetett szolgáltató).
+1. A partner közvetlen számlázási kapcsolattal rendelkezik a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlázási partner vagy közvetett szolgáltató).
 
-2. A partner üzleti tevékenységet folytat az új vagy meglévő ügyfelekkel a következő országokban:
+2. A partner az alábbi országokban lévő új vagy meglévő ügyfelekkel működik együtt:
 
     - Thaiföld
     - Vietnam
@@ -260,11 +267,11 @@ A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk abban, ho
     - Egyesült Arab Emírségek
     - Venezuela
 
-A feltételeknek megfelelő partnereknek be kell nyújtaniuk az ügyfél **vállalati regisztrációs azonosítóját** (más néven az ügyfél **szervezeti** webhelyét) és a **telefonszámot** , amikor új ügyfeleket vesznek fel, vagy módosíthatják a meglévő ügyfelek adatait. Ezek a partnerek **középső nevet** is megadhatnak az ügyfél számára.
+A feltételeknek megfelelő partnereknek be kell majd nyújtaniuk az ügyfél céges regisztrációs azonosítóját **(más** néven az ügyfél szervezeti **INN-ét)** és telefonszámát, amikor új ügyfeleket regisztrálnak vagy módosítják a meglévő ügyféladatokat.  Ezek a partnerek **középső nevet** is megadhatnak az ügyfél számára.
 
-Vegye figyelembe, hogy a vállalati regisztrációs azonosító hozzáadásakor az üzleti adó azonosítót kell használnia, nem pedig az ügyfél személyes AZONOSÍTÓját.
+Vegye figyelembe, hogy a céges regisztrációs azonosító hozzáadásakor az üzleti adóazonosítót kell használnia, nem az ügyfél személyes azonosítóját.
 
-A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti partnerek már egy korábbi kiadásban, 2020 novemberében lettek bevezetve.
+Azok a partnerek, akik az alábbi országokban lévő új vagy meglévő ügyfelekkel üzleti partnereket hoznak létre, már elő vannak útjára 2020 novemberében egy korábbi kiadással.
 
 - Örményország
 - Azerbajdzsán
@@ -278,320 +285,320 @@ A következő országokban az új vagy meglévő ügyfelekkel folytatott üzleti
 - Ukrajna
 - Üzbegisztán
 
-A világ többi részén ügyfelekkel rendelkező partnerek a 2021. március 25-én megadhatják a **vállalati regisztrációs azonosítót**, a **telefonszámot** és a **középső nevet** az ügyfelek számára opcionális részletekként.
+A világ többi részén az ügyfelekkel való együttműködésre 2021. március 25-én lehetősége  lesz megadni az ügyfelek céges regisztrációs azonosítóját, telefonszámát és középső nevét opcionális részletekként. 
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Részletesebb útmutatásért tekintse át a technikai dokumentációt és a [dedikált partneri gyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakran feltett kérdéseket.
+- Részletesebb útmutatásért tekintse át a műszaki dokumentációt és a dedikált [partnergyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) található gyakori kérdéseket.
 
-- Készítse elő a módosításokat a partner Center API és a webes felhasználói élmény használatával. Az API-k és SDK-k tesztelésre lesznek elérhetők.
+- Készüljön fel arra, hogy a módosításokat a Partnerközpont API és a webes felhasználói felület használatával építse be. Az API/SDK-k elérhetők lesznek a teszteléshez.
 
-- Ügyeljen arra, hogy új ügyfelek beléptetése vagy a meglévő ügyfél adatainak módosításakor küldje el a további adatokat.
+- Az új ügyfelek be- és módosításakor küldje el a további adatokat.
 
-- Ha Vezérlőpult-gyártói (CPV) megoldást használ, tekintse meg a CPV-t.
+- Ha vezérlőpult-szállító (CPV) megoldást használ, tekintse meg a CPV-t.
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha bármilyen kérdése van a jogi azonosítóval (más néven INN vagy TIN) kapcsolatban, forduljon az adó-tanácsadóhoz vagy a helyi adóhivatal-irodához. A Microsoft nem tud útmutatást nyújtani adózási kérdésekben.
+Ha bármilyen kérdése van a jogi azonosítóval (más néven INN-rel vagy TIN-sel) kapcsolatban, forduljon az adótanácshoz vagy a helyi adóhivatalhoz. A Microsoft nem tud útmutatást nyújtani az adózási kérdésekkel kapcsolatban.
 
-Ha támogatásra van szüksége a Microsoft által végzett műveletekhez, [Nyisson meg egy szolgáltatási kérelmet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8).
+Ha támogatásra van szüksége a Microsofttal kapcsolatos műveleteihez, [nyisson meg egy szolgáltatáskérést.](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8)
 
 ________________
-## <a name="corrections-made-to-march-1-2021-perpetual-software-price-list"></a><a name="14"></a>Helyesbítések a 2021-es végleges szoftverek árlista
+## <a name="corrections-made-to-march-1-2021-perpetual-software-price-list"></a><a name="14"></a>A 2021. március 1-jén végleges szoftverárlistán tett javítások
 
 ### <a name="categories"></a>Kategóriák
 
 - Dátum: 2021-03-23
 - Ajánlatok/piacok
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-A közvetett szolgáltatók és a közvetlen számlázási partnerek örökös szoftvereket mutatnak a felhőalapú megoldás-szolgáltató programban 
+Közvetlen szolgáltatók és közvetlen számlázási partnerek, akik állandó szoftvereket tranzakcióznak a Felhőszolgáltató programjában 
 
 ### <a name="details"></a>Részletek
 
-A 2021. március 1-én közzétett, Perpetual szoftverekhez tartozó árlista olyan piacokat foglal magában, amelyek nem voltak ott. A végleges szoftverhasználat-árlista 2021. március 17-én frissült a megfelelő értékekkel. Ezek a javítások csak a következőre voltak érvényesek:
+A 2021. március 1-jén közzétett végleges szoftverek árlistja olyan piacokat is tartalmazott, amelyekre nem kellett volna. A végleges szoftverárak listája 2021. március 17-én frissült a javításokkal. Ezek a javítások csak a következőre voltak alkalmazhatók:
 
-- Termék azonosítója: DF77X4D43RKT 
-- Terméknév: Windows 10 Home to Pro verziófrissítés Microsoft 365 Vállalati verzió
-- Eltávolított vagy nem támogatott piacok: AE, AF, AL, AM, AO, BA, BB, BD, BH, BM, BN, BO, BR, BS, BW, BY, BZ, CI, CL, CM, CO, CR, CW, DO, DZ, EC, EG, ET, FJ, FO, GE, GH, GT, HN, IL, IN, IQ, JM, JO, KE, KG, KN, KW, KY, az LB, az LK, a MU, a NA, a NG , NI, NP, OM, PA, PE, PH, PK, PR, UY, QA, RS, RU, RW, SG, SN, SV, TH, TJ, TM, TN, TT, TZ, UA, UG,, UZ, VE, VN, YE, ZM, ZW
+- Termékazonosító: DF77X4D43RKT 
+- Terméknév: Windows 10 Home termék pro verziófrissítése a Microsoft 365 business termékhez
+- Eltávolított vagy nem támogatott piacok: AE, AF, AL, AM, AO, BA,ZŐ, BD, BH, BM, BN, BO, BR, BS, BW, BY, BZ, CI, CL, CM, CO, CR, CW, DO, DZ, EC, EG, ET, FJ, FO, GE, GH, GT, HN, IL, IN, IQ, JM, JO, KE, KG, KN, KY, KZ, LB, LK, LY, MA, MC, MD, ME, MN, MO, MU, NA, NG , NI, NP, OM, PA, PE, PH, PK, PR, PY, QA, RS, RU, RW, SG, SN, SV, TH, TJ, TM, TN, TT, TZ, UA, UG, UY, UZ, VE, VN, YE, ZM, ZW
 
-Ezek a módosítások csak a fenti termékre vonatkoznak. Más termékek nem voltak kijavítani. 
+Ezek a módosítások csak a fenti termékre vonatkoznak. Más termékeknél nem voltak javítások. 
 
 ### <a name="next-steps-and-resources"></a>Következő lépések és erőforrások
 
-- Az örökös szoftvereket futtató partnereknek le kell tölteniük a legfrissebb végleges szoftverek árlista listáját.
-- A [régióbeli országkód](https://docs.microsoft.com/azure/marketplace/commercial-marketplace-co-sell-countries) alapján a két betűs rövidítések országokra való rövid hozzárendelését lehet megkeresni.
+- A folyamatos szoftvereket tranzakció partnereknek le kell töltenie a legújabb végleges szoftverárlistát.
+- A [kétbetűs](https://docs.microsoft.com/azure/marketplace/commercial-marketplace-co-sell-countries) rövidítés országokra való rövidítésének felhasználóbarát leképezéséhez tekintse meg a régió országkódját.
 ________________
-## <a name="sdk-release-on-net-standard-v1170"></a><a name="13"></a> SDK-kiadás a .NET standardban (v 1.17.0)
+## <a name="sdk-release-on-net-standard-v1170"></a><a name="13"></a> SDK-kiadás a .NET Standardon (1.17.0-s verzió)
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-23
+- Dátum: 2021. 03. 23.
 
 - Képességek
  
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-A partner Center .NET SDK-t használó CSP programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók.
+A CSP-programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók, akik az Partnerközpont .NET SDK-t használják.
 
 ### <a name="details"></a>Részletek
 
-Március 23 2020-én a partnerek megkezdhetik a [MicrosoftPartnerCenter. NETSDK (NuGet Gallery) verziójának letöltését. Microsoft. Store. PartnerCenter 1.17.0)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.17.0), valamint a frissített Public partner Center SDK [GitHub-mintákat](https://github.com/Microsoft/Partner-Center-DotNet-Samples). Ez a verzió a következő módszerek frissítéseit tartalmazza:
+2020. március 23-án a partnerek elkezdik letölteni a [MicrosoftPartnerCenter.NETSDK (NuGet gallery | Microsoft.Store.PartnerCenter 1.17.0)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.17.0), valamint frissített nyilvános Partnerközpont SDK [GitHub-minták.](https://github.com/Microsoft/Partner-Center-DotNet-Samples) Ez a verzió a következő metódusok frissítéseit tartalmazza:
 
-#### <a name="audit-updated-new-operation-types"></a>Naplózás frissítve: új műveleti típusok
+#### <a name="audit-updated-new-operation-types"></a>Audit frissítve: Új művelettípusok
 
-Új [műveleti típusok](https://docs.microsoft.com/partner-center/develop/auditing-resources) lettek hozzáadva, amelyekből megtudhatja, mikor hagyta jóvá és szakítja meg a DAP szolgáltatást.
+Új [művelettípusok hozzáadva annak](https://docs.microsoft.com/partner-center/develop/auditing-resources) tudatában, hogy az ügyfél mikor hagyta jóvá és szüntette meg a DAP-t.
 
 - DapAdminRelationshipApproved
 
 - DapAdminRelationshipTerminated
 
-#### <a name="audit-updated-new-resource-and-operation-types"></a>Napló frissítve: új erőforrás-és műveleti típusok
+#### <a name="audit-updated-new-resource-and-operation-types"></a>Audit frissítve: Új erőforrás- és művelettípusok
 
-Új [erőforrás-és műveleti típusok](https://docs.microsoft.com/partner-center/develop/auditing-resources) lettek hozzáadva az ügyfél-címtár szerepkör-forgatókönyv támogatásához.
+Új [erőforrás- és művelettípusok hozzáadva](https://docs.microsoft.com/partner-center/develop/auditing-resources) az ügyfél címtárszerepkör-forgatókönyvének támogatásához.
 
 - Új erőforrástípus: "CustomerDirectoryRole"
 
-- A "AddUserMember" és a "RemoveUserMember" típusú műveletek
+- Az "AddUserMember" és a "RemoveUserMember" művelettípusok
 
-#### <a name="sdk-updates-to-customer-accounts"></a>Ügyfél-fiókok SDK-frissítései
+#### <a name="sdk-updates-to-customer-accounts"></a>SDK-frissítések az ügyfélfiókok számára
 
-- Támogatás a/customers/{customer-tenant-id}/directSignedMicrosoftCustomerAgreementStatus beolvasásához
+- GET /customers/{customer-tenant-id}/directSignedMicrosoftCustomerAgreementStatus támogatása
 
-- /Customers/{Customer-Tenant-ID}/Qualifications beolvasása
+- GET /customers/{customer-tenant-id}/qualifications
 
-- POST/Customers/{customer_id}/Qualifications? Code = {validationCode}
+- POST /customers/{customer_id}/qualifications?code={validationCode}
 
 #### <a name="additional-changes"></a>További módosítások
 
-A következő változások az új kereskedelmi szolgáltatás részeként jelennek meg, és a meghívással jelenleg csak olyan partnereink számára érhetők el, akik a M365/D365 új kereskedelmi élményhez tartoznak. Azok a partnerek, akik nem részei az új kereskedelmi technikai előzetes verziónak, nem észlelik a hatásokat, és visszamenőlegesen kompatibilisnek kell lenniük.
+A következő változások az új kereskedelem részeként érhetők el, és jelenleg csak az M365/D365 Új kereskedelmi felhasználói élmény technikai előzetes kiadásának partnerei számára érhetők el meghívással. Azok a partnerek, akik nem részei az Új kereskedelem technikai előzetes kiadásának, nem láthatják a hatásokat, és visszamenőlegesen kompatibilisnek kell lenniük.
 
-- Katalógus változásai:
+- Katalógusváltozások:
 
-  - /Products/{Product-ID}/SKUs/{SKU-ID} beolvasása
+  - GET /products/{termékazonosító}/skus/{sku-id}
 
 - Vásárlás és kezelés:
-  - /Customers/{customerId}/subscriptions beolvasása
-  - /Customers/{customerId}/subscriptions/{subscriptionId} beolvasása
-  - /Customers/{customerId}/subscriptions/{subscriptionId} javítása
-  - /Customers/{customerId}/subscriptions/{subscriptionId}/transitioneligibilities beolvasása
-  - /Customers/{customerId}/subscriptions/{subscriptionId}/transitions beolvasása
-  - /Customers/{customerId}/subscriptions/{subscriptionId}/transitions közzététele
+  - GET /customers/{customerId}/subscriptions
+  - GET /customers/{customerId}/subscriptions/{subscriptionId}
+  - PATCH /customers/{customerId}/subscriptions/{subscriptionId}
+  - GET /customers/{customerId}/subscriptions/{subscriptionId}/transitioneligibilities
+  - GET /customers/{customerId}/subscriptions/{subscriptionId}/transitions
+  - POST /customers/{customerId}/subscriptions/{subscriptionId}/transitions
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Töltse le a legújabb verziót: [MicrosoftPartnerCenter. NETSDK (NuGet Gallery | Microsoft. Store. PartnerCenter 1.17.0)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.17.0)
-- A [GitHub-minták](https://github.com/Microsoft/Partner-Center-DotNet-Samples) letöltése és áttekintése
+- Töltse le a [MicrosoftPartnerCenter.NETSDK legújabb verzióját (NuGet Gallery | Microsoft.Store.PartnerCenter 1.17.0)](https://www.nuget.org/packages/Microsoft.Store.PartnerCenter/1.17.0)
+- A [GitHub-minták letöltése és áttekintése](https://github.com/Microsoft/Partner-Center-DotNet-Samples)
 
 ________________
-## <a name="csp-commercial-marketplace-offer-and-fy21-csp-incentives-for-eligible-offers"></a><a name="12"></a>CSP kereskedelmi Marketplace ajánlat és FY21 CSP-ösztönzők a jogosult ajánlatok számára
+## <a name="csp-commercial-marketplace-offer-and-fy21-csp-incentives-for-eligible-offers"></a><a name="12"></a>CSP kereskedelmi piactéri ajánlat és FY21 CSP-ösztönzők jogosult ajánlatokhoz
 
 ### <a name="categories"></a>Kategóriák
 
 - Dátum: 2021-03-18
 - Képességek
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Közvetett szolgáltatók és közvetlen számlázási partnerek a Cloud Solution Provider programban 
+Közvetett szolgáltatók és közvetlen számlázási partnerek a Felhőszolgáltató programjában 
 
 ### <a name="details"></a>Részletek
 
-A közvetett szolgáltatók és a közvetlen számlázási partnerek a felhőalapú megoldás-szolgáltatói programban harmadik féltől származó ajánlatokat is értékesíthetik, és kedvezményeket szerezhetnek a partner Centerben vagy a Azure Portalban lebonyolított, jogosult harmadik féltől származó ajánlatokra vonatkozóan. Az ösztönzés a jogosult ajánlatok esetében a számlázott értékesítések esetében engedmény formájában történik, és **2021. június 30-ig érhető el**.  
+A Felhőszolgáltató program közvetett szolgáltatói és közvetlen számlázási partnerei értékesíthet harmadik féltől származó ajánlatokat, és ösztönző ösztönzőt kaphatnak a Partnerközpont vagy a Azure Portal. Az ösztönző a jogosult ajánlatok kiszámlázott értékesítésének **2021. június 30-ig lesz elérhető.**  
 
-Folytassa a jelen CSP kereskedelmi Marketplace ajánlatának megismerését, és lépjen kapcsolatba az ügyfelekkel a megfelelő ajánlatok azonosításához, hogy azok továbbra is sikeresek és digitális átalakítást nyújtsanak.
+Folytassa a lenti, CSP kereskedelmi piactéri ajánlatra vonatkozó ösztönzővel kapcsolatos további tanulást, és vegye fel a kapcsolatot az ügyfelekkel még ma, hogy azonosítsa a megfelelő ajánlatokat, amelyek lehetővé teszik a folyamatos sikerüket és a digitális átalakulást.
 
-Független szoftvergyártók (ISV-ket) partnereink, hogy a legújabb IaaS és SaaS-megoldásokat a Microsoft ügyfelei számára is piacra hozzák. Az ISV-közzétevők lehetővé teszik, hogy a Microsoft partneri csatornán keresztül engedélyezzék az ajánlatok értékesítését. Az ösztönzőre jogosult ajánlatok két kategóriába sorolhatók:
+A független szoftverszállítók (ISV-k) segítségével a legújabb IaaS- és SaaS-megoldásokat kínáljuk a Microsoft ügyfeleinek. Az ISV-közzétevőknek lehetősége van engedélyezni az ajánlataik értékesítését a Microsoft partnercsatornáján keresztül. Az ösztönzőre jogosult ajánlataink két kategóriába sorolhatók:
 
-- Válassza ki a SaaS-és IaaS külső ajánlatokat az Azure IP-címek közös értékesítésének incentivized állapotával. 
+- Válassza az Azure IP-cím alapú közös értékesítés incentivált állapotú SaaS- és IaaS-ajánlatokat. 
 
-- Csapatokkal vagy legalább két Microsoft 365 hatékonyságnövelő alkalmazásokkal integrált SaaS-alkalmazások, mint például a PowerPoint, a Word, az Excel, az Outlook vagy a SharePoint.
+- A Teamsbe integrált SaaS-alkalmazások vagy legalább Microsoft 365 alkalmazások, például a PowerPoint, a Word, az Excel, az Outlook vagy a SharePoint.
 
 ### <a name="next-steps-and-resources"></a>Következő lépések és erőforrások
 
-- Ismerje meg, hogyan szerezhet [partneri ösztönzőket](https://partner.microsoft.com/membership/partner-incentives) a jogosult Marketplace-alkalmazások értékesítésére az ösztönző jogosult alkalmazások számára. Az új ajánlatok havonta lesznek hozzáadva.  
-- [Felhőalapú megoldás-szolgáltató közvetlen számlázási partneri ösztönző erőforrásai](https://partner.microsoft.com/asset/collection/cloud-solution-provider-direct-partner-incentive-resources#/)
-- [Felhőalapú megoldás szolgáltatójának közvetett szolgáltatói ösztönző erőforrásai](https://partner.microsoft.com/asset/collection/cloud-solution-provider-indirect-provider-incentive-resources#/)
-- Tekintse át ezt a [bemutatót](https://partner.microsoft.com/resources/detail/partner-center-cm-for-csp-overview-pdf) , ha többet szeretne megtudni a kereskedelmi piactéren elérhető alkalmazások értékesítéséről. További forrásokat [itt találhat](https://partner.microsoft.com/resources/collection/partner-center-cm-for-csp-collection#/). 
-- Fedezze fel a kereskedelmi piactér katalógusát a [partner Centerben](https://docs.microsoft.com/partner-center/csp-commercial-marketplace-discover) vagy [Azure Portal](https://ms.portal.azure.com/#home)
-- [API](https://docs.microsoft.com/partner-center/develop/create-subscription-azure-marketplace-products#get-a-list-of-offers-for-a-market) -k használata az alkalmazások vállalati piactéren való integrálásához
-- Tegye elérhetővé az olyan ISV-ket, akik érdeklődnek a
-- A közvetett szolgáltatóknak integrálnia kell az API-k és az útmutató viszonteladók használatával
+- Ismerje meg, hogyan szerezhet [partneri ösztönzőket](https://partner.microsoft.com/membership/partner-incentives) a jogosult Marketplace-alkalmazások értékesítéséhez az ösztönzőre jogosult alkalmazásokhoz. Az új ajánlatok hozzáadása havonta történik.  
+- [Felhőszolgáltató partneri ösztönzőerőforrások közvetlen számlázása](https://partner.microsoft.com/asset/collection/cloud-solution-provider-direct-partner-incentive-resources#/)
+- [Felhőszolgáltató közvetett szolgáltatói ösztönzőerőforrások](https://partner.microsoft.com/asset/collection/cloud-solution-provider-indirect-provider-incentive-resources#/)
+- Tekintse át ezt [a bemutatót,](https://partner.microsoft.com/resources/detail/partner-center-cm-for-csp-overview-pdf) ha többet szeretne megtudni a kereskedelmi piactéren elérhető alkalmazások értékesítésről. További forrásokat itt [is meg lehet nézni.](https://partner.microsoft.com/resources/collection/partner-center-cm-for-csp-collection#/) 
+- Ismerkedés a kereskedelmi piactér-katalógussal [Partnerközpont](https://docs.microsoft.com/partner-center/csp-commercial-marketplace-discover) vagy [Azure Portal](https://ms.portal.azure.com/#home)
+- Alkalmazások [integrálása](https://docs.microsoft.com/partner-center/develop/create-subscription-azure-marketplace-products#get-a-list-of-offers-for-a-market) a vállalat piacterébe API-k használatával
+- Érdeklődjön azokkal a isvv-ekkel, amelyek érdeklik az üzletben
+- A közvetett szolgáltatóknak API-k használatával kell integrálni az integrációt, és útmutatást kell adni a viszonteladóknak az értékesíthető alkalmazásokhoz
 
 ### <a name="questions"></a>Kérdése van?  
 
-Tekintse át [ezt a cikket](https://docs.microsoft.com/partner-center/csp-commercial-marketplace-overview) a partner Center kereskedelmi piactérének áttekintéséhez.
+Ebben [a cikkben áttekintheti](https://docs.microsoft.com/partner-center/csp-commercial-marketplace-overview) a kereskedelmi piacteret a Partnerközpont.
 
-Ha további segítségre van szüksége, létrehozhat egy támogatási kérést a partner Centerben. További információ: [https://aka.ms/IncentivesSupport](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=1) .
+Ha további segítségre van szüksége, hozzon létre egy támogatási kérést a Partnerközpont. További információ: [https://aka.ms/IncentivesSupport](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=1) .
 
 ________________
-## <a name="power-bi-premium-offer-naming-and-prerequisite-update"></a><a name="11"></a>Power BI Premium ajánlat elnevezési és előfeltétel-frissítése
+## <a name="power-bi-premium-offer-naming-and-prerequisite-update"></a><a name="11"></a>Power BI Premium ajánlat elnevezése és előfeltétel-frissítése
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-18
+- Dátum: 2021. 03. 18.
 - Képességek
 
 ### <a name="summary"></a>Összefoglalás
 
-Az 2021-as április 1-től a végső árlista frissül, hogy egyértelművé tegye a felhasználók által kínált Power BI Premium elnevezési és/vagy előfeltétel-információit.
+A 2021. április 1-i végleges árlista frissülni fog, hogy érthetőbb legyen az egyes Power BI Premium ajánlatokkal kapcsolatos elnevezési és/vagy előfeltétel-információk.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Cloud Solution Provider (CSP) közvetlen és közvetett partnerek
+Felhőszolgáltató (CSP) közvetlen és közvetett partnerek
 
 ### <a name="details"></a>Részletek
 
-Az 2021-as április 1-től a végső árlista frissül, hogy egyértelművé tegye a felhasználók által kínált Power BI Premium elnevezési és/vagy előfeltétel-információit.
+A 2021. április 1- és 2021-es végleges árlista frissül, hogy érthetőbb legyen az egyes Power BI Premium ajánlatok elnevezési és/vagy előfeltétel-információi.
 
-A végleges árlista frissítése előtt használja az ebben a szakaszban található információkat a megfelelő termék megrendelésének biztosításához.
+A végleges árlista frissítésig az ebben a szakaszban található információk alapján győződjön meg arról, hogy a megfelelő termék van megrendelve.
 
-Az alábbi részletek az érintett SKU-t és az előfeltételek részleteit mutatják be.
+Az alábbi részletek az érintett termékváltozatot és előfeltétel-részleteket mutatják be.
 
-| Ajánlat megjelenítendő neve március 1-től árlista |  Frissített ajánlat megjelenítendő neve április 1-től végleges árlista| Ajánlat azonosítója |
+| Ajánlat megjelenítendő neve a március 1-i árlista előzetes kiadásában |  Frissített ajánlat megjelenítendő neve az április 1-i végleges árlistán| Ajánlat azonosítója |
 | ------ | ----------- | ----------- |
-| Felhasználónkénti Add-On Power BI Premium (nonprofit alkalmazottak díjszabása)  |  Power BI Premium felhasználónkénti Add-On **(Office)** (nonprofit alkalmazottak díjszabása)   | 31c03289-47ab-4ab0-8df1-03742c127ac6   |
+| Power BI Premium felhasználónkénti Add-On (nonprofit személyzet díjszabása)  |  Power BI Premium felhasználónkénti Add-On **(Office) (Nonprofit** személyzet díjszabása)   | 31c03289-47ab-4ab0-8df1-03742c127ac6   |
 
-Az ajánlat megvásárlásához az ügyfélnek az alábbi előfeltételek valamelyikét kell megadnia:
+Az ügyfeleknek az alábbi előfeltételek bármelyikével kell előfeltételt adniuk az ajánlat megvásárlásához:
 
 | Ajánlat megjelenítendő neve | Ajánlat azonosítója |
 | ------ | ----------- |
 | Microsoft 365 E5 (nonprofit alkalmazottak díjszabása)  |  31bedf01-9e57-4ece-a53a-d3656a563931   |
-|   Microsoft 365 E5 hangkonferencia nélkül (nonprofit munkatársak díjszabása)|  b456810a-c414-4e07-98fc-ef74e8175a09|
-|   Office 365 E5 (nonprofit alkalmazottak díjszabása)| ce139fe5-8bd5-47ed-a5be-07c286f8b9e    |
-|   Office 365 E5 (nonprofit alkalmazottak díjszabása) próbaverzió|  2f192efe-608a-4c9c-9d19-2b0b70b0962e|
-|   Office 365 E5 hangkonferencia nélkül (nonprofit munkatársak díjszabása)|  c3897426-9f49-4eaf-9b4d-7d9a1c72aef7|
+|   Microsoft 365 E5 beállítása hangkonferencia nélkül (nonprofit alkalmazottak díjszabása)|  b456810a-c414-4e07-98fc-ef74e8175a09|
+|   Office 365 E5 (Nonprofit személyzet díjszabása)| ce139fe5-8bd5-47ed-a5be-07c286f8b9e    |
+|   Az Office 365 E5 próbaverziója (nonprofit személyzet díjszabása)|  2f192efe-608a-4c9c-9d19-2b0b70b0962e|
+|   Office 365 E5 audiokonferencia nélkül (nonprofit személyzet díjszabása)|  c3897426-9f49-4eaf-9b4d-7d9a1c72aef7|
 
-Az alábbi Power BI Premium ajánlat előfeltétele a vásárláshoz szükséges:
+A következő Power BI Premium ajánlathoz előfeltétel szükséges a vásárláshoz:
 
 | Ajánlat megjelenítendő neve | Ajánlat azonosítója |
 | ------ | ----------- |
-|   Felhasználónkénti Add-On Power BI Premium (nonprofit alkalmazottak díjszabása)|  ef0b895b-681B-4026-a5b1-dda182a57d40 |
+|   Power BI Premium felhasználónkénti Add-On (nonprofit személyzet díjszabása)|  ef0b895b-681b-4026-a5b1-dda182a57d40 |
 
-Az ajánlat megvásárlásához az ügyfeleknek meg kell követelniük az alábbi előfeltételeket:
+Az ügyfeleknek a következő előfeltételre van szüksége az ajánlat megvásárlásához:
 
 | Ajánlat megjelenítendő neve | Ajánlat azonosítója |
 | ------ |----------|
-| Power BI Pro (nonprofit alkalmazottak díjszabása)  |   cabdfc93-5786-4224-bfd3-35d58f833b35 |
+| Power BI Pro (Nonprofit személyzet díjszabása)  |   cabdfc93-5786-4224-bfd3-35d58f833b35 |
 
 ### <a name="next-steps"></a>Következő lépések
 
-Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.  
+Tekintse át a témakör erőforrásait, és ossza meg ezt az információt a szervezet megfelelő érdekelt felével.  
 
 ### <a name="questions"></a>Kérdése van?
 
-Az ajánlatokkal kapcsolatos bármilyen kérdés esetén keresse meg a megfelelő Yammer-közösségeket. 
+Ha kérdései vannak ezekkel az ajánlatokkal kapcsolatban, tekintse meg az érintett Yammer-közösségeket. 
 
-## <a name="march-price-updates-for-microsoft-365-f3"></a><a name="10"></a> A Microsoft 365 F3 díjszabási frissítései
+## <a name="march-price-updates-for-microsoft-365-f3"></a><a name="10"></a> Az F3 Microsoft 365 márciusi árának frissítései
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-16
+- Dátum: 2021. 03. 16.
 - Ajánlatok/piacok
 
 ### <a name="summary"></a>Összefoglalás
 
-Helytelen a március 2021 díjszabása kijavítva a Microsoft 365 F3 angol font (GBP) és az euro (EUR) esetében.
+A 2021. márciusi díjszabás helytelenül lett kijavítva a Microsoft 365 font (GBP) és az euro (EUR) esetében.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-A partnerek a Cloud Solution Provider (CSP) program keretében a 2021. március 1. és március 17. között megvásárolt Microsoft 365 F3-at.
+Az F3 Microsoft 365 2021. március 1. és 2021. március 17. között gb/s-ban vagy EUR-ban megvásárlási Felhőszolgáltató (CSP) keretében.
 
 ### <a name="details"></a>Részletek
 
-A Microsoft a Microsoft 365 F3 helytelen díjszabását oldotta meg. A helytelen árak a GBP és az EUR, és csak a 2021. március 1. és március 17. között megvásárolt ajánlatokra érvényesek. Az érintett ajánlatok és pénznemek az alábbiakban láthatók. 
+A Microsoft megoldotta az F3 Microsoft 365 díjszabását. A helytelen árak a GBP és az EUR esetében voltak, és csak a 2021. március 1. és 2021. március 17. között vásárolt ajánlatok esetében. Az érintett ajánlatok és pénznemek listája alább látható. 
 
-| Ajánlat neve | Pénznem | Ajánlat azonosítója | Anyag azonosítója |
+| Ajánlat neve | Pénznem | Ajánlat azonosítója | Anyagazonosító |
 | ------ |----------- |----------- |----------- |
-| Microsoft 365 F3 (jótékonysági) | GBP | 57b722c2-c435-4bfb-9bc8-80509213a13a | HRE-11626 |
-| Microsoft 365 F3 (kereskedelmi) | EUR| 3451a3b0-8cda-44a7-bad7-c30be81c4aaa | AAA-89898 |
+| Microsoft 365 F3 (Rendszer) | GBP | 57b722c2-c435-4bfb-9bc8-80509213a13a | AAD-11626 |
+| Microsoft 365 F3 (Kereskedelmi) | EUR| 3451a3b0-8cda-44a7-bad7-c30be81c4aaa | AAA-89898 |
  
-A márciusi és áprilisi előzetes verzióra vonatkozó alapszintű árlista a csendes-óceáni téli idő szerint 15. március 16-án frissült.
+A márciusi és áprilisi licencelési alapárak listája március 16-án, 17:00-kor frissült a csendes-óceáni téli idő szerint.
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Ha szükséges, a partnereknek újra le kell tölteniük az aktuális licenccel-alapú árlistát, valamint a márciusi és az áprilisi előzetes verziót is.  
-- A Microsoft e-mailben kapcsolatba lép a kapcsolódó partnerekkel az elkövetkező hetekben, hogy tájékoztassa őket az érintett tranzakciók kijavítására vonatkozó következő lépésekről.
+- A partnereknek újra le kell töltenie az aktuális licencalapú árlistát (március és áprilisi előzetes verzió) ezekkel az árkorrekcióval, ha van ilyen.  
+- A Microsoft az elkövetkező hetekben e-mailben kapcsolatba lép az érintett partnerekkel, hogy tájékoztassa őket az érintett tranzakciók kijavítása során szükséges további lépésekről.
 
 ### <a name="questions"></a>Kérdése van?
 
-További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
+További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeket.
 
 ________________
 
-## <a name="update-a-legal-company-name-through-partner-center"></a><a name="9"></a> Jogi cég nevének frissítése a partner centeren keresztül
+## <a name="update-a-legal-company-name-through-partner-center"></a><a name="9"></a> Jogi vállalat nevének frissítése a Partnerközpont
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-16
-- A meghajtó hatékonyságának & skálázása
+- Dátum: 2021.03. 16.
+- Drive Efficiency & Scale
 
 ### <a name="summary"></a>Összefoglalás
 
-Március 2021, Microsoft Partner Network (MPN) partnerek és a felhőalapú megoldás-szolgáltató (CSP) közvetett viszonteladók a partner centeren keresztül frissíthetik a vállalatuk nevét.
+2021 márciusában Microsoft Partner Network (MPN) partnerek és Felhőszolgáltató (CSP) közvetett viszonteladók frissítheti jogi vállalatuk nevét a Partnerközpont.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-MPN-partnerek és CSP közvetett viszonteladók (nem alkalmazható a CSP Direct Bill-partnereknek)
+MPN-partnerek és közvetett CSP-viszonteladók (nem vonatkoznak a közvetlen csp-számlázási partnerekre)
 
 ### <a name="details"></a>Részletek
 
-A március 2021-től kezdődően az MPN-partnerek és a CSP közvetett viszonteladók megfelelő, önkiszolgáló módon frissíthetik a vállalatuk nevét a partner centeren keresztül. Ezzel az új funkcióval a partnereknek többé nem kell beküldeniük a partner Center támogatási jegyét a vállalat nevének frissítéséhez. Így jelentős mennyiségű időt takaríthat meg a partnerek számára ezen tevékenységek végrehajtásakor. 
+2021 márciusánaktól az MPN-partnerek és a közvetett CSP-viszonteladók a vállalatuk jogi nevét a Partnerközpont, önkiszolgáló módon frissítheti. Ezzel az új funkcióval a partnereknek többé nem kell támogatási jegyet Partnerközpont a vállalatuk nevének frissítéséhez. Ez jelentős időt takarít meg a partnerek számára ezen tevékenységek végrehajtása során. 
 
-További információ: [a jogi üzleti profil frissítése](../update-your-partner-profile.md#update-your-legal-business-profile).
+További információ: [A jogi üzleti profil frissítése.](../update-your-partner-profile.md#update-your-legal-business-profile)
 
 >[!NOTE]
->Győződjön meg arról, hogy a vállalat neve a jogi üzleti profilban nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megfelel a vállalati üzleti regisztrációs rekordoknak. A szervezeti profil frissítésével kapcsolatos további információkért tekintse meg a [szervezet profiljának ellenőrzése](../update-your-partner-profile.md#update-your-legal-business-profile)című témakört.
+>Győződjön meg arról, hogy a jogi üzleti profiljában a vállalat neve nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megegyezik a hivatalos vállalati üzleti regisztrációs rekordokkal. A szervezeti profil frissítésével kapcsolatos további információkért lásd: [A szervezeti profil ellenőrzése.](../update-your-partner-profile.md#update-your-legal-business-profile)
 
 ### <a name="next-steps"></a>Következő lépések
 
-Ossza meg ezt az információt a szervezeten belül, hogy a megfelelő csapat áttekintse és frissítse a folyamatait.
+Ossza meg ezt az információt a szervezeten belül, hogy a megfelelő csapat áttekintheti és frissítheti a folyamatait.
 
 ### <a name="questions"></a>Kérdése van?
 
-További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
+További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeket.
 
 ________________
-## <a name="update-to-cloud-solution-provider-csp-program-evolution-and-open-license-program-changes"></a><a name="8"></a> Frissítés a Cloud Solution Provider (CSP) program fejleményeire és a licencelési program megnyitására
+## <a name="update-to-cloud-solution-provider-csp-program-evolution-and-open-license-program-changes"></a><a name="8"></a> Frissítés a Felhőszolgáltató (CSP) program fejlődése és az Open License program változásai
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-15
+- Dátum: 2021. 03. 15.
 - Képességek
 
 ### <a name="summary"></a>Összefoglalás
 
-Az új kereskedelmi és közszektorbeli örökös szoftverek a Cloud Solution Provider (CSP) programba kerülnek, valamint az Open licencelési program módosításait.
+Az új kereskedelmi és közszférában elérhető folyamatos szoftveres ajánlatok a Felhőszolgáltató (CSP) programba, az Open Licensing Program változásaival együtt stb.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-A nyílt licencelési programon keresztül árusító kereskedelmi terjesztők és felügyelt viszonteladók, valamint az örökös szoftvereket lebonyolító CSP-partnerek
+A kereskedelmi terjesztők és a felügyelt viszonteladók, akik az Open License programon keresztül értékesítik őket, valamint minden CSP-partner, amely állandó szoftvereket értékesít
 
 ### <a name="details"></a>Részletek
 
-A Microsoft szeptember 2020-án [bejelentette](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) a digitális átalakulás lépéseinek egy sorozatát, amely kibővíti a partnereinkkel kapcsolatos lehetőségeket a CSP programban, beleértve a helyszíni szoftverek rendelkezésre állását a partnerek számára. Ezek a változások lehetővé teszik, hogy a partnerek a CSP-ben a szoftver licenceit kihasználva növeljék üzleti tevékenységüket Emellett képessé teszik az ügyfeleket a felhőre való áttérésre, és lehetővé teszik a partnerek számára a hibrid felhőalapú környezetekhez szükséges rugalmasságot.
+2020 szeptemberében [a](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) Microsoft bejelentette a digitális átalakulási folyamat lépéseit, hogy bővítse a CSP-program partnereinek lehetőségeit, beleértve a helyszíni szoftverek elérhetőségét a partnerek számára. Ezek a változások lehetővé teszik a partnerek számára, hogy a felhőszolgáltató szoftverlicenceinek segítségével bővíthétsék a munkájukat, és sikerre jutnak napjaink felhőalapú világában. Emellett lehetővé teszi az ügyfelek felhőre való áttérését is, és a partnerek számára a hibrid felhőalapú ügyfélkörnyezetekhez szükséges rugalmasságot biztosítják.
 
-A digitális átalakítás folytatásakor a következő módosításokat tesszük közzé:
+A digitális átalakítás folytatásaként bejelentjük a következő változásokat:
 
-- 2021. július 1-jén: a program nem ad hozzá új SKU-t, terméket vagy előléptetést az Open szoftverlicenc-árlista listájához.
+- 2021. július 1.: Az Open License program árlistába nem kerülnek új termékkódok, termékek vagy promóciók.
 
-- Július 7., 2021: két kereskedelmi ajánlat, valódi Windows-és Visual Studio Professional-és nyilvános szektor-ajánlatok (kormányzati, oktatási és nonprofit – lásd a [bejelentést](./2020-december.md#9)) a CSP Perpetual Software Prices listához lesznek hozzáadva.  Az árlista a partner Center [értékesítési > díjszabása & ajánlatok](https://partnercenter.microsoft.com/pcv/sales) oldalának szoftver szakaszában található, és ezen a napon újra közzé lesz téve.
+- 2021. július 7.: Két kereskedelmi ajánlat, a Get Genuine Windows és az Visual Studio Professional, valamint a közszférában elérhető ajánlatok (kormányzati, oktatási és nonprofit – lásd a [bejelentést)](./2020-december.md#9)bekerülnek a CSP folyamatos szoftverár-listájára.  Az árlista a Partnerközpont Értékesítés > Díjszabási ajánlatok [& oldalának](https://partnercenter.microsoft.com/pcv/sales) Szoftver szakaszában található, és ezen a napon lesz újból közzétenve.
 
-A CSP-program evolúciójának és a licencelési program változásának részletes ismertetését az alábbi, **következő lépésekben** találhatja meg.
+A CSP-program fejlődésével és az Open License program változásaival kapcsolatos részletekért tekintse meg az alábbi **Következő lépéseket.**
 
 ### <a name="next-steps"></a>További lépések:
 
-- CSP-program evolúciója: Tekintse át az [örökös szoftvereket a Cloud Solution Provider program](https://partner.microsoft.com/resources/collection/software-in-csp#/) készenléti anyagaiban. Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
+- CSP-program fejlődése: Tekintse át a folyamatos szoftvert a Felhőszolgáltató [készültségi](https://partner.microsoft.com/resources/collection/software-in-csp#/) anyagokban. Ezzel a [készenlét-leképezésvel](https://partner.microsoft.com/resources/detail/software-in-csp-readiness-map-pdf) gyorsan megkeresheti a szerepkörének megfelelő információkat.
 
-- A licencelési program módosításainak megnyitása: Tekintse át a [CSP-program evolúcióját, és nyissa meg a licencelési program változásait](https://partner.microsoft.com/resources/collection/csp-open-evolution-to-a-better-experience#/) . Ezzel a [készültségi térképsel](https://partner.microsoft.com/resources/detail/csp-open-evolution-to-a-better-experience-readiness-map-pdf) gyorsan megtalálhatja a szerepkörének megfelelő információkat.
+- Open License program módosításai: Tekintse át a [CSP-program](https://partner.microsoft.com/resources/collection/csp-open-evolution-to-a-better-experience#/) fejlődését és az Open License program módosításainak készültségi anyagát. Ezzel a [készenlét-leképezéspel](https://partner.microsoft.com/resources/detail/csp-open-evolution-to-a-better-experience-readiness-map-pdf) gyorsan megkeresheti a szerepkörének megfelelő információkat.
 
 ### <a name="questions"></a>Kérdések
 
-További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeit.
+További kérdésekért tekintse meg a megfelelő CSP Yammer-közösségeket.
 
 _______________
-## <a name="update-to-a-previous-announcement-premium-assessments-an-add-on-to-compliance-manager"></a><a name="7"></a>Frissítés korábbi bejelentésre: prémium szintű felmérések, a megfelelőségi vezető bővítménye
+## <a name="update-to-a-previous-announcement-premium-assessments-an-add-on-to-compliance-manager"></a><a name="7"></a>Frissítés egy korábbi bejelentésre: Premium Assessments, a Compliance Manager bővítménye
 
 ### <a name="categories"></a>Kategóriák
 
@@ -600,88 +607,88 @@ _______________
 
 ### <a name="summary"></a>Összefoglalás
 
-A próbaverziós ajánlatokat nem lehet listázni az árlista alapján, és el lesznek távolítva.
+A próbaverziós ajánlatoknak nem kellett volna szerepelve az árlistában, és el lesznek távolítva.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Felhőalapú megoldás-szolgáltatón keresztül lebonyolított partnerek
+A partnerek tranzakciós Felhőszolgáltató
 
 ### <a name="details"></a>Részletek
 
-A próbaverziós ajánlatokat nem tartalmazza az árlista. Ezeket a rendszer eltávolítja a 2021-es árlista-listából.
+A próbaverziós ajánlatoknak nem kellett volna szerepelniük az árlistában. Ezek el lesznek távolítva a 2021. május 1-i árlistáról.
 
-Az eredeti hirdetmény [itt](./2021-february.md#4)található.
+Az eredeti bejelentés itt [van.](./2021-february.md#4)
 
 ### <a name="additional-resources"></a>További források
 
-- [Az E5 biztonsági és megfelelőségi Microsoft 365](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise?activetab=m365-enterprise:primaryr5)
+- [Microsoft 365 E5 biztonság és megfelelőség](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise?activetab=m365-enterprise:primaryr5)
 
-- [Értékelések készítése és kezelése a Microsoft megfelelőségi kezelőjében – Microsoft 365 megfelelőség](/microsoft-365/compliance/compliance-manager-assessments)
+- [Értékelések összeállítása és kezelése a Microsoft Compliance Managerben – Microsoft 365 megfelelőség](/microsoft-365/compliance/compliance-manager-assessments)
 
 ### <a name="next-steps"></a>Következő lépések
 
-Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.
+Tekintse át a témakörre vonatkozó forrásokat, és ossza meg ezt az információt a szervezet megfelelő érdekelt felével.
 
 ### <a name="questions"></a>Kérdése van?
 
-Az ajánlatokkal kapcsolatos kérdésekben keresse meg a megfelelő Yammer-közösségeket.
+Az ajánlatokkal kapcsolatos kérdésekért tekintse meg az érintett Yammer-közösségeket.
 
 ________________
-## <a name="migrate-your-solutions-from-one-commercial-partner-ocp-go-to-market-gtm-to-the-microsoft-commercial-marketplace"></a><a name="6"></a> Megoldásait áttelepítheti egy kereskedelmi partnertől (OCP) a Microsoft kereskedelmi Marketplace-re (GTM)
+## <a name="migrate-your-solutions-from-one-commercial-partner-ocp-go-to-market-gtm-to-the-microsoft-commercial-marketplace"></a><a name="6"></a> Megoldások miminálása egy kereskedelmi partnertől (OCP) piaci útjára (GTM) a Microsoft kereskedelmi piacterére
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-03-12
+- Dátum: 2021. 03. 12.
 - Képességek
 
 ### <a name="summary"></a>Összefoglalás
 
-2021. március 29-én elkezdjük korlátozni a kereskedelmi partneri (OCP) piacra lépéseit (GTM). Javasoljuk, hogy telepítse át megoldásait a kereskedelmi piactérre a partner Centerben.
+2021. március 29-től korlátozott, piacra piacra ható (GTM) One Commercial Partner (OCP) képességeket fog tapasztalni. Javasoljuk, hogy megoldásait a kereskedelmi piactérre mi célra Partnerközpont.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-OCP GTM-megoldásokkal közösen értékesítő szervezetek
+Megoldások közös értékesítése az OCP GTM-megoldásokkal
 
 ### <a name="details"></a>Részletek
 
-2020 decemberében kezdtük el utunkat a Microsoft OCP GTM eszközről a Microsoft kereskedelmi piactérről a partner Centerben. Ez az áttérés kibővíti a kereskedelmi piactér képességeit, ahol több millió ügyfél számára is kiterjesztheti megoldásait, és kétirányú módon megoszthatja a lehetőségeket más Microsoft-és partner-értékesítővel, és közösen értékesítheti az innovatív megoldásokat.
+2020 decemberével kezdtük meg a Microsoft OCP GTM eszközével és a Microsoft kereskedelmi piacterével való Partnerközpont. Ez az átállás kibővíti a kereskedelmi piactér képességeit, ahol megoldásait ügyfelek milliói számára mutathatja be, kétirányúan oszthatja meg a lehetőségeket más Microsoft- és partner értékesítőkkel, és közösen innovatív megoldásokat értékesíthet.
 
-Az áttérés következő mérföldköve a 2021. március 29-én kerül megadásra. Ez az, amikor elkezdi megtapasztalni a korlátozott OCP GTM képességeket, és egyes mezők csak olvashatók lesznek. Ha jelenleg a OCP GTM-megoldásokkal együtt értékesíti a megoldásokat, javasoljuk, hogy a megoldásait a kereskedelmi piactérre telepítse át, hogy kiaknázza a képességeit, és egyszerűsítse a közzétételi élményt. 
+Az átváltás következő mérföldköve 2021. március 29-én lesz. Ez az, amikor korlátozott OCP GTM-képességeket fog tapasztalni, és egyes mezők írásra válnak. Ha jelenleg együtt értékesít az OCP GTM megoldásaival, javasoljuk, hogy megoldásait a kereskedelmi piactérre miminálja, hogy kihasználja annak képességeit, és egyszerűsítse a közzétételi élményt. 
 
-A kereskedelmi piactérre való áttéréssel a partneri központ az elsődleges cél a közös értékesítésű közzétételi élmény. Így tovább bővítheti üzleti tevékenységét úgy, hogy a Microsoft-termékekhez hasonló csatornákkal és a termékkel kapcsolatos felhasználói élményekkel összeköti megoldásait közös ügyfeleinkkel. [További információ a kereskedelmi piactérről](https://blogs.partner.microsoft.com/mpn/getting-started-with-the-microsoft-commercial-marketplace/).
+A kereskedelmi piactérre való Partnerközpont az értékesítések közzétételi folyamatának elsődleges célhelyét. A microsoftos termékekhez használt csatornákon és termékeken keresztül a megoldásokat a megosztott ügyfelekkel összekapcsolva tovább tudja növekedni vállalkozását. [További információ a kereskedelmi piactérről.](https://blogs.partner.microsoft.com/mpn/getting-started-with-the-microsoft-commercial-marketplace/)
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Ha még nem helyezte át a megoldásait, kövesse az [áttérési útmutatóban](/azure/marketplace/co-sell-solution-migration) részletezett utasításokat, vagy tekintse meg az összes áttelepítési tevékenység befejezéséhez szükséges [útmutatót, és](https://partner.microsoft.com/asset/detail/ocp-gtm-to-the-microsoft-commercial-marketplace-mp4) kezdje el közzétenni a megoldás (oka) t a kereskedelmi piactéren.
+- Ha még nem költözte át a megoldásait, kövesse az [](https://partner.microsoft.com/asset/detail/ocp-gtm-to-the-microsoft-commercial-marketplace-mp4) átváltási útmutató utasításait, vagy tekintse meg a részletes videó oktatóanyagot az összes migrálási tevékenység befejezéséhez és a megoldás(ok) kereskedelmi piactéren való közzétételének elkezdéséért. [](/azure/marketplace/co-sell-solution-migration)
 
-- A OCP-GTM korlátozott képességekkel kapcsolatos kérdéseivel kapcsolatban tekintse meg a [Microsoft kereskedelmi piactéren feltett gyakori kérdések című szakaszban közzétett közös értékesítésre vonatkozó követelményeket](https://partner.microsoft.com/resources/detail/co-sell-requirements-publish-commercial-marketplace-faq-pdf). (Lásd a "OCP GTM korlátozott képességek" című szakaszt, amely 2021. március 29-én kezdődik. ")
+- Az OCP GTM korlátozott képességeivel kapcsolatos kérdésekért tekintse meg a Microsoft kereskedelmi piactéren való közzétételre vonatkozó, közös értékesítésre [vonatkozó követelményeket](https://partner.microsoft.com/resources/detail/co-sell-requirements-publish-commercial-marketplace-faq-pdf). (Lásd az "OCP GTM korlátozott képességei 2021. március 29-től kezdődően" című szakaszt.)
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha bármilyen kérdése van, vagy további információra van szüksége, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1) .
+Ha [kérdése](https://partner.microsoft.com/support/?stage=1) van, vagy további információra van szüksége, forduljon az ügyfélszolgálathoz.
 
 ________________
-## <a name="expanding-the-new-commerce-experience-in-the-cloud-solution-provider-csp-program-for-azure-to-russia"></a><a name="5"></a>Az új kereskedelmi élmény kibővítése az Azure-beli Cloud Solution Provider (CSP) program keretében
+## <a name="expanding-the-new-commerce-experience-in-the-cloud-solution-provider-csp-program-for-azure-to-russia"></a><a name="5"></a>Az új kereskedelmi élmény bővítése az Azure-Felhőszolgáltató (CSP) programjában Az Azure és Oroszország között
 
 ### <a name="categories"></a>Kategóriák
 
 - Dátum: 2021-03-10
 - Képességek
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Az Oroszországban lévő összes partner a Cloud Solution Provider (CSP) programon keresztül lebonyolítja a tranzakciót.
+Minden orosz partner a Felhőszolgáltató (CSP) programon keresztül.
 
 ### <a name="details"></a>Részletek
 
-A 10 2021. március 1-től örömmel jelentjük be, hogy elérhetővé tettük az **új kereskedelmi élményt az Azure-beli CSP-ben Oroszországban**. Ez a tapasztalat egyszerűsíti és javítja az Azure-szolgáltatások vásárlásának és felhasználásának módját. Emellett a CSP program partnereinek is egységes áttekintést nyújt az Azure díjszabásáról az értékesítési mozgások során, a globális konzisztencia, a számlázási dátum-igazítás és a Azure Cost Management elérésének USD-díja.
+2021. március 10-től izgatottan várjuk, hogy bejelentjük, hogy a CSP új kereskedelmi élménye elérhető az **Azure-ban Oroszországban.** Ez a felhasználói élmény leegyszerűsíti és javítja az ügyfelek Azure-szolgáltatások vásárlásának és használatának módját. Emellett konzisztens nézetet biztosít a CSP-program partnerei számára az Azure-díjszabásról az értékesítések között, usd-díjszabást a globális konzisztenciához, a számlázási dátumok igazításához, valamint hozzáférést a Azure Cost Management.
 
 ### <a name="next-steps"></a>Következő lépések
 
-Számos erőforrás érhető el az új Azure-beli kereskedelmi élmény bevezetéséhez és további információk biztosításához. A legújabb gyakori kérdések, a paklik, a videók és egyebek a [CSP program frissítésének erőforrás-gyűjteményében](https://partner.microsoft.com/resources/collection/new-azure-experience-in-csp#/)találhatók.
+Számos forrás áll rendelkezésre, amelyek bemutatják az azure-beli kereskedelmi élményt és további információkat érhetők el. A CSP programfrissítések erőforrás-katalógusában megtalálja a legújabb gyakori kérdések, bemutatók, videók és [egyéb részleteket.](https://partner.microsoft.com/resources/collection/new-azure-experience-in-csp#/)
 
 ________________
-## <a name="partner-center-software-license-key-and-download-fulfillment"></a><a name="4"></a>A partner Center szoftverlicenc-kulcsa és a letöltés teljesítése
+## <a name="partner-center-software-license-key-and-download-fulfillment"></a><a name="4"></a>Partnerközpont szoftverlicenc-kulcs használata és a fulfillment letöltése
 
 ### <a name="categories"></a>Kategóriák
 
@@ -690,31 +697,31 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A partner Center szoftver letöltése és a licencek kulcsának teljesítésére szolgáló képesség vissza lett állítani.
+A Partnerközpont szoftverletöltési és -licenckulcs-teljesítési képességet visszaállította.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Minden olyan felhőalapú megoldás-szolgáltatói (CSP) partner, amely az örökös és a kiszolgálói előfizetési szoftverek rendeléseit a partner centeren keresztül
+Minden Felhőszolgáltató (CSP) partner, amely folyamatos és kiszolgáló-előfizetési szoftverrendeléseket tranzakcióz a Partnerközpont
 
 ### <a name="details"></a>Részletek
 
-A partneri visszajelzések megválaszolásával a visszaállítja teljesítjük a szoftver-és licenckulcs beszerzését az örökös és a kiszolgálói előfizetési szoftverek rendeléseihez. A rendszer a korábbi állapotába állítja vissza, mielőtt a 2021. január 19-én megszűnik. (Lásd a [közleményt](2020-september.md#17).)
+A partneri visszajelzésekre válaszul visszaállítjuk a Partnerközpont fulfillment képességet a szoftver- és licenckulcsok beszerzésére a folyamatos és kiszolgálói előfizetési szoftverrendelések esetén. A rendszer a 2021. január 19-i eltávolítás előtt visszaállítja az előző állapotát. (Lásd a [bejelentést.)](2020-september.md#17)
 
-Vegye figyelembe, hogy a szoftverlicenc-kulcsok és a letöltési hivatkozások értékesek és rendkívül keresettek a szellemi tulajdonban lévő eszközök után. Ha kiszivárgott, gyorsan kimerítheti az aktiválási korlátokat, és negatív ügyfél-és partneri élményt eredményezhet.
+Vegye figyelembe, hogy a szoftverlicenc-kulcsok és a letöltési hivatkozások értékesek és rendkívül hasznosak a szellemi tulajdont hasznos eszközökként. Ha kiszivárognak, gyorsan kimerülnek az aktiválási korlátaik, és negatív ügyfél- és partnerélményt okozhatnak.
 
 ### <a name="next-steps"></a>Következő lépések
 
-Tekintse át a következő forrásokat a használati utasításokhoz, valamint a szoftveres kulcs terjesztésével kapcsolatos fontos útmutatást:
+Tekintse át a következő forrásokat a használati utasításokért és a szoftverkulcsok terjesztésével kapcsolatos fontos útmutatásért:
 
-- [Helyszíni szoftverek értékesítése a CSP programon keresztül](../csp-on-premise-software.md)
-- A [partner Center új kereskedelmi üzemeltetési útmutatója](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf) (lásd: **útmutató a szoftveres kulcs terjesztéséhez** .)
+- [Helyszíni szoftverek eladása a CSP-programon keresztül](../csp-on-premise-software.md)
+- [Partnerközpont kereskedelmi műveletek útmutatóját](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf) (lásd a szoftverkulcsok terjesztésével **kapcsolatos útmutatót).**
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha további kérdése van a nyilatkozattal kapcsolatban, tekintse meg a megfelelő Yammer-közösségeket.
+Ha további kérdései vannak a közleményről, tekintse meg a kapcsolódó Yammer-közösségeket.
 
 ________________
-## <a name="migrate-your-deals-from-partner-sales-connect-psc-to-partner-center"></a><a name="3"></a>A partner értékesítési összekötő (PSC) és a partner Center közötti ajánlatok áttelepíthetők
+## <a name="migrate-your-deals-from-partner-sales-connect-psc-to-partner-center"></a><a name="3"></a>Az ügyletek mi áttelepítése a Partner Sales Connectből (PSC) egy Partnerközpont
 
 ### <a name="categories"></a>Kategóriák
 
@@ -723,39 +730,39 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A partner Sales-kapcsolódás (PSC) a 2021-as naptól kezdődő írásvédett hozzáférésre vált, ezért javasoljuk, hogy kezdje el áttelepíteni az ajánlatokat a PSC-ből a partneri központba.
+A Partner Sales Connect (PSC) 2021. március 31-től csak olvasási hozzáférésre lesz áttűnve, ezért azt kérjük, hogy kezdje meg az ügyletek PSC-ről Partnerközpont.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Partnerek a PSC-ben található ügyletekkel
+PSC-ügyleteket kötött partnerek
 
 ### <a name="details"></a>Részletek
 
-A növekedés iránti közös elkötelezettségünk részeként a **Microsofttal közösen értékesítjük** a **felderített, szakértelmét, és kiterjesztjük** az ügyfél-lábnyomot a pozitív ügyfelek eredményeire. Ha átlagosan **3,5-szor gyorsabb** , mint a normál, a partner Center közös értékesítésű felhasználói élményének kezelése lehetővé teszi a közvetlen ügyfél-, partner-és Microsoft-értékesítői csatornák értékesítését, és egy helyen kezelheti a teljes átirányítási folyamatot.
+A növekedés iránti közös elkötelezettségünk részeként a **Microsofttal** való közös értékesítéssel felfedezheti, biztosíthatja szakértelmét, és megnövelheti az ügyféligényét a pozitív ügyfél-eredmények érdekében.  Az átlagos üzlet a szokásosnál **3,5-szer** gyorsabb, így az Partnerközpont-ban történő közös értékesítési élmény kezelése lehetővé teszi az értékesítést a közvetlen ügyfél-, partner- és Microsoft-értékesítői csatornákon, és a teljes ajánló folyamatot egyetlen helyen kezelheti.
 
-A **PSC** a **2021**-as naptól kezdve **csak olvasási hozzáférésre** kerül át, ezért javasoljuk, hogy indítsa el a partneri központba való áttérést 
+A **PSC** **2021. március 31-től** csak olvasási hozzáférésre fog áttűnni, ezért arra kérjük, hogy kezdje meg a Partnerközpont, és hozzáférjen a következő képességbeli fejlesztésekhez:  
 
-- A Microsoft és a megfelelő eladó közötti megosztások **pontosabb irányítása** a szükséges segítségnyújtási típus alapján.
-- **Előzetes támogatási jogosultságok érvényesítése** az ösztönzőre jogosult megoldások esetében, valamint az ISV kapcsolódási program feltételeinek teljesítése, a jóváhagyási folyamat és a végrehajtás végleges igazolása (PoE) igazolása.
-- **Zökkenőmentes felhasználói élmény** , amellyel egyetlen helyen kezelheti az összes közös értékesítéssel kapcsolatos lehetőséget és értékesítési minősítéssel rendelkező érdeklődőket.
+- **Pontosabb útválasztást** nyújt a Microsofttal a megfelelő értékesítőnek a szükséges segítség típusa alapján.
+- **Előzetes ajánlat jogosultságának** ellenőrzése az ösztönzőre jogosult megoldásokhoz és az ISV Connect program feltételeinek teljesítéséhez, leegyszerűsítve a jóváhagyási folyamatot és a végső igazolást (POE).
+- **Zökkenőmentes felhasználói élmény** az összes közös értékesítési lehetőség és az értékesítési minősített érdeklődők egyetlen helyen való kezeléséhez.
 
-Nemrégiben új funkciókat is hozzáadott a partner Centerben, hogy segítséget nyújtson az áthelyezéshez:
+Nemrég új funkciókkal bővült a Partnerközpont, hogy segítséget nyújtsunk az áthelyezéshez:
 
-- [Tömeges műveletek közös értékesítési lehetőségekhez](../bulk-operations.md)
-- Az [ügylet áttelepítési funkciója](../psc-to-pc.md) (lásd: a **PSC-ajánlatok áttelepítése** szakasz)
+- [Tömeges műveletek az együttműködési lehetőségekhez](../bulk-operations.md)
+- [Az ügylet migrálási funkciója](../psc-to-pc.md) (lásd a **PSC-ügyletek migrálási** szakaszát.)
 
-Az értékesítési csapatoknak több idő áll rendelkezésére a partner Center közös értékesítéssel kapcsolatos tapasztalataira, így az érdeklődők és a lehetőségek kiépítésére, az ajánlatok bezárására és a tartós ügyfélkapcsolatok létrehozására összpontosítanak.
+A Partnerközpont értékesítési csapatai több ideje lesz arra, hogy az érdeklődők és lehetőségek árnyalása, az üzletek lezárása és a tartós ügyfélkapcsolatok létrehozása legyen a középpontban.
 
 ### <a name="next-steps"></a>Következő lépések
 
-A partneri központ [áttérési útmutatója](../psc-to-pc.md) végigvezeti Önt az ajánlatok PSC-ből a partneri központba való átirányításának lépésein.
+Az Partnerközpont [útmutató](../psc-to-pc.md) segítségével végigvezetheti az ügylet PSC-ről Partnerközpont.
 
 ### <a name="questions"></a>Kérdése van?
 
-További kérdésekért forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support/?stage=1).
+További kérdésekért forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/support/?stage=1)
 
 ________________
-## <a name="new-microsoft-dynamics-365-products-and-offers-available-on-april-1-2021"></a><a name="2"></a>Új Microsoft Dynamics 365-termékek és-ajánlatok, amelyek az 2021. április 1-jén érhetők el
+## <a name="new-microsoft-dynamics-365-products-and-offers-available-on-april-1-2021"></a><a name="2"></a>Új Microsoft Dynamics 365-termékek és -ajánlatok, amelyek 2021. április 1-én érhetők el
 
 ### <a name="categories"></a>Kategóriák
 
@@ -764,65 +771,65 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-2021. április 1-jén a Microsoft számos új terméket és ajánlatot indít el a Cloud Solution Provider (CSP) programhoz.
+2021. április 1-től a Microsoft számos új terméket és ajánlatot fog kínálni a Felhőszolgáltató (CSP) programhoz.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+Az összes partner, aki a Felhőszolgáltató (CSP) programon keresztül megy keresztül
 
 ### <a name="details"></a>Részletek
 
-2021. április 1-jén a Microsoft a következő új termékeket és ajánlatokat fogja elindítani:
+2021. április 1-től a Microsoft a következő új termékeket és ajánlatokat bocsátja ki:
 
-- Felhasználónként Power BI Premium
-- Az ügyfelek hang-és marketing-felhasználói előfizetési licenc földrajzi és szegmensek bővítése
+- Power BI Premium felhasználónként
+- Customer Voice and Marketing USL geo- és szegmensbővítés
 
-**Felhasználónként Power BI Premium**
+**Power BI Premium felhasználónként**
 
-A Microsoft az első felhasználónkénti Power BI Premium ajánlatokat fogja bevezetni. A Power BI Premium jelenleg csak egy kapacitás-konstrukcióban értékesíti. A felhasználónként Power BI Premium hozzáférést biztosít a vállalati üzleti intelligencia (BI) és az elemzési funkciókhoz. A rugalmas egyéni munkaállomás-licencelés kis-és közepes méretű vállalkozások számára is elérhető.
+A Microsoft bemutatja az első felhasználónkénti Power BI Premium ajánlatát. Power BI Premium jelenleg csak kapacitási szerkezetben értékesítik. Power BI Premium felhasználónkénti hozzáférés a vállalati üzletiintelligencia- (BI-) és elemzési képességekhez. A rugalmas egyéni helylicencek kis- és középvállalatok számára is használhatók.
 
-Tekintse át a [Power bi kiadásának részleteit](/power-platform-release-plan/2020wave2/power-bi/planned-features) , és tudjon meg többet az ajánlatról.
+Az [ajánlatról Power BI tekintse](/power-platform-release-plan/2020wave2/power-bi/planned-features) át a következő kiadási részleteket: .
 
 
 **Ajánlat részletei**
 
-Vegye figyelembe, hogy az ajánlat neve kis mértékben eltér a árlista előzetes verziójától.
+Vegye figyelembe, hogy az ajánlat neve kissé eltér az árlista előzetes kiadásának nevétől.
 
 | Ajánlat neve | Ajánlat azonosítója |
 | ------ |----------- |
-| Felhasználónként Power BI Premium | 9c810018-9356-4903-95ab-eeb956289290 | 
-| Felhasználónként Power BI Premium oktatóknak | 3affc44f-f372-4ad5-8657-aadd9574fce0 | 
-| Felhasználónként Power BI Premium tanulók számára | 657eea87-d0b0-4c89-8c8e-9b04395bd940 | 
-| Felhasználónkénti Power BI Premium (nonprofit alkalmazottak díjszabása) | 7a0a856c-059f-45dd-9d26-ae27992e706a | 
-| Felhasználónként Power BI Premium Add-On | 244ff87e-5925-44a0-bf31-cea189719b58 | 
-| Power BI Premium felhasználói Add-On oktatóknak | 5da849bd-b8f7-4340-b4f4-3a9eaeb8987e | 
-| Power BI Premium felhasználónként Add-On diákoknak | cf62d70d-5af5-422a-bda8-97936402ac8e | 
-| Felhasználónkénti Add-On Power BI Premium (nonprofit alkalmazottak díjszabása) | 31c03289-47ab-4ab0-8df1-03742c127ac6 | 
+| Power BI Premium felhasználónként | 9c810018-9356-4903-95ab-eeb956289290 | 
+| Power BI Premium oktatók felhasználónkénti száma | 3affc44f-f372-4ad5-8657-aadd9574fce0 | 
+| Power BI Premium felhasználónkénti diákoknak | 657eea87-d0b0-4c89-8c8e-9b04395bd940 | 
+| Power BI Premium (Nonprofit személyzet díjszabása) | 7a0a856c-059f-45dd-9d26-ae27992e706a | 
+| Power BI Premium felhasználónkénti Add-On | 244ff87e-5925-44a0-bf31-cea189719b58 | 
+| Power BI Premium felhasználónkénti Add-On oktatóknak | 5da849bd-b8f7-4340-b4f4-3a9eaeb8987e | 
+| Power BI Premium felhasználónkénti Add-On diákoknak | cf62d70d-5af5-422a-bda8-97936402ac8e | 
+| Power BI Premium felhasználónkénti Add-On (nonprofit személyzet díjszabása) | 31c03289-47ab-4ab0-8df1-03742c127ac6 | 
 
-**Az ügyfelek hang-és marketing-felhasználói előfizetési licenc földrajzi és szegmensek bővítése**
+**Customer Voice and Marketing USL geo- és szegmensbővítés**
 
-A decemberi 2020-es indítás után a Dynamics 365-ügyfelek hang-és marketing-felhasználói előfizetési licenc ajánlatai új országok és több nonprofit és oktatási SKU hozzáadására lettek kialakítva.
+A 2020. decemberi bevezetés után a Dynamics 365 Customer Voice and Marketing USL-ajánlatok módosultak, hogy új országokat, valamint további nonprofit és oktatási termékkódokat adjanak hozzá.
 
 | Ajánlat neve | Ajánlat azonosítója |
 | ------ |----------- |
-| Dynamics 365-ügyfél hangalapú felhasználói előfizetési licenc (nonprofit személyzet díjszabása) | 7a8642a5-481e-4906-a642-b56dbeeb62a0 |
-| Dynamics 365-ügyfelek hang-felhasználói előfizetési licenc az oktatók számára | 85162d70-9676-4cf6-a4bc-a0d6672f2657 |
+| Dynamics 365 Customer Voice USL (nonprofit személyzet díjszabása) | 7a8642a5-481e-4906-a642-b56dbeeb62a0 |
+| Dynamics 365 Customer Voice USL oktatóknak | 85162d70-9676-4cf6-a4bc-a0d6672f2657 |
 
-A következő lapokon további információkat talál az ajánlatokról:
+Ezekről az ajánlatokról az alábbi oldalakon talál további információt:
 
-- [Dynamics 365 ügyfél-szolgáltatás hangpostájának kezdőlapja](https://dynamics.microsoft.com/customer-voice/overview/)
-- [Dynamics 365 marketing Kezdőlap](https://dynamics.microsoft.com/customer-voice/overview/)
+- [A Dynamics 365 Customer Service Voice kezdőlapja](https://dynamics.microsoft.com/customer-voice/overview/)
+- [A Dynamics 365 Marketing kezdőlapja](https://dynamics.microsoft.com/customer-voice/overview/)
 
 ### <a name="next-steps"></a>Következő lépések
 
-Tekintse át a témakör erőforrásait, és ossza meg ezeket az információkat a szervezete megfelelő szereplőivel.  
+Tekintse át az ebben a témakörben található forrásokat, és ossza meg ezt az információt a szervezet megfelelő érdekelt felével.  
 
 ### <a name="questions"></a>Kérdése van?
 
-Az ajánlatokkal kapcsolatos bármilyen kérdés esetén keresse meg a megfelelő Yammer-közösségeket. 
+Az ajánlatokkal kapcsolatos kérdésekért tekintse meg az érintett Yammer-közösségeket. 
 
 ________________
-## <a name="microsoft-universal-print-now-available-in-some-suites"></a><a name="1"></a> A Microsoft Universal Print már elérhető néhány lakosztályban
+## <a name="microsoft-universal-print-now-available-in-some-suites"></a><a name="1"></a> A Microsoft Univerzális nyomtatás egyes csomagokban már elérhető
 
 ### <a name="categories"></a>Kategóriák
 
@@ -831,35 +838,35 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A Microsoft Universal Print elérhető lesz a Select Microsoft 365 Suite-ban, valamint önálló bővítményként, 2021. március 1-től.
+A Microsoft Univerzális nyomtatás 2021. március 1-től elérhető lesz a tranzakciós lehetőségek Microsoft 365 csomagokban és önálló bővítményként.
 
-### <a name="impacted-audience"></a>Érintett közönség
+### <a name="impacted-audience"></a>Érintett célközönség
 
-Minden partner a Cloud Solution Provider (CSP) programon keresztül lebonyolít
+Az összes partner, aki a Felhőszolgáltató (CSP) programon keresztül megy keresztül
 
 ### <a name="details"></a>Részletek
 
-Az [univerzális nyomtatás](https://aka.ms/universalprint) egy Microsoft 365 nyomtatási szolgáltatás, amely eltávolítja a helyszíni nyomtatókiszolgálók szükségességét, és lehetővé teszi a Windows-eszközök számára az Azure-ban regisztrált nyomtatókhoz való nyomtatást. A tranzakció 2021. március 1-től lesz elérhető.
+[Univerzális nyomtatás](https://aka.ms/universalprint) egy Microsoft 365 nyomtatószolgáltatás, amely megszünteti a helyszíni nyomtatókiszolgálók szükségét, és lehetővé teszi, hogy a Windows-eszközök Azure-ban regisztrált nyomtatókra nyomtattassanak. A tranzakció 2021. március 1-től lesz elérhető.
 
-A feldolgozók kihasználhatják az illesztőprogram nélküli nyomtatást, a egyszerűsített helymeghatározást, valamint az intuitív nyomtatási élményt tanulási görbe nélkül. A Azure Active Directoryhoz (Azure AD) csatlakoztatott eszközök a meglévő Azure AD-beli hitelesítő adatokat használják a biztonságos nyomtatáshoz. A rendszergazdák a Azure Portal használatával kezelhetik a nyomtatást, és könnyen csatlakoztathatók a nyomtatók az univerzális nyomtatás natív támogatásával. Az univerzális nyomtatás a nem kompatibilis nyomtatókra is telepíthető univerzális nyomtatási összekötő szoftver használatával.
+A dolgozóknak előnyére válik az illesztőprogram nélküli nyomtatás, a helyalapú nyomtatófelderítés, valamint az intuitív, tanuláshoz nem használható nyomtatási élmény. Az azure Azure Active Directory (Azure AD) szolgáltatáshoz csatlakozott eszközök a meglévő Azure AD-beli hitelesítő adatokat használják a biztonságos nyomtatáshoz. A rendszergazdák a nyomtatást a Azure Portal kezelhetik, és könnyedén csatlakoztathatják a natív támogatással Univerzális nyomtatás. Univerzális nyomtatás nem kompatibilis nyomtatókkal is telepíthetők Univerzális nyomtatás összekötője szoftverrel.
 
-Az univerzális nyomtatás a Windows E3, a3, E5 és a5 nyelven, valamint Microsoft 365 a BP, az F3, az E3, az a3, az E5 és az A5 nyelven is visszatöltötte.  
+Univerzális nyomtatás a Windows E3, A3, E5 és A5 rendszerekre való indításkor, valamint az Microsoft 365 BP, F3, E3, A3, E5 és A5 rendszerekre.  
 
 **Ajánlat részletei**
 
-Vegye figyelembe, hogy az ajánlat neve kis mértékben eltér a árlista előzetes verziójától.
+Vegye figyelembe, hogy az ajánlat neve kissé eltér az árlista előzetes kiadásának nevétől.
 
-| Ajánlat neve | Ajánlat azonosítója | Anyag azonosítója |
+| Ajánlat neve | Ajánlat azonosítója | Anyagazonosító |
 | ------ |----------- |----------- |  
-| Univerzális nyomtatási kötet bővítmény (500 feladat) – Microsoft 365  | cb131356-45ee-4ae2-8537-873b706c8e75     | 9BI-00004   |
-| Univerzális nyomtatási hangerő bővítmény (500-es feladat) az oktatók számára – Microsoft 365   | 477bee81-9872-43d6-91d3-c72390bfcf49   | 9BK-00004   |
-| Univerzális nyomtatási kötet bővítmény (500 feladat) – Windows    | d3ddc493-5741-4e0d-a02d-07edbb0bb72e   | 9BI-00002   |
-| Univerzális nyomtatási hangerő bővítmény (500 feladat) a kari-Windows rendszerhez   |  d0862f05-80f5-4fd4-8432-fe72dd893cc7  | 9BK-00002   |
+| Univerzális nyomtatás bővítmény (500 feladat) – Microsoft 365  | cb131356-45ee-4ae2-8537-873b706c8e75     | 9BI-00004   |
+| Univerzális nyomtatás mennyiségi bővítmény (500 feladat) oktatók számára – Microsoft 365   | 477bee81-9872-43d6-91d3-c72390bfcf49   | 9BK-00004   |
+| Univerzális nyomtatás bővítmény (500 feladat) – Windows    | d3ddc493-5741-4e0d-a02d-07edbb0bb72e   | 9BI-00002   |
+| Univerzális nyomtatás bővítmény (500 feladat) oktatók számára – Windows   |  d0862f05-80f5-4fd4-8432-fe72dd893cc7  | 9BK-00002   |
 
 ### <a name="next-steps"></a>Következő lépések
 
-Ismerkedjen meg az árlista és az [univerzális nyomtatás áttekintése](/universal-print/fundamentals/universal-print-whatis)szolgáltatással. Ossza meg ezeket az információkat a szervezet összes megfelelő ügyfelével.
+Ismerkedjen meg az árlistával és a Univerzális nyomtatás [áttekintésével.](/universal-print/fundamentals/universal-print-whatis) Ossza meg ezt az információt a szervezet összes megfelelő kapcsolattartóval.
 
 ### <a name="questions"></a>Kérdése van?
 
-Az ajánlatokkal kapcsolatos bármilyen kérdés esetén keresse meg a megfelelő Yammer-közösségeket.
+Ha kérdései vannak ezekkel az ajánlatokkal kapcsolatban, tekintse meg az érintett Yammer-közösségeket.

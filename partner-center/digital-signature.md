@@ -1,56 +1,60 @@
 ---
-title: Digitális aláírások képesség
+title: Digitális aláírások képessége
 ms.topic: how-to
 ms.date: 07/21/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy az indiai partneri központ partnerei hogyan tekinthetik meg a digitálisan aláírt számlákat, és megkapják a számlák digitális másolatait a partner Centerben létrehozott rendelésekhez.
+description: Megtudhatja, Partnerközpont az indiai partnerek hogyan megtekinthetik a digitálisan aláírt számlákat, és hogyan fogadhatják a számlák digitális másolatait a Partnerközpont.
 author: keramp
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0696a3820a873ca213b4c2e0be847c0518095466
-ms.sourcegitcommit: a8adb5f044f06bd684a5b7a06c8efe9f8b03d2db
+ms.openlocfilehash: b0d8a560c048f1a1dbb783560cf419145754a6fe
+ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92530390"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108284298"
 ---
 # <a name="view-digitally-signed-invoices"></a>Digitálisan aláírt számlák megtekintése
 
-**A következőkre vonatkozik**
+**A következőre érvényes:**
 
-- Partnerközpont
-- Partner Center India
+- Partnerközpont India
+
+**Megfelelő szerepkörök**
+
+- Fiókadminisztrátor
+- Számlázási ügynök
+- Értékesítési ügynök
+
+Az indiai partnerek most azt látják, hogy a Microsoft digitálisan írta alá a számlákat. Az aláírás megtekintéséhez az Adobe Reader Document Cloudot (DC) kell használnia.
+
+## <a name="how-to-view-and-insure-a-valid-digital-signature"></a>Érvényes digitális aláírás megtekintése és kiállítása
 
 
-Az indiai partnerek már láthatják, hogy a Microsoft rendelkezik digitálisan aláírt számlákkal. Az aláírás megtekintéséhez az Adobe Acrobat Reader Document Cloud (DC) szoftvert kell használnia.
-
-## <a name="how-to-view-and-insure-a-valid-digital-signature"></a>Érvényes digitális aláírás megtekintése és biztosítása
+1. Ha a rendelést a Partnerközpont, a számla digitális másolatát kapja meg e-mailben. Válassza ki a számlát, amely az Adobe Reader DC-ből nyílik meg.
 
 
-1. Ha a rendelést a partner Centerben hozta létre, a rendszer e-mailben megkapja a számla digitális másolatát. Válassza ki a számlát, amely az Adobe Acrobat Reader DC-n belül nyílik meg.
-
-
-2. A számla tetején megjelenik az **aláírt és az összes aláírás** .
+2. A számla tetején az Aláírt értéknek kell látsza, és **minden aláírás érvényes.**
  
- :::image type="content" source="images/digitalsig/digital1.png" alt-text="Minta számla érvényes aláírási értesítési szalagcímtel, amely a zöld pipa aláírását és az azt mutatja, hogy aláírt és minden aláírás érvényes.":::
+ :::image type="content" source="images/digitalsig/digital1.png" alt-text="Mintaszámla érvényes aláírási értesítési szalagcímvel, amely a zöld pipa-aláírást és a következő kifejezést mutatja: Aláírt és minden aláírás érvényes.":::
 
-3. Kattintson az aláírásra. Ekkor megjelenik a tanúsítvány érvényességét igazoló tanúsítvány.
+3. Válassza ki az aláírást. Megjelenik a tanúsítvány, amely az érvényességről rendelkezik.
 
-:::image type="content" source="images/digitalsig/digital2.png" alt-text="Minta számla érvényes aláírási értesítési szalagcímtel, amely a zöld pipa aláírását és az azt mutatja, hogy aláírt és minden aláírás érvényes."::: 
+:::image type="content" source="images/digitalsig/digital2.png" alt-text="Aláírt számla az Authorized Cancely mezővel és aláírás-érvényesítési állapot párbeszédpanel a részletekkel, Aláírás tulajdonságai lehetőség, Mégse lehetőség."::: 
 
-4. Válassza az **aláírás tulajdonságai** lehetőséget az aláírás érvényességével kapcsolatos további részletek megtekintéséhez.
+4. Az **aláírás érvényességi részleteinek** megtekintéséhez válassza az Aláírás tulajdonságai lehetőséget.
 
-:::image type="content" source="images/digitalsig/digital4.png" alt-text="Minta számla érvényes aláírási értesítési szalagcímtel, amely a zöld pipa aláírását és az azt mutatja, hogy aláírt és minden aláírás érvényes."::: 
+:::image type="content" source="images/digitalsig/digital4.png" alt-text="Az aláírás tulajdonságainak részletes nézete a dokumentum aláírásának helyével, ellenőrzési folyamatával és az aláíró tanúsítványával kapcsolatos információkat jeleníti meg."::: 
 
-4. Azt is ellenőrizheti, hogy helyesek-e a minősítési útvonalak, és hogy a tanúsítvány megbízható-e.
+4. Azt is biztosíthatja, hogy a tanúsítvány elérési útjai helyesek, és hogy a tanúsítvány megbízható-e.
 
- :::image type="content" source="images/digitalsig/digital3.png" alt-text="Minta számla érvényes aláírási értesítési szalagcímtel, amely a zöld pipa aláírását és az azt mutatja, hogy aláírt és minden aláírás érvényes.":::
+ :::image type="content" source="images/digitalsig/digital3.png" alt-text="A Tanúsítványmegjelenítő párbeszédpanelen több lap jelenik meg, amelyeken további információk jelennek meg a tanúsítványról és a teljes kiállítási láncról.":::
 
-### <a name="additional-information-on-invoices-and-digital-signatures"></a>További információ a számlákról és a digitális aláírásokról
+### <a name="additional-information-on-invoices-and-digital-signatures"></a>További információk a számlákról és a digitális aláírásról
 
-A rendszer e-mailben küldi el a rendelést létrehozó személyt a partner Centerben. A 2020. július 17. előtt kiadott számlákhoz nem lehet digitálisan aláírt számlákat beolvasni. Emellett a manuálisan aláírt számlák nem lesznek elérhetők.
+A megrendelést létrehozó személynek egy digitális másolat lesz Partnerközpont. A 2020. július 17. előtt kiállított számlákhoz nem kaphat digitálisan aláírt számlákat. Emellett a manuálisan aláírt számlák nem lesznek elérhetők.
 
 ## <a name="next-steps"></a>Következő lépések
 

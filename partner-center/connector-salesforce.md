@@ -1,309 +1,307 @@
 ---
-title: A Salesforce CRM-partneri központ közös értékesítési összekötője
+title: A Salesforce CRM-összekötő Partnerközpont
 ms.topic: how-to
 ms.date: 01/06/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Szinkronizálja az átirányítási adatokat a Salesforce CRM-tel. Az értékesítők ezután a Microsofttal közösen értékesíthetők a CRM-rendszereken belül.
+description: Szinkronizálja a hivatkozásokat Partnerközpont Salesforce CRM-mel. Az értékesítők ezután együtt értékesíthet a Microsofttal az Ön CRM-rendszereiből.
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: 68b8bdf7a88c1ca8d063cf3198fc49bf87552edb
-ms.sourcegitcommit: de2ac2eea26426ae8f962d29ab50b68850318ce6
+ms.openlocfilehash: 8139f89a37048b1790353e3bdd18ac1b44887219
+ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97960951"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108284383"
 ---
-# <a name="co-sell-connector-for-salesforce-crm---overview"></a>Közös értékesítési összekötő a Salesforce CRM-hez – áttekintés
+# <a name="co-sell-connector-for-salesforce-crm---overview"></a>Salesforce CRM-hez készült közös értékesítési összekötő – áttekintés
 
-### <a name="appropriate-roles"></a>Megfelelő szerepkörök
+**Megfelelő szerepkörök**
 
 - Ajánlói rendszergazda
-- Rendszerfelügyeleti webszolgáltatások vagy Rendszertestreszabó a CRM-ben
+- Rendszergazda vagy rendszer-testreszabó a CRM-ben
 
-A partner Center közös értékesítési összekötője lehetővé teszi, hogy az értékesítők a Microsofttal közösen értékesítsenek a CRM-rendszereken belül. Nem kell kiképezniük, hogy a partner centerrel együtt kezeljék a közös értékesítési ajánlatokat. A közös értékesítésű összekötők használatával új, közösen értékesíthető hivatkozást hozhat létre a Microsoft-értékesítők bevonásához, a Microsoft-értékesítőtől kapott hivatkozásokat, az átirányítások elfogadását/elutasítását, az ügyleti adatok módosítását, például az ügyleti értéket és a zárási dátumot.  Ezeket a közös értékesítési ajánlatokat a Microsoft-értékesítők frissítései is megkapják. Az összes átirányítási munkát elvégezheti, miközben a választott CRM-en belül dolgozik, nem pedig a partner Centerben. 
+Partnerközpont összekötő lehetővé teszi az értékesítők számára, hogy az Ön CRM-rendszereiből együtt értékesítsen a Microsofttal. Nem kell betanítanunk őket ahhoz, hogy az Partnerközpont az értékesítések kezeléséhez. Az együttműködési összekötők használatával létrehozhat egy új közös értékesítésre vonatkozó ajánlást egy Microsoft-értékesítő bevonásához, a Microsoft-értékesítőtől kapott hivatkozások fogadásához, az elfogadási/elutasítási hivatkozásokhoz, az üzletadatok módosításához, például az üzlet értékéhez és a záró dátumhoz.  Emellett a Microsoft értékesítőitől is kaphat frissítéseket ezekkel az együttműködési ügyletekkel kapcsolatosakról. Az összes ajánlását a választott CRM-ben, és nem a saját Partnerközpont. 
 
-A megoldás a Microsoft Power automatizálási megoldásán alapul, és a partner Center API-kat használja.
+A megoldás a Microsoft Power Automate Solution-alapú, és Partnerközpont API-kat használ.
 
-## <a name="before-you-install---pre-requisites"></a>Az Előfeltételek telepítése előtt
+## <a name="before-you-install---pre-requisites"></a>Telepítés előtt – előfeltételek
 
 |**Témakörök**   |**Részletek**   |**Hivatkozások**   |
 |--------------|--------------------|------|
-|Microsoft Partner Network azonosítója |Érvényes MPN-AZONOSÍTÓra van szüksége|Az [MPN](https://partner.microsoft.com/) csatlakoztatása|
-|Közös értékesítés kész|Az IP-/szolgáltatási megoldásnak közös értékesítéssel kell rendelkeznie.|[Értékesítés a Microsofttal](https://partner.microsoft.com/membership/sell-with-microsoft)| 
-|Partnerközpont-fiók|A partner Center-bérlőhöz társított MPN-AZONOSÍTÓnak meg kell egyeznie a közös értékesítési megoldáshoz társított MPN-azonosítóval. Az összekötők üzembe helyezése előtt győződjön meg arról, hogy a partner Center portálon megtekintheti a közös értékesítéssel kapcsolatos hivatkozásokat.|[Saját fiók kezelése](create-user-accounts-and-set-permissions.md)|
-|A partner Center felhasználói szerepkörei|Az összekötőket telepítő és használó alkalmazottnak hivatkozói rendszergazdának kell lennie|[Felhasználói szerepkörök és engedélyek hozzárendelése](create-user-accounts-and-set-permissions.md)|
-|Salesforce CRM|A CRM-felhasználói szerepkör a rendszergazda vagy a rendszertestreszabó|[Szerepkörök társítása a Salesforce CRM-ben](https://help.salesforce.com/articleView?id=assigning_users_to_roles.htm&type=5)|
-|Power automatizáló folyamat fiókja|Aktív [Power automatizáló](https://flow.microsoft.com) fiók a CRM rendszer-rendszergazda vagy Rendszertestreszabó számára. A telepítés előtt a felhasználónak legalább egyszer be kell jelentkeznie az [energiagazdálkodásba](https://flow.microsoft.com) .|
+|Microsoft Partner Network azonosítója |Érvényes MPN-azonosítóra van szüksége|Csatlakozás az [MPN-hez](https://partner.microsoft.com/)|
+|Készen áll az értékesítésre|Az IP-/szolgáltatási megoldásnak készen kell állnia az értékesítésre.|[Értékesítés a Microsofttal](https://partner.microsoft.com/membership/sell-with-microsoft)| 
+|Partnerközpont-fiók|A bérlőhöz társított MPN-Partnerközpont meg kell egynie az együttműködési megoldáshoz társított MPN-azonosítóval. Az összekötők üzembe helyezése előtt ellenőrizze, hogy látja-e az Partnerközpont-hez kapcsolódó hivatkozásokat.|[Saját fiók kezelése](create-user-accounts-and-set-permissions.md)|
+|Partnerközpont felhasználói szerepkörök|Az összekötőket telepítő és azt felhasználó alkalmazottnak ajánlói rendszergazdának kell lennie|[Felhasználói szerepkörök és engedélyek hozzárendelése](create-user-accounts-and-set-permissions.md)|
+|Salesforce CRM|A CRM felhasználói szerepkör a rendszergazda vagy a rendszer testre szabója|[Szerepkörök hozzárendelése a Salesforce CRM-ben](https://help.salesforce.com/articleView?id=assigning_users_to_roles.htm&type=5)|
+|Power Automate Flow-fiók|Aktív fiók [Power Automate](https://flow.microsoft.com) CRM-rendszerrendszergazdának vagy rendszer-testreszabónak. A felhasználónak legalább [Power Automate](https://flow.microsoft.com) be kell jelentkeznie az alkalmazásba.|
 
-## <a name="installation-of-salesforce-package-for-microsoft-custom-fields"></a>A Salesforce-csomag telepítése a Microsoft egyéni mezőihez 
+## <a name="installation-of-salesforce-package-for-microsoft-custom-fields"></a>A Salesforce-csomag telepítése a Microsoft Custom Fieldshez 
 
-Ha szinkronizálni szeretné az átirányításokat a partner Center és a Salesforce CRM között, akkor az automatizálási megoldásnak egyértelműen azonosítania kell a Microsoft-specifikus átirányítási mezőket. Ezzel a kijelöléssel a partner értékesítői csapatai eldönthetik, hogy mely ajánlásokat szeretnék megosztani a Microsofttal a közös értékesítéshez.
+A Partnerközpont és a Salesforce CRM Power Automate megoldásnak egyértelműen azonosítania kell a Microsoft-specifikus javaslatmezőket. Ez a demarkáció lehetővé teszi a partner értékesítői csapatok számára, hogy eldöntsék, mely terjesztéseket szeretnék megosztani a Microsofttal az közös értékesítéshez.
 
-1. A Salesforce-ben aktiválja a **megjegyzéseket** , és adja hozzá a lehetőségek kapcsolódó listához. 
+1. A Salesforce-ban aktiválja a **Jegyzeteket,** és adja hozzá a lehetőségekhez kapcsolódó listához. 
 [Referencia](https://help.salesforce.com/articleView?err=1&id=notes_admin_setup.htm&type=5)
 
-2. Aktiválja a **lehetőség csapatait** a következő lépések végrehajtásával: 
-    - A telepítőben a **gyors keresés** mező használatával keresse meg a lehetőség csapatának beállításait.
+2. A **lehetőségcsapatok aktiválásához** kövesse az alábbi lépéseket: 
+    - A Telepítőben a **Gyors keresés mezőben** keresse meg a Lehetőségcsoport beállításait.
     - Szükség szerint adja meg a beállításokat.
 [Referencia](https://help.salesforce.com/articleView?id=teamselling_enabling.htm&type=5]) 
 
-3. A Salesforce-ben telepítse az egyéni mezőket és objektumokat az alábbi Package Installer használatával.
-  
-[Ide](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t2w000006WIwV) kattintva telepítheti a csomagot bármely vállalatra.
+3. A Salesforce-ban telepítsen egyéni mezőket és objektumokat a [csomagtelepítővel.](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t2w000006WIwV) Ezzel bármely vállalatnál telepítheti a csomagot.
 
+>[!NOTE]
+>Ha a telepítést egy védőfalba telepíti, az URL-cím kezdeti részét a következőre kell cserélnie: http://test.salesforce.com
 
-Megjegyzés: Ha egy sandbox-ba telepít, az URL kezdeti részét le kell cserélnie a http://test.salesforce.com
+4. A Salesforce-ban adja hozzá a Microsoft-megoldásokat a **Lehetőséggel** kapcsolatos listához. A hozzáadás után válassza a **csavarkulcs ikont,** és frissítse a tulajdonságokat
 
-4. A Salesforce-ben adja hozzá a Microsoft-megoldásokat a **lehetőséghez** kapcsolódó listához. A Hozzáadás után kattintson a **csavarkulcs** ikonra és a frissítés tulajdonságai elemre.
+## <a name="best-practice-test-before-you-go-live"></a>Ajánlott eljárás: Tesztelés az élő adás előtt
 
-## <a name="best-practice-test-before-you-go-live"></a>Ajánlott eljárás: tesztelés az élő indítás előtt
+Mielőtt telepíti, konfigurálja és testreszabja az Power Automate-megoldást az éles környezetben, mindenképpen tesztelje a megoldást egy átmeneti CRM-példányon.
 
-Mielőtt telepítené, konfigurálja és testreszabja az automatizálási megoldást az éles környezetben, mindenképpen tesztelje a megoldást egy átmeneti CRM-példányon.
+- Telepítse a Microsoft Power Automate megoldást egy átmeneti környezetbe/CRM-példányba.
 
-- Telepítse a Microsoft Power automatizáló megoldást átmeneti környezetben vagy CRM-példányon.
+- Másolatot készítsen a megoldásról, futtassa a konfigurációt, Power Automate folyamat testreszabását az átmeneti környezetben.
 
-- Készítsen másolatot a megoldásról, és futtassa a konfigurációt és a Power automatizálja a folyamatokat az átmeneti környezetben.
+- Tesztelje a megoldást egy átmeneti/CRM-példányon.
 
-- Tesztelje a megoldást egy átmeneti vagy CRM-példányon.
+- Sikeresség után importálja felügyelt megoldásként az éles példányba.
 
-- Sikeres, az importálás felügyelt megoldásként az üzemi példányra.
+## <a name="install-partner-center-referrals-synchronization-for-salesforce-crm"></a>A Partnerközpont szinkronizálásának telepítése a Salesforce CRM-hez
 
-## <a name="install-partner-center-referrals-synchronization-for-salesforce-crm"></a>A Salesforce CRM-hez készült partner Center-átirányítási szinkronizálás telepítése
+1. A jobb [felső Power Automate](https://flow.microsoft.com) válassza a **Környezetek** lehetőséget. Itt érhetők el az elérhető CRM-példányok.
 
-1. Nyissa meg a [Power Automatet](https://flow.microsoft.com) , és válassza a **környezetek** lehetőséget a jobb felső sarokban. Ekkor megjelenik az elérhető CRM-példányok.
+2. Válassza ki a megfelelő CRM-példányt a jobb felső sarokban található legördülő menüből.
 
-2. Válassza ki a megfelelő CRM-példányt a jobb felső sarokban lévő legördülő menüből.
+3. A **bal oldali** navigációs sávon válassza a Megoldások lehetőséget.
 
-3. A bal oldali navigációs sávon válassza a **megoldások** elemet.
+4. Válassza a **felső menü Open AppSource (AppSource** megnyitása) hivatkozását.
 
-4. Kattintson a felső menüben található **AppSource megnyitása** hivatkozásra.
+   :::image type="content" source="images/cosellconnectors/openappsource.png" alt-text="Az AppSource megnyitása":::
 
-   :::image type="content" source="images/cosellconnectors/openappsource.png" alt-text="AppSource megnyitása":::
-
-5. Keressen rá a Salesforce-hez készült **partner Center-összekötők** az előugró képernyőn.  
+5. Az **előugró Partnerközpont keresse meg** a Salesforce ajánlói összekötőit.  
 
    :::image type="content" source="images/salesforce/salesforce1.png" alt-text="Salesforce":::
 
-6. Kattintson a **Letöltés most** gombra, és **folytassa a művelettel**.
+6. Kattintson a **Get it now (Lekért most)** gombra, majd a **Continue (Folytatás) gombra.**
 
-7. Ekkor megnyílik a lap, amelyen kiválaszthatja az Salesforce CRM-környezetet az alkalmazás telepítéséhez.  Fogadja el a feltételeket és a kikötéseket.
+7. Ez megnyitja az oldalt, ahol kiválaszthatja a Salesforce CRM-környezetet az alkalmazás telepítéséhez.  A használati feltételeket és feltételeket elfogadja.
 
-   :::image type="content" source="images/salesforce/available-crm.png" alt-text="Rendelkezésre álló CRM":::
+   :::image type="content" source="images/salesforce/available-crm.png" alt-text="Elérhető CRM-ek":::
 
-8. Ezután átirányítja a **megoldások kezelése** lapra.  A lap alján található nyílgombok segítségével navigáljon a "partneri központhoz". A **telepítés ütemezése** a partner Center Referrals megoldás mellett jelenik meg. A telepítés 10-15 percet vesz igénybe.
+8. Ezután a Megoldások kezelése **lapra lesz irányítva.**  Lépjen a "Partnerközpont" lapra az oldal alján található nyílgombokkal. **Az ütemezett telepítésnek** a javaslati megoldás Partnerközpont kell megjelennie. A telepítés 10–15 percet fog igénybe venni.
 
-9. A telepítés befejezése után váltson vissza a [Power automatizálás](https://flow.microsoft.com) szolgáltatásra, és válassza a bal oldali navigációs terület **megoldásait** . Figyelje meg, hogy a **Salesforce-hez készült fiókpartner-szinkronizálás** a megoldások listájában érhető el.
+9. A telepítés befejezése után lépjen vissza az Power Automate, [és](https://flow.microsoft.com) válassza a **Megoldások** lehetőséget a bal oldali navigációs területen. Figyelje **Partnerközpont, hogy a Salesforce-hez való** hivatkozásszinkronizálás elérhető a Megoldások listában.
 
-10. Válassza ki **a partneri központ átirányítási szinkronizálása Salesforce** lehetőséget. A következő energiagazdálkodási folyamatok és entitások érhetők el:
+10. Válassza **Partnerközpont a Salesforce-hez való hivatkozásszinkronizálás lehetőséget.** A következő Power Automate folyamatok és entitások érhetők el:
 
-    :::image type="content" source="images/cosellconnectors/salesforce10.png" alt-text="Salesforce folyamatok":::
+    :::image type="content" source="images/cosellconnectors/salesforce10.png" alt-text="Salesforce-folyamatok":::
 
 
 
 ## <a name="configure-the-solution"></a>A megoldás konfigurálása
 
-1. Miután telepítette a megoldást a CRM-példányba, váltson vissza a [Power automatizálás](https://flow.microsoft.com/)szolgáltatásra.
+1. Miután telepítette a megoldást a CRM-példányban, lépjen vissza a [Power Automate.](https://flow.microsoft.com/)
 
-2. A jobb felső sarokban található **környezetek** legördülő listából válassza ki azt a CRM-példányt, amelyen az automatizálási megoldást telepítette.
-3. A három felhasználói fiókot összekapcsoló kapcsolatokat kell létrehoznia:
-    - A partner Center felhasználója az Ajánlói rendszergazdai hitelesítő adatokkal
+2. A jobb **felső** sarokban található Környezetek legördülő menüből válassza ki azt a CRM-példányt, ahová a Power Automate telepítette.
+3. A három felhasználói fiókot társító kapcsolatokat kell létrehoznia:
+    - Partnerközpont rendszergazdai hitelesítő adatok megadása a felhasználónak
     - Partnerközpont – események
-    - A CRM-rendszergazda a megoldásban a Power automatizálja a folyamatokat.
-4. Válassza a bal oldali navigációs sávon a **kapcsolatok** lehetőséget, majd a listából válassza ki a "partner-központra hivatkozó" megoldást.
+    - CRM-rendszergazda a Power Automate folyamatokkal a megoldásban.
+4. A **bal oldali** navigációs sávon válassza a Kapcsolatok lehetőséget, majd válassza a "Partnerközpont" megoldást a listából.
 
-5. Hozzon létre egy kapcsolatokat a **kapcsolatok létrehozása** lehetőségre kattintva.
+5. A Kapcsolat létrehozása gombra **kattintva hozzon létre egy kapcsolatot.**
 
 :::image type="content" source="images/cosellconnectors/salesforce12.png" alt-text="Kapcsolat létrehozása":::
 
-- A jobb felső sarokban található keresési sávban keresse meg a partner Center-hivatkozásokat (előzetes verzió).
+- Keressen a Partnerközpont (előzetes verzió) kifejezésre a jobb felső sarokban található keresősávban.
 
-- Hozzon létre kapcsolatot a fiókpartner-felhasználó számára az Ajánlói rendszergazda hitelesítő adatokkal kapcsolatos szerepkörével.
+- Hozzon létre egy kapcsolatot a Partnerközpont a ajánlói rendszergazda hitelesítőadat-szerepkörében.
 
--  Ezután hozzon létre egy partneri központ-esemény kapcsolatot a partner Center-felhasználó számára az Ajánlói rendszergazda hitelesítő adataival.
+-  Ezután hozzon létre egy Partnerközpont Események kapcsolatot a Partnerközpont a ajánlói rendszergazda hitelesítő adataival.
 
-- Hozzon létre egy Salesforce-kapcsolatokat a CRM-rendszergazda felhasználó számára.
+- Hozzon létre egy kapcsolatot a Salesforce számára a CRM-rendszergazdai felhasználó számára.
 
--  Az összes hozzáadott kapcsolat után a következő kapcsolatokat kell látnia a környezetben:
+-  Miután hozzáadta az összes kapcsolatot, a következő kapcsolatoknak kell látszani a környezetében:
 
  :::image type="content" source="images/cosellconnectors/salesforce13.png" alt-text="Kapcsolatok megfigyelése":::
 
-### <a name="edit-the-connections"></a>Kapcsolatok szerkesztése
+### <a name="edit-the-connections"></a>A kapcsolatok szerkesztése
 
-1. Térjen vissza a megoldások lapra, és válassza az **alapértelmezett megoldás** lehetőséget.  Válassza a **kapcsolatok referenciája (előzetes verzió)** lehetőséget az **összes** elemre kattintva.
+1. Térjen vissza a Megoldások lapra, és válassza az **Alapértelmezett megoldás lehetőséget.**  Válassza **a Kapcsolati referencia (előzetes verzió) lehetőséget** az Összes **gombra kattintva.**
  
-:::image type="content" source="images/cosellconnectors/salesforce14.png" alt-text="Összekötők szerkesztésének megkezdése":::
+:::image type="content" source="images/cosellconnectors/salesforce14.png" alt-text="Összekötő szerkesztésének megkezdése":::
 
-2. Szerkessze az egyes kapcsolatokat egyenként a három pont ikon kiválasztásával. Adja hozzá a megfelelő kapcsolatokat.
+2. Szerkessze egyenként a kapcsolatokat a három pont ikon kiválasztásával. Adja hozzá a megfelelő kapcsolatokat.
 
 :::image type="content" source="images/cosellconnectors/salesforce15.png" alt-text="Összekötők szerkesztése":::
 
-3. Kapcsolja be a folyamatokat a következő sorozatban:
+3. Kapcsolja be a folyamatokat a következő sorrendben:
 
-- A partner Center webhook-regisztrációja (belső előzetes verzió)
-- Közös értékesítéssel való hivatkozás létrehozása – Salesforce (belső előzetes verzió)
-- Partneri központ a Microsoft közös értékesítési hivatkozási frissítései a Salesforce-be (belső előzetes verzió)
-- Partneri központ – Salesforce (belső előzetes verzió)
-- Salesforce (Insider előzetes verzió)
-- Salesforce lehetőség a partneri központhoz (belső előzetes verzió)
-- Salesforce Microsoft-megoldások a partner Centerhez (belső előzetes verzió)
+- Partnerközpont webhookregisztráció (Insider Preview)
+- Közös értékesítési ajánlás létrehozása – Salesforce Partnerközpont (Insider Preview)
+- Partnerközpont Salesforce (Insider Preview) microsoftos közös értékesítési hivatkozási frissítései
+- Partnerközpont Salesforce (Insider Preview)
+- Salesforce a Partnerközpont (Insider Preview)
+- Salesforce Opportunity to Partnerközpont (Insider Preview)
+- Salesforce Microsoft Solutions to Partnerközpont (Insider Preview)
 
-## <a name="use-webhook-apis-to-register-for-resource-change-events"></a>A webhook API-k használata az Erőforrás-változási események regisztrálásához
+## <a name="use-webhook-apis-to-register-for-resource-change-events"></a>Webhook API-k használata erőforrás-módosítási eseményekre való regisztrációhoz
 
-A partner Center webhook API-k lehetővé teszik az Erőforrás-változási események regisztrálását. Ezeket a változási eseményeket a rendszer HTTP-bejegyzésekként küldi el az URL-címre.
+A Partnerközpont Webhook API-k lehetővé teszik, hogy regisztráljon az erőforrás-módosítási eseményekre. Ezeket a módosítási eseményeket a rendszer HTTP-bejegyzésekként küldi el az URL-címére.
 
-1. Az URL-cím regisztrálásához válassza a **partner Center webhook-regisztráció (belső előzetes verzió)** energiagazdálkodási folyamatát.
+1. Az URL-cím regisztráláshoz válassza Partnerközpont **webhookregisztráció (Insider Preview)** lehetőséget a Power Automate folyamathoz.
 
-2. Vegyen fel kapcsolatokat az (a.) partner Center-felhasználóhoz az Ajánlói rendszergazdai hitelesítő adatokkal (b.) a következő Kiemelt módon:
+2. Adjon hozzá kapcsolatokat (a.) Partnerközpont felhasználóhoz a hivatkozások rendszergazdai hitelesítő adataival (b.) Partnerközpont eseményekhez az alább kiemelt módon
 
    :::image type="content" source="images/cosellconnectors/triggerflow.png" alt-text="Eseményindító":::
 
-3. Ha ezeket a frissítéseket végzi, a következőt fogja látni:
+3. A frissítések során a következőt fogja látni:
 
    :::image type="content" source="images/cosellconnectors/webhook1.png" alt-text="Webhookok":::
 
-4. Mentse a módosításokat, és válassza **a bekapcsolás** lehetőséget.
+4. Mentse a módosításokat, és válassza **a Bekapcsolás lehetőséget.**
 
-   A következő lépések végrehajtásával engedélyezheti a partneri központ webhookok számára az események változásának figyelését:
+   Ha engedélyezni Partnerközpont, hogy a webhookok figyeljék az események változásait, hajtsa végre a következő lépéseket:
 
-5. Válassza ki **a partneri központot a CRM Salesforce (belső előzetes verzió)**.
+5. Válassza **Partnerközpont Salesforce CRM (Insider Preview)** lehetőséget.
 
-6. Válassza a **Szerkesztés** ikont, és válassza ki a **http-kérés fogadásakor** lehetőséget.
+6. Válassza a **Szerkesztés ikont,** majd **a HTTP-kérések esetén lehetőséget.**
 
-7. Kattintson a **Másolás** ikonra a megadott http post URL-cím másolásához.
+7. Kattintson a **Másolás ikonra** a megadott HTTP POST URL-cím másoláshoz.
 
    :::image type="content" source="images/salesforce/copy-url.png" alt-text="URL-cím másolása":::
 
-8. Most válassza ki a "partneri központ webhook-regisztráció (Insider előzetes verzió)" energiaellátás-automatizálási folyamat elemet, és válassza a **Futtatás** lehetőséget.
+8. Válassza ki a "Partnerközpont Regisztráció (Insider Preview)" folyamatot, Power Automate futtatás **lehetőséget.**
 
-9. Győződjön meg arról, hogy a jobb oldali ablaktáblán megnyílik a "Futtatás folyamata" ablak, és kattintson a **Folytatás** gombra.
+9. Győződjön meg arról, hogy a jobb oldali panelen megnyílik a "Folyamat futtatása" ablak, és válassza a **Folytatás lehetőséget.**
 
 10. Adja meg a következő részleteket:
 
-    1. **Http-trigger végpontja**: a korábbi lépésből másolt URL-cím
+    1. **HTTP-eseményindító végpontja:** Az URL-cím kimásolható a korábbi lépésből
 
-    2. **Regisztrálni kívánt események**: "referral-created" és "referral-frissítve"
+    2. **Regisztrálni szükséges események:**"referral-created" és "referral-updated"
 
-    3. **Meglévő trigger-végpontok felülírása (ha van**): igen (Ez felülírja a meglévő végpontokat.)
+    3. **Meglévő triggervégpont felülírása, ha van:** Igen (Ez felülírja a meglévő végpontokat.)
 
-11. Válassza a **Futtatás** lehetőséget, majd kattintson a **Kész gombra.**
+11. Válassza a **Futtatás,** majd a Kész **lehetőséget.**
 
-A webhook mostantól figyelheti az események létrehozását és frissítését.
+A webhook most már képes figyelni az események létrehozására és frissítésére.
 
 ## <a name="customize-synchronization-steps"></a>Szinkronizálási lépések testreszabása
 
-Ha a partneri központ és a CRM-rendszer között szinkronizálja a közös értékesítésre való átirányítást, akkor a partner Center-számítógépen szinkronizált mezők itt vannak felsorolva.
+Ha az értékesítésre vonatkozó hivatkozásokat a Partnerközpont és a CRM-rendszer szinkronizálja, itt megjelenik az Partnerközpont számítógépen szinkronizált mezők listája.
 
-A CRM-rendszerek gyakran testre szabottak. Testreszabhatja a Power automatizáló folyamatokat. Kövesse a mező-hozzárendelési útmutatót, és szükség esetén végezze el a megfelelő módosításokat a Power automatizáló folyamatok lépéseiben.  A Microsoft-partneri központok a CRM-alapú hozzárendelésekhez vannak megadva, de a CRM-környezet alapján a mezők további testreszabására is lehetősége van.
+A CRM-rendszerek gyakran nagymértékben testre vannak szabva. A folyamatokat testre Power Automate testreszabhatja. Kövesse a mezőleképezési útmutatót, és szükség esetén hajtsa végre a megfelelő módosításokat a Power Automate lépésekben.  A Microsoft Partnerközpontok és CRM-leképezések is rendelkezésre állnak, de a CRM-környezet alapján további testreszabási beállításokat is választhat a mezőkhöz.
 
-Az egyes energiagazdálkodási folyamatok több lépését az igényeinek megfelelően testre szabhatja. A következő példák az elérhető testreszabásokat szemléltetik:
+Az egyes folyamatfolyamatok Power Automate az igényeinek megfelelően testre szabhatók. Az alábbiakban példákat talál az elérhető testreszabási lehetőségekre:
 
-1. A partner központ létrehozási vagy frissítési eseményeihez tartozó mezők testreszabása a CRM-hivatkozó szinkronizálásához:
+1. A létrehozási vagy frissítési események mezőinek testreszabása a Partnerközpont CRM-hivatkozásszinkronizáláshoz:
 
-   1. Válassza ki a partneri központot a CRM Salesforce (belső előzetes verzió).
+   1. Válassza Partnerközpont Salesforce CRM (Insider Preview) lehetőséget.
 
-   2. Válassza a **Szerkesztés** lehetőséget az automatizálási folyamat szerkesztéséhez/testreszabásához.
+   2. Válassza **a Szerkesztés** lehetőséget a folyamat szerkesztéséhez Power Automate testreszabásához.
 
-   3. Válassza **a (hatókör) lehetőséget az érdeklődő vagy a lehetőség szinkronizálásához**.
+   3. Válassza **a (Hatókör) Érdeklődő vagy lehetőség szinkronizálása lehetőséget.**
 
-2. Ha testre szeretné szabni az események létrehozásához tartozó CRM-mezők leképezéseit, válassza ki, hogy **új megosztott lehetőség van-e, majd**. Válassza ki az allépést, **Ha igen** , majd bontsa ki **az új lehetőség létrehozása lehetőséget a CRM-ben**. Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató segítségével módosíthatja.
+2. A CRM-mezőleképezések eseményekhez való testreszabásához válassza az Új Megosztott lehetőség lehetőséget, majd **a lehetőséget.** Ha igen,  válassza az allépést, majd bontsa ki **az Új lehetőség létrehozása a CRM-ben lehetőséget.** Az ebben a szakaszban található leképezéseket a Mezőleképezés útmutatója segítségével szerkesztheti.
 
-   1. A frissítési események CRM-mezőkhöz való hozzárendelésének testreszabásához kattintson a "(hatókör) – az érdeklődő vagy a lehetőség szinkronizálása" elemre.
+   1. A CRM-mezőleképezések frissítési eseményekhez való testreszabásához válassza a "(Hatókör) Az érdeklődő vagy lehetőség szinkronizálása" lépést.
 
-   2. Válassza ki **, hogy a lehetőség frissítése lehetséges-** e. **Ha igen** , akkor válassza ki az allépést, majd bontsa ki **, ha a partner Centerben és a CRM-ben a lehetőség-objektumok között van különbség**  
+   2. Válassza az If it's update to an opportunity (Lehetőség **frissítése) lehetőséget, majd a lehetőséget.** Ha igen,  jelölje ki az allépést, majd bontsa ki a Lehetőségobjektumok közötti különbség az ügyfélben és **a CRM Partnerközpont, majd a et.**  
 
-   3. Jelölje be az **Igen** , majd a **meglévő frissítése lehetőséget** .
+   3. Válassza a **Ha igen,** majd a **Meglévő lehetőség frissítése lehetőséget**
 
-3. A CRM és a számítógép közötti átirányítási szinkronizálás mezőinek testreszabása a frissítési eseményekhez:
+3. A CRM-számítógépekre történő hivatkozásszinkronizálás mezőinek testreszabása a frissítési eseményekhez:
 
-   1. Válassza a **Szerkesztés**  lehetőséget az automatizálási folyamat szerkesztéséhez/testreszabásához.
+   1. Válassza **a Szerkesztés**  lehetőséget a folyamat szerkesztéséhez Power Automate testreszabásához.
 
-   2. Válassza **a (hatókör) lehetőséget a lehetőség szinkronizálásához**.
+   2. Válassza **a (Hatókör) Lehetőség szinkronizálása lehetőséget.**
 
-   3. Ha a CRM-mezők hozzárendeléseit (mező-hozzárendelések útmutatója alapján) testreszabja a frissítési eseményekhez, akkor válassza ki, hogy van-e **különbség a partner Centerben és a CRM-ben lévő érdeklődő objektumok között**.
+   3. A frissítési események CRM-mezőleképezésének testreszabásához (a mezőleképezési útmutató alapján) válassza a Ha van különbség a Partnerközpont és a CRM érdeklődőobjektumai között, akkor **lehetőséget.**
 
-   4. Válassza ki az allépést, **Ha igen** , majd bontsa ki az **átirányítási lehetőséget a lehetőségre vonatkozó adattal**.
+   4. Ha igen,  válassza az allépést, majd bontsa ki **a Hivatkozás frissítése lehetőségadatokkal lépést.**
 
-   Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató alapján módosíthatja.
+   Az ebben a szakaszban található leképezéseket a Mezőleképezés útmutatója alapján szerkesztheti.
 
-4. A CRM és a számítógép közötti átirányítási szinkronizálás mezőinek testreszabása az események létrehozásához?
+4. A CRM-számítógépekre történő hivatkozásszinkronizálás mezőinek testreszabása események létrehozásához?
 
-   1. Válassza a **Szerkesztés**  lehetőséget az automatizálási folyamat szerkesztéséhez/testreszabásához.
+   1. Válassza **a Szerkesztés**  lehetőséget a folyamat szerkesztéséhez Power Automate testreszabásához.
 
-   2. Válassza ki **(hatókör) az átirányítások szinkronizálását.**
+   2. Válassza **a (Hatókör) Javaslatszinkronizálás lehetőséget.**
 
-   3. Ha testre kívánja szabni a CRM-mezők hozzárendeléseit (a mező-hozzárendelések útmutatója alapján) az események létrehozásához, válassza a **Microsoft ajánló létrehozása** lehetőséget.
+   3. A CRM-mezőleképezések (mezőleképezési útmutató alapján) események létrehozásához való testreszabásához válassza a **Microsoft-ajánlás létrehozása lehetőséget.**
 
-Az ebben a szakaszban található leképezéseket a mező-hozzárendelési útmutató alapján módosíthatja.
+Az ebben a szakaszban található leképezéseket a Mezőleképezés útmutatója alapján szerkesztheti.
 
 
-## <a name="end-to-end-bi-directional-co-sell-referral-synchronization"></a>Végpontok közötti kétirányú, közös értékesítésre hivatkozó átirányítás szinkronizálása
+## <a name="end-to-end-bi-directional-co-sell-referral-synchronization"></a>Végpontok között kétirányú kétirányú társ-értékesítés – hivatkozásszinkronizálás
 
-Miután telepítette, konfigurálta és testreszabta az automatizálási megoldást, tesztelheti a Salesforce CRM és a partner Center közötti, közös értékesítéssel való átirányítások szinkronizálását.
+Miután telepítette, konfigurálta és testre szabta a Power Automate megoldást, tesztelheti a Salesforce CRM és a Partnerközpont.
 
 ### <a name="pre-requisites"></a>Előfeltételek
 
-Ha szinkronizálni szeretné az átirányításokat a partner Center és a Salesforce CRM között, az automatizálási megoldásnak egyértelműen körzet határának kijelölésében kell a Microsoft-specifikus átirányítási mezőket. Ez az azonosítás biztosítja az értékesítő csapatának, hogy eldöntse, hogy mely ajánlásokat szeretné megosztani a Microsofttal a közös értékesítéshez.
+A Partnerközpont és a Salesforce CRM közötti szinkronizáláshoz a Power Automate megoldásnak egyértelműen el kell különítenünk a Microsoft-specifikus javaslatmezőket. Ez az azonosítás lehetővé teszi az értékesítő csapatok számára, hogy eldöntsék, mely terjesztéseket szeretnék megosztani a Microsofttal az értékesítéshez.
 
-Az egyéni mezők készlete a Salesforce CRM-megoldási **lehetőség** entitásának partneri központhoz való átirányítási szinkronizálásának részeként érhető el. Egy CRM-rendszergazda felhasználónak külön CRM-szakaszt kell létrehoznia a **lehetőség** egyéni mezőivel.
+Egyéni mezők egy készlete érhető el a Partnerközpont a Salesforce CRM megoldáshoz Lehetőség **entitás** részeként. A CRM-rendszergazdáknak külön CRM-szakaszt kell létrehozniuk a **Lehetőség egyéni mezőkkel.**
 
-A következő egyéni mezők a CRM szakasz részét képezik:
+Az alábbi egyéni mezőknek a CRM szakasz részeinek kell lennie:
 
-- **Szinkronizálás a partner centerrel**: a lehetőség szinkronizálása a Microsoft partner centerrel
+- **Szinkronizálás Partnerközpont:** A lehetőség szinkronizálása a Microsoft Partnerközpont
 
-- **Hivatkozási azonosító**: a Microsoft partner Center ajánlójának írásvédett azonosító mezője
+- **Hivatkozásazonosító:** Egy csak olvasható azonosító mező a Microsoft Partnerközpont számára
 
-- **Referral link**: egy csak olvasható hivatkozás a Microsoft partner Centerben
+- **Hivatkozás hivatkozása:** A Microsoft Partnerközpont
 
-- A **Microsoft súgója**: Segítség szükséges a Microsofttól az átirányításhoz
+- **Hogyan segíthet a Microsoft:** Segítségre van szükség a Microsofttól a hivatkozáshoz?
 
-- **Termékek**: a lehetőséghez társított termékek listája
+- **Termékek:** A lehetőséghez társított termékek listája
 
-- **Naplózás**: írásvédett naplózási nyomvonal a partner Center-hivatkozásokkal való szinkronizáláshoz
+- **Naplózás:** Csak olvasható auditálási napló a Partnerközpont való szinkronizáláshoz
 
-### <a name="scenarios"></a>FORGATÓKÖNYVEK
+### <a name="scenarios"></a>Forgatókönyvek:
 
-1. Átirányítás szinkronizálása a CRM-ben való létrehozáskor vagy frissítésekor, valamint a partner Centerben szinkronizálva:
+1. Hivatkozásszinkronizálás a CRM-ben történő hivatkozás létrehozásakor vagy frissítésekor, majd az Partnerközpont:
 
-   1. Jelentkezzen be a Salesforce CRM-környezetbe olyan felhasználóval, aki rendelkezik a CRM **lehetőség** szakaszában láthatóval.
+   1. Jelentkezzen be a Salesforce CRM-környezetbe a CRM **Lehetőség** szakaszában látható felhasználóval.
 
-   2. Győződjön meg arról, hogy a Salesforce CRM-környezet "új lehetőség" létrehozásakor a következő szakasz jelenik meg
+   2. Győződjön meg arról, hogy a következő szakasz jelen van, amikor "Új lehetőséget" hoz létre a Salesforce CRM-környezetben
 
       :::image type="content" source="images/salesforce/salesforce-scenario-1.png" alt-text="Salesforce-környezet":::
 
-   3. Ha ezt a lehetőséget a Microsoft partner centerrel szeretné szinkronizálni, ügyeljen arra, hogy a következő mezőket adja meg a kártya nézetben:
+   3. Ha szinkronizálni szeretné ezt a lehetőséget a Microsoft Partnerközpont, állítsa be a következő mezőket a kártyanézetben:
 
-       - "Szinkronizálás a partner központtal": igen
-       - "Hogyan lehet a Microsoft súgója?": válasszon a következő lehetőségek közül:
-       - Termékek: a termék megoldás-azonosítói
+       - "Szinkronizálás a Partnerközpont": Igen
+       - "Hogyan segíthet a Microsoft?": Válasszon az alábbi lehetőségek közül:
+       - Termékek: A termék megoldás-számai
 
-   4. Miután beállította a lehetőség  **szinkronizálását a partner Center** lehetőséggel **Igen**, várjon 10 percet, jelentkezzen be a partner Center-fiókjába. Az átirányítási adatokat a Salesforce CRM-szel szinkronizálja a rendszer.
+   4. Miután beállította a Szinkronizálás a következővel  **lehetőséget Partnerközpont** **Igen,** várjon 10 percet, jelentkezzen be a Partnerközpont fiókjába. A rendszer szinkronizálja a hivatkozásokat a Salesforce CRM-mel.
 
-   5. Ha a "szinkronizálás a partner központtal" beállítás értéke "yes", ha frissíti a lehetőséget a Salesforce CRM-ben, a módosítások szinkronizálva lesznek a partner Center-fiókjával.
+   5. Ha a "Szinkronizálás Partnerközpont" beállítás "Igen" beállításra van állítva, akkor ha frissíti a lehetőséget a Salesforce CRM-ben, a módosítások szinkronizálva lesznek Partnerközpont fiókkal.
 
-   6. A partner centerrel sikeresen szinkronizált lehetőségek a Salesforce CRM ✔ ikonjával lesznek azonosítva.
+   6. A Salesforce CRM-ben a Partnerközpont sikeresen szinkronizált lehetőségek ✔ lesznek azonosítva.
 
-2. Az átirányítás szinkronizálása, ha a Microsoft partner Centerben létrehozták vagy frissítik az átirányítást, és szinkronizálva vannak a Salesforce CRM-környezetben:
+2. Hivatkozásszinkronizálás a Microsoft-ügyfélben létrehozott vagy frissített hivatkozások Partnerközpont Salesforce CRM-környezetben szinkronizálva:
 
-    1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
+    1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard/home)
 
-    2. A bal oldali menüben válassza a **hivatkozók** lehetőséget.
+    2. A **bal oldali menüben** válassza a Hivatkozások lehetőséget.
 
-    3. Hozzon létre egy új, közös értékesítésre hivatkozó hivatkozást a partner Centerben az "új üzlet" lehetőségre kattintva.
+    3. Hozzon létre egy új közös értékesítésre vonatkozó ajánlást a Partnerközpont "Új ajánlat" lehetőségre kattintva.
 
     4. Jelentkezzen be a Salesforce CRM-környezetbe.
 
-    5. Navigáljon a **lehetőségek megnyitásához**. A Microsoft partner Centerben létrehozott hivatkozás mostantól szinkronizálva van a Salesforce CRM-ben.
+    5. Lépjen a **Megnyitási lehetőségek lapra.** A Microsoft Partnerközpont létrehozott hivatkozás most már szinkronizálva van a Salesforce CRM-ben.
 
-       :::image type="content" source="images/salesforce/salesforce-casino-e.png" alt-text="Salesforce lehetőség képernyő":::
+       :::image type="content" source="images/salesforce/salesforce-casino-e.png" alt-text="A Salesforce lehetőség képernyője":::
 
-    6. Amikor kijelöl egy szinkronizált átirányítást, a rendszer feltölti a kártya nézetének részleteit.
+    6. Szinkronizált hivatkozás kiválasztásakor a kártyanézet részletei ki lesznek töltve.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Érdeklődők kezelése](manage-leads.md)
 
 - [Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
 
-- [A partneri központ webhookai](/partner-center/develop/partner-center-webhooks)
+- [Partnerközpont – webhookok](/partner-center/develop/partner-center-webhooks)

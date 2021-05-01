@@ -10,17 +10,64 @@ ms.custom:
 - announcement
 - references_regions
 ms.localizationpriority: high
-ms.date: 04/27/2021
-ms.openlocfilehash: 99fcf5ae00458b890d6ed3b16849d6cb253e6cbe
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.date: 04/29/2021
+ms.openlocfilehash: d26d1af994ae9a3f951ee9428ee6fd092b2c91d8
+ms.sourcegitcommit: 6c20c3cc4a226cada70c56df295966696affcec8
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172319"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108328049"
 ---
 # <a name="april-2021-announcements"></a>2021. áprilisi bejelentések
 
 Ez az oldal a Microsoft Partnerközpont 2021 áprilisára vonatkozó közleményeket tartalmaz.
+
+## <a name="readiness-updated-csp-customer-address-validation-api-going-live-in-june-testing-capability-now-available"></a><a name="10"></a>Készenlét: A frissített CSP-ügyfélcím-ellenőrzési API júniusban lesz elérhető; tesztelési képesség már elérhető
+
+### <a name="categories"></a>Kategóriák
+
+- Dátum: 2021-04-30
+- Készenlét
+
+### <a name="summary"></a>Összefoglalás
+
+Annak érdekében, hogy a partnerek és az ügyfelek bizalom alapján futtassanak üzleti munkájukat, meghívjuk a partnereket, hogy teszteljék a Validate Address API módosításait a világ minden országában.
+
+### <a name="impacted-audience"></a>Érintett célközönség
+
+CsP – közvetlen számlázási partnerek és közvetett szolgáltatók, akik új ügyfelek címadatokat hoznak létre vagy frissítnek
+
+### <a name="details"></a>Részletek
+
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos módszert biztosítsunk az ügyfélcímek érvényesítéséhez az ügyfél-előfizetések tranzakciója során a CSP-programban. 2021. március 31-én bevezettük a Validate Address API módosításait. Meghívjuk a partnereket, hogy teszteljék az API-t a 2021. június végi élő adás előtt. 
+
+Vegye figyelembe, hogy ezek a módosítások csak a Validate Address API-t érintik. Az Ügyfél és a Számlázási profil API-k frissítése api-kat ez nem érinti. Bár a javasolt címet jelenleg nem kell használni az Ügyfél létrehozása API-val, erősen ajánlott.
+
+A válasz a következő állapotüzenetek egyikét adja vissza:
+
+| Állapot     | Leírás |    A visszaadott javasolt címek száma |
+|-------|---------------|-------------------|
+|Ellenőrzött szállításra használható | A cím ellenőrizve van, és szállítható a címre. | Egyirányú |
+|Ellenőrzött | A cím ellenőrizve van. | Egyirányú |
+|Beavatkozás szükséges | A javasolt cím jelentős mértékben módosult, és a felhasználó megerősítését kell kér. | Egyirányú |
+|Utca részleges | A címben megadott utca részleges, és további információra van szüksége. | Multiple – legfeljebb három |
+|Részleges helyszín | Az adott helyszín (épületszám, csomagszám stb.) részleges, és további információra van szüksége. | Multiple – legfeljebb három |
+|Többszörös | Több mező is részleges a címben (beleértve az utca részleges és a helyszíni részleges mezőket is). | Multiple – legfeljebb három |
+|Nincsenek | A cím helytelen. | Nincsenek |
+|Nincs ellenőrizve. | A címet nem sikerült elküldeni az érvényesítési folyamaton keresztül. | Nincsenek |
+
+Az USA-nak az utókódja egy további négy számjegyet + kötőjelet ad vissza, például: 12345-6789.
+
+### <a name="next-steps"></a>Következő lépések
+
+- Részletesebb útmutatásért tekintse át a műszaki dokumentációt és a dedikált [partnergyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) található gyakori kérdéseket.
+- Készüljön fel arra, hogy a módosításokat a Partnerközpont API és a webes felhasználói felület használatával építse be. 
+- Ossza meg a tesztgép bérlőazonosítóját az érintett szakértővel (Ali Mertki), hogy felveje a tesztjáratba, hogy megkezdje a frissítés előkészítését. 
+- Ha vezérlőpult-szállítói (CPV) megoldást használ, tekintse meg a CPV-t.
+
+### <a name="questions"></a>Kérdése van?
+
+Ha támogatásra van szüksége a Microsofttal kapcsolatos műveleteihez, kérje a partnertámogatási Yammer-csoportját, vagy nyisson meg egy [szolgáltatáskérést.](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8)
 
 _______________
 ## <a name="new-location-for-partner-center-api-swagger-documentation"></a><a name="9"></a>Az API Swagger Partnerközpont dokumentáció új helye
@@ -72,13 +119,13 @@ Folyamatos szoftver- vagy szoftver-előfizetési ajánlatokat a CSP-ban tranzakc
 
 ### <a name="details"></a>Részletek
 
-Vegye figyelembe a következő fontos értesítéseket a szoftver- és szoftver-előfizetések folyamatos vásárlásával kapcsolatban a Partnerközpont:
+Vegye figyelembe a következő fontos értesítéseket a szoftver- és szoftver-előfizetések előfizetésen keresztüli folyamatos vásárlásával Partnerközpont:
 
 #### <a name="software-return-period-policy"></a>Szoftver visszaküldési időszakának szabályzata
 
-2021. június 1-től a CSP-ben az Microsoft Partnerszerződés (MPA) által meghatározott szoftver ajánlatok visszatérési időtartama a megrendelés dátuma és 30 napja között 60 napra változik.
+2021. június 1-től a CSP-ben az Microsoft Partnerszerződés (MPA) által meghatározott szoftveres ajánlatok visszatérési időtartama a megrendelés dátuma után 60 napról 30 napra változik.
 
-A szoftverajánlatra vonatkozó megrendelés elküldése után a partnereknek a megrendelés dátumát követően 30 nap áll a 30 napra, hogy bármely változatot elküldje az adott rendelésre:
+A szoftverajánlatra vonatkozó megrendelés elküldése után a partnereknek a megrendelés dátuma után 30 nap áll a 30 napjuk arra, hogy bármely változatot elküldje az adott rendelésre:
 
 - A 30 napos visszatérési időszakban visszaadott állandó szoftverlicencek a fizetős vásárlási ár teljes jóváírását megkapják.
 
@@ -116,7 +163,7 @@ CSP- és Open-licencpartnerek
 
 ### <a name="details"></a>Részletek
 
-2020-ban a [Microsoft](https://blogs.partner.microsoft.com/mpn/general-availability-of-perpetual-software-licenses-in-the-cloud-solution-provider-program/) bejelentette, hogy a folyamatos szoftverlicencek széles körben elérhetők lesznek a partnerek és az ügyfelek számára a Felhőszolgáltató (CSP) programon keresztül. Az első mérföldkövet 2021 januárban érte el, amikor a kereskedelmi célú folyamatos szoftveres ajánlatok elérhetővé váltak. A következő fontos mérföldkő 2021 júliusában lesz, amikor elérhetővé válnak a [közszférában](https://aka.ms/openlicensepublicsector) elérhető ajánlatok. Arról [is](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) tájékoztattunk, hogy 2022. január 1-től az Open License programon keresztül nem lehet új szoftverlicenc-vásárlásokat vagy Frissítési Garancia online szolgáltatások licenceket vásárolni vagy megújítni.
+2020-ban a [Microsoft](https://blogs.partner.microsoft.com/mpn/general-availability-of-perpetual-software-licenses-in-the-cloud-solution-provider-program/) bejelentette, hogy a folyamatos szoftverlicencek széles körben elérhetők lesznek a partnerek és az ügyfelek számára a Felhőszolgáltató (CSP) programon keresztül. Az első mérföldkövet 2021 januárban érte el, amikor elérhetővé váltak a kereskedelmi célú folyamatos szoftveres ajánlatok. A következő fontos mérföldkő 2021 júliusában következik be, amikor [elérhetővé](https://aka.ms/openlicensepublicsector) válnak a közszférában elérhető ajánlatok. Arról [is](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/) tájékoztattunk, hogy 2022. január 1-től az Open License programon keresztül nem lehet új szoftverlicenc-vásárlásokat vagy Frissítési Garancia online szolgáltatások-licenceket vásárolni vagy megújítni.
 
 A folyamatos szoftvernek a CSP-programra való átállása az új kereskedelmi élményben segít a partnereknek abban, hogy bővítsék a lehetőségeket, hogy változatos megoldásokat és felügyelt szolgáltatásokat kínálnak. Ez felgyorsítja az ügyfelek felhőre való áttérését is.  A partnerek és az ügyfelek zökkenőmentes átállásának biztosítása érdekében a következő módosításokat és anyagokat végeztünk el a digitális átalakítás felgyorsítása érdekében:
 
@@ -136,7 +183,7 @@ A folyamatos szoftvernek a CSP-programra való átállása az új kereskedelmi �
 
 - Július 1. : Az Open Value program oktatási és nonprofit programjában elérhető további termékkódok, amelyek az Open License programhoz hasonló ajánlatokat érhetők el
 
-##### <a name="open-license"></a>Open License
+##### <a name="open-license"></a>Nyílt licenc
 
 - Július 1.: A Microsoft már nem indít új ajánlatokat az Open License programban.
 
@@ -148,13 +195,13 @@ A folyamatos szoftvernek a CSP-programra való átállása az új kereskedelmi �
 
 #### <a name="csp-indirect-providers"></a>Közvetett CSP-szolgáltatók
 
-Az elkövetkező hónapokban segítheti az Open License-viszonteladókat a CSP-programban való részvételben a partnerközösségi eseményeken részt vevő és a viszonteladóknak készült Open License-to-CSP átmeneti anyagok használatával:
+Az elkövetkező hónapokban segítheti az Open License-viszonteladókat a CSP-programban való részvételben azáltal, hogy részt vesz a partnerek közösségi eseményeiben, és felhasználja az Open License-to-CSP váltási anyagokat a viszonteladók számára:
 
 - Nyissa meg a viszonteladóknak készült [Licenc–CSP](https://partner.microsoft.com/resources/collection/reseller-open-license-to-csp-transition-materials#/)váltási anyagokat – Testreszabható áttekintő bemutató, e-mail-sablon, közvetett CSP-viszonteladói útmutató és egyéb anyagok, amelyek segítenek a viszonteladók nagy léptékű bevezetésében.
 
-- [A](https://globalpbocomm.eventbuilder.com/GlobalCSP) Microsoft Business Operations által üzemeltetett CSP-partnerközösségi események.  Csatlakozzon a különböző munkamenetekhez, és ismerje meg a CSP alapjait (a CSP alapjait), vagy maradjon naprakész, és kérdéseket te fel a CSP-szoftverekkel (Q&A munkamenetek).
+- [A](https://globalpbocomm.eventbuilder.com/GlobalCSP) Microsoft Business Operations által üzemeltetett CSP-partnerközösségi események.  Csatlakozzon a különböző munkamenetekhez a CSP alapjainak elsajátításért (A CSP alapjai), vagy maradjon naprakész, és kérdéseket tudjon feltenni a CSP-szoftverekkel (Q&A munkamenetekkel).
 
-- (Hamarosan érkezik) A Microsoft Business Operations által üzemeltetett közvetett CSP-viszonteladói képzési munkamenet.
+- (Hamarosan érkezik) A Microsoft Business Operations által üzemeltetett közvetett CSP-viszonteladói képzés.
 
 #### <a name="open-license-resellers"></a>Open License resellers (Licenc-viszonteladók megnyitása)
 
@@ -196,11 +243,11 @@ Az útmutatóra mutató hivatkozásokat a következő gyűjtemények is tartalma
 
 - [Partneri hírlevelek,](https://partner.microsoft.com/resources/collection/csp-monthly-update#/)például a CSP havi frissítése
 
-Havi emlékeztetőként közzé is teszünk egy Partnerközpont a globális promóciós készenlétre vonatkozó útmutató minden új kiadásával.
+Havi emlékeztetőként egy új bejelentést is Partnerközpont a globális promóciós készenlétre vonatkozó útmutató minden új kiadásával együtt.
 
 ### <a name="next-steps"></a>Következő lépések
 
-Minden hónap elején megtalálja a legújabb [](https://partner.microsoft.com/resources/detail/operations-promo-guide-pdf) globális promóciós készenléti útmutatót az [Operations Readiness erőforrás-katalógusban.](https://partner.microsoft.com/resources)
+Minden hónap elején megtalálja a legújabb [](https://partner.microsoft.com/resources/detail/operations-promo-guide-pdf) globális promóciós készenlét-útmutatót az [Operations Readiness erőforrás-katalógusban.](https://partner.microsoft.com/resources)
 
 Ossza meg ezt az információt a szervezet megfelelő kapcsolattartóival, és ossza meg velünk, mennyire hasznos ez az útmutató a "Hasznos volt ez az oldal?" című szakaszban. gombra az egyes oldalak végén.
 
@@ -209,7 +256,7 @@ ________________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021.04. 16.
+- Dátum: 2021-04-16
 - Közösségi | Meghívók és emlékeztetők
 
 ### <a name="summary"></a>Összefoglalás
@@ -240,11 +287,11 @@ A [CSP-közösséggyűjteményben](https://partner.microsoft.com/resources/colle
 
 - [A CSP elindítja a](https://partner.microsoft.com/resources/collection/april-2021-csp-launch-topics-collection#/) frissítési erőforrásokat a legfontosabb üzemeltetési változásokon könnyen használható tartalommal.
 
-- [Frissítők és emlékeztetők](https://partner.microsoft.com/resources/detail/csp-april-2021-refreshers-and-reminders-pdf) az érdeklődést és lekérdezéseket fogadó főbb CSP-témakörökről.
+- [Frissítők és emlékeztetők](https://partner.microsoft.com/resources/detail/csp-april-2021-refreshers-and-reminders-pdf) a fontos CSP-témakörökről, amelyek érdeklődést és lekérdezéseket kapnak.
 
 #### <a name="csp-community-call-qas"></a>CSP Community Call Q&As
 
-Community Call Q&Mint elérhető, amely segít a közelgő változásokkal kapcsolatos kérdésekben. Regisztráljon most a CSP Community Call Q&Mivel ez áprilisban, májusban és júniusban zajlik. Ezek a legújabb indításokkal, fontos frissítésekkel és emlékeztetőkvel fognak összpontosítani.
+Community Call Q&Mint érhetők el, amelyek segíthetnek a közelgő változásokkal kapcsolatos kérdésekben. Regisztráljon most a CSP Community Call Q&Mivel ez áprilisban, májusban és júniusban zajlik. Ezek a legújabb indításokkal, fontos frissítésekkel és emlékeztetőkvel fognak összpontosítani.
 
 [Regisztráljon itt.](https://globalpbocomm.eventbuilder.com/GlobalCSP)
 
@@ -282,15 +329,15 @@ Ez a bejelentés a decemberben megjelent Partnerközpont [továbbfejlesztéseit 
 
 - Tekintse át az Partnerközpont API új módosításait és útmutatóját az Operations Readiness resources: Partnerközpont Education ügyfélérvényesítési [folyamatának fejlesztései között.](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/)
 
-- Ossza meg ezeket az információkat a szervezeten belüli megfelelő csapatokkal és a viszonteladóival, hogy felkészüljenek ezekre a változásokra.
+- Ossza meg ezeket az információkat a szervezet megfelelő csapatával és a viszonteladóival, hogy felkészüljenek ezekre a változásokra.
 
 ### <a name="questions"></a>Kérdése van?
 
-Az értesítéssel kapcsolatos kérdésekért lépjen kapcsolatba a [Partnerközpont ügyfélszolgálatával.](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals)
+Az értesítéssel kapcsolatos kérdéseit a támogatási Partnerközpont [meg.](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals)
 
 ### <a name="change-log"></a>Változási napló
 
-- Április: Emlékeztető a GET-minősítés közelgő elalasztásról 
+- Április: Emlékeztető a GET-minősítés hamarosan elalasztásról 
 - Február: Frissültek a GET és PUT-minősítések & idővonalai
 - Január: Emlékeztető a GET és PUT minősítések & elalasztásról
 
@@ -304,7 +351,7 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A Microsoft új formátumot vezet be az új kereskedelmi PDF-számlához a Felhőszolgáltató -program (CSP) programjában, amely a termékváltozat leírása helyett termékadatok szerint jeleníti meg a számlázási adatokat.
+A Microsoft új formátumot vezet be az új kereskedelmi PDF-számlához a Felhőszolgáltató -program (CSP) programjában, hogy a termékleírás helyett termékadatok szerint jelenítse meg a számlázási adatokat.
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
@@ -312,7 +359,7 @@ CSP-programon keresztül tranzakciós partnerek
 
 ### <a name="details"></a>Részletek
 
-2021 májusával kezdődően a Microsoft új formátumot vezet be az új kereskedelmi PDF-számlához a CSP-programban, hogy a termékleírás helyett termékadatok szerint jelenítse meg a számlázási adatokat. Ezzel az új frissítéssel a sorelemeket terméktípus szerint összesítődve jelenítjük meg az összes terméket egy adott sorban.
+2021 májusával kezdődően a Microsoft új formátumot vezet be az új kereskedelmi PDF-számlához a CSP-programban, hogy termékleírás helyett termékadatok szerint jelenítse meg a számlázási adatokat. Ezzel az új frissítéssel a sorelemeket terméktípus szerint összesítődve jelenítjük meg az összes terméket egy adott sorban.
 
 A partnerek észrevehetnek egy ilyen változást a 2021. április 1. és 2021. április 30. közötti számlázási időszakra vonatkozó májusi számlán. Az érintett ajánlatok a fenntartott Microsoft Azure, az Azure-előfizetések (Azure-csomag) és a Marketplace.
 
@@ -332,7 +379,7 @@ A következő elemekre ez nem lesz hatással:
 
 - Meglévő számlázási API-k
 
-- Egyeztetési fájlok (a részletes adatok leolvasására a Recon-fájlok használhatók.) 
+- Egyeztetési fájlok (a részletes adatok lekért Recon-fájlokkal is lekért fájlok.) 
 
 - Használati és licencalapú díjak számlái
 
@@ -396,13 +443,13 @@ Azok a partnerek, akik az alábbi országokban lévő új vagy meglévő ügyfel
 - Ukrajna
 - Üzbegisztán
 
-A világ többi részén az ügyfelekkel való partneri együttműködés 2021. március végén opcionálisan meg tudja majd adnia az ügyfelek céges regisztrációs azonosítóját, telefonszámát és középső nevét.
+A 2021. március végén az ügyfelekkel a világ többi részén partnerekkel is lehetősége lesz megadni a céges regisztrációs azonosítót, a telefonszámot és a középső nevet igény szerint.
 
 ### <a name="next-steps"></a>Következő lépések
 
 - Részletesebb útmutatásért tekintse át a műszaki dokumentációt és a dedikált [partnergyűjtemény](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakori kérdéseit.
-- Készüljön fel a módosítások beépítése Partnerközpont API és a webes felhasználói felület használatával. Az API/SDK-k elérhetők lesznek a teszteléshez.
-- Az új ügyfelek be- és módosításakor küldje el a további adatokat.
+- Készüljön fel arra, hogy a módosításokat az API Partnerközpont webes felhasználói felület használatával építse be. Az API/SDK-k elérhetők lesznek a teszteléshez.
+- A további adatokat mindenképpen el kell küldenünk az új ügyfelek előtt, vagy a meglévő ügyféladatok módosításakor.
 - Ha vezérlőpult-szállító (CPV) megoldást használ, tekintse meg a CPV-t.
 
 ### <a name="questions"></a>Kérdése van?

@@ -4,17 +4,17 @@ ms.topic: article
 ms.date: 06/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ha problémája van egy Microsoft-szolgáltatással vagy a Partnerközpont, eszkalálhatja a Microsoftot segítségért, és nyomon követheti a problémát, amíg meg nem oldódik.
+description: Ha problémája van egy Microsoft-szolgáltatással vagy egy Partnerközpont, eszkalálhatja a Microsoftot segítségért, és nyomon követheti a problémát, amíg meg nem oldódik.
 author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a22dd2a8ec8ce3da3aa0967741685a2f28cc0a15
-ms.sourcegitcommit: 26e6b470756aa9c1b3b0b919301b0eb38a335a52
+ms.openlocfilehash: e863a5dbb86dae2c1cd3395589b4d4318eb0dba1
+ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "108002807"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108284145"
 ---
 # <a name="support-from-microsoft"></a>Microsoft-támogatás
 
@@ -24,17 +24,17 @@ ms.locfileid: "108002807"
 
 **Megfelelő szerepkörök**
 
-- Súgóügynök
+- Helpdesk agent
 
-Ha problémája van egy Microsoft-szolgáltatással vagy a Partnerközpont-val, jelentheti a problémát a Microsoftnak, eszkalálhatja a problémát a Microsoftnak segítségért, és nyomon követheti a problémát a megoldásáig.
+Ha problémája van egy Microsoft-szolgáltatással vagy a Partnerközpont-val, jelentheti a problémát a Microsoftnak, eszkalálhatja a problémát a Microsoftnak segítségért, és nyomon követheti a problémát, amíg meg nem oldódik.
 
 [Partnerközpont támogatás –](report-problems-with-partner-center.md) Segítségre van szüksége, és jegyeket hozhat létre az összes Partnerközpont programhoz.
 
-[Támogatás az ügyfelek nevében](report-problems-on-behalf-of-a-customer.md) – Segítségre van szüksége, és problémákat jelent az ügyfélnek.
+[Támogatás az ügyfelek nevében](report-problems-on-behalf-of-a-customer.md) – Segítséget és problémákat jelent az ügyfélnek.
 
 [Szolgáltatás állapotának ellenőrzése](check-service-health.md) – Ellenőrizze, hogy vannak-e ismert szolgáltatáskimaradások a Partnerközpont.
 
-[Automatikus szolgáltatási értesítéseket kaphat az](get-automated-service-notifications-with-our-apis.md) API-kkal – A felhőszolgáltatók automatikus szolgáltatásértesítéseket kaphatnak az ügyfelek szolgáltatásaihoz.
+[Automatikus szolgáltatásértesítések az](get-automated-service-notifications-with-our-apis.md) API-kkal – A felhőszolgáltatók automatikus szolgáltatásértesítéseket kaphatnak az ügyfelek szolgáltatásaihoz.
 
 ## <a name="next-steps"></a>Következő lépések
 

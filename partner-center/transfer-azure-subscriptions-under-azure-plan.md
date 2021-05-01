@@ -1,140 +1,142 @@
 ---
-title: Azure-előfizetés átvitele egy Azure-csomagból egy másik CSP-partnerbe
+title: Azure-előfizetés átvitele Azure-csomag alá egy másik CSP-partnernek
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan változtathatja meg egy Azure-csomag keretében az ügyfél Azure-előfizetéséhez társított felhőalapú megoldás-szolgáltatói partnert.
+description: Megtudhatja, hogyan módosíthatja Felhőszolgáltató ügyfél Azure-előfizetéséhez társított partnert egy Azure-csomag keretében.
 ms.custom: SEOMAY.20
 ms.localizationpriority: medium
 author: mckennaville
 ms.author: mcville
 ms.date: 07/29/2020
-ms.openlocfilehash: e792e4af2999924ba8be77ec0517ce56c1db7a27
-ms.sourcegitcommit: ed5c873d19f0464cc986fe6e852383cd4280daf6
+ms.openlocfilehash: 12afa751d2e7cb6b6ef0cd7308f09746a8a43b52
+ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97893206"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108284502"
 ---
-# <a name="transfer-a-customers-azure-plan-subscriptions-to-a-different-partner"></a>Ügyfél Azure-csomag-előfizetésének átvitele egy másik partnerre
+# <a name="transfer-a-customers-azure-plan-subscriptions-to-a-different-partner"></a>Ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
 
 **Megfelelő szerepkörök**
 
-- Partnerek a Cloud Solution Provider (CSP) programban
+- Fiókadminisztrátor
+- Értékesítési ügynök
+- Számlázási ügynök
 
-Ez a cikk azt ismerteti, hogy az ügyfél hogyan válthat az Azure-előfizetések között egy felhőalapú megoldás-szolgáltató (CSP) között egy másikra.
+Ez a cikk azt ismerteti, hogy az ügyfelek hogyan válthatnak Azure-előfizetéseik között egy Azure-Felhőszolgáltató (CSP) egy másikra.
 
-Az ügyfél Azure-előfizetésének egy másik partnertől való átváltásához kövesse az alábbi lépéseket. A partner és az ügyfél is elvégezheti a szükséges lépéseket.
+Ha egy ügyfél Azure-előfizetéseit egy másik partnerről is átkapcsolja, kövesse az alábbi lépéseket. A partnernek és az ügyfélnek is vannak lépései.
 
 >[!Note]  
->Csak a Microsofttal közvetlen számlázási kapcsolattal rendelkező partnerek férhetnek hozzá az áttérési eszközökhöz. A közvetett viszonteladóknak működniük kell a közvetett szolgáltatókkal az áttérési eszköz kihasználása érdekében.
+>Csak a Microsofttal közvetlen számlázási kapcsolatban áll partnerek férhetnek hozzá az átváltási eszközökhez. A közvetett viszonteladóknak a közvetett szolgáltatóikkal együtt kell használniuk ezt az átváltási eszközt.
 
-Az ügyfélnek az eszköz kihasználása előtt mindkét partnerrel (aktuális és jövőbeli) kell kommunikálnia. Az offline beszélgetéseknek el kell kerülniük a félreértések és a forgalom elkerülését. Emellett a partnereknek és az ügyfeleknek meg kell érteniük ezeket a szempontokat és előfeltételeket az áttérés megkezdése előtt:
+Az ügyfélnek mindkét partnerrel (jelenlegi és jövőbeli) kapcsolatban kell lennie az eszköz használata előtt. A félreértések és adatváltozások elkerülése érdekében offline beszélgetést kell folytatni. Emellett a partnereknek és az ügyfeleknek az átállás megkezdése előtt tisztában kell lennie ezekkel a szempontokkal és előfeltételekkel:
 
-**Legfontosabb szempontok:**
+**Fő szempontok:**
 
-- A Azure Reservations nem kerül át az előfizetésbe a jövőbeli partnernek
-- A jelenlegi partnernél az Azure-szolgáltatások CSP-díjszabása nem fog áttérni  
-- Az ügyfél támogatási feladatai a jövőbeli partnernek lesznek áthelyezve
-- A számlázás és a számlázás a jövőbeli partnernek az átvitel időpontjában kerül át
-- Az átvitel nem érinti az Azure Role-Based Access Controlt (RBAC)
-- Alapértelmezés szerint a (z) (AOBO) rendszergazdai nevében nem adható meg a jövőbeli partner
-- A harmadik féltől származó Piactéri termékek addig lesznek továbbítva, amíg a termékek átadják a piactér jogosultsági ellenőrzését.
+- Az Azure Reservations nem lesz áthelyezve az előfizetéssel a jövőbeli partnerhez
+- Az aktuális partnerhez az Azure-szolgáltatások CSP-díjszabása nem fog áttérni  
+- Az ügyfél támogatási feladatai a jövőbeli partnerhez fognak átköltözni
+- A számlázás és a számlázás az átadáskor át fog költözni a jövőbeli partnerhez
+- Az azure Role-Based Access Control (RBAC) nincs hatással az átvitelre
+- A következő partner alapértelmezés szerint nem kap rendszergazdai jogosultságot a nevében (AOBO).
+- A harmadik féltől származó Marketplace-termékek akkor lesznek áthozva, ha a termékek megfelelnek a Marketplace-jogosultságellenőrzésen.
     - Nincsenek különleges kedvezmények vagy regionális korlátozások
     - A termékek nem előfizetésen alapulnak
-    - A jövőbeli partnernek együtt kell működnie a közzétevővel annak ellenőrzéséhez, hogy az engedélyezési listán vannak-e a termék telepítéséhez
-    - Ha a piactér-termékek átadásához nem teljesülnek az összes feltétel, akkor az Azure-előfizetések át lesznek adva, majd a piactér-termékek újravásárlása az új partnerrel
+    - A jövőbeli partnernek együtt kell működnie a közzétevővel, hogy biztosan fel legyen véve a termék üzembe helyezésének engedélyezési listájára
+    - Ha nem teljesülnek ezek a feltételek a Marketplace-termékek átviteléhez, az Azure-előfizetések átadása, majd a Marketplace-termékek újravásárlása az új partnerrel
 
 **Előfeltételek:**
 
-- Az ügyfél az aktuális CSP-partnert az áttérés céljára irányítja
-- A jövőbeli CSP-partner az ügyféllel együttműködve biztosítja az ügyfelek igényeinek teljesítését
-- A jövőbeli CSP-partner kapcsolatot létesít az ügyféllel, és megvásárol egy Azure-csomagot az áttérés megkezdése előtt  
-- Az ügyfélnek regisztrálnia kell a Microsoft ügyfél-szerződést a jövőbeli CSP-partnerrel
-- A jövőbeli CSP-partnernek alá kell írnia a Microsoft partneri szerződést az eszköz használatához
+- Az ügyfél kapcsolatba fog lépjen az aktuális CSP-partnerrel az átállás szándéka alapján
+- A jövőbeli CSP-partner az ügyféllel együtt gondoskodik az ügyfelek igényeinek kielégítése érdekében
+- A jövőbeli CSP-partner kapcsolatot létesít az ügyféllel, és megvásárol egy Azure-tervet az átállás megkezdése előtt  
+- Az ügyfélnek Microsoft Ügyfélszerződés CSP-partnerrel kell bejelentkeznie
+- A későbbi CSP-partnernek alá kell írnia a Microsoft Partnerszerződés az eszköz használatára
 
-## <a name="customer-tasks-to-be-completed"></a>Elvégzendő felhasználói feladatok
+## <a name="customer-tasks-to-be-completed"></a>Teljesítenünk kell az ügyfélfeladatokat
 
-Ha Azure-csomag keretében szeretne Azure-előfizetést továbbítani, az ügyfélnek a jelenlegi partnerével kell megindítania a folyamatot. Össze kell gyűjteniük az aktuális partnere vállalatának nevét és tartományát, hogy a jövőbeli partnerük az adatátviteli kérelem űrlapját a nevében tudja befejezni.
+Azure-előfizetés Azure-csomag keretében történő átviteléhez az ügyfélnek el kell kezdenie a folyamatot az aktuális partnerével való kapcsolatfelvétellel. Össze kell gyűjteniük jelenlegi partnerük vállalatnevét és tartományát, hogy a jövőbeli partnerük a nevükben ki tudja egészlatni az átadási kérelem űrlapját.
 
-Az ügyfélnek továbbá azonosítania kell az aktuális partnertől átvinni kívánt előfizetéseket. Az Office 365, a nagyvállalati mobilitási csomag vagy a Microsoft Dynamics CRM-előfizetések partnerei nem változtathatók meg.
+Az ügyfélnek azonosítania kell az aktuális partnertől átemelni kívánt előfizetéseket is. Nem módosíthatja az Office 365-, Nagyvállalati mobilitási csomag- vagy Microsoft Dynamics CRM-előfizetések partnerét.
 
 >[!Note]  
->A jövőbeli partner feladata az adatátviteli kérelem űrlapjának elvégzése, amely elindítja az átvitel folyamatát. A Microsoft nem tud beavatkozni az ügyfél vagy az aktuális partner nevében. Az ügyfélnek meg kell terveznie, hogy a jövőben zökkenőmentesen működjön együtt a jövőbeli és a jelenlegi partnerével.
+>A jövőbeli partner felelőssége, hogy töltse ki az átadási kérelem űrlapját, amely elindítja az átadási folyamatot. A Microsoft nem avatkozhat be az ügyfél vagy az aktuális partner nevében. Az ügyfélnek szorosan együtt kell működnie a jövővel és a jelenlegi partnerrel, hogy zökkenőmentesen működjön az átállás.
 
-## <a name="future-partner-tasks-to-be-completed"></a>A jövőbeli partneri feladatok elvégzése
+## <a name="future-partner-tasks-to-be-completed"></a>A jövőbeli befejezendő partnerfeladatok
 
-Az előfizetés jövőbeli partnerének el kell végeznie egy átadási kérelem űrlapját a partner Centertől az előfizetés átadásának igényléséhez:
+Az előfizetés jövőbeli partnerének ki kell kitöltötte az átadási kérelem űrlapát a Partnerközpont az előfizetés átvitelének igényléséhez:
 
-1.  A partner Center menüjében válassza az **ügyfelek** lehetőséget, majd válassza ki azt az ügyfelet, aki az átadási kérelem űrlapját a nevében szeretné végrehajtani.
-2.  Az ügyfél menüben válassza az **előfizetések** lehetőséget.
-3.  Válassza az **átviteli kérelem** szakaszt.
-4.  Az **átadási kérelem szakaszban** válassza az **új kérelem hozzáadása** elemet.
+1.  A Partnerközpont válassza a **Customers**(Ügyfelek) lehetőséget, majd válassza ki azt az ügyfelet, aki nevében el szeretné látni az átadási kérelem űrlapját.
+2.  Az Ügyfél menüben válassza az **Előfizetések lehetőséget.**
+3.  Válassza az **Átadási kérelem szakaszt.**
+4.  Az **Átadási kérelem szakaszban válassza** az **Új kérelem hozzáadása lehetőséget.**
 
     :::image type="content" source="images/modernazuretransfers/Transferrequestheader.png" alt-text="Átvitelek szakasz":::
 
-5.  Fejezze be az **új adatátviteli kérés** űrlapot.
+5.  Töltse ki **az Új átadási kérelem űrlapot.**
 
-6.  Válassza az **átvitel küldése kérelem**  >  **Küldés** lehetőséget.
+6.  Válassza az **Átadási kérelem küldése**  >  **Küldés lehetőséget.**
 
-    :::image type="content" source="images/modernazuretransfers/CompleteTrnasferRequestForm.png" alt-text="Adatátviteli kérelem űrlapjának befejezése":::
+    :::image type="content" source="images/modernazuretransfers/CompleteTrnasferRequestForm.png" alt-text="Átadási kérelem kitöltése űrlap":::
 
-7.  Átmozgatási kérelem megerősítése
+7.  Átadási kérelem megerősítésének áttekintése
 
-    :::image type="content" source="images/modernazuretransfers/TransferPending.png" alt-text="Ellenőrzés függőben":::
+    :::image type="content" source="images/modernazuretransfers/TransferPending.png" alt-text="Függőben lévő átvitel áttekintése":::
 
     >[!Note]
-    >A jövőbeli partner megszakíthatja az adatátviteli kérést a jobb felső sarokban lévő **kérelem megszakítása** lehetőség kiválasztásával, ha az átadási kérelem állapota "függőben van". Ha az átviteli kérelem állapota "folyamatban" vagy "kész", a lemondások nem lesznek lehetségesek.
+    >A jövőbeli partner csak akkor  szakíthatja meg az átadási kérelmet, ha a jobb felső sarokban a Kérelem visszavonása gombra választ, ha az átadási kérelem állapota "Függőben". Ha az átadási kérelem állapota "folyamatban" vagy "kész", a megszakítások nem lesznek lehetségesek.
 
-## <a name="current-partner-tasks-to-be-completed"></a>Az aktuálisan elvégzendő partneri feladatok
+## <a name="current-partner-tasks-to-be-completed"></a>Jelenleg befejezt partneri feladatok
 
-Az ügyfél a jelenlegi partner rendszergazdai ügynöke egy e-mailt kap arról, hogy az ügyfél az előfizetésük átvitelét kéri:
+Az ügyfél aktuális partnerének rendszergazdai ügynöke e-mailt fog kapni arról, hogy az ügyfél az előfizetések átvitelét kéri:
 
 :::image type="content" source="images/modernazuretransfers/SourceReviewEmail.png" alt-text="Áttekintés":::
 
-Tekintse át és fogadja el az adatátviteli kérés űrlapot a partner Centertől az előfizetés átvitelének befejezéséhez.
+Tekintse át és fogadja el az átadási kérelem űrlapját Partnerközpont előfizetés átvitelének befejezéséhez.
 
 >[!Note]  
->Ha a jelenlegi partner semmilyen műveletet nem végez a kérés érvényességét követő 30 napon belül, és a jövőbeli partner egy új adatátviteli kérést fog létrehozni.
+>Ha az aktuális partner 30 napon belül nem hoz létre műveletet, a kérelem lejár, és a jövőbeli partnernek lesz egy új átadási kérése.
 
-1.  Válassza az **átadási kérelem megtekintése** az e-mailben vagy a
-1.  A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válassza ki azt az ügyfelet, akinek a nevében elküldte az átadási kérelmet.
-2.  Az ügyfél menüben válassza az **előfizetések** lehetőséget.
-3.  Válassza az **átviteli kérelem** szakaszt.
-4.  Az átadási adatok kibontása a kiválasztott **átadási kérelem azonosítójának** kiválasztásával a **fogadott kérelmek** között
+1.  Válassza **az Átadási kérelem áttekintése lehetőséget** az e-mailből VAGY
+1.  A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válassza ki azt az ügyfelet, aki nevében elküldött egy átadási kérelmet.
+2.  Az Ügyfél menüben válassza az **Előfizetések lehetőséget.**
+3.  Válassza az **Átadási kérelem szakaszt.**
+4.  Bontsa ki az átadási adatokat a kiválasztott átadási kérelem **azonosítójának kiválasztásával** a **Fogadott kérelmek alatt**
 
-:::image type="content" source="images/modernazuretransfers/ReviewRequest.png" alt-text="Forrás-felülvizsgálati kérelem átvitele":::
+:::image type="content" source="images/modernazuretransfers/ReviewRequest.png" alt-text="Forrás-felülvizsgálatok átadási kérése":::
 
-5.  Átmozgatási kérelem áttekintése. Válassza ki az átvinni kívánt Azure-előfizetéseket.
-
->[!Note]  
-> A továbblépés előtt vegye figyelembe, hogy a továbbiakban nem fog tudni hozzáférni a kijelölt előfizetésekhez.
-> A további használatra nem lesz számlázva.
-> Az Azure-foglalások nem vihetők át az előfizetésekre.
-
-6.  Ezután válassza az **elfogadás és az átvitel** lehetőséget az adatátviteli folyamat befejezéséhez.
-
-:::image type="content" source="images/modernazuretransfers/SelectSubs.png" alt-text="Válassza ki az Azure-csomagok alá továbbítandó előfizetéseket":::
-
-7.  Az átvitel elfogadási megerősítésének megtekintése.
-
-   Ezen a ponton a jövőbeli partner, az ügyfél és a jelenlegi partner értesítést kap az elfogadott átküldési kérelemről e-mailben.
-
-   Az áttérés elfogadását követően az átvitel állapota akár 15 percet is igénybe vehet, amíg a rendszer frissül. Ha a rendszer továbbra is tart, a rendszer három napig próbálkozik. Ha az átvitel állapota továbbra is függőben van, a partnernek be kell küldenie egy szolgáltatási kérelmet.
-
-   Az átvitel befejezése után a kérelemben foglalt előfizetések megjelennek a jövőbeli partner Azure-tervében, és már nem jelennek meg Önnel.
+5.  Tekintse át az átadási kérelmet. Válassza ki az átvitelhez kért Azure-előfizetéseket.
 
 >[!Note]  
->Közvetett szolgáltatók esetén: Kérjük, tájékoztassa a közvetett viszonteladót arról, hogy az átadási kérelem el lett fogadva.
+> Mielőtt továbblépne, vegye figyelembe, hogy a továbbiakban nem fog hozzáférni a kiválasztott előfizetéshez.
+> A további használatért nem lesz számlázva.
+> Az Azure-foglalások nem átvitele az előfizetésekkel együtt.
+
+6.  Ezután válassza **az Elfogadás és átvitel lehetőséget** az átviteli folyamat befejezéséhez.
+
+:::image type="content" source="images/modernazuretransfers/SelectSubs.png" alt-text="Válassza ki az Azure-csomagokban átvihető előfizetéseket":::
+
+7.  Az átadás elfogadásának megerősítésének megtekintése.
+
+   Ezen a ponton a jövőbeli partner, az ügyfél és az aktuális partner e-mailben értesítést kap az elfogadott átadási kérelemről.
+
+   Az átváltás elfogadott állapota akár 15 percig is függőben maradhat a rendszer frissítése közben. Ha ez hosszabb időt vesz igénybe, a rendszer három napig próbálkozik. Ha az átvitel állapota továbbra is Függőben marad, a partnernek be kell nyújtania egy szolgáltatáskérést.
+
+   Az átvitel befejezése után a kérésben foglalt előfizetések megjelennek a jövőbeli partner Azure-csomagja alatt, és a továbbiakban nem lesznek felsorolva.
+
+>[!Note]  
+>Közvetett szolgáltatók esetén: Tájékoztassa a közvetett viszonteladót arról, hogy az átadási kérelem el lett fogadva.
 
 ### <a name="managing-your-transferred-customer-subscriptions"></a>Az átvitt ügyfél-előfizetések kezelése
-- A meglévő felhasználók, csoportok vagy szolgáltatásnevek hozzáféréseire, amelyek az Azure szerepköralapú hozzáférés-vezérlés (RBAC) segítségével lettek hozzárendelve, a váltás nincs hatással. Az Azure szerepköralapú hozzáférés-vezérlés [(Azure RBAC)](/azure/role-based-access-control/overview) segítségével az ügyfelek felügyelhetik, hogy ki férhet hozzá az Azure-erőforrásokhoz, mit tehetnek ezekkel az erőforrásokkal, és milyen területekhez férnek hozzá. Az új partnerként nem kap RBAC hozzáférést az ügyfél erőforrásaihoz az előfizetés átvitele után. Az ügyfél korábbi partnere megtartja a RBAC-hozzáférését. Az ügyféllel együttműködve megismerheti, hogy kik betekintést nyújtanak az előfizetésbe, és hogyan teheti meg a kívánt módosításokat.
+- A meglévő felhasználók, csoportok vagy szolgáltatásnevek hozzáféréseire, amelyek az Azure szerepköralapú hozzáférés-vezérlés (RBAC) segítségével lettek hozzárendelve, a váltás nincs hatással. Az Azure szerepköralapú hozzáférés-vezérlés [(Azure RBAC)](/azure/role-based-access-control/overview) segítségével az ügyfelek kezelhetik, hogy ki férhet hozzá az Azure-erőforrásokhoz, mire használhatja őket, és milyen területekhez férhetnek hozzá. Új partnerként nem kap RBAC-hozzáférést az ügyfél erőforrásaihoz az előfizetés átvitele után. Az ügyfél korábbi partnere megtartja RBAC-hozzáférését. Az ügyféllel együtt értse meg, hogy ki kaphat betekintést az előfizetéseibe, és hogyan lehet bármilyen módosítást tenni.
 
-- Ezért fontos, hogy az ügyfél eltávolítsa az Azure RBAC-hozzáférést az előző partnerhez, és hozzá lehessen férni az új partnerhez. További információ az ügyfél új hozzáféréséről: [Mi az az Azure szerepköralapú hozzáférés-vezérlés (Azure RBAC)?](/azure/role-based-access-control/overview) További információ az előző partner RBAC-hozzáférésének eltávolításáról: [szerepkör-hozzárendelés eltávolítása](/azure/role-based-access-control/role-assignments-portal#remove-a-role-assignment).
+- Ezért fontos, hogy az ügyfél eltávolítsa az Azure RBAC-hozzáférést a korábbi partnertől, és hozzáférést adjon hozzá az új partnerhez. Az új hozzáférést adó ügyféllel kapcsolatos további információkért lásd: [Mi az az Azure szerepköralapú hozzáférés-vezérlés (Azure RBAC)?](/azure/role-based-access-control/overview) Az előző partner RBAC-hozzáférésének eltávolításával kapcsolatos további információkért [lásd: Szerepkör-hozzárendelés eltávolítása.](/azure/role-based-access-control/role-assignments-portal#remove-a-role-assignment)
 
-- Emellett nem kap automatikusan rendszergazdai jogosultságot az előfizetések nevében [(AOBO)](https://channel9.msdn.com/Series/cspdev/Module-11-Admin-On-Behalf-Of-AOBO) . Ahhoz, hogy a partner felügyelje ügyfele Azure-előfizetéseit az Ön nevében, az AOBO szükséges. További információ az Azure-jogosultságokról: az [ügyfél szolgáltatásának vagy előfizetésének kezeléséhez szükséges engedélyek beszerzése.](./customers-revoke-admin-privileges.md)
+- Emellett nem kap automatikusan rendszergazdai hozzáférést az előfizetései [(AOBO)](https://channel9.msdn.com/Series/cspdev/Module-11-Admin-On-Behalf-Of-AOBO) nevében. Az AOBO szükséges ahhoz, hogy a partnerek a nevükben kezelték az ügyfél Azure-előfizetését. Az Azure-jogosultságokkal kapcsolatos további információkért lásd: Ügyfél szolgáltatásának vagy előfizetésének kezeléséhez szükséges [engedélyek beszerzése.](./customers-revoke-admin-privileges.md)
 
 ## <a name="next-steps"></a>Következő lépések:
 
 - [(Azure RBAC)](/azure/role-based-access-control/overview)
-- [Az ügyfél szolgáltatásának vagy előfizetésének kezeléséhez szükséges engedélyek beszerzése.](./customers-revoke-admin-privileges.md)
+- [Engedélyek beszerzése egy ügyfél szolgáltatásának vagy előfizetésének kezeléséhez.](./customers-revoke-admin-privileges.md)
