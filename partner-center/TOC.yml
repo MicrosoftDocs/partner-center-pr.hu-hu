@@ -30,8 +30,11 @@
         - name: Kedvezmények aktiválása a PMC-hez
           href: partner-membership-center-tech-benefits-activate.md
           displayName: mpn
-    - name: Tagoknak szóló ajánlatok
+    - name: Tagsági előnyök
       items:
+        - name: Az előnyök áttekintése
+          href: manage-your-partner-network-benefits.md
+          displayName: mpn
         - name: Action Pack
           href: mpn-get-action-pack.md
           displayName: 'renew, mpn'
@@ -44,50 +47,21 @@
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
           displayName: mpn
-        - name: Kompetenciadíjak fizetése
-          href: mpn-pay-fee-silver-gold-competency.md
-          displayName: mpn
-    - name: Kompetenciák
+        - name: A szabályzat és a használat előnyei – GYIK
+          href: benefits-faq-new.md
+        - name: Az előnyökkel kapcsolatos gyakori kérdések
+          href: benefits-faq.md
+          displayName: 'renew, license,'
+        - name: AZ MPN-számla megtekintése vagy letöltése
+          href: mpn-view-print-maps-invoice.md
+    - name: Elérhető előnyök
       items:
-        - name: A kompetenciák ismertetése
-          href: learn-about-competencies.md
-          displayName: mpn
-        - name: Regisztráció tanulási partnerként
-          href: mpn-benefits-map-competency-learning-option-enroll.md
-          displayName: mpn
-        - name: Kompetenciák – GYIK
-          href: competencies-faq.md
-          displayName: 'renew, mpn'
-        - name: Alkalmazásfejlesztési kompetencia kivétele
-          href: app-dev-isv.md
-        - name: A képességjelentés használata
-          href: mpn-skills-report.md
-    - name: Haladó specializációk
-      items:
-        - name: A szaktudás bemutatása
-          href: advanced-specializations.md
-          displayName: mpn
-        - name: Alkalmazási vagy ellenőrzési állapot
-          href: advanced-specializations-apply.md
-          displayName: mpn
-    - name: Azure-beli szakértői MSP-vé válás
-      href: azure-expert-msp.md
-    - name: Előnyök
-      items:
-        - name: Az előnyök áttekintése
-          href: manage-your-partner-network-benefits.md
-          displayName: mpn
         - name: Piaci bevezetési előnyök
           href: mpn-learn-about-go-to-market-benefits.md
           displayName: mpn
         - name: Bemutatók MPN-partnereknek
           href: mpn-demos.md
           displayName: mpn
-        - name: A szabályzat és a használat előnyei – GYIK
-          href: benefits-faq-new.md
-        - name: Az előnyökkel kapcsolatos gyakori kérdések
-          href: benefits-faq.md
-          displayName: 'renew, license,'
         - name: Az Azure és a felhő előnyei
           href: mpn-benefits-azure-cloud.md
           displayname: 'activate, azure license, mpn, renew'
@@ -118,11 +92,33 @@
           items:
             - name: Jogosultsági követelmények
               href: software-assurance-dps-requirements.md
-    - name: Számlák és adók
-      href: mpn-view-print-maps-invoice.md
-      displayName: 'invoice, mpn'
-    - name: Új szolgáltatások tesztelése
-      href: test-drive-new-features.md
+    - name: Kompetenciák
+      items:
+        - name: A kompetenciák ismertetése
+          href: learn-about-competencies.md
+          displayName: mpn
+        - name: Regisztráció tanulási partnerként
+          href: mpn-benefits-map-competency-learning-option-enroll.md
+          displayName: mpn
+        - name: Kompetenciák – GYIK
+          href: competencies-faq.md
+          displayName: 'renew, mpn'
+        - name: Kompetenciadíjak fizetése
+          href: mpn-pay-fee-silver-gold-competency.md
+          displayName: mpn
+        - name: Alkalmazásfejlesztési kompetencia kivétele
+          href: app-dev-isv.md
+        - name: A képességjelentés használata
+          href: mpn-skills-report.md
+    - name: Haladó specializációk
+      items:
+        - name: A szaktudás bemutatása
+          href: advanced-specializations.md
+        - name: Alkalmazási vagy ellenőrzési állapot
+          href: advanced-specializations-apply.md
+          displayName: mpn
+    - name: Azure-beli szakértői MSP-vé válás
+      href: azure-expert-msp.md
 - name: Felhőszolgáltató (CSP)
   href: csp-overview.md
   displayName: csp
@@ -141,7 +137,7 @@
       displayName: 'indirect, reseller, csp'
     - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
       href: agreements.md
-      displayName: 'regio, region, MPA'
+      displayName: 'region, MPA'
     - name: Korlátozott közvetlen számlahozzáférés
       href: restricted-direct-bill-capabilities.md
       displayName: 'indirect, reseller'
@@ -281,7 +277,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők elemzési adatainak lekérte
+    - name: Érdeklődők elemzésének lekért adatai
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -579,6 +575,8 @@
         - name: Azure-előfizetések átvitele
           href: switch-azure-subscriptions-to-a-different-partner.md
           displayName: csp
+        - name: Az ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
+          href: transfer-azure-subscriptions-under-azure-plan.md
     - name: Szoftver-előfizetések
       href: csp-software-subscriptions.md
       displayName: 'subscription, cancel'

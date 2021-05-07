@@ -1,22 +1,22 @@
 ---
-title: Telephelyek kezelése a partneri fiókban
+title: Helyek kezelése a partnerfiókban
 ms.topic: how-to
-ms.date: 04/05/2021
+ms.date: 05/01/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg, hogyan vehet fel új helyet, és hogyan használják a Location MPN ID-t az ösztönző programok, a CSP-üzleti, az előfizetések és az egyéb tranzakciók során.
+description: Megtudhatja, hogyan adhat hozzá új helyet, és hogyan használja fel a hely MPN-azonosítóját az ösztönzőprogramokban, a CSP-üzletben, az előfizetésben és más tranzakciókban.
 author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7ca8c866479fbe153c1e0192edd33e8258b9d6e7
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 8a2b4fa8b204b10d5d45c0e1409ab4bc463e272f
+ms.sourcegitcommit: 22e257d5b334ca8d3fc072f59010a508e1022694
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441327"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108702892"
 ---
-# <a name="manage-your-mpn-account-locations-and-add-delete-a-location"></a>Az MPN-fiók helyeinek kezelése és hely hozzáadása (törlése)
+# <a name="manage-your-mpn-account-locations-and-add-delete-a-location"></a>Az MPN-fiók helyének kezelése és hely hozzáadása (törlése)
 
 
 **Megfelelő szerepkörök**
@@ -24,103 +24,134 @@ ms.locfileid: "106441327"
 - Globális rendszergazda
 - Fiókadminisztrátor
 
-A hely MPN-azonosítója azonosítja a vállalat minden egyes helyét. Az MPN-azonosítót a következő helyen regisztrálhatja az ösztönző programokban: a Cloud Solution Provider (CSP) üzletág és más üzleti tranzakciók. A globális MPN-azonosító a nem tranzakciós tevékenységek, például a támogatási kérelmek esetében használatos.
+A hely MPN-azonosítója azonosítja a vállalat minden egyes helyét. A hely MPN-azonosítójával regisztrál az ösztönzőprogramokba, tranzakciókat Felhőszolgáltató (CSP) és egyéb üzleti tranzakciókat. A globális MPN-azonosítót nem tranzakciós tevékenységekhez, például támogatási kérelmekhez használjuk.
 
-## <a name="the-following-scenario-is-typical"></a>A következő forgatókönyv tipikus:
+## <a name="the-following-scenario-is-typical"></a>A következő forgatókönyv jellemző:
 
-A contoso az Egyesült királyságbeli partneri globális fiókkal (PGA) rendelkezik. A PGA a regisztrált jogi üzleti tevékenység, a globális MPN-azonosító pedig az összes nem tranzakciós üzlet kezelésére szolgál. A contoso az Egyesült Királyság, Franciaország és az Egyesült Államok területén is rendelkezik leányvállalatokkal vagy részlegekkel egyenértékű partneri hellyel (PLA). Az MPN-fiók struktúrájában ezek a PLAsok egyedi Location MPN-azonosítóként jelennek meg. A PLAs a tranzakciós vállalkozások, például a CSP-vagy ösztönző programok esetében használatos. A kifizetések adott helyszínekhez vannak kötve. 
+A Contoso globális partnerfiókkal (PGA) rendelkezik az Egyesült Királyságban. A PGA a regisztrált jogi vállalkozásuk, és globális MPN-azonosítóját az összes nem tranzakciós üzlet felügyeletére használják. A Contoso emellett partnerihely-fiókokkal (PLA) is rendelkezik, amelyek egyenértékűek az Egyesült Királyság, Franciaország és az Egyesült Államok más helyeiben található leányvállalatokkal vagy részlegekkel. Az MPN-fiók struktúrájában ezek a PLA-k egyedi hely MPN-azonosítókként vannak ábrázolva. A PLA-k tranzakciós üzleti tevékenységhez, például CSP- vagy ösztönzőprogramokhoz használhatók. A kifizetések adott helyekhez vannak kötve. 
 
 >[!NOTE]
->1-1 kapcsolat van a CSP-bérlő és az MPN-hely azonosítója között.
+>Egy CSP-bérlő és egy MPN-helyazonosító között 1–1 kapcsolat áll elő.
 
-:::image type="content" source="images/locations/locations1.png" alt-text="MPN-helyszínek szerkezete":::
+:::image type="content" source="images/locations/locations1.png" alt-text="Az MPN-helyek szerkezete":::
 
-## <a name="prerequisites-in-order-to-add-a-new-account-for-a-csp-business"></a>Előfeltételek új fiók hozzáadásához a CSP vállalat számára
+## <a name="prerequisites-in-order-to-add-a-new-account-for-a-csp-business"></a>Új fiók csp-vállalkozáshoz való hozzáadásának előfeltételei
 
-Új CSP üzleti fiók hozzáadásához először győződjön meg arról, hogy teljesítette az előfeltételeket.
+Új VÁLLALATI CSP-fiók hozzáadásához először is meg kell bizonyosodni arról, hogy teljesülnek az előfeltételek.
 
-1. Rendelkeznie kell egy Location MPN-AZONOSÍTÓval abban az országban, ahol a CSP vállalatot szeretné elvégezni. Új MPN-hely létrehozásához olvassa el az alábbi "MPN-hely hozzáadása" című szakaszt.
+1. A CSP-üzletnek abban az országban kell lennie, ahol az MPN-azonosítót el szeretné látni. Új MPN-hely létrehozásához olvassa el alább az "MPN-hely hozzáadása" adatokat.
   
-1. Új CSP közvetett viszonteladói regisztrációjának létrehozásához olvassa el a [közvetett szolgáltatók használata](indirect-reseller-tasks-in-partner-center.md#get-started) 
+1. Új regisztráció létrehozásához CSP Indirect Reseller: Közvetett [szolgáltatókkal való munka](indirect-reseller-tasks-in-partner-center.md#get-started) 
 
 >[!NOTE] 
- >Ne felejtse el bejelentkezni az **új** CSP-fiók **új** hitelesítő adataival. Ne használja a meglévő hitelesítő adatait, mert a partneri központ már rendelkezik fiókkal.
+ >Ne felejtsen el bejelentkezni az **új** CSP-fiók új hitelesítő adataival.  Ne használja a meglévő hitelesítő adatait, mert Partnerközpont a rendszer felismeri, hogy már rendelkezik fiókkal.
 
-2. Fogadja el a Microsoft partneri szerződést, és aktiválja a fiókot.
+2. Fogadja el Microsoft Partnerszerződés és aktiválja a fiókot.
 
-1. Ha közvetlen számlás partnerként szeretne regisztrálni, olvassa el [a közvetlen számlázási partnereinkre vonatkozó követelményeket](direct-partner-new-requirements.md)
+1. Ha közvetlen számlázási partnerként szeretne regisztrálni, olvassa el a [Következőt: A közvetlen számlázási partnerekre vonatkozó követelmények](direct-partner-new-requirements.md)
 
-## <a name="view-your-mpn-locations"></a>MPN-hely megtekintése
+## <a name="view-and-update-your-mpn-locations"></a>MPN-helyek megtekintése és frissítése
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home) az MPN-fiókja hitelesítő adataival. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól) 
+1. Jelentkezzen be az Partnerközpont [irányítópultra](https://partner.microsoft.com/dashboard/home) az MPN-fiókja hitelesítő adataival. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól) 
  
-1. A **Beállítások** ikonban válassza a **Fiókbeállítások**, **szervezeti profil**, **jogi** lehetőséget. 
+1. A Beállítások **ikonon** válassza a **Fiókbeállítások,** Szervezeti **profil,** **Jogi lehetőséget.** 
 
-1. A **partner** lapon ellenőrizze, hogy nincs-e szalagcím-hibaüzenet, amely arra kéri, hogy javítsa az áttelepített helyet a PMC-ból.  Ha a helyük nincsenek helyesen beállítva a PMC-ben, és még nem váltották át a SZÁMÍTÓGÉPekre, frissítenie kell ezeket a helyeket.
+1. A **Partner lapon** ellenőrizze, hogy nem jelenik-e meg szalagcímes hibaüzenet, amely a PMC-ről migrált helyek kijavításán kéri.  Ha a helyek nem megfelelően vannak beállítva a PMC-n, és még nem voltak pc-re állítva, frissítenie kell ezeket a helyeket.
 
-:::image type="content" source="images/locations/location-two.png" alt-text="A screencap bemutatja, hogyan lehet frissíteni a helyet.":::
+:::image type="content" source="images/locations/location-two.png" alt-text="A képernyőkép bemutatja, hogyan frissítheti a helyet.":::
  
-4.  A **PMC-helyszínek áttekintése** képernyőn válassza a **frissítés** lehetőséget.
+4.  A **PMC-helyek áttekintése képernyőn** válassza a Frissítés **lehetőséget.**
 Frissítse a következő mezőket:
 
-- **Név mező**: Ellenőrizze, hogy helyes-e a vállalati hely neve. Ha ismétlődő hiba jelenik meg, próbálkozzon a következővel:, például contoso – contoso, Inc.
+- **Név mező:** Győződjön meg arról, hogy a vállalat helyének neve helyes. Ha duplikált hiba jelenik meg, próbáljon meg átváltást például a Contoso-ről a Contoso, Inc. fiókra.
 
-- **Jogi személy mező**: Győződjön meg arról, hogy a helyhez kötött jogi személyt választotta
+- **Jogi személy mező:** Győződjön meg arról, hogy azt a jogi entitást választotta ki, amelyhez a hely kötődik
 
-- **1. címtartomány & 2 mező**: Ellenőrizze, hogy helyes-e a címe.
+- **Az 1. & 2. mező:** Győződjön meg arról, hogy a cím helyes
 
-- **Város & állam/megye mezők**: Ellenőrizze, hogy helyes-e a város és az állam/tartomány közötti kombináció. Vannak olyan országok, amelyekben az állam/megye kiválasztására szolgáló legördülő menü lesz érvényes, és más országokban is be kell szúrni a mezőt.
+- **City & State/Province (Állam/Tartomány)** mezőkben: Győződjön meg arról, hogy a város és az állam/tartomány közötti kombináció helyes. Vannak országok, ahol a State/Province (Állam/Tartomány) kiválasztására vonatkozó legördülő menüt kell alkalmazni, és más országokban a mezőt manuálisan kell beszúrni.
 
-- **Irányítószám mező**: Győződjön meg arról, hogy az irányítószám mező megfelel a jelzett országnak, régiónak, városnak vagy címnek.
+- **IRÁNYÍTÓSZÁM mező:** Győződjön meg arról, hogy az Irányítószám mező megfelel a megadott országnak, régiónak, városnak vagy címnek.
 
-- **Elsődleges kapcsolattartási adatok mezői**: Győződjön meg arról, hogy az utónév és a vezetéknév mező ki van töltve, és hogy a megadott e-mail cím egy munkahelyi e-mail cím, és nem személyes (például @outlook.com @live.com stb.).
+- **Elsődleges kapcsolattartási adatok mezői:** Győződjön meg arról, hogy az első és a vezetéknév mező ki van töltve, és hogy a megadott e-mail-cím munkahelyi e-mail-cím, nem pedig személyes cím (például @outlook.com , @live.com stb.)
 
-- **Telefonszám mező**: Ügyeljen arra, hogy a telefonszám ne tartalmazzon speciális karaktereket, szóközöket vagy országkódot. A telefonszám mezőben megadott érték mindig legfeljebb 10 karaktert tartalmazhat.
+- **Telefonszám mező:** Győződjön meg arról, hogy a Telefonszám NEM tartalmaz speciális karaktereket, szóközöket vagy országkódot. A Telefonszám mezőben megadott érték mindig legfeljebb 10 karaktert tartalmazhat.
 
-5. Ha nem jelenik meg hibaüzenet, a  **Beállítások** területen válassza a  **Fiókbeállítások**, **szervezeti profil**, **azonosítók** lehetőséget.
+5. Ha nem jelenik meg hibaüzenet, akkor a Beállítások lapon válassza a Fiókbeállítások, a Szervezeti **profil,** az **Azonosítók lehetőséget.**
 
-6. Keresse meg a "location" típusú MPN-azonosítót, amely megfelel a CSP-fiók országának, és használja a társítás befejezéséhez.
+6. Keresse meg a "Hely" típusú MPN-azonosítót, amely megfelel a CSP-fiók országának, és használja a társítás befejezéséhez.
 
-7. Ha nem találja a használni kívánt CSP-fióknak megfelelő Location MPN-azonosítót, új helyet adhat hozzá, amely létrehoz egy új MPN-azonosítót. Lásd: **MPN-hely hozzáadása** alább.
+7. Ha nem találja a használni kívánt CSP-fióknak megfelelő hely MPN-azonosítót, hozzáadhat egy új helyet, amely létrehoz egy új MPN-azonosítót. Lásd **alább az MPN-hely hozzáadását.**
 
 ## <a name="add-an-mpn-location"></a>MPN-hely hozzáadása
 
-1. Jelentkezzen be az MPN-fiókkal a partner Centerben. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól). Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell rendelkeznie. 
+1. Jelentkezzen be az MPN-fiókkal a Partnerközpont. (Az MPN hitelesítő adatai különbözhetnek a CSP hitelesítő adataitól) . Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultsággal kell lennie. 
 
-1. A **Beállítások ikonban** válassza ki a **Fiókbeállítások** elemet, majd válassza a **szervezeti profil** lehetőséget.
+1. A Beállítások **ikonra kattintva** válassza a **Fiókbeállítások,** majd a Szervezeti **profil lehetőséget.**
 
-2. Válassza a **jogi** lehetőséget, majd a **partner** lapon válassza az **üzleti helyek lehetőséget,** majd kattintson a **hely hozzáadása** lehetőségre.
+2. Válassza **a Jogi** lehetőséget, majd a Partner **lapon** válassza az Üzleti **helyek lehetőséget,** majd kattintson a Hely **hozzáadása elemre.**
 
-3. Adja meg a szükséges adatokat, beleértve az üzleti nevet, a lakcímet és a kapcsolattartót a vállalatához hozzáadni kívánt helyhez.
+3. Adja meg a szükséges adatokat, beleértve a vállalathoz hozzáadni kívánt hely nevét, címét és kapcsolattartóját.
  
-1. Kattintson a **hely hozzáadása** gombra. Ekkor létrejön egy új MPN-azonosító az új helyhez, amelyet a CSP-tranzakciókhoz és-ösztönzőkhöz használhat.
+1. Kattintson **a Hely hozzáadása elemre.** Ezzel létrehoz egy új MPN-azonosítót az új helyhez, amelyet a CSP-tranzakciókhoz és -ösztönzőkhez használhat.
 
-:::image type="content" source="images/legal-biz.png" alt-text="Új jogi üzleti tevékenység hozzáadása":::
+:::image type="content" source="images/legal-biz.png" alt-text="Új jogi vállalkozás hozzáadása":::
 
 > [!NOTE]
-> Miután hozzáadta a helyet a partner Centerben, nem távolíthatja el. Ha a megfelelő MPN-azonosítót használta a bejelentkezéshez, az **MPN** a partner Center bal oldali menüjében jelenik meg.
+> Miután hozzáadott egy helyet a Partnerközpont, nem távolíthatja el. Ha a megfelelő **MPN-azonosítót** használta a bejelentkezéshez Partnerközpont az MPN megjelenik a bal oldali menüben.
 
+## <a name="add-the-registration-number-id"></a>A regisztrációs szám azonosítójának hozzáadása
+
+Ha Ön közvetett szolgáltató, közvetlen számlázási partner vagy közvetett viszonteladó, és a következő országokban új vagy meglévő ügyfelekkel üzleti kapcsolatban áll, meg kell adnia a vállalat regisztrációs azonosítószámait. Ha az az ország, ahol a vállalkozása található, nem szerepel az alábbi listában, a regisztrációs azonosító megadása nem kötelező.
+
+- Örményország 
+- Azerbajdzsán 
+- Belarusz 
+- Brazília 
+- Magyarország 
+- India 
+- Irak 
+- Kazahsztán 
+- Kirgizisztán 
+- Moldova 
+- Mianmar 
+- Lengyelország 
+- Oroszország 
+- Szaúd-Arábia 
+- Dél-afrikai Köztársaság 
+- Dél-Szudán  
+- Tádzsikisztán 
+- Thaiföld
+- Törökország 
+- Ukrajna 
+- Egyesült Arab Emírségek 
+- Üzbegisztán 
+- Venezuela
+- Vietnam 
+
+
+További információkért olvassa el a [regisztrációs azonosító száminformációját.](reg-number-id.md)
 
 ## <a name="delete-a-location"></a>Hely törlése
 
-Ha törölni szeretne egy helyet a fiókjából, kapcsolatba kell lépnie a [partner támogatási szolgálatával](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=1af7f3a0-1757-3543-4b6a-c945c3ad187b). Győződjön meg arról, hogy tisztában van a művelet hatásával. A törölt helyeket nem lehet beolvasni, és az adott MPN-azonosítóhoz kapcsolódó minden adat már nem ismerhető fel, vagy nem lesz aktív a vállalatnál.
+Egy hely fiókból való törléséhez fel kell vennie a kapcsolatot a [partnertámogatással.](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=1af7f3a0-1757-3543-4b6a-c945c3ad187b) Győződjön meg arról, hogy megértette ennek a műveletnek a hatását. Törölt helyek nem olvashatók be, és az adott MPN-azonosítóhoz kötődő adatokat a rendszer nem ismeri fel és nem aktív a vállalatnál.
 
-## <a name="change-country-of-partner-global-account"></a>Partner globális fiók országának módosítása 
+## <a name="change-country-of-partner-global-account"></a>Partner globális fiókjának országának módosítása 
 
-1. Jelentkezzen be az MPN-fiókkal a partner Centerben. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól). Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell rendelkeznie. 
+1. Jelentkezzen be az MPN-fiókkal a Partnerközpont. (Az MPN hitelesítő adatai eltérőek lehetnek a CSP hitelesítő adataitól) . Az MPN-fióknak globális rendszergazdai vagy fiók-rendszergazdai jogosultságokkal kell lennie. 
 
-2. A **partner** lapon lépjen az **üzleti helyek** elemre, és ellenőrizze a helyek listáját, és győződjön meg arról, hogy az Ön által használt hely szerepel a jogi személy listáján. 
+2. A **Partner lapon** válassza az Üzleti **helyek** lapot, és ellenőrizze a helyek listáját, és ellenőrizze, hogy a jogi személyként kívánt hely szerepel-e a listán. 
  
-1. Hely hozzáadásához kattintson a **hely hozzáadása** lehetőségre, és a kilépéskor adja meg a szükséges adatokat, beleértve az üzleti nevét, a lakcímét és az elsődleges kapcsolattartót a vállalatához hozzáadni kívánt helyhez. 
+1. Hely hozzáadásához kattintson **az Add a location**(Hely hozzáadása) elemre, majd a úszó menüben adja meg a szükséges adatokat, beleértve a vállalathoz hozzáadni kívánt hely üzleti nevét, címét és elsődleges kapcsolattartóját. 
  
-1. Válassza az ország **/régió** legördülő lista melletti **ország módosítása** lehetőséget, és kövesse a lépéseket. 
+1. Válassza **az Ország/régió** legördülő lista Melletti Ország **módosítása** lehetőséget, és kövesse a lépéseket. 
 
-:::image type="content" source="images/lbp.png" alt-text="Jogi üzleti profilra vonatkozó adatvesztés":::
+:::image type="content" source="images/lbp.png" alt-text="Jogi üzleti profil adatainak úszó panele":::
 
 5. Kattintson a **Mentés** gombra.
 
-6. Az MPN globális fiók országa az új jogi országra lesz módosítva.
+6. Az MPN globális fiók országa az új jogi országra változik.
   
 ## <a name="next-steps"></a>Következő lépések
 
-- További információ az [ellenőrzési folyamatról](verification-responses.md).
+- Ismerje meg az [ellenőrzési folyamatot.](verification-responses.md)

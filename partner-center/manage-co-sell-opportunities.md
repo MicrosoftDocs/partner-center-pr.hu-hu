@@ -4,19 +4,19 @@ ms.topic: article
 ms.date: 12/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Minősített Microsoft-partnerként a Microsofttal közösen értékesítheti. Ismerje meg, hogyan határozhat meg ajánlatokat, meghívhatja a Microsoftot az együttműködésre, vagy megtekintheti az elérkezett ajánlatokat.
+description: Minősített Microsoft-partnerként együtt értékesíthet a Microsofttal. Megtudhatja, hogyan definiálhat ügyleteket, hogyan hívhatja meg a Microsoftot az együttműködésre, vagy hogyan lehet megtekinteni az elküldött ügyleteket.
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7ab3d1ab3f29e01303a9a039b9e9b21b9cfad07f
-ms.sourcegitcommit: 2c8d1bca0737a3d73f2888dfeaf099176bf9e9ae
+ms.openlocfilehash: 4e0f8834523770e5780395e685ca4ef45f5d2535
+ms.sourcegitcommit: 22e257d5b334ca8d3fc072f59010a508e1022694
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99480068"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108702926"
 ---
-# <a name="manage-co-sell-opportunities-in-partner-center"></a>Közös értékesítési lehetőségek kezelése a partner Centerben
+# <a name="manage-co-sell-opportunities-in-partner-center"></a>Közös értékesítés lehetőségeinek kezelése a Partnerközpont
 
 
 **Megfelelő szerepkörök**
@@ -24,232 +24,234 @@ ms.locfileid: "99480068"
 - MPN-partner rendszergazdája
 - Ajánlói rendszergazda
 
-Használja ki a közös értékesítés lehetőségeit.  A közös értékesítés lehetősége több fél együttműködése az ügyfél által igényelt termékek értékesítéséhez. Ebből a cikkből megtudhatja, hogyan használhatja a partner Center közös értékesítésének hatékonyságát, hogy hatékonyan közösen értékesítsen és szerezzen új ügyfeleket.
+Használja ki az együttműködési lehetőségeket.  Az együttműködési lehetőség több fél együttműködése az ügyfél által igényeknek megfelelő termékek értékesítésével. Ez a cikk segít megérteni, hogyan használhatja az együtt értékesítésben Partnerközpont együtt értékesíthet és szerezhet új ügyfeleket.
 
-## <a name="types-of-co-sell-opportunities"></a>A közös értékesítési lehetőségek típusai
+## <a name="types-of-co-sell-opportunities"></a>Az együttműködési lehetőségek típusai
 
-**Közös értékesítés lehetősége** – ez az a hely, ahol egy vagy több Microsoft értékesítési képviselő aktívan részt vesz az ügyfél problémáinak megoldásában. A lehetőségek származhatnak egy olyan felhasználói fiókból, amelyben a Microsoft értékesítési képviselői megkérik a partnert, hogy részt vegyen egy közös értékesítési tevékenységben vagy egy olyan partneren, ahol a Microsoft értékesítési részlegének további segítségre van szüksége a üzlet bezárásához.
+**Közös értékesítési lehetőség** – Itt vesz részt egy vagy több Microsoft értékesítési képviselő az üzletben az ügyfél problémájának megoldása érdekében. A lehetőségek származhetnek olyan ügyfélfiókból, ahol a Microsoft értékesítési munkatársa meghívja a partnert, hogy vegyen részt egy közös értékesítési tevékenységben, vagy egy olyan partnertől, ahol több segítségre van szükségük a Microsoft értékesítéseitől az üzlet lezárása érdekében.
 
-Partner-partner **(P2P)** – ez az a hely, ahol az egyik partner más partnereket is meghívhat a Microsoft közös értékesítésű ökoszisztémájában az együttműködésre. A partnerek opcionálisan meghívhatnak egy Microsoft értékesítési képviselőt az üzletbe az üzlet lezárásához. A partnereket és a Microsoftot is meghívhatja, ha az üzlet létrehozása után is meghívja őket. (Vegye figyelembe, hogy a Befejezés magában foglalja a megnyert, elveszett, elutasított és lejárt).
+**Partner és partner (P2P)** – Itt hívhatja meg az egyik partner a Microsoft közös értékesítés ökoszisztémájában más partnereket együttműködésre. A partnerek igény szerint meghívhat egy Microsoft értékesítési képviselőt az ajánlatba, hogy segítsenek az üzlet lezárásában. A partnerek és a Microsoft is meghívható még az ajánlat létrehozása után is, ha az még a folyamat befejezése előtt van. (Vegye figyelembe, hogy a teljes magában foglalja az megnyert, elveszett, elutasított és lejárt eket is).
 
-**Privát üzlet** – ez az, amikor egy partner úgy dönt, hogy egymástól függetlenül dolgozik a partner Centerben létrehozott üzleten. A partnerek megtekinthetik a Microsoft értékesítési csapatát, vagy meghívhatják a Microsoft értékesítőket, hogy az üzlet létrehozása után aktívan segítséget kérjenek. Az üzlet részleteit a Microsoft Sales csapat nem osztja meg addig, amíg az idő partnerei explicit módon nem jelölik ki az Igen lehetőséget a következő kérdésre: "szeretné, hogy a Microsoft-értékesítők megtekintsék ezt az üzletet?" vagy kérje a Microsoft Sales Team súgóját, ha kiválasztja az egyik lehetőséget a "a Microsoft által igényelt segítség kiválasztására?" kérdésre.
+**Privát üzlet** – Ez az az helyzet, amikor egy partner úgy dönt, hogy függetlenül dolgozik egy, a Partnerközpont. A partnerek betekintést adhatnak a Microsoft értékesítési csapatának, vagy meghívhatja a Microsoft értékesítőit, akik aktív segítséget keresnek az ajánlat létrehozása után. Az ajánlat részletei nincsenek megosztva a Microsoft értékesítési csapatával, amíg az időpartnerek explicit módon nem választják az igen lehetőséget a "Szeretné, ha a Microsoft értékesítői megtekintenék ezt az ajánlatot?" kérdésre. vagy kérjen segítséget a Microsoft értékesítési csapattól a "A Microsofttól kért segítség típusának azonosítása" kérdés egyik lehetőségének kiválasztásával.
 
-**Partner által vezetett Deal** – ezek azok a csoportok, amelyekben egy partner egymástól függetlenül dolgozik, de rendben van azzal, hogy a Microsoft értékesítési csapat tagjainak megtekinthetik az ajánlat részleteit. A partnerek a Deal létrehozása után meghívhatják a Microsoft-értékesítőket. Ezek az ügyletek jogosultak az ügyleti regisztrációra, ha egy ösztönző jogosult megoldás az üzlet részét képezi. Ha az ösztönző jogosult megoldás feltételei teljesülnek, a Microsoft-értékesítő meghívása nem szükséges az üzlet regisztrálásához. A partner által vezetett üzletet úgy teheti meg, hogy Igennel válaszol a következő kérdésre: "szeretné, ha a Microsoft-értékesítők megtekinthetik ezt az üzletet?"
+**Partner által vezetett ügylet** – Ezek olyan ügyletek, amelyekben a partner úgy dönt, hogy függetlenül dolgozik az ügyleten, de nem gond, ha az ügylet részleteit a Microsoft értékesítési csapatának tagjai számára is láthatóvá tetsszen. A partnerek az ajánlat létrehozása után microsoftos értékesítőket hívnak meg. Ezek az ajánlatok akkor regisztrálhatóak az ügyletre, ha egy ösztönzőre jogosult megoldás az ügylet része. Az ajánlatregisztrációhoz nem szükséges Microsoft-értékesítő meghívása, ha az ösztönzőnek megfelelő megoldási feltételek teljesülnek. Az üzletpartner által vezetett üzletet úgy kötheti meg, hogy igen választ ad arra a kérdésre, hogy "Szeretné, ha a Microsoft-értékesítők megtekintenék ezt az ajánlatot?"
 
-**Megoldás-értékelés (SA)** – ezek a típusú ajánlatok csak olyan partnerekből hozhatók létre, akik a megoldás-értékelésekkel foglalkozó üzleti csapat által a Microsoft-technológiák használatának vagy tervezésének megtervezését szolgáló technológiai értékelések elvégzéséhez szükségesek.
+**Megoldásértékelés (SA)** – Az ilyen típusú ügyleteket csak olyan partnerek kötik össze, akik a megoldásértékelések üzleti csapata által ellenőrizve végeznek technológiai értékeléseket a Microsoft-technológiákat használó vagy azt tervező ügyfelek számára.
 
 > [!NOTE]
-> Azok a privát ajánlatok, amelyek nem igazán együttműködőek, a közös értékesítés lehetőségei lapon olyan egyszerű elérési utat biztosítanak, amellyel bármely folyamat a nem terminálos fázisban (**megnyert, elveszett, visszautasított és lejárt**) egy közös értékesítési lehetőséggel is bővíthető.
+> A privát ügyleteket annak ellenére, hogy nem igazán együttműködésre kínálják, az Együttműködési lehetőségek lapon egyszerű lehetőséget biztosítanak a folyamatajánlatok közös értékesítési lehetőségre való frissítésére bármely nem terminálszakaszban (megnyert, elveszett, elutasított és **lejárt).**
 
-## <a name="navigating-the-co-sell-section"></a>Navigálás a közös értékesítés szakaszban
+## <a name="navigating-the-co-sell-section"></a>Navigálás az Együtt értékesítés szakaszban
 
-A közös értékesítés szakasz eléréséhez kövesse az alábbi lépéseket:
+Az Együtt értékesítés szakasz eléréséhez kövesse az alábbi lépéseket:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A bal oldali navigációs menüben válassza a **hivatkozások** elemet, majd a **közös értékesítés lehetőségeit**.
+2. A bal oldali navigációs menüben válassza a **Hivatkozások** lehetőséget, majd az **Együttműködési lehetőségek lehetőséget.**
 
-   Ebben a szakaszban három, legfelső szintű lap jelenik meg:
+   Ebben a szakaszban három felső szintű lap látható:
 
-   - **Bejövő** – az összes olyan lehetőség, amelyet a Microsoft-értékesítők partnernek továbbítanak az együttműködésen alapuló értékesítéshez, ezen a lapon érhetők el.
+   - **Bejövő –** Ezen a lapon minden olyan lehetőség elérhető, amely a Microsoft értékesítőitől a partnernek az együttműködésen alapuló értékesítéshez lett elküldve.
 
-   - **Kimenő** – a partner által létrehozott összes lehetőség ezen a lapon érhető el. A partnerek három különböző kategóriát hozhatnak létre: a közös értékesítést, a magánjellegű és a partnert.
+   - **Kimenő –** Ezen a lapon a partner által létrehozott összes lehetőség elérhető. A partnerek három különböző kategóriába sorolható lehetőségeket hozhatnak létre: közös értékesítést, magánjellegűt és partneri partneri lehetőséget.
 
-   - **Kedvencek** – a bejövő vagy kimenő közös értékesítési lehetőségek lapjain kedvencekként megjelölt lehetőségek jelennek meg ezen a lapon. Bármely lehetőséget megnyithat kedvencként, ha a lehetőségre kattint a szív ikonra a lista nézetben. A Kedvencek közül úgy is eltávolíthatja a lehetőséget, hogy csak ugyanarra az ikonra kattint.
+   - **Kedvencek** – Ezen a lapon jelennek meg a Kedvencek vagy a Kimenő értékesítés lehetőségek lapon kedvencekként megjelölt lehetőségek. A listanézetben a lehetőség szív ikonjára kattintva jelölheti meg kedvencként a lehetőségeket. A lehetőséget úgy távolíthatja el a kedvencek közül, hogy ismét rákattint ugyanazon ikonra.
 
-## <a name="creating-a-co-sell-opportunity"></a>Közös értékesítési lehetőség létrehozása
+## <a name="creating-a-co-sell-opportunity"></a>Közös értékesítés lehetőségének létrehozása
 
 > [!IMPORTANT]
-> A Microsofttal való együttes értékesítéshez a partnereknek egy kereskedelmi forgalomba hozatalra kész megoldásra, elkötelezett értékesítési csapatra és erős piaci bevezetési stratégiára van szükségük. Emellett bizonyos további feltételeknek is meg kell felelniük. További információ: [Come sell Ready (közös értékesítésre kész](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)).
+> A Microsofttal való együttes értékesítéshez a partnereknek egy kereskedelmi forgalomba hozatalra kész megoldásra, elkötelezett értékesítési csapatra és erős piaci bevezetési stratégiára van szükségük. Emellett bizonyos további feltételeknek is meg kell felelniük. További információ: Készen áll [az együtt értékesítésre.](https://partner.microsoft.com/reach-customers/selling-with-microsoft#become-ready)
 
-Három típusú lehetőséget hozhat létre.
+Háromféle lehetőséget hozhat létre.
 
 ### <a name="select-your-customer"></a>Válassza ki az ügyfelet
 
-Válassza ki az ügyfelet egy adott üzlethez. Adja meg a helyét, és kezdje el beírni a nevet. A javaslat mező a keresési feltételek alapján kezdi meg a javaslatok megjelenítését. Mivel számos vállalatnak több üzleti entitása van ugyanazon a helyen, több találat is megjelenhet. Ha nem biztos benne, hogy melyiket szeretné kiválasztani, megerősítheti, hogy melyik D-U-N-S szám tartozik az ügyfélhez. Ügyeljen arra, hogy pontosan megegyezzen az ügyfél, akivel dolgozik.
+Válassza ki az ügyfelet egy adott ajánlathoz. Adja meg a helyet, és kezdje el beírni a nevet. A javaslati mezőben javaslatokat fog mutatni a keresési feltételek alapján. Mivel számos vállalat több üzleti entitással is rendelkezik ugyanazon a helyen, több eredmény is előfordulhat. Ha nem tudja, melyiket válassza, megerősítheti, hogy melyik D-U-N-S szám tartozik az ügyfélhez. Pontosan ugyanazt az egyezést válassza ki, mint azzal az ügyféllel, akivel dolgozik.
 
-Miután rákattintott **az ügyfél kiválasztása** lehetőségre, a rendszer felszólítja, hogy adja meg annak a személynek a nevét, telefonszámát és e-mail-címét, aki az adott üzlethez tartozó fő kapcsolattartási pontja. Ezek az adatok nem kötelezőek, és csak abban az esetben szükségesek, ha a Microsoft Sales meghívását tervezi, hogy segítséget nyújtson a részvételhez. Kattintson a **Tovább** gombra.
+Miután a **Select the customer**(Ügyfél kiválasztása) gombra kattint, a rendszer kérni fogja az ajánlathoz elsődlegesen érintett személy nevét, telefonszámát és e-mail-címét. Ezek az adatok nem kötelezőek, és csak akkor szükségesek, ha microsoftos értékesítéseket tervez meghívni a részvételhez. Kattintson a **Tovább** gombra.
 
 > [!IMPORTANT]
-> Győződjön meg arról, hogy megszerezte az ügyfél beleegyezett a kapcsolattartási adatok megadására a Microsoftnak az üzlethez. A Microsoft ezekkel az információkkal közvetlenül kapcsolatba léphet az ügyféllel.
+> Győződjön meg arról, hogy beszerezta az ügyfél beleegyezését, hogy az üzlethez a Microsoftnak adja meg kapcsolattartási adatait. A Microsoft ezeket az adatokat felhasználhatja az ügyfél közvetlen kapcsolatfelvételre.
 
-### <a name="deal-details"></a>A Deal részletei
+### <a name="deal-details"></a>Az üzlet részletei
 
-Adja meg az aktuális üzlet részleteit. Az alább megadott mezők változhatnak, mivel aktívan dolgozik az ügyféllel az üzlet bezárásához.
+Adja meg az aktuális ajánlat részleteit. Az alább definiált mezők változhatnak, mivel ön aktívan dolgozik az ügyféllel az üzlet lezárásán.
 
 | **Mezőnév** | **Kötelező/nem kötelező** | **Részletek** |
 |-------------|--------|-------|
-|**Osztás neve** | Kötelező | A rövid név, amely az üzletet egy későbbi időpontban azonosítja. |
-|**Hely**| Kötelező | Az átirányítás MPN-helyének hatóköre A hatókörrel rendelkező felhasználók megtekinthetik az átirányításokat, ha azok a csapat részei. A globális hatókörrel rendelkező hivatkozó rendszergazdák és hivatkozó rendszergazdák a helytől függetlenül is megtekinthetik az átirányítást. Az átirányítás létrehozása után a hely nem szerkeszthető.|
-|**Becsült érték** | Kötelező | Az ügylet értéke az üzlet létrehozásakor rendelkezésre álló információk alapján.|
-|**Becsült záró dátum**| Kötelező| Az a dátum, ameddig az ügyféllel való üzletet várhatóan le szeretné állítani. |
-|**CRM-AZONOSÍTÓ**| Választható | Az ügyletet a megfelelő CRM-ben a követési célból a lehetőség AZONOSÍTÓjának használatával címkézheti.|
-|**Marketingkampány azonosítója**| Választható | Rögzítse az üzletet eredményező marketingkampány-kampányt. Ez az ajánlat segít nyomon követni egy adott kampány MEGTÉRÜLÉSét, ha a kampányból származó összes ügyletet ugyanazzal az AZONOSÍTÓval címkézi.|
-|**Megjegyzések**| Választható | Frissítse az összes legfrissebb információt, hogy megismerje a vállalat más alkalmazottai számára, akik ugyanazon az üzleten dolgoznak, vagy az üzlet aktuális állapotát szeretnék megérteni. Ezt a rekordot a Microsoft-értékesítők/más partnerek és a vállalata közötti megbeszélésekhez is használhatja.|
+|**Üzlet neve** | Kötelező | A rövid név, amely később azonosítja az ajánlatot. |
+|**Hely**| Kötelező | A javaslat MPN-helyhatóköre. Az ezzel a helyhatókörrel felhozott felhasználók megtekinthetik a hivatkozásokat, ha a csapat tagjai. A javaslati rendszergazdák és a globális hatókörű javaslati rendszergazdák helytől függetlenül megtekinthetik a hivatkozásokat. A hivatkozás létrehozása után a hely nem szerkeszthető.|
+|**Becsült érték** | Kötelező | Az üzlet értéke az üzlet létrehozása során rendelkezésre álló információk alapján.|
+|**Becsült bezárás dátuma**| Kötelező| Az a dátum, amely szerint várhatóan lezárja az ajánlatot az ügyféllel. |
+|**CRM-azonosító**| Választható | Nyomkövetési célból címkézd fel az ajánlatot a megfelelő CRM-ben a lehetőség azonosítójával.|
+|**Marketingkampány azonosítója**| Választható | Rögzítse az ajánlatot eredményező marketingkampányt. Ez a bejelentés segíthet nyomon követni egy adott kampány megtérülési rátát, ha a kampányból származó összes ügyletet ugyanazokkal az azonosítóval címkézi fel.|
+|**Megjegyzések**| Választható | Frissítse az összes legfrissebb információt, hogy láthatóvá tese a vállalat más alkalmazottait, akik ugyanazon az ajánlaton dolgoznak, vagy meg próbálják megérteni az üzlet aktuális állapotát. Ezt a microsoftos értékesítők/más partnerek és a vállalat közötti megbeszélésekhez használt nyilvántartási kommunikációként is használhatja.|
 
 ### <a name="add-team-members"></a>Csapattagok felvétele
 
-Az ügylet részleteinek hozzáadása után adja hozzá az adott üzleten dolgozó alkalmazottakat. Meg kell adnia az alkalmazott nevét, telefonszámát és e-mail-címét. Ezek az adatok kötelezőek, és rendelkeznie kell legalább egy kapcsolattal, amely az Ön által megadott adatokkal rendelkezik. Ezek az adatok egy üzlet létrehozása után is megváltoztathatók. Az előző ajánlatok legutóbbi kapcsolatai a jobb oldalon jelennek meg, hogy gyorsan hozzá lehessen adni őket az üzlethez. A P2P-ajánlatok esetében a csapat a vállalata és a meghívót küldő vállalat alkalmazottaival is rendelkezhet.
+Az üzlet részleteinek hozzáadása után adja hozzá az adott ajánlaton dolgozó alkalmazottakat. Meg kell adnia az alkalmazott nevét, telefonszámát és e-mail-címét. Ezek az adatok kötelezőek, és az üzlet létrehozásához meg kell adni legalább egy kapcsolattartót, amely tartalmazza az összes adatot. Ezek az adatok az üzlet létrehozása után is módosíthatók. A jobb oldalon a korábbi ügyletek legutóbbi kapcsolattartói jelennek meg, hogy gyorsan hozzáadja őket az ügylethez. A P2P-ügyletekhez a csapat a vállalat és a meghívót küldő vállalat alkalmazottait is bevetheti.
 
-### <a name="add-solutions"></a>Megoldás (ok) hozzáadása
+### <a name="add-solutions"></a>Megoldás(ok) hozzáadása
 
-Ebben a szakaszban meg kell adnia az ügylet részét képező megoldásokkal kapcsolatos információkat. Ez egy kötelező szakasz, amelyben legalább egy megoldást hozzá kell adnia egy üzlet létrehozásához. A megoldás részletei a Deal létrehozása után módosíthatók. Több típusú megoldás is hozzáadható egy üzlethez, amelyek leírása alább látható
+Ebben a szakaszban meg kell adnia azokkal a megoldásokkal kapcsolatos információkat, amelyek az ajánlat részét fogják venni. Ez egy kötelező szakasz, amelyben hozzá kell adni legalább egy megoldást az üzlet létrehozásához. A megoldás részletei az ajánlat létrehozása után módosíthatók. Egy ajánlathoz többféle típusú megoldás is hozzáadható, amelyeket az alábbiakban ismertetünk
 
-- **Cégem megoldásai:** Ezek a vállalat által közzétett, kész megoldásokkal együtt értékesítik
-- **Microsoft:** Ezek a Microsoft által birtokolt megoldások
-- **Egyéb harmadik féltől származó megoldások:** Ezek közös értékesítésre kész megoldások, amelyeket más partnerek tesznek közzé a Microsoft közös értékesítési ökoszisztémájában
-- **Megoldás-értékelések:** Ezek az értékelési típusok, amelyeket az ügyfél igénye alapján választhat a jogosult partner
-
-> [!Important]
-> Megoldás-értékelési ügylethez csak egy értékelési típus választható ki, és más megoldások nem vehetők fel. Miután kiválasztotta a megoldás értékelését, a partnernek ki kell választania az értékelés létrehozásának helyét. Ez a megfelelő ösztönző kifizetésekhez szükséges.
-
-Miután megadta a megoldás adatait, kattintson a Tovább gombra, és lépjen arra a szakaszra, ahol eldöntheti az értékesítés típusát. Négy lehetőség közül választhat, ha a megoldás típusának első három beállításában megoldásokat választ, nem pedig a megoldás értékelését:
-
-**Privát üzlet**: Ha nem hívja meg a Microsoftot, és nem hoz létre egy szerepvállalást ebben a lépésben, akkor a személyes folyamat típusú lesz. A Microsoft-értékesítők nem tekinthetik meg az üzlet részleteit. Létrehozhat egy privát üzletet, ha nem szeretné, hogy az adott **időpontban ne legyen szükség erre** a kérdésre **"a Microsoft számára szükséges Súgó azonosítására?"** és **nem** az a kérdés, **hogy a Microsoft-értékesítők megtekinthetik ezt az üzletet?** A privát üzletet bármikor frissítheti egy partner által vezetett vagy aktív közös értékesítésre, mielőtt az üzlet eléri a terminál állapotát (megnyert, elveszett).
+- **A cégem megoldásai:** Ezek a vállalat által közzétett, közös értékesítésre kész megoldások
+- **Microsoft:** Ezek a Microsoft tulajdonában lévő megoldások
+- **Egyéb külső megoldások:** Ezek az értékesítésre kész megoldások, amelyek más partnerek által a Microsoft közös értékesítés ökoszisztémájában vannak közzétéve
+- **Megoldásértékelések:** Ezek azok az értékelési típusok, amelyeket a jogosult partnerek az ügyfél igényei alapján választhatnak ki
 
 > [!Important]
-> A Deal regisztráció nem alkalmazható a privát ajánlatokra. Körültekintően járjon el, amikor egy privát ügyletet ösztönző jogosult megoldásokkal hoz létre, mivel azok nem jogosultak a partner Centerben való regisztrációra.
+> Egy megoldásértékelési ajánlathoz csak egy értékelési típus választható ki, és nem lehet más megoldást hozzáadni. A megoldásértékelés kiválasztása után a partnernek ki kell választania azt a helyet, ahol az értékelés létrejön. Erre a megfelelő ösztönző kifizetésekhez van szükség.
 
-**Partner által vezetett Deal**: Ha nem szeretne aktívan segítséget nyújtani a Microsoft értékesítési csapatának, de szeretné megtekinteni őket a folyamatában, létrehozhat egy partner által vezetett üzletet. Partner által vezetett üzletet úgy hozhat létre, ha nem szeretné, hogy az adott **időpontban ne legyen szükség erre** a kérdésre **"a Microsoft számára szükséges Súgó azonosítása"** . és **Igen** , az a kérdés, **hogy a Microsoft-értékesítők megtekinthetik ezt az üzletet? "**. Ezek az ajánlatok akkor is jogosultak a regisztrálásra, ha a Microsoft értékesítő nem vesz aktívan részt a partner segítségében. A Deal regisztrációra vonatkozó követelmények a Deal ügylettel és a megnyert állapotával kapcsolatos ösztönző megoldásra jogosultak.
+Miután megadotta a megoldás adatait, válassza a Tovább lehetőséget, hogy továbblépjön arra a szakaszra, ahol eldöntheti az értékesítési típust. Négy lehetőség közül választhat, ha a megoldástípus első három lehetőségében választ megoldásokat, és nem megoldásértékelést:
 
-**Közös értékesítések kezelése:** Ha a "nem a **Microsofttól származó Súgó azonosítására** szolgáló" kérdésnél az alapértelmezett beállítástól eltérő lehetőséget választ, akkor az üzlet olyan közös értékesítésű ügyletbe kerül, ahol a Microsoft értékesítők segíthetnek az üzlet lezárásában. A Microsoft segítségére vonatkozó kérése nem garantálja, hogy a Microsoft értékesítő részt vesz az üzletben. A Microsoft értékesítési képviselői 14 nap múlva dönthetnek arról, hogy részt kívánnak-e venni. A Megjegyzések szakaszban győződjön meg arról, hogy milyen típusú segítségre van szüksége.
+**Privát üzlet:** Ha ebben a lépésben nem hívja meg a Microsoftot, és nem hoz létre kötelezettségvállalást, az privát folyamat típusú lesz. A Microsoft értékesítői nem fogják látni az ajánlat részleteit. Létrehozhat egy privát ajánlatot,  ha a Nincs szükség segítségre ebben az időpontban gombra a "A Microsoft által kért segítség fajtának **azonosítása?" kérdésre.** és **Nem a** "Szeretné, ha a Microsoft értékesítői megtekintenék ezt az **ajánlatot?" kérdésre.** A privát üzleteket mindig frissítheti partner által vezetett vagy aktív közös értékesítésre, mielőtt az üzlet végállapotba ér (megnyert, elveszett).
 
-Partneri partner **(P2P) Deal**: a partner meghívása hivatkozásra kattintva meghívhat más partnereket is az üzletbe. Az alábbiakban egy P2P-ügylet létrehozási folyamata látható.
+> [!Important]
+> Az ügyletregisztráció privát ügyletek esetén nem alkalmazható. Körültekintően járjon el az ösztönzőre jogosult megoldásokkal kötött privát üzlet létrehozása során, mivel azok nem jogosultak az üzletregisztrációra a Partnerközpont.
 
-- **Válasszon partnert:** Miután rákattintott a partner meghívására, megkezdheti a partner nevének beírását, hogy lekérje a beírt névvel egyező partnerek javasolt listáját. Válassza ki azt a partnert, amelyre kíváncsi, és adja meg az adott partner további részleteit. Csak olyan partnereket kereshet, akik a Microsoft közös értékesítésű ökoszisztémájában vannak, és a partner Centerben végeznek tranzakciókat.
+**Partner által vezetett ajánlat:** Ha nem szeretne aktív segítséget kérni a Microsoft értékesítési csapattól, de szeretné láthatóvá hozni a folyamatot, létrehozhat egy partner által vezetett ajánlatot. A Partner által vezetett üzlet létrehozásához válassza a **Nincs** szükség segítségre ebben az időpontban kérdést: **"Azonosítsa a Microsofttól kért segítséget?" kérdést.** és **Igen** a "Szeretné, ha a Microsoft értékesítői megtekintenék **ezt az ajánlatot?" kérdésre.** Ezek az ajánlatok akkor is jogosultak az ügyletregisztrációra, ha a Microsoft értékesítője nem vesz részt aktívan a partner támogatásában. Az ajánlatregisztráció követelményei között van egy ösztönzőre jogosult megoldás az ajánlatban, és az ajánlat állapota megnyert.
 
-- **Becsült záró dátum:** Ez az a dátum, ameddig a meghívott partnernek el kell végeznie az üzlet részét. A dátum előre ki van töltve, hogy csak szükség esetén módosítsa a dátumot. Ez egy kötelező mező, amely az üzlet létrehozása után meghívható partner által módosítható. Ez a mező a Deal létrehozása után nem módosítható.
+**Közös értékesítés:** Ha az "Azonosítsa a Microsofttól használni kívánt segítség **típusát"** kérdésre az alapértelmezett beállítástól különböző lehetőségeket választ, az ajánlat olyan közös értékesítést fog kötni, amelyben egy Microsoft-értékesítő segíthet az üzlet lezárásában. A Microsofttól származó segítségkérés nem garantálja, hogy egy Microsoft-értékesítő részt vesz az ajánlatban. A Microsoft értékesítési képviselőinek 14 napja van eldönteni, hogy részt vesznek-e a programban. A megjegyzések szakaszban mindenképpen azonosítsa a kívánt súgótípust.
 
-- **Becsült érték és pénznem:** Ez annak az ügyletnek az értéke, amelyet a meghívott partner a teljes üzletben fog tartalmazni. Győződjön meg arról, hogy itt helyes értéket ad meg, hogy a meghívott partner el tudja dönteni, hogy az üzlet részét képezi-e, vagy sem. A meghívott partner módosíthatja ezt az értéket az üzlet létrehozása után. Ez a mező a Deal létrehozása után nem módosítható.
+**Partner–partner (P2P) ajánlat:** A Partner meghívása hivatkozásra kattintva meghívhat más partnereket az ajánlatba. Az alábbiakban a P2P-ajánlat létrehozásának folyamata látható.
 
-- **Megjegyzések:** Adja meg a részleteket, hogy miért hívja meg a partnert az üzlet egy részébe. A részletes információk segítenek a meghívott partnernek eldönteni, hogy szeretne-e részt venni.
+- **Válasszon ki egy partnert:** Miután a Partner meghívása gombra kattint, elkezdheti beírni a partner nevét, és megjelenik a begépelt névnek megfelelő partnerek javasolt listája. Válassza ki azt a partnert, aki érdekli, és adja meg a partner további adatait. Csak olyan partnereket kereshet, akik a Microsoft közös értékesítés ökoszisztémájában vannak, és a microsoftos üzleti Partnerközpont.
 
-- **Adja hozzá a csapatot:** Adja hozzá a vállalat alkalmazottai közül, akik a meghívott partnerrel fognak dolgozni. Ha a meghívott Partner elfogadja az ügyletet, felveheti saját alkalmazottaikat, hogy mindkét vállalat a teljes csapattal közösen tekintse meg az üzletet. Ezeket az adatokat csak az üzlet létrehozása előtt módosíthatja. Az üzlet adataiban megadott alkalmazottak adatai előre ki vannak töltve, így könnyebben kiválaszthatja az adott partnerrel dolgozó alkalmazottakat.
+- **Becsült bezárási dátum:** Ez az a dátum, amely előtt a meghívott partner várhatóan befejezi az ajánlatban való részt. A dátum előre ki van töltve, így csak szükség esetén módosíthatja a dátumot. Ez egy kötelező mező, amelyet az ajánlat létrehozása után meghívott partner szerkeszthet. Ez a mező nem módosítható az ajánlat létrehozása után.
 
-- **Megoldások hozzáadása:**  Adja hozzá azokat a megoldásokat, amelyeket a meghívott partnernek a táblába való felvételéhez használni kíván. Legalább egy megoldás megadása kötelező. A meghívott partner módosíthatja a megoldásokat, ha elfogadják a meghívót.
+- **Becsült érték és pénznem:** Ez annak az üzletnek az értéke, amely a meghívott partner számára lesz a teljes üzletben. Itt a megfelelő értéket adja meg, hogy a meghívott partner eldöntse, szeretne-e részt venni az ajánlatban. A meghívott partner az ajánlat létrehozása után módosíthatja ezt az értéket. Ez a mező az ajánlat létrehozása után nem módosítható.
 
-- **A Súgó típusának azonosítása:** Adja meg a Súgó típusát: Végezetül azonosítsa a meghívott partner által igényelt konkrét segítséget.
+- **Megjegyzések:** Adja meg annak részleteit, hogy miért hívatja meg a partnert az ajánlat részeként. A részletes információk segítenek a meghívott partnernek eldönteni, hogy részt szeretne-e venni a programban.
 
-Ezt ismételje meg minden olyan partner esetében, amelyet meg szeretne hívni az adott üzletre. A partneri partneri kapcsolathoz a Microsoft értékesítő is tartozhat, ahol a Microsoftot és a partnereket is meghívja a Deal. Az üzlet létrehozása után a Microsoft és a partnerek is meghívhatók később.
+- **Adja hozzá a csapatot:** Adja hozzá a vállalat azon alkalmazottait, akik a meghívott partnerrel fognak dolgozni. Ha a meghívott partner elfogadja az ajánlatot, hozzáadhatja a saját alkalmazottait, így mindkét vállalat megtekintheti, hogy a teljes csapat együttműködik az üzletben. Ezeket az adatokat csak az ajánlat létrehozása előtt módosíthatja. Az ajánlat adataiban megadott alkalmazotti adatok előre ki vannak töltve, így könnyebben kiválaszthatja az adott partnerrel dolgozó alkalmazottakat.
 
-## <a name="responding-to-a-co-sell-opportunity"></a>Válaszadás közös értékesítési lehetőségre
+- **Megoldások hozzáadása:**  Adja hozzá a megoldásokat, amelyek meghívását a meghívott partnerrel szeretné felvenni a táblába. Legalább egy megoldás kötelező. A meghívott partner a meghívó elfogadása után módosíthatja a megoldásokat.
 
-Minden lehetőség saját életciklusán halad át.
+- **A segítség típusának azonosítása:** A segítség típusának azonosítása: Végül azonosítsa a meghívott partner konkrét súgóját.
 
-### <a name="received-stage"></a>Fogadott szakasz
+Ismételje meg ezt az összes olyan partnerrel, aki meghívást szeretne erre az ajánlatra. Egy partner és egy partneri üzlet is bevonhatja a Microsoft értékesítőt, akinél a Microsoftot és a partnereket is meghívja az ajánlathoz. Az ajánlat létrehozása után később a Microsoftot és a partnereket is meghívhatja.
 
-Ebben a szakaszban abban az esetben, ha egy Microsoft-értékesítőből vagy a Microsoft közös értékesítési ökoszisztémájának más partnereiből is új közös értékesítési lehetőséget kapott, tekintse át a részleteket, és vegye fel a kapcsolatot az ügyféllel, ha többet szeretne megtudni üzleti igényeiről. Ebben a szakaszban két műveletet is végrehajthat. az átirányítás elfogadása vagy elutasítása:
+## <a name="responding-to-a-co-sell-opportunity"></a>Válasz egy közös értékesítésre
 
-- **Elfogadás:** Adja meg az üzlet nevét, szerkessze a becsült ügyleti értéket és a becsült vásárlási időkeretet a felülvizsgálat alapján. Miután létrehozta a kapcsolatot az ügyféllel, a **Megjegyzések** mezőben adja meg, hogy az ügyfél milyen adatokat keres. Itt megadhatja a CRM-azonosítót (csak a hivatkozáshoz), a marketing kampány AZONOSÍTÓját, amely a megfelelő lehetőséget eredményezte, és felveszi a kapcsolatot a vállalattól, aki ezen az üzleten dolgozik majd.
+Minden lehetőség egy saját életcikluson halad át.
 
-- Ha elkészült, kattintson a **Tovább gombra**. A **következő szakaszra** helyezzük át az átirányítást, ami azt jelenti, hogy aktívan kell részt vennie az ügyféllel a szükséges igények kielégítése érdekében. Ezt az információt arra is felhasználjuk, hogy a jövőben hasonló ajánlatokat találjon.
+### <a name="received-stage"></a>Fogadott fázis
 
-- **Elutasítás**: válassza ki az üzlet lecsökkenésének okát, és vegye fel a felvenni kívánt megjegyzéseket, majd válassza az **üzlet lezárása** lehetőséget. A rendszer **elutasította** az archiválást, és értesíti a Microsoftot vagy azt a partnert, aki ezt a lehetőséget elküldte.
+Ebben a szakaszban, ha egy Microsoft-értékesítőtől vagy a Microsoft Közös értékesítés ökoszisztémájában részt vevő más partnerektől kapott új közös értékesítést, tekintse át a részleteket, és ha többet szeretne megtudni az üzleti igényeikről, lépjen kapcsolatba az ügyféllel. Ebben a szakaszban két műveletet is végre lehet venni. elfogadhatja vagy elutasíthatja a terjesztést:
 
-- Ha a megadott időn belül nem válaszol (jelenleg 14 nap), archiváljuk **lejártként** , és értesítjük a Microsoftot vagy a partnert, aki ezt a lehetőséget elküldte.
+- **Fogadja el a következőt:** Adja meg az ajánlat nevét, módosítsa az ajánlat becsült értékét és a felülvizsgálat alapján becsült vásárlási időkeretet. Miután létrehozta a kapcsolattartót az ügyféllel, meg kell adnia az információkat a **Megjegyzések** mezőben, hogy többet is elmagyarázson arról, hogy mit keres az ügyfél. Igény szerint itt is megadhatja CRM-azonosítóját (csak referenciaként), a marketingkampány-azonosítót, amely a megfelelő lehetőséget eredményezte, és felveheti az ezen az ajánlaton dolgozó vállalat kapcsolattartóját.
 
-### <a name="accepted-stage"></a>Elfogadott szakasz
+- Ha elkészült, válassza a Tovább **lehetőséget.** A terjesztést a következő szakaszba fogjuk áthelyezni, ami azt jelenti, hogy az igényeknek való megfelelő aktív kapcsolatot tervezünk az ügyféllel. Ezeket az információkat arra is használni fogjuk, hogy a jövőben hasonló ügyleteket talál majd.
 
-Ezzel a megoldással lezárhatja az üzletet az ügyféllel. Ha módosítani szeretné az elfogadott átirányításhoz megadott összes információt, válassza a **Szerkesztés** lehetőséget. Ezután frissítheti az üzlet nevét, a becsült vásárlás dátumát, a becsült értéket, a megjegyzéseket, a CRM-azonosítót és/vagy a marketing kampány AZONOSÍTÓját.  Azt is megteheti, hogy a **csapat hozzáadása** lehetőséggel megadhatja az üzletben dolgozó több személy nevét, telefonszámát és e-mail-címét. A megoldásokat az ügyfél igénye alapján is szerkesztheti.
+- **Elutasítás:** Válassza ki, hogy miért utasítja el az ajánlatot, és adja hozzá a hozzáadni kívánt megjegyzéseket, majd válassza az Üzlet bezárása **lehetőséget.** Archiváljuk elutasítottként, és értesítjük a Microsoftot vagy a lehetőséget elküldő partnert. 
 
-Az összes létrehozott ajánlat alapértelmezés szerint elfogadott fázisban van.
+- Ha nem válaszol a megadott idő alatt (jelenleg 14 napon belül),  archiváljuk Lejártként, és értesítjük a Microsoftot vagy a partnert, aki elküldte Önnek ezt a lehetőséget.
 
-Miután megkezdte a munkát, megadhatja az elért előrehaladás részleteit az üzlet életciklusának értékesítési szakaszainak megjelölésével. Az üzlet életciklusának négy szakasza van, a kezdeti elfogadás vagy létrehozás, valamint az alább említett végleges megnyert vagy elveszett szakaszok mellett. Ha ezeket a részleteket nem kötelező megadni, de kifejezetten javasoljuk, hogy ossza meg ezeket a lépéseket a Microsoft értékesítési képviselőinek közös értékesítéssel kapcsolatos súgójának beszerzéséhez.
+### <a name="accepted-stage"></a>Elfogadott fázis
 
-:::image type="content" source="images/pscmigration/salesstage.png" alt-text="Az üzlet életciklusát ábrázoló kép, amely az értékesítési fázis jelölésére használható.":::
+Dolgozunk az ügyféllel kötött üzlet lezárásán. Ha módosítani szeretné az elfogadott hivatkozásokhoz megadott bármely információt, válassza a **Szerkesztés lehetőséget.** Ezután frissítheti az ajánlat nevét, a becsült vásárlási dátumot, a becsült értéket, a megjegyzéseket, a CRM-azonosítót és/vagy a marketingkampány azonosítóját.  A Csapat hozzáadása lehetőséget **választva** meg kell adnia az üzleten dolgozó összes személy nevét, telefonszámát és e-mail-címét. A megoldások az ügyfél igényei alapján is szerkeszthetők.
+
+Alapértelmezés szerint minden létrehozott ügylet Az elfogadva szakaszban van.
+
+Miután megkezdte az üzleten való munkát, az üzlet életciklusának értékesítési szakaszainak jelölésével részletesen is meg tudja adni az előrehaladást. Az üzlet életciklusának négy szakasza van a kezdeti elfogadás vagy létrehozás, valamint a végső megnyert vagy elveszett szakaszokon kívül, ahogy az alább is említettük. Ezeknek az adatoknak a megadása nem kötelező, de javasoljuk, hogy ossza meg ezeket, hogy megfelelő segítséget kapjon a Microsoft értékesítési képviselőitől egy közös értékesítési ajánlatban.
+
+:::image type="content" source="images/pscmigration/salesstage.png" alt-text="Az ajánlat életciklusát bemutató kép, ahol az értékesítési szakasz megjelölhető.":::
 
 > [!Note]
-> Az értékesítési szakaszok akkor változnak, ha az üzlet megoldás-értékelési ügylet. Az értékesítési szakasz megjelölése **kötelező** a megoldás-értékelési ajánlatok esetében is. A **megnyert** gomb csak akkor lesz engedélyezve, ha az összes értékesítési szakasz a partner által befejezettként van megjelölve.
+> Az értékesítési szakaszok eltérőek lehetnek, ha az ajánlat megoldásértékelési ajánlat. Az értékesítési szakasz megjelölése a **megoldásértékelési** ügyletekhez is kötelező. **Az** Won (Megnyert) gomb csak akkor lesz engedélyezve, ha a partner az összes értékesítési fázist befejezettként jelöli meg.
 
-Az alábbi táblázat az értékesítési szakaszokat és a megfelelő százalékos arányokat mutatja a Microsoft partner Center Referrals rendszer által meghatározott megoldási értékeléseken kívüli ügyletekhez.
+Az alábbi táblázatban az értékesítési fázisok és a megoldásértékelésen kívül a Microsoft által a microsoftos javaslati rendszer által meghatározott ügyletekhez tartozó százalékos arányok Partnerközpont látható.
 
-|**Értékesítési szakasz neve**|**Értékesítési szakasz százaléka**|**Az értékesítési fázis definíciója**|
+|**Értékesítési fázis neve**|**Értékesítési fázis százalékos aránya**|**Az értékesítési fázis meghatározása**|
 |:----|:-----|:-----|
-|Létrehozva|10%|Kimenő ügylet létrehozása.|
-|Elfogadva|10%|Bejövő ügylet elfogadása.|
-|Minősített|20%|A folytatás előtt a Deal és az ügyfélre vonatkozó követelmények is érvényesek.|
-|Fejlesztett|40%|Az üzlet fejlesztése a POC vagy más, formális javaslathoz szükséges egyéb összetevők előkészítésének részletes követelményeinek megismerése érdekében.|
-|Javasolt|60%|Formális javaslat készítése az ügyfélnek a követelmények alapján.|
-|Tárgyalásos|80%|A végleges feltételek egyeztetése a javaslat alapján a végső állapot megkezdése előtt – az üzlet megnyerése vagy elvesztése.|
-|Megnyert|100%|Az üzlet megjelölése megnyertként.|
+|Létrehozva|10%|Kimenő üzlet létrehozása.|
+|Elfogadva|10%|Bejövő üzlet elfogadása.|
+|Minősített|20%|Az ajánlat értékének és az ügyfélkövetelmények minősítése, mielőtt továbblépne.|
+|Fejlett|40%|Az üzlet továbbfejlesztését annak érdekében, hogy jobban megértsük a poC vagy bármely más, formális javaslathoz szükséges összetevő előkészítésének részletes követelményeit.|
+|Javasolt|60%|Formális javaslattal az ügyfélnek a követelmények alapján.|
+|Tárgyalásos|80%|A végső feltételeket a javaslat alapján kell egyeztetni, hogy a végső állapotba jutás – az üzlet megnyerése vagy elvesztése.|
+|Nyert|100%|Az ajánlatot megnyertként kell megjelölni.|
 
-Ha elkészült, elvégezheti a két művelet egyikét, amely a **megnyert** vagy **elveszett** ügyletet jelöli az eredmény jelentéséhez.
+Ha elkészült, a két művelet egyikének meg kell egyeselni, amelyek Megnyert vagy **Elveszettként** jelölik meg az ajánlatot az eredmény jelentéséhez. 
+
+Nem szükséges, hogy a vállalat ugyanazon értékesítési fázisokat kövesse. Így ismeri Partnerközpont az értékesítési fázisokat, és automatikusan leképezi a vállalat fázisokat ezekre a standard szakaszokra, ha ezeket az értékeket az API-val ad át. Ha a felhasználói Partnerközpont használja, a táblában látható százalékos arányok az értékesítési fázisok megjelölését használják.
 
 > [!Note]
-> Nem szükséges, hogy a vállalata ugyanazt az értékesítési szakaszt követi. Így ismeri fel a partneri központ a Deal Sales szakaszokat, és automatikusan leképezi a vállalat szakaszait ezeknek a standard szakaszoknak, ha az API használatával továbbítja ezeket az értékeket. Ha a partner Center UX-t használja, a táblázatban látható százalékok az értékesítési szakaszok megjelölésére szolgálnak.
+> Bizonyos jogosult megoldások esetén az Won (Megnyert) kiválasztása után a rendszer további információkat fog kérni az ajánlat regisztrálása érdekében. A Microsoft áttekinti az itt közzétett adatokat, és további részleteket kérhet a felülvizsgálati folyamat során. További információ: [Az ügylet regisztrálása.](register-deals.md)
 
 > [!Important]
-> Bizonyos jogosult megoldások esetében a megnyert lehetőség kiválasztása után további információkat kell megadnia az üzlet regisztrálásához. A Microsoft áttekinti az itt megadott adatokat, és további részleteket kérhet a felülvizsgálati folyamat során. További információ: [az ajánlatok regisztrálása](register-deals.md).
+> Ha az ajánlat regisztrálható az üzletre, győződjön meg arról, hogy az üzlet létrehozása és az ajánlat megnyertként való megjelölve közötti 72 órás eltérés van. A korábban megnyertként megnyert üzlet lezárása az üzletregisztrációk elutasításához vezethet.
 
-A Deal-regisztráció csak akkor válik elérhetővé, ha megfelel az alábbi feltételeknek.
+Egy ajánlat csak akkor jogosult az üzletregisztrációra, ha az összes alábbi feltételnek megfelel.
 
-- Az ügylet típusa vagy közös értékesítés vagy partner által vezetett.
-- Az üzletben van egy ösztönző jogosult megoldás.
-- Az üzlet állapota megnyert.
-- Ha az üzlet típusa közös értékesítés, a Microsoft elfogadta a meghívót, vagy megjelölte az ügyletet megnyertként. A Microsoft-állapot megismeréséhez tekintse meg a Microsoft-kártyát az üzlet részletei között.
-
-> [!Important]
-> Regisztrálja az ügyletet csak akkor, ha a vállalat neve és az ösztönző jogosult megoldás az üzletben egyértelműen szerepel a szerződésben az ügyféllel.
-
-Ha az ügylet jogosult a Deal-regisztrációra, egy újabb mérföldkő kerül be az "ügylet regisztrálása" nevű üzlet életciklusára az alább látható módon.
-
-:::image type="content" source="images/pscmigration/dealregstages.png" alt-text="Az ügyleti életciklust ábrázoló kép, az a hely, ahonnan a Deal-regisztráció kezdeményezhető.":::
-
-Megadhatja, hogy az üzletet azonnal regisztrálja, miután megjelölte a megnyert ügyletet, vagy egy későbbi időpontban az üzlet életciklusának **regisztrálása** gombbal.
-Az üzlet regisztrálása után megtekintheti az üzlet ellenőrzésének előrehaladását ugyanabból az életciklusból. Ha a vállalatnál bármilyen művelet szükséges, a megfelelő hibák az üzlet életciklusa nézetben jelennek meg. Az üzlet lezárt állapotba kerül, amikor az üzlet ellenőrzése befejeződött.
+- Az ajánlat típusa lehet közös értékesítés vagy partner által vezetett.
+- Az ajánlatban van egy ösztönzőnek megfelelő megoldás.
+- Az ajánlat állapota megnyert.
+- Ha az ajánlat típusa közös értékesítés, akkor a Microsoft elfogadta a meghívót, vagy az ajánlatot megnyertként jelölte meg. A Microsoft állapotát az üzlet részletei alatti Microsoft-kártyán keresztül értheti meg.
 
 > [!Important]
-> Az ügylet felülvizsgálata és a végső érvényesítési állapot egyaránt csak az IP-címek közös értékesítésével kapcsolatos ajánlatokra érvényes.
+> Csak akkor regisztrálja az ajánlatot, ha az ajánlatban egyértelműen szerepel a vállalat neve és az ösztönzőre jogosult megoldás az ügyféllel kötött szerződésben.
+
+Ha az ajánlat jogosult az üzletregisztrációra, egy másik mérföldkő is hozzá lesz adva az "Ajánlat regisztrálása" nevű üzlet életciklushoz, ahogy az alább látható.
+
+:::image type="content" source="images/pscmigration/dealregstages.png" alt-text="Az ajánlat életciklusát és azt a helyet bemutató kép, ahonnan az ajánlat regisztrációja kezdeményezhető.":::
+
+Dönthet úgy, hogy azonnal regisztrálja az ajánlatot az ajánlat megnyertként való megjelölése után, vagy egy későbbi időpontban az ajánlat életciklusának **Regisztráció most gombjával.**
+Az ajánlat regisztrációja után megtekintheti az üzletérvényesítés előrehaladását ugyanattól az életciklustól. Ha a vállalata beavatkozást igényel, a megfelelő hibák jelennek meg az üzlet életciklusa nézetben. Az üzlet zárt állapotba kerül, amikor az üzlet ellenőrzése befejeződött.
+
+> [!Important]
+> Az ügylet áttekintése és a végső érvényesítési állapot is csak az IP-cím közös értékesítésével kapcsolatos ügyletekre vonatkozik.
 
 ### <a name="combinations"></a>Kombinációk
 
-Az alábbi táblázat azokat a kombinációkat mutatja be, akik az üzlet ezen szakaszában meghívhatók.
+Az alábbi táblázat az ajánlat ezen szakaszában meghívható személyek kombinációit mutatja be.
 
-|**Eredeti üzlet típusa**|**Kik is meghívhatók**|**Megjegyzések**|
+|**Eredeti ajánlattípus**|**Ki hívható meg?**|**Megjegyzések**|
 |-----|:-----|:-----|
-|Személyes|Microsoft és/vagy más partnerek|Az üzletet a rendszer a közös értékesítésre frissíti, ha meghívja a Microsoftot.|
-|Személyes|Microsoft Sales csapat az ajánlatok megtekintéséhez|A Deal a partner által vezérelt, ha a Microsoft értékesítési csapata látja el az ajánlatokat.|
-|Partner által vezetett|Microsoft és/vagy más partnerek|Az üzletet a rendszer a közös értékesítésre frissíti, ha meghívja a Microsoftot.|
-|Közös értékesítés|Egyéb partnerek|Más partnerek csak akkor hívhatók meg, ha a vállalat kezdeményezte az üzletet. A bejövő lapon a partnerek nem hívhatók meg az ajánlatokhoz.|
-|Partner a Microsofttal való partner nélkül|Microsoft|Az üzlet a közös értékesítésre lesz frissítve.|
-|Partner a Microsofttal való partner nélkül|Egyéb partnerek||
+|Személyes|Microsoft és/vagy egyéb partnerek|Ha a Microsoftot meghívják, az ajánlatot az Közös értékesítésre frissítik.|
+|Személyes|A Microsoft értékesítési csapata az ügyletek megtekintéséhez|Az ügylet akkor lesz partner által irányítottra frissítve, ha a Microsoft értékesítési csapata számára láthatóvá vált az ügylet.|
+|Partner által vezetett|Microsoft és/vagy egyéb partnerek|Ha a Microsoftot meghívják, az ajánlatot az Közös értékesítésre frissítik.|
+|Közös értékesítés|Egyéb partnerek|Más partnerek csak akkor hívhatóak meg, ha a vállalat kezdeményezte az ajánlatot. A partnerek nem hívhatóak meg az ügyletre a Bejövő lapon.|
+|Partner és partner között a Microsoft nélkül|Microsoft|Az ajánlat egy közös értékesítésre lesz frissítve.|
+|Partner és partner között a Microsoft nélkül|Egyéb partnerek||
 
-### <a name="closed-stage"></a>Zárt fázis
+### <a name="closed-stage"></a>Lezárt fázis
 
-Ez az összes lehetőség utolsó lépése. A lezárt szakaszban megtekintheti az összes **megnyert, elveszett, visszautasított** és **lejárt** ajánlatot. Ebben a szakaszban nem végezhető művelet.
+Ez az összes lehetőség utolsó fázisa. A zárt fázisban megtekintheti az összes megnyert,  **elveszett,** elutasított és lejárt ügyletet. Ebben a szakaszban nem lehet műveleteket.
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
-**Q. Szerkeszthető az ügylet, miután a rendszer megnyert vagy elveszettként jelölte meg?**
+**K. Szerkeszthető egy ajánlat, miután az Won (Megnyert) vagy Lost (Elveszett) jelöléssel van megjelölve?**
 
-Nem, az ajánlatok nem módosíthatók, ha a terminál állapotba költöznek. A lejárt, a visszautasított, a megnyert és az elveszett érték olyan terminál-állapot, ahol nem lehetséges további frissítés az üzlet számára. Körültekintően járjon el, ha az üzletet ezen terminál-állapotba helyezi át.
+Nem, az ügyletek nem módosíthatók, ha a végállapotba lépnek. A lejárt, elutasító, megnyert és elveszett terminálok olyan terminál államok, amelyekben nem lehet további frissítéseket telepíteni az üzletre. Körültekintően járjon el, amikor az ajánlatot ezekbe a terminál államokba mozgatja.
 
-**Q. Ki kap értesítő e-mailt a partner Centertől?**
+**K. Ki kap e-mailes értesítést a Partnerközpont?**
 
-Az alábbi munkafolyamat azt ismerteti, hogyan küldi el az e-maileket a partner Center-átirányítási rendszertől az új partnerek bejövő átirányításához.
+Az alábbi munkafolyamat ismerteti, hogyan küldik el az e-maileket a partnereknek a partnerközpont ajánlási rendszerében az új partnerek bejövő hivatkozásai esetén.
 
-:::image type="content" source="images/pscmigration/emaillogic.png" alt-text="A kép azt mutatja, hogy az e-mailek hogyan lesznek elküldve a partnereknek új bejövő átirányítások esetén.":::
+:::image type="content" source="images/pscmigration/emaillogic.png" alt-text="Az új bejövő hivatkozásokhoz a partnereknek küldött e-mailek logikáját bemutató kép.":::
 
-**Q. Milyen típusú ösztönzők jogosultak a Deal-regisztrációra?**
+**K. Milyen típusú ösztönzők jogosultak az üzletregisztrációra?**
 
-Csak az IP-ösztönzők jogosultak a Deal regisztrációra. Ilyenek például a következők:
+Csak az IP-ösztönzők jogosultak az üzletregisztrációra. Ezek közé tartoznak a következők:
 
-- Azure IP közös értékesítés
-- Prémium szintű BIZ-alkalmazások
-- Biz apps standard
+- Azure IP-alapú közös értékesítés
+- Biz Apps Premium
+- Biz Apps Standard
 
 ## <a name="get-more-co-sell-opportunities"></a>További közös értékesítési lehetőségek
 
-Íme néhány tipp, amely segítséget nyújt a vállalkozása számára megfelelő, közös értékesítési lehetőségek megszerzésében:
+Az alábbi tippek segíthetnek az üzletnek megfelelő több közös értékesítésben:
 
-- **Gyorsan reagálhat az ajánlatokra**. Ha időben válaszol a beérkező kérésekre, fokozatosan megnöveli a jövőben a partneri keresési eredményekben való láthatóságát. Győződjön meg arról, hogy csapata gyorsan reagál a szándékára.
-- Választhatja **az Ön által elfogadott ajánlatokat**. Figyelemmel kísérjük az Ön által elfogadott és visszautasított ajánlatok típusait, és ezeket az információkat a hasonló ajánlatok megtalálására használják. A nem megfelelő illeszkedésű ajánlatok nem javítják a keresési eredményeket, és befolyásolhatják a kapott lehetőségek minőségét.
-- **Jelentse vissza a becsült ügyleti méreteket, a záró dátumokat, valamint az ajánlatok végső állapotát** (megnyert vagy elveszett). Ezt az információt fogjuk használni, hogy továbbra is minőségi ajánlásokat nyújtson.
+- **Gyorsan reagálhat az ügyletekre.** Amikor időben válaszol a bejövő kérelmekre, fokozatosan növeljük a jövőbeli partnerkeresési eredmények láthatóságát. Győződjön meg arról, hogy a csapat gyorsan válaszol a szándékával.
+- **Legyen válogatás az elfogadó ügyletekkel.** Figyeljük az Ön által elfogadt és elutasított ügyletek típusait, és ezeket az információkat használjuk fel, hogy hasonló ügyleteket találjon. A nem megfelelő ügyletek elfogadása nem javítja a keresési eredményeket, és befolyásolhatja a kapott lehetőségek minőségét.
+- **Jelentést készít az ügylet becsült méretről, a záró** dátumról és az ügylet végleges állapotáról (megnyert vagy elveszett). Ezeket az információkat arra használjuk, hogy továbbra is minőségi terjesztést biztosítsunk Önnek.
 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Érdeklődők kezelése](manage-leads.md)
 
-- [A Dynamics 365 CRM-hez készült közös értékesítési összekötő beszerzése](connector-dynamics.md)
+- [A Dynamics 365 CRM-hez készült közös értékesítés összekötő](connector-dynamics.md)
 
-- [Az Salesforce CRM-hez készült közös értékesítési összekötő beszerzése](connector-salesforce.md)
+- [A Salesforce CRM-hez készült közös értékesítési összekötő lekérte](connector-salesforce.md)

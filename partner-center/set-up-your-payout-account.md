@@ -1,18 +1,18 @@
 ---
-title: Kifizetési fiók beállítása & adóügyi űrlapok – Microsoft kereskedelmi piactér
-description: Ha pénzt szeretne kapni a kereskedelmi piactéren elérhető ajánlat értékesítéséből, Ismerje meg, hogyan állíthatja be a kifizetési fiókját, és töltse ki a szükséges adózási űrlapokat.
+title: Kifizetési fiók és & beállítása – Microsoft kereskedelmi piactér
+description: Ha pénzt szeretne kapni a kereskedelmi piactéren elérhető ajánlat értékesítéseiből, megtudhatja, hogyan állíthatja be kifizetési fiókját, és töltheti ki a szükséges adó űrlapokat.
 ms.topic: conceptual
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 12/10/2019
-ms.openlocfilehash: c08dfb816e08efdc194dbeff8800a2cbcec2b972
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: 8f680753216ea9cd515c8082495b390c7bf95a62
+ms.sourcegitcommit: 22e257d5b334ca8d3fc072f59010a508e1022694
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028434"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108702807"
 ---
 # <a name="set-up-your-payout-account-and-tax-forms"></a>Kifizetési számla és űrlapok beállítása
 
@@ -21,190 +21,190 @@ ms.locfileid: "105028434"
 - Fiókadminisztrátor
 - Globális rendszergazda
 
-Ahhoz, hogy pénzt kapjon a kereskedelmi piactéren elérhető ajánlatokból, be kell állítania a kifizetési fiókját, és ki kell töltenie a [partner Center](https://partner.microsoft.com/dashboard)szükséges adózási űrlapait.
+Ahhoz, hogy pénzt kapjon a kereskedelmi piactéren elérhető ajánlat értékesítéseiből, be kell állítania a kifizetési fiókját, és ki kell töltenie a szükséges [adózási űrlapokat a Partnerközpont.](https://partner.microsoft.com/dashboard)
 
-Ha csak az ingyenes ajánlatokat szeretné kilistázni (és nem tervezi az alkalmazáson belüli vásárlást vagy Microsoft Advertising használatát), nem kell kiállítania egy kifizetési fiókot, vagy ki kell töltenie az összes adózási űrlapot. Ha később meggondolja magát, és eldönti, hogy szeretné-e eladni az ajánlatokat (vagy bővítményeket), beállíthatja a kifizetési fiókját, és kitöltheti az adózási űrlapokat. Nem küldhet fizetős ajánlatokat vagy bővítményeket, amíg be nem fejeződik a kifizetési fiók és az adózási profil.
-
-> [!NOTE]
-> Bizonyos piacokon a kiadók csak ingyenes ajánlatot küldhetnek el. Ha a fiókja az egyik piacon regisztrálva van, nem lesz lehetősége a kifizetési fiók beállítására.
-
-Miután beállította a fiókját, két dolgot kell tennie, mielőtt az ajánlat (vagy a bővítmények) értékesítését elvégezte a kereskedelmi piactéren:
-
-- [Töltse ki az adózási űrlapokat](#tax-forms)
-- [A kifizetési fiók beállítása](#payout-account)
+Ha csak ingyenes ajánlatokat tervez listába állítani (és nem tervez alkalmazáson belüli vásárlásokat kínálni vagy Microsoft Advertising-t használni), nem kell kifizetési fiókot beállítania vagy adó űrlapokat kitöltenie. Ha később meggondolja magát, és úgy dönt, hogy ajánlatokat (vagy bővítményeket) szeretne értékesíteni, beállíthatja a kifizetési fiókját, és kitöltheti az adó űrlapokat. A kifizetési fiók és az adóprofil befejezéséig nem küldhet be fizetős ajánlatokat vagy bővítményeket.
 
 > [!NOTE]
-> További információ arról, hogy hogyan és mikor kell fizetnie az ajánlat által biztosított pénzért, lásd: [befizetések a kereskedelmi piactéren](marketplace-get-paid.md).
+> Bizonyos piacokon a közzétevők csak ingyenes ajánlatot küldhetnek be. Ha a fiókja regisztrálva van ezen piacok egyikében, nem lesz lehetősége kifizetési számla beállítására.
+
+A fiók beállítása után két dolgot kell megtennie ahhoz, hogy ajánlatot (vagy bővítményeket) értékesítsen a kereskedelmi piactéren:
+
+- [Töltse ki az adó űrlapokat](#tax-forms)
+- [Kifizetési fiók beállítása](#payout-account)
+
+> [!NOTE]
+> További részleteket arról, hogy hogyan és mikor fizeti ki az ajánlata pénzét: Fizetés a kereskedelmi [piactéren.](marketplace-get-paid.md)
 
 ## <a name="tax-forms"></a>Adózási űrlapok
 
-Az adózási profilt és az adózási űrlapokat a partner központ **kifizetési és adózási** lapján kezelheti. A szervezet engedélyei a megjelenő profilokat és információkat határozzák meg.
+Az adóprofilt és az  adózási űrlapokat az alkalmazás Kifizetés és adó oldalán Partnerközpont. A szervezet engedélyei határozzák meg a látható profilokat és információkat.
 
-### <a name="create-or-update-your-tax-profile"></a>Az adózási profil létrehozása vagy frissítése
+### <a name="create-or-update-your-tax-profile"></a>Adóprofil létrehozása vagy frissítése
 
-Először létre kell hoznia egy adózási profilt, és hozzá kell rendelnie azokat a programokhoz, amelyekben részt vesz a programban. Az alábbi lépések végrehajtásával hozhatja létre vagy frissítheti az *adózási profilt* a partner Centerben. A partner Center irányítópultján elektronikus úton is elvégezheti és elküldheti az adózási űrlapokat; a legtöbb esetben nem kell űrlapokat kinyomtatnia és e-maileket felvennie.
+Először létre kell hoznia egy adóprofilt, és hozzá kell rendelnie a programban részt vett programokhoz. Az alábbi lépésekkel hozhatja létre vagy frissítheti *adóprofilját a* Partnerközpont. Az adó űrlapokat elektronikus úton is beküldheti az Partnerközpont irányítópultján; A legtöbb esetben nem kell űrlapokat kinyomtatni és leveleket küldeni.
 
 > [!IMPORTANT]
-> A különböző országok és régiók esetében eltérő az adózási követelmények. Az adó összegének pontos összege attól függ, hogy milyen országokban és régiókban vásárolja meg az ajánlatát. Tekintse meg a [Microsoft Azure Marketplace kiadói szerződést](https://go.microsoft.com/fwlink/p/?LinkID=699560) , amely alapján megállapíthatja, hogy mely országokra/régiókra vonatkozik a Microsoft értékesítési és használati adó az Ön nevében. Más országokban/régiókban, attól függően, hogy hol van regisztrálva, előfordulhat, hogy az értékesítési és használati adót közvetlenül a helyi adózási szolgáltatónak kell elvégeznie. Emellett az alkalmazás értékesítésének bevétele a kapott bevételként is adóköteles lehet. Javasoljuk, hogy lépjen kapcsolatba az országa vagy régiója illetékes hatóságával, amely a legjobban segít meghatározni a kereskedelmi Marketplace-tevékenységek megfelelő adózási adatait.
+> A különböző országokra és régiókra különböző adózási követelmények vonatkoznak. Az, hogy pontosan mennyi adót kell fizetnie, az ajánlat értékesítésének országától és régióitól függ. A [microsoftos Microsoft Azure Marketplace](https://go.microsoft.com/fwlink/p/?LinkID=699560) közzétevői szerződésében találhatja meg, hogy a Microsoft mely országokra/régiókra vonatkozó adózási Más országokban/régiókban– a regisztráció helyétől függően – előfordulhat, hogy közvetlenül a helyi adószolgáltatónak kell átcsoportosoznia az értékesítéseket, és adóhasználatot kell használnia az ajánlat értékesítéséhez. Emellett előfordulhat, hogy az ön által kapott alkalmazásértékesítési bevétel bevételként is adózható. Határozottan javasoljuk, hogy lépjen kapcsolatba az országa vagy régiója megfelelő hatóságával, amely a legjobban segíthet meghatározni a megfelelő adózási adatokat a kereskedelmi piactér tevékenységeihez.
 
-1. A [partner Center irányítópultján](https://partner.microsoft.com/dashboard)kattintson a **Beállítások** fogaskerék ikonra a jobb felső sarokban, majd a **Fiókbeállítások** lehetőségre.
+1. A Partnerközpont [jobb](https://partner.microsoft.com/dashboard)felső sarkában  válassza a Beállítások fogaskerék ikont, majd a **Fiókbeállítások lehetőséget.**
 
-2. A bal oldali navigációs menüben válassza a **kifizetés és adó** lehetőséget, majd válassza ki a **kifizetési és adózási hozzárendelések** elemet.
+2. A bal oldali navigációs menüben válassza a **Kifizetés és adó** lehetőséget, majd a Kifizetések és **adó-hozzárendelések elemet.**
 
-3. Válassza ki azt a program-és eladó-azonosító kombinációt, amelynek az adózási adatait konfigurálni kívánja.
+3. Válassza ki azt a program- és értékesítőazonosító-kombinációt, amelyhez adózási adatokat szeretne konfigurálni.
 
-4. Ha meglévő adózási profilt szeretne használni, válassza ki a legördülő menüből. Ellenkező esetben válassza az **új profil létrehozása** elemet, majd kattintson a **Küldés** gombra. Ekkor megnyílik az adó-profilok lap.
+4. Ha meglévő adóprofilt szeretne használni, válassza ki azt a legördülő menüből. Ellenkező esetben válassza az **Új profil létrehozása lehetőséget, majd** nyomja le a Submit **(Küldés) gombot.** Meg fog jelenni az adóprofilok oldala.
 
-5. Kattintson a **Szerkesztés** gombra az adózási adatok szerkesztéséhez.
+5. Az **adóinformációk** szerkesztéséhez kattintson a Szerkesztés gombra.
 
-6. Válassza ki a megfelelő választógombot, és ha a rendszer kéri, válassza ki az országot/régiót. Ez a lépés határozza meg a Microsoft üzleti entitást, amelyet a rendszer a fiókon kifizetéshez használ.
+6. Válassza ki a megfelelő választógombot, és ha a rendszer kéri, válassza ki az országot/régiót. Ez a lépés határozza meg azt a Microsoft üzleti entitást, amely a fiókon történő kifizetéshez lesz használva.
 
-7. A 6. lépésben kiválasztott beállításoktól függően a rendszer kérni fogja, hogy adja meg az országa/régiója számára szükséges adózási adatokat.
+7. A 6. lépésben kiválasztott beállításoktól függően a rendszer kérni fogja, hogy adja meg az országhoz/régióhoz szükséges adózási információkat.
 
    > [!NOTE]
-   > A tartózkodási hely vagy az állampolgárság országa/régiója tekintetében ki kell töltenie Egyesült Államoki adózási űrlapokat, hogy bármely ajánlatot vagy bővítményt a kereskedelmi piactéren értékesítsen. Azok a közzétevők, akik megfelelnek bizonyos Egyesült Államok tartózkodási követelményeknek, ki kell tölteniük egy IRS-t (9). A Egyesült Államokon kívüli többi közzétevőnek ki kell töltenie egy IRS-8 űrlapot. Ezeket az űrlapokat online is kitöltheti az adózási profil befejezése után.
+   > A kereskedelmi piactéren elérhető bármely ajánlat vagy bővítmény értékesítéshez Egyesült Államok országtól/régiótól függetlenül ki kell töltenie egy adóbevallási űrlapot. Azok a közzétevők, Egyesült Államok megfelelnek bizonyos követelményeknek, ki kell tölteniük egy IRS W-9 űrlapot. A Egyesült Államok közzétevőknek ki kell tölteniük az IRS W-8 űrlapot. Ezeket az űrlapokat online is kitöltheti az adóprofil kitöltése után.
 
-### <a name="withholding-rates"></a>Visszatartási díjak
+### <a name="withholding-rates"></a>Visszatartott díjak
 
-Az adózási űrlapokon beküldött adatok meghatározzák a megfelelő adó-visszatartási arányt. A visszatartási arány csak az Egyesült Államokba helyezett értékesítésekre vonatkozik; a nem USA-beli helyszínekre irányuló értékesítések nem tartoznak a forrásadó alá. A visszatartási arányok eltérőek, de a legtöbb közzétevőnél a Egyesült Államokon kívül regisztrálva az alapértelmezett érték 30%. Ha az országa/régiója egyetért a jövedelemadó-szerződéssel, akkor csökkentheti ezt a mértéket, ha a Egyesült Államok.
+Az adó űrlapokon bekért információ határozza meg a megfelelő adóelőleg-mértéket. A visszatartott díj csak a vállalaton Egyesült Államok; az Usa-on kívüli helyekre történő értékesítések nem vonatkoznak visszatartott értékesítésre. A visszatartott díjak eltérőek, de a legtöbb, a Egyesült Államok regisztráló közzétevő esetén az alapértelmezett díjszabás 30%. Lehetősége van csökkenteni ezt a mértéket, ha országa/régiója elfogadta a bevételi adó mértékét a Egyesült Államok.
 
-### <a name="tax-treaty-benefits"></a>Adózási szerződés előnyei
+### <a name="tax-treaty-benefits"></a>Adódedékok előnyei
 
-Ha a Egyesült Államokon kívül esik, lehetősége lesz az adózási szerződés előnyeinek kihasználására. Ezek az előnyök országonként vagy régiónként eltérőek, és lehetővé tehetik, hogy csökkentse a kereskedelmi piactér által visszaadott adók mennyiségét. Az adózási szerződés előnyeit a 8BEN űrlap II. részének befejezésével veheti igénybe. Javasoljuk, hogy az Ön országában vagy régiójában lévő megfelelő erőforrásokkal kommunikáljon annak megállapításához, hogy ezek az előnyök Önre vonatkoznak-e.
-
-> [!NOTE]
-> Egy Egyesült Államok egyedi adófizető-azonosító szám (vagy ITIN) nem szükséges a Microsofttól érkező fizetések fogadására, vagy az adó-szerződésből származó előnyök igénylésére.
-
-## <a name="payout-account"></a>Kifizetési fiók
-
-A kifizetési fiók az a bankszámla, amelyre a bevételeket küldjük. A profil lapon megadott összes fizetési fiókot megtekintheti.
+Ha kívül esik a Egyesült Államok, kihasználhatja az adóelőnyt. Ezek az előnyök országonként/régiónként eltérőek lehetnek, és lehetővé tehetik a kereskedelmi piactéren visszatartott adó összegének csökkentését. Az adókedvezményeket a W-8BEN űrlap II. részének kitöltésével igényelheti. Javasoljuk, hogy kommunikáljon az ország vagy régió megfelelő erőforrásaival annak megállapításához, hogy ezek az előnyök érvényesek-e Az Ön számára.
 
 > [!NOTE]
-> Bizonyos piacokon a PayPal a kifizetési fiókjához is használható. Annak megállapításához, hogy a PayPal támogatott-e egy adott piacon, további részletekért tekintse meg a [fizetési küszöbértékeket, a metódusokat és a határidők](payment-thresholds-methods-timeframes.md) és a [PayPal-információk](#paypal-info) című szakaszt.
+> A Egyesült Államok azonosító szám (vagy ITIN) nem szükséges a Microsofttól való kifizetéshez vagy az adóval kapcsolatos előnyök igényléséhez.
+
+## <a name="payout-account"></a>Kifizetési számla
+
+A kifizetési számla az a bankszámla, amelyre az értékesítésből származó bevételeket küldjük. A Profil lapon megadott összes fizetési fiókot megtekintheti.
+
+> [!NOTE]
+> Egyes piacokon a PayPal használható a kifizetési fiókjához. További részleteket az alábbi [PayPal-adatokban](#paypal-info) talál, hogy a PayPal támogatott-e egy adott piacon. [](payment-thresholds-methods-timeframes.md)
 
 ### <a name="create-a-payment-profile"></a>Fizetési profil létrehozása
 
-1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd a **Fiókbeállítások** menüpontot.
-2. A *kifizetés és az adó* fejléc alatt válassza a **kifizetés és az adó profil hozzárendelése** lehetőséget.
+1. A [Partnerközpont](https://partner.microsoft.com/dashboard)jobb felső **sarkában** válassza a Beállítások fogaskerék ikont, majd a **Fiókbeállítások lehetőséget.**
+2. A Kifizetés és *adó fejléc* alatt válassza a Kifizetési **és adóprofil-hozzárendelés lehetőséget.**
 
     > [!NOTE]
-    > Mivel ez bizalmas információ, a rendszer kérheti, hogy jelentkezzen be újra.
+    > Mivel ezek bizalmas adatok, előfordulhat, hogy a rendszer arra kéri, hogy jelentkezzen be újra.
 
 3. Válassza ki a konfigurálni kívánt fizetési módot.
 
-4. Válasszon ki egy meglévő fizetési profilt, vagy válassza az **új fizetési profil létrehozása** lehetőséget új profil létrehozásához a választott fizetési módhoz.
+4. Válasszon ki egy meglévő fizetési profilt, vagy válassza **az Új** fizetési profil létrehozása lehetőséget egy új profil létrehozásához a kiválasztott fizetési módhoz.
 
-### <a name="create-a-bank-based-payment-profile"></a>Banki alapú fizetési profil létrehozása
+### <a name="create-a-bank-based-payment-profile"></a>Bankalapú fizetési profil létrehozása
 
-Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a következő eljárást kell végrehajtania a bankszámla konfigurálásához.
+Ha úgy választotta, hogy egy banki fiókot használ a kifizetések fogadásához, a következő folyamattal konfigurálhatja a banki fiókját.
 
-1. A *Bank Profile* lapon adja meg a bankhoz szükséges adatokat.
-2. Adja meg a bankszámlájához tartozó adatokat.
+1. A *Bankprofil lapon* adja meg a bank szükséges adatait.
+2. Adja meg a bankszámla adatait.
 
     > [!NOTE]
-    > A fiókadatok megadásához használt mezők csak alfanumerikus karaktereket fogadnak el.
+    > A fiókadatokhoz használt mezők csak alfanumerikus karaktereket fogadnak el.
 
-3. Adja meg a kedvezményezett adatait.
-4. A profil- *hozzárendelés* lapon válassza ki azt a pénznemet, amelyet a kifizetések kiválasztásakor használni szeretne.
+3. Adja meg a személyes adatokat.
+4. A *Profil-hozzárendelés oldalon* válassza ki azt a pénznemet, amit a kifizetések kiállításakor használni szeretne.
 
     > [!WARNING]
-    > Győződjön meg arról, hogy a Bank elfogadja a kiválasztott kifizetési pénznemet.
+    > Győződjön meg arról, hogy a bank elfogadja a kiválasztott kifizetési pénznemet.
 
-5. Minden programban részt vevő programhoz ki kell választania egy fizetési profilt, de több program esetében ugyanazt a profilt használhatja.
+5. Minden olyan programhoz ki kell választania egy fizetési profilt, amely részt vesz, de ugyanazt a profilt több programhoz is használhatja.
 
-6. A módosítások mentéséhez válassza a Submit (küldés) lehetőséget.
+6. A módosítások mentéshez válassza a Küldés lehetőséget.
 
    > [!NOTE]
-   > A Microsoft akár 48 órát is igénybe vehet a profilban lévő információk érvényesítéséhez. Ha ez a folyamat befejeződött, **a teljes** *ellenőrzés állapota* megjelenik
+   > A Microsoft akár 48 órát is igénybe vehet, hogy érvényesítse az Ön profiljában található adatokat. Ha a folyamat befejeződött, *az ellenőrzési állapot* Complete (Kész) állapotot fog **mutatni**
 
-Győződjön meg arról, hogy a kifizetés sikeres volt, ügyeljen rá, hogy:
+A kifizetés sikeres voltának biztosítása érdekében győződjön meg a következőről:
 
-- A partner Centerben a kifizetési fiókjához megadott **fiók tulajdonosának** pontosan meg kell egyeznie a bankszámlával társított névvel. Ha például a bankszámla neve középső nevet tartalmaz, adjon hozzá egy középső nevet a **fiók tulajdonosának nevéhez**.
-- A kifizetések közvetlenül a Microsofttól a bankszámlájára lesznek továbbítva USD pénznemben.
-- A partner Centerben megadott banki adatok latin betűvel vannak lefordítva a cirill karakterekre.
+- A **kifizetési fiókjához** megadott fióktulajdonosi névnek Partnerközpont meg kell egyezésnek lennie a fiókjához társított névvel. Ha például a bankszámla neve tartalmaz egy középső nevet, adjon hozzá egy középső nevet a **fióktulajdonos nevéhez.**
+- A kifizetéseket a rendszer közvetlenül a Microsofttól az Ön fiókjába, USD pénznemben továbbítja.
+- A latin Partnerközpont beírt banki adatokat a rendszer cirill karakterekre fordítja le.
 
 ### <a name="editing-existing-payment-profiles"></a>Meglévő fizetési profilok szerkesztése
 
-Ha módosítani vagy javítani szeretné a helytelen adatokat, módosíthatja a meglévő fizetési profilokat.
+Szerkesztheti a meglévő fizetési profilokat, ha módosításokat kell vagy helytelen információkat kell kijavítani.
 
-1. A [partner Centerben](https://partner.microsoft.com/dashboard)válassza a **Beállítások** fogaskerék ikont a jobb felső sarokban, majd a  **Fiókbeállítások** menüpontot.
+1. A [Partnerközpont](https://partner.microsoft.com/dashboard)jobb felső **sarkában** válassza a Beállítások fogaskerék ikont, majd a **Fiókbeállítások lehetőséget.**
 
-2. A *kifizetés és az adó* fejléc alatt válassza a **kifizetési és adózási profilok** lehetőséget.
+2. A Kifizetés és *adó fejléc* alatt válassza a Kifizetési **és adóprofilok lehetőséget.**
 
-3. A fizetési profilok az állapotukkal együtt lesznek felsorolva. Keresse meg a szerkeszteni kívánt profilt, majd válassza a **Szerkesztés** lehetőséget a jobb szélen
+3. A fizetési profilok és azok állapota is megjelenik. Keresse meg a szerkeszteni kívánt profilt, és válassza a **szerkesztés lehetőséget** a jobb oldalon
 
 > [!IMPORTANT]
-> A kifizetési fiók módosítása akár egy fizetési ciklusban is késleltetheti a befizetését. Ez a késleltetés azért fordul elő, mert ellenőrizni kell a fiók változását, ugyanúgy, ahogy a kifizetési fiók első beállításakor. A fiók ellenőrzése után továbbra is a teljes összegért kell fizetnie. a rendszer a jelenlegi fizetési ciklus miatt esedékes összes kifizetést hozzáadja a következőhöz. További információért tekintse meg [a kereskedelmi piactéren befizetett](marketplace-get-paid.md)információkat.
+> A kifizetési fiók módosítása legfeljebb egy fizetési ciklussal késleltetheti a kifizetéseket. Ez a késés azért következik be, mert ellenőrizni kell a fiók változását, ahogyan azt a kifizetési fiók első beállításakor is tette. A teljes összeget a fiók ellenőrzése után is kifizeti. az aktuális fizetési ciklushoz esedékes kifizetések a következő fizetési ciklushoz lesznek hozzáadva. További [információ: Fizetés a kereskedelmi piactéren.](marketplace-get-paid.md)
 
-### <a name="paypal-info"></a>PayPal-információ
+### <a name="paypal-info"></a>PayPal-adatok
 
-Az országok és régiók kiválasztása lapon fizetési fiókot hozhat létre a PayPal-adatok beírásával. A PayPal fizetési fiókként való kiválasztása előtt azonban a következő lehetőségek közül választhat:
+Egyes országokban és régiókban a PayPal-adatok megadásával hozhat létre fizetési fiókot. Mielőtt azonban fizetési fiókként a PayPal lehetőséget választanának:
 
-- A [fizetési küszöbértékek, módszerek és időkeretek](payment-thresholds-methods-timeframes.md) ellenőrzése annak megerősítéséhez, hogy a PayPal támogatott fizetési mód-e az Ön országában vagy régiójában.
-- Tekintse át az alábbi gyakori kérdéseket. Előfordulhat, hogy a PayPal nem a legjobb fizetési fiók lehetőséget választja, és előfordulhat, hogy egy bankszámla is előnyben részesített.
+- Ellenőrizze [a fizetési küszöbértékeket,](payment-thresholds-methods-timeframes.md) a módszereket és az időkereteket annak ellenőrzéséhez, hogy a PayPal támogatott fizetési mód-e az Ön országában vagy régiójában.
+- Tekintse át az alábbi gyakori kérdések közül. Az adott helyzettől függően előfordulhat, hogy a PayPal nem a legmegfelelőbb fizetési mód az Ön számára, és egy banki fiókot is előnyben részesíthet.
 
-Gyakori kérdések a PayPal fizetési módszerként való használatáról:
+Gyakori kérdések a PayPal fizetési módként való használatával kapcsolatban:
 
-- **Milyen PayPal-beállításokra van szükségem a fizetések fogadásához?** Győződjön meg arról, hogy a PayPal-fiókja nem blokkolja a eCheck befizetését. Ezt a beállítást a PayPal fizetési fogadási beállítások lapján kezelheti. További információért lásd a [PayPal fiókjának beállítása lapot](https://go.microsoft.com/fwlink/p/?linkid=513139) .
+- **Milyen PayPal-beállításokra van szükségem a kifizetések fogadása érdekében?** Győződjön meg arról, hogy PayPal-fiókja nem blokkolja az eCheck kifizetéseket. Ezt a beállítást a PayPal Fizetési fogadási beállításai lapján lehet kezelni. További információért lásd a [PayPal fiókbeállítási](https://go.microsoft.com/fwlink/?linkid=2162542) oldalát.
 
-- **Támogatott az országom/régióm?** Tekintse meg a [fizetési küszöbértékeket, metódusokat és időkereteket](payment-thresholds-methods-timeframes.md) , hogy megtudja, hol található a PayPal egy támogatott fizetési mód.
+- **Támogatott az országom/régióm?** A [Fizetési küszöbértékek, módszerek](payment-thresholds-methods-timeframes.md) és időkeretek alatt kideríti, hol támogatott a PayPal fizetési mód.
 
-- **Meg kell-e regisztrálni a PayPal-fiókomat ugyanabban az országban/régióban, mint a partner Center-fiókom?** Nem. A PayPal-fiók beállításakor elfogadhatja az alapértelmezett konfigurációt. A többi országgal/régióval és pénznemmel kapcsolatos problémával nem rendelkezhet, kivéve, ha letiltotta a fizetést bizonyos pénznemekben. Ezt a beállítást a PayPal fizetési fogadási beállítások lapján kezelheti.
+- **A PayPal-fiókomnak ugyanabban az országban vagy régióban kell regisztrálva lennie, mint a Partnerközpont fiókom?** Nem. PayPal-fiók beállításakor elfogadhatja az alapértelmezett konfigurációt. Más országokkal/régiókkal és pénznemekkel nem lehet probléma, kivéve, ha bizonyos pénznemekben letiltotta a fizetést. Ezt a beállítást a PayPal Payment Receiving Preferences (Fizetési módok fogadása) lapján lehet kezelni.
 
-- **Manuálisan kell PayPal-fizetést fogadni?** Nem. A PayPal-fiókok alapértelmezés szerint úgy vannak beállítva, hogy a felhasználók számára manuálisan fogadják el a befizetéseket, ami azt jelenti, hogy 30 napon belül nem fogadja el a befizetést. Ezt a beállítást megváltoztathatja a PayPal további beállítások lapján a "Kérdezzen meg" lehetőség kikapcsolásával.
+- **Manuálisan kell elfogadnom a PayPal-kifizetéseket?** Nem. A PayPal-fiókok alapértelmezés szerint úgy vannak beállítva, hogy a felhasználóknak manuálisan el kell fogadniuk a kifizetéseket, ami azt jelenti, hogy ha 30 napon belül nem fogadja el a kifizetést, a rendszer visszaadja azt. Ezt a beállítást a "Kérdezzen" beállítás kikapcsolásával módosíthatja a PayPal További beállítások oldalán.
 
-- **Milyen pénznemeket támogat a PayPal?** Tekintse [meg a PayPal támogatási oldalát](https://developer.paypal.com/docs/classic/api/currency-codes/#paypal) az aktuális listához
+- **Milyen pénznemeket támogat a PayPal?** Az aktuális listát a [PayPal támogatási](https://developer.paypal.com/docs/classic/api/currency-codes/#paypal) oldalán láthatja
 
-### <a name="specific-requirements-for-certain-countriesregions"></a>Bizonyos országokban/régiókban meghatározott követelmények
+### <a name="specific-requirements-for-certain-countriesregions"></a>Bizonyos országokra/régiókra vonatkozó konkrét követelmények
 
-Egyes országokban és régiókban a kifizetési fiókok további követelményeit kell követni. Ha Ön Pakisztán, Oroszország vagy Ukrajna lakosa, vegye figyelembe az alábbi követelményeket.
+Egyes országokban és régiókban a kifizetési fiókokra vonatkozó további követelményeket is be kell tartani. Ha Egyesült Államok, Oroszország vagy Oroszország területén rendelkezik helyiekkel, vegye figyelembe az alábbi követelményeket.
 
 #### <a name="pakistan"></a>Pakisztán
 
-Az űrlap-R egy pakisztáni banki szabályozási követelmény. A szolgáltatás a források külföldről való fogadásának célját és okát jelzi. Ezért bármikor, ha Ön jogosult a Microsoft havi befizetésére, a kifizetés a fiókba való kiadása előtt be kell nyújtania egy Form-R-t a bankba. Az űrlap-R másolatának beszerzésével kapcsolatos útmutatásért forduljon a helyi bank ágában.
+A Form-R egy banki szabályozási követelmény. A rendeltetése és oka, hogy a ki nem számlált összeget ki kell használni. Ezért minden olyankor, amikor jogosult a Microsoft havi kifizetésre, be kell nyújtania egy R űrlapot a banknak, mielőtt a kifizetést kiadhatja a fiókjába. A Form-R másolatának beszerzéséhez lépjen kapcsolatba a helyi bankfiókkal.
 
-Minden hónapban be kell nyújtania egy űrlap-R-t a bankba, hogy Ön jogosult legyen a kifizetésre. Ha például az év minden hónapjában várhatóan fizetést szeretne kapni, akkor az R 12 alkalommal kell elküldenie egy űrlapot (havonta egyszer).
+Minden hónapban be kell nyújtania egy Form-R űrlapot a bankjának, hogy jogosult legyen kifizetésre. Ha például az év minden hónapját kifizetésre számítja, 12-szer kell beküldődnie az R űrlapot (havonta egyszer).
 
-Miután elküldte a nyereményt a banknak, 30 napja van egy Form-R beküldéséhez. Ha 30 napon belül nem küldi el a rendszer, a rendszer visszaküldi a forrásokat a Microsoftnak.
+Miután a kifizetést elküldték a banknak, 30 napja van az R űrlap beküldre. Ha az összeget nem 30 napon belül beküldik, a rendszer visszaküldi az összeget a Microsoftnak.
 
 #### <a name="russia"></a>Oroszország
 
-Ha Ön olyan közzétevő, aki Oroszországban él, előfordulhat, hogy a bankja számára meg kell adnia a dokumentációt, mielőtt a bank befizeti az összeget a fiókjába. Ha jogosult a fizetésre, a következő e-mail-üzenetben biztosítjuk Önnek az alábbi dokumentációt:
+Ha Ön egy olyan közzétevő, aki Oroszországban él, előfordulhat, hogy dokumentációt kell nyújtania a banknak, mielőtt a bankja a számlájára helyezi a összeget. Ha jogosult a fizetésre, a következő dokumentációt fogjuk biztosítani egy e-mail-üzenetben:
 
-- Elfogadási tanúsítvány (AC) – a fiókba átutalt kifizetés mennyiségét tartalmazza.
-- [Microsoft Azure Marketplace kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560)  – a kiadói szerződés aláírt másolata, amely alá kell írni a számlálót.
+- Elfogadási tanúsítvány (AC) – a fiókba átvitt kifizetések mennyiségét tartalmazza.
+- [Microsoft Azure Marketplace Közzétevői](https://go.microsoft.com/fwlink/p/?LinkID=699560)  szerződés – a közzétevői szerződés aláírt másolata, amelyről számlálót kell aláírni.
 
-Győződjön meg arról, hogy a kifizetés sikeres volt, ügyeljen rá, hogy:
+A kifizetés sikeres voltának biztosítása érdekében győződjön meg a következőről:
 
-- A partner Centerben a kifizetési fiókjához megadott **fiók tulajdonosának** pontosan meg kell egyeznie a bankszámlával társított névvel. Ha például a bankszámla neve középső nevet tartalmaz, adjon hozzá egy középső nevet a **fiók tulajdonosának nevéhez**.
-- A kifizetések közvetlenül a Microsofttól a bankszámlájára kerülnek a rubel (RUB) pénznemben.
-- A partner Centerben megadott banki adatok latin betűvel vannak lefordítva a cirill karakterekre.
-- A kifizetéseket bankszámlára kell tenni, és nem kell bankkártyához adni.
+- A **kifizetési számlán** megadott fióktulajdonosi névnek pontosan Partnerközpont kell lennie a bankszámlaszámhoz társított névnek. Ha például a fióknév tartalmaz egy középső nevet, adjon hozzá egy középső nevet a **fióktulajdonos nevéhez.**
+- A kifizetéseket a rendszer közvetlenül a Microsofttól a microsoftos számlára, a microsoftos pénznemben utalja át.
+- A rendszer a latin Partnerközpont megadott banki adatokat cirill karakterekre fordítja le.
+- A kifizetéseket nem bankkártya, csak egy banki számlára kell fizetni.
 
 #### <a name="ukraine"></a>Ukrajna
 
-Ha Ön olyan közzétevő, aki Ukrajnában él, előfordulhat, hogy meg kell adnia egy dokumentációt a bank számára, mielőtt a bank befizeti az összeget a fiókjába. Ha jogosult a fizetésre, a következő e-mail-üzenetben biztosítjuk Önnek az alábbi dokumentációt:
+Ha Ön közzétevő, és az Egyesült Államok területén él, előfordulhat, hogy dokumentációt kell nyújtania a banknak, mielőtt a bankja a számlájára helyezi a összeget. Ha jogosult a fizetésre, a következő dokumentációt fogjuk biztosítani egy e-mail-üzenetben:
 
-- Elfogadási tanúsítvány (AC) – a fiókba átutalt kifizetés mennyiségét tartalmazza.
-- [Microsoft Azure Marketplace kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560) – a kiadói szerződés aláírt másolata, amely alá kell írni a számlálót.
-- Módosítási szerződés (AA) – ezt a dokumentumot a bankja használhatja a kifizetési alapok azonosításához.
+- Elfogadási tanúsítvány (AC) – a fiókba átvitt kifizetések mennyiségét tartalmazza.
+- [Microsoft Azure Marketplace Közzétevői](https://go.microsoft.com/fwlink/p/?LinkID=699560) szerződés – a közzétevői szerződés aláírt másolata, amelyről számlálót kell aláírni.
+- Módosítási szerződés (AA) – ezt a dokumentumot a bank használhatja a kifizetési összeg azonosításához.
 
-A Microsoft mindhárom dokumentumot az első kifizetésének kísérlete után biztosítja. Minden további kifizetés esetében csak az AC-dokumentumot fogja kapni. Őrizze meg az ADA-t és az AA-dokumentumokat arra az esetre, ha szüksége van rájuk a jövőbeli kifizetések fogadásához a banktól.
+A Microsoft mindhárom dokumentumot biztosítja az első kifizetési kísérletkor. Minden további kifizetés esetén csak az AC-dokumentumot kapja meg. Őrizze meg az ADA- és AA-dokumentumokat arra az esetre, ha szüksége lenne rájuk, hogy jövőbeli kifizetéseket kapjanak a banktól.
 
-### <a name="create-a-paypal-payment-profile"></a>PayPal-fizetési profil létrehozása
+### <a name="create-a-paypal-payment-profile"></a>PayPal fizetési profil létrehozása
 
-Ha úgy döntött, hogy bankszámlát használ a kifizetések fogadásához, a következő eljárást kell végrehajtania a bankszámla konfigurálásához.
+Ha úgy választotta, hogy egy banki fiókot használ a kifizetések fogadásához, a következő folyamattal konfigurálhatja a banki fiókját.
 
-1. A *PayPal* lapon adja meg a szükséges adatokat a PayPal-Fiókjával kapcsolatban.
-2. Adja meg a PayPal-fiókjának adatait.
+1. A *PayPal lapon* adja meg a PayPal-fiókjával kapcsolatos szükséges adatokat.
+2. Adja meg a PayPal-fiók adatait.
 
     > [!NOTE]
-    > A fiókadatok megadásához használt mezők csak alfanumerikus karaktereket fogadnak el.
+    > A fiókadatokhoz használt mezők csak alfanumerikus karaktereket fogadnak el.
 
-3. Adja meg a kedvezményezett adatait.
-4. A profil- *hozzárendelés* lapon válassza ki azt a pénznemet, amelyet a kifizetések kiválasztásakor használni szeretne.
-5. Minden programban részt vevő programhoz ki kell választania egy fizetési profilt, de több program esetében ugyanazt a profilt használhatja.
-6. A módosítások mentéséhez válassza a Submit (küldés) lehetőséget.
+3. Adja meg a személyes adatokat.
+4. A *Profil-hozzárendelés oldalon* válassza ki azt a pénznemet, amit a kifizetések kiállításakor használni szeretne.
+5. Minden olyan programhoz ki kell választania egy fizetési profilt, amely részt vesz, de ugyanazt a profilt több programhoz is használhatja.
+6. A módosítások mentéshez válassza a Küldés lehetőséget.
 
 ## <a name="next-steps"></a>Következő lépések
 

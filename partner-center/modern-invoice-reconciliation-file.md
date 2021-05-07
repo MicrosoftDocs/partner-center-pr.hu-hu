@@ -8,12 +8,12 @@ ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
-ms.openlocfilehash: 7ff320124230ec8e0b3505b1c1dbbb7c811cb67f
-ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
+ms.openlocfilehash: 559b5334eb23ad76fe8cc51fc1beeaa3a86c6fa1
+ms.sourcegitcommit: 22e257d5b334ca8d3fc072f59010a508e1022694
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120716"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108702790"
 ---
 # <a name="csp-one-time-purchase-reconciliation-file-fields"></a>CSP egy alkalommal vásárolt egyeztetési fájl mezői
 
@@ -25,7 +25,7 @@ ms.locfileid: "108120716"
 ## <a name="using-the-recon-file"></a>A recon fájl használata
 Az alábbi táblázat az egyszer megvásárolt CSP egyeztetési fájl mezőinek leírását és mintaértékét tartalmazza.
 
-További információ az egyeztetési fájlokról: [Az egyeztetési fájlok használata.](use-the-reconciliation-files.md)
+Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [Az egyeztetési fájlok használata.](use-the-reconciliation-files.md)
 
 | Oszlop | Leírás | Mintaérték |
 | ------ | ----------- | ------------ |
@@ -38,7 +38,7 @@ További információ az egyeztetési fájlokról: [Az egyeztetési fájlok hasz
 | MpnId | A CSP-partner MPN-azonosítója. További információkért lásd: [elemi elemek létrehozása partner szerint.](./use-the-reconciliation-files.md#itemize-reconciliation-files-by-partner) | *6034453* |
 | ResellerMpnId | Az előfizetés rekordjának viszonteladójának MPN-azonosítója. | *6048879* |
 | OrderId | Egy rendelés egyedi azonosítója a Microsoft számlázási platformján. Hasznos lehet azonosítani a rendelést, amikor kapcsolatba lép az ügyfélszolgálattal. Az egyeztetéshez nem használatos. | *0ET2qaZvJGfF9wgSKnWzR5JLmhp10lOc1* |
-| OrderDate | A rendelés megrendelésének dátuma. | *10/3/2020* |
+| OrderDate | A rendelés utc szerinti dátuma. | *10/3/2020* |
 | ProductId | A termék egyedi azonosítója. | *DZH318Z0BNZ5* |
 | SkuId (Termékváltozatazonosító) | A termékváltozat egyedi azonosítója. | *006G* |
 | AvailabilityId (Rendelkezésre állásiid) | A rendelkezésre állás egyedi azonosítója. | *DZH318Z08B80* |
@@ -50,16 +50,16 @@ További információ az egyeztetési fájlokról: [Az egyeztetési fájlok hasz
 | Részösszeg | Adóz előtti összeg. A részösszegnek meg kell egyoznia a számlázható mennyiség és a tényleges egységár szorzatával. | *0* |
 | TaxTotal (Adóösszeg) | Adó összege díj. A piac adózási szabályai és adott körülmények alapján. | *0* |
 | Összesen | A teljes összeg megegyezik a részösszeggel és az adó összeggel. | *0* |
-| Pénznem | A számla az ügyfél pénzneme alapján jön létre. Ez azt jelenti, hogy ha Ön olyan partner, aki különböző számlázható pénznemek ügyfeleivel bonyolít le tranzakciót, minden ügyfél pénznemtípusról számlát fog kapni.  | *EUR* |
+| Pénznem | A számla az ügyfél pénzneme alapján jön létre. Ez azt jelenti, hogy ha Ön olyan partner, aki különböző számlázható pénznemek ügyfeleivel bonyolít le tranzakciót, minden ügyfél pénznemtípushoz számlát fog kapni.  | *EUR* |
 | PriceAdjustmentDescription (Áradjustmentdescription) | Az egységár módosításainak okai. Ezek a fő okok, de nem kizárólagosan a tényleges egységár meghatározása. | *["15,0% partneri jóváírás a felügyelt szolgáltatásokhoz"]* |
 | Közzétevő neve | A termék kiadója.  | *Microsoft* |
 | PublisherId | A közzétevő azonosításához Partnerközpont egyedi azonosító. | *NA* |
 | SubscriptionDescription (Előfizetés-leírás) | Az ügyfél által megvásárolt szolgáltatásajánlat neve az árlistában meghatározottak szerint. Ez az oszlop megegyezik az OfferName mezővel. | *Azure-csomag* |
-| SubscriptionId | Az előfizetés egyedi azonosítója a Microsoft számlázási platformon. Az egyeztetéshez nem használatos. Vegye figyelembe, hogy ez az azonosító nem ugyanaz, mint a partner felügyeleti konzolján található előfizetés-azonosító. | *307628f1-d9d2-f09c-ea1f-4183f0cae308* |
+| SubscriptionId | Előfizetés egyedi azonosítója a Microsoft számlázási platformon. Az egyeztetéshez nem használatos. Vegye figyelembe, hogy ez az azonosító nem ugyanaz, mint a partner felügyeleti konzolján található előfizetés-azonosító. | *307628f1-d9d2-f09c-ea1f-4183f0cae308* |
 | ChargeStartDate (Költségindításidátum) | Az előfizetés számlázási időszakának kezdete. | *9/1/2020* |
-| ChargeEndDate (Költség és költségdátum) | Az előfizetés számlázási időszakának végének dátuma. | *2020. 09. 30.* |
-| TermAndBillingCycle | Az előfizetés vásárláskor való folytatására vonatkozó kötelezettségvállalás. | *Tárolt adatok (GB/hónap)* |
-| EffectiveUnitPrice (Hatályos egységár) | A számlázási ciklus költségeinek kiszámításához használt időegység-ár. A tényleges egységárat a kedvezmények, a számlázási napok korrekciói és egyéb tényezők határozzák meg. További információ: [Effective Unit Price Calculation (Tényleges egységár kiszámítása).](./effective-unit-price-calculation.md)  | *0.03825* |
+| ChargeEndDate (Költség- és költségdátum) | Az előfizetés számlázási időszakának végének dátuma. | *2020. 09. 30.* |
+| TermAndBillingCycle | A vásárláskor az előfizetés folytatására vonatkozó kötelezettségvállalás időtartama. | *Tárolt adatok (GB/hónap)* |
+| EffectiveUnitPrice (Tényleges egységár) | A számlázási ciklus költségeinek kiszámításához használt időegység-ár. A tényleges egységárat a kedvezmények, a számlázási napok korrekciói és egyéb tényezők határozzák meg. További információ: [Effective Unit Price Calculation (Tényleges egységár kiszámítása).](./effective-unit-price-calculation.md)  | *0.03825* |
 | UnitType (Egységtípus) | Az egység típusa, amelyben a fogyasztásmérő fel van számolva. | *1 GB/hónap* |
 | AlternateId (Alternatívazonosító) | A hivatkozott rendelési sorelem alternatív azonosítója. | *6dc5c039750a* |
 | BillableQuantity | A kiszámlázandó teljes mennyiség.  | *0.005001* |
