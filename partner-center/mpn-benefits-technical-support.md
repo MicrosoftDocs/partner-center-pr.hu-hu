@@ -9,12 +9,12 @@ author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e8f99028fbb26003c0f18a85c5a6d7e416fecd60
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.openlocfilehash: 9aa451a3267cee70282aaad5e018e2f377edb82f
+ms.sourcegitcommit: 2ad9e61fa5b9941f927ebf44c459b6c1bd055b9d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172200"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "109630117"
 ---
 # <a name="technical-support-benefits"></a>Műszaki támogatási előnyök
 
@@ -26,7 +26,7 @@ ms.locfileid: "108172200"
 
 ## <a name="overview"></a>Áttekintés
 
-Ez a cikk a partnerpartnerek (MPN) Microsoft Partner Network tagjainak készült, akiknek szükségük van arra, hogy az MPN-partner előnyeinek használatával technikai támogatási incidensek felhasználásával hoznak létre műszaki támogatási incidenseket
+Ez a cikk a Microsoft Partner Network partnerek (MPN) tagjai számára készült, akiknek okkal kell támanunk, hogyan lehet műszaki támogatási incidenseket létrehozni az MPN-partner előnyeinek felhasználásával
 
 ## <a name="view-and-activate-your-technical-support-benefits"></a>A műszaki támogatási előnyök megtekintése és aktiválása 
 
@@ -36,7 +36,7 @@ A műszaki előnyök megtekintéséhez és aktiválásához a következő Partne
     > [!NOTE]
     > Ha a fiókja csak a CSP-hez van társítva, és nem az MPN-hez, a következő hibaüzenet jelenik meg: "Nem jogosult erre a műveletre". MpN-hez társított fiókkal kell lennie.
 
-2. Bontsa ki az Előnyök elemet a bal oldali navigációs menüben, és válassza **a Műszaki előnyök lehetőséget.** Megjelenik a Technikai előnyök lap, amely felsorolja a Gold, Silver vagy Microsoft Action Pack számára elérhető műszaki támogatási előnyöket. 
+2. Bontsa ki az Előnyök elemet a bal oldali navigációs menüben, és válassza a **Műszaki előnyök lehetőséget.** Megjelenik a Technikai előnyök lap, amely felsorolja a Gold, Silver vagy Microsoft Action Pack számára elérhető műszaki támogatási előnyöket. 
 
     > [!NOTE]
     >Ha nincs aktív tagsági ajánlata, a következő üzenet jelenik meg: "Úgy tűnik, hogy még nincsenek előnyei". Ha a vállalat aktív tagsági ajánlatokkal rendelkezik, de nem látja őket, előfordulhat, hogy nem a megfelelő fiókkal jelentkezett be. A fiók ellenőrzéséhez  válassza a fiók ikont az oldal jobb felső részen, majd válassza a Bejelentkezés másik fiókkal **lehetőséget** (ha szükséges).
@@ -79,11 +79,11 @@ Válassza [a Vállalati támogatás lehetőséget](https://support.serviceshub.m
 ## <a name="how-many-partner-support-incidents-are-remaining"></a>Hány partnertámogatási incidens maradt
 Ezt az információt csak a Helyszíni Vállalati támogatás támogatási portálon keresztül kaphatja meg. Sajnos a felhőportálok, például az Azure, az LCS stb. nem mutatják ezt az információt.
 
-A Vállalati támogatási szolgálatat kell használnia, és el kell kezdenie a helyszíni támogatási incidensek létrehozásához szükséges folyamatot. Nem hozunk létre támogatási kérést, mert nem fejezjük be a folyamatot. A szükséges információk a 2. lépésben jelennek meg.
+A Vállalati támogatási szolgálatat kell használnia, és el kell kezdenie a helyszíni támogatási incidensek létrehozási folyamatát. Nem hozunk létre támogatási kérést, mert nem fejezjük be a folyamatot. A szükséges információk a 2. lépésben jelennek meg.
 
-1. lépés: Válassza ki a Windows 10-et, és adja meg a próbaadatokat
+1. lépés: Nyissa meg [a Vállalati támogatást,](https://support.serviceshub.microsoft.com/supportforbusiness/create) válassza a Windows 10 lehetőséget, és adja meg a próbaadatokat
 
-2. lépés: A támogatási szerződés hozzáadása a hozzáférési azonosító és a szerződésazonosító használatával. A helyszíni támogatáshoz láthatja a partnertámogatási szerződést, amely tartalmazza a kezdési dátumot, a záró dátumot és a fennmaradó incidenseket. Bontsa ki a "Szeretné, ha nem elérhető támogatási csomagokat látna?" szakaszt a partneraláírással kapcsolatos információkért. Itt csak akkor jelenik meg a Partnertámogatás, ha a szerződések lejártak, nincsenek fennmaradó incidensei, vagy [](https://aka.ms/n-1) ha egy régi, a aka.ms/n-1 terméket választott ki.
+2. lépés Ha a támogatási szerződése már társítva van a fiókjához, megjelenik a támogatási incidensek megjelenítése. Helyszíni támogatás esetében meg kell jelenni a Partnertámogatási szerződésnek (kivéve, ha az már nem érvényes), és ez tartalmazza a kezdési dátumot, a záró dátumot és a fennmaradó incidenseket. Ha társítania kell a támogatási szerződést, bontsa ki a "Kell vásárolnia vagy további támogatási csomagokat hozzáadnia", majd kattintson a Szerződés hozzáadása gombra a hozzáférési azonosító és a szerződésazonosító hozzáadásához. Bontsa ki a "Szeretné látni a nem elérhető támogatási csomagokat?" szakaszt a partneraláírással kapcsolatos információkért. Itt csak akkor jelenik meg a Partnertámogatás, ha a szerződések lejártak, nincsenek fennmaradó incidensei, vagy [](https://aka.ms/n-1) ha egy régi, a aka.ms/n-1 terméket választott ki.
 
 **További információ: Hány [partnertámogatási incidens van hátra?](https://support.microsoft.com/topic/how-many-partner-support-incidents-are-remaining-e8220db5-14f6-93db-4b4a-35766e11b3c3)** 
 
@@ -95,21 +95,21 @@ A kedvezmény első használatakor szüksége lesz a hozzáférési azonosítór
 
 Az Azure-kérelmeket létrehozására használt CSP-partnerek a "Felhőszolgáltató" támogatási tervet használhatnak támogatási szerződés hozzáadása nélkül.
 
-A **rendszergazdai ügynök szerepkört használó** felhasználók a bal oldali navigációs menü CSP területén választhatják az Ügyfelek, a **Szolgáltatáskezelés** lehetőséget, majd az Új **kérés lehetőséget.** [](https://partner.microsoft.com/commerce/customers/list)  A megfelelő számítási feladat kiválasztásakor megnyílik a számítási feladatra vonatkozó portál, és hozzáad egy támogatási szerződést, és létrehoz egy kérést.
+A **rendszergazdai ügynök szerepkört használó** felhasználók a bal oldali navigációs menü CSP területén választhatják az Ügyfelek, a **Szolgáltatáskezelés** lehetőséget, majd az **Új kérés lehetőséget.** [](https://partner.microsoft.com/commerce/customers/list)  A megfelelő számítási feladat kiválasztásakor megnyílik a számítási feladatra vonatkozó portál, és hozzáad egy támogatási szerződést, és létrehoz egy kérést.
 
 ## <a name="azure-portal-error-access-id-is-already-associated-"></a>Azure Portal "A hozzáférési azonosító már társítva van..."
-Az alkalmazás Azure Portal a Signature Felhőtámogatás a Súgó + támogatás, Támogatási csomagok, majd a "Támogatási előnyök összekapcsolása" lehetőség kiválasztásával, majd a hozzáférési azonosító és a szerződésazonosító megszabadlása után.
+Az alkalmazás Azure Portal a Signature Felhőtámogatás a Súgó + támogatás, Támogatási csomagok, majd a "Támogatási előnyök összekapcsolása" lehetőség kiválasztásával, majd a hozzáférési azonosító és a szerződésazonosító megszava.
 
 > [!NOTE]
-> Ha microsoftos Action Pack nem kap felhőtámogatást, mert az nem tartalmazza Signature Felhőtámogatás – csak a Microsoft terméktámogatást (helyszíni)
+> Ha microsoftos Action Pack nem kap felhőtámogatást, mert az nem tartalmazza Signature Felhőtámogatás – csak a Microsoft terméktámogatása (helyszíni)
 
-A következő hibaüzenet jelenhet *meg: "Ez a hozzáférési azonosító már társítva van egy fiókhoz. Új hozzáférési azonosító beszerzéséhez lépjen* kapcsolatba a műszaki fiókkezelővel" . **Ez a hibaüzenet érvénytelen, és figyelmen kívül kell hagyni!** Azt kértük, hogy a hibát tiltsa le, és cserélje le egy hasznos diagnosztikai hibaüzenetre. 
+A következő hibaüzenet jelenhet *meg: "Ez a hozzáférési azonosító már társítva van egy fiókhoz. Új hozzáférési azonosító beszerzéséhez lépjen* kapcsolatba a műszaki fiókkezelővel" . **Ez a hibaüzenet érvénytelen, és figyelmen kívül kell hagyni!** Kértük, hogy a hiba le legyen tiltva, és egy hasznos diagnosztikai hibaüzenettel helyettesítsen. 
 
-A fenti "Hozzáférési azonosító már társítva van..." hibaüzenet jelenik meg, ha a támogatási szerződést egy fiókhoz a Azure Portal. Tekintse meg az alábbi forgatókönyveket:
+A fenti "Hozzáférési azonosító már társítva van..." hibaüzenetet kap, ha a támogatási szerződést egy fiókhoz egynél több alkalommal társítja a Azure Portal. Tekintse meg az alábbi forgatókönyveket:
 
 1. Ha arany vagy ezüst technikai előnyökkel is jár, és korábban már hozzáadta a helyszíni támogatásra vonatkozó szerződést, használja az Azure Portal-t, és adja hozzá még egyszer ugyanhez a fiókhoz. A támogatási szerződést csak egyszer kell egy fiókhoz társítania, ezért az Azure-beli támogatási előnyök csatolása nem szükséges. Ha a Hivatkozástámogatási előnyöket használja, amikor a szerződés már társítva van a fiókhoz, a hibaüzenetet figyelmen kívül kell hagyni. Használja az + Support request, és hozzon létre egy támogatási incidenst a szokásos módon, és megjelenik a Támogatási csomag.
 
-2. Ha a támogatási szerződés lejárt, vagy a Signature 10pack (Gold Hybrid Kompetencia) vagy a Signature 5pack (Silver hybrid kompetencia) csomag nem rendelkezik incidensekkel, a támogatási szerződés azért marad meg, mert az érvénytelen. Ha ismét összekapcsolja a támogatási előnyöket, a hibaüzenet jelenik meg, mert a szerződés már társítva van. Az incidensek Azure-támogatás új támogatási tervet kell vásárolnia. 
+2. Ha a támogatási szerződés lejárt, vagy a Signature 10pack (Gold Hybrid Kompetencia) vagy a Signature 5pack (Silver hybrid kompetencia) csomag nem rendelkezik incidensekkel, a támogatási szerződés érvénytelensége miatt rejtve marad. Ha ismét összekapcsolja a támogatási előnyöket, a hiba akkor jelenik meg, ha a szerződés már társítva van. Az incidensek Azure-támogatás új támogatási tervet kell vásárolnia. 
 
 A partneri fizetett támogatási ajánlatokért lásd alább a partnertámogatási csomagokat.
 
