@@ -1,82 +1,83 @@
 ---
-title: Az adózási szabályzatok hatása az Azure Marketplace-re való kifizetésre
-description: Ismerje meg, hogyan hatnak az adószabályok az Azure Marketplace-re való kifizetésre.
+title: Hogyan befolyásolják az adózási szabályzatok a kifizetési Azure Marketplace
+description: Megtudhatja, hogyan befolyásolják az adózási szabályzatok a kifizetési Azure Marketplace.
 ms.topic: conceptual
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 02/09/2021
-ms.openlocfilehash: 817cdb895efab553b6f0131cdcdcf9b24bc6db3e
-ms.sourcegitcommit: 35fe0fdc41886f6f5af71ec74e4a4ebd245dfe1d
+ms.openlocfilehash: 343db43633245030a5eba213cb5c8b79d09a7dee
+ms.sourcegitcommit: 08a175c06ff4c6a2b12713f081adfa489e16e7a1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104768822"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "109686313"
 ---
-# <a name="how-tax-policies-affect-payout-for-azure-marketplace"></a>Az adózási szabályzatok hatása az Azure Marketplace-re való kifizetésre
+# <a name="how-tax-policies-affect-payout-for-azure-marketplace"></a>Hogyan befolyásolják az adózási szabályzatok a kifizetési Azure Marketplace
 
 **Megfelelő szerepkörök**
--    Globális rendszergazda
--    Felhasználói felügyeleti rendszergazda
--    Felügyeleti ügynök
+
+- Globális rendszergazda
+- Felhasználókezelő rendszergazda
+- Rendszergazdai ügynök
 
 ## <a name="introduction"></a>Bevezetés
 
-A Microsoft kereskedelmi piactér globális elérhetőséggel rendelkezik. A tranzakciók határokon keresztül történnek, és attól függően, hogy hol találhatók az ISV-és az ügyfél, az adó következményei változhatnak. A Microsoft AppSource és az Azure Marketplace a partner Center adózási profiljának adatait használja az ISV országának meghatározásához. Az ügyfél országának meghatározásához használja az ügyfél számlázási adatait, vagy ha az ügyfél az EU-ban található, két különböző információt használunk.
+A Microsoft kereskedelmi piactere globálisan elérhető. A tranzakciók a határokon keresztül történhetnek, és attól függően, hogy hol található az isv és az ügyfél, az adózási következmények eltérőek lehetnek. Microsoft AppSource és Azure Marketplace a Partnerközpont adóprofil-információk alapján határozzák meg az ISV országát. Az ügyfél országának meghatározásához használja az ügyfél számlázási adatait, vagy ha az ügyfél az EU-ban van, két különböző információt használunk.
 
-Az alábbi forgatókönyvek jobb megismeréséhez tekintse meg az [adó részletei](tax-details-marketplace.md) táblát, amely azt mutatja, hogy a Microsoft a közzétevő nevében gyűjt és fizet adót, vagy ha az adott felelősség a közzétevőhöz tartozik.
+A következő forgatókönyvek jobb érthetőségéhez [](tax-details-marketplace.md) tekintse meg az Adó részletei táblázatot, amely azt mutatja be, hogy a Microsoft a közzétevő nevében gyűjti be és fizeti-e az adókat, vagy hogy az adott felelősség a közzétevőhöz tartozik-e.
 
 > [!NOTE]
-> Ebben a témakörben az eladási értékek és az adókulcs-százalékarányok csak szemléltető célokat szolgálnak, nem pontos számadatokat tartalmaznak.
+> A témakörben szereplő összes értékesítési érték és adókulcs csak szemléltető célokat szolgál, nem pedig pontos adatokat.
 
-## <a name="publisher-transacts-in-microsoft-managed-tax-country"></a>Közzétevői Transacts a Microsoft által felügyelt adózási országban
+## <a name="publisher-transacts-in-microsoft-managed-tax-country"></a>Közzétevői tranzakció a Microsoft által felügyelt adó országában
 
-**A forgatókönyv** – a közzétevő és az ügyfél közötti, a [Microsoft által felügyelt adózási országokban](tax-details-marketplace.md#microsoft-managed-countries)lebonyolított tranzakciók. Ezek a tranzakciók érvényes adót kapnak az értékesítéskor, és a Microsoft ezt az adót a megfelelő országnak küldi el. A kifizetés és a kifizetési számítások alól nem számítunk fel adót.
+**A forgatókönyv** – A Microsoft által felügyelt adózási országban a közzétevő és az ügyfél [között tranzakciók.](tax-details-marketplace.md#microsoft-managed-countries) Ezekhez a tranzakciókhoz az értékesítéskor érvényes adó lesz hozzáadva, és a Microsoft elküldi ezt az adót az adott országnak. A kifizetési és kifizetési számítások nem tartalmazzák az adókat.
 
-A nem USA-beli közzétevő és az Egyesült államokbeli ügyfél közötti tranzakciókért lásd: [D. forgatókönyv](#foreign-publisher-transacts-with-us-customer) .
+A [D forgatókönyvben](#foreign-publisher-transacts-with-us-customer) az USA-n kívüli közzétevő és az USA-nak nem megfelelő ügyfelek közötti tranzakciókat láthatja.
 
-:::image type="content" source="images/tax-policies/payout-scenario-a.png" alt-text="A kifizetési folyamat forgatókönyvének munkafolyamatát jeleníti meg.":::
+:::image type="content" source="images/tax-policies/payout-scenario-a.png" alt-text="Megjeleníti az A kifizetési folyamat forgatókönyvének munkafolyamatát.":::
 
-## <a name="publisher-transacts-in-microsoft-managed-tax-country-where-marketplace-fee-is-taxable-service"></a>Kiadói Transacts a Microsoft által felügyelt adózási országban, ahol a piactér díja adóköteles szolgáltatás
+## <a name="publisher-transacts-in-microsoft-managed-tax-country-where-marketplace-fee-is-taxable-service"></a>Közzétevői tranzakció a Microsoft által felügyelt adózási országban, ahol a Marketplace-díj az adózható szolgáltatás
 
-" **B" forgatókönyv** – az USA-alapú közzétevő (a partneri központ adóügyi profilja alapján meghatározott) közötti tranzakciók egy Microsoft által felügyelt adózási országban lévő ügyfélre, ahol az ország a Piactéri díj (adóköteles szolgáltatás) esetében adót szab ki. Ebben a forgatókönyvben az áruházi szolgáltatási díj adóját kivonják a kiadó kifizetésével.
+**B forgatókönyv** – Az USA-alapú közzétevő (az Partnerközpont adóprofil-információi által meghatározott) között egy, a Microsoft által felügyelt adózási országban található ügyfél számára, ahol az ország adót ír elő a Marketplace-díjra (ez egy adózható szolgáltatás). Ebben a forgatókönyvben az áruházi szolgáltatási díjra vonatkozó adó ki lesz vonva a közzétevő kifizetésből.
 
-:::image type="content" source="images/tax-policies/payout-scenario-b.png" alt-text="A kifizetési folyamat &quot;B&quot; forgatókönyvének munkafolyamatát jeleníti meg.":::
+:::image type="content" source="images/tax-policies/payout-scenario-b.png" alt-text="Megjeleníti a B kifizetési folyamat forgatókönyvének munkafolyamatát.":::
 
-## <a name="publisher-transacts-in-publisher-managed-tax-country"></a>Közzétevői tranzakciók a közzétevő által kezelt adózási országban
+## <a name="publisher-transacts-in-publisher-managed-tax-country"></a>Közzétevői tranzakció a közzétevő által kezelt adó országában
 
-**C. forgatókönyv** – a közzétevő által felügyelt adózási országban egy kiadó és egy ügyfél között zajló tranzakciók, amelyek nem írnak elő forrásadót az ügyfeleken. Az ügyfelek nem fizetnek adót az eladási helyen, és a kiadó köteles fizetni az összes vonatkozó adót.
+**C forgatókönyv** – Olyan tranzakciók, amelyek egy közzétevő és egy közzétevő által kezelt adózási ország ügyfele között történik, és amelyek nem írnak elő forrásadót az ügyfelekre. Az ügyfelek nem fizetnek az értékesítéskor, és a közzétevőnek kell fizetnie az összes vonatkozó adóért.
 
-Az országspecifikus díjszabással (például a közelgő adózás ellensúlyozására) kapcsolatos további információkért tekintse meg a [kereskedelmi Piactéri ajánlatok csomagjait és díjszabását](/azure/marketplace/plans-pricing#custom-prices).
+További információ az országspecifikus díjszabásról (például a közelgő adózási költségek eltolása érdekében) a Kereskedelmi piactéri ajánlatok csomagja és [díjszabása oldalon található.](/azure/marketplace/plans-pricing#custom-prices)
 
-:::image type="content" source="images/tax-policies/payout-scenario-c.png" alt-text="A kifizetési folyamat C. forgatókönyvének munkafolyamatát mutatja be.":::
+:::image type="content" source="images/tax-policies/payout-scenario-c.png" alt-text="A C kifizetési folyamat forgatókönyvének munkafolyamatát jeleníti meg.":::
 
-## <a name="foreign-publisher-transacts-with-us-customer"></a>Külföldi kiadói tranzakciók az USA-beli ügyféllel
+## <a name="foreign-publisher-transacts-with-us-customer"></a>Foreign Publisher Transacts with US Customer
 
-**D. forgatókönyv** – az Egyesült államokbeli szerződéssel nem rendelkező országokban (a partneri központ adózási profiljának adatai alapján) az összes külföldi közzétevő (lásd az [E FORGATÓKÖNYVET](#foreign-publisher-with-a-treaty-transacts-with-us-customer)) az USA-beli ügyfélnek (az ügyfél-fiók címe alapján) való értékesítésének megtételéhez. Az Egyesült Államok kormánya megköveteli, hogy a Microsoft visszatartási adót tartson a közzétevő nevében. A kifizetésből a kiadóba visszatartott adót az ajánlati ár alapján számítjuk ki.
+**D** forgatókönyv – Minden olyan ( az Partnerközpont adóprofilra vonatkozó információ által meghatározott) idegen közzétevő, aki az USA-ban nem él (lásd az [E](#foreign-publisher-with-a-treaty-transacts-with-us-customer)forgatókönyvet), amely értékesítést készít egy EGYESÜLT-alapú ügyfélnek (az ügyfélfiókjuk címe határozza meg). Az Egyesült Államok kormánya megköveteli, hogy a Microsoft visszatartott adója a közzétevő nevében legyen. A kifizetésekből a közzétevőbe történő kifizetésből származó adó kiszámítása az ajánlat ára alapján történik.
 
-:::image type="content" source="images/tax-policies/payout-scenario-d.png" alt-text="A kifizetési folyamat &quot;D&quot; forgatókönyvének munkafolyamatát jeleníti meg.":::
+:::image type="content" source="images/tax-policies/payout-scenario-d.png" alt-text="Megjeleníti a D kifizetési folyamat forgatókönyvének munkafolyamatát.":::
 
-## <a name="foreign-publisher-with-a-treaty-transacts-with-us-customer"></a>Külföldi kiadó szerződési tranzakciókkal az USA-beli ügyféllel
+## <a name="foreign-publisher-with-a-treaty-transacts-with-us-customer"></a>Idegen közzétevő egy Us Customer-ügyféllel való Tranzakciós tranzakcióval
 
-**E. forgatókönyv** – minden külső közzétevő (a partneri központ adózási profiljának adatai alapján) az USA-szerződéssel rendelkező országokban az Egyesült államokbeli ügyfél (az ügyfél-fiók címe alapján) értékesítést tesz elérhetővé. Az Egyesült Államok kormánya nem követeli meg a Microsofttól, hogy az adót a kiadó nevében visszatartsa.
+**E forgatókönyv** – Minden olyan (az Partnerközpont Partnerközpont adóprofillal kapcsolatos információ által meghatározott) idegen közzétevő, amely az USA-ban értékesítést készít egy EGYESÜLT-alapú ügyfélnek (az ügyfélfiók címe határozza meg). Az Egyesült Államok kormánya nem követeli meg, hogy a Microsoft visszatartsa az adót a közzétevő nevében.
 
-:::image type="content" source="images/tax-policies/payout-scenario-e.png" alt-text="A kifizetési folyamat munkafolyamatát mutatja E.":::
+:::image type="content" source="images/tax-policies/payout-scenario-e.png" alt-text="Megjeleníti az E kifizetési folyamat forgatókönyvének munkafolyamatát.":::
 
-## <a name="foreign-publisher-sells-to-an-eu-vat-registered-customer-in-a-microsoft-managed-country-outside-ireland"></a>A külföldi közzétevő a Microsoft által felügyelt országban (Írországon kívül) egy EU-beli ÁFA-regisztrált ügyfelet értékesít
+## <a name="foreign-publisher-sells-to-an-eu-vat-registered-customer-in-a-microsoft-managed-country-outside-ireland"></a>A külső közzétevő egy EU-ban regisztrált, a Microsoft által felügyelt országban (Írországon kívül) értékesít
 
-**F. forgatókönyv** – a külföldi közzétevők és az EU áfa-regisztrált ügyfelei (Írországon kívül) Microsoft-Managed ország összes tranzakciója. Az ügyfél nem fizet adót az értékesítésért.
+**F forgatókönyv** – Egy adott országban található külső közzétevők és az EU-ban regisztrált (Írországon kívüli) ügyfelek közötti Microsoft-Managed tranzakciók. Az ügyfél nem fizet adót az értékesítés után.
 
-:::image type="content" source="images/tax-policies/payout-scenario-f.png" alt-text="A kifizetési folyamat F. forgatókönyvének munkafolyamatát jeleníti meg.":::
+:::image type="content" source="images/tax-policies/payout-scenario-f.png" alt-text="Megjeleníti az F kifizetési folyamat forgatókönyvének munkafolyamatát.":::
 
-## <a name="foreign-publisher-sells-to-an-eu-vat-registered-customer-in-a-microsoft-managed-country-in-ireland"></a>A külföldi kiadó egy Microsoft által felügyelt országban (Írországban) értékesíti az EU-beli ÁFA-regisztrált ügyfelet
+## <a name="foreign-publisher-sells-to-an-eu-vat-registered-customer-in-a-microsoft-managed-country-in-ireland"></a>A idegen közzétevő egy EU-ban regisztrált ügyfélnek értékesít a Microsoft által felügyelt országban (Írországban)
 
-**G. forgatókönyv** – a külföldi közzétevők és az EU-beli HÉA-regisztrált ügyfelek közötti összes tranzakció Microsoft-Managed országban (Írországon belül). Az ügyfél ír áfát fizet, a Microsoft pedig az ír kormánynak fizeti be ezt az adót.
+**G.** forgatókönyv – Egy adott országban található, a külevők és az EU-ban (Írországon belül) regisztrált ügyfelek közötti Microsoft-Managed tranzakciók. Az ügyfél az áfakulcsot fizeti, a Microsoft pedig ezt az adót a kormánynak fizeti.
 
-:::image type="content" source="images/tax-policies/payout-scenario-g.png" alt-text="A kifizetési folyamat G. forgatókönyvének munkafolyamatát jeleníti meg.":::
+:::image type="content" source="images/tax-policies/payout-scenario-g.png" alt-text="A G kifizetési folyamat forgatókönyvének munkafolyamatát jeleníti meg.":::
 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Közzétevő – gyakori kérdések](/azure/marketplace/marketplace-faq-publisher-guide)
-- [Fizetési és adózási profilok létrehozásához szükséges utasítások](./set-up-your-payout-account.md?context=%2fazure%2fmarketplace%2fcontext%2fcontext#create-a-payment-profile)
+- [Fizetési és adóprofilok létrehozására vonatkozó utasítások](./set-up-your-payout-account.md?context=%2fazure%2fmarketplace%2fcontext%2fcontext#create-a-payment-profile)

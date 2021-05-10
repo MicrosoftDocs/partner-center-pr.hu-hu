@@ -1,6 +1,6 @@
 ---
 title: Támogatás biztosítása az ügyfeleknek
-description: Ismerje meg a CSP-programban részt vevő partnerek ügyfélszolgálati feladatait. A számlázás, az előfizetés-kezelés és a technikai problémák támogatását fedi le.
+description: Ismerje meg a CSP-programban részt vevő partnerek ügyféltámogatási feladatait. A számlázás, az előfizetés-kezelés és a technikai problémák támogatását fedi le.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: Kim-Davis
@@ -9,18 +9,18 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
 ms.date: 01/22/2021
-ms.openlocfilehash: 2c44581b1c2d7fcf2e4a10de9194a8c7288791a2
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.openlocfilehash: ae39190e47b48a69e103da6d899b11c224a56d22
+ms.sourcegitcommit: 08a175c06ff4c6a2b12713f081adfa489e16e7a1
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172268"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "109686143"
 ---
 # <a name="providing-different-types-of-support-to-your-customers"></a>Különböző típusú támogatás nyújtása az ügyfeleknek
 
 **A következőre érvényes:**
 
--  A Microsoft Cloud for US Government Partnerközpontja
+- A Microsoft Cloud for US Government Partnerközpontja
 
 **Megfelelő szerepkörök**
 
@@ -32,7 +32,7 @@ A CSP-modellben tranzakciós partnerek az ügyfeleik megbízható tanácsadói, 
 
 A támogatási követelmény teljesítéséhez értékesíthet támogatást egy másik vállalattól, kiszervezheti a támogatási struktúra egészét vagy egy részét, és/vagy beállíthat egy olyan struktúrát, amely közvetlenül nyújt támogatást. Az ügyfeleknek nyújtott támogatás egészét vagy egy részét fel kell számoltathatja. Mindenképpen mondja el az ügyfeleknek az Ön által nyújtott támogatás típusait, a szolgáltatási órákat, a kapcsolatfelvételi módot és a díjszabást (ha a támogatás díjszabása van be).
 
-Maguk a CSP-ügyfelek nem hozhatnak létre támogatási jegyeket. Támogatásért kapcsolatba kell lépniük Önnel. A CSP-partnereknek bejövő támogatási kéréseket kell fogadniuk az ügyfeleiktől, a lehető legjobban diagnosztizálni a problémákat, majd meg kell oldaniuk az alapkonfigurációk támogatási határain belül található problémákat. Ha nem sikerül megoldania egy problémát, a következő támogatási járműveken keresztül eszkalálhatja a problémákat a Microsoftnak:
+A CSP-ügyfelek maguk nem hozhatnak létre támogatási jegyeket. Támogatásért kapcsolatba kell lépniük Önnel. A CSP-partnereknek bejövő támogatási kéréseket kell fogadniuk az ügyfeleiktől, a lehető legjobban diagnosztizálni a problémákat, majd meg kell oldaniuk az alapkonfigurációk támogatási határain belül található problémákat. Ha nem sikerül megoldania egy problémát, a következő támogatási járműveken keresztül eszkalálhatja a problémákat a Microsoftnak:
 
 - **A** kereskedelmi probléma támogatása a CSP-program összes partnere számára elérhető
 
