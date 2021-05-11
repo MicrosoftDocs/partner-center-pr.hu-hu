@@ -4,17 +4,17 @@ ms.topic: how-to
 ms.date: 11/06/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan találhat azonosítókat a Azure Portal – a szervezet Azure AD-bérlőazonosítóját, tartománynevét vagy adott felhasználói objektumazonosítóját. Egyes feladatoknak szüksége van erre az információra.
+description: Megtudhatja, hogyan találhat azonosítókat a Azure Portal a szervezet Azure AD-bérlőazonosítóját, tartománynevét vagy adott felhasználói objektumazonosítóját. Egyes feladatoknak szüksége van erre az információra.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 17b0100bf5e45e931a765a73fb98afddf6dba656
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.openlocfilehash: 643b1eeb96a47ee4c438f733efe3be22234d02ff
+ms.sourcegitcommit: e462f562e7f26b7d6870c22638a2a841499109d6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172251"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109740284"
 ---
 # <a name="locate-important-ids-for-a-user"></a>Felhasználó fontos azonosítóinak megkeresve
 
@@ -32,7 +32,7 @@ Ez a cikk azt ismerteti, hogyan használhatja [Azure Portal](https://portal.azur
 
 ## <a name="find-the-microsoft-azure-ad-tenant-id-and-primary-domain-name"></a>Keresse meg Microsoft Azure AD bérlőazonosítót és az elsődleges tartománynevet
 
-Az alábbi lépéseket követve keresse meg az Azure AD-bérlőazonosítót vagy az elsődleges tartománynevet a Azure Portal. (Ha programozott módon szeretné megtalálni a bérlőazonosítót, tekintse meg a bérlőazonosító PowerShell vagy parancssori felület használatával [történő keresését.)](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant.md#find-tenant-id-with-powershell)
+Az alábbi lépéseket követve keresse meg az Azure AD-bérlőazonosítót vagy az elsődleges tartománynevet a Azure Portal. (Ha programozott módon szeretné megtalálni a bérlőazonosítót, tekintse meg a bérlőazonosító PowerShell vagy parancssori felület használatával [történő keresését.)](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant#find-tenant-id-with-powershell)
 
 > [!NOTE]
 > A bérlőazonosító más neveket is nevezhet a különböző alkalmazásokban vagy erőforrásokban. A bérlőazonosítóra hivatkozhat például címtár-azonosítónak, Azure Active Directory-bérlőnek (Azure AD-bérlőnek), Microsoft-azonosítónak, vagy bizonyos jelentéseknek, még a *tenantguid-nek is.*
