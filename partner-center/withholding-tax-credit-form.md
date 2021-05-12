@@ -1,114 +1,111 @@
 ---
-title: Jóváírás a visszatartási adó alól
+title: Jóváírás a visszatartott adóért
 ms.topic: article
 ms.date: 06/05/2020
-description: Jóváírást kap a partner Center-fiókban az adó-visszatartáshoz. Az információ az adó-visszatartási kérelem elküldésének lépéseit tartalmazza.
+description: Az adóelőleg Partnerközpont jóváírást kapja meg. Az információk tartalmazzák az adóelőleg-kérelem elküldését.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 064a5ea1e712ca66504536652543c0523fc73eae
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 63aea520279dc6d126253969cb3175a253b9b3c6
+ms.sourcegitcommit: 837d3c5b52ab056b2b761cd85eb2426f56b62614
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101755718"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109795023"
 ---
-# <a name="receive-credit-on-your-partner-center-account-for-tax-withholding"></a>Jóváírások fogadása a partner Center-fiókban az adó-visszatartáshoz
+# <a name="receive-credit-on-your-partner-center-account-for-tax-withholding"></a>Jóváírás fogadása Partnerközpont adóelőleg-számláról
 
-**Megfelelő szerepkörök**
-
-- Fiókadminisztrátor
-- Számlázási adminisztrátor
+**Megfelelő szerepkörök:** Fiók-rendszergazdai | Számlázási rendszergazda
 
 ## <a name="overview"></a>Áttekintés
 
-Egyes országokban a CSP-partnerek olyan számlázási összegeket kapnak, amelyek adókat tartalmaznak. Néhány partner a Microsoft helyett a helyi adóhatóságot fizeti. Ha kifizeti a helyi adóhatóságot, el kell küldenie egy adóelőleg-visszatartási kérelmet is, beleértve az adóhatóságot, amely törli az előző számlákból származó adóköteles összeget. Ezek a törölt összegek a partner központ **Számlázási lapjának** **utolsó fizetési** oszlopában jelennek meg.
+Egyes országokban a CSP-partnerek megkapják az adókat is magukban foglaló számlaösszegeket. Ezen partnerek némelyike a Microsoft helyett a helyi adószolgáltatót fizeti ki. Ha a helyi adószolgáltatónak fizet, be kell nyújtania egy adóelőleg-kérelmet, amely tartalmazza az adóelőleg-igazolást is, hogy a korábbi számlákból törölje az adózott összeget. Ezek a ki nem ürített összegek a számlázási oldal **Utolsó** fizetés **oszlopában Partnerközpont.**
 
-Az adó-visszatartási kérelmek beküldésére szolgáló partnerek szolgáltatási kérelmek (partner-támogatási jegyek) létrehozásával a partner Centerben. Ez a folyamat a 2020 januárjában módosult. A CSP-partnereknek most a **Számlázási oldalon** kell elküldeniük az adó-visszatartási kérelmeket a támogatási kérések létrehozása helyett.
+Az adóelőleg-kérelmek elküldését használt partnerek szolgáltatáskérések (partnertámogatási jegyek) létrehozásával a Partnerközpont. Ez a folyamat 2020 januárban megváltozott. A CSP-partnereknek mostantól támogatási kérelmek létrehozása helyett adóelőleg-kérelmeket kell benyújtaniuk a **Számlázási** oldalon.
 
 > [!IMPORTANT]
-> A partnerek csak a **fizetős** számlákra vonatkozóan küldhetnek forrásadó-kérelmeket.
+> A partnerek csak a fizetős  számlákra küldhetnek forrásadóadó-kérelmeket.
 
-## <a name="submit-a-tax-withholding-request"></a>Adó-visszatartási kérelem elküldése
+## <a name="submit-a-tax-withholding-request"></a>Adóelőleg-kérelem elküldése
 
-Kövesse az alábbi lépéseket egy új adóelőleg betartásának elküldéséhez:
-
-1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
-
-2. A bal oldali menüben válassza a **számlázás** lehetőséget, és lépjen a **Számlázási előzmények** menüpontra.
-
-3. Kattintson az **új küldése** elemre azon számla mellett, amelyhez el szeretné küldeni a visszaküldést. A beküldés új hivatkozása az **új adó-visszatartási kérelem** lapra kerül.
-
-   :::image type="content" source="images/wht1.png" alt-text="Új adóelőleg-visszatartások beküldése a számlára":::
-
-4. Tekintse át a számla részleteit, és győződjön meg arról, hogy elküldte a kérést a megfelelő számlára.
-
-   :::image type="content" source="images/wht2.png" alt-text="Számla teljes adóelőleg-visszatartásának részletei":::
-
-5. Adja meg a "visszatartási összeg" értéket az **adó-visszatartási részletek** területen. A "visszatartási összeg" a várhatóan jóváírt mennyiség.
-
-6. **Rendeljen hozzá** egy adóhatóságot. Az adóelőleg-visszatartási kérelemben szerepelnie kell a **forrásadó-tanúsítvány** **digitális másolatának** . Ezt a tanúsítványt a helyi adóhatóságtól kapta, ha adót fizet a helyi adóhatóságnak. A forrásadó-tanúsítvány adóelőleg-összegének meg kell egyeznie az adó-visszatartási kérelemben szereplő teljes összeggel.
-
-   > [!IMPORTANT]
-   > A partner által biztosított összegek összegének meg kell egyeznie a csatolt adó tanúsítványának számlasor-elemével. A csatolt tanúsítványfájl-fájloknak a következő fájlformátumok egyikében kell szerepelniük:. Csak PDF vagy rendszerkép (. JPEG,. PNG és. GIF). Emellett a fájlok nevei nem tartalmazhatnak szóközöket vagy speciális karaktereket. A fájlméret nem lehet nagyobb 1 MB-nál.
-
-7. **Küldje** el az adó-visszatartási kérelmet.
-
-   A kérelem elküldését követően a kérés bekerül a jóváhagyási folyamatba, ahol jóváhagyást kap a befejezéshez, vagy visszaküldi Önnek, ha helyesbítésekre van szükség. Megtekintheti a kérelmek AZONOSÍTÓját és állapotát, valamint azokat a **számlázási előzményeket** , amelyekben az új kérelmet elküldte.
-
-   Ha a rendszer visszaküldi a kérést, módosíthatja a visszatartási összeget, és lecserélheti a tanúsítványt, ha probléma merül fel.
-
-## <a name="update-request-and-resubmit"></a>Kérelem frissítése és újraküldése
-
-A felülvizsgálati csapat megkövetelheti, hogy a jóváhagyás megkezdése előtt javítsa a módosításokat, és küldje el újra a kérelmet. A **függőben lévő partneri műveletre** módosítják az állapotot. A kérelem javítása és újraküldése:
+Új adóelőleg elküldését az alábbi lépésekkel küldheti be:
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
-2. A bal oldali menüben válassza a **számlázás** lehetőséget.
+2. A bal oldali menüben válassza a **Számlázás lehetőséget,** majd a Számlázási **előzmények menüpontot.**
 
-3. A **Számlázási** oldal **Számlázási előzményeiben** keresse meg az adó-visszatartási kérelmet. A figyelmet igénylő kérések állapota "függőben lévő partneri művelet" lesz.
+3. Kattintson **a submit new** (Új elküldése) gombra annak a számlának a mellett, amely számára engedélyeket szeretne benyújtani. Az új hivatkozás elküldését az Új adóelőleg-kérelem **oldalra fogja** vinni.
 
-4. Az adó-visszatartási kérelem AZONOSÍTÓjának és állapotának megtekintéséhez kattintson a kérelem oldalára.
+   :::image type="content" source="images/wht1.png" alt-text="Új adóelőleg elküldése egy számlához":::
 
-5. Válassza a **frissítés lehetőséget, majd küldje el újra** az **állapot** alatt.
+4. Tekintse át a számla részleteit, és győződjön meg arról, hogy a megfelelő számlára vonatkozó kérést küldje el.
 
-6. Tekintse át a véleményezők által hagyott megjegyzéseket, amelyek kiemelik, hogy mit kell módosítani.
+   :::image type="content" source="images/wht2.png" alt-text="A számla adóelőleg-részleteinek teljes körű megtekintése":::
 
-7. A javítást a frissített tanúsítvány ismételt elküldésével vagy a visszatartási összegek módosításával végezheti el.
+5. Adja meg a "Visszatartott összeg" adatokat az **Adóelőleg részletei alatt.** A "visszatartott összeg" az az összeg, amely jóváírásra számít.
 
-8. **Küldje** el a kérelmet.
-
-A kérelem elküldése visszaküldi a felülvizsgálati csapatnak, ahol jóváhagyja vagy megkéri a további módosításokat.
-
-### <a name="approved-requests"></a>Jóváhagyott kérelmek
-
-A rendszer a következő számlán hajtja végre a jóváhagyott adó-visszatartási kérelmeket, és kiírja a fizetendő összeget. A **befejezettként** megjelölt kérelmeket 10 munkanapon belül kell alkalmazni. 
-
-A törölt összegek a **Számlázási oldal számlázási előzményei szakasza** alapján jelennek meg. A törölt összegek az **utolsó fizetési** oszlopban jelennek meg azon számla mellett, amelyre a kérést elküldték.
+6. **Csatoljon** egy adó tanúsítványt. Az adóelőleg-igazolás digitális  másolatát is bele kell foglalnia az adóelőleg-kérelembe.  Ezt a tanúsítványt a helyi adóhivataltól kapta, amikor adókat fizet a helyi adószolgáltatónak. A visszatartottadó-tanúsítványban szereplő számla adóösszegének meg kell egyeznie az adóelőleg-kérelemben szereplő teljes összeggel.
 
    > [!IMPORTANT]
-   > Az előző számlákat a rendszer nem állítja újra vagy nem adja ki újból. A clearace összeg egyszerűen az előző hónapok kifizetésére érvényes.
+   > A partner által rendelkezésre adott összegnek meg kell egyeznie a csatolt adózási tanúsítvány számlasorának tételével. A csatolt adózási tanúsítványfájloknak a következő fájlformátumok egyikében kell lennie: . Csak PDF vagy Csak kép (. Jpeg. PNG és . GIF). Emellett a fájlok nevei nem tartalmazhatnak szóközöket vagy speciális karaktereket. A fájlméret nem haladhatja meg az 1 MB-ot.
 
-Az adó-visszatartási kérelmek feldolgozásának elvégzése két napot vesz igénybe, feltételezve, hogy az ügyféltanúsítvány és az összeg helyes. Ha módosításokra van szükség, a rendszer a szükséges javítások miatt hosszabb időt vesz igénybe.
+7. **Küldje el** az adóelőleg-kérelmet.
 
-Ha kérdése van a visszatartási adójóváírás igénylési folyamatával kapcsolatban, küldjön be egy jegyet a partner támogatási szolgálatának. A kérdések feloldásához szüksége lesz az adó-visszatartási kérelem AZONOSÍTÓJÁRA.
+   A beküldött kérelem a jóváhagyási folyamatba kerül, ahol jóváhagyják a jóváhagyást, vagy visszaküldik Önnek, ha javításra van szükség. Tekintse meg a kérés azonosítóját és  állapotát abban a számlázási előzményekben, ahonnan az új kérelmet beküldi.
 
-## <a name="german-tax-withholding"></a>Német forrásadó
+   Ha a kérelmet visszaküldik Önnek, módosíthatja a visszatartott összeget, és lecserélheti a tanúsítványt, ha probléma van vele.
 
-A német adó-visszatartási kérelmeket elküldő partnereknek a következő címen kell megemlékezniük a forrásadó-tanúsítvány e-mailben rögzített példányaira:
+## <a name="update-request-and-resubmit"></a>Kérés frissítése és újrabekérése
 
-- Címzett: EOC Tax Team Marianne Gannon
-- Microsoft EMEA operatív központ
+Előfordulhat, hogy a felülvizsgálati csapat javításokat kér, majd a jóváhagyás előtt újrakérvényesít egy kérelmet. Az állapotot Függőben lévő **partneri műveletre módosítják.** A kérés kijavítás és újrabekérése:
+
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
+
+2. A bal oldali menüben válassza a Számlázás **lehetőséget.**
+
+3. A Számlázási **oldal** Számlázási előzmények **lapján** keresse meg az adóelőleg-kérelmet. A figyelmet igényelő kérések állapota "Partneri művelet függőben" lesz.
+
+4. Kattintson az adóelőleg-kérelem azonosítójára és állapotára, amely a kérés oldalára visz.
+
+5. Válassza **az Update (Frissítés) lehetőséget, majd adja meg újra az et az** Status **(Állapot) alatt.**
+
+6. Tekintse át a felülvizsgálók által megmaradt megjegyzéseket, és jelölje ki, hogy mit kell módosítani.
+
+7. A javításokat vagy egy frissített tanúsítvány újratitkozásával, vagy a visszatartott mennyiség módosításával javíthatja.
+
+8. **Küldje el** a kérelmet.
+
+A kérelem elküldése visszaküldi azt a felülvizsgáló csapatnak, ahol jóváhagyják vagy további módosításokat kérnek.
+
+### <a name="approved-requests"></a>Jóváhagyott kérések
+
+A jóváhagyott adóelőleg-kérelmek a következő számlán lesznek végrehajtva, és leírják a tartozást. A Befejezettként megjelölt  kérelmeket 10 munkanapon belül kell alkalmazni. 
+
+A ki nem ürített összegek a Számlázási oldal számlázási előzményei **szakaszban jelennek meg.** A ki nem ürített  összegek az Utolsó kifizetés oszlopban fognak ni a számla mellett, amelybe a kérést elküldték.
+
+   > [!IMPORTANT]
+   > A korábbi számlákat a program nem újra létrehozza vagy újra létrehozza. A egyértelmű összeget egyszerűen az előző hónapok kifizetése esetén alkalmazza a rendszer.
+
+Az adóelőleg-kérelmek feldolgozása két napot vehet igénybe, feltételezve, hogy az adókulcs és az összeg helyes. Ha módosításokra van szükség, az hosszabb időt fog igénybe venni, mert a javításokat végre kell tartani, majd újra el kell küldeni.
+
+Ha kérdése van a visszatartott adójóváírási folyamattal kapcsolatban, küldjön egy jegyet a partnertámogatásnak. A kérdések megoldásához szüksége lesz az adóelőleg-kérelem azonosítójára.
+
+## <a name="german-tax-withholding"></a>Német adóelőleg
+
+A németországi adóelőleg-kérelmeket beküldő partnereknek ne felejtsenek el másolatot küldeni a visszatartottadó-tanúsítványról az alábbi címre:
+
+- ATTN: Az EOC adócsapata, Majd Gannon
+- Microsoft EMEA Operations Centre
 - Egy Microsoft-hely,
-- Dél-megyei üzleti Park
-- Leopardstown, Dublin 18, Írország
+- Dél-Megye Üzleti Park
+- Fogscal, Dublin 18, Írország
 
-### <a name="questions-and-assistance-for-tax-withholding-requests"></a>Az adó-visszatartási kérelmekkel kapcsolatos kérdések és segítség
+### <a name="questions-and-assistance-for-tax-withholding-requests"></a>Kérdések és segítség az adóelőleg-kérelmekhez
 
-A partnereknek a fentiekben ismertetett új folyamatot kell használniuk új kérések elküldésére, és a továbbiakban nem használják a támogatási kérelmek létrehozását az új adóelőleg-kérésekhez. Az adó-visszatartási kérelmekkel kapcsolatos további kérdésekkel rendelkező partnerek [támogatási kérelmeket küldhetnek](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=9227afa6-babf-3917-acee-67db7860f5ed). A támogatási kérelmek célja, hogy segítséget nyújtson a partnereknek a meglévő kérésekhez, így a **kérésük azonosítójának** kell megadniuk az új jegy elküldéséhez. Ha a partnerek nem küldhetnek be kérelmet az új folyamattal, a támogatási kérelem űrlapján meg kell adniuk néhány számot (az összes 1). 
+A partnereknek a fent részletezett új folyamatot kell használniuk az új kérelmek beküldésében, és a továbbiakban nem kell támogatási kérelmeket használniuk az új adóelőleg-kérelmekhez. Az adóelőleg-kérelmekkel kapcsolatos további kérdéseket felelő partnerek támogatási [kéréseket küldhetnek.](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=9227afa6-babf-3917-acee-67db7860f5ed) A támogatási kérések célja, hogy segítsenek a partnereknek  a meglévő kérések igénylési azonosítójával, hogy új jegyet küldjenek. Ha a partnerek nem tudnak kérelmet beküldődni az új folyamattal, meg kell adnia néhány számot (mind az 1-et) a támogatási kérelem űrlapon. 
 
    > [!IMPORTANT]
-   > A partnereknek nem kell kapcsolatba lépniük a támogatási szolgálattal, ha a kérelem állapota **befejeződött**. Ez az állapot a beküldéshez tartozó számla melletti **Számlázási előzményekben** jelenik meg. A számla melletti **utolsó fizetési** összegnek a kérelem **befejezettként** való megjelölése után tíz nappal withint kell lennie az adóelőleg-visszatartási összegnek.
+   > A partnereknek nem kell kapcsolatba lépniük az ügyfélszolgálattal, ha a kérésük **Befejezve állapotú.** Ez az állapot megjelenik a **számlázási előzményekben** a beküldéshez tartozó számla mellett. **A számla** melletti utolsó kifizetés összegének a kérelem Befejezve jelölését követő tíz napon belül kell tükröznie az adóelőleg **összegét.**

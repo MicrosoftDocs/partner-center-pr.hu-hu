@@ -4,55 +4,53 @@ ms.topic: article
 ms.date: 11/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a közvetett szolgáltatói partner a Cloud Solution Provider (CSP) programban milyen közvetett viszonteladókkal rendelkezik, és határozza meg, melyik szerepkörrel rendelkezik.
+description: Megtudhatja, hogyan partneri partnert a közvetett szolgáltatók a Felhőszolgáltató (CSP) programban közvetett viszonteladókkal, és határozza meg, hogy melyik szerepkör a megfelelő az Ön számára.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ce5baddcc6d598ec4d926e74a6f4a85a3b4cbbbe
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: d8370b213a3d0fd96a4d2ef457de1140ee4549f6
+ms.sourcegitcommit: 837d3c5b52ab056b2b761cd85eb2426f56b62614
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712562"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109794887"
 ---
-# <a name="different-ways-you-can-work-with-other-partners-in-partner-center"></a>Különböző módokon dolgozhat más partnerekkel a partner Centerben
+# <a name="different-ways-you-can-work-with-other-partners-in-partner-center"></a>Különböző módokon dolgozhat más partnerekkel a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Fiók-rendszergazda
 
-- Fiókadminisztrátor
+A Microsoft Felhőszolgáltató (CSP) programja lehetőségeket kínál a partnerek számára az ilyen együttműködésre.
 
-A Microsoft Cloud Solution Provider (CSP) programja lehetőséget biztosít a partnerek számára a közös együttműködésre ezekben a módokban.
+## <a name="indirect-provider-indirect-reseller-model"></a>Közvetett szolgáltató–közvetett viszonteladói modell
 
-## <a name="indirect-provider-indirect-reseller-model"></a>Közvetett szolgáltató – közvetett viszonteladói modell
-
-Ebben a modellben, más néven a kétrétegű modellként, a közvetett szolgáltatók és a közvetett viszonteladók együttműködve használják fel a Microsoft felhőalapú szolgáltatásait több területi, vertikális és iparágbeli szervezetnek.
+Ebben a modellben, más néven a kétrétegű modellben a közvetett szolgáltatók és a közvetett viszonteladók együtt értékesítik a Microsoft felhőalapú szolgáltatásait különböző területi, vertikális és iparági szervezeteknek.
 
 ### <a name="indirect-providers"></a>Közvetett szolgáltatók
 
-A közvetett szolgáltatók (más néven forgalmazók) közvetlenül a Microsofttól vásárolnak termékeket és előfizetéseket, és a viszonteladók számára is felkínálják ezeket a megoldásokat az ügyfeleknek. A közvetett viszonteladók használata lehetővé teszi a szolgáltatók számára a REACH és az ügyfélkör bővítését.
+A közvetett szolgáltatók (más néven forgalmazók) közvetlenül a Microsofttól vásárolnak termékeket és előfizetéseket, majd viszonteladókon keresztül kínálják ezeket a megoldásokat az ügyfeleknek. A közvetett viszonteladókkal való együttműködés lehetővé teszi a szolgáltatók számára, hogy bővítsék az elérésüket és az ügyfélkörüket.
 
-Ha Ön a CSP-ben jóváhagyott közvetett szolgáltató, tekintse meg a [CSP-vel kapcsolatos közvetett viszonteladókkal foglalkozó partnert](indirect-provider-tasks-in-partner-center.md) , ahol további információt talál a közvetett viszonteladókkal és ügyfelekkel való csatlakozásról.
+Ha Ön csp-hez jóváhagyott közvetett [](indirect-provider-tasks-in-partner-center.md) szolgáltató, a közvetett viszonteladók és ügyfelek kapcsolatával kapcsolatos további információkért tekintse meg a közvetett viszonteladóktól és ügyfelektől való csatlakozással kapcsolatos további tudnivalókat.
 
 ### <a name="indirect-resellers"></a>Közvetett viszonteladók
 
-A közvetett viszonteladók olyan közvetett szolgáltatókkal működnek együtt, akik közvetlen kapcsolatban állnak a Microsofttal, és az infrastruktúrával biztosítják az ügyfelek támogatását és számlázását. A közvetett szolgáltatókkal való partneri kapcsolat lehetővé teszi, hogy a közvetett viszonteladók a tapasztalt technológiákkal együttműködve a piacra lépjenek, anélkül, hogy nagy tőkebefektetésre lenne szüksége, és szélesebb körű portfóliót nyújtsanak a Microsoft-megoldások számára.
+A közvetett viszonteladók közvetett szolgáltatókkal dolgoznak, akik közvetlen kapcsolatban vannak a Microsofttal, és megfelelő infrastruktúrával biztosítanak ügyféltámogatást és számlázást. A közvetett szolgáltatókkal való partneri viszony lehetővé teszi a közvetett viszonteladók számára, hogy tapasztalt technológiai szolgáltatókkal is együtt dolgozva nagy tőkebefektetés nélkül piacra menekedve, valamint a Microsoft-megoldások szélesebb portfólióját kínálják.
 
-Ha Ön közvetett viszonteladó, vagy ha érdekli, hogy a CSP-t közvetett viszonteladóként regisztrálja, tekintse meg a következőt: [partner közvetett szolgáltatókkal a CSP-ben](indirect-reseller-tasks-in-partner-center.md) , hogy többet tudjon meg a közvetett szolgáltatókkal és ügyfelekkel való csatlakozásról.
+Ha ön közvetett viszonteladó, vagy ha közvetett viszonteladóként szeretne regisztrálni a CSP-be, további információért tekintse meg a közvetett szolgáltatókkal és ügyfelekkel való kapcsolatról a Partneri kapcsolatot a közvetett szolgáltatókkal a [CSP-ban.](indirect-reseller-tasks-in-partner-center.md)
 
-Nem biztos benne, hogy a CSP-t közvetett viszonteladóként vagy közvetlen partnerként regisztrálja? Lásd: a [Microsoft Partner Network webhelyén](https://partner.microsoft.com)található [közvetett modell megismerése](https://partner.microsoft.com/cloud-solution-provider/indirect) .
+Nem tudja, hogy a CSP-be közvetett viszonteladóként vagy közvetlen partnerként regisztráljon? Lásd [a közvetett modell megismeréséről a](https://partner.microsoft.com/cloud-solution-provider/indirect) Microsoft Partner Network [webhelyén.](https://partner.microsoft.com)
 
 ## <a name="multi-partner-support"></a>Többpartneres támogatás
 
-A partner Center többpartneres funkciója olyan forgatókönyveket támogat, amelyekben az ügyfeleknek egynél több partnerrel kell dolgozniuk. Előfordulhat például, hogy egy partnert szeretne felvenni szakértelmére az Office 365-ben, de egy másik partnert is bérel, aki Microsoft Azure szakterületére specializálódott. További információért lásd: több [partner támogatása](multipartner.md) .
+Partnerközpont többpartneres funkciója olyan helyzeteket támogat, amikor egy ügyfélnek több partnerrel kell dolgoznia. Előfordulhat például, hogy egy partnert szeretne felvenni az Office 365-ben szerzett szakértelmére, de egy másik partnert is, aki szakterülete a Microsoft Azure. További [információ: Többpartneres](multipartner.md) támogatás.
 
-A többpartneres támogatás a Microsoft nemzeti Felhőbeli ajánlatában is elérhető.
+A többpartneres támogatás a Microsoft országos felhőajánlatai között is elérhető.
 
 ## <a name="multi-channel-support"></a>Többcsatornás támogatás
 
-A partner Center többcsatornás funkciója olyan forgatókönyveket támogat, amelyekben az ügyfél egy partnert szeretne felvenni a máshol vásárolt előfizetés kiépítésére és támogatására. További információért lásd a [többcsatornás támogatás](multichannel.md) című témakört.
+Partnerközpont többcsatornás funkciója olyan helyzeteket támogat, amikor egy ügyfél fel szeretne venni egy partnert egy máshol megvásárolt előfizetés kiépítése és támogatása érdekében. További [információ: Többcsatornás](multichannel.md) támogatás.
 
-A többcsatornás támogatás a Microsoft nemzeti Felhőbeli ajánlatában is elérhető.
+A Többcsatornás támogatás a Microsoft országos felhőajánlatai között is elérhető.
 
 > [!IMPORTANT]  
-> A CSP program egyik partnere nem tudja újra eladni online szolgáltatások a CSP program egy másik partneréhez. Ez a korlátozás csak a CSP-tranzakciók végrehajtásához használt bérlőre vonatkozik. Azok a CSP-partnerek, akik nem CSP bérlőt használnak a vállalati használatra, vásárolhatnak online szolgáltatások egy másik CSP-partnertől. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival vagy a szabályzat változásaival kapcsolatos híreket a szokásos kommunikációs csatornákon keresztül hirdetjük meg, beleértve a [partneri központ bejelentéseit](announcements/index.md)is.
+> A CSP-programban lévő partnerek jelenleg nem online szolgáltatások a CSP-program egy másik partnerének. Ez a korlátozás csak a CSP-tranzakciók elvégzéséhez használt bérlőre vonatkozik. Azok a CSP-partnerek, akik nem CSP-bérlőt használnak vállalati használatra, online szolgáltatások egy másik CSP-partnertől vásárolhatnak. A Microsoft folyamatosan áttekinti az összes program szabályzatát és képességeit. A funkció kiadásokkal vagy szabályzatváltozásokkal kapcsolatos híreket a szokásos kommunikációs csatornákon fogjuk jelenteni, beleértve [a Partnerközpont bejelentéseit is.](announcements/index.md)

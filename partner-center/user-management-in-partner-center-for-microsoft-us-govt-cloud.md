@@ -1,7 +1,7 @@
 ---
-title: Felhasználói és licencelési felügyelet
+title: Felhasználó- és licenckezelés
 titleSuffix: Microsoft Cloud for US Government - Partner Center
-description: Ismerje meg, hogyan és hol kezelheti a Microsoft Cloud az USA kormányzati partnerei, ügyfelei és licencei, valamint a jelszavak alaphelyzetbe állítása során.
+description: Megtudhatja, hogyan és hol kezelheti Partnerközpont partnerek, Microsoft Cloud for US Government ügyfelek és licencek, valamint a jelszó-visszaállítások kezelését.
 ms.topic: article
 ms.date: 03/15/2019
 ms.service: partner-dashboard
@@ -10,40 +10,36 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9eb0a1f221f9dd7e938fb43334543801c94c3181
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: ddbc4415dc7ccf524f5e9618b2e787bc4ddb9926
+ms.sourcegitcommit: 837d3c5b52ab056b2b761cd85eb2426f56b62614
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441455"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109794938"
 ---
-# <a name="user-and-license-management-in-partner-center-for-microsoft-cloud-for-us-government"></a>Felhasználói és licencelési felügyelet a partner Centerben a Microsoft Cloud az USA kormányzati szervei számára
+# <a name="user-and-license-management-in-partner-center-for-microsoft-cloud-for-us-government"></a>Felhasználók és licencek kezelése Partnerközpont a Microsoft Cloud for US Government
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
+**Megfelelő szerepkörök:** Globális rendszergazda
 
-**Megfelelő szerepkörök**
+## <a name="how-to-manage-users-in-the-azure-portal-for-microsoft-cloud-for-us-government"></a>Felhasználók kezelése a Azure Portal Microsoft Cloud for US Government
 
-- Globális rendszergazda
+Ha bejelentkezett az Partnerközpont-Microsoft Cloud for US Government- Azure Portal a Microsoft Cloud for US Government anélkül, hogy újra be lenne jelentkezve. Ha azonban közvetlenül be kell jelentkeznie az Azure Portal-ba a Microsoft Cloud for US Government-hoz, Microsoft Cloud for US Government oldalon jelentkezzen be az Azure AD-bérlő globális rendszergazdai hitelesítő adataival a https://portal.azure.us/) Microsoft Cloud for US Government.
 
-## <a name="how-to-manage-users-in-the-azure-portal-for-microsoft-cloud-for-us-government"></a>Felhasználók kezelése a Azure Portalban Microsoft Cloud az USA kormányzati szervei számára
-
-Ha bejelentkezett a partner Centerbe Microsoft Cloud az USA kormányzati szerveinek, akkor Azure Portal az USA-beli kormányzati szerveknek szóló Microsoft Cloud megnyitásához nem kell újra bejelentkeznie. Ha azonban közvetlenül be kell jelentkeznie a Azure Portal Microsoft Cloud az Egyesült Államok kormányzati szervei számára, lépjen a ( https://portal.azure.us/) és jelentkezzen be az Azure ad-bérlőhöz tartozó globális rendszergazdai hitelesítő adatokkal Microsoft Cloud az Egyesült Államok kormányzati szervei számára.
-
-Miután sikeresen bejelentkezett Microsoft Cloud az Egyesült Államok kormányzati szerveinek Azure Portal, nyissa meg az Azure Active Directory (Azure AD) áttekintés oldalt, és kövesse az alábbi cikk utasításait:
+Miután sikeresen bejelentkezett a Azure Portal for Microsoft Cloud for US Government-be, nyissa meg a Azure Active Directory (Azure AD) áttekintő oldalát, majd kövesse az alábbi cikkekben található utasításokat:
 
 > [!NOTE]  
-> Az alábbi hivatkozásokra kattintva egy másik webhelyre kerül. 
+> Az alábbi hivatkozásokra kattintva egy másik webhelyet is meg lehet jelenni. 
 
 -  [**Új felhasználók hozzáadása az Azure Active Directoryhoz**](/azure/active-directory/active-directory-users-create-azure-portal)
 
 -  [**Felhasználó hozzárendelése rendszergazdai szerepkörökhöz az Azure Active Directory-ban**](/azure/active-directory/active-directory-users-assign-role-azure-portal)
 
--  [**Felhasználó jelszavának alaphelyzetbe állítása Azure Active Directory**](/azure/active-directory/active-directory-users-reset-password-azure-portal)
+-  [**Felhasználó jelszavának visszaállítása a Azure Active Directory**](/azure/active-directory/active-directory-users-reset-password-azure-portal)
 
 ## <a name="next-steps"></a>Következő lépések
 
 -  [**A Microsoft Cloud for US Government Partnerközpontja**](partner-center-for-microsoft-us-govt-cloud.md)
 
--  [**Regisztráljon a Cloud Solution Provider programba az Egyesült Államok kormányzati szerveinek Microsoft Cloud**](enroll-in-csp-for-microsoft-us-govt-cloud.md)
+-  [**Regisztrálás a Felhőszolgáltató programba Microsoft Cloud for US Government**](enroll-in-csp-for-microsoft-us-govt-cloud.md)
