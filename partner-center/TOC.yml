@@ -119,45 +119,40 @@
           displayName: mpn
     - name: Azure-beli szakértői MSP-vé válás
       href: azure-expert-msp.md
-- name: Felhőszolgáltató (CSP)
+- name: Felhőszolgáltató program (CSP)
   href: csp-overview.md
   displayName: csp
   items:
     - name: Regisztráció a felhőszolgáltatói programba
       href: enrolling-in-the-csp-program.md
       displayName: 'indirect, reseller, csp'
-    - name: Microsoft-partnerszerződés – CSP-k
-      href: microsoft-partner-agreement.md
-      displayName: 'csp, mpn'
-    - name: Hogyan segíthetnek a közvetett szolgáltatók a viszonteladóiknak az MPA elfogadásában?
-      href: mpa-indirect-provider-faq.md
-      displayName: 'csp, mpa, indirect, provider'
     - name: Közvetlen CSP-partnerek követelményei
       href: direct-partner-new-requirements.md
-      displayName: 'indirect, reseller, csp'
-    - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
-      href: agreements.md
-      displayName: 'region, MPA'
     - name: Korlátozott közvetlen számlahozzáférés
       href: restricted-direct-bill-capabilities.md
-      displayName: 'indirect, reseller'
+      displayName: 'indirect, reseller, direct'
     - name: Közvetlen CSP-számla átváltása közvetett viszonteladóra
       href: transition-direct-to-indirect.md
       displayName: csp
+- name: CSP-szerződések
+  href: microsoft-partner-agreement.md
+  items:
+    - name: Hogyan segíthetnek a közvetett szolgáltatók a viszonteladóiknak az MPA elfogadásában?
+      href: mpa-indirect-provider-faq.md
+      displayName: 'csp, mpa, indirect, provider'
     - name: 'CSP-megállapodások, árlista, ajánlatok'
       href: csp-documents-and-learning-resources.md
       displayName: csp
-    - name: Regisztrációs azonosító száminformációi
-      href: reg-number-id.md
+    - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
+      href: agreements.md
+    - name: 'Hogyan lehet megerősíteni, hogy az ügyfelek elfogadják a Microsoft Ügyfélszerződés'
+      href: confirm-customer-agreement.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
       displayName: 'regio, region, csp'
     - name: Útmutató a CSP regionális engedélyezési bérlőösszevonáshoz
       href: csp-regional-authorization-tenant-consolidation.md
       displayName: 'regio, region, csp'
-    - name: 'Hogyan lehet megerősíteni, hogy az ügyfelek elfogadják a Microsoft Ügyfélszerződés'
-      href: confirm-customer-agreement.md
-      displayName: 'csp, agreement'
     - name: Országos felhőkörnyezetekben történő értékesítés esetén alkalmazandó
       href: csp-national-clouds-overview.md
       items:
@@ -207,6 +202,8 @@
         - name: A partnerprofil frissítése
           href: update-your-partner-profile.md
           displayName: mpn
+        - name: Regisztrációs azonosító száminformációi
+          href: reg-number-id.md
         - name: Vezérlőpultgyártói szerepkör
           href: enroll-as-cpv.md
           displayName: csp
@@ -575,7 +572,7 @@
         - name: Azure-előfizetések átvitele
           href: switch-azure-subscriptions-to-a-different-partner.md
           displayName: csp
-        - name: Az ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
+        - name: Az ügyfél Azure-csomag előfizetésének átvitele egy másik partnernek
           href: transfer-azure-subscriptions-under-azure-plan.md
     - name: Szoftver-előfizetések
       href: csp-software-subscriptions.md
