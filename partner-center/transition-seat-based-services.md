@@ -9,20 +9,16 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: deda7a351c79636dfb11c002810a8510782aca6d
-ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
+ms.openlocfilehash: b1d5f415680cad8466da631a68fb6249a5298a2d
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108284451"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855981"
 ---
-# <a name="move-license-based-customers-from-other-channels--partners-to-the-cloud-solution-provider-program"></a>Licencalapú ügyfelek áthelyezése más csatornákról és & a Felhőszolgáltató programba
+# <a name="move-license-based-customers-from-other-channels--partners-to-the-cloud-solution-provider-program"></a>Licencalapú ügyfelek áthelyezése más csatornákról & partnerekről a Felhőszolgáltató programba
 
-**Megfelelő szerepkörök**
-
-- Fiókadminisztrátor
-- Értékesítési ügynök
-- Számlázási ügynök
+**Megfelelő szerepkörök:** Fiók-rendszergazdai | Értékesítési ügynök | Számlázási ügynök
 
 Ha az ügyfél több partnert szeretne felvenni, az előfizetéseket át szeretné ruházni egy másik partnernek, vagy kezelni szeretné a máshol megvásárolt előfizetéseket, manuálisan is áthelyezheti őket. Az ügyfeleket másik csatornáról Partnerközpont másik csatornáról is áthelyezheti.
 
@@ -36,17 +32,17 @@ Ha az ügyfél több partnert szeretne felvenni, az előfizetéseket át szeretn
 
 
    >[!NOTE]
-   >Előfordulhat, hogy az ügyfél jogosult jóváírásra, ha az Microsoft 365 (M365) felügyeleti portálján keresztül vásárolta meg (például a Microsoft havi vagy éves számlázásán keresztül). A közvetlenül a Microsofttól vásárolt előfizetések krediteket az **M365 számlázási támogatása kezeli.** Az M365-előfizetés lemondásához tekintse meg [az M365-útmutatót.](/microsoft-365/commerce/subscriptions/cancel-your-subscription) Ha delegált rendszergazdai jogosultságokkal rendelkezik az ügyfél számára, az ügyfél nevében kapcsolatba léphet az M65-támogatással. Ha nem, kérje meg az ügyfelet, hogy közvetlenül az M365 támogatási szolgálatához forduljon, hogy megtudja, mennyi kreditre jogosultak, és hogyan kapják meg ezt a kreditet. Olvassa el a [delegált rendszergazdai jogosultságokkal kapcsolatos információkat.](customers-revoke-admin-privileges.md)
+   >Előfordulhat, hogy az ügyfél jogosult jóváírásra, ha az Microsoft 365 (M365) felügyeleti portálján vásárolta meg (például a Microsoft havi vagy éves számlázásán keresztül). A közvetlenül a Microsofttól vásárolt előfizetések krediteket az **M365 számlázási támogatása kezeli.** Az M365-előfizetés lemondásához tekintse meg az [M365-útmutatót.](/microsoft-365/commerce/subscriptions/cancel-your-subscription) Ha delegált rendszergazdai jogosultságokat az ügyfél számára, az ügyfél nevében kapcsolatba léphet az M65 ügyfélszolgálattal. Ha nem, kérje meg az ügyfelet, hogy közvetlenül vegye fel a kapcsolatot az M365 támogatási szolgálattal, hogy megtudja, mennyi kreditre jogosultak, és hogyan kapják meg ezt a kreditet. Olvassa el a [delegált rendszergazdai jogosultságokkal kapcsolatos információkat.](customers-revoke-admin-privileges.md)
 
 
 4. Az ügyfél ezután megszakítás nélkül folytatja az Ön által kiépített előfizetéseket.
 
-Ha az ügyfél által használt ajánlatokkal azonos ajánlatokat biztosít, nem szükséges a licenceket újra hozzárendelni, és a végfelhasználók nem fognak fennakadni. Az ajánlatnak azonosnak kell lennie az adatvesztés elkerülése érdekében. Ha a licencek teljes száma változatlan marad, és az ajánlat egyenértékű, az ügyfelek nem fognak hatást gyakorolni.
+Ha ugyanazokkal az ajánlatokkal rendelkezik, mint az ügyfél által használt ajánlatok, nem kell újra hozzárendelni a licenceket, és a végfelhasználók nem fognak fennakadni. Az ajánlatnak azonosnak kell lennie az adatvesztés elkerülése érdekében. Amíg a licencek teljes száma változatlan marad, és az ajánlat egyenértékű, az ügyfelek nem fogják befolyásolni.
 
 Ha olyan ügyfeleket helyez át, akik megszüntetett ajánlattal rendelkeznek, akkor az adatvesztés elkerülése érdekében találnia kell egy egyenértékű ajánlatot. Ha az ügyfelet egy másik ajánlatba helyezi át, akkor frissítenie kell az ügyfél licenc-hozzárendelését.
 
 >[!NOTE]
-> Önnek, a CSP-partnernek és az ügyfélbérlőnek ugyanabban a régióban kell lennie, hogy az ügyfelet átváltsa Önre.
+> Önnek, a CSP-partnernek és az ügyfélbérlőnek ugyanabban a régióban kell lennie, hogy az ügyfelet az Ön számára átveszi.
 
 ## <a name="next-steps"></a>Következő lépések
 

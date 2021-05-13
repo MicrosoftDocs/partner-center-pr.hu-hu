@@ -4,98 +4,96 @@ ms.topic: article
 ms.date: 10/28/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
-description: Hozzon létre ügyfél-hozzárendeléseket a Recording (CPOR) modell igénylési partnerével. Segíti az értékesítések, a használat és a Microsoft 365 & Dynamics 365-ügyfelek által nyújtott ösztönzők kezelését.
+description: Ügyfél-társítások létrehozása a igénylő regisztrált partner (CPOR) modellel. Segít a Dynamics 365-ügyfelek értékesítésének, használatának és Microsoft 365 & kezelésében.
 author: MalloryPrincipe
 ms.author: mallp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7a7e3ed40dcc6b1248f008201bff667a9eb9a0f8
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: 9526a47d0b6d734bde48f403c11fa84d734511c1
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028315"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109856100"
 ---
-# <a name="customer-associations-via-the-claimed-partner-of-record-cpor-model-for-microsoft-365-and-dynamics-365"></a>Ügyfél-hozzárendelések a Microsoft 365 és a Dynamics 365-es rekord (CPOR) modellje révén
+# <a name="customer-associations-via-the-claimed-partner-of-record-cpor-model-for-microsoft-365-and-dynamics-365"></a>Ügyféltársítások az igényelt rekordpartner (CPOR) modellen keresztül a Microsoft 365 Dynamics 365-höz
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdája
 
-- Ösztönzők rendszergazdája
-
-2019. október 1-jén a Microsoft megkezdte a CPOR-modell igénylési partnerének használatát a Microsoft 365 és a Dynamics 365-ügyfelekkel kapcsolatos társítások kezeléséhez az online szolgáltatások tanácsadó (OSA) értékesítés, online szolgáltatások használata (OSU) – Microsoft 365 és OSU-Business alkalmazási ösztönzők tekintetében.
+2019. október 1-től a Microsoft az igénylő regisztrált partner (CPOR) modellt kezdte használni az Microsoft 365- és Dynamics 365-ügyfelekkel való társítások kezelésére az Online Services Tanácsadás (OSA) Értékesítés, Online Services Usage (OSU)-Microsoft 365 és OSU-Business Application ösztönzők tekintetében.
 
 >[!Important]
-> Az ügyfél-hozzárendelési (CPOR) jogcímek csak az online szolgáltatások tanácsadó (OSA) értékesítésére, az online szolgáltatások használatára (OSU) vonatkoznak, és a OSU-Business alkalmazás Microsoft 365-ösztönző programokra. Ha egy másik programhoz (például a felhőalapú megoldás-szolgáltatóhoz, a felügyelt viszonteladóhoz, az üzemeltetéshez vagy a felszínhez) tartozó együttes op-jogcímet küld, tekintse meg az itt ismertetett együttes op-jogcímek folyamatát. <br><br>A jogcímek beküldésekor a Microsoft érvényesíti azt. Ezen a ponton további információkat kérhetünk. A társulási kérelem ügyfelét is értesíteni fogjuk. Az ügyfeleknek öt munkanapon belül kell kijelentkezniük. Ha nem, akkor az adott Bérlővel és munkaterheléssel való társítása hivatalos lesz. Ezen a ponton elérheti az ügyfél használati adatait. 
+> Az ügyfél-társítási (CPOR) igények csak az Online Services Advisor (OSA) értékesítésre, az online szolgáltatások használatára (OSU) vonatkozó Microsoft 365 és az OSU-Business alkalmazásösztönző programokra vonatkoznak. Ha együttműködési igényt nyújt be egy másik programhoz, például a Felhőszolgáltató, Managed Reseller, Hosting vagy Surface programhoz, tekintse meg az itt ismertetett együttműködési igényfolyamatot. <br><br>Az igénylés elküldésekor a Microsoft érvényesíti azt. Ezen a ponton további információkat kérhetünk Öntől. A társítási kérelemről is értesítjük az ügyfelet. Az ügyfeleknek öt munkanapjuk van a lemondásra. Ha nem fogják kikapcsolni a regisztrációt, az Adott bérlővel és számítási feladattal való társítása hivatalos lesz. Ezen a ponton hozzáférhet az ügyfél használati adataihoz. 
 
-A jogcímek elvégzéséhez a következő információkra lesz szüksége:
+A jogcímek igénylésének befejezéséhez a következő információkra lesz szüksége:
 
-- Az entitáshoz tartozó **MPN-azonosító** , amely a jogcímet végrehajtja
+- A jogcímet igénylést igénylő entitás **MPN-azonosítója**
 
-- Az ügyfél **tartománynevének** [megkeresése](find-ids-and-domain-names.md)
+- Ügyfél **tartományneve** [Keresse meg ezt](find-ids-and-domain-names.md)
 
-- Az ügyfél **címtár-azonosítójának** vagy **bérlői azonosítójának** [megkeresése](find-ids-and-domain-names.md)
+- Az ügyfél **címtár-azonosítója** vagy **bérlőazonosítója** [Keresse meg ezt](find-ids-and-domain-names.md)
 
-- A **megoldási területen**, például Business Applications vagy Microsoft 365
+- A **Megoldás terület,** például Business Applications vagy Microsoft 365
 
-- A végrehajtott **tevékenység** és a kívánt jogcím típusa, például értékesítés előtti, használati vagy bevételi társítás
+- Az **elvégzett** tevékenység és a kívánt jogcím típusa, például értékesítés előtti, használati vagy bevételi társítás
 
-- Az ügyfél **kapcsolattartási neve**, címe és e-mail-címe
+- Az ügyfél Kapcsolattartó **neve,** címe és e-mail-címe
 
-- A Dynamics 365 esetében meg kell adnia az ügyfél **technikai kapcsolattartójának** nevét, címét és e-mail-címét is.
+- A Dynamics 365 esetén az ügyfél műszaki  kapcsolattartója nevét, címét és e-mail-címét is meg kell adnia
 
-- Saját vállalata **kapcsolattartójának neve** és e-mail-címe
+- Saját vállalata **kapcsolattartójának neve és** e-mail-címe
 
-- Létre kell hoznia egy **nevet** a jogcím számára
+- Létre fog hozni egy **Nevet** a jogcímhez
 
-- Az Ön által igényelt **termék (ek)** vagy számítási feladat (ok)
+- Az **igényelt termék(nek)** vagy számítási feladat(nak)
 
-- A **végrehajtás igazolása (PoE)**, például az ügyfél által aláírt munkavégzési utasítás. Le is töltheti a használni kívánt PoE-sablont.
+- **A végrehajtás igazolása (PoE),** például az ügyfél által aláírt munkakivonat. A használathoz letöltheti a PoE-sablont is.
 
-- Csak a bevételi társulást igénylő partnerek esetén: a **Dynamics-megoldás eladójának neve**, az **ügyfél neve** és **az ISV termék/megoldás neve**. 
+- Csak bevételi társítást igénylő partnerek esetén: **Dynamics-megoldás** értékesítője neve, Ügyfél **neve** és **ISV-termék/megoldás neve.** 
 
-A következő szempontokat is ismernie kell:
+A következő pontokat is érdemes megértenie:
 
-- Ha már rendelkezik Microsoft 365 ügyfelekkel, újra hozzá kell rendelnie azokat, akikkel továbbra is OSU-ösztönzőket szeretne keresni a folyamat használatával.
+- Ha már vannak Microsoft 365 ügyfelek, akkor a folyamat használatával újra társíthatja azokat, akik továbbra is OSU-ösztönzőket keresnek.
 
-- Ha meglévő, Dynamics 365-as vagy Power BI ügyfelekkel rendelkező társításokkal rendelkezik, ezek a társítások érvényesek maradnak az előfizetésük lejárta után.
+- Ha már rendelkezik Dynamics 365- vagy Power BI-ügyfelekkel, ezek a társítások az előfizetésük lejáratáig érvényesek maradnak.
 
-- Egy ügyfél több partnerrel is rendelkezhet, de a munkaterhelések (OSU-Microsoft 365) vagy az előfizetés (OSA-Sell és OSU-Business alkalmazások esetében) csak egyetlen partnerhez társíthatók.
+- Egy ügyfél több partnerrel is rendelkezik, de minden számítási feladat (OSU-Microsoft 365 esetében) vagy előfizetés (OSA-Sell és OSU-Business-alkalmazások esetén) csak egy partnerhez társítható.
 
 ## <a name="create-a-customer-association"></a>Ügyféltársítás létrehozása
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. Válassza az **ösztönzők** lapot, válassza az **Áttekintés** lehetőséget, majd válassza az **ügyfelek társítások** lehetőséget.
+2. Válassza az **Ösztönzők lapot,** válassza az **Áttekintés,** majd az Ügyfél-társítások **lehetőséget.**
 
-3. Az ügyfél-hozzárendelések lap tetején válassza a **+ Ügyfél-hozzárendelés** lehetőséget.
+3. Az Ügyfél-társítások lap tetején válassza a + Ügyfél **társítása lehetőséget.**
 
-4. Válassza ki az ügyfélhez társítani kívánt partnerhely **MPN-azonosítóját**, majd adja hozzá az ügyfél tartománynevét és címtár-azonosítóját. [Keresés](find-ids-and-domain-names.md)
+4. Válassza ki az ügyfélhez társítani kívánt partnerhely **MPN-azonosítóját**, majd adja hozzá az ügyfél tartománynevét és címtár-azonosítóját. [Keresse meg ezt a](find-ids-and-domain-names.md)
 
 5. Válassza a **Folytatás** lehetőséget.
 
-6. Válassza ki a **megoldási területeket** és **tevékenységeket**. 
+6. Válassza ki **a Megoldás területet és** a **Tevékenységet.** 
 
    >[!Note]
    >
-   >Ha a Business Applications lehetőséget választja, válassza a **használat és/vagy az értékesítés előtti** vagy a **bevételi társítás** lehetőséget, majd válassza a **Folytatás** lehetőséget. 
+   >Ha a Business Applications, válassza a **Használat és/vagy** az Értékesítés előtti , vagy a Bevétel társítása **lehetőséget,** majd válassza a Folytatás **lehetőséget.** 
    <br><br>Ha a bevétel társítását választja, a rendszer az alább felsorolttól némileg eltérő adatokat kér.
 
-7. Adja meg a megfelelő adatokat az **Ügyfél hozzárendelése** lapon, majd válassza a **jogcím létrehozása** lehetőséget.
+7. Adja meg a megfelelő adatokat a **Associate customer (Ügyfél** társítása) lapon, majd válassza a Create claim (Jogcím **létrehozása) lehetőséget.**
 
-8. Válassza ki az ügyfél-hozzárendeléshez társított terméket (ka) t, majd válassza a **Folytatás** lehetőséget.
+8. Válassza ki az ügyfél-társításhoz társított termék(eket), majd válassza a **Continue (Folytatás) lehetőséget.**
 
 9. Töltse ki az ügyfél és a vállalat kapcsolattartási adatait. Minden mezőt ki kell tölteni. 
 
    >[!NOTE]
-   >Ha a termék a Dynamics 365, és a kiválasztott termék több előfizetéssel rendelkezik ehhez az adott ügyfélhez, meg kell adnia az előfizetés-azonosítót is.
+   >Ha a termék a Dynamics 365, és a választott termék több előfizetéssel rendelkezik ehhez az ügyfélhez, meg kell adnia az előfizetés azonosítóját is.
 
-10. Adja meg a végrehajtás igazolását (PoE). Húzza a mezőbe, tallózással keresse meg a saját támogató dokumentációját, vagy válassza a **Sablon letöltése** lehetőséget, és használjon egy sablont. 
+10. A végrehajtási igazolást (PoE) is meg kell adni. Húzza a mezőbe, tallózással keresse meg a saját támogató dokumentációját, vagy válassza a **Sablon letöltése** lehetőséget, és használjon egy sablont. 
 
 11. Tetszés szerint adja hozzá és mentse a megjegyzéseket, majd válassza az **Igénylés beküldése** elemet. Egy e-mailt küldünk az Ön ügyféltársítását elfogadását kérő ügyfélnek.
 
    >[!NOTE]
-   >Miután elküldte az ügyfél-hozzárendelést, nem szerkesztheti.
+   >Miután beküldi az ügyfél-társítást, nem szerkesztheti.
 
 Az ügyféltársítás állapota az **Állapot** mezőben jelenik meg.
 

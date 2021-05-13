@@ -1,5 +1,5 @@
 ---
-title: Ügyfélkapcsolat kérése
+title: Kapcsolat kérése egy ügyféllel
 ms.topic: how-to
 ms.date: 06/17/2020
 ms.service: partner-dashboard
@@ -8,19 +8,16 @@ description: Kapcsolat kérése egy ügyféllel többpartneres, többcsatornás 
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
-ms.openlocfilehash: 55f86e6e48b0b897410826e22564e2d27e25258b
-ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
+ms.openlocfilehash: f8265973157540cff698790ddb2effa912abeeb7
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "108018135"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109856117"
 ---
 # <a name="how-to-request-a-reseller-relationship-from-a-customer-in-partner-center"></a>Viszonteladói kapcsolat kérése egy ügyféltől a Partnerközpontban
 
-**Megfelelő szerepkörök**
-
-- Rendszergazdai ügynök
-- Globális rendszergazda
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazda
 
 Ha egy ügyfél szolgáltatását vagy előfizetését szeretné kezelni a nevükben, az ügyfélnek rendszergazdai jogosultságokat kell önnek megszabadnie az adott szolgáltatáshoz vagy előfizetéshez, és alá kell írnia a Microsoft Ügyfélszerződés.
 
@@ -55,7 +52,7 @@ Viszonteladói kapcsolatot kérhet egy ügyféllel az országon vagy az Ön rég
 
 ## <a name="changes-to-the-customer-invitation-experience"></a>Az ügyfélmeghívási élmény változásai
 
-A viszonteladói kapcsolatokra való meghívásnak egy ügyfélpartnertől való Felhőszolgáltató ügyfélkapcsolati meghívót különböző ügyfélkapcsolati portálok üzemeltetik. A portál helye attól függ, hogy az ügyfél a Microsoft nyilvános felhőszolgáltatásában vagy az országos felhőben található::
+A viszonteladói kapcsolatokra való meghívásnak egy ügyfélpartnertől való Felhőszolgáltató ügyfélkapcsolati meghívót különböző ügyfélkapcsolati portálok üzemeltetik. A portál helye attól függ, hogy az ügyfél nyilvános Microsoft-felhőben vagy országos felhőben van-e:
 
 |A felhőalapú ügyfelek típusai  | Hol fogadja el az ügyfél a viszonteladói kapcsolatokra való meghívást? |
 |---------|---------

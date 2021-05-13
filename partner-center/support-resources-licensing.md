@@ -8,18 +8,16 @@ description: Microsoft-partnerként kérdései lehetnek a különböző Microsof
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
-ms.openlocfilehash: d0b7e12c17054434e4d07c532739b0d079b49cca
-ms.sourcegitcommit: 26e6b470756aa9c1b3b0b919301b0eb38a335a52
+ms.openlocfilehash: 7343e6b234fed9107689f451d23cd3a74c0c389f
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "108002898"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109856083"
 ---
 # <a name="guide-to-licensing-resources-for-microsoft-partners"></a>Erőforrás-licencelési útmutató Microsoft-partnerek számára 
 
-**Megfelelő szerepkörök**
-
-- Súgóügynök
+**Megfelelő szerepkörök:** Súgóügynök
 
 Ez a cikk olyan forrásokat ad meg, amelyek segíthetnek megválaszolni a partnerek licencelésével kapcsolatos kérdéseket.
 
@@ -43,20 +41,20 @@ Az egyes licencelési programokról az alábbi forrásokból kaphat további inf
 
 |Cél  | Olvassa el ezt  |
 |:------------------|:--------------- |
-|CSP-programlicencek összehasonlítása más licencelési modellekkel *(magas szintű áttekintés)* | Ugrás a [CSP-regisztráció oldalára.](https://partner.microsoft.com/licensing/) Görgessen le, amíg meg nem látja a CSP és más licencelési *modellek összehasonlítása című szakaszt.*  |
+|CSP-programlicencek összehasonlítása más licencelési modellekkel *(magas szintű áttekintés)* | Ugrás a [CSP-regisztráció oldalára.](https://partner.microsoft.com/licensing/) Görgessen lefelé, amíg meg nem látja a CSP és más *licencelési modellek összehasonlítása című szakaszt.*  |
 |Különböző Microsoft-felhőszolgáltatásokra és helyszíni szoftverekre vonatkozó partnerlicenc-szerződések *összehasonlítása (részletes nézet)*  | [Microsoft licencszerződések](https://partner.microsoft.com/licensing/licensing-agreements)  |
 |További információ a mennyiségi licencelésről (VL) és az egyes megoldások licencelésről  | [Microsoft-licencelés – termékek és megoldások](https://www.microsoft.com/licensing/default) |
-|Megismerheti a mennyiségi licencelési képzést, valamint a VL-díjszabással, ajánlatokkal, szerződésekkel, termékaktiválással és egyéb eszközökkel kapcsolatos forrásforrásokat  | [Microsoft Partner Network és erőforrások](https://partner.microsoft.com/licensing/training-and-resources) |
+|Megismerheti a mennyiségi licencelés betanítását, valamint a VL-díjszabással, ajánlatokkal, szerződésekkel, termékaktiválással és egyéb eszközökkel kapcsolatos forrásforrásokat  | [Microsoft Partner Network és forrásforrások](https://partner.microsoft.com/licensing/training-and-resources) |
 |Ismerkedés **a Licencelésre kész licencelési** modulokkal  | [Licencelésre kész](https://www.getlicensingready.com/)  |
-|Olvassa el a licencelési vizsgát, amely segítséget nyújt a Nagyvállalatok microsoftos licencelési megoldásának tervezéséhez és biztosítanak (a vizsga *2021. január 31-én, középidőben 11:59-kor lesz visszavonva)*  | [70-705-ös vizsga](/learn/certifications/exams/70-705) |
+|Olvassa el a licencelési vizsgát, amely segítséget nyújt a Nagyvállalatok microsoftos licencelési megoldásának tervezéséhez és biztosítanak (a vizsga *2021. január 31-én, középidőben 11:59-kor* lesz kivezetve)  | [70-705-ös vizsga](/learn/certifications/exams/70-705) |
 
 ## <a name="program-specific-and-product-specific-licensing-terms-and-agreements"></a>Programspecifikus és termékspecifikus licencelési feltételek és szerződések
 
-Hasznosnak találhatja ezeket az egyéb forrásokat. Egyes erőforrások eléréséhez előfordulhat, hogy először regisztrálnia kell az [MPN programban.](https://partner.microsoft.com/membership)
+Hasznosnak találhatja ezeket a további forrásokat. Egyes erőforrások eléréséhez előfordulhat, hogy először regisztrálnia kell az [MPN programban.](https://partner.microsoft.com/membership)
 
 |Cél  | Olvassa el ezt  |
 |:------------------|:--------------- |
-|Tekintse át vagy töltse le a Microsoft mennyiségi licencelési programjában a termékekre és szolgáltatásokra vonatkozó Microsoft-termékszerződések aktuális verzióját. | [Keressen rá a termékre vagy szolgáltatásra,](https://www.microsoft.com/licensing/terms/) vagy [keressen rá itt](http://www.microsoftvolumelicensing.com/)  |
+|Tekintse át vagy töltse le a Microsoft mennyiségi licencelési programjában a termékekre és szolgáltatásokra vonatkozó Microsoft-termékszerződések aktuális verzióját. | [Keresse meg a terméket vagy a szolgáltatást,](https://www.microsoft.com/licensing/terms/) vagy [keressen itt](http://www.microsoftvolumelicensing.com/)  |
 |További információ a Frissítési Garancia programról és a kapcsolódó licencről, valamint a fizetési és fizetési módokról.  | [Frissítési garancia áttekintése](https://www.microsoft.com/Licensing/licensing-programs/software-assurance-default.aspx) [vagy Frissítési Garancia előnyei és követelményei](software-assurance-lp.md) |
 |Tekintse át az MPN belső használatra vonatkozó jogosultságokkal vagy előnyökkel kapcsolatos adatait.  | [Microsoft Partner Network programok útmutatója](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf)  |
 |Oem-partneranyagokat, például előtelepítési készleteket vagy betanításokat találhat.  | [Microsoft Device Partnerközpont](https://devicepartner.microsoft.com/)  |
@@ -76,12 +74,12 @@ Ha konkrét kérdései vannak a teljesítéssel, fizetéssel vagy teljesítésse
 
 ## <a name="more-resources-to-help-with-price-lists-customer-deals-license-activation-or-credits"></a>További forrásforrások az árlistákkal, ügyfélajánlatokkal, licencaktiválással vagy jóváírásokkal kapcsolatos segítségért
 
-A közvetett szolgáltatónak (a CSP-programhoz) vagy a program terjesztőjének képesnek kell lennie megválaszolni számos, a licencelésre vagy ügyfélszerződések végrehajtására vonatkozó konkrét kérdést. Az alábbi források szintén segítségére lehetnek.
+A közvetett szolgáltatónak (a CSP-programhoz) vagy a program terjesztőjének képesnek kell lennie megválaszolni a licencelésre vagy az ügyfélszerződések végrehajtására vonatkozó számos konkrét kérdést. Az alábbi források szintén segítségére lehetnek.
 
 |Cél  | Lásd:  |
 |:------------------|:--------------- |
-|Partner vagy terjesztő megkeresve | [Keressen olyan partnert, aki segíthet](find-a-partner.md)  |
-|A CSP-program díjszabásának és ajánlatának megtekintése az Partnerközpont irányítópulton (az irányítópult megtekintéséhez regisztrálni kell a *CSP-programban)*  |[A CSP díjszabása és ajánlatai áttekintése](pricing-and-offers.md) vagy [CSP-dokumentumok és erőforrások](csp-documents-and-learning-resources.md) |
+|Partner vagy terjesztő megkeresve | [Keresse meg a partnert, aki segíthet](find-a-partner.md)  |
+|A CSP-program díjszabásának és ajánlatának megtekintése a Partnerközpont irányítópulton (az irányítópult megtekintéséhez regisztrálni kell a *CSP-programban)*  |[CSP-díjszabás és ajánlatok áttekintése](pricing-and-offers.md) vagy [CSP-dokumentumok és erőforrások](csp-documents-and-learning-resources.md) |
 |Marketinganyagok megismerése egy ügyfél-ajánlattal kapcsolatos segítségért  | [MPN-partnerek készültségi anyagai](https://partner.microsoft.com/asset#/?type=marketing-campaigns&area=mrkt)  |
 |Segítségre van szüksége a Microsoft technical presales and Deployment Services szolgáltatástól egy ügyfél-ajánlattal vagy online esetekkel kapcsolatban  | [Az előzetes műszaki és üzembe helyezési szolgáltatások áttekintése vagy](https://partner.microsoft.com/training/technical-presales-deployment-services) [a támogatás áttekintése](https://support.microsoft.com/help/3121537/using-technical-presales-and-deployment-services)  |
 |Útmutató a nyílt Microsoft Azure aktiválásához   | [Online szolgáltatásaktiválás nyílt programokhoz – gyakori kérdések](/licensing/online-service-activation-faq)  |

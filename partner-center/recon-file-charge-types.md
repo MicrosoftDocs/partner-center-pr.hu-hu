@@ -2,107 +2,101 @@
 title: Egyeztetési fájlok díjtípusai
 ms.topic: article
 ms.date: 06/05/2020
-description: Fedezze fel a (például licenc-alapú, használati és egyszeri), kreditek és kedvezmények típusát a partner Center egyeztetési fájljaiban.
+description: Megismerheti a díjtípusokat (például licencalapú, használatalapú és egyszeres), krediteket és kedvezményeket az egyeztetési Partnerközpont fájlokban.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f1fb7fdcc4ec56f0d5cf0eb26b62294235a5b908
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 5a1f45de59fc9dac6a443bb8a14c3a80b36ba3f7
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441596"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855879"
 ---
-# <a name="understand-the-different-charge-types-in-partner-center-reconciliation-files"></a>A különböző díjszabási típusok ismertetése a partner Center egyeztetési fájljaiban
+# <a name="understand-the-different-charge-types-in-partner-center-reconciliation-files"></a>Az egyeztetési fájlokban található különböző Partnerközpont típusainak
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Globális rendszergazda
 
-**Megfelelő szerepkörök**
+Ez a cikk a számlaszakaszok és a társított díjtípusok közötti leképezéseket ismerteti, amelyek az egyeztetési fájlban lehetnek. A számla a díjak összegzését biztosítja. Az egyeztetési fájl részletesen részletezi a sortétel-tranzakciókat, beleértve a díjtípusokat is. Az egyeztetési fájlokkal kapcsolatos további információkért lásd az egyeztetési [fájlok használatát.](use-the-reconciliation-files.md)
 
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Globális rendszergazda
-
-Ez a cikk a számla szakasz és a társított díjszabási típusok közötti leképezéseket ismerteti, amelyek lehetnek a megbékélési fájlban. A számla a díjak összegzését tartalmazza. Az egyeztetési fájl részletesen részletezi a line-Item tranzakciókat, beleértve a díjszabási típusokat is. Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [a megbékélési fájlok használata](use-the-reconciliation-files.md).
-
-A [használaton alapuló egyeztetési fájlok](usage-based-recon-files.md) és a [licenc-alapú egyeztetési fájlok](license-based-recon-files.md) csak a használattal kapcsolatos tranzakciókat és díjakat (a felhasznált egységek és a kapcsolódó díjak) mutatják.
+Mind [a használatalapú egyeztetési](usage-based-recon-files.md) fájlok, mind a licencalapú egyeztetési fájlok [csak](license-based-recon-files.md) a használattal kapcsolatos tranzakciókat és díjakat (felhasznált egységeket és kapcsolódó díjakat) mutatják.
 
 > [!NOTE]
-> A számlán megjelenő egyszeri kreditek, kedvezmények vagy visszatérítések nem jelennek meg az egyeztetési fájlban. 
+> A számlán a Helyesbítésekként megjelenő egyszeres jóváírások, kedvezmények vagy visszatérítések nem jelennek meg az egyeztetési fájlban. 
 
-## <a name="map-charge-types-to-invoice-charges"></a>Vegyesköltség-típusok hozzárendelése a számlázáshoz
+## <a name="map-charge-types-to-invoice-charges"></a>Díjtípusok leképezés a számlás díjakra
 
-A számla és a megbékélési fájl közötti Összevetéshez használja a Microsoft Excelben a szűrési lehetőségeket. Az egyeztetési fájlban lévő vegyesköltség-típusok alapján szűkítse a számla díját a visszaegyeztetési fájlban lévő vegyesköltség-részletezési csoportba.
+A díj összegeinek a számla és az egyeztetési fájl közötti kereszthivatkozáshoz használja a Microsoft Excel szűrési lehetőségeit. Szűrhet díjtípusok szerint az egyeztetési fájlban, hogy a számlázási díjakat leképezheti az egyeztetési fájlban található költséglebontások készletére.
 
-## <a name="license-based-charges"></a>Licenc-alapú díjak
+## <a name="license-based-charges"></a>Licencalapú díjak
 
-Ha ezeket a licencfeltételeket szeretné feltérképezni a számlán, a licenc-alapú fájl **összeg** oszlopát adja meg.
+Ezeknek a licencalapú díjaknak a számlán való leképezésén a **licencalapú** fájl Amount oszlopát összegezve kell összeadni.
 
 | Díj leírása (ChargeType oszlop az egyeztetési fájlban) | Díj magyarázata |
 | ------------------------------------------------------------- | ------------------ |
-| Aktiválási díj | Az ügyfélnek a vásárlás után az előfizetés használatakor felszámított összeg. |
-| Megszakított díj | A hozzárendelt licencek megváltozásakor a rendszer visszafizeti az előfizetést az ügyfélnek. |
-| Példány-arány megszakítása | Az elszámolási díjak megszakadtak, ha a havi előfizetéssel rendelkező ügyfél felfüggesztette az előfizetést, és a társított licencek egy hónapon belül változnak |
-| Ciklus díja | Egy előfizetés rendszeres díjai. |
-| Ciklus példányának gyakorisága | Az ügyfél által a társított licencek megváltozásakor kiértékelt arányban elszámolt díjak. |
-| A megszakítás díja | A szolgáltatás fel nem használt részének elszámolási aránya a lemondás után. |
-| Az aktuális ajánlatból való áttéréskor felmerülő díjak | Arányos díjak az aktuális havi előfizetésből egy éves előfizetésre való áttérés után. |
-| Az új ajánlatra való áttéréskor felmerülő díjak | A havi előfizetés új éves előfizetésre való konvertálása után eltelt díjak. |
-| Díjszabási díjak a vásárláskor | Az előfizetés díja, ha havi vagy éves számlázást is használ. |
-| A megújítás díjszabása | Az Előfizetés megújítása után elszámolt díjak. |
-| Megújítás díja | Előfizetés megújításának díja |
-| Díjszabási díjak aktiváláskor | Elszámolási díjak az aktiválástól egészen a számlázási időszak végéig. |
+| Aktiválási díj | Az ügyfélnek a vásárlást követően az előfizetés használata után felszámított összeg. |
+| Lemondási díj | Az ügyfélnek a társított licencek módosult díjának megfelelő visszatérítésekért. |
+| Példány-prorate megszakítása | A havi előfizetéssel rendelkező ügyfél előfizetésének felfüggesztése és a társított licencek ugyanabban a hónapban való módosult időszakában az időszakra vonatkozó, az időszakra vonatkozó díjakat az időszakban megszüntetjük. |
+| Ciklus díja | Az előfizetések rendszeres díjai. |
+| Ciklikus példány-prorate | Az ügyféltől származó, a társított licencek módosulásával kapcsolatos, az igényeknek megfelelő díjakat kell megállapítani. |
+| Díjfizetési díjak lemondáskor | A szolgáltatás fel nem használt részének időkorrekét visszatérítése lemondáskor. |
+| Az aktuális ajánlatról való átváltás díjai | Az aktuális havi előfizetésről egy éves előfizetésre való átváltás után az időkorreklott díjak. |
+| Az új ajánlatra való átváltás díjai | A havi előfizetés új éves előfizetésre való átváltása után fizetendő díjak. |
+| Díjfizetés vásárláskor | Az előfizetés díjtípusa havi vagy éves számlázás esetén is. |
+| Megújítás után fizetendő díj | Az előfizetés megújítása után fizetendő díjak. |
+| Díj megújítása | Előfizetés megújításának díj |
+| Az aktiválás díjai | Az aktiválástól a számlázási időszak végéig fizetendő díjak. |
 
-## <a name="one-time-charges"></a>Egyszeri díj
+## <a name="one-time-charges"></a>Egyszer fizetendő díjak
 
-Ha ezeket az egyszeri díjakat szeretné leképezni a számlára, akkor a licenc-alapú fájl **összeg** oszlopát adja meg.
+Ha ezeket az egyszeres díjakat le kell leképezni a számlájára, összegezve a licencalapú fájl **Amount** (Összeg) oszlopát.
 
 | Díj leírása (ChargeType oszlop az egyeztetési fájlban) | Díj magyarázata |
 | ------------------------------------------------------------- | ------------------ |
 | Új | Új vásárlás létrehozásakor használatos. |
-| addQuantity | Az eredeti vásárlás és az új mennyiség visszatérítése után is használatos. |
-| removeQuantity | Az eredeti vásárlás visszatérítésében és az új mennyiség csökkenése után is használatos. |
-| Mégse | Előfizetés megszakadása esetén használatos. |
-| Konvertálás | A licenc frissítésekor használatos, de a licencek száma változatlan marad. |
+| addQuantity (Hozzáadásquantitás) | Az eredeti vásárlás visszatérítésében és az új mennyiségben is felhasználható a növekedés után. |
+| removeQuantity (Quantity eltávolítása) | Az eredeti vásárlás visszatérítésében és az új mennyiségben is felhasználható a csökkenést követően. |
+| Mégse | Az előfizetés lemondása esetén használatos. |
+| Konvertálás | Akkor használatos, ha a licenc frissítve van, de a licencek száma változatlan marad. |
 
 ## <a name="usage-charges"></a>Használati díjak
 
-A használati díjaknak a számlára való hozzárendeléséhez a **PretaxCharges** oszlopot a használaton alapuló fájlból kell összegezni.
+Ezeknek a használati díjaknak a számlán való leképezésén a Használatalapú fájl **PretaxCharges** oszlopát összegezve kell összeadni.
 
 | Díj leírása (ChargeType oszlop az egyeztetési fájlban) | Díj magyarázata |
 | ------------------------------------------------------------- | ------------------ |
-| Használati díj kiértékelése megszakításkor | Az aktuális számlázási időszakban a nem fizetett használat megszüntetésére vonatkozó hozzáférési díj. |
-| A jelenlegi ciklus használati díjának felmérése | Az aktuális számlázási időszakhoz való hozzáférés használati díja. |
+| Használati díj értékelése lemondáskor | A ki nem fizetett használat lemondása után a jelenlegi számlázási időszakra vonatkozó használati díj elérése. |
+| A jelenlegi ciklus használati díjának felmérése | Az aktuális számlázási időszak használati díjának elérése. |
 
 ### <a name="credits"></a>Kreditek
 
-A kreditek hozzárendelése a számlához:
+A kreditek a számlán való leképezésén a következőt kell látni:
 
-- Adja meg a **TotalForCustomer** a licenc-alapú fájlból.
-- A **PostTaxTotal** oszlop összege a használaton alapuló fájlból.
-
-| Díj leírása (ChargeType oszlop az egyeztetési fájlban) | Díj magyarázata |
-| ------------------------------------------------------------- | ------------------ |
-| Egy tétel eltolása | Részleges vagy teljes visszatérítés egy sorra, beleértve az adókat is. |
-
-### <a name="usage-based-discounts"></a>Használati alapú kedvezmények
-
-A használati alapú kedvezmények a számlára való hozzárendeléséhez a **PretaxCharges** oszlopot a használaton alapuló fájlból kell összegezni.
+- Összegezve **a TotalForCustomer a** licencalapú fájlból.
+- Összegezve **a PostTaxTotal** oszlopot a használatalapú fájlból.
 
 | Díj leírása (ChargeType oszlop az egyeztetési fájlban) | Díj magyarázata |
 | ------------------------------------------------------------- | ------------------ |
-| Aktiválási kedvezmény | Az előfizetés aktiválása esetén érvényes kedvezmény. |
-| Ciklus kedvezménye | Az időszakos költségekre alkalmazott kedvezmény. |
+| Sorelem eltolása | Részleges vagy teljes visszatérítés egy sortételre, az adókkal együtt. |
+
+### <a name="usage-based-discounts"></a>Használatalapú kedvezmények
+
+Ezeknek a használatalapú kedvezményeknek a számlán való leképezésén a Használatalapú fájl **PretaxCharges** oszlopát összegezve adatokat kaphat.
+
+| Díj leírása (ChargeType oszlop az egyeztetési fájlban) | Díj magyarázata |
+| ------------------------------------------------------------- | ------------------ |
+| Aktiválási kedvezmény | Az előfizetés aktiválásakor alkalmazott kedvezmény. |
+| Ciklusra kedvezményes | Az időszakos díjakra alkalmazott kedvezmény. |
 | Kedvezmény megújítása | Az előfizetés megújításakor alkalmazott kedvezmény. |
-| Kedvezmény lemondása | A kedvezmények megszakításakor alkalmazott díjak. |
+| Kedvezmény lemondása | A kedvezmények törlésekor alkalmazott díjak. |
 
-### <a name="license-based-discounts"></a>Licenc-alapú kedvezmények
+### <a name="license-based-discounts"></a>Licencalapú kedvezmények
 
-A licenc-alapú kedvezmények a számlára való leképezéséhez adja a **TotalOtherDiscount** oszlopot a licenc-alapú fájlból.
+Ha licencalapú kedvezményeket kell leképezni a számlára, összesítenünk kell a **TotalOtherDiscount** oszlopot a licencalapú fájlból.
 
-*A licenc-alapú kedvezmények több feltöltési típusra is alkalmazhatók.*
+*A licencalapú kedvezmények több díjtípusra is alkalmazhatók.*

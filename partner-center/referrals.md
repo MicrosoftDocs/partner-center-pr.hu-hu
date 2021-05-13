@@ -9,18 +9,16 @@ author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 149897c0afa12c4c45df974dafb5c47826274174
-ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
+ms.openlocfilehash: 2f37a14cd8987b6bddc96594ebf622f8e7be59b0
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120731"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855862"
 ---
 # <a name="grow-your-business-with-referrals-from-microsoft"></a>Vállalatfejlesztés a Microsoft javaslatai segítségével
 
-**Megfelelő szerepkörök**
-
-- Ajánlói rendszergazda
+**Megfelelő szerepkörök:** Ajánlói rendszergazda
 
 Számos ügyfél keres minősített szakértőket a Microsoft-technológiák és üzleti megoldások implementáljanak. Itt a Microsoftnál gyakran fordulnak elő közvetlen segítségkérések az ügyfelektől a marketingtevékenységek során és a belső Microsoft-értékesítési ügynököktől. Az ügyfelek a [ **Megoldásszolgáltató**](https://www.microsoft.com/solution-providers/search) megkeresése használatával is megkeresik azokat a vállalatokat, amelyek segíthetnek az üzleti igényeiknek való megfeleltetéseikben. 
 

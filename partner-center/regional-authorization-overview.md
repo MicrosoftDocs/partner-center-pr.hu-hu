@@ -4,43 +4,41 @@ ms.topic: article
 ms.date: 04/15/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Tekintse meg azon országokat, régiókat és pénznemeket, ahol csp-ajánlatokat értékesíthet a vállalat helye alapján.
+description: Tekintse meg az országokat, régiókat és pénznemeket, ahol csp-ajánlatokat értékesíthet a vállalat helye alapján.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 33d4a3745c8e9de87c9d1ef4ef86dec7c79db1b0
-ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
+ms.openlocfilehash: 15203b24188bd8303f61f362ff5f0f901714a813
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120766"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855777"
 ---
 # <a name="cloud-solution-provider-program-regional-markets-and-currencies-where-you-can-sell-csp-offers"></a>Felhőszolgáltató regionális piacok és pénznemek, ahol CSP-ajánlatokat értékesíthet
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
+**Megfelelő szerepkörök:** Globális rendszergazda
 
 A vállalat piacát a vállalat földrajzi helye határozza meg. A piac azokat a régiókat és/vagy országokat tartalmazza, ahol értékesíthet Felhőszolgáltató (CSP) program keretében.
 
-Ha például a vállalata a Egyesült Államok található, CSP-ajánlatokat értékesíthet az Egyesült Államokban és az Egyesült Államokban található, outlying-szigeteken található ügyfeleknek. Ha vállalata Brazília területén található, csp-ajánlatokat csak Brazília ügyfeleinek értékesíthet. Ha a vállalata az Afrika régióban található, csp-ajánlatokat értékesíthet az ügyfeleknek mind a 18 országban az afrikai régióban.
+Ha például a vállalata a Egyesült Államok van, CSP-ajánlatokat értékesíthet az Egyesült Államokban és az Egyesült Államokban található, outlying-szigeteken található ügyfeleknek. Ha vállalata Brazília területén található, csp-ajánlatokat csak Brazília ügyfeleinek értékesíthet. Ha a vállalata az Afrika régióban található, csp-ajánlatokat értékesíthet az ügyfeleknek mind a 18 országban az afrikai régióban.
 
 Ahhoz, hogy CSP-ajánlatokat rendeljen egy ügyfél nevében, az ügyfélnek alá kell írnia a Microsoft Ügyfélszerződés. A régióra/országra vonatkozó Microsoft Ügyfélszerződés itt [találja.](agreements.md)
 
-## <a name="azure-plan-for-csp-region-availability"></a>Azure-csomag a CSP-régió rendelkezésre állásához  
+## <a name="azure-plan-for-csp-region-availability"></a>Azure-csomag a CSP-régiók rendelkezésre állásához  
 
 Az Azure-csomag CSP-hez kevesebb régióban érhető el, mint az Azure Software for CSP. Az Azure-csomag regionális rendelkezésre állásának legújabb frissítéseit lásd: [Az Azure-csomag megvásárlása.](purchase-azure-plan.md)
 
 >[!IMPORTANT]
-> Meg kell erősítenie, hogy az ügyfél elfogadta a Microsoft Ügyfélszerződés meg kell adni az azt aláíró személy adatait. További [részletekért lásd:](confirm-consent.md) A Microsoft Ügyfélszerződés ügyfél általi elfogadásának megerősítése.
+> Meg kell erősítenie, hogy az ügyfél elfogadta a Microsoft Ügyfélszerződés meg kell adni az azt aláíró személy adatait. További [részletekért lásd:](confirm-consent.md) Ellenőrizze, hogy az ügyfél elfogadta-e Microsoft Ügyfélszerződés feltételeket.
 
 Annak megállapításához, hogy hol értékesíthet CSP-ajánlatokat, keresse meg a vállalat helyét az alábbi listák egyikében. Az értékesíteni kívánt helynek aktív Microsoft Partner Network (MPN) azonosítóval kell lennie.  
 
 
 ## <a name="for-unsupported-countries"></a>Nem támogatott országok esetében
 
-Ha az ön országa nem támogatott, hozza létre az ügyfél CSP-kapcsolatát az Office rendszergazdai URL-címével. 
+Ha az ország nem támogatott, hozza létre az ügyfél CSP-kapcsolatát az Office rendszergazdai URL-címével. 
 
 - A közvetlen számlázási partnerek a következő URL-címet használják: https://portal.office.com/partner/partnersignup.aspx?type=ResellerRelationship&id=partnertenantguid&csp=1&msppid=0 . Cserélje **le a partnertenantguid helyére** a bérlőazonosítóját. 
 
@@ -94,7 +92,7 @@ Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékes�
 | Sierra Leone             |   USD    |
 | Szomália                  |   USD    |
 | Dél-Szudán              |   USD    |
-| St Mosta, Ascension, Tristan da Canha|    USD   |
+| St Foga, Ascension, Tristan da Amilyenha|    USD   |
 | Tanzánia                 |   USD    |
 | Togo                     |   USD    |
 | Uganda                   |   USD    |
@@ -232,7 +230,7 @@ Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékes�
 
 ## <a name="india-region-and-market"></a>India régiója és piaca
 
-Ha vállalata helye India, csp-ajánlatokat értékesíthet az indiai ügyfeleknek.
+Ha vállalata tartózkodási helye India, csp-ajánlatokat értékesíthet az indiai ügyfeleknek.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|
@@ -383,9 +381,9 @@ Ha a vállalata helye szerepel az alábbi listában, csp-ajánlatokat értékes�
 |  Vanuatu        |   NZD    |
 |
 
-## <a name="russia-region-and-market"></a>Oroszországi régió és piac
+## <a name="russia-region-and-market"></a>Oroszország régiója és piaca
 
-Ha a vállalata helye Oroszország, CSP-ajánlatokat értékesíthet Az orosz ügyfelek számára.
+Ha a vállalata helye Oroszország, csp-ajánlatokat értékesíthet Az orosz ügyfelek számára.
 
 |  Ország/régió | Pénznem |
 |  -------------- |:--------:|

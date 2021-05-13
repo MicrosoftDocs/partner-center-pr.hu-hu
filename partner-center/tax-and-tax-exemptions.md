@@ -9,18 +9,16 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 515591f37cb15e8af69acf8d30affd9300429e42
-ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
+ms.openlocfilehash: 7e6db20296075774a6254116df898e15ecc50034
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108284468"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109856032"
 ---
 # <a name="read-about-taxes-and-tax-exemption-details-by-region-or-country-for-partners-in-the-csp-program"></a>További információ az adókról és az adómentességről régiónként vagy országonként a CSP-programban részt adó partnerek számára
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
+**Megfelelő szerepkörök:** Globális rendszergazda
 
 A Felhőszolgáltató (CSP) program egy értékesítési csatorna, amely a termékek partneri újraértékesítésével összpontosít. Ennek eredményeképpen a Microsoftnak nem kell mindig a partnerszámlákra kiszámlázott forgalmi adót felszám töltenie. A szabályok országonként és/vagy régiónként változnak. Az adómentesség [ország-specifikus és régióspecifikus adatait is áttekintheti.](#country-and-region-tax-details)
 
@@ -43,7 +41,7 @@ BC PST-kivételhez jelentsen be egy adómentességet a leírt módon. Adja meg a
 
 A microsoftos viszonteladói szerződés Egyesült Államok a Microsoft-viszonteladói szerződés elfogadásától számított 30 napon belül az értékesítési adómentesség dokumentációját. Minden állapot különböző kivételtanúsítvánnyal rendelkezik az újraértékesítéshez. Az adótanácsadóval együtt állapítsa meg, hogy mi releváns a jogi címe és a regisztrált államok szempontjából.
 
-Ez magában foglalhat újraértékesítési kivételtanúsítványokat, amelyek több államban működnek, például a *Streamline Sales* *and Use Tax Agreement Certificate of Exemption* (Az értékesítések leegyszerűsítése és az adószerződéses tanúsítvány használata) vagy az MTC Uniform Sales & Use Tax Exemption Certificate (Az értékesítések leegyszerűsítése és az adószerződéses tanúsítvány használata) vagy az *MTC Uniform Sales & Tax Exemption Certificate*(Adómentességi tanúsítvány használata).
+Ez magában foglalhat újraértékesítési kivételtanúsítványokat, amelyek több államban működnek, például a *Streamline Sales* and Use Tax Agreement Certificate of Exemption (Az értékesítések leegyszerűsítése és az adószerződéses tanúsítvány *használata)* vagy az *MTC Uniform Sales & Use Tax Exemption Certificate*(Adómentességi tanúsítvány használata).
 
 ### <a name="other-regions"></a>Más régiók
 
@@ -63,11 +61,11 @@ Az adómentesség bejelentése előtt győződjön meg arról, hogy megértette 
 
 - Országtól, régiótól vagy államtól függően az értékesítési adómentesség olyan jogi irányelveket tartalmaz, amelyek a helyi Adó bevételi Részlegre (vagy hasonló részlegre) vonatkoznak, és ennek megfelelően kell kezelni őket. Bár számos hely rendelkezik évente megújított fő adótanúsítvánnyal, egyes helyek két vagy több éven át újulhatnak meg. Ezt és az egyéb információkat úgy ellenőrizheti, hogy ellenőrzi a tanúsítványt, vagy kapcsolatba lép a helyi hitelesítésszolgáltatóval.
 
-Ha készen áll az adómentesség beterjesztésre, [](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=92930319-ced6-c18b-d7a6-d62b22d60aa5) nyisson meg egy jegyet a Microsoft ügyfélszolgálata és a megfelelő információkat.
+Ha készen áll az adómentesség beszolgáltatására, [](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=92930319-ced6-c18b-d7a6-d62b22d60aa5) nyisson meg egy jegyet a Microsoft ügyfélszolgálata és a megfelelő adatokat.
 
 ## <a name="support"></a>Támogatás
 
-Az adómentességgel és visszatérítésekkel, illetve egyéb, adózási kérdésekkel kapcsolatos kérdések esetén kérje a támogatási Partnerközpont. Várjon két hetet, hogy a Microsoft kapcsolatba lépjen Önnel, és megoldja a problémát.
+Az adómentességgel és visszatérítésekkel, illetve egyéb, adózási kérdésekkel kapcsolatos kérdések esetén kérjen támogatást a Partnerközpont. Várjon két hetet, hogy a Microsoft kapcsolatba lépjen Önnel, és megoldja a problémát.
 
 ## <a name="next-steps"></a>Következő lépések
 

@@ -9,18 +9,16 @@ author: rajap-ms
 ms.author: rajap
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 96c0b320850b4ee648e98fc5da97d9f25faaf405
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.openlocfilehash: 8f8b3a086f968ed00deefa718d3abc18223ba600
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172429"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855743"
 ---
 # <a name="register-deals-youve-won-in-partner-center-so-you-can-get-more-opportunities-later"></a>Regisztráljon az egyes üzletekben Partnerközpont, hogy később több lehetőséghez jut.
 
-**Megfelelő szerepkörök**
-
-- Ajánlói rendszergazda
+**Megfelelő szerepkörök:** Ajánlói rendszergazda
 
 A szerződéssel kapcsolatos további információk meg Partnerközpont is regisztrálhatja az így megnyert ügyleteket. Ezek az információk további lehetőségeket biztosítanak a jövőben.
 
@@ -52,15 +50,15 @@ Ha egy ajánlat egy hivatkozásból származik, és még nem regisztrálta, az a
 
 ## <a name="viewing-active-and-closed-deal-registrations"></a>Az aktív és a lezárt ügyletek regisztrációjának megtekintése
 
-Az új, aktív és lezárt ajánlatregisztrációkat az Ajánlatregisztrációk és **-ajánlatregisztrációk > oldalon.**
+Az új, aktív és lezárt ajánlatregisztrációkat az Ajánlatregisztrációk és **-ajánlatregisztrációk > oldalon is áttekintheti.**
 
 ### <a name="action-required"></a>Szükséges beavatkozás
 
-Az **Ajánlatregisztrációk >** ajánlatregisztrációk > Beavatkozás szükséges oldalon olyan új regisztrációkat fog látni, amelyek még nincsenek regisztrálva, vagy frissítést igényelnek. A szűrőkkel csak Hiányos  vagy Frissítés szükséges **ajánlatregisztrációkat** mutathat. **A** hiányos ajánlatregisztrációk azok, amelyek a hivatkozásokból származnak, de még nincsenek regisztrálva. **A szükséges** ajánlatregisztrációk frissítése azok, amelyek létre vannak hozva és regisztrálva vannak, de ehhez frissítenie kell a megadott információkat.
+Az **Ajánlatregisztrációk >** ajánlatregisztrációk > Action required (Beavatkozás szükséges) oldalon olyan új regisztrációkat láthat, amelyek még nincsenek regisztrálva, vagy frissítést igényelnek. A szűrőkkel csak hiányos  vagy frissítés szükséges **ajánlatregisztrációkat** mutathat. **A** hiányos ajánlatregisztrációk azok, amelyek a hivatkozásokból származnak, de még nincsenek regisztrálva. **A szükséges** ajánlatregisztrációk frissítése azok, amelyek létre vannak hozva és regisztrálva vannak, de ehhez frissítenie kell a megadott információkat.
 
 ### <a name="in-progress"></a>Folyamatban
 
-Az **Ajánlatregisztrációk >** ajánlatregisztrációk > Folyamatban oldalon láthatja a Microsoft által áttekintő ajánlatregisztrációkat. Ha további információra van szükségünk, az Ön által megadott **regisztrációs kapcsolattartási adatokat** fogjuk használni.
+Az **Ajánlatregisztrációk >** ajánlatregisztrációk > folyamatban oldalon láthatja a Microsoft által áttekintő ajánlatregisztrációkat. Ha további információra van szükségünk, az Ön által megadott **Regisztrációs kapcsolattartási adatokat** fogjuk használni.
 
 Ha bármilyen információt frissíteni kell, áthelyezheti az ajánlat regisztrációját a **Beavatkozás szükséges oldalra.**
 
