@@ -1,64 +1,59 @@
 ---
-title: Gyakori kérdések – a partner Center Analytics Power BI
+title: Gyakori kérdések – Partnerközpont Analytics for Power BI
 ms.topic: article
 ms.date: 05/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Tekintse át ezt az áttekintést és a Power BI partner Center Analytics alkalmazásával kapcsolatos gyakori kérdéseket.
+description: Tekintse át ezt az áttekintést és a gyakori kérdéseket a Partnerközpont adatelemzési alkalmazás a Power BI-hoz.
 fwlink: https://go.microsoft.com/fwlink/?linkid=852582
 author: v-sumukh
 ms.author: v-sumukh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: edc6469693e8dc8dcc93f9a4df66c9a232b29738
-ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
+ms.openlocfilehash: 28fb6e9a963228f45a927089e0bb8ae3ecd452ff
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105633675"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854536"
 ---
-# <a name="overview-and-faqs-for-the-partner-center-analytics-app-for-power-bi-direct-partners-in-csp"></a>A Power BIhez készült partner Center Analytics alkalmazás áttekintése és gyakori kérdések (közvetlen partnerek a CSP-ben)
+# <a name="overview-and-faqs-for-the-partner-center-analytics-app-for-power-bi-direct-partners-in-csp"></a>Áttekintés és gyakori kérdések a Partnerközpont adatelemzési alkalmazás a Power BI-hoz (közvetlen csp-partnerek)
 
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Értékesítési ügynök
-- Felügyeleti ügynök
-
-Tekintse meg az üzleti adatai vizuális megjelenítését a Power BIhez készült partner Center Analytics-alkalmazással. Az alkalmazás, amely közvetlen partnereknek készült a felhőalapú megoldás-szolgáltatói programban (CSP), az ismerős Power BI-keretrendszerhez csatlakozik.
+Az üzleti adatok vizuális ábrázolása a Partnerközpont adatelemzési alkalmazás a Power BI-hoz. Az alkalmazás, amely a Felhőszolgáltató program (CSP) közvetlen partnerei számára készült, a jól ismert Power BI hoz létre.
 
 > [!NOTE]  
-> Közvetlen partner, ha közvetlenül a Microsofttal és az ügyfelekkel dolgozik.
+> Közvetlen partner, ha közvetlenül a Microsofttal és az ügyfelekkel is üzleti kapcsolatban áll.
 
-Telepítse az alkalmazást a következő grafikus nézetek beolvasásához:
+Telepítse az alkalmazást az alábbi grafikus nézetekhez:
 
-- Ügyfélkör, előfizetések és licencek növekedése
+- Az ügyfélkör, az előfizetések és a licencek növekedése
 
-- Az Office 365, a Microsoft Dynamics és a Microsoft Azure termékek használata
+- Az Office 365, a Microsoft Dynamics és a Microsoft Azure használata
 
-- Napi fogyasztási egységek minden egyes mért erőforráshoz az elmúlt 60 napra vonatkozóan az egyes Azure-előfizetésekben
+- Az egyes Azure-előfizetések forgalmi díjas erőforrásának napi fogyasztási egységei az elmúlt 60 napra
 
-- Becsült költségek a legújabb díjszabási kártya alapján
+- Becsült költség a legújabb díjkártya alapján
 
-- Adatkészletek exportálása és egyéni jelentések létrehozása, beleértve az ügyfeleket
+- Lehetőség adatkészletek exportálására és egyéni jelentések létrehozására, ügyfélenként is
 
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
-Javasoljuk, hogy az alkalmazás telepítése előtt tekintse át a gyakran ismételt kérdésekre adott válaszokat.
+Javasoljuk, hogy az alkalmazás telepítése előtt tekintse át a gyakori kérdésekre adott válaszunkat.
 
 | **Kérdés** | **Válasz** |
 | --- | ---------- |
-| Mit jelent az alkalmazás díja? | Maga az alkalmazás ingyenes. Az alkalmazás előnézetének megtekintéséhez [regisztrálhat az ingyenes Power bi szolgáltatásre](https://go.microsoft.com/fwlink/p/?linkid=845347) , és testreszabhatja az irányítópultokat és a jelentéseket. Annak engedélyezéséhez, hogy a vállalat többi felhasználója használhassa az alkalmazást, aktív előfizetéssel kell rendelkeznie a Microsoft Power BI Professional vagy a Microsoft Power BI Premium számára. |
-| Kik tudnak csatlakozni a partner Center Analytics-alkalmazáshoz? | Az alkalmazás ezen verzióját közvetlen partnereknek (1. szintű) tervezték a Cloud Solution Provider programban. Közvetlen partner, ha közvetlenül a Microsofttal és az ügyfelekkel dolgozik. Az alkalmazás telepítéséhez globális rendszergazdának, rendszergazdai ügynöknek vagy számlázási rendszergazdának kell lennie a vállalata fiókjához. |
-| Közvetett szolgáltató vagyok; Használhatom az alkalmazást? | Igen. A globális rendszergazda, a felügyeleti ügynök vagy a számlázási rendszergazda telepítheti az alkalmazást, és megtekintheti a közvetlen ügyfelek adatait. A jövőbeli kiadások olyan funkciókat is tartalmazhatnak, amelyek lehetővé teszik a közvetett viszonteladókkal kapcsolatos információk megtekintését. |
-| Hogyan tudhatok meg többet a jövőbeli kiadásokról? | A hirdetmények és az előzetes verziók a partner Center korai bevezetési programjával érhetők el. A visszajelzéseket a korai alkalmazó programon keresztül is megoszthatja. Ha még nem vesz részt a programban, ismerkedjen meg a csatlakozással. Lásd: [Csatlakozás a partner Center API-hoz és az SDK korai](/partner-center/develop/early-adopter-program)bevezetési programhoz.  |
-| Ki szabhatja testre az irányítópultokat és a jelentéseket az alkalmazásban? | Csak az alkalmazást telepítő globális rendszergazda, rendszergazdai ügynök vagy számlázási rendszergazda testreszabhatja az irányítópultot, vagy létrehozhat új jelentéseket a Power BI webes felületén. |
-| Kik tekinthetik meg az irányítópultokat és a jelentéseket az alkalmazásban? | Az alkalmazást telepítő globális rendszergazda, rendszergazdai ügynök vagy számlázási rendszergazda megoszthatja az alkalmazás azon felhasználóit, akik aktív előfizetéssel rendelkeznek a Microsoft Power BI Professional vagy a Microsoft Power BI Premium számára. |
-| Használhatom az alkalmazást több Azure AD-bérlőből származó adatok megtekintésére a különböző helyszíneken? | Ebben a kiadásban csak az Azure AD-bérlőből származó adatok tekinthetők meg, amelyeken a globális rendszergazda vagy a rendszergazdai ügynök bejelentkezett. | 
-| Mikor lesznek elérhetők az alkalmazások további nyelveken? | Az ütemterv bejelentéseit a partner Center korai bevezetési programja teszi közzé. Ha még nem vesz részt a programban, Regisztráljon most a következő címen: [https://partnercenter.microsoft.com/partner/early-adopter-program](https://partnercenter.microsoft.com/partner/early-adopter-program) . A visszajelzéseket a korai alkalmazó programon keresztül is megoszthatja. | 
+| Milyen költséggel jár az alkalmazás? | Maga az alkalmazás ingyenes. Az alkalmazás előnézetének [](https://go.microsoft.com/fwlink/p/?linkid=845347) megtekintéséhez regisztrálhat az ingyenes Power BI szolgáltatás irányítópultok és jelentések testreszabásához használhatja. Ahhoz, hogy a vállalatnál mások is használják az alkalmazást, aktív Microsoft Power BI Professional- vagy Microsoft-előfizetéssel kell Power BI Premium. |
+| Ki csatlakozhat a Partnerközpont Analytics alkalmazáshoz? | Az alkalmazás ezen verziója közvetlen partnerek (1. réteg) számára készült a Felhőszolgáltató programjában. Közvetlen partner, ha közvetlenül a Microsofttal és az ügyfelekkel is üzleti kapcsolatban áll. Az alkalmazás telepítéséhez globális rendszergazdának, rendszergazdai ügynöknek vagy számlázási rendszergazdának kell lennie a vállalati fiókhoz. |
+| Közvetett szolgáltató vagyok; Használhatom az alkalmazást? | Igen. A globális rendszergazda, a rendszergazdai ügynök vagy a számlázási rendszergazda telepítheti az alkalmazást, és láthatja a közvetlen ügyfelek adatait. A jövőbeli kiadások olyan funkciókat is tartalmazhatnak, amelyek lehetővé teszik, hogy a közvetett viszonteladók adatait is lássa. |
+| Hogyan tanulhatok a jövőbeli kiadásokról? | A közlemények és az előzetes kiadások a korai Partnerközpont programon keresztül érhetők el. Visszajelzését a korai befogadó programon keresztül is megoszthatja. Ha még nem vesz részt a programban, megtudhatja, hogyan csatlakozhat. Lásd: Join the Partnerközpont API and SDK Early Adopter Program (Csatlakozás [az Partnerközpont API-hoz és az SDK early Adopter Programhoz).](/partner-center/develop/early-adopter-program)  |
+| Ki szabhatja testre az irányítópultokat és jelentéseket az alkalmazásban? | Csak az alkalmazást telepített globális rendszergazda, rendszergazda vagy számlázási rendszergazda szabhatja testre az irányítópultot, vagy hozhat létre új jelentéseket a Power BI felületén. |
+| Ki tudja megtekinteni az irányítópultokat és a jelentéseket az alkalmazásban? | Az alkalmazást telepített globális rendszergazda, rendszergazda vagy számlázási rendszergazda megoszthatja az alkalmazásadatokat bárkivel, aki aktív Microsoft Power BI Professional- vagy Microsoft-Power BI Premium. |
+| Az alkalmazással több Azure AD-bérlőből származó adatokat is megtekinthet a különböző helyeken? | Ebben a kiadásban csak annak az Azure AD-bérlőnek az adatait tudja megtekinteni, amelybe a globális rendszergazda vagy a rendszergazdai ügynök bejelentkezett. | 
+| Mikor lesz elérhető az alkalmazás további nyelveken? | Az ütemterv bejelentései a korai Partnerközpont programon keresztül szabadulnak fel. Ha még nem vesz részt a programban, regisztráljon rá itt: [https://partnercenter.microsoft.com/partner/early-adopter-program](https://partnercenter.microsoft.com/partner/early-adopter-program) . Visszajelzését a korai befogadó programon keresztül is megoszthatja. | 
 
 
 
@@ -66,4 +61,4 @@ Javasoljuk, hogy az alkalmazás telepítése előtt tekintse át a gyakran ismé
 
 [A Partnerközpont adatelemzési alkalmazás a Microsoft Power BI-hoz telepítése és előzetes verziója](power-bi-app-for-direct-partners-install.md)
 
-[Üzleti adatai megtekinthetők a Microsoft Power BI partner Center Analytics alkalmazásával](power-bi-app-for-direct-partners-use.md)
+[Üzleti adatok megtekintése a Microsoft Partnerközpont Analytics alkalmazással Power BI](power-bi-app-for-direct-partners-use.md)

@@ -1,434 +1,428 @@
 ---
-title: Áttelepítés partner Sales-kapcsolatról (PSC)
+title: Áttelepítés a Partner Sales Connectből (PSC)
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a Microsoft-partnerek hogyan telepíthetik át a partneri értékesítési összekötőt a partneri központba, és hogyan hozhatók létre vagy kezelhetők a Microsoft-értékesítők
+description: Ismerje meg, hogyan mikolhatja át a Microsoft-partnerek a Partner Sales Connect (PSC) Partnerközpont microsoftos értékesítők által küldött ügyleteket hozhatnak létre és kezelhet.
 author: vikramb
 ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 12/07/2020
-ms.openlocfilehash: adbe4bf9fd329f7443608dd1a1e123208212ef43
-ms.sourcegitcommit: 26095af7950817099764bf47370cb3e77e0dce7c
+ms.openlocfilehash: 584f8a7f2794cb64be49fe7f790904eff50c4c26
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "102770274"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855105"
 ---
-# <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a partneri értékesítési kapcsolódásról (PSC) áthelyezett partneri központhoz (számítógép) való közös értékesítéshez
+# <a name="guide-to-co-selling-in-partner-center-pc-for-partners-migrating-from-partner-sales-connect-psc"></a>Útmutató a Partner Sales Connectről (PSC) Partnerközpont (PC) származó partnerek közös értékesítéséhez
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Fiók-rendszergazdai | Ajánlói rendszergazdai | Partner Sales Connect (PSC) értékesítői | Partner Sales Connect (PSC) rendszergazdai | Partner Sales Connect (PSC) üzletvezető
 
-- Fiókadminisztrátor
-- Ajánlói rendszergazda
-- Partner Sales-csatlakozási (PSC) értékesítő
-- Partner Sales csatlakozási (PSC) rendszergazda
-- Partner Sales csatlakozási (PSC) Deal Manager
-
-Ez a cikk útmutatást nyújt a partneri értékesítési partnerektől a partneri központhoz való áttelepítéshez, így továbbra is létrehozhatnak és kezelhetnek közös értékesítési ajánlatokat a partner Centerben.
+Ez a cikk útmutatást nyújt a Partner Sales Connectből a Partnerközpont-be mirating partnerek számára, hogy továbbra is létrehozva és kezelve tudják kezelni az értékesítési Partnerközpont.
 
 >[!Note]
-> Ha azért van itt, mert az áttelepítéssel kapcsolatban egy, a PSC-ben megjelenő szalagcím található, akkor Ön a megfelelő helyen található. Ez az útmutató nem alkalmazható a megoldás-értékelési (SA) és az OEM licencelési üzleti partnerek számára, akik a PSC-ben lévő ügyleteket kezelik.
+> Ha azért van itt, mert szalagcímet látott a PSC-ről a migrálásról, jó helyen van. Ez az útmutató nem vonatkozik a megoldásértékelési (SA) és OEM-licencelési üzleti partnerekre, akik PSC-kkel kapcsolatos ügyleteiket kezelik.
 
 >[!Important]
-> 2021. április 1-től a vállalat nem tudja létrehozni vagy szerkeszteni a PSC-t. **A meglévő ajánlatok adatai továbbra is letölthetők a PSC tömeges exportálási funkciójával. Ezen dátum után a PSC-ről a partneri központba is [áttelepítheti a nyitott ajánlatokat](psc-to-pc.md#psc-deals-migration) .** <br><br> Ha vannak olyan ügyletek, amelyekben aktívan dolgozik, és az IP-címek közös értékesítését ösztönző megoldásokat tartalmaz, két lehetőség közül választhat: <br><br> 1. adja meg az ügyletet megnyertként, és fejezze be az ügylet regisztrációját a PSC-ben, a 2021 március 31-ig. <br> 2. [telepítse át az ajánlatokat](psc-to-pc.md#psc-deals-migration) a partneri központba, így több időt kell igénybe vennie a Deal és a Deal regisztráció megkezdéséhez.
+> 2021. április 1-től a vállalat nem hozhat létre és nem szerkeszthet ügyleteket a PSC-ben. **Továbbra is letöltheti a meglévő ügyleti adatokat a PSC tömeges exportálási képességével. Emellett a [PSC-ről is](psc-to-pc.md#psc-deals-migration) át lehet Partnerközpont ezt követően.** <br><br> Ha vannak olyan ügyletek, amelyeken aktívan dolgozik, és az IP-alapú közös értékesítésre alkalmas megoldásokat tartalmaznak, két lehetőség közül választhat: <br><br> 1. Az ajánlatot 2021. március 31. előtt jelölje meg megnyertként és teljes üzletregisztrációként a PSC-ben. <br> 2. [Az ügyleteket](psc-to-pc.md#psc-deals-migration) át kell Partnerközpont, hogy több ideje munkához jut a ügyleten és elkezdeni az ügylet regisztrációját.
 
-Amint tudja, a **vállalat a 2021. április 30-ig elveszíti a PSC-hez való hozzáférést**. Azonban továbbra is mindent megtalál, amit szeretne tenni a partner Centerben, mint például a közös értékesítési ajánlatok létrehozása, az ajánlatok kezelése és a Microsoft-értékesítők által eljuttatott ajánlatok.
+Mint tudja, a vállalat **2021. április 30.** után elveszíti a PSC-hozzáférését. Azonban itt is megtalál mindent, amit el szeretne Partnerközpont, például közös értékesítést hozhat létre, kezelheti az ügyleteket, és a Microsoft értékesítői által elküldött ügyletekre is feltehet bizonyosokat.
 
-Azonban eltérőek lesznek. A következő útmutató segítséget nyújt a partneri központ gördülékenyebb és egyszerűbb átállásához.
+Lesznek azonban különbségek. Az alábbi útmutató segítségével zökkenőmentesebb és egyszerűbben Partnerközpont a folyamatra való átállást.
 
-## <a name="before-you-move-things-you-need-to-know"></a>Mielőtt továbblép, meg kell ismernie a szükséges dolgokat
+## <a name="before-you-move-things-you-need-to-know"></a>Mielőtt továbblép, a szükséges dolgok
 
 ### <a name="if-you-are-a-psc-admin"></a>Ha Ön PSC-rendszergazda
 
-- A [partner központba](https://partner.microsoft.com/)való bejelentkezéshez munkahelyi e-mailre van szükség.
-- Állítsa be a fiókját a partner Center- [fiók rendszergazdája](permissions-overview.md)segítségével.
-- A jelen dokumentum elolvasásával megtudhatja, hogyan értékesítheti a partner Centerben.
-- Hozzon létre felhasználói fiókokat a partner Centerben az összes PSC-felhasználóhoz (rendszergazdai, Deal Manager-és eladói szerepkörök), és rendelje hozzá az [Ajánlói rendszergazdai szerepköröket](permissions-overview.md).
+- A szolgáltatásba való bejelentkezéshez munkahelyi [e-Partnerközpont.](https://partner.microsoft.com/)
+- Állítsa be a fiókját a fiókadminisztr Partnerközpont [segítségével.](permissions-overview.md)
+- Ebből a dokumentumból megtudhatja, hogyan értékesít Partnerközpont 2016.
+- Állítson be felhasználói fiókokat a Partnerközpont PSC-felhasználók (Rendszergazda, Ajánlatkezelő és Értékesítő szerepkör) számára, és rendeljen hozzájuk [ajánlói rendszergazdai szerepköröket.](permissions-overview.md)
 
 >[!IMPORTANT]
-> Győződjön meg arról, hogy a PSC-szalagcímben látható MPN-azonosító elérhető a fiókpartner MPN-helyeinek listájában.
+> Győződjön meg arról, hogy a PSC szalagcímen látható MPN-azonosító elérhető az MPN-helyek listájában a Partnerközpont.
 
-:::image type="content" source="images/pscmigration/mpnidcheck.png" alt-text="A PSC-bannert bemutató kép, amelyben a partnerek megtalálják az MPN-azonosítót.":::
+:::image type="content" source="images/pscmigration/mpnidcheck.png" alt-text="A PSC szalagcímet bemutató kép, ahol a partnerek megtalálják az MPN-azonosítót.":::
 
- Annak ellenőrzéséhez, hogy az MPN-azonosító fiókpartner-helyként jelenik-e meg, jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd válassza a **Beállítások** (a fogaskerék ikon) lehetőséget a képernyő jobb felső részén, majd a **Fiókbeállítások** menüpontot. A második szint bal oldali navigációs menüjében válassza a **helyszínek** elemet a partner Center-fiókhoz társított MPN-azonosítók és-helyszínek listájának megtekintéséhez.
+ Annak ellenőrzéséhez, hogy az MPN-azonosító mpN-helyként jelenik-e [](https://partner.microsoft.com/dashboard)meg, jelentkezzen be Partnerközpont a Partnerközpont-irányítópultra, majd válassza a Beállítások  (fogaskerék ikon) lehetőséget a képernyő jobb felső részén, majd a Fiókbeállítások **lehetőséget.** A második szintű, bal oldali navigációs  menüben válassza a Helyek lehetőséget a fiókhoz társított összes MPN-Partnerközpont és hely listájának.
 
-### <a name="if-you-are-a-psc-deal-manager-or-seller"></a>Ha Ön a PSC Deal Manager vagy az értékesítő
+### <a name="if-you-are-a-psc-deal-manager-or-seller"></a>Ha Ön PSC-üzletvezető vagy értékesítő
 
-- A partner Center [irányítópultra](https://partner.microsoft.com/dashboard)való bejelentkezéshez szüksége van egy munkahelyi e-mailre.
-- Ha nem munkahelyi fiókot használ a PSC-ben, vagy a munkahelyi e-mail-címe egy másik cég, mint a partner vállalat, forduljon a PSC rendszergazdához a fiók beállítása című súgóban.
-- Forduljon a PSC rendszergazdájához, ha a partner Center-fiók beállítása a PSC-be való bejelentkezéshez használt fióktól függetlenül befejeződött.
-- Ellenőrizze, hogy rendelkezik-e hozzáféréssel a partner központhoz és az átirányítási szakaszhoz.
-- Olvassa el ezt a dokumentumot a munkafolyamatok és a partneri központ változásainak megismeréséhez.
+- Az irányítópultra való bejelentkezéshez munkahelyi e-Partnerközpont [szüksége.](https://partner.microsoft.com/dashboard)
+- Ha nem munkahelyi fiókot használ a PSC-ben, vagy a munkahelyi e-mail-címe nem a partnervállalatnál van, forduljon a PSC-rendszergazdához a fiók beállításával kapcsolatban.
+- Ellenőrizze a PSC-rendszergazdával, hogy Partnerközpont fiók beállítása befejeződött-e, függetlenül attól, hogy milyen fiókot használ a PSC-be való bejelentkezéshez.
+- Ellenőrizze, hogy rendelkezik-e hozzáféréssel Partnerközpont és a Hivatkozások szakaszhoz.
+- Olvassa el ezt a dokumentumot a munkafolyamatok és a változások Partnerközpont.
 
-## <a name="as-an-admin-in-psc-these-are-your-next-steps"></a>A PSC-ben rendszergazdaként ezek a következő lépések
+## <a name="as-an-admin-in-psc-these-are-your-next-steps"></a>A PSC rendszergazdájaként ezek a következő lépések
 
-A partneri központ bal oldali navigációs menüjében válassza az **átirányítási** lehetőséget. Erősítse meg, hogy hozzáfér az átirányítási lapokhoz.
+A bal Partnerközpont menüben válassza a **Hivatkozások** lehetőséget. Ellenőrizze, hogy hozzáfér-e a Hivatkozási oldalakhoz.
 
   >[!Note]
-  > Előfordulhat, hogy ki kell jelentkeznie a partneri központból, és újra be kell jelentkeznie, hogy frissítse a hitelesítő adatait az átirányítási lapokhoz való hozzáféréshez.
+  > Előfordulhat, hogy ki kell jelentkeznie a Partnerközpont, majd újra be kell jelentkeznie a hitelesítő adatok frissítéshez a Hivatkozási lapokhoz való hozzáféréshez.
 
-Ha nem látja az **átirányítási** lehetőséget a partner Center menüjében vagy az átirányítással kapcsolatos lapokon, lépjen kapcsolatba a vállalati [fiók rendszergazdájával](permissions-overview.md) , és kérje meg őket, hogy hozzáférést biztosítson az **átirányítási** lehetőségek és a kapcsolódó területek számára.
+Ha nem látja a  Hivatkozások lehetőséget a Partnerközpont menüjében vagy a Hivatkozásokkal kapcsolatos oldalakon, lépjen kapcsolatba a cég fiókadminisztrátával, és kérje meg, hogy adjon hozzáférést a Hivatkozások lehetőséghez és a kapcsolódó területhez. [](permissions-overview.md) 
 
-A vállalati fiók rendszergazdájának megkeresése:
+A céges fiókadminisztrát a következővel találhatja meg:
 
-1. Válassza ki a **Fiókbeállítások** elemet a központ irányítópultjának jobb felső sarkában található fogaskerék ikonra kattintva.
+1. Válassza **a Fiókbeállítások** lehetőséget a jobb felső sarokban található fogaskerék ikonnal Partnerközpont irányítópulton.
 
-1. A második szintű, bal oldali navigációs menüből válassza a **felhasználói kezelés** lehetőséget.
+1. A **bal oldali** navigációs menüben válassza a Felhasználókezelés lehetőséget.
 
-1. A felhasználók listájának tetején válassza a **szűrő** legördülő menüt. Módosítsa a **fiók rendszergazdája** beállítást.
+1. A felhasználólista tetején válassza a Szűrő **legördülő** menüt. Módosítsa a beállítást **Fiók-rendszergazda beállításra.**
 
-   A lap megjeleníti az összes fiók rendszergazdáját a hozzájuk tartozó e-mail-címükkel. Küldje el az egyiket, és kérje meg őket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
+   A lapon megjelenik az összes fiók-rendszergazda a megfelelő e-mail-címmel. Küldje el e-mailben az egyiket, és kérje meg, hogy rendelje hozzá a ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
 
-  :::image type="content" source="images/pscmigration/account-admin.gif" alt-text="A partner-beállítások felhasználói kezelés lapján található fiók-rendszergazdákat bemutató kép.":::
+  :::image type="content" source="images/pscmigration/account-admin.gif" alt-text="A partnerbeállítások felhasználókezelési oldalán a fiók-rendszergazdákat bemutató kép.":::
 
 >[!Important]
->- Ha a szerepkör csak a PSC-felhasználók felügyeletét foglalja magában, kérje meg a vállalat fiókjának rendszergazdáját, hogy rendelje hozzá a [fiók rendszergazdai](permissions-overview.md#manage-mpn-membership-and-your-company) szerepkörét a partner Centerben. 
->- Ha a szerepköre magában foglalja a közös értékesítési lehetőségek kezelését is, kérje meg, hogy rendelje hozzá az [Ajánlói rendszergazdai](permissions-overview.md#manage-referrals) szerepkört.
-> - Érdemes kinevezni egy módosítási kezelési érdeklődőt is a PSC-rendszergazdák közé. Ezzel megakadályozza, hogy az összes PSC-rendszergazda külön-külön elérje a partner Center-fiók rendszergazdáit. Ehelyett a Change Management vezető a partner Center-fiók rendszergazdájával dolgozó elsődleges személy lehet.
+>- Ha a szerepköre csak a felhasználók PSC-ben való felügyeletét foglalja magában, kérje meg a vállalat fiókadminisztrátusát, hogy rendeljen Önnek fiókadminisztr Partnerközpont. [](permissions-overview.md#manage-mpn-membership-and-your-company) 
+>- Ha a szerepköre magában foglalja az együttműködési lehetőségek felügyeletét is, kérje meg, hogy legyen hozzárendelve a [ajánlói rendszergazdai szerepkörhöz.](permissions-overview.md#manage-referrals)
+> - A PSC-rendszergazdák között is jó ötlet egy változáskezelési vezetőt kijelölni. Ezzel megakadályozhatja, hogy minden PSC-rendszergazdának külön-külön el kell érnie Partnerközpont fiók rendszergazdáit. Ehelyett a változáskezelési vezető lehet az elsődleges személy, aki a fiók Partnerközpont dolgozik.
 
-## <a name="user-migration"></a>Felhasználói áttelepítés
+## <a name="user-migration"></a>Felhasználók migrálása
 
-Miután beállította a fiókját a partner Centerben, a közös értékesítési lehetőségek lapon a felhasználói áttelepítési varázsló használatával automatikusan hozzárendelheti a partner Center-szerepköröket a vállalat alkalmazottaihoz.
+Miután beállította a fiókját az Partnerközpont-ban, az Együttműködési lehetőségek oldalon található felhasználóáttelepítési varázslóval automatikusan hozzárendelheti a Partnerközpont-szerepköröket a vállalat alkalmazottaihoz.
 
 >[!Note]
-> A felhasználók áttelepítését csak a vállalata [fiók-rendszergazdái](permissions-overview.md#manage-mpn-membership-and-your-company) tudják elvégezni. Ha nem rendelkezik fiók-rendszergazdai szerepkörrel, keresse meg a fiók rendszergazdáját, aki segítségére lehet a felhasználói fiókok beállításában a felhasználói áttelepítési varázsló segítségével.
+> A felhasználóáttelepítést csak a vállalat [fiókadminisztrai](permissions-overview.md#manage-mpn-membership-and-your-company) hajthatja végre. Ha még nincs fiók-rendszergazdai szerepköre, a felhasználóáttelepítési varázsló segítségével keressen egy fiók-rendszergazdát, aki segíthet a felhasználói fiókok beállításában.
 
-:::image type="content" source="images/pscmigration/user-migration.gif" alt-text="A felhasználó áttelepítési varázslóját ábrázoló kép.":::
+:::image type="content" source="images/pscmigration/user-migration.gif" alt-text="A felhasználóáttelepítési varázslót bemutató kép.":::
 
-A fiókok rendszergazdái a PSC felhasználói áttelepítési varázsló hivatkozását fogják látni az átirányítási útmutató melletti közös értékesítési lehetőségek lapon. A hivatkozásra kattintva elindíthatják a felhasználók áttelepítését. A felhasználók áttelepítésének elindításához a rendszergazdák kiválaszthatják a hivatkozást. Ezt a felhasználói áttelepítési lépést többször is elvégezhetik, amíg minden felhasználó hozzá nem rendeli a megfelelő szerepköröket a partner Centerben.
+A fiók rendszergazdái a PSC felhasználóáttelepítési varázsló hivatkozását látják az együttműködési lehetőségek oldalán a hivatkozások útmutatója mellett. A hivatkozásra kattintva kezdeményezhetik a felhasználó migrálását. A felhasználók migrálásának kezdeményezésére a rendszergazdák kiválaszthatják a hivatkozást. Ezt a felhasználóáttelepítési lépést többször is elvégezheti, amíg az összes felhasználóhoz hozzá nem rendelik a megfelelő szerepköröket a Partnerközpont.
 
-A felhasználó áttelepítési táblája a következő adatokat tartalmazza:
+A felhasználóáttelepítési táblázat a következő részleteket tartalmazza:
 
-- Felhasználói fiók – az alkalmazott E-mail azonosítója
-- PSC-partner fiók – az a fiók, amelyhez az alkalmazott társítva van a PSC-ben
-- PSC felhasználói szerepkör – a PSC-ben hozzárendelt három szerepkör egyike.
-- SZÁMÍTÓGÉP MPN-helye – az a hely, amelyhez a felhasználó megkapja a megfelelő számítógép-szerepköröket. A PSC fiókpartner MPN a fiókpartner megfelelő MPN-helyének megkeresésére szolgál az engedélyek kiosztásához. A teljes szervezet a vOrg MPN-azonosítót jelöli.
-- SZÁMÍTÓGÉP-felhasználói szerepkör – az alkalmazottak PSC felhasználói szerepköreik alapján rendelnek hozzá szerepköröket. A PSC-ben a rendszergazda az Ajánlói rendszergazdai szerepköröket rendeli hozzá a SZÁMÍTÓGÉPekhez. Az értékesítőhöz az átirányítási felhasználói szerepkör lesz hozzárendelve a PC-n. További információ a számítógép-szerepkörökről, valamint arról, hogy az ezekkel a szerepkörökkel rendelkező felhasználók milyen műveleteket végezhetnek a [partner Centerben](permissions-overview.md#manage-referrals)
-- PC HRE-bérlő – az a bérlő, amelyhez a felhasználók hozzá vannak rendelve a partner Centerben
-- Állapot – az áttelepítés állapotának három lehetséges állapota van
-    - **Nincs áttelepítve** – a felhasználónak nincs hozzárendelve számítógép-átirányítási szerepköre
-    - **Migrált** – a rendszer sikeresen áttelepítette a felhasználót a táblázatban látható módon hozzárendelt megfelelő szerepkörrel.
-    - **Hiba** – egy hiba miatt nem lehet befejezni az áttelepítést
+- Felhasználói fiók – Az alkalmazott e-mail-azonosítója
+- PSC-partnerfiók – Az a fiók, amelyhez az alkalmazott társítva van a PSC-ban
+- PSC felhasználói szerepkör – A PSC-hez rendelt három szerepkör egyike.
+- PC MPN helye – Az a hely, ahol a felhasználó releváns számítógép-szerepköröket kap. A PSC-partnerfiók MPN-ével megkeresheti a megfelelő MPN-helyet a Partnerközpont engedélyek hozzárendelésére. A vOrg MPN-azonosítót a teljes szervezet jelöli.
+- Pc-s felhasználói szerepkör – Az alkalmazottak a PSC felhasználói szerepköreik alapján vannak hozzárendelve. A PSC rendszergazdája a PC-n ajánlói rendszergazdai szerepköröket kap. Az értékesítő a PC-n a ajánlói felhasználói szerepkört fogja hozzárendelni. További információ a pc-szerepkörökről és arról, hogy az ezekkel a szerepkörökkel rendelkező felhasználók mire használhatjanak a Partnerközpontban [itt](permissions-overview.md#manage-referrals)
+- PC AAD-bérlő – az a bérlő, amelyhez a felhasználók hozzá vannak rendelve a Partnerközpont
+- Állapot – A migrálás állapotát három lehetséges állapot jelzi
+    - **Nincs migrálva** – A felhasználóhoz nincs hozzárendelve számítógép-hivatkozási szerepkör
+    - **Migrált** – A felhasználó migrálva lett, és a megfelelő szerepkör van hozzárendelve a táblázatban látható módon
+    - **Hiba** – A migrálás valamilyen hiba miatt nem fejeződött be
 
-Időnként előfordulhat, hogy az áttelepítés meghiúsul, és hibákat eredményezhet. Íme néhány ok, amiért az áttelepítés hibát okozhat, és néhány módszer a probléma megoldására:
+Előfordulhat, hogy a migrálás sikertelen, és hibákat eredményezhet. Íme néhány ok, amiért a migrálás hibát okozhat, és néhány módszer a probléma megoldására:
 
-1. A PSC-felhasználók nem munkahelyi fiókot is használhatnak.
+1. Előfordulhat, hogy a PSC-felhasználók nem munkahelyi fiókot használnak.
 
-2. Előfordulhat, hogy a PSC-felhasználó olyan tartományból származó fiókot használ, amely eltér a partner Centerben használttól.
+2. Előfordulhat, hogy a PSC-felhasználó a fiókban használttól eltérő tartományból származó fiókot Partnerközpont.
 
-   Az 1. és a 2. forgatókönyvekkel kapcsolatos hibák elhárításához kérje meg a felhasználót, hogy jelentkezzen be a Partnervállalatba az Azure AD-bérlőhöz csatlakoztatott munkahelyi fiókjával. A [globális rendszergazda](permissions-overview.md#manage-commercial-transactions-in-partner-center-azure-ad-and-csp-roles) segítséget nyújthat.
+   Az 1. és 2. forgatókönyvhöz kapcsolódó hibák elhárításához kérje meg a felhasználót, hogy jelentkezzen be Partnerközpont az Azure AD-bérlőhöz csatolt munkahelyi fiókjával. A [globális rendszergazda segíthet.](permissions-overview.md#manage-commercial-transactions-in-partner-center-azure-ad-and-csp-roles)
    
-   A globális rendszergazda megkeresése: 
-   - Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard) , és válassza a **Fiókbeállítások** lehetőséget a jobb felső sarokban található fogaskerék ikonra.
-   - A második szintű, bal oldali navigációs sávon válassza a **felhasználói kezelés** lehetőséget.
-   - A felhasználók listájának tetején válassza a **szűrő** legördülő menüt, és módosítsa a **globális rendszergazda** beállítást. A lap ezután megjeleníti az összes globális rendszergazdát a megfelelő e-mail-címükkel. Kérje meg az egyiket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
+   A globális rendszergazda megkeresi: 
+   - Jelentkezzen be a Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard) és válassza a fiókbeállítások **lehetőséget** a jobb felső sarokban lévő fogaskerék ikonnal.
+   - Válassza **a Felhasználókezelés** lehetőséget a második szintű, bal oldali navigációs sávon.
+   - A felhasználói lista tetején válassza  a Szűrő legördülő menüt, és módosítsa a globális **rendszergazda lehetőséget.** Az oldal ezután megjeleníti az összes globális rendszergazdát a megfelelő e-mail-címekkel. Kérje meg az egyiket, hogy rendelje hozzá a munkahelyi fiókjához a ajánlói rendszergazdai szerepkört.
    
-      A globális rendszergazda létrehozhat egy új felhasználói fiókot az Azure AD-bérlőben, vagy hozzárendelheti a vendég felhasználói hozzáférését a többi tartományi fiók felhasználóinak. Miután a fiókok be lettek állítva az összes PSC Deal Managerhez és felhasználóhoz, be kell jelentkezniük a partner központba, a bal oldali navigációs menüből válassza a **hivatkozók** lehetőséget, és erősítse meg, hogy láthatják az átirányítási lapokat.
+      A globális rendszergazda létrehozhat egy új felhasználói fiókot az Azure AD-bérlőben, vagy vendégfelhasználói hozzáférést rendelhet a tartományi fiók más felhasználóihoz. Miután beállította a fiókokat a PSC-üzletvezetők és -felhasználók számára, be  kell jelentkezniük az Partnerközpont-be, a bal oldali navigációs menüben válassza a Ajánlók lehetőséget, és ellenőrizze, hogy látják-e a Ajánlók oldalt.
 
-3. A felhasználónak már van hozzárendelve egy átirányítási szerepkör a partner Centerben.
-    - Ellenőrizheti a felhasználó meglévő szerepkörét. A partner központ jobb felső sarkában válassza a **Beállítások** (a fogaskerék ikon), majd a **Fiókbeállítások** lehetőséget. Amikor megjelenik a bal oldali navigációs menü, válassza a **felhasználók kezelése** lehetőséget, és keresse meg a felhasználót.
+3. A felhasználóhoz már hozzárendelt hivatkozási szerepkör van hozzárendelve a Partnerközpont.
+    - Ellenőrizheti a felhasználó meglévő szerepkörét. A képernyő jobb felső sarkában Partnerközpont **a Beállítások** (fogaskerék ikon), majd a **Fiókbeállítások lehetőséget.** Amikor megjelenik egy második bal oldali navigációs menü, válassza a **Felhasználókezelés** lehetőséget, és keresse meg a felhasználót.
 
-## <a name="psc-deals-migration"></a>A PSC-ajánlatok migrálása
+## <a name="psc-deals-migration"></a>PSC-ügyletek migrálása
 
-A felhasználók áttelepítésének befejezése után a közös értékesítés lehetőségei lapon a Deals Migration (ajánlatok áttelepítése) varázslót használhatja a PSC-ről a számítógépre irányuló összes jogosult nyitott ajánlat létrehozásához. **A Deals áttelepítési hivatkozás csak a teljes szervezeti hatókörrel rendelkező hivatkozó rendszergazdák számára lesz látható a partner Centerben.** A közös értékesítési lehetőségek oldal jobb felső sarkában a **"PSC Deal Migration"** nevű hivatkozás jelenik meg, amely megnyitja az üzlet áttelepítési varázslóját.
+Miután befejezte a felhasználóáttelepítést, az Együttműködési lehetőségek oldalon található ügylet-migrálási varázslóval átveszi a PSC-ről a PC-re az összes jogosult nyitott ügyletet. **Az ügyletek migrálási hivatkozása csak a teljes szervezeti hatókörrel felhozott javaslati rendszergazdák számára lesz látható Partnerközpont.** Az Együttműködési lehetőségek lap jobb felső oldalán található **"PSC- deal migration" (PSC-ajánlat áttelepítése)** hivatkozás, amely megnyitja az ajánlatáttelepítési varázslót.
 
-Az ügylet áttelepítésének megkezdése előtt olvassa el ezt a szakaszt.
+Az ajánlat migrálásának megkezdése előtt olvassa el ezt a szakaszt.
 
-**Áttelepítésre jogosult**
+**Jogosult a migrálásra**
 
-Csak néhány ajánlat jogosult a PSC-ről a PC-re való áttelepítésre. Ez az áttelepítési varázsló úgy van felépítve, hogy segítse a partnereket abban, hogy az üzletük lezárásához aktívan használják a partneri központot. **Csak a nyílt állapotú, az 2020-as és az érvényes partneri fiók részleteivel (érvényes MPN-AZONOSÍTÓval) létrehozott, de nem az ügyletekhez való regisztrációra jogosult ügyletek telepíthetők.**
+Csak néhány ügylet jogosult a PSC-ről a PC-re való migrálásra. Ez a migrálási varázsló arra készült, hogy segítsen a partnereknek Partnerközpont ahol továbbra is aktívan dolgoznak az ügyfelekkel az ügylet lezárásán. **Csak a 2020. január 1-től nyílt állapotban létrehozott, érvényes partnerfiók-adatokkal (érvényes MPN-azonosítóval) létrehozott ügyletek jogosultak a migrálásra, az ügylet regisztrálása nem.**
 
-**Nem jogosult az áttelepítésre**
+**Nem jogosult migrálásra**
 
-- A megoldás-értékelési ajánlatok nem jogosultak az üzlet áttelepítésére
-- Az OEM licencelési üzleti ajánlatok nem jogosultak az üzlet áttelepítésére
-- A PSC-ben megnyertként megjelölt összes ügylet nem jogosult az áttelepítésre. Az ügylet regisztrálása, ha jogosult a megnyertként megjelölt ajánlatokra, a PSC-ben kell befejezni.
+- A megoldásértékelési ajánlatok nem jogosultak az ügylet migrálásra
+- Az OEM-licencelési üzleti ajánlatok nem jogosultak az ügylet migrálásra
+- A PSC-ban megnyertként megjelölt bármely ajánlat nem migrálásra jogosult. Az ügyletregisztrációt, ha jogosult a megnyertként megjelölt ügyletekre, a PSC-ban kell végrehajtani.
 
-## <a name="pre-requisites-for-deal-migration"></a>Az üzlet áttelepítéséhez szükséges előfeltételek
+## <a name="pre-requisites-for-deal-migration"></a>Az üzletbe való migrálás előfeltételei
 
-Mielőtt elindítja az ügylet áttelepítését a SZÁMÍTÓGÉPRŐL, kövesse az alábbi utasításokat a PSC-beli ajánlatok sikeres áttelepítéshez való beállításához.
+Az ügylet PC-ről való migrálásának megkezdése előtt kövesse az alábbi utasításokat a PSC-ügyletek sikeres migráláshoz való beállításhoz.
 
-1. A vállalaton belül a nyitott ajánlatokon dolgozó összes értékesítési csapat tagja tájékoztatja erről az áttelepítésről.
-2. A Sales csapat tagjai a partner Center for Deal-felügyelet használatára vannak kiképezve.
-3. Az ajánlatok az alább leírtak szerint rendelkeznek az összes szükséges információval.
-    - Az ügyfél vállalatának adatai, beleértve a nevet és a címeket
-    - Az ügyfél elérhetőségi adatai, ha közös értékesítéssel foglalkoznak
+1. Erről a migrálásról a vállalat összes értékesítési csapatának nyitott ügyleteken dolgozó tagja értesül.
+2. Az értékesítési csapat tagjai arra vannak betanítva, hogy Partnerközpont az üzletkezeléshez.
+3. Az ügylet tartalmazza az összes szükséges információt az alábbiakban leírtak szerint.
+    - Az ügyfél céges adatai, beleértve a nevet és a címet
+    - Az ügyfél kapcsolattartási adatai, ha közös értékesítésről van szó
     - Legalább egy megoldás
-    - Legalább egy csapattag az összes adattal: Utónév, vezetéknév, e-mail azonosító és telefonszám
-    - Ügylet értéke
-    - Becsült mennyiség záró dátuma
+    - Legalább egy csapattag a részletekkel – vezetéknév, vezetéknév, e-mail-azonosító és telefonszám
+    - Az üzlet értéke
+    - Az üzletzárás becsült dátuma
     - Partneri megjegyzések
 
-A PSC tömeges letöltés és feltöltés funkciója segítségével hozzáadhatja az összes hiányzó részletet az üzletben az összes jogosult ajánlathoz.
+A PSC tömeges letöltési és feltöltési képességeivel az ügylet összes hiányzó részletét hozzáadhatja az összes jogosult ügylethez.
 
 >[!Note]
-> Az üzlet áttelepítése akkor is sikeres lesz, ha a fenti előfeltételek nem teljesülnek. Az ügylet állapota azonban nem módosítható, ha a fentiekben említett kötelező mezők bármelyike nem érhető el a partner Centerben. Ezután meg kell adnia az összes szükséges információt a partner Centerben, hogy megkezdje a munkát. **Nyomatékosan javasoljuk, hogy a PSC-re való Migrálás előtt tisztítsa meg a jogosult ajánlatokat a partneri központba.**
+> Az üzlet migrálása akkor is sikeres lesz, ha a fenti előfeltételek nem teljesülnek. Az üzlet állapotát azonban nem módosíthatja, ha a fent említett kötelező mezők bármelyike Partnerközpont nem érhető el. Ezután meg kell adnia az összes szükséges információt, amely hiányzik a Partnerközpont, hogy elkezdhet dolgozni velük. **Erősen ajánlott megtisztítani a PSC-re jogosult ügyleteket, mielőtt a Partnerközpont.**
 
-A partner Centerben a Deal Migrálás Egy kattintásos élményre épül. Mindössze annyit kell tennie, hogy az **"ajánlatok áttelepítésére"** gombra kattint, miután a vállalat készen áll a jogosult ajánlatok áttelepítésére. **A PSC-ből áttelepíteni kívánt ajánlatokat nem választhatja ki. Ha nem szeretne áttelepíteni semmilyen ajánlatot a partneri központba, az áttelepítés megkezdése előtt helyezze át őket a PSC-ben lezárt állapotba.**
+Az üzlet migrálásának Partnerközpont egykattintásos folyamatként van felépítve. Ha a vállalata készen áll a jogosult ajánlatok milegályán, csak kattintson az **"Ügylet áttelepítése"** gombra. **Nem választhatja ki a PSC-ről átemelni kívánt ügyleteket. Ha nem szeretne átemelni egyetlen ügyletet sem a Partnerközpont, a migrálás megkezdése előtt helyezze át őket a PSC lezárt állapotába.**
 
 >[!Note]
-> Az áttelepítés megkezdése után **akár 24 óráig is eltarthat, amíg a rendszer áttelepíti az ajánlatokat**.
+> A migrálás kezdeményezése után akár 24 órát is igénybe vehet, hogy az ügylet **migrálva legyen.**
 
-Az áttelepítés befejezését követően a szalagcím üzenet állapota módosul, és az áttelepítési jelentésre mutató hivatkozás is megjelenik. Töltse le a jelentést, és tekintse meg a PSC-ről a számítógépre migrált ajánlatok részleteit.
+A migrálás befejezése után a szalagcím-üzenet állapota a migrálási jelentésre mutató hivatkozással fejeződik be. Töltse le a jelentést a PSC-ről PC-re migrált ügyletek részleteinek megtekintéséhez.
 
-A jelentés az alábbi részleteket tartalmazza.
+A jelentés az alábbi adatokat tartalmazza.
 
-1. A **partner Center ENGAGEMENT azonosítója** – a partneri központban lévő egyedi azonosító a engagement összes ajánlata esetében. A partner Centerben két üzlet létezik – egyet a partnerhez, egyet a Microsofthoz.
-2. A partneri **központ hivatkozási azonosítója** – a partner központ egyedi azonosítója a partnerhez tartozó üzlethez.
-3. A PSC-ben lévő üzlet **neve** – azonosító.
-4. **PSC Deal ID** – az üzlethez tartozó PSC egyedi azonosítója.
-5. **Hibák** – jelezheti, hogy hiba történt egy adott üzlet áttelepítése során.
+1. **Partnerközpont-azonosító** – A Partnerközpont a kapcsolattartó összes ügyletének egyedi azonosítója. Két ügyletet kötünk – egyet a partnernek, egyet pedig a Microsoftnak egy közös értékesítésben a Partnerközpont.
+2. **Partnerközpont hivatkozásazonosító** – A partnerhez tartozó Partnerközpont egyedi azonosítója a partnerhez tartozó üzletben.
+3. **Az üzlet neve** – Az üzlet psc-hez megadott azonosítója.
+4. **PSC-ajánlat azonosítója** – Az üzlet PSC-hez megadott egyedi azonosítója.
+5. **Errors** (Hibák) – jelzi, hogy van-e hiba egy adott üzlet áttelepítése során.
 
-Az összes sikeresen áttelepített ajánlat nem lesz látható a PSC-ben. Továbbra is dolgozhat az áttelepített ügyleteken a SZÁMÍTÓGÉPeken, beleértve az üzlet regisztrációjának befejezését a számítógépen. A közös értékesítéssel foglalkozó Microsoft-értékesítők közötti interakciók nem változnak.
+A sikeresen migrált ügyletek nem lesznek láthatók a PSC-ben. Továbbra is dolgozhat a PC-n migrált ügyletekkel, beleértve az ügylet pc-n való regisztrációját is. Az együttműködési ügyletek microsoftos értékesítőivel való interakciók nem módosulnak.
 
-A PSC-ről áttelepített ajánlatok a bejövő és kimenő lapokon lesznek elérhetők az üzlet forrása alapján. A vállalat által megosztott összes ügylet elérhető lesz a kimenő lapon, a Microsoft által kezdeményezett ajánlatok pedig a partner központ bejövő lapján lesznek elérhetők. A Migrálás után két típusú ügylet lesz létrehozva.
+A PSC-ről migrált ügyletek az ügylet forrása alapján a Bejövő és Kimenő lapokon lesznek elérhetők. A vállalat által megosztott összes ügylet elérhető lesz a Kimenő lapon, a Microsoft által kezdeményezett ügyletek pedig a bejövő Partnerközpont. A migrálás után kétféle ügylet jön létre.
 
-1. **Közös értékesítéssel** foglalkozó ajánlatok – a PSC-ben közös értékesítésre jelölt ajánlatok a partnervállalat közös értékesítéssel foglalkozó ajánlatával lesznek létrehozva.
-2. **Partner által vezetett ajánlatok** – a partner-központba nem kerülő partnerek által vezetett ajánlatokként létrehozott ajánlatok. A partner által vezetett ajánlatok láthatók a Microsoft-értékesítők számára, és a terminál állapotának (megnyert, elveszett) elérése előtt is frissíthetők a közös értékesítési ajánlatokra. Emellett a partner által vezetett ügyletek is jogosultak az ügyletekre, ha az üzletben ösztönző jogosult megoldás van.
+1. **Közös értékesítés –** A PSC-ban közös értékesítésként megjelölt ügyletek a következőben fognak létrejönni: közös értékesítés az Partnerközpont.
+2. **Partner által vezetett ügyletek** – Az együtt értékesítésként nem megjelölt ügyletek partner által irányított ügyletekként lesznek létrehozva a Partnerközpont. A partner által vezetett ügyletek láthatók a Microsoft értékesítői számára, és frissíthetőek közös értékesítésre, mielőtt elérné a terminálállapotot (megnyert, elveszett). A partner által vezetett ügyletek akkor is jogosultak az ügylet regisztrálásra, ha az ügyletben van ösztönzőre jogosult megoldás.
 
 >[!Important]
-> Ha olyan hibák merülnek fel, amelyek miatt egyes ajánlatok nem telepíthetők át, **akkor az ügylet áttelepítése gombra kattintva újra elindíthatja az üzlet áttelepítését**. A szolgáltatás csak akkor lesz engedélyezve, ha van még egy jogosult ügylet, amely még nem telepíthető át. Ez abban az esetben is hasznos lehet, ha olyan átmeneti fázisban van, ahol az üzlet áttelepítése után a PSC-ben egyre több új ajánlat jön létre.
+> Ha olyan hiba történik, amely miatt egyes ügyleteket nem lehetett migrálni, az ügylet migrálását a **"Migrálási ügyletek"** gombra kattintva kezdeményezheti. Csak akkor lesz engedélyezve, ha még van néhány jogosult ügylet migrálva. Ez akkor is hasznos lehet, ha az áttérési fázisban néhány új ügylet jön létre a PSC-ban az ügylet migrálásának megkezdése után.
 
-Ha az összes ajánlat sikeresen át lett telepítve, akkor a " **nincsenek áttelepíthető ajánlatok** " felirat jelenik meg a **letiltott** **"ajánlatok átmigrálása"** gombbal.
+Az összes ügylet sikeres migrálása után egy **"No deals to migrate"** (Nincs migrálható ügylet) felirat jelenik meg, amely letiltja a **"Migrálható ügyletek"** **gombot.**
 
-A felhasználók migrálása és/vagy a Migrálás befejezése után az alábbi útmutatást követve döntse el az áttelepítési stratégiát:
+A felhasználók migrálásának és/vagy a migrálás végrehajtásához használja az alábbi útmutatót a migrálási stratégia eldöntésében:
 
-Ha a vállalata rendelkezik egy partner Development Managerrel (PDM) – Ha a partner Center-fiókja be van állítva, és a felhasználók áthelyezték a szerepköröket és engedélyeket, áthelyezheti a közös értékesítési tevékenységeket a partner központba. Tájékoztassa a PDM, hogy ne várjon, amíg az áttelepítés befejeződik, és így az összes új ügylet a fiókpartner-központba kerül.
+Ha a vállalata partnerfejlesztési vezetővel (PDM) rendelkezik – Ha Partnerközpont-fiókja be van állítva, és a felhasználók átkerültek, és szerepkörökkel és engedélyekkel rendelkezik, áthelyezheti az értékesítési tevékenységeket a Partnerközpont. Tájékoztassa a PDM-et a váltásról ahelyett, hogy megvárja a migrálás befejezésének határidejét, ami lehetővé teszi, hogy az összes új ügylet a Partnerközpont.
 
 >[!Note]
->Ha elvégezte ezt a kapcsolót, akkor csak a PSC meglévő aktív ajánlatait fogja tudni fellépni. Nem hozhat létre új ajánlatokat, és nem kap ajánlatokat a Microsoft-értékesítők által a PSC-ben.
+>A váltás után csak a PSC-hez kötött meglévő aktív ügyleteket tudja majd használni. Nem hozhat létre új ügyleteket, és nem fogadhat el semmilyen ügyletet a Microsoft értékesítőitől a PSC-ban.
 
-Ha a vállalat nem rendelkezik PDM – győződjön meg arról, hogy az összes felhasználói fiók be van állítva és ellenőrizhető az összes felhasználó számára. A rendszer e-mailben és egy, a PSC-n lévő szalagcímben értesíti a pontos dátumról, amikor a partner Centerben megkezdi a közös értékesítést. Ne feledje, hogy továbbra is a PSC-ben meglévő aktív ajánlatokat kell kezelnie.
+Ha a vállalata nem áll a PDM-ben – Győződjön meg arról, hogy az összes felhasználó beállította és ellenőrizte az összes felhasználói fiókot. A PSC egy e-mailben és egy szalagcímen értesítést kap arról, hogy pontosan mikor kezdheti el az értékesítést a Partnerközpont. Ne feledje, hogy továbbra is kezelnie kell a PSC-hez már meglévő aktív ügyleteket.
 
 >[!Important]
-> A megnyertként megjelölt ajánlatokat a 2021. április 30-ig kell regisztrálni.
+> 2021. április 30-ig regisztrálhatja a megnyertként megjelölt ügyleteket.
 
-## <a name="next-steps-for-psc-admins-psc-deal-managers-and-psc-sellers"></a>A PSC-rendszergazdák, a PSC Deal managerek és a PSC-értékesítők következő lépései
+## <a name="next-steps-for-psc-admins-psc-deal-managers-and-psc-sellers"></a>A PSC-rendszergazdák, a PSC-üzletvezetők és a PSC-értékesítők következő lépései
 
-Ismerje meg, hogyan értékesítheti közösen a partner centert.
-Ez egy fontos lépés, amelynek segítségével előkészítheti a partneri központ közös értékesítését. Ismerje meg a munkafolyamatokat és a partneri központban bekövetkező változásokat, hogy azonnal együtt lehessen értékesíteni. Első lépésként olvassa el a dokumentumot teljesen. Egy jó készlet is elérhető a [közös értékesítés élmény](https://aka.ms/cosellexperience)-katalógusában.
+Megtudhatja, hogyan értékesítsen együtt a Partnerközpont.
+Ez egy fontos lépés, amely segít felkészülni a közös értékesítésre a Partnerközpont. A munkafolyamatok és a változások Partnerközpont, így azonnal hatékonyan együtt értékesíthet. Először olvassa el teljesen ezt a dokumentumot. Az Együttműködési élmény katalógusban is elérhető egy jó [erőforráskészlet.](https://aka.ms/cosellexperience)
 
-## <a name="major-differences-between-psc-and-pc-workflows"></a>Fő különbségek a PSC és a PC-munkafolyamatok között
+## <a name="major-differences-between-psc-and-pc-workflows"></a>A PSC- és a PC-munkafolyamatok közötti főbb különbségek
 
-|**Forgatókönyv**|**Partner Sales-kapcsolat**|**Partnerközpont**|
+|**Forgatókönyv**|**Partner Sales Connect**|**Partnerközpont**|
 |-----|:-----|:-----|
-|Felhasználói szerepkörök|A PSC rendszergazdai, Deal Manager-és eladói szerepkörökkel rendelkezik.|A SZÁMÍTÓGÉPnek csak a [hivatkozó rendszergazdai](permissions-overview.md#manage-referrals) szerepköre van, amely olvasási és írási engedélyt is biztosít az összes ajánlathoz.|
-|A Microsoft meghívása közös értékesítési ajánlaton keresztül|A Microsoft eladója kezdeményezte, nincs kifejezett kérdés a partnertől.|A partnernek [explicit kérést](manage-co-sell-opportunities.md#add-solutions) kell elvégeznie, ha egy üzlethez egy Microsoft-értékesítő segítségre van szüksége. A Microsoft Seller lehetőséget nyújt a kérés elutasítására.|
-|Lejárat|Az alku fogalma nem jár le.|A partneri bejövő ügyletek 14 nap múlva lejárnak, ha a partner nem fogadja el őket. Ugyanez vonatkozik a partner kimenő ajánlatokra is, amelyekben a lejárt állapotba léphetnek, ha a Microsoft Seller 14 napon belül nem végez rájuk.|
-|Microsoft Seller – részletek|Az üzlet létrehozásakor azonnal látható lesz.|A Microsoft értékesítő adatai csak akkor vannak megosztva a partnerekkel, ha az eladó kifejezetten elfogadja a partnertől való közös értékesítés meghívását.|
-|[Privát folyamat](manage-co-sell-opportunities.md#types-of-co-sell-opportunities)|Nem érhető el.|A partnerek a Microsoft-értékesítők láthatósága nélkül oszthatják meg a folyamatokat.|
-|Megoldások|A csak egy árlistát tartalmazó megoldások egy üzlethez adhatók hozzá.|A partner hozzáadhat olyan [megoldásokat](manage-co-sell-opportunities.md#add-solutions) , amelyek a következő listához tartoznak. a) a Microsoft első féltől származó katalógusának (a PSC tranzakciós ügyleti szerepkörhöz hasonlóan) és a c) megoldásai a más, harmadik féltől származó partnereinktől származó megoldások közös értékesítéssel (a PSC-beli ISV-k szerepéhez hasonlóan).|
-|Ügylet-hozzárendelés|Csak a hozzárendelt eladó tekinthet meg és járhat el az ajánlatokban.|A csoporttagok hozzáadhatók egy üzlethez, hogy megadják az üzleten dolgozó személyeket, és nem blokkolja a más hivatkozó rendszergazdákat az ilyen ügyletek megtekintésével vagy működésével kapcsolatban.|
-|Ügyfél szervezete|Szabad formátumú szöveges bejegyzés.|Csak néhány karakter beírásával kereshet az [ügyfél szervezetében](manage-co-sell-opportunities.md#select-your-customer) a [D&B adatbázison](https://www.dnb.com/) . A jogi név és a címek a választás alapján automatikusan fel lesznek töltve.|
-|Ügyfél elérhetősége|Nem kötelező.|Nem kötelező a magánhálózati folyamat megosztásához. Kötelező, ha a Microsoft értékesítőt közös értékesítésre kérik.|
-|Nyilvános API|Nem érhető el.|[Nyilvános API](/partner/develop/referrals) a partner Center-hivatkozások programozott kezeléséhez.|
+|Felhasználói szerepkörök|A PSC rendszergazdai, üzletkezelői és értékesítői szerepkörökkel rendelkezik.|A PC-nek [csak olyan hivatkozási rendszergazdai](permissions-overview.md#manage-referrals) szerepköre van, amely olvasási és írási engedélyt is biztosít minden ügylethez.|
+|A Microsoft meghívása egy közös értékesítésre|A Microsoft értékesítője kezdeményezte, a partner nem kér explicit kérdést.|A partnernek explicit kérést [kell tennie,](manage-co-sell-opportunities.md#add-solutions) ha egy Microsoft-értékesítői segítségre van szüksége egy adott ajánlathoz. A Microsoft Értékesítő elutasíthatja a kérelmet.|
+|Lejárat|Az üzlet lejáratának nincs fogalma.|A partner bejövő ügyleti szerződése 14 nap múlva lejár, ha a partner nem fogadja el őket. Ugyanez vonatkozik a partnerek kimenő ügyletire is, amikor lejárt állapotba kerülnek, ha a Microsoft-értékesítő 14 napon belül nem foglalkozik velük.|
+|A Microsoft értékesítőinek adatai|Azonnal látható, amint létrejön egy üzlet.|A Microsoft Értékesítő adatait csak akkor osztják meg a Partnerrel, ha az értékesítő elfogadja a partnertől származó közös értékesítésre vonatkozó meghívót.|
+|[Privát folyamat](manage-co-sell-opportunities.md#types-of-co-sell-opportunities)|Nem érhető el.|A partnerek megoszthatják a folyamatukat anélkül, hogy rálátást adnak a Microsoft értékesítőinek.|
+|Megoldások|Az egy árlistához tartozó megoldások hozzáadhatóak az ajánlathoz.|A partnerek [az](manage-co-sell-opportunities.md#add-solutions) alábbi listákhoz tartozó megoldásokat adhatnak hozzá. a) Saját megoldások b) A Microsoft saját katalógusából származó megoldások (a PSC tranzakciós ügyleti szerepkörhöz hasonlóan) és c) más külső partnerektől származó közös értékesítésű megoldások (hasonlóan a PSC ISV Deal szerepkörhöz).|
+|Ajánlat-hozzárendelés|Csak a hozzárendelt értékesítő megtekintheti az ügyleteket, és el is cselekedhet.|A csapattagok hozzáadhatóak az ügylethez, hogy megadják az ügyleten dolgozó személyeket. Ez nem gátolja meg, hogy más ajánlói rendszergazdák megtekintsék az ügyleteket, vagy azok alapján cselekednek.|
+|Ügyfélszervezet|Szabad űrlap szövegbevitele.|Az ügyfél szervezetében [a](manage-co-sell-opportunities.md#select-your-customer) D&[B](https://www.dnb.com/) adatbázisban kereshet, ha csak begépel néhány karaktert. A rendszer automatikusan kitölti a jogi nevet és a címet a választás alapján.|
+|Ügyfélkapcsolat|Nem kötelező.|Privát folyamatok megosztásához nem kötelező. Kötelező, ha a Microsoft értékesítője részt vesz egy közös értékesítésre vonatkozó kérelemben.|
+|Nyilvános API|Nem érhető el.|[Nyilvános API](/partner/develop/referrals) a hivatkozások programozott Partnerközpont kezeléséhez.|
 
-## <a name="map-the-fields-in-psc-to-the-corresponding-fields-in-partner-center"></a>A PSC mezőinek leképezése a partner Center megfelelő mezőire
+## <a name="map-the-fields-in-psc-to-the-corresponding-fields-in-partner-center"></a>A PSC mezőinek leképezés a megfelelő mezőkre a Partnerközpont
 
-Ez a szakasz összehasonlítja a PSC-hez kiválasztott képernyőképeket a partner Center közös értékesítési lehetőségek szakaszának megfelelő nézetével.
+Ez a szakasz összehasonlítja a PSC-hez látható kiválasztott képernyőképeket (vagy "térképeket") az Partnerközpont lehetőségek szakasz megfelelő nézetével.
 
-A képernyőképek egyes párokban számozott, sárga vagy piros kör jelenik meg:
+Az egyes képernyőképpárok számokkal, sárga színekkel vagy piros színekkel ékesednek:
 
-- **Mit jelent a sárga körök?** Az egyes PSC-képernyőképeken a számozott, sárga körök jelennek meg. Ezután megtalálhatja az alatta lévő partneri központ képernyőképét, amely számos azonos számmal rendelkezik.
+- **Mit jelentenek a sárga körök?** Minden PSC-képernyőképen először számokkal, sárga körök jelennek meg. Ezután egy olyan társalkalmazást Partnerközpont alatta, amely számos azonos számmal jelenik meg.
 
-   Ha szeretné megtekinteni, hogy a PSC-ban lévő egyes mezők vagy attribútumok hogyan képezik a partneri központban lévő összes mező értékét, akkor a két és kapcsolódó képernyőképek együttesen egyeznek a számozott körök Például egyezik a számozott, sárga "1" értékkel az első, PSC képernyőképen a számozott, sárga "1" a másodikban, a partner központ képernyőképe.
+   Ha meg kell tudni, hogy a PSC minden mezője vagy attribútuma hogyan van megfeleltetve a megfelelőjüknek a Partnerközpont, akkor a két kapcsolódó képernyőképen egyezést kell látnia a számokkal összetört körökkel. Például az elsőben a számos, sárga "1" gombra, a PSC képernyőképen a másodikban a számmal és a sárga "1"-re, Partnerközpont alatta látható.
 
-- **Mit jelent a piros kör?** Ha egy képernyőképen egy piros kör jelenik meg, az azt jelzi, hogy a PSC mező nem érhető el a partner Centerben.
+- **Mit jelent a piros kör?** Ha egy képernyőképen piros kör látható, az azt jelzi, hogy a PSC mező nem érhető el a Partnerközpont.
 
-A PSC-to-partner központ mezők leképezései a következő területekre mutatnak:
+A PSC-Partnerközpont mezőleképezések a következő területekhez jelennek meg:
 
-1. PSC Kezdőlap a partner Center közös értékesítési lehetőségeihez – alapértelmezett nézet
-1. A partner Center Deal nézethez leképezett PSC Grid nézet
-1. A PSC Deal részletek nézete a partner Center Deal részletek nézetére van leképezve
-1. PSC Hozzáadás a partner Centerhez hozzárendelt termékek nézet
-1. A partner Center felhasználói felügyelet nézethez hozzárendelt PSC felhasználói felügyelet nézet
-1. PSC felhasználói szerepkör-hozzárendelés nézet a partner Center szerepkör-hozzárendelés nézethez rendelve
-1. A partner Center értesítéseinek nézetére leképezett PSC-értesítések nézet
+1. Az együttműködési lehetőségek alapértelmezett nézetében Partnerközpont lehetőségekhez hozzárendelt PSC-kezdőlap
+1. A Partnerközpont nézetre leképezett PSC rácsnézet
+1. A psc-üzlet részleteinek nézete, amely az Partnerközpont részletező nézetre van leképezve
+1. A PSC Termékek hozzáadása nézete, amely a Partnerközpont megoldások hozzáadása nézetre van leképezve
+1. A Felhasználókezelés nézetre leképezett PSC Partnerközpont nézet
+1. A szerepkör-hozzárendelési nézetre leképezett PSC Partnerközpont szerepkör-hozzárendelési nézet
+1. A nyilvános Partnerközpont nézetre leképezett PSC-értesítések nézet
 
-### <a name="1---psc-home-page-mapped-to-the-partner-center-co-sell-opportunities-default-view"></a>1 – PSC Kezdőlap a partneri központ közös értékesítési lehetőségeinek alapértelmezett nézetéhez rendelve
+### <a name="1---psc-home-page-mapped-to-the-partner-center-co-sell-opportunities-default-view"></a>1 – A psc kezdőlapja az Partnerközpont lehetőségek alapértelmezett nézetében
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső PSC képernyőkép és a partner központ képernyőképe között. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő partneri központ mező.  
+Hasonlítsa össze a PSC felső képernyőképe és az alatta lévő Partnerközpont köröket. Az egyező számok azt mutatják, hogy hol található a PSC-hez kapcsolódó szolgáltatás vagy Partnerközpont. A piros körök azt jelzik, hogy nincs Partnerközpont egyező mező.  
 
-:::image type="content" source="images/pscmigration/homepage.png" alt-text="Az a kép, amely a partner Sales-kapcsolat kezdőlapja és az együttes értékesítési lehetőségek a partner Centerben való társításának alapértelmezett nézetét mutatja." lightbox="images/pscmigration/home-page-expanded.png":::
+:::image type="content" source="images/pscmigration/homepage.png" alt-text="A Partner Sales Connect kezdőlapja és az értékesítési lehetőségek alapértelmezett nézete közötti mezőleképezéseket bemutató Partnerközpont." lightbox="images/pscmigration/home-page-expanded.png":::
 
-### <a name="2---psc-grid-view-mapped-to-the-partner-center-deal-view"></a>2 – a partneri központ Deal nézetéhez hozzárendelt PSC Grid nézet
+### <a name="2---psc-grid-view-mapped-to-the-partner-center-deal-view"></a>2 – A nyilvános Partnerközpont nézetre leképezett PSC rácsnézet
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső PSC képernyőkép és a partner központ képernyőképe között. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő partneri központ mező.  
+Hasonlítsa össze a PSC felső képernyőképe és az alatta lévő Partnerközpont köröket. Az egyező számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a Partnerközpont. A piros körök azt jelzik, hogy nincs Partnerközpont egyező mező.  
 
 > [!NOTE]
-> Egyéb megfontolások a képernyőképek alatt jelennek meg.
+> A képernyőképek alatt egyéb szempontok is megjelennek.
 
-:::image type="content" source="images/pscmigration/gridview.png" alt-text="Az a kép, amely a partner értékesítési összekötő (PSC) rács nézete és a partner Center Deal nézet közötti mező-hozzárendeléseket mutatja." lightbox="images/pscmigration/grid-view-expanded.png":::
+:::image type="content" source="images/pscmigration/gridview.png" alt-text="A Partner Sales Connect (PSC) rácsnézet és az Partnerközpont mezőleképezését bemutató kép." lightbox="images/pscmigration/grid-view-expanded.png":::
 
 **Speciális szempontok:**
 
-- Nincs listanézet a partner Centerben, például a PSC-ben.  Az összes ajánlat a legfrissebb fogadott vagy létrehozott dátum alapján jelenik meg, az ügyfél adataival és az üzlet típusával. Alapértelmezés szerint a nézet első üzlete van kiválasztva. A PSC tábla formátumában megjelenő értékek többsége a számítógép üzletének részletes nézetében érhető el.
-- Az üzlet szerepkör nem kötelező mező a PC-ben. Nem jelenik meg vagy nem rögzíthető a munkafolyamatokban. A rendszer automatikusan származtatja a Microsoft Eladó oldalán az üzlethez hozzáadott megoldások alapján.
-- Az utolsó módosítás dátuma nem jelenik meg a számítógép hivatkozó részletek lapján. A partnerek a rendezés funkció segítségével rendezik az ajánlatokat az utolsó frissítés dátuma alapján.
+- A PSC-hez Partnerközpont listanézet nincs.  Az összes ügylet a legutóbbi fogadott vagy létrehozott dátum alapján van felsorolva, az ügyfél adataival és az ügylet típusával együtt. Alapértelmezés szerint a nézet első üzlete van kiválasztva. A PSC táblaformátumban megjelenő értékek nagy része a PC-n az üzlet részletes nézetében érhető el.
+- Az ajánlati szerepkör nem kötelező mező a PC-n. Egyik munkafolyamatban sem jelenik meg és nem rögzíti. A Microsoft értékesítői oldalán automatikusan lesz származtatva az üzlethez hozzáadott megoldások alapján.
+- Az utolsó módosítás dátuma nem jelenik meg a PC-n a hivatkozás részleteit tartalmazó oldalon. A partnerek a rendezés funkcióval rendezheti az ügyleteket az utolsó frissítés dátuma alapján.
 
-### <a name="3---psc-deal-details-view-mapped-to-partner-center"></a>3 – PSC Deal részletek nézet leképezve a partneri központhoz
+### <a name="3---psc-deal-details-view-mapped-to-partner-center"></a>3 – A PSC-ajánlat részleteinek nézete a Partnerközpont
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső (PSC) képernyőképen az alatta lévő partner Center képernyőképen. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő mező vagy munkaterület a partner Centerben.
+Hasonlítsa össze a fenti (PSC) képernyőfelvételen található egyező, számokkal Partnerközpont köröket. Az egyező számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a Partnerközpont. A piros körök azt jelzik, hogy nincs egyező mező vagy terület a Partnerközpont.
 
 > [!NOTE]
-> Egyéb megfontolások a képernyőképek alatt jelennek meg.
+> A képernyőképek alatt egyéb szempontok is megjelennek.
 
-:::image type="content" source="images/pscmigration/dealdetails.png" alt-text="Az a kép, amely a partner Sales-kapcsolat (PSC) és a partner Center Deal részletek nézete közötti mező-hozzárendeléseket mutatja." lightbox="images/pscmigration/deal-details-expanded.png":::
+:::image type="content" source="images/pscmigration/dealdetails.png" alt-text="A Partner Sales Connect (PSC) deal details (Partner Sales Connect) és a Partnerközpont részletek nézete közötti mezőleképezéseket bemutató kép." lightbox="images/pscmigration/deal-details-expanded.png":::
 
-**Speciális szempontok:**
+**Különleges szempontok:**
 
-- A partnerek szerkeszthetik az üzletet a partner Deal részletes nézetének Szerkesztés gombjára kattintva (6). Miután kiválasztotta a Szerkesztés gombot, az összes mező szerkeszthető lesz. Ezután lehetősége van menteni vagy megszakítani az üzletben végzett módosításokat.
-- A partner Centerben nem lehet lezárva az ügyletet ismétlődőként.
-- Az ügyfél kimenetele nem érhető el a partner Centerben. Az ügyfél-interakciókkal kapcsolatos összes adat a számítógép megjegyzések szakaszában frissíthető.
-- A megoldás bezárásának becsült dátuma csak a IOT lévő OEM-ajánlatok esetében érhető el. Ezek az információk nem jelennek meg más típusú ügyletekhez.
-- A licencelési program nem szükséges a PC-n. Ezek az információk automatikusan következtetni az üzletben kiválasztott megoldások alapján.
+- A partnerek a partneri ajánlat részletező nézetének Szerkesztés gombját választva szerkeszthetik az ajánlatot (6). A Szerkesztés gomb kiválasztása után az összes mező szerkeszthetővé válik. Ezután mentheti vagy megszakíthatja az üzleten történt módosításokat.
+- Nincs lehetőség arra, hogy duplikáltként zárja be az ajánlatot a Partnerközpont.
+- Az Ügyfél eredménye nem érhető el a Partnerközpont. Az ügyfél-interakciókra vonatkozó összes részlet frissíthető a PC Megjegyzések szakaszában.
+- A megoldás becsült lejárati dátuma csak oem IOT-ügyletekhez érhető el a Partnerközpont. Ezek az információk nem jelennek meg más üzlettípusoknál.
+- A számítógépen nincs szükség licencprogramra. Ez az információ automatikusan kikövetkeztetve lesz az ajánlatban kiválasztott megoldások alapján.
 
 >[!Note]
->A megnyert vagy elveszettként megjelölt ügyletek később nem szerkeszthetők. Körültekintően járjon el, amikor egy üzletet az egyik terminál-állapotba helyez át.
+>Az így megnyertként vagy elveszettként megjelölt dealek később nem szerkeszthetők. Körültekintően járjon el, amikor egy ajánlatot az alábbi terminál államok egyikében mozgat.
 
-### <a name="4---psc-add-products-view-mapped-to-the-partner-center-add-solutions-view"></a>4 – a "termékek hozzáadása" nézet hozzárendelve a "megoldások hozzáadása" nézethez
+### <a name="4---psc-add-products-view-mapped-to-the-partner-center-add-solutions-view"></a>4 – A PSC "Termékek hozzáadása" nézete, Partnerközpont "Megoldások hozzáadása" nézetre van leképezve
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső (PSC) képernyőképen az alatta lévő partner Center képernyőképen. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő mező vagy munkaterület a partner Centerben.
+Hasonlítsa össze a fenti (PSC) képernyőfelvételen található egyező, számmal Partnerközpont köröket. Az egyező számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a Partnerközpont. A piros körök azt jelzik, hogy nincs egyező mező vagy terület a Partnerközpont.
   
-:::image type="content" source="images/pscmigration/products.png" alt-text="Az a kép, amely a partner Sales-összekötő (PSC) a termékek hozzáadása és a partner Center – megoldások hozzáadása nézet közötti leképezéseket mutatja." lightbox="images/pscmigration/products-expanded.png":::
+:::image type="content" source="images/pscmigration/products.png" alt-text="Kép a Partner Sales Connect (PSC) termék hozzáadása nézete és a megoldás Partnerközpont mezőleképezései között." lightbox="images/pscmigration/products-expanded.png":::
 
-### <a name="5---user-management-in-psc-versus-partner-center"></a>5 – felhasználói felügyelet a PSC-ben és a partner Centerben
+### <a name="5---user-management-in-psc-versus-partner-center"></a>5 – Felhasználókezelés a PSC-ben és Partnerközpont
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső (PSC) képernyőképen az alatta lévő partner Center képernyőképen. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő mező vagy munkaterület a partner Centerben.  
+Hasonlítsa össze a fenti (PSC) képernyőfelvételen található egyező, számmal Partnerközpont köröket. Az egyező számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a Partnerközpont. A piros körök azt jelzik, hogy nincs egyező mező vagy terület a Partnerközpont.  
 
- :::image type="content" source="images/pscmigration/usermanagement.png" alt-text="Az a kép, amely a partner Sales-kapcsolat (PSC) felhasználói kezelés kezdőlapja és a fiókpartner felhasználói kezelés lapja közötti, a Fiókbeállítások területen található leképezéseket jeleníti meg."  lightbox="images/pscmigration/user-management-expanded.png":::
+ :::image type="content" source="images/pscmigration/usermanagement.png" alt-text="A Partner Sales Connect (PSC) felhasználókezelési kezdőlapja és a Partnerközpont Felhasználókezelés lap nézete közötti mezőleképezéseket bemutató kép a Fiókbeállítások területen."  lightbox="images/pscmigration/user-management-expanded.png":::
 
-### <a name="6---user-role-assignment-in-psc-versus-partner-center"></a>6 – felhasználói szerepkör-hozzárendelés a PSC-ben és a partner Centerben
+### <a name="6---user-role-assignment-in-psc-versus-partner-center"></a>6 – Felhasználói szerepkör-hozzárendelés a PSC-ben és Partnerközpont
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső (PSC) képernyőképen az alatta lévő partner Center képernyőképen. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő mező vagy munkaterület a partner Centerben.  
+Hasonlítsa össze a fenti (PSC) képernyőfelvételen található egyező, számmal Partnerközpont köröket. Az egyező számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a Partnerközpont. A piros körök azt jelzik, hogy nincs egyező mező vagy terület a Partnerközpont.  
 
-:::image type="content" source="images/pscmigration/roles.png" alt-text="A partner értékesítési csatlakozási (PSC) szerepkör-hozzárendelési nézet és a partner Center szerepkör-hozzárendelési nézet közötti mező-hozzárendeléseket bemutató kép." lightbox="images/pscmigration/roles-expanded.png":::
+:::image type="content" source="images/pscmigration/roles.png" alt-text="A Partner Sales Connect (PSC) szerepkör-hozzárendelési nézete és a szerepkör-hozzárendelési nézet Partnerközpont mezőleképezéseket bemutató kép." lightbox="images/pscmigration/roles-expanded.png":::
 
 **Speciális szempontok:**
 
-- A PSC rendszergazda ezzel egyenértékű szerepköre a fiók rendszergazdai szerepköre a partner Centerben.
-- A partneri központban csak egyetlen szerepkör létezik a közös értékesítések kezelésére. Ez a szerepkör az Ajánlói rendszergazdai szerepkör.
+- A PSC-rendszergazda egyenértékű szerepköre a fiók rendszergazdai szerepköre a Partnerközpont.
+- Az értékesítésben csak egy szerepkör Partnerközpont az értékesítések kezeléséhez. Ez a szerepkör a ajánlói rendszergazdai szerepkör.
 
-### <a name="7---notifications-in-psc-versus-partner-center"></a>7 – értesítések a PSC-ben és a partner Centerben
+### <a name="7---notifications-in-psc-versus-partner-center"></a>7 – Értesítések a PSC-ben és a Partnerközpont
 
-Hasonlítsa össze a megfelelő, számozott köröket a felső (PSC) képernyőképen az alatta lévő partner Center képernyőképen. A megfelelő számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a partner Centerben. A piros körök azt jelzik, hogy nincs megfelelő mező vagy munkaterület a partner Centerben.  
+Hasonlítsa össze a fenti (PSC) képernyőfelvételen található egyező, számokkal Partnerközpont köröket. Az egyező számok megmutatják, hol található a PSC-hez kapcsolódó szolgáltatás vagy attribútum a Partnerközpont. A piros körök azt jelzik, hogy nincs egyező mező vagy terület a Partnerközpont.  
 
-:::image type="content" source="images/pscmigration/notifications.png" alt-text="A partner értékesítési csatlakozási (PSC) értesítések és a partner Center értesítések nézet közötti leképezést ábrázoló kép."  lightbox="images/pscmigration/notifications-expanded.png":::
+:::image type="content" source="images/pscmigration/notifications.png" alt-text="A Partner Sales Connect (PSC) értesítései és a Partnerközpont közötti leképezést bemutató kép."  lightbox="images/pscmigration/notifications-expanded.png":::
 
-## <a name="moving-from-psc-to-partner-center---frequently-asked-questions"></a>Áthelyezés a PSC-ből a partneri központba – gyakori kérdések
+## <a name="moving-from-psc-to-partner-center---frequently-asked-questions"></a>Áthelyezés PSC-ről Partnerközpont - Gyakori kérdések
 
-A következő fejezetek az áttelepítéssel kapcsolatos gyakori kérdésekre válaszolnak.
+A következő szakaszok választ adnak a migrálásra vonatkozó gyakori kérdésekre.
 
-### <a name="1---what-should-i-do-if-i-dont-have-access-to-partner-center"></a>1 – Mi a teendő, ha nem férnek hozzá a partner Centerhez?
+### <a name="1---what-should-i-do-if-i-dont-have-access-to-partner-center"></a>1 – Mit tegyek, ha nem tudok hozzáférni a Partnerközpont?
 
-A hozzárendelt szerepkörök beszerzéséhez a "nincs hozzáférés" lapon felsorolt rendszergazdákat is felveheti. Az átirányítások szakaszban az [átirányítási rendszergazdai](permissions-overview.md#manage-referrals) szerepkörre lesz szüksége az olvasási és írási engedélyekhez. Ha csak üzleti profilokat kezel, akkor az üzleti profil rendszergazdai szerepkörére lesz szüksége a partner Centerben.
+A szerepkörök hozzárendelését a "Nincs hozzáférés" oldalon felsorolt rendszergazdákhoz használhatja. A hivatkozások [](permissions-overview.md#manage-referrals) szakaszban olvasási és írási engedélyhez a ajánlói rendszergazdai szerepkörre lesz szüksége. Ha csak az üzleti profilokat kezeli, szüksége lesz az üzleti profil rendszergazdai szerepkörre a Partnerközpontban.
 
-:::image type="content" source="images/pscmigration/noaccess.png" alt-text="Az a kép, amely a partner Centerben nem fér hozzá a hozzáférési élményhez.":::
+:::image type="content" source="images/pscmigration/noaccess.png" alt-text="Kép a felhasználói élményről a Partnerközpont.":::
 
-### <a name="2---who-can-grant-me-access-to-the-referrals-section-in-partner-center"></a>2 – kik biztosíthatnak hozzáférést a partner központ átirányítások szakaszához?
+### <a name="2---who-can-grant-me-access-to-the-referrals-section-in-partner-center"></a>2 – Ki adhat hozzáférést a Partnerközpont?
 
-A [fiók rendszergazdája](permissions-overview.md#manage-mpn-membership-and-your-company) hozzáférést biztosíthat az átirányítások lapjához. A fiók rendszergazdájának megkereséséhez válassza a **Fiókbeállítások** elemet a partner Center [irányítópultjának](https://partner.microsoft.com/dashboard)jobb felső sarkában található fogaskerék ikonra. Ezután a második szintű, bal oldali navigációs sávon válassza a **felhasználói kezelés** lehetőséget. A felhasználók listájának tetején válassza a **szűrő** legördülő menüt, és módosítsa a **fiók rendszergazdája** beállítást. A lap megjeleníti az összes fiók rendszergazdáját a hozzájuk tartozó e-mail-címükkel. Kérje meg az egyiket, hogy rendelje hozzá az Ajánlói rendszergazdai szerepkört a munkahelyi fiókjához.
+A [fiókadminisztrátor](permissions-overview.md#manage-mpn-membership-and-your-company) hozzáférést adhat a Hivatkozások laphoz. A fiókadminisztrát úgy találhatja meg, hogy a jobb felső sarokban lévő fogaskerék ikonon a Fiókbeállítások Partnerközpont [gombra.](https://partner.microsoft.com/dashboard)  Ezután válassza **a Felhasználókezelés** lehetőséget a második szintű, bal oldali navigációs sávon. A felhasználói lista tetején válassza  a Szűrő legördülő menüt, és módosítsa a fiókrendszergazdára.  A lapon megjelenik az összes fiók-rendszergazda a megfelelő e-mail-címmel. Kérje meg az egyiket, hogy rendelje hozzá a munkahelyi fiókjához a ajánlói rendszergazdai szerepkört.
 
-### <a name="3---the-new-deal-button-is-greyed-out-for-our-account-what-should-i-do-to-start-creating-deals"></a>3 – az + új Deal gomb szürkén jelenik meg a fiókban. Mit kell tennem az ajánlatok létrehozásának megkezdéséhez?
+### <a name="3---the-new-deal-button-is-greyed-out-for-our-account-what-should-i-do-to-start-creating-deals"></a>3 – A fiókhoz az +új üzlet gomb szürkével van kiszürkülve. Mit kell tennem az ügyletek létrehozásának elkezdenie?
 
-Ez csak akkor történik meg, ha nincs olyan, a partner Centerben használt MPN-szervezethez csatlakoztatott, közös értékesítésre kész megoldás. Kérje meg a PDM, hogy kijavítsa a megoldások MPN-AZONOSÍTÓját, vagy hozzon létre egy támogatási jegyet, amely megemlíti a problémát: "az új Deal gomb szürkén jelenik meg a PSC-áttelepítés után".
+Ez csak akkor fordul elő, ha nincsenek olyan, az MPN-szervezethez csatolt, közös értékesítésre kész megoldások, amelyek a Partnerközpont. Forduljon a PDM-hez a megoldások MPN-azonosítójának kijavítása érdekében, vagy hozzon létre egy támogatási jegyet, amely a következő problémát említi: "Az új ajánlat gomb szürkével ki van szürkülve a PSC-migrálás után."
 
-### <a name="4---can-i-assign-deals-to-a-specific-person-from-our-organization-like-psc"></a>4 – Hogyan rendelhetek hozzá olyan ajánlatokat egy adott személyhez, mint például a PSC?
+### <a name="4---can-i-assign-deals-to-a-specific-person-from-our-organization-like-psc"></a>4 – Hozzárendelhet-e ügyletet egy adott személyhez a szervezetből, például a PSC-hez?
 
-A csapat tagjait hozzárendelheti egy adott üzlethez. Nem akadályozza meg, hogy a többi hivatkozó rendszergazda megtekintse vagy ellássa ezeket az ajánlatokat.
+A csapattagokat hozzárendelheti egy adott ajánlathoz. Nem tiltja le, hogy más ajánlási rendszergazdák megtekintsék ezeket az ügyleteket, vagy azok alapján cselekednek.
 
-### <a name="5---is-there-a-view-of-all-the-deals-assigned-to-me"></a>5 – megtekinthető az összes általam kiosztott ajánlat?
+### <a name="5---is-there-a-view-of-all-the-deals-assigned-to-me"></a>5 – Van nézet az összes hozzárendelt ügyletről?
 
-Használhatja a Kedvencek funkciót, amely egy felhasználói szintű lap. Megadhatja az összes olyan ajánlatot, amely a kedvencekhez van rendelve, hogy gyorsan hozzáférhessen az ajánlatokhoz.
+Használhatja a kedvencek funkciót, amely egy felhasználói szintű lap. Megjelölhet minden olyan ügyletet, amely kedvencként van kiosztva, így gyorsan hozzáférhet az ajánlatokhoz.
 
-### <a name="6---is-there-a-read-only-view-for-the-deals"></a>6 – van-e írásvédett nézet a Deals szolgáltatásokhoz?
+### <a name="6---is-there-a-read-only-view-for-the-deals"></a>6 – Van csak olvasható nézet az ügylethez?
 
-Nem, az átirányítások szakaszban nem található az ajánlatok írásvédett nézete. Minden hivatkozó rendszergazdának teljes olvasási és írási hozzáférése lesz az összes ajánlathoz.
+Nem, a hivatkozások szakaszban nem látható az ajánlatok írásra vonatkozó nézete. Minden ajánlási rendszergazda teljes olvasási és írási hozzáféréssel rendelkezik az összes ügylethez.
 
-### <a name="7---how-can-i-register-a-deal-after-marking-it-as-won"></a>7 – hogyan regisztrálhatok egy üzletet a megnyert megjelölése után?
+### <a name="7---how-can-i-register-a-deal-after-marking-it-as-won"></a>7 – Hogyan regisztrálok egy ajánlatot, miután megnyertként jelölem meg?
 
-Ha az üzlet megfelel az alábbi feltételeknek, megjelenik egy előugró ablak, amely az [üzlet regisztrációjának](./register-deals.md)megkezdését mutatja be.
+Ha az üzlet megfelel az alábbi feltételeknek, egy előugró ablak jelenik meg, amely elindítja az [ajánlat regisztrációját.](./register-deals.md)
 
-- Az üzlethez egy ösztönző jogosult megoldás van társítva.
-- A Microsoft eladó felkérést kap az üzletben való részvételre, vagy meghívta Önt az üzletre.
-- A Microsoft Card a partner Centerben elfogadott vagy megnyert állapotban van.
+- Az ajánlathoz egy ösztönzőnek megfelelő megoldás is csatolva van.
+- A Microsoft értékesítője vagy meghívása az ajánlatban való részvételre.
+- A Microsoft-kártya Elfogadva vagy Megnyerve állapotban van a Partnerközpont.
 
-### <a name="8---i-get-an-error-message-when-i-select-the-new-deal-registration-button-in-the-deal-registration-section-how-can-i-register-my-deals"></a>8 – hibaüzenet jelenik meg, ha a Deal regisztráció szakaszban az "+ új ügylet regisztrálása" gombot választom. Hogyan regisztrálhatom az ajánlatokat?
+### <a name="8---i-get-an-error-message-when-i-select-the-new-deal-registration-button-in-the-deal-registration-section-how-can-i-register-my-deals"></a>8 – Hibaüzenetet kapok, amikor kiválasztom az "+Új ajánlat regisztrálása" gombot az Ajánlat regisztrálása szakaszban. Hogyan regisztrálom az ügyletemet?
 
-Az **+ új ügylet regisztrálása** gombot csak azok a partnerek használhatják, akik az ISV kapcsolódási programban regisztrálva vannak a partner Centerben nem megfelelő közös értékesítési lehetőséggel. Ha a regisztráláshoz közös értékesítési lehetőség van, akkor megjelenik egy előugró ablak, ha a Deal megjelölése megnyertként van megjelölve, és megfelel a Deal regisztráció feltételeinek.
+Az **+Új** üzlet regisztrálása gombot csak azok a partnerek használják, akik regisztrálva vannak az ISV Connect programban egy olyan üzlet regisztrálása érdekében, amely nem kínál megfelelő Partnerközpont. Az együttműködési lehetőséggel kapcsolatos ügyletek regisztrálásakor előugró ablak jelenik meg, ha az ügyletet megnyertként jelöli meg, és megfelel az ügylet regisztrációja feltételeinek.
 
-### <a name="9---is-adding-a-customer-organization-mandatory"></a>9 – kötelező-e az ügyfél-szervezet hozzáadása?
+### <a name="9---is-adding-a-customer-organization-mandatory"></a>9 – Kötelező az ügyfélszervezet hozzáadása?
 
-Igen, az [ügyfél-szervezet](./manage-co-sell-opportunities.md#select-your-customer) hozzáadása kötelező a partner Centerben. Először keresse meg azt a helyet, ahol az ügyfél helye van. A részletek alapján; konkrétan megadhatja a pontos épület nevét, vagy csak a város részleteit. A szervezet keresési szolgáltatás beolvassa az összes olyan jogi entitást, amely megfelel a megadott névnek, így nem kell megadnia a címet. A rendszer a kiválasztott szervezet alapján automatikusan kitölti az összes adatot.
+Igen, az [ügyfélszervezet hozzáadása](./manage-co-sell-opportunities.md#select-your-customer) kötelező a Partnerközpont. Először is kezdje azzal, hogy rákeres arra a helyre, ahol az ügyfél található. A saját adatai alapján; Meg lehet adni pontosan az épület nevét, vagy csak meg kell adni a város adatait. A szervezeti keresés lekéri a megadott névnek megfelelő összes jogi személy adatait, így Önnek nem kell megadnia a címadatokat. A rendszer automatikusan kitölti az adatokat a kiválasztott szervezet alapján.
 
-### <a name="10---are-customer-contact-details-mandatory"></a>10 – az ügyfél elérhetőségi adatai kötelezőek?
+### <a name="10---are-customer-contact-details-mandatory"></a>10 – Kötelező az ügyfél kapcsolattartási adatai?
 
-A létrehozandó [alku típusától](./manage-co-sell-opportunities.md#types-of-co-sell-opportunities) függ. Ha csak a folyamatot osztja meg, és nem igényel segítséget a Microsoft értékesítési szervezettől, dönthet úgy is, hogy nem adja meg az ügyfél kapcsolattartási adatait. Ha olyan közös értékesítést szeretne, ahol aktívan keres segítséget a Microsoft értékesítőtől, meg kell adnia az ügyfél kapcsolattartási adatait. Hozzon létre explicit beleegyezést az ügyféltől, mielőtt közös értékesítési kérést hozna létre a partner Centerben.
+A [létrehozott üzlet](./manage-co-sell-opportunities.md#types-of-co-sell-opportunities) típusától függ. Ha csak megosztja a folyamatot, és nincs szüksége segítségre a Microsoft értékesítési szervezettől, dönthet úgy, hogy nem adja meg az ügyfél kapcsolattartási adatait. Ha olyan közös értékesítést használ, amelyben aktívan segítséget kér a Microsoft értékesítőjától, meg kell adnia az ügyfél kapcsolattartási adatait. Az ügyfél kifejezett beleegyezését kell kérnie, mielőtt közös értékesítésre vonatkozó kérelmet hoz létre a partnerközpontban.
 
-### <a name="11---how-many-solutions-can-i-add-to-a-deal"></a>11 – hány megoldást vehetek fel egy üzletbe?
+### <a name="11---how-many-solutions-can-i-add-to-a-deal"></a>11 – Hány megoldást adhatok hozzá egy üzlethez?
 
-Akár 50 megoldást is hozzáadhat (hasonló a PSC-termékekhez) egy üzlethez. A PSC-től eltérően a saját közös értékesítésre jogosult megoldásaival, a Microsoft első féltől származó SKU-val és más, harmadik féltől származó, közös értékesítésre jogosult megoldásokat használhat. Nincs olyan üzletbeli szerepkör, amelyet ki kell választani, vagy elérhetőnek kell lennie a partner Centerben. A Microsoft SKU-ban opcionálisan hozzáadhat mennyiségeket és árat az üzlethez hozzáadott összes SKU-hoz.
+Egy üzlethez akár 50 megoldást is hozzáadhat (a PSC-hez hasonló "termékekhez". A PSC-től eltérően vegyesen használhatja saját, közös értékesítésre jogosult megoldásait, a Microsoft első féltől származó termékkódokat és más, harmadik féltől származó, közös értékesítésre jogosult megoldásokat. A Partnerközpontban nincs kiválasztható vagy elérhető üzleti szerepkör. A Microsoft termékváltozatai esetén mennyiséget és árat is hozzáadhat az ajánlathoz hozzáadott minden egyes termékváltozathoz.
 
-### <a name="12---when-will-i-get-to-know-the-microsoft-seller-details-after-creating-a-deal"></a>12 – Mikor jelenik meg a Microsoft-értékesítő részletei az alku létrehozása után?
+### <a name="12---when-will-i-get-to-know-the-microsoft-seller-details-after-creating-a-deal"></a>12 – Mikor tudom meg a Microsoft értékesítőinek adatait az üzlet létrehozása után?
 
-A Microsoft-értékesítők csak akkor vannak hozzárendelve, ha megfelelnek a Microsoft oldalon a megfelelő értékesítő személysel való üzlet létrehozásakor feltételnek. A Microsoft Sellers még a hozzárendelést követően is választhat, hogy elfogadja vagy elutasítja a közös értékesítés meghívását. Az üzletet csak akkor fogja frissíteni, ha a közös értékesítési meghívást egy értékesítő fogadja el. A Microsoft-értékesítők által az üzletre vonatkozó SLA 14 nap. Ez ugyanaz az SLA, amelyet a partnereknek az ügylet lejárta előtt kell cselekedniük, mielőtt lejár az állapot.
+A Microsoft értékesítői csak akkor vannak kiosztva, ha pontosan megfeleltetve a Microsoft oldalán az adott értékesítő személyének az üzlet létrehozásakor a súgóra vonatkozó követelményt. A Microsoft értékesítői a hozzárendelést követően is elfogadják vagy elutasítják az együttműködési meghívót. Az ajánlatot csak akkor frissítjük a Microsoft értékesítői kapcsolattartási adataival, ha egy értékesítő elfogadta az értékesítésre vonatkozó meghívót. A Microsoft értékesítőinek az üzletre vonatkozó SLA 14 nap. Ez ugyanaz az SLA, mint amit a partnereknek el kell látnia, mielőtt lejárt állapotba kerül.
 
-### <a name="13---where-can-i-find-the-opportunity-id"></a>13 – Hol találhatom meg a lehetőség AZONOSÍTÓját?
+### <a name="13---where-can-i-find-the-opportunity-id"></a>13 – Hol található a lehetőségazonosító?
 
-A PSC-ben a lehetőség azonosítója megegyezik a számítógépen található üzlet-AZONOSÍTÓval. Az ügylet neve melletti üzlet-azonosítót az üzlet megnyitásakor is megtalálhatja.
+A PSC lehetőségazonosítója megegyezik a PC-n az ajánlatazonosítóval. Bármely üzlet megnyitásakor az üzlet neve mellett találja az üzletazonosítót.
 
-### <a name="14---how-can-my-pdm-get-access-to-pc"></a>14 – Hogyan szerezhetem be a PDM a számítógéphez?
+### <a name="14---how-can-my-pdm-get-access-to-pc"></a>14 – Hogyan férhet hozzá a PDM a pc-hez?
 
-A PDM nem érhető el közvetlenül a PSC-től eltérően. A funkció engedélyezéséhez több lehetőség is van, amelyek az alábbiakban láthatók.
+Partnerközpont a PDM-ek nem érhetik el közvetlenül a PSC-től eltérően. Ezt a képességet többféle módon is engedélyezheti, amelyekről alább olvashat.
 
-- OCP-információ – ha a PDM csak a velük kapcsolatos ajánlatokat és előrehaladást tekinti meg, akkor a OCP-betekintő portál használatával megszerezheti a szervezet nézetét. Ez egy belső eszköz, és csak a PDM számára érhető el. Vegye figyelembe, hogy a OCP-eredmények a vállalat felhasználói számára nem érhetők el.
-- Vendég felhasználó a partner Centerben – a PDM @microsoft.com fiókját vendég felhasználóként hozzáadhatja a partner Centerben, és hozzárendelheti a hozzájuk hivatkozó rendszergazdai szerepkört, így megtekintheti és elvégezheti az átirányítást.
-- [Új felhasználó](./create-user-accounts-and-set-permissions.md#add-a-new-user) létrehozása a bérlőben – létrehozhat egy új felhasználót a saját bérlőben, és megoszthatja ezeket az adatokat a PDM, így megtekintheti és elvégezheti a fiókban lévő többi hivatkozó felhasználóhoz hasonló hivatkozásokat.
+- OCP-elemzések – Ha a PDM-ek csak a velük kapcsolatos ügyleteket és előrehaladást nézik meg, az OCP Insights portál használatával megtekinthetik a szervezet nézetét. Ez egy belső eszköz, és csak PDM-hez érhető el. Vegye figyelembe, hogy az OCP-elemzések nem érhetők el a vállalat felhasználói számára.
+- Vendégfelhasználó a Partnerközpont – PDM-fiókját vendégfelhasználóként adhatja hozzá a partnerközpontban, és hozzárendelheti hozzájuk a hivatkozási rendszergazdai szerepkört, hogy megtekintse a hivatkozásokat, és az alapján @microsoft.com cselekedjen.
+- Új [felhasználó](./create-user-accounts-and-set-permissions.md#add-a-new-user) létrehozása a bérlőben – Létrehozhat egy új felhasználót a saját bérlőjében, és megoszthatja ezeket az adatokat a PDM-ben, hogy megtekintse a fiókjában más ajánló felhasználókhoz hasonló hivatkozásokat, és az alapján cselekedjen.
 
-## <a name="finding-the-correct-mpn-id-if-your-account-in-psc-is-not-associated-with-a-valid-mpn"></a>A helyes MPN-azonosító megkeresése, ha a PSC-fiókja nincs érvényes MPN-hez társítva
+## <a name="finding-the-correct-mpn-id-if-your-account-in-psc-is-not-associated-with-a-valid-mpn"></a>A helyes MPN-azonosító megkeresása, ha a PSC-fiók nincs érvényes MPN-hez társítva
 
-Ha azért van itt, mert a PSC-ben a "PSC érvénytelen MPN-azonosító társítása" problémára hivatkozik, akkor Ön a megfelelő helyen található. Lehet, hogy a fiókja a következő okok miatt érvénytelen MPN-AZONOSÍTÓhoz lett társítva
+Ha azért van itt, mert egy szalagcímet látott a PSC-ban, amely a "PSC érvénytelen MPN-azonosító társítási problémáját" említi, jó helyen van. Előfordulhat, hogy a fiókja érvénytelen MPN-azonosítóhoz lett kapcsolva a következő okok miatt
 
-- A vállalat nem rendelkezik partneri központ-fiókkal.
-- A PDM hibát vétett a fiók MPN-AZONOSÍTÓjának beírásakor a belső rendszerekben, amelyek a PSC-fiókját a partner Center-fiókhoz (MPNID) kapcsolják.
-- A vállalat nem végezte el az áttelepítést a partner Membership Center (PMC) rendszerről a számítógépre.
+- A vállalata nem Partnerközpont fiókkal.
+- A PDM hibát vétett a fiók MPN-azonosítójának a belső rendszerekben történő megadásakor, amelyek a PSC-fiókot a Partnerközpont (MPNID) fiókhoz csatolják.
+- A vállalat nem fejeződött be a Partner Membership Center (PMC) számítógépről a számítógépre való migrálás során.
 
-Először keresse meg a megfelelő MPN-azonosítót az alábbi lépések végrehajtásával
+Először keresse meg a megfelelő MPN-azonosítót az alábbi lépésekben
 
-- Jelentkezzen be a partner Center-fiókjába
-- Az MPN-azonosító megkereséséhez használja a [Fiókbeállítások dokumentációjában](./partner-center-account-setup.md#locate-your-mpn-id) megadott útmutatót.
+- Jelentkezzen be Partnerközpont fiókjába
+- Az MPN-azonosító megkereséhez használja [a](./partner-center-account-setup.md#locate-your-mpn-id) fiókbeállítások dokumentációjában található útmutatást.
 
-Alább látható egy képernyőkép, amely a partner Center MPN-AZONOSÍTÓjának pontos helyét jeleníti meg
+Az alábbi képernyőképen a pontos hely látható, ahol az MPN-Partnerközpont található
 
-:::image type="content" source="images/pscmigration/findingMPNID.png" alt-text="A fiók beállításait tartalmazó kép, ahol a partner megtalálja az MPN-AZONOSÍTÓját."  lightbox="images/pscmigration/findingMPNID.png":::
+:::image type="content" source="images/pscmigration/findingMPNID.png" alt-text="A fiókbeállításokat bemutató kép, ahol a partner megtalálja az MPN-azonosítóját."  lightbox="images/pscmigration/findingMPNID.png":::
 
 Next (Tovább)
 
-- Ha rendelkezik PDM, kérje meg őket, hogy az MPN-azonosítót a partner Center-fiók megfelelő MPN-azonosítójával javítsa ki.
-- Ha még nem rendelkezik PDM, küldjön egy e-mailt a PSC-szalagcímben megadott címre, és a PSC-fiók információit és a partner Center-fiókja helyes MPN-AZONOSÍTÓját is.
+- Ha PDM-et használ, kérje meg, hogy javítsa ki az MPN-azonosítót a partnerközpont fiókjából a megfelelő MPN-azonosítóval.
+- Ha nem pdm-et használ, küldjön egy e-mailt a PSC szalagcímen megadott címre, a PSC-szalagcímben látható PSC-fiókinformációkkal és a partnerközpont fiókjából származó helyes MPN-azonosítóval.
 
-## <a name="resources-to-help-you-create-and-manage-your-deals-in-partner-center"></a>Erőforrások, amelyek segítenek az ajánlatok létrehozásában és kezelésében a partner Centerben
+## <a name="resources-to-help-you-create-and-manage-your-deals-in-partner-center"></a>Forrásforrások, amelyek segítségével létrehozhatja és kezelheti a Partnerközpont
 
-Ha még nem olvasta el a közös értékesítéssel foglalkozó témaköröket, a következő források segítenek a partner Centerbeli ajánlatok kezelésében.
+Ha még nem elolvasta az értékesítéshez kapcsolódó súgótémakört, az alábbi forrásokkal kezelheti a partnerközpontban kötött ügyleteket.
 
 |**Ehhez**   |**Olvassa el ezt**   |
 |-----------------------|:-----------------------|
-|A lapok és a navigáció megismerése a közös értékesítés lehetőségei oldalon|[Navigálás a közös értékesítés szakaszban](./manage-co-sell-opportunities.md#navigating-the-co-sell-section)|
-|A D&B listából válassza ki az ügyfél szervezetét |[Válassza ki az ügyfelet](./manage-co-sell-opportunities.md#select-your-customer)|
-|A mezők módosítása a Deal details szakaszban|[A Deal részletei](./manage-co-sell-opportunities.md#deal-details)|
-|Csapat tagjainak hozzáadása egy alku csapathoz|[Alkalmazottak hozzáadása](./manage-co-sell-opportunities.md#add-team-members)|
-|Válasz a közös értékesítésre|[Közös értékesítési ajánlatok kezelése](./manage-co-sell-opportunities.md#responding-to-a-co-sell-opportunity)
-|Regisztrálja a partner Centerben megnyert ajánlatokat |[Új üzlet regisztrálása](./register-deals.md)
-|Áttekintő elemzések beszerzése és az átirányítások megismerése |[Javaslatelemzések](./referral-insights.md)
+|Az együttműködési lehetőségek lapfülei és navigációs oldalának ismertetése|[Navigálás az együtt értékesítéssel kapcsolatos szakaszban](./manage-co-sell-opportunities.md#navigating-the-co-sell-section)|
+|Ügyfélszervezet kiválasztása a D&B listából |[Válassza ki az ügyfelet](./manage-co-sell-opportunities.md#select-your-customer)|
+|Az üzlet részletei szakaszban található mezők módosítása|[Az üzlet részletei](./manage-co-sell-opportunities.md#deal-details)|
+|A csapattagok hozzáadása egy ajánlatcsapathoz|[Alkalmazottak hozzáadása](./manage-co-sell-opportunities.md#add-team-members)|
+|Reagálás egy közös értékesítésre|[Társadékalékok kezelése](./manage-co-sell-opportunities.md#responding-to-a-co-sell-opportunity)
+|A következőben megnyert ügyletek regisztrálása Partnerközpont |[Új ajánlat regisztrálása](./register-deals.md)
+|Hivatkozási elemzések lekért és a hivatkozások útjára vonatkozó információk |[Javaslatelemzések](./referral-insights.md)
 |Üzleti profil létrehozása és kezelése|[Üzleti profil kezelése](./create-a-marketing-profile.md)
-|Az üzleti profilhoz tartozó érdeklődők kezelése |[Érdeklődők kezelése](./manage-leads.md)|
+|Érdeklődők kezelése az üzleti profilhoz |[Érdeklődők kezelése](./manage-leads.md)|
 
 ## <a name="next-steps"></a>Következő lépések
 
 
-- [Partneri értékesítések kapcsolódás a partneri központ munkafüzetéhez](https://partner.microsoft.com/resources/detail/partner-sales-connect-to-partner-center-transition-workbook-pptx) – munkafüzet a partnerek értékesítési folyamatainak és szerepköreinek az új értékesítési folyamatokkal való összehangolásához a partner Center és a partner Sales-kapcsolat használatával.
-- A [partner Center közös értékesítéssel kapcsolatos útmutatója](https://partner.microsoft.com/resources/detail/co-sell-operating-model-guide-pptx) – útmutató egy működési modell azonosításához a partner centeren keresztül az érdeklődők felügyeletéhez, illetve a lehetőségek közös értékesítéséhez és regisztrálásához.
-- [Ajánlói felügyelet](https://partner.microsoft.com/resources/detail/referral-management-in-partner-center-pptx) – részletes útmutató az érdeklődők kezeléséhez és a partneri központon keresztüli lehetőségek közös értékesítéséhez.
-- [Közzététel és felügyelet a kereskedelmi piactéren](https://partner.microsoft.com/resources/detail/publishing-and-managing-co-sell-offers-in-commercial-marketplace-pptx) – részletes útmutató a kereskedelmi piactéren a partner Center segítségével történő létrehozásához, kezeléséhez és közzétételéhez.
+- [Partner Sales Connect egy Partnerközpont munkafüzethez](https://partner.microsoft.com/resources/detail/partner-sales-connect-to-partner-center-transition-workbook-pptx) – munkafüzet, amely a partnerek értékesítési folyamatait és szerepköreit az új értékesítési folyamatokhoz igazítja a Partnerközpont és a Partner Sales Connect segítségével.
+- [Partnerközpont üzemeltetési](https://partner.microsoft.com/resources/detail/co-sell-operating-model-guide-pptx) útmutató – útmutató egy üzemeltetési modell Partnerközpont az érdeklődők vagy az együttműködési lehetőségek kezeléséhez és az ügyletek regisztrálása érdekében.
+- [Ajánláskezelési pakli](https://partner.microsoft.com/resources/detail/referral-management-in-partner-center-pptx) – részletes vizualizációval szemléltetett utasítás az érdeklődők és az együttműködési lehetőségek kezeléséhez a Partnerközpont.
+- [Közzététel és kezelés](https://partner.microsoft.com/resources/detail/publishing-and-managing-co-sell-offers-in-commercial-marketplace-pptx) a kereskedelmi piactéren – részletesen ábrázolt utasítás az ajánlatok létrehozásához, kezeléséhez és közzétételéhez Partnerközpont kereskedelmi piactéren.

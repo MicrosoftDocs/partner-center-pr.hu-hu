@@ -4,71 +4,66 @@ ms.topic: article
 ms.date: 11/01/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
-description: A következő lapok segítségével megtekintheti és kezelheti az ösztönző programok állapotát
+description: Ezekkel az oldalakkal megtekintheti és kezelheti Ösztönzőprogram állapotát
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: a66e32a3c9320ac32b0749c67197c6a27574ce75
-ms.sourcegitcommit: e8e8362d2777d25efac3e1076af5939765ed13d0
+ms.openlocfilehash: 798fde02b87e8f8105dad6d00c32b050fb90097e
+ms.sourcegitcommit: dc9438475ccc6298bec6a698bf5fc9bd5cf2aa81
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104712613"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109818745"
 ---
-# <a name="view-your-incentives-program-details"></a>Ösztönző program részleteinek megtekintése
+# <a name="view-your-incentives-program-details"></a>Az ösztönzőprogram részleteinek megtekintése
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználói | Globális rendszergazdai | MPN-partner rendszergazdája
 
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
-- Globális rendszergazda
-- MPN-partner rendszergazdája
-
-Ez a cikk a **saját ösztönzők áttekintése** lapot ismerteti, amely az ösztönző programok általános állapotát, valamint az egyes programok állapotát mutatja be az egyes helyeken. Emellett a regisztráció különböző állapotait is megadja.
+Ez a cikk a **Saját ösztönzők áttekintése** oldalt ismerteti, amely az ösztönző programok általános állapotát, valamint az egyes programok állapotát mutatja be minden helyen. Emellett a különböző regisztrációs állapotokat is megadja.
 
 >[!NOTE]
->További információ a fiókpartner ösztönzőkről és ösztönző funkcióiról: [partner Investments and ösztönzők](https://partner.microsoft.com/membership/partner-incentives) (bejelentkezés szükséges).
+>További információ az ösztönzőkről és az ösztönző funkciókról a Partnerközpont: [Partnerbefektetések és](https://partner.microsoft.com/membership/partner-incentives) ösztönzők (bejelentkezés szükséges).
 
-## <a name="access-the-incentives-overview-page"></a>Az ösztönzők áttekintése oldal elérése
+## <a name="access-the-incentives-overview-page"></a>Az ösztönzők áttekintő oldalának elérése
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
-1. Válassza az **ösztönzők**, majd az **Áttekintés** lehetőséget a menüből.
-1. A bevételek és kifizetések összegzése az oldal tetején, a további részletek pedig az alatta lévő táblázatban tekinthetők meg. A csatolt táblázatot is rendezheti, csoportosíthatja és kiterjesztheti:
+1. Válassza **az Ösztönzők,** majd **az Áttekintés lehetőséget** a menüből.
+1. A bevételek és kifizetések összegzése az oldal tetején, a további részletek pedig az alatta lévő táblázatban tekinthetők meg. A kapcsolódó táblázatot rendezheti, csoportosíthatja és kibonthatja:
 
-   - Az oszlop szerinti rendezéshez válassza ki az oszlop nevét.
-   - A program szerinti csoportosításhoz válassza a tábla fölötti **program** fület.
-   - A hely szerinti csoportosításhoz válassza a tábla fölötti **hely** fület.
-   - Egy adott csoporton belüli beléptetések részleteinek megtekintéséhez válassza ki a Chevron szimbólumot az adott sor végén. Ez a Chevron kibővíti a nézetet.
+   - Az oszlop alapján való rendezéshez válassza ki az oszlop nevét.
+   - A program szerint való csoportosításhoz válassza a **táblázat fölötti Program** szerint lapot.
+   - A hely alapján való csoportosításhoz válassza a **táblázat fölötti Hely** szerint lapot.
+   - Egy adott csoporton belüli regisztrációk további részleteinek megtekintéséhez válassza a sávnyíl szimbólumot egy adott sor végén. Ez a sávnyíl kibontja a nézetet.
 1. Ha további művelet szükséges a programban történő regisztráláshoz, akkor ez az információ az **Állapot** oszlopban jelenik meg. Ebben az esetben kattintson a sávnyíl szimbólumra a szükséges lépések megtekintéséhez.
 
 ## <a name="enrollment-status"></a>A regisztráció állapota
 
-Az alábbi táblázat az **állapot** oszlopban látható különböző beléptetési állapotokat ismerteti.
+Az alábbi táblázat az Állapot oszlopban látható különböző regisztrációs **állapotokat ismerteti.**
 
 | **Állapot**         | **Akkor jelenik meg, ha** |
 |:------------------------------------|:------------------|
-| Szükséges beavatkozás  | A partner elfogadta a beléptetési meghívást egy ösztönző programban, de előfordulhat, hogy frissítenie kell a banki vagy adózási adatokat. Tekintse meg a **szükséges műveletek** oszlopot a következő lépésekhez, illetve a banki vagy adózási információk a partner Centerben való frissítéséhez kapcsolódó hivatkozásokat. |
-| Megszűnt  | Az ösztönző rendszer már nem kínálja fel a konkrét ösztönző programot. |
-| Regisztrálva  | Az összes adózási és banki információ ellenőrzése megtörtént. A partner nem igényel további regisztrációs műveletet. |
-| Regisztráció  | A felhasználó nem ösztönző rendszergazda, és a regisztráció a **szükséges művelet** vagy a **beléptetési** állapotok ellenőrzése folyamatban van.|
-| Inaktív/nem jogosult | Előfordulhat, hogy az ösztönző program jelenleg nem nyílik meg a regisztrációhoz, vagy a partner nem felel meg a beléptetésre vagy az újbóli regisztrációra vonatkozó jelenlegi jogosultságnak. <br><br> Ha az állapot nem **jogosult**, akkor a partner nem felel meg a programra vonatkozó jelenlegi jogosultsági követelményeknek; a regisztráció állapota alatt **látható támogathatósági követelmények hivatkozásra kattintva megtekintheti** a jogosultsági követelményeket, valamint a követelmények teljesülését. <br><br> Előfordulhat, **hogy a virtuális** szervezet (VORG) vagy a partner globális fiók (PGA) regisztrációjának inaktív állapota is megjelenhet, amelyek már nem aktívak az ösztönző programban.  |
-| Meghívott  | A rendszer elküldte az új ösztönző program beléptetési meghívását a partnernek, de a partner még nem indította el a beléptetési folyamatot. A szomszédos, **szükséges műveletek** oszlop a következő lépéseket és a kapcsolódó hivatkozásokat jeleníti meg.  |
-| Regisztráció ellenőrzése  | A partner már befejezte vagy frissítette a banki és adózási adatokat egy új vagy meglévő regisztrációhoz, és arra vár, hogy a Microsoft érvényesítse ezeket az információkat. Az érvényesítési folyamat során a **beléptetés ellenőrzése** akár 48 óráig is megjelenhet.  |
+| Szükséges beavatkozás  | A partner elfogadta az ösztönzőprogramba való regisztrációra vonatkozó meghívót, de előfordulhat, hogy frissítenie kell a banki vagy adóinformációkat. A következő **lépésekért** vagy hivatkozásokért tekintse meg a Műveletek szükséges oszlopot a banki vagy adóinformációk frissítéséhez a Partnerközpont. |
+| Megszűnt  | Az adott ösztönzőprogram már nem érhető el az ösztönzőrendszerben. |
+| Regisztrálva  | Az összes adó- és banki adat ellenőrizve lett. A partnernek nincs szüksége további regisztrációs műveletre. |
+| Regisztráció  | A felhasználó nem ösztönző-rendszergazda, és a  regisztráció a Szükséges művelet vagy **a beléptetési államok érvényességének érvényesítésében** van.|
+| Inaktív /nem alkalmas | Előfordulhat, hogy az ösztönzőprogram jelenleg nincs megnyitva a regisztrációhoz, vagy a partner nem felel meg az aktuális regisztrációs vagy újraregisztrációs jogosultságnak. <br><br> Ha az állapot **Nem alkalmazható,** akkor a partner nem felel meg a program jelenlegi jogosultsági követelményeinek; A regisztrációs állapot alatt található **Jogosultsági** követelmények megtekintése hivatkozásra kattintva láthatja a jogosultsági követelményeket és a követelmények közül melyik teljesült. <br><br> Az ösztönzőprogramban  már nem aktív virtuális szervezeti (VORG) vagy partner globális fiók (PGA) regisztrációk inaktív állapotát is láthatja.  |
+| Meghívott  | Új ösztönzőprogram-regisztrációs meghívó lett elküldve a partnernek, de a partner még nem indította el a regisztrációs folyamatot. Az Actions required **(Műveletek szükségesek)** oszlopban a következő lépések és a kapcsolódó hivatkozások megjelenik.  |
+| Regisztráció érvényességének igénylése  | A partner már kitöltötte vagy frissítette egy új vagy meglévő regisztráció banki és adóinformációját, és arra vár, hogy a Microsoft érvényesítse ezt az információt. Az ellenőrzési folyamat **során** a regisztráció ellenőrzése akár 48 óráig is megjelenhet.  |
 
-## <a name="see-your-payment-information"></a>Tekintse meg a fizetési adatokat
+## <a name="see-your-payment-information"></a>Fizetési adatok
 
-A különböző összefoglalók eléréséhez válassza a képernyő jobb felső sarkában található kifizetés ikont:
+Válassza a képernyő jobb felső sarkában található kifizetési ikont a különböző összegzések eléréséhez:
 
-- Tranzakciók előzményei
+- Tranzakcióelőzmények
 - Kifizetések
 - Adatok exportálása
 
-:::image type="content" source="images/payouts/payout-overview.png" alt-text="A partner Center portál jobb felső sarkában látható kifizetési ikon ábrázolása":::
+:::image type="content" source="images/payouts/payout-overview.png" alt-text="A kifizetés ikont mutatja be a Partnerközpont jobb felső sarkában":::
 
 Ez az információ az ösztönző teljes bevételeit és kifizetéseit tartalmazza az ösztönző programokba történő regisztrálás óta. Ezen a lapon a bevételeket és a kifizetéseket hely vagy program alapján rendezve is megtekintheti, emellett minden további műveletet láthat, amelyre egy adott helyen lévő programban való regisztrációhoz szüksége lehet. 
 
-A [partneri kifizetési API](https://apidocs.microsoft.com/services/partnerpayouts) -val a kifizetési tranzakciók és a fizetési műveletek közvetlen összekapcsolására és beszerzésére is lehetősége van. További információért lásd a [kifizetési utasítások](payout-statement.md) című témakört.
+A Partner [Payout API-val](https://apidocs.microsoft.com/services/partnerpayouts) közvetlenül is csatlakozhat a kifizetési tranzakciókhoz és a fizetési adatokhoz, és beszerezheti őket. További [információ: Kifizetési](payout-statement.md) kimutatások.
 
 ## <a name="next-steps"></a>Következő lépések
 

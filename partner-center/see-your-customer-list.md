@@ -9,23 +9,18 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1791d415d0004520e8c7dc950decf540c91cf003
-ms.sourcegitcommit: 26e6b470756aa9c1b3b0b919301b0eb38a335a52
+ms.openlocfilehash: 6e73aa98e0cfaf82521a5fe63e34ebf0b44363fb
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "108002841"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854502"
 ---
 # <a name="manage-your-customer-list---search-update-or-export-customers-in-partner-center"></a>Ügyféllista kezelése – ügyfelek keresése, frissítése vagy exportálása a Partnerközpont
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
-
-**Megfelelő szerepkörök**
-
-- Rendszergazdai ügynök
-- Globális rendszergazda
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazda
 
 Az ügyfélrekordok az egyik legfontosabb információs eszköz a Partnerközpont. Kereshet az ügyfélfiókok adatbázisában, exportálhatja a teljes ügyféladatbázist, vagy exportálhat egy részkészletet egy Excel-kompatibilis, vesszővel elválasztott értékfájlformátumba (.csv). Az ügyfelek előfizetési adatait .csv-fájlba is exportálhatja.
 
@@ -35,13 +30,13 @@ A tevékenységnaplók exportálható adatokat is biztosítanak az ügyfelek tra
 
 1. A **Partnerközpont** válassza az Ügyfelek **lehetőséget.**
 2. Az ügyfél kereséséhez írja be az ügyfél nevét vagy tartománynevét a keresőmezőbe.
-3. Az **ügyfélsor végén** található lefelé mutató nyílra kattintva láthatja a Microsoft-azonosítóját, valamint a társított előfizetések és szolgáltatások gyorshivatkozását.
+3. Az **ügyfélsor végén** található lefelé mutató nyílra kattintva láthatja a Microsoft-azonosítóját, valamint a kapcsolódó előfizetések és szolgáltatások gyorshivatkozását.
 
 ## <a name="update-a-customers-company-name"></a>Ügyfél cégnevének frissítése
 
 A **Partnerközpont** válassza az Ügyfelek **lehetőséget.**
 2. Az ügyfél kereséséhez írja be az ügyfél nevét vagy tartománynevét a keresőmezőbe.
-3. Az **ügyfélsor végén** található lefelé mutató nyílra kattintva láthatja a Microsoft-azonosítóját, valamint a kapcsolódó előfizetések és szolgáltatások gyorshivatkozását.
+3. Az **ügyfélsor végén** található lefelé mutató nyílra kattintva láthatja a Microsoft-azonosítóját, valamint a társított előfizetések és szolgáltatások gyorshivatkozását.
 4. Az ügyfél számlázási **adatai** alatt frissítse a vállalat nevét. Az új érték mentésekor az megjelenik az ügyféllistában. Ez csak a számlázási vállalat nevét és az ügyféllista értékét módosítja. Máshol nem fog tükröződni.
 
 ## <a name="export-your-customer-list"></a>Ügyféllista exportálása

@@ -1,75 +1,70 @@
 ---
-title: A partneri központ bepillantást nyerhet a csapatok használati jelentésére
+title: Partnerközpont – csoportok használati jelentése
 ms.topic: article
 ms.date: 01/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, mit csinál jól, és hol javíthatja az ügyfelek számára eladott vagy kezelt Teams-előfizetések használatát.
+description: Itt láthatja, hogy mit csinál jól, és hol javíthatja az ön által az ügyfelek számára értékesít vagy felügyelni képes Teams-előfizetések használatát.
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 2292e9640224a2bdf333cb8ddb0e2245f34564e9
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: c4bf8a3aa0365b30d7de56cb599e3db087cb4c05
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086719"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855182"
 ---
-# <a name="teams-usage-report-available-from-the-partner-center-insights-dashboard"></a>A Teams használati jelentése a partner Center-adatok irányítópultján érhető el
+# <a name="teams-usage-report-available-from-the-partner-center-insights-dashboard"></a>A Teams használati jelentése a Partnerközpont Insights irányítópultról érhető el
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Jelentés megjelenítője
-- Executive Report Viewer
-
-A Teams használati jelentés az Ön ügyfelei számára eladott vagy kezelt csapatok munkaterheléséhez kapcsolódó mérőszámokat jeleníti meg. A következő szakaszt a csapatok használati jelentésében tekintheti meg.
+A Teams használati jelentése az ügyfelek számára értékesített vagy kezelt Teams-számítási feladatokhoz kapcsolódó metrikákat mutatja be. Az alábbi szakaszokat a Teams használati jelentésében lehet megtekinteni.
 
 - Összefoglalás
 - Beszélgetések trendje
-- Csoportok használata munkaterhelések szerint
-- Legnépszerűbb ügyfelek használat szerint
+- Teams-használat számítási feladatok szerint
+- Legnépszerűbb ügyfelek használat alapján
 
  > [!NOTE]
- > Ez a jelentés az áttekintések irányítópultján érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a partner Centerben, például a globális rendszergazda, a fiók rendszergazdája, a jelentéskészítő vagy a Executive Report Viewer. További információ: a vállalat globális rendszergazdája. a jelentésben megadott adattípusok csak a Executive Report Viewer jogosultságokkal rendelkező felhasználók számára is elérhetők.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információkért lásd a vállalat globális rendszergazdáját. Előfordulhat, hogy a jelentésben szereplő konkrét adattípusok csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők.
 
 ## <a name="summary"></a>Összefoglalás
 
-Az összefoglalás szakasz egy pillanatkép-nézetet jelenít meg az ügyfelek számára eladott vagy az Ön által felügyelt munkaterhelésekhez kapcsolódó kulcsfontosságú mutatókról.  
+Az összefoglaló szakasz az ön által az ügyfelek számára értékesített vagy kezelt Teams-tevékenységekkel kapcsolatos fő mutatók pillanatképnézetét mutatja be.  
 
-- Ügyfelek: eltérő számú ügyfél, akik munkaterhelésként használják a csapatokat a kiválasztott időtartamra.
+- Ügyfelek: A Teamset számítási feladatként használó ügyfelek eltérő száma a kiválasztott időtartamra.
 
-- Értekezletek száma: az ügyfelek által lebonyolított csapatok üléseinek száma.
+- Értekezletek száma: Az ügyfelek által tartott Teams-értekezletek száma.
 
-- Napi átlagos értekezletek száma ügyfél szerint: napi átlagos értekezletek száma felhasználónként. 
+- Ügyfelek napi átlagos értekezletszáma: Az ügyfelek napi átlagos értekezletszáma. 
 
-- Értekezlet időtartama (óra): az értekezlet teljes időtartama órában. 
+- Értekezlet időtartama (óra): Az értekezlet teljes időtartama órákban. 
 
-- Értekezlet átlagos időtartama (perc): átlagos értekezlet időtartama (perc). 
+- Értekezletek átlagos időtartama (perc): Az értekezletek átlagos időtartama percben. 
 
-:::image type="content" source="images/pci/pci-teams-usage-summary.png" alt-text="Csapatok használatának összegzése":::
+:::image type="content" source="images/pci/pci-teams-usage-summary.png" alt-text="A Teams használatának összegzése":::
 
 ## <a name="conversations-trend"></a>Beszélgetések trendje
 
-A beszélgetések trend jelentés a csapatok üléseinek, hívásának és telefonos rendszereinek havi trendjét mutatja, valamint az átlagos értekezlet időtartamát percben.
+A Beszélgetések trendjelentés a Teams-értekezletek, -hívások és telefonos rendszerek havi trendjét, valamint az értekezletek átlagos időtartamát jeleníti meg percekben.
 
-:::image type="content" source="images/pci/pci-teams-usage-conversation-trends.png" alt-text="csapatok használati beszélgetések trendjei":::
+:::image type="content" source="images/pci/pci-teams-usage-conversation-trends.png" alt-text="csoportok használati beszélgetési trendjei":::
 
-## <a name="teams-usage-by-workloads"></a>Csoportok használata munkaterhelések szerint
+## <a name="teams-usage-by-workloads"></a>Csapatok használata számítási feladatok szerint
 
-A Teams munkaterhelések jelentése szerint a munkaterhelések alapján a csapatok az asztali, mobil és webes felhasználók havi felosztását jelenítik meg.
+A Teams-használat számítási feladatok szerint jelentés a Teams asztali, mobil- és webes felhasználóinak havi felosztását jeleníti meg számítási feladatok szerint.
 
-:::image type="content" source="images/pci/pci-teams-usage-workload.png" alt-text="Csoportok használata munkaterhelések szerint":::
+:::image type="content" source="images/pci/pci-teams-usage-workload.png" alt-text="Csapatok használata számítási feladatok szerint":::
 
-## <a name="top-customers-by-usage"></a>Legnépszerűbb ügyfelek használat szerint
+## <a name="top-customers-by-usage"></a>Legnépszerűbb ügyfelek használat alapján
 
-A Top Customers by használati jelentés a csapatok üléseinek, hívásoknak és telefonos rendszereknek, illetve harmadik féltől származó alkalmazásoknak a legnépszerűbb ügyfeleinek használatát mutatja be.
+A Top customers by usage (Legnépszerűbb ügyfelek használati adatok alapján) jelentés a legjobb ügyfelek használatát mutatja be Teams-értekezletekhez, hívásokhoz, telefonos rendszerekhez és külső alkalmazásokhoz.
 
-:::image type="content" source="images/pci/pci-teams-usage-top-customer.png" alt-text="Legnépszerűbb ügyfelek használat szerint":::
+:::image type="content" source="images/pci/pci-teams-usage-top-customer.png" alt-text="Legnépszerűbb ügyfelek használat alapján":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-- További jelentések: [partner Center](partner-center-insights.md)-információk.
+- További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
 
-- A jelentést az elemzések irányítópultjának letöltési jelentések részéből töltheti le. [További információ](pci-download-reports.md) 
+- A jelentést betöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 

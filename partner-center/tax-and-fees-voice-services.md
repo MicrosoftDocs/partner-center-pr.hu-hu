@@ -1,56 +1,52 @@
 ---
-title: Regionális PSTN-szolgáltatási adók és díjak
-description: Olyan Office 365-partnerként, aki Microsoft 365 hanganyagokat dolgoz fel, a PSTN-szolgáltatásokra vonatkozó regionális adók, díjak vagy szabályozási követelmények vonatkozhatnak rájuk.
+title: Regionális PSTN szolgáltatási adók és díjak
+description: Ha Office 365-partnerként Microsoft 365 Voice-termékeket, a PSTN-szolgáltatásokra vonatkozó regionális adó-, díj- vagy szabályozási követelmények vonatkozhatnak Rá.
 ms.topic: article
 ms.date: 09/10/2020
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 411932923e6bd35732e64521abe567f40f7499e9
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 80cb5503323f483c13c983375559baf70f9d0b6f
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441489"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854723"
 ---
-# <a name="regional-taxes-regulations-for-public-switched-telephone-network-ptsn-services"></a>Regionális adók, nyilvános kapcsolású telefonos hálózati (PTSN) szolgáltatások szabályai
+# <a name="regional-taxes-regulations-for-public-switched-telephone-network-ptsn-services"></a>Regionális adók, a nyilvános telefonhálózat (PTSN) szolgáltatásaira vonatkozó szabályozások
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználói rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felhasználói rendszergazda
-- Felügyeleti ügynök
-
-Bizonyos illetékességi területeken a nyilvános kapcsolású telefonos hálózati (PSTN) szolgáltatások olyan speciális adózási és szabályozási követelmények alá esnek, amelyek befolyásolhatják a partnerek sorrendjét és a számlázást. A Egyesült Államok, beleértve a Puerto Rico-t, a PSTN-szolgáltatásokat, például a hangkonferenciákat, a Meghívási terveket és a kommunikációs krediteket, a speciális adózási és szabályozási követelmények hatálya alá esnek. A Egyesült Államok és a Puerto Rico-ban a Microsoft a PSTN-szolgáltatásokat ÁFA-ként számítja fel.  Az egyedi PSTN-adók és-szabályozások hatással vannak az Office 365-partnerek által Microsoft 365 hangalapú termékekre.  Ha egy partner egy Microsoft PSTN-szolgáltatás árát jelzi, akkor a PSTN-adók és-díjak kiszámításához és az azokhoz való átutaláshoz felelősek lehetnek.
+Egyes joghatóságok nyilvános telefonhálózati (PSTN) szolgáltatásaira speciális adózási és szabályozási követelmények vonatkozhatnak, amelyek befolyásolhatják a partnerrendelést és a számlázást. A Egyesült Államok, beleértve a AudioConferencinget, a hívási csomagokat és a kommunikációs krediteket is magában foglaló PsTN-szolgáltatásokat, speciális adózási és szabályozási követelmények vonatkoznak rá. A Egyesült Államok És a Microsoft a PSTN-szolgáltatásokat adóval integráltként áraz.  Az egyedi PSTN-adók és -szabályozások hatással lesznek az Office 365-partnerekre, akik hangalapú Microsoft 365 tranzakciót.  Ha egy partner egy Microsoft PSTN-szolgáltatás árát jelöli meg, akkor az ő felelőssége lehet a PSTN-adók és -díjak kiszámítása és átutalása.
 
 ## <a name="partner-recommendations"></a>Partneri javaslatok
 
-Az adó-és jogi tanácsadással tisztában lehet azzal, hogy a szervezet felelőssége a PSTN-szolgáltatások szabályozására, az adókra és a díjakra, valamint az egyéb lehetséges kötelezettségekre vonatkozik.
+Lépjen kapcsolatba adó- és jogi tanácsadói szolgálatával, hogy átlássa a szervezet a PSTN-szolgáltatások szabályozásával, adókkal és díjakkal kapcsolatos felelősségét, valamint az egyéb lehetséges problémákat.
 
-## <a name="invoice-presentation-and-partner-reconciliation-file"></a>Számla bemutatási és partneri egyeztetési fájlja
+## <a name="invoice-presentation-and-partner-reconciliation-file"></a>Számla bemutatása és partner egyeztetési fájlja
 
-A CSP-számlák és a CSP-egyeztetési fájlok a Egyesült Államokban, Puerto Ricoban és Kanadában, beleértve a Skype for Business PSTN-t és a Microsoft 365 hangszolgáltatásokat, külön vonalakat biztosítanak a PSTN-és a nem PSTN-összetevőkhöz.
+A CsP-számlák és a CSP egyeztetési fájljai a Egyesült Államok, a Címtár Címtárban és Kanadában, amelyek tartalmazzák a Skype Vállalati verzió PSTN-ját és a Microsoft 365 Voice-szolgáltatásokat, külön sorelemeket biztosítanak a PSTN és a nem PSTN összetevők számára.
 
-A CSP-számlák emellett a következő lábjegyzetet is megjelenítik:
+Emellett a CSP-számlák a következő lábjegyzetet jelenítik meg:
 
-* A megjelenő díj a hangkonferencia díja, és a meghívott csomag szolgáltatásai.  A kapcsolódó tranzakciós adókat kizárólag a Egyesült Államokon belüli értékesítések után számítjuk fel.  Az USA-ban a megjelenő ár az adó, mivel a meghívót és a hangkonferencia-szolgáltatásokat is felszámítja, valamint a díjköteles adókat és díjakat.  A hangkonferencia és a Calling Plan Services szolgáltatást a Microsoft affiliate biztosítja.  A részleteket a [Microsoft mennyiségi licencelése](https://go.microsoft.com/fwlink/?LinkId=690247) című témakörben találja.
+* A megjelenő ár a hangkonferencia és a hívó csomagszolgáltatások díjának számítható fel.  A vonatkozó tranzakciós adókat kizárólag a feltüntetett összeg alapján számoljuk fel, kivéve a Egyesült Államok.  Az Egyesült Államokban a megjelenített ár az adót is magában foglalja, mivel tartalmazza a hívó csomag és az audiokonferencia szolgáltatás díját, valamint a díjakat és díjakat.  Az audiokonferencia és a hívási csomag szolgáltatásainak kiszolgálását a Microsoft társvállalata biztosítja.  A részleteket a [Microsoft mennyiségi licencelése](https://go.microsoft.com/fwlink/?LinkId=690247) című témakörben találja.
 
-## <a name="reconciliation-file-example"></a>Példa egyeztetési fájlra
+## <a name="reconciliation-file-example"></a>Egyeztetési fájl – példa
 
-Az Office 365 Enterprise E5 az egyeztetési fájlban két, azonos nevű és azonos azonosítóval rendelkező sort jelenít meg, de minden egyes sorban egyedi egységár szerepel (például: $28,40 és $2,00). Ez elválasztja az Office 365-ajánlat Skype for Business PSTN-konferenciájának összetevőjét, így az adókat is megfelelően alkalmazhatja.
+Az Office 365 Nagyvállalati E5 verzió két sorelemként mutatja be az egyeztetési fájlt azonos névvel és azonos azonosítóval, de minden sorelem egyedi egységárral rendelkezik (például: 28,40 usd és 2,00 USD). Ez elkülöníti az Office 365-ajánlat Skype Vállalati verzió PSTN-konferencia összetevőjét, így megfelelően alkalmazhatja az adókat.
 
-**Partneri egyeztetési példa #1 (oszlopok kiválasztása):**
+**Partneregyeztetési példa #1 (oszlopok kiválasztása):**
 
 |**Durable_offer_ID**|**Offer_Name**|**Subscription_Start_Date**|**Subscription_End_Date**|**Charge_Start_Date**|**Charge_End_Date**|**Charge_Type**|**Unit_Price**|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|a044b16a-1861-4308-8086 – a3a3b506fac2   |Office 365 Enterprise E5 csomag   |8/10/2019 0:00   |8/11/2019 0:00   |8/11/2019 0:00|9/10/2019 0:00   |Ciklus díja   |28,40   |
-|a044b16a-1861-4308-8086 – a3a3b506fac2   |Office 365 Enterprise E5 csomag   |8/10/2019 0:00   |8/11/2019 0:00   |8/11/2019 0:00   |9/10/2019 0:00   |Ciklus díja   |2.00   |
+|a044b16a-1861-4308-8086-a3a3b506fac2   |Office 365 Enterprise E5 csomag   |8/10/2019 0:00   |8/11/2019 0:00   |8/11/2019 0:00|9/10/2019 0:00   |Ciklus díja   |28,40   |
+|a044b16a-1861-4308-8086-a3a3b506fac2   |Office 365 Enterprise E5 csomag   |8/10/2019 0:00   |8/11/2019 0:00   |8/11/2019 0:00   |9/10/2019 0:00   |Ciklus díja   |2.00   |
 
-**Partneri egyeztetési példa #2**
+**Partner egyeztetési példa #2**
 
-A Kanadában elérhető Microsoft 365 Vállalati verzió-hang további PSTN-alapú adóköteles összetevőket tartalmaz, amelyek konszolidálva vannak a CSP-számlán (az Office 365 E5-hez hasonlóan, két sor elem jelenik meg, egyet a PSTN-összetevőkhöz, a másikat a nem PSTN-összetevőkhöz).  Microsoft 365 Vállalati verzió hanghoz tartozó CSP-egyeztetési fájl megjeleníti az összes PSTN-beli adóköteles összetevőt egyenként (az egyéni PSTN-összetevőket nem fogja összevonni a alkalmazásban. CSV vagy API-eszköz).  Az egyeztetési fájlban talált ügyfelekhez tartozó rendelési részletek és számlázott összegek összegzése megegyezik a CSP-számlával.
+Microsoft 365 Kanadában elérhető business Voice további, a PSTN-hez kapcsolódó, a CSP-számlán összevont összetevőket tartalmaz (az Office 365 E5-höz hasonlóan két sorelemet mutat be, egyet a PSTN-összetevőkhöz, egyet pedig a nem PSTN-összetevőkhöz).  A Microsoft 365 Business Voice CSP egyeztetési fájlja egyenként megjeleníti az összes PSTN-hez használható összetevőt (az egyes PSTN-összetevők nem lesznek egyesülve a-ban. CSV vagy API-eszköz).  Az egyeztetési fájlban található ügyfelek megrendelési részleteinek és számlázott összegének összege megegyezik a CSP-számlával.
 
 ## <a name="additional-resources"></a>További források
-További részletekért látogasson el a [Microsoft 365 for Partners](https://www.microsoft.com/microsoft-365/partners/) webhelyre.
+További részletekért látogasson el a [partnereknek Microsoft 365 webhelyére.](https://www.microsoft.com/microsoft-365/partners/)
 

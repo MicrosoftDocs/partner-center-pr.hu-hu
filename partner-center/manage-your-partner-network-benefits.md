@@ -1,177 +1,190 @@
 ---
-title: Microsoft Partner Network előnyök kezelése
+title: A Microsoft Partner Network kezelése
 ms.topic: how-to
 ms.date: 10/21/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Csatlakozzon a Microsoft Partner Network (MPN), és használja a partner centert a tagsági előnyök és ajánlatok kezeléséhez, amelyek segíthetnek a vállalat növekedésében.
+description: Csatlakozzon a Microsoft Partner Network (MPN) alkalmazáshoz, és Partnerközpont segítségével kezelheti a tagsági előnyöket és ajánlatokat, amelyek segíthetnek a vállalkozása növekedésében.
 author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8fc5566b780c10a953cfb322ad13ce7373dc87cd
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: f53661918508271901c6403e8270105c06d4246a
+ms.sourcegitcommit: dc9438475ccc6298bec6a698bf5fc9bd5cf2aa81
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106133097"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109818762"
 ---
-# <a name="manage-your-microsoft-partner-network-membership-benefits-and-offers-in-partner-center"></a>A Microsoft Partner Network tagsági előnyeinek és ajánlatának kezelése a partner Centerben
+# <a name="manage-your-microsoft-partner-network-membership-benefits-and-offers-in-partner-center"></a>Kezelheti a Microsoft Partner Network előnyeit és ajánlatát a Partnerközpont
 
 **Megfelelő szerepkörök**
 
 - Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- MPN-partner rendszergazdája
+- Felhasználókezelő rendszergazda
+- Rendszergazdai ügynök
+- MPN-partneri rendszergazda
 
 >[!IMPORTANT]
->Ez a cikk azt ismerteti, hogyan kezdheti el a Microsoft Partner Network (MPN) tagsági előnyeit a partner központban – ezen a helyen. Ha nem kapott meghívót a vállalati adatok partneri tagsági központból (PMC) a partner központba való áthelyezésére, akkor továbbra is kezelni kell az MPN tagsági előnyeit a PMC-ben. [Jelentkezzen be](https://partner.microsoft.com/_login?authType=OpenIdConnect) a PMC-ba most.
+>Ez a cikk azt ismerteti, hogyan kezdheti el használni a Microsoft Partner Network (MPN) tagsági előnyeit a Partnerközpont – ezen a webhelyen. Ha nem kapott meghívót a vállalati adatoknak a Partner Membership Center (PMC) rendszerből a Partnerközpont-be való áthelyezésére, továbbra is kezelnie kell az MPN-tagság előnyeit a PMC-ban. [Jelentkezzen be a](https://partner.microsoft.com/_login?authType=OpenIdConnect) PMC-be.
 
-Amikor csatlakozik a Microsoft Partner Network (MPN), elérheti a tagsági kedvezményeket, amelyek segíthetnek a vállalat létrehozásában és növelésében. Ha még nem tagja az MPN-nek, csatlakozhat [az MPN-helyhez](https://partner.microsoft.com/membership).
+Amikor csatlakozik a Microsoft Partner Network (MPN) szolgáltatáshoz, olyan tagsági előnyöket kaphat, amelyek segíthetnek a vállalkozása építésében és növekedésében. Ha még nem tagja az MPN-nek, csatlakozhat az [MPN-webhelyhez.](https://partner.microsoft.com/membership)
 
-## <a name="manage-your-membership-benefits-in-the-partner-center"></a>Tagsági előnyök kezelése a partner Centerben
+## <a name="manage-your-membership-benefits-in-the-partner-center"></a>A tagsági előnyök kezelése a Partnerközpont
 
-A tagsági juttatási csomag megvásárlása után meg kell kapnia a szoftver kulcsait, és hozzá kell rendelnie a licenceket, előfizetéseket és egyéb előnyöket az alkalmazottaknak a használat megkezdéséhez.
-
->[!IMPORTANT]
->Noha nem kell globális rendszergazdának lennie a cégnél az előnyök megvásárlásához, a globális rendszergazdának kell lennie ahhoz, hogy előnyöket rendeljen az alkalmazottakhoz. Ha szükséges, globális rendszergazdaként az [ **előnyök** oldalon](https://partnercenter.microsoft.com/pcv/partnership/benefits) található utasításokat követve (bejelentkezés szükséges). Előfordulhat, hogy a vállalata már rendelkezik globális rendszergazdai jogosultságokkal, ezért mindenképpen ellenőrizze a csapatát.
-
-A juttatási csomagok közé tartozik a licencelt szoftverek, a Cloud Services, a Visual Studio-előfizetések és a technikai támogatás kiosztása. Az ellátások csomagjai tartalmazhatnak bizonyos piacra jutási erőforrásokat, ajánlatokat és a piactal kapcsolatos programokat is. Action Pack-előfizetés részleteit a [Microsoft Partner Network](https://partner.microsoft.com/membership/internal-use-software) webhelyen érheti el.  
-
-Az összes tagsági kedvezmény megtekintéséhez és kezeléséhez lépjen az [ **előnyök** oldalra](https://partnercenter.microsoft.com/pcv/partnership/benefits) (bejelentkezés szükséges). Másik lehetőségként bejelentkezhet a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), és a bal oldali menüben válassza az [**előnyök lehetőség**] lehetőséget, majd válassza ki a megjelenített előnyöket.  
-
-A legtöbb előny aktiválásához vagy a kapcsolódó szoftverek letöltéséhez a partner Center általában a globális rendszergazda vagy az MPN-partner rendszergazdája szerepkört rendeli hozzá. Ha nem látja az előnyöket, vagy nem tudja aktiválni az előnyöket, forduljon a partner Center globális rendszergazdájához, és győződjön meg arról, hogy rendelkezik a megfelelő engedélyekkel. [További információ a partner Center szerepköreiről](permissions-overview.md).
-
-## <a name="manage-software-benefits"></a>A szoftverek előnyeinek kezelése
-
-1. Válassza a **szoftver** lehetőséget a szoftveres előnyök listájának megtekintéséhez.
-
-2. Keresse meg a használni kívánt terméket, majd kattintson a sor jobb szélén lévő lefelé mutató nyílra a termék részleteinek kibontásához.
-
-3. Minden olyan szoftvertermék esetében, amelyet a következővel szeretne kezdeni:
-
-   a. Válassza a **kulcsok beolvasása** lehetőséget a termék-licenckulcs megjelenítéséhez. Ügyeljen rá, hogy kövesse a felsorolt speciális utasításokat.
-
-   b. Válassza ki azt a nyelvet, amelyen a terméket meg szeretné jeleníteni.
-
-   c. Válassza ki azon számítógépek operációs rendszerének (OS) típusát, amelyekre telepíteni kívánja a szoftvert.
-
-   d. A szoftvertelepítési csomagok letöltéséhez és telepítéséhez kövesse a hivatkozásokat.
-
-## <a name="azure-and-cloud-products"></a>Azure-és felhőalapú termékek
-
-Az **azure & Cloud Products (felhőalapú termékek** ) lapon a használaton alapuló előfizetések (Azure-kreditek) és az Ön által kiépített licenc-alapú előfizetések (például az Office 365) láthatók, az egyes termékekhez tartozó licencek mennyisége, a termékre kiépített ajánlat típusa, a juttatás típusa (függetlenül attól, hogy a mag, vagy a növekményes
-
-:::image type="content" source="images/benefits/azuretab.png" alt-text="Az Azure és a Cloud Products lap":::
-
-### <a name="usage-based-subscriptions---microsoft-azure-credit"></a>Használati alapú előfizetések – Microsoft Azure kredit
-
-Kétféle, a használattal kapcsolatos előfizetést kaphat, attól függően, hogy milyen típusú ajánlattal rendelkezik MPN-partnerként – MAPS, Silver és/vagy Gold – havi kredit vagy tömeges kredit.
-
-Az alábbiakkal lehet kiépíteni:
-
-- $100/hónap (vagy azzal egyenértékű a helyi pénznemben) Azure havi kredit vagy/és
-- $6 000, $12 000 vagy/és $13000/év (vagy mindegyik egyenértékű a helyi pénznemben) Azure bulk Credit
-
-Ha Microsoft Azure-előfizetést szeretne aktiválni a partner Centerben, rendeljen hozzá hozzáférést a vállalaton belüli felhasználóhoz (beleértve a vendég felhasználókat), amelyhez a Azure Active Directory létrehozott felhasználói bejegyzés tartozik.
-A $100/month (vagy azzal egyenértékű helyi pénznemben) Azure havi kreditek esetében bármikor hozzáadhat vagy eltávolíthat felhasználókat ebből az előfizetésből. 
-
-Az Azure bulk (éves) kreditek esetében az eltávolítási lehetőség nem érhető el a partner Centerben, de a regisztrálási év során átviheti a tömeges jóváírást másnak. Az Azure bulk (éves) kredit-előfizetés nem kombinálható más licencelési, előre fizetett vagy jóváírási ajánlatokkal (azaz Microsoft Nagyvállalati Szerződés, felhőalapú megoldási partner, Azure in Open licencprogram, Azure Pass, Action Pack stb.).
-
-## <a name="license-based-subscriptions"></a>Licenc alapú előfizetések
-
-Az Azure & Cloud Products lap licenc-alapú előfizetések szakasza felsorolja az összes olyan felhőalapú terméket, amely az aktiváláshoz szükséges termékkulcsot igényel, például Microsoft Office 365, a Microsoft Dynamics, a Microsoft Intune, az Azure AD alapszintű és a Power BI. Az MPN-partnerként aktív ajánlat típusa – MAPS, Silver vagy Gold – szabályozza, hogy mely termékek vannak felsorolva.
-
-A licenc alapú előfizetések aktiválásához kattintson a legördülő listára, amely az érintett termékkel összhangban található, és olvassa el a kulcsok beváltására vonatkozó utasításokat. Ha elolvasta az utasításokat, válassza ki azt a hivatkozást, amely átirányítja a portálra a kulcsok és a termékhez rendelt kulcs beváltásához.
+Miután megvásárolta a tagsági juttatás csomagját, szoftverkulcsokat kell szereznie, valamint licenceket, előfizetéseket és egyéb előnyöket kell hozzárendelni az alkalmazottakhoz a használatuk elkezdése érdekében.
 
 >[!IMPORTANT]
->Vegye figyelembe, hogy a kulcs beváltását követően ugyanazt a kulcsot nem lehet Másodszor beváltani, ezért ügyeljen arra, hogy ha további licenceket kell hozzáadnia, vagy a befejezési dátumot kell kiterjesztenie. Ha úgy dönt, hogy további licenceket ad hozzá, és nem terjeszti ki a befejezési dátumot, a rendszer kevesebb, mint 12 hónapig aktív előfizetést fog biztosítani. Győződjön meg arról, hogy a megfelelő hitelesítő adatokkal van bejelentkezve, hogy aktiválja a kulcsokat a megfelelő bérlőn.
+>Bár az előnyök megvásárlásához nem kell globális rendszergazdának lennie a szervezetben, globális rendszergazdának kell lennie ahhoz, hogy előnyöket rendel az alkalmazottakhoz. Ha szükséges, globális rendszergazdává válhat az Előnyök oldalon található utasításokat követve [  (bejelentkezés](https://partnercenter.microsoft.com/pcv/partnership/benefits) szükséges). Előfordulhat, hogy a vállalata már rendelkezik globális rendszergazdával, ezért mindenképpen ellenőrizze a csapatát.
 
-## <a name="manage-visual-studio-subscriptions"></a>Visual Studio-előfizetések kezelése
+A juttatáscsomagok magukban foglalják a licencelt szoftverek, felhőszolgáltatások, Visual Studio előfizetések és műszaki támogatás kiosztását. Az előnyöket magában foglalhatják bizonyos piaci elérhető erőforrások, ajánlatok és a piaccal kapcsolatos programok is. Az előfizetés Action Pack a Microsoft Partner Network [oldalon.](https://partner.microsoft.com/membership/internal-use-software)  
 
-1. Válassza ki a **Visual Studio-előfizetéseket** a Visual Studio-előfizetések listájának megtekintéséhez.
+Az összes tagsági kedvezmény megtekintéséhez és kezeléséhez kattintson az Előnyök [ **oldalra**](https://partnercenter.microsoft.com/pcv/partnership/benefits) (bejelentkezés szükséges). Azt is választhatja, hogy bejelentkezik a Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard)a bal oldali **menüben** válassza a [ Előnyök ] lehetőséget, majd válassza ki a megjelenő előnyöket.  
 
-2. Keresse meg a használni kívánt előfizetést, majd kattintson a sor jobb szélén lévő lefelé mutató nyílra az előfizetés részleteinek kibontásához.
+A legtöbb előny aktiválásához vagy a kapcsolódó szoftverkulcsok letöltéséhez Partnerközpont általában globális rendszergazdai vagy MPN-partneri rendszergazdai szerepkört kell hozzárendelni. Ha nem látja az előnyöket, vagy nem tudja aktiválni az előnyöket, egy Partnerközpont a globális rendszergazdától, hogy rendelkezik-e a megfelelő engedélyekkel. [További információ a szerepkörök Partnerközpont kapcsolatban.](permissions-overview.md)
 
-3. A Visual Studio-előfizetés aktiválásához válasszon ki egy felhasználót a listából, majd válassza a **felhasználó kiosztása** lehetőséget.
+## <a name="manage-software-benefits"></a>Szoftveres előnyök kezelése
+
+1. Válassza **a Szoftver** lehetőséget a szoftveres előnyök listájának kiválasztásához.
+
+2. Keresse meg a használni kívánt terméket, majd válassza a sor jobb távoli nyilát a termék részleteinek kibontásához.
+
+3. Minden egyes használni kívánt szoftvertermék esetén:
+
+   a. A **terméklicenc-kulcsok felfedése** érdekében válassza a Kulcsok lekérte lehetőséget. Mindenképpen kövesse a felsorolt speciális utasításokat.
+
+   b. Válassza ki, hogy a termék milyen nyelven legyen megjelenítve.
+
+   c. Válassza ki a számítógépek operációs rendszerének (OS) típusát, amelyekre telepíteni tervezi a szoftvert.
+
+   d. Kövesse a hivatkozásokat a szoftvertelepítési csomagok letöltéséhez és telepítéséhez.
+
+## <a name="azure-and-cloud-products"></a>Azure- és felhőalapú termékek
+
+Az **Azure & Cloud Products** (Azure-felhőtermékek) lapon megjelenik a használatalapú előfizetések (Azure-kredit) és az Ön számára kiépített licencalapú előfizetések (például az Office 365), az egyes termékek licencmennyisége, az ön számára kiépített ajánlattípus, a kedvezmény típusa (akár magról, akár növekményesről származik), valamint az adott kedvezmény lejáratának dátuma.
+
+:::image type="content" source="images/benefits/azuretab.png" alt-text="Azure- és felhőalapú termékek lap":::
+
+### <a name="usage-based-subscriptions---microsoft-azure-credit"></a>Használatalapú előfizetések – Microsoft Azure kredit
+
+Az MPN-partnerként aktív ajánlat típusától függően kétféle használatalapú előfizetést kaphat : MAPS, Silver és/vagy Gold – havi kreditet vagy tömeges kreditet.
+
+A következővel létesíthet:
+
+- 100 USD/hónap (vagy ezzel egyenértékű helyi pénznemben) Havi Azure-kredit vagy/és
+- 6000 USD, 12 000 USD vagy/és 13 000 USD/év (vagy mindegyik egyenértékű helyi pénznemben) Azure-beli tömeges kredit
+
+Ha aktiválni szeretne egy Microsoft Azure előfizetést a Partnerközpont, rendeljen hozzáférést egy olyan felhasználóhoz a vállalaton belül (beleértve a vendégfelhasználót is), aki rendelkezik a Azure Active Directory.
+A 100 USD/hónap (vagy ezzel egyenértékű helyi pénznemben) havi Azure-kredit esetén bármikor hozzáadhat vagy eltávolíthat felhasználókat ebből az előfizetésből. 
+
+Az Azure tömeges (éves) kreditek esetén az eltávolítási lehetőség nem érhető el az Partnerközpont-ban, de a csoportos kreditet a regisztrációs év során másoknak is átveheti. Az Azure tömeges (éves) kredit-előfizetése nem kombinálható más licencelési, előre fizetett vagy jóváírási ajánlatokkal (például Microsoft Nagyvállalati Szerződés, Cloud Solution Partner, Azure in Open licencprogram, Azure Pass, Action Pack stb.).
+
+## <a name="license-based-subscriptions"></a>Licencalapú előfizetések
+
+Az Azure & Cloud Products (Azure & Felhőalapú termékek) lap licencalapú előfizetések szakasza felsorolja az aktiváláshoz termékkulcsot igénylő összes felhőterméket, például az Microsoft Office 365-öt, a Microsoft Dynamicst, a Microsoft Intune-t, az Alapszintű Azure AD-t és a Power BI. Az MPN-partnerként aktív ajánlat típusa – MAPS, Silver vagy Gold – szabályozza, hogy mely termékek vannak felsorolva.
+
+A licencalapú előfizetések aktiválásához kattintson a megfelelő terméknek megfelelő legördülő szimbólumra, és olvassa el a kulcsok beváltási útmutatóját. Ha elolvasta az utasításokat, válassza ki azt a hivatkozást, amely átirányítja a portálra a kulcs beváltása és a termékhez hozzárendelt kulcs beváltása érdekében.
+
+>[!IMPORTANT]
+>Vegye figyelembe, hogy a kulcs beváltása után ugyanazt a kulcsot nem lehet másodszor is beváltani, ezért győződjön meg arról, hogy további licenceket (férőhelyeket) kell hozzáadnia, vagy meg kell hosszabbítsa a záró dátumot. Ha úgy dönt, hogy több licencet ad hozzá, és nem hosszabbít meg a záró dátumot, a rendszer 12 hónapnál kevesebb aktív előfizetést biztosít. Győződjön meg arról, hogy a megfelelő hitelesítő adatokkal jelentkezett be a kulcsok megfelelő bérlőn való aktiválásához.
+
+## <a name="manage-visual-studio-subscriptions"></a>Előfizetések Visual Studio kezelése
+
+1. Válassza **Visual Studio előfizetések lehetőséget** az előfizetések listájának Visual Studio listájának.
+
+2. Keresse meg a használni kívánt előfizetést, majd válassza a sor jobb végén található lefelé mutató nyilat az előfizetés részleteinek kibontásához.
+
+3. Új előfizetés Visual Studio válasszon ki egy felhasználót a listából, majd válassza a **Felhasználó hozzárendelése lehetőséget.**
 
    > [!IMPORTANT]  
-   > Ha a hozzárendelni kívánt felhasználó nem szerepel a listában, [hozzáadhat új felhasználókat](create-user-accounts-and-set-permissions.md) a **Fiókbeállítások** közül.
+   > Ha a hozzárendelni kívánt felhasználó nem szerepel [](create-user-accounts-and-set-permissions.md) a listában, új felhasználókat adhat hozzá a **Fiókbeállításokban.**
 
-4. Ismételje meg ezt a folyamatot minden hozzárendelni kívánt előfizetésnél. A felhasználók kezelhetik az előfizetéseket a Visual Studio portálon.
+4. Ismételje meg ezt a folyamatot minden hozzárendelni kívánt előfizetés esetén. A felhasználók a portálon kezelhetik Visual Studio előfizetéseiket.
 
    >[!Note]
-   >A Visual Studio-előfizetések rendszergazdái megoszthatják az előfizetéseket az egyik előfizetőből a másikba, ha az eredeti hozzárendelés időpontja óta 90 nap telt el. További információért olvassa el a [Microsoft partner programok útmutatóját](https://aka.ms/partner-benefits-use-guide).
+   >A Visual Studio-előfizetések rendszergazdái az eredeti hozzárendelés óta eltelt 90 nap után újra hozzárendelheti az előfizetéseket az egyik előfizetőtől a másikhoz. További információkért olvassa el a [Microsoft Partnerprogramokkal kapcsolatos útmutatót.](https://aka.ms/partner-benefits-use-guide)
 
-## <a name="manage-technical-benefits"></a>Technikai előnyök kezelése
+## <a name="manage-technical-benefits---microsoft-product-support"></a>Műszaki előnyök kezelése – Microsoft-terméktámogatás
 
-Ez a szakasz azt ismerteti, hogyan aktiválhatja és kezelheti a technikai támogatási előnyöket a partner Center [irányítópultján](https://partner.microsoft.com/dashboard). Ha a Microsoft Partner Network tagsága továbbra is a partneri tagsági központban (PMC) található, akkor a technikai előnyeinek aktiválásához kapcsolatba kell lépnie egy másik erőforrással, például a partner fronttal. Lásd: [technikai előnyök aktiválása a partner centeren kívül](partner-membership-center-tech-benefits-activate.md).
+Ez a szakasz a műszaki támogatási előnyök aktiválását és kezelését ismerteti a Partnerközpont [irányítópultján.](https://partner.microsoft.com/dashboard) Ha a Microsoft Partner Network tagsága még mindig a Partner Membership Center (PMC) tagja, akkor a technikai előnyök aktiválása érdekében kapcsolatba kell lépnie egy másik erőforrással, például a Partner Frontline-nal. Lásd: [A műszaki előnyök aktiválása a Partnerközpont.](https://docs.microsoft.com/partner-center/partner-membership-center-tech-benefits-activate)
 
-Ha szeretné megtekinteni a technikai előnyöket a partner Centerben, tegye a következőket:
+A terméktámogatás technikai előnyeinek Partnerközpont alábbi lépéseket:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. Válassza az **előnyök**, majd a bal oldali navigációs menü **technikai előnyök** elemét. A technikai előnyök lapon megjelenik az arany, ezüst vagy Microsoft Action Pack kompetenciához elérhető technikai támogatási kedvezmények listája.
+2. Válassza **az Előnyök,** majd a **Műszaki előnyök** lehetőséget a bal oldali navigációs menüben. Megjelenik a Műszaki előnyök lap, amely felsorolja a Gold, Silver vagy Microsoft Action Pack számára elérhető műszaki támogatási előnyöket.
 
-   Ha nem látja ezeket a lehetőségeket vagy a technikai előnyök lapot, akkor előfordulhat, hogy nem rendelkezik a megfelelő [felhasználói szerepkörökkel](permissions-overview.md) a partner Centerben. A hozzáférés megszerzéséhez lépjen kapcsolatba a partner Center globális rendszergazdájával.
+   Ha nem látja ezeket a lehetőségeket vagy a Műszaki előnyök [](permissions-overview.md) oldalt, előfordulhat, hogy nem a megfelelő felhasználói szerepkörök vannak hozzárendelve a Partnerközpont. A hozzáférés Partnerközpont a globális rendszergazdához.
 
-3. Bontsa ki az előnyök listáját. Az adott támogatási juttatás használatának megkezdéséhez a következőt kell használnia:
+3. Bontsa ki az előnyök listáját. Egy adott támogatási kedvezmény használatának első lépéseként a következőket kell megtennie az első használatkor:
 
-   - **Aktiválja a technikai kedvezményt.** Az előny részleteinek kibontása után válassza az **aktiválás** lehetőséget. Az aktiválási kérelem feldolgozásának engedélyezése néhány napig.
+   - **Aktiválja a technikai juttatást.** Miután kibontott egy kedvezmény részleteit, válassza az Aktiválás **lehetőséget.** Hagyjon néhány napot az aktiválási kérelem feldolgozására.
 
-   - **Megtekintheti és megoszthatja a terméktámogatás hozzáférési AZONOSÍTÓját és a szerződés AZONOSÍTÓját.** Az aktiválási kérés feldolgozása után a rendszer a **hozzáférési azonosító** és a **szerződés azonosító** részleteit fogja látni a következő alkalommal, amikor kibővíti ezt a technikai kedvezményt. Előfordulhat, hogy Ön vagy a vállalat felhasználóinak meg kell osztaniuk ezeket az információkat, amikor az első alkalommal elküld egy támogatási kérést bizonyos típusú termékekre vagy szolgáltatásokra vonatkozóan.
+   - **Megtekintheti és megoszthatja a terméktámogatás hozzáférési azonosítóját és szerződésazonosítóját.** Az aktiválási kérelem feldolgozása után a  technikai előny  következő bővítésekor látni fogja a hozzáférési azonosító és a szerződésazonosító adatait. Önnek vagy a vállalat felhasználóinak meg kell osztaniuk és fel kell használniuk ezeket az információkat, amikor először küld támogatási kérést bizonyos típusú termékekhez vagy szolgáltatásokhoz.
 
-4. Az aktiválás után technikai előnyöket használhat a különböző technikai támogatásokhoz. A következő szolgáltatásokra vonatkozó technikai támogatási kérelmek elküldéséhez olvassa el a technikai előnyök lapon található részletes útmutatást. Lásd még az alábbi részleteket.
+4. Az aktiválás után a technikai előnyöket különféle technikai támogatáshoz használhatja. A következő szolgáltatásokra vonatkozó műszaki támogatási kérések elküldését a Műszaki előnyök oldalon található részletes utasításokban olvashatja el. Lásd még az alábbi részleteket.
 
-   A partner Center technikai előnyei oldalon a következő típusú technikai támogatást ismertetjük:
+   Az Partnerközpont Műszaki előnyök lap az alábbi technikai támogatástípusokat ismerteti:
 
-   **Technikai támogatás (hibajavítás).** Akkor használja ezt a típusú technikai támogatást, ha a funkciók megszakadnak, vagy ha valami nem a várt módon működik (például ha hibaüzenet jelenik meg). Íme néhány útmutató:
+   **Technikai támogatás (javítás/ javítás).** Akkor használja ezt a típusú technikai támogatást, ha a működés megszakad vagy valami nem a várt módon működik (például hibaüzenet esetén). Az útmutató a következő:
 
-   - Csak Gold/Silver kompetenciával rendelkező partnereink számára (Action Pack előfizetőknek nem érhető el) az **aláírással kapcsolatos terméktámogatás** a **Cloud Products** szolgáltatásban.
+   - Csak a Gold/Silver kompetenciapartnerek esetében (Action Pack előfizetők számára nem érhető el) használja a Signature Product Support for Cloud products **(Aláírási terméktámogatás** felhőalapú **termékekhez) terméket.**
 
-   - Mind a Action Pack, mind a Gold/Silver kompetencia-partnernek a **Microsoft terméktámogatási** incidenseit használja a **közelmúltban helyszíni termékekhez** (csak a jelenlegi és a korábbi verziók esetében).
+   - A microsoftos Action Pack a Gold/Silver kompetenciapartnerek esetében is használja a **Microsoft terméktámogatási** incidenseit a legutóbbi helyszíni termékekhez **(csak** a jelenlegi és a korábbi verziók esetében).
 
      >[!NOTE]
-     > A helyszíni, az Azure (nem CSP) és a Dynamics termékekhez kapcsolódó technikai támogatási kérelmekhez hozzáférési AZONOSÍTÓra és szerződés-AZONOSÍTÓra van szükség. A jövőben a hozzáférési AZONOSÍTÓjának és a szerződés AZONOSÍTÓjának megkereséséhez is megtalálhatja [az előnyeit](mpn-find-benefits.md#find-access-id-and-contract-id-for-technical-benefits).
+     > A helyszíni, azure-beli (nem CSP) és Dynamics-termékek műszaki támogatási kéréséhez hozzáférési azonosítóra és szerződésazonosítóra van szükség. A hozzáférési azonosítót és a szerződésazonosítót a jövőben az Előnyök megkeresása [cikkből is megkeresheti.](mpn-find-benefits.md#find-access-id-and-contract-id-for-technical-benefits)
+     > 
+[További információ a helyszíni és a felhőalapú termékek technikai támogatásról](https://docs.microsoft.com/partner-center/mpn-benefits-technical-support)
   
-   **Technikai előértékesítési és üzembe helyezési szolgáltatások.**  Ezt a típusú támogatást a technikai értékesítéssel vagy az üzembe helyezéssel kapcsolatos konzultációhoz vagy tanácsadáshoz használhatja. Ezeket a szolgáltatásokat közvetlenül a [partner központból](https://partnercenter.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)kérheti le.
+## <a name="manage-technical-benefits---partner-advisory-hours"></a>Műszaki előnyök kezelése – Partnertanácsadói órák
+A partneri tanácsadási órák a technikai előértékesítési és üzembehelyezési szolgáltatások **(TPD)** pénzneme, egyszerűen csak jelentkezzen be egy kérés elküldését (aktiválás vagy felhasználó-hozzárendelés nem szükséges).
 
-   - Mind a Action Pack, mind a Gold/Silver kompetencia-partnerek esetében a Felhőbeli és a hibrid megoldások **technikai előértékesítési és üzembe helyezési szolgáltatásai** használhatók.
+A partneri tanácsadási órák műszaki előnyeinek Partnerközpont alábbi lépéseket:
+
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
+
+2. Válassza **az Előnyök,** majd a Műszaki előnyök **lehetőséget** a partnertanácsadói órákhoz
+
+3. Az oldal jobb alsó részén kattintson a **[Műszaki előzetes](https://partnercenter.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)** szolgáltatások és üzembe helyezési kérelem elküldése elemre a kérés elküldéhez.
+     >[!NOTE]
+     > Ha a műszaki előnyök oldalán a "Úgy tűnik, hogy még nincsenek *előnyök"* üzenet jelenik meg, akkor olyan partnerfiókkal jelentkezett be, amely nem rendelkezik Gold, Silver vagy Microsoft Action Pack-ajánlattal, és nem jogosult a szolgáltatás használatára, vagy nem a megfelelő fiókot használta a bejelentkezéshez.
+     > 
+[További információ az előzetes műszaki és üzembe helyezési szolgáltatásokról (TPD)](https://docs.microsoft.com/partner-center/technical-benefits)
   
-## <a name="manage-go-to-market-offers"></a>Piaci megjelenéssel kapcsolatos ajánlatok kezelése
+## <a name="manage-go-to-market-offers"></a>Piacravezető ajánlatok kezelése
 
-**A feladat végrehajtásához szükséges szerepkörök:**
+**Megfelelő szerepkörök a feladat végrehajtásához:**
 
 - Globális rendszergazda
-- MPN-partner rendszergazdája
+- MPN-partneri rendszergazda
 
-1. Válassza az **előnyök**, majd a **piacra** jutás lehetőséget, hogy megtekintse a piacra jutáshoz kapcsolódó ajánlatok listáját a Microsoft program használatával.
+1. Válassza **az Előnyök** lehetőséget, majd a Piacra ugrás lehetőséget a Microsoft-programhoz társított ajánlatok listájának kiválasztásához. 
 
-   A [piaci megjelenést lehetővé](mpn-learn-about-go-to-market-benefits.md) teszi további marketing-erőforrások, ajánlatok, programok és az Ön számára elérhetővé tehető segítség. Az elérhető ajánlatok típusai az adott partner szintjétől és a már beszerzett kompetenciától függenek.
+   [A piaci értékesítésre vonatkozó funkciók](mpn-learn-about-go-to-market-benefits.md) további marketing-erőforrásokat, ajánlatokat, programokat és segítséget nyújtanak, amelyek elérhetőek lehetnek az Ön számára. Az elérhető ajánlatok típusai az adott partnerszinttől és az esetlegesen már megszerzett kompetenciáktól függenek.
 
-2. A piaci megjelenéssel kapcsolatos ajánlat vagy program aktiválásához először hozzá kell rendelnie egy vállalati marketing-kapcsolattartót. Ez a kapcsolatfelvétel az aktív piaci megjelenéssel kapcsolatos utólagos értesítéseket fogja kapni.
+2. Bármely piacra kerülő ajánlat vagy program aktiválásához először hozzá kell rendelnie egy vállalati marketing kapcsolattartót. Ez a kapcsolattartó további értesítéseket fog kapni az aktív piacra kerülő ajánlatokkal kapcsolatban.
 
-3. A marketing-kapcsolattartási adatok hozzáadásához vagy frissítéséhez nyissa meg a piacra jutási oldal tetején, majd válassza a **Hozzáadás**, **frissítés** vagy **módosítás** lehetőséget. Most végezze el a következő lépéseket:  
+3. A marketing kapcsolattartási adatok hozzáadásához vagy frissítéséhez lépjen a Piacra kerülő oldal tetejére, majd válassza a **Hozzáadás,** Frissítés **vagy** **Módosítás lehetőséget.** Most tegye a következőket:  
 
-   a. Válasszon egy felhasználót a listáról. Ha a hozzárendelni kívánt felhasználó nem szerepel a listában, [hozzáadhat új felhasználókat](create-user-accounts-and-set-permissions.md) a **Fiókbeállítások** közül.
+   a. Válasszon egy felhasználót a listáról. Ha a hozzárendelni kívánt felhasználó nem szerepel [](create-user-accounts-and-set-permissions.md) a listában, új felhasználókat adhat hozzá a **Fiókbeállításokban.**
 
-   b. Adjon meg egy e-mail-címet azon felhasználó számára, aki eltér a vállalata partner Center-fiókjához tartozó e-mail-címtől.
+   b. Adjon meg egy olyan e-mail-címet a felhasználónak, amely eltér a vállalata Partnerközpont e-mail-címtől.
 
-      E-mailben megtudhatja, hogyan használhatja a piacra jutási ajánlatát a kiválasztott marketing-partner e-mail-címére.
+      A go-to-market ajánlat használatának utasításait e-mailben fogjuk küldeni a kijelölt marketing kapcsolattartó e-mail-címére.
 
    c.  Adja meg a kapcsolattartó telefonszámát és az előnyben részesített nyelvet. Miután megadta ezeket az adatokat, válassza a **Felhasználó hozzárendelése** lehetőséget.
 
-4. A marketing-kapcsolattartó frissítése után keresse meg a használni kívánt piaci megjelenési ajánlatot, majd a sor jobb szélén lévő lefelé mutató nyílra kattintva bontsa ki az ajánlat részleteit. A lista megjeleníti a juttatás neve alatt elérhető egyes típusú ajánlatokat (például **Silver Core**, **Gold Core** vagy **ISV közös értékesítésre kész**).
+4. Miután frissíti a marketinges kapcsolattartót, keresse meg a használni kívánt Piacra kerülés ajánlatot, majd válassza a sor jobb végén található lefelé mutató nyilat az ajánlat részleteinek kibontásához. A lista az egyes elérhető ajánlattípusokat a kedvezmény neve alatt jeleníti meg (például **Silver Core,** **Gold Core** vagy **ISV Co-sell ready**).
 
-5. Az ajánlat aktiválásához kattintson az **aktiválás** gombra.
+5. Az **ajánlat aktiválásához** válassza az Aktiválás lehetőséget.
 
    > [!NOTE]
-   >Több napot is igénybe vehet, hogy e-mail-utasításokat küldjön a hozzárendelt marketing-kapcsolattartónak, és aktiváljon egy piaci megjelenéssel kapcsolatos ajánlatot. Az ajánlat aktiválása után a változások megjelennek a piacra jutás oldalon. Az **állapot** oszlopban megjelenik az ajánlat **aktívra** váltása. A **lejárat** oszlopban láthatja az ajánlat elévülési dátumát. Ezt az ajánlatot a lejárati dátumig használhatja. További információ a [piacra jutás különböző típusairól, az ajánlatokról és az elérhető programokról](mpn-learn-about-go-to-market-benefits.md) .  
+   >Több napig is el lehet küldeni e-mailben az utasításokat a hozzárendelt marketing kapcsolattartónak, és aktiválni kell egy piacra kerülő ajánlatot. Az ajánlat aktiválása után változások fognak látni a Piacra lépő oldalon. Az Állapot **oszlopban** az ajánlat Aktívra **változik.** Az **Expires (Lejárat)** oszlopban láthatja az ajánlat lejáratának dátumát. Ezt az ajánlatot a lejárati dátumáig használhatja. További információ a különböző típusú piacra ható erőforrásokról, ajánlatokról és [programokról.](mpn-learn-about-go-to-market-benefits.md)  
 
-## <a name="cancel-a-membership-benefit-or-offer"></a>Tagsági juttatás vagy ajánlat megszakítása
+## <a name="cancel-a-membership-benefit-or-offer"></a>Tagsági juttatás vagy ajánlat lemondása
 
-Ha vissza szeretne vonni egy kedvezményt vagy ajánlatot, és visszatérítést kap, a kérést 30 napon belül el kell végeznie, és nem aktiválta a szoftver előnyeit. Kérje le a törlést egy szolgáltatási kérelemben.
+Egy kedvezmény vagy ajánlat lemondásához és visszatérítéshez a vásárlást követő 30 napon belül kell igényelnie, és nem aktiválnia a szoftver előnyeit. A lemondás kérése egy szolgáltatáskérésen keresztül.
 
 ## <a name="next-steps"></a>Következő lépések
 
@@ -179,4 +192,4 @@ Ha vissza szeretne vonni egy kedvezményt vagy ajánlatot, és visszatérítést
 
 - [Microsoft Action Pack-előfizetés vásárlása vagy megújítása](mpn-get-action-pack.md)
 
-- [További információ az MPN piaci megjelenéssel kapcsolatos ajánlatokról és erőforrásokról](mpn-learn-about-go-to-market-benefits.md)
+- [További információ az MPN piaci részesedési ajánlatokkal és erőforrásokkal kapcsolatban](mpn-learn-about-go-to-market-benefits.md)

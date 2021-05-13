@@ -1,92 +1,87 @@
 ---
-title: A partner Center által beszerzett ismeretek – termékspecifikus licencek
+title: Partnerközpont Insights – terméklicencek
 ms.topic: article
 ms.date: 05/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Tekintse meg ezt a licencszerződést, és Ismerje meg, hogyan javíthatja az ügyfelei számára eladott vagy kezelt licencelt felhőalapú termékeket.
+description: Tekintse meg ezt a terméklicenc-jelentést, és ismerje meg, hogyan fejleszthet az ügyfelek számára értékesít vagy kezel licencelt felhőalapú termékekkel.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 14cd4664ecfb140b82dfd27994ff99c7a62d2261
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 15658abdbf23c1181fb411fd66673fc9699250ae
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086906"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855165"
 ---
-# <a name="product-licenses-report-in-the-partner-center-insights-dashboard"></a>Termék-licencek jelentése a partner Center-beli bepillantást ismertető irányítópulton
+# <a name="product-licenses-report-in-the-partner-center-insights-dashboard"></a>Terméklicencek jelentés a Partnerközpont Insights irányítópulton
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Jelentés megjelenítője
-- Executive Report Viewer
-
-A termékspecifikus jelentések a licenc-alapú felhőalapú termékek, például az Office 365, a Dynamics, a Microsoft 365, a Power BI és mások licenc-elemzési szolgáltatásait ismertetik. Az itt bemutatott elemzések az Ön által értékesített vagy az ügyfelek számára felügyelt licencek használatával vannak társítva. A következő szakaszt a termék licencek jelentésében tekintheti meg.
+A Terméklicencek jelentés licencelemzést biztosít olyan licencalapú felhőalapú termékekhez, mint az Office 365, a Dynamics, Microsoft 365, Power BI és egyebek. Az itt bemutatott elemzések az Ön által eladott vagy az ügyfelek számára ön által felügyelt licencek használatával kapcsolatosak. Az alábbi szakaszokat a Terméklicencek jelentésből lehet megtekinteni.
 
 - Összefoglalás
-- Licencek földrajzi eloszlása
-- Licenc Hozzáadás
-- Licencek eloszlása partneri helyszínek, értékesítési csatorna, SKU, partneri csatolás típusa, szegmens
+- A licencek földrajzi eloszlás
+- Licenc hozzáadása
+- Licencterjesztés partnerhelyek, értékesítési csatorna, termékkódok, partner csatolási típusa, szegmens szerint
 
  > [!NOTE]
- > Ez a jelentés az áttekintések irányítópultján érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a partner Centerben, például a globális rendszergazda, a fiók rendszergazdája, a jelentéskészítő vagy a Executive Report Viewer. További információ: a vállalat globális rendszergazdája. a jelentésben megadott adattípusok csak a Executive Report Viewer jogosultságokkal rendelkező felhasználók számára is elérhetők.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információkért lásd a vállalat globális rendszergazdáját. A jelentésben szereplő konkrét adattípusok csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők lehetnek.
 
 ## <a name="summary"></a>Összefoglalás
 
-Az összefoglalás szakasz az eladott, telepített és felhasznált felhőalapú termék-licencekhez kapcsolódó fő teljesítménymutatók (KPI-k) pillanatképét jeleníti meg. Ez segít nyomon követni az aktív használatot az ügyfeleknek eladott licencek esetében.
+Az összefoglaló szakasz a felhőalapú termékek eladott, üzembe helyezett és használt licencéhez társított fő teljesítménymutatók (KPI-k) pillanatképét biztosítja. Ez segít nyomon követni az aktív használatot az ügyfelek számára értékesített licencek alapján.
 
-:::image type="content" source="images/pci/pci-licenses-report-summary-1.png" alt-text="a licencek jelentésének összegzése":::
+:::image type="content" source="images/pci/pci-licenses-report-summary-1.png" alt-text="licencjelentés összegzése":::
 
-Az összefoglalás egyes szakaszaival kapcsolatos további információkért lásd alább:
+Az összefoglalás egyes szakaszokkal kapcsolatos további információkért lásd alább:
 
-- Licencek 
-  - A licenccel rendelkező felhőalapú termékek, például az Office 365, a Dynamics, a Microsoft 365, a Power BI és mások által eladott vagy kezelt licencek aktuális száma.
-  - A licencek százalékos növekedése vagy elutasítása a kijelölt dátumtartomány szerint.
-  - Licencelési Trend Micro diagram: a mikro-diagram a licencek havi hónapjának változását mutatja a kiválasztott dátumtartomány alatt.
+- Licencek: 
+  - Az Ön által eladott vagy felügyelt licencek aktuális száma olyan licencalapú felhőalapú termékek esetében, mint az Office 365, a Dynamics, Microsoft 365, Power BI stb.
+  - A licencek százalékos növekedése vagy elutasítása a kiválasztott dátumtartományban.
+  - Licenctrend mikrodiagramja: A mikrodiagram a kiválasztott dátumtartomány licencszámának havi trendjét mutatja
 
-- Telepített licencek:
+- Üzembe helyezett licencek:
   - Az ügyfél összes hozzárendelt licencének aktuális száma.
-  - A licencek százalékos növekedése vagy elutasítása a kiválasztott időszakban.
-  - A licencek száma Micro diagram: a Micro diagram a megadott időtartományban a hozzárendelt licencek számának hónapon belüli alakulását mutatja be.
+  - A licencek százalékos növekedése vagy csökkenése a kiválasztott időszakban.
+  - Licencszám mikrodiagram: A mikrodiagram a hozzárendelt licencszámok havi trendjét mutatja a kiválasztott dátumtartományban.
 
 - Aktív licencek: 
-  - Az összes ügyfél-licenc aktuális száma az elmúlt 30 napban, a kijelölt dátumtartomány során aktív használattal.
-  - A licencek százalékos növekedése vagy elutasítása a kiválasztott dátumtartomány alatt.
-  - A Micro diagram a licencek havi hónapjának változását mutatja a kiválasztott dátumtartomány alatt.
+  - A kiválasztott dátumtartományban az elmúlt 30 napban aktív használattal rendelkező összes ügyféllicenc aktuális száma.
+  - A licencek százalékos növekedése vagy csökkenése a kiválasztott dátumtartományban.
+  - A Mikrodiagram a kiválasztott dátumtartomány licencszámának havi trendjét mutatja.
 
-## <a name="geographical-spread-of-licenses"></a>Licencek földrajzi eloszlása
+## <a name="geographical-spread-of-licenses"></a>A licencek földrajzi eloszlése
 
-A **licencek földrajzi oldalpár** nézete az aktuális licencek és az aktív licencek földrajzi eloszlását jeleníti meg az ügyfelek piacain. (Az **aktuális** licencek száma a nem hozzárendelt licenceket is tartalmazza.)
+A **Licencek földrajzi eloszlása** nézet az aktuális licencek és az aktív licencek földrajzi eloszlását jeleníti meg az ügyfélpiacok szerint. (A **Jelenlegi licencek** száma a nem hozzárendelt licenceket is tartalmazza.)
 
-Az **országok/régiók száma** adja meg az összes olyan országot/régiót, ahol aktuális és aktív felhasználói licencekkel rendelkezik.
+**Az országok/régiók száma** az összes olyan országot/régiót mutatja, ahol jelenleg és aktív ügyféllicencekkel rendelkezik.
 
-Megkeresheti és kiválaszthatja a rács egyik országát, hogy a térképen lévő helyre nagyítson. A térképen a **Home (Kezdőlap** ) lehetőség megnyomásával visszaállíthatja az alapértelmezett nézetet. A térképre kattintva megtekintheti az aktuális licenceket és az aktív licenceket az ügyfél országa szerint. A rács mindkét mezője rendezhető.
+Megkeresheti és kiválaszthatja a rács egyik országát, hogy ráközelítsen a térkép helyére. A térkép **Kezdőlap** lehetőségének lenyomása az alapértelmezett nézetre való visszaállításhoz. Vigye a kurzort a térképre az aktuális licencek és az aktív licencek ügyfél országonkénti megtekintéséhez. A rács mindkét mezője rendezhető.
 
-:::image type="content" source="images/pci/pci-licenses-report-geo-spread-2.png" alt-text="licenc földrajzi eloszlása":::
+:::image type="content" source="images/pci/pci-licenses-report-geo-spread-2.png" alt-text="licenc földrajzi eloszlás":::
 
-## <a name="license-adds"></a>Licenc Hozzáadás
+## <a name="license-adds"></a>Licenc hozzáadása
 
-Ez a nézet a kiválasztott dátumtartomány során hozzáadott licencek trendjét jeleníti meg. 
+Ez a nézet a kiválasztott dátumtartományban hozzáadott licencek trendjét jeleníti meg. 
 
-A trend termékek és szolgáltatások/munkaterhelés alapján történő bemutatásához válasszon ki egy terméket a képernyő tetején, valamint egy szolgáltatást/munkaterhelést az SKU-legördülő listából.
+A trend termék és szolgáltatás/számítási feladat szerint való bemutatja, ha kiválaszt egy Terméket a képernyő tetején, és egy szolgáltatást/számítási feladatot a Termékszámok legördülő listából.
 
-Az X tengely a kiválasztott dátumtartomány hónapját jelöli. Az Y tengely a hozzáadott licencek számát jelöli. Egy adott időszak nagyításához használja a diagram tetején található csúszkát.
+Az X tengely a kiválasztott dátumtartomány hónapját jelöli. Az Y tengely a hozzáadott licencek számát jelöli. Egy adott pont nagyításhoz használja a diagram tetején található csúszkát.
 
-:::image type="content" source="images/pci/pci-licenses-report-license-adds-3.png" alt-text="licenc Hozzáadás":::
+:::image type="content" source="images/pci/pci-licenses-report-license-adds-3.png" alt-text="licenc hozzáadása":::
 
-## <a name="license-distribution"></a>Licencek terjesztése
+## <a name="license-distribution"></a>Licencterjesztés
 
-Ez a nézet a termék és az ügyfél országa/régiója által az ügyfél-licencek részletezését jeleníti meg. Amikor kiválaszt egy terméket a **licencben a Product** Pie (termék) kördiagramban, a szomszédos diagramon az ügyfél-régió licenc-részletezése jelenik meg.
+Ez a nézet az ügyféllicencek termék és ügyfél ország/régió szerinti bontását jeleníti meg. Amikor kiválaszt egy terméket a Licenc **termék** szerint tortadiagramon, a szomszédos diagramon a licenc ügyfél-régió szerinti lebontása látható.
 
-:::image type="content" source="images/pci/pci-licenses-report-license-distrib-4.png" alt-text="licencek terjesztése":::
+:::image type="content" source="images/pci/pci-licenses-report-license-distrib-4.png" alt-text="licencterjesztés":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-További jelentések: [partner Center](partner-center-insights.md)-információk.
+További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
 
 >[!NOTE] 
-> A jelentést az elemzések irányítópultjának letöltési jelentések részéből töltheti le. [További információ](pci-download-reports.md)
+> A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md)

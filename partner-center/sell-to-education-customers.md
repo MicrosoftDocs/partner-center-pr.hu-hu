@@ -1,6 +1,6 @@
 ---
-title: Ajánlatok eladása az oktatási ügyfeleknek
-description: Ismerje meg, hogyan hozhat létre oktatási ügyfelet, és hogyan adhat hozzájuk ajánlatokat a partner Centerben. Magában foglalja az oktatási ügyfél ellenőrzési állapotának megerősítését.
+title: Ajánlatok értékesítésének az oktatási ügyfelek számára
+description: Megtudhatja, hogyan hozhat létre oktatási ügyfelet, és hogyan értékesít hozzájuk ajánlatokat a Partnerközpont. Tartalmazza az oktatási ügyfél ellenőrzési állapotának megerősítését.
 ms.topic: how-to
 ms.date: 12/17/2020
 ms.service: partner-dashboard
@@ -9,94 +9,90 @@ author: alikhaki
 ms.author: alikhaki
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e0c8812683a038ce1f869cb3cb6750424d49ec05
-ms.sourcegitcommit: ec33c2352a9dd3e5a941f0f42ff1e8d256bb2399
+ms.openlocfilehash: 1b1b89841faf77a78c8cc268357daaaf95307223
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "105028367"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855403"
 ---
-# <a name="how-to-sell-offers-to-education-customers-and-how-to-create-an-education-customer-in-partner-center"></a>Ajánlatok értékesítése az oktatási ügyfeleknek és oktatási ügyfelek létrehozása a partner Centerben
+# <a name="how-to-sell-offers-to-education-customers-and-how-to-create-an-education-customer-in-partner-center"></a>Ajánlatok értékesítésének az oktatási ügyfelek számára és oktatási ügyfelek létrehozása a Partnerközpont
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
 ## <a name="create-an-education-customer"></a>Oktatási ügyfél létrehozása
 
-Ez a cikk bemutatja, hogyan hozhat létre oktatási ügyfelet a partner Centerben, és hogyan adhat hozzájuk oktatási termékeket. Azt is ismerteti, hogyan tekintheti meg az ellenőrzési állapotot, és szükség esetén küldje el újra az ellenőrzési kérelmet. Az oktatási ajánlatok jelenleg **csak olyan licencelési szolgáltatásokhoz érhetők el** , mint a Microsoft 365, a Dynamics, az Intune stb. Más típusú (szoftver-előfizetések, örökös szoftverek vagy Azure-termékek) esetén nem érhető el.
+Ez a cikk azt ismerteti, hogyan hozhat létre oktatási ügyfelet a Partnerközpont és hogyan értékesítsen nekik oktatási termékeket. Emellett azt is bemutatja, hogyan lehet megtekinteni az ellenőrzési állapotot, és szükség esetén újra el kell-e etetni az ellenőrzési kérelmet. Az oktatási ajánlatok **jelenleg** csak licencalapú szolgáltatásokhoz érhetők el, például Microsoft 365, Dynamics, Intune stb. Más típusokhoz (szoftver-előfizetések, állandó szoftverek vagy Azure-termékek) nem érhető el.
 
 > [!IMPORTANT]
-> A Microsoft ellenőrzi, hogy az újonnan létrehozott oktatási ügyfelek bérlői jogosultak-e az oktatási ajánlatokra.  Ügyeljen arra, hogy a szükséges információkat a lehető legpontosabban és teljes mértékben adja meg az ellenőrzési folyamat késésének elkerülése érdekében.
+> A Microsoft ellenőrzi, hogy minden újonnan létrehozott oktatási ügyfélbérlő jogosult-e az oktatási ajánlatokra.  Az ellenőrzési folyamat késésének elkerülése érdekében győződjön meg arról, hogy a szükséges információkat a lehető legpontosabban és a lehető legpontosabban adja meg.
 
 1. Jelentkezzen be a Partnerközpontba.
 
-2. Válassza az **ügyfelek** lehetőséget, majd kattintson **az ügyfél hozzáadása** lehetőségre. Válassza az **oktatás** lehetőséget a **speciális képesítések** legördülő menüből.  Adja meg a fiók további adatait a szükséges módon.  Az ellenőrzési folyamatot segítő legfontosabb mezők a következők:
+2. Válassza **az Ügyfelek,** majd az **Ügyfél hozzáadása lehetőséget.** Válassza **az Oktatás** lehetőséget a Speciális **minősítések** legördülő menüből.  Szükség szerint adja meg a fiók többi adatát.  Az ellenőrzési folyamatot segítő fő mezők a következők:
 
-   - **Cég neve**: írja be a jogi entitás nevét – az ellenőrzéshez szükséges
-   - **Ország/régió és címterület**: írja be a teljes entitás levelezési címe – az ellenőrzéshez szükséges
-   - **E-mail cím**: adja meg az entitás tulajdonosának e-mail-címét – nem ingyenes vagy on.microsoft.com e-mailt – az ellenőrzéshez szükséges
-   - **Ügyfél elérhetőségi adatai**: ezeket a részleteket az ellenőrzési folyamat részeként fogjuk használni
-   - **Elsődleges tartománynév**: az ügyfél fiókjának és e-mail-címeinek létrehozásához használatos.  Válasszon egy, a vállalat nevéhez hasonló nevet a szóközök és a speciális karakterek nélkül.  Ez a név később nem módosítható.
+   - **Vállalat neve:** ADJA MEG A JOGI SZEMÉLY NEVÉT – Az ellenőrzéshez szükséges
+   - **Ország/régió és címsorok:** ADJA meg a TELJES ENTITÁS LEVELEZÉSI CÍMÉT – az ellenőrzéshez szükséges
+   - **E-mail-cím:** Adja meg az entitás tulajdonában lévő e-mail-címet ( nem ingyenes on.microsoft.com e-mail-címet – az ellenőrzéshez szükséges
+   - **Ügyfél kapcsolattartási adatai:** ezek az adatok az ellenőrzési folyamat részeként lesznek használva
+   - **Elsődleges tartománynév:** Az ügyfél fiókjának és e-mail-címének létrehozására használatos.  Válasszon a vállalat nevéhez hasonló nevet szóköz és speciális karakterek nélkül.  Ezt a nevet később nem lehet módosítani.
 
-3. Ha elkészült, válassza az **Áttekintés** lehetőséget.
+3. Ha elkészült, válassza az Áttekintés **lehetőséget.**
 
-   :::image type="content" source="images/eduaccountinfo.png" alt-text="Oktatási ügyfél fiókja":::
+   :::image type="content" source="images/eduaccountinfo.png" alt-text="Oktatási ügyfélfiók":::
 
-4. A **felülvizsgálat** megerősítése után a rendszer **visszatekintő** állapotot kap, ha a megadott információ érvényes. 
+4. A Review **(Áttekintés) megerősítése** után az **InReview (Áttekintés)** állapotot fogja kapni, ha a beküldött információk érvényesek. 
 
-    :::image type="content" source="images/edu/create-review.png" alt-text="Oktatási Customer-fiók a felülvizsgálati oldalon"lightbox="images/edu/create-review-expanded.png":::
+    :::image type="content" source="images/edu/create-review.png" alt-text="Oktatási ügyfélfiók felülvizsgálatra"lightbox="images/edu/create-review-expanded.png":::
 
-### <a name="confirm-your-education-customers-verification-status"></a>Az oktatási ügyfél ellenőrzési állapotának megerősítése
+### <a name="confirm-your-education-customers-verification-status"></a>Az oktatási ügyfél ellenőrzési állapotának ellenőrzése
 
-Az ügyfél **fiókja** oldalon tekintse meg a **speciális minősítési állapotot**.
-Példák az állapotra:
+Az ügyfél Fiók **lapján** tekintse meg a Speciális **minősítés állapota oldalt.**
+Példák állapotra:
 
-- Ha az ügyfél ellenőrzést kapott: oktatás
+- Ha az ügyfél átest az ellenőrzésen: Education
 
-   :::image type="content" source="images/edupassedvetting.png" alt-text="Az oktatási ellenőrzés sikeres volt":::
+   :::image type="content" source="images/edupassedvetting.png" alt-text="Az oktatás ellenőrzése sikeres volt":::
 
-- Ha az ügyfél nem adta át az ellenőrzést: nem oktatási ügyfél
+- Ha az ügyfél nem ment át az ellenőrzésen: Nem oktatási ügyfél
 
-   :::image type="content" source="images/edu/fail-reason.png" alt-text="Az oktatás ellenőrzése nem sikerült" lightbox="images/edu/fail-reason-expanded.png":::
+   :::image type="content" source="images/edu/fail-reason.png" alt-text="Az oktatás ellenőrzése sikertelen volt" lightbox="images/edu/fail-reason-expanded.png":::
 
-- Ha az ügyfél nem oktatási ügyfélként van megjelölve: nincs
+- Ha az ügyfél nem lett oktatási ügyfélként megjelölve: Nincs
 
-   :::image type="content" source="images/edu/account-one.png" alt-text="az oktatási ügyfél nincs megjelölve" lightbox="images/edu/account-one-expanded.png":::
+   :::image type="content" source="images/edu/account-one.png" alt-text="az oktatási ügyfél nem ilyen címkével van megjelölve" lightbox="images/edu/account-one-expanded.png":::
 
-- Ha az ügyfél oktatási ügyfélként van áttekintve, tekintse át a következőket:
+- Ha az ügyfél oktatási ügyfélként van felülvizsgálaton: Áttekintés
 
-    :::image type="content" source="images/edu/in-review.png" alt-text="az oktatási ügyfél áttekintése" lightbox="images/edu/in-review-expanded.png":::
+    :::image type="content" source="images/edu/in-review.png" alt-text="az oktatási ügyfél felülvizsgálaton van" lightbox="images/edu/in-review-expanded.png":::
 
-## <a name="correct-the-customer-account-info-and-resubmit-for-verification"></a>Adja meg az ügyfél fiókjának adatait, és küldje el újra az ellenőrzéshez
+## <a name="correct-the-customer-account-info-and-resubmit-for-verification"></a>Javítsa ki az ügyfélfiók adatait, és újrakértese az ellenőrzést
 
-Ha az ügyfél a kezdeti ellenőrzést elmulasztja, megadhatja az adatokat, és újból elküldheti azt.
+Ha az ügyfél nem felel meg a kezdeti ellenőrzésen, most javíthatja az adatokat, és újra el tudja azt edni.
 
 ### <a name="correct-the-customer-account-information"></a>Ügyfélfiók adatainak javítása
 
-Az ügyfél adatainak frissítéséhez globális rendszergazdai jogosultságokkal kell rendelkeznie. Frissíti az Office 365-portál adatait, mivel ezek az adatok nem frissíthetők a partner Center portálról.
+Az ügyfél információinak frissítéséhez globális rendszergazdai jogosultsággal kell rendelkezik. Az adatokat az Office 365 portálon frissítheti, mert ezek az adatok nem frissíthetők a Partnerközpont portálról.
 
-1. A **fiók** oldalon láthatja, hogy az ügyfél minősítése "nem oktatási ügyfél".
+1. A **Fiók lapon** adatokat láthat, amelyek szerint az ügyfél-minősítés "Nem oktatási ügyfélnek" minősül.
 
-2. Frissítse a böngészőt az oldal alaphelyzetbe állításához. A **frissítés** gomb és a **speciális képzettségi állapot** értéke **none**.
+2. Frissítse a böngészőt az oldal alaphelyzetbe állításhoz. A Frissítés gomb **és** a Speciális **minősítések állapota** None (Nincs) **lesz.**
 
-3. Válassza a **Frissítés** lehetőséget. A **Service Management** lapon válassza az **Office 365** lehetőséget.
+3. Válassza a **Frissítés** lehetőséget. A **Szolgáltatáskezelés lapon** válassza az **Office 365 lehetőséget.**
 
-4. A böngésző új lapján a rendszer átirányítja az Office 365 felügyeleti központba. Előfordulhat, hogy a rendszer kéri, hogy jelentkezzen be a hitelesítő adataival.
+4. A böngésző egy új lapján lesz átirányítva az Office 365 felügyeleti központjába. Előfordulhat, hogy a rendszer arra kéri, hogy jelentkezzen be a hitelesítő adataival.
 
 5. Válassza a **Beállítások** lehetőséget.
 
-6. A képernyő tetején válassza a **szervezeti profil** fület, majd a **szervezet adatai** elemet. Most már frissítheti az ügyfél adatait.
+6. Válassza a **képernyő tetején** található Szervezeti profil lapot, majd a Szervezeti **adatok lehetőséget.** Most már frissítheti az ügyfél adatait.
 
-7. Válassza a **módosítások mentése** elemet az oldalsáv alján.  
+7. Válassza **az oldalsáv** alján található Módosítások mentése lehetőséget.  
 
-### <a name="resubmit-for-verification"></a>Ellenőrzés újraküldése
+### <a name="resubmit-for-verification"></a>Újrakértés ellenőrzéshez
 
-1. Navigáljon a partner **Center lapra és a Vevőkód lapra** . Frissítse a böngészőt, és ellenőrizze, hogy a vállalat oldal frissítve lett-e az új adatokkal. Kattintson a **frissítés** gombra az oktatási ismételt ellenőrzés kéréséhez.
+1. Lépjen a Partnerközpont lapra, majd az **ügyfélfiók oldalára.** Frissítse a böngészőt, és ellenőrizze, hogy a Cég lap frissült-e az új információkkal. Válassza **az Update (Frissítés)** gombot az oktatás újraellenőrzésének igényléséhez.
 
-2. Ha a frissített vásárlói adatok oktatási ajánlatokra jogosultak, a **speciális képesítések** az **oktatásban** is megjelennek. Ha továbbra **sem oktatási felhasználó**, forduljon az ügyfélszolgálathoz a manuális ellenőrzéshez.
+2. Ha a frissített ügyféladatok jogosultak az oktatási  ajánlatokra, a Speciális minősítések az Educationre **frissülnek.** Ha továbbra is nem oktatási **ügyfélnek látja,** forduljon az ügyfélszolgálathoz a manuális ellenőrzéshez.
 
 ## <a name="next-steps"></a>Következő lépések
 
@@ -104,4 +100,4 @@ Az ügyfél adatainak frissítéséhez globális rendszergazdai jogosultságokka
 
 - [Új ügyfél hozzáadása](add-a-new-customer.md)
 
-- [Értékesítési Minecraft: Education Edition-előfizetés az oktatási ügyfeleknek](minecraft-subscriptions.md)
+- [Előfizetések Minecraft: Education Edition értékesítés oktatási ügyfeleknek](minecraft-subscriptions.md)

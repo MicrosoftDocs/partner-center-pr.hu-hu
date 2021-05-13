@@ -1,128 +1,123 @@
 ---
-title: A partner Center-eredmények viszonteladói teljesítményének irányítópultja
+title: Partnerközpont Insights-viszonteladók teljesítmény-irányítópultja
 ms.topic: article
 ms.date: 09/01/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A viszonteladói teljesítmény irányítópultja a partneri központban – áttekintést nyújt a CSP közvetett szolgáltatók különböző közvetett viszonteladóinak teljesítményéről.
+description: A Partnerközpont Insights viszonteladói teljesítmény irányítópultja áttekintést nyújt egy adott szolgáltatás különböző közvetett viszonteladói CSP Indirect Provider.
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7d2331cfb1b0edf25815de0070b5668d0b91df6f
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: a2a5697f19baadb5af956a745c032ce1711574d3
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086889"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855233"
 ---
-# <a name="reseller-performance-dashboard-in-partner-center-insights"></a>Viszonteladói teljesítmény irányítópultja a partneri központban – áttekintés
+# <a name="reseller-performance-dashboard-in-partner-center-insights"></a>Reseller Performance (Viszonteladói teljesítmény) irányítópult Partnerközpont Insightsban
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Jelentés megjelenítője
-- Executive Report Viewer
+A Partnerközpont Insights viszonteladói teljesítmény irányítópultja áttekintést nyújt egy adott szolgáltatás különböző közvetett viszonteladói CSP Indirect Provider. Az irányítópult adatokat biztosít az aktív viszonteladókról, arról, hogy mennyi bevételt termelnek, és hogy milyen termékek eredményeznek bevételt. A közvetett szolgáltatók név alapján kereshetnek egy adott viszonteladót, és a viszonteladó adatait a viszonteladó teljesítmény-irányítópultján kereshetik meg.
 
-A viszonteladói teljesítmény irányítópultja a partneri központban – áttekintést nyújt a CSP közvetett szolgáltatók különböző közvetett viszonteladóinak teljesítményéről. Az irányítópulton az aktív viszonteladók, az általuk generált bevételek és a bevételi bevételek mennyisége látható. A közvetett szolgáltatók megkereshetik a név alapján egy adott viszonteladót, és megkereshetik a viszonteladóra vonatkozó részleteket a viszonteladói teljesítmény irányítópultján.
-
-A következő szakaszt a viszonteladói teljesítmény irányítópulton tekintheti meg.
+A következő szakaszokat a Viszonteladói teljesítmény irányítópulton tudja megtekinteni.
 
 - Összefoglalás
-- Viszonteladók földrajzi eloszlása
-- Viszonteladók hozzáadása/adatforgalom 
-- Viszonteladói bevételi trend 
+- A viszonteladók földrajzi eloszlése
+- Viszonteladók hozzáadása/lemorzsolódása 
+- Viszonteladók bevételi trendje 
 - Viszonteladói teljesítmény termékek szerint
-- Aktív viszonteladók partneri helyük szerint
-- Bevétel földrajzi eloszlásának trendje
-- Viszonteladói teljesítmény az ügyfél szegmense szerint
-- Viszonteladói MPA aláírási állapota
+- Aktív viszonteladók partnerhelyek szerint
+- Bevételi földrajzi eloszlás trendje
+- Viszonteladói teljesítmény ügyfélszegmens szerint
+- Reseller MPA signing status
 
  > [!NOTE]
- > Ez a jelentés az áttekintések irányítópultján érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a partner Centerben, például a globális rendszergazda, a fiók rendszergazdája, a jelentéskészítő vagy a Executive Report Viewer. További információ: a vállalat globális rendszergazdája. a jelentésben megadott adattípusok csak a Executive Report Viewer jogosultságokkal rendelkező felhasználók számára is elérhetők.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információkért lásd a vállalat globális rendszergazdáját. A jelentésben szereplő konkrét adattípusok csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők lehetnek.
 
 ## <a name="summary"></a>Összefoglalás
 
-Az összefoglalás szakasz a CSP közvetett szolgáltatóhoz kapcsolódó fő teljesítménymutatók (KPI-k) pillanatkép-nézetét jeleníti meg.
+Az összefoglaló szakasz a fő teljesítménymutatók (KPI-k) pillanatkép-nézetét mutatja be a CSP Indirect Provider.
 
-- Aktív viszonteladók: azon viszonteladók száma, akik legalább egy aktív előfizetéssel rendelkeznek az adott hónapban.
+- Aktív viszonteladók: Azok a viszonteladók, akik legalább egy aktív előfizetéssel rendelkezik az ebben a hónapban.
 
-A Micro diagram bemutatja a különböző viszonteladók hónapról hónapra kiterjedő trendjét, akik aktívak voltak a kiválasztott időtartományban.
+A Mikrodiagram a kiválasztott dátumtartományban aktív viszonteladók havi trendjét mutatja.
 
-- Tranzakciós viszonteladók: azon viszonteladók száma, akik legalább egy előfizetést értékesítettek az adott hónapban. 
+- Tranzakciós viszonteladók: Azok a viszonteladók száma, akik legalább egy előfizetést adtak el az adott hónapban. 
 
-A Micro diagram a kiválasztott dátumtartomány esetében regisztrált viszonteladók havi hónapjának alakulását mutatja be.
+A Mikrodiagram a kiválasztott dátumtartományhoz regisztrált viszonteladók havi trendjét mutatja.
 
-- Új viszonteladók: azoknak a viszonteladóknak a száma, akik az adott hónapban megkezdték a közvetett szolgáltatóval való tranzakciót. 
+- Új viszonteladók: Azok a viszonteladók száma, akik az ebben a hónapban a közvetett szolgáltatóval kezdték meg a tranzakciót. 
 
-A Micro diagram a kiválasztott dátumtartomány során az új viszonteladók teljes számának hónaphoz képesti trendjét mutatja.
+A Mikrodiagram a kiválasztott dátumtartományban található új viszonteladók teljes számát ábrázoló havi trendet mutatja.
 
-- Számlázott bevétel USD: az adott hónapban a viszonteladók által vezérelt USD bevétel. 
+- Számlázható bevétel USD-ben: A viszonteladók által az ebben a hónapban meghatározott usd-ben meghatározott bevétel. 
 
-A Micro diagram a bevétel hónapon belüli alakulását mutatja be a kiválasztott dátumtartomány szerint.
+A Mikrodiagram a kiválasztott dátumtartományra vonatkozó bevétel havi trendjét mutatja.
 
-- A számlázott bevétel termékek szerint szakasz havonta havi bontásban jeleníti meg a számlázott bevételt USD-ben, az eladott termékek felosztásával. 
+- A termékek szerint számlázható bevétel szakasz a számlázható bevétel USD-ben meghatározott havi részletezése alapján, eladott termékek szerint lebontva. 
 
-:::image type="content" source="images/pci/pci-res-perf-summary-1.png" alt-text="a viszonteladók teljesítményének összefoglalása":::
+:::image type="content" source="images/pci/pci-res-perf-summary-1.png" alt-text="viszonteladók teljesítményösszegzése":::
 
-## <a name="geographical-spread-of-resellers"></a>Viszonteladók földrajzi eloszlása
+## <a name="geographical-spread-of-resellers"></a>A viszonteladók földrajzi eloszlése
 
-A * * viszonteladók földrajz szerint nézet a viszonteladók földrajzi eloszlását adja meg. Ezen Widget használatával a partnerek megtekinthetik az összes **viszonteladót**, **új viszonteladót** és **számlázott bevételt (USD)**, különböző földrajzi területek felosztásával.
+A **Viszonteladók földrajzi hely szerint nézet a viszonteladók földrajzi eloszlását biztosítja. Ezzel a widgettel a partnerek megtekinthetik az összes **viszonteladót,** új viszonteladót és számlás bevételt **(USD),** különböző földrajzi területek szerint elosztva.
 
-Megkeresheti és kiválaszthatja a rács egyik országát, hogy a térképen lévő helyre nagyítson. A térképen a **Home (Kezdőlap** ) lehetőség megnyomásával visszaállíthatja az eredeti nézetet. Vigye az egérmutatót a térképen a **számlázott bevétel (USD)** országonkénti megtekintéséhez. A rácson számlázott bevétel (USD) mező rendezhető.
+Megkeresheti és kiválaszthatja a rács egyik országát, hogy ráközelítsen a térkép helyére. A térkép **Kezdőlap** lehetőségének lenyomása az eredeti nézetre való visszaállításhoz. Vigye az egérmutatót a térképre a számlás **bevétel (USD) országonkénti** megtekintéséhez. A rácson a Számlázható bevétel (USD) mező rendezhető.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-by-geo-1.png" alt-text="Viszonteladók földrajz szerint ":::
+:::image type="content" source="images/pci/pci-res-perf-resel-by-geo-1.png" alt-text="Viszonteladók földrajzi hely szerint ":::
 
-## <a name="resellers-addchurns"></a>Viszonteladók hozzáadása/adatforgalom
+## <a name="resellers-addchurns"></a>Viszonteladók hozzáadása/lemorzsolódásai
 
-Ez a nézet egy hónapot biztosít az **új viszonteladók**, a megszakított **viszonteladók** és a **meglévő viszonteladók** számára. 
+Ez a nézet egy havi felosztást biztosít az új viszonteladók, a lemorzsolódásos viszonteladók és a meglévő viszonteladók számának havi **felosztásában.** 
 
-- Új viszonteladók: azoknak a viszonteladóknak a száma, akik újonnan regisztráltak a közvetett szolgáltatónál a kiválasztott dátumtartomány során.
-- Átesett viszonteladók: azon viszonteladók száma, akik nem rendelkeznek tranzakcióval az elmúlt hat hónapban, kivéve az aktuális hónapot.
-- Meglévő viszonteladók: az előző hónapban lebonyolított viszonteladók száma.
+- Új viszonteladók: A közvetett szolgáltatóval újonnan regisztrált viszonteladók száma a kiválasztott dátumtartományban.
+- Lemorzsolódásos viszonteladók: Azok a viszonteladók száma, akik az elmúlt hat hónapban nem tranzakcióval teljesek, kivéve az aktuális hónapot.
+- Meglévő viszonteladók: Az előző hónapban tranzakciót eladó viszonteladók száma.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-add-churn-1.png" alt-text="Viszonteladók hozzáadása/adatforgalom":::
+:::image type="content" source="images/pci/pci-res-perf-resel-add-churn-1.png" alt-text="Viszonteladók hozzáadása/lemorzsolódása":::
 
-## <a name="resellers-revenue-trend"></a>Viszonteladói bevételi trend 
+## <a name="resellers-revenue-trend"></a>Viszonteladók bevételi trendje 
 
-Ez a nézet a számlázott bevétel (USD) havi trendjét biztosítja a termékek (például a O365, a D365, az EMS, a Power BI és az Azure) felosztásával. A teljes metrikák összesítése a különböző termékek között történik minden hónapban. A partner megkeresheti az adott viszonteladó nevét, és megkeresheti az adott viszonteladóra vonatkozó adatkeresést. A rácson számlázott bevétel (USD) mező rendezhető.
+Ebben a nézetben a kiszámlázható bevétel (USD) havi trendje látható, termékenként (O365, D365, EMS, Power BI és Azure). A rendszer minden hónapban összesíti a különböző termékek összesített metrikait. A partner név alapján kereshet egy adott viszonteladót, és megkeresheti az adott viszonteladó adatait. A rácson a Számlás bevétel (USD) mező rendezhető.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-rev-trend-1.png" alt-text="Viszonteladói bevételi trend":::
+:::image type="content" source="images/pci/pci-res-perf-resel-rev-trend-1.png" alt-text="Viszonteladók bevételi trendje":::
 
 ## <a name="reseller-performance-by-products"></a>Viszonteladói teljesítmény termékek szerint
 
-Ez a nézet a legfontosabb metrikákat, például a számlázott bevételeket, az előfizetések darabszámát, valamint a licencek darabszámát adja meg havonta, a különböző termékek alapján. A jobb oldali tortadiagram azt jelzi, hogy a metrikák teljes felosztása különböző termékek alapján történik, így a partner gyors áttekintést nyújt a különböző termékekből származó felbomlásról, amelyet a viszonteladó árul.
+Ez a nézet olyan kulcsfontosságú metrikák felosztását biztosítja, mint a számlás bevétel, az előfizetések száma és a licencek száma különböző termékek szerint havonta. A jobb oldalon látható tortadiagram a metrikák különböző termékekre való teljes felosztását jelzi, így a partner gyorsan bepillantást nyerhet a viszonteladó által eladott különböző termékekre vonatkozó felosztásba.
 
 :::image type="content" source="images/pci/pci-res-perf-resel-perf-product-1.png" alt-text="Viszonteladói teljesítmény termékek szerint":::
 
-## <a name="active-resellers-by-partner-locations"></a>Aktív viszonteladók partneri helyük szerint
+## <a name="active-resellers-by-partner-locations"></a>Aktív viszonteladók partnerhelyek szerint
 
-Ez a nézet a partneri földrajzi területek aktív viszonteladóinak felosztását biztosítja. Az első öt földrajzi terület a jelmagyarázatban látható, a fennmaradóak pedig "others" kategóriába vannak sorolva.
+Ez a nézet az aktív viszonteladók partner földrajzi hely szerint való felosztását biztosítja. Az első öt földrajzi hely a jelmagyarázatban, a többi pedig "Egyéb" kategóriába van sorolva.
 
-:::image type="content" source="images/pci/pci-res-perf-part-loc-1.png" alt-text="Aktív viszonteladók partneri helyük szerint":::
+:::image type="content" source="images/pci/pci-res-perf-part-loc-1.png" alt-text="Aktív viszonteladók partnerhelyek szerint":::
 
-## <a name="revenue-geo-distribution-trend"></a>Bevétel földrajzi eloszlásának trendje
+## <a name="revenue-geo-distribution-trend"></a>Bevételi földrajzi eloszlás trendje
 
-Ez a nézet egy hónapot biztosít az első öt földrajzi régió által felosztott számlázott bevétel (USD) havi trendjeiről.  A bevétel többi részét "Egyebek"-ként kategorizáljuk.
+Ez a nézet az első öt földrajzi hely szerint felosztott számlás bevétel (USD) havi trendjét biztosítja.  A bevétel többi része "Egyéb" kategóriába van sorolva.
 
-:::image type="content" source="images/pci/pci-res-perf-rev-geo-trend-1.png" alt-text="Bevétel földrajzi eloszlásának trendje":::
+:::image type="content" source="images/pci/pci-res-perf-rev-geo-trend-1.png" alt-text="Bevételi földrajzi eloszlás trendje":::
 
-## <a name="reseller-performance-by-customer-segment"></a>Viszonteladói teljesítmény az ügyfél szegmense szerint
+## <a name="reseller-performance-by-customer-segment"></a>Viszonteladói teljesítmény ügyfélszegmens szerint
 
-Ez a nézet lehetővé teszi a partner számára, hogy megértse a bevétel USD, az előfizetések és a licencek számát, a különböző felhasználói szegmensek felosztásával. Az első öt ügyfél szegmens látható a diagramon, és a fennmaradó elemek a "mások" kategóriába vannak kategorizálva.
+Ez a nézet lehetővé teszi a partnerek számára a bevételi USD havi trendek, az előfizetések és licencek darabszámának a különböző ügyfélszegmensekre való felosztását. Az első öt ügyfélszegmens megjelenik a diagramon, a többi pedig "Egyéb" kategóriába van sorolva.
 
-:::image type="content" source="images/pci/pci-res-perf-resel-cust-seg-1.png" alt-text="Viszonteladói teljesítmény az ügyfél szegmense szerint":::
+:::image type="content" source="images/pci/pci-res-perf-resel-cust-seg-1.png" alt-text="Viszonteladói teljesítmény ügyfélszegmens szerint":::
 
-## <a name="reseller-mpa-signing-status"></a>Viszonteladói MPA aláírási állapota
+## <a name="reseller-mpa-signing-status"></a>Reseller MPA signing status (ViszonteladóI MPA aláírási állapota)
 
-Ez a nézet a viszonteladók (MPA) aláírási állapotát, valamint a további metaadatokat, például az MPN-ellenőrzés állapotát, a PMC és a számítógép áttelepítési állapotát tartalmazza.
+Ez a nézet biztosítja a viszonteladók MPA-aláírási állapotát, valamint további metaadatokat, például MPN-átvizsgálás állapotát, PMC–PC migrálási állapotot stb.
 
-:::image type="content" source="images/pci/pci-res-perf-mpa-stat-1.png" alt-text="Viszonteladói MPA aláírási állapota":::
+:::image type="content" source="images/pci/pci-res-perf-mpa-stat-1.png" alt-text="Reseller MPA signing status (ViszonteladóI MPA aláírási állapota)":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-- További jelentések: [partner Center](partner-center-insights.md)-információk.
+- További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
 
 >[!NOTE] 
-> A jelentést az elemzések irányítópultjának letöltési jelentések részéből töltheti le. [További információ](pci-download-reports.md) 
+> A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 

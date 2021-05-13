@@ -1,170 +1,165 @@
 ---
-title: Áthelyezés a Partner tagsági központjából
+title: Áthelyezés a Partner Membership Center
 ms.topic: article
 ms.date: 06/01/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Tekintse át a hasznos információkat és a gyakori kérdéseket, mielőtt áthelyezi vállalatát a Partner tagsági központjából a partner központjába.
+description: Tekintse át a hasznos információkat és a gyakori kérdéseket, mielőtt a vállalatot át Partner Membership Center a Partnerközpont.
 author: parthpandyamsft
 ms.author: parthp
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b267f89ec1c7b27e87eaaf3d7b594ebbd0fd6942
-ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
+ms.openlocfilehash: 7f533240d5236f03fe277d4c6dfa02ed1c58b63c
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105633879"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855012"
 ---
-# <a name="prepare-for-your-move-from-partner-membership-center-pmc-to-partner-center"></a>Felkészülés a partner Membership Center (PMC) és a partner Center közötti mozgásra
+# <a name="prepare-for-your-move-from-partner-membership-center-pmc-to-partner-center"></a>Készüljön fel a pmc Partner Membership Center ről a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Értékesítési ügynök
-- Felügyeleti ügynök
-
-A tagsági felügyeletet a partneri tagsági központból (PMC) helyezi át a partneri központba – ez az egyetlen cél a Microsofttal való üzleti kapcsolatok kezeléséhez. Azt szeretnénk, hogy a partner központhoz való áttérés a lehető leghatékonyabb és legegyszerűbb legyen. Azonosította azokat a területeket, ahol a partner központ eltér a PMCtól, és azt gondoljuk, hogy az áthelyezés előtt érdemes megismerni és előkészíteni őket.
+A tagságkezelést a Partner Membership Center (PMC)-ről a Partnerközpont - a Microsofttal való üzleti kapcsolat egyetlen célhelyre való áthelyezéséhez. Azt szeretnénk, hogy a Partnerközpont a lehető leghatékonyabb és könnyebb legyen. Azonosítottunk néhány olyan területet, ahol a Partnerközpont eltér a PMC-től, és úgy gondoljuk, hogy az áthelyezés előtt szeretnénk megérteni és felkészülni rájuk.
 
 ## <a name="account-and-identity-setup"></a>Fiók és identitás beállítása
 
-A fiók és az identitás beállításával kapcsolatos gyakori kérdésekre adott válaszokat alább találja.
+A fiók és az identitás beállításával kapcsolatos gyakori kérdésekre alább talál választ.
 
-### <a name="what-is-an-azure-active-directory-azure-ad-work-account"></a>Mi az Azure Active Directory (Azure AD) munkahelyi fiók?
+### <a name="what-is-an-azure-active-directory-azure-ad-work-account"></a>Mi az Azure Active Directory (Azure AD) munkahelyi fiókja?
 
-Az Azure-beli munkahelyi fiók a vállalat dedikált és elszigetelt virtuális ábrázolása az Azure nyilvános felhőben, amely akkor jön létre, amikor előfizet egy Microsoft Cloud Service-re (például Azure, Microsoft Intune vagy Office 365).
+Az Azure-beli munkahelyi fiók a vállalat dedikált és elkülönített virtuális reprezentációja az Azure nyilvános felhőben, amely akkor jön létre, amikor előfizet egy Microsoft-felhőszolgáltatásra, például az Azure-ra, az Microsoft Intune-re vagy az Office 365-re.
 
-Munkahelyi fiókja az Azure AD-felhasználókat és a rájuk vonatkozó információkat – az e-maileket, a jelszavakat, a profil adatait, az engedélyeket stb. – tárolja. A munkahelyi fiók a vállalatra és annak biztonságára vonatkozó csoportokat, alkalmazásokat és egyéb információkat is tartalmaz. 
+A munkahelyi fiókjában vannak az Azure AD-felhasználók, valamint azokkal kapcsolatos információk – az e-mail-címük, jelszavuk, profiladatok, engedélyek stb. A munkahelyi fiók csoportokat, alkalmazásokat és a vállalat biztonságával kapcsolatos egyéb információkat is tartalmaz. 
 
-Munkahelyi e-mail-címe az Azure Active Directory-bérlő részét képezi. Ahhoz, hogy fiókot lehessen létrehozni a partner Centerben, rendelkeznie kell egy HRE-Bérlővel. Azure Active Directoryról a [címtár létrehozása az Azure ad-ben](/azure/active-directory/fundamentals/add-custom-domain#create-your-directory-in-azure-ad)című témakörben olvashat bővebben.
+A munkahelyi e-mail-címe az Azure Active Directory-bérlő része. Ha fiókkal rendelkezik a Partnerközpont szüksége lesz egy AAD-bérlőre. A címtárral kapcsolatos további Azure Active Directory [a Címtár létrehozása az Azure AD-ban.](/azure/active-directory/fundamentals/add-custom-domain#create-your-directory-in-azure-ad)
 
-A partner Centerben a munkahelyi e-mail-címét fogja használni, hogy ne a személyes e-mail-címére jelentkezzen be a fiókjába.
+A Partnerközpont a munkahelyi e-mail-címével fog bejelentkezni a fiókjába, nem a személyes e-mail-címére.
 
-- Munkahelyi fiók: john@contoso.com
-- Személyes fiók: John@outlook.com
+- A munkahelyi fiók: john@contoso.com
+- Az Ön személyes fiókja: John@outlook.com
 
-### <a name="what-account-should-you-sign-into-partner-center-with-if-you-have-an-aad-tenant-with-microsoft-for-office-365-for-example-and-you-also-have-a-tenant-for-your-csp-business"></a>Milyen fiókkal kell bejelentkeznie a partneri központba, ha rendelkezik HRE-Bérlővel a Microsofttal (például Office 365), és Ön rendelkezik Bérlővel is a CSP vállalata számára?
+### <a name="what-account-should-you-sign-into-partner-center-with-if-you-have-an-aad-tenant-with-microsoft-for-office-365-for-example-and-you-also-have-a-tenant-for-your-csp-business"></a>Melyik fiókkal kell bejelentkeznie a Partnerközpont, ha microsoftos AAD-bérlővel rendelkezik (például Az Office 365-höz), és rendelkezik bérlővel a CSP-vállalkozáshoz is?
 
-A partner központba a CSP-fiókkal vagy az MPN munkahelyi e-mail-fiókjával lehet bejelentkezni. Ha úgy dönt, hogy bejelentkezik a CSP munkahelyi e-mail-címével, az irányítópult bal oldali navigációs felületén megjelenik az MPN és a CSP program információi is. Ha az MPN Azure AD-bérlő munkahelyi e-mail-címével jelentkezik be, csak az MPN-program adatait fogja látni. 
+Bejelentkezhet a Partnerközpont CSP-fiókkal vagy az MPN munkahelyi e-mail-fiókjával. Ha a CSP munkahelyi e-mail-címének használatával jelentkezik be, az irányítópult bal oldali navigációs sávján az MPN- és a CSP-program adatai is megjelennek. Ha az MPN Azure AD-bérlő munkahelyi e-mail-címére jelentkezik be, csak az MPN-program adatai fognak látni. 
 
-### <a name="if-you-dont-want-to-use-your-existing-office-365-azure-ad-tenant-for-partner-center-you-can-create-a-new-tenant-prior-to-migrating-from-pmc"></a>Ha nem szeretné használni a meglévő Office 365 Azure AD-bérlőt a partneri központban, létrehozhat egy új bérlőt a PMC-ból való áttelepítés előtt.
+### <a name="if-you-dont-want-to-use-your-existing-office-365-azure-ad-tenant-for-partner-center-you-can-create-a-new-tenant-prior-to-migrating-from-pmc"></a>Ha nem szeretné a meglévő Office 365 Azure AD-bérlőt használni az Partnerközpont-hez, létrehozhat egy új bérlőt a PMC-ről való áttelepítés előtt.
 
-Számos oka lehet annak, hogy nem kíván meglévő Azure AD-bérlőt használni a partner Center-fiók beállításához. Mielőtt megkezdené az áttelepítést a partneri központba, lépjen a [Azure Portal](https://ms.portal.azure.com/#home) egy új Azure ad-bérlő létrehozásához. Kövesse az [új bérlő létrehozása Azure Active Directoryban](/azure/active-directory/develop/quickstart-create-new-tenant)című témakör útmutatását. A partner Center-fiók beállításához használja az új HRE-bérlőt. A bérlő létrehozásához globális rendszergazdának kell lennie. 
+Számos oka lehet annak, ha nem szeretne meglévő Azure AD-bérlőt használni a Partnerközpont beállításhoz. Mielőtt megkezdi az áttelepítést a Partnerközpont, a Azure Portal [új](https://ms.portal.azure.com/#home) Azure AD-bérlő létrehozásához. Kövesse az Új bérlő [létrehozása a](/azure/active-directory/develop/quickstart-create-new-tenant)Azure Active Directory. Az új AAD-bérlővel beállíthatja a Partnerközpont fiókját. A bérlő létrehozásához globális rendszergazdának kell lennie. 
 
-### <a name="user-roles-including-guest-user-roles-in-partner-center"></a>Felhasználói szerepkörök, beleértve a vendég felhasználói szerepköröket a partner Centerben
+### <a name="user-roles-including-guest-user-roles-in-partner-center"></a>Felhasználói szerepkörök, beleértve a vendégfelhasználói szerepköröket a Partnerközpont
 
-A partner központ különböző típusú szerepkörökkel rendelkezik, attól függően, hogy milyen típusú feladatok szükségesek. Vannak olyan szerepkörök, mint például a globális rendszergazda Azure AD-szerepkörök. Néhány szerepkör olyan programokra vonatkozik, mint például a Cloud Service Provider program vagy az ösztönzők, és vannak olyan szerepkörök, amelyek az MPN-re vonatkoznak. Ha szeretné megtudni, hogy mi az összes partner Center-szerepkör, olvassa el a [felhasználói szerepkörök és engedélyek kiosztása](permissions-overview.md)című témakört.
+Partnerközpont szerepkörtípusa a szükséges munkatípusoktól függően eltérő. Vannak olyan szerepkörök, mint például a globális rendszergazda, amelyek Azure AD-szerepkörök. Egyes szerepkörök csak programokra vonatkoznak, például a felhőszolgáltatói programra vagy az ösztönzőkre, és vannak olyan szerepkörök, amelyek az MPN-hez vannak. Ha meg szeretne tudni minden Partnerközpont szerepkörről, olvassa el a Felhasználói szerepkörök és engedélyek [hozzárendelése cikkeket.](permissions-overview.md)
 
-### <a name="what-happens-to-my-users-roles-when-they-move-from-pmc-to-partner-center"></a>Mi történik a felhasználói szerepkörökkel, amikor a PMC-ből a partner központba költöznek?
+### <a name="what-happens-to-my-users-roles-when-they-move-from-pmc-to-partner-center"></a>Mi történik a felhasználók szerepköreivel, amikor a PMC-ről a Partnerközpont?
 
-Az MPN globális rendszergazdájának vagy elsődleges programjának az áttelepítést végző kapcsolatának kivételével a PMC összes felhasználója elveszíti a rendszergazdai szerepkörét. Az áttelepítést végző személynek hozzá kell rendelnie a szerepköröket a partner Centerben. A partner Center szerepkörei eltérnek a PMC szerepköreitől. A (z) [felhasználói szerepkörök és engedélyek kiosztása] (engedélyek – overview.md és a PMC közötti váltás a [partner Centerben](move-pmc-pc-map.md#user-roles) ) című cikkből tájékozódhat bővebben a partner Center felhasználói szerepköreiről.
+A PMC összes felhasználója elveszíti a rendszergazdai szerepkörét, kivéve az MPN globális rendszergazdai vagy elsődleges program kapcsolattartóját, aki a migrálást vezeti. Az áttelepítést lezáró személynek szerepköröket kell hozzárendelni a Partnerközpont. A szerepkörei Partnerközpont különböznek a PMC szerepköreitől. További információért olvassa el a [Felhasználói szerepkörök és engedélyek hozzárendelése] (permissions-overview.md és [Moving from PMC to Partnerközpont](move-pmc-pc-map.md#user-roles) to Partnerközpont (A felhasználói szerepkörök és engedélyek hozzárendelése] (permissions-overview.md és Moving from PMC to Partnerközpont ( Áthelyezés PMC-ről Partnerközpont.
 
-### <a name="whats-the-difference-between-my-company-profile-and-my-business-profile"></a>Mi a különbség a céges profil és az üzleti profil között?
+### <a name="whats-the-difference-between-my-company-profile-and-my-business-profile"></a>Mi a különbség a vállalati profilom és az üzleti profilom között?
 
-A céges profil a vállalattal kapcsolatos információ, amely tartalmazza a címeket, a helyszíneket, az elsődleges kapcsolattartási, a banki és az adózási adatokat.
+A céges profil a vállalatra vonatkozó olyan információk, amelyek tartalmazzák a címet, a helyeket, az elsődleges kapcsolattartót, a bankot és az adózási adatokat.
 
-Az Ön üzleti profilja az, hogy Ön hogyan jeleníti meg az ügyfeleket, és egy marketing-oldal, amely megjeleníti a logóját, az üzleti fókusz részleteit, a szaktudását stb.
+Üzleti profiljával mutatja be magát az ügyfeleknek, és egy marketingoldalt, amely megjeleníti az emblémát, az üzleti fókusz részleteit, a szakértelmét stb.
 
-### <a name="what-does-account-consolidation-mean-for-my-account"></a>Mit jelent a fiók összevonása a fiókomhoz?
+### <a name="what-does-account-consolidation-mean-for-my-account"></a>Mit jelent a fiókkonszolidáció a fiókomra nézve?
 
-Ha ugyanazt az Azure AD-bérlőt használja több MPN-fiók áttelepítéséhez a partner Centerben, a rendszer automatikusan felismeri ezt, és megkéri a fiókok konszolidálását. Ez akkor is igaz, ha ugyanahhoz az Azure AD-bérlőhöz több tartomány van társítva. 
+Ha ugyanazt az Azure AD-bérlőt használja több MPN-fiók Partnerközpont-be való áttelepítéséhez, a rendszer automatikusan felismeri ezt, és megkéri, hogy vonja össze a fiókjait. Ez akkor is igaz, ha több tartomány van társítva ugyanhoz az Azure AD-bérlőhöz. 
 
-Továbbra is dönthet úgy, hogy különálló HRE-bérlők használatával áttelepíti a partneri központba, de ez a kompetenciák elkülönített kiértékelését és az extra vásárlási költségeket eredményezi. A fiókok konszolidálásával kapcsolatos további információkért olvassa el [a vállalati fiókok konszolidálása](consolidate-accounts.md) című témakört.
+Dönthet úgy is, hogy külön AAD Partnerközpont t használ, de vegye figyelembe, hogy ez a kompetenciák elkülönített kiértékelése és további vásárlási költségek mellett is jár. A fiókkonszolidációval kapcsolatos további információkért olvassa el [A vállalati fiókok konszolidálása](consolidate-accounts.md)
 
-### <a name="if-i-have-multiple-aad-tenants-and-a-single-mpn-account-is-it-possible-to-link-them-in-partner-center"></a>Ha több HRE-Bérlővel és egyetlen MPN-fiókkal rendelkezem, akkor lehetséges, hogy összekapcsolja őket a partner Centerben?
+### <a name="if-i-have-multiple-aad-tenants-and-a-single-mpn-account-is-it-possible-to-link-them-in-partner-center"></a>Ha több AAD-bérlővel és egyetlen MPN-fiókkal is rendelkezik, összekapcsolni lehet őket egy Partnerközpont?
 
-Igen, a partner Centerben több Azure AD-bérlőt is csatolhat egyetlen partner Center-fiókhoz.
-A fiókok konszolidálásával kapcsolatos további információkért olvassa el [a vállalati fiókok konszolidálása](consolidate-accounts.md) című témakört.
+Igen, Partnerközpont több Azure AD-bérlőt is összekapcsolhat egyetlen Partnerközpont fiókkal.
+A fiókkonszolidációval kapcsolatos további információkért olvassa el [A vállalati fiókok konszolidálása](consolidate-accounts.md)
 
-### <a name="are-there-restrictions-to-adding-multiple-azure-ad-tenants-to-a-single-partner-center-account"></a>Vannak korlátozások több Azure AD-bérlő egyetlen partner Center-fiókhoz való hozzáadására?
+### <a name="are-there-restrictions-to-adding-multiple-azure-ad-tenants-to-a-single-partner-center-account"></a>Vonatkozik korlátozás több Azure AD-bérlő hozzáadására egyetlen Partnerközpont fiókhoz?
 
-Ha az Azure AD-bérlő már társítva van egy meglévő partner Center-fiókhoz, akkor az nem rendelhető hozzá az új partner Center-fiókokhoz a több-bérlős szolgáltatás használatával. Egy másik lehetőség arra is, hogy az Azure AD-bérlő csak egy partner Center-fiókhoz társítható, de a partner Center-fiókhoz több bérlő is tartozhat.
+Ha az Azure AD-bérlő már társítva van egy meglévő Partnerközpont-fiókkal, nem társítható új Partnerközpont-fiókokhoz a több-bérlős funkcióval. Úgy is fel lehet gondolni, hogy egy Azure AD-bérlő csak egy Partnerközpont-fiókhoz társítható, de egy Partnerközpont-fiókhoz több bérlő is társítható.
 
-## <a name="microsoft-partner-network-mpn-membership-migration"></a>Microsoft Partner Network (MPN) tagság migrálása 
+## <a name="microsoft-partner-network-mpn-membership-migration"></a>Microsoft Partner Network (MPN) tagságának áttelepítése 
 
-Az MPN-tagság áttelepítésével kapcsolatos gyakori kérdésekre a következő válaszokat talál.
+Tekintse meg az alábbi válaszokat az MPN-tagság áttelepítésével kapcsolatos gyakori kérdésekre.
 
-### <a name="who-can-perform-the-move-from-pmc-to-partner-center"></a>Kik végezhetik el az áttérést a PMC-ből a partner-központba?
+### <a name="who-can-perform-the-move-from-pmc-to-partner-center"></a>Ki végezheti el a PMC-ről a Partnerközpont?
 
-A vállalat MPN globális rendszergazdája vagy az elsődleges program kapcsolata (ezt a két szerepkört gyakran ugyanaz a személy tartja) kezdeményezheti és elvégezheti az áthelyezést.
+A vállalat MPN globális rendszergazdája vagy a program elsődleges kapcsolattartója (ezt a két szerepkört gyakran ugyanaz a személy végzi) kezdeményezheti és végrehajthatja az áthelyezést.
 
-### <a name="will-the-person-completing-the-migration-become-the-primary-contact-on-the-company-legal-profile-in-partner-center"></a>Az áttelepítést végző személy lesz az elsődleges kapcsolattartó a vállalati jogi profilban a partner Centerben?
+### <a name="will-the-person-completing-the-migration-become-the-primary-contact-on-the-company-legal-profile-in-partner-center"></a>A migrálást befejező személy lesz az elsődleges kapcsolattartó a vállalat jogi profilján a Partnerközpont?
 
-Nem feltétlenül szükséges azonban, hogy az elsődleges kapcsolattartónak olyan személynek kell lennie, akinek van engedélye a szerződések aláírására.
+Az elsődleges kapcsolattartónak azonban nem feltétlenül kell olyannak lennie, aki engedéllyel rendelkezik a szerződések aláíráshoz.
 
-### <a name="can-microsoft-migrate-my-mpn-membership-for-me"></a>Áttelepíthetik a Microsoft MPN-tagságát?
+### <a name="can-microsoft-migrate-my-mpn-membership-for-me"></a>Át tudja-e milálni a Microsoft az MPN-tagságomat?
 
-Nem. A Microsoft nem tud segíteni a tagsági fiókjának a partner központba való áthelyezésében. A fiókját úgy kell áthelyeznie, hogy bejelentkezik a PMC szolgáltatásba a munkahelyi fiókjával (bejelentkezési hitelesítő adatokkal) az áttelepítési folyamat megkezdéséhez. Miután elvégezte a fiók áthelyezésének lépéseit, megkezdheti a tagság kezelését és a felhasználói szerepkörök és engedélyek hozzárendelését a csapathoz, hogy hozzáférhessenek az előnyökhöz, és segítsenek a tagság kezelésében. 
+Nem. A Microsoft nem tud segíteni a tagsági fiók partnerközpontba való áthelyezésében. A migrálási folyamat megkezdéséhez át kell áthelyezni a fiókját a PMC-be a munkahelyi fiókjával (bejelentkezési hitelesítő adatokkal). Miután befejezte a fiók áthelyezésének lépéseit, elkezdheti a tagság kezelését, és felhasználói szerepköröket és engedélyeket rendelhet a csapathoz, hogy hozzáférnek az előnyökhöz, és segítsenek a tagság kezelésében. 
 
-A Microsoft automatikusan áttelepíti az aktuális kompetenciákat, előnyöket, a tartózkodási hely adatait, a banki/adózási adatokat, valamint az MCP-társításokat, beleértve a partneri egyetemi hozzáférést is.
+A Microsoft automatikusan átemeli az aktuális kompetenciákat, előnyöket, helyadatokat, az ösztönzők banki/adóinformációit, valamint az MCP-társításokat, beleértve a Partner University-hozzáférést is.
 
 ### <a name="how-will-the-renewal-policy-change"></a>Hogyan változik a megújítási szabályzat?
 
-A partner Centerben a megújítási időszak a következő 30 napon keresztül érhető el az évfordulós időpontból.
+Ebben Partnerközpont megújítási időszak az évforduló dátumáról a következő 30 napra esik.
 
-### <a name="will-our-competencies-remain-unchanged-after-we-move-to-partner-center"></a>A kompetenciánk változatlan marad a partneri központba való áttérés után?
+### <a name="will-our-competencies-remain-unchanged-after-we-move-to-partner-center"></a>A kompetenciák változatlanok maradnak, miután áttértünk a Partnerközpont?
 
-Igen, az áthelyezés a partneri központba nem érinti a kompetenciákat. Ha eltéréseket észlel, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support).
+Igen, a kompetenciákra nem lesz hatással a Partnerközpont. Ha eltéréseket tapasztal, forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/support)
 
-### <a name="will-my-benefits-including-cloud-benefits-technical-support-software-benefits-visual-studio-change-after-we-move"></a>Az előnyök (beleértve a Felhőbeli előnyöket, a technikai támogatást, a szoftverek előnyeit, a Visual studiót) változnak a költözés után?
+### <a name="will-my-benefits-including-cloud-benefits-technical-support-software-benefits-visual-studio-change-after-we-move"></a>Megváltoznak az előnyeim (beleértve a felhőbeli előnyöket, a műszaki támogatást, a szoftveres előnyöket Visual Studio) az áthelyezés után?
 
-A jogosult kedvezmények nem változnak. Ha eltéréseket észlel, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/support).
+A jogosult előnyök nem változnak. Ha eltéréseket tapasztal, forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/support)
 
-### <a name="will-our-microsoft-accounts-that-have-visual-studio-benefits-allocations-be-honored"></a>Meg kell-e adni Microsoft-fiókjaikat a Visual Studio előnyeinek kiosztásával?
+### <a name="will-our-microsoft-accounts-that-have-visual-studio-benefits-allocations-be-honored"></a>Tiszteletben fogják-e Visual Studio kedvezményekkel rendelkező Microsoft-fiókokat?
 
-Igen. A Visual Studio MSAs kiosztott előnyeit tiszteletben kell tartani és megőrizni. Ezeket a megújítást követően is megőrzi a rendszer a partner Centerben. Ha azonban eltávolít egy MSA-kiosztást a partnervállalat áttelepítése után, azt nem lehet ismét hozzáadni a partner központhoz.
+Igen. Visual Studio MBA-k számára kiosztott előnyöket a program tiszteletben tartja és megőrzi. A megújítás után is megmaradnak a Partnerközpont. Ha azonban eltávolít egy MSA-foglalást az Partnerközpont-ban, nem használhatja újra a Partnerközpont.
 
-A partner Centerben egy partner felveheti a munkahelyi fiókokat és a vendég felhasználói fiókokat, amelyek ugyanabból a bérlőből származnak, ahol az Azure AD-bérlőben a partner MSA MPN-rendszergazda. Ha a partner globális rendszergazda több Azure AD-bérlőben, és ezek a bérlők ugyanahhoz a partner Center-fiókhoz vannak társítva, akkor a partner az összes bérlőn elérhetővé teheti a felhasználók számára a Visual Studio előnyeit és az Azure használati alapú foglalásait.
+Ebben Partnerközpont partner munkahelyi és vendégfelhasználói fiókokat adhat hozzá, amelyek MSA-k ugyanattól a bérlőtől, ahol a partner MPN-rendszergazda az Azure AD-bérlőben. Ha a partner több Azure AD-bérlő globális rendszergazdája, és ezek a bérlők ugyanannak az Partnerközpont-fióknak a fiókjához vannak társítva, akkor a partner hozzáadhat felhasználókat az összes bérlőhöz az Visual Studio előnyeihez és az Azure használatalapú foglalásaihoz.
 
-Habár a vendég felhasználók a Visual studióhoz tartozó használati alapú előfizetéseket rendelhetik hozzá az MPN-rendszergazda vagy a globális rendszergazda számára, a vendég felhasználók nem tudnak bejelentkezni a MSA. A vendég felhasználóknak azonban be kell jelentkezniük az Azure-ba és a Visual studióba, hogy érvényesítsék és használják a hozzájuk rendelt előnyöket.
+Bár a vendégfelhasználókhoz az MPN-rendszergazda vagy a globális rendszergazda Visual Studio hozzárendelhet használatalapú előfizetéseket, a vendégfelhasználók nem Partnerközpont msa-val. A vendégfelhasználók azonban bejelentkeznek az Azure-ba, és Visual Studio és kihasználhatja a hozzárendelt előnyöket.
 
-### <a name="how-should-we-manage-our-mcp-associations-and-our-partner-university-access"></a>Hogyan kezeljük az MCP-társításokat és a partneri egyetemi hozzáférést?
+### <a name="how-should-we-manage-our-mcp-associations-and-our-partner-university-access"></a>Hogyan kezelnünk kell az MCP-társításokat és a Partner University-hozzáférést?
 
-A PMC-ből áthelyezett MCP-társítások nem változnak. A partner Centerre való áttérést követően azonban minden új alkalmazotthoz társítani kell a partner centert. A meglévő felhasználókra vonatkozó összes partneri egyetemi engedély továbbra is fennáll, de az új alkalmazottaknak [a képzési központban](https://partner.microsoft.com/training) kell megjelenniük a partneri Egyetem elérésének módjával kapcsolatban.
+A PMC-ről nem módosulnak az MCP-társítások. Az új alkalmazottakat azonban a Partnerközpont után a Partnerközpont. A Partner University meglévő felhasználókra vonatkozó összes engedélye megmarad, de az új alkalmazottaknak a képzési központba kell átmenni, hogy információt szerezzenek arról, hogyan lehet hozzáférni a Partner Universityhez. [](https://partner.microsoft.com/training)
 
-### <a name="how-do-i-view-mcp-information-once-i-move-to-partner-center"></a>Hogyan az MCP-információk megtekintését a partneri központba való áttérés után?
+### <a name="how-do-i-view-mcp-information-once-i-move-to-partner-center"></a>Hogyan MCP-információkat, miután továbblépek a Partnerközpont?
 
-Válassza ki a **kompetenciákat** a bal oldali navigációs panelen az irányítópulton. A **kompetenciák** lapon letöltheti a szaktudás jelentését. A szaktudás jelentés felsorolja azokat a felhasználókat, akik a partner központ kompetenciáinak és programjainak megfelelő képességeket szereztek be. Ha a felhasználók szaktudást szereztek, de ezek a képességek nem relevánsak a jelenleg használt kompetenciák szempontjából, nem fognak szerepelni a jelentésben.
+Az **irányítópult bal oldali** navigációs sávján válassza a Kompetenciák lehetőséget. A **Kompetenciák lapon** letöltheti a készségjelentést. A képességjelentés azokat a felhasználókat sorolja fel, akik az adott programon belül a megfelelő kompetenciákhoz és programokhoz Partnerközpont. Ha a felhasználók megszerezték a készségeiket, de ezek a készségek nem relevánsak az Ön által elért kompetenciák szempontjából, akkor nem fognak szerepelni a jelentésben.
 
-### <a name="are-customer-references-used-in-partner-center"></a>A partner Centerben használják a Customer-referenciákat?
+### <a name="are-customer-references-used-in-partner-center"></a>Használnak ügyfélhivatkozásokat a Partnerközpont?
 
-Nem szükséges, hogy az ügyfél-referenciák megfeleljenek a partnervállalat kompetenciával kapcsolatos követelményeinek.
+Nem, a kompetenciakövetelmények követelményeinek való megfeleléshez nincs szükség ügyfélreferenciákra a Partnerközpont.
 
-### <a name="will-partner-of-record-associations-move-to-partner-center"></a>A Record Associations partnere a partner központba lép?
+### <a name="will-partner-of-record-associations-move-to-partner-center"></a>Át fog költözni a rekordtársítási partner Partnerközpont?
 
-Igen, a rekord partnerének nincs változása. További információ a [partner azonosítójának az ügyfelekhez való összekapcsolásáról](/azure/billing/billing-partner-admin-link-started).
+Igen, a Rekordpartner nem változik. További információ a [partnerazonosító az ügyfelekhez való csatolásával kapcsolatban.](/azure/billing/billing-partner-admin-link-started)
 
-### <a name="is-there-an-impact-to-incentives-because-of-the-move-to-partner-center"></a>Van-e hatása az ösztönzőkre a partneri központba való áttérés miatt?
+### <a name="is-there-an-impact-to-incentives-because-of-the-move-to-partner-center"></a>Van hatással az ösztönzőkre a következőre való Partnerközpont?
 
-Nem, a rendszer nem befolyásolja az ösztönzőket, ha a fiókját konszolidáló hely nélkül helyezte át. Ha a vállalat több fiókkal rendelkezik a PMC-ben, és ha a partneri központba költözik, globális fiókba kerül, nem fog csökkenni az ösztönzők, de az ösztönző kifizetése is késleltethető. 
+Nem, az ösztönzőkre nincs hatással, ha a fiókját a helyek konszolidálása nélkül költözte át. Ha a vállalkozása több PMC-fiókkal rendelkezik, és a Partnerközpont-ba való áthelyezéskor úgy dönt, hogy egy globális fiókba konszolidálja azt, az ösztönzők nem lesznek veszteséggel, de az ösztönzők kifizetése késhet. 
 
-Ha nem helyezi át az ösztönző programokban érintett összes PMC-fiókot, akkor leállíthatja az ezekhez a fiókokhoz kötött ösztönzők beszerzését.
+Ha nem áthelyezi az összes olyan PMC-fiókot, amely részt vett az ösztönzőprogramokban, akkor leállíthatja az ezekhez a fiókokhoz kötődő bevételi ösztönzőket.
 
-### <a name="what-are-the-incentive-roles-in-partner-center"></a>Milyen ösztönző szerepkörök vannak a partner Centerben?
+### <a name="what-are-the-incentive-roles-in-partner-center"></a>Mik az ösztönzők szerepkörei a Partnerközpont?
 
-A fiókpartner ösztönző szerepkörei a helyükön alapulnak, és az ösztönzők rendszergazdai és ösztönző felhasználói. A szerepkörökkel kapcsolatos további információkért lásd: [felhasználói szerepkörök és engedélyek kiosztása](permissions-overview.md).
+Az ösztönzők szerepkörei Partnerközpont helyalapúak, és az ösztönzők adminisztrátorát és az ösztönzők felhasználóját is tartalmazzák. A szerepkörökkel kapcsolatos további információkért lásd: Felhasználói [szerepkörök és engedélyek hozzárendelése.](permissions-overview.md)
 
-### <a name="can-incentives-admins-be-assigned-at-the-global-and-location-level"></a>A rendszergazdák a globális és a hely szintjén is hozzárendelhetők?
+### <a name="can-incentives-admins-be-assigned-at-the-global-and-location-level"></a>Hozzárendelhető-e az ösztönzőrendszergazdák globális és helyszinten?
 
-Igen. Az ösztönző rendszergazdákat az összes hely ösztönző rendszergazdájának kiosztásával, vagy az egyes helyekhez saját ösztönző rendszergazda is tartozhat.
+Igen. Hozzárendelhet egy ösztönzők rendszergazdáját az összes helyhez, vagy minden helyhez saját ösztönzőrendszergazdát rendelhet hozzá.
 
-### <a name="can-incentives-be-paid-at-the-global-or-location-level"></a>Az ösztönzők globális vagy tartózkodási szinten is megfizethetők?
+### <a name="can-incentives-be-paid-at-the-global-or-location-level"></a>Fizethet az ösztönzők globális vagy helyszinten?
 
-Az ösztönzőket csak a hely szintjén kell fizetni.
+Az ösztönzőket csak a hely szintjén fizetik ki.
 
-### <a name="regarding-referrals-how-many-business-profiles-can-we-create"></a>Milyen számú üzleti profil hozható létre?
+### <a name="regarding-referrals-how-many-business-profiles-can-we-create"></a>A hivatkozások esetében hány üzleti profilt hozhatunk létre?
 
-A vállalat annyi üzleti profilt hozhat létre, amennyire szüksége van a vállalata érdekeinek teljes körű megjelenítéséhez. Minden üzleti profilban legfeljebb öt helyet listázhat, országonként egy helyet. Minden üzleti profil fogadhatja az egyes helyekre vonatkozó hivatkozásokat.
+A vállalata annyi üzleti profilt hozhat létre, amennyire csak szüksége van a vállalat érdeklődésének teljes körű létrehozására. Minden üzleti profilban legfeljebb öt helyet listához lehet listához, országonként egy helyet. Minden üzleti profil használhatja az egyes helyekre vonatkozó terjesztéseket.
 
-### <a name="how-will-referrals-be-assigned-what-changes-can-i-expect-for-example-if-i-have-a-global-company-in-one-market-and-locations-in-other-markets-how-will-referrals-be-assigned"></a>Hogyan lesznek hozzárendelve az átirányítások, milyen módosításokat várhatok el? Ha például globális vállalatom van az egyik piacon és más piacokon, akkor hogyan lesz hozzárendelve a hivatkozások?
+### <a name="how-will-referrals-be-assigned-what-changes-can-i-expect-for-example-if-i-have-a-global-company-in-one-market-and-locations-in-other-markets-how-will-referrals-be-assigned"></a>Hogyan lesznek hozzárendelve a hivatkozások, milyen változásokra számíthatok? Ha például egy globális vállalatom van az egyik piacon és más piacokon is, hogyan lesznek kiosztva a hivatkozások?
 
-Az átirányítások hozzárendelése az ügyfél által definiált keresési paraméterek alapján történik. Függetlenül attól, hogy rendelkezik-e egy vagy több hellyel, ha az ügyfél egy kívánt helyet ad meg, és olyan üzleti tevékenységgel rendelkezik, amely megfelel a többi paraméternek, akkor az átirányításnak erre a helyre kell esnie.
+A hivatkozások az ügyfél által megadott keresési paraméterek alapján vannak hozzárendelve. Függetlenül attól, hogy egy vagy több helyről van-e szó, ha az ügyfél megad egy kívánt helyet, és olyan vállalkozása van, amely megfelel a többi paraméternek, akkor a kérelem erre a helyre fog hivatkozni.
 
-### <a name="i-am-migrating-to-partner-center-from-within-russia-i-get-an-error-message-about-web-direct-how-do-i-continue-with-the-migration"></a>Áttelepítik a partneri központba az Oroszországból. Hibaüzenetet kapok a web Directről. Hogyan folytatja az áttelepítést?
+### <a name="i-am-migrating-to-partner-center-from-within-russia-i-get-an-error-message-about-web-direct-how-do-i-continue-with-the-migration"></a>Átkullálok a Partnerközpont belülről. Hibaüzenetet kapok a Web Directtel kapcsolatban. Hogyan folytatja a migrálást?
 
-Ha hibaüzenet jelenik meg, mert részt vesz a webes Direct programban, tegye a következőket:
+Ha hibaüzenetet kap, mert részt vesz a Web Direct programban, tegye a következőket:
 
-1. Jelentkezzen be a portálra. Azure.com, és hozzon létre egy új Azure AD-bérlőt. További információért olvassa el az [új Azure ad-bérlő létrehozása](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)című témakört.
+1. Jelentkezzen be a portálra. Azure.com, és hozzon létre egy új Azure AD-bérlőt. További információ: [Új Azure AD-bérlő létrehozása.](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
 
-2. Miután létrehozta az új Azure AD-bérlőt, használja azt a Partner tagsági központból a partner központba való Migrálás vagy a partneri központ net-újdonságként való regisztrálásához.
+2. Miután létrehozta az új Azure AD-bérlőt, a használatával minkét Partner Membership Center-ről a Partnerközpont-re, vagy újként regisztrálható a Partnerközpont.

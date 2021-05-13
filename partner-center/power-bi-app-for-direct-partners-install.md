@@ -1,35 +1,30 @@
 ---
-title: A Power BI a partner Center Analytics telepítése
+title: A Partnerközpont Analytics for Power BI
 ms.topic: article
 ms.date: 07/10/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A cikk lépéseit követve telepítse és tekintse meg a partner Center Analytics alkalmazást a Power BIhoz (közvetlen partnerek számára a CSP-ben).
+description: A cikk lépéseit követve telepítheti és megtekintheti az Partnerközpont adatelemzési alkalmazás a Power BI-hoz (a CSP közvetlen partnerei számára).
 fwlink: https://go.microsoft.com/fwlink/?linkid=852583
 author: v-sumukh
 ms.author: v-sumukh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ad0c2f3ee7d130c49dea6ba354e6794e29fd9e9f
-ms.sourcegitcommit: a691d4cbe144a8fd71e344fd293cc658ac11d6f3
+ms.openlocfilehash: 15ee391d6b748b6499700aee321ff4abd85e75d2
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "105633692"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854485"
 ---
 # <a name="install-and-preview-the-partner-center-analytics-app-for-microsoft-power-bi"></a>A Partnerközpont adatelemzési alkalmazás a Microsoft Power BI-hoz telepítése és előzetes verziója
 
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Értékesítési ügynök
-- Felügyeleti ügynök
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök | Rendszergazdai ügynök
 
 ## <a name="before-you-begin"></a>Előkészületek
 
-Válassza ki a vállalata számára leginkább megfelelő alkalmazást az elérhető Power BI alkalmazások alábbi listájából:
+Válassza ki a vállalat számára legfontosabb alkalmazást az elérhető alkalmazások Power BI listájából:
 
 - [Közvetlen szolgáltató](https://appsource.microsoft.com/product/power-bi/partnercenteranalytics.direct_provider_partner_analytics)
 
@@ -37,53 +32,53 @@ Válassza ki a vállalata számára leginkább megfelelő alkalmazást az elérh
 
 - [Közvetett viszonteladó](https://appsource.microsoft.com/product/power-bi/partnercenteranalytics.indirect_reseller_partner_analytics)
 
-A partner Center Analytics-alkalmazás előzetes verziójának telepítése előtt győződjön meg arról, hogy megfelel az alábbi követelményeknek.
+A Partnerközpont Analytics alkalmazás előzetes verziójának telepítése előtt győződjön meg arról, hogy megfelel az alábbi követelményeknek.
 
-- Kiválaszthatja a vállalata számára megfelelő Power BI alkalmazást.
+- Válassza ki a Power BI megfelelő alkalmazást.
 
-- Power BI Pro-licenccel rendelkezik.
+- Pro-licenccel Power BI rendelkezik.
 
-- Rendelkezik a sablon alkalmazásainak a bérlőre való telepítéséhez szükséges engedélyekkel.
+- Rendelkezik a sablonalkalmazások bérlőn való telepítéséhez szükséges engedélyekkel.
 
-- Bejelentkezhet Power BIba.
+- Bejelentkezhet a Power BI.
 
-- A [vállalat Azure Active Directory (Azure ad) bérlője](azure-active-directory-tenants-and-partner-center.md)globális rendszergazdaként, rendszergazdai ügynökként vagy számlázási rendszergazdaként is bejelentkezhet.
+- Bejelentkezhet globális rendszergazdaként, rendszergazdai ügynökként vagy számlázási rendszergazdaként a vállalat Azure Active Directory [(Azure AD) bérlőjébe.](azure-active-directory-tenants-and-partner-center.md)
 
 ## <a name="to-install-the-app"></a>Az alkalmazás telepítése
 
-1. Válassza ki az adott alkalmazás forrásának hivatkozását (közvetlen szolgáltató/közvetett szolgáltató/közvetett viszonteladó) a fenti szakaszban.
+1. Válassza ki a fenti szakaszban megadott alkalmazásforrás-hivatkozást (közvetlen szolgáltató/közvetett szolgáltató/közvetett viszonteladó).
 
-2. Válassza a **Letöltés most** lehetőséget. 
+2. Válassza **a GET IT NOW (SZEREZZE BE MOST) lehetőséget.** 
 
-3. A **Folytatás** gombra kattintva fogadja el a feltételeket és a kikötéseket.
+3. A Folytatás lehetőség kiválasztásával elfogadja a feltételeket és **a feltételeket.**
 
-4. Már van fiókja? válassza **a bejelentkezés** lehetőséget.
+4. A Már van fiókja alatt? válassza **a Bejelentkezés lehetőséget.**
 
-5. A következő lapon adja meg Power BI felhasználónevét és jelszavát, majd válassza a **Bejelentkezés** lehetőséget.
+5. A következő lapon adja meg a Power BI felhasználónevét és jelszavát, majd válassza a **Bejelentkezés lehetőséget.**
 
-6. A munkaterület nevének megadásával telepítse a munkaterületet.
+6. Telepítse a munkaterületet a munkaterület nevének meg megszava.
 
-7. Megtalálhatja az alkalmazások szakaszban telepített sablonok alkalmazásait.
+7. A telepített sablonalkalmazásokat az Alkalmazások szakaszban találja.
 
-8. Válassza az **alkalmazások** lehetőséget, és válassza ki a telepített alkalmazásokat.
+8. Válassza **az Alkalmazások lehetőséget,** és válassza ki a telepített alkalmazásokat.
 
-9. Megnyílik az új alkalmazás képernyője.
+9. Megnyílik az Új alkalmazás első lépések képernyője.
 
-10. Az adatkapcsolathoz válassza a **Kapcsolódás** lehetőséget.
+10. Az adatokhoz való csatlakozáshoz válassza a Csatlakozás **lehetőséget.**
 
-11. A **Kapcsolódás a partneri központ Analytics** előugró ablakhoz lapon ellenőrizze, hogy a **hitelesítési módszer** a **oAuth2** értékre van-e állítva, vagy válassza a **oAuth2** lehetőséget a listából, ha nem. 
+11. A **Csatlakozás az Partnerközpont Analyticshez** előugró ablakban  ellenőrizze, hogy a Hitelesítési módszer **beállítása oAuth2,** vagy ha nem, válassza az **oAuth2** lehetőséget a listából. 
 
 > [!NOTE]  
->  Ez az ablak néhány percig is eltarthat.
+>  Az ablak megjelenése eltarthat néhány percig.
 
-12. A **partner Center Analytics-összekötő** lapon jelentkezzen be a vállalati Azure ad-bérlőhöz a globális rendszergazda, a rendszergazdai ügynök vagy a számlázási rendszergazdai hitelesítő adatokkal, majd válassza a **Bejelentkezés** lehetőséget.
+12. A **Partnerközpont Analytics-összekötő** lapon jelentkezzen be a vállalati Azure AD-bérlő globális rendszergazdai, rendszergazdai vagy számlázási rendszergazdai hitelesítő adataival, majd válassza a **Bejelentkezés lehetőséget.**
  
-13. Amikor a rendszer kéri a hozzáférést, válassza az **elfogadás** lehetőséget. 
+13. Amikor a rendszer hozzáférést kér, válassza az **Elfogadás lehetőséget.** 
 
-Miután a partner Center Analytics szolgáltatás csatlakozott a Power BIhoz, a rendszer betölti az adatgyűjtést. Az adatmennyiségtől függően ez akár 10 percet is igénybe vehet. 
+Miután az Partnerközpont Analytics szolgáltatás csatlakozott a Power BI, megkezdődik az adatok betöltése. Az adatok mennyiségétől függően ez akár 10 percig is eltarthat. 
 
-Az adatbetöltések befejezése után elkezdheti a partner Center Analytics alkalmazás irányítópultjának és jelentéseinek használatát Power BI.
+Az adatok betöltését követően elkezdheti használni a Partnerközpont Analytics-alkalmazás irányítópultját és jelentéseit a Power BI.
 
 ## <a name="next-steps"></a>Következő lépések
 
-[Üzleti adatai megtekinthetők a Microsoft Power BI partner Center Analytics alkalmazásával](power-bi-app-for-direct-partners-use.md)
+[Üzleti adatok megtekintése a Microsoft Partnerközpont Analytics alkalmazással Power BI](power-bi-app-for-direct-partners-use.md)

@@ -1,58 +1,55 @@
 ---
-title: A partner Center által észlelt problémák ismert problémái
+title: Partnerközpont Insights ismert problémái
 ms.topic: article
 ms.date: 05/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: További információ a partner Center-jelentések (PCI) jelentéseivel kapcsolatos ismert problémákról. Az információk tartalmazhatnak ismert megjelenítési problémákat vagy jelentési korlátozásokat.
+description: Olvassa el a Partnerközpont Insights- (PCI-) jelentésekkel kapcsolatos ismert problémákat. Az információk tartalmazhatnak ismert renderelési problémákat vagy jelentéskészítési korlátozásokat.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c5ca9a00c5eafcbc155df20b08269cefd93c14d3
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 9c85ff428fd6ffb6ced38be16f4bd163c2b0b548
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086872"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855216"
 ---
-# <a name="partner-insights--frequently-asked-questions"></a>Partneri bepillantást – gyakori kérdések
+# <a name="partner-insights--frequently-asked-questions"></a>Partnerelemzések – Gyakori kérdések
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-- Jelentés megjelenítője
-- Executive Report Viewer
+Ez a cikk az Elemzésekhez kapcsolódó jelentések megtekintésével vagy rendereléssel kapcsolatos ismert problémákat tartalmazza.
 
-Ez a cikk az információkkal kapcsolatos jelentések megtekintésére és megjelenítésére vonatkozó ismert problémákat ismerteti.
+K) **Nem látom az Insights-központot a Partnerközpont fiókban. Mit tegyek?**
 
-K) **nem jelenik meg a partneri központ fiókjában a bepillantást biztosító központ. Mit tegyek?**
+A) Győződjön meg arról, hogy bejelentkezett a szervezet MPN-fiókjába. Az Insights-irányítópult nem elérhető a CSP-fiókjából. Győződjön meg arról is, hogy a globális rendszergazda hozzáférést biztosított Önnek a Jelentésmegjelenítő vagy a Vezetői jelentésmegjelenítő szerepkörhöz.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket.](./pci-roles.md)
 
-A) ellenőrizze, hogy bejelentkezett-e a szervezet MPN-fiókjába. Az adatellenőrzési irányítópultot nem érheti el a CSP-fiókjából. Győződjön meg arról is, hogy a jelentés megjelenítője vagy a Executive Report Viewer szerepkör hozzáférése a globális rendszergazda által biztosított.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](./pci-roles.md).
+K) Nem látom a számlás bevételt vagy Azure-viszonteladásból származó bevétel (ACR) adatait a **jelentéseiben. Mi ennek az oka?**
 
-K) **nem tudom megtekinteni a jelentésekben szereplő számlázott bevételt vagy az Azure által felhasznált bevételi (ACR) adatmennyiséget. Miért van ez?**
+A) A számlázott bevétel és az ACR adatai csak a vezetői jelentés megtekintői számára érhetők el.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket.](./pci-roles.md)
 
-A) a számlázott bevétel és az ACR-adatbázis csak azokra a felhasználók számára érhető el, akik vezetői jelentések megjelenítői.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](./pci-roles.md).
+K) Nem látom a számlás bevételt vagy Azure-viszonteladásból származó bevétel (ACR) adatait a **jelentéseiben. Mi ennek az oka?**
 
-K) **nem tudom megtekinteni a jelentésekben szereplő számlázott bevételt vagy az Azure által felhasznált bevételi (ACR) adatmennyiséget. Miért van ez?**
+A) A számlázott bevétel és az ACR adatai csak a vezetői jelentés megtekintői számára érhetők el. A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket.](./pci-roles.md)
 
-A) a számlázott bevétel és az ACR-adatbázis csak azokra a felhasználók számára érhető el, akik vezetői jelentések megjelenítői. A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket](./pci-roles.md).
+K) Úgy tűnik, hogy az **ügyfél által jelentett ország helytelen. Mi ennek az oka?**
 
-K) **úgy tűnik, hogy az ügyfél által jelentett ország helytelen. Miért van ez?**
+A) Az ügyfél országa az adott ügyfél globális szülőszervezetének országát jelenti. Ez az ország különbözhet attól az ügyféltől, akivel a tranzakciót elhozta. Ezért előfordulhat, hogy az ügyfél által jelentett ország eltér attól, amire számított.
 
-A) az ügyfél országa az adott ügyfél globális fölérendelt szervezetének országából származik. Lehet, hogy ez az ország eltér az ügyfél azon országából, akivel a tranzakciót elvégezte. Ezért előfordulhat, hogy az ügyfél által jelentett ország eltér a várttól.
+K) Azt látom, hogy néhány ügyfélnév el van látva **a jelentésekben. Ez várható volt?**
 
-K) **látom, hogy néhány ügyfél nevét a jelentésekben a rendszer elhomályosítja. Várható?**
-
-A) a megfelelőségi okok miatt bizonyos előfizetések esetében a rendszer az ügyfelek nevét elhomályosítja. Az ügyfél TPID azonban elérhető, és az ügyfél nevét is használhatja.
+A) Az ügyfélnevek megfelelőségi okokból bizonyos előfizetések esetében el vannak különülve. Az ügyfél TPID-e azonban elérhető, és a használatával ki lehet keresni az ügyfélneveket.
 
 K) **Mi a jelentések jellemző késése?**
 
-A) az előfizetések és az ügyfelek adatait napi rendszerességgel frissítik, és az adatküldés egy hetes késéssel történik. Az Azure-használati adatokat egy hetes késéssel számoljuk el. A Office 365, a csapatok, a Dynamic365, az EMS és a Power BI használati adatok egy hónapos késéssel jelennek meg.
+A) Az előfizetések és az ügyfelek adatai naponta frissülnek, az adatokat pedig egyhetes késéssel jelenti a rendszer. Az Azure használati adatait egyhetes késéssel jelenti a rendszer. Az Office365, a Teams, a Dynamic365, az EMS és Power BI használati adatokat egy hónapos késéssel jelenti a rendszer.
 
-K) **a jelentések nem jelennek meg az Internet Explorerben – a várt módon?**
+K) **A jelentések nem renderelnek a Internet Explorer – ez várható?**
 
-A) a jelentések megjelenítési problémákkal rendelkeznek az Internet Explorerben. Jól működnek a Microsoft Edge és más böngészőkkel.
+A) A jelentések renderelési problémái a Internet Explorer. Jól működnek a Microsoft Edge más böngészőkben.
 
 **Következő lépések**
 
-- További információ a [partner Center](partner-center-insights.md)-információkról.
+- További információ a [Partnerközpont insightsról.](partner-center-insights.md)

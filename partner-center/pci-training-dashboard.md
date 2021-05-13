@@ -1,69 +1,66 @@
 ---
-title: Az ismeretek betanítása irányítópult
+title: Elemzések betanítás irányítópultja
 ms.topic: article
 ms.date: 06/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Fedezze fel a partner Center képzési irányítópultját. A képzés a partner Center-bejelentések (PCI) területén elérhető jelentések egyike.
+description: Ismerkedés Partnerközpont Betanítás irányítópult használatával. A képzés az egyik jelentés, amely a Partnerközpont Insights (PCI) területen érhető el.
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bad11a2f480aaa229708a3e9a108466a130b4127
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: e3beb1d051d2407229deebbb94b938a8f8b7218e
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086243"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854553"
 ---
-# <a name="trainings-dashboard"></a>Tréningek irányítópult
+# <a name="trainings-dashboard"></a>Betanítás irányítópult
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Vezető jelentésmegjelenítő | Jelentésmegjelenítő
 
-- Executive Report Viewer
-- Jelentés megjelenítője
-
-A tréningek irányítópulton bepillantást nyerhet a vállalat alkalmazottai által alkalmazott tanúsítványokra, felmérésekre és vizsgálatokra. A tréningek irányítópultja a következő fejezeteket tartalmazza:
+A Képzések irányítópult betekintést nyújt a vállalati alkalmazottak vállalata által végzett minősítésekbe, értékelésekbe és vizsgálatokba. A Képzések irányítópult a következő szakaszokat tartalmazza:
 
 - Összefoglalás
-- Teljesítmény-elosztás a minősítések, felmérések, vizsgák alapján
-- Felhasználók hitelesítő adatok, például minősítések, felmérések, vizsgák
+- A betanítás teljesítményének felosztása minősítések, értékelések és vizsgák szerint
+- Egyéni személyek hitelesítő adatokkal, például tanúsítványokkal, értékelésekkel, vizsgákkal
 - Tevékenység részletei
 
 >[!NOTE] 
->Ez a jelentés a partner központ áttekintési központja alatt érhető el. A jelentés megtekintéséhez hozzá kell rendelnie a Report Viewer vagy a Executive Report Viewer szerepkört. A jelentés néhány szakaszában csak azok a felhasználók jelennek meg, akik vezetői jelentések megjelenítői. Az információkhoz való hozzáférés-vezérléssel kapcsolatos további információkért lásd: PCI- [szerepkörök](pci-roles.md).
+>Ez a jelentés az Elemzés központ alatt érhető el a Partnerközpont. A jelentés megtekintéséhez a Jelentésmegjelenítő vagy a Vezetői jelentésmegjelenítő szerepkört kell hozzárendelni. A jelentés néhány szakasza csak a Vezetői jelentés megtekintői számára lesz látható. További információ az Insights-jelentések hozzáférés-vezérléséről: [PCI-szerepkörök.](pci-roles.md)
 
 ## <a name="summary"></a>Összefoglalás
 
-Az összefoglalás szakasz a tréningekhez kapcsolódó különféle teljesítménymutatók numerikus pillanatkép-nézetét jeleníti meg. A különböző teljesítménymutatók a hitelesített személyek, a minősítések, a vizsga hitelesítő adataival rendelkező személyek, a vizsga hitelesítő adatai, az értékelési hitelesítő adatokkal rendelkező személyek és az értékelési hitelesítő adatok. Az ebben a szakaszban található adatok a kiválasztott Dátumtartomány alapján frissülnek, amely három hónap (3M), hat hónap (6M) és 12 hónap (1Y) vagy egyéni adattartomány (egyéni) lehet. 
+Az összefoglaló szakasz a betanításokkal kapcsolatos különböző teljesítménymutatók numerikus pillanatkép-nézetét jeleníti meg. A különböző teljesítménymutatók a minősített egyének, a minősítések, a vizsga hitelesítő adataival rendelkező személyek, a vizsga hitelesítő adatai, az értékelési hitelesítő adatokkal és az értékelési hitelesítő adatokkal rendelkező személyek. Az ebben a szakaszban található adatok a kiválasztott dátumtartomány alapján frissülnek, amely három hónap (3 millió), hat hónap (6M) és 12 hónap (1Y) vagy egyéni adattartomány (Egyéni) lehet. 
 
 :::image type="content" source="images/pci/td-summary.png" alt-text="Összefoglalás":::
 
-- **Minősítéssel rendelkező személyek**: azoknak a különböző személyeknek a számát jelöli, akik rendelkeznek minősítésekkel a vállalatnál.
-- **Minősítések száma**: a vállalaton belüli személyek által elvégzett minősítések teljes számát jelöli.
-- **Értékeléssel rendelkező személyek**: azoknak a különböző személyeknek a számát jelöli, akik a vállalatnál értékelési hitelesítő adatokkal rendelkeznek. 
-- **Értékelések száma**: a vállalaton belüli személyek által elvégzett értékelések teljes számát jelöli.
-- **Vizsgákkal rendelkező személyek**: azoknak a különböző személyeknek a számát jelöli, akik a vizsgálat hitelesítő adataival rendelkeznek a vállalatnál. 
-- **Vizsgálatok száma**: a vállalaton belüli személyek által elvégzett vizsgálatok teljes számát jelöli.
+- **Tanúsítvánnyal rendelkező** személyek: a vállalatnál tanúsítvánnyal rendelkező különböző személyek számát jelöli.
+- **Tanúsítványok száma:** a vállalat egyes személyek által tett tanúsítványai teljes számát jelöli.
+- **Értékeléssel bíró személyek:** a vállalatban értékelési hitelesítő adatokkal bíró különálló személyek számát jelöli. 
+- **Értékelések száma:** a vállalat egyes személyek által végzett értékelések teljes számát jelöli.
+- **Vizsgálattal érintett személyek:** a vállalaton belül vizsgálati hitelesítő adatokkal bíró, különálló személyek számát jelöli. 
+- **Vizsgálatok száma:** a cégen belül az egyes személyek által tett vizsgálatok teljes számát jelöli.
 
-## <a name="training-performance"></a>Betanítási teljesítmény
+## <a name="training-performance"></a>Betanítás teljesítménye
 
-A betanítási teljesítmény a vállalaton belüli személyek hónapjának havi száma, valamint a vállalati felhasználók által betöltött képzéseket mutatja be. A minősítések, az értékelések és a vizsgák a kijelölt dátumtartomány diagramjának formájában vannak felosztva. Az X tengely a kiválasztott dátumtartomány hónapját jelöli. Az Y tengely a kiválasztott képzési típushoz tartozó személyek és képzések különböző számának felel meg. A diagram fölötti lapfülek kiválasztásával megtekintheti a bontást tanítási típus szerint. A diagramon tárolt adatok a kiválasztott dátumtartomány. TSV formátumában tölthetők le.
+A képzési teljesítmény az egy hónapra vonatkozó személyek számát, valamint a vállalat egyes személyek által befejezett képzéseket mutatja be. Minősítések, értékelések és vizsgák szerint van felosztva egy diagram formájában a kiválasztott dátumtartományhoz. Az X tengely a kiválasztott dátumtartomány hónapját jelöli. Az Y tengely a kiválasztott betanítástípushoz megadott személyek és képzések számát jelöli. Válassza ki a diagram feletti megfelelő lapokat a betanítás típusa szerinti lebontás megtekintéséhez. A diagramadatok a kiválasztott dátumtartomány letöltés ikonján keresztül tölthetők le .tsv formátumban.
 
-:::image type="content" source="images/pci/td-training-performance.png" alt-text="Betanítási teljesítmény":::
+:::image type="content" source="images/pci/td-training-performance.png" alt-text="Betanítás teljesítménye":::
 
 ## <a name="individuals-performance"></a>Egyéni teljesítmény
 
-Az egyének teljesítmény szakasza a kiválasztott Dátumtartomány alapján mutatja be a vállalaton belüli személyek által végzett képzés részleteit. Keresse meg és válassza ki az egyéni nevét a szakasz bal oldali paneljén. A kiválasztott személy betanítási adatai a szakasz jobb oldali paneljén jelennek meg.
+Az Egyéni teljesítmény szakasz a vállalat egyes személyek által a kiválasztott dátumtartományra vonatkozó képzésének részleteit mutatja be. Keresse meg és válassza ki egy személy nevét a szakasz bal oldali panelen. A kiválasztott személy betanítás részletei a szakasz jobb oldali paneljén jelennek meg.
 
-:::image type="content" source="images/pci/td-indiviual-performance.png" alt-text="Indiviual teljesítmény":::
+:::image type="content" source="images/pci/td-indiviual-performance.png" alt-text="Nem konzisztens teljesítmény":::
 
 >[!NOTE] 
-> Az egyének teljesítmény szakasz csak olyan felhasználók számára érhető el, akik vezetői jelentések megjelenítői. 
+> Az Egyéni felhasználók teljesítménye szakasz csak a vezetői jelentés megtekintői számára érhető el. 
 
 ## <a name="next-steps"></a>Következő lépések
 
-[Jelentések a partner Centerben](partner-center-insights.md)
+[Jelentések a Partnerközpont Insightsban](partner-center-insights.md)
 
 >[!NOTE] 
-> A jelentést az elemzések irányítópultjának letöltési jelentések részéből töltheti le. [További információ](pci-download-reports.md)
+> A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md)

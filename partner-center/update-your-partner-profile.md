@@ -1,112 +1,109 @@
 ---
-title: Vállalati profil ellenőrzése
+title: A vállalati profil ellenőrzése
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan ellenőrizheti a vállalat adatait, például az elsődleges kapcsolattartási, a lakcím-és a program-információkat. A jogi és számlázási címeket is frissítheti.
+description: Megtudhatja, hogyan ellenőrizheti a vállalat adatait, például az elsődleges kapcsolattartót, a címet és a programadatokat. Frissítheti a jogi és számlázási címeit is.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.topic: how-to
 ms.date: 04/12/2021
 ms.localizationpriority: medium
 ms.custom: contperf-fy21q4
-ms.openlocfilehash: 08e35e24dc94c81db56807b4211874996f0f487e
-ms.sourcegitcommit: 89be77c9f35c77463d9558826293202afc6dec56
+ms.openlocfilehash: c700176ced0710f621dbdfab65513767976aff3d
+ms.sourcegitcommit: dc9438475ccc6298bec6a698bf5fc9bd5cf2aa81
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107315871"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109818609"
 ---
-# <a name="verify-or-update-your-company-profile-information"></a>A vállalati profil adatainak ellenőrzése vagy frissítése 
+# <a name="verify-or-update-your-company-profile-information"></a>A vállalati profil információinak ellenőrzése vagy frissítése 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-fiók rendszergazdája
 
-- Globális rendszergazda
-- MPN-fiók rendszergazdája
+Amikor első alkalommal jelentkezik be Partnerközpont rendszergazdaként, meg kell erősítenie, hogy a vállalat összes adata helyes. Ezek közé tartoznak az elsődleges kapcsolattartók, a jogi kapcsolattartók neve és címe, valamint a programinformációk. Ha a vállalata több helyről is rendelkezik, ellenőrizze a pontos helyadatokat. Globális rendszergazdaként, számlázási rendszergazdaként vagy rendszergazdai ügynökként a számlázási és adózási adatokat is láthatja és frissítheti.
 
-Amikor globális rendszergazdaként először jelentkezik be a partner Centerbe, győződjön meg arról, hogy a vállalat összes adata helyes. Ezek közé tartozik az elsődleges kapcsolattartó, a jogi üzleti név és a címek, valamint a program adatai. Ha a vállalat több hellyel rendelkezik, a pontosság érdekében tekintse át a tartózkodási hely adatait. Globális rendszergazdaként, számlázási rendszergazdaként vagy rendszergazdai ügynökként Emellett megtekintheti és frissítheti a számlázási és adózási adatait.
-
-A partneri profilja a jogi üzleti adatokból, az elsődleges kapcsolattartó nevéből és az e-mailből, a vállalat által részt vevő programokból, valamint adott esetben más vállalatokból áll, amelyek mostantól a jogi üzleti tevékenység keretében egyesülnek. Győződjön meg arról, hogy a vállalat neve és címe a jogi üzleti profilban nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan megfelel a vállalati üzleti regisztrációs rekordoknak. Ha kizárólagos tulajdonosként működik, a vállalat nevét a jogi neveként kell használnia.
+A partnerprofil a jogi üzleti adatokból, az elsődleges kapcsolattartó nevéből és e-mail-címből, a vállalat részvételére vonatkozó programokból, és ha releváns, a jogi vállalkozása keretében egyesített egyéb vállalatokból áll. Győződjön meg arról, hogy a Jogi üzleti profilban a Vállalat neve és címe nem tartalmaz helyesírási hibákat és rövidítéseket, és pontosan egyeznie kell a hivatalos vállalati üzleti regisztrációs rekordokkal. Ha egyedüliként dolgozik, a vállalata nevét kell használnia jogi névként.
 
 
-## <a name="locate-the-legal-business-profile"></a>A jogi üzleti profil megkeresése
+## <a name="locate-the-legal-business-profile"></a>Keresse meg a jogi üzleti profilt
 
-1. Lépjen a **Beállítások** ikonra, és válassza a **Fiókbeállítások** lehetőséget.
+1. Kattintson a **Beállítások ikonra,** és válassza a **Fiókbeállítások lehetőséget.**
  
-1. Válassza a **szervezeti profil** lehetőséget. 
+1. Válassza a **Szervezeti profil lehetőséget.** 
 
-2. Tekintse át a **jogi üzleti profilt**, az **elsődleges kapcsolattartási adatokat** és a **program adatait**.
+2. Tekintse át **a jogi üzleti profilját,** az **elsődleges kapcsolattartási adatait** és a program **adatait.**
 
-Ha más vállalatait a jogi vállalata alá vonta össze, ezeket az információkat is áttekintheti. 
+Ha a jogi vállalata alá más vállalatokat is egyesített, akkor ezt az információt is áttekintheti. 
 
 ## <a name="update-your-legal-business-profile"></a>A jogi üzleti profil frissítése 
 
-Frissítse a jogi cég nevét vagy címeit a partner Centerben.
+Frissítse jogi vállalata nevét vagy címét a Partnerközpont.
 
 >[!Important]
->- Az MPN-fiókok esetében a globális rendszergazda és a fiók rendszergazdája is frissítheti a jogi cég nevét.
->- A közvetlen CSP-viszonteladói fiókok esetében csak a globális rendszergazda frissítheti a jogi cég nevét. 
->- A közvetlen számlázási partnerek és a közvetett szolgáltatók nem változtathatják meg a vállalata jogi nevét, ha a fiók hitelesítési állapota **engedélyezve** van. Ha módosítania kell a nevet, létre kell hoznia egy [támogatási jegyet](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=eb74583c-61b3-2124-bffc-00920e0ae772).
+>- MPN-fiókok esetén a globális rendszergazda és a fiók rendszergazdája is frissítheti a jogi vállalat nevét.
+>- Közvetett CSP-viszonteladói fiókok esetében csak a globális rendszergazda frissítheti a jogi vállalat nevét. 
+>- A közvetlen számlázási partnerek és a közvetett szolgáltatók nem tudják módosítani a vállalatuk jogi nevét, ha a fiók ellenőrzési **állapota Engedélyezett.** Ha módosítania kell a nevet, létre kell hoznia egy [támogatási jegyet.](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=eb74583c-61b3-2124-bffc-00920e0ae772)
 
 
 
-1. Lépjen a **Beállítások**, **Fiókbeállítások** , és válassza a **szervezeti profil** lehetőséget.
+1. Válassza a **Beállítások,** **Fiókbeállítások,** majd a Szervezeti **profil lehetőséget.**
 
-2. Válassza a **jogi**  lehetőséget, majd válassza ki a frissíteni kívánt jogi üzleti profilt (partner vagy viszonteladó).
+2. Válassza **a Jogi**  lehetőséget, majd válassza ki a frissíteni kívánt jogi üzleti profilt (partner vagy viszonteladó).
 
-1. Kattintson a vállalat neve/címe melletti **frissítés**  elemre, és módosítsa a részleteket.
+1. Kattintson a **vállalat neve/címe**  melletti Frissítés elemre, és módosítsa a részleteket.
  
-1. Ha a **Submit (Küldés**) lehetőséget választja, a rendszer újra megvizsgálja a jogi identitást. Csak azt kell újraértékelni, hogy mi változott.
+1. Ha a Küldés **lehetőséget választja,** a jogi személyazonossága újraértékesül. Csak azt értékeljük át, amit módosított.
 
-1. Ha az ellenőrzés sikertelen, olvassa el [a probléma megoldását](verification-responses.md)ismertető témakört.
+1. Ha az ellenőrzés sikertelen, ismerje meg, hogyan [oldhatja meg a problémát.](verification-responses.md)
 
 >[!Important]
->Ha Ön egy felhőalapú megoldás-szolgáltató (CSP) partner, nem módosíthatja a jogi lakcíméhez tartozó országot. A jogi lakcím országa a bérlőhöz és a szolgáltatásokhoz, valamint az üzleti tevékenységhez használt pénznemhez van kötve. Az MPN ország frissítéseinek megismeréséhez olvassa el az  [MPN ország frissítései](manage-locations.md#change-country-of-partner-global-account)című témakört.
+>Ha Ön egy Felhőszolgáltató (CSP) partner, nem módosíthatja a jogi címhez társított országot. A jogi cím országa az Ön bérlőjéhez és szolgáltatásaihoz, valamint a használt pénznemhez van kötve. Az MPN országfrissítésekkel kapcsolatos további információkért olvassa el az [MPN országfrissítéseit.](manage-locations.md#change-country-of-partner-global-account)
 
 
-### <a name="who-can-update-legal-business-name-and-when"></a>Ki frissítheti a jogi üzleti nevet, és Mikor
+### <a name="who-can-update-legal-business-name-and-when"></a>Ki frissítheti a jogi vállalat nevét és mikor?
 
-|**Program**|**Kik frissíthetik a vállalat nevét**|**Ha (állapot) frissítve lehet**|**Engedélyezett**|
+|**Program**|**Ki frissítheti a vállalat nevét?**|**Mikor (állapot) frissíthető**|**Engedélyezett**|
 |---------------------|:-------------------------------|:------------|:-----------------|
-MPN|Globális rendszergazda; Fiók rendszergazdája|Jogosult függőben elutasította| Engedélyezve|
-|CSP: közvetett viszonteladó|Globális rendszergazda|Jogosult függőben elutasította| Engedélyezve|
+MPN|Globális rendszergazda; Fiók rendszergazdája|Engedélyezett; függőben; Elutasította| Engedélyezve|
+|CSP: Közvetett viszonteladó|Globális rendszergazda|Engedélyezett; függőben; Elutasította| Engedélyezve|
 
 
-## <a name="update-your-mpn-global-business-account"></a>Az MPN globális üzleti fiók frissítése
+## <a name="update-your-mpn-global-business-account"></a>Az MPN globális üzleti fiókjának frissítése
 
-Ha a Partner tagsági központból a partneri központba való Migrálás során a nem megfelelő üzleti fiókot jelölték meg jogi üzleti fiókként, akkor azt a megfelelő jogi üzleti fiókra módosíthatja.
+Ha a vállalati fiókról Partner Membership Center Partnerközpont, rossz üzleti fiókot azonosítottak jogi vállalkozásként, módosíthatja azt a megfelelő jogi fiókra.
 
-A frissítések végrehajtásához a globális rendszergazda vagy a fiók rendszergazdája kell, hogy legyen. Ismerje meg, hogyan [kezelheti az MPN globális helymeghatározási fiókjait](manage-locations.md)
+A frissítésekhez globális rendszergazdának vagy fiók-rendszergazdának kell lennie. Útmutató az [MPN globális helyfiókok kezeléséhez](manage-locations.md)
 
 
 ## <a name="update-your-mpn-id-associated-with-your-csp-account"></a>CSP-fiókhoz társított MPN-azonosító frissítése
 
 A CSP-fiókhoz társított MPN-azonosító frissítése:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home) globális rendszergazdaként a CSP-fiókja hitelesítő adataival, majd válassza a **Beállítások** lehetőséget. (Az MPN és a CSP hitelesítő adatai eltérőek lehetnek.)
+1. Jelentkezzen be az Partnerközpont [irányítópultra](https://partner.microsoft.com/dashboard/home) globális rendszergazdaként a CSP-fiók hitelesítő adataival, majd válassza a **Beállítások lehetőséget.** (Az MPN és a CSP hitelesítő adatai eltérőek lehetnek.)
  
-1. Válassza ki az **azonosítókat** a **Fiókbeállítások** közül.
+1. Válassza **az Azonosítók lehetőséget** a **Fiókbeállítások közül.**
 
-1. A **CSP** szakaszban a **frissítés** HIVATKOZÁSRA kattintva frissítse a CSP-fiókjához társított MPN-azonosítót 
+1. A **CSP szakaszban** található  Frissítés hivatkozással frissítse a CSP-fiókhoz társított MPN-azonosítót 
 
 
-## <a name="update-your-csp-legal-billing-address"></a>A CSP jogi számlázási cím frissítése
+## <a name="update-your-csp-legal-billing-address"></a>CSP jogi számlázási címének frissítése
 
-Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszergazdai ügynök, akkor megváltoztathatja a számlán megjelenő címeket a **kifizetési és az adózási profilban**. A számlán szereplő vállalatnevet azonban nem módosíthatja a számlázási rendszer korlátozásai miatt.
+Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszergazdai ügynök, módosíthatja a számlán megjelenő címet a Kifizetési és **adóprofilban.** A számlán szereplő vállalatnevet azonban nem módosíthatja a számlázási rendszer korlátozásai miatt.
 
-:::image type="content" source="images/billing-profile.png" alt-text="Képernyőfelvétel arról a területről, ahol a számlázási adatok hozzá lettek adva":::
+:::image type="content" source="images/billing-profile.png" alt-text="Képernyőfelvétel arról a területről, ahol a számlázási adatok hozzá vannak adva":::
 
 |**Mező**  |**Leírás**|  
 |---------------------|:------------------|
-|Számlázási cégnév|A vállalat neve, amely a CSP-számla Bill-To információjában jelenik meg.  Ez a partner Centerben nem szerkeszthető.  A frissítéshez hozzon létre egy támogatási jegyet.|
-|Számlázási címek|A CSP-számlán látható Számlázási címek. Frissítés – képes a [Számlázási profilból](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial).|
-|Számlázási kapcsolat|A számlázási kapcsolattartási adatok (Utónév, vezetéknév, elsődleges szám) a CSP-fiókhoz.  Frissítés – képes a [Számlázási profilból](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial).|
-|POSTAFIÓK száma|A partner számláján megjelenő megrendelés száma.  Frissítés – képes a [Számlázási profilból](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial).|
-|Vállalati adó azonosítója|Egyes országokban a vállalatok megadhatják a hozzáadottérték [-adó (ÁFA) számát vagy a helyi megfelelőjét](https://docs.microsoft.com/partner-center/organization-tax-info#submit-vat-id-number). Az adó-/héa-azonosító frissítéséhez globális rendszergazdának, számlázási rendszergazdának vagy rendszergazdai ügynöknek kell lennie.|
-|Számlázási pénznem|A CSP-fiók számlázási pénznemét a CSP-fiók jogi országa határozza meg.  Ezt a CSP-fiók létrehozása után nem lehet módosítani.|
+|Számlázási vállalat neve|A csp-számlán szereplő Bill-To cégnév.  Ez a Partnerközpontban nem szerkeszthető.  A frissítéshez hozzon létre egy támogatási jegyet.|
+|Számlázási cím|A CSP-számlán szereplő számlázási cím. Frissítheti a számlázási [profilból.](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial)|
+|Számlázási kapcsolattartó|A CSP-fiók számlázási kapcsolattartási adatai (vezetéknév, vezetéknév, elsődleges szám).  Frissítheti a számlázási [profilból.](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial)|
+|Rendelésszám|A partnerszámlán megjelenő rendelési szám.  Frissítheti a számlázási [profilból.](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial)|
+|Vállalati adóazonosító|Egyes országokban a vállalatoknak meg kell adniuk az [értékadó (ÁFA) számát vagy a helyi megfelelőjüket.](https://docs.microsoft.com/partner-center/organization-tax-info#submit-vat-id-number) Az adó-/héa-azonosító frissítéséhez globális rendszergazdának, számlázási rendszergazdának vagy rendszergazdai ügynöknek kell lennie.|
+|Számlázási pénznem|A CSP-fiók számlázási pénznemét a CSP-fiók jogi országa határozza meg.  Ez a CSP-fiók létrehozása után nem módosítható.|
 
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Ellenőrzés állapotának ellenőrzése](verification-responses.md)
+- [Az ellenőrzési állapot ellenőrzése](verification-responses.md)
 
-- [MPN-helyszínek kezelése](manage-locations.md)
+- [MPN-helyek kezelése](manage-locations.md)

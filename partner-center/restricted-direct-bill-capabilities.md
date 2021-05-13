@@ -9,18 +9,16 @@ author: billLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 05ccc6016e9dcd6e7582cdd31dbc4d0054c43f8d
-ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
+ms.openlocfilehash: b3b1f3e1593f7e35bd3b9ed6c56ea28683bff95a
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "108018067"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855488"
 ---
 # <a name="restricted-direct-bill-capabilities-and-the-requirements-needed-for-csp-direct-bill-partners"></a>Korlátozott közvetlen számlázási képességek és a közvetlen számlapartnerek CSP-hez szükséges követelményei
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
+**Megfelelő szerepkörök:** Globális rendszergazda
 
 ## <a name="overview"></a>Áttekintés
 
@@ -55,7 +53,7 @@ Ha a közvetlen számlázási lehetőségek korlátozva vannak, nem vásárolhat
 
 A CSP-program [keretében elérhető Azure-partnerek](shared-services.md) megosztott szolgáltatási ajánlatával nem vásárolhat saját használatra új Azure-előfizetéseket.
 
-A meglévő közvetlen számlás előfizetések nem érintettek. Ezek érvényesek maradnak, és automatikusan megújulnak. A Microsoft a lemondásáig továbbra is közvetlenül önnek számláz. Továbbra is a következő módokon kezelheti a meglévő előfizetéseket:
+A meglévő közvetlen számlázási előfizetések nem érintettek. Ezek érvényesek maradnak, és automatikusan megújulnak. A Microsoft a lemondásáig továbbra is közvetlenül önnek számláz. Továbbra is a következő módokon kezelheti a meglévő előfizetéseket:
 
 - Meglévő előfizetések felfüggesztése
 
@@ -77,7 +75,7 @@ Az új vásárlások mellett a következő közvetlen számlázási funkciók ne
     >[!NOTE]
     >A közvetlen számlázási partnerről a közvetett viszonteladóra való áttérés részeként, ha már regisztrálta közvetett viszonteladóként a közvetlen számlázási partnerbérlőt, meghívót hozhat létre a közvetett viszonteladói kapcsolatot kérő ügyfélnek.
 
-- Nem hozhat létre új sandbox-bérlőt. Minden közvetlen számlázási partnerbérlő létrehozhat egy sandbox-bérlőt a közvetlen számlázási API-integrációhoz. Ha korábban még nem hozott létre egyet, a közvetlen számlázási partner képességeinek korlátozását követően erre nincs jogosultsága.  
+- Nem hozhat létre új sandbox-bérlőt. Minden közvetlen számlázási partnerbérlő létrehozhat egy sandbox-bérlőt a közvetlen számlázási API-integrációhoz. Ha még nem hozott létre egyet, a közvetlen számlázási partner képességeinek korlátozását követően erre nincs jogosultsága.  
 
 ## <a name="next-steps"></a>Következő lépések
 

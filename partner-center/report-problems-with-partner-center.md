@@ -1,94 +1,90 @@
 ---
-title: A partner Center portál kérései és diagnosztikai eszköze
+title: Partnerközpont portálra vonatkozó kérések és diagnosztikai eszköz
 ms.topic: how-to
 ms.date: 11/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Megtudhatja, hogyan jelentheti a partneri központtal kapcsolatos problémákat, és hogyan gyűjthet diagnosztikai adatokat a partner-támogatási csapat számára.
+description: Megtudhatja, hogyan jelenthetőek a problémák a Partnerközpont és hogyan gyűjthető diagnosztikai információ a partnertámogatási csapat számára.
 author: Kim-Davis
 ms.author: kimnich
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 2b009d7131f9d6941513a04e866006d1908ba741
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 5d71d3efe10d38cfc0b5ce8dd60c3c51e2be9f1b
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441642"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855607"
 ---
-# <a name="partner-center-portal-requests-and-diagnostic-tool"></a>A partner Center portál kérései és diagnosztikai eszköze
+# <a name="partner-center-portal-requests-and-diagnostic-tool"></a>Partnerközpont portálra vonatkozó kérések és diagnosztikai eszköz
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
+**Megfelelő szerepkörök:** Minden partner, aki érdeklődik a Partnerközpont
 
-**Megfelelő szerepkörök**
+Az összes bejelentkezett Partnerközpont a felhasználók létrehozhatnak egy partnertámogatási kérést. A felhasználók csak a szolgáltatásba való bejelentkezés után elküldött támogatási Partnerközpont.
+Ha problémát Partnerközpont talál, vagy segítségre van szüksége a portál Partnerközpont kapcsolatban, forduljon az ügyfélszolgálathoz. Diagnosztikai adatok küldése, hogy a probléma gyorsabban kijavítható legyen.
 
-- A partner Centerben érdekelt összes partner
+## <a name="report-a-problem-with-the-partner-center"></a>Probléma jelentése a Partnerközpont
 
-Az összes bejelentkezett fiókpartner-felhasználó létrehozhat egy partneri támogatási kérelmet. A felhasználók csak a partner központba való bejelentkezés után elküldött támogatási kérelmeket tekinthetik meg.
-Ha problémák merülnek fel, vagy segítségre van szüksége a partner Center portál hibáihoz, lépjen kapcsolatba a partner Center ügyfélszolgálatával. Diagnosztika küldése a probléma gyorsabb megjavításának engedélyezéséhez.
+1. A saját **Partnerközpont** válassza a **Támogatás,** majd a **Partnertámogatási kérelmek lehetőséget.**
 
-## <a name="report-a-problem-with-the-partner-center"></a>Probléma bejelentése a partner központtal
+2. Válassza **az Új kérés** lehetőséget, majd keresse meg a problémát legjobban leíró problématípust. Válassza ki a probléma típusát, majd **tekintse át a megoldásokat.**
 
-1. A **partner Center** irányítópultján válassza a **támogatás** , majd a **partneri támogatási kérelmek** lehetőséget.
+3. Tekintse át **az Ajánlott megoldások** oldalt a probléma megoldásához segítséget nyújtó lépésekért vagy kapcsolódó dokumentumokért.
 
-2. Válassza az **új kérelem** lehetőséget, majd keresse meg a problémát legjobban leíró probléma típusát. Válassza ki a probléma típusát és a **felülvizsgálati megoldásokat**.
+4. Ha az **ajánlott megoldások megoldották** a problémát, visszatérhet az **irányítópulthoz.** Ha továbbra is segítségre van szüksége, folytathatja a folytatást, és **adja meg a probléma részleteit.**
 
-3. Tekintse át az **ajánlott megoldások** lapot olyan lépésekhez vagy kapcsolódó dokumentumokhoz, amelyek segíthetnek a probléma megoldásában.
+5. Adja meg **a probléma részleteit,** majd küldje el a **következőt:**. A partnertámogatási képviselő fel fogja követni a rel.
 
-4. Ha az **ajánlott megoldások** megoldották a problémát, akkor válassza **a visszatérés az irányítópultra** lehetőséget. Ha továbbra is segítségre van szüksége, folytathatja a problémát, és megadhatja a **probléma részleteit**.
-
-5. Fejezze be a **probléma részleteit** , majd **küldje** el. A partnereket támogató képviselők nyomon követhetik Önnel a kapcsolatot.
-
-## <a name="schedule-a-support-appointment"></a>Támogatási találkozó beütemezett időpontja 
+## <a name="schedule-a-support-appointment"></a>Támogatási találkozó ütemezése 
 
 **Jelenleg előzetes verzióban érhető el*
 
-Ha a probléma a támogatási tanácsadóval folytatott beszélgetést igényli, a találkozót a jegy részletei közül is ütemezhet.
+Ha a problémához a támogatási tanácsadóval kell beszélnie, a jegy részleteiből ütemezheti a találkozó időpontját.
 
-:::image type="content" source="images/support/ticket.png" alt-text="Támogatási találkozó beütemezett időpontja":::
+:::image type="content" source="images/support/ticket.png" alt-text="Támogatási találkozó ütemezése":::
 
-1.  A partner Center Ticket Details (jegy részletei) lapján válasszon ki egy elérhető dátumot és időpontot a támogatási ügyvédi naptárban. A helyi időzónában csak az elérhető dátumok és időpontok jelennek meg.
+1.  A támogatási Partnerközpont lapon válasszon ki egy elérhető dátumot és időpontot a támogatási szolgálat naptárában. Csak az elérhető dátumokat és időpontokat fogja látni a helyi időzónában.
 
-:::image type="content" source="images/support/ticket2.png" alt-text="Találkozó beosztása":::
+:::image type="content" source="images/support/ticket2.png" alt-text="Találkozó ütemezése":::
 
-2. A partner Center a támogatási ügyvédi naptárban ellenőrzi a rendelkezésre állást.
+2. Partnerközpont a támogatási támogató naptárában ellenőrzi a rendelkezésre állást.
 
-1. Amikor beütemezhet egy találkozót, a partner Center egy naptári meghívót küld Önnek, amely arról tájékoztatja, hogy a támogatási tanácsadó hogyan fogja felvenni Önnel a kapcsolatot, így nyomon követheti a találkozót a saját munkahelyi naptárában.  Bár ez a funkció még mindig előzetes verzióban érhető el, az e-mail-cím és a naptár meghívása angol nyelven fog megjelenni, de az ügyvéd támogatni fogja Önt a jegy létrehozásakor kiválasztott nyelven.
+1. Amikor időpontot ütemez, a Partnerközpont egy naptári meghívót küld Önnek, amely tájékoztatást nyújt arról, hogy a támogatási támogató szolgálat hogyan fog Önnel kapcsolatba lépni, így a találkozó nyomon követhető a saját munkahelyi naptárában.  Bár ez a képesség még előzetes verzióban érhető el, az e-mailes és a naptármeghívás angol nyelvű lesz, de a támogató az Ön számára a jegy létrehozásakor kiválasztott nyelven fog segíteni.
 
 :::image type="content" source="images/support/ticket3.png" alt-text="Dátum és idő":::
 
-## <a name="hours-of-operation"></a>Üzemóra
+## <a name="hours-of-operation"></a>Üzemórák
 
-**Partneri támogatás**
+**Partnertámogatás**
 
-:::image type="content" source="images/support/hoop.png" alt-text="Támogatási üzemóra":::
+:::image type="content" source="images/support/hoop.png" alt-text="Támogatási üzemórák":::
 
 ## <a name="send-diagnostics"></a>Diagnosztika küldése
 
-Ha hiba lép fel a partneri központ oldalán, a rendszer kérni fogja a naplózási adatok összegyűjtését. Válassza a **További információk gyűjtése** lehetőséget az oldal tetején lévő hivatkozásra kattintva az ügyfél diagnosztikai eszközének megnyitásához. Ez az eszköz a partnertámogatási csapat által a hiba okának meghatározásához igényelt információkat gyűjti össze. 
+Ha hiba lép fel, amikor egy Partnerközpont oldalon van, a rendszer arra kéri, hogy gyűjtsön naplóadatokat. Az **Ügyféldiagnosztika eszköz megnyitásához** válassza a Lap tetején található hivatkozás További információk gyűjtése elemét. Ez az eszköz a partnertámogatási csapat által a hiba okának meghatározásához igényelt információkat gyűjti össze. 
 
 >[!NOTE]
->Az URL-cím **/PCV/** tartalmazó partner Center-lapokon az eszközt manuálisan is megnyithatja az adatok összegyűjtéséhez.
+>Az Partnerközpont **/pcv/** adatokat is tartalmaznak az URL-címben, manuálisan is megnyithatja az eszközt ezen adatok gyűjtéséhez.
 
-1. Nyissa meg a problémát tartalmazó oldalt.
+1. Ugrás a problémás oldalra.
 
-2. Nyomja le a **CTRL + ALT + D** billentyűkombinációt az ügyfél diagnosztikai eszközének megnyitásához.
+2. Nyomja **le a Ctrl+Alt+D billentyűkombinációt** az Ügyféldiagnosztika eszköz megnyitásához.
 
-Megtekintheti a diagnosztikai adatokat, majd mentheti a támogatási kérelemben csatolható fájlba. Küldje el nekünk az adatokat:
+Megtekintheti a diagnosztikai adatok előnézetét, majd mentheti őket egy fájlba, amit csatolhat a támogatási kéréshez. Az információk elküldését a következővel küldheti el:
 
-3. A fájl elküldése előtt tekintse át a fájlban található információkat, mivel azok személyes adatokat is tartalmazhatnak, amelyeket el szeretne távolítani.
+3. A küldés előtt tekintse át a fájlban található adatokat, mivel az olyan személyes adatokat tartalmazhat, amelyekről esetleg el szeretne távolítani.
 
     >[!NOTE]
-    >Egyes böngészőkben az **előnézet** lap alján található **oldal nézet** szakasz üresen is megjelenhet. Ez rendben van.
+    >Egyes böngészőkben  üresnek tűnik az Előnézet  oldal alján található Oldal nézet szakasz. Ez nem gond.
 
-4. A fájl mentéséhez kövesse a képernyőn megjelenő utasításokat.
+4. A fájl mentéshez kövesse a képernyőn megjelenő utasításokat.
 
-5. Csatolja a fájlt a támogatási kérelemhez.
+5. Csatolja a fájlt a támogatási kéréshez.
 
-Előfordulhat, hogy a partneri támogatás többször is kéri az eszköz futtatását, így a legfrissebb információkhoz juthat.
+Előfordulhat, hogy a partnertámogatás többször is megkéri, hogy futtassa ezt az eszközt, hogy a legfrissebb információkat kapják meg.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Szolgáltatással kapcsolatos probléma bejelentése az ügyfél nevében](report-problems-on-behalf-of-a-customer.md)
+- [Szolgáltatási probléma jelentése egy ügyfél nevében](report-problems-on-behalf-of-a-customer.md)

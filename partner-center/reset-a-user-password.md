@@ -4,38 +4,36 @@ ms.topic: how-to
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan állíthatja alaphelyzetbe a felhasználói jelszavakat a partner Centerben. A felhasználók egy ideiglenes jelszót kapnak a következő alkalommal, amikor bejelentkeznek a partneri központba.
+description: Megtudhatja, hogyan állíthatja alaphelyzetbe a felhasználói Partnerközpont. A felhasználók ideiglenes jelszót kapnak, amikor legközelebb bejelentkeznek a Partnerközpont.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cf3514d394dc49efb967632baa277df94bbfdfbd
-ms.sourcegitcommit: 700150044ea4f1a0b96cb4caeb97d7197da29ef6
+ms.openlocfilehash: b5a486b4859f33971c14767406d73a5c0dab1576
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "105548988"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855539"
 ---
-# <a name="reset-a-users-password-in-partner-center"></a>Felhasználó jelszavának alaphelyzetbe állítása a partner Centerben
+# <a name="reset-a-users-password-in-partner-center"></a>Felhasználói jelszó visszaállítása a Partnerközpont
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
+**Megfelelő szerepkörök:** Globális rendszergazda
 
 > [!NOTE]  
-> Ha Microsoft Cloud Németországban a Cloud Solution Provider (CSP) programban regisztrálta magát, tekintse meg a felhasználók jelszavának alaphelyzetbe állításával kapcsolatos tudnivalókat a [Microsoft Cloud Germany felhasználói kezelésével](user-management-in-partner-center-for-microsoft-cloud-germany.md) foglalkozó témakörben.
+> Ha regisztrált a Microsoft Cloud Germany Felhőszolgáltató (CSP) programjában, a felhasználó jelszavának alaphelyzetbe állításával kapcsolatos információkért lásd: Felhasználókezelés az Partnerközpont for [Microsoft Cloud Germany](user-management-in-partner-center-for-microsoft-cloud-germany.md) szolgáltatásban.
 
-Ha a felhasználók elfelejtik a jelszavukat, rendeljenek hozzájuk ideiglenes jelszót. A következő alkalommal használhatják a partner központba való bejelentkezéskor.
+Ha a felhasználók elfelejtik a jelszavukat, rendeljen hozzájuk egy ideiglenes jelszót. Ezt a következő alkalommal, amikor bejelentkeznek a Partnerközpont.
 
-## <a name="reset-a-user-password-as-an-admin"></a>Felhasználói jelszó alaphelyzetbe állítása rendszergazdaként
+## <a name="reset-a-user-password-as-an-admin"></a>Felhasználói jelszó visszaállítása rendszergazdaként
 
-1. Lépjen a **Beállítások** &gt; **felhasználói kezelés** menüpontra.
+1. Ugrás a **Beállítások** &gt; **Felhasználókezelés lapra.**
 
 2. Válassza ki a listából a felhasználót.
 
-3. A lap alján válassza a **jelszó alaphelyzetbe állítása** lehetőséget.
+3. Válassza **a Lap alján** található Jelszó alaphelyzetbe állítása lehetőséget.
 
-4. Egy megerősítő képernyő jelenik meg egy ideiglenes jelszóval. Másolja ki az ideiglenes jelszót, és küldje el az új felhasználónak – az ideiglenes jelszó nem lesz elérhető a képernyő elhagyását követően. Amikor a felhasználó először jelentkezik be, a rendszer kérni fogja a jelszavuk frissítését.
+4. Megjelenik egy ideiglenes jelszóval megerősítő képernyő. Másolja ki az ideiglenes jelszót, és küldje el az új felhasználónak – az ideiglenes jelszó a képernyő elhagyása után nem lesz elérhető. Amikor a felhasználó először jelentkezik be, a rendszer felkéri a jelszó frissítésére.
 
 ## <a name="next-steps"></a>Következő lépések
 

@@ -1,119 +1,116 @@
 ---
-title: Frissítési garancia tervezési szolgáltatások – nyugdíjazás
+title: Frissítési Garancia Planning Services kieső
 ms.topic: article
 ms.date: 04/07/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: A Microsoft tervezési szolgáltatásainak kivonása folyamatban van.
+description: A Microsoft Planning Services szolgáltatást kivezetik.
 author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9ab6afc85a696b3b614ea5c3b5edc644d92bfc21
-ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
+ms.openlocfilehash: 8d5154ad63066cb9d1d3eda8cf78fc059217ca99
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107266503"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854791"
 ---
-# <a name="software-assurance-planning-services-retirement"></a>Frissítési garancia tervezési szolgáltatások – nyugdíjazás
+# <a name="software-assurance-planning-services-retirement"></a>Frissítési Garancia Planning Services kieső
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- MPN-partner rendszergazdája
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partner rendszergazdája
 
 
-A tervezési szolgáltatások teljes mértékben kimaradnak a frissítési garanciák előnyeitől, de az ügyfelek továbbra is dolgozhatnak a partnerekkel a tervezési szolgáltatások napi megtervezéséhez, amíg a bizonylatok érvényesek. Ezek azok a jelentős dátumok, amelyek a program kivonását eredményezik: 
+A tervezési szolgáltatásokat teljes mértékben kivezetik a Frissítési Garancia előnyeiből, de az ügyfelek továbbra is együttműködnek a partnerekkel, hogy a Tervezési szolgáltatások napokat használjanak a részvételhez, amíg azok érvényesek. A program kieső dátumának jelentős időpontjai a következőek: 
 
-- Február 1., 2020: a tervezési szolgáltatások Felhőbeli bevonásai kivonultak.  
-- 2020. február 1.: a betanítási utalványok már nem alakíthatók át tervezési szolgáltatások napjaira.  
-- 2021. február 1.: az ügyfelek már nem vehetik igénybe a tervezési szolgáltatások előnyeit. 
-- Június 30., 2021: az elmúlt nap, hogy az ügyfelek megtervezni vagy kiosztani a tervezési szolgáltatások utalványait. Az összes fennmaradó tervezési szolgáltatás napja 2021. július 1-től lesz eltávolítva.
-- 2022. január 1.: az elmúlt nap a partnerek számára a tervezési szolgáltatások utalványának beváltásához. A beváltást követően a partner 60 napon belül elvégezheti a fizetési kérelem folyamatát.  
+- 2020. február 1.: A tervezési szolgáltatások felhővel kapcsolatos elkötelezettségét visszavonták.  
+- 2020. február 1.: A képzési tervek már nem konvertálhatók tervezési szolgáltatási napokra.  
+- 2021. február 1.: Az ügyfelek már nem járnak a Planning Services előnyeivel. 
+- 2021. június 30. : Az utolsó nap, amikor az ügyfelek tervezési szolgáltatási naplókat hozhatnak létre/rendelhetnek hozzá. 2021. július 1-től a tervezési szolgáltatások fennmaradó napjai el lesznek távolítva.
+- 2022. január 1.: Utolsó nap a partnerek számára a Planning Services-tervek beváltása érdekében. A partnernek a beváltás után 60 napja lesz a fizetési kérelem folyamatának befejezésére.  
 
 >[!NOTE]
->A voucher életciklusa nem változik. Miután létrehozta/hozzárendelte a bizonylatot, a voucher-foglalást, az ügyfél-bevonást és a bizonylatok beváltását 180 napon belül el kell végezni a vouch lejárata előtt.  A szolgáltatások megtervezésével kapcsolatos további információkért tekintse meg az [itt](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) található gyakori kérdéseket (bejelentkezés szükséges).  Forduljon közvetlenül a regionális partneri támogatási csapathoz: [EMEA partneri](mailto:savoucher@msdirectservices.com)támogatás; [Általános partneri támogatás](https://partner.microsoft.com/dashboard/support/servicerequests)
+>A életciklus nem változik. A jegy létrehozása/hozzárendelése után a foglalási foglalást, az ügyfélbeváltást és a érvényesítési szelvényt a lejárat előtt 180 napon belül be kell fejeződni.  A Planning Services program kiesőjéhez itt [](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) található gyakori kérdések között talál további információt (bejelentkezés szükséges).  Ha kérdése van, forduljon regionális partnertámogatási csapatához: [EMEA partnertámogatás;](mailto:savoucher@msdirectservices.com) [Általános partnertámogatás](https://partner.microsoft.com/dashboard/support/servicerequests)
 
 
 ### <a name="get-started"></a>Bevezetés
 
-Ha most ismerkedik a frissítési garancia-tervezési szolgáltatásokkal, kövesse az alábbi lépéseket. Ha már aktív a tervezési szolgáltatási program (ok) ban, kezdjen el minden új bevonást az alábbi 4. lépésnél.
+Ha még csak most Frissítési Garancia tervezési szolgáltatásokat, kövesse az alábbi lépéseket. Ha már aktív a Planning Services programban vagy programokban, az alábbi négy lépésnél (4) kezdje az új lépéseket.
 
 1. Jogosultság ellenőrzése (új partnerek)
-2. Regisztrálás (új partnerek)
-3. Vállalati üzleti profil létrehozása vagy frissítése (új partnerek)
-4. Az ügyfél létrehozza és hozzárendeli a bizonylatot (meglévő partnerek)
-5. Utalvány ellenőrzése és foglalása (meglévő partnerek)
-6. Elvégezheti a bevonást és a termékek biztosítását az ügyfélnek (meglévő partnerek)
-7. Utalvány beváltása a partner Centerben (meglévő partnerek)
+2. Regisztráció (új partnerek)
+3. A vállalat üzleti profiljának létrehozása vagy frissítése (új partnerek)
+4. Az ügyfél létrehozza és hozzárendeli a jogokat (meglévő partnerek)
+5. Érvényesíti és fenntartja a jogot (meglévő partnerek)
+6. Teljes körű kötelezettségvállalás és kézbesítések az ügyfél (meglévő partnerek) számára
+7. Beváltsa a Partnerközpont (meglévő partnerek)
 8. Fizetés kérése a Microsofttól (meglévő partnerek)
 
-Ez a cikk az egyes lépések befejezését ismerteti.
+Ez a cikk az egyes lépéseket ismerteti.
 
 ## <a name="verify-eligibility-new-partners"></a>Jogosultság ellenőrzése (új partnerek)
 
-Mielőtt a partnerek és a tanácsadók beregisztrálhatnak az egyik tervezési szolgáltatási ajánlatba, meg kell felelniük a kompetenciával kapcsolatos követelményeknek, az alábbiak szerint:
+Mielőtt a partnervállalatok és tanácsadók regisztrálnak a Planning Services-ajánlatok egyikében, meg kell felelniük a kompetenciakövetelmények követelményeinek az alábbiak szerint:
 
-**Kompetenciával kapcsolatos követelmények.** A kompetenciára vonatkozó követelmények a kézbesítéshez szükségesek. Előfordulhat például, hogy vállalata regisztrálva van az asztali üzembe helyezési tervezési szolgáltatások (DDPS) ajánlatában. Azonban csak akkor jogosult a DDPS-ajánlaton belül egy adott részvételre, ha a vállalata az adott szerepvállalásra vonatkozó alkalmassági kompetenciával is rendelkezik.
+**Kompetenciakövetelmények.** A kompetenciakövetelmények a vállalásra vonatkoznak. Előfordulhat például, hogy a vállalata regisztrálva van az asztali telepítés tervezési szolgáltatásainak (DDPS) ajánlatában. Ön azonban csak akkor jogosult egy adott kötelezettségvállalásra a DDPS-ajánlaton belül, ha a vállalat megfelelő kompetenciával rendelkezik az adott kötelezettségvállaláshoz.
 
 >[!NOTE]
-> Ha többet szeretne megtudni az egyes bevonásokra vonatkozó támogathatósági követelményekről, [tekintse meg a szolgáltatások megtervezésére vonatkozó jogosultsági követelményeket](software-assurance-dps-requirements.md).
+> Az egyes kötelezettségvállalásokkal kapcsolatos jogosultsági követelményekkel kapcsolatos további információkért tekintse meg a planning [services engagements jogosultsági követelményeit.](software-assurance-dps-requirements.md)
 
-Annak ellenőrzéséhez, hogy a vállalat jogosult-e regisztrálni egy adott tervezési szolgáltatási engagementben:
+Annak ellenőrzéséhez, hogy a vállalat jogosult-e regisztrálni egy adott Planning Services-eseményre:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
-2. Válassza az **MPN** lehetőséget a menüben, majd válassza a **programok** lehetőséget.
-3. Válassza a **frissítési garancia beléptetése** lehetőséget.
-4. Válassza ki a **tervezési szolgáltatások program beléptetése** fület a lap tetején. A már elvégzett követelmények vagy kompetenciák mellett zöld pipa jelenik meg.
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard/home)
+2. Válassza **ki az MPN** elemet a menüből, majd válassza a **Programok elemet.**
+3. Válassza a **Frissítési garanciával való regisztráció lehetőséget.**
+4. Válassza a **Planning Services program regisztrációs lapját** a lap tetején. A már befejezett követelmények vagy kompetenciák mellett egy zöld pipa látható.
 
-## <a name="enroll-new-partners"></a>Regisztrálás (új partnerek)
+## <a name="enroll-new-partners"></a>Regisztráció (új partnerek)
 
-Miután a vállalat megfelelt a jogosultsági követelményeknek, készen áll a frissítési garancia tervezési szolgáltatási szerződésének aláírására és egy vagy több programbeli ajánlat regisztrálására.
+Ha a vállalat megfelel a jogosultsági követelményeknek, aláírja a Frissítési Garancia Planning Services programszerződést, és regisztrál egy vagy több programajánlatra.
 
-Először is tekintse át az összes [tervezési szolgáltatási program házirendjét](https://go.microsoft.com/fwlink/?linkid=2115984). Ezután kövesse a munkafolyamat 2. [lépésében](https://go.microsoft.com/fwlink/?linkid=2115983) található utasításokat a szolgáltatások megtervezése a partner Centerben.
+Először tekintse át a Planning Services program [összes szabályzatát.](https://go.microsoft.com/fwlink/?linkid=2115984) Ezután kövesse a munkafolyamat [2.](https://go.microsoft.com/fwlink/?linkid=2115983) lépésében található utasításokat a Planning Services regisztrációs folyamatának befejezéséhez a Partnerközpont.
 
 
-## <a name="create-or-update-your-companys-business-profile-new-partners"></a>Vállalati üzleti profil létrehozása vagy frissítése (új partnerek)
+## <a name="create-or-update-your-companys-business-profile-new-partners"></a>A vállalat üzleti profiljának létrehozása vagy frissítése (új partnerek)
 
-Maximalizálhatja a potenciális ügyfeleknek való kitettséget. Kövesse az [utasításokat és útmutatást](create-a-marketing-profile.md) a vállalat üzleti profiljának a partner centeren belüli létrehozásához vagy frissítéséhez.
+Maximalizálhatja a potenciális ügyfelekkel való kitettséget. Kövesse [az utasításokat és útmutatást](create-a-marketing-profile.md) a vállalati üzleti profil létrehozásához vagy frissítéséhez a Partnerközpont.
 
-## <a name="customer-creates-and-assigns-voucher-existing-partners"></a>Az ügyfél létrehozza és hozzárendeli a bizonylatot (meglévő partnerek)
+## <a name="customer-creates-and-assigns-voucher-existing-partners"></a>Az ügyfél létrehozza és hozzárendeli a jogokat (meglévő partnerek)
 
-A tervezési szolgáltatások bevonásának megkezdéséhez az ügyfélnek a következő műveleteket kell végrehajtania:
+A Planning Services kötelezettségvállalásának megkezdése előtt az ügyfélnek a következő műveleteket kell követnie:
 
-1. Az ügyfeleknek először aktiválnia kell a tervezési szolgáltatások előnyeit.
-2. Az ügyfeleknek Ezután létre kell hozniuk egy tervezési szolgáltatások utalványt, és hozzá kell rendelniük a vállalat projektmenedzseréhez.
+1. Az ügyfeleknek először aktiválnia kell a Planning Services juttatásukat.
+2. Az ügyfeleknek ezután létre kell hozniuk egy Planning Services-webhelyet, és hozzá kell rendelniük azt egy projektmenedzserhez a vállalatuknál.
 
-Az ügyfélnek részletes útmutatást kell adnia a bizonylat létrehozásához és az Önhöz való hozzárendeléséhez: a munkafolyamat [4. lépése](https://go.microsoft.com/fwlink/?linkid=2115983) . A felhasználói élmény áttekintését a [VLSC frissítési garanciával foglalkozó útmutatójában](https://download.microsoft.com/download/A/7/D/A7D04694-1B1E-4B18-918F-0EDCD43BA2E5/VLSC-Software-Assurance-Guide_en-US.pdf)találja.
+A részletes utasításokért, amelyek alapján az ügyfélnek létre kell hoznia a fogatot, és hozzá kell rendelnie Azt, tekintse meg a munkafolyamat [4.](https://go.microsoft.com/fwlink/?linkid=2115983) lépését. A felhasználói élmény áttekintéséhez tekintse meg a [VLSC Frissítési Garancia útmutatóját.](https://download.microsoft.com/download/A/7/D/A7D04694-1B1E-4B18-918F-0EDCD43BA2E5/VLSC-Software-Assurance-Guide_en-US.pdf)
 
-## <a name="validate-and-reserve-voucher-existing-partners"></a>Utalvány ellenőrzése és foglalása (meglévő partnerek)
+## <a name="validate-and-reserve-voucher-existing-partners"></a>Ellenőrzés és lefoglalás (meglévő partnerek)
 
-Miután az ügyfél hozzárendel egy bizonylatot a vállalathoz a [mennyiségi licencelési szolgáltatási központban (VLSC)](https://www.microsoft.com/Licensing/servicecenter/default.aspx), az ügyfél egy e-mailt kap, amely tartalmazza a utalvány azonosítóját. Az ügyfélnek továbbítania kell ezt az e-mailt Önnek, hogy rendelkezzen a bizonylat lefoglalásához szükséges információkkal.
+Miután egy ügyfél hozzárendelt egy üveget a vállalathoz a Mennyiségilicenc-szolgáltatási központban [(VLSC),](https://www.microsoft.com/Licensing/servicecenter/default.aspx)az ügyfél kap egy e-mailt, amely tartalmazza a levél azonosítóját. Az ügyfélnek ezt az e-mailt kell tovább küldenie Önnek, hogy Ön a foglaláshoz szükséges információkkal fel tudja foglalni.
 
-A bizonylat részleteinek megadásával lefoglalhatja a bizonylatot, és ütemezheti a tervezési szerepvállalást. A munkafolyamat [5. lépésében](https://go.microsoft.com/fwlink/?linkid=2115983) részletes útmutatást talál arról, hogyan teheti meg ezt a partner Center irányítópultján.
+Ha már megvan a részletek, lefoglalhatja a foglalást, és ütemezheti a tervezést. A [munkafolyamat 5.](https://go.microsoft.com/fwlink/?linkid=2115983) lépésében részletes útmutatást láthat arról, hogyan tegye ezt meg a Partnerközpont irányítópulton.
 
-## <a name="complete-engagement-and-provide-deliverables-to-your-customer-existing-partners"></a>Elvégezheti a bevonást és a termékek biztosítását az ügyfélnek (meglévő partnerek)
+## <a name="complete-engagement-and-provide-deliverables-to-your-customer-existing-partners"></a>Teljes körű kötelezettségvállalás és kézbesítések az ügyfél (meglévő partnerek) számára
 
-Ahhoz, hogy jogosult legyen a tervezési szolgáltatások bevonására, a nyertes ajánlattevőnek el kell végeznie egy vagy több, az engagement minősítési kompetenciához szükséges technikai értékelést vagy vizsgát. (Ha többet szeretne megtudni a szükséges értékelésekről vagy vizsgáról, [tekintse meg a szolgáltatások megtervezésére vonatkozó jogosultsági követelményeket](software-assurance-dps-requirements.md).)
+Ahhoz, hogy jogosult legyen tervezési szolgáltatásokra való részvételre, a tanácsadónak el kell rendelkeznie egy vagy több olyan műszaki értékelésen vagy vizsgán, amely szükséges a részvétel megfelelő kompetenciája megszerzéséhez. (A szükséges felmérésekkel vagy vizsgákval kapcsolatos további információkért tekintse meg a planning [services engagements jogosultsági követelményeit.)](software-assurance-dps-requirements.md)
 
-Miután a vállalat befejezte a bevonást, és biztosította a végleges, befejezett kézbesítés (eke) t az ügyfélnek, ki kell töltenie és el kell küldenie az online befejezési jelentést.
+Miután a vállalat befejezte a kötelezettségvállalást, és biztosította az ügyfélnek a végleges, befejezett kézbesítendő(k) adatokat, ki kell töltenie és be kell nyújtania az online befejezési jelentést.
 
-Részletes útmutatásért lásd a munkafolyamat [6. lépését](https://go.microsoft.com/fwlink/?linkid=2115983) .
+Részletes útmutatásért tekintse meg a munkafolyamat [6.](https://go.microsoft.com/fwlink/?linkid=2115983) lépését.
 
-## <a name="redeem-voucher"></a>Utalvány beváltása
+## <a name="redeem-voucher"></a>Beváltsa a váltson
 
-Mielőtt számlázni tudja a Microsoftot a kézbesítési engagement számára, először be kell váltania a bizonylatot. Részletes útmutatásért tekintse meg a munkafolyamat [7. lépését](https://go.microsoft.com/fwlink/?linkid=2115983) .
+Mielőtt számlázhatja a Microsoftot a kézbesítési kötelezettségvállalásról, be kell beváltani a számláját. Részletes útmutatásért tekintse meg a munkafolyamat [7.](https://go.microsoft.com/fwlink/?linkid=2115983) lépését.
 
 ## <a name="request-payment-from-microsoft-existing-partners"></a>Fizetés kérése a Microsofttól (meglévő partnerek)
 
-A tervezési szolgáltatások utalványok beváltását követően a Microsofttól kell fizetnie. A kifizetések kezelése a szoftverfrissítési utalványok Benefit (SAVB) online fizetési eszközén keresztül történik.
+A Planning Services-szolgáltatások beváltása után ki kell számláznunk a Microsoftnak a fizetést. A kifizetések a Frissítési Garancia Benefit (SAVB) online fizetési eszközével kezelhetők.
 
-Ha a SAVB-on keresztül szeretne számlát küldeni a Microsoftnak, kövesse a munkafolyamat [8. lépésében](https://go.microsoft.com/fwlink/?linkid=2115983) található utasításokat.
+Ha a SAVB-n keresztül küld számlát a Microsoftnak, kövesse a munkafolyamat [8.](https://go.microsoft.com/fwlink/?linkid=2115983) lépésében található utasításokat.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Frissítési garancia tervezési szolgáltatásainak munkafolyamata](https://go.microsoft.com/fwlink/?linkid=2115983)
-- [Frissítési garancia tervezési szolgáltatásai – gyakori kérdések](https://go.microsoft.com/fwlink/?linkid=2116077)
-- [Frissítési garancia tervezési szolgáltatási házirendjei](https://go.microsoft.com/fwlink/?linkid=2115984)
-- [A frissítési garancia tervezési szolgáltatásainak kivonásai](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4sln9)
+- [Frissítési Garancia Szolgáltatások tervezése munkafolyamat](https://go.microsoft.com/fwlink/?linkid=2115983)
+- [Frissítési Garancia Planning Services – gyakori kérdések](https://go.microsoft.com/fwlink/?linkid=2116077)
+- [Frissítési Garancia Szolgáltatások tervezése szabályzatok](https://go.microsoft.com/fwlink/?linkid=2115984)
+- [Frissítési Garancia planning services – visszavont kötelezettségvállalás](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4sln9)

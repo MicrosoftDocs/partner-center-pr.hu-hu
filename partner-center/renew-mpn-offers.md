@@ -9,18 +9,16 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 779f785899039765ba4a9da42d3e6bb4a828976d
-ms.sourcegitcommit: efd711b0e65c55f24ce5b9636abd7b5a8cc719fe
+ms.openlocfilehash: 72e5c797f292329e779924177b0500e80754e3df
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "108018084"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109855675"
 ---
 # <a name="renew-your-mpn-offers-for-competencies-and-advanced-specializations-during-the-renewal-window"></a>A kompetenciákra és speciális specializációkra vonatkozó MPN-ajánlatok megújítása a megújítási időszak alatt
 
-**Megfelelő szerepkörök**
-
-- MPN-partner rendszergazdája
+**Megfelelő szerepkörök:** MPN-partneri rendszergazda
 
 ## <a name="responding-to-covid-19-microsoft-partner-network-update"></a>Válasz a COVID-19-re: Microsoft Partner Network frissítése
 
@@ -40,9 +38,9 @@ Ha a megújítást a megújítási időszak alatt megújítja, az új évfordul�
 
 3. Válasszon ki egy kompetenciát. Egy értesítés fog látni, amely szerint a következő megújítási dátumig mentesül a követelmények alól.
 
-4. Az ajánlat előnyeinek kihasználtságáról a **Tagsági ajánlatok lehetőséget használhatja.** Előfordulhat, hogy a kompetenciadíjat a kompetencia megvásárlásának vagy megújításának állapotától függően kell kifizetnie a folyamat befejezéséhez.
+4. Az ajánlat előnyeit a Tagsági **ajánlatok között használhatja.** Előfordulhat, hogy a kompetenciadíjat a kompetencia vásárlásának vagy megújításának állapotától függően kell kifizetnie a folyamat befejezéséhez.
 
-A bővítmény előnyeinek kihasználtságáról a Partner Membership Center (PMC) rendszerből Partnerközpont a kompetencia megújítása és a díj fizetése érdekében át kell vennie a tagságot. Ha még nem költözte át a tagságát, további [információért](prepare-pmc-pc-migration.md)   és a [váltásról még ma tájékozódni](https://partners.microsoft.com/partnerprogram/Welcome.aspx)   kell.  
+A bővítmény előnyeinek kihasználtságáról a Partner Membership Center (PMC) Partnerközpont a kompetencia megújítása és a díj fizetése érdekében át kell vennie a tagságot. Ha még nem költöztette át a tagságát, [itt olvashat](prepare-pmc-pc-migration.md)   bővebben, és [még ma átveszi a](https://partners.microsoft.com/partnerprogram/Welcome.aspx)   váltást.  
 
 ## <a name="next-steps"></a>Következő lépések
 

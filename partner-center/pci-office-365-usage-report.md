@@ -1,89 +1,84 @@
 ---
-title: A partner Center-adatellenőrzési Office 365 használati jelentése
+title: Partnerközpont – office 365-használati jelentés
 ms.topic: article
 ms.date: 01/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, mit csinál jól, és hogyan javíthatja az ügyfelek számára eladott vagy kezelt Office 365-előfizetések használatát.
+description: Itt láthatja, hogy mit csinál jól, és hol javíthatja az ön által az ügyfelek számára értékesít vagy felügyelni képes Office 365-előfizetések használatát.
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: d1710215f5fd1d7058232c81ae68ae9cd1ba5240
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 685dce8d521bc27b9b91efd5206e9da0d7e45f34
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086311"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854603"
 ---
-# <a name="office-365-usage-report-available-from-the-partner-center-insights-dashboard"></a>Az Office 365 használati jelentése a partner Center bepillantást ismertető irányítópultján érhető el
+# <a name="office-365-usage-report-available-from-the-partner-center-insights-dashboard"></a>Az Office 365 használati jelentése a Partnerközpont Insights irányítópulton érhető el
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Jelentés megjelenítője
-- Executive Report Viewer
-
-Az Office 365 használati jelentés az ügyfelek számára eladott vagy kezelt Office 365-előfizetések használati adatait tartalmazza. A következő szakaszt az Office 365 használati jelentésében tekintheti meg.
+Az Office 365 használati jelentése használati adatokat biztosít az ügyfelek számára eladott vagy kezelt Office 365-előfizetések számára. A következő szakaszokat az Office 365 használati jelentésében tudja megtekinteni.
 
 - Összefoglalás
-- Office 365-használat földrajz szerint
-- Office 365-használat munkaterhelés szerint
+- Office 365-használat földrajzi hely szerint
+- Office 365-használat számítási feladatok szerint
 - Előfizetések teljesítménye
-- Office 365 használati eloszlás
+- Office 365-használat eloszlása
 
  > [!NOTE]
- > Ez a jelentés az áttekintések irányítópultján érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a partner Centerben, például a globális rendszergazda, a fiók rendszergazdája, a jelentéskészítő vagy a Executive Report Viewer. További információ: a vállalat globális rendszergazdája. a jelentésben megadott adattípusok csak a Executive Report Viewer jogosultságokkal rendelkező felhasználók számára is elérhetők.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információkért lásd a vállalat globális rendszergazdáját. Előfordulhat, hogy a jelentésben szereplő konkrét adattípusok csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők.
 
 ## <a name="summary"></a>Összefoglalás
 
-A Summary (összefoglalás) szakasz az Office 365-előfizetésekkel kapcsolatos, az ügyfelek számára eladott vagy kezelt előfizetésekhez kapcsolódó kulcsfontosságú mutatók pillanatképét jeleníti meg.  
+Az összefoglaló szakasz az ügyfelek számára eladott vagy kezelt Office 365-előfizetésekkel kapcsolatos fő mutatók pillanatképnézetét mutatja be.  
 
-- Új előfizetések: a kiválasztott időkereten belül eladott vagy kezelt előfizetések teljes száma.
+- Új előfizetések: A kiválasztott időkereten belül eladott vagy kezelt előfizetések teljes száma.
 
-   A Micro diagram a kiválasztott dátumtartomány új előfizetések számának havi hónapjának alakulását mutatja be.
+   A Mikrodiagram a kiválasztott dátumtartományra vonatkozó Új előfizetések száma havi trendet mutat.
 
-- Rendelkezésre álló helyek: a kiválasztott időkereten belül eladott licencek teljes száma.
+- Elérhető helyek: A kiválasztott időkereten belül eladott licencek teljes száma.
 
-   A Micro diagram a megadott Dátumtartomány alapján a licencek eladott darabszámának havi hónapját mutatja.
+   A Mikrodiagram a kiválasztott dátumtartományban értékesített licencek havi trendjét mutatja.
 
-- Havi aktív felhasználók: az előző hónapban munkaterhelést használó felhasználók száma. 
+- Havi aktív felhasználók: Azon felhasználók száma, akik az előző hónapban használták a számítási feladatot. 
 
-   A Micro diagram a havi aktív felhasználók havi trendjét mutatja be a kiválasztott időszakban.
+   A Mikrodiagram a havi aktív felhasználók havi trendjét mutatja a kiválasztott időszakra vonatkozóan.
 
-:::image type="content" source="images/pci/pci-o365-usage-summary.png" alt-text="Office 365 használati összefoglalás":::
+:::image type="content" source="images/pci/pci-o365-usage-summary.png" alt-text="Az Office 365 használatának összegzése":::
 
-## <a name="office-365-usage-by-geography"></a>Office 365-használat földrajz szerint
+## <a name="office-365-usage-by-geography"></a>Office 365-használat földrajzi hely szerint
 
-Az **Office 365 földrajz szerint** a havi aktív felhasználók (Mau) és a fizetős egységek (Pau) elosztása az ügyfél országa szerint. A MAU az előző hónapban felhasznált licencek száma, a PAU pedig a kiválasztott időkereten belül eladott vagy kezelt fizetett helyek számát jelöli. A Térkép világosabb színei alacsonyabb értékeket jelölnek, míg a sötétebb színek nagyobb értékeket jelentenek. A rácson kereshet és kijelölhet egy országot. Részletesebben is megtekintheti a nagyítást.
+Az **Office 365** földrajzi hely szerinti használata a havi aktív felhasználók (MAU) és a fizetős rendelkezésre álló egységek (PAU) eloszlását ábrázolja az ügyfél országa szerint. A MAU az előző hónapban használt licencek számát, a PAU pedig a kiválasztott időszakban eladott vagy kezelt fizetős helyek számát jelenti. A térképen a világosabb színek alacsonyabb értékeket, míg a sötétebbek magasabb értékeket képviselnek. Kereshet és kiválaszthat egy országot a rácsban. A közelebbi megjelenéshez nagyíthatja is a képet.
 
-Az **országok/** régiók tábla száma az összes olyan országot és régiót mutatja be, ahol az Azure-használati események jönnek létre.
+A **Number of countries/region (Országok/régiók** száma) táblázat az összes olyan országot/régiót mutatja, ahol az Azure használati eseményei létrejönnek.
 
-Megkeresheti és kiválaszthatja a rács egyik országát, hogy a térképen lévő helyre nagyítson. Válassza ki a **Kezdőlap** lehetőséget a térképen, és térjen át az eredeti nézetre.
+Megkeresheti és kiválaszthatja a rács egyik országát a térkép helyének nagyításához. A térkép **Kezdőlap** lehetőségének kiválasztásával visszaállítja az eredeti nézetet.
 
 
-:::image type="content" source="images/pci/pci-o365-usage-geography.png" alt-text="Office 365-használat földrajz szerint":::
+:::image type="content" source="images/pci/pci-o365-usage-geography.png" alt-text="Office 365-használat földrajzi hely szerint":::
 
-## <a name="office-365-usage-by-workload"></a>Office 365-használat munkaterhelés szerint
+## <a name="office-365-usage-by-workload"></a>Office 365-használat számítási feladatok szerint
 
-Az Office 365 munkaterhelése a MAU és a PAU munkaterhelések szerinti bontását ábrázolja.
+Az Office 365 számítási feladatok szerinti használata a MAU és a PAU számítási feladatok szerinti lebontását ábrázolja.
 
-:::image type="content" source="images/pci/pci-o365-usage-workload.png" alt-text="Office 365-használat munkaterhelés szerint":::
+:::image type="content" source="images/pci/pci-o365-usage-workload.png" alt-text="Office 365-használat számítási feladatok szerint":::
 
 ## <a name="subscriptions-performance"></a>Előfizetések teljesítménye
 
-Az előfizetések teljesítménye a MAU és a PAU részletezését ábrázolja az ügyfelek munkaterhelései alapján. A legfontosabb 100-ügyfelek által számlázott bevételsel kapcsolatos adatok a táblázatban jelennek meg, és bármely ügyfél megkeresésével vagy a nyers adatok letöltésével megtekintheti az ügyfelek adatait.
+Az Előfizetések teljesítménye a MAU és a PAU lebontását jeleníti meg számítási feladatok szerint, ügyfélenként. A táblázatban az első 100 ügyfél számlázható bevétele látható, és bármely ügyfelet megkeresheti, vagy letöltheti a nyers adatokat az összes ügyfél adatainak megtekintéséhez.
 
 :::image type="content" source="images/pci/pci-o365-usage-subscription.png" alt-text="Office 365-előfizetés teljesítménye":::
 
-## <a name="office-365-usage-distribution"></a>Office 365 használati eloszlás
+## <a name="office-365-usage-distribution"></a>Office 365-használat eloszlása
 
-Az Office 365 használati eloszlása a PAU és az előfizetések SKU szerinti bontását ábrázolja.
+Az Office 365 használati eloszlása a PAU-k és előfizetések SKU-k szerinti lebontását ábrázolja.
 
-:::image type="content" source="images/pci/pci-o365-usage-distribution.png" alt-text="Office 365 használati eloszlás":::
+:::image type="content" source="images/pci/pci-o365-usage-distribution.png" alt-text="Office 365-használat eloszlása":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-- További jelentések: [partner Center](partner-center-insights.md)-információk.
+- További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
 
-- A jelentést az elemzések irányítópultjának letöltési jelentések részéből töltheti le. [További információ](pci-download-reports.md) 
+- A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 

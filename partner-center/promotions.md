@@ -1,69 +1,64 @@
 ---
-title: Promóciók használata ügyfelek számára
+title: Promóciók használata ügyfelek érdeklődésének felkeltése érdekében
 ms.topic: article
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a Microsoft partnerei hogyan vásárolhatnak előfizetéseket a felhőalapú megoldás-szolgáltatói programban a promóció díjszabása alapján, és megtakarítják a megtakarítást az ügyfeleknek
+description: Megismerheti, hogy a Felhőszolgáltató program Microsoft-partnerei hogyan vásárolhatnak előfizetéseket az előléptetési díjszabással, és hogyan használhatjanak megtakarításokat az ügyfeleiknek.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 48521424fd695f20192e69e11a980505873768c2
-ms.sourcegitcommit: 1a0c83e2089cb58221bdb24525127378f5197ea8
+ms.openlocfilehash: 431ac8a4dd96dc7ed768efabd62dbd4a4c2a6d90
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98215866"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854978"
 ---
-# <a name="use-promotions-to-attract-new-customers-and-pass-the-savings-on-to-them"></a>A promóciók használatával új ügyfeleket vonzhat, és megtakaríthatja őket
+# <a name="use-promotions-to-attract-new-customers-and-pass-the-savings-on-to-them"></a>Promóciók használata új ügyfelek vonzásában és a megtakarításaik számukra való átadásában
 
 
 
-**Megfelelő szerepkörök**
-
-- Felügyeleti ügynök
-- MPN-partner rendszergazdája
-- Számlázási adminisztrátor
-- Értékesítési ügynök
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | MPN-partner rendszergazdai | Számlázási rendszergazdai | Értékesítési ügynök
 
 
-A Microsoft alkalmanként licenc-alapú előfizetéseket kínál, így megtakaríthatja az ügyfeleket, és növelheti üzleti tevékenységét. 
+A Microsoft alkalmanként promóciókat kínál a licencalapú előfizetések esetében, így Ön átveszi a megtakarítást az ügyfeleknek, és növekedhet a vállalkozása. 
 
-A Microsoft kétféle előléptetést kínál: azok, akik a Cloud Solution Provider (CSP) program összes jogosult partnere számára elérhetők, és csak az adott földrajzi régióban lévő partnerek számára elérhetők.
+A Microsoft kétféle promóciót kínál: azok, amelyek a Felhőszolgáltató (CSP) program összes jogosult partnere számára elérhetők, és amelyek csak egy adott földrajzi régióban található partnerek számára érhetők el.
 
-Az előléptetési díjszabás automatikusan érvényes a nettó árra, amikor új előfizetéseket vásárol az akciós áron. Emellett az előléptetési díjszabás keretében megvásárolt előfizetéshez hozzáadott licenceket a promóció díja adja hozzá. 
+Az előléptetési díjszabás automatikusan a nettó árra lesz alkalmazva, amikor új előfizetéseket vásárol az előléptetési áron. Emellett az előléptetési díjszabással vásárolt előfizetéshez adott licencek az előléptetési díjszabás szerint kerülnek hozzáadásra. 
 
-Szánjon egy kis időt a promóciókkal kapcsolatos fontos tények áttekintésére:
+Tekintse át az előléptetésekkel kapcsolatos alábbi fontos tényeket:
 
-- Az előfizetés promóciós díja csak az előfizetés időtartamára vonatkozik. Ha egy promóciós díjszabással megvásárolt előfizetés lejár, a megújítási előfizetés díja az árlista áraira vált. Ez azt jelenti, hogy az automatikus megújításra beállított előfizetések az érvényes áron megújítva lesznek. A árlista a **díjszabás és ajánlatok** oldalon található.
+- Az előfizetés előléptetési ára csak az előfizetés időtartamára vonatkozik. Ha a promóciós díjszabással vásárolt előfizetés lejár, a megújítási előfizetés ára visszaáll az árlistán található árra. Ez azt jelenti, hogy az automatikus megújításra beállított előfizetések a fennálló áron újulnak meg. Az árlista a Díjszabás és **ajánlatok oldalon található.**
 
-- Ha egy előfizetés több promócióra is jogosult, a rendszer automatikusan alkalmazza a legmagasabb százalékos arányú előléptetést.
+- Ha egy előfizetés több promócióra is jogosult, a legmagasabb százalékos eltéréssel rendelkező előléptetés automatikusan alkalmazva lesz.
 
-- A promóciós árú előfizetések lemondása ugyanazt a folyamatot és szabályzatot követi, mint a rendszeres díjszabás.
+- Az előléptetési áras előfizetések lemondása ugyanazt a folyamatot és szabályzatot követi, mint a rendszeresen áras előfizetések.
 
 ## <a name="see-available-promotions"></a>Elérhető promóciók megtekintése
 
-A **Promóciók** oldalon megtekintheti, hogy mely promóciókra jogosult (ha van ilyen). Válassza ki a **partneri központ** menüjének **promóciók** elemét, ahol megtekintheti az aktuális promóciók listáját, valamint a kedvezményt, az előléptetés típusát, valamint az előfizetés kezdési és befejezési dátumát. Ha nincs elérhető promóció, azt egy üzenet jelzi. 
+A **Promóciók** oldalon megtekintheti, hogy mely promóciókra jogosult (ha van ilyen). Válassza **a** Partnerközpont **menüben** az aktuális promóciók listáját, valamint a kedvezményt, az előléptetés típusát, valamint az előfizetés kezdő és záró dátumát. Ha nincs elérhető promóció, azt egy üzenet jelzi. 
 
 > [!NOTE]  
 > A promóciók vásárlás közben is megtekinthetők. Amikor kiválaszt egy előfizetést, az **Áttekintés** oldalon megjelenik a promóciós díjszabás.
 
 ## <a name="purchase-subscriptions-at-promotion-prices"></a>Előfizetések vásárlása kedvezményes áron
 
-1. A **partnervállalat** menüjében válassza az **ügyfelek** lehetőséget, majd válassza ki az előfizetést vásárló ügyfelet. 
+1. A saját **Partnerközpont** válassza **az** Ügyfelek lehetőséget, majd válassza ki az előfizetést megvásárló ügyfelet. 
 
-2. Válassza az **előfizetés hozzáadása** lehetőséget.
+2. Válassza **az Előfizetés hozzáadása lehetőséget.**
 
-3. Az **új előfizetés** lapon válassza ki azt az előfizetést, amelyre az előléptetés vonatkozik.
+3. Az Új **előfizetés lapon** válassza ki azt az előfizetést, amelyre az előléptetés vonatkozik.
 
-4. Adja meg az ügyfél által igényelt licencek számát. 
+4. Adja meg az ügyfél számára szükséges licencek számát. 
 
-5. Tekintse át a sorrendet. Ekkor megjelenik a promóció díjszabása, amely a **kedvezmény** oszlopban lesz alkalmazva.  
+5. Tekintse át a rendelést. Az előléptetési díjszabást a Kedvezmény oszlopban **láthatja.**  
 
-6. A vásárláshoz válassza a **Küldés** lehetőséget. Az ügyfél a következő számlán fogja látni a promóciós árat.  
+6. A **vásárláshoz válassza** a Küldés lehetőséget. Az ügyfél a következő számlán fogja látni az előléptetési árat.  
 
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Értékesítés speciális célközönségeknek](sell-to-education-customers.md)
+- [Értékesítés specializált célközönség számára](sell-to-education-customers.md)

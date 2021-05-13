@@ -4,107 +4,103 @@ ms.topic: how-to
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Az Azure-csomag használatával megtudhatja, hogyan vásárolhat egy vagy több Azure-előfizetést, az Azure-foglalásokat, az erőforrások konfigurálását, valamint az előfizetések megtekintését és hozzáadását.
+description: Az Azure-csomag használatával megtudhatja, hogyan vásárolhat egy vagy több Azure-előfizetést, Azure Reservationst, konfigurálhatja az erőforrásokat, valamint megtekintheti vagy hozzáadhatja az előfizetéseket.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ec74076281d4c8e65de6818281a2852df264732c
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 004044902b21c223af75414a1ec999173b481058
+ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441625"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109854961"
 ---
-# <a name="purchase-the-azure-plan-for-customers--access-the-latest-azure-services-at-pay-as-you-go-rates"></a>Az Azure-csomag megvásárlása az ügyfelek számára & a legújabb Azure-szolgáltatásokat az utólagos elszámolású díjszabás szerint érheti el
+# <a name="purchase-the-azure-plan-for-customers--access-the-latest-azure-services-at-pay-as-you-go-rates"></a>Azure-csomag vásárlása az & azure-szolgáltatásokhoz való hozzáféréshez használat alapján
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Értékesítési ügynök
+Ha az ügyfelek számára a Microsoft Ügyfélszerződés keretében vásárol Azure-csomagokat, a legújabb Azure-szolgáltatások teljes katalógusát elérheti használat alapján. A CSP-partnerek mostantól bármely Azure-szolgáltatáshoz hozzáférhetnek, amikor általánosan elérhetővé válnak. Egy partner több Azure-előfizetéssel is rendelkezik egy Azure-csomag keretében. 
 
-Ha a Microsoft ügyfél-szerződés keretében vásárol Azure-csomagot ügyfeleinek, akkor a legújabb Azure-szolgáltatások teljes katalógusát az utólagos elszámolású díjszabásban érheti el. A CSP-partnerek mostantól hozzáférhetnek bármely Azure-szolgáltatáshoz, ha általánosan elérhetővé válnak. Egy partner több Azure-előfizetéssel is rendelkezhet egy Azure-csomag keretében. 
+## <a name="countryregion-availability"></a>Ország/régió rendelkezésre állása
 
-## <a name="countryregion-availability"></a>Ország/régió elérhetősége
+Az Azure-hoz elérhető CSP új kereskedelmi élménye jelenleg 139 országban érhető el. Tekintse meg ezen [országok/régiók teljes listáját.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x) 
 
-Az Azure-beli CSP új kereskedelmi tapasztalata jelenleg 139 országban van ütemezve. Tekintse meg az [országok/régiók](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x)teljes listáját. 
+## <a name="how-to-purchase-azure-plan"></a>Azure-csomag vásárlása
 
-## <a name="how-to-purchase-azure-plan"></a>Az Azure-csomag megvásárlása
+Az Azure-csomag megvásárlása hasonló bármely más előfizetés megvásárlásához. A fő különbség az, hogy mielőtt ténylegesen elrendeli a rendelést, meg kell erősítenie, hogy az ügyfél aláírta a Microsoft Ügyfélszerződés.
 
-Az Azure-csomag megvásárlása hasonló a többi előfizetés megvásárlásához. A legfontosabb különbség az, hogy mielőtt ténylegesen megadta a rendelését, meg kell győződnie arról, hogy az ügyfél aláírta a Microsoft ügyfél-szerződést.
-
-1. Válassza a **szegmens kereskedelmi** és típus **Microsoft Azure** 
-2. Az Azure-csomag területen válassza **a Hozzáadás a kosárhoz** lehetőséget
+1. Válassza a **Segment Commercial (Kereskedelmi szegmens) lehetőséget,** és írja be a **Microsoft Azure** 
+2. Az Azure-csomag alatt válassza a **Hozzáadás a kosárhoz lehetőséget**
 
 :::image type="content" source="images/azure/Azurepurchase1.png" alt-text="Vásárlás":::
 
-A partnernek meg kell erősítenie, hogy az ügyfél áttekintette és elfogadta a Microsoft Customer szerződés feltételeit. A partner által elvégezhető megoldásról további információt a [Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyását](confirm-customer-agreement.md)ismertető cikkben találhat. Más erőforrások is elérhetők az [erőforrás-gyűjteményben](https://partner.microsoft.com/resources/collection/Microsoft-Customer-Agreement-in-the-CSP-program#/).
+A partnernek meg kell erősítenie, hogy az ügyfél áttekinti és elfogadta Microsoft Ügyfélszerződés feltételeket. További információ arról, hogy a partner hogyan tudja ezt megtenni, olvassa el A feltételek ügyfél általi [elfogadásának megerősítése Microsoft Ügyfélszerződés.](confirm-customer-agreement.md) Más erőforrások az [erőforrás-katalógusban érhetők el.](https://partner.microsoft.com/resources/collection/Microsoft-Customer-Agreement-in-the-CSP-program#/)
 
-**A megerősítéshez a következőket teheti**: 
+**A megerősítéshez a következőt kell:** 
 
-1. Digitálisan vagy,
+1. Erősítse meg digitálisan, vagy
 
-2. Kérje meg az ügyfelet, hogy közvetlenül a Microsofttal írja alá a Microsoft Customer szerződést. 
+2. Hívja meg az ügyfelet, hogy írja alá a Microsoft Ügyfélszerződés a Microsofttal. 
 
-### <a name="to-confirm"></a>A megerősítéshez 
+### <a name="to-confirm"></a>Megerősítés 
 
-1. Az ügyfél **fiókja** lapon válassza a **frissítés** a **Microsoft ügyfél-szerződés** mellett lehetőséget  
+1. Az ügyfél Fiókja **oldalán** válassza a Frissítés **lehetőséget** a **Microsoft Ügyfélszerződés**  
 
-2. Adja meg az ügyfél azon vállalatának adatait, akik elfogadták a MCuA.
+2. Adja meg az MCuA-t elfogadó ügyfél vállalatának személyével kapcsolatos információkat.
 
-3. Válassza **a Mentés és Folytatás lehetőséget.**  
+3. Válassza **a Mentés és folytatás lehetőséget.**  
 
 ## <a name="review-and-buy"></a>Áttekintés és vásárlás
 
-Térjen vissza a **termék hozzáadása** oldalra, amelyen láthatja, hogy az Azure-csomag hozzá lett adva. Válassza a **felülvizsgálat** lehetőséget a vásárlás áttekintéséhez, majd válassza a **vásárlás** lehetőséget. 
+Visszatér a **Termék hozzáadása oldalra,** ahol láthatja, hogy az Azure-csomag hozzá lett adva. Válassza **az Áttekintés lehetőséget** a vásárlás áttekintéshez, majd válassza a Vásárlás **lehetőséget.** 
 
 >[!Note]
->Miután megvásárolta az Azure-csomagot az ügyfél számára, már nem vásárolhatja meg Microsoft Azure (0145p) az adott ügyfél számára. A jövőbeli előfizetéseket az Azure-csomagon keresztül kell létrehoznia.
+>Miután megvásárolta az Azure-csomagját egy ügyfélnek, már nem vásárolhat Microsoft Azure (0145p) előfizetést az ügyfélnek. A jövőbeli előfizetéseket az Azure-csomagon keresztül kell létrehoznia.
 
 ## <a name="purchase-azure-reservations-under-the-azure-plan"></a>Azure-foglalások vásárlása az Azure-csomag keretében 
   
-Az Azure-csomag keretében Microsoft Azure foglalásokat is vásárolhat az ügyfelek nevében a partner Centerben. (Vagy ha szeretné, [engedélyt adhat ügyfeleinek, hogy megvásárolják saját Azure-foglalásait](give-customers-permission.md) egy korábban megvásárolt előfizetésből.)
+Az Azure-Microsoft Azure foglalásokat is vásárolhat az ügyfelek nevében a Partnerközpont. (Vagy ha szeretné, engedélyt [](give-customers-permission.md) adhat az ügyfeleinek arra, hogy megvásárolják saját Azure-foglalásukat egy, a számukra megvásárolt korábbi előfizetésből.)
 
-1. Az [irányítópulton](https://partner.microsoft.com/dashboard/)válassza a partner központ menü **ügyfelek** elemét. Keresse meg azt az ügyfelet, aki szeretné megvásárolni az Azure-foglalásokat, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát.
+1. Az irányítópult Partnerközpont [menüjében válassza](https://partner.microsoft.com/dashboard/)az Ügyfelek **lehetőséget.** Keresse meg az Azure Reservationst megvásárolni kívánó ügyfelet, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát.
 
-2. Válassza a **termékek hozzáadása** lehetőséget, majd válassza az **Azure** lehetőséget. 
+2. Válassza a **Termékek hozzáadása,** majd az **Azure lehetőséget.** 
 
-   - Válassza ki az ügyfél piaci szegmensét a **szegmens** listából.
-   - A **terméktípus** listából válassza a **foglalások** lehetőséget.
-   - Válassza ki, hogy az ügyfél milyen típusú foglalást szeretne a **foglalások típusa** listából.
+   - Válassza ki az ügyfél piaci szegmensét a **Szegmens listából.**
+   - Válassza **a Foglalások** lehetőséget **a Terméktípus listából.**
+   - A Foglalások típusa listából válassza ki, hogy az ügyfél milyen **típusú foglalást szeretne.**
 
-Az Azure-foglalásokat aktív Azure-csomaggal kell társítani. Válassza ki azt az Azure-csomagot, amelyhez Azure-foglalásokat kíván hozzáadni az ügyfél-előfizetések listájából. 
+Az Azure Reservationst egy aktív Azure-csomaggal kell társítva lennie. Válassza ki azt az Azure-tervet, amelybe az Azure Reservationst hozzá szeretné adni az Ügyfél-előfizetések listájából. 
 
 >[!Important] 
->Ha az ügyfél még nem rendelkezik aktív Azure-csomaggal, válassza az Azure-t a hozzáadáshoz. További útmutatásért olvassa el az [Azure-foglalások vásárlása](azure-reservations-buying.md#purchase-azure-reservations)című témakört.
+>Ha az ügyfél még nem rendelkezik aktív Azure-csomaggal, válassza az Azure lehetőséget egy új hozzáadásához. További útmutatásért olvassa el [az Azure Reservations megvásárlásával kapcsolatban a következőt:](azure-reservations-buying.md#purchase-azure-reservations).
 
 >[!Note]
->A foglalás hatóköre csak **megosztott**, jelenleg a partner Centerben adható meg. Ha egyetlen előfizetési hatókört szeretne kijelölni, vagy a megosztottról egyetlen előfizetésre vonatkozó frissítést szeretne használni, lépjen **Microsoft Azure felügyeleti portálra** a következő utasítások használatával 
+>A foglalás hatóköre csak Megosztottra **beállítható,** jelenleg a Partnerközpont. Az egy előfizetéses hatókör kiválasztásához vagy a megosztottról az egy előfizetéses hatókörre való frissítéshez az **Microsoft Azure felügyeleti** portálon kövesse az alábbi utasításokat. 
 
-:::image type="content" source="images/azure/addprods1.png" alt-text="Megosztott hatókörű foglalások beállítása":::
+:::image type="content" source="images/azure/addprods1.png" alt-text="Megosztott hatókör foglalási beállítása":::
 
-Az ügyfél foglalásának kezelése a Azure Portalban: 
+Az ügyfél foglalásának kezelése a Azure Portal: 
 
-1. Az **ügyfelek** közül válassza ki a kezelni kívánt ügyfelet. 
+1. Az **Ügyfelek közül** válassza ki a kezelni kívánt ügyfelet. 
 
-2. A lefelé mutató nyílnál bontsa ki az ügyfél sorát, és válassza a **Microsoft Azure felügyeleti portál** lehetőséget.  
+2. A lefelé mutató nyíllal bontsa ki az ügyfél sorát, és válassza a Microsoft Azure **portált.**  
  
-## <a name="view-azure-subscriptions-under-the-azure-plan"></a>Azure-előfizetések megtekintése az Azure-csomag keretében
+## <a name="view-azure-subscriptions-under-the-azure-plan"></a>Azure-előfizetések megtekintése az Azure-csomag alatt
 
-Az **előfizetések** lap használat alapú szakaszában bontsa ki az **Azure-terv** elemet az Azure-csomaghoz tartozó társított Azure-előfizetések megtekintéséhez.
+Az **Előfizetések lap** használatalapú szakaszában bontsa ki az **Azure-csomag** bontsa ki a társított Azure-előfizetéseket az Azure-csomag alatt.
 
 :::image type="content" source="images/azure/addprods2.png" alt-text="Azure-előfizetések listájának megtekintése"::: 
 
 
 ## <a name="add-subscriptions-and-configure-resources"></a>Előfizetések hozzáadása és erőforrások konfigurálása
 
-Az előfizetések hozzáadása és az ügyfelek erőforrásainak konfigurálása Azure Portalban történik. Az ügyfél környezetét munkaterheléssel vagy projekttel is el lehet különíteni. Az előfizetéseket az [Azure Lighthouse](https://azure.microsoft.com/services/azure-lighthouse/) és a Azure Portal használatával is kezelheti. 
+Előfizetéseket fog hozzáadni, és erőforrásokat fog konfigurálni az ügyfél számára a Azure Portal. Az ügyfél környezetét számítási feladat vagy projekt szerint is el tudja külön választani. Az előfizetések az előfizetések Azure Lighthouse [és](https://azure.microsoft.com/services/azure-lighthouse/) a Azure Portal. 
 
-Az ügyfél erőforrásainak és előfizetésének kezeléséhez **rendszergazdai** jogosultságokkal kell rendelkeznie. A hozzáférés kezelésével kapcsolatos információkért olvassa el [az előfizetések és erőforrások kezelése az Azure-csomag alatt](azure-plan-manage.md) című témakört.
+Az ügyfél erőforrásainak és előfizetésének kezeléséhez rendszergazdai  (AOBO) jogosultság szükséges. További információ a hozzáférés kezeléséről: Előfizetések és erőforrások [kezelése az Azure-csomag alatt](azure-plan-manage.md)
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Ügyfél-áttérés az Azure-csomagra](azure-plan-transition.md)
+- [Az ügyfél átvált az Azure-csomagra](azure-plan-transition.md)
 
-- [Partner által létrehozott kredit – áttekintés](partner-earned-credit.md)
+- [Partneri jóváírás – áttekintés](partner-earned-credit.md)
