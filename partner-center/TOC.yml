@@ -47,12 +47,12 @@
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
           displayName: mpn
-        - name: A szabályzat és a használat előnyei – GYIK
+        - name: Előnyök szabályzata és használata – GYIK
           href: benefits-faq-new.md
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.md
           displayName: 'renew, license,'
-        - name: AZ MPN-számla megtekintése vagy letöltése
+        - name: MPN-számla megtekintése vagy letöltése
           href: mpn-view-print-maps-invoice.md
     - name: Elérhető előnyök
       items:
@@ -145,7 +145,7 @@
       displayName: csp
     - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
       href: agreements.md
-    - name: 'Hogyan lehet megerősíteni, hogy az ügyfelek elfogadják a Microsoft Ügyfélszerződés'
+    - name: A feltételek ügyfél általi elfogadásának Microsoft Ügyfélszerződés
       href: confirm-customer-agreement.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
@@ -202,7 +202,7 @@
         - name: A partnerprofil frissítése
           href: update-your-partner-profile.md
           displayName: mpn
-        - name: Regisztrációs azonosító száminformációi
+        - name: Regisztrációs azonosító számának adatai
           href: reg-number-id.md
         - name: Vezérlőpultgyártói szerepkör
           href: enroll-as-cpv.md
@@ -274,7 +274,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők elemzésének lekért adatai
+    - name: Érdeklődők elemzési adatainak lekérte
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -390,6 +390,8 @@
       href: modern-invoice-reconciliation-file.md
     - name: Tényleges egységár kiszámítása
       href: effective-unit-price-calculation.md
+    - name: Kreditkorlát kényszerítve
+      href: credit-limit-enforcement.md
     - name: Számlázással kapcsolatos gyakori forgatókönyvek
       href: common-billing-scenarios.md
       displayName: 'trial, subscription'
@@ -572,7 +574,7 @@
         - name: Azure-előfizetések átvitele
           href: switch-azure-subscriptions-to-a-different-partner.md
           displayName: csp
-        - name: Az ügyfél Azure-csomag előfizetésének átvitele egy másik partnernek
+        - name: Ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
           href: transfer-azure-subscriptions-under-azure-plan.md
     - name: Szoftver-előfizetések
       href: csp-software-subscriptions.md
