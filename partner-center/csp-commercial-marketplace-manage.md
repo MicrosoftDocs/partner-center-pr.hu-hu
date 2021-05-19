@@ -1,116 +1,113 @@
 ---
-title: Marketplace-termékek & ajánlatok kezelése
+title: Marketplace-termékek kezelése & ajánlatokban
 ms.topic: how-to
 ms.date: 07/02/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A partner Center használatával megtudhatja, hogyan kezelhetik a felhőalapú megoldások szolgáltatói a kereskedelmi piactéren vásárolt, harmadik féltől származó ISV-ajánlatokat.
+description: A Partnerközpont megtudhatja, hogyan kezelhetik a felhőszolgáltatók a kereskedelmi piactérről az ügyfelek számára megvásárolt, külső isv-ajánlatokat.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5e6ca188aeb50cec6f847afb08be4a9d62b36984
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: e1bb2752dad5325478496c83fc368943780d8afb
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979676"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147904"
 ---
-# <a name="manage-commercial-marketplace-products-and-offers-for-your-customers"></a>Kereskedelmi Piactéri termékek és ajánlatok kezelése az ügyfelek számára
+# <a name="manage-commercial-marketplace-products-and-offers-for-your-customers"></a>Kereskedelmi piactéri termékek és ajánlatok kezelése az ügyfelek számára
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felügyeleti ügynök
+A Felhőszolgáltató (CSP) program partnerei a Partnerközpont portal használatával számos ISV SaaS-ajánlatot vagy -előfizetést vásárolhatnak az ügyfeleik számára a kereskedelmi piactérről. Miután megvásárolt egy ajánlatot, többféleképpen is kezelheti azt.
 
-A Cloud Solution Provider (CSP) program partnerei a partner Center portál segítségével számos ISV SaaS-ajánlatot vagy-előfizetést vásárolhatnak a kereskedelmi piactéren. Az ajánlat megvásárlása után többféleképpen is kezelheti azt.
+## <a name="view-or-edit-a-subscription"></a>Előfizetés megtekintése vagy szerkesztése
 
-## <a name="view-or-edit-a-subscription"></a>Előfizetés megtekintése és szerkesztése
+Miután megvásárolt egy előfizetést egy külső ISV-közzétevőtől, a következőképpen áttekintheti vagy szerkesztheti azt:
 
-Miután megvásárolt egy előfizetést egy külső gyártótól származó ISV-közzétevőtől, a következőképpen tekintheti át vagy szerkesztheti:
+1. Jelentkezzen be a Partnerközpont [irányítópultjára,](https://partner.microsoft.com/dashboard)majd válassza az **Ügyfelek lehetőséget** a bal oldali navigációs menüben.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd válassza a bal oldali navigációs menü **ügyfelek** elemét.
+2. Válasszon ki egy megfelelő ügyfelet, majd válassza az **Előfizetések lehetőséget.** Ez felsorolja az ügyfél számára megvásárolt licencalapú előfizetéseket.
 
-2. Válasszon ki egy megfelelő ügyfelet, majd válassza az **előfizetések** lehetőséget. Ez felsorolja az ügyfél számára megvásárolt licenc-alapú előfizetéseket.
+3. Az Előfizetés **oszlopban** válassza ki a megtekinteni vagy szerkeszteni kívánt előfizetést. Ez további információt nyújt az ajánlat beállításról vagy építésről. (Ha további műveletre van szükség az ajánlaton, az Állapot oszlopban a "Beavatkozás szükséges" állapot is megjelenik. Ez az ISV-közzétevő webhelyére mutató hivatkozással is csatolható.)
 
-3. Az **előfizetés** oszlopban válassza ki a megtekinteni vagy szerkeszteni kívánt előfizetést. Ez további információkat nyújt az ajánlat beállításához vagy kiépítéséhez. (Ha további műveletre van szükség az ajánlaton, akkor az Állapot oszlopban megjelenik egy "beavatkozás szükséges" állapot. Ezt az ISV-közzétevő webhelyére mutató hivatkozás is kísérheti.)
+4. Miután kiválasztotta a megtekinteni vagy szerkeszteni kívánt előfizetést, az előfizetés részletei oldalon szerkesztheti az előfizetést, és a következőt teszi lehetővé:
 
-4. Miután kiválasztotta a megtekinteni vagy szerkeszteni kívánt előfizetést, az előfizetés részletei lapon szerkesztheti az előfizetést, és a következőkhöz hasonló műveleteket végezhet:
+    - Az előfizetés becenevének módosítása
 
-    - Előfizetés módosítása Felhasználónév
+    - Licencek számának hozzáadása vagy csökkentése az előfizetésben
 
-    - Az előfizetéshez tartozó licencek számának hozzáadása/csökkentése
+    - Az előfizetés lemondása
 
-    - Előfizetés megszakítása
+    - Az automatikus megújítás kikapcsolása
 
-    - Automatikus megújítás kikapcsolása
-
-    - Közvetett viszonteladói MPN-azonosító hozzáadása, ha van ilyen
+    - Közvetett viszonteladó MPN-azonosítójának hozzáadása, ha van
 
 > [!NOTE]
-> Előfordulhat, hogy végre kell hajtania bizonyos, az ISV-közzétevő által meghatározott lépéseket, mielőtt módosításokat hajt végre az előfizetésben, például egy előfizetés megszakításával.
+> Előfordulhat, hogy el kell végeznie az ISV-közzétevő által meghatározott bizonyos lépéseket, mielőtt módosításokat végezhet egy előfizetésen, például megszakíthat egy előfizetést.
 
-## <a name="assign-licenses-and-activate-a-subscription-on-behalf-of-a-customer"></a>Licencek kiosztása és előfizetés aktiválása az ügyfél nevében
+## <a name="assign-licenses-and-activate-a-subscription-on-behalf-of-a-customer"></a>Licencek hozzárendelése és előfizetés aktiválása egy ügyfél nevében
 
-Ha a kereskedelmi piactéren egy független szoftvergyártó (ISV) által biztosított szolgáltatott szoftver (SaaS) ajánlatot vásárol, az ISV-közzétevő segít a licencek hozzárendelésének és az előfizetés az ügyfél nevében történő aktiválásának kezelésében.
+Ha egy független szoftverszállító (ISV) kiadója által a kereskedelmi piactéren szolgáltatottszoftver-ajánlatot (SaaS) vásárol, a független szoftverszállító közzétevője segít kezelni a licencek hozzárendelésének és az előfizetés aktiválásának folyamatát az ügyfél nevében.
 
-A közzétevőnek egy személyre szabott hivatkozást és egy engedélyezési kódot kell megadnia, amely azonosítja az adott vásárlást.
+A közzétevőnek egy személyre szabott hivatkozást és egy engedélyezési kódot kell adnia, amely azonosítja az adott vásárlást.
 
-1. Ezt a személyre szabott hivatkozást az ISV-közzétevőből is megtalálhatja néhány módon:
+1. Ezt a személyre szabott hivatkozást többféleképpen is megkeresheti az ISV-közzétevőtől:
 
-   - Az ISV SaaS-ajánlat megvásárlása után megjelenő hivatkozást a megerősítő lapon tekintheti meg. Ha meg szeretné keresni ezt a hivatkozást az oldalon, keresse meg, majd válassza a **Ugrás a közzétevő webhelyére** lehetőséget.
+   - A hivatkozást a megerősítő oldalon láthatja, amely az ISV SaaS-ajánlat megvásárlása után jelenik meg. A hivatkozásnak az oldalon való megkereshez keresse meg és válassza a **Go to publisher's site (Ugrás a közzétevő webhelyére) lehetőséget.**
 
-   - A hivatkozást az adott ügyfél előfizetések oldalán tekintheti meg. Ez a közzétevő hivatkozás az ügyfélhez megvásárolt ISV-ajánlathoz vagy-előfizetéshez társított sorban jelenik meg.
+   - A hivatkozást az adott ügyfél Előfizetések oldalán láthatja. Ez a közzétevői hivatkozás az ügyfél számára megvásárolt ISV-ajánlathoz vagy -előfizetéshez társított sorban jelenik meg.
 
-   - [A hivatkozást a partner Center API](/partner-center/develop/get-activation-link-by-order-line-item)-k használatával kérheti le.
+   - A hivatkozást [a következő API Partnerközpont tudja lekérni.](/partner-center/develop/get-activation-link-by-order-line-item)
 
    > [!NOTE]
-   > Ha ezt az ügyfél nevében szeretné elvégezni, előfordulhat, hogy át kell másolnia a személyre szabott hivatkozást, be kell illesztenie egy privát böngészőbe, és meg kell adnia az ügyfél hitelesítő adatait.
+   > Ha ezt az ügyfél nevében szeretné megtenni, előfordulhat, hogy ki kell másolnia a személyre szabott hivatkozást, be kell illesztenie egy privát böngészőbe, és meg kell adnia az ügyfél hitelesítő adatait.
 
-2. Ha az ISV-közzétevő webhelyét vagy rendszerét használja, a közzétevő megtudhatja, milyen további lépéseket kell végrehajtania az ügyfél-telepítési folyamat befejezéséhez, illetve a licencek kiosztásához és hozzárendeléséhez.
+2. Miután az ISV-közzétevő webhelyén vagy rendszerében van, a közzétevő tudatja Az ügyfél beállítási folyamatának befejezéséhez, valamint a licencek kiosztásához vagy hozzárendeléséhez szükséges további lépésekről.
 
-3. Ha az ügyfél nevében működő CSP-programban partnerként dolgozik, a következő feladatokat kell elvégeznie:
+3. A CSP-program ügyfél nevében dolgozó partnerként Az Ön felelőssége a következő feladatok elvégzése:
 
     - Küldje el a szükséges információkat a közzétevőnek.
 
-    - Küldje el a szükséges URL-címet közvetlenül az ügyfelének (vagy más módon közvetlenül az előfizetésre vonatkozó adatokat az ügyfélnek)
+    - Küldje el a szükséges URL-címeket közvetlenül az ügyfélnek (vagy egyéb módon közvetlenül küldje el az előfizetés részleteit az ügyfélnek)
 
-4. Miután megadta a szükséges információkat a közzétevőnek, a közzétevő kiépíti és hozzárendeli a megfelelő licenceket. Az előfizetés számlázása csak a következő események bekövetkezése után indul el:
+4. Miután a közzétevőnek megadhatja a szükséges információkat, a közzétevő kiépíti és hozzárendeli a megfelelő licenceket. Az előfizetés számlázása csak a következő események bekövetkezése után indul el:
 
     - Az ISV-közzétevő sikeresen hozzárendelte a megfelelő licenceket
 
-    - Az ISV-közzétevő megerősítette a Microsoft számára (egy különálló, SaaS-betöltési API-n keresztül), hogy a fiók telepítése sikeresen befejeződött.
+    - Az ISV-közzétevő megerősítette a Microsoftnak (egy külön SaaS Fulfillment API-n keresztül), hogy a fiók beállítása sikeresen befejeződött
 
-## <a name="cancel-a-license-based-saas-subscription-from-an-isv-publisher"></a>Licenc alapú SaaS-előfizetés megszakítása ISV-közzétevőből
+## <a name="cancel-a-license-based-saas-subscription-from-an-isv-publisher"></a>Licencalapú SaaS-előfizetés lemondása ISV-közzétevőtől
 
-Ha a kereskedelmi piactéren egy ISV-közzétevő által kínált licenccel rendelkező SaaS-termékre fizet elő, lehetősége van megszakítani az előfizetést a megadott megszakítási időszakon belül. Ez a lemondási időszak attól függően változik, hogy van-e havi vagy éves előfizetése. Azt is megadhatja, hogy automatikusan megújítsa-e az előfizetést.
+Amikor a kereskedelmi piactéren egy ISV-közzétevő által kínált licencalapú SaaS-termékre iratk fel, lehetősége van megszüntetni az előfizetést a megadott lemondási időszakon belül. A lemondási időszak attól függően változik, hogy havi vagy éves előfizetéssel rendelkezik-e. Azt is eldöntheti, hogy automatikusan megújítja-e az előfizetést.
 
-További információ az előfizetéssel kapcsolatos lemondási időszakokról, a lemondás vagy az előfizetés automatikus megújításáról:
+Az érvényes lemondási időtartamokkal, az előfizetések automatikus megújításának törlésével vagy megújításának mikéntével kapcsolatos további információkért lásd:
 
-- [Előfizetés megszakítása](create-a-new-subscription.md#cancel-a-subscription)
+- [Előfizetés lemondása](create-a-new-subscription.md#cancel-a-subscription)
 
 - [Kereskedelmi piactér-előfizetés automatikus megújítása](create-a-new-subscription.md#choose-whether-to-automatically-renew-a-commercial-marketplace-subscription)
 
-## <a name="add-or-remove-licenses-for-a-saas-subscription"></a>SaaS-előfizetéshez tartozó licencek hozzáadása vagy eltávolítása
+## <a name="add-or-remove-licenses-for-a-saas-subscription"></a>SaaS-előfizetés licencének hozzáadása vagy eltávolítása
 
-A SaaS kereskedelmi Piactéri ajánlatokhoz felhasználói licenceket adhat hozzá vagy távolíthat el az ügyfél-előfizetésekhez.
+SaaS kereskedelmi piactéri ajánlatok esetén felhasználói licenceket adhat hozzá vagy távolíthat el egy ügyfél-előfizetéshez.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd válassza a bal oldali navigációs menü **ügyfelek** elemét.
+1. Jelentkezzen be a Partnerközpont [irányítópultjára,](https://partner.microsoft.com/dashboard)majd válassza az **Ügyfelek lehetőséget** a bal oldali navigációs menüben.
 
-2. Válasszon ki egy megfelelő ügyfelet, majd válassza az **előfizetések** lehetőséget. Ez felsorolja az ügyfél számára megvásárolt licenc-alapú előfizetéseket.
+2. Válasszon ki egy megfelelő ügyfelet, majd válassza az **Előfizetések lehetőséget.** Ez felsorolja az ügyfél számára megvásárolt licencalapú előfizetéseket.
 
-3. Az **előfizetés** oszlopban válassza ki a módosítani kívánt előfizetést.
+3. Az Előfizetés **oszlopban** válassza ki a módosítani kívánt előfizetést.
 
-4. Az előfizetés részletei lapon keresse meg a **mennyiség** mezőt. Itt növelheti vagy csökkentheti a licencek számát.
+4. Az előfizetés részletei oldalon keresse meg a **Mennyiség** mezőt. Itt növelheti vagy csökkentheti a licencek számát.
 
-5. Módosítsa a mennyiséget, majd válassza a **Küldés** lehetőséget.
+5. Módosítsa a mennyiséget, majd válassza a **Küldés lehetőséget.**
 
-## <a name="manage-subscriptions-using-partner-center-apis"></a>Előfizetések kezelése a partner Center API-kkal
+## <a name="manage-subscriptions-using-partner-center-apis"></a>Előfizetések kezelése Partnerközpont API-k használatával
 
-A partner Center API-k segítségével is elvégezheti az életciklus-kezelést, és kezelheti az előfizetések számláit. További információ: [előfizetés létrehozása kereskedelmi piactér-termékekhez](/partner-center/develop/create-subscription-azure-marketplace-products).
+Ezen kívül az Partnerközpont API-kat is használhatja az életciklus-felügyelethez és az előfizetések számláinak kezeléséhez. További információ: Előfizetés létrehozása [kereskedelmi piactéri termékekhez.](/partner-center/develop/create-subscription-azure-marketplace-products)
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Kereskedelmi Piactéri ajánlatok vásárlása](csp-commercial-marketplace-purchase.md)
-- [Tudnivalók a kereskedelmi piactéren elérhető számlázásról](csp-commercial-marketplace-billing.md)
+- [Kereskedelmi piactéri ajánlatok vásárlása](csp-commercial-marketplace-purchase.md)
+- [Tudnivalók a számlázásról a kereskedelmi piactéren](csp-commercial-marketplace-billing.md)

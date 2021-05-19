@@ -1,210 +1,207 @@
 ---
-title: Ösztönzők – alapvető követelmények
+title: Ösztönzőkre vonatkozó alapvető követelmények
 ms.topic: article
 ms.date: 09/11/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
-description: Megtudhatja, hogyan hozhatja igénybe az igényeket, megismerheti a piaci fejlesztést, és maximalizálhatja a partnerek készültségét az ösztönző program tevékenységeiben.
+description: Megtudhatja, hogyan hozhat létre keresletet, értheti meg a piacfejlesztést, és maximalizálhatja a partneri készenlétet az ösztönzőprogram tevékenységeire.
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: high
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 47a670c97acce757270076cf0ae01067db544e2f
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: a980d35104f2fe7aad0117f3515a61ecf217a2b9
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502952"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148295"
 ---
-# <a name="core-requirements-for-the-activities-in-your-incentive-program"></a>Az ösztönző program tevékenységeire vonatkozó alapvető követelmények
+# <a name="core-requirements-for-the-activities-in-your-incentive-program"></a>Az ösztönzőprogramban végzett tevékenységek alapvető követelményei
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
+Minden olyan tevékenységtípus, amelyre ösztönzői igényt küld be, alapvető követelményekkel rendelkezik. A végrehajtási igazolási dokumentumokban be kell mutatnia, hogy megfelel ezeknek a követelményeknek. Egyes tevékenységekhez adott kommunikációs típusokra és metrikákra is szükség van.
 
-Minden olyan tevékenység, amelyre ösztönző jogcímet küld, alapvető követelményekkel rendelkezik. Bizonyítania kell, hogy teljesítette ezeket a követelményeket a végrehajtási dokumentumok igazolása során. Bizonyos tevékenységek esetében szükség van bizonyos kommunikációs típusokra és mérőszámokra is.
+Az alábbi táblázatok az egyes elfogadott tevékenységek alapvető követelményeit ismertetik. 
 
-Az alábbi táblázatok ismertetik az egyes elfogadott tevékenységek alapvető követelményeit. 
-
-## <a name="demand-generation"></a>Kereslet létrehozása
+## <a name="demand-generation"></a>Igény szerinti generáció
 
 ### <a name="print-advertising"></a>Hirdetés nyomtatása
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | Vállalati márka és kapcsolattartási adatok<br><br>Microsoft-tartalom |
-| Kommunikációs követelmények | A végleges kommunikációs darab (hirdetés alapján) másolata, amely a programra jellemző alapvető követelményeket mutatja |
-| Mérőszámok     | A becsült ügyfél (vagy partner) eléri |
-|Jogosult költségek    | Harmadik féltől származó adathordozó elhelyezése<br><br>Nyomtatott anyag<br><br>Díj – Ügynökség marketing-és kreatív szolgáltatásai, beleértve az ügynöki díjakat  |
+| Kommunikációs követelmények | A végső kommunikációs rész másolata (reklám alapján), amely a programspecifikus alapvető követelményeket mutatja |
+| Mérőszámok     | Az ügyfél (vagy partner) becsült elérése |
+|Jogosult kiadások    | Külső adathordozó elhelyezése<br><br>Nyomtatott anyagok<br><br>Díjközvetítő marketing- és kreatív szolgáltatások, beleértve az ügynökségi díjakat  |
 
 ### <a name="digital-advertising"></a>Digitális reklám
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények | NA |
-| Kommunikációs követelmények | Képernyőfelvétel a digitális hirdetésről<br><br>ÉS<br><br>A kezdőlapjának URL-címe, amely a programra jellemző alapkövetelményeket mutatja |
-| Mérőszámok     | Eredmények összegzése (például kattintási jelentés) |
-|Jogosult költségek    | Harmadik féltől származó adathordozó elhelyezése<br><br>Díj – Ügynökség: marketing-és kreatív szolgáltatások, beleértve az ügynöki díjakat |
+| Kommunikációs követelmények | Digitális hirdetés képernyőképe<br><br>ÉS<br><br>A kezdőlap URL-címe, amely a programspecifikus alapvető követelményeket mutatja |
+| Mérőszámok     | Az eredmények összegzése (például átkattintásos jelentés) |
+|Jogosult kiadások    | Külső adathordozó elhelyezése<br><br>Díj – ügynökség: Marketing- és kreatív szolgáltatások, beleértve az ügynökségi díjakat |
 
-### <a name="direct-mail-email-and-short-message-service-sms"></a>Közvetlen levelezés, e-mail és rövid üzenetküldési szolgáltatás (SMS)
+### <a name="direct-mail-email-and-short-message-service-sms"></a>Direct mail, e-mail és rövid üzenetszolgáltatás (SMS)
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | NA |
-| Kommunikációs követelmények | 1) a végső kommunikációs darab másolata, amely a programra jellemző alapvető követelményeket mutatja<br><br>2.) a terjesztés igazolása magában foglalhatja a postmarked vagy a levelezés (Direct mail), a végleges e-mailek, a dátummal ellátott fejlécek vagy az e-mailek (e-mailek) vagy a telefonos üzenet (SMS) |
-| Mérőszámok     | A becsült ügyfél (vagy partner) eléri |
-|Jogosult költségek    | Adatbázis-beszerzés<br><br>Nyomtatott anyag<br><br>Postai<br><br>Díj – Ügynökség: marketing-és kreatív szolgáltatások, beleértve az ügynöki díjakat |
+| Kommunikációs követelmények | 1) A végső kommunikációs rész másolata, amely a programspecifikus alapvető követelményeket mutatja<br><br>2) A terjesztés igazolása tartalmazhatja a postmarked szállítási borítékot vagy más e-mail-igazolást (e-mail), a végleges e-mailt, amely a dátummal jelölt fejlécet vagy más e-mail-igazolást (e-mail- vagy telefonos üzenet fényképét( SMS) tartalmazza |
+| Mérőszámok     | Az ügyfél (vagy partner) becsült elérése |
+|Jogosult kiadások    | Adatbázis beszerzése<br><br>Nyomtatott anyagok<br><br>Postai<br><br>Díj – ügynökség: Marketing- és kreatív szolgáltatások, beleértve az ügynökségi díjakat |
 
 ### <a name="partner-website-and-search-engine"></a>Partner webhelye és keresőmotorja
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | NA |
-| Kommunikációs követelmények | Az URL-címet megjelenítő webhely URL-címe és/vagy képernyőképe<br><br>A SEO projekt munkahelyi vagy szolgáltatási szerződése (csak SEO-tevékenység) |
-| Mérőszámok     | Eredmények összegzése (például kattintási jelentés) |
-|Jogosult költségek    | Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Programozás/fejlesztés: programozási és fejlesztési díjak<br><br>Díj – SEO: optimalizálási és karbantartási díjak  |
+| Kommunikációs követelmények | Az URL-címet megjelenítő webhelyoldal(ek) URL-címe és/vagy képernyőképei<br><br>A keresőprojekthez (csak a keresőtevékenységhez) vonatkozó munka- vagy szolgáltatási szerződés |
+| Mérőszámok     | Az eredmények összegzése (például átkattintásos jelentés) |
+|Jogosult kiadások    | Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Programozás/fejlesztés: Programozási és fejlesztési díjak<br><br>Díj – SEO: Optimalizálási és karbantartási díjak  |
 
-### <a name="microsoft-syndicated-content"></a>Microsoft konzorciális tartalom
+### <a name="microsoft-syndicated-content"></a>Microsoft-tartalom
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | NA |
-| Kommunikációs követelmények | URL-címet és/vagy képernyőképeket tartalmazó webhelyek URL-címe |
-| Mérőszámok     | Eredmények összegzése (például kattintási jelentés) |
-|Jogosult költségek    | A tényleges költségek akár USD18, 750/használati időszakra vonatkoznak a következőre: Fee-Agency Marketing Services, beleértve az ügynökség díját<br><br>Programozási és fejlesztési díjak<br><br>Adathordozó elhelyezése  |
+| Kommunikációs követelmények | AZ URL-címet megjelenítő webhelyoldalak URL-címe és/vagy képernyőképei |
+| Mérőszámok     | Az eredmények összegzése (például átkattintásos jelentés) |
+|Jogosult kiadások    | Tényleges költségek használati időszakonként 18 750 USD-ig: díj – ügynökségi marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Programozási és fejlesztési díjak<br><br>Média elhelyezése  |
 
-### <a name="multi-touch-digital-campaign"></a>Multi-Touch digitális kampány
+### <a name="multi-touch-digital-campaign"></a>Multi-touch digitális kampány
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    |NA |
-| Kommunikációs követelmények | A megfelelő tevékenység lapon részletezett végrehajtás összes igazolása kötelező<br><br>Digitális reklám<br><br>Közvetlen E-mail<br><br>Partner webhelye és keresőmotor-optimalizálás<br><br>Telemarketing  |
+| Kommunikációs követelmények | A megfelelő tevékenységoldalon részletezett összes végrehajtási igazolásra szükség van<br><br>Digitális reklám<br><br>Közvetlen e-mail<br><br>Partner webhely- és keresőmotor-optimalizálás<br><br>Telemarketing  |
 | Mérőszámok     | NA |
-|Jogosult költségek    | Harmadik féltől származó adathordozó elhelyezése<br><br>Díj – Ügynökség: marketing-és kreatív szolgáltatások, beleértve az ügynöki díjakat<br><br>Adatbázis-beszerzés<br><br>Programozás/fejlesztés: programozási és fejlesztési díjak<br><br>Díj – SEO: optimalizálási és karbantartási díjak<br><br>Díj – harmadik féltől származó Call Center-díjak |
+|Jogosult kiadások    | Külső adathordozó elhelyezése<br><br>Díj – ügynökség: Marketing- és kreatív szolgáltatások, beleértve az ügynökségi díjakat<br><br>Adatbázis beszerzése<br><br>Programozás/fejlesztés: Programozási és fejlesztési díjak<br><br>Díj – SEO: Optimalizálási és karbantartási díjak<br><br>Díj – Külső hívásközpont díjai |
 
-## <a name="market-development"></a>Piac fejlesztése
+## <a name="market-development"></a>Piacfejlesztés
 
-### <a name="telemarketing-and-expositions"></a>Telemarketing és kiállítások
+### <a name="telemarketing-and-expositions"></a>Telemarketing és expositions
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | A cég nevét/márkájának adatait a Microsoft Content |
-| Kommunikációs követelmények | Parancsfájl másolása |
-| Mérőszámok     | Eredmények összefoglalása (hívások száma és sikeres névjegyek száma) |
-|Jogosult költségek    | Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Díj – harmadik féltől származó Call Center: díjak<br><br>Adatbázis-beszerzés  |
+| Alapvető követelmények    | A cég nevének/márkainformációjának szerepelnie kell a telesales-szkriptben, a Microsoft-tartalomban |
+| Kommunikációs követelmények | Szkript másolata |
+| Mérőszámok     | Az eredmények összegzése (a hívások száma és a sikeres kapcsolattartók száma) |
+|Jogosult kiadások    | Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Díj – Külső hívásközpont: díjak<br><br>Adatbázis beszerzése  |
 
-### <a name="customer-seminars-and-boot-camps"></a>Ügyfélszolgálati szemináriumok és rendszerindító táborok
+### <a name="customer-seminars-and-boot-camps"></a>Ügyfelek előadásai és rendszerindítási tanfolyamai
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | Vállalati márkanév és kapcsolattartási adatok<br><br>Microsoft-tartalom  |
-| Kommunikációs követelmények | Esemény meghívása és napirend/program<br><br>Esemény fotói<br><br>Bemutatási anyagok, ha az esemény meghívása és a napirend nem felel meg az alapvető követelményeknek |
+| Kommunikációs követelmények | Eseménymeghívás és esemény/program<br><br>Eseményfotók<br><br>Bemutató anyagok, ha az eseménymeghívás és -eseménymeghívás nem felel meg az alapvető követelményeknek |
 | Mérőszámok     | Regisztrált vendégek száma |
-|Jogosult költségek    | Aláírás/megjelenítés/nyomtatott anyagok<br><br>Giveaways<br><br>Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Díj – regisztráció<br><br>Díj – külső beszélő<br><br>Díj – létesítmények és berendezések bérlete, beleértve a külső felek által birtokolt és felügyelt felszíni eszközöket<br><br>Vendéglátás (alkohol nélkül) |
+|Jogosult kiadások    | Aláírás/ megjelenítés / nyomtatott anyagok<br><br>Giveaways<br><br>Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Díj – regisztráció<br><br>Díj – külső beszélő<br><br>Díj – létesítmény- és berendezéskölcsönzés, beleértve a harmadik fél tulajdonában lévő és felügyelt Surface-eszközöket<br><br>Élelmiszer (az ital kivételével) |
 
-### <a name="tradeshows-and-exhibitions"></a>Kiállítások és kiállítások
+### <a name="tradeshows-and-exhibitions"></a>Tradeshows and egyedek
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | Vállalati márkanév és kapcsolattartási adatok<br><br>Microsoft-tartalom  |
-| Kommunikációs követelmények | Esemény meghívása és napirend/program<br><br>Az események részvételét ábrázoló fénykép (például a stand fotója, a bemutató fényképe stb.) |
-| Mérőszámok     | Résztvevők vagy a fülke látogatói becsült száma  |
-|Jogosult költségek    | Aláírás/megjelenítés/nyomtatott anyagok<br><br>Giveaways<br><br>Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Díj – regisztráció<br><br>Díj – külső beszélő<br><br>Díj – létesítmények és berendezések bérlete, beleértve a külső felek által birtokolt és felügyelt felszíni eszközöket<br><br>Vendéglátás (alkohol nélkül) |
+| Kommunikációs követelmények | Eseménymeghívás és eseménymeghívás/program<br><br>Fénykép az esemény részvételével (például egy stand fényképe, bemutató fénykép stb.) |
+| Mérőszámok     | A résztvevők vagy a standok látogatóinak becsült száma  |
+|Jogosult kiadások    | Aláírás/ megjelenítés / nyomtatott anyagok<br><br>Giveaways<br><br>Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Díj – regisztráció<br><br>Díj – külső beszélő<br><br>Díj – létesítmény- és berendezéskölcsönzés, beleértve a harmadik fél tulajdonában lévő és felügyelt Surface-eszközöket<br><br>Élelmiszer (az ital kivételével) |
 
-### <a name="customer-offers"></a>Ügyfelek ajánlatai
+### <a name="customer-offers"></a>Ügyfél ajánlatok
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | Microsoft-tartalom |
-| Kommunikációs követelmények | Ajánlat megjelenítése a feltételekkel és kikötésekkel. A tényleges költségek akár 25%-os teljes összegű és használati időszakra vetítve összesen. A felszíni partnerek a jogosult tevékenység költségeihez legfeljebb 100%-ot igényelhetnek a felhasználható együttműködési időszakból. |
-| Mérőszámok     | Eredmények összefoglalása |
-|Jogosult költségek    | Aláírás/megjelenítés/nyomtatott anyagok<br><br>Giveaways<br><br>Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat |
+| Kommunikációs követelmények | Ajánlat megjelenítése feltételekkel és feltételekkel. Tényleges költségek az együttműködési összegek teljes 25%-ában használati időszakonként. A Surface-partnerek használati időszakonként a megszerzett együttműködési összeg 100%-át igényelhetik a jogosult tevékenységi költségekért. |
+| Mérőszámok     | Az eredmények összegzése |
+|Jogosult kiadások    | Aláírás/ megjelenítés / nyomtatott anyagok<br><br>Giveaways<br><br>Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat |
 
-### <a name="internal-incentives-and-spiffs"></a>Belső ösztönzők és SPIFFs
+### <a name="internal-incentives-and-spiffs"></a>Belső ösztönzők és a RENDSZERFF-ek
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | Vállalati márkanév és kapcsolattartási adatok – a belső verseny szabályai elegendőek lesznek, ha a vállalat/márka nevét a kommunikációs anyag tartalmazza<br><br>Microsoft-tartalom |
-| Kommunikációs követelmények   | Ajánlat megjelenítése a feltételekkel és kikötésekkel. A tényleges költségek akár 25%-os teljes összegű és használati időszakra vetítve összesen. A felszíni partnerek a jogosult tevékenység költségeihez legfeljebb 100%-ot igényelhetnek a felhasználható együttműködési időszakból. |
-| Mérőszámok     | Eredmények összefoglalása |
-|Jogosult költségek    | A tényleges költségek akár 25%-kal összesen a kinyert op-alapok száma alapján, használati időszakonként: aláírás, megjelenítés, nyomtatott anyagok<br><br>Giveaways<br><br>Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>A felszíni partnerek akár 100%-ot is igényelhetnek a felhasználható, a jogosult tevékenység költségeire vonatkozó, használati időszakonként |
+| Alapvető követelmények    | A vállalat márkaneve és kapcsolattartási adatai – a belső versenyszabályok akkor is elégségesek, ha a vállalat/márkanév szerepel a kommunikációs anyagban<br><br>Microsoft-tartalom |
+| Kommunikációs követelmények   | Ajánlat megjelenítése feltételekkel és feltételekkel. Tényleges költségek az együttműködési összegek teljes 25%-ában használati időszakonként. A Surface-partnerek használati időszakonként a megszerzett együttműködési összeg 100%-át igényelhetik a jogosult tevékenységi költségekért. |
+| Mérőszámok     | Az eredmények összegzése |
+|Jogosult kiadások    | A tényleges költségek a következő használati időszakonkénti teljes együttműködési összeg 25%-ában: Aláírás, megjelenítés, nyomtatott anyagok<br><br>Giveaways<br><br>Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>A Surface-partnerek használati időszakonként akár 100%-os együttműködési összeget is igényelhetnek a jogosult tevékenységi költségekért |
 
-### <a name="on-site-champ"></a>Helyszíni Champ
+### <a name="on-site-champ"></a>Helyszíni bajnok
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | A szolgáltatások a Microsoft termékein 100%-kal koncentráltak | 
-| Kommunikációs követelmények | A termékek mintája (a helyszíni Champ űrlapon leírt módon) |
+| Alapvető követelmények    | A szolgáltatások 100%-a a Microsoft-termékekre összpontosított | 
+| Kommunikációs követelmények | A kézbesítendő adatok mintája (a helyszíni bajnoki űrlapon leírtak alapján) |
 | Mérőszámok     | NA |
-|Jogosult költségek    | A felszíni és a 50%-os tényleges költségek akár 100%-kal, a (z) szolgáltatási időszakra vonatkozó összes többi program esetében: díjak – szolgáltatások: a helyszíni Champ-erőforrások által nyújtott szolgáltatások |
+|Jogosult kiadások    | A Surface tényleges költsége 100%-ig, az összes többi programért elért együttműködési összeg használati időszakonkénti 50%-a pedig a következő szolgáltatások esetén: Díjak – szolgáltatások: A helyszíni bajnoki erőforrás(k) által biztosított szolgáltatások |
 
 ### <a name="proof-of-concept"></a>Megvalósíthatósági vizsgálat
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | Megvalósíthatósági vizsgálat |
 | Kommunikációs követelmények  | Microsoft-tartalom |
-| Mérőszámok     | A Concept explication vagy a piackutatás adataihoz kifejlesztett anyagok másolata: tanulmányi, esettanulmány-fejlesztés, piackutatás, ügyfél-Bemerítési élmény – a Microsoft Customer bevonási élmény (CIE) egy jogosult kutatási költség.<br><br>A jogosult szolgáltatási díjak közé tartozhat a technológiai bemutató központ és az üzembe helyezési szolgáltatások beállítása, beleértve a telepítést, a konfigurációt, az adatáttelepítést, a tesztelést vagy az ügyfél felé irányuló rendszer beállítását.<br><br>A programozási/fejlesztési költségek tartalmazhatják az API-rendszerek fejlesztését. |
-|Jogosult költségek    | Nyomtatott anyagok: kutatás: tanulmány, esettanulmányok fejlesztése, piackutatás, felhasználói élmény<br><br>Programozás/fejlesztés<br><br>Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Díj – szolgáltatás: a munkatársa vagy külső gyártója által biztosított labor-szolgáltatások a koncepció igazolásának alátámasztására |
+| Mérőszámok     | A fogalom-szorzáshoz vagy piackutatási adatokhoz kifejlesztett anyagok másolata: Tanulmány, esettanulmány fejlesztése, piackutatás, Customer Immersion Experience – Microsoft Customer Immersion Experience (CIE) egy jogosult kutatási költség.<br><br>A jogosult szolgáltatási díjak közé tartozhat egy technológiai bemutatóközpont és üzembe helyezési szolgáltatások beállítása, beleértve a telepítést, a konfigurációt, az adatáttelepítést, a tesztelést vagy az ügyfél által elérhető rendszer-beállítást.<br><br>A programozási/fejlesztési költségek magukban foglalhatják az API-rendszerfejlesztést is. |
+|Jogosult kiadások    | Nyomtatott anyagok: Kutatás: Tanulmány, esettanulmány fejlesztése, piackutatás, Customer Immersion Experience<br><br>Programozás /fejlesztés<br><br>Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Díj – szolgáltatás: Partner vagy külső szállító által a koncepció igazolása érdekében nyújtott munkaerő-szolgáltatások |
 
 ### <a name="employee-purchase-web-setup-for-customers"></a>Alkalmazottak vásárlásának webes beállítása ügyfelek számára
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | NA |
-| Kommunikációs követelmények | URL-cím lap vagy képernyőkép a webhelyek oldalairól. Nem jogosult felszíni HOZZÁADÁSra |
-| Mérőszámok     | Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Programozás/fejlesztés: programozási és fejlesztési díjak<br><br>Díj – szolgáltatás: a web Setup támogatásával a partner vagy harmadik féltől származó gyártó által biztosított munkaügyi szolgáltatások |
-|Jogosult költségek    | NA |
+| Kommunikációs követelmények | Webhelyoldalak URL-kezdőlapja vagy képernyőképe. Nem jogosult a Surface ADD-hez |
+| Mérőszámok     | Díj – ügynökség: Marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Programozás/fejlesztés: Programozási és fejlesztési díjak<br><br>Díj – szolgáltatás: Partner vagy külső szállító által a webes beállítás támogatásához nyújtott munkaerő-szolgáltatások |
+|Jogosult kiadások    | NA |
 
-## <a name="partner-readiness"></a>Partneri készültség
+## <a name="partner-readiness"></a>Partneri készenlét
 
-### <a name="mpn-participation"></a>MPN részvétel
+### <a name="mpn-participation"></a>MPN-részvétel
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
 | Alapvető követelmények    | Eredeti Microsoft-számla |
 | Kommunikációs követelmények | NA |
 | Mérőszámok     | NA |
-|Jogosult költségek    | Díj – éves regisztráció: MPN éves regisztrációs díjak<br><br>Plakk és DVD (első szett): MPN-tagsági plakett és első DVD-készlet<br><br>További juttatási eszközkészlet |
+|Jogosult kiadások    | Díj – Éves regisztráció: MPN éves regisztrációs díjak<br><br>Dvd és dvd (első készlet): MPN-tagság és dvd-k első készlete<br><br>További előnyök eszközkészlete |
 
-### <a name="microsoft-exams-and-tuition"></a>Microsoft vizsgák és tandíj
+### <a name="microsoft-exams-and-tuition"></a>Microsoft-vizsgák és -tandíj
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | Kurzus kódja/vizsga kódja a Microsoft Learning szolgáltatásban |
-| Kommunikációs követelmények | Harmadik féltől származó számla, a tanfolyam kódja és a befejezési dátum, illetve a számla és a Befejezés időpontja |
-| Mérőszámok     | Résztvevők listája és személyenkénti díja |
-|Jogosult költségek    | Díj – vizsga: a Microsoft vizsga díjai a minősítésekhez és a kompetenciához<br><br>Díj – képzés/tandíj: a Microsoft képzési díjai a minősítésekhez és a kompetenciához, beleértve az igény szerinti képzési költségeket is<br><br>Harmadik féltől származó ISV-megoldások képzése – képzési költségek a harmadik féltől származó, a Microsoft-alkalmazások és-platformok kihasználása<br><br>Díj – MCT megújítása: a Microsoft Certified tréner megújítási díja (nem szükséges metrika)<br><br>|
+| Alapvető követelmények    | Kurzuskód/vizsgakód Microsoft Learning |
+| Kommunikációs követelmények | Harmadik féltől származó számla a kurzuskóddal és a befejezés dátumával vagy a vizsgakóddal és a befejezés dátumával |
+| Mérőszámok     | Résztvevők listája és személyenkénti költség |
+|Jogosult kiadások    | Díj – vizsga: A Microsoft vizsgadíjai a tanúsítványokért és a kompetenciákért<br><br>Díj – képzés /tandíj: A Microsoft tandíjai a tanúsítványokért és a kompetenciákért, beleértve az igény szerinti betanítási költségeket is<br><br>Harmadik féltől származó isV-megoldás betanítása – a harmadik féltől származó megoldások betanítási költségei, amelyek bemutathatóak a Microsoft-alkalmazások és -platformok kihasználása vagy az ott való eltevése érdekében<br><br>Díj – MCT megújítása: Microsoft Certified Trainer megújítási díj (nincs szükség metrikára)<br><br>|
 
-### <a name="internal-training-and-floor-days"></a>Belső képzés és alapnapok
+### <a name="internal-training-and-floor-days"></a>Belső betanítás és alapképzési napok
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | 100%-os Microsoft-tartalom a napi időkerethez vagy az esemény helyéhez |
-| Kommunikációs követelmények | Képzési terv vagy esemény program<br><br>Microsoft bemutató tartalom<br><br>|
+| Alapvető követelmények    | 100%-os Microsoft-tartalom az igényelt nap vagy eseménytér időkeretére |
+| Kommunikációs követelmények | Képzési program vagy eseményprogram<br><br>Microsoft-bemutató tartalma<br><br>|
 | Mérőszámok     | Résztvevők száma |
-|Jogosult költségek    | Díj – képzés/tandíj/regisztráció/digitális betanítási platform vagy digitális képzés formázása<br><br>Aláírás/megjelenítés/nyomtatott anyagok<br><br>Giveaways<br><br>Díj – Ügynökség: marketing szolgáltatások, beleértve az ügynöki díjakat<br><br>Díj – külső beszélő<br><br>Díj – létesítmények és berendezések kölcsönzése<br><br>Vendéglátás (alkohol nélkül) |
+|Jogosult kiadások    | Díj – képzés/rekord/regisztráció/digitális képzési platform vagy digitális képzés formázása<br><br>Aláírás/ megjelenítés / nyomtatott anyagok<br><br>Giveaways<br><br>Díj – ügynökség: marketingszolgáltatások, beleértve az ügynökségi díjakat<br><br>Díj – külső beszélő<br><br>Díj – létesítmény- és berendezéskölcsönzés<br><br>Élelmiszer (az ital kivételével) |
 
-### <a name="microsoft-hosted-conferences"></a>Microsoft által üzemeltetett konferenciák
+### <a name="microsoft-hosted-conferences"></a>A Microsoft által üzemeltetett konferenciák
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | Microsoft által üzemeltetett konferenciák. A repülőjegy/szállodai költségek legfeljebb 5 000 USD-ig, legfeljebb 3 résztvevőre korlátozhatók, és a viteldíjak és a betanítási költségek teljes száma (45 000 USD/s). Az üzemeltetés eltérő jogosultságokkal rendelkezhet. |
-| Kommunikációs követelmények | A konferencia/esemény meghívásának vagy a regisztráció megerősítésének másolata, amely bizonyítja, hogy a konferencia a Microsoft által üzemeltetett<br><br>Szállítási útvonalak utazási dátumokkal (csak utazás – repülőjegy-költségek) |
+| Alapvető követelmények    | A Microsoft által üzemeltetett konferenciák. A airfare-/szállodaköltségek konferenciaonként 5000 USD/fős korlátot képeznek, és legfeljebb 3 résztvevőre vonatkoznak, és programonként legfeljebb 45 000 USD-t kaphatnak a repülőjegyre/képzésre/szállodai költségekre vonatkozóan. Az üzemeltetés különböző kedvezményeket kínálhat. |
+| Kommunikációs követelmények | Konferencia-/eseménymeghívás vagy regisztrációs megerősítés másolata, amely azt mutatja, hogy a konferencia a Microsoft által üzemeltetett<br><br>Közlekedési útiterv az utazási dátumokkal (csak utazási költségek) |
 | Mérőszámok     | NA |
-|Jogosult költségek    | Díj – regisztráció: legfeljebb 3 résztvevő számára egy konferencián<br><br>Utazás – repülőjegy/Hotel: szállítás (repülőjegy vagy betanítási díjszabás és a vonatkozó adók) és a szálloda (csak a szobaárak és a vonatkozó adók)<br><br>Megjegyzés: az utazás – repülőjegy/szállodai költségek legfeljebb 5 000 USD-ig, legfeljebb 3 résztvevőre érvényesek, és a viteldíjak és a betanítási költségek teljes száma (45 000 USD/s). Az üzemeltetés eltérő jogosultságokkal rendelkezhet. |
+|Jogosult kiadások    | Díj – Regisztráció: konferenciaonként legfeljebb 3 résztvevő számára<br><br>Utazás – Airfare/Hotel: Szállítmányozás (airfare vagy train fare and applicable taxes) és hotel (csak a szobai díjak és a vonatkozó adók)<br><br>Megjegyzés: Utazás – A repülőjegy-/szállodai költségek díja konferencianként legfeljebb 5000 USD lehet, és legfeljebb 3 résztvevőre van korlátozva, és programonkénti időszakonként 45 000 USD-s felső korláttal. Az üzemeltetés különböző kedvezményeket kínálhat. |
 
-### <a name="product-seedingdemo-units"></a>Termék-előkészítési/bemutató egységek
+### <a name="product-seedingdemo-units"></a>Termékátvetési/bemutató egységek
 
-| Kategória | Végrehajtás igazolása    |
+| Kategória | A végrehajtás igazolása    |
 | ------ | ----------- |
-| Alapvető követelmények    | Akár 10%-ot is igényelhet az összes felhalmozott Co-op-vagy USD-3 000, attól függően, hogy melyik a nagyobb vagy a program időtartama. A Surface PC & hub-partnerek nem rendelkeznek jogcímek korlátozásával. |
-| Kommunikációs követelmények | A beépített bemutató egységek rendszerspecifikációi.<br><br>Harmadik féltől származó bemutató egység kézbesítésének igazolása.<br><br>Harmadik féltől származó bemutató egység igazolása. |
+| Alapvető követelmények    | A felhalmozott együttműködési összegek legfeljebb 10%-át, vagy 3000 USD összeget követelhet meg a programidőszakonkénti vagy annál nagyobb időtartamtól. A Surface PC& hub-partnereknek nincs jogcímkorlátja. |
+| Kommunikációs követelmények | A beépített bemutatóegységek rendszersértései.<br><br>Harmadik féltől származó bemutató egység kézbesítési igazolása.<br><br>Harmadik féltől származó bemutató egység igazolása. |
 | Mérőszámok     | NA |
-|Jogosult költségek    | NA |
+|Jogosult kiadások    | NA |
 
- A részletekért töltse le a [partneri ösztönzőket a Co-op útikönyvre](https://partner.microsoft.com/asset/collection/co-op-funds-resources#/) (a bejelentkezés szükséges).
+ Részletekért töltse le a [Partneri ösztönzők együttműködési útmutatóját](https://partner.microsoft.com/asset/collection/co-op-funds-resources#/) (bejelentkezés szükséges).
 
 ## <a name="next-steps"></a>Következő lépések
 

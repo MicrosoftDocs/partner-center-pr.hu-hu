@@ -1,68 +1,65 @@
 ---
-title: MPN-előnyök – szoftver
+title: MPN-előnyök – Szoftver
 ms.topic: article
 ms.date: 03/05/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: További információ a Microsoft Partner Network (MPN) előnyökkel rendelkező helyszíni szoftvertermékek használatáról
+description: További információ a helyszíni szoftvertermékekről, amelyek Microsoft Partner Network (MPN) előnyei
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b559c1e8493c274204f1bdd219eae8bab994953e
-ms.sourcegitcommit: d7fbaff51c7ac29fbf700d7f7fdef798fd97c6fa
+ms.openlocfilehash: 846bad6bdde080288bc7dd916e389dd86b5315f0
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "102619375"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146289"
 ---
-# <a name="mpn-benefits---software"></a>MPN-előnyök – szoftver
+# <a name="mpn-benefits---software"></a>MPN-előnyök – Szoftver
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- MPN-partner rendszergazdája
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partner rendszergazdája
 
 ## <a name="overview"></a>Áttekintés
 
-Ez a cikk a partner centeren belüli partnerek számára elérhető helyszíni szoftverek előnyeit ismerteti. Ha szeretné megtekinteni az aktív beléptetési ajánlat részét képező összes szoftvert, lépjen az  [MPN>előnyök menüpontra, majd válassza a szoftver](https://partner.microsoft.com/dashboard/mpn/membership/benefits/software) lapot a partner központ menüjében.  
+Ez a cikk a partnerek számára elérhető helyszíni szoftveres előnyöket ismerteti a Partnerközpont. Az aktív regisztrációs ajánlat részeként jogosult összes szoftverterméket az  [MPN>Benefits (MPN>-előnyök)](https://partner.microsoft.com/dashboard/mpn/membership/benefits/software) lapon, majd a Partnerközpont menüben.  
 
-## <a name="manage-software-products-and-product-keys"></a>Szoftvertermékek és termékkulcs kezelése
+## <a name="manage-software-products-and-product-keys"></a>Szoftvertermékek és termékkulcsok kezelése
 
-Válassza ki az érintett szoftver termékét, és keresse meg az egyes termékekhez tartozó konkrét utasításokat, ehhez kattintson a legördülő szimbólumra a termék nevével összhangban.
+Válassza ki a kívánt szoftverterméket, és keresse meg az egyes termékekre vonatkozó utasításokat a termék nevének megfelelő legördülő szimbólumra kattintva.
 
-Ha egy termékhez termékkulcs szükséges a telepítéshez, a rendszer kérni fogja a termékkulcs megadását a telepítési folyamat során. A partner Centerben ugyanabból az ablaktáblából kérheti le, hogy a letölteni kívánt szoftver verzióját választotta.
+Ha egy termékhez termékkulcsra van szükség a telepítéshez, a rendszer a telepítési folyamat során kérni fogja, hogy adjon meg egy termékkulcsot. A letöltést ugyanannak a panelnek a segítségével Partnerközpont, ahol a letölteni kívánt szoftververziót választotta.
 
-A **Windows Server** és az ügyféloldali **operációs rendszerek** , valamint az **összes Microsoft Office ügyfélalkalmazás** aktiválására van szükség. Nem minden termékhez szükséges a termékaktiválás.
+Termékaktiválás szükséges a Windows  **Server** és az ügyféloldali operációs rendszerek, valamint Microsoft Office **ügyfélalkalmazások esetében.** Nem minden termékhez van szükség termékaktiválásra.
 
-:::image type="content" source="images/benefits/mpn-software-benefits-1.png" alt-text="Az MPN-ben elérhető szoftveres termékekkel kapcsolatos előnyök." border="false":::
+:::image type="content" source="images/benefits/mpn-software-benefits-1.png" alt-text="Az MPN-en elérhető szoftvertermék-előnyök." border="false":::
 
-## <a name="how-activations-are-counted"></a>Az aktiválások számlálása
+## <a name="how-activations-are-counted"></a>Az aktiválások megszámlálása
 
-A termékkulcs alapján megszámolt aktiválások száma a következő forgatókönyveken alapul.
+A termékkulcsba beleszámolt aktiválások száma a következő forgatókönyveken alapul
 
-- Ha a szoftver telepítve van egy új gépre, a rendszer eggyel növeli a termék aktiválásának darabszámát.
+- Ha a szoftver új gépre van telepítve, a termék aktiválásának száma a kulccsal eggyel növekszik.
  
-- Ha a szoftver ugyanarra a gépre van telepítve, amelyen nincs jelentős hardveres változás, a termékaktiválás nem számít a termékkulcs alapján.
+- Ha a szoftver ugyanazon a gépen van telepítve jelentős hardverváltozások nélkül, a termékaktiválás nem számít bele a termékkulcsba.
 
-- Ha a szoftver ugyanarra a gépre van telepítve, amelyen jelentős hardveres változások vannak, akkor a termék aktiválása a termékkulcs alapján történik.
+- Ha a szoftver ugyanazon a gépen van telepítve jelentős hardverváltozásokkal, a termékaktiválás beleszámításra kerül a termékkulcsba.
 
 ## <a name="troubleshooting-scenarios"></a>Hibaelhárítási forgatókönyvek
 
-- **"Nem érhetők el további részletek" üzenet jelenik meg az ügyféllicencekhez (Windows Server ügyfél-hozzáférési licenc)**
+- **"További részletek nem érhetők el" üzenet jelenik meg a hitelesítésszolgáltatói (Windows Server ügyfél-hozzáférési licenc) előnyeiről**
 
-    Az ügyféllicencek nem letölthető termékek. Az ügyféllicencek aktiválását maga a kiszolgálói termék kezeli.
+    A CAL-ek nem letölthető termékek. A CAL-ek aktiválását maga a kiszolgálótermék kezeli.
 
-- **Megjelenik egy üzenet, amely jelzi, hogy elérte a termékkulcs maximálisan elérhető aktiválásait a szoftver aktiválására tett kísérlet során.**
+- **A szoftver aktiválásakor egy üzenet arról küld értesítést, hogy elérte a termékkulcshoz elérhető maximális aktiválásokat.**
 
-    Az MPN tagsági előnyeinek megfelelően megadott számú aktiválást biztosítanak termékenként. Ha elérte vagy túllépte az aktiválások maximális számát, a megadott termékkulcs használatával nem tud további licenceket aktiválni.
+    Termékenként meghatározott számú aktiválást biztosítunk Önnek az MPN-tagság előnyei révén. Ha az aktiválások maximális száma teljesült, vagy túllépte a maximális számot, nem fog tudni további licenceket aktiválni a megadott termékkulcs használatával.
 
 
  ## <a name="next-steps"></a>Következő lépések
 
-- [Microsoft Partner Network előnyök és ajánlatok kezelése](manage-your-partner-network-benefits.md)
+- [Kezelheti a Microsoft Partner Network előnyeit és ajánlatát](manage-your-partner-network-benefits.md)
 
-- [Technikai támogatási incidensek használata termékspecifikus technikai támogatás beszerzéséhez](mpn-benefits-technical-support.md)
+- [Technikai támogatási incidensek használata termékspecifikus technikai támogatás ához](mpn-benefits-technical-support.md)
 
 
 

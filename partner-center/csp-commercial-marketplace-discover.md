@@ -4,102 +4,99 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a CSP-partnerek hogyan használhatják a partner centert a piactéren az SaaS-ajánlatok vagy a független szoftvergyártók (ISV-EK) díjszabásának megtekintéséhez vagy kereséséhez.
+description: Ismerje meg, hogyan használhatja a CSP Partnerközpont a független szoftverszállítóktól származó SaaS-ajánlatokat vagy díjszabást a piactéren.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f741ef4e44632e1d239285b58e99fbb38a8f37e7
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: ab30f8391df58155c8511dc628b1fefd94c8d768
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979600"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147972"
 ---
-# <a name="discover-offers-and-pricing-in-partner-center-commercial-marketplace"></a>Fedezze fel az ajánlatokat és a díjszabást a partner Center kereskedelmi piactéren
+# <a name="discover-offers-and-pricing-in-partner-center-commercial-marketplace"></a>Ajánlatok és díjszabás a kereskedelmi Partnerközpont piactéren
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felügyeleti ügynök
+Amikor a független szoftverszállítók (ISV-k) úgy döntenek, hogy közzétesznek egy ajánlatot a kereskedelmi piactéren, azt is eldöntik, hogy szeretnék-e elérhetővé tenni az ajánlatot a CSP-programban. Ha úgy döntenek, hogy az ajánlatot a CSP-programon keresztül értékesítik, a CSP-partnereknek a Marketplace Partnerközpont kell látniuk.
 
-Ha a független szoftvergyártók (ISV-ket) úgy döntenek, hogy közzétesznek egy ajánlatot a kereskedelmi piactéren, dönthetnek arról is, hogy az ajánlatot elérhetővé kívánják-e tenni a CSP programban. Ha úgy dönt, hogy eladja az ajánlatot a CSP programon keresztül, a CSP-partnereknek az ajánlatot a partner Center Marketplace területen kell látniuk.
+Ha egy ISV-ajánlat nem a várt Partnerközpont jelenik meg, annak a következő lehet az oka:
 
-Ha egy ISV-ajánlat nem jelenik meg a partner Centerben elvárt módon, az a következők miatt fordulhat elő:
+- Az ISV úgy döntött, hogy nem adja el az ajánlatot a CSP-programon keresztül. Előfordulhat például, hogy egyes ISV-termékek elérhetők a kereskedelmi piactér más területein (például az [Microsoft AppSource-ban](https://appsource.microsoft.com/) és Azure Marketplace-ban), [](https://azuremarketplace.microsoft.com/)de nem biztos, hogy megjelennek a CSP-programban részt Partnerközpont partnerek számára.
 
-- Az ISV úgy döntött, hogy nem értékesíti az ajánlatot a CSP programon keresztül. Előfordulhat például, hogy egyes ISV-termékek elérhetővé válnak a kereskedelmi piactér más területein (például a [Microsoft AppSource](https://appsource.microsoft.com/) és az [Azure piactéren](https://azuremarketplace.microsoft.com/)), de előfordulhat, hogy nem jelennek meg a partnerek számára a partnervállalat programban a partner Center piactéren.
+- Az ISV úgy döntött, hogy az ajánlatot csak néhány CSP-partner számára teszi kizárólagosként. Az exkluzív ajánlatokkal kapcsolatos további információkért tekintse meg a jelen súgótémakör egy későbbi, későbbi, későbbiekben található témakörét.
 
-- Az ISV úgy döntött, hogy az ajánlatot kizárólag kiválasztott számú CSP-partnernek teszi ki. Az exkluzív ajánlatokról további információt a jelen témakör későbbi, című szakaszában talál.
+- Előfordulhat, hogy az ajánlat típusa nem Partnerközpont vagy Azure Portal (például tárolókon vagy használatalapú ajánlatokon) keresztül.
 
-- Előfordulhat, hogy az ajánlat típusa nem hívható meg a partnervállalat vagy a Azure Portal (például tárolók vagy valamilyen használaton alapuló ajánlatok) segítségével.
+- Előfordulhat, hogy a társított ügyfél(nek) számlázási országa nem támogatott ehhez az ISV-ajánlathoz.
 
-- Előfordulhat, hogy a társított ügyfél (ek) számlázási országa nem támogatott ezen az ISV-ajánlaton.
+## <a name="view-marketplace-offers-in-partner-center"></a>Marketplace-ajánlatok megtekintése a Partnerközpont
 
-## <a name="view-marketplace-offers-in-partner-center"></a>Piactéri ajánlatok megtekintése a partner Centerben
+Az elérhető kereskedelmi piactéri ajánlatok megtekintése a CSP-programban:
 
-Az elérhető kereskedelmi Piactéri ajánlatok megtekintése a CSP programban:
+1. Jelentkezzen be Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard)majd válassza a **CSP lehetőséget** a bal oldali navigációs menüben.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd a bal oldali navigációs menüben válassza a **CSP** elemet.
+2. Válassza **az Értékesítés,** majd a **Marketplace lehetőséget.** Alapértelmezés szerint minden típusú és kategóriás termék létezik.
 
-2. Válassza az **értékesítés**, majd a **piactér** elemet. Alapértelmezés szerint minden típusú és kategóriájú terméket látni fog.
+3. Válasszon ki egy szűrőt típus vagy kategória alapján. A Search  használatával konkrét kulcsszavakat, ajánlatneveket vagy ISV-közzétevők nevét is megkeresheti.
 
-3. Válasszon egy szűrőt típus vagy kategória alapján. A **kereséssel** konkrét kulcsszavakat, ajánlat-NEVEKET vagy ISV-közzétevők nevét is megkeresheti.
-
-4. Válasszon ki egy adott terméket a listából. Ekkor megjelenik a Product Overview (termék áttekintése) lap, ahol többet is megtudhat az ajánlatról. Az ezen a lapon található információk a következők lehetnek: 
+4. Válasszon ki egy adott termékajánlatot a listából. Ezzel a termék Áttekintés lapját fogja látni, ahol további információt talál az ajánlatról. Az ezen a lapon található információk a következők lehetnek: 
 
     - A termék vagy ajánlat leírása
 
     - További információ az ISV-közzétevőről
 
-    - Az ISV-közzétevő által feltöltött dokumentációra vagy marketinganyagokra mutató hivatkozások
+    - Az ISV-közzétevő által feltöltött dokumentációkra vagy marketinganyagokra mutató hivatkozások
 
-    - Egyéb lehetséges ISV-kapcsolatok az ügyfélszolgálathoz, a mérnöki tevékenységhez vagy a CSP-programhoz való kapcsolattartáshoz
+    - Egyéb lehetséges ISV-kapcsolattartók ügyfélszolgálathoz, mérnöki csapathoz vagy a CSP-program kapcsolattartóihoz
 
-5. Ha többet szeretne megtudni az ajánlat rendelkezésre álló csomagjairól, SKU-ról vagy díjszabásáról, válassza a **csomagok + díjszabás** lapot. Ezen a lapon a következő jelenik meg:
+5. Az ajánlat elérhető csomagokkal, termékcsomagokkal vagy díjszabásokkal kapcsolatos további információkért válassza a Csomagok **+ díjszabás lapot.** Ezen a lapon a következőt fogja megmutatni:
 
-    - Azok a piacok, amelyeken elérhető az ajánlat
+    - A piacok, ahol ez az ajánlat elérhető az Ön számára
 
-    - Az ajánlathoz elérhető SKU-i vagy csomagok listája
+    - Az ajánlathoz elérhető SKUS-k vagy csomagok listája
 
-    - Az egyes SKU-vagy díjcsomag díjszabása
+    - Az elérhető termékváltozatok vagy csomagok díjszabása
 
-## <a name="view-marketplace-offers-via-partner-center-apis"></a>Piactéri ajánlatok megtekintése a partner Center API-kon keresztül
+## <a name="view-marketplace-offers-via-partner-center-apis"></a>Marketplace-ajánlatok megtekintése Partnerközpont API-kon keresztül
 
-A CSP program partnerei API-kat is használhatnak a jogosult ajánlatok listájának visszaküldéséhez. A jogosult ajánlatok csak azokra a SaaS ISV-ajánlatokra lesznek elérhetők, amelyek a partner Center Marketplace-en keresztül értékesíthetők. A katalógusban található ajánlatok azonosítására szolgáló API-kat használó partnereink számára tekintse meg az útmutatót, amely a [piacon elérhető ajánlatok listáját tartalmazza](/partner-center/develop/create-subscription-azure-marketplace-products#get-a-list-of-offers-for-a-market).
+A CSP-programpartnerek API-k használatával is visszaadják a jogosult ajánlatok listáját. A jogosult ajánlatok csak azok az SaaS ISV-ajánlatok lesznek, amelyek a partner számára a piactéren keresztül Partnerközpont lesznek. Azon partnerek számára, akik API-kat használnak az ajánlatok azonosítására a katalógusban, tekintse meg a piaci ajánlatok listáját lekért [útmutatót.](/partner-center/develop/create-subscription-azure-marketplace-products#get-a-list-of-offers-for-a-market)
 
-## <a name="view-the-latest-marketplace-offer-pricing-in-partner-center"></a>Tekintse meg a piactér legújabb ajánlatának díjszabását a partner Centerben
+## <a name="view-the-latest-marketplace-offer-pricing-in-partner-center"></a>A Marketplace-ajánlat legfrissebb díjszabását a Partnerközpont
 
-Az ajánlatokkal kapcsolatos legújabb díjszabási részletekért kövesse az alábbi lépéseket:
+Kövesse az alábbi lépéseket az ajánlathoz tartozó legújabb díjszabási részletekért:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd a bal oldali navigációs menüben válassza a **CSP** elemet.
+1. Jelentkezzen be Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard)majd a bal oldali navigációs menüben válassza a **CSP** lehetőséget.
 
-2. Válassza az **értékesítés** lehetőséget, majd a **díjszabást és az ajánlatokat**.
+2. Válassza **az Értékesítés,** majd a **Díjszabás és ajánlatok lehetőséget.**
 
-3. Görgessen le a **piactér** szakaszhoz, válasszon egy helyet, és töltse le a **piactér díjszabását**. Ez egy táblázatot hoz létre az SaaS-, licenc-alapú ajánlatok és az ISV-közzétevők által elérhető díjszabású ajánlatok legújabb díjszabási adataival. Néhány Azure-alkalmazás díjszabása is itt jelenhet meg. A rendszer naponta frissíti ezeket az információkat, így a választott gyakorisággal a jelenlegi árakon is megtekintheti.
+3. Görgessen le a **Marketplace szakaszhoz,** válasszon egy helyet, és töltse le a **Marketplace díjszabását.** Ez létrehoz egy táblázatot az SaaS legújabb díjszabási adataival, a licencalapú ajánlatokkal és az ISV-közzétevők által elérhető forgalmi díjas ajánlatokkal. Az Azure-alkalmazások bizonyos díjszabása is megjelenhet itt. Ezek az információk naponta frissülnek, így a választott gyakoriséggel ellenőrizheti az aktuális árakat.
 
-4. Ha egy ISV-termék ingyenes próbaidőszakot tartalmaz, a táblázat két sort fog megjeleníteni a termékhez:
+4. Ha egy ISV-termék ingyenes próbaidőszakot tartalmaz, a táblázatban két sor jelenik meg a termékhez:
 
-    - Az egyik sor a nulla ingyenes próba árát mutatja. Ez azt jelenti, hogy az ingyenes próbaidőszak elérhető.
+    - Az egyik sorban a nulla ingyenes próbaverziós ár látható. Ez azt jelenti, hogy elérhető egy ingyenes próbaidőszak.
 
-    - A másik sor az ingyenes próbaidőszak lejárta után alkalmazandó árat és feltételeket mutatja.
+    - A másik sor az ingyenes próbaidőszak után érvényes árat és feltételeket jeleníti meg.
 
-A CSP program partnereként jogosult lehet az egyes kereskedelmi Piactéri ajánlatokhoz kapcsolódó egyéb ösztönzőkre. További információ az egyéb ösztönzőkről: CSP- [ösztönző útmutató](https://aka.ms/partnerincentives) (CSP-bejelentkezést igényel).
+CSP-programpartnerként ön jogosult lehet az egyes kereskedelmi piactéri ajánlatokhoz kapcsolódó egyéb ösztönzőkre. További információt az egyéb ösztönzőkről a [CSP-ösztönző](https://aka.ms/partnerincentives) útmutatóban (CSP-bejelentkezés szükséges).
 
-## <a name="learn-about-marketplace-exclusive-offers"></a>Ismerje meg a Marketplace exkluzív ajánlatait
+## <a name="learn-about-marketplace-exclusive-offers"></a>További információ a piactér kizárólagos ajánlatokkal kapcsolatban
 
-Az ISV-ket lehetőségük van arra, hogy az ajánlatait csak bizonyos partnereknek lehessen elérhetővé tenni a CSP programban. Ezt exkluzív ajánlatnak nevezzük. A CSP program összes partnere továbbra is megtekintheti a partner Center kereskedelmi piactéren található összes ISV-ajánlatot, beleértve az exkluzív jelölésű ajánlatokat is.
+Az isV-knek lehetősége van arra, hogy ajánlatukat csak a CSP-program meghatározott partnerei számára ttsdék elérhetővé. Ezt kizárólagos ajánlatnak nevezik. A CSP-programban minden partner továbbra is megtekintheti az összes isV-ajánlatot Partnerközpont kereskedelmi piactéren, beleértve az Exclusive (Kizárólagos) jelölésű ajánlatokat is.
 
-Ha egy ajánlat **nem** kizárólagos jelölésű, az összes partner megvásárolhatja az ajánlatot (feltéve, hogy a kiválasztott ügyfél számlázási országa megfelel az ISV-k ajánlatának országa számára elérhetőnek).
+Ha egy ajánlat **nem** kizárólagosként van megjelölve, minden partner megvásárolhatja az ajánlatot (feltéve, hogy a kiválasztott ügyfél számlázási országa megegyezik az ISV-ajánlat országának elérhetőségével).
 
-Az exkluzív jelölésű ajánlatok esetében azonban csak az ISV által kiválasztott partnerek vásárolhatják meg az ajánlatot.
+Az Exclusive (Kizárólagos) jelölésű ajánlatok esetén azonban csak az ISV által kiválasztott partnerek vásárolhatják meg az ajánlatot.
 
 > [!NOTE]
-> Ha olyan exkluzív ajánlat jelenik meg, amelyet szeretne értékesíteni az ügyfeleknek, forduljon közvetlenül az ISV-hoz, és kérjen engedélyt az exkluzív ajánlat eladására. Ha megtekinti egy exkluzív ajánlat részleteit, megjelenhet egy **partneri ISV** -hivatkozás, amelyet kiválaszthat.
+> Ha egy Exclusive (Kizárólagos) jelzésű ajánlatot lát, amit szeretne értékesíteni az ügyfeleinek, közvetlenül a isv-vel kapcsolatba kell kérnie a isv-t, és engedélyt kell kérnie az Exclusive ajánlat értékesítésére. Amikor megtekinti az Exclusive (Kizárólagos) ajánlat részleteit, előfordulhat, hogy használhatja a Contact ISV (Kapcsolatfelvétel **az ISV-vel)** hivatkozást.
 
-Ha többet szeretne megtudni a kereskedelmi piactéren található ISV-ról, olvassa el a [Cloud Solution Providers szolgáltatást](/azure/marketplace/cloud-solution-providers).
+A kereskedelmi piactéren elérhető ISV-vel kapcsolatos további információkért olvassa el a [felhőszolgáltatókkal kapcsolatos cikkeket.](/azure/marketplace/cloud-solution-providers)
 
-A piactéren elérhető CSP-vel kapcsolatos további információkért olvassa el a [kereskedelmi piactér – áttekintés](csp-commercial-marketplace-overview.md)című témakört.
+A piactéren elérhető CSP-felhasználói élményről a kereskedelmi [piactér áttekintésében talál további információt.](csp-commercial-marketplace-overview.md)
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Kereskedelmi Piactéri ajánlatok vásárlása](csp-commercial-marketplace-purchase.md)
+- [Kereskedelmi piactéri ajánlatok vásárlása](csp-commercial-marketplace-purchase.md)

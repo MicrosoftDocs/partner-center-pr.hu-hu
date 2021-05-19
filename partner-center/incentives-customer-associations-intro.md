@@ -1,6 +1,6 @@
 ---
-title: A CPOR-társítások áttekintése
-description: Olvassa el azokat a partneri erőforrásokat, akik az ügyfeleket a Recording (CPOR) modell igénylési partnerével kívánják hozzárendelni bizonyos ösztönző programokhoz.
+title: CPOR-társítások áttekintése
+description: További információ az olyan partnerek erőforrásairól, akik az ügyfeleket adott ösztönzőprogramokhoz társítják a igénylő regisztrált partner (CPOR) modellen keresztül.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 ms.topic: conceptual
@@ -8,51 +8,48 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: 24c439d1c90663130e1676e8ceb6d503be5ea30d
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 1895f89933668e909748178dcdaf4a54e4843096
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179190"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146782"
 ---
-# <a name="use-these-resources-to-make-customer-association-claims-for-specific-incentives-programs"></a>Ezekkel az erőforrásokkal megadhatja az ügyfél-hozzárendelési jogcímeket bizonyos ösztönző programokhoz
+# <a name="use-these-resources-to-make-customer-association-claims-for-specific-incentives-programs"></a>Ezekkel az erőforrásokkal ügyfél-társítási igényeket lehet kihozni adott ösztönzőprogramokhoz
 
-**Megfelelő szerepkörök**
-
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
 Ez a cikk az alábbi feltételeknek megfelelő Microsoft-partnerek erőforrásait osztja meg:
 
-- Ön a következő Microsoft-ösztönző programok részét képezi: Online Services Advisor (OSA) értékesítés, online szolgáltatások használata (OSU) – Microsoft 365 és OSU-Business Application ösztönzők.
+- Ön a következő Microsoft-ösztönzőprogramok részei: Online Services Advisory (OSA) Sell (OSA), Online Services Usage (OSU)-Microsoft 365 és OSU-Business Application incentives.
 
-- Microsoft 365-vagy Dynamics 365-ügyfelekkel dolgozik, és a fenti ösztönző programokban a munka egy részét szeretné hivatkozni vagy igényelni.
+- A dynamics Microsoft 365 Dynamics 365-ügyfelekkel dolgozik, és a fenti ösztönzőprogramokban hivatkozni vagy igényelni szeretné a munka egy részére vonatkozó igénylést.
 
-Ha megfelel a feltételeknek, a Recording Partner of Record (CPOR) modellt kell használnia az ügyfél-hozzárendelések létrehozásához és kezeléséhez ezekben az ösztönző programokban.
+Ha megfelel a feltételeknek, a igénylő regisztrált partner (CPOR) modellt kell használnia az ilyen ösztönzőprogramokhoz való ügyfél-társítások létrehozásához és kezeléséhez.
  
-## <a name="how-do-customer-associations-and-cpor-relate-to-incentives"></a>Hogyan kapcsolódnak az ügyfelek és a CPOR az ösztönzőkhöz?
+## <a name="how-do-customer-associations-and-cpor-relate-to-incentives"></a>Hogyan kapcsolódnak az ügyfél-társítások és a CPOR az ösztönzőkhöz?
 
-A Microsoft most a Recording Partner of Record (CPOR) modellt használja a Microsoft 365 és a Dynamics 365-ügyfelekhez tartozó társítások kezeléséhez.
+A Microsoft mostantól a igénylő regisztrált partner (CPOR) modellt használja az Ön és a Dynamics 365 Microsoft 365-ügyfelekkel való társítások kezelésére.
 
-Ez a modell a következő ösztönző programokkal rendelkező ügyfelekkel kapcsolatos munkájára vonatkozik: Online Services-tanácsadó (OSA) értékesítés, online szolgáltatások használata (OSU) – Microsoft 365 és OSU-Business Application ösztönzők.
+Ez a modell a következő ösztönzőprogramokban az ügyfelekkel való munkára vonatkozik: Online Services Advisory (OSA) Sell (Sell), Online Services Usage (OSU)-Microsoft 365 és OSU-Business Application incentives.
 
-A Microsoft érvényesíti az összes ösztönző jogcímet.
+A Microsoft érvényesíti az összes ösztönzőkre vonatkozó jogcímet.
 
-Ezen a ponton további információkat kérhetünk. A társulási kérelem ügyfelét is értesíteni fogjuk. Az ügyfeleknek öt munkanapon belül kell kijelentkezniük. Ha nem, akkor az adott Bérlővel és munkaterheléssel való társítása hivatalos lesz.
+Ezen a ponton további információkat kérhetünk Öntől. A társítási kérelemről is értesítjük az ügyfelet. Az ügyfeleknek öt munkanapjuk van a lemondásra. Ha nem jelentkeznek be, az Adott bérlőhöz és számítási feladathoz való társítása hivatalos lesz.
 
-Ha elfogadja a társulási kérelmét, az ügyfél hozzáférést biztosít bizonyos adataihoz, így Ön is biztosíthatja a felügyeleti szolgáltatásokat. 
+A társítási kérelem elfogadásával az ügyfél hozzáférést biztosít Önnek az adataihoz, így Ön felügyeleti szolgáltatásokat nyújthat Önnek. 
 
-## <a name="resources-to-help-you-create-and-manage-customer-associations"></a>Erőforrások az ügyfél-hozzárendelések létrehozásához és kezeléséhez
+## <a name="resources-to-help-you-create-and-manage-customer-associations"></a>Forrásforrások az ügyfél-társítások létrehozásához és kezeléséhez
 
-Az alábbi cikkekből megtudhatja, hogyan hozhatja létre, kezelheti és elháríthatja az ügyfelek társításait.
+Az alábbi cikkek az ügyfél-társítások létrehozásáról, kezelésről és hibaelhárításáról szólnak.
 
 |  **Ehhez**  |  **Olvassa el ezt**  |
 |--------------|-----------|
-| Megtudhatja, hogyan hozhat létre ügyfél-hozzárendelést  | [Ügyfél-hozzárendelés létrehozása a CPOR-modell használatával](submit-osa-claim.md)  |
-|Az ügyfél-hozzárendelések kezelésének ismertetése  | [Ügyféltársítások kezelése](incentives-manage-customer-associations.md)  |
-|Az ügyfél-hozzárendeléssel kapcsolatos problémák elhárítása  | [Ügyfelek társításával kapcsolatos problémák](incentives-customer-association-issues.md)  |
+| Megtudhatja, hogyan hozhat létre ügyfél-társítást  | [Ügyfél-társítás létrehozása a CPOR-modell használatával](submit-osa-claim.md)  |
+|Az ügyfél-társítások kezelése  | [Ügyféltársítások kezelése](incentives-manage-customer-associations.md)  |
+|Ügyfél-társítási problémák elhárítása  | [Ügyfelek társításával kapcsolatos problémák](incentives-customer-association-issues.md)  |
 
 ## <a name="next-steps"></a>Következő lépések
 
-- Új ösztönzők? Fedezze fel, mire van szüksége a [kezdéshez](incentives-get-started-intro.md)
-- További információ a [Co-op-jogcímek ösztönzéséről](claims-overview.md)
+- Még nem vagy ösztönző? Az első lépések [felderítése](incentives-get-started-intro.md)
+- További információ az [ösztönzők együttműködési jogcímeiről](claims-overview.md)

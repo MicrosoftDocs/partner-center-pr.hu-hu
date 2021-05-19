@@ -1,6 +1,6 @@
 ---
-title: Vállalati fiókok konszolidálása
-description: 'Ismerje meg, hogyan összevonhatja a partneri tagsági központ (PMC) fiókjait egyetlen fiókba a partner Centerben. A következőre vonatkozik: a PMC-ról a partneri központba való áttelepítés.'
+title: A vállalati fiókok konszolidálása
+description: Megtudhatja, hogyan konszolidálhatja Partner Membership Center (PMC-) fiókokat egy fiókba a Partnerközpont. A PMC-ről a Partnerközpont.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
@@ -9,59 +9,56 @@ ms.author: parthp
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
 ms.date: 05/05/2020
-ms.openlocfilehash: 6d8fca11f2db40e7f8b4ebcd4580d8f0aba115eb
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.openlocfilehash: efa7251bd658558efcbab562e0c7bc8a66b8bcb8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354525"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148278"
 ---
-# <a name="consolidate-your-company-accounts-when-migrating-from-pmc-to-partner-center"></a>Vállalati fiókok konszolidálása a PMC-ből a partneri központba való Migrálás során
+# <a name="consolidate-your-company-accounts-when-migrating-from-pmc-to-partner-center"></a>Konszolidálja a vállalati fiókokat a PMC-ről a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** MPN-partner | Fiók rendszergazdája
 
-- MPN-partner rendszergazdája
-- Fiókadminisztrátor
+A PMC-ban előfordulhat, hogy a vállalat számos fiókkal és helyről rendelkezik. Minden helynek saját fiókja volt. Amikor a Partnerközpont, az összes fiók és hely egyetlen globális partnerfiókba lesz összesíteni, több helyről. A következő dolgok fognak átköltözni: MPN-számai, kompetenciái, vásárlásai, marketinges erőforrásai, programjai és ajánlatai. Semmi nem fog elveszni.
 
-A PMC-ben a vállalata számos fiókkal és hellyel rendelkezhetett. Minden helynek megvan a saját fiókja. A partneri központba való áttelepítéskor az összes fiók és hely konszolidálva lesz egy partner globális fiókba több hellyel. A következő dolgok lesznek áthelyezve: az MPN-azonosítók, a kompetenciák, a vásárlások, a marketing-erőforrások, a programok és az ajánlatok. Semmi sem fog elveszni.
+Amikor először jelentkezik be Partnerközpont fiókba, mpN-rendszergazdaként lesz hozzáadva a Partnerközpont fiókjához. Ez a szerepkör lehetővé teszi a fiók felügyeletét, felhasználók hozzáadását, engedélyek hozzárendelését és egyéb felügyeleti feladatok elvégzését.
 
-Amikor első alkalommal jelentkezik be a fiókpartner központjába, a rendszer MPN-rendszergazdaként hozzáadja a partner Center-fiókhoz. Ez a szerepkör lehetővé teszi a fiók felügyeletét, a felhasználók hozzáadását, az engedélyek hozzárendelését és más felügyeleti feladatok elvégzését.
+## <a name="why-should-you-consolidate-your-multiple-accounts-in-pmc-into-one-account-in-partner-center"></a>Miért érdemes több PMC-fiókot egyetlen fiókba egyesíteni a Partnerközpont?
 
-## <a name="why-should-you-consolidate-your-multiple-accounts-in-pmc-into-one-account-in-partner-center"></a>Miért érdemes összevonni több fiókját a PMC-ben egyetlen fiókkal a partner Centerben?
+1. Ha mindent egyetlen fiók alatt talál, könnyebben kezelheti a Microsoft Partner Network fiókját.
 
-1. Ha mindent megtalál, akkor könnyebben kezelheti Microsoft Partner Network-fiókját.
+2. Az közös értékesítés kezelése és a megoldások közzététele egyszerűbb egy fiókstruktúrában.
 
-2. A felügyelet és a megoldás közzétételét egy fiók struktúrája megkönnyíti.
+3. A Microsoft egyetlen vállalatként ismeri fel, amely összevont bevétel-felismerést eredményez, így könnyebben teljes képet kap az összes helyszínről.  
 
-3. A Microsoft felismeri Önt egyetlen vállalatként, amely összevont bevételi felismerést eredményez, így egyszerűbbé válik a teljes kép beolvasása az összes helyen.  
+4. A kompetenciákért és a MAP-kért csak egyszer, évente kell fizetnie.
 
-4. A kompetenciákat és térképeket csak egyszer kell fizetnie, évente.
+5. Előfordulhat, hogy a fiókok konszolidálása után további kompetenciákra is jogosult. Most már más ösztönzőprogramokra is jogosult lehet.
 
-5. A fiókok konszolidálása után több kompetenciára is jogosult lehet. Ön is jogosult lehet más ösztönző programokra.
+## <a name="what-happens-during-consolidation-of-accounts"></a>Mi történik a fiókok konszolidálása során?
 
-## <a name="what-happens-during-consolidation-of-accounts"></a>Mi történik a fiókok összevonása során
+- A vállalati adatok képernyőjén nem módosíthatja a részleteket. Ezek az adatok a globális partnerfiókra vonatkozóak.
 
-- A vállalati adatok képernyőn nem módosítható a részletek. Ezek az adatok a partner globális fiókra vonatkoznak.
+- A PMC-fiók(okat) a partner globális fiókjában összesíteni fogjuk.
 
-- A PMC-fiók (ok) konszolidálva lesz a partner globális fiókjába.
+- A PMC összes helye ebbe a meglévő Partnerközpont partner globális fiókjába lesz áthelyezve helyként. További helyeket is hozzáadhat. További információ a helyekről: [Partnerfiók kezelése – Helyek.](manage-locations.md)
 
-- A PMC összes helye a meglévő partner Center-partner globális fiókba kerül át helyként. További helyszíneket is hozzáadhat. A helyekkel kapcsolatos további információkért olvassa el  [a partneri fiók-telephelyek kezelése](manage-locations.md)című témakört.
+- A konszolidálási folyamat befejezése után nem fogja tudni visszafordítani. A vállalat összes adata helyként jelenik meg a meglévő globális partnerfiókon belül. 
 
-- Az összesítési folyamat befejezése után nem fogja tudni visszafordítani. A vállalat összes adata mostantól helyként jelenik meg a meglévő partner globális fiókon belül. 
+- Az összevonás során a rendszer minden MPN-et megőriz.
 
-- Az összes MPN-azonosító megőrződik a konszolidáció során.
+- A meglévő kompetenciák (Gold/Silver) és vásárlások (MAPS/Gold/Silver) megmaradnak a konszolidálás során. Emellett megmaradnak a kapcsolódó marketing-erőforrások, programok és ajánlatok is.
 
-- Az összevonás során a meglévő kompetenciák (arany/ezüst) és a vásárlások (MAPS/Gold/Silver) megmaradnak. Emellett a kapcsolódó marketing-erőforrások, programok és ajánlatok is megmaradnak.
+- Ön (a munkahelyi e-mail-azonosítóval bejelentkezett felhasználó) automatikusan MPN-rendszergazdaként és fiókadminisztrátként lesz hozzáadva a partner globális fiókjához. Ez lehetővé teszi a fiók szükség szerint való felügyeletét.
 
-- A munkahelyi e-mail-AZONOSÍTÓval bejelentkezett felhasználó automatikusan MPN-rendszergazdaként és egy fiók-rendszergazdaként lesz hozzáadva a partner globális fiókhoz. Ez lehetővé teszi, hogy szükség szerint felügyelje a fiókot.
+## <a name="consolidating-your-go-to-market-offers-programs-and-competencies"></a>Piacravezető ajánlatok, programok és kompetenciák konszolidálása
 
-## <a name="consolidating-your-go-to-market-offers-programs-and-competencies"></a>A piaci megjelenést segítő ajánlatok, programok és kompetenciák összevonása
+A PMC-ban minden hely saját kompetenciával, saját MAP-ekkel és más, adott helyre jellemző marketing-ajánlatokkal is rendelkeznie kellett.
 
-A PMC-ban minden hely számára lehetséges, hogy saját kompetenciával, saját térképekkel és más, az adott helyre vonatkozó értékesítési ajánlatokkal rendelkezik.
+A Partnerközpont összes helyfiók egyetlen globális fiókba van összesíteni. Ez azt jelenti, hogy a piaci részesedési ajánlatok, programok és kompetenciák is összevonva vannak. További előnyök eszközkészletek (ABTK-k) nem lesznek elérhetők. A marketinges erőforrások, ajánlatok, programok és kompetenciák elosztását azonban rendszerezheti a vállalata számára. A konszolidáláskor egy bővítményt biztosítunk. Ez a bővítmény lehetővé teszi a vállalat számára, hogy további egy évig élvezzék a PMC-hez használt marketing-erőforrásokat, ajánlatokat és programokat.
 
-A partner Centerben az összes hely fiók egyetlen globális fiókba lesz összevonva. Ez azt jelenti, hogy az összes piacra kerülési ajánlatot, programot és kompetenciát is összevonjuk. További előnyöket biztosító eszközkészlet (ABTKs) nem lesz elérhető. Megszervezheti azonban a marketing-erőforrások, ajánlatok, programok és kompetenciák terjesztését a vállalata számára szükséges módon. A konszolidáció során a rendszer egy bővítményt biztosít. Ez a bővítmény lehetővé teszi a vállalat számára, hogy a további évre a PMC-ban használt marketing erőforrásokat, ajánlatokat és programokat is élvezhesse.
-
-A PMC és a partner központ közötti különbségekkel kapcsolatos további információkért olvassa el a következő témakört: a [PMC-ról a partner Centerre való áttérés](guide-to-migration.md).
+További információ a PMC és a Partnerközpont közötti különbségekről: [Áthelyezés PMC-ről Partnerközpont.](guide-to-migration.md)
 
 ## <a name="next-steps"></a>Következő lépések
 

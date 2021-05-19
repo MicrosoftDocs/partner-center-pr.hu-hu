@@ -1,124 +1,121 @@
 ---
-title: Értékesítési érdeklődők beolvasása – üzleti profil létrehozása
+title: Érdeklődők lekérte – üzleti profil létrehozása
 ms.topic: article
 ms.date: 03/09/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan érheti el a Microsoft értékesítési vezetőit. Az egyik legfontosabb, hogy üzleti profilt hozzon létre a partner Centerben, amely lehetővé teszi, hogy az ügyfelek könnyebben megtalálják.
+description: Ismerje meg, hogyan szerez be érdeklődőket a Microsofttól. Az egyik fontos, hogy olyan üzleti profilt hozzon létre a Partnerközpont, amely lehetővé teszi az ügyfelek számára, hogy könnyebben megtalálják.
 author: rajap-ms
 ms.author: rajap
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: db9166b0d2c4fe1c9f61921a9632c9704eaca74d
-ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
+ms.openlocfilehash: f66a5c32f145be5a80de838dae2cd1926e6aebce
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106964390"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148203"
 ---
-# <a name="create-a-business-profile-to-get-microsoft-sales-leads-and-help-customers-find-you"></a>Üzleti profil létrehozása a Microsoft értékesítési érdeklődők beszerzéséhez és az ügyfelek megtalálásához
+# <a name="create-a-business-profile-to-get-microsoft-sales-leads-and-help-customers-find-you"></a>Üzleti profil létrehozása a Microsoft értékesítési érdeklődőinek lekért és az ügyfelek meg keresésének segítségében
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Üzletiprofil-rendszergazdai | Ajánlói rendszergazda
 
-- Üzleti profil rendszergazdája
-- Ajánlói rendszergazda
+Minősített Microsoft-partnerként létrehozhat egy üzleti profilt, amely bemutatja vállalkozását az üzleti igényeknek megfelelő egyedi megoldásokat és szakértelmet kereső ügyfelek számára.
 
-Minősített Microsoft-partnerként létrehozhat egy üzleti profilt, amely az üzleti igények kielégítésére szolgáló egyedi megoldásokat és szakértelmet kereső ügyfelek számára teszi elérhetővé.
+A Microsoft minden évben több millió ügyfelet vesz fel marketing-, értékesítési és szolgáltatási tevékenységekkel. A legtöbb ilyen tevékenység lehetőséget teremt arra, hogy értékesítési érdeklődők formájában ajánló adatokat biztosítsunk partnereinknek. 
 
-A Microsoft a marketing, az értékesítés és a szolgáltatási erőfeszítések keretében évente több millió ügyfelet vesz igénybe. A legtöbb ilyen részvétel lehetőséget teremt számunkra, hogy értékesítési érdeklődők formájában biztosítson hivatkozásokat a partnereinknek. 
+Az üzleti profil létrehozása az első lépés a hivatkozások lekértség felé. Profilját a következőkkel mutatjuk be az ügyfeleknek, akik partnereket keresnek, akik segíthetnek a Microsoft-termékek és -megoldások implementában:
 
-Az üzleti profil létrehozása az első lépés az átirányítások beszerzése felé. Megmutatjuk a profilját azoknak a felhasználóknak, akik a Microsoft-termékek és-megoldások megvalósítását segítő partnereket keresnek:
+- **A [Megoldásszolgáltató keresése keresési](https://www.microsoft.com/solution-providers/home) funkció.** A potenciális ügyfelek saját maga is kereshetnek a partnerek termékoldalán, és megkeresik azokat a partnereket, akik megfelelnek a keresési követelményeknek.
 
-- **A [megoldás-szolgáltató](https://www.microsoft.com/solution-providers/home) keresési felületének keresése**. A potenciális ügyfelek saját maguk is kereshetik meg a partnerek listáját, hogy megtalálják a keresési feltételeknek megfelelő partnereket.
-
-- **A Microsoft értékesítési és szolgáltatás-alkalmazottainak ajánlása**. A felhőalapú technológiai megoldások üzembe helyezése iránt érdeklődő potenciális ügyfelek a Microsofttal kapcsolatba léphetnek az üzleti igényeknek megfelelő szakemberek megtalálásához. Ezek a Microsoft-szakemberek ezután hivatkozhatnak a vállalat potenciális ügyfeleire.
+- **A Microsoft értékesítési és szolgáltatási alkalmazottainak ajánlásai.** A felhőalapú technológiai megoldások üzembe helyezése iránt érdeklődő potenciális ügyfelek kapcsolatba lépnek a Microsofttal, hogy segítsenek az üzleti igényeiknek megfelelő szakemberek megtalálásában. Ezek a Microsoft-szakemberek ezután a potenciális ügyfeleket a vállalathoz is bevetik.
 
 ## <a name="create-a-profile"></a>Profil létrehozása
 
 > [!NOTE]  
-> Üzleti profil létrehozása előtt rendelkeznie kell egy partner Center-fiókkal. Ha még nem rendelkezik partner-központtal, tekintse meg [a partneri központ fiók létrehozása](mpn-create-a-partner-center-account.md) című témakört.
+> Üzleti profil létrehozásához egy új fiókkal kell Partnerközpont lennie. Ha még nem rendelkezik fiókkal, Partnerközpont a Fiók létrehozása Partnerközpont [a](mpn-create-a-partner-center-account.md) fiók létrehozásához.
 
-Hozzon létre profilokat minden olyan régióhoz, amelyre jogosult üzleti tevékenységet végezni.
+Hozzon létre profilokat minden olyan régióhoz, ahol jogosult üzleti tevékenységre.
 
-1. A **partner Center** menüben válassza az **átirányítási** &gt; **üzleti profilok** &gt; válasszon országot/régiót > **[hozzon létre egy üzleti profilt](https://partner.microsoft.com/referrals/businessprofiles/)**.
+1. A **Partnerközpont** válassza a **Ajánlói** üzleti profilok lehetőséget, majd válassza ki &gt;  &gt; az országot/régiót, > **[üzleti profil létrehozása lehetőséget.](https://partner.microsoft.com/referrals/businessprofiles/)**
 
-2. Az **üzleti profil létrehozása** lapon válasszon ki egy régiót, majd adja meg a profil adatait.
+2. Az Üzleti **profil létrehozása lapon** válasszon ki egy régiót, majd adja meg a profiladatokat.
    > [!NOTE]  
-   >  Míg a partner Center több nyelvet támogat, egyes elemek, például a leírások és a szabad formátumú címkék esetében előfordulhat, hogy a jelen témakörben leírtaknak megfelelően különböző nyelvekről kell szöveget tartalmazniuk.
+   >  Bár Partnerközpont több nyelvet is támogat, egyes elemeknek, például a leírásnak és a szabad űrlapcímkéknek, különböző nyelvekről származó szöveget kell tartalmazniuk, ahogy az ebben a témakörben is olvasható.
 
 ### <a name="partner-information"></a>Partneri adatok
 
-Bemutatjuk a vállalatot, hozzáadhat egy emblémát és egy rövid leírást, valamint egy hivatkozást a webhelyére. 
+Mutassa be vállalatát, adja hozzá az emblémát, egy rövid leírást és egy hivatkozást a webhelyhez. 
 
-Az embléma lehet GIF-, JPG-vagy PNG-fájl, amelynek maximális szélessége 300 képpont. Azt javasoljuk, hogy szögletes vagy hosszú méretarányokat használjon. A magas oldalarányú arányok nem ajánlottak.
+Az embléma lehet GIF-, JPG- vagy PNG-fájl, maximális szélessége 300 képpont. Javasoljuk a négyzetes vagy hosszú oldalarányok használatát. A magas oldalarányok nem ajánlottak.
 
-A Leírás legfeljebb 2500 karakter hosszú lehet. Tippek a nagyszerű leíráshoz: 
+A leírás legfeljebb 2500 karakter hosszúságú lehet. Tippek a nagyszerű leíráshoz: 
 
--  **Legyen rövid**, ami az első mondatban vagy kettőben fontos. Ennek a főcímenek kell lennie, amely az ügyfelek figyelmét fogja felfogni. A partneri keresési élmény keresése területen a keresési eredmények előnézetében az első sor vagy kettő látható.
--  A **Microsoft-specifikus ajánlatokkal a vállalat tapasztalataira koncentrálhat**. Az átirányításokat kereső ügyfelek általában a Microsoft-specifikus felhasználói élményt igénylő partnereket keresnek.
--  **Felsorolásjelek használata** Az információk lebontása felsorolásjeles listákra, hogy könnyebb legyen a vizsgálat.
--  **Kerülje a zsargont**. Egyszerű, mindennapos nyelvezetet használhat, és megnevezheti az ajánlatait, hogy mit csinálnak: az üzleti igényeknek megfelelően, vagy olyan feladathoz vagy célkitűzéshez, amellyel az ügyfelek elérhetik.
--  **Ne aggódjon a Leírás keresési kulcsszavakkal való kitöltésével**. Az ügyfél keresési eszközei a partneri szakértelem szakaszban létrehozott kulcsszavakat keresik, nem pedig a leírást.
--  **A profil naprakészen tartása**. Az egyes szoftverekkel vagy szolgáltatásokkal kapcsolatos kiadásokban frissítse a profilt, és szinkronizálja a vállalat webhelyével.
--  **Ne hivatkozzon más Microsoft-partneri vállalatra név** szerint, kivéve, ha az leányvállalat vagy más módon kapcsolódik a vállalatához, vagy ha van olyan szerződése, amely a partner vállalattal együttműködve működik együtt, és/vagy népszerűsíti egymással a közös munkalehetőségeket.
--  **Több nyelvet tartalmazó régiók esetében** érdemes megfontolni a leírásban több nyelvből származó szöveget is.
+-  **Legyen rövid**, és az első vagy két mondatban a fontos dolgokkal kell bevezetőt befogni. Ez az a hírnek kell lennie, amely az ügyfelek figyelmét is felkapja. A Find a partner search experience (Partner keresése) keresési funkcióban az első vagy két sort a keresési eredmények előnézetében mutatjuk be.
+-  **Összpontosítson vállalata Microsoft-specifikus ajánlatokkal kapcsolatos tapasztalataira.** A hivatkozásokat kereső ügyfelek általában Microsoft-specifikus tapasztalattal rendelkeznek partnereket keresnek.
+-  **Használjon listajelet.** Az információk felsorolásjeles listákra való feltörése, hogy könnyebben beolvassa őket.
+-  **Kerülje a szakzsargont.** Használjon egyszerű, hétköznapi nyelvet, és nevezze el ajánlatát a feladatukhoz: az üzleti igényekhez, vagy a feladathoz vagy célkitűzéshez, amely segít az ügyfeleknek elérni.
+-  **Ne aggódjon, ha a leírást keresési kulcsszavakkal tölti ki.** Az ügyfélkeresési eszközök a Partneri szakértelem szakaszban létrehozott kulcsszavakat keresnek, nem a leírást.
+-  **Tartsa meg a profilját aktuálisan.** Minden egyes szoftver- vagy szolgáltatás kiadásakor frissítse a profilját, hogy szinkronban legyen a vállalat webhelyével.
+-  **Ne hivatkozjon** egy másik Microsoft-partnervállalatra néven, kivéve, ha az leányvállalat, vagy más módon a vállalathoz van társvállalata, vagy ha jelenlegi szerződése van az adott partnervállalattal a partnervállalattal a partnervállalattal való együttműködésre és/vagy a közös munkalehetőségek elősegítésére.
+-  **A több nyelvvel rendelkező régiók esetében** érdemes lehet több nyelvből származó szöveget is belevetni a leírásba.
 
-#### <a name="linkedin-company-page-more-ways-to-connect"></a>LinkedIn vállalat lapja: további kapcsolódási lehetőségek
+#### <a name="linkedin-company-page-more-ways-to-connect"></a>LinkedIn céges oldal: további kapcsolódási módok
 
-Adja hozzá a LinkedIn vállalat oldalát, hogy erősítse a lehetséges ügyfelekkel létesített kapcsolatait. 
+Adja hozzá a LinkedIn-cég oldalát a potenciális ügyfelekkel való kapcsolatok megerősítéséhez. 
 
-Ha belefoglalja ezt a hivatkozást, az ügyfelek gyorsan megtekinthetik a céget a LinkedIn platformon keresztül.
+Ha ezt a hivatkozást is tartalmazza, az ügyfelek a LinkedIn platformon gyorsan többet is megtekinthetnek a szervezetről.
 
-Ha még nem rendelkezik a LinkedIn vállalat oldalával, [most létrehozhat egyet](https://www.linkedin.com/company/setup/new/).
+Ha még nem rendelkezik LinkedIn-céges oldaltal, most létrehozhat [egyet.](https://www.linkedin.com/company/setup/new/)
 
 ### <a name="partner-expertise"></a>Partneri szakértelem
 
-A **partner** keresési eszközeinek keresése a szakértelemmel kapcsolatos címkéket keres. Optimalizálja ezeket a címkéket, hogy könnyebb legyen a profil láthatósága.
+A Find a Partner search tools **(Partner keresése)** keresőeszközök szakértelemcímkéket keresnek. Optimalizálja ezeket a címkéket a profil láthatóságának növelése érdekében.
 
-Első lépésként adja hozzá saját címkéit a partner szakértelmét ismertető szakaszhoz. Felvehető Címkék: 
+Először adja hozzá a saját címkéit a Partneri szakértelem szakaszhoz. Felvehető címkék: 
 
--  **Iparági fókusz Címkék**
--  **Termékek**. A Microsoft termékeire korlátozódik
+-  **Iparági fókuszcímkék**
+-  **Products (Termékek)**. Microsoft-termékekre korlátozva
 -  **Szolgáltatás típusa**
--  **Megoldások, képességek és képességek**. Ezek a címkék szabadon használhatók, és lehetőséget biztosítanak a képességek egyedi keresési kulcsszavainak hozzáadására.
+-  **Megoldások, készségek és képességek.** Ezek a címkék ingyenesek, és lehetővé teszi a képességek egyedi keresési kulcsszavainak hozzáadását.
 
-A keresésben használt egyéb Címkék:
+A kereséshez használt egyéb címkék:
 
-- A **kompetenciák címkéi** a vállalat képességeinek bemutatására szolgálnak.
+- **A kompetenciacímkék** a vállalat képességeit bemutató megszerzett jelölések.
 
-### <a name="customer-preferences"></a>Ügyfél beállításai
+### <a name="customer-preferences"></a>Ügyfélbeállítások
 
-#### <a name="target-size"></a>Cél mérete
+#### <a name="target-size"></a>Célméret
 
-Kiválaszthatja azokat a vállalkozásoktól érkező hivatkozásokat, amelyek nem felelnek meg a célként megadott ügyfél méretének.
+A megcélzott ügyfélméretnek nem megfelelő vállalatoktól le is iratkozhat.
 
-Ha kikapcsolja a szolgáltatást, több időt kell fordítania a vállalkozásokra, akik megfelelnek az Ön által használt vállalkozásoknak.
+A lemondással több időt fog tölteni olyan vállalkozásokkal, amelyek megfelelnek az Ön által előnyben részesített vállalkozásoknak.
 
 #### <a name="locations"></a>Helyek
 
-Régiónként legfeljebb 5 vállalat legfelső szintű helyét adhatja hozzá. Ezek a helyszínek akkor jelennek meg, amikor az ügyfelek közelség alapján keresnek partnereket.
+Régiónként legfeljebb 5 céges telephelyet adhat hozzá. Ezek a helyek akkor jelennek meg, ha az ügyfelek közelségi partnereket keresnek.
 
-Adja meg a hivatalos vállalati helyeknek helyet, és érvényesítheti azokat. Válasszon olyan helyszíneket, amelyek az Ön által kiszolgált piacokon központi szerepet töltenek be, és amelyek a legjobban megfelelnek a vállalata igényeinek.
+Azokat a helyeket adja meg, amelyek hivatalos vállalati helyek, és amelyek érvényesíthetőek. Válassza ki a kiszolgált piacok központi helyeit, és a legjobban a vállalat teljesítő képességét képviselje.
 
-Amikor befejezte a hely adatainak frissítését, válassza **a hely mentése** vagy **a hely mentése lehetőséget, és adjon hozzá egy újat** (még akkor is, ha csak egy helyet ad hozzá).
+Ha végzett a helyadatok frissítésével, válassza a Hely mentése vagy a Hely mentése lehetőséget, és adjon hozzá egy másikat **(még** akkor is, ha csak egy helyet ad hozzá). 
 
-Minden hozzáadott hely külön profil oldal lesz. A profilok frissítése során győződjön meg arról, hogy minden helyen frissíti őket.
+Minden egyes hozzáadt hely külön profillap lesz. A profiloldalak frissítésekkor győződjön meg arról, hogy minden helyhez frissíti őket.
 
-A hely címeinek frissítéséhez először **törölnie** kell a helyet, majd újra hozzá kell adnia.
+Egy hely címének frissítéséhez először törölnie kell a helyet, majd újra hozzá kell adni. 
 
-Ha 5 legfelső szintű helyen van, és módosítania kell az egyiket, először **törölnie** kell egy meglévő helyet, és hozzá kell adnia az új helyet.
+Ha az 5 legnépszerűbb helyen van, és módosítania kell **egyet,** először törölje a meglévő helyet, és adja hozzá az új helyet.
 
-## <a name="review-your-profile"></a>Profil áttekintése
+## <a name="review-your-profile"></a>A profil áttekintése
 
-A profil közzététele után a frissítések 24 órán belül megjelennek a [megoldás-szolgáltató keresése](https://www.microsoft.com/solution-providers/home) keresésében.
+A profil közzététele után a frissítések 24 órán belül megjelennek [a Megoldásszolgáltató](https://www.microsoft.com/solution-providers/home) keresése keresésben.
 
 ## <a name="improve-the-visibility-of-your-profile"></a>A profil láthatóságának javítása
 
-- **[Gyorsan reagálhat a kérelmekre](manage-leads.md)**. Ha megkapta az ügyfél-átirányítást, a gyorsabb válasz nagyobb eredményeket eredményezhet a jövőbeli ügyfelek keresési oldalain.
+- **[Gyorsan válaszolhat a kérésekre.](manage-leads.md)** Ha ügyfél-ajánlást kap, a gyorsabb válasz jobb eredményeket ad a keresési oldalakon a jövőbeli ügyfelek számára.
 
-- **Szelektívnek kell lennie a címkékkel**.  Jobb, ha kevesebb címkével rendelkezik, amely a legjobban képviseli a vállalat ajánlatait, megoldásait, értékeit, és az egyedi pozíciót, ahol következetesen bizonyíthatja a sikert.  Ez a jövőbeli keresési eredményekben osztalékot fog fizetni.
-- A Microsofton keresztül **szerezheti be a kompetenciákat** , hogy bemutassa a szaktudását termékeinkben.
+- **A címkékkel szelektíven kell válogatni.**  Jobb, ha kevesebb címke képviseli a legjobban a vállalat ajánlatait, megoldásait, értékajánlatait és egyedi pozícióját, ahol folyamatosan mutathatja a sikereket.  Ez a jövőbeli keresési eredményekben kifizetődő.
+- **Kompetenciacímkék megszerzése a** Microsofton keresztül, hogy be tudja mutatni a termékekkel kapcsolatos szakértelmét.
 
 ## <a name="next-steps"></a>Következő lépések
 
-[Válaszadás az átirányításokra](manage-leads.md)
+[Válaszadás a hivatkozásokra](manage-leads.md)

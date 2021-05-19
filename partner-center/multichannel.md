@@ -1,6 +1,6 @@
 ---
 title: Többcsatornás támogatás ügyfelek számára
-description: Bizonyos esetekben előfordulhat, hogy az ügyfelek fel szeretnék venni Önt egy olyan előfizetés kiépítésére és támogatására, amelyet máshol vásároltak.
+description: Bizonyos esetekben előfordulhat, hogy az ügyfelek fel szeretnék venni, hogy kiépítsen és támogassanak egy máshol vásárolt előfizetést.
 ms.topic: article
 ms.date: 06/17/2020
 ms.service: partner-dashboard
@@ -9,43 +9,37 @@ author: adamyeh
 ms.author: adamyeh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9bf577b6869a8b48215cb404df872d79f38e6a5e
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: bd0bb946c2f59f50c27aff58569d497bc21bf30b
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441982"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146408"
 ---
 # <a name="multi-channel-support---using-other-partners-to-support-customer-subscriptions-purchased-elsewhere"></a>Többcsatornás támogatás – más partnerek használata a máshol vásárolt ügyfél-előfizetések támogatásához
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök
 
-**Megfelelő szerepkörök**
+A Partnerközpont többcsatornás funkciója olyan forgatókönyveket támogat, amikor egy ügyfél egy partnert szeretne felvenni egy máshol megvásárolt előfizetés kezeléséhez és támogatásához. A többcsatornás támogatás akkor érvényes, ha az ügyfél:
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Értékesítési ügynök
+- Már vásárolt előfizetéseket közvetlenül a Microsofttól vagy az Advisor, Open vagy EA programokon keresztül.
 
-A partner Center többcsatornás funkciója olyan forgatókönyveket támogat, amelyekben az ügyfél a máshol vásárolt előfizetések kezeléséhez és támogatásához szeretne partnert felvenni. A többcsatornás támogatás akkor érvényes, ha a felhasználó:
+- Az előfizetéseket olyan harmadik féltől vásárolta meg, Felhőszolgáltató nem microsoftos szindikációs partnertől. Az ügyfelek nem válthatnak meglévő licencalapú előfizetéseket egy másik partnerre a Felhőszolgáltató programjában – meg kell várniuk az előfizetési időszak végét, vagy le kell mondaniuk az áthelyezés előtt.
 
-- Már megvásárolta az előfizetéseket a Microsofttól vagy az Advisor, a Open vagy az EA programban.
-
-- Megvásárolta az előfizetéseket egy harmadik féltől, amely nem a Cloud Solution Provider programban, vagy nem Microsoft Syndication partner. Az ügyfelek nem válthatnak meglévő licenccel rendelkező előfizetéseket egy másik partnerre a felhőalapú megoldás-szolgáltatói programban – a költözés előtt meg kell várniuk az előfizetési időszak végét, vagy le kell mondaniuk.
-
-|A szolgáltatások támogatása  | Tegye a következőket: |
+|A szolgáltatások támogatása  | Tegye a következőt: |
 |:---------|:---------|
-|Licenc alapú szolgáltatások    | A többcsatornás fiókok támogatásának biztosításához engedélyeket kell kérnie az ügyféltől az előfizetések kezeléséhez. További információ: [viszonteladói kapcsolat kérése egy ügyféllel](request-a-relationship-with-a-customer.md).   |
-|Használati alapú szolgáltatások     |  Azon ügyfelek esetében, akik már rendelkeznek előfizetéssel, Microsoft Azure egy másik csatornáról, mint például az Advisor, a Open vagy az EA, létre kell hoznia egy új Azure-előfizetést a partner Centerben, manuálisan kell megadnia az előfizetés részleteit, majd meg kell szakítania az egyes szolgáltatásokat vagy a teljes előfizetést. Az Azure CSP különböző csatornákon is létezhet.<br/><br/> Azon ügyfelek esetében, akik már rendelkeznek előfizetéssel, Microsoft Azure egy másik partnertől, például átválthatja az Azure-szolgáltatásokat a másik partnerre.  További információ: az [Azure-előfizetések átváltása egy másik partnerre](switch-azure-subscriptions-to-a-different-partner.md). |
+|Licencalapú szolgáltatások    | A többcsatornás fiókok támogatásához engedélyeket kell kérnie az ügyféltől az előfizetéseik kezeléséhez. További információ: [Viszonteladói kapcsolat kérése egy ügyféllel.](request-a-relationship-with-a-customer.md)   |
+|Használatalapú szolgáltatások     |  Olyan ügyfél esetén, aki már rendelkezik előfizetéssel az Microsoft Azure-előfizetéssel egy másik csatornáról, például az Advisorból, az Openről vagy az EA-ból, létre kell hoznia egy új Azure-előfizetést az Partnerközpont-ban, manuálisan meg kell adnia az előfizetés adatait, majd le kell mondania az egyes szolgáltatásokat vagy a teljes előfizetést. Azure CSP különböző csatornákkal is használhatja.<br/><br/> Ha egy ügyfélnek már van előfizetése egy Microsoft Azure másik partnertől, átválthatja az Azure-szolgáltatásokat a másik partnerre.  További információ: [Azure-előfizetések váltása másik partnerre.](switch-azure-subscriptions-to-a-different-partner.md) |
 
 > [!IMPORTANT]  
-> A CSP-partnerek jelenleg nem tudják értékesíteni online szolgáltatások egy másik CSP-partnernek. A Microsoft folyamatosan felülvizsgálja az összes program szabályzatait és képességeit. A szolgáltatás kiadásaival kapcsolatos hirdetmények a szokásos kommunikációs csatornákon keresztül lesznek bejelentve, beleértve a partneri központot is.
+> A CSP-partnerek jelenleg nem online szolgáltatások másik CSP-partnernek. A Microsoft folyamatosan áttekinti az összes program szabályzatát és képességeit. A funkció kiadásokkal kapcsolatos bejelentések a szokásos kommunikációs csatornákon lesznek bejelentve, beleértve a Partnerközpont.
 
 ## <a name="next-steps"></a>Következő lépések
 
 [Együttműködés más partnerekkel](work-with-other-partners.md)
 
-- Ha Ön közvetett viszonteladó, tekintse meg [a partner és a közvetett szolgáltatók](indirect-reseller-tasks-in-partner-center.md)című témakört.
+- Ha Ön közvetett viszonteladó, lásd: [Partner közvetett szolgáltatókkal.](indirect-reseller-tasks-in-partner-center.md)
 
-- Ha Ön közvetett szolgáltató, tekintse meg [a partner közvetett viszonteladókkal](indirect-provider-tasks-in-partner-center.md)című témakört.
+- Ha Ön közvetett szolgáltató, lásd: [Partner közvetett viszonteladók számára.](indirect-provider-tasks-in-partner-center.md)

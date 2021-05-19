@@ -9,30 +9,27 @@ author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b59d18a62ce6a775e97f88708467d07e9c351a66
-ms.sourcegitcommit: e462f562e7f26b7d6870c22638a2a841499109d6
+ms.openlocfilehash: 6c5acad01490ca679fa0761aa015fe0142e476bd
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "109740386"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146374"
 ---
-# <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>Saját fiók Partnerközpont – vállalati profil, banki adatok, szerepkörök, engedélyek és egyéb
+# <a name="manage-your-partner-center-account---company-profile-bank-information-roles-permissions-and-more"></a>Saját fiók Partnerközpont – vállalati profil, banki adatok, szerepkörök, engedélyek és sok más
 
-**Megfelelő szerepkörök** 
+**Megfelelő szerepkörök:** Globális rendszergazdai | Fiók rendszergazdája
 
-- Globális rendszergazda
-- Fiókadminisztrátor
+A regisztrációkor létrehozott fiók Partnerközpont a munkahelyi e-mail-címe és az üzleti adatai. A fiók létrehozása után befejezi a vállalat teljes profiljának beállítását, beleértve a támogatási adatokat, szükség esetén a fájlra vonatkozó adómentességet és az elsődleges kapcsolattartási adatokat. A vállalat fiókja felhasználói fiókokat is tartalmazni fog a csapat minden olyan tagja számára, aki a Partnerközpont. Többek között az ügyfelek hozzáadásával vagy kezelésével, az előfizetések értékesítésével, a számlázással és számlázással kapcsolatos munka, az üzleti profilok létrehozása, a hivatkozások kezelése, az ösztönzőprogramok használata, a támogatás biztosítása stb.
 
-A regisztrációkor létrehozott fiók Partnerközpont a munkahelyi e-mail-címe és az üzleti adatai. A fiók létrehozása után befejezi a vállalat teljes profiljának beállítását, beleértve a támogatási adatokat, szükség esetén a fájlra vonatkozó adómentességet és az elsődleges kapcsolattartási adatokat. A vállalat fiókja felhasználói fiókokat is tartalmazni fog a csapat minden olyan tagja számára, aki a Partnerközpont. Többek között az ügyfelek hozzáadásával vagy kezelésével, az előfizetések értékesítésével, a számlázással és számlázással kapcsolatos munka, az üzleti profilok létrehozása, a hivatkozások kezelése, az ösztönzőprogramok használata és a támogatás biztosítása.
-
-Lásd még: [Alkalmazottak meghívása](guide-to-migration.md) Partnerközpont és [Új felhasználó hozzáadása.](create-user-accounts-and-set-permissions.md)
+Lásd még a Következő [cikkeket: Alkalmazottak meghívása](guide-to-migration.md) Partnerközpont [és Új felhasználó hozzáadása.](create-user-accounts-and-set-permissions.md)
 
 >[!NOTE]
 >A Fiókbeállítások menü a regisztrált programoktól függően változik. Ha például Ön az Felhőszolgáltató program (CSP) partnere, az Azure megosztott szolgáltatásait a Fiókbeállítások között **kezelheti.**
 
 ## <a name="account-management"></a>Fiókkezelés
 
-Minden kereskedelmi és  fejlesztői partner úgy fér hozzá a Partnerközpont fiókkezeléséhez, hogy bejelentkezik az Partnerközpont irányítópultjára, és a képernyő jobb felső sarkában a Beállítások (fogaskerék ikon) lehetőséget, majd a Fiókbeállítások lehetőséget [](https://partner.microsoft.com/dashboard) választva.   Többé nem kell választania a Partner és a Fejlesztői beállítások között. Most már az összes profil és beállítás össze van kombinálva.
+Minden kereskedelmi és  fejlesztői partner úgy fér hozzá a Partnerközpont fiókkezeléséhez, hogy bejelentkezik az Partnerközpont irányítópultjára, és a képernyő jobb felső sarkában a Beállítások (fogaskerék ikon), majd a Fiókbeállítások elemre **kattint.** [](https://partner.microsoft.com/dashboard)  Többé nem kell választania a Partner és a Fejlesztői beállítások között. Most már az összes profil és beállítás össze van kombinálva.
 
 :::image type="content" source="images/accountsettings/opening.png" alt-text="beállítások ikon":::
 
@@ -80,9 +77,9 @@ Amikor először csatlakozik a Partnerközpont, a vállalata egy ellenőrzési f
 
 ### <a name="provide-your-companys-legal-business-details"></a>Adja meg a vállalata jogi üzleti adatait
 
-Keresse meg a vállalati profilt, vagy adja meg manuálisan a céges adatokat. Ha a vállalata regisztrálva van [a & Bradstreet](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)vállalatnál, a CÉGes adatok ki- és lekért azonosítójával keresse meg a CÉGes adatokat. Ha saját maga szeretné biztosítani a cég adatait, válassza a **Manuális lehetőséget.**
+Keresse meg a vállalati profilt, vagy adja meg manuálisan a vállalati adatokat. Ha a vállalata regisztrálva van [a & Bradstreet](https://partner.microsoft.com/marketing/usisvshowcase/dunandbrad)vállalatnál, a CÉGes adatok ki- és lekért azonosítójával keresse meg a CÉGes adatokat. Ha saját maga szeretné biztosítani a cég adatait, válassza a **Manuális lehetőséget.**
 
-Ha a vállalata Az Egyesült Államok, **Valamint** **Kirgizisztán,** **Valamint,** **Uzbekistan** vagy **Oroszország** területén található, és a címét manuálisan adja meg, akkor a címét érvényesítjük Ön után. Ha a megadott cím eltér az ellenőrzött címtől, javasoljuk, hogy az ellenőrzött címet használja. Az ellenőrzés biztosítja, hogy a cím egyszerre pontos, és ki is szállítható.
+Ha a vállalata a Következő helyen található: **Egyesült** Államok, **Ifj.**,  **Kirgizisztán,** **Majd** **Uzbekistan** vagy Oroszország, és ön manuálisan adja meg a címét, a rendszer érvényesíti a címét. Ha a megadott cím eltér az ellenőrzött címtől, javasoljuk, hogy az ellenőrzött címet használja. Az ellenőrzés biztosítja, hogy a cím egyszerre pontos, és ki is szállítható.
 
 ### <a name="primary-contact-email"></a>Elsődleges kapcsolattartó e-mail-címe
 
@@ -119,9 +116,9 @@ A szerepkörtől és Partnerközpont a frissíthető vagy látható területekt�
 Az előnyben részesített e-mail frissítése a Partnerközpont fogadására:
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
-1. Válassza a [**Kapcsolat beállítása**](https://partner.microsoft.com/dashboard/engagement/preference)lehetőséget, válassza a **Módosítás** hivatkozást, frissítse az e-mail-címet, majd válassza a **Mentés lehetőséget.**
+1. Válassza a [**Kapcsolat beállítása**](https://partner.microsoft.com/dashboard/engagement/preference)lehetőséget, válassza a **Módosítás hivatkozást,** frissítse az e-mail-címet, majd válassza a **Mentés lehetőséget.**
 
-### <a name="find-your-user-role"></a>A felhasználói szerepkör megkeresve
+### <a name="find-your-user-role"></a>A felhasználói szerepkör megkeresi
 
 1. Válassza a **Beállítások lehetőséget,** **majd Saját profil.**
 

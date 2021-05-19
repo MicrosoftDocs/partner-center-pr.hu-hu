@@ -1,96 +1,89 @@
 ---
-title: Napi besorolású használati egyeztetési fájlok
+title: Napi minősítésű használat egyeztetési fájljai
 ms.topic: article
 ms.date: 06/12/2020
-description: Ismerje meg, hogyan olvashatja el a napi rendszerességű használat egyeztetési fájljait a partner Centerben. A Recon-fájlban megadott mezők leírásait tartalmazza.
+description: Ismerje meg, hogyan olvashatja el a napi minősített használat egyeztetési fájljait a Partnerközpont. A recon fájl adott mezőinek leírását tartalmazza.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 89080cb580d9b451454d108c6ef0ce0a08c1bf0c
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 9b5daf91646324a9d4ace92d25736cfd0361ad6c
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441897"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147275"
 ---
-# <a name="learn-how-to-read-daily-rated-usage-reconciliation-files-in-partner-center"></a>Ismerje meg, hogyan olvashatja el a napi besorolású használat egyeztetési fájljait a partner Centerben
+# <a name="learn-how-to-read-daily-rated-usage-reconciliation-files-in-partner-center"></a>Ismerje meg, hogyan olvashatja el a napi minősített használat egyeztetési fájljait a Partnerközpont
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Értékesítési ügynök | Helpdesk agent
 
-**Megfelelő szerepkörök**
-
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Értékesítési ügynök
-- Segélyszolgálat ügynöke
-
-Ez a cikk azt ismerteti, hogyan olvashatók be a napi rendszerességű használati egyeztetési fájlok.
+Ez a cikk a napi minősített használat egyeztetési fájljainak olvasását ismerteti.
 
 >[!NOTE]
->A napi névleges használat általában 24 órát vesz igénybe a partner Centerben, vagy az API-n keresztül érhető el.
+>A napi névleges használat általában 24 órát vesz igénybe a Partnerközpont vagy az API-n keresztüli elérése.
 
-## <a name="fields-in-daily-rated-usage-reconciliation-files"></a>A napi rendszerességgel értékelt használati egyeztetési fájlok mezői
+## <a name="fields-in-daily-rated-usage-reconciliation-files"></a>A napi minősítésű használat egyeztetési fájljainak mezői
 
 | Oszlop | Leírás |
 | ------ | ----------- |
-| PartnerId | A partner azonosítója GUID formátumban. |
+| Partnerazonosító | Partnerazonosító GUID formátumban. |
 | PartnerName | A partner neve. |
 | CustomerId | Az ügyfél egyedi Microsoft-azonosítója GUID formátumban. |
-| CustomerName | Az ügyfél szervezetének neve, amelyet a partner Centerben jelentett. *Ez az oszlop fontos a számla rendszer-információkkal való egyeztetéséhez.* |
-| CustomerDomainName | Az ügyfél tartományának neve. |
-| CustomerCountry | Az az ország, amelyben az ügyfél található. |
+| CustomerName | Az ügyfél szervezetének neve a Partnerközpont. *Ez az oszlop fontos a számla és a rendszerinformációk egyeztetéséhez.* |
+| CustomerDomainName (Ügyféltartományneve) | Az ügyfél tartományneve. |
+| CustomerCountry (Ügyfél országa) | Az az ország, amelyben az ügyfél található. |
 | MpnId | A CSP-partner MPN-azonosítója. |
-| Tier2MpnId | Az előfizetéshez tartozó rekord viszonteladójának MPN-azonosítója. |
-| InvoiceNumber | A megadott tranzakciót tartalmazó számla száma. |
+| Tier2MpnId (2. rétegbelimpnazonosító) | Az előfizetés rekordjának viszonteladójának MPN-azonosítója. |
+| InvoiceNumber (Számlaszám) | Az a számlaszám, ahol a megadott tranzakció megjelenik. |
 | ProductId | A termék azonosítója. |
-| SkuId | Egy adott SKU azonosítója. |
-| AvailabilityId | Egy adott SKU rendelkezésre állásának azonosítója. Ebben az oszlopban látható, hogy az SKU megvásárolható-e az adott országban, pénznemben, iparági szegmensben stb. |
-| SkuName | Egy adott SKU címe. |
+| SkuId (Termékváltozatazonosító) | Egy adott termékváltozat azonosítója. |
+| AvailabilityId (Rendelkezésre állásiid) | Egy adott termékváltozat rendelkezésre állásának azonosítója. Ez az oszlop azt mutatja, hogy a termékváltozat megvásárolható-e az adott országban, pénznemben, iparági szegmensben stb. |
+| SkuName | Egy adott termékváltozat címe. |
 | TermékNév | A termék neve. |
 | Közzétevő neve | A közzétevő neve. |
-| PublisherId | A közzétevő azonosítója GUID formátumban. |
-| SubscriptionDescription | Az ügyfél által a árlista alapján megvásárolt szolgáltatási ajánlat neve. (Ez az oszlop a **OfferName** azonos mezője.) |
-| SubscriptionId | Egy előfizetéshez tartozó egyedi azonosító a Microsoft számlázási platformon. Nem használatos egyeztetéshez. *Ez az azonosító nem egyezik meg a partner felügyeleti konzol **előfizetés-azonosítójával** .* |
-| ChargeStartDate | A számlázási ciklus kezdő dátuma (kivéve, ha az előző számlázási ciklusból korábban nem feltöltött látens használati adatok dátumát mutatja be). Az időpont mindig a nap kezdete, 0:00. |
-| ChargeEndDate | A számlázási ciklus befejező dátuma (kivéve, ha az előző számlázási ciklusból korábban nem feltöltött látens használati adatok dátumát mutatja be). Az idő mindig a nap vége, 23:59. |
+| PublisherId | A közzétevő GUID formátumú azonosítója. |
+| SubscriptionDescription (Előfizetési leírás) | Az ügyfél által megvásárolt szolgáltatásajánlat neve az árlistában meghatározottak szerint. (Ez az oszlop megegyezik az **OfferName mezővel).** |
+| SubscriptionId | Előfizetés egyedi azonosítója a Microsoft számlázási platformon. Az egyeztetéshez nem használatos. *Ez az azonosító nem ugyanaz, mint a partner felügyeleti konzolján található előfizetés-azonosító.* |
+| ChargeStartDate (Költségindításidátum) | A számlázási ciklus kezdő dátuma (kivéve, ha az előző számlázási ciklusból származó, korábban fel nem használt rejtett használati adatok dátumát mutatja be). Az időpont mindig a nap kezdete, 0:00. |
+| ChargeEndDate (Költség és költségdátum) | A számlázási ciklus záró dátuma (kivéve, ha az előző számlázási ciklusból származó, korábban fel nem használt rejtett használati adatok dátumát mutatja be). Az idő mindig a nap vége, 23:59. |
 | UsageDate | A szolgáltatás használatának dátuma. |
-| MeterType | A fogyasztásmérő típusa. |
+| MeterType (Mérőtípus) | A fogyasztásmérő típusa. |
 | MeterCategory | A használathoz tartozó legfelső szintű szolgáltatás. |
 | MeterId | A használt fogyasztásmérő azonosítója. |
-| MeterSubCategory | Az Azure-szolgáltatás típusa, amely hatással lehet a díjszabásra. |
+| MeterSubCategory | Az Azure-szolgáltatás típusa, amely befolyásolhatja a díjszabást. |
 | MeterName | A felhasznált fogyasztásmérő mértékegysége. |
-| MeterRegion | Ez az oszlop azonosítja a régión belüli adatközpont helyét azon szolgáltatások esetében, ahol a MeterRegion alkalmazható és fel van töltve. |
-| Unit (Egység) | Az erőforrás **nevének** egysége. |
-| ResourceLocation | Az az adatközpont, amelyben a fogyasztásmérő fut. |
-| ConsumedService | Az Azure platform szolgáltatás, amelyet használt. |
-| ResourceGroup | Egy olyan tárolót jelöl, amely egy Azure-megoldáshoz kapcsolódó erőforrásokat tárol. |
-| ResourceURI | A használt erőforrás URI-ja. |
+| MeterRegion | Ez az oszlop azonosítja az adatközpont helyét abban a régióban, ahol a MeterRegion alkalmazható és ki van töltve. |
+| Unit (Egység) | Az erőforrás neve **egység.** |
+| ResourceLocation | Az adatközpont, ahol a fogyasztásmérő fut. |
+| ConsumedService | Az Ön által használt Azure platformszolgáltatás. |
+| ResourceGroup | Egy azure-megoldáshoz kapcsolódó erőforrásokat tároló tárolót képvisel. |
+| ResourceURI | A használt erőforrás URI-ját. |
 | ChargeType | A díj vagy módosítás típusa.  |
-| UnitPrice | Díj/licenc, a vásárlás időpontjában közzétett árlista szerint. Ellenőrizze, hogy ez az ár megfelel-e a számlázási rendszeren tárolt információknak az egyeztetés során. |
-| Mennyiség | A licencek száma. Ellenőrizze, hogy ez az ár megfelel-e a számlázási rendszeren tárolt információknak az egyeztetés során. |
-| UnitType | Annak az egységnek a típusa, amelyre a mérőszámot fel kell tölteni.  |
-| BillingPreTaxTotal | Az összes számlázási összeg az adók előtt.<br/> _**BillingPreTaxTotal** = floor (([ @EffectiveUnitPrice ]*[ @Quantity ]*[ @PCToBCExchangeRate ]), 2)_ |
-| BillingCurrency | Az ügyfél földrajzi régiójában lévő pénznem. |
-| PricingPreTaxTotal | A díjszabás az adók hozzáadása előtt történik. |
+| UnitPrice | Licencenkénti ár, amely a vásárláskor az árlistában van közzétéve. Győződjön meg arról, hogy ez az ár megegyezik a számlázási rendszerben az egyeztetés során tárolt adatokkal. |
+| Mennyiség | Licencek száma. Győződjön meg arról, hogy ez az ár megegyezik a számlázási rendszerben az egyeztetés során tárolt adatokkal. |
+| UnitType (Egységtípus) | Az egység típusa, amelynél a fogyasztásmérő fel van számolva.  |
+| BillingPreTaxTotal | Az adók előtti teljes számlázási összeg.<br/> _**BillingPreTaxTotal** = FLOOR(([ @EffectiveUnitPrice ]*[ @Quantity ]*[ @PCToBCExchangeRate ]), 2)_ |
+| BillingCurrency | Az ügyfél földrajzi régiójának pénzneme. |
+| PricingPreTaxTotal | Az adók hozzáadása előtti díjszabás. |
 | PricingCurrency | Az árlistán szereplő pénznem. |
-| ServiceInfo1 | Az adott napon kiépített és felhasznált Service Bus kapcsolatok száma. |
-| ServiceInfo2 | Egy örökölt mező, amely a választható szolgáltatásokra vonatkozó metaadatokat rögzíti. |
-| Címkék | A felhasználó által beállított Azure-erőforrások logikai szervezetét jelöli. |
+| ServiceInfo1 | Az adott Service Bus kiépített és használt kapcsolati kapcsolatok száma. |
+| ServiceInfo2 | Egy örökölt mező, amely nem kötelező szolgáltatásspecifikus metaadatokat rögzít. |
+| Címkék | A felhasználó által beállított Azure-erőforrások logikai rendszerét jelöli. |
 | AdditionalInfo | Bármely további információ, amelyet a többi oszlop nem tartalmaz. |
-| EffectiveUnitPrice | Az egységenként felszámított tényleges érték, beleértve a kedvezményeket, a megszerzett krediteket és így tovább. |
-| PCToBCExchangeRate | A díjszabási pénznemre alkalmazott Exchange-árfolyam a számlázási pénznemhez képest. |
-| PCToBCExchangeRateDate | Az a dátum, amikor az árképzési pénznemet meg kell határozni a számlázási pénznemben. |
-| EntitlementId | Az Azure-előfizetés AZONOSÍTÓját jelöli. |
-| EntitlementDescription | Az Azure-előfizetési azonosító nevét jelöli. |
-| PartnerEarnedCreditPercentage | Megjeleníti a sorhoz tartozó PartnerEarnedCredit. A keresett kredit 0 vagy 15 százalék lesz |
-| CreditPercentage | Az Azure-beli felhasználási kreditet jeleníti meg. A keresett kredit 0 vagy 100 százalék lesz. |
-| CreditType | A kredit típusa. Például az **Azure Credit alkalmazása.** |
+| EffectiveUnitPrice (Hatályos egységár) | Az egységenként felszámított tényleges érték, beleértve az esetleges kedvezményeket, a jóváírást stb. |
+| PCToBCExchangeRate | A díjszabási pénznemre alkalmazott árfolyam a számlázási pénznemre. |
+| PCToBCExchangeRateDate | Az a dátum, amelyen a számlázási pénznem árképzési pénzneme meg van határozva. |
+| EntitlementId (Jogosultságazonosító) | Az Azure-előfizetés azonosítóját jelöli. |
+| EntitlementDescription (Jogosultságleíró) | Az Azure-előfizetés azonosítójának nevét jelöli. |
+| PartnerEarnedCreditPercentage | Megjeleníti a sorelem PartnerEarnedCredit elemét. A jóváírás 0 vagy 15% lehet |
+| CreditPercentage | Megjeleníti az Azure-felhasználási kreditet. A jóváírás 0 vagy 100% lehet. |
+| CreditType (Kredittípus) | A kredit típusa. Például: **Azure-kredit alkalmazva.** |
 >[!NOTE]
->A napi névleges használat általában 24 órát vesz igénybe a partner Centerben, vagy az API-n keresztül érhető el.
+>A napi névleges használat általában 24 órát vesz igénybe, Partnerközpont API-n keresztül jelennek meg.
 
 

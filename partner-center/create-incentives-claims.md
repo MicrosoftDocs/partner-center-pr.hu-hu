@@ -1,50 +1,46 @@
 ---
-title: Ösztönzők kezelése együttes op-jogcímek
+title: Ösztönzők együttműködési igényének kezelése
 ms.topic: how-to
 ms.date: 10/29/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
-description: Megtudhatja, hogyan indíthat el ösztönzőket a partner Centertől. Megtekintheti az összes olyan tevékenységet, amely a jogcímek felépítése az előzmények között látható.
+description: Megtudhatja, hogyan kezdeményezhet együttműködési igényeket a Partnerközpont. A jogcím építésbe kerül összes tevékenységet láthatja az Előzmények között.
 author: mseamons
 ms.author: mseamons
 ms.localizationpriority: medium
 ms.custom: seodec18
-ms.openlocfilehash: 9780aa80fdcaab6cfd240127b80155cbfb8dcd26
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: 185d1593808bc417fa15646955a0cce683242570
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502918"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148159"
 ---
-# <a name="create-and-manage-an-incentives-co-op-claim"></a>Ösztönzők együttes op-jogcím létrehozása és kezelése
+# <a name="create-and-manage-an-incentives-co-op-claim"></a>Ösztönzők együttműködési igényének létrehozása és kezelése
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
-- Globális rendszergazda
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
-
-A partner centeren belül is kezdeményezhet ösztönző jogcímet.
+Az ösztönzőkre vonatkozó igénylést a saját Partnerközpont.
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. Válassza az **ösztönzők** fület, majd válassza a **társ-op felügyelet** lehetőséget.
+2. Válassza az **Ösztönzők lapot,** majd az **Együttműködési felügyelet lehetőséget.**
 
-3. Ha már folyamatban van egy jogcím, a jogcímek áttekintő oldala a meglévő jogcímek és a jóváhagyott, igényelt és összesített összegek állapotával kapcsolatos információkat jeleníti meg.
+3. Ha már folyamatban van egy igény, az Igénylések áttekintése lapon a meglévő jogcímek és a jóváhagyott, igényelt és végösszegek állapotára vonatkozó információk megjelenik.
 
-4. Új jogcím létrehozásához válassza **a jogcím létrehozása** lehetőséget.
+4. Új jogcím létrehozásához válassza a **Jogcím létrehozása lehetőséget.**
 
-5. Ha kitöltötte a kezdeti űrlapot és a kiválasztott **létrehozási jogcímet**, akkor a jogcím részletei oldalra kerül, ahol SZÁMLÁKAT, CSR-t, igazoló dokumentumokat és mérőszámokat adhat hozzá. Igény szerint további információkat is felvehet.
+5. Miután kitöltötte a kezdeti űrlapot, és kiválasztotta a **Jogcím** létrehozása gombra, meg fog jelenni a Jogcím részletei lap, ahol számlákat, CSR-ket, igazolási dokumentumokat és metrikákat adhat hozzá. Igény szerint további információkat is felvehet.
 
 Az igénylés részleteit tartalmazó lapon felkérheti a szervezet más tagjait, hogy dokumentumokat töltsenek fel az űrlapra. A feltöltött támogató dokumentumok mindegyikét magyarázó információkkal is kiegészítheti. 
 
 ### <a name="manage-your-claims"></a>Jogcímek kezelése
 
-Megtekintheti az összes olyan tevékenységet, amely a jogcímek felépítése az **Előzmények** között látható. Minden alkalommal, amikor egy kollégája egy támogató dokumentumot vagy megjegyzést adott hozzá, a művelet az **Előzmények** között tárolódik. Amíg be nem küldi a jogcímet, a rendszer **szerkeszti** az állapotot. A jogcím állapota megváltozik, ahogy az a jóváhagyási folyamaton halad át. Időnként előfordulhat, hogy a jogcímek felülvizsgálata során egy adott elemre (PoE) vonatkozó dokumentációban kap visszajelzést. A további információkra vonatkozó visszajelzések és kérések szintén megjelennek a jogcímek előzményeiben.
+A jogcím építésbe kerül összes tevékenységet a History (Előzmények) **házban láthatja.** Minden alkalommal, amikor egy munkatársa hozzáad egy kiegészítő dokumentumot vagy megjegyzést valamihez, a művelet a History (Előzmények) adatokat **tartalmazza.** Amíg el nem küldi a jogcímet, az állapot **szerkesztési lesz.** A jogcím állapota a jóváhagyási folyamat során változik. Előfordulhat, hogy az igény felülvizsgálata során visszajelzést kap a végrehajtási igazolás (PoE) dokumentációjának egy adott elemével kapcsolatban. A visszajelzések és a további információkra vonatkozó kérések a jogcímelőzmények között is megjelennek.
 
-Az igénylést a beküldése után nem szerkesztheti, kivéve, ha a felülvizsgáló további információkat kér.
+Az igény a beküldését követően csak akkor szerkeszthető, ha egy felülvizsgáló további információt kér.
 
-További információ: [partneri ösztönzők együttes op-útmutató](https://assetsprod.microsoft.com/co-op-guidebook.pdf).
+További információkért lásd a [partneri ösztönzők együttműködési útmutatóját.](https://assetsprod.microsoft.com/co-op-guidebook.pdf)
 
 ## <a name="next-steps"></a>Következő lépések
 

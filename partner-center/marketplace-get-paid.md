@@ -1,58 +1,55 @@
 ---
-title: Fizetés a partner Centerben
-description: Ismerje meg, hogyan fogadhat fizetéseket Microsoft-partnerként, például kereskedelmi Piactéri ajánlatokon, ösztönző programokon és a Cloud Solution Provider programon keresztül. Magában foglalja a kifizetési szabályzatot, a kifizetés megtartásának állapotát és a kifizetési utasításokat.
-ms.service: partner-dashboard
-ms.subservice: partnercenter-mpn
+title: Fizetés a Partnerközpont
+description: Ismerje meg a Microsoft-partnerként kapott bevételekkel kapcsolatos kifizetéseket, például a kereskedelmi piactéri ajánlatokon, az ösztönzőprogramokon és a Felhőszolgáltató keresztül. Tartalmazza a kifizetési szabályzatot, a kifizetési hold állapotát és a kifizetési kimutatásokat.
+ms.service: marketplace
+ms.subservice: partnercenter-marketplace-publisher
 ms.topic: conceptual
 ms.date: 11/25/2020
 author: eunjkim520
 ms.author: eunjkim
-ms.openlocfilehash: 94ed17106b64b078c51de351d1e44e29d3745921
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 3dc8b728ef20da77b9a6d2a925ebb0388ea53837
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106133080"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146493"
 ---
-# <a name="getting-paid-in-partner-center"></a>Fizetés a partner Centerben
+# <a name="getting-paid-in-partner-center"></a>Fizetés a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Fiók-rendszergazdai | Globális rendszergazda
 
-- Fiókadminisztrátor
-- Globális rendszergazda
-
-Ez a cikk fontos információkat nyújt az ajánlatok, a bővítmények és a hirdetési bevételek fizetésének fogadásáról. Összefoglalja a kifizetési szabályzatot, a befizetéshez szükséges lépéseket, valamint a kifizetési utasítások áttekintését.
+Ez a cikk fontos információkat tartalmaz az ajánlatok, bővítmények és a bevételek meghirdetése kifizetésének fogadására. Összegzi a kifizetési szabályzatot, a kifizetés előtt szükséges lépéseket és a kifizetési kimutatás áttekintését.
 
 ## <a name="payout-policies-and-agreements"></a>Kifizetési szabályzatok és szerződések
 
-A fizetés megkezdéséhez meg kell felelnie a szerződéseknek és a kifizetési szabályzatnak.
+A fizetéshez meg kell felelnie a szerződéseknek és a kifizetési szabályzatnak.
 
-- [Microsoft Azure Marketplace kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560): a befizetésük előtt el kell fogadnia ezt a közzétevői szerződést. Ez a szerződés az Ön és a Microsoft közötti, a kereskedelmi piactéren található értékesítői ajánlatokra vonatkozó kapcsolatot ismerteti.
-- A kifizetési szabályzat a kifizetési határidőket, például a fizetési ütemtervet és a fizetési [módszereket mutatja.](payout-policy-details.md) A szabályzat emellett ismerteti az ügyfelek nem teljesített fizetési folyamatát is.
-- Az [adózás részletei](tax-details-marketplace.md) a Microsoft [kiadói szerződés](https://go.microsoft.com/fwlink/p/?LinkID=699560)keretében a díjak kiválasztására és az adózásra vonatkozó adózási szempontokat ismertetik.
-- A **tárolási díjakat** a kiadói szerződésben hivatalosan definiáljuk. Az áruházi díjat a kereskedelmi piactér által gyűjtött összes ajánlati értékesítésre, beleértve a bővítményeket is.
-- A **fizetések** havi rendszerességgel történnek (amennyiben a fizetési küszöbérték teljesült). Általában a hónap 15. napján egy adott hónapban esedékes fizetést küldünk. A kifizetések általában 3 – 10 további munkanapot vesznek igénybe a kifizetési fiók eléréséhez. Részletekért lásd: [fizetési küszöbértékek, metódusok és időbeli keretek](payment-thresholds-methods-timeframes.md).
+- [Microsoft Azure Marketplace Közzétevői szerződés:](/legal/marketplace/msft-publisher-agreement)A fizetés előtt el kell fogadnia ezt a közzétevői szerződést. Ez a szerződés ismerteti az Ön és a Microsoft közötti kapcsolatot, mivel az a kereskedelmi piactéren elérhető értékesítői ajánlatokra vonatkozik, beleértve a Microsoft által az egyes eladásokért fizetendő áruházi díjat is.
+- [A kifizetési szabályzat](payout-policy-details.md) megjeleníti a kifizetési szabályzatokat, beleértve a fizetési ütemezést és a fizetési módokat. A Policy az ügyfelek nem fizetésének folyamatát is ismerteti.
+- [Az adó részletei](tax-details-marketplace.md) a Microsoft Közzétevői Szerződés alapján kiválasztott ár és adófizetés adózási [szempontját ismertetik.](/legal/marketplace/msft-publisher-agreement)
+- **Az áruházi** díjakat a közzétevői szerződés hivatalosan határozza meg. Az áruházi díj a kereskedelmi piactér által gyűjtött összes ajánlatértékesítésre vonatkozik, beleértve a bővítményeket is.
+- **A** kifizetések havonta történikek (feltéve, hogy a fizetési küszöbérték teljesült). Általában az adott hónap 15. napja szerint küldjük el az esedékes kifizetéseket. A kifizetések általában 3–10 további munkanapot venek fel a kifizetési fiók eléréséhez. Részletekért lásd: [Fizetési küszöbértékek, módszerek és időkeretek.](payment-thresholds-methods-timeframes.md)
 
-## <a name="prerequisite-steps-before-getting-paid"></a>Előfeltételként szükséges lépések a beszerzés előtt
+## <a name="prerequisite-steps-before-getting-paid"></a>A fizetést megelőző előfeltételek
 
-Az első befizetést megelőzően be kell állítania a kifizetési fiókját, és el kell végeznie a szükséges banki és adózási űrlapok beszerzését. A bank és az adó űrlapokon az előnyben részesített fizetési módokat és a forrásadót adó űrlapokat kell megadnia. A bank és az adó űrlapokra azért van szükség, hogy fizessen Önnek. Részletekért lásd: [a kifizetési fiók és az adózási űrlapok beállítása](set-up-your-payout-account.md).
+Az első fizetés előtt be kell állítania a kifizetési fiókját, és ki kell kitöltötte a szükséges banki és adózási űrlapokat. A banki és adó űrlapokon meg kell adnia az előnyben részesített fizetési módokat és a visszatartott adó adózási űrlapját. Bank- és adóbevallási űrlapokra van szükség a fizetéshez. Részletekért lásd a kifizetési számla és az adó űrlapok [beállítását.](set-up-your-payout-account.md)
 
-### <a name="payout-hold-status"></a>Kifizetés holdjának állapota
+### <a name="payout-hold-status"></a>Kifizetési hold állapota
 
-Alapértelmezés szerint a fentiekben leírtak szerint havi rendszerességgel küldjük el a kifizetéseket. A kifizetéseit azonban megtarthatja a programban, és a Microsoft nem szabadítja fel a fiókjában befizetett összegeket. Ha úgy dönt, hogy megtartja a befizetését, a **nyeremények** oldalon továbbra is rögzítjük a bevételt. Azonban addig nem küldünk fizetést a fiókjába, amíg el nem távolítja a tárolót.
+Alapértelmezés szerint havonta küldünk kifizetéseket a fent leírtak szerint. Egy program kifizetései azonban fel is függedtetheti, és a Microsoft nem fogja kiadni a kifizetéseket az Ön fiókjához. Ha úgy dönt, hogy a kifizetéseket visszatartja, továbbra is rögzítjük a bevételeket a **Kifizetések lapon.** Addig azonban nem küldünk kifizetéseket a fiókjába, amíg el nem távolítja a visszatartott fizetést.
 
-A befizetések tárolásához kattintson a jobb felső sarokban található **Beállítások** fogaskerék ikonra, majd a **Fiókbeállítások** lehetőségre. Válassza ki a **kifizetés és az adó** lehetőséget a bal oldali menüben, és a **kifizetési és adózási profil hozzárendelése** szakaszban keresse meg azt a programot, amelyhez a kifizetéseket tárolni szeretné. Jelölje be a **fizetés megtartása** jelölőnégyzetet a programhoz tartozó fizetések tárolásához. Bármikor módosíthatja a kifizetési állapotot, de a döntés a következő havi kifizetésre is hatással lesz. Ha például a április végét szeretné megtartani, mindenképpen **a március vége előtt állítsa** be a kifizetési Holding állapotát.
+A kifizetéseket a jobb  felső sarokban lévő Beállítások fogaskerék ikonnal, majd a Fiókbeállítások menüben helyezze **el.** A **bal oldali menüben** válassza a  Kifizetés és adó elemet, majd a Kifizetési és adóprofil-hozzárendelés szakaszban keresse meg azt a programot, amelynek kifizetését el szeretné tartani. Jelölje be **a Fizetésem visszatartása** jelölőnégyzetet a program kifizetésének a kifizetésének a kifizetéseként. A kifizetési hold állapot bármikor megváltoztatható, de a döntés a következő havi kifizetésre is hatással lesz. Ha például áprilisi kifizetéseket szeretne megtartani, ügyeljen arra, hogy a kifizetési hold állapota Legyen **Be,** mielőtt március vége lenne.
 
-Miután beállította a kifizetés állapotát **a be** értékre, a program összes kifizetése megmarad **, amíg** be nem törli a jelölőnégyzetet. Ha így tesz, a következő havi kifizetési ciklusban fog szerepelni (ha a fizetési küszöbérték teljesült). Ha már megtartotta a befizetését, de a júniusi kifizetést is **ki** szeretné állítani, akkor törölje a jelet a jelölőnégyzetből a május vége előtt.
+Miután beállította a kifizetési hold állapot be van **kapcsolva,** a program összes kifizetése fel lesz függve, amíg nem törli a jelölőnégyzetet Ki **állapotra.** Ha így történik, a következő havi kifizetési ciklusban szerepelni fog (feltéve, hogy a fizetési küszöbérték teljesült). Ha a kifizetései fel vannak függve, de júniusban szeretne generálni egy kifizetést, akkor május vége előtt törölje a Kikapcsolva jelölőnégyzetet. 
 
 >[!Note]
-> A kifizetési Holding-állapot minden egyes programra külön vonatkozik (Microsoft Store, reklám, Azure Marketplace stb.). Ha meg szeretné tartani az összes programhoz való kifizetést, akkor a fizetést külön kell megfizetnie.
+> A Kifizetési hold állapot minden programra külön vonatkozik (Microsoft Store, reklám, Azure Marketplace stb.). Ha az összes program kifizetését szeretné megtartani, minden program kifizetését külön-külön kell visszatartanunk.
 
 ## <a name="payout-statements"></a>Kifizetési utasítások
 
-A kifizetési utasítás a tranzakciók előzményeiben az ajánlatok és a bővítmények értékesítéséből származó bevételt jeleníti meg. A fizetési adatokat és a jelentések letöltését TSV vagy CSV formátumban is megtekintheti. A kifizetési [utasításokkal](payout-statement.md) kapcsolatos további információkért tekintse meg a kifizetés utasításait, valamint a tranzakciós előzmények és fizetési jelentések részleteit. Emellett a [partner kifizetések API](https://apidocs.microsoft.com/services/partnerpayouts) -val is használhatja a kifizetési jelentések szisztematikus lekérését.
+A kifizetési kimutatás az ajánlatokból és a tranzakcióelőzmények bővítményeiből származó bevételeket jeleníti meg. Megtekintheti a fizetési adatokat, és letöltheti a jelentéseket tsv vagy CSV formátumban. A [kifizetési kimutatások](payout-statement.md) elérésével, valamint a tranzakciós előzmények és a kifizetési jelentések részleteivel kapcsolatos további információkért lásd: Kifizetési kimutatások. Emellett a [Partner Payouts API-val](https://apidocs.microsoft.com/services/partnerpayouts) szisztematikus módon leküldheti a kifizetési jelentéseket.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Partneri kifizetések API](https://apidocs.microsoft.com/services/partnerpayouts)
+- [Partner Payouts API](https://apidocs.microsoft.com/services/partnerpayouts)
 - [Kifizetések – GYIK](payout-faq.md)

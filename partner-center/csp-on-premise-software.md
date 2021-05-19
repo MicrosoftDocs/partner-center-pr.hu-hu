@@ -1,87 +1,84 @@
 ---
-title: Helyszíni szoftverek értékesítése CSP-n keresztül
+title: Helyszíni szoftverek eladása CSP-n keresztül
 ms.topic: how-to
 ms.date: 03/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a CSP program partnerei hogyan vásárolhatják meg, kezelhetik, értékesítik és törölhetik a helyszíni szoftveres előfizetéseket a partner Centerben lévő ügyfelek nevében.
+description: Megtudhatja, hogy a CSP-program partnerei hogyan vásárolhatnak, kezelnek, értékesíthet és törölnek helyszíni szoftver-előfizetéseket az ügyfelek nevében a Partnerközpont.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 650f8085ba0e204b01f97a23640a37388ef57f17
-ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
+ms.openlocfilehash: fc082f40a778d09e96f6f8cb5a563197e2de6f18
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475210"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147615"
 ---
-# <a name="sell-on-premises-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek értékesítése a Cloud Solution Provider (CSP) programon keresztül
+# <a name="sell-on-premises-software-through-the-cloud-solution-provider-csp-program"></a>Helyszíni szoftverek eladása a Felhőszolgáltató (CSP) programon keresztül
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazda
 
-- Felügyeleti ügynök
-- Globális rendszergazda
-
-A CSP-ben lévő helyszíni szoftverek a felhőbe való zökkenőmentes áttérést támogatják a helyszíni szoftverek felhőalapú programban való bevezetésével.Ez az új ajánlat lehetővé teszi, hogy a hozzáadott értékkel rendelkező partner minden vásárlási forgatókönyvben elérhető legyen, mivel egyetlen platformot biztosítanak az összes Microsoft-termék lebonyolításához. A kriptográfiai szolgáltatóként mostantól a partner centeren keresztül is értékesítheti a helyszíni szoftvereket a jelenleg használatban lévő Open, EA és más programok mellett.  
+A CSP-ben található helyszíni szoftverek a felhőre való zökkenőmentes átállást támogatják azáltal, hogy a helyszíni szoftvereket egy felhőközpontú programban vezetik be.Ez az új ajánlat segít az értékkel hozzáadott partnert minden vásárlási forgatókönyvben, mivel egyetlen platformot biztosítanak az összes Microsoft-termék tranzakciója számára. CsP-ként most már értékesíthet helyszíni szoftvereket a Partnerközpont, az EA és a jelenleg használatban lévő egyéb programok mellett.  
  
-Miközben a legjobb általános vásárlói értéket biztosítjuk a helyszíni szoftverlicenc-beállításokkal, az üzleti modellt is a lehető legkedvezőbb módon tesszük elérhetővé. A helyszíni szoftverek egyszerű licencelése a CSP-ben a költségek kiszámíthatóságát és a zökkenőmentes értékesítési folyamatot jelenti. Ez az új üzleti modell megkönnyíti az ügyfelek számára a helyszíni szoftverek beszerzését, kezelését és díjszabását, így Ön a nyertes üzletre összpontosíthat, és kibővített portfólióval bővítheti az informatikai részleg által hozzáadott megoldásait.
+Bár a legjobb általános ügyfélértéket biztosítjuk a helyszíni szoftverlicencelési lehetőségekkel, az üzleti modellt is partnerbaráttá tette. A helyszíni szoftverek egyszerű licencelése a FELHŐszolgáltatóban a költségek előrejelzhetőségét és zökkenőmentes értékesítési folyamatot jelent. Ezzel az új üzleti modellel egyszerűen beszerezhet, kezelhet és árazhat helyszíni szoftvereket az ügyfelek számára, így ön az üzleti nyereségre összpontosíthat az it-felügyeleti értékkel bíró megoldások kibővített portfóliója segítségével.
 
-## <a name="buy-software-subscriptions-on-behalf-of-customers"></a>Szoftveres Előfizetések vásárlása ügyfelek nevében
+## <a name="buy-software-subscriptions-on-behalf-of-customers"></a>Szoftver-előfizetések vásárlása ügyfelek nevében
 
-Ha előfizetést szeretne megvásárolni az ügyfél nevében, lépjen az ügyfél adatai lapra, válassza a termékek hozzáadása lehetőséget, majd kövesse a képernyőn megjelenő utasításokat a megrendelés létrehozásához és kifizetéséhez.
+Ha az ügyfél nevében szeretne szoftver-előfizetéseket vásárolni, akkor az ügyfél részletes oldalán válassza a Termékek hozzáadása lehetőséget, majd kövesse a képernyőn megjelenő utasításokat a rendelés létrehozásához és fizetéséhez.
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-A szoftver megvásárlása után Önnek vagy ügyfeleinek le kell töltenie azt (partnerek a partner Center használatával, az Microsoft 365 felügyeleti központot használó ügyfelekkel). Ezt a következő eljárással végezheti el. Fontos megérteni a hivatkozások másolásával és a szoftverek letöltésével kapcsolatos kockázatokat. További információ: a partner Center **használata az ügyfélszoftverek letöltésére és a licenckulcs megszerzésére** a [partner Center új kereskedelmi üzemeltetési útmutatójában](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf).
+Miután megvásárolta a szoftverét, Önnek vagy ügyfeleinek le kell töltenie azt (az Partnerközpont-t használó partnereket; az Microsoft 365 felügyeleti központot használó ügyfeleknek). Ehhez a következő eljárást használhatja. Fontos megérteni a hivatkozások másolásával és a szoftverek letöltésével járó kockázatokat. További információkért lásd az Partnerközpont az **ügyfélszoftverek letöltésének** és licenckulcsának beszerzéséhez való használatával kapcsolatos Partnerközpont [útmutatóban.](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf)
 
 >[!NOTE]
->A kulcsokra és a letöltésekre mutató hivatkozás beszerzéséhez rendszergazdai ügynöknek kell lennie a partner Centerben.
+>A kulcsokra és letöltésre mutató hivatkozás Partnerközpont rendszergazdai ügynöknek kell lennie.
 
-1. Nyissa meg az ügyfél részletes oldalát, majd válassza a **szoftver** lehetőséget. Ekkor megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
+1. Az ügyfél részletes oldalán válassza a Szoftver **lehetőséget.** Megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
 
-2. Válassza a termék **verziója**, **nyelv**, **bit**, majd a **kulcsok és letöltések beolvasása** elemet. 
+2. Válassza ki a **termékverziót,** **a nyelvet,** **a bitet,** majd a Kulcsok **és letöltések letöltő lehetőséget.** 
 
-3. Válassza a **kulcs lekérése** lehetőséget, amely megjeleníti az 32 számjegyű terméket egy előugró dialógusban, amelyet másolhat és küldhet az ügyfélnek. 
+3. Válassza **a Kulcs lekérte** lehetőséget, amely a 32 jegyű terméket egy felugró párbeszédben jeleníti meg, amelyet lemásolhat és elküldhet az ügyfélnek. 
 
-4. A BITS letöltéséhez kattintson a **Letöltés** gombra. 
+4. A **bitek** letöltéséhez válassza a Letöltés lehetőséget. 
 
-5. Válassza a **hivatkozás másolása** lehetőséget, ha el szeretné küldeni az ügyfelet a BITS letöltésére mutató hivatkozással. 
+5. Válassza **a Hivatkozás másolása** lehetőséget, ha el szeretné küldeni az ügyfélnek a letöltött bitek hivatkozását. 
 
-6. **Megszakíthatja** a szoftver megrendelését, és 100%-os kreditet kap (ha a 60 nap lemondási ideje szerint történik).
-
->[!NOTE]
->Csak az ügyfelek férhetnek hozzá a termékkulcs megtekintéséhez és az információk letöltéséhez a Microsoft 365 felügyeleti központban (globális rendszergazdai szerepkör szükséges). A partnereknek a fiókpartner használatával kell megtekinteniük ezeket az információkat.
-
-## <a name="cancel-a-purchase"></a>Vásárlás megszakítása
-
-A vásárlás megszakításához kövesse az alábbi eljárást. A törlés befejezése után a rendszer visszavonja a szoftver kulcsát.
+6. Emellett **visszavonhatja** a szoftverrendelést, és 100%-os kreditet kaphat (ha a lemondási szabályzat 60 napos időszakán belül történik).
 
 >[!NOTE]
->A vásárlás megszakításához rendszergazdai ügynöknek kell lennie. 
+>Csak az ügyfelek láthatják a termékkulcsokat és tölthetik le az Microsoft 365 felügyeleti központban (globális rendszergazdai szerepkör szükséges). A partnereknek a Partnerközpont kell látniuk ezeket az adatokat.
 
-1.  A folyamat megkezdése előtt győződjön meg arról, hogy rendelkezik a következőkkel: 
-    - Az ügyfél bérlői GUID-azonosítója vagy tartományneve
-    - Megrendelés azonosítója vagy előfizetés azonosítója
+## <a name="cancel-a-purchase"></a>Vásárlás lemondása
+
+A vásárlás lemondására az alábbi eljárást használhatja. A lemondás után a szoftverkulcs vissza lesz vonva.
+
+>[!NOTE]
+>A vásárlás lemondáshoz rendszergazdai ügynöknek kell lennie. 
+
+1.  A folyamat megkezdése előtt ellenőrizze a következőket: 
+    - Az ügyfél bérlői GUID-ja vagy tartományneve
+    - Rendelésazonosító vagy előfizetés azonosítója
     - Visszatérítés oka
     - Kért összeg
 
-2.  Az ügyfél adatai lapon válassza a **szoftver** lehetőséget. Ekkor megjelenik a megvásárolt szoftverek listája. 
+2.  Az ügyfél adatai lapon válassza a Szoftver **lehetőséget.** Megjelenik az összes megvásárolt szoftver listája. 
 
-3.  Keresse meg a megszakítani kívánt szoftvert, és kattintson a **Mégse gombra**. Megnyílik a fiókpartner oldalával **kapcsolatos probléma** . 
+3.  Keresse meg a megszakítani kívánt szoftvert, és válassza a Mégse **lehetőséget.** Megnyílik **a Probléma jelentése a Partnerközpont** lapon. 
 
-4.  A **részletek**, a **probléma típusa** listában válassza a **CSP vásárlás/visszatérítés az ügyfelek nevében** lehetőséget.
+4.  A **Részletek** alatt a **Probléma típusa listában** válassza a **CSP vásárlás/visszatérítés ügyfelek** nevében lehetőséget.
 
-5.  Adja meg a **hatás** és a **cím** mezőket. 
+5.  Töltse ki az **Impact (Hatás) és a** Title **(Cím) mezőket.** 
 
-6.  A **Leírás** mezőben adja meg a következőket: 
-    -   Az ügyfél bérlői GUID-azonosítója vagy tartományneve
-    -   Megrendelés azonosítója vagy előfizetés azonosítója
+6.  A Leírás **mezőben** adja meg a következőket: 
+    -   Az ügyfél bérlői GUID-ja vagy tartományneve
+    -   Rendelésazonosító vagy előfizetés-azonosító
     -   Visszatérítés oka
     -   Kért összeg
 
-7.  A **Contact (kapcsolattartó** ) mezőben adja meg a nevét, e-mail-címét és telefonszámát. 
+7.  A Kapcsolattartó **mezőbe** írja be a nevét, e-mail-címét és telefonszámát. 
 
-8.  Ha valamilyen okból csatolni kell egy fájlt, válassza a **fájlok hozzáadása** elemet. Ez a lépés nem kötelező. 
+8.  Ha bármilyen okból fájlt kell csatolnia, válassza a **Fájlok hozzáadása lehetőséget.** Ez a lépés nem kötelező. 
 
-9.  Ha elkészült, válassza a **Küldés** lehetőséget.
+9.  Ha elkészült, válassza a Küldés **lehetőséget.**

@@ -1,53 +1,50 @@
 ---
-title: A kereskedelmi piactér termékeinek támogatása
+title: Támogatás a kereskedelmi piactéren elérhető termékekhez
 ms.topic: article
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg a külső gyártótól származó ISV-termékek vagy-előfizetések támogatását a CSP program kereskedelmi piactéren.
+description: A CSP-program kereskedelmi piacterén megismeri a külső isV-termékek és -előfizetések támogatását.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 140dd5b7ad8af0f29dabd452dd59f22e3314cdd5
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: 1a758129a2610cbc42a6cc031d8527ed874d083b
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979549"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147819"
 ---
-# <a name="support-for-commercial-marketplace-products-in-the-csp-program"></a>Kereskedelmi piactér-termékek támogatása a CSP programban
+# <a name="support-for-commercial-marketplace-products-in-the-csp-program"></a>Kereskedelmi piactéri termékek támogatása a CSP-programban
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felügyeleti ügynök
+A CSP-programban a partnerek az első kapcsolatfelvételi pont az ügyfelek számlázásával vagy előfizetés-kezelésével kapcsolatos kérdések esetében, amelyek a kereskedelmi piactéren vásárolt harmadik féltől származó ISV-előfizetéssel vagy termékkel kapcsolatosak.
 
-A CSP programban részt vevő partnerek a harmadik féltől származó független szoftvergyártói előfizetéssel vagy a kereskedelmi piactéren vásárolt termékekkel kapcsolatos előfizetés-kezelési kérdésekre adott első kapcsolatfelvételi pont.
+A külső ISV-közzétevőktől származó kereskedelmi piactéri termékekkel kapcsolatos technikai támogatási kérdések esetén a CSP-program partnereinek kapcsolatba kell lépniük az adott termék vagy ajánlat ISV-kiadójával.
 
-A harmadik féltől származó ISV-közzétevők kereskedelmi piactérről származó termékeivel kapcsolatos technikai támogatási kérdésekben a CSP programban található partnereknek kapcsolatba kell lépniük az adott termék vagy ajánlat ISV-közzétevővel.
+## <a name="support-roles-of-isv-products-for-csp-partners-isv-publishers-and-microsoft"></a>ISV-termékek támogatási szerepkörei CSP-partnerek, ISV-közzétevők és Microsoft számára
 
-## <a name="support-roles-of-isv-products-for-csp-partners-isv-publishers-and-microsoft"></a>Az ISV-termékek támogatási szerepkörei a CSP-partnerek, az ISV-közzétevők és a Microsoft számára
+Kereskedelmi piactéri ajánlatok vagy harmadik féltől származó ISV-termékek vagy -ajánlatok vásárlása esetén:
 
-A kereskedelmi piactéren a harmadik féltől származó ISV-termékek vagy ajánlatok vásárlása vagy megvásárlása szükséges:
+- **Az ISV-közzétevő támogatási szerepköre:** Az ISV-k technikai támogatást és szolgáltatásiszint-kötelezettségvállalást biztosítanak az ügyfeleik felé az ajánlattal kapcsolatban a harmadik fél ügyfélszerződésében meghatározottak szerint. A szoftverszolgáltatónak lehetővé kell lennie a CSP-programban részt vevő partnerek és/vagy ügyfeleik számára, hogy közvetlenül kapcsolatba lépjenek az ISV-vel támogatásért, beleértve a felhasználói támogatást és a javítás/javítás támogatását. Az ISV-knek felhasználói dokumentációkat, képzéseket és szolgáltatás állapot-/szolgáltatáskimaradási értesítéseket kell nyújtaniuk a CSP-program partnereinek (ha vannak), hogy ezek a partnerek koordinálják a támogatást (ha a CSP-program partnerei úgy döntenek, hogy ezt a szolgáltatást biztosítják az ügyfeleiknek).
 
-- **Az ISV-közzétevő támogatási szerepe:** A független szoftvergyártók technikai támogatási és szolgáltatási szintű kötelezettségvállalásokat biztosítanak ügyfeleiknek az ajánlatuk tekintetében, a harmadik féltől származó ügyfél-szerződésben meghatározottak szerint. Az ISV-nak lehetőséget kell biztosítania, hogy a CSP-program és/vagy az ügyfelek közvetlenül a támogatáshoz lépjenek kapcsolatba az ISV-val, beleértve a felhasználói támogatást és a hibajavítási támogatást. Az ISV-ket a CSP programban a felhasználói dokumentációval, a képzéssel és a szolgáltatás állapotával/KIMARADÁSÁVAL kapcsolatos értesítésekkel kell ellátni, hogy a partnerek a támogatás koordinálására legyenek felhasználva (ha a CSP programban lévő partnerek úgy döntenek, hogy biztosítják ezt a szolgáltatást az ügyfelek számára).
+- **A partner támogatási szerepköre a CSP-programban:** A CSP-programban a partner felelős a külső isv-ajánlatok minden más támogatásáért. Ez a támogatás az ügyfelek számlázási kérdéseihez, a fiók beállításához és a fizetéshez kapcsolódik. A CSP-programban a partner dönthet úgy, hogy az ügyfelek technikai támogatási lekérdezéseit az ISV-közzétevő által megadott támogatási kapcsolattartókhoz irányítja.
 
-- A **partner támogatási szerepe a CSP programban:** A CSP programban található partner felelős a külső gyártóktól származó ISV-ajánlatok minden egyéb támogatásért. Ez a támogatás az ügyfelek számlázási kérdéseire, a fiókok beállítására és a fizetésre is vonatkozik. A CSP programban lévő partner dönthet úgy, hogy az ügyfelektől érkező technikai támogatási lekérdezéseket az ISV közzétevő által biztosított támogatási partnereknek irányítja.
+- **A Microsoft támogatási szerepköre:** A Microsoft támogatást nyújt a külső isV-közzétevőnek és a CSP-program partnerének a Microsoft kereskedelmi rendszer funkcióival kapcsolatban. Ez azt jelenti, hogy a Microsoft felel bizonyos tevékenységek támogatásáért a partnertől a CSP-program partnertevékenységében és a Microsoft kereskedelmi rendszerében előforduló isV-kben, például az Azure-alapú ISV-megoldások esetében az bevezetésért/ajánlatkezelésért, tranzakciókért, számlázásért, fióktámogatásért, valamint üzembe helyezésért és kiépítésért.
 
-- **A Microsoft támogatási szerepköre:** A Microsoft a Microsoft kereskedelmi rendszer funkcióival kapcsolatban támogatja a külső gyártótól származó ISV-közzétevőt és a partnert a CSP programban. Ez azt jelenti, hogy a Microsoft felelőssége, hogy támogassa bizonyos tevékenységek támogatását a CSP program partneri tevékenységeiben, valamint a Microsoft kereskedelmi rendszerén belüli ISV-n, például a bevezetési/ajánlat-kezelés, a tranzakciók, a számlázás, a fiókok támogatása és az Azure-alapú ISV-megoldások üzembe helyezése és kiépítése terén.
+    A Microsoft nem nyújt támogatást a külső ISV-közzétevők által kínált kereskedelmi piactéri termékekhez. A Microsoft azonban hozzáférést biztosít a CSP-program partnerének az ISV-közzétevő támogatási kapcsolattartási adataihoz. A CSP-programban résztevő partnereknek kapcsolatba kell lépniük a (fenti) isV-közzétevővel, hogy más típusú támogatást szerezzenek az ajánlatukhoz.
 
-    A Microsoft nem nyújt támogatást a harmadik féltől származó ISV-közzétevők által kínált kereskedelmi Piactéri termékekhez. A Microsoft azonban megadja a partnernek a CSP programban való hozzáférést az ISV-közzétevő támogatási kapcsolattartási adataihoz. A CSP-programban szereplő partnereknek kapcsolatba kell lépniük az ISV-közzétevővel (fent), hogy más típusú támogatást igényeljenek az ajánlathoz.
+A közvetett [CSP-modellben](csp-overview.md#indirect-model)ezek a támogatási feladatok meg vannak osztva a közvetett szolgáltató és a közvetett viszonteladó között. Ha Ön közvetett viszonteladó, kérjen részleteket a közvetett szolgáltatótól.
 
-A [közvetett CSP-modellben](csp-overview.md#indirect-model)ezek a támogatási feladatok megoszthatók a közvetett szolgáltató és a közvetett viszonteladó között. Ha Ön közvetett viszonteladó, kérje meg a közvetett szolgáltatótól a részleteket.
+## <a name="how-to-find-isv-contact-information"></a>IsV-kapcsolatfelvételi adatok megkeresve
 
-## <a name="how-to-find-isv-contact-information"></a>Az ISV elérhetőségi adatainak megkeresése
+A legtöbb ISV-kapcsolattartó adatai a Partnerközpont **ajánlat részletei oldalon** jelennek meg, amelyek a következő irányítópulton Partnerközpont [érhetők el:](https://partner.microsoft.com/dashboard). Ebbe beletartozik egy mérnöki kapcsolattartó az ISV-hez, az ügyfélszolgálathoz és a CSP-program kapcsolattartóihoz. Az isV által itt megadott információk között lehetnek a felhasználói dokumentáció, az értékesítési értékesítők, valamint a CSP-program marketinganyagaira mutató hivatkozás.
 
-A legtöbb ISV-s kapcsolattartási adat a partner Center- [irányítópulton](https://partner.microsoft.com/dashboard)elérhető, a partner központ **ajánlat részletek** lapján jelenik meg. Ez magában foglalja az ISV-, ügyfélszolgálati és bármely CSP-programhoz való kapcsolatfelvételhez szükséges mérnöki kapcsolatot. Az ISV által biztosított információk tartalmazhatják a felhasználói dokumentációt, az értékesítési biztosítékot, valamint a CSP-program marketing anyagaira mutató hivatkozást is.
+Az Ajánlat részletei **oldal eléréséhez** lásd: [Ajánlatok felderítése a kereskedelmi piactéren.](csp-commercial-marketplace-discover.md#view-marketplace-offers-in-partner-center)
 
-Az **ajánlat részleteit tartalmazó** oldal eléréséhez tekintse meg [az ajánlatok észlelése a kereskedelmi piactéren című részt](csp-commercial-marketplace-discover.md#view-marketplace-offers-in-partner-center).
+## <a name="next-steps"></a>Következő lépések
 
-## <a name="next-steps"></a>További lépések
-
-- [Tudnivalók a kereskedelmi Piactéri termékekkel kapcsolatos szerződésekről](csp-commercial-marketplace-contracting.md)
+- [Tudnivalók a kereskedelmi piactéri termékekhez kapcsolódó szerződésekről](csp-commercial-marketplace-contracting.md)

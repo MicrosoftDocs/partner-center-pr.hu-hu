@@ -1,77 +1,74 @@
 ---
-title: Microsoft Gold, Silver kompetencia követelmények
+title: A Microsoft gold, silver kompetenciakövetelményei
 ms.topic: article
 ms.date: 01/26/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan szerezhet be elit Microsoft-partneri státuszt, és hogyan érheti el az új ügyfeleket az arany-és ezüst tagsági szintek megszerzéséhez szükséges kompetenciával
+description: Megtudhatja, hogyan szerezheti be a Microsoft legjobb partneri státuszát, és hogyan vonzható új ügyfelekhez a kompetenciakövetelmények való megfelelés, így arany és ezüst tagsági szinteket szerezhet.
 author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a642c9fc8b920668bd6883c01573e5fbf5523e53
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 24dd96126ab96b3e3790e9ebc00c128cac07ad24
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106178867"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146595"
 ---
-# <a name="differentiate-your-business-by-attaining-microsoft-competencies"></a>A Microsoft kompetenciák megvalósításával megkülönböztetheti vállalkozását
+# <a name="differentiate-your-business-by-attaining-microsoft-competencies"></a>A vállalkozás megkülönböztetésére Microsoft-kompetenciák megszerzésével
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelő rendszergazda
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
+Igazolják a minőségi megoldások egy vagy több üzleti területen való biztosítása terén szerzett bevált szakértelmét. A Microsoft-kompetenciák úgy vannak kialakítva, hogy felkészítse az ügyfelek igényeinek való megfelelésre, és segítsen a Microsoft által minősített megoldásszolgáltatókat kereső új ügyfelek vonzában. Csatlakozzon a Microsoft-partnerek elit rétegéhez, és csatlakozzon a társaihoz.
 
-Bemutatjuk a bevált szakértelmét, hogy minőségi megoldásokat nyújtson be egy vagy több speciális üzleti területen. A Microsoft kompetenciák célja, hogy előkészítse az ügyfelek igényeinek kielégítését, és segítsen a Microsoft által minősített megoldás-szolgáltatók számára keresett új ügyfelek megszerzésében. Csatlakozzon a Microsoft-partnerek elit szintjéhez, és álljon ki a társaitól.
+- Egy silver **kompetencia** megszerzésével konzisztens képességet és elkötelezettséget mutat be.
 
-- Szerezzen be egy **Silver** kompetenciát az egységes képesség és elkötelezettség bemutatása érdekében.
+- Gold **kompetencia** megszerzése a legjobb osztályon belüli képességének a Microsoft-megoldásterületen való szemléltetését.
 
-- Szerezzen be egy **Gold** kompetenciát, amely bemutatja a legjobb színvonalú képességet a Microsoft-megoldások területén.
+A kompetencia megszerzése további előnyöket és lehetőségeket is lehetővé tesz:
 
-A kompetenciák megvalósítása további előnyökre és lehetőségekre is bejelentkezhet:
+- Hatékony [piaci lehetőségeket és](mpn-learn-about-go-to-market-benefits.md) programokat kínálhat, amelyek segítségével bővítheti és bővítheti vállalkozását. [További információ a Microsofttal](https://partner.microsoft.com/solutions/go-to-market)való piacra ugrásról.
 
-- Kipróbálhatja az üzleti igényeknek kibővítését és fejlesztését segítő, nagy teljesítményű [piaci megjelenést](mpn-learn-about-go-to-market-benefits.md) nyújtó ajánlatokat és programokat. [További információ a Microsofttal való piacra](https://partner.microsoft.com/solutions/go-to-market)lépésről.
+- Az arany kompetencia megszerzése lehetőséget nyújt arra, hogy fejlettebb [specializációkat](advanced-specializations.md) vegyen fel a portfóliójába, és tovább fejleszti azt. A speciális specializációk segítenek az ügyfelek egyre növekvő szakértelmének bemutatásában. [További információ a speciális specializációkról.](https://partner.microsoft.com/membership/advanced-specialization)
 
-- A Gold kompetenciák megvalósítása lehetővé teszi, hogy a portfóliójának [fejlettebb specializációit](advanced-specializations.md) folytassa. A speciális szakosodások segítségével megtekintheti a növekvő szakértelmet az ügyfeleknek. [További információk a speciális specializációkkal kapcsolatban](https://partner.microsoft.com/membership/advanced-specialization).
+## <a name="check-your-status-as-you-attain-a-competency"></a>A kompetencia megszerzésének állapotának ellenőrzése
 
-## <a name="check-your-status-as-you-attain-a-competency"></a>Tekintse meg az állapotát a kompetencia megvalósítása során
-
-Megtekintheti a követelményeket, és azt, hogy a vállalat milyen módon érhető el a partner Center irányítópultjának kompetencia területéről.
+A követelmények és a vállalat által elért eredmények a saját irányítópultjának kompetenciaterületen Partnerközpont adatokat.
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
 2. A Partnerközpont menüjének MPN szakaszában válassza a **Kompetenciák** lehetőséget.
 
-3. Válassza ki a kompetencia nevét, majd válasszon ki egy adott kompetencia-lehetőséget a részletek megtekintéséhez. Megtekintheti, hogy mit ért el, és megtekintheti a teljes követelményeket és az adott vizsgára és a kivont vizsga érvényességi dátumokra mutató hivatkozásokat is.
+3. Válassza ki a kompetencia nevét, majd válasszon ki egy adott kompetencia-lehetőséget a részletek megtekintéséhez. Láthatja az elkészülteket, valamint a teljes követelményeket, valamint az egyes vizsgákra és a visszavont vizsgaérvényesítési dátumokra mutató hivatkozásokat.
 
-## <a name="competency-areas"></a>Kompetenciával rendelkező területek
+## <a name="competency-areas"></a>Kompetenciaterületek
 
-Ezüst vagy arany tagsági kompetencia beszerzéséhez meg kell adnia a szakértelmet az üzleti és technológiai területeken.
+Az ezüst vagy arany tagsági kompetencia megszerzéséhez be kell mutatnia a különböző üzleti és technológiai területeken szerzett szaktudását.
 
 |**Terület**            |**Kompetencia**                    |
 |--------------------|--------------------------------|
-|Alkalmazások és infrastruktúra| – Alkalmazásfejlesztés<br/> – Alkalmazás-integráció<br/> – Felhőalapú platform<br/> – DevOps<br/> – Adatközpont |
-|Üzleti alkalmazások | – Felhőalapú Business Applications</br> – Vállalati erőforrás-tervezés (ERP)</br> -Projekt és portfólió |
-|Az adatkezelés és a mesterséges intelligencia| – Adatelemzés<br/> – Adatplatform |
-|Modern munkahely és biztonság | – Együttműködés és tartalom<br/> – Kommunikáció<br/> – Felhőbeli termelékenység<br/> – Nagyvállalati mobilitási felügyelet (,)<br/> – Üzenetküldés<br/> – Biztonság<br/> -Kis-és Midmarket felhőalapú megoldások<br/> – Windows és eszközök |
+|Alkalmazások és infrastruktúra| - Alkalmazásfejlesztés<br/> - Alkalmazásintegráció<br/> - Felhőplatform<br/> - DevOps<br/> – Adatközpont |
+|Üzleti alkalmazások | - Felhőalapú Business Applications</br> - Vállalati erőforrás-tervezés (ERP)</br> - Projekt és portfólió |
+|Adatok és AI| - Adatelemzés<br/> - Adatplatform |
+|Modern munkahely és biztonság | - Együttműködés és tartalom<br/> - Kommunikáció<br/> - Felhőbeli termelékenység<br/> - Nagyvállalati mobilitási felügyelet (EMM)<br/> - Üzenetkezelés<br/> - Biztonság<br/> - Kis- és középvállalati felhőmegoldások<br/> - Windows és eszközök |
 
-Az ezüst és az arany kompetencia szintjei eltérő követelményekkel rendelkeznek az egyes területekre vonatkozóan. Az egyes területeken található osztályok és vizsgák, amelyeket a vállalat alkalmazottai igénybe vehetnek a kívánt kompetencia szintjének eléréséhez. 
+Az ezüst és arany kompetenciaszintek különböző követelményekkel vonatkoznak az egyes területekre. Az egyes területek olyan osztályok és vizsgák, amelyeken a vállalat alkalmazottai a kívánt kompetenciaszintet érhetik el. 
 
-Ha többet szeretne megtudni az ezüst és arany kompetenciák eléréséhez szükséges információkról, tekintse meg a [Microsoft Partner Network kompetenciák](https://partner.microsoft.com/membership/competencies)című témakört.
+Az ezüst és arany kompetencia megszerzéséhez szükséges képességekkel kapcsolatos további információkért tekintse meg a Microsoft Partner Network [kompetenciákat.](https://partner.microsoft.com/membership/competencies)
 
 ## <a name="next-steps"></a>Következő lépések
 
-- További információ az [ezüst-és arany-kompetenciák elérésére vonatkozó követelményekről](https://partner.microsoft.com/membership/competencies).
+- További információ az ezüst és arany [kompetencia megszerzéséhez szükséges követelményekről.](https://partner.microsoft.com/membership/competencies)
 
-- Ismerje meg, hogyan teheti meg a szaktudását úgy, hogy egy vagy több [speciális specializációval](advanced-specializations.md)párosítja a Gold kompetenciát.
+- Megtudhatja, hogyan sajátítsa el szakértelmét egy gold kompetencia és egy vagy több speciális [specializáció párosításával.](advanced-specializations.md)
 
-- Ismerje meg a kompetenciákkal foglalkozó, [piaci megjelenéssel](mpn-learn-about-go-to-market-benefits.md) kapcsolatos speciális erőforrásokat.
+- Megismeri [a kompetenciákhoz mellékelt](mpn-learn-about-go-to-market-benefits.md) konkrét piacra piacra ugrási erőforrásokat.
 
-- Ismerje meg a [kompetenciákkal kapcsolatos számlákat és adókat](mpn-view-print-maps-invoice.md).
+- Tudnivalók a [kompetenciák számláiról és adóiról.](mpn-view-print-maps-invoice.md)
 
-- Megtudhatja, hogyan [fizethet a](mpn-pay-fee-silver-gold-competency.md) Silver vagy Gold minősítési tagsággal kapcsolatos díjat.
+- Megtudhatja, [hogyan fizeti ki](mpn-pay-fee-silver-gold-competency.md) az silver vagy gold kompetenciatagságért járó díjat.
 
-- Tekintse meg a partneri központ [bejelentési kompetenciáit tartalmazó jelentést](pci-competencies-report.md) , amely a kompetenciák aktuális állapotát jeleníti meg.
+- Tekintsen meg Partnerközpont [Insights-kompetenciákról szóló jelentést,](pci-competencies-report.md) amely a kompetenciák aktuális állapotát mutatja.
 
-- Választ kaphat a kompetenciákkal kapcsolatos [gyakori kérdésekre](competencies-faq.md) .
+- Választ kaphat [a kompetenciákra vonatkozó gyakori](competencies-faq.md) kérdésekre.

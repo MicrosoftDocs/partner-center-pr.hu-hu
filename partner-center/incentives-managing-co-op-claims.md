@@ -1,6 +1,6 @@
 ---
 title: Együttműködési jogcímek kezelése
-description: Ismerje meg a Co-op jogcímek folyamatát, beleértve a határidőket, a pénznemmel kapcsolatos problémákat, valamint az elutasított Co-op-jogcím vitatásának módját.
+description: Az együttműködési igények folyamatának , beleértve a határidőket, a pénznemekkel kapcsolatos problémákat, valamint az elutasított együttműködési igény vitatását.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
@@ -8,38 +8,36 @@ ms.author: kashanum
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 10/29/2020
-ms.openlocfilehash: 29e67bbeca2b136146a1d9d1ee7eef4d0f9d3b0c
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 952a6b327dd31b1155efe3c08bb52f9b300b0a93
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179156"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146765"
 ---
-# <a name="manage-incentives-co-op-claims"></a>Ösztönzők kezelése együttes op-jogcímek
+# <a name="manage-incentives-co-op-claims"></a>Ösztönzők együttműködési igényének kezelése
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdája
 
-- Ösztönzők rendszergazdája
+Az alábbi tartalom az együttműködési igények kezelésével kapcsolatos információkat tartalmaz, beleértve az ütemterveket, a szabályokat, valamint az elutasított együttműködési igény vitatása mikéntját.
 
-A következő tartalom információt nyújt a közös op-jogcímek kezeléséhez, beleértve az időkereteket, a szabályokat, valamint a visszautasított Co-op-jogcím megvitatásának módját.
+## <a name="co-op-claims-approval-and-payment-deadlines"></a>Együttműködési igények jóváhagyása és fizetési határidők
 
-## <a name="co-op-claims-approval-and-payment-deadlines"></a>Co-op jogcím-jóváhagyási és fizetési határidők
+### <a name="when-will-my-co-op-claim-be-approved"></a>Mikor történik az együttműködési igény jóváhagyása?
 
-### <a name="when-will-my-co-op-claim-be-approved"></a>Mikor kell jóváhagyni a társ-op-jogcímeket?
+Az együttműködési igényeket a beküldött adatokat két munkanapon belül felülvizsgáljuk. Ha érvényesnek minősülnek, Jóváhagyott állapotra lesznek állítva.  
 
-A Co-op jogcímeket két munkanapon belül áttekintjük, miután elküldték őket. Ha érvényesnek tekintik, akkor a rendszer a jóváhagyott állapotot állítja be.  
-
-A következők a közös op-jogcímek különböző lehetséges állapotai.
+Az együttműködési igények lehetséges állapotai a következők.
 
 - Elküldve
 - Felülvizsgálat alatt
-  - A Microsoft a kérelem elküldését követő két munkanapon belül elvégzi a felülvizsgálatot. Ha az állapota két napnál hosszabb ideig tart, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
+  - A Microsoft az igény beküldtét követő két munkanapon belül befejezi a felülvizsgálatot. Ha az állapota két napnál hosszabb ideig felülvizsgálat alatt áll, forduljon a [támogatási szolgálathoz.](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives)
 - Szükséges beavatkozás
 - Szerkesztés
 - Approved
 - Elutasítva
 
-## <a name="co-op-claim-payments"></a>Co-op jogcím kifizetése
+## <a name="co-op-claim-payments"></a>Együttműködési igény kifizetése
 
 ### <a name="when-will-i-get-the-payment-for-the-approved-co-op-claim"></a>Mikor kapom meg a jóváhagyott együttműködési igényért járó kifizetést?
 
@@ -53,17 +51,17 @@ Ha az együttműködési összegek különböző Microsoft-entitásokból szárm
 
 Minden ösztönzőprogramhoz tartozik egy, a telepítés során létrehozott bankprofil. A kifizetést az ebben profilban megadott pénznemben fogja megkapni.
 
-## <a name="rejected-co-op-claims"></a>Elutasított Co-op jogcímek
+## <a name="rejected-co-op-claims"></a>Elutasított együttműködési igények
 
-Ha az együttműködési igénnyel együtt benyújtott anyagok nem megfelelőek, ez az igény elutasítását eredményezi. Az elutasítás indoklását az együttműködési igény oldalának **Előzmények** mezőjében tekintheti meg. Az elutasítás megvitatásához kövesse az alábbi eljárást:
+Ha az együttműködési igénnyel együtt benyújtott anyagok nem megfelelőek, ez az igény elutasítását eredményezi. Az elutasítás indoklását az együttműködési igény oldalának **Előzmények** mezőjében tekintheti meg. Az elutasítás vitatásának eljárása a következő:
 
 ### <a name="dispute-a-rejected-co-op-claim"></a>Elutasított együttműködési igény vitatása
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. Az **ösztönzők** területen válassza a **közös op-kezelés** lehetőséget.
+2. Az **Ösztönzők alatt** válassza az Együttműködési felügyelet **lehetőséget.**
 
-3. Válassza ki a vitatni kívánt együttműködési igényt. Megnyílik a Co-op jogcím lap.
+3. Válassza ki a vitatni kívánt együttműködési igényt. Megnyílik az együttműködési igény oldala.
 
 4. Az oldal alján kattintson a **Vitatás** elemre.
 

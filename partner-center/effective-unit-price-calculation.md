@@ -9,37 +9,35 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1473b3c0b90cca1152b4dab0b8efec86dbc3d22d
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.openlocfilehash: 84beac77d41b8c11be9ac3cad87460eec9632ac4
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172217"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147122"
 ---
-# <a name="effective-unit-price-calculation-for-azure-plan-consumption"></a>Az Azure-csomagfelhasználás tényleges egységárának kiszámítása
+# <a name="effective-unit-price-calculation-for-azure-plan-consumption"></a>Az Azure-csomag tényleges egységárának kiszámítása
 
-**Megfelelő szerepkörök**
-
-- Számlázási adminisztrátor
+**Megfelelő szerepkörök:** Számlázási rendszergazda
 
 ## <a name="the-effective-unit-price"></a>A tényleges egységár
 
-A tényleges egységár számítása a fogyasztásmérő szintjén történik (nem az erőforrás szintjén), és a mérőhasználat alapján naponta lesz módosítva.
+A tényleges egységár kiszámítása a fogyasztásmérő szintjén történik (nem az erőforrás szintjén), és naponta lesz módosítva a fogyasztásmérő használata alapján.
 
 A tényleges egységárat az alábbi három tényező alapján számítjuk ki:
 
-- Felhasználás, amelyet naponta figyelnek a számlázási ciklus során
+- A számlázási ciklusban naponta monitorozás alatt áll felhasználás
 - A fogyasztásmérő számlázható költsége
 - Rétegezés (ha van)
 
-Mivel a használatot naponta monitorozni fogjuk a számlázási ciklusban, a tényleges egységár ingadozni fog. Az adott számlázási ciklus végső ára a használat kiszámításának leállítása és a számlázási időszak bezárása után lesz elérhető. A használat legtöbb változását a negyedik vagy ötödik tizedesjegy után fogja látni.
+Mivel a használatot naponta monitorozni fogjuk a számlázási ciklus során, a tényleges egységár ingadozni fog. Az adott számlázási ciklus végső ára a használat kiszámításának leállítása és a számlázási időszak bezárása után lesz elérhető. A használat legtöbb változását a negyedik vagy ötödik tizedesjegy után fogja látni.
 
 ## <a name="find-out-whether-your-meter-uses-tiered-pricing"></a>Annak kiderítése, hogy a fogyasztásmérő rétegzett díjszabást használ-e
 
 Ha nem tudja, hogy a fogyasztásmérő rétegzett díjszabást használ-e, az alábbi eljárással derítse ki. 
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
-2. Válassza **az Értékesítés** lehetőséget, válassza a Díjszabás és **ajánlatok** lehetőséget, majd az **Azure-csomag díjszabása lehetőséget.**
+2. Válassza **az Értékesítés** lehetőséget, válassza a Díjszabás és **ajánlatok** lehetőséget, majd válassza az **Azure-csomag díjszabása lehetőséget.**
 3. Keresse meg a fogyasztásmérőt azonosító alapján, majd töltse le a díjszabási adatokat. 
 
 ## <a name="sample-calculation"></a>Mintaszámítás

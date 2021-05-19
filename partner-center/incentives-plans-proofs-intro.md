@@ -1,6 +1,6 @@
 ---
-title: A csomagok és a végrehajtás bizonyításának áttekintése
-description: Megtudhatja, milyen fontos dokumentumok szükségesek az ösztönzőkhöz, beleértve a Co-op jogcím-csomagot és a végrehajtás részletes igazolását (PoE).
+title: A tervek és a végrehajtási igazolások áttekintése
+description: Megismeri az ösztönzőkhez szükséges kulcsfontosságú dokumentumokat, köztük az ösztönzők együttműködési igénytervét és a végrehajtás részletes igazolását (PoE).
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 ms.topic: conceptual
@@ -8,48 +8,45 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: 3cd9ee73da3432b88c2ef3669f12451d675a319a
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: e98296aa42327a7b2ebd91b44f2e28e9010600bb
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179173"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146748"
 ---
-# <a name="use-these-resources-to-help-you-create-incentives-plans-and-proofs-of-execution"></a>Ezekkel az erőforrásokkal ösztönző terveket hozhat létre, és elvégezheti a végrehajtás bizonyítását
+# <a name="use-these-resources-to-help-you-create-incentives-plans-and-proofs-of-execution"></a>Ezekkel az erőforrásokkal ösztönzőterveket és végrehajtási igazolásokat hozhat létre
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
+Ez a cikk néhány olyan kulcsfontosságú dokumentumot ismertet, amelyek ahhoz szükségesek, hogy sikeres legyen, és fizetős legyen egy adott ösztönzőprogramban. Ezek a dokumentumok a következők:
 
-Ez a cikk azokat a kulcsfontosságú dokumentumokat ismerteti, amelyek szükségesek ahhoz, hogy sikeresek legyenek, és fizessenek a munkáért egy adott ösztönző programban. A dokumentumok a következők:
+- Ösztönzők együttműködési jogcímterve
+- A végrehajtás részletes igazolása (PoE)
 
-- Ösztönzők együttes op-jogcímek terve
-- Részletes igazolás a végrehajtásról (PoE)
+A regisztrált ösztönzőprogram típusától függően az ösztönzők együttműködési igénylési terve és a végrehajtási igazolás (PoE) az ösztönzőkön keresztüli sikerhez is alapvető szerepet fog játszani.
 
-Az ösztönző program típusától függően a-ban regisztrált ösztönzők a közös op-beli jogcímek tervét és a végrehajtás igazolását (PoE) a sikerhez is hozzájárulnak.
+## <a name="what-is-an-incentives-co-op-claims-plan"></a>Mi az az ösztönző együttműködési jogcímterv?
 
-## <a name="what-is-an-incentives-co-op-claims-plan"></a>Mit jelent az ösztönzők együttes op-jogcímei csomag?
+Az ösztönző együttműködési igényeket tartalmazó terv azokat a marketingkampányokat, tevékenységeket és egyéb részleteket ismerteti, amelyek a program sikerességéhez szükségesek. A csomag létrehozása után jóváhagyásra be kell nyújtania azt a Microsoftnak. További információ a [terv létrehozásáról.](incentives-create-your-plan.md)
 
-Az ösztönzők együttes op-jogcímek terve ismerteti azokat a marketing kampányokat, tevékenységeket és egyéb adatokat, amelyek a program sikeres elvégzéséhez szükségesek. Miután létrehozta ezt a csomagot, jóváhagyás céljából elküldi a Microsoftnak. További információ [a terv létrehozásáról](incentives-create-your-plan.md).
+## <a name="what-is-a-proof-of-execution-poe"></a>Mi a végrehajtási igazolás (PoE)?
 
-## <a name="what-is-a-proof-of-execution-poe"></a>Mi a végrehajtás igazolása (PoE)?
+Miután kifizette az ösztönzők munkáját, be kell nyújtania egy részletes végrehajtási igazolást (PoE) a Microsoftnak. A PoE tartalmazhatja a kapcsolódó kampány részleteit, az ösztönző tevékenység dátumát és a igényelt összeget. 
 
-Az ösztönzők befizetése után a Microsoft számára részletes igazolást kell benyújtania a végrehajtásról (PoE). A PoE tartalmazhatja a kapcsolódó kampány részleteit, az ösztönző tevékenység dátumát és a kért összeget. 
+További információ a [végrehajtási igazolások előkészítéséről.](incentives-prepare-your-proof-of-execution.md)
 
-További információ a [végrehajtás bizonyításának előkészítéséről](incentives-prepare-your-proof-of-execution.md).
+## <a name="incentives-document-resources"></a>Ösztönzők dokumentum erőforrásai
 
-## <a name="incentives-document-resources"></a>Ösztönzők dokumentum-erőforrások
-
-Az alábbi források ismertetik a kulcsfontosságú ösztönző dokumentumok rendszerezését, létrehozását és szerkesztését. Azt is leírják, mi a teendő, ha a Microsoft jóváhagyja a jogcímet, vagy ha bármilyen jogcímet visszautasítanak.
+Az alábbi források ismertetik, hogyan rendszerezheti, hozhatja létre és szerkesztheti ezeket a kulcsfontosságú ösztönzőkkel kapcsolatos dokumentumokat. Azt is ismertetik, hogy mi a következő: ha a Microsoft jóváhagyja az igénylést, vagy ha egy igény elutasítása történik.
 
 |  **Ehhez**  |  **Olvassa el ezt**  |
 |--------------|-----------|
-| Ismerje meg, hogyan hozhat létre ösztönzők együttes op-beli jogcímeket | [Csomag létrehozása](incentives-create-your-plan.md)  |
-Megtudhatja, hogyan hozhat létre végrehajtás igazolását | [A végrehajtási igazolás előkészítése](incentives-prepare-your-proof-of-execution.md)  |
+| Tudnivalók az ösztönzők együttműködési jogcímtervének létrehozásáról | [Csomag létrehozása](incentives-create-your-plan.md)  |
+Útmutató a végrehajtási igazolás létrehozásához | [A végrehajtási igazolás előkészítése](incentives-prepare-your-proof-of-execution.md)  |
 
 ## <a name="next-steps"></a>Következő lépések
 
-- Megtudhatja, hogyan [hozhat létre saját csomagot](incentives-create-your-plan.md)
-- További információ az [ösztönzők Co-op jogcímek folyamatáról](claims-overview.md)
-- Tudnivalók [a CPOR-modellt használó ösztönzőkkel foglalkozó ügyfelek szervezeteiről](submit-osa-claim.md)
+- Saját csomag [létrehozása](incentives-create-your-plan.md)
+- További információ az [ösztönző együttműködési igények folyamatról](claims-overview.md)
+- Tudnivalók az [ösztönzőkhöz való ügyfél-társításról a CPOR-modell használatával](submit-osa-claim.md)

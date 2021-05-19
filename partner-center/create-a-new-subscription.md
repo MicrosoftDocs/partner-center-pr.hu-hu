@@ -1,181 +1,176 @@
 ---
-title: Ügyfél-előfizetések létrehozása a partner Centerben
+title: Ügyfél-előfizetések létrehozása a Partnerközpont
 ms.topic: how-to
-ms.date: 07/22/2020
+ms.date: 05/17/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan értékesítheti az ügyfeleknek a Microsoft által közzétett, valamint a harmadik féltől származó független szoftvergyártók által közzétett SaaS-termékek előfizetéseit.
+description: Megtudhatja, hogyan értékesítsen előfizetéseket az ügyfeleinek a Microsoft által közzétett termékekre, valamint a harmadik féltől származó isv-k által közzétett SaaS-termékekre.
 author: BillLinzbach
 ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
-ms.openlocfilehash: 559d1fbd2efc1417ae89931279b9d3c9a1d67f7c
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: 3269fa994d704c0a0dae067087bad8589a7ce031
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502935"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148198"
 ---
 # <a name="create-suspend-or-cancel-customer-subscriptions"></a>Ügyfél-előfizetések létrehozása, felfüggesztése vagy lemondása
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Globális rendszergazdai | Az | Értékesítési ügynök
 
-**Megfelelő szerepkörök**
+Miután létrehozta az ügyfél rekordját a Partnerközpont, előfizetéseket értékesíthet a katalógusban található termékekhez. Ide tartoznak a Microsoft által közzétett termékek és a külső független szoftverszállítók (ISV-k) által a kereskedelmi piactéren közzétett Szolgáltatott szoftver (SaaS) [termékek.](https://azuremarketplace.microsoft.com/marketplace)
 
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-
-Miután létrehozott egy rekordot az ügyfélről a partner Centerben, a katalógusban lévő termékek előfizetéseit is értékesítheti. Ide tartoznak a Microsoft és a szolgáltatott szoftverek (SaaS) által közzétett, harmadik féltől származó független szoftvergyártók által közzétett termékek a [kereskedelmi piactéren](https://azuremarketplace.microsoft.com/marketplace).
-
-Egyes ajánlatok felhasználónként egy előfizetésre korlátozódnak. Ha szeretné megtekinteni, hogy mely ajánlatok vannak korlátozva, látogasson el a partner Center díjszabási és ajánlatok oldalára.
+Egyes ajánlatok ügyfelenként egy előfizetésre vannak korlátozva. A korlátozott ajánlatok listáját a Díjszabás és ajánlatok Partnerközpont oldalon láthatja.
 
 >[!IMPORTANT]
-> A CSP programban partnerként vásárolhat **licenc-alapú** vagy **mért** SaaS-előfizetéseket a partner centeren belüli ISV-közzétevők közül. Ez azt jelenti, hogy vásárolhat bármilyen **licenccel** vagy **mért** SaaS-ajánlatot, amelyet az ISV közzétevő elérhetővé tett, beleértve az [exkluzív ajánlatokat](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) is, amelyekhez hozzáféréssel rendelkezik. Ha más, kereskedelmi Piactéri ajánlatokat szeretne megvásárolni vagy kezelni (például Azure-alkalmazásokat,-tárolókat vagy virtuális gépeket érintő használaton alapuló ajánlatokat), akkor a [Azure Portalra](https://portal.azure.com/)kell lépnie.
+> A CSP-programban partnerként licencalapú **vagy** forgalmi díjas SaaS-előfizetéseket vásárolhat az isV-közzétevőktől a Partnerközpont.  Ez azt jelenti, hogy bármilyen licencalapú vagy forgalmi díjas  SaaS-ajánlatot [](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) megvásárolhat, amelyet az ISV közzétevő tett elérhetővé az Ön számára, beleértve azokat az ajánlatokat is, amelyekhez Hozzáféréssel rendelkezik.  Az ISV-k (például Azure-alkalmazásokat, tárolókat vagy virtuális gépeket érintő használatalapú ajánlatok) kereskedelmi piactéri ajánlatának megvásárlásához vagy kezeléséhez meg kell [Azure Portal.](https://portal.azure.com/)
 
 ## <a name="create-a-new-subscription"></a>Új előfizetés létrehozása
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. Válassza az **előfizetés hozzáadása** lehetőséget. Az **online szolgáltatások** lapon megjelenik az összes elérhető Piactéri SaaS-ajánlat.
+3. Válassza **az Előfizetés hozzáadása lehetőséget.** Az **Online szolgáltatások lapon** érhetők el az összes elérhető Marketplace SaaS-ajánlat.
 
-4. Ha csak bizonyos típusú előfizetéseket szeretne látni, a választható szűrők közül választhat:
-   - **Közzétevő**: válassza a **Microsoft** lehetőséget, hogy csak a Microsoft által kínált ajánlatokat vagy a **partnert** tekintse meg a független szoftvergyártók által közzétett kereskedelmi Piactéri termékeket.
-   - **Számlázási típus**: válassza ki a használni kívánt előfizetés-számlázás típusát: **licenc** vagy **használat**. A havi és éves számlázási gyakorisággal kapcsolatos információkért tekintse meg a [licenc alapú számlázást](license-based-billing.md) ismertető témakört.
-   - **Kategória**: válassza a **vállalat**, a **kisvállalat vagy** a **próbaverzió** lehetőséget. A próbaverziós előfizetésekkel kapcsolatos információkért tekintse [meg az ügyfelek Microsoft-termékekkel kapcsolatos próbaverzióit](offer-your-customers-trials-of-microsoft-products.md)ismertető témakört.
+4. Ha csak bizonyos típusú előfizetéseket kell látnia, az elérhető szűrők között tegye a következőt:
+   - **Közzétevő:** Válassza a **Microsoft** lehetőséget, ha csak a Microsoft ajánlatai vagy a **Partner** ajánlatai közül kíváncsi az ISV-k által közzétett kereskedelmi piactéri termékekre.
+   - **Számlázási típus:** Válassza ki a használni kívánt előfizetés-számlázás típusát: **Licenc vagy** **Használat.** A [havi és az éves számlázási](license-based-billing.md) gyakoriság közötti döntéshez szükséges információkért tekintse meg a licencalapú számlázást.
+   - **Kategória:** Válassza a **Vállalati,** **a Kisvállalati vagy** a **Próbaverzió lehetőséget.** A próbaverziós előfizetésekkel kapcsolatos információkért lásd: [Ajánlat az ügyfeleknek próbaverziós Microsoft-termékekre.](offer-your-customers-trials-of-microsoft-products.md)
 
-5. Válassza ki az ügyfél számára megvásárolni kívánt termék-előfizetéseket. A megjelenő termékek a vásárlói szegmens típusától (oktatási, kormányzati stb.) és az alkalmazott szűrőktől függenek. Előfordulhat, hogy a piactéren látható egyes ajánlatok nem mindig lesznek elérhetők egy adott ügyfél vagy egy adott CSP-partner számára. Ennek oka a következő lehet:
+5. Válassza ki az ügyfél számára megvásárolni kívánt termék-előfizetéseket. A látható termékek az ügyfélszegmens típusától (oktatás, kormányzat stb.) és az alkalmazott szűrőktől függenek. Előfordulhat, hogy a Marketplace-en megjelenő egyes ajánlatok nem mindig érhetők el egy adott ügyfél vagy egy adott CSP-partner számára. Ennek oka a következő lehet:
 
-   - Az ügyfél már rendelkezik előfizetéssel a termékre, és csak egy
+   - Az ügyfél már rendelkezik előfizetéssel az adott termékre, és csak egy engedélyezett
 
-   - Előfordulhat, hogy az ügyfél előfizetését felfüggesztették (ebben az esetben újra kell aktiválni az előfizetést, és nem kell újat megvásárolnia.)
+   - Előfordulhat, hogy az ügyfél előfizetése fel lett függesztve (ebben az esetben újraaktiválhatja az előfizetést ahelyett, hogy újat vásárol.
 
-   - Az ISV SaaS-ajánlatok esetében előfordulhat, hogy az ajánlat nem érhető el a vásárláshoz: az ISV nem támogatja az ügyfél számlázási országát vagy régióját; lehetséges, hogy az ISV úgy döntött, hogy nem teszi elérhetővé az ajánlatot a CSP programon keresztül; a független szoftvergyártók azonban kizárólag bizonyos CSP- [partnerek számára is](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) elvégezték az ajánlatot. Előfordulhat, hogy az ISV-ajánlat nem hívható le a partneri központon keresztül (például tárolók vagy használaton alapuló ajánlatok).  
+   - IsV SaaS-ajánlatok esetén több oka is lehet annak, hogy az ajánlat nem vásárolható meg: Előfordulhat, hogy az ISV nem támogatja az ügyfél számlázási országát vagy régióját; lehetséges, hogy a szoftverszolgáltató úgy döntött, hogy nem teszi elérhetővé az ajánlatot a CSP-programon keresztül; vagy az is előfordulhat, hogy [](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) az is csak bizonyos CSP-partnerek számára tette kizárólagosként az ajánlatot. Előfordulhat, hogy az ISV-ajánlat nem kezelhető a Partnerközpont (például tárolókon vagy használatalapú ajánlatokon) keresztül.  
 
-6. Minden hozzáadni kívánt előfizetéshez adja meg a licencek számát (ha szükséges), és válassza a **Hozzáadás a kosárhoz** lehetőséget.
+6. Minden hozzáadni kívánt előfizetéshez adja meg a licencek számát (ha szükséges), majd válassza a **Hozzáadás a kosárhoz lehetőséget.**
 
-7. Ha elkészült az előfizetések hozzáadásával, válassza a **felülvizsgálat** lehetőséget, és tekintse át a rendelését.
+7. Ha befejezte az előfizetések hozzáadását, válassza az **Áttekintés és** a rendelés áttekintése lehetőséget.
 
-8. Miután áttekintette a rendeléseit, és készen áll az előfizetések megvásárlására, válassza a **vásárlás** lehetőséget.
+8. Miután áttekintte a rendeléseket, és készen áll az előfizetések megvásárlására, válassza a **Vásárlás lehetőséget.**
 
-9. Miután megvásárolt egy előfizetést az ügyfél számára, a következők történnek:
+9. Miután előfizetést vásárol egy ügyfélnek, a következő történik:
 
-    - Az előfizetés áttekintéséhez vagy szerkesztéséhez válassza ki az előfizetés nevét az ügyfél **előfizetések** lapján. Innen kiválaszthatja a kiegészítő licenceket, ha vannak ilyenek, módosíthatja a licencek mennyiségét, vagy felfüggesztheti az előfizetést.
+    - Az előfizetés áttekintéséhez vagy szerkesztéséhez válassza ki az előfizetés nevét az ügyfél **Előfizetések oldalán.** Innen kiválaszthatja a bővítménylicenceket, ha van ilyen, módosíthatja a licencek mennyiségét, vagy felfüggesztheti az előfizetést.
 
-    **ISV SaaS (licenc-alapú és mért) előfizetések esetén:**
-    - Az ISV-közzétevő webhelyére mutató hivatkozást fog kapni. Ez a hivatkozás segítséget nyújt az ügyfél előfizetésének üzembe helyezéséhez vagy a fiók beállításának befejezéséhez.
+    **ISV SaaS- (licencalapú és forgalmi díjas) előfizetések esetén:**
+    - Egy, az ISV-közzétevő webhelyére mutató hivatkozást fog kapni. Ez a hivatkozás segíthet az ügyfél előfizetésének üzembe helyezésében vagy fiókbeállításában.
       
     >[!NOTE]
-    > Sem Ön, sem az ügyfél nem kap e-mailt a fiók beállítása/kiépítés az ilyen típusú ISV-előfizetésben való elvégzéséhez szükséges utasításokkal.)
+    > Sem Ön, sem az ügyfele nem kap e-mailt, amely utasításokat tartalmaz az ilyen típusú ISV-előfizetéshez beállított/kiépítési fiók befejezésére vonatkozó utasításokkal.)
 
-    - Ha az előfizetése 30 napos ingyenes próbaidőszakot tartalmaz, a rendszer automatikusan alkalmazza az ingyenes próbaidőszakot. A CSP programban partnerként nem lehet lemondani az ingyenes próbaidőszakot az ügyfeleknek megvásárolt ajánlatokról. Az ingyenes próbaidőszak lejárta után megkezdődik az előfizetés időtartama, és az előfizetés fizetett állapotba lesz konvertálva. Az előfizetés ekkor automatikusan megújítható az adott ütemterv szerint.
+    - Ha az előfizetése 30 napos ingyenes próbaverzióval rendelkezik, az ingyenes próbaidőszak automatikusan alkalmazva lesz. A CSP-programban partnerként nem hagyhatja ki az ingyenes próbaidőszakot az ügyfelek számára vásárolt ajánlatok esetében. Az ingyenes próbaidőszak végén megkezdődik az előfizetési időszak, és az előfizetés fizetős állapotra vált. Az előfizetés ekkor automatikusan megújul ugyanezen ütemezés szerint.
    
 ## <a name="update-subscriptions-with-add-ons"></a>Előfizetések frissítése bővítményekkel 
 
-Egy bővítmény megvásárlásához az ügyfélnek először aktív alapszintű előfizetéssel kell rendelkeznie.  A katalóguson keresztül nem vásárolhat bővítményeket.
+Bővítmény vásárlásához az ügyfélnek először aktív alap-előfizetéssel kell lennie.  A katalóguson keresztül nem vásárolhat bővítményeket.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
 3. Válassza ki a kezelni kívánt előfizetést.
 
-4. Az **állapot** szakaszban az előfizetés elérhető bővítményeinek listája látható.  
+4. Az Állapot **szakasz** alatt az előfizetéshez elérhető bővítmények listája látható.  
 
-5. Frissítse a licencek mennyiségét az egyes szükséges bővítményekhez. Küldje el a módosításokat a **Küldés** gombbal.
+5. Frissítse az egyes szükséges bővítmények licencmennyiségét. Küldje el a módosításokat a **Küldés** gombbal.
 
-A partnerek központon keresztüli megvásárlásának lehetősége csak a közvetlen számla és a közvetett szolgáltatók számára érhető el.
-Csak a jogosult bővítmények jelennek meg az alapkövetelmények és a regionális elérhetőség alapján. A díjszabással és ajánlatokkal kapcsolatos további információkért tekintse meg a felhőalapú viszonteladói ajánlat mátrixát. Az alapszintű előfizetés felfüggesztése a kapcsolódó bővítményeket is felfüggeszti.
+A bővítmények vásárlásának lehetősége Partnerközpont csak a közvetlen számlázási és közvetett szolgáltatók számára érhető el.
+Csak a jogosult bővítmények jelennek meg az alapkövetelmények és a regionális rendelkezésre állás alapján. További információ a díjszabásról és az ajánlatokról: Felhő viszonteladói ajánlat mátrixa. Az alapszintű előfizetés felfüggesztése a kapcsolódó bővítményeket is felfüggeszti.
 
-A bővítmények kezdő dátuma az alapszintű előfizetéshez igazodik, és a díjakat a díj kezdő dátuma és a díj befejezési dátuma alapján számítjuk ki, az első számlán pedig arányosított díjak szerepelnek. További információ: [licenc alapú számlázás](license-based-billing.md).
+A bővítmények kezdő dátuma az alapszintű előfizetéshez igazodik, és a díjakat a díj kezdő dátuma és a díj befejezési dátuma alapján számítjuk ki, az első számlán pedig arányosított díjak szerepelnek. További információ: [Licencalapú számlázás.](license-based-billing.md)
 
 
-## <a name="suspend-or-cancel-a-subscription"></a>Előfizetés felfüggesztése vagy megszakítása
+## <a name="suspend-or-cancel-a-subscription"></a>Előfizetés felfüggesztése vagy lemondása
 
-A partnerek felfüggesztheti vagy lemondhatja az előfizetést, ha az ügyfél kéri, vagy nem fizetés vagy csalás esetén.
+A partnerek felfüggeszthetik vagy megszüntethetik az előfizetést, ha az ügyfél ezt kéri, illetve fizetés elmaradása vagy csalás esetén.
 
 ### <a name="suspend-a-subscription"></a>Előfizetés felfüggesztése
 
-Ha a **felfüggesztett** előfizetés állapotát módosítja, a felhasználók nem tudnak bejelentkezni vagy elérni szolgáltatásokat.
+Ha egy előfizetés állapotát Felfüggesztve állapotra **módosítja,** a felhasználók nem tudnak bejelentkezni vagy hozzáférni a szolgáltatásokhoz.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
 3. Válassza ki a kezelni kívánt előfizetést.
 
 4. Az **Állapot** szakaszban válassza a **Felfüggesztve** lehetőséget. Küldje el a módosításokat a **Küldés** gombbal.
 
-5. A rendszer minden adatmennyiséget töröl, kivéve, ha az előfizetés újraaktiválása 90 napon belül történik, vagy 90 nap, valamint a fiók megnyitása és az első számlázási időszak (maximális 120 nap) közötti napok száma.
+5. Az összes adat törlődik, kivéve, ha az előfizetést 90 napon belül újraaktiválják, vagy a fiók megnyitása és az első számlázási időszak közötti napok száma (legfeljebb 120 nap).
 
-Egy előfizetés felfüggesztése esetén a **felfüggesztett** gomb alatt látható dátum azt jelzi, hogy az előfizetés automatikusan lejár-e, ha nem aktiválja újra. 
+Ha felfüggeszt egy előfizetést, a  Felfüggesztve gomb alatt látható dátum jelzi, hogy mikor jár le automatikusan az előfizetés, ha nem aktiválja újra. 
 
-### <a name="cancel-a-subscription"></a>Előfizetés megszakítása
+>[!NOTE]
+>A CSP-előfizetések nem lejártak (ahogyan a webes előfizetések is), amely alatt a szolgáltatások továbbra is működnek, de az előfizetés nem hoz létre számlázási díjakat. A CSP-előfizetések aktívak vagy fel vannak függesztve (vagy teljesen törölve vannak).
 
-A licenc-alapú SaaS-előfizetéseket a partner Center [kereskedelmi piactéren](csp-commercial-marketplace-overview.md)található külső gyártóktól származó ISV-gyártóktól is megszakíthatja. Ha a lemondási időszakon belül megszakítja a megszakítást, teljes visszatérítést fog kapni.
+### <a name="cancel-a-subscription"></a>Előfizetés lemondása
 
-Az ISV-ajánlatokhoz havonta számlázunk:
+A licencalapú SaaS-előfizetéseket a kereskedelmi piactéren található külső isV-közzétevőktől Partnerközpont [le.](csp-commercial-marketplace-overview.md) A lemondási időszakon belül teljes visszatérítést kap.
 
-- Ha kevesebb, mint 24 órával később megszakítja a rendelést, akkor a következő számlán teljes jóváírást fog kapni.
+Az ISV-ajánlatok számlázása havonta történik:
 
-- Ha a megrendelés után 24 órával később megszakítja a lemondást, a rendszer a Megújításkor ütemezi a megszakítást.
+- Ha a rendelést kevesebb mint 24 órával lemondja, a következő számlán teljes jóváírást fog kapni.
 
-Évente számlázott ajánlatok esetén:
+- Ha a rendelést 24 óránál később mondja le, a lemondás a megújításkor lesz ütemezve.
 
-- Ha kevesebb mint 14 nappal megszakítja a rendelést, akkor a következő számlán teljes jóváírást fog kapni.
+Az évente számlázható ajánlatokhoz:
 
-- Ha a megrendelés elvégzése után 14 napon belül megszakítja a megszakítást, a rendszer a Megújításkor ütemezi a lemondást.
+- Ha a rendelést kevesebb, mint 14 nappal lemondja, a következő számlán teljes jóváírást fog kapni.
 
-Ezen időszakok átadása után már nem jelenik meg az előfizetés megszakításának lehetősége.
+- Ha a rendelést a rendelést követően 14 napnál később mondja le, a lemondás a megújításkor lesz ütemezve.
+
+Ha ezek az időszakok véget érnek, többé nem lesz lehetősége megszüntetni az előfizetést.
 
 > [!NOTE]
-> A használaton alapuló és mért, külső gyártótól származó ISV-szolgáltatások (például a virtuális gépeket vagy tárolókat használó) nem jogosultak a visszatérésre. A használaton alapuló szolgáltatások visszavonási módszerként is kihelyezhetők. Mivel a díjak számlázása használat után történik, ezek a szolgáltatások nem jogosultak visszatérítésre.
+> A használatalapú és forgalmi díjas, külső isV-szolgáltatások (amelyek például virtuális gépeket vagy tárolókat használnak) nem jogosultak a visszaküldésre. A használatalapú szolgáltatások kiépítve megszakítási módszerként is fel lehet szabad használni. Mivel a díjakat használat után számlázjuk, ezek a szolgáltatások nem jogosultak visszatérítésre.
 
 Ha törölni szeretne egy licencalapú SaaS-előfizetést egy ISV-kiadóból, tegye a következőket:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
 3. Keresse meg a megszüntetni kívánt előfizetést.
 
-4. Az **állapot** oszlopban válassza a **Mégse** lehetőséget. Küldje el a módosításokat a **Küldés** gombbal.
+4. Az Állapot **oszlopban** válassza a **Mégse lehetőséget.** Küldje el a módosításokat a **Küldés** gombbal.
 
-5. Ha megjelenik egy párbeszédpanel, töltse ki a megfelelő részleteket, majd válassza a **Küldés** lehetőséget.
+5. Ha megjelenik egy párbeszédpanel, adja meg a vonatkozó adatokat, majd válassza a **Küldés lehetőséget.**
 
-6. A törlés megerősítéséhez válassza az **Igen,** majd a Mégse gombot.
+6. A lemondás megerősítéséhez válassza az **Igen, lemondás lehetőséget.**
 
 > [!NOTE]
-> Dönthet úgy is, hogy megszakítja az Azure Marketplace-előfizetést API-k használatával. Ehhez tekintse meg [Az Azure Marketplace-előfizetés megszakítása](/partner-center/develop/cancel-an-azure-marketplace-subscription)című témakört.
+> Dönthet úgy is, hogy API-Azure Marketplace lemond egy előfizetést. Lásd: Előfizetés [lemondása Azure Marketplace.](/partner-center/develop/cancel-an-azure-marketplace-subscription)
 
-### <a name="choose-whether-to-automatically-renew-a-commercial-marketplace-subscription"></a>Válassza ki, hogy a kereskedelmi piactér-előfizetés automatikusan megújuljon-e
+### <a name="choose-whether-to-automatically-renew-a-commercial-marketplace-subscription"></a>Annak kiválasztása, hogy a rendszer automatikusan megújítsa-e a kereskedelmi piactér-előfizetést
 
-Alapértelmezés szerint az aktív előfizetések úgy vannak beállítva, hogy az előfizetési időszak lejáratakor automatikusan megújuljanak. A [kereskedelmi piactér termékeire való előfizetések](csp-commercial-marketplace-overview.md)esetén dönthet úgy is, hogy nem újítja meg automatikusan az előfizetést.
+Alapértelmezés szerint az aktív előfizetések úgy vannak beállítva, hogy az előfizetési időszak lejáratakor automatikusan megújuljanak. A [kereskedelmi piactéri termékekre való előfizetések esetén](csp-commercial-marketplace-overview.md)dönthet úgy is, hogy nem újítja meg automatikusan az előfizetést.
 
-Aktív kereskedelmi piactér-előfizetés leállítása automatikus megújítással:
+Egy aktív kereskedelmi piactér-előfizetés automatikus megújításának megállítása:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. Válassza az **Előfizetések** lehetőséget. Ez felsorolja az ügyfél számára megvásárolt licenc-alapú előfizetéseket.
+3. Válassza az **Előfizetések** lehetőséget. Ez felsorolja az ügyfél számára megvásárolt licencalapú előfizetéseket.
 
-4. Az **előfizetés** oszlopban válassza ki a módosítani kívánt előfizetést.
+4. Az Előfizetés **oszlopban** válassza ki a módosítani kívánt előfizetést.
 
-5. Az előfizetés részletei oldalon keresse meg az **állapot** szakaszt, és törölje az **automatikus megújítás** jelölőnégyzet jelölését.
+5. Az előfizetés részleteit tartalmazó lapon keresse meg az **Állapot szakaszt,** és törölje a jelölést az **Automatikus megújítás jelölőnégyzetből.**
 
 6. Válassza a **Küldés** lehetőséget.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Kereskedelmi piactéren vásárolt termékek vásárlása ügyfelei számára](csp-commercial-marketplace-purchase.md)
+- [Kereskedelmi piactéri termékek vásárlása az ügyfelek számára](csp-commercial-marketplace-purchase.md)
 
-- [Kereskedelmi piactér-termékek kezelése ügyfelei számára](csp-commercial-marketplace-manage.md)
+- [Kereskedelmi piactéri termékek kezelése az ügyfelek számára](csp-commercial-marketplace-manage.md)
 
 - [Kereskedelmi piactér áttekintése](csp-commercial-marketplace-overview.md)

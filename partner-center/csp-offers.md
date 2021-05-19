@@ -1,133 +1,129 @@
 ---
-title: Partneri ajánlatok a CSP programban
+title: Partneri ajánlatok a CSP-programban
 ms.topic: article
 ms.date: 06/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A CSP program partnereként megismerheti a Microsoft Cloud Services egyre növekvő katalógusát, és az ügyfelek számára is értékesíthető ajánlatokat kínál.
+description: CSP-programpartnerként ismerje meg a Microsoft felhőszolgáltatásai egyre bővülő katalógusát és az ügyfeleknek értékesíthet ajánlatokat.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: c5617bbec82bd8e4b6fbeb2e6a33608889f14502
-ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
+ms.openlocfilehash: 57cddcaf13431b0e61ef1573a4dd54b229c7e097
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106964340"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147632"
 ---
 # <a name="overview-of-partner-offers-in-the-cloud-solution-provider-program"></a>Partnerajánlatok áttekintése a felhőszolgáltatói programban
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazdai | Értékesítési ügynök
 
-- Felügyeleti ügynök
-- Globális rendszergazda
-- Értékesítési ügynök
+Az Felhőszolgáltató (CSP) microsoftos partnerei egyre bővülő ajánlatkatalógussal érhetők el. Értékesítheti a [Microsoft](https://partner.microsoft.com/cloud-solution-provider/products-and-services)összes felhőszolgáltatását, valamint számos más, gyakran megváltozó ajánlatot. Az aktuális hónapRA vonatkozó CSP-ajánlatokért jelentkezzen be a Partnerközpont, majd a [**Díjszabás és ajánlatok oldalra.**](https://partnercenter.microsoft.com/pcv/sales)  
 
-A felhőalapú megoldás-szolgáltatói programban (CSP) elérhető Microsoft-partnerek egyre több katalógust biztosítanak számukra. A [Microsoft Cloud Services](https://partner.microsoft.com/cloud-solution-provider/products-and-services)teljes skáláját, valamint a gyakran változó egyéb ajánlatokat is megadhatja. Az aktuális hónaphoz tartozó CSP-ajánlatok megtekintéséhez jelentkezzen be a partner Centerbe, majd lépjen a [**díjszabás és ajánlatok**](https://partnercenter.microsoft.com/pcv/sales) oldalra.  
-
-Még nincs regisztrálva a Cloud Solution Provider programban? A regisztrálással kapcsolatos további információkért látogasson el a [Cloud Solution Provider](https://partner.microsoft.com/cloud-solution-provider) webhelyre. 
+Még nincs regisztrálva a Felhőszolgáltató programba? A [Felhőszolgáltató](https://partner.microsoft.com/cloud-solution-provider) további részletekért látogasson el a Felhőszolgáltató webhelyre. 
 
 >[!NOTE]
->2020. január 31-ig minden ügyfélnek alá kell írnia a Microsoft ügyfél-szerződést. Ez magában foglalja a meglévő ügyfeleket és újakat is. További információért olvassa el [a Microsoft ügyfél-szerződés elfogadásának megerősítése](confirm-customer-agreement.md) című témakört.
+>2020. január 31-től minden ügyfélnek alá kell írnia a Microsoft Ügyfélszerződés. Ez magában foglalja a meglévő ügyfeleket és az újakat is. További tudnivalókért olvassa el A feltételek ügyfél általi elfogadásának [megerősítése Microsoft Ügyfélszerződés](confirm-customer-agreement.md)
 
 ## <a name="what-you-can-sell-through-csp"></a>Mi értékesíthető CSP-n keresztül?
 
-Jelenleg a következő típusú termékek és szolgáltatások adhatók meg a CSP ügyfeleinek:
+Jelenleg a következő típusú termékeket és szolgáltatásokat értékesítheti CSP-ügyfeleinek:
 
 ### <a name="azure-reservations"></a>Azure Reserved Virtual Machine Instances
 
-   Az Azure Virtual Machines szolgáltatásban az ügyfelek 1 vagy 3 éves időszakra foglalhatnak előre helyet.
+   Az ügyfelek 1 vagy 3 éves időtartamra előre lefoglalhat helyet az Azure-beli virtuális gépeken.
 
-   További információ: [Sell Microsoft Azure Reserved VM instances](azure-reservations.md).
+   További információ: [Fenntartott virtuálisgép-példányok Microsoft Azure értékesítés.](azure-reservations.md)
 
 ### <a name="software"></a>Szoftverek
 
-   Az ügyfelek az Azure Reserved VM instances szolgáltatásban vásárolhatnak szoftveres előfizetéseket (Windows Serverre és SQL Serverre, 1 vagy 3 éves időszakra).
+   Az ügyfelek vásárolhatnak szoftver-előfizetéseket (a Windows Serverre és SQL Server egy vagy 3 éves időtartamra, hogy Azure-beli fenntartott virtuálisgép-példányon fusson).
 
-   További információ: a [szoftveres előfizetések értékesítése a CSP](csp-software-subscriptions.md)-n keresztül.  
+   További információ: [Szoftver-előfizetések eladása CSP-n keresztül.](csp-software-subscriptions.md)  
 
 ### <a name="online-services"></a>Online szolgáltatások
 
-   Az *online szolgáltatások* az új név, amit a jelenleg *előfizetésnek* nevezünk. Ahhoz, hogy egy helyen egyszerre több típusú terméket rendeljen, az "előfizetés hozzáadása" feladatnak a "termékek hozzáadása" feladatba való integrálásával.
+   *Az online* szolgáltatások az új neve, amit jelenleg előfizetésnek *nevezünk.* Annak érdekében, hogy több terméktípust egy helyen rendeljen meg, az "Előfizetés hozzáadása" feladatfolyamot integráltuk a "Termékek hozzáadása" feladatfolyamba.
 
-   További információ: ügyfél- [előfizetések](customer-subscriptions.md).
+   További információ: [Ügyfél-előfizetések.](customer-subscriptions.md)
 
-### <a name="software-as-a-service-saas-and-other-azure-marketplace-products"></a>Szolgáltatott szoftver (SaaS) és egyéb [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace) -termékek
+### <a name="software-as-a-service-saas-and-other-azure-marketplace-products"></a>Szolgáltatott szoftver (SaaS) és egyéb [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace) termékek
 
-   Az SaaS-termékekre a független szoftvergyártók (ISV-ket) által is értékesítheti az előfizetéseket. Ha csak a SaaS-ajánlatokat szeretné megtekinteni az **online szolgáltatásokban**, a szűrők használatával állíthatja be a **közzétevőt** a **partnernek**. Ez megjeleníti az adott ügyfél számára megvásárolható SaaS-ajánlatokat.
+   SaaS-termékekre való előfizetéseket független szoftverszállítóktól (ISV-ktől) értékesíthet. Ha csak az SaaS-ajánlatokat látja **az online szolgáltatásokban,** a szűrőkkel állítsa a **Közzétevőt** **Partnerre.** Ez az ügyfél számára megvásárolható összes SaaS-ajánlatot meg fogja mutatni.
 
-   Ezen termékekről a **piactér** oldalon talál információt.
+   Ezekről a termékekről a **Marketplace** oldalon is talál információt.
 
 >[!NOTE] 
->Ezen a lapon más típusú termékekkel kapcsolatos információk is szerepelnek, amelyeket a Azure Portaltól kell megvásárolni, nem pedig a partneri központból.
+>Ez az oldal olyan egyéb típusú termékekről is tartalmaz információkat, amelyek nem a Azure Portal, hanem Partnerközpont.
 
-További információ: [a CSP kereskedelmi piactér áttekintése](CSP-commercial-marketplace-overview.md)
+További információ: [A CSP](CSP-commercial-marketplace-overview.md) kereskedelmi piactér áttekintése
 
-## <a name="add-products-page-details"></a>Termékek hozzáadása lap részletei
+## <a name="add-products-page-details"></a>Termékek oldalának részleteinek hozzáadása
 
-Az alábbi lista felsorolja a **termékek hozzáadása** oldalon található új területeket.
+Az alábbi lista a Termékek hozzáadása oldalon található új **területeket sorolja** fel.
 
-**Termékek hozzáadása** – ezen a lapon minden olyan típusú termék elérhető, amelyet az ügyfelek számára szeretne értékesíteni
+**Termékek hozzáadása** – Ez az oldal tartalmazza az ügyfelek számára értékesíthető termékek összes típusát
 
-**Termékkategóriák**  -  **Azure, online szolgáltatások, szoftver** Válassza ki az Önt érdeklő termék típusát, hogy csak ezeket a termékeket jelenítse meg
+**Termékkategóriák**  -  **Azure, Online services, Software** Válassza ki a kívánt terméktípust, hogy csak ezeket a termékeket jelenítse meg
 
-**Szegmens** – azonosítja az általános típust, például a kereskedelmi vagy kormányzati tevékenységet, amelyet el szeretne adni
+**Szegmens** – Azonosítja az általános üzleti típust, például a kereskedelmi vagy kormányzati vállalatot, amely számára értékesíteni kíván
 
-**Közzétevő** – válassza ki, hogy milyen típusú termékeket szeretne látni: a Microsoft vagy harmadik féltől származó közzétevők által létrehozott alkalmazások
+**Közzétevő** – Válassza ki, hogy milyen típusú termékeket szeretne látni – a Microsoft vagy külső közzétevők által létrehozott alkalmazásokat
 
-**Számlázási típus** – meghatározza, hogy a termék díjköteles-e a licencek száma vagy a használat esetében
+**Számlázási típus** – Meghatározza, hogy a termék a licencek száma alapján van-e kiszámlázva, vagy használat alapján van-e kiszámlázva
 
-**Kategória** – azonosítja a termék által támogatott üzleti típust, valamint azt, hogy próbaverziós verziót kínál-e
+**Kategória** – Azonosítja a termék által támogatott üzleti típust, és hogy a termék próbaverziót kínál-e
 
-**SKU megtekintése, termék megtekintése** – válassza ki a termék-és SKU-listák közötti váltáshoz. A **Products (termékek** ) lapon egyenként listázhatja az egyes termékeket; Az **SKU** a termékcsoportok listáját tartalmazza.
+**Termékváltozat megtekintése, termék megtekintése** – Ezzel a beállítással válthat a termék- és termékváltozat-listák között. A **Termékek lap** egyenként listázza az egyes termékeket; **A termékváltozat termékcsoportokat** listázza.
 
 ## <a name="buy-csp-offers"></a>CSP-ajánlatok vásárlása
 
-Ha termékeket és szolgáltatásokat szeretne megvásárolni a CSP ügyfeleinek nevében, válassza ki az ügyfél által kívánt elemeket, adja hozzá őket a kosárhoz, amely létrehoz egy rendelést, majd áttekinti és elküldi a rendelést. Az általános folyamat az alábbiakban olvasható. (Egy adott terméktípus rendeléseivel kapcsolatos további információkért lásd a fenti hivatkozásokat.)
+Ha a CSP-ügyfelek nevében szeretne termékeket és szolgáltatásokat vásárolni, válassza ki azokat az elemeket, amelyeket az ügyfél szeretne, adja hozzá őket a kosárhoz, amely létrehoz egy megrendelést, majd tekintse át és küldje el a rendelést. Az általános folyamatot az alábbiakban ismertetjük. (Egy adott terméktípusra vonatkozó rendelésekkel kapcsolatos további információkért tekintse meg a fenti hivatkozásokat.)
 
 >[!NOTE]
->A CSP-ajánlatnak elérhetőnek kell lennie a bérlő országában és az ügyfél bérlői országában. Ha például a bérlője Szlovákiában található, és az ügyfél bérlője Németországban van, akkor a Dynamics 365 Business Central Premium nem értékesíthető az ügyfél számára, mivel ez az ajánlat jelenleg nem érhető el Szlovákiában.
+>A CSP-ajánlatnak a bérlő országában és az ügyfél bérlő országában is elérhetőnek kell lennie. Ha például a bérlője Az ügyfél bérlője Németországban található, nem fogja tudni értékesíteni a Dynamics 365 Business Central Premiumot az ügyfélnek, mert ez az ajánlat jelenleg nem érhető el a Következőben.
 
-1. Válassza ki az **ügyfelek** elemet a partner Center menüben, majd keresse meg azt az ügyfelet, akit szeretne megvásárolni. 
+1. Válassza **az Ügyfelek** Partnerközpont menüből, majd keresse meg azt az ügyfelet, aki meg szeretne vásárolni Öntől. 
 
-2. Válassza ki az ügyfél sor végén lévő lefelé mutató nyilat az ügyfél rekordjának kibontásához, majd válassza a **termékek hozzáadása** elemet. Ezzel elkezdődik a rendelés létrehozása. Egy rendelés több különböző típusú tételt is tartalmazhat, de mindegyiknek ugyanahhoz az ügyfélhez kell tartoznia.
+2. Az ügyfél rekordját az ügyfél sorának végén lévő lefelé mutató nyílra kattintva bontsa ki, majd válassza a **Termékek hozzáadása lehetőséget.** Ezzel elkezdődik a rendelés létrehozása. Egy rendelés több különböző típusú tételt is tartalmazhat, de mindegyiknek ugyanahhoz az ügyfélhez kell tartoznia.
 
-3. A **termékek hozzáadása** lapon válassza az **Azure**, **online szolgáltatások** vagy **szoftverek** elemet.
+3. A Termékek **hozzáadása lapon** válassza az **Azure,** **online szolgáltatások** vagy Szoftver **lehetőséget.**
 
-4. Az elérhető szűrők finomhangolásával könnyebben megtalálhatja a keresett termékeket. A rendelkezésre álló elemek teljes listájának megjelenítéséhez állítsa a megfelelő szűrőket **bármelyikre**.
+4. Finomhangolja az elérhető szűrőket, hogy könnyebben megtalálja a keresett termékeket. Az elérhető szűrők teljes listájának a teljes listájához állítsa a vonatkozó szűrőket bármely **szűrőre.**
 
-5. Válassza ki az ügyfél által keresett terméket, adja meg a kívánt mennyiséget, majd válassza a **Hozzáadás a kosárhoz** lehetőséget.
+5. Válassza ki a terméket, amit az ügyfél szeretne, adja meg a kívánt mennyiséget, majd válassza a **Hozzáadás a kosárhoz lehetőséget.**
 
-6. Ismételje meg a 4. és az 5. lépést, amíg hozzá nem adta az összes szükséges elemet a kosárhoz. A megrendelés helyességének ellenőrzéséhez válassza az **Áttekintés** lehetőséget.  
+6. Ismételje meg a 4. és az 5. lépést, amíg az összes szükséges elemet hozzá nem adott a kosárhoz. Válassza **az Áttekintés** lehetőséget a rendelés helyességének ellenőrzéséhez.  
 
-7. A **megrendelések áttekintése** lapon ellenőrizze vagy módosítsa a termékeket és a mennyiséget, majd válassza a **vásárlás** lehetőséget a megrendelés megvásárlásához.
+7. A Megrendelések **áttekintése lapon** ellenőrizze vagy módosítsa a termékeket  és a mennyiséget, majd válassza a Vásárlás lehetőséget a megrendelés megvásárlásához.
 
-8. A következő oldalon megjelennek a megrendelés részletei, beleértve a megrendelés számát is. A **kész** gombra kattintva lépjen a **rendelési előzmények** lapra.
+8. A rendelés részletei, beleértve a rendelés számát is, a következő oldalon jelennek meg. A **Rendelési** előzmények oldalra **való ugráshoz** válassza a Kész lehetőséget.
 
-### <a name="customer-order-history"></a>Vevői rendelés előzményei
+### <a name="customer-order-history"></a>Ügyfélrendelési előzmények
 
 Az ügyfél rendelési előzményeinek megtekintése:
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
-2. A bal oldali menüben válassza az **ügyfelek** lehetőséget.
-3. Az **ügyfelek** lapon keresse meg azt az ügyfelet, amelynek a megtekinteni kívánt előzményeit meg szeretné tekinteni. Kattintson a lefelé mutató nyílra az ügyfél rekordjának kibontásához.
-4. A **megrendelések megtekintése** elemre kattintva megjelenítheti az ügyfél rendelési előzményeit.
+2. A bal oldali menüben válassza az Ügyfelek **lehetőséget.**
+3. Az Ügyfelek **lapon** keresse meg azt az ügyfelet, akinek a rendeléselőzményét meg szeretné tekinteni. A lefelé mutató nyílra kattintva bontsa ki az ügyfél rekordját.
+4. Válassza **a Megrendelések megtekintése lehetőséget** az ügyfél rendelési előzményeinek megjelenítéséhez.
  
-## <a name="rules-for-special-segments"></a>Speciális szegmensek szabályai
+## <a name="rules-for-special-segments"></a>Különleges szegmensekre vonatkozó szabályok
 
-Egyes licenc-alapú ajánlatokat csak bizonyos körülmények között lehet megvásárolni. A Speciális szegmensek közé tartoznak az oktatási, non-profit vagy Government közösségi felhő (GCC) ajánlatok. Ezekről a vásárlási feltételekről a [speciális szegmensekre vonatkozó vásárlási szabályokban találhat további](get-special-pricing-for-offers.md#purchase-rules-for-special-segments)információt.
+Egyes licencalapú ajánlatok csak bizonyos feltételek mellett vásárolhatók meg. A speciális szegmensekre vonatkozó ajánlatok közé tartoznak az Oktatási, Nonprofit vagy Government Community Cloud (GCC) ajánlatok. Ezeknek a vásárlási feltételeknek a részletei a speciális szegmensek vásárlási szabályai [témakörben találhatók.](get-special-pricing-for-offers.md#purchase-rules-for-special-segments)
 
-## <a name="troubleshooting-catalog-purchases"></a>A katalógus vásárlásának hibaelhárítása
+## <a name="troubleshooting-catalog-purchases"></a>Katalógusvásárlások hibaelhárítása
 
-Különböző okai lehetnek annak, ha nem találja a katalógusban a keresett ajánlatot. Az alábbiakban áttekintheti, hogy a várt ajánlat nem található-e.
+Különböző okai lehetnek annak, ha nem találja a katalógusban a keresett ajánlatot. Az alábbiakban néhány dolgot kell ellenőrizni, hogy nem találja-e a várt ajánlatot.
 
-- **Ügyfél jogosultságának ellenőrzése** Számos ajánlat különleges minősítést követel meg az ügyfelektől a vásárláshoz. Ezek a Speciális szegmensek például az oktatási, a nonprofit és a kormányzati közösségi felhő (GCC). A probléma feljegyzése előtt győződjön meg arról, hogy az ügyfél jogosultságai megfelelően be vannak állítva. Ezt úgy is megtekintheti, ha kijelöli az ügyfelet az ügyfél listából, és megtekinti a fiókot. A fiókban talál egy Különleges jogosultságok részt, amennyiben van ilyen. Ha olyan ügyfél számára próbál meg Oktatási terméket vásárolni, aki arra nem jogosult, nem fogja látni az ajánlatot a katalógusban. Az ügyfelek minősítésével kapcsolatos további információkért tekintse meg a [Speciális szegmensek dokumentációját](get-special-pricing-for-offers.md).
-- **Bővítményt vagy alapajánlatot próbál vásárolni?** A licenc-alapú szolgáltatások, például a Microsoft 365 és a Dynamics 365 lehetővé teszik a katalógus megvásárlását is az alapszintű ajánlatok és bővítmények számára. Csak az alapajánlatok vásárolhatók meg a katalógusból. A bővítmények megvásárlásához győződjön meg arról, hogy először megvásárolja az alapajánlatot a katalógusban, majd válassza ki az ügyfelet az ügyfél listából, majd válassza ki az előfizetést az alap ajánlathoz. A bővítményeket az előfizetések kezelése oldalon lehet alkalmazni az alapajánlatra. 
+- **Ügyfél jogosultságának ellenőrzése** Számos ajánlat különleges minősítést követel meg az ügyfelektől a vásárláshoz. Ezek a speciális szegmensek közé tartozik az Oktatás, a Nonprofit és a Government Community Cloud (GCC). A probléma feljegyzése előtt győződjön meg arról, hogy az ügyfél jogosultságai megfelelően be vannak állítva. Ezt úgy ellenőrizheti, ha kiválasztja az ügyfelet az ügyféllistából, és megtekinti a fiókot. A fiókban talál egy Különleges jogosultságok részt, amennyiben van ilyen. Ha olyan ügyfél számára próbál meg Oktatási terméket vásárolni, aki arra nem jogosult, nem fogja látni az ajánlatot a katalógusban. Az ügyfelek minősítésével kapcsolatos további információkért tekintse meg a speciális [szegmensek dokumentációját.](get-special-pricing-for-offers.md)
+- **Bővítményt vagy alapajánlatot próbál vásárolni?** Számos licencalapú szolgáltatás, például a Microsoft 365 és a Dynamics 365 egyaránt lehetővé teszi az alap ajánlatok és bővítmények katalógusban való megvásárlását. Csak az alapajánlatok vásárolhatók meg a katalógusból. Bővítmények vásárlásához először vásárolja meg az Alapajánlatot a katalógusban, majd válassza ki az ügyfelet az ügyféllistából, majd válassza ki az alapajánlathoz tartozó előfizetést. A bővítményeket az előfizetések kezelése oldalon lehet alkalmazni az alapajánlatra. 
 - **Ellenőrizze, hogy a termékek elérhetők-e a saját piacán.** Számos termék és szolgáltatás úgy van konfigurálva, hogy csak adott országokban lévő ügyfelek számára legyen elérhető. A támogatott országok/régiók listáját a különböző árlistafájlokban találja. A licencalapú szolgáltatások által támogatott országok/régiók a díjszabás és ajánlatok oldal Ajánlatlista mátrixában találhatók.
-- **Ellenőrizze, hogy az ajánlatok elérhetők-e az árlistában.** Az elérhető ajánlatok listája hónapról hónapra változhat. Ha nem talál ajánlatot a katalógusban, ellenőrizze, hogy elérhető-e az **értékesítési > díjszabás és ajánlatok** oldalon található aktuális árlista listában.
+- **Ellenőrizze, hogy az ajánlatok elérhetők-e az árlistában.** Az elérhető ajánlatok listája hónapról hónapra változhat. Ha nem talál ajánlatot a katalógusban, ellenőrizze, hogy az elérhető-e az Értékesítés > **ajánlatok** oldalon.
 
-### <a name="recommended-documents-related-to-purchasing-items-in-the-partner-center"></a>A partner Centerben megvásárolt termékekkel kapcsolatos ajánlott dokumentumok
+### <a name="recommended-documents-related-to-purchasing-items-in-the-partner-center"></a>Ajánlott dokumentumok az alkalmazáson Partnerközpont
 
 - [Díjszabás és ajánlatok a Partnerközpontban](pricing-and-offers.md)
 - [Partnerajánlatok áttekintése a felhőszolgáltatói programban](csp-offers.md)
@@ -137,6 +133,6 @@ Különböző okai lehetnek annak, ha nem találja a katalógusban a keresett aj
 
 ## <a name="next-steps"></a>Következő lépések
 
-A számlázási folyamat működésével kapcsolatos információkért lásd: a [számlázás alapjai](billing-basics.md).
+További információ a számlázási folyamatról: [A számlázás alapjai.](billing-basics.md)
 
-Az Azure-csomag megvásárlásával kapcsolatos információkért lásd: [Az Azure-csomag megvásárlása](purchase-azure-plan.md).
+További információ az Azure-csomag keretében való vásárlásról: [Az Azure-csomag megvásárlása.](purchase-azure-plan.md)

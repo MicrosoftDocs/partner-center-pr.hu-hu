@@ -1,109 +1,106 @@
 ---
-title: Kereskedelmi Piactéri termékek számlázása
+title: A kereskedelmi piactéri termékek számlázása
 ms.topic: article
 ms.date: 05/12/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan működik a számlázás a partner centeren belül a kereskedelmi piactéren vásárolt ISV SaaS-termékek vagy-előfizetések esetében.
+description: Megtudhatja, hogyan működik a számlázás az ügyfelek számára a kereskedelmi piactéren vásárolt ISV SaaS-termékek vagy -előfizetések esetében a Partnerközpont.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 10592c7f8a3b1f075bc726161603859552b29961
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: c25d4ab3077c6a0f648c767472e8b7b60ef53a9c
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979532"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148023"
 ---
-# <a name="billing-for-commercial-marketplace-products-and-subscriptions-in-partner-center"></a>Kereskedelmi piactér-termékek és-előfizetések számlázása a partner Centerben
+# <a name="billing-for-commercial-marketplace-products-and-subscriptions-in-partner-center"></a>A kereskedelmi piactéren elérhető termékek és előfizetések számlázása a Partnerközpont
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Számlázási rendszergazda
 
-- Globális rendszergazda
-- Számlázási adminisztrátor
+A CSP-programban partnerként a Partnerközpont licencalapú SaaS-termékeket vásárolhat az ISV-közzétevőktől a kereskedelmi piactéren. Ezt követően hozzáférhet az ilyen típusú vásárlások számláihoz. A számlázási időszak a naptári hónap első napján kezdődik, és a naptári hónap utolsó napján ér véget. A számlák a következő hónap 8. napján érhetők el.
 
-A CSP program partnereként a partner Center használatával vásárolhat licenc alapú SaaS-termékeket a kereskedelmi piactéren található ISV-közzétevők közül. Ezt követően elvégezheti az ilyen típusú vásárlásokhoz tartozó számla elérését. A számlázási időszak a naptári hónap első napján kezdődik, és a naptári hónap utolsó napján ér véget. A számlák a következő hónap 8. napján lesznek elérhetők.
+A számlákat elérheti a Partnerközpont [irányítópultjáról](https://partner.microsoft.com/dashboard/) vagy a Partnerközpont [API-k használatával.](/partner-center/develop/)
 
-A partner Center- [irányítópultról](https://partner.microsoft.com/dashboard/) vagy a [partner Center API](/partner-center/develop/)-k használatával is elérheti a számlákat.
-
-A CSP programban részt vevő partnerek számlázása akkor történik meg, ha az ügyfél a partner központból vagy a Azure Portalból vásárolja meg ezeket a termékeket (az ügyfél korábbi, CSP-megvásárolt Azure-bérlőjét használva).
+A CSP-programban részt vevő partnereknek akkor kell fizetniük az ügyfelek számára megvásárolt, isV kereskedelmi piactéri megoldásokért, amikor megvásárolják ezeket a termékeket az Partnerközpont-tól vagy a Azure Portal-től (az ügyfél korábbi, CSP által megvásárolt Azure-bérlője használatával).
 
 >[!NOTE]
->Ha az ügyfelek saját Azure AD-bérlőt használnak (a CSP program egyik partnere sem vásárolja meg), az ügyfelek a saját ISV SaaS-megoldást közvetlenül a ([Microsoft AppSource](https://appsource.microsoft.com/) vagy az [Azure Marketplace](https://azuremarketplace.microsoft.com/)-ről) is megvásárolhatják. Ha így tesznek, akkor közvetlenül a Microsofttól kapják meg a számláját. Hasonlóképpen, ha a CSP program egyik partnere eladja az Azure-előfizetést vagy az új Azure-csomagot az ügyfél számára, és az ügyfél (vagy közvetett viszonteladó) [szerepkör-alapú hozzáférést](/azure/role-based-access-control/built-in-roles) biztosít az adott bérlőhöz (az **olvasón** kívül bármely szerepkört rendel az ügyfélhez), az ügyfél (vagy közvetett viszonteladó) is vásárolhat kereskedelmi PIACTÉRi ajánlatokat a CSP-partnernek előzetes jóváhagyás vagy értesítés nélkül Ezekben az esetekben a Microsoft nem értesíti közvetlenül a partnereket a CSP programban az ügyfelek által végzett vásárlásokról. A Microsoft azonban opcionális [Azure monitor](/azure/azure-monitor/platform/alerts-activity-log) mechanizmust is kínál, amellyel riasztásokat vagy értesítéseket állíthat be az Azure-előfizetések tevékenységeivel kapcsolatban.
+>Ha az ügyfelek a saját Azure AD-bérlőjüket használják (nem a CSP-programban egy partnertől vásároltat), az ügyfelek dönthetnek úgy is, hogy közvetlenül a (Microsoft AppSource vagy a Azure Marketplace) webhelyről vásárolják meg a saját ISV[](https://appsource.microsoft.com/) SaaS-megoldásukat. [](https://azuremarketplace.microsoft.com/) Ha így történik, közvetlenül a Microsofttól kapják meg a saját számlájukat. Hasonlóképpen, ha a CSP-programban egy partner egy Azure-előfizetést vagy új [Azure-tervet](/azure/role-based-access-control/built-in-roles) értékesít az ügyfélnek, és szerepköralapú hozzáférést biztosít az ügyfélnek (vagy közvetett viszonteladónak) az adott bérlőhöz (az Olvasón kívül bármely szerepkört hozzárendel az ügyfélhez), az ügyfél (vagy közvetett viszonteladó) előzetes jóváhagyás vagy értesítés nélkül is vásárolhat kereskedelmi piactéri ajánlatokat. Ezekben az esetekben a Microsoft nem értesíti közvetlenül a CSP-programban részt vevő partnereket az ügyfeleik vásárlásairól. A Microsoft azonban nem kötelezően [Azure Monitor](/azure/azure-monitor/platform/alerts-activity-log) mechanizmust, amely segítségével riasztásokat vagy értesítéseket állíthat be egy Azure-előfizetésen végzett tevékenységgel kapcsolatban.
 
-## <a name="access-billing-information-for-commercial-marketplace-products"></a>Hozzáférés a kereskedelmi Piactéri termékek számlázási adataihoz
+## <a name="access-billing-information-for-commercial-marketplace-products"></a>Hozzáférés a kereskedelmi piactéren elérhető termékek számlázási adataihoz
 
-A vállalat globális rendszergazdája vagy számlázási rendszergazdája e-mailt fog kapni, ha a számla készen áll a megtekintésre. A kereskedelmi piactéren vásárolt termékek legutóbbi számlázási és egyeztetési fájljának elérése:
+A vállalat globális rendszergazdája vagy számlázási rendszergazdája e-mailt kap, ha a számla készen áll a megtekintésre. A kereskedelmi piactéri termékvásárlások legfrissebb számla- és egyeztetési fájlja:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/).
+1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A partner Center menüben válassza a **számlázás** lehetőséget. 
+2. A Partnerközpont válassza a Számlázás **lehetőséget.** 
 
-    A számlázási oldal tetején két lap jelenik meg: **ismétlődő** és **ismétlődő, egyszeri vásárlás**. Mindegyik lapon elérhetővé válik a különböző Piactéri termékekhez tartozó számla-és egyeztetési (Recon) fájlok:
+    A Számlázás lap tetején két lap **látható:** Ismétlődő és **Ismétlődő és egyszeri vásárlások.** Minden lapon hozzáférhet a különböző Marketplace-termékekhez tartozó számlákhoz és egyeztetési (recon) fájlokhoz:
 
-    - **Ismétlődő** lap: az Office 365, a Microsoft 365, a Dynamics 365, a Azure Active Directory, a Power bi Pro és a Microsoft Azure szolgáltatáshoz kapcsolódó előfizetések számlázási és egyeztetési fájljait jeleníti meg.
+    - **Ismétlődő** lap: Az Office 365,Microsoft 365, Dynamics 365, Azure Active Directory, Power BI Pro és Microsoft Azure.
 
-    - **Ismétlődő és egyszeri vásárlás** lap: az Azure-csomag, az Azure-foglalások, a szoftverek és a kereskedelmi piactér-termékek számlázási és egyeztetési fájljait jeleníti meg.
+    - Ismétlődő és egyszeri vásárlások lap: Az **Azure-csomag,** az Azure Reservations, a szoftverek és a kereskedelmi piactéri termékek számla- és egyeztetési fájljait jeleníti meg.
   
-3. Válassza az **ismétlődő és egyszeri vásárlás** lapot. Ha más pénznemben vásárolt egy ügyfél előfizetéseit, megjelenik az egyes pénznemek lapja. Ezt az oldalt elvégezheti:
+3. Válassza az **Ismétlődő és egyszeri vásárlások** lapot. Ha egy ügyfél számára más pénznemben vásárolt előfizetéseket, minden pénznemhez fog egy lapfület látni. Ezen az oldalon néhány dolgot is meg tud tenni:
 
-    - A legutóbbi számla-és egyeztetési fájl megtekintéséhez válassza a **számla** vagy a **megbékélési fájl** elemet. (Ha szeretné, a [partner Center API](/partner-center/develop/)-kkal is elérheti a legújabb számlázási és felderítési fájlokat.
+    - A legfrissebb számla- és egyeztetési fájl megnyitásához válassza a **Számla vagy** az **Egyeztetési fájl lehetőséget.** (Ha úgy volna, a legújabb számlaadatokhoz is hozzáférhet, és a fájladatokat a következő [API Partnerközpont tudja használni:](/partner-center/develop/).
 
-    - A korábbi számlák és a felderítési fájlok megjelenítéséhez bontsa ki az alábbi **Számlázási előzmények** sort.
+    - A korábbi számlák és a fájlok felderítéséhez bontsa ki az alábbi **Számlázási előzmények** sort.
 
-    - A becsült fiók egyenlegének vagy számlájának a legutóbbi fiók tevékenység alapján bármikori ellenőrzéséhez válasszon egy hivatkozást a **becslések** fejléc alatt.  
+    - Ha bármikor ellenőriznie kell a becsült számlaegyenlegét vagy számláját a legutóbbi fióktevékenység alapján, válasszon egy hivatkozást a **Becslések fejléc** alatt.  
 
     >[!NOTE]
-    > Ha a hónap 8. napján közzétesszük a számlát, az adót és az egyéb alkalmazandó díjakat és jóváírásokat is tartalmazza. Ez azt jelenti, hogy a végső esedékes összeg eltérhet a számlázási időszak során láthatótól.
+    > Amikor a hónap 8. napján közzétenjük a számlát, az tartalmazza az adókat, valamint az egyéb vonatkozó díjakat és jóváírásokat. Ez azt jelenti, hogy a végleges esedékesség eltérhet a számlázási időszak során láthatótól.
 
-## <a name="more-about-invoices-and-recon-files-for-commercial-marketplace-products"></a>További információ a kereskedelmi Piactéri termékekkel kapcsolatos számlákból és felderítési fájlokról
+## <a name="more-about-invoices-and-recon-files-for-commercial-marketplace-products"></a>További információ a kereskedelmi piactéri termékek számláiról és recon-fájljairól
 
-Ez a szakasz további információkat tartalmaz a harmadik féltől származó ISV-közzétevők ügyfelei számára vásárolt kereskedelmi Piactéri SaaS-előfizetések számlázási és egyeztetési fájljairól.
+Ez a szakasz további információkat tartalmaz a kereskedelmi piactéri SaaS-előfizetések számlázási és egyeztetési fájljairól, amelyek külső ISV-közzétevőktől származó ügyfelek számára vásárolhatók meg.
 
-Ha a partner Center menüjében a **számlázás** lehetőségnél az **ismétlődő és egyszeri vásárlás** lehetőséget választja, akkor a Microsoft (első féltől származó) és az ISV (harmadik féltől származó) vásárlásokhoz kapcsolódó díjakhoz is hozzáférhet a számlákon és a megbékélési fájlokhoz. Ezek a vásárlások az alábbiakhoz társíthatók:
+Ha az  Ismétlődő és egyszeri vásárlások  lehetőséget választja a Partnerközpont menü Számlázási lehetőségében, hozzáférést szerez a Microsoft (külső) és a külső (isV) vásárlásokkal kapcsolatos díjakhoz tartozó számlákhoz és egyeztetési fájlokhoz. Ezek a vásárlások a következőhöz társíthatóak:
 
-- SaaS-előfizetések (Microsoft vagy ISV-közzétevőtől)
+- SaaS-előfizetések (Microsoft- vagy ISV-közzétevőktől)
 
 - Azure-csomag
 
 - Azure Reserved Virtual Machine Instances
 
-- Egyéb előfizetés-alapú szoftverek (Microsoft vagy ISV közzétevőtől)
+- Egyéb előfizetés-alapú szoftverek (Microsoft- vagy ISV-közzétevőktől)
 
-Ilyen vásárlás például a SUSE Linux szoftver (szoftveres előfizetés) vagy egy Azure ISV SaaS-termék előfizetése lehet.
+Ilyen vásárlás például a SUSE Linux-szoftver (szoftver-előfizetés) vagy egy Azure ISV SaaS-termék-előfizetés.
 
 >[!NOTE]
-> A számlázási és a felderítési fájlok olvasásával kapcsolatos további információkért lásd még: a [számlázás áttekintése](billing.md).
+> A számlák és a felderítési fájlok olvasásának további információiért lásd még a számlázás [áttekintését.](billing.md)
 
-### <a name="tips-on-reading-your-invoice"></a>Tippek a számla olvasásához
+### <a name="tips-on-reading-your-invoice"></a>Tippek a számla elolvasása során
 
-Ha egy harmadik féltől származó ISV-közzétevőtől vásárol licenc-alapú SaaS-terméket, csak a számlán szereplő licencfeltételek díját fogja látni. Ez akkor is igaz, ha az ISV SaaS-terméke a mögöttes Azure-infrastruktúra erőforrásait használja. Ennek az az oka, hogy az ügyfél Azure-infrastruktúrájának használati díját az ISV SaaS-termékért közvetlenül az ISV-k számlázzák. (Az ISV-ket a saját Azure-használati díjakra vonatkozó, napi rendszerességgel felszámított számlázási egyeztetési fájlban láthatja.)
+Amikor licencalapú SaaS-terméket vásárol egy külső isv-közzétevőtől, csak a számlán szereplő licencdíjat fogja látni. Ez akkor is igaz, ha az ISV SaaS-terméke felhasználja (vagy felhasználja) a mögöttes Azure-infrastruktúra erőforrásait. Ennek az az oka, hogy az ügyfél Azure-infrastruktúrahasználati díjai egy isV SaaS-termékére közvetlenül az ISV-nek vannak kiszámlázva. (Az ISV-k a kapcsolódó Azure-használati díjakat a saját Azure-használatuk napi minősítésű számlaegyeztetési fájljában látják.)
 
-A számla több oldalt is tartalmaz:
+A számla több oldalt fog tartalmazni:
 
-- **A számla 1. lapja:** A CSP-Partnerprogram számlázási adatainak összegzését tartalmazza. Ez magában foglalja a számlázási időszak díjait, a számla számát, a fizetési feltételeket (nettó 60 nap) és a Számlázási fizetési módokat a vezetékes vagy ellenőrzés útján történő fizetéshez.
+- **A számla 1. oldala:** A CSP-programpartner számlázási részleteinek összefoglaló áttekintését tartalmazza. Ez magában foglalja a számlázási időszakra vonatkozó díjak összegzését, a számlaszámot, a fizetési feltételeket (60 nap) és a számlázási fizetési módokat átutalással vagy csekken történő fizetéshez.
 
-- **A számla 2. lapja (és a többi oldal):** A Microsoft és a harmadik féltől származó független szoftvergyártók (licenc-alapú) vásárlásának díjai a kereskedelmi piactéren. Az ISV-licenceken alapuló vásárlásokat a **közzétevői** sor alapján azonosíthatja az egyes termékek neve alatt. A társított egyeztetési fájl több számlázási részletet is kínál az adott számlázási díjakhoz.
+- **A számla 2.** oldala (és az azt követő oldalak): Részletes információkat tartalmaz a külső Microsoft-vásárlások és a kereskedelmi piactérről (licencalapú) harmadik féltől származó ISV-vásárlások díjairól. Az ISV-licencalapú vásárlásokat az egyes terméknév alatti **Közzétevő** sor alapján azonosíthatja. A társított egyeztetési fájl további számlázási adatokat kínál az egyes számlázási díjakról.
 
-- **A számla utolsó lapja:** Ha a licenccel rendelkező Marketplace-termékekért díjat számítunk fel egy ISV-ból, akkor ez a végső oldal további részleteket jelenít meg az ISV-közzétevő nevével és címtől kapcsolatban.
+- **A számla utolsó oldala:** Ha egy isV-től származó licencalapú Marketplace-termékekért kell fizetnie, ez az utolsó oldal további részleteket jelenít meg az ISV-közzétevő nevével és címével kapcsolatban.
 
-### <a name="tips-on-reading-your-reconciliation-file"></a>Tippek a megbékélési fájl olvasásához
+### <a name="tips-on-reading-your-reconciliation-file"></a>Tippek az egyeztetési fájl olvasmányhoz
 
-Az **ismétlődő és egyszeri beszerzések** egyeztetésére szolgáló fájl több oszlopot tartalmaz, amelyek további részleteket tartalmaznak a számlán lévő díjakra leképezve. A **közzétevő neve** oszlopban látható, hogy a vásárlás a Microsofttól vagy egy külső gyártótól származó ISV-közzétevőtől származik-e.
+Az **Ismétlődő és egyszeri vásárlások egyeztetési** fájl több oszlopot tartalmaz, amelyek további részleteket tartalmaznak, amelyek a számlán szereplő díjakra vannak leképezve. A **PublisherName oszlopban** látható, hogy a vásárlás a Microsofttól vagy egy külső isV-közzétevőtől származik.
 
-A megbékélési fájlban lévő egyes díjak $0-as költségekkel jelenhetnek meg. Ennek oka az lehet, hogy egy ISV "ingyenes próbaverzió" (általában 30 vagy 60 nap) vagy egy saját licencelési ajánlat.
+Előfordulhat, hogy az egyeztetési fájlban egyes díjak 0 usd költséggel jelennek meg. Ezt okozhatja egy isV "ingyenes próbaverziós" ajánlata (általában 30 vagy 60 nap), vagy egy saját licenccel rendelkező ajánlat.
 
-Ingyenes próbaverziós ISV-ajánlatok esetén:
+Ingyenes isV-ajánlatok esetén:
 
-- Az ingyenes próbaidőszak az ISV-k licenc-alapú SaaS-termékének költségét fedezi az adott időszakban. Az adott SaaS-termékhez tartozó Azure infrastruktúra-használatért nem számítunk fel díjat.  Ha azonban használaton alapuló ISV-ajánlatot használ, az ingyenes próbaverzió nem tartalmazza a mögöttes Azure-infrastruktúra használatának költségeit. Ebben az esetben az Azure-infrastruktúra használati díjait külön Azure-egyeztetési fájlban fogjuk megjelenni.
+- Az ingyenes próbaidőszak fedezi az ISV licencalapú SaaS-termékének költségeit az adott időszakban. Emellett nem számítunk fel díjat az adott SaaS-termék társított Azure-infrastruktúrájának használata után.  Ha azonban használatalapú isv-ajánlatot használ, az ingyenes próbaverzió nem tartalmazza a mögöttes Azure-infrastruktúra használatának költségeit. Ebben az esetben az Azure-infrastruktúra használati díjai egy külön Azure egyeztetési fájlban jelennek meg.
 
-- Ha az ügyfél számára ingyenes próbaverzióra jogosult terméket vásárol és helyez üzembe, az ügyfelet a rendszer automatikusan regisztrálja az ingyenes próbaverzióban az ISV közzétevővel. Az ingyenes próbaidőszak az ISV-közzétevő által meghatározott időszak után automatikusan véget ér. Az időszak lejárta után az ügyfél díjat számítunk fel. Ez azt jelenti, hogy az egyeztetési fájl két sort mutat a próbaverzióra jogosult termékre vonatkozóan: az egyik, amely nyomon követi a próbaidőszakot, és az egyiket, amely nyomon követi a fizetős ajánlatot (amely a próbaidőszak lejárta után $0-as díjat fog megjelenni). A próbaidőszak lejárta után a fizetős ajánlatot tartalmazó sor megkezdi a díjak megjelenítését. 
+- Amikor megvásárolja és üzembe helyez egy ISV ingyenes próbaverzióra jogosult termékét az ügyfél számára, az isV közzétevője automatikusan regisztrálja az ügyfelet az ingyenes próbaverzióban. Az ingyenes próbaidőszak automatikusan véget ér az ISV-közzétevő által meghatározott időszak után. Az időszak vége után az ügyfélnek díjat kell fizetnie. Ez azt jelenti, hogy az egyeztetési fájl két sort is megjeleníthet a próbaverzióra jogosult termékhez: egyet, amely nyomon követi a próbaidőszakot, és egy másikat, amely nyomon követi a fizetős ajánlatot (amely a próbaidőszak végéig 0 DOLLÁR költségeket jelenít meg). A próbaidőszak végén a fizetős ajánlatot megjelenítő sor költségeket fog mutatni. 
 
-További információ az egyes oszlopokról: [a megbékélési fájlok használata](use-the-reconciliation-files.md). Lásd még: [Számlázási típusok a partner Centerben](billing-different-types.md)
+Az egyes oszlopok jelentésére vonatkozó további információkért lásd: [Az egyeztetési fájlok használata.](use-the-reconciliation-files.md) Lásd [még: A](./billing-basics.md) számlázás típusai a Partnerközpont
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Kereskedelmi Marketplace-termékek kezelése ügyfelek számára](csp-commercial-marketplace-manage.md)
-- [További információ a kereskedelmi Piactéri termékek támogatásáról](csp-commercial-marketplace-support.md)
+- [Kereskedelmi piactéri termékek kezelése ügyfelek számára](csp-commercial-marketplace-manage.md)
+- [További információ a kereskedelmi piactéri termékek támogatásról](csp-commercial-marketplace-support.md)

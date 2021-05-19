@@ -4,65 +4,61 @@ ms.topic: article
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg a közvetlen számlázási partnerek (közvetlen viszonteladók, közvetett szolgáltatók) lépéseit, hogy érvényesítse a partnereket és az ügyfeleket a CSP-hez készült Office 365 Government GCC-hez.
+description: Megismerheti a közvetlen számlázási partnerek (közvetlen viszonteladók, közvetett szolgáltatók) lépéseit a CSP-hez elérhető Office 365 Kormányzati GCC partnereinek és ügyfeleinek érvényesítéséhez.
 author: BillLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8614b321b453d280b8af0c548ea61c049708a6db
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: 442ba27776786bbd153360d20cb93574a3d4d4ec
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979637"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147700"
 ---
-# <a name="office-365-government-gcc-for-csp-partner-and-customer-eligibility-criteria"></a>Office 365 Government GCC a CSP-partner és az ügyfél jogosultsági feltételeihez 
+# <a name="office-365-government-gcc-for-csp-partner-and-customer-eligibility-criteria"></a>Office 365 Kormányzati GCC CSP-partnerhez és ügyfél jogosultsági feltételei 
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
 >[!NOTE]
->Az alábbiakban ismertetett ellenőrzési folyamat és feltételek a közvetlen számlázási partnerekre vonatkoznak. A közvetlen számlás partnereknek közvetlen viszonteladók és közvetett szolgáltatók is vannak.  Ha Ön közvetett viszonteladó, forduljon a közvetett szolgáltatóhoz.
+>Az alább ismertetett ellenőrzési folyamat és feltételek a közvetlen számlázási partnerekre vonatkoznak. A közvetlen számlázási partnerek közé tartoznak a közvetlen viszonteladók és a közvetett szolgáltatók.  Ha Ön közvetett viszonteladó, forduljon közvetett szolgáltatójához.
 
-Ha szeretné, hogy a vállalat (vagy az ügyfél vállalata) jóváhagyva legyen a CSP-hez készült Office 365 Government GCC-hez, tekintse át az alábbi követelményeket.
+Ha érdekli, hogy vállalata (vagy az ügyfél vállalata) jóváhagyatja-e az Office 365 Kormányzati GCC-t a CSP-hez, tekintse át az alábbi követelményeket.
 
-Ön jóvá is hagyhatja, ha Ön az USA szövetségi, állami, helyi vagy törzsi kormányzati szerveit kiszolgáló partner. Ahhoz, hogy a szervezetek jogosultak legyenek érvényesíteni, végezze el az [itt](https://products.office.com/government/eligibility-validation?ReqType=CSPPartner)található rövid űrlapot.
+Ha Ön usa-beli szövetségi, állami, helyi vagy törzsi kormányzati entitásokat kiszolgáló partner. A szervezet jogosultságának érvényesítéséhez töltse ki az itt található rövid [űrlapot.](https://products.office.com/government/eligibility-validation?ReqType=CSPPartner)
 
-Az ügyfelet jóvá lehet hagyni, ha olyan szervezet, amely kezeli a kormányzat által vezérelt vagy az Egyesült Államok szövetségi, állami, helyi vagy törzsi kormányzati szervét. Az ügyfelek "szervezetek" jogosultságának érvényesítéséhez végezze el az [itt](https://products.office.com/government/eligibility-validation?ReqType=CSPCustomer)található rövid űrlapot. 
+Az ügyfele akkor is jóváhagyható, ha egy olyan szervezet, amely kormány által vezérelt adatokat kezel, vagy egyesült államokbeli szövetségi, állami, helyi vagy törzsi kormányzati entitás. Az ügyfelek szervezetének jogosultságának érvényesítéséhez töltse ki az itt található rövid [űrlapot.](https://products.office.com/government/eligibility-validation?ReqType=CSPCustomer) 
 
--   A szervezetnek [regisztrálnia](https://partnercenter.microsoft.com/partner/cloud-solution-provider) kell a felhőalapú megoldás-szolgáltatói programban, mivel az az Office 365 Government GCC for CSP-hez való jóváhagyásának előfeltétele.
--   [Itt](https://go.microsoft.com/fwlink/?linkid=2007323)található egy lépésenkénti ellenőrzési folyamat útmutatója az Office 365 Government GCC a CSP-hez.
--   További ellenőrzési kérdések és problémák esetén forduljon a [RSC támogatási szolgálatához](mailto:usgcce@microsoft.com) .
+-   A szervezetét [regisztrálni](https://partnercenter.microsoft.com/partner/cloud-solution-provider) kell a Felhőszolgáltató programba, mivel ez előfeltétele annak, hogy jóvá legyen hagyva az Office 365 Kormányzati GCC-ben a CSP-hez.
+-   Az Office 365 Kormányzati GCC CSP-hez való részletes érvényesítési folyamatához itt [található.](https://go.microsoft.com/fwlink/?linkid=2007323)
+-   További [érvényesítési kérdésekért vagy](mailto:usgcce@microsoft.com) problémákért forduljon az RSC támogatási szolgálatához.
 
-A CSP-partnerek és ügyfelek esetében az Office 365 Government GCC-t a rendszer az alább ismertetett feltételek alapján érvényesíti jogosultságokkal.
+Az Office 365 Kormányzati GCC CSP-partnerek és -ügyfelek számára az alább ismertetett feltételeknek való megfelelés alapján lesz érvényesítve a jogosultságra.
 
 **Partneri feltételek**
-1.  Közvetlen vagy közvetett szerződések keretében nyújt szolgáltatásokat és megoldásokat az USA kormányzati ügyfelei számára
-2.  A GSA vagy más szerződéses járműveken keresztül szolgál az Egyesült Államok kormányzati ügyfeleinek
+1.  Szolgáltatásokat vagy megoldásokat nyújt az USA kormányzati ügyfeleinek közvetlen vagy közvetett szerződéseken keresztül
+2.  Az USA kormányzati ügyfeleit szolgálja ki A GSA-val vagy más szerződéssel elérhető járműveken keresztül
 
 **Ügyfél feltételei**
-1.  Az Egyesült Államok kormányzati szerveinek közigazgatási kapacitása. Például:
+1.  Az Egyesült Államok kormányzati szerve. Például:
  
-    -  Szövetségi ügynökség (például az Egyesült Államok kormányának irodája, ügynöksége, részlege vagy más entitása)
+    -  Szövetségi ügynökség (pl. ügynökség, ügynökség, részleg vagy az EGYESÜLT Államok kormányának más entitása)
     -   Állapot/helyi entitás 
     -   Törzsi entitás
-    -   Regionális vagy államközi kormányzati szervek (de nemzetközi entitások nélkül)
-    -   Szövetségi finanszírozású kutatási és fejlesztési központok (Ferdc)
+    -   Regionális vagy államközi kormányzati entitások (nemzetközi entitások nélkül)
+    -   Szövetségi támogatású kutatási és fejlesztési központok (FERDC-k)
 
-2.  Kereskedelmi magánjellegű entitás, amely a rendeletek hatálya alá eső adattal rendelkezik. Az elfogadott közigazgatási adattípusok közé tartoznak: 
-    -   Nemzetközi forgalom a Arms-ban (ITAR)
-    -   Ellenőrzött nem minősített információk (CUI)
-    -   Védelmi Minisztérium (DoD) nem titkosított felügyelt nukleáris információ (UCNI)
-    -   Energiaügyi Minisztérium (DoE) UCNI
+2.  Kereskedelmi privát entitás olyan adatokkal, amelyekre szabályozások vonatkoznak. Az elfogadott közigazgatási adattípusok közé tartoznak: 
+    -   International Traffic in Arms (ITAR)
+    -   Szabályozott nem besorolt információk (CUI)
+    -   Védelmi Minisztérium (DoD) – Nem besorolt szabályozott tudati adatok (UCNI)
+    -   Energia minisztériuma (DoE) UCNI
     -   Bűnügyi igazságszolgáltatási információk (CJI)
-    -   A védelmi részleg által érintett adatmennyiség
-    -   Az Azure Governmentt igénylő egyéb típusú adattípusok
+    -   Védelmi Minisztérium hatásszintű adatai
+    -   Egyéb adattípusok, amelyekhez Azure Government
 
-Egy nemzetközi kereskedelmi egység jogosult lehet a fent említett követelményeknek való megfelelésre, és ellenőrizte az Egyesült Államok jelenlétét (például levelezési cím, fizikai hely stb.).
+Egy nemzetközi kereskedelmi entitás akkor minősíthető, ha megfelel a fent említett követelményeknek, és ellenőrizte az Egyesült Államok jelenlétét (például levelezési cím, fizikai hely stb.).
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Office 365-es kormányzati GCC-előfizetés értékesítése a minősített ügyfelek számára a CSP-előfizetésekhez](csp-gcc-overview.md)
+- [Az Office 365 Kormányzati GCC eladása CSP-előfizetések esetén minősített ügyfeleknek](csp-gcc-overview.md)

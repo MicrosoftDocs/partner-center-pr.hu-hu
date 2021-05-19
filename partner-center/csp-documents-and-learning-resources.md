@@ -9,23 +9,18 @@ author: billLinzbach
 ms.author: billli
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d40acba3e45cfa90cbf0c5ffb8cdb0d4f484421b
-ms.sourcegitcommit: 08a175c06ff4c6a2b12713f081adfa489e16e7a1
+ms.openlocfilehash: d7811decea89ecee8bc1db565fb9952a8d62e572
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "109686228"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147785"
 ---
 # <a name="cloud-solution-provider-program-guide-agreements-price-lists-and-offers"></a>A felhőszolgáltatói program útmutatója, szerződései, árlistái és ajánlatai
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont | Partnerközpont a Microsoft Cloud for US Government
 
-- A Microsoft Cloud for US Government Partnerközpontja
-
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Rendszergazdai ügynök
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
 Az ebben a cikkben található információkból megértheti a Microsoft felhőszolgáltatói (CSP Felhőszolgáltató programjában való részvétel követelményeit.
 
@@ -36,7 +31,7 @@ Tekintse át a partnerré válás követelményeit a Felhőszolgáltató program
 [Program-útmutató Felhőszolgáltató partnerek számára](https://go.microsoft.com/fwlink/p/?LinkId=617100)
 
 >[!Note]
->Ha olyan üzleti levélre van szüksége, amely megerősíti vagy minősíti az állapotát [](https://partner.microsoft.com/pcv/servicerequests/create) a Felhőszolgáltató-programban jóváhagyott Microsoft-partnerként, kérjen egyet az ügyfélszolgálattól.
+>Ha üzleti levélre van szüksége, amely megerősíti vagy minősíti az állapotát a [](https://partner.microsoft.com/pcv/servicerequests/create) Felhőszolgáltató-programban jóváhagyott Microsoft-partnerként, kérjen egyet az ügyfélszolgálattól.
 
 ### <a name="additional-offer-terms-to-the-microsoft-partner-agreement"></a>További ajánlati feltételek a Microsoft Partnerszerződés
 
@@ -53,7 +48,7 @@ A sablon legújabb verziójának manuális letöltéséhez válassza Microsoft �
 
 ### <a name="professional-secrecy-amendment-to-the-microsoft-cloud-agreement-germany"></a>Titoktartási módosítás az Microsoft Cloud szerződés (Németország)
 
-Németországban a bűnügyi törvény (203. szakasz) és a szakmai viselkedési szabályzatok megkövetelik bizonyos ügyfélkapcsolatok bizalmas kezelését, például a betegek és az orvosok közötti kapcsolatot, valamint a jogi szakemberek és ügyfeleik közötti kapcsolatot. Ezeknek a csoportcsoportoknak biztosítaniuk kell a szakmai titkosságokat. Ezek és a felhőalapú szolgáltatások felhőszolgáltatóktól való vásárlásával kapcsolatos egyéb szakemberek számára a felhőszolgáltatónak írásos szerződést kell kötnie az ügyféllel, amely biztosítja a titoktartást.
+Németországban a bűnügyi törvény (203. szakasz) és a szakmai viselkedési szabályzatok megkövetelik bizonyos ügyfélkapcsolatok bizalmas kezelését, például a betegek és az orvosaik közötti kapcsolatot, valamint a kerületek és ügyfeleik közötti kapcsolatot. Ezeknek a csoportcsoportoknak biztosítaniuk kell a szakmai titkosságokat. Ezek és a felhőalapú szolgáltatások felhőszolgáltatóktól való vásárlásával kapcsolatos egyéb szakemberek számára a felhőszolgáltatónak írásos szerződést kell kötnie az ügyféllel, amely biztosítja a titoktartást.
 
 Ha Németországon kívül üzleti ügyében van, akkor a titoktartási kiegészítés mellett ezt a titoktartási kiegészítést is meg kell Microsoft Cloud szerződés.
 
@@ -71,11 +66,11 @@ A használatalapú díjszabás dinamikus, és gyakran változik. Használatalap�
 
 Az egyszeres vásárlás díjszabása is dinamikus. Az egy alkalommal történő vásárlások közé tartozik például a Microsoft Azure a Windows Serverhez és az SQL-szoftverekhez kapcsolódó előfizetések.
 
-Az ajánlatokkal kapcsolatos Azure Marketplace a bal oldali navigációs **menüben** a Marketplace Partnerközpont meg. Válasszon ki egy terméket a közzétevővel, a termékkel és a díjszabással kapcsolatos információkért. Ezeknek a termékeknek Azure Marketplace gyakran változhatnak. Ha az összes Marketplace-termék aktuális díjszabási adatait le kell kapnia, válassza az **Árlista** exportálása lehetőséget, és hozzon létre egy táblázatot az összes díjszabási adatról. Ez az információ naponta frissül, így a lehető leggyakrabban ellenőrizheti.
+Az ajánlatokkal kapcsolatos Azure Marketplace a bal oldali navigációs **menüben** a Marketplace Partnerközpont meg. Válasszon ki egy terméket a közzétevővel, a termékkel és a díjszabással kapcsolatos információkért. Ezeknek a termékeknek Azure Marketplace gyakran változhatnak. Ha az összes Marketplace-termék aktuális díjszabási adatait le kell kapnia, válassza az **Árlista** exportálása lehetőséget, és hozzon létre egy táblázatot az összes díjszabási adatról. Ezek az adatok naponta frissülnek, így olyan gyakran ellenőrizheti, amilyen gyakran csak szeretné.
 
 ## <a name="offers"></a>Ajánlatok
 
-CsP-partnerként számos Microsoft-terméket, szolgáltatást és megoldást értékesíthet, beleértve az Office 365-öt, a Nagyvállalati mobilitási csomagot, a Microsoft Dynamicset és a Microsoft Azure. Az ezen termékcsaládokban értékesíthető ajánlatokról további információt a CsP-ajánlat mátrixában, a Díjszabás és ajánlatok oldalon, a helyi menüből Partnerközpont **meg.**  Ezt a dokumentumot havonta frissítjük.
+CSP-partnerként számos Microsoft-terméket, -szolgáltatást és -megoldást értékesíthet, beleértve az Office 365-öt, a Nagyvállalati mobilitási csomagot, a Microsoft Dynamicset és a Microsoft Azure. Az ezen termékcsaládokban értékesíthető ajánlatokról további információt a CsP-ajánlat mátrixában, a Díjszabás és ajánlatok oldalon, a helyi menüből Partnerközpont **meg.**  Ezt a dokumentumot havonta frissítjük.
 
 A Crest Usage Record API-t használó CSP-partnerek számára a Microsoft a  Díjszabás és ajánlatok oldalon is közzéteszi az Azure-szolgáltatások listáját a CSP-ben.
 

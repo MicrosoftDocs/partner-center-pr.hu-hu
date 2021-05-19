@@ -1,79 +1,76 @@
 ---
-title: Analytics használata az előfizetési elemzésekhez
+title: Elemzés használata az előfizetési elemzésekhez
 ms.topic: article
 ms.date: 11/13/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan használhatja az elemzést a partner Centerben az üzleti tevékenység jobb megismeréséhez, valamint arról, hogy az ügyfelek hogyan használják a megvásárolt licenceket.
+description: Megtudhatja, hogyan használhatja a Partnerközpont, hogy jobban megértse vállalkozását, és hogy az ügyfelek hogyan használják a megvásárolt licenceket.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3aec8c8abe6184be48fd54e0f76bc7e0c08e4792
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 7dab3469b885f693ba8498e8a07eb120b8f07021
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441880"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147207"
 ---
-# <a name="use-analytics-to-learn-more-about-subscription-revenue"></a>Az előfizetés bevételének megismerése az Analytics használatával
+# <a name="use-analytics-to-learn-more-about-subscription-revenue"></a>Elemzések használata az előfizetés bevételével kapcsolatos további információkért
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partneri rendszergazda
 
-- Globális rendszergazda
-- MPN-partner rendszergazdája
+Egy CSP-vállalkozás fejlesztésének megtervezéséhez fontos tudni, hogy az ügyfelek hogyan használják a Microsoft termékeit. Számos lehetőség áll rendelkezésre az adatok gyűjtésére a Partnerközpont, és adatokat gyűjthet a vállalatról, valamint arról, hogy az ügyfelek hogyan és hogyan használják a megvásárolt licenceket. Ha Ön a közvetlen CSP-modellben van, lehetősége van telepíteni és használni a Partnerközpont adatelemzési alkalmazás a Power BI-hoz további adatok gyűjtése érdekében.
 
-Egy CSP-vállalkozás fejlesztésének megtervezéséhez fontos tudni, hogy az ügyfelek hogyan használják a Microsoft termékeit. Több lehetőség is van az adatok összegyűjtésére a partner Centerben, és a vállalaton és az ügyfeleken is gyűjthet adatokat a megvásárolt licencek használatával. Ha a CSP Direct modellben van, lehetősége van arra is, hogy a Power BI a partner Center Analytics alkalmazást is telepítse és használja a további adatok összegyűjtéséhez.
+## <a name="access-to-the-subscription-analytics"></a>Hozzáférés az Előfizetési elemzéshez
 
-## <a name="access-to-the-subscription-analytics"></a>Hozzáférés az előfizetés-elemzéshez
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard/home)
+1. A csp-Partnerközpont válassza az **Elemzés,** majd az **Előfizetés-elemzés lehetőséget.**
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
-1. A partner Center menüjéből válassza az **elemzés**, majd az **előfizetés-elemzés** lehetőséget.
-
-1. A jelenleg tizenkét hónapos CSP-bevétel megjelenik az oldal tetején.
+1. A záró 12 hónapos CSP-bevétel az oldal tetején jelenik meg
 
 :::image type="content" source="images/analytics/subscription1.png" alt-text="Előfizetés képernyő":::
 
 ## <a name="trailing-twelve-month-ttm-csp-revenue"></a>Záró Twelve-Month (TTM) CSP-bevétel
 
-A 12 hónapos CSP-bevétel nyomon követő befizetése a felhőalapú megoldás szolgáltatói programjának bevételét jelenti USD-ben a partner globális fiók szintjén. A rendszer minden hónap nyolcadik napján frissíti az adatmennyiséget, hogy az előző hónap végéig a tizenkét hónapos bevételt jelenítse meg. Például szeptember 9-én a 2020-es rögzített időszakra vonatkozóan láthatja az TTM-t az 2020 augusztus 2019-ig terjedő időszakban.
+A 12 hónapos CSP-bevétel záródása a program Felhőszolgáltató bevételét jelzi USD-ben a partner globális fiókja szintjén. Az adatok minden hónap első napján frissülnek, így az előző hónap utolsó tizenkettő havi bevételét jelenítik meg. 2020. szeptember 9-én például látnia kell a 2019. szeptember és 2020. augusztus között rögzített időtartamra vonatkozó TTM-et.
 
-A partner Centerben megjelenő bevétel a 12 hónapos rögzített időtartamra van kiszámítva, és nem módosítható rövidebb időszakra.
+A rendszer a Partnerközpont rögzített, 12 hónapos időszakra számítja ki a bevételt, és nem módosítható rövidebb időszakra.
 
-A partner helyének fiókja szintjén megjelenő bevétel részletezésének megtekintéséhez:
+A bevétel részletezése a partnerhelyi fiók szintjén:
 
-- Válassza ki a "részletek letöltése" hivatkozást, és töltsön le egy. TSV fájlt, amely megjeleníti a TTM bevételét az összes helyen.
+- Válassza a Részletek letöltése hivatkozást, és töltsön le egy .tsv fájlt, amely megjeleníti a TTM-bevételt az összes helyen.
 
 >[!NOTE] 
->Előfordulhat, hogy a. TSV fájlban lévő MPN-azonosítók között az egyes TTM-bevételi számok összegzése nagyobb, mint a TTM megjelenő teljes bevétel. Ennek az az oka, hogy a bevételt a letöltött fájlban több partneri kapcsolattal rendelkező előfizetések esetében kétszer is megszámoljuk.
+>Úgy tűnik, hogy a .tsv fájlban az egyes TTM-bevételi számok összege több MPN-azonosítóban nagyobb, mint a jelen fájlban látható teljes TTM-Partnerközpont. Ennek az az oka, hogy a letöltött fájlban található több partneri forrásmegjelöléssel rendelkező előfizetések bevétele kétszer is beleszámolhat.
 
-## <a name="subscription-summary"></a>Előfizetés összefoglalása
+## <a name="subscription-summary"></a>Előfizetés összegzése
 
-A képernyő alsó fele az előfizetések összegzését jeleníti meg. Használja a következő szűrőket a szükséges előfizetés részleteinek megtekintéséhez:  
+A képernyő alsó felében megjelenik az előfizetések összegzése. A következő szűrőkkel tekintse meg a szükséges előfizetési adatokat:  
 
-1. **Időtartam**: dönthet úgy, hogy megtekinti az előfizetés összegzését 
+1. **Időtartam:** Dönthet úgy, hogy a következő előfizetési összefoglalást látja: 
 
-- 30D – elmúlt 30 nap
-- 3M – elmúlt 3 hónap
-- 6M – elmúlt 6 hónap
-- 12M – elmúlt 12 hónap
+- 30D – Az elmúlt 30 nap
+- 3M – Az elmúlt 3 hónap
+- 6M – Az elmúlt 6 hónap
+- 12 M – Az elmúlt 12 hónap
 
-2. **Terméktípus**:
+2. **Terméktípus:**
  
 - Office 365
 - Microsoft 365
 - Dynamics 365
 - EMS
 
-Ezen szűrők alkalmazása nem befolyásolja a jelentés elején található TTM bevételi mérőszámot.
+A szűrők alkalmazása nem befolyásolja a jelentés tetején található TTM bevételi metrikát.
 
 
  
 ## <a name="next-steps"></a>Következő lépések
 
-- [Elemezze, hogy az ügyfelek hogyan használják a megvásárolt licenceket](increasing-adoption-and-satisfaction.md)  
+- [Annak elemzése, hogy az ügyfelek hogyan használják a megvásárolt licenceket](increasing-adoption-and-satisfaction.md)  
 - [Az ügyféltevékenységi naplók megtekintése](activity-logs.md)
-- [A Power BIhez készült partner Center Analytics-alkalmazás](power-bi-app-for-direct-partners.md)
+- [Partnerközpont adatelemzési alkalmazás a Power BI-hoz](power-bi-app-for-direct-partners.md)
 
 
 

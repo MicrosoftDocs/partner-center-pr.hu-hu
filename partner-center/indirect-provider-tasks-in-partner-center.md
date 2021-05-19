@@ -1,6 +1,6 @@
 ---
-title: Partner közvetett viszonteladókkal a CSP-ben
-description: Közvetett szolgáltatóként vagy terjesztőként megtudhatja, hogyan bővítheti a közvetett viszonteladók partnerekkel való bővítését. Ez magában foglalja a partner Centerben elvégezhető feladatokat is.
+title: Partneri partneri partneri partner a csp-hez
+description: Közvetett szolgáltatóként vagy terjesztőként megtudhatja, hogyan bővítheti a tevékenységeket a közvetett viszonteladóktól való partneri lehetőségekkel. Ez magában foglalja a különböző Partnerközpont.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,170 +9,165 @@ ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
 ms.date: 03/23/2021
-ms.openlocfilehash: 6ba6fce58df6ab6047a5ec6e7c46e1538b49756d
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: bd11b65fb1f11839cba50d8bc1da94668009c56c
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106178952"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146680"
 ---
 # <a name="partner-with-indirect-resellers-in-the-cloud-solution-provider-program"></a>Partnerkapcsolat kiépítése a közvetett viszonteladókkal a felhőszolgáltatói programban
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
+Egy ilyen összetett és gyorsan változó technológiai piactéren az ügyfelek olyan versenyelőnyt keresnek, amely a technológiai megoldások számára elérhető. Ilyen körülmények között logikus, hogy a partnerek partneri kötelezettségvállalással bővítik az ajánlatokat, és még többet tegyenek lehetővé az ügyfelek számára.
 
-Az ilyen összetett és gyorsan változó technológiai piactéren az ügyfelek azt szeretnék, hogy a technológiai megoldások milyen versenyelőnyt biztosítanak számukra. Ilyen körülmények között érdemes a partnereknek partneri szerepvállalást befektetni az ajánlatok kibővítésére és az ügyfelek számára, hogy még többet tegyenek elérhetővé.
+Új viszonteladók lépnek be a piacra, és megoldást keresnek arra, hogy a piacukon és területijüken kívül is kínálják megoldásukat az ügyfeleknek. Mint már ismert technológiai szolgáltató, Ön jó helyzetben van ahhoz, hogy a piacra kerül. Partneri kapcsolat a Felhőszolgáltató (CSP) program közvetett viszonteladóival, hogy más partnerekkel is kapcsolatot hozzon létre, új megoldásokat hozzon létre a piacon, és hogy az ügyfelek előrevethedhedek a felhőszolgáltatások bevezetésében.
 
-Az új viszonteladók a piacra kerülnek, és megoldásokat keresnek az ügyfeleknek a piacain és a területieken kívüli ügyfelek számára. Meglévő technológiai szolgáltatóként jó helyzetben van a piacra jutási útvonala. Partner a Cloud Solution Provider (CSP) program közvetett viszonteladókkal való összekapcsolásához más partnerekkel való kapcsolódáshoz, új megoldások a piacon, valamint a Cloud Services előzetes bevezetését elősegítő ügyfelek számára.
+A közvetett szolgáltató-viszonteladó (kétszintű) modellben ön közvetett viszonteladóktól függ, hogy Microsoft-felhőmegoldásokat kínáljon az ügyfeleknek. A termékeket és előfizetéseket közvetlenül a Microsofttól vásárolhatja meg, majd ezeket a megoldásokat viszonteladókon keresztül kínálhatja az ügyfeleknek.
 
-A közvetett szolgáltató – viszonteladói (kétszintű) modellben a közvetett viszonteladókkal partnereknek ajánljuk a Microsoft felhőalapú megoldásait az ügyfeleknek. Termékeit és előfizetéseit közvetlenül a Microsofttól vásárolhatja meg, majd ezeket a megoldásokat a viszonteladók számára ajánljuk fel az ügyfeleknek.
+Közvetett szolgáltatóként a következő Partnerközpont:
 
-Közvetett szolgáltatóként a következő módon használhatja a partner centert:
+- Olyan közvetett viszonteladókhoz kapcsolódhat, akik segíthetnek az ügyfélkör és az ügyfélkör bővítésében
 
-- Olyan közvetett viszonteladókkal csatlakozhat, akik segíthetnek a REACH és az ügyfélkör kibővítésében
+- Partneri viszony kialakítása közvetett viszonteladókhoz, amelyek lehetővé teszik közös ügyfelek kiszolgálását
 
-- Partnerségeket létesíthet olyan közvetett viszonteladókkal, amelyek lehetővé teszik a közös ügyfelek kiszolgálását
+- Közvetett viszonteladók kijelölhetőek adott ügyfelek és előfizetések kezeléséhez
 
-- Közvetett viszonteladók kijelölése adott ügyfelek és előfizetések kezeléséhez
+- A Microsofttal, ügyfelekkel és közvetett viszonteladóval való kapcsolatok kezelése egy helyen
 
-- Kezelje kapcsolatait a Microsofttal, az ügyfelekkel és a közvetett viszonteladókkal egy helyen
-
-Arról, hogy mi szükséges ahhoz, hogy a CSP programban részt vegyenek közvetett viszonteladóként, tekintse meg az első lépéseket a [Microsoft Partner Network webhelyén](https://partner.microsoft.com)található [közvetett viszonteladóként](https://partner.microsoft.com/membership/cloud-solution-provider/) .
+A CSP-programban közvetett viszonteladóként való részvételhez szükséges információkért [](https://partner.microsoft.com/membership/cloud-solution-provider/) tekintse meg az Első lépések közvetett viszonteladóként részt a Microsoft Partner Network [webhelyén.](https://partner.microsoft.com)
 
 ## <a name="indirect-provider-tasks-in-the-partner-center"></a>Közvetett szolgáltatói feladatok a Partnerközpontban
 
-A következő lépések végrehajtásával hozhat létre és kezelhet partnereket közvetett viszonteladókkal és ügyfelekkel. A 2. és a 3. lépést az alábbiakban részletesebben ismertetjük.
+Az alábbi lépésekkel létrehozhatja és kezelheti a közvetett viszonteladókat és ügyfeleket a partnerkapcsolatban. A 2. és a 3. lépést az alábbiakban részletesen ismertetjük.
 
-1. Tekintse át a vállalat profilját a [Microsoft hivatalos közvetett szolgáltatók listáján](https://partnercenter.microsoft.com/partner/find-a-provider).
+1. Tekintse át a vállalat profilját a Microsoft hivatalos közvetett [szolgáltatói listájában.](https://partnercenter.microsoft.com/partner/find-a-provider)
 
    - Ha módosítani szeretné a vállalat közvetett szolgáltatói profilját, forduljon Microsoft-képviselőjéhez.
 
-2. Kapcsolat közvetett viszonteladókkal
+2. Kapcsolódás közvetett viszonteladókhoz
 
-   - A viszonteladókkal való interakció és a tranzakciók megkezdése előtt létre kell hoznia azokat a partner Centerben.
+   - Mielőtt interakcióba léphet a viszonteladóval, partneri kapcsolatot kell létesítenie velük a Partnerközpont.
 
 3. Az ügyfélkapcsolatok kiépítése
 
-   - Új ügyfelek és előfizetések hozzárendelése a viszonteladóhoz
+   - Új ügyfelek és előfizetések társítása viszonteladókhoz
 
    - Viszonteladói kapcsolatok létrehozása meglévő ügyfelekkel
 
-A lépések elvégzése után a viszonteladói partnerkapcsolatokat a **partner Center** menüjének **közvetett viszonteladók** oldalán kezelheti.
+Miután ezeket a lépéseket befejezte, a partneri  partneri viszonyokat a közvetett viszonteladók oldalon kezelheti a Partnerközpont **menüből.**
 
 > [!IMPORTANT]
-> A viszonteladók használatának megkezdése előtt a CSP-programban közvetett viszonteladóként kell regisztrálni őket, és rendelkeznie kell a partner Center-fiókokkal. A viszonteladók beléptetésével kapcsolatos információkért mutasson a viszonteladók és a [szolgáltató közötti kapcsolatra a CSP-ben](https://msdn.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center.md) .
+> A viszonteladók használatba való felvételét megelőzően közvetett viszonteladóként kell regisztrálni őket a CSP programban, és Partnerközpont fiókjuk. A CSP-regisztrációval kapcsolatos információkért mutasson a viszonteladóknak a Közvetett [szolgáltatókkal a CSP-ban.](https://msdn.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center.md)
 
-## <a name="connect-with-indirect-resellers"></a>Kapcsolat közvetett viszonteladókkal
+## <a name="connect-with-indirect-resellers"></a>Kapcsolódás közvetett viszonteladókhoz
 
-A partneri központban lévő közvetett viszonteladókkal való interakcióhoz és a tranzakciók lebonyolításához létre kell hoznia egy partneri kapcsolatot. A közvetett viszonteladókkal való együttműködés lehetővé teszi, hogy a viszonteladók a közös ügyfeleket is kiszolgálják.
+Ahhoz, hogy a partneri kapcsolatban közvetett viszonteladókat Partnerközpont kommunikálhat velük, partnerkapcsolatot kell létesítenie velük. A közvetett viszonteladóval való partnerkapcsolat lehetővé teszi, hogy Ön és a viszonteladó is kiszolgálja a gyakori ügyfeleket.
 
-Partneri kapcsolat létrehozásához küldje el a viszonteladónak a partnerségi kérelmet. Mielőtt elkezdené, győződjön meg róla, hogy a viszonteladó e-mail-címe kéznél van.
+A partnerkapcsolat létesítését e-mailben küldje el a viszonteladónak. Mielőtt hozzá kezd, győződjön meg arról, hogy a viszonteladó e-mail-címe kéznél van.
 
-Az előfizetés részletei lapon a viszonteladó (MPN-azonosító) mezőben adja hozzá azt a viszonteladót, amellyel dolgozni szeretne. Ügyeljen arra, hogy a viszonteladó partneri helyéhez társított MPN-azonosítót használja, amelyet a partner Centerbe való bevezetéshez használt. Ez biztosítja, hogy a viszonteladó megkapja a megfelelő ösztönzőket, és aktív Microsoft partneri szerződéssel rendelkezzen a tranzakció bevonásához.
+Az előfizetés részleteinek lapján, a Viszonteladó (MPN-azonosító) mezőben adja hozzá a viszonteladót, akivel dolgozni szeretne. Győződjön meg arról, hogy a viszonteladó partnerhelyi fiókjához társított MPN-azonosítót használja, amely a Partnerközpont. Ez biztosítja, hogy a viszonteladó megkapja a megfelelő ösztönzőket, és aktív Microsoft Partnerszerződés a tranzakcióban.
 
-1. A **partner Center** menüjéből válassza a **közvetett viszonteladók** lehetőséget.
+1. Válassza **a Közvetett viszonteladók lehetőséget** a **Partnerközpont** menüben.
 
-2. A **közvetett viszonteladók** lapon válassza a **partneri kapcsolat kérése** lehetőséget. Megjelenik egy Piszkozat e-mail üzenet.
+2. A Közvetett **viszonteladók lapon válassza** a **Partner kérése lehetőséget.** Megjelenik egy piszkozat e-mail-üzenet.
 
-3. Válassza a **Megnyitás e-mailben** lehetőséget, hogy megnyissa az üzenetet az alapértelmezett e-mail-alkalmazásban, vagy válassza a **Másolás a vágólapra** lehetőséget, és másolja az üzenetet egy e-mailbe. Ha elkészült, válassza a **kész** lehetőséget.
+3. Válassza **a Megnyitás e-mailben** lehetőséget az üzenet  az alapértelmezett e-mail-alkalmazásban való megnyitásához, vagy válassza a Másolás a vágólapra lehetőséget a másoláshoz, majd illessze be az üzenetet egy e-mailbe. Ha **elkészült, válassza** a Kész lehetőséget.
     > [!IMPORTANT]  
-    >  Szerkesztheti az e-mail-üzenet szövegét, de ügyeljen arra, hogy a hivatkozást a partner Center-fiókjához személyre szabva is tartalmazza.
+    >  Szerkesztheti az e-mailben található szöveget, de mindenképpen csatolja a hivatkozást, mivel az a saját fiókjához Partnerközpont meg.
 
-4. Miután a viszonteladó elfogadja a partneri kérelmét, megjelenik a közvetett viszonteladók listájában, majd a következőket teheti:
+4. Miután a viszonteladó elfogadta a partneri kapcsolatot, megjelenik a közvetett viszonteladók listájában, így:
 
-   - Új ügyfelek felvétele a nevük szerint
+   - Új ügyfelek hozzáadása a nevükben
 
-   - Megrendelések elküldése az ügyfelek nevében
+   - Rendelések elküldése az ügyfeleik nevében
 
-   - Rendelje hozzá őket egy előfizetéshez, hogy azok a megvásárolt ügyfél nevében felügyelhetők legyenek.
+   - Társítsa őket egy előfizetéshez, hogy a vásárlást megvásárlott ügyfél nevében kezel tudják
 
-   - Jelölje ki őket az ügyfél támogatási kapcsolattartójának adott előfizetésekhez
+   - Jelölje ki őket az ügyfél adott előfizetésekkel kapcsolatos támogatási kapcsolattartójaként
 
-Attól függően, hogy milyen szintű hozzáférésre és részvételre van szüksége a viszonteladónak, érdemes lehet az alább ismertetett műveletek közül egyet vagy többet is végrehajtania.
+Attól függően, hogy milyen szintű hozzáférést és részvételt szeretne a viszonteladónak, az alábbiakban ismertetett műveletek közül egyet vagy többet is végre kell vennie.
 
-Meglévő előfizetések esetén, ha úgy dönt, hogy közvetett viszonteladóval dolgozik, az előfizetés részleteivel is felhasználhatja a közvetett viszonteladót.
+Meglévő előfizetések esetén, ha úgy dönt, hogy egy közvetett viszonteladóval dolgozik együtt, frissítheti az előfizetés részleteit, hogy tartalmazza a közvetett viszonteladót.
 
-- Az előfizetés részletei lapon a **viszonteladó (MPN-azonosító)** mezőben adja hozzá azt a viszonteladót, amellyel dolgozni szeretne. Ez biztosítja, hogy a viszonteladó megkapja a megfelelő ösztönzőket.
+- Az előfizetés részleteinek lapján, a **Viszonteladó (MPN-azonosító)** mezőben adja hozzá a viszonteladót, akivel dolgozni szeretne. Ez biztosítja, hogy a viszonteladó megkapja a megfelelő ösztönzőket.
 
-| **Ennek elvégzéséhez** | **Teendő** | **Ahol** |
+| **Ennek megvalósítása** | **Teendő** | **Ahol** |
 |   ------------------   |   -------   |   -----   |
-| Annak engedélyezése, hogy a viszonteladó felügyelje az ügyfél fiókját, és rendszergazdai jogosultságokkal rendelkezzen az előfizetések kezeléséhez | Viszonteladó hozzárendelése egy ügyfél-fiókhoz új ügyfél hozzáadásakor | Az **új ügyfél** lapon |
-| Az Azure-ügyfél fiókjának felügyeletének engedélyezése a viszonteladó számára|Viszonteladó hozzárendelése egy Azure-ügyfél-fiókhoz új ügyfél hozzáadásakor|Az **Azure Service Portalon** válassza a [felhasználói beállítások](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/UserSettings) lehetőséget, hogy a közvetett viszonteladó **bérlője tulajdonosi** engedélyeit adja meg|
-| Adja meg a viszonteladói kreditet az ösztönzőkért | A viszonteladó hozzárendelése az előfizetéshez (új vagy meglévő) | Az **új előfizetés** oldalon |
-| Ügyfelek támogatásának delegálása adott előfizetésekhez a viszonteladónál | Válassza ki a viszonteladót a **kijelölt támogatási partneri** listáról | Az előfizetés részletei lapon válassza ki az ügyfelet az **ügyfelek** lapról, majd válassza ki az előfizetést az ügyfél **előfizetések** lapján. |
+| Engedélyezheti, hogy a viszonteladó kezelje egy ügyfél fiókját, és rendszergazdai engedélyekkel rendelkezik az előfizetések kezeléséhez | Viszonteladó társítása ügyfélfiókhoz új ügyfél hozzáadásakor | Az Új **ügyfél lapon** |
+| Azure-ügyfél fiókjának kezelése a viszonteladó számára|Viszonteladó társítása Azure-ügyfélfiókhoz új ügyfél hozzáadásakor|Az **Azure szolgáltatási portálon válassza** a [Felhasználói beállítások](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/UserSettings) lehetőséget, hogy a közvetett viszonteladó bérlői tulajdonosának **jogosultságokat** adjon|
+| A viszonteladói kreditek jóváírása ösztönzőkként | A viszonteladó társítása az előfizetéshez (új vagy meglévő) | Az Új **előfizetés lapon** |
+| Adott előfizetések ügyféltámogatásának delegálása a viszonteladónak | Válassza ki a viszonteladót a **Kijelölt támogatási kapcsolattartók listájából** | Az előfizetés részletek lapján: Válassza ki  az ügyfelet az Ügyfelek lapon, majd válassza ki az előfizetést az ügyfél **Előfizetések oldalán** |
 
 ## <a name="remove-partnership-with-indirect-resellers"></a>Partnerkapcsolat eltávolítása közvetett viszonteladókról
 
-Az alábbi lépéseket követve távolíthatja el a kapcsolatot a meglévő közvetett viszonteladóval. 
+A meglévő közvetett viszonteladóval való partnerkapcsolat eltávolításához kövesse az alábbi lépéseket. 
 
-1. Az irányítópulton a partner központ menüjében válassza a **közvetett viszonteladók** lehetőséget. 
+1. Az irányítópult Partnerközpont menüjében válassza a **Közvetett viszonteladók lehetőséget.** 
 
-2. A **közvetett viszonteladók** lapon válassza a **partnerség eltávolítása** lehetőséget. Egy üzenet jelenik meg, amely megerősítést kér. A folytatáshoz válassza az **Igen** lehetőséget.
+2. A Közvetett **viszonteladók lapon válassza** a Partner eltávolítása **lehetőséget.** Megjelenik egy üzenet, amely megerősítést kér. A folytatáshoz válassza az **Igen lehetőséget.**
 
-:::image type="content" source="images/ip-ir-relationship.png" alt-text="Partnerség eltávolítása":::
+:::image type="content" source="images/ip-ir-relationship.png" alt-text="Partnerkapcsolat eltávolítása":::
 
 >[!IMPORTANT]
->A közvetett viszonteladóhoz tartozó ügyfeleket nem távolítja el a rendszer. A megadott delegált rendszergazdai jogosultságok változatlanok maradnak.
->Ön kijelenti, hogy a partnerrel való kapcsolat megszüntetésére vonatkozó döntés jóhiszeműen, jogos üzleti célra, valamint az ügyféllel vagy partnerrel kötött szerződésével összhangban van, és Ön vállalja, hogy megvédi és megtartja a Microsoftot a harmadik féltől származó jogcímek ellen.
->Ha a szerződése megköveteli, jogi értesítést kell adnia az ügyfélnek vagy a partnernek. Ez az eszköz nem készít értesítést az ügyfél vagy a partner számára.
+>A közvetett viszonteladóhoz társított ügyfelek nem lesznek eltávolítva. A megadott delegált rendszergazdai jogosultságok változatlanok maradnak.
+>Ön kijelenti, hogy a partnerrel való kapcsolat megszüntetéséről szóló döntést megbízható üzleti célból, valamint az ügyféllel vagy partnerrel kötött szerződésnek megfelelően meghozta, és beleegyezik, hogy megvédi és megvédi a Microsoftot a harmadik féltől származó igényekkel szemben, és ezzel ellentétesen védi és megvédi a Microsoftot.
+>Jogi értesítést kell adnia az ügyfélnek vagy a partnernek a felmondásról, ha a szerződése ezt megköveteli. Ez az eszköz nem hoz létre értesítést az ügyfél vagy a partner számára.
 
-3. Az a közvetett viszonteladó, amelynek a kapcsolatát eltávolította, nem fog megjelenni a listában.
-A hozzáférés és a részvétel szintjétől függően előfordulhat, hogy kommunikálni szeretne a közvetett viszonteladóval és a végfelhasználóval a változással kapcsolatban.
+3. Az a közvetett viszonteladó, akinek a partnerkapcsolatát eltávolította, nem fog megjelenni a listában.
+A hozzáférés és a részvétel szintjétől függően előfordulhat, hogy a közvetett viszonteladóval és a végfelhasználóval is szeretne kommunikálni a változásról.
 
 
 ## <a name="connect-with-customers"></a>Az ügyfélkapcsolatok kiépítése
 
-Amikor új ügyfeleket kap, létre kell hoznia fiókokat a partner Centerben. Új felhasználói fiók hozzáadásakor megadhat egy adott viszonteladót a fiók kezeléséhez és az ügyfelek előfizetésének és szolgáltatásainak a nevében történő felügyeletéhez.
+Új ügyfelek esetén fiókokat kell létrehoznia a Partnerközpont. Új ügyfélfiók hozzáadásakor kijelölhet egy adott viszonteladót a fiók kezeléséhez, valamint az ügyfelek előfizetésének és szolgáltatásainak felügyeletéhez a nevükben.
 
-Amikor új ügyfél-fiókkal társít egy viszonteladót, a fiók-és előfizetés-kezelést delegálja a viszonteladónak. Ez azt jelenti, hogy a viszonteladónak rendszergazdai hozzáférése van az ügyfél előfizetéséhez és szolgáltatásaihoz, és felügyelheti őket az ügyfél nevében.
+Amikor viszonteladót társít egy új ügyfélfiókhoz, a fiók- és előfizetés-kezelés a viszonteladónak delegál. Ez azt jelenti, hogy a viszonteladó rendszergazdai hozzáféréssel rendelkezik az ügyfél előfizetéséhez és szolgáltatásaihoz, és az ügyfél nevében kezelheti azokat.
 
-### <a name="add-new-customers-and-associate-them-with-indirect-resellers"></a>Új ügyfelek hozzáadása és a közvetett viszonteladókkal való hozzárendelése
+### <a name="add-new-customers-and-associate-them-with-indirect-resellers"></a>Új ügyfelek hozzáadása és társítása közvetett viszonteladókhoz
 
-1. A **partner Center** menüjéből válassza a **közvetett viszonteladók** lehetőséget.
+1. Válassza **a Közvetett viszonteladók lehetőséget** a **Partnerközpont** menüben.
 
-2. Keresse meg azt a közvetett viszonteladót, amelyhez új ügyfeleket szeretne rendelni, majd válassza az **új ügyfél hozzáadása** lehetőséget. Vegye figyelembe, hogy a közvetett viszonteladó már ki van választva az ügyfél részletes űrlapján. Adja meg az ügyfél adatait, majd válassza a **Tovább: előfizetések** lehetőséget.
+2. Keresse meg azt a közvetett viszonteladót, akihez új ügyfeleket szeretne hozzárendelni, majd válassza az **Új ügyfél hozzáadása lehetőséget.** Vegye figyelembe, hogy a közvetett viszonteladó már ki van választva az ügyféladatok űrlapon. Adja meg az ügyfél adatait, majd válassza a **Tovább: Előfizetések lehetőséget.**
 
-3. Az **új előfizetés** lapon válassza ki az ügyfél által megvásárolni kívánt előfizetést, majd adja meg az ügyfél által igényelt licencek számát.
+3. Az Új **előfizetés lapon** válassza ki az ügyfél által megvásárolni kívánt előfizetés(ök)et, majd adja meg az ügyfél számára szükséges licencek számát.
 
 4. Válassza a **Next: Review** (Tovább: Áttekintés) lehetőséget.
 
-5. Ha a megrendelés helyes, válassza a **Küldés** lehetőséget. Ha a sorrend helytelen, válassza a **Mégse** gombot a teljes művelet megszakításához és a kezdéshez.
+5. Ha a rendelés helyes, válassza a **Küldés lehetőséget.** Ha a rendelés helytelen, kattintson a **Mégse gombra** a teljes művelet megszakítása és az újrakezdés érdekében.
 
-6. A megrendelés elküldése után megjelenik a **megerősítést kérő** oldal. A **telepítési információ** területen megjelenik a rendszergazdai felhasználói fiók neve és az ideiglenes jelszó. Másolja le a felhasználói fiók nevét és a jelszó adatait, hogy elküldhesse azt az új ügyfélnek.
+6. A rendelés elküldése után megjelenik a **Megerősítés** oldal. A **Beállítási adatok** alatt megjelenik a rendszergazdai felhasználói fiók neve és az ideiglenes jelszó. Másolja le a felhasználói fiók nevét és jelszavát, hogy elküldheti az új ügyfélnek.
 
     > [!IMPORTANT]  
-    > Ügyeljen arra, hogy jegyezze fel a felhasználói fiók nevét és jelszavát, mivel ezt az információt nem érheti el újra az oldal bezárását követően.
+    > Jegyezze fel a felhasználói fiók nevét és jelszavát, mivel az oldal bezárása után már nem férhet hozzá ezekhez az információkhoz.
 
-7. Válassza a **Kész** lehetőséget. Az új ügyfél megjelenik az ügyfelek listájában, amely a közvetett viszonteladóhoz van társítva. A viszonteladó mostantól rendszergazdai hozzáféréssel rendelkezik az ügyfél fiókjának adataihoz és előfizetésekhez, és az ügyfél nevében kezelheti az előfizetéseket.
+7. Válassza a **Kész** lehetőséget. Az új ügyfél megjelenik az Ügyféllistában, amely a közvetett viszonteladóhoz van társítva. A viszonteladó most már rendszergazdai hozzáféréssel rendelkezik az ügyfél fiókinformációihoz és előfizetéséhez, és kezelheti az előfizetéseket az ügyfél nevében.
 
-### <a name="add-new-subscriptions-to-customer-accounts"></a>Új előfizetések hozzáadása az ügyfelek fiókjaihoz
+### <a name="add-new-subscriptions-to-customer-accounts"></a>Új előfizetések hozzáadása ügyfélfiókhoz
 
-Ha az ügyfelek új előfizetéseket szeretnének vásárolni, frissíteni a meglévőket, vagy további licenceket vásárolnak, akkor ezeket a módosításokat az ügyfél fiókján keresztül a Microsoft 365-portálon teheti meg. Ezt a Azure Portal nem teheti meg.
+Ha az ügyfelek új előfizetéseket, meglévőket vagy további licenceket szeretnék vásárolni, ezeket a módosításokat az ügyfél fiókjában, a portálon Microsoft 365 el. Ezt a következőben nem Azure Portal.
 
-1. Válassza ki az **ügyfeleket** a **partner Center** menüjéből.
+1. Válassza **az Ügyfelek** lehetőséget a **Partnerközpont** menüben.
 
-2. Keresse meg azt az ügyfelet, akinek a fiókját módosítani szeretné. A listát közvetett viszonteladóként szűrheti a lehetőségek szűkítéséhez. Bontsa ki az ügyfél rekordját a lefelé mutató nyíl kiválasztásával, majd válassza az **előfizetés hozzáadása** elemet.
+2. Keresse meg azt az ügyfelet, akinek a fiókját módosítani szeretné. A választási lehetőségek szűkítéséhez szűrheti a listát közvetett viszonteladók szerint. Bontsa ki az ügyfél rekordját. Ehhez válassza a lefelé mutató nyilat, majd az **Előfizetés hozzáadása lehetőséget.**
 
-3. Az **új előfizetés** lapon válassza ki az előfizetést, és adja meg az ügyfél által megvásárolni kívánt licencek számát.
+3. Az Új **előfizetés lapon** válassza ki az előfizetés(öke)t, és adja meg az ügyfél által megvásárolni kívánt licencek számát.
 
-4. Az előfizetés viszonteladóhoz való hozzárendeléséhez válassza ki a viszonteladó nevét a listából, majd válassza a **Küldés** lehetőséget. Ha a viszonteladót az előfizetéshez társítja, lehetővé teszi számukra, hogy szükség esetén ösztönzőket szerezzenek.
+4. Az előfizetés viszonteladóhoz való társításához válassza ki a viszonteladó nevét a listából, majd válassza a **Küldés lehetőséget.** A viszonteladó előfizetéshez való társítása lehetővé teszi számukra, hogy ösztönzőket szerezzenek, ha vannak.
 
-5. Az új előfizetés (ok) megjelenik az ügyfél előfizetések listájában.
+5. Az új előfizetés(ök) megjelenik az ügyfél előfizetési listájában.
 
-6. Ha azt szeretné, hogy a viszonteladó az új előfizetéshez tartozó ügyfélszolgálati kérelmeket kezelje, válassza ki az előfizetést, majd válassza ki a viszonteladót a **kijelölt támogatási partneri** listáról. 
+6. Ha azt szeretné, hogy a viszonteladó kezelje az új előfizetésre vonatkozó ügyfélszolgálati kérelmeket, válassza ki az előfizetést, majd válassza ki a viszonteladót a Kijelölt támogatási **kapcsolattartók listájából.** 
 
-7. Ha elkészült, válassza a **Küldés** lehetőséget.
+7. Ha **elkészült, válassza** a Küldés lehetőséget.
 
 ## <a name="next-steps"></a>Következő lépések
 
-Válaszok a Microsoft partneri szerződéssel kapcsolatos kérdéseire
+Választ találhat a kérdésekre a Microsoft Partnerszerződés
 
-- [Hogyan segíthetnek a közvetett szolgáltatók a viszonteladók számára a Microsoft partneri szerződés elfogadásában – GYIK](mpa-indirect-provider-faq.md)
+- [Hogyan segíthetnek a közvetett szolgáltatók a viszonteladóknak a Microsoft Partnerszerződés – GYIK](mpa-indirect-provider-faq.md)
 
-A vevői fiókok és előfizetések kezelésével kapcsolatos további információkért lásd:
+További információ az ügyfélfiókok és -előfizetések kezeléséről:
 
 - [Ügyfél-előfizetések](customer-subscriptions.md)

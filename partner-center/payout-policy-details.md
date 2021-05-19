@@ -1,107 +1,104 @@
 ---
 title: Kifizetési ütemtervek és folyamatok
-description: Ismerje meg a kifizetéseket és tranzakciókat, például a kereskedelmi piactér és egyéb tranzakciók fizetési ütemterveit és újrakapcsolási folyamatait.
-ms.service: partner-dashboard
-ms.subservice: partnercenter-mpn
+description: Megismeri a kifizetéseket és tranzakciókat, például a kereskedelmi piactér fizetési ütemezését és a recoupment folyamatokat és egyéb tranzakciókat.
+ms.service: marketplace
+ms.subservice: partnercenter-marketplace-publisher
 ms.topic: conceptual
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 12/04/2020
-ms.openlocfilehash: f4d31a5cf0752d03248b0efddb98ce621f9174f9
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: f2ba8132677eb0a0368021b6d7065f5202589f24
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086175"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146952"
 ---
 # <a name="payout-schedules-and-processes"></a>Kifizetési ütemtervek és folyamatok
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Fiók-rendszergazdai | Globális rendszergazda
 
-- Fiókadminisztrátor
-- Globális rendszergazda
+Ez a cikk a Microsoft fizetési ütemezését ismerteti, azt, hogy hol található meg a kifizetés állapota, és hogy az ügyfél hogyan nem fizet.
 
-Ez a cikk a Microsoft fizetési ütemtervét tárgyalja, ahol megkeresheti a kifizetés állapotát, és az ügyfél nem teljesített fizetési folyamatát.
+## <a name="payment-schedules"></a>Fizetési ütemezések
 
-## <a name="payment-schedules"></a>Fizetési ütemtervek
+A következő szakaszok a hitelkártya Nagyvállalati Szerződés/számlatranzakciók kifizetési **folyamatát ismertetik.** 
 
-A következő szakaszok ismertetik a **nagyvállalati szerződés** és a **bankkártya/számlázási** tranzakciók kifizetési folyamatát.
+### <a name="enterprise-agreement-transactions"></a>Nagyvállalati Szerződés tranzakciók
 
-### <a name="enterprise-agreement-transactions"></a>Tranzakciók Nagyvállalati Szerződés
+Amikor egy ügyfél megvásárol egy terméket a Microsoft AppSource vagy Azure Marketplace meglévő Microsoft Nagyvállalati Szerződés-fiókjával tranzakciókhoz, a következő kifizetési ciklusban, az ügyfélszámla után 30 nappal kiszámlázjuk a kifizetéseket. Az olyan tranzakciók, amelyekben az ügyfél hitelkártyát használ, a kifizetés előtt 30 napos tartási időszak áll a kezében.
 
-Ha egy ügyfél Microsoft AppSource vagy az Azure Marketplace-en vásárol egy terméket a meglévő Microsoft-Nagyvállalati Szerződés a tranzakciós szolgáltatásban, akkor a következő kifizetési ciklusban kiállítjuk a kifizetéseket a számlázás utáni 30 napban. Azok a tranzakciók, amelyekben az ügyfél hitelkártyát használ, a kifizetés előtt 30 napos időszakot tart fenn.
+A kifizetés gyakran azelőtt történik meg, hogy a Microsoft fizetési adatokat gyűjt az ügyféltől. Ha [az ügyfél nem](#process-for-customer-non-payment) fizeti ki a Microsoftot, de már kibocsátott kifizetést, a lenti Fizetés meg nem fizetése esetén az ügyfél általunk tett műveleteket lásd alább.
 
-A Microsoft a kifizetés megkezdése előtt gyakran fordul elő. Ha az ügyfél nem fizet a Microsoftnak, de már kiállítottunk egy kifizetést, tekintse meg az [ügyfél nem fizetési folyamatát](#process-for-customer-non-payment) ismertető szakaszt.
-
-| Esemény | Leírás | Jelentéskészítés láthatósága | Időzítés |
+| Esemény | Description | Jelentés láthatósága | Időzítés* |
 | --- | --- | --- | --- |
-| A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
-| A Microsoft kiszámítja a számlázási összeget | Teljes használat meghatározása, tranzakciók összesen | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
-| Kifizetés közzétéve | Az ügynökségi díj és a kifizetés eredményének meghatározása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap (1. hét)** |
-| Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A [kifizetési utasításban](payout-statement.md) a tranzakciós előzményekben közelgőként van megjelölve | **3. hónap (1. hét)** |
-| **Kifizetés elküldése** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a [kifizetési nyilatkozat](payout-statement.md) fizetési szakaszában** | **3. hónap (nem később, mint a 15.)** |
-| Az ügyfél által fizetett számla | A Microsoft fizetési lehetőséget gyűjt az ügyféltől | Nincs változás besorolás | **4. hónap – 12** |
+| Használat vagy a tranzakció hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
+| A Microsoft kiszámítja a számlázási összeget | A teljes használat és az összes tranzakció meghatározása | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
+| Kifizetés közzétéve | Az ügynökségi díj és a kifizetési bevételek meghatározása | Feldolgozatlanként megjelölve a kifizetési kimutatás [tranzakcióelőzményében](payout-statement.md) | **3. hónap (1. hét)** |
+| Kifizetés előkészítése | A bevételek elő vannak készítve a havi kifizetéshez | A kifizetési kimutatásban közelgőként van megjelölve a [tranzakcióelőzmények között](payout-statement.md) | **3. hónap (1. hét)** |
+| **Elküldött kifizetések** | **A rendszer elküldi a kifizetést a közzétevőnek** | **Elküldöttként megjelölve a tranzakcióelőzmények között és a kifizetési kimutatás Kifizetések [szakaszában](payout-statement.md)** | **3. hónap (legkésőbb 15. hónap)** |
+| Az ügyfél által kifizetett számla | A Microsoft fizetési adatokat gyűjt az ügyféltől | Nincs változás besorolás | **4– 12. hónap** |
 |
 
-\* A kifizetés dátuma csendes-óceáni téli idő (PST).
+\* A kifizetés dátuma a csendes-óceáni téli idő (PST) szerint van megszava.
 
-:::image type="content" source="images/payouts/timeline-enterprise.png" alt-text="Nagyvállalati szerződéssel rendelkező ügyfelek fizetési ütemezése.":::
+:::image type="content" source="images/payouts/timeline-enterprise.png" alt-text="Nagyvállalati Szerződéssel kötött ügyfelek kifizetésének ütemterve.":::
 
-### <a name="transactions-with-credit-card-or-invoice-checkwire"></a>Bankkártyával vagy számlával rendelkező tranzakciók (ellenőrzések/huzalok)
+### <a name="transactions-with-credit-card-or-invoice-checkwire"></a>Tranzakciók hitelkártyával vagy számlával (csekk/átutalás)
 
-Az összes bankkártyával vagy havi számlával történő vásárlás 30 napos időszakot biztosít, amely biztosítja, hogy az ügyfelek az ügyféltől gyűjtsék a forrásokat.
+A hitelkártyával vagy havi számlával való vásárlások 30 napos tartási időszakkal garantálják, hogy az összegeket az ügyféltől gyűjtsék be.
 
-| Esemény | Leírás | Jelentéskészítés láthatósága | Időzítés |
+| Esemény | Description | Jelentés láthatósága | Időzítés* |
 | --- | --- | --- | --- |
-| A tranzakció használata vagy hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
-| Az ügyfél által fizetett számla | A teljes használat, a tranzakció teljes értéke és az ügyfél által fizetett számla meghatározása | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
-| Kifizetés közzétéve | Az ügynökségi díj és a kifizetés eredményének meghatározása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **2. hónap** |
-| 30 napos időszak | Az alapok, a lehetséges jóváírások és a visszatérítési kérelmek gyűjtésének biztosítása | A [kifizetési utasításban](payout-statement.md) feldolgozatlan van megjelölve a tranzakciós előzményekben | **3. hónap** |
-| Kifizetés előkészítése | A bevétel felkészült a havi fizetésre | A [kifizetési utasításban](payout-statement.md) a tranzakciós előzményekben közelgőként van megjelölve | **4. hónap (1. hét)** |
-| **Kifizetés elküldése** | **A rendszer elküldi a fizetést a közzétevőnek** | **Elküldve a tranzakció előzményeiben és a [kifizetési nyilatkozat](payout-statement.md) fizetési szakaszában** | **4. hónap (nem később, mint a 15.)** |
+| Használat vagy a tranzakció hónapja | Az ügyfél egy szolgáltatást használ vagy vásárol. | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **1. hónap** |
+| Az ügyfél által kifizetett számla | A teljes használat, a teljes tranzakciós érték és az ügyfél által fizetett számla meghatározása | [Használati](/azure/marketplace/partner-center-portal/usage-dashboard) vagy [rendelési](/azure/marketplace/partner-center-portal/orders-dashboard) irányítópult | **2. hónap** |
+| Kifizetés közzétéve | Az ügynökségi díj és a kifizetési bevételek meghatározása | Feldolgozatlanként megjelölve a kifizetési kimutatás [tranzakcióelőzményében](payout-statement.md) | **2. hónap** |
+| 30 napos tartási időszak | A források gyűjtésének, a lehetséges visszatérítések és a visszatérítési kérelmek igénylésének biztosítása | Feldolgozatlanként megjelölve a kifizetési kimutatás [tranzakcióelőzményében](payout-statement.md) | **3. hónap** |
+| Kifizetés előkészítése | A bevételek elő vannak készítve a havi kifizetéshez | A kifizetési kimutatásban közelgőként van megjelölve a [tranzakcióelőzmények között](payout-statement.md) | **4. hónap (1. hét)** |
+| **Elküldött kifizetések** | **A rendszer elküldi a kifizetést a közzétevőnek** | **Elküldveként megjelölve a tranzakcióelőzmények között és a kifizetési kimutatás Kifizetések [szakaszában](payout-statement.md)** | **4. hónap (nem később, mint 15.)** |
 |
 
-\* A kifizetés dátuma csendes-óceáni téli idő (PST).
+\* A kifizetés dátuma a csendes-óceáni téli idő (PST) szerint van meg.
 
-:::image type="content" source="images/payouts/timeline-credit-card-invoice.png" alt-text="A hitelkártyára és a számla-ügyfelekre vonatkozó kifizetések ütemezése.":::
+:::image type="content" source="images/payouts/timeline-credit-card-invoice.png" alt-text="A hitelkártya- és számlázási ügyfelek kifizetésének idővonala.":::
 
-## <a name="process-for-customer-non-payment"></a>Az ügyfél nem teljesített fizetési folyamata
+## <a name="process-for-customer-non-payment"></a>Az ügyfél meg nem fizetésének folyamata
 
-Ritkán fordul elő, hogy a Microsoft nem tud befizetni az ügyfelektől a kereskedelmi Marketplace-vásárlásokhoz. Amikor egy ügyfél a számlázási ütemterv szerint nem fizet a Microsoftnak, kezdjük a gyűjtemények folyamatát. Ez a folyamat körülbelül négy hónapot vesz igénybe, és a Microsoft állandó kommunikációját is magában foglalja. Ha a folyamat végén nem érkezik fizetés, a Microsoft a nem begyűjthető módon írja le az alapokat.
+Ritka esetekben a Microsoft nem tud fizetéseket gyűjteni az ügyfelektől a kereskedelmi piactéren történő vásárlásokért. Ha egy ügyfél nem fizet a Microsoftnak a számlázási ütemezés szerint, megkezdjük a gyűjtési folyamatot. Ez a folyamat körülbelül négy hónapot vesz igénybe, és a Microsoft állandó kommunikációját is magában foglalja. Ha a folyamat végéig nem érkezik kifizetés, a Microsoft nem feldolgozhatóként írja le az összeget.
 
-Az itt megfogalmazott kifizetési folyamat alapján a Microsoft már kifizette a forrásokat olyan közzétevőknek (Ön), amelyek végső soron nem gyűjthetők. Ezért az ilyen összegek összeegyeztetése folyamatban van. Annak ellenőrzéséhez, hogy a (már fogadott) fizetést egyeztetni lehet-e, értesítést kap, ha az ügyfél a gyűjtemények folyamatában van, és a vásárlások valószínűleg ki lesznek írva.
+Az itt említett kifizetési folyamat szerint előfordulhat, hogy a Microsoft már kifizette az összeget olyan közzétevőknek (Ön), amelyek végső soron nemcolhatóak. Ezért van egy eljárásunk az összegek egyeztetésének folyamatára. Annak érdekében, hogy figyelmeztetést kap arról, hogy a (már kapott) kifizetése egyeztetve lehet, értesítést kap, ha egy ügyfél a gyűjteményi folyamatban van, és a vásárlások várhatóan le lesznek írva.
 
-A Microsoft a következő módszerek egyikének használatával visszakapcsolja az Ön számára már kifizetett kifizetéseket: (1) a Microsoft kivonja a jövőbeli kifizetésekből kifizetett összegeket. Ha például a kifizetések $1 000-es értéke nem gyűjthető és nem írható, a jövőbeli kifizetések visszatartásra kerülnek, amíg a $1 000 vissza nem áll, vagy (2) a Microsoft visszatérítési vagy számlázási közzétevőket igényelhet a nem gyűjtött összegekért.
+A Microsoft az alábbi módszerek egyikével újra beveszi a már kifizetett kifizetéseket: (1) A Microsoft kivonhatja a ki nem fizetett összegeket a jövőbeli kifizetésekből; Ha például a kifizetésekben szereplő 1000 USD nemoszloposnak és leírhatónak minősül, a jövőbeli kifizetéseket a rendszer mindaddig visszatartja, amíg az 1000 USD-t helyre nem állják, vagy (2) a Microsoft visszatérítést vagy számla-közzétevőket kérhet a nem be nem emelt összegekért.
 
-A következő ütemterv egy példa:
+Az alábbi ütemezés erre mutat példát:
 
-| Esemény | Hozzávetőleges dátum * | Partner láthatósága |
+| Esemény | Hozzávetőleges dátum* | Partnerek láthatósága |
 | --- | --- | --- |
-| Példa a kifizetés dátumára | 10/15/2020 | A kifizetési **irányítópulton a** tranzakciós előzmények és a fizetések részben ellátottként van megjelölve |
+| Példa kifizetési dátumra | 10/15/2020 | Elküldöttként **megjelölve a** Tranzakcióelőzmények és a Kifizetések szakaszban a Kifizetési irányítópulton |
 | <font color="red">Ha az ügyfél nem fizet a Microsoftnak</font> | 12/2/2020 – 12/5/2020 | Nincs változás, ugyanaz, mint fent |
-| Az ügyfél megkapja az első késedelmes fizetési értesítő e-mailt | 12/6/2020 | Nincsenek |
-| Az ügyfél rendszeresen kap e-maileket a megnövekedett sürgősségről | 12/7/2020 – 1/31/2021 | Nincsenek |
-| Valószínűleg a közzétevő értesítést kap a kiírásról | 1/7/2021 | A közzétevőnek küldött e-mail-értesítés, amelyet az ügyfele még nem küldött el. A tranzakció-azonosító és a dollár összege is szerepel. |
-| Az ügyfél lemondási értesítést kap | 2/1/2021 | Nincsenek |
-| A gyűjtési folyamat vége/az alapok le vannak írva | 2/15/2021 | A közzétevőnek elküldött e-mail-értesítés, amelyből a rendszer kiírta a forrásokat. A tranzakció-azonosító és a dollár összege is szerepel. |
-| A kifizetés le van vonva | 2021. 03. 01. | A közzétevő negatív tranzakciót fog látni a partner Center kifizetési utasításban |
-| A kifizetés megtagadva | 3/15/2021 | A jövőbeli kifizetések a partner Center kifizetési nyilatkozatában jelennek meg. A közzétevő nem kap fizetést, amíg az egyenleg már nem negatív.  |
+| Az ügyfél megkapja az első kései fizetési e-mailt | 12/6/2020 | None |
+| Az ügyfél rendszeres e-maileket kap a sürgősség növeléséről | 12/7/2020 – 1/31/2021 | None |
+| A közzétevő valószínűleg értesítést kap a kiírásról | 1/7/2021 | A közzétevőnek küldött e-mail-értesítés arról, hogy az ügyfél még nem küldte el a kifizetést. A tranzakcióazonosítót és a dollárban fizetendő összeget tartalmazza. |
+| Az ügyfél felmondási értesítést kap | 2/1/2021 | None |
+| A gyűjtési folyamat véget ér/ az összeget leírják | 2/15/2021 | A közzétevőnek küldött e-mail-értesítés arról, hogy az összeget leírták. A tranzakcióazonosítót és a dollárban fizetendő összeget tartalmazza. |
+| A kifizetés le van vonva | 2021. 03. 01. | A közzétevő negatív tranzakciót fog látni a Partnerközpont kimutatásban |
+| Kifizetés visszatartva | 3/15/2021 | A jövőbeli kifizetések a kifizetési kimutatásban Partnerközpont jelennek meg. A közzétevő csak akkor kapja meg a kifizetést, ha az egyenleg már nem negatív.  |
 |||
 
-\* A kifizetés dátuma csendes-óceáni téli idő (PST).
+\* A kifizetés dátuma a csendes-óceáni téli idő (PST) szerint van meg.
 
-## <a name="number-of-days-for-payments-to-reach-a-payout-account"></a>A kifizetési fiókhoz való befizetéshez szükséges napok száma
+## <a name="number-of-days-for-payments-to-reach-a-payout-account"></a>A kifizetési számla eléréséhez való kifizetések napjainak száma
 
-A hónap 15. napján egy adott hónapban minden esedékes fizetést elküldünk, de egy másik alkalommal is eltarthat, amíg a fizetés megérkezik a fiókjába. A napok száma a fiókhoz használt fizetési módszertől függ, az alább leírtak szerint.
+Általában a hónap 15. napján, egy adott hónapban esedékes kifizetéseket küldjük el, de a kifizetésnek más időbe telik, hogy elérje a fiókját. A napok száma a fiókjához használt fizetési módtól függ, az alábbiakban leírtak szerint.
 
 > [!NOTE]
-> Az alább látható napok a következők: közelítő; a fizetés több vagy kevesebb időt vehet igénybe a fiókja eléréséhez.
+> Az alábbi napok száma hozzávetőleges; bármely kifizetés több vagy kevesebb időt is vegyen el a fiókjához való eléréshez.
 
-| Payment Method (Fizetési mód)     | A kifizetési fiók eléréséhez szükséges napok száma     |
+| Payment Method (Fizetési mód)     | A kifizetési számla eléréséhez napjainak száma     |
 |--------------------|--------------------------------------------|
-| PayPal             | 1 munkanap                             |
-| ACH/SEPA           | 2-3 munkanap                          |
-| Átutalás      | 7-10 munkanap                         |
+| PayPal             | 1 üzleti nap                             |
+| ACH/SEPA           | 2–3 munkanap                          |
+| Átutalás      | 7–10 munkanap                         |
 |
 
 ## <a name="next-steps"></a>Következő lépések

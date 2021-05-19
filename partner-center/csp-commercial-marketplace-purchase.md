@@ -1,64 +1,61 @@
 ---
-title: Kereskedelmi Piactéri ajánlatok vásárlása
+title: Kereskedelmi piactéri ajánlatok vásárlása
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a CSP-program partnerei hogyan használhatják a partner Center Marketplace-t a független szoftvergyártók (ISV-ket) által kínált SaaS-ajánlatok vásárlásához.
+description: Megtudhatja, hogyan vásárolhatnak SaaS-ajánlatokat független szoftverszállítóktól (ISV-ktől) a Partnerközpont piactéren a CSP-programpartnerek.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 841308d535d4071ee0a8eabf3e70325edea5777c
-ms.sourcegitcommit: a78dd3c532860d01867d116bfb4e2c88b84bcd25
+ms.openlocfilehash: 3f5cf4895fa4d66c65215989d808a1dd18ef9064
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "97979716"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147853"
 ---
-# <a name="purchase-commercial-marketplace-products-for-your-customers-in-partner-center"></a>Kereskedelmi piactéren vásárolt termékek vásárlása a partner Centerben
+# <a name="purchase-commercial-marketplace-products-for-your-customers-in-partner-center"></a>Kereskedelmi piactéri termékek vásárlása az ügyfelek számára Partnerközpont
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felügyeleti ügynök
+A Felhőszolgáltató (CSP) program egyik partnereként a kereskedelmi piactéren vásárolhat előfizetéseket az ügyfelei számára a független szoftverszállítók (ISV-k) által kínált bizonyos Szolgáltatott szoftver (SaaS) termékekhez.
 
-A Cloud Solution Provider (CSP) programban partnerként a kereskedelmi piactéren vásárolhat előfizetéseket ügyfelei számára a független szoftvergyártók (ISV-EK) által kínált, szolgáltatásként nyújtott szoftverként (SaaS).
+Ha ISV SaaS-előfizetéseket kínál ügyfeleinek, megkülönböztetheti vállalkozását. Emellett hozzáférést adhat az ügyfeleknek az adott üzleti igényeiknek megfelelő szoftvercsomaghoz. Ezeknek a piactéri SaaS-termékeknek a licencét és előfizetését is az ISV-közzétevőktől kezelheti, ahogyan a Microsoft-termékek licencét és előfizetését.
 
-Az ISV SaaS-előfizetések ügyfelei számára történő biztosításával megkönnyítheti a vállalatok megkülönböztetését. Az ügyfelek számára hozzáférést biztosíthat az adott üzleti igényeknek megfelelő szoftver-kötegekhez is. A piactéren elérhető SaaS-termékek licenceit és előfizetéseit a Microsoft-termékekhez tartozó licencek és előfizetések kezelése során kezelheti.
+Vásárolhat licencalapú **SaaS-előfizetéseket** vagy **használatalapú előfizetéseket.** A licencalapú és a használatalapú számlázás közötti különbségekkel kapcsolatos további információkért lásd a [számlázás alapjait.](billing-basics.md)
 
-Vásárolhat **licenc-alapú** SaaS-előfizetéseket vagy **használati alapú** előfizetéseket. Ha többet szeretne megtudni a licenc-alapú és a használati alapú számlázás közötti különbségekről, tekintse meg a [számlázás alapjai](billing-basics.md)című témakört.
+## <a name="purchase-license-based-and-metered-saas-subscriptions-in-partner-center"></a>Licencalapú és forgalmi díjas SaaS-előfizetések vásárlása a Partnerközpont
 
-## <a name="purchase-license-based-and-metered-saas-subscriptions-in-partner-center"></a>Licenc-alapú és mért SaaS-Előfizetések vásárlása a partner Centerben
+Az ISV-közzétevők által kínált licencalapú vagy forgalmi díjas SaaS-termékek előfizetését ugyanazokkal a folyamatokkal vásárolhatja meg, mint a Microsoft-termékekhez.
 
-Az ISV-gyártók által kínált licenc-alapú vagy mért SaaS-termékek előfizetéseit a Microsoft-termékek előfizetésének megvásárlására használt eljárással vásárolhatja meg.
+Licencalapú vagy forgalmi díjas SaaS-előfizetés Partnerközpont ügyfél-előfizetések létrehozása, felfüggesztése vagy [lemondása.](create-a-new-subscription.md#create-a-new-subscription)
 
-Ha licenc-alapú vagy mért SaaS-előfizetést szeretne vásárolni a partner Centerben, tekintse meg az [ügyfél-előfizetések létrehozása, felfüggesztése vagy megszakítása](create-a-new-subscription.md#create-a-new-subscription)című témakört.
-
-A [partner Center API](/partner-center/develop/) -k használatával kereskedelmi piactér-előfizetéseket hozhat létre ügyfelei számára. (A partner Center API-k használatával kapcsolatos további információkért lásd: [előfizetés létrehozása kereskedelmi Piactéri termékekhez](/partner-center/develop/create-subscription-azure-marketplace-products).)
+A kereskedelmi [piactéri előfizetések Partnerközpont API-kat](/partner-center/develop/) is használhatja az ügyfelek számára. (Az API-k használatával kapcsolatos Partnerközpont lásd: [Előfizetés létrehozása kereskedelmi piactéri termékekhez.)](/partner-center/develop/create-subscription-azure-marketplace-products)
 
 >[!IMPORTANT]
-> A CSP programban partnerként vásárolhat **licenc-alapú** vagy **mért** SaaS-előfizetéseket a partner centeren belüli ISV-közzétevők közül. Ez azt jelenti, hogy vásárolhat bármilyen **licenccel** vagy **mért** SaaS-ajánlatot, amelyet az ISV közzétevő elérhetővé tett, beleértve az [exkluzív ajánlatokat](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) is, amelyekhez hozzáféréssel rendelkezik. Ha más, kereskedelmi Piactéri ajánlatokat szeretne megvásárolni vagy kezelni (például Azure-alkalmazásokat,-tárolókat vagy virtuális gépeket érintő használaton alapuló ajánlatokat), akkor a [Azure Portalra](https://portal.azure.com/)kell lépnie.
+> A CSP-programban partnerként licencalapú **vagy** forgalmi díjas SaaS-előfizetéseket vásárolhat a csv-közzétevőktől a Partnerközpont.  Ez azt jelenti, hogy bármilyen licencalapú vagy forgalmi díjas  SaaS-ajánlatot [](csp-commercial-marketplace-discover.md#learn-about-marketplace-exclusive-offers) megvásárolhat, amelyet az ISV közzétevő tett elérhetővé az Ön számára, beleértve azokat az ajánlatokat is, amelyekhez Hozzáféréssel rendelkezik.  Az ISV-k (például Azure-alkalmazásokat, tárolókat vagy virtuális gépeket érintő használatalapú ajánlatok) kereskedelmi piactéri ajánlatának megvásárlásához vagy kezeléséhez meg kell [Azure Portal.](https://portal.azure.com/)
 
-## <a name="purchase-usage-based-subscriptions-in-the-azure-portal"></a>Használati alapú Előfizetések vásárlása a Azure Portal
+## <a name="purchase-usage-based-subscriptions-in-the-azure-portal"></a>Használatalapú előfizetések vásárlása a Azure Portal
 
-A külső gyártótól származó ISV-közzétevők licenc-alapú SaaS-előfizetésével ellentétben a használati előfizetésekhez először az ügyfélnek Azure-előfizetésre van szüksége. A kereskedelmi piactéren a használaton alapuló erőforrások számlázása az ügyfél Azure-előfizetése alá tartozik. Ha az ügyfél Azure-előfizetéssel rendelkezik, a CSP programban található partner a következő lépésekkel vásárolhatja meg a kereskedelmi piactér-előfizetéseket:
+A külső ISV-közzétevőktől származó licencalapú SaaS-előfizetésekkel ellentétben a használatalapú előfizetések esetében az ügyfélnek először Azure-előfizetésre van szüksége. A kereskedelmi piactér számlázása, a használatalapú erőforrások az ügyfél Azure-előfizetése alá esnek. Ha az ügyfél már rendelkezik Azure-előfizetéssel, a CSP-program egyik partnere az alábbi lépéseket követve vásárolhat számukra kereskedelmi piactér-előfizetést:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd válassza az **ügyfelek** lehetőséget a bal oldali menüben.
+1. Jelentkezzen be a Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard)majd válassza az **Ügyfelek** lehetőséget a bal oldali menüben.
 
-2. Válassza ki az adott ügyfelet, majd válassza az **előfizetések** lehetőséget.  
+2. Válassza ki az adott ügyfelet, majd válassza az **Előfizetések lehetőséget.**  
 
-3. A **használat alapú előfizetések** területen válassza az **összes erőforrás** lehetőséget. Ezzel az Azure felügyeleti portálra kerül.
+3. A **Használatalapú előfizetések alatt válassza a** **Minden erőforrás lehetőséget.** Ezzel az Azure felügyeleti portálra kerül.
 
-4. Az Azure felügyeleti portálján válassza az **erőforrás létrehozása** lehetőséget a bal oldali menüben.
+4. Az Azure felügyeleti portál bal oldali menüjében válassza **az Erőforrás** létrehozása lehetőséget.
 
-5. Az Azure Marketplace-lista tetején kattintson az **összes** megjelenítése lehetőségre.
+5. A **lista tetején** válassza az Összes Azure Marketplace lehetőséget.
 
-6. A lista szűkítéséhez használjon szűrőket a piactér lista tetején. Kiválaszthatja például a **Microsoft** vagy a **partner** elemet a **közzétevő** legördülő listából, hogy csak a Microsoft vagy az ISV közzétevő által készített ajánlatokat tekintse meg.
+6. A lista szűkítéshez használjon szűrőket a Marketplace-lista tetején. Kiválaszthatja például a **Microsoft** vagy  a **Partner** lehetőséget a Közzétevő legördülő listából, hogy csak a Microsoft vagy egy ISV-közzétevő ajánlatát tekintse meg.
 
-7. Válasszon egy adott ajánlatot, majd válassza a **Létrehozás** lehetőséget.
+7. Válasszon ki egy adott ajánlatot, majd válassza a **Létrehozás lehetőséget.**
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Kereskedelmi Piactéri ajánlatok kezelése](csp-commercial-marketplace-purchase.md)
+- [Kereskedelmi piactéri ajánlatok kezelése](csp-commercial-marketplace-purchase.md)

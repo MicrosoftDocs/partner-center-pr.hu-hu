@@ -4,109 +4,106 @@ ms.topic: how-to
 ms.date: 12/02/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Szerezze be az ügyfél szolgáltatásának vagy előfizetésének a nevében történő kezeléséhez szükséges engedélyeket. Ismerje meg, hogyan adhatók meg, vonhatók vissza és kezelhetők az engedélyek.
+description: Szerezze be az ügyfél szolgáltatásának vagy előfizetésének a nevükben való kezeléséhez szükséges engedélyeket. Megtudhatja, hogyan adhatók meg, vonhatók vissza és kezelhetők az engedélyek.
 author: BillLinzbach
 ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: high
-ms.openlocfilehash: 624b66c7912af1f0109b6aadeffb67c5d4e9ea4b
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: 779e76d6bb3e8df679a5ca6fa8ce441e42529161
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502497"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147292"
 ---
-# <a name="obtain-permissions-to-manage-a-customers-service-or-subscription"></a>Engedélyek beszerzése az ügyfél szolgáltatásának vagy előfizetésének kezeléséhez
+# <a name="obtain-permissions-to-manage-a-customers-service-or-subscription"></a>Engedélyek beszerzése egy ügyfél szolgáltatásának vagy előfizetésének kezeléséhez
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Értékesítési ügynök
 
-- Felügyeleti ügynök
-- Értékesítési ügynök
+Az ügyfél szolgáltatásának vagy előfizetésének a nevében történő kezeléséhez az ügyfélnek rendszergazdai engedélyeket kell ad önnek az adott szolgáltatáshoz. Ha rendszergazdai engedélyeket kér egy ügyféltől, küldjön neki egy viszonteladói kapcsolatkérést. Miután az ügyfél jóváhagyta a kérést, bejelentkezhet a szolgáltatás felügyeleti portálján, és kezelheti a szolgáltatást az ügyfél nevében. 
 
-Ha az ügyfél szolgáltatását vagy előfizetését az Ön nevében szeretné kezelni, az ügyfélnek meg kell adnia a szolgáltatáshoz tartozó rendszergazdai engedélyeket. Ha rendszergazdai jogosultságokat szeretne kapni az ügyféltől, küldje el a viszonteladói kapcsolatra vonatkozó kérelmet. Miután az ügyfél jóváhagyta a kérelmét, bejelentkezhet a szolgáltatás felügyeleti portálján, és kezelheti a szolgáltatást az ügyfél nevében. 
+## <a name="invite-a-customer-to-establish-a-reseller-relationship-with-you"></a>Ügyfél meghívása viszonteladói kapcsolat létesítésre
 
-## <a name="invite-a-customer-to-establish-a-reseller-relationship-with-you"></a>Ügyfél meghívása viszonteladói kapcsolat létesítéséhez
-
-1.  Válassza az **ügyfelek** lehetőséget, majd válassza **a viszonteladói kapcsolat kérése** lehetőséget.
+1.  Válassza **az Ügyfelek,** majd **a Viszonteladói kapcsolat kérése lehetőséget.**
 
 2.  A következő lapon tekintse át az e-mail-üzenet piszkozatát. Az üzenet piszkozatát az alapértelmezett e-mail-alkalmazásban nyithatja meg, vagy átmásolhatja az üzenetet a vágólapra, és beillesztheti egy e-mailbe. 
 
     >[!IMPORTANT]
     >Az e-mailben szereplő szöveget szerkesztheti, de mindenképpen mellékelje a hivatkozást, mivel az személyre szabott, és közvetlenül a fiókjához kapcsolja az ügyfelet. 
     
-3.  Ha befejezte ezt a lépést, válassza a **kész** lehetőséget.
+3.  Ha **végzett** ezzel a lépéssel, válassza a Kész lehetőséget.
 
 4.  Küldje el az e-mailt az ügyfélnek.
 
-5.  Miután az ügyfél elfogadta a meghívót, megjelennek az **ügyfelek** oldalán, és az ügyfél számára is kiépítheti és kezelheti a szolgáltatást.
+5.  Miután az ügyfél elfogadta a meghívót,  megjelenik az Ügyfelek lapon, és onnan kiépíti és kezelheti a szolgáltatást.
 
-6.  Az ügyfél fiókjának, szolgáltatásainak, felhasználóinak és licencének kezeléséhez bontsa ki az ügyfél rekordját a neve melletti lefelé mutató nyílra kattintva, majd válassza ki a felügyelni kívánt szolgáltatás felügyeleti portálját.
+6.  Az ügyfél fiókjának, szolgáltatásainak, felhasználóinak és licencének kezeléséhez bontsa ki az ügyfél rekordját a név melletti lefelé mutató nyílra kattintva, majd válassza ki a kezelni kívánt szolgáltatás felügyeleti portálját.
 
 >[!IMPORTANT]  
->Az ügyfelek a szolgáltatás felügyeleti portálján módosíthatják vagy eltávolíthatják a rendszergazdai engedélyeket. Azonban tájékoztatnia kell az ügyfelet, hogy távolítsa el a rendszergazdai engedélyeket, így többé nem fog tudni megnyitni egy szolgáltatási kérelmet a Microsoftnak a nevében. Az ügyfél nevében nem nyithatja meg az ilyen típusú szolgáltatási kérelmeket, amíg újra nem egyezteti a szerződést az ügyféllel.
+>Az ügyfelek a szolgáltatás felügyeleti portálján újra hozzárendelheti vagy eltávolíthatja a rendszergazdai engedélyeket. Arról azonban tájékoztatnia kell az ügyfelet, hogy a rendszergazdai engedélyek eltávolítása azt jelenti, hogy a továbbiakban nem fog tudni szolgáltatási kérést nyitni a Microsoftnak a nevükben. Az ilyen típusú szolgáltatáskéréseket nem nyithatja meg az ügyfél nevében, amíg újra nem kötötte az ügyféllel kötött szerződést.
 
-Ügyfeleinek megtudhatják, hogy a partnerek közül melyiknek van rendszergazdai jogosultsága a bérlőnek az Office 365 felügyeleti portálján. Ehhez tegye a következőket:
+Az Ügyfelek az Office 365 felügyeleti portálon találhatják meg, hogy melyik partnerük rendelkezik rendszergazdai jogosultságokkal a bérlőjükhöz. Ehhez tegye a következőket:
 
 1. Az ügyfélnek globális rendszergazdaként kell bejelentkeznie az Office 365 felügyeleti portálra.
 
-2. Válassza a **Beállítások**  >  **partneri kapcsolatok** lehetőséget.
+2. Válassza **a Beállítások**  >  **Partnerkapcsolatok lehetőséget.**
 
-3. A **partneri kapcsolatok** lapon megjelenik az ügyfél azon partnereinek listája, akikkel működnek, és amelyek delegált rendszergazdai jogosultságot kaptak a bérlőik számára.
+3. A **Partnerkapcsolatok** lapon az ügyfél láthatja azon partnerek listáját, akikkel dolgozik, valamint azok, akik delegált rendszergazdai jogosultságot kaptak a bérlőjükhöz.
 
-## <a name="customers-can-manage-a-partners-delegated-admin-privileges"></a>Az ügyfelek felügyelhetik a partner meghatalmazott rendszergazdai jogosultságait 
+## <a name="customers-can-manage-a-partners-delegated-admin-privileges"></a>Az ügyfelek kezelhetik a partnerek delegált rendszergazdai jogosultságait 
 
-Az ügyfél dönthet úgy is, hogy eltávolítja a meghatalmazott rendszergazdai jogosultságokat a bérlőtől, de megtartja Önnel a kapcsolatot az előfizetés és a licenc megújítása céljából. A felhasználók az Office 365-fiókokhoz tartozó jogosultságokat és engedélyeket az Office 365 felügyeleti központ **partner kapcsolatok** lapján kezelhetik. Ezen az oldalon az ügyfelek a következőket tehetik:
+Az ügyfél dönthet úgy, hogy eltávolítja a delegált rendszergazdai jogosultságokat a bérlőjéből, de az előfizetés és a licenc megújítása érdekében megtartja a kapcsolatot Önvel. Az ügyfelek az Office 365 Felügyeleti központ  Partnerkapcsolatok lapján kezelhetik office 365-fiókjaik jogosultságát és engedélyeiket. Ezen az oldalon az ügyfelek:
 
-- Megtudhatja, hogy mely partnerek rendelkeznek a kapcsolattal, és hogy mely partnerek delegált rendszergazdai jogosultságokkal rendelkeznek
+- Tekintse meg, hogy mely partnerekkel áll kapcsolatban, és mely partnerek delegált rendszergazdai jogosultságokkal
 
-- Partner delegált rendszergazdai jogosultságának eltávolítása a bérlőtől
+- Partner delegált rendszergazdai jogosultságának eltávolítása a bérlőből
 
-Delegált rendszergazdai jogosultságok eltávolítása a partnertől:
+Delegált rendszergazdai jogosultságok eltávolítása egy partnertől:
 
-1. A **partneri kapcsolatok** lapon válassza ki a partnert, aki érdeklődik.
-2. A részleteket tartalmazó ablaktáblán válassza a **meghatalmazott rendszergazda eltávolítása** lehetőséget.
-3. A megerősítő ablaktáblán válassza az **Eltávolítás** lehetőséget.
+1. A **Partnerkapcsolatok lapon** válassza ki a kívánt partnert.
+2. A részleteket tartalmazó panelen válassza a **Delegált rendszergazda eltávolítása lehetőséget.**
+3. A megerősítési panelen válassza az Eltávolítás **lehetőséget.**
 
 >[!IMPORTANT]  
->A partnerhez tartozó Azure AD-szerepkör-hozzárendelések implicitek. Ha az Azure ad Portal/PowerShell/Graph használatával próbálja meg kilistázni az Azure AD-szerepkörök tagjait, a rendszer nem adja vissza a partnert. Annak megállapításához, hogy a partnerek Azure AD-szerepkörökhöz vannak-e rendelve, az Office 365 felügyeleti portálján partneri kapcsolatok lapjára kell hivatkoznia, ha meg szeretné tudni, hogy a partnernek van-e delegált rendszergazdai jogosultsága, vagy sem.
+>Az Azure AD-beli szerepkör-hozzárendelések implicitek a partnerhez. Ha megpróbálja listába sorolni az Azure AD-szerepkörök tagjait az Azure AD Portal/PowerShell/Graph használatával, a rendszer nem ad vissza partnert. Ha meg kell tudni, hogy a partnerek Azure AD-szerepkörökhöz vannak-e rendelve, az Office 365 felügyeleti portál Partnerkapcsolatok oldalán kell tájékozódni, hogy kapott-e delegált rendszergazdai jogosultságot a partnernek.
 
-## <a name="delegated-admin-privileges-in-azure-ad"></a>Delegált rendszergazdai jogosultságok az Azure AD-ben 
+## <a name="delegated-admin-privileges-in-azure-ad"></a>Delegált rendszergazdai jogosultságok az Azure AD-ban 
 
-A partner Azure AD-bérlője két biztonsági csoportot, rendszergazdai ügynököt és segélyszolgálat-ügynököt használ a delegált felügyelethez. Ha egy ügyfél delegált rendszergazdai jogosultságot ad a partnernek:
+A partner Azure AD-bérlője két biztonsági csoportot (rendszergazdai ügynököket és támogatási ügynököket) használ a delegált felügyelethez. Ha egy ügyfél delegált felügyeleti jogosultságot biztosít egy partnernek:
 
-- A rendszergazdai ügynök csoport a globális rendszergazdai szerepkörhöz van rendelve az ügyfél Azure AD-bérlőben.
+- A rendszergazdai ügynök csoport az ügyfél Azure AD-bérlője globális rendszergazdai szerepköréhez van rendelve.
 
-- Az ügyfélszolgálati ügynök csoportot az ügyfél Azure AD-bérlője az ügyfélszolgálati rendszergazda szerepkörhöz rendeli.
+- A Támogatási ügynök csoport az ügyfélszolgálati rendszergazda szerepkörhöz van rendelve az ügyfél Azure AD-bérlője számára.
 
-A hozzárendelt címtárbeli szerepkörök alapján mindkét csoport tagjai bejelentkezhetnek az ügyfél Azure AD-bérlői és O365 szolgáltatásaiba a partneri hitelesítő adataik és a rendszergazda által az ügyfél nevében.
+A hozzárendelt címtárbeli szerepkörök alapján mindkét csoport tagjai bejelentkeznek az ügyfél Azure AD-bérlőjébe és O365-szolgáltatásaiba a partneri hitelesítő adataik és a rendszergazda segítségével az ügyfél nevében.
 
-Ha az ügyfél eltávolítja a delegált rendszergazdai jogosultságokat, a rendszer eltávolítja az Azure AD szerepkör-hozzárendeléseket, és többé nem fogja tudni kezelni az ügyfél Azure AD-bérlőjét.
+Ha az ügyfél eltávolítja a delegált rendszergazdai jogosultságokat, az Azure AD szerepkör-hozzárendelései törlődnek, és Ön többé nem fogja tudni kezelni az ügyfél Azure AD-bérlőit.
 
 ### <a name="azure-subscriptions-and-resource-management"></a>Azure-előfizetések és erőforrás-kezelés
 
-Minden Azure-előfizetés saját erőforrás-kezelési szerepkörökkel rendelkezik. Mielőtt egy CSP-partner felügyelheti az ügyfél Azure-előfizetését, a partnert hozzá kell rendelni egy vagy több szerepkörhöz az Azure-előfizetésben. Ezek konkrétan a következők:
+Minden Azure-előfizetés saját erőforrás-kezelési szerepkörökkel rendelkezik. Mielőtt egy CSP-partner kezelné egy ügyfél Azure-előfizetését, a partnert hozzá kell rendelni egy vagy több szerepkörhöz az Azure-előfizetésben. Ezek konkrétan a következők:
 
-- Ha az ügyfél elfogad egy viszonteladói meghívást, és delegált rendszergazdai jogosultságot ad a partnernek, a partner nem kap automatikusan hozzáférést az ügyfél bérlője által biztosított meglévő Azure-előfizetésekhez.
+- Ha egy ügyfél elfogadja a viszonteladói meghívót, és delegált rendszergazdai jogosultságot biztosít egy partnernek, a partner nem kap automatikusan hozzáférést az ügyfélbérlőn belül meglévő Azure-előfizetéshez.
 
-- Ha a CSP-partner új Azure-előfizetést épít ki az ügyfél számára, akkor a CSP-partner bérlője alá tartozó rendszergazdai ügynökök csoport automatikusan hozzárendeli a tulajdonosi szerepkört az előfizetéshez. A szerepkör-hozzárendelés alapján a csoport tagjai hozzáférhetnek és kezelhetik az előfizetésben található erőforrásokat.
+- Amikor a CSP-partner új Azure-előfizetést hoz létre az ügyfél számára, a CSP-partnerbérlőben a Rendszergazdai ügynökök csoport automatikusan tulajdonosi szerepkört kap az előfizetéshez. Ezen szerepkör-hozzárendelés alapján a csoport tagjai hozzáférhetnek az előfizetés erőforrásaihoz, és kezelhetik azt.
 
-- Ha egy ügyfél az Office 365 portál használatával eltávolítja a delegált felügyeleti jogosultságokat egy partnertől, akkor a partner továbbra is kezelheti az ügyfél Azure-előfizetését, feltéve, hogy a partner még hozzá van rendelve egy vagy több szerepkörhöz az előfizetés alatt. Ha le szeretné állítani a partnert az Azure-előfizetés kezelésében, az ügyfélnek el kell távolítania a szerepkör-hozzárendelést.
+- Ha egy ügyfél az Office 365 portál használatával eltávolítja a delegált rendszergazdai jogosultságokat egy partnertől, a partner továbbra is kezelheti az ügyfél Azure-előfizetését, ha a partner továbbra is hozzá van rendelve az előfizetés egy vagy több szerepköréhez. Ha meg szeretné akadályozni, hogy a partner kezeli az Azure-előfizetést, az ügyfélnek el kell távolítania a szerepkör-hozzárendelést.
 
 ## <a name="windows-autopilot"></a>Windows Autopilot
 
-A partneri központból a CSP-partnerek a jelen körülmények között a delegált rendszergazdai jogosultságok nélkül kezelhetik ügyfeleik számára az Autopilot-profilokat: 
+A Partnerközpont csp-partnerek a következő esetekben kezelhetik az ügyfeleik AutoPilot-profiljait delegált rendszergazdai jogosultságok nélkül: 
 
-- Ha egy ügyfél eltávolítja a delegált felügyeleti jogosultságokat, de megtartja Önnel a viszonteladói kapcsolatot, továbbra is kezelheti az Autopilot-profilokat.
+- Ha egy ügyfél eltávolítja a delegált rendszergazdai jogosultságokat, de viszonteladói kapcsolatot tart meg Önvel, továbbra is kezelheti az Autopilot-profilokat.
 
-- Kezelheti az Ön vagy egy másik partner által hozzáadott ügyfeleket. 
+- Kezelheti az Ön vagy egy másik partner által hozzáadott ügyféleszközöket. 
 
-- Nem kezelhet olyan eszközöket, amelyeket az ügyfél a Microsoft Store for Business, az Microsoft Store for Education vagy a Microsoft Intune Portal használatával hozzáadott.
+- Nem kezelheti az ügyfél által a portálon Microsoft Store Vállalatoknak, Microsoft Store Oktatási Intézményeknek vagy Microsoft Intune hozzáadott eszközöket.
 
-Az Autopilot szolgáltatással kapcsolatos további információkért lásd: [az eszközök beállításának leegyszerűsítése a Windows Autopilot](autopilot.md)szolgáltatással.
+További információ az Autopilotról: Az eszköz [beállításának egyszerűsítése a Windows Autopilot.](autopilot.md)
 
 >[!IMPORTANT]  
->Előfordulhat, hogy a partnervállalat jelenlegi robotpilóta-kezelési felülete továbbra is változhat. A cikk közzétételének időpontjában a következő változások tekintendők:
+>A jelenlegi Autopilot-Partnerközpont továbbra is változhatnak. A cikk közzétételekor a következő változásokat kell figyelembe venni:
 
-- A partnernek delegált rendszergazdai jogosultságot kell biztosítania az ügyfél számára, mielőtt a partner hozzáadhat/frissíthet/eltávolíthat profilokat, és a profil alkalmazásával vagy eltávolításával az ügyfél bérlője bármely eszközéről.
+- A partnernek delegált rendszergazdai jogosultságot kell adni az ügyfélnek, mielőtt a partner profilokat adhat hozzá, frissíthet/távolíthat el, illetve profilokat alkalmazhat/távolíthat el az ügyfélbérlőben elérhető összes eszközről.
 
-- A partnernek delegált rendszergazdai jogosultságot kell biztosítania ahhoz, hogy az ügyfél el tudja távolítani a többi partner vagy az ügyfél bérlője által felvett eszközöket. Ellenkező esetben a partner csak a korábban ugyanahhoz a partnerhez hozzáadott eszközöket távolíthatja el.
+- A partnernek delegált rendszergazdai jogosultságot kell adni az ügyfélnek, mielőtt a partner eltávolíthatja a más partnerek vagy az ügyfél bérlője által hozzáadott eszközöket. Ellenkező esetben a partner csak az ugyanazon partner által korábban hozzáadott eszközöket távolíthatja el.

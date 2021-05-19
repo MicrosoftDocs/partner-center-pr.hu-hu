@@ -1,124 +1,121 @@
 ---
-title: Támogatott CSP-partneri kapcsolatok
+title: Támogatott CSP-partnerkapcsolatok
 ms.topic: article
 ms.date: 05/12/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerkedjen meg a különböző partneri kapcsolatokkal és a támogatott tranzakciós forgatókönyvekkel a CSP programban résztvevő partnerek számára.
+description: Ismerje meg a csp-programban részt vevő partnerek különböző partnerkapcsolatokat és támogatott tranzakciós forgatókönyveket.
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: cbba669cbccf96fe9addc6d4b7c7ac4b86c15ddf
-ms.sourcegitcommit: 7153f0b8c67efd35f58695ca2a7e00e70da1c5e9
+ms.openlocfilehash: b70f8f152bc3711e5a715b6a4f0316f8aaa9b903
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "92527990"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147513"
 ---
-# <a name="learn-how-partners-can-work-with-other-partners-in-the-csp-program"></a>Ismerje meg, hogy a partnerek hogyan működhetnek más partnerekkel a CSP programban
+# <a name="learn-how-partners-can-work-with-other-partners-in-the-csp-program"></a>Megtudhatja, hogyan dolgozhatnak a partnerek más partnerekkel a CSP-programban
 
-**A következőkre vonatkozik**
+**Megfelelő szerepkörök:** Minden partner, aki többet szeretne tanulni a CSP-ről
 
-- Partnerközpont
-- Partnerek a CSP programban
+Ez a cikk a partnerkapcsolatok fő típusait ismerteti a Microsoft felhőszolgáltató (CSP) programban. Emellett ismerteti a CSP-programpartnerek különböző alkalmazási helyzeteket, előnyöket és támogatott tranzakciós forgatókönyveket.
 
-Ez a cikk a partneri kapcsolatok főbb típusait ismerteti a Microsoft Cloud Solution Provider (CSP) programban. Emellett számos felhasználási esetet, előnyt és támogatott tranzakciós forgatókönyvet ismertet a CSP-program partnerei számára.
+A CSP-programban való partnerként a licencek újraegyenlődésén kívül is részt lehet venni az ügyfelek üzleti tevékenységében. A CSP-program a partnereket helyezi az ügyféllel való kapcsolat középpontjába. Ez mélyebb elkötelezettséget jelent az ügyfelekkel, egy belső nézetet az ügyfél vállalkozásával, és lehetőséget ad az új értékesítési lehetőségek felfedésére. Még az ügyfelek digitális átalakításának felgyorsításában is segíthet.
 
-Ha a CSP programban partnernek számít, akkor a licencek viszonteladása után továbbra is használhatja az ügyfelek üzleti tevékenységeit. A CSP program partnereket helyez el a kapcsolat középpontjában az ügyféllel. Ez mélyebb szerepvállalást eredményez ügyfeleivel, egy bennfentes nézetet az ügyfél üzleti tevékenységére, és az új értékesítési lehetőségek feltárására is lehetőséget nyújt. Az ügyfél digitális átalakításának felgyorsításához is segítséget nyújthat.
+A CSP-programpartnerként emellett további jövedelmezőségi streameket is kihasználhatja. Ezt úgy teheti meg, hogy integrálja a Microsoft (külső) ajánlatokat és a külső ajánlatokat a saját, hozzáadott értékkel bíró szolgáltatásaival. Ez kibővíti az üzleti portfóliót, és jobb pozíciókat kínál a növekvő ügyféligény kielégítése érdekében.
 
-A CSP-partner is azt jelenti, hogy további jövedelmezőségi streameket is használhat. Ezt úgy teheti meg, hogy integrálja a Microsoft (az első féltől származó) ajánlatokat és a harmadik féltől származó ajánlatokat a saját, hozzáadott értékű szolgáltatásaival. Ez kibővíti az üzleti portfólióját, és jobban megfelel a növekvő vásárlói igényeknek.
+## <a name="types-of-partner-relationships-in-the-csp-program"></a>Partnerkapcsolatok típusai a CSP-programban
 
-## <a name="types-of-partner-relationships-in-the-csp-program"></a>Partneri kapcsolatok típusai a CSP programban
-
-A CSP programban partnerként eldöntheti, hogyan szeretné a Microsofttal és másokkal együttműködni. A CSP program jelenleg három, fő típusú tranzakciós kapcsolatot támogat:
+A CSP-programban partnerként ön döntheti el, hogyan szeretne együttműködni a Microsofttal és másokkal. A CSP program jelenleg a tranzakciós kapcsolatok három fő típusát támogatja:
 
 - Közvetett szolgáltatók
 - Közvetett viszonteladók
-- Direct-Bill partnerek
+- Közvetlen számlázási partnerek
 
-A **közvetett szolgáltatók** (más néven forgalmazók) vásárolhatnak első féltől származó ajánlatokat és harmadik féltől származó ajánlatokat a Microsoft piactéren. Közvetett szolgáltatóként megvásárolhatja és integrálhatja ezeket az ajánlatokat a saját, meglévő kereskedelmi vagy Piactéri szolgáltatásba. Ez lehetővé teszi, hogy a közvetett viszonteladók beszerezzék az ajánlatokat, és eladják azokat a saját ügyfeleiknek. A közvetett szolgáltató azt jelenti, hogy rendelkezik olyan infrastruktúrával és képességekkel, amelyek támogatják a közvetett viszonteladók méretezését. Ez azt is jelenti, hogy további szolgáltatásokat biztosíthat az ügyfeleknek a közvetett viszonteladók nevében, például az ügyfelek támogatását és a számlázást. Ha többet szeretne megtudni arról, hogy a közvetett szolgáltatók hogyan csatlakoznak a közvetett viszonteladókkal, tekintse meg a következőt: [partner közvetett viszonteladókkal a CSP programban](indirect-provider-tasks-in-partner-center.md).
+**A közvetett szolgáltatók** (más néven forgalmazók) külső és külső ajánlatokat vásárolnak a Microsoft Piactérről. Közvetett szolgáltatóként megvásárolhatja és integrálhatja ezeket az ajánlatokat a saját meglévő kereskedelmi vagy piacterén. Ez lehetővé teszi, hogy a közvetett viszonteladók ilyen ajánlatokat szereznek be és értékesítsen a saját ügyfeleiknek. Közvetett szolgáltatóként rendelkezik a közvetett viszonteladók nagy léptékű támogatásához szükséges infrastruktúrával és képességekkel. Ez azt is jelenti, hogy további szolgáltatásokat nyújthat az ügyfeleknek a közvetett viszonteladók nevében, például az ügyfélszolgálatot és a számlázást. Ha többet szeretne megtudni arról, hogy a közvetett szolgáltatók hogyan csatlakoznak a közvetett viszonteladókhoz, tekintse meg a partneri kapcsolatot a közvetett viszonteladókkal a [CSP-programban.](indirect-provider-tasks-in-partner-center.md)
 
-A **közvetett viszonteladók** a CSP programban részt vevő partnerek, akik mérete és üzleti köre eltér, de nem rendelkezik közvetlen számlázási kapcsolattal a Microsofttal. Közvetett viszonteladóként a közvetett szolgáltatóktól függ a CSP program. Előfordulhat, hogy egyes közvetett viszonteladók felügyelt szolgáltatásokat, támogatást és számlázási megoldásokat is kínálnak az ügyfeleknek. A partneri kapcsolaton keresztül számos előnyt kaphat a közvetett szolgáltatókkal. A tapasztalt technológiai szolgáltatók használatával a piacon anélkül is elérhetővé teheti a piacot, hogy nagy tőkebefektetésre lenne szüksége. Közvetett viszonteladóként a Microsoft és harmadik féltől származó megoldások szélesebb körű portfólióját is elérheti. Ha többet szeretne megtudni a közvetett viszonteladók kiválásáról, tekintse meg a következő témakört: [közvetett viszonteladói feladatok a partner Centerben](indirect-reseller-tasks-in-partner-center.md).
+**A közvetett viszonteladók** partnerek a CSP-programban, akik méretük és üzleti hatókörük eltérő, de nem állnak közvetlen számlázási kapcsolatban a Microsofttal. Közvetett viszonteladóként Ön a közvetett szolgáltatóktól függ a CSP-programban való tranzakcióhoz. Egyes közvetett viszonteladók felügyelt szolgáltatásokat, támogatást és számlázási megoldásokat is kínálhatnak az ügyfeleknek. A közvetett szolgáltatókkal való együttműködés számos előnyt kínál. Ha tapasztalt technológiai szolgáltatókkal dolgozik együtt, nagy tőkebefektetés nélkül is piacra mehet. Közvetett viszonteladóként a Microsoft és külső megoldások szélesebb portfólióját is elérheti. További információ a közvetett viszonteladóvá válásról: Közvetett viszonteladói feladatok a [Partnerközpont.](indirect-reseller-tasks-in-partner-center.md)
 
-A **Direct-Bill-partnerek** közvetlen számlázási kapcsolattal rendelkező partnerek a Microsofttal. Közvetlen számlás partnerként vásárolhat első féltől származó ajánlatokat és harmadik féltől származó ajánlatokat közvetlenül a Microsoft piactérről, majd értékesítheti őket az ügyfeleknek. Meg kell felelnie a Direct-Bill partner szerepkörének bizonyos programozott követelményeinek. Ez magában foglalja a Microsoft API-k használatával történő integrálásának lehetőségét. Emellett a számlázással, támogatással és felügyelt szolgáltatásokkal is elérhetővé kell tenni az ügyfelek számára. További információ: [regisztráció közvetlen számlás partnerként](enrolling-in-the-csp-program.md#enroll-as-a-direct-bill-partner).
+**A közvetlen számlázási partnerek** közvetlen számlázási kapcsolatban állnak a Microsofttal. Közvetlen számlázási partnerként közvetlenül a Microsoft Piactérről vásárolhat külső és külső ajánlatokat, majd értékesítheti azokat az ügyfeleknek. A közvetlen számlázási partner szerepkörének bizonyos programozott követelményeit teljesítenie kell. Ez magában foglalja a Microsofttal való integrációt API-k használatával. Emellett képesnek kell lennie arra, hogy a számlázást, a támogatást és a felügyelt szolgáltatásokat az ügyfelek számára is biztosítani tudja. További információ: Regisztráció közvetlen [számlázási partnerként.](enrolling-in-the-csp-program.md#enroll-as-a-direct-bill-partner)
 
-## <a name="csp-program-requirements-signing-the-microsoft-partner-agreement-mpa"></a>A CSP programra vonatkozó követelmények: a Microsoft partneri szerződés (MPA) aláírása
+## <a name="csp-program-requirements-signing-the-microsoft-partner-agreement-mpa"></a>CSP-programkövetelmények: A Microsoft Partnerszerződés (MPA) aláírása
 
-A Cloud Solution Provider program folyamatos fejlesztései keretében frissítettük a meglévő szerződéseket azon partnereink számára, akik csatlakozni kívánnak a CSP-programhoz.
+A Felhőszolgáltató folyamatos fejlesztései részeként frissítettük a CSP-programhoz csatlakozni kívánó partnerek meglévő szerződését.
 
-A **Microsoft partneri szerződés (MPa)** olyan egyszerűsített, digitális megállapodást biztosít a partnereknek, amely támogatja az új üzleti forgatókönyveket, a több partneri szerződésre való korlátozott igényt, valamint a globális, jogi követelményeknek való megfelelést.
+Az **Microsoft Partnerszerződés (MPA)** zökkenőmentes, digitális szerződést biztosít a partnerek számára, amely támogatja az új üzleti forgatókönyveket, kevesebb szükség van több partnerszerződésre, és megkönnyíti a globális, jogi követelményeknek való megfelelést.
 
 >[!IMPORTANT]
-> A Microsoft partneri szerződést 2020. február 1-től kezdődően minden olyan partnernek alá kell írnia, aki a CSP programban Transact-t használ. Ide tartozik a közvetett szolgáltatók, a közvetlen számlázású partnerek és a közvetett viszonteladók.
+> 2020. február 1-től a csp-programban Microsoft Partnerszerződés összes partnernek alá kell írnia a szerződést. Ide tartoznak a közvetett szolgáltatók, a közvetlen számlázási partnerek és a közvetett viszonteladók.
 
-A közvetett viszonteladónak alá kell írnia a MPA-t, mielőtt a viszonteladó részt tud venni a következő tevékenységekben:
+Egy közvetett viszonteladónak alá kell írnia az MPA-t, mielőtt a viszonteladó részt vehet a következő tevékenységekben:
 
-- Ahhoz, hogy egy közvetett szolgáltató hozzá tudja rendelni a közvetett viszonteladó MPN-AZONOSÍTÓját egy új CSP-előfizetéshez
-- Ahhoz, hogy egy közvetett szolgáltató új üzleti tevékenységet lehessen lebonyolítani a viszonteladóval
+- Mielőtt egy közvetett szolgáltató hozzárendelné a közvetett viszonteladó MPN-azonosítóját egy új CSP-előfizetéshez
+- Mielőtt egy közvetett szolgáltató új üzleteket tranzakciózhat a viszonteladóval
 
-Valójában a közvetett viszonteladóknak három dologra van szükségük ahhoz, hogy új üzleti tevékenységet tudjanak végezni a Cloud Solution Provider programban:
+Valójában a közvetett viszonteladóknak három dolgot kell tenniük ahhoz, hogy új üzleti tevékenységeket Felhőszolgáltató a programban:
 
-- Bevezetés a partneri központba
+- A Partnerközpont
 - Regisztráció közvetett viszonteladóként
-- A Microsoft partneri szerződés (MPA) aláírása
+- A Microsoft Partnerszerződés (MPA)
 
-További információ: [Microsoft partneri szerződés (MPa) a CSP-partnerek számára](microsoft-partner-agreement.md).
+További információ: Microsoft Partnerszerződés [(MPA) CSP-partnerek számára.](microsoft-partner-agreement.md)
 
-## <a name="supported-partner-transactions-in-the-csp-program"></a>Támogatott partneri tranzakciók a CSP programban
+## <a name="supported-partner-transactions-in-the-csp-program"></a>Támogatott partnertranzakciók a CSP-programban
 
-A CSP programban részt vevő partnerek számos lehetőséget kínálnak a közös együttműködésre. A következő szakasz azt ismerteti, hogyan lehet a CSP programban néhány, példaként szolgáló partneri forgatókönyvet támogatni vagy esetleg nem támogatott.
+A CSP-program partnerei számos lehetőséget kínálnak az együttműködésre. A következő szakasz azt ismerteti, hogy a CSP-programban hogyan lehet vagy nem támogatott néhány mintapartner-forgatókönyv.
 
-**1. példa:** Mi a teendő, ha a partner a teljes körű kapcsolattal szeretné értékesíteni az ügyfelet, és felelős a számlázási és ügyfélszolgálati támogatásért?
+**1. példaforgatókönyv:** Mi történik, ha egy partner értékesítést szeretne az ügyfélnek, a végpontok közötti kapcsolattal szeretne az ügyfélnek adni, és ő felel a számlázásért és az ügyfélszolgálatért?
 
-Ezt a forgatókönyvet két típusú tranzakciós kapcsolat támogatja:
+Ezt a forgatókönyvet a tranzakciós kapcsolatok két típusa támogatja:
 
-- **1. kapcsolat:** A Microsoft eladja a Direct-Bill partnert. A Direct-Bill partner ezt követően eladja a végfelhasználót.<br>
-- **2. kapcsolat:** A Microsoft eladja a közvetett szolgáltatót. A közvetett szolgáltató ezután eladja a közvetett viszonteladót. A közvetett viszonteladó ezt követően eladja a végfelhasználót.</br>
+- **1. kapcsolat:** A Microsoft a közvetlen számlázási partnernek értékesít. A közvetlen számlázási partner ezután értékesít a végfelhasználónak.<br>
+- **2. kapcsolat:** A Microsoft értékesít a közvetett szolgáltatónak. A közvetett szolgáltató ezután értékesít a közvetett viszonteladónak. A közvetett viszonteladó ezután értékesít a végfelhasználónak.</br>
 
-**2. példa:** Mi a teendő, ha egy partnernek van olyan ügyfele, akinek szüksége van egy másik CSP-Partnerprogram által kínált szolgáltatásra vagy megoldásra?
+**2. példaforgatókönyv:** Mi történik, ha egy partnernek olyan ügyfele van, akinek egy másik CSP-programpartner által kínált adott szolgáltatásra vagy megoldásra van szüksége?
 
-A végfelhasználók különböző szolgáltatásokat vásárolhatnak különböző partnerektől az ügyfél üzleti igényei alapján. További információ: [több partner támogatása](multipartner.md).
+A végfelhasználó különböző szolgáltatásokat vásárolhat különböző partnerektől az ügyfél üzleti igényei alapján. További információ: [Többpartneres támogatás.](multipartner.md)
 
-**3. példa:** Mi a teendő, ha egy partner felveszi Önnel a kapcsolatot az előfizetés (ok) kezeléséhez és támogatásához?
+**3. példaforgatókönyv:** Mi történik, ha egy ügyfél kapcsolatba lép egy partnerrel, aki fel szeretné venni a kapcsolatot az előfizetése(inek) kezeléséhez és támogatásához?
 
-Az ügyfél több partnert is felvehet az előfizetése (i) kezelésére. További információ: [mult csatornás támogatás](multichannel.md).
+Az ügyfél több partnert is bevonhat az előfizetése(inek) kezeléséhez. További információ: [Mult-channel support](multichannel.md).
 
-**4. példa:** Mi a teendő, ha a CSP programban (közvetett szolgáltató, közvetett viszonteladó vagy közvetlen számlázási partner) lévő partner szeretné megvásárolni a Microsoft vagy harmadik féltől származó ajánlatokat saját használatra (végfelhasználóként)? Megvásárolhatják a partner az ajánlatokat egy másik CSP programbeli partnertől?
+**4. példaforgatókönyv:** Mi történik, ha a CSP-programban (közvetett szolgáltató, közvetett viszonteladó vagy közvetlen számlázási partner) egy partner Saját használatra szeretne Microsoft- vagy harmadik féltől származó ajánlatokat vásárolni (végfelhasználóként)? Vásárolhat a partner ilyen ajánlatokat egy másik CSP-programpartnertől?
 
-A partner egy közvetett viszonteladótól vagy egy közvetlen számlás partnertől vásárolhat ügyfelet. Ehhez azonban egy másik bérlőt kell használniuk, mint a CSP-t.
+A partner ügyfélként vásárolhat egy közvetett viszonteladótól vagy egy közvetlen számlás partnertől. Ehhez azonban a CSP-hez használt bérlőtől eltérő bérlőt kell használniuk.
 
-Ebben az esetben a partner által vásárolt szolgáltatásokat az ügyfél típusaként kijelölt Bérlőnek kell kiépíteni (csak belső használatra szánt bérlő). Ilyen szolgáltatásokat **nem** lehet kiépíteni a meglévő partner CSP-bérlője (a partner által a felhőalapú megoldás-szolgáltató programban használt bérlő).</br>
+Ebben az esetben a partner által megvásárolt szolgáltatásokat egy Ügyféltípusként kijelölt bérlő számára kell kiépítenünk (csak belső használatra). Ezek **a szolgáltatások nem** létesíthetőek a meglévő partner CSP-bérlője számára (a partner által a partner által a Felhőszolgáltató programban).</br>
 
-**5. példa:** Mi a teendő, ha a CSP program egyik partnere végfelhasználóként szeretné értékesíteni?
+**5. példaforgatókönyv:** Mi történik, ha a CSP-program egyik partnere végfelhasználóként szeretne értékesíteni magának?
 
-Szerződés szerint a CSP-program partnerei nem jogosultak arra, hogy a Microsoft vagy harmadik féltől származó ajánlatokat saját maguk (végfelhasználók) vagy az affiliate szervezeteik (végfelhasználók) számára értékesítsenek.
+Szerződés szerint a CSP-program partnerei nem értékesíthetnek Microsoft- vagy harmadik féltől származó ajánlatokat saját maguknak (végfelhasználóként) vagy társvállalataiknak (végfelhasználóként).
 
-**6. példa:** Mi a teendő, ha a közvetett viszonteladót végfelhasználóként szeretné megvásárolni?
+**6. példaforgatókönyv:** Mi történik, ha egy közvetett viszonteladó végfelhasználóként szeretne vásárolni?
 
-Bizonyos közvetett viszonteladó (k) vásárolhatnak licenceket saját használatra a CSP programban lévő közvetett szolgáltatótól. Ebben az esetben a közvetett viszonteladó szervezete már létrehozta a közvetett szolgáltató közvetett viszonteladói kapcsolatát. Ezzel megakadályozza, hogy a partner új kapcsolati típust hozzon létre egy végfelhasználóként ugyanazzal a közvetett szolgáltatóval.
+Előfordulhat, hogy egyes közvetett viszonteladó(k) saját használatra szeretne licenceket vásárolni egy közvetett szolgáltatótól a CSP-programban. Ebben a forgatókönyvben előfordulhat, hogy a közvetett viszonteladó szervezete már létrehozott egy közvetett szolgáltató–közvetett viszonteladói kapcsolatot. Ez megakadályozza, hogy a partner új kapcsolattípust létesítsen végfelhasználóként ugyanazokkal a közvetett szolgáltatóval.
 
 Ebben az esetben a közvetett viszonteladó a következő lehetőségek egyikét használhatja:
 
-- **1. lehetőség:** A partnerek létrehozhatnak egy másik Azure AD-bérlőt, amely külön környezet az ügyfelek számára.
+- **1. lehetőség:** A partnerek másik Azure AD-bérlőt is beállíthatnak, amely az ügyfelek számára külön környezet.
 
-- **2. lehetőség:** A közvetett viszonteladó leállíthatja a kapcsolatot egy közvetett szolgáltatóval, és új CSP-kapcsolatot létesíthet egy másik közvetett szolgáltatóval. Ez lehetővé teszi, hogy a közvetett viszonteladó megvásárolja a vállalat saját használatára vonatkozó előfizetéseket egy másik CSP Direct-Bill partnertől.
+- **2. lehetőség:** A közvetett viszonteladó le tudja vetni a kapcsolatot egy közvetett szolgáltatóval, és új CSP-kapcsolatot létesíthet egy másik közvetett szolgáltatóval. Ez lehetővé teszi, hogy a közvetett viszonteladó előfizetéseket vásároljon a vállalata saját használatra egy másik közvetlen számlázási CSP-partnertől.
 
    >[!NOTE]
-   >A közvetett szolgáltató és a közvetett viszonteladó közötti kapcsolat befejezéséhez forduljon [Microsoft ügyfélszolgálatahoz](support-from-microsoft.md).
+   >Egy közvetett szolgáltató és egy közvetett viszonteladó közötti kapcsolat végén lépjen kapcsolatba a [Microsoft ügyfélszolgálata.](support-from-microsoft.md)
 
-- **3. lehetőség:** A viszonteladó megtarthatja az ügyfélkapcsolatot a meglévő közvetett szolgáltatóval, és létrehozhat egy másik közvetett viszonteladói kapcsolatot egy másik közvetett szolgáltatóval.
+- **3. lehetőség:** A viszonteladó megtarthatja az ügyfélkapcsolatát a meglévő közvetett szolgáltatóval, és létesíthet egy másik közvetett viszonteladói kapcsolatot egy másik közvetett szolgáltatóval.
 
-**7. példa:** Mi a teendő, ha egy közvetett viszonteladó szeretne eladni egy másik régióban lévő ügyfélnek?
+**7. példaforgatókönyv:** Mi a helyzet akkor, ha egy közvetett viszonteladó egy másik régióban található ügyfélnek szeretne értékesíteni?
 
-A CSP programban lévő partner csak ugyanabból a régióból tud eladni az ügyfeleknek. További információ: a [Cloud Solution Provider program regionális piacai és pénznemei](regional-authorization-overview.md).
+A CSP-programban egy partner csak azonos régióban található ügyfelek számára értékesíthet. További információ: Felhőszolgáltató [piacok és pénznemek.](regional-authorization-overview.md)
 
-**8. példa:** Mi a teendő, ha egy közvetett szolgáltató egy másik régióban lévő közvetett viszonteladóval szeretne kapcsolatot létesíteni?
+**8. példaforgatókönyv:** Mi a helyzet akkor, ha egy közvetett szolgáltató egy másik régióban szeretne kapcsolatot létesíteni egy közvetett viszonteladóval?
 
-Egy partner csak az azonos régióból származó partnerrel tud kapcsolatot létesíteni.
+Egy partner csak azonos régióból származó partnerrel létesíthet kapcsolatot.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Partner közvetett viszonteladókkal a CSP programban](indirect-provider-tasks-in-partner-center.md)
-- [Közvetett viszonteladói feladatok a partner Centerben](indirect-reseller-tasks-in-partner-center.md)
-- [Regisztrálás közvetlen számlás partnerként](enrolling-in-the-csp-program.md#enroll-as-a-direct-bill-partner)
+- [Partneri partneri partner a közvetett viszonteladók számára a CSP-programban](indirect-provider-tasks-in-partner-center.md)
+- [Közvetett viszonteladói feladatok a Partnerközpont](indirect-reseller-tasks-in-partner-center.md)
+- [Regisztráció közvetlen számlázási partnerként](enrolling-in-the-csp-program.md#enroll-as-a-direct-bill-partner)

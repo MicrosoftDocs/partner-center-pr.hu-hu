@@ -4,93 +4,88 @@ ms.topic: how-to
 ms.date: 11/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogyan használhatók a metrikák a partner Centerben. A metrikák megmutatják, hogy az üzlet egyre növekszik-e, hogyan használják az ügyfelek a licenceket, és hol kell összpontosítaniuk a beruházásokra.
+description: Ismerje meg, hogyan használhatja a metrikákat Partnerközpont. A metrikák megmutatják, hogy növekszik-e a vállalkozása, hogyan használják az ügyfelek a licenceket, és hol összpontosíthat a befektetésre.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7a42381e6c7f3b33acae887f78fb87b5d309279e
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: e8c0935ecf4cf7dba799eefbcbb74ed5e6702994
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106178935"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146663"
 ---
-# <a name="use-metrics-in-partner-center-to-increase-adoption-and-satisfaction"></a>A partner Center metrikáinak használata az elfogadás és az elégedettség növeléséhez
+# <a name="use-metrics-in-partner-center-to-increase-adoption-and-satisfaction"></a>Metrikák használata Partnerközpont a teljesítmény és az elégedettség növelése érdekében
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
+Partnereink számos metrikával mérik fel, hogy az üzletük növekszik-e, és hogy hol összpontosíthat a befektetésre. Partnerközpont, ha adatokat ad meg arról, hogy az ügyfelek használják-e a megvásárolt licenceket, és ha igen, hogyan. Ezek az információk Office-termékekhez érhetők el (OneDrive Vállalati verzió SharePointtal együtt számolva).
 
-Partnereink számos mérőszámot használnak annak felmérésére, hogy az üzletük egyre növekszik-e, és hol kell koncentrálnia a befektetésre. A partner Center segítséget nyújt arról, hogy az ügyfelek mikor és hogyan használják a megvásárolt licenceket. Ez az információ elérhető az Office-termékekhez (beleértve a OneDrive for Business szolgáltatást is, amely a SharePoint szolgáltatással együtt számít).
-
-Az összes ügyfél adatait a Cloud Solution Provider programon keresztül tekintheti meg. Egyes ügyfelek más partnerektől vagy közvetlenül a Microsofttól vásárolhatnak licenceket. Ilyen helyzetekben a teljes licencek megjelennek az összes partner között. Ha csak a saját licenceit szeretné megtekinteni, keresse fel az ügyfél előfizetéseit.
+Az összes ügyfél adatait láthatja a Felhőszolgáltató programon keresztül. Egyes ügyfelek más partnerektől vagy közvetlenül a Microsofttól vásárolhatnak licenceket. Ilyen helyzetekben az összes partner összes licencét látni fogja. Ha csak a saját licenceket kell látnia, ehelyett az ügyfél előfizetéséhez kell továbbmenni.
 
 > [!NOTE]  
-> Jelenleg csak az Office 365 és a Dynamics 365 adatai jelennek meg. A későbbiekben további termékekhez is engedélyezzük az adatfeldolgozást.
+> Jelenleg csak az Office 365 és a Dynamics 365 adatait mutatjuk be. A jövőben további termékek adatait is engedélyezni fogjuk.
 
-## <a name="find-license-and-user-data"></a>Licenc-és felhasználói adatértékek keresése
+## <a name="find-license-and-user-data"></a>Licenc- és felhasználói adatok megkeresása
 
-A licenc-és felhasználói adatait egyetlen ügyfélhez vagy a portfólióhoz is megtalálhatja.
+Egyetlen ügyfélhez vagy a portfóliójához is találhat licenc- és felhasználói adatokat.
 
-### <a name="find-license-and-user-data-for-a-single-customer"></a>Licenc-és felhasználói adatértékek keresése egyetlen ügyfél számára
+### <a name="find-license-and-user-data-for-a-single-customer"></a>Egyetlen ügyfél licenc- és felhasználói adatainak megkeresása
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. Válassza ki az **ügyfeleket** a **partner központból**
+2. Válassza **az Ügyfelek** lehetőséget a **Partnerközpont**
 
-3. Válasszon egy ügyfelet.
+3. Válasszon ki egy ügyfelet.
 
-4. Válassza ki az **ügyfél-bepillantást**.
+4. Válassza az **Ügyfélelemzések lehetőséget.**
 
-### <a name="find-license-and-user-data-across-your-portfolio"></a>Licencek és felhasználói adatértékek keresése a portfólión belül
+### <a name="find-license-and-user-data-across-your-portfolio"></a>Licenc- és felhasználói adatok megkeresése a portfólióban
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. Válassza az **elemzés** lehetőséget, és válassza ki a menü bármelyik analitikai lehetőségét.
+2. Válassza **az Elemzés** lehetőséget, és válasszon a menü bármelyik elemzési lehetőség közül.
 
-3. Az üzembe helyezési és a használati adatok teljes ügyfél-készletben való letöltéséhez válassza az **Exportálás** (lefelé mutató nyíl) lehetőséget.
+3. Ha az üzembe helyezési és használati adatokat a teljes ügyfélkészletre le kell töltenie, válassza az **exportálás** (lefelé mutató nyíl) lehetőséget.
 
 Terminológia:
 
-- **Jogosultság** = az a licenc, amelyet a felhasználó használhat (nem felfüggesztett csalás vagy fizetés nélkül, nem lett frissítve másik licencre, de a felhasználó nem törölte, vagy egy másik probléma).
+- **Jogosultság** = egy licenc, amelyet a felhasználó jogosult használni (nem függesztik fel csalás vagy fizetés elmaradás miatt, nem frissítették másik licencre, a felhasználó nem törölte vagy más probléma miatt).
 
-- **Aktív** = ha az előfizetett felhasználó használta a jogosultságot egy adott feladathoz az elmúlt 28 naptári napban.
+- **Aktív** = ha az előfizetett felhasználó a jogosultságot használta egy feladatra az elmúlt 28 naptári napban.
 
-- **Központi telepítés:%** = hozzárendelt licencek/eladott licencek
+- **Üzembe helyezés %-os** aránya = hozzárendelt licencek/eladott licencek
 
-- **Használat%** = aktív felhasználó/összes felhasználó
+- **Használat %-os** értéke = aktív felhasználók/összes felhasználó
 
-   Előfordul, hogy a (z)% a kihasználtsága (%) vagy nagyobb, mint 100%. A probléma több okból is előfordulhat:
+   Néha a kihasználtság (%) fel van lobbanva, vagy nagyobb, mint 100%. Ez a probléma több okból is előfordulhat:
 
-  - Ha az ügyfél az alkalmazottak forgalmát használta, és a licenc egy új felhasználónak lett átadva.
+  - Ha az ügyfél alkalmazotti forgalmat alkalmazott, és a licencet átvitték egy új felhasználónak.
 
-  - Ha az ügyfél két előfizetéssel rendelkezik egy SKU-hoz, de az egyik türelmi időszakban, letiltva vagy kiépítve van, akkor mindkét előfizetéshez tartozó jogosultságok a 28 napos időszakban is regisztrálhatják az aktív használatot, de csak egy számítanak bele a teljes összegbe.
+  - Ha az ügyfél két előfizetéssel rendelkezik egy termékváltozathoz, de az egyik Türelmi időszakban, Letiltva vagy Kiépítve, akkor a jogosultságok mindkét előfizetésben regisztrálhatók aktív használatra a 28 napos időszakban, de csak egy van beleszámva.
 
-  - Ha az ügyfél próbaverziós előfizetéssel rendelkezik, a rendszer megszámolja a tevékenységet, de az előfizetés nem számít bele a teljes jogosultságokra.
+  - Ha az ügyfél próbaverziós előfizetéssel rendelkezik, a tevékenység beleszámol, de az előfizetés nem számít bele a teljes jogosultságba.
 
-  - Ha egyes ügyfelek jelentősen több Yammer használnak, mint amennyit a licencük jogosult, az adatvesztést okozhat az adatkezelésben.
+  - Ha egyes ügyfelek jelentősen nagyobb mértékben használják a Yammert, mint a licenccel, az jelentős mértékben elszenesedhet az adatok között.
 
 ## <a name="next-steps"></a>Következő lépések
 
-Ha sok segítséget és útmutatást szeretne feltenni, a fiókban lévő bevezetési számok alacsonyak, vagy ha értékesítési lehetőségeket keres, érdemes fontolóra vennie a tanfolyamokat. Ha megtanítja ügyfeleinek, hogyan használják jobban a megvásárolt felhőalapú megoldási szoftvereket, nagyobb valószínűséggel fog növekedni a termelékenység és az elégedettség, valamint a támogatási igények csökkenése.
+Ha számos súgó- és az oktatói kérdést ad meg, a fiók bevezetésének száma alacsony, vagy ha értékesítésre vonatkozó lehetőségeket keres, érdemes lehet tanfolyamokat kínálni. Ha megtanítja ügyfeleinek, hogyan használják jobban a megvásárolt felhőalapú megoldásszoftvereket, nagyobb valószínűséggel fog növekedni a termelékenység és az elégedettség, valamint csökkennek a támogatási igények.
 
 ### <a name="considering-how-to-improve-customer-adoption-and-usage---a-couple-scenarios"></a>Az ügyfelek bevezetésének és használatának javítása – néhány forgatókönyv
 
-**Probléma**: a felhasználó bevezetési sebessége alacsony, és számos licenc nincs használatban.
+**Probléma:** A felhasználók bevezetésének aránya alacsony, és sok licenc nincs használva.
 
-**Mit érdemes figyelembe venni**: Előfordulhat, hogy az ügyfelek nem értik a szoftver által megadható értéket. Segítségre van szükségük ahhoz, hogy megtanítsák, milyen módokon tudnák beépíteni őket a mai napig, hogy leegyszerűsítse a már folyamatban lévő feladatokat, vagy hogy új típusú termelékenységet engedélyezzen.
+**Mit kell figyelembe venni:** Előfordulhat, hogy az ügyfelek nem értik a szoftver által elérhető értéket. Segítségre van szükségük annak megálmozásához, hogy milyen módokon építheti be őket a saját napjukba, hogy leegyszerűsítse a már eddig is elvégezniük szükséges feladatokat, vagy új típusú hatékonyságot tegyenek lehetővé.
 
-**Mit kell kipróbálni**: esettanulmányok, felhasználói visszajelzések konkrét forgatókönyvekről, oktatóanyag-Blogokról vagy videókról.
+**Mi a legjobb megoldás:** Esettanulmányok, konkrét forgatókönyvekkel kapcsolatos felhasználói vélemények, oktatóanyag-blogok vagy videók.
 
-**Probléma**: a Súgó és útmutató kérdéseire nagy mennyiségű támogatási hívás áll rendelkezésre.
+**Probléma:** Nagy mennyiségű támogatási hívás és egyéb kérdés van.
 
-**Mit érdemes figyelembe venni**: az ügyfelek a szoftver, a termék verziója vagy a feladataik számára újak lehetnek.
+**Mit kell figyelembe venni:** Előfordulhat, hogy az ügyfelek még nem hatnak a szoftverre, a termék verziójára vagy a feladatára.
 
-**Mi a kipróbálás**: az ügyfelek általános szakértelmének növelésére, valamint az ügyfelek számára elérhető önkiszolgáló lehetőségek támogatására szolgáló kettős stratégiát is használhat.
+**Mit kell kipróbálnunk:** Kettős stratégiát használhat arra, hogy (személyesen vagy online) képzést kínálunk az ügyfelek általános szakértelmének növelése érdekében, miközben az ügyfelek számára elérhető önkiszolgáló lehetőségek egy része is elérhetővé válik.
 
-Érdemes lehet újratervezni a támogatási webhelyét, hogy a támogatási kapcsolattartási adatain kívül az ügyfél önkiszolgáló [támogatásában](customer-self-support.md) leírt önkiszolgáló lehetőségeket is tartalmazza.
+Előfordulhat, hogy a támogatási webhelyet úgy szeretné újratervezni, hogy az Önkiszolgáló ügyféltámogatásban ismertetett önkiszolgáló lehetőségeket is tartalmazza a támogatási kapcsolattartási adatok mellett. [](customer-self-support.md)
 

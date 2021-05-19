@@ -1,34 +1,28 @@
 ---
-title: ÁFA-azonosító hozzáadása az üzleti adókra
+title: Áfaazonosító hozzáadása a vállalati adókhoz
 ms.topic: article
 ms.date: 12/04/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A partnerközpontbeli vásárlásokra vonatkozó adókat az Ön munkahelyi címe határozza meg. Egyes országokban a vállalatok HÉA-számuk vagy helyi megfelelőjük is megadhatók.
+description: A partnerközpontbeli vásárlásokra vonatkozó adókat az Ön munkahelyi címe határozza meg. Egyes országokban a vállalkozások megszabadhatja az áfaszámukat vagy a helyi megfelelőjüket.
 author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: a7278e6dff35d7941fbe44b65609dc4a2443c1f3
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 1605072e35a96d8bc8ed2e9f507b38a6837fbd35
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106132757"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110146935"
 ---
-# <a name="add-a-vat-id-to-your-billing-profile"></a>ÁFA-azonosító hozzáadása a számlázási profilhoz
+# <a name="add-a-vat-id-to-your-billing-profile"></a>Áfaazonosító hozzáadása a számlázási profilhoz
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Számlázási rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Számlázási adminisztrátor
-- Felügyeleti ügynök
-- Értékesítési ügynök
+Az alábbi eljárással frissítheti számlázási profilját, hogy tartalmazza az áfaazonosítóját. (Vegye figyelembe, hogy ez az Ön országában vagy régiójában nem lehetséges.)
 
-Az alábbi eljárást követve frissítheti a számlázási profilt, hogy tartalmazza az ÁFA-AZONOSÍTÓját. (Vegye figyelembe, hogy ez az Ön országában vagy régiójában nem lehetséges.)
-
-## <a name="update-your-billing-profile-with-your-vat-id"></a>A számlázási profil frissítése az ÁFA-azonosítójával
+## <a name="update-your-billing-profile-with-your-vat-id"></a>A számlázási profil frissítése az áfaazonosítóval
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 2. A **Beállítások** menüben (fogaskerék ikon) válassza a **Fiókbeállítások** lehetőséget.

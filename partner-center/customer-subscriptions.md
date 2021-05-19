@@ -4,36 +4,31 @@ ms.topic: article
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a CSP program partnerei hogyan adhatnak elő előfizetéseket az ügyfeleknek, és hogyan kezelhetik őket a partner centeren keresztül.
+description: Megtudhatja, hogy a CSP-program partnerei hogyan értékesítik az előfizetéseket az ügyfeleknek, és hogyan kezelhetik azokat a Partnerközpont.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6ae63c2cacbdea7a1aa2bf08ffff8a3cde512668
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: 894d0152920c37c0c6d719fce562c43dbf96a6c4
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502747"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110147360"
 ---
-# <a name="how-csp-program-partners-can-sell-subscriptions-to-customers"></a>A CSP-program partnerei számára előfizetések eladása az ügyfeleknek
+# <a name="how-csp-program-partners-can-sell-subscriptions-to-customers"></a>Hogyan értékesítik az előfizetéseket a CSP-programpartnerek az ügyfeleknek?
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazdai | Az | Értékesítési ügynök
 
-- Felügyeleti ügynök
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-
-CSP-partnerként az egyik központi dolog, ami a Microsoft-termékek előfizetéseit kínálja ügyfelei számára. A partner Centerben minden előfizetését kezelheti az egyes ügyfeleknél. Előfizetéseket vehet fel, licenceket adhat hozzá meglévő előfizetésekhez, akár próbaverziós előfizetéseket is kínálhat a szoftver teszteléséhez használni kívánt ügyfeleknek. Emellett megtekintheti az elemzést, hogy megtudja, hogyan használják az ügyfelek a szoftvert, és segít a jobb támogatásban.
+CSP-partnerként az egyik központi dolog, amit tenni fog, hogy Microsoft-termékekre kínál előfizetéseket az ügyfeleinek. A Partnerközpont kezelheti az egyes ügyfelek összes előfizetését. Előfizetéseket adhat hozzá, licenceket adhat hozzá a meglévő előfizetésekhez, vagy akár próba-előfizetéseket is kínálhat az ügyfeleknek, akik tesztelni szeretnék a szoftver kipróbálását. Emellett megtekintheti az elemzéseket, hogy megértse, az ügyfelek hogyan használják a szoftvert, így jobb támogatást nyújthatnak.
 
 |**Ehhez**   |**Olvassa el ezt**   |
 |----------------------|:----------------------|
-|Előfizetések létrehozása és kezelése a partner Center meglévő ügyfelei számára.|[Új előfizetés létrehozása](create-a-new-subscription.md)|
-|Miután hozzáadta az előfizetést, hozzárendelheti a licenceket az ügyfél alkalmazottaihoz.  |[Licencek hozzárendelése felhasználókhoz](assign-licenses-to-users.md)|
-|A tömeges licencek frissítéseit is kezelheti.   |[Licencek hozzárendelése vagy visszavonása több felhasználó esetében](bulk-license-provisioning-for-multiple-users.md)|
-|Mivel az ügyfél új alkalmazottakat ad hozzá, további licenceket adhat a meglévő előfizetésekhez.   |[Licencek vagy szolgáltatások hozzáadása egy meglévő előfizetéshez](add-licenses-or-services-to-an-existing-subscription.md)|
-|Előfordulhat, hogy az ügyfél el szeretné próbálni a szoftvert a véglegesítése előtt, így próbaverziós előfizetéseket is kínál.    |[A Microsoft-termékek kipróbálásának felajánlása az ügyfelek számára](offer-your-customers-trials-of-microsoft-products.md)|
-|Az Azure-előfizetési folyamatot a partner centeren belül indíthatja el.   |[Azure-előfizetések kiosztása a partner Centerben](assign-azure-subscriptions.md)|
-|Ismerje meg az ajánlatok speciális díjszabását.   |[Az ajánlatok speciális díjszabása](get-special-pricing-for-offers.md)|
-|Ismerje meg, hogy az ügyfelek miként használják a szoftvert, hogy hatékonyabbak legyenek.   | [A bevezetés és az elégedettség növelése](increasing-adoption-and-satisfaction.md)   |
+|Előfizetések létrehozása és kezelése meglévő ügyfelek számára a Partnerközpont.|[Új előfizetés létrehozása](create-a-new-subscription.md)|
+|Az előfizetés hozzáadása után licenceket rendelhet az ügyfél alkalmazottaihoz.  |[Licencek hozzárendelése felhasználókhoz](assign-licenses-to-users.md)|
+|Tömeges licencfrissítéseket is kezelhet.   |[Licencek hozzárendelése vagy visszavonása több felhasználó esetében](bulk-license-provisioning-for-multiple-users.md)|
+|Ahogy az ügyfél új alkalmazottakat ad hozzá, további licenceket adhat hozzá a meglévő előfizetésekhez.   |[Licencek vagy szolgáltatások hozzáadása egy meglévő előfizetéshez](add-licenses-or-services-to-an-existing-subscription.md)|
+|Előfordulhat, hogy az ügyfél a véglegesítés előtt ki szeretné próbálni a szoftvereket, ezért kínáljon próba-előfizetéseket.    |[A Microsoft-termékek kipróbálásának felajánlása az ügyfelek számára](offer-your-customers-trials-of-microsoft-products.md)|
+|Az Azure-előfizetési folyamatot a következő Partnerközpont.   |[Azure-előfizetések hozzárendelése a Partnerközpont](assign-azure-subscriptions.md)|
+|Ismerje meg az ajánlatok speciális díjszabását.   |[Különleges díjszabás az ajánlatokhoz](get-special-pricing-for-offers.md)|
+|Megtudhatja, hogyan segítik az ügyfelek a szoftvereiket a hatékonyabb használatban.   | [A bevezetés és az elégedettség növelése](increasing-adoption-and-satisfaction.md)   |

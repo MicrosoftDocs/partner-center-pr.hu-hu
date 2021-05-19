@@ -8,24 +8,18 @@ description: Ismerje meg az együttműködési összekötők használatával kap
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: 939654202a370f6d9ba15d9e62a11be44884b613
-ms.sourcegitcommit: 1899307642f057070b1bdd647594fc46ba61fb08
+ms.openlocfilehash: 49a2b6e5461dacbe87c34b36805a5c240c2e5fd1
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108284213"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148346"
 ---
 # <a name="troubleshoot-co-sell-referrals-connectors"></a>Az közös értékesítésre vonatkozó ajánló összekötők hibaelhárítása
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Dynamics 365 CRM | Salesforce CRM
 
-- Dynamics 365 CRM
-- Salesforce CRM
-
-**Megfelelő szerepkörök**
-
-- Ajánlói rendszergazda
-- Rendszergazda vagy rendszer testreszabó a CRM-ben
+**Megfelelő szerepkörök:** Ajánlói rendszergazdai | Rendszergazda vagy rendszer testreszabó a CRM-ben
 
  ## <a name="questions-and-answers-about-pre-requisites"></a>Előfeltételekre és válaszokra adott kérdések és válaszok
 
@@ -39,7 +33,7 @@ Azok a felhasználók, akik rendszergazdai vagy rendszer-testreszabók, mindenki
 
 3. A partner értékesítőknek speciális szerepkörökre van szükségük a Partnerközpont?
  
-A partner értékesítőknek a "Ajánlói rendszergazda" szerepkört kell hozzárendelni. További információ: [Engedélyek áttekintése.](create-user-accounts-and-set-permissions.md)
+A partner értékesítőinek a "Ajánlói rendszergazda" szerepkört kell hozzárendelni. További információ: [Engedélyek áttekintése.](create-user-accounts-and-set-permissions.md)
 
 4. Milyen mezőket kell először beállítani a CRM-környezetben? 
 
@@ -49,23 +43,23 @@ A partner értékesítőknek a "Ajánlói rendszergazda" szerepkört kell hozzá
 
 A Power Automate a következőre lesz szüksége:
 
-- Egy Power Automate licenc szükséges.
+- Szükség Power Automate licencre.
 - Legalább 1 GB tárhely szükséges.
 
 6.  Dynamics 365-előfizetésre van szüksége a Salesforce-összekötők megoldásához?
 
-A Salesforce Connector megoldás típusa "Dynamics Flow", amely támogatja a más CRM-rendszerekkel való szinkronizálást. A megoldáshoz nem szükséges Dynamics 365-példány vagy -előfizetés. A Salesforce-megoldás telepítésekor megjelenik egy legördülő lista a vállalat meglévő CDS-környezetéről. Ki kell választania ezt a környezetet. Emellett ha a "Nem található bejelentkezett felhasználóhoz csatlakoztatott Dynamics 365-szervezet" hibaüzenet jelenik meg, akkor új környezetet kell létrehoznia az összekötőhöz.
+A Salesforce Connector megoldás típusa "Dynamics Flow", amely támogatja a más CRM-rendszerekkel való szinkronizálást. A megoldáshoz nem szükséges Dynamics 365-példány vagy -előfizetés. A Salesforce megoldás telepítésekor megjelenik egy legördülő lista a vállalat meglévő CDS-környezetéről. Ki kell választania ezt a környezetet. Emellett ha a "Nem található bejelentkezett felhasználóhoz csatlakoztatott Dynamics 365-szervezet" hibaüzenet jelenik meg, akkor új környezetet kell létrehoznia az összekötőhöz.
 
 ## <a name="questions-and-answers-about-configuration"></a>Konfigurációval kapcsolatos kérdések és válaszok
 
 1. Mit kell tenni, ha a következő hibaüzenet jelenik meg a folyamatok aktiválása során az Power Automate Platformon?
 
-Hiba: A(z) Azure Resource Manager kérése a következő hibával meghiúsult: {"error":{"code":"WorkflowTriggerNotFound","message":"Az "e14d00f1-1fdf-4b1b-aaac-54a5064093d3" eseményindító "manuális" eseményindítója nem található."}}". 
+Hiba: A(z) Azure Resource Manager kérése a következő hibával meghiúsult: "{"error":{"code":"WorkflowTriggerNotFound","message":"Az "e14d00f1-1fdf-4b1b-aaac-54a5064093d3" eseményindító "manuális" eseményindítója nem található."}}". 
 
 Kövesse az alábbi hibaelhárítási lépéseket:
 
 - Törölje a CDS-kapcsolatot, majd hozza létre újra a CDS-kapcsolatokat.
-- A gyermekfolyam ki- és bekapcsolás 
+- A gyermekfolyam ki- és bekapcsolva 
 - Törölje a megoldást, majd telepítse újra a megoldást. 
 
 2.  Mit kell tenni, ha a "Bejelentkezés" hibával szembesül, amikor hozzáad egy Partnerközpont-összekötőt a Power Automate Platformhoz?
@@ -101,13 +95,13 @@ Amíg a folyamat fut, kapcsolatokat adhat hozzá a folyamathoz, és minden folya
 :::image type="content" source="images/cosellconnectors/editflow.png" alt-text="Folyamat szerkesztése lépésről lépésre":::
 
 
-5. Mit kell tenni, ha az együttműködési javaslati összekötők megoldásának folyamatai nem kapcsolnak be?
+5. Mit kell tenni, ha az közös értékesítésre vonatkozó javaslati összekötők megoldásának folyamatai nem kapcsolnak be?
 
-A. Ebben Power Automate a következő sorrendben kell szerkesztenie a folyamatokat, és frissítenie őket, hogy a megfelelő kapcsolatokat használják:
+A. Ebben Power Automate a következő sorrendben kell szerkesztenie a folyamatokat, és frissítenie kell őket, hogy a megfelelő kapcsolatokat használják:
 
-- Partnerközpont webhookregisztráció (Insider Preview)
+- Partnerközpont regisztrációja (Insider Preview)
 - Közös értékesítési ajánlás létrehozása – Salesforce Partnerközpont (Insider Preview)
-- Partnerközpont Salesforce (Insider Preview) microsoftos közös értékesítési hivatkozási frissítései
+- Partnerközpont Microsoft közös értékesítési hivatkozási frissítései a Salesforce-hoz (Insider Preview)
 - Partnerközpont Salesforce (Insider Preview)
 - Salesforce a Partnerközpont (Insider Preview)
 - Salesforce Opportunity to Partnerközpont (Insider Preview)
@@ -120,7 +114,7 @@ A. Ebben Power Automate a következő sorrendben kell szerkesztenie a folyamatok
 
 C. Aktiválja az alábbi folyamatokat:
 
- - Partnerközpont Microsoft közös értékesítési hivatkozási frissítései a Salesforce-hoz (Insider Preview)
+ - Partnerközpont Salesforce (Insider Preview) microsoftos közös értékesítési hivatkozási frissítései
 
 - Salesforce a Partnerközpont (Insider Preview)
 
@@ -131,25 +125,25 @@ E. A Folyamat Partnerközpont webhookregisztrációnál válassza a **Futtatás 
 
 ## <a name="questions-and-answers-about-runmaintenance"></a>Kérdések és válaszok a futtatásról/karbantartásról
 
-1. Hogyan háríthatja el a folyamat végrehajtása során Power Automate hibákat?
+1. Hogyan háríthatja el a folyamat Power Automate közbeni hibákat?
 
-Annak érdekében, hogy a Power Automate folyamat a vártnak megfelelő legyen, és elhárítsa a végrehajtás közbeni hibákat, tekintse meg a [Folyamathibák kijavítása témakört.](/power-automate/fix-flow-failures)
+Annak érdekében, hogy a Power Automate folyamat a vártnak megfelelő legyen, és hogy a végrehajtás során hibákat hárítson el, tekintse meg a [Folyamathibák kijavítása témakört.](/power-automate/fix-flow-failures)
 
 2. Mit kell tenni, ha olyan hivatkozásokat lát, amelyek nincsenek megfelelően szinkronizálva a Partnerközpont CRM-környezetben?
  
-A hivatkozás-szinkronizálás állapotának meghatározásához válassza a Naplózás **lehetőséget.** 
+A hivatkozásszinkronizálás állapotának meghatározásához válassza a Naplózás **lehetőséget.** 
 
 :::image type="content" source="images/cosellconnectors/synch.png" alt-text="A hivatkozások szinkronizálása":::
 
 Győződjön meg arról, hogy teljesülnek a következő feltételek:
 
-- A megoldásazonosító a lehetőség részeként van megtéve.
+- A megoldásazonosító a lehetőség részeként van megszava.
 
 - Kétbetűs országkód szükséges.
 
 - Ha a Microsofttól származó segítség van kiválasztva a lehetőséghez, az ügyfél kapcsolattartási adataira van szükség.
 
-3. Hogyan biztosítható, hogy a hivatkozások kétirányú szinkronizálást biztosítsanak?
+3. Hogyan biztosítható, hogy egy hivatkozás kétirányú szinkronizálást fog biztosítani?
 
 Tegye a következőket:
 
@@ -159,15 +153,15 @@ Tegye a következőket:
 
 - Az értékesítőknek meg kell adniuk a bevételt és a záró dátumot az érdeklődő minősítésekor.
 
-- Ha a CRM-azonosítót  az együttműködési lehetőség létrehozási vagy frissítési szakaszában adja meg, de az adott azonosítóval rendelkező érdeklődői lehetőség nem található a CRM-ben, akkor a rendszer figyelmen kívül hagyja a frissítést vagy létrehozást. 
+- Ha a CRM-azonosítót  az együttműködési lehetőség létrehozási vagy frissítési szakaszában adja meg, de az azonosítóval rendelkező érdeklődői lehetőség nem található a CRM-ben, akkor a rendszer figyelmen kívül hagyja a frissítést vagy létrehozást. 
 
 - Győződjön meg arról, hogy a hivatkozás pénzneme mező be van állítva a Salesforce-környezetben. 
 
-4. Mit kell tenni, ha az összekötő le lesz választva, és nem rendelkezik hivatkozás-szinkronizálással?
+4. Mit kell tenni, ha az összekötő le lesz választva, és kihagy egy hivatkozásszinkronizálást?
 
 Néhány lehetőség a kipróbált lehetőségek közül:
 
-- Ellenőrizze, hogy lejárt-e a felhasználónév vagy jelszó a Partnerközpont-rendszergazdai szerepkörökkel rendelkező felhasználó felhasználója számára.
+- Ellenőrizze, hogy a felhasználónév vagy jelszó lejárt-e Partnerközpont ajánló rendszergazdai szerepkörökkel rendelkező felhasználóhoz.
 
 - A nem szinkronizált lehetőséggel kisebb frissítést is befejezhet, és megfigyelheti, hogy a hivatkozás szinkronizálva lett-e.
 
@@ -179,29 +173,29 @@ Győződjön meg arról, hogy léteznek a megfelelő szerepkörök
 
 - Ajánlói rendszergazdai szerepkör Partnerközpont értékesítő számára 
  
-- Rendszergazda vagy rendszer-testreszava szerepkör a CRM-példányon
+- A CRM-példány rendszergazdai vagy rendszer-testreszabó szerepköre
 
-- Győződjön meg arról, Power Automate flow-fiók felhasználója legalább egyszer https://flow.microsoft.com előre bejelentkezik
+- Győződjön meg arról, Power Automate Flow-fiók felhasználója legalább https://flow.microsoft.com egyszer korábban bejelentkezik
 
 6. Ha azt látja, hogy az **ügyfélfiók országkódja** hiányzik egy közös értékesítés létrehozása során, mit kell tennie?
 
-Hozzá kell adni az ISO kétbetűs országkódját az Ügyfélfiókhoz a CRM-ben.
+Hozzá kell adni az ISO kétbetűs országkódot az Ügyfélfiókhoz a CRM-ben.
 
 7. Mit kell tenni, ha azt  a hibaüzenetet látja, hogy a megoldásazonosítóra szükség van egy közös értékesítés létrehozása során?
 
 Egy közös értékesítésre vonatkozó javaslat létrehozásához a Microsoft közös értékesítésre kész megoldásra van szüksége. 
 
-8. Mit kell tenni, ha olyan, a crm-sel nem szinkronizált Partnerközpont-ban létrejött, közös értékesítést lehetővé tehetünk, annak ellenére, hogy nincsenek folyamathibák?
+8. Mit kell tenni, ha olyan, a crm-sel nem szinkronizált, a Partnerközpont-ben létrehozott közös értékesítési lehetőségeket lát annak ellenére, hogy nincsenek folyamathibák?
 
 Tegye a következőket:
 
-- Miután létrehozott egy új közös értékesítést az Partnerközpont-ban, ellenőrizze, hogy meg lesz-e hívva Partnerközpont-e a Dynamics 365-folyamathoz való Partnerközpont (előfordulhat, hogy többször is meghívja).
+- Miután létrehozott egy új közös értékesítést az Partnerközpont-ban, ellenőrizze, hogy meg van-e hívva Partnerközpont Dynamics 365-folyamat (előfordulhat, hogy többször is meg lesz hívva).
 
-- Ha a folyamat meghívásra kerül, ellenőrizze az összes meghívott folyamatot, és azonosítsa a folyamat futását, amely frissíti a CRM-et. A műveleteket követni tudja, és ellenőrizheti, hogy frissült-e a CRM,vagy tapasztalt-e problémát.
+- Ha a folyamat meghívva van, ellenőrizze az összes meghívott folyamatot, és azonosítsa azt a folyamatfutatot, amely frissíti a CRM-et. A műveleteket követni tudja, és ellenőrizheti, hogy frissült-e a CRM,vagy probléma merült-e fel.
 
-- Tekintse **meg az Új üzlet** Partnerközpont, hogy feltöltődik-e a CRM-azonosítóval.
+- Tekintse meg **az Új üzlet** a Partnerközpont, hogy feltöltődik-e a CRM-azonosítóval.
 
-- Győződjön meg arról, hogy az  üzlet nem záródik le véletlenül Won (Megnyert) vagy **Lost** (Elveszett) ként a Partnerközpont.
+- Győződjön meg arról, hogy az üzlet nem záródik le véletlenül, mert **az** megnyert vagy **elveszett** a Partnerközpont.
 
 ## <a name="next-steps"></a>Következő lépések
 
