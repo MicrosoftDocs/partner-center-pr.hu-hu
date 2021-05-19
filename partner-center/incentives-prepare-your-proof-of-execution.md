@@ -1,6 +1,6 @@
 ---
 title: A végrehajtási igazolás előkészítése
-description: Ismerje meg a végrehajtás (PoE), az időkeretek, az állapot megtekintése és a beküldési irányelvek fontosságát.
+description: A végrehajtási igazolás (PoE), az ütemtervek, az állapot megtekintése és a beküldési irányelvek fontosságának a fontossága.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
@@ -8,22 +8,20 @@ ms.author: kashanum
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: d0e5dca008f73a13fb25e9322c492a053037e633
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: a81962de16b56329167338012cc66e160fffafe8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179445"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151882"
 ---
-# <a name="create-and-submit-documents-for-your-incentives-proof-of-execution-poe"></a>Dokumentumok létrehozása és elküldése az ösztönzők végrehajtásának igazolására (PoE)
+# <a name="create-and-submit-documents-for-your-incentives-proof-of-execution-poe"></a>Dokumentumok létrehozása és elküldése az ösztönzők végrehajtási igazolásához (PoE)
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdája
 
-- Ösztönzők rendszergazdája
+Mielőtt kifizetné az ösztönzőket, be kell nyújtania egy részletes végrehajtási igazolást (PoE). Ez a cikk végigvezeti a hatékony végrehajtási igazolás létrehozásának folyamatán.
 
-Az ösztönzők befizetése előtt meg kell adnia a végrehajtás (PoE) részletes igazolását. Ez a cikk végigvezeti a végrehajtás hatékony igazolásának folyamatán.
-
-## <a name="how-to-submit-a-poe"></a>A PoE beküldése
+## <a name="how-to-submit-a-poe"></a>PoE elküldése
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
@@ -31,34 +29,34 @@ Az ösztönzők befizetése előtt meg kell adnia a végrehajtás (PoE) részlet
 
 3. A **Plans** (Tervek) szakaszban válassza ki a kívánt tervet. Megnyílik a terv állapotát jelző lap.
 
-4. A **kampányok** szakaszban keresse meg a kívánt tevékenységet.
+4. A **Kampányok szakaszban** keresse meg a kívánt tevékenységet.
 
-5. A **végrehajtás igazolása** oszlopban válassza a **Poe hozzáadása** elemet.
+5. A Proof **of execution (Végrehajtási igazolás) oszlopban** válassza az **Add PoE (PoE hozzáadása) lehetőséget.**
 
-6. Az **új végrehajtás igazolása lapon** adja meg a kötelező mezőket.
+6. Az Új **végrehajtási igazolás lapon adja** meg a szükséges mezőket.
 
-   - **Név**  A Co-op jogcím rövid neve.
-   - **Dátum**  A végrehajtás dátuma. Ennek a dátumnak a kampány kezdési dátuma és a kampány befejezési dátuma között kell esnie.
-   - **Mennyiség**  A Co-op jogcím mennyisége.
+   - **Név**  Az együttműködési igény rövid neve.
+   - **Dátum**  A végrehajtás dátuma. Ennek a dátumnak a kampány kezdő dátuma és a kampány záró dátuma közé kell esnie.
+   - **Mennyiség**  Az együttműködési igény mennyisége.
 
 7. Kattintson a **Mentés** gombra.
 
-8. Az **új végrehajtási jogcím** lapon adja meg a kötelező mezőket.
+8. Az Új **végrehajtási igazolási jogcím lapon** adja meg a szükséges mezőket.
 
-   - **Név**  A Co-op jogcím rövid neve.
-   - **Dátum**  A végrehajtás dátuma. Ennek a dátumnak a kampány kezdési dátuma és a kampány befejezési dátuma között kell esnie.
-   - **Becsült benyomások**   A tevékenység becsült elérhetősége; személyek száma.
-   - **Előzetes jóváhagyási azonosító**   Ezt a azonosítót a Microsoft küldi el, miután jóváhagyta a marketing-anyagokat.
+   - **Név**  Az együttműködési igény rövid neve.
+   - **Dátum**  A végrehajtás dátuma. Ennek a dátumnak a kampány kezdő dátuma és a kampány záró dátuma közé kell esnie.
+   - **Becsült megjelenés**   A tevékenység becsült elérése; személyek száma.
+   - **Előzetes jóváhagyás azonosítója**   A Microsoft ezt az azonosítót küldi El Önnek, miután jóváhagyták a marketinganyagokat.
 
 9. Ha végzett, válassza a **Create claim** (Igénylés létrehozása) elemet.
 
 10. Töltse fel az alábbi két dokumentum valamelyikét az **Invoice and expense information page** (Számla- és költségadatok lapon):
-    - **Harmadik féltől származó számla**  A **harmadik féltől származó számla** mezőben válassza a **húzás vagy a fájlok tallózása a feltöltéshez** lehetőséget. Adja hozzá a számla és a szükséges számla adatait, majd válassza a **Mentés** lehetőséget.
-    - **Certificate Service-jelentés**  Válassza a **hitelesítésszolgáltató hozzáadása jelentés** lehetőséget. A **hitelesítési szolgáltatás jelentésének létrehozása** lapon végezze el a szükséges mezőket, majd kattintson a **Mentés** gombra.
+    - **Külső számla**  A Külső **féltől származó számla mezőben** válassza a Fájlok húzása **vagy tallózása a feltöltéshez lehetőséget.** Adja meg a számlát és a szükséges számlaadatokat, majd válassza a **Mentés lehetőséget.**
+    - **Tanúsítványszolgáltatás jelentése**  Válassza **a Tanúsítványszolgáltatás-jelentés hozzáadása lehetőséget.** A **Tanúsítványszolgáltatás-jelentés létrehozása lapon** töltse ki a kötelező mezőket, majd válassza a **Mentés lehetőséget.**
 
-11. Ha kívánja, feltöltheti az **igazoló dokumentumokat** is. A **dokumentumok** megjelölése mezőben válassza a **húzás vagy a fájlok tallózása a feltöltéshez** lehetőséget. Ha bejelöli a dokumentumok igazolása lehetőséget, akkor hozzá kell adnia a magyarázó megjegyzéseket. A megjegyzések hozzáadását követően válassza a **Save** (Mentés) elemet.
+11. Ha szeretné, **próbadokumentumokat is** feltölthet. A Proof **documents (Dokumentumok igazolása)** mezőben válassza a Drag or browse files to upload (Fájlok húzása **vagy tallózása a feltöltéshez) lehetőséget.** Ha a Proof documents (Igazolási dokumentumok) lehetőséget választja, magyarázó megjegyzéseket kell hozzáadnia. A megjegyzések hozzáadását követően válassza a **Save** (Mentés) elemet.
 
-12. A PoE elküldése előtt adja meg a végső megjegyzéseket, majd válassza a **kérelem küldése** lehetőséget.
+12. Mielőtt beküldi a PoE-t, adja meg a végleges megjegyzéseket, majd válassza a **Submit claim (Igénylés elküldése) lehetőséget.**
 
 ## <a name="view-the-status-of-a-poe"></a>PoE állapotának megtekintése
 
@@ -66,12 +64,12 @@ Az ösztönzők befizetése előtt meg kell adnia a végrehajtás (PoE) részlet
 
 2. Válassza az **Incentives** (Ösztönzők) lap **Plan Management** (Tervkezelés) elemét, majd válassza ki a kívánt programot. Megnyílik az állapotot jelző lap.
 
-3. A **jogcím** szakaszban minden Poe állapota megjelenik az **állapot** oszlopban.
+3. A **Jogcímek** szakaszban az egyes PoE-k állapota az Állapot **oszlopban látható.**
 
-   A következő a különböző lehetséges állapotok az Ön co-op-kérelmének PoE.
+   Az alábbiakban az együttműködési igény PoE-jének lehetséges állapotai a következők.
 
    - Elküldve
-   - A felülvizsgálat alatt (a Microsoft a PoE beküldése után a hónap utolsó napja előtt elvégzi a felülvizsgálatot.)
+   - Felülvizsgálat alatt (a Microsoft a PoE elküldése után a hónap utolsó napja előtt befejezi a felülvizsgálatot.)
    - Szükséges beavatkozás
    - Szerkesztés
    - Approved

@@ -1,40 +1,37 @@
 ---
-title: MPN-juttatás visszatérítése
+title: MpN-juttatás visszatérítése
 ms.topic: article
 ms.date: 02/05/2021
-description: Megtudhatja, hogyan kérhet visszatérítést MPN-juttatásra, és hogy milyen feltételek szükségesek a támogatáshoz.
+description: Megtudhatja, hogyan kérhet visszatérítést egy MPN-juttatásért, és hogy milyen feltételek szükségesek a jogosultsághoz.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 39a925bbfccb720951a63f4e11207df4a3252200
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 919a0187d3d999e935667bdbd6d565fb093fe6dd
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106132910"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151321"
 ---
-# <a name="request-a-refund-for-an-mpn-benefit"></a>Az MPN-juttatásra vonatkozó visszatérítés igénylése
+# <a name="request-a-refund-for-an-mpn-benefit"></a>MPN-juttatás visszatérítésének igénylése
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** MPN-partner | Fiók adminisztrátora
 
-- MPN-partner rendszergazdája
-- Fiókadminisztrátor
+Ez a cikk azokat a feltételeket sorolja fel, amelyek teljesülnek az MPN-juttatás visszatérítésének igénylésekor.
 
-Ez a cikk felsorolja azokat a feltételeket, amelyeknek meg kell felelnie, amikor egy MPN-juttatásra vonatkozó visszatérítést kér.
-
-## <a name="criteria-for-a-refund"></a>Visszatérítés feltételei
-Ha a megvásárolt MPN-juttatás (Action Pack, ezüst vagy arany szint) esetében visszatérítést kér, a kérelemnek a következő feltételeknek kell megfelelnie:
+## <a name="criteria-for-a-refund"></a>Visszatérítési feltételek
+Amikor visszatérítést kér egy megvásárolt MPN Action Pack,silver vagy gold szintű juttatásért, a kérelemnek meg kell egyeznie az alábbi feltételekkel:
 
 - A vásárlás az elmúlt 30 napban történt
-- Az összes előnyt nem lehet aktiválni/használni
-- A termékkulcs nem tekinthető meg (még akkor sem, ha nincsenek aktiválva)
+- Nem aktiválható/nem használható fel minden előny
+- A termékkulcsokat nem lehet megtekinteni (akkor sem, ha nincsenek aktiválva)
 
-Az ÁFA-visszatérítési partnerek egy évig elérhetők.
+Az adóvisszatérítések az adómentességi partnerek számára egy évig érhetők el.
 
 >[!NOTE]
->Ha Silver tagsági ajánlatot kapott, és a 25%-os Gold Membership kedvezményt használta az arany tagságra való frissítéshez, nem jogosult ezüst-visszatérítésre (még akkor sem, ha az ezüst tagságot 30 napon belül kifizette, és nem használta fel a kedvezményeket).
+>Ha Silver tagsági ajánlata volt, és felhasználta a 25%-os arany tagsági kedvezményt a Gold tagsági ajánlatra való frissítéshez, akkor sem jogosult Silver-visszatérítésre (még akkor sem, ha 30 napon belül fizetett ezüsttagságért, és nem használta ki az előnyöket).
 
 ## <a name="next-steps"></a>Következő lépések
 

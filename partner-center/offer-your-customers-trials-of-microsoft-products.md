@@ -1,119 +1,115 @@
 ---
-title: Microsoft-termékek kipróbálása az ügyfelek számára
+title: Microsoft-termékek kipróbálása ügyfelek számára
 ms.topic: article
 ms.date: 05/04/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Az ügyfelek 30 napig kipróbálhatják a Microsoft előfizetési termékeit. Regisztráljon az ingyenes próbaverzióra a katalógusban, akárcsak sok más online szolgáltatások.
+description: Az ügyfelek 30 napig kipróbálhatják a Microsoft-előfizetési termékeket. Regisztráljon ezekre az ingyenes próbaverziókra a katalógusban, ahogy számos online szolgáltatások.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 53f4a16ac5d0f33fd534d7fd9a13eaf5a25cf3ea
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 1d6fda82464b9abc30714798a2ee3999d8f93db5
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106132331"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151134"
 ---
-# <a name="give-customers-30-day-free-trials-of-microsoft-products"></a>30 napos ingyenes próbaverziók a Microsoft-termékekhez
+# <a name="give-customers-30-day-free-trials-of-microsoft-products"></a>A Microsoft-termékek 30 napos, ingyenes próbaverziója az ügyfeleknek
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Értékesítési ügynök
-
-Az ügyfelek új Microsoft-termékekhez való bevezetésének jó módja, ha 30 napos ingyenes próbaverziót kínál. A katalógus próbaverzióit ugyanúgy regisztrálhat, mint sok más online szolgáltatások. Minden partner részt vehet.
+Az új Microsoft-termékek bevezetésének jó módja, ha 30 napos ingyenes próbaverziót kínál. A katalógusban található próbaverziókra úgy regisztrálhat, mint sok online szolgáltatások. Minden partner részt vehet.
 
 ## <a name="available-trial-offers"></a>Elérhető próbaverziós ajánlatok
 
-Az összes függőben lévő próbaverziós ajánlatot megtalálhatja az **ügyfél** oldalán. Ezen az oldalon az összes előfizetés szerepel, beleértve az ingyenes próbaverziókat és a fizetős előfizetéseket. (Ez a szolgáltatás jelenleg nem érhető el Kínában.)
+Az összes függőben lévő próbaverziós ajánlatot megtalálja az Ügyfél **oldalon.** Ez az oldal felsorolja az összes előfizetést, beleértve az ingyenes próbaverziókat és a fizetős előfizetéseket. (Ez a funkció Kínában jelenleg nem érhető el.)
 
-Minden ügyfél egy ingyenes próbaverzióra jogosult minden elérhető ajánlathoz. Például beszerezhetnek egy ingyenes próbaverziót Microsoft 365 Vállalati verzió standard és egy ingyenes próbaverzióra az Office 365 E3-hoz. Ha azonban az ügyfél már rendelkezik az ajánlattal, nem használhat ingyenes próbaverziót az ajánlathoz.
+Minden ügyfél egy ingyenes próbaverzióra jogosult minden elérhető ajánlathoz. Kaphatnak például egy ingyenes próbaverziót az Microsoft 365 Business Standardhoz, és egy ingyenes próbaverziót az Office 365 E3-hoz. Ha azonban az ügyfél már az ajánlat tulajdonában van, nem használhat ingyenes próbaverziót ehhez az ajánlathoz.
 
 ### <a name="available-products"></a>Elérhető termékek
 
-Az ingyenes próbaverziók a legátfogóbb és legnépszerűbb licesen-alapú ajánlatokhoz érhetők el. Az új próbaverziós ajánlatokat havi rendszerességgel lehet bevezetni.
+Az ingyenes próbaverziók a legátfogóbb és legnépszerűbb, licesen alapuló ajánlatokhoz érhetők el. Az új próbaverziós ajánlatok havi rendszerességgel is bevezetve lehetnek.
 
-A partnerek a partner központ **díjszabás és ajánlatok** lapján a havi árlista keretében kereshetnek próbaverziókat. A próbaverziós ajánlatok a **másodlagos licenc típusa** oszlopban a "próbaverzió" szerepelnek.
+A partnerek a havi árlistán találhatják meg a próbaverziókat a díjszabási és **ajánlati** oldalon a Partnerközpont. A próbaverziós ajánlatok árlistán a Másodlagos licenctípus oszlopban megjelenik a **"TRIAL"** (PRÓBAVERZIÓ).
 
-Jelenleg nincsenek **ingyenes próbaverziók** kormányzati ajánlatokhoz, oktatási ajánlatokhoz vagy kiegészítő ajánlatokhoz.
+Jelenleg nincsenek ingyenes **próbaverziók** kormányzati, oktatási vagy kiegészítő ajánlatokhoz.
 
 ## <a name="licenses-for-free-trial-offers"></a>Licencek ingyenes próbaverziós ajánlatokhoz
 
-Az összes ingyenes próbaverzió 25 licencet biztosít. Ez a szám nem módosítható a próbaverzióban. Az ingyenes próbaverzióban nem adhat hozzá és nem távolíthat el licenceket. A próbaverzió fizetett előfizetésre való konvertálása után további licenceket adhat hozzá az előfizetéshez.
+Minden ingyenes próbaverzió 25 licencet biztosít. Ezt a számot nem módosíthatja a próbaverzió során. Az ingyenes próbaverzióban nem adhat hozzá és nem távolíthat el licenceket. Miután a próbaverziót fizetős előfizetésre konvertálta, további licenceket adhat hozzá az előfizetéshez.
 
-A próbaverziós licenceket ugyanúgy kell hozzárendelni a felhasználókhoz, mint a fizetős szolgáltatások licence.
+A próbaverziós licenceket ugyanúgy kell hozzárendelni a felhasználókhoz, mint a fizetős szolgáltatási licenceket.
 
-## <a name="sign-customers-up-for-trials"></a>Ügyfelek regisztrálása próbaverzióra
+## <a name="sign-customers-up-for-trials"></a>Ügyfelek regisztrációja próbaverzióra
 
-Próbaverzió beszerzése az ügyfélnek a partner Centerben:
+Szerezze be az ügyfél próbaverzióját a Partnerközpont:
 
-1. A partner Centerben **válassza a** **katalógus** lehetőséget. 
-2. A katalógusban, a **Számlázási gyakoriság** területen válassza a **próbaverziós ajánlat** lehetőséget. Ez lehetővé teszi, hogy csak az ingyenes kísérletek megjelenjenek és letiltsák a nem ingyenes egyéb ajánlatokat. A próbaverziók a katalógus **próbaverziók** lapján jelennek meg.
-3. Válassza ki az ajánlathoz használni kívánt ingyenes próbaverziót, majd kattintson a **Submit (Küldés**) gombra. Az összes próbaverzió 30 napig tart, és nem számítunk fel díjat. A próbaverzióban bármikor átalakíthatja a fizetős előfizetést is.
+1. A **termék** értékesítésének Partnerközpont **katalógust.** 
+2. A katalógus Számlázási **gyakoriság beállításában** válassza a **Próbaverziós ajánlat lehetőséget.** Ez lehetővé teszi, hogy csak az ingyenes próbaverziók jelenjenek meg, és letiltsa a nem ingyenes ajánlatokat. A próbaverziók a katalógus **Próbaverziók** lapján fognak ni.
+3. Válassza ki a kínálni kívánt ingyenes próbaverziót, majd kattintson a **küldés gombra.** Minden próbaverzió 30 napig tart, amely alatt nem kell fizetni. A próbaverzió során bármikor átválthatja fizetős előfizetésre.
 
-## <a name="converting-trials-to-paid-subscriptions"></a>Próbaverziók konvertálása fizetős előfizetésekre
+## <a name="converting-trials-to-paid-subscriptions"></a>Próbaverziók konvertálása fizetős előfizetésre
 
-Az ingyenes próbaverziót a rendszer nem konvertálja automatikusan fizetős előfizetésre. 30 nap elteltével az ingyenes próbaverziót fizetős előfizetésre kell átalakítani, vagy [lejár](#expiring-offers). Az ingyenes próbaverziókat nem lehet kiterjeszteni.
+Az ingyenes próbaverziót a rendszer nem konvertálja automatikusan fizetős előfizetésre. 30 nap után az ingyenes próbaverziót fizetős előfizetésre kell konvertálni, különben [lejár.](#expiring-offers) Az ingyenes próbaverziók nem bővíthetők.
 
-A próbaverziót a fizetős előfizetésbe kell alakítania. Ezt [a partner Center](#convert-trials-using-partner-center) vagy [a partner Center API](#convert-trials-using-apis)-k segítségével teheti meg.
+A próbaverziót önnek kell fizetős előfizetésre konvertálni. Ezt az [api-k használatával Partnerközpont](#convert-trials-using-partner-center) [vagy a Partnerközpont API-kon keresztül.](#convert-trials-using-apis)
 
 > [!NOTE]
-> A Cloud Solution Provider (CSP) programhoz tartozó ingyenes próbaverziók nem alakíthatók át másik programbeli bérlőre (például EA, Open vagy MOSP).
+> A Felhőszolgáltató (CSP) program ingyenes próbaverziói nem konvertálhatók másik programbérlőre (például EA, Nyílt vagy MOSP).
 
-### <a name="convert-trials-using-partner-center"></a>Próbaverziók konvertálása a partner Center használatával
+### <a name="convert-trials-using-partner-center"></a>Próbaverziók konvertálása a Partnerközpont
 
-A próbaverziókat fizetős előfizetésekre is konvertálhatja a partner Center használatával:
+A próbaverziókat fizetős előfizetésekké konvertálhatja az Partnerközpont:
 
-1. Lépjen az ügyfél előfizetése oldalra, és válassza ki az ingyenes próbaverziót.
-2. Válassza **a próbaverzió konvertálása fizetős előfizetésre** lehetőséget.
-3. Adja meg a kívánt licenc mennyiségét és a számlázási gyakoriságot, majd kattintson az **alkalmaz** gombra.
-4. A fizetős előfizetés számlázása az átalakítás dátumától kezdődik, az előfizetés pedig az átalakítás dátumától számítva 12 hónapig automatikusan megújítja az előfizetést. 
+1. Kattintson az ügyfél előfizetési oldalára, és válassza az ingyenes próbaverziót.
+2. Válassza **a Próbaverzió konvertálása fizetős előfizetésre lehetőséget.**
+3. Adja meg a kívánt licencmennyiséget és számlázási gyakoriságot, majd válassza az **Alkalmaz lehetőséget.**
+4. A fizetős előfizetés számlázása az átváltási dátummal kezdődik, és az előfizetés automatikusan megújul az átváltási dátumtól 12 hónappal. 
 
-### <a name="convert-trials-using-apis"></a>Kísérletek konvertálása API-k használatával
+### <a name="convert-trials-using-apis"></a>Próbaverziók konvertálása API-k használatával
 
-Előfordulhat, hogy módosítania kell az API-kat, hogy az ingyenes próbaverziót egy fizetős előfizetésre konvertálja. További információkért tekintse meg a következő fejlesztői dokumentációt:
+Előfordulhat, hogy módosítania kell az API-kat, hogy igazodni tudjanak az ingyenes próbaverzió fizetős előfizetésre való átalakításához. További információt a következő fejlesztői dokumentációban talál:
 
 - [Próbaverziós előfizetés átalakítása fizetőssé](/partner-center/develop/convert-a-trial-subscription-to-paid)
 - [A próbaverzió átalakításával kapcsolatos ajánlatok listájának lekérése](/partner-center/develop/get-a-list-of-trial-conversion-offers)
 
-### <a name="trials-without-conversions"></a>Konverzió nélküli próbaverziók
+### <a name="trials-without-conversions"></a>Próbaverziók átalakítás nélkül
 
-Nem minden próbaverzió konvertálható fizetős előfizetésre. A partnerek olyan próbaverziót használhatnak, amely nem rendelkezik konverzióval a lejárati dátumig. A partnerek olyan kompatibilis ajánlatokat is vásárolhatnak, amelyek ugyanazt a szolgáltatást támogatják, mint a próbaverziós ajánlat.  Ezt a próbaidőszak lejárta előtt kell elvégezni, hogy az újonnan megvásárolt ajánlatok szolgáltatásait a próbaverzió szolgáltatásaihoz igazítsa. 
+Nem minden próbaverzió alakítható át fizetős előfizetésre. A partnerek olyan próbaverziót használhatnak, amely a lejárati dátumig nem rendelkezik konverzióval. A partnerek a próbaverziós ajánlattal azonos szolgáltatásokat támogató, kompatibilis ajánlatokat vásárolhatnak.  Ezt a próbaidőszak lejárta előtt kell tenni, hogy az újonnan megvásárolt ajánlatok szolgáltatásai igazodnak a próbaverzió szolgáltatásaihoz. 
 
-|**Próba**   |**Kompatibilis kisméretű üzleti ajánlatok**   |**Kompatibilis nagyvállalati ajánlatok**   |
+|**Próbaverzió**   |**Kompatibilis kisvállalati ajánlatok**   |**Kompatibilis nagyvállalati ajánlatok**   |
 |----------------------------|:---------------------------------|:------------------------------------------|
-|Microsoft Teams – kereskedelmi felhő (felhasználó által kezdeményezett) próbaverzió   |Alapszintű, Microsoft 365 Vállalati verzió standard, Microsoft 365 Vállalati verzió Premium Microsoft 365 Vállalati verzió   | F3 (korábban F1), Office 365 nagyvállalati (E1, E3 és E5), Microsoft 365 F1/F3, Microsoft 365 Nagyvállalati verzió (E3)   |
+|A Microsoft Teams kereskedelmi felhő (felhasználó által kezdeményezett) próbaverziója   |Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium   | F3 (korábban F1), Office 365 nagyvállalati verzió (E1, E3 és E5), Microsoft 365 F1/F3, Microsoft 365 Nagyvállalati verzió (E3)   |
 
 >[!NOTE]
->A fenti ajánlat hasonló szolgáltatásokkal rendelkezik, mint a hasonló funkciókkal, azonban lehetséges, hogy az ajánlatok között eltérések állnak fenn.
+>A fenti ajánlatok hasonló szolgáltatási csomagokkal és hasonló funkciókkal rendelkezik, de az ajánlatok között lehetnek különbségek.
 
 ### <a name="expiring-offers"></a>Lejáró ajánlatok
 
-A lejárati ajánlatokat nem fogja értesíteni. A közelgő lejárati dátumokat a partner központ ügyfél nézetében vagy az API lekérdezésével követheti nyomon. Érdemes gyakran figyelni ezeket a dátumokat, hogy a megfelelő követő műveleteket hajtsa végre az ügyfelekkel a döntési pontokhoz közeledve.
+A lejáró ajánlatokról nem kap értesítést. A jövőbeli lejárati dátumok nyomon követéséhez használja az ügyfélnézetet a Partnerközpont API lekérdezése segítségével. Célszerű rendszeresen figyelni ezeket a dátumokat, hogy a döntési ponthoz közeledve megteheti a megfelelő követő műveleteket az ügyfelekkel.
 
-A próbaverzió lejártát követően egy lejárati üzenet jelenik meg, amely a próbaverzióba való bejelentkezést kísérli meg. Az adatok tárolása azonban az adatmegőrzési szabályokkal összhangban történik. Miután megvásárolt egy új előfizetést ugyanazzal a szolgáltatási csomaggal, az ügyfél adatai az újonnan aktivált előfizetésből is elérhetők.
+A próbaidőszak lejárta után a próbaidőszakba bejelentkezni próbáló ügyfél lejárati üzenetet fog látni. Az adatok tárolása azonban az adatmegőrzési szabványoknak megfelelően történt. Miután ugyanazokkal a szolgáltatás csomagokkal vásárolt egy új előfizetést, az ügyfél adatai ismét elérhetők lesznek az újonnan aktivált előfizetésből.
 
 ## <a name="billing"></a>Számlázás
 
-Az éves számlázási és ingyenes próbaverziók megegyeznek a szuverén felhőkben és a nyilvános felhőben. Az egyetlen különbség az indításkor elérhető próbaverziós SKU.
+Az éves számlázás és az ingyenes próbaverziók ugyanazok a szuverén felhőkben és a nyilvános felhőkben. Az egyetlen különbség az indításkor elérhető próbaverziós SKUs.
 
 ## <a name="billing-for-free-trials"></a>Ingyenes próbaverziók számlázása
 
-Az ingyenes próbaverziók havi és éves díj ellenében is felhasználhatók. Ha a próbaverziót fizetős előfizetésre alakítja át, akkor kiválaszthatja a számlázási gyakoriságot.
+Az ingyenes próbaverziók havi és éves számlázású előfizetések esetén is használhatók. Kiválaszthatja a számlázási gyakoriságot, amikor a próbaverziót fizetős előfizetésre konvertálja.
 
-Az előfizetés kezdő dátuma az átalakítás dátumától függ. Ha az ingyenes próbaverziót az éves számlázással rendelkező fizetős ajánlatra konvertáljuk, az előfizetés megújítási dátuma 12 hónapig lesz az átalakítás dátumától számítva. Ha az ingyenes próbaverziót havi számlázással rendelkező fizetős ajánlatra konvertáljuk, az előfizetés megújításának dátuma tizenkét hónap lesz az átalakítás dátumát követő számlázási dátumtól számítva.
+Az előfizetés kezdő dátuma az átalakítási dátumon alapul. Ha az ingyenes próbaverziót éves számlázású fizetős ajánlatra konvertálják, az előfizetés megújításának dátuma 12 hónap lesz az átváltási dátumtól. Ha az ingyenes próbaverziót havi számlázású fizetős ajánlatra váltja át, az előfizetés megújításának dátuma 12 hónap lesz a számlázási dátumtól az átváltási dátum után.
 
 ### <a name="invoices"></a>Számlák
 
-A számlán vagy a licenc-alapú egyeztetési fájlban felsorolt ingyenes próbaverziók nem jelennek meg. Az ingyenes próbaverziók csak akkor jelennek meg a számlán és a licencelésen alapuló egyeztetési fájlban, ha az ingyenes próbaidőszakot egy fizetős előfizetésre konvertálja. Az átalakított előfizetés ugyanúgy fog megjelenni, mint bármely új előfizetés.
+A számlán vagy a licencalapú egyeztetési fájlban nem megjelenik az ingyenes próbaverziók listája. Az ingyenes próbaverziók csak akkor jelennek meg a számlán és a licencalapú egyeztetési fájlban, ha az ingyenes próbaverziót fizetős előfizetésre konvertálta. Az átalakított előfizetés ugyanúgy jelenik meg, mint bármely új előfizetés.
 
 ### <a name="incentives"></a>Ösztönzők
 
-Az ingyenes próbaverziók nem érintik az ösztönzőket.
+Az ingyenes próbaverziók nem befolyásolják az ösztönzőket.
 
 ## <a name="support"></a>Támogatás
 
-Az ingyenes próbaverziók támogatásához küldje el a szolgáltatási kérelmet a partner centeren keresztül.
+Az ingyenes próbaverziókra vonatkozó támogatásért küldjön szolgáltatáskérést a Partnerközpont.

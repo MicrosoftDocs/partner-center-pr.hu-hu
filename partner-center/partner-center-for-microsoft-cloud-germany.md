@@ -4,100 +4,92 @@ ms.topic: article
 ms.date: 10/12/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A Microsoft Cloud Németországhoz készült partneri központ az a partneri portál, amely a Microsoft felhőalapú megoldásokat kínál az ügyfeleknek az EU-és EFTA-országokban.
+description: Partnerközpont Microsoft Cloud Germany esetében az a vállalati portál, ahol azok a partnerek, akik az EU- és a EFTA-országokban található ügyfeleknek kívánják kínálni a Microsoft-felhőmegoldásokat.
 author: vinayks
 ms.author: vinayks
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f36d7c0e99600d9de63d4e6377a2b3688a043885
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 19753f4fb848262fc8bed146427f0652096f6902
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086515"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151083"
 ---
-# <a name="partner-center-for-microsoft-cloud-germany-for-partners-selling-to-customers-in-eu--efta-countries"></a>Microsoft Cloud Németország partneri központja az EU-& EFTA-országokban lévő ügyfeleknek értékesítő partnereknek
+# <a name="partner-center-for-microsoft-cloud-germany-for-partners-selling-to-customers-in-eu--efta-countries"></a>Partnerközpont Microsoft Cloud Germany számára az EU és a EFTA-országokban & partnerek számára
 
-**A következőre érvényes:**
+**A következőkre vonatkozik:** Partnerközpont Microsoft Cloud Germany esetén
 
-- A Microsoft Cloud Germany Partnerközpontja
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök | Számlázási rendszergazda
 
-**Megfelelő szerepkörök**
+A Microsoft Cloud Germany szigorú német adatvédelmi követelményeknek való megfelelésre lett tervezve, és tartalmaz egy német adatvédelmi megbízottat, aki a németországi jogszabályok szerint működik, és szabályozza az ügyféladatok fizikai és logikai hozzáférését. Az összes ügyféladat, valamint az ügyféladatokhoz való hozzáférést kezelő vagy vezérlő rendszerek német adatközpontokban találhatók. Az adatközpontok közötti hálózat el van különítve, és Németországon belül dedikált.
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
-- Számlázási adminisztrátor
-
-Microsoft Cloud Németország a német jog által biztosított szigorú adatvédelmi követelmények teljesítésére szolgál, és a német jogban működő németországi adatkezelőt tartalmaz, amely az ügyféladatok fizikai és logikai hozzáférését vezérli. Az összes vásárlói adat, valamint az ügyféladatok elérését feldolgozó vagy vezérlő rendszerek német adatközpontokban találhatók. A hálózat ezen adatközpontok között elszigetelt és dedikált Németországon belül.
-
-Microsoft Cloud Németország külön [Microsoft Azure](https://go.microsoft.com/fwlink/?linkid=847992)-példányt biztosít a németországi adatközpontokból. Ennek eredményeképpen az Európai Unió (EU) és az Európai Szabadkereskedelmi Társulás (EFTA) kereskedelmi ügyfelei az alkalmazandó német törvényeknek és rendelkezéseknek, valamint a kulcsfontosságú nemzetközi szabványoknak megfelelő módon tárolhatják és kezelhetik az ügyféladatokat. A Microsoft munkatársai a német adatkezelő vagy ügyfél jóváhagyása és felügyelete nélkül nem férhetnek hozzá az ügyfelek adataihoz.
+A Microsoft Cloud Germany a németországi adatközpontok [Microsoft Azure](https://go.microsoft.com/fwlink/?linkid=847992)példányát biztosítja. Ennek eredményeképpen az Európai Unió (EU) és az Európai Szabad trade Association (EFTA) kereskedelmi ügyfelei tárolhatja és kezelhetik az ügyféladatokat a vonatkozó német jogszabályoknak és előírásoknak, valamint a fő nemzetközi szabványoknak megfelelően. A Microsoft munkatársai nem férhetnek hozzá az ügyféladatokhoz a németországi adatkezelési megbízott vagy ügyfél jóváhagyása és felügyelete nélkül.
 
 > [!IMPORTANT]
-> Az ügyfelek szükségleteinek alakulásán alapuló felhőalapú stratégiánk a németországi új Felhőbeli régiókat fogja figyelembe venni, amelyek összhangban vannak a globális felhőalapú ajánlattal. Ebben a fókuszban már nem fogadunk el új ügyfeleket, vagy nem helyezünk üzembe semmilyen új szolgáltatást a jelenleg elérhető Microsoft Cloud Németországon. A meglévő ügyfelek továbbra is használhatják a jelenleg elérhető Cloud Services szolgáltatást, amelyet a szükséges biztonsági frissítésekkel tartunk fenn.
+> Az ügyfelek igényeinek fejlődése alapján a németországi felhőstratégia a globális felhőajánlatnak megfelelő új felhőrégiók németországi megvalósításához fog összpontosítani. Ezzel a fókuszban már nem fogadunk új ügyfeleket, és nem helyezünk üzembe új szolgáltatásokat a jelenleg elérhető Microsoft Cloud Germany szolgáltatásból. A meglévő ügyfelek továbbra is használhatjak a jelenleg elérhető felhőszolgáltatásokat, amelyeket a szükséges biztonsági frissítésekkel fogunk karbantartani.
 >
-> Az új ügyfelek a jelenleg elérhető európai régiókat vagy a németországi új régiókat használhatják, amikor elérhetővé válnak. További információ: a [Microsoft, hogy a Cloud Services szolgáltatást a németországi új adatközpontokból kézbesítse](https://news.microsoft.com/europe/2018/08/31/microsoft-to-deliver-cloud-services-from-new-datacentres-in-germany-in-2019-to-meet-evolving-customer-needs/). 
+> A régióban az új ügyfelek a jelenleg elérhető európai régiókat vagy a németországi új régiókat is használhatja, amikor elérhetővé válnak. További információ: Felhőszolgáltatások nyújtása Németország [új adatközpontjaiból.](https://news.microsoft.com/europe/2018/08/31/microsoft-to-deliver-cloud-services-from-new-datacentres-in-germany-in-2019-to-meet-evolving-customer-needs/) 
 
-## <a name="migrate-customers-from-microsoft-cloud-germany-to-another-european-region"></a>Microsoft Cloud Germany-beli ügyfelek migrálása egy másik európai régióba
+## <a name="migrate-customers-from-microsoft-cloud-germany-to-another-european-region"></a>Ügyfelek áttelepítése a Microsoft Cloud Németországból egy másik európai régióba
 
-Mielőtt áttelepít egy ügyfél-előfizetést Microsoft Cloud Németországból egy másik európai régióba, rendelkeznie kell egy, a régióban található meglévő felhőalapú megoldás-szolgáltatói (CSP-) fiókkal, és aktívnak kell lennie. Ha még nem rendelkezik ilyennel, a rendszer arra kéri, hogy hozzon létre egyet a fiókpartner-fiók kiválasztása során a partner Centerben. Az új fiók létrehozása után az ügyfelek a kiválasztott bérlőhöz lesznek társítva.
+Mielőtt ügyfél-előfizetést minálhat a Microsoft Cloud Germany szolgáltatásból egy másik európai régióba, egy meglévő Felhőszolgáltató-fiókkal (CSP) kell lennie, amely ebben a régióban található, és aktív. Ha még nincs fiókja, a rendszer kérni fogja, hogy hozzon létre egyet a CSP-fiók kiválasztásakor a Partnerközpont. Az új fiók létrehozása után az ügyfelek a kiválasztott bérlőhöz lesznek társítva.
 
 ### <a name="you-already-have-a-csp-account"></a>Már rendelkezik CSP-fiókkal
 
-1. Jelentkezzen be a CSP Microsoft Cloud Germany-bérlőre globális rendszergazdaként.
+1. Jelentkezzen be a CSP Microsoft Cloud Germany-bérlőbe globális rendszergazdaként.
 
-1. Navigáljon a CSP – áttekintés lapra a bal oldali menüben.
+1. A bal oldali menüben lépjen a CSP Áttekintés oldalára.
  
-1. Ha a rendszer kéri, válassza **a már van bérlő az európai régióban** lehetőséget, majd kattintson a **tovább** gombra. A rendszer felszólítja, hogy jelentkezzen be az új bérlőbe. 
+1. Amikor a rendszer kéri, válassza a Már van bérlőm **az európai régióban** lehetőséget, majd válassza a Tovább **lehetőséget.** A rendszer kérni fogja, hogy jelentkezzen be az új bérlőbe. 
 
 1. Jelentkezzen be a bérlőbe globális rendszergazdaként.
  
-1. Tekintse át a megerősítő lapon található információkat, majd válassza a **Confirm (megerősítés**) lehetőséget.
+1. Tekintse át a megerősítő oldalon található információkat, majd válassza a **Megerősítés lehetőséget.**
  
-6.  Ha a művelet sikeres, a rendszer a **részletek megtekintése** vagy az **irányítópult megtekintése** lehetőségre kattintva további információkat jeleníthet meg. 
+6.  Ha a művelet sikeres, a  rendszer a Részletek megtekintése vagy az Irányítópult **megtekintése** lehetőséget fogja kérni további információkért. 
 
     Ha a bejelentkezés sikertelen, az a következők egyikét jelentheti:
     
     • Ön nem globális rendszergazda a kiválasztott bérlőn
     
-    • A bérlő nem egy európai régióban található
+    • A bérlő nem európai régióban található
     
     • A bérlő nem aktív
 
-    Végezze el a szükséges helyesbítéseket, és ismételje meg a folyamatot. 
+    Tegye meg a szükséges javításokat, és ismételje meg a folyamatot. 
 
 ### <a name="you-dont-already-have-a-csp-account"></a>Még nem rendelkezik CSP-fiókkal
 
-1. Jelentkezzen be a CSP Microsoft Cloud Germany-bérlőre globális rendszergazdaként.
+1. Jelentkezzen be a CSP Microsoft Cloud Germany-bérlőbe globális rendszergazdaként.
 
-1. Navigáljon a CSP – áttekintés lapra a bal oldali menüben.
+1. A bal oldali menüben lépjen a CSP Áttekintés lapjára.
  
-1. Ha a rendszer kéri, válassza **a nincs bérlő az európai régióban** lehetőséget, majd válassza az **új fiók létrehozása** lehetőséget. 
+1. Amikor a rendszer kéri, válassza **a** Nincs bérlőm az európai régióban lehetőséget, majd válassza az **Új fiók létrehozása lehetőséget.** 
  
-1. Ekkor megjelenik a partneri központ beléptetése oldal, ahol új bérlői és CSP-fiókot hozhat létre egy európai régióban.
+1. Meg fog jelenni a regisztráció Partnerközpont, ahol létrehozhat egy új bérlőt és CSP-fiókot egy európai régióban.
   
-5. Miután aláírta a Microsoft partneri szerződést, és a fiók aktív, jelentkezzen be az aktuális Microsoft Cloud Germany-fiókkal.
+5. Miután bejelentkezett a Microsoft Partnerszerződés és a fiók aktív, jelentkezzen be az aktuális Microsoft Cloud Germany-fiókkal.
 
-6. Navigáljon a bérlő kiválasztása űrlapra.
+6. Nyissa meg a bérlő kiválasztási űrlapját.
 
-7. Válassza a **már van bérlő az európai régióban** lehetőséget, és kövesse az utasításokat.
+7. Válassza **a Már van bérlőm az európai régióban** lehetőséget, és kövesse az utasításokat.
 
 
 ## <a name="selling-german-cloud-solutions-in-eu-and-efta"></a>Német felhőalapú megoldások értékesítése az EU-ban és az EFTA-ban
 
-A Microsoft Cloud Germany programhoz tartozó felhőalapú megoldás-szolgáltató (CSP) regisztrálását követően a partner Center használatával német felhőalapú megoldásokat és szolgáltatásokat adhat az ügyfeleknek az EU-és EFTA-országokban/régiókban.
+Miután regisztrált a Felhőszolgáltató (CSP) for Microsoft Cloud Germany programba, a Partnerközpont használatával német felhőspecifikus megoldásokat és szolgáltatásokat fog értékesíteni az EU- és a EFTA-országokban/régiókban található ügyfelek számára.
 
-Annak érdekében, hogy megfeleljenek az egyéni adatok gyűjtésére és felhasználására, valamint a kulcsfontosságú nemzetközi szabványokra vonatkozó német törvényeknek és szabályozásoknak, a következő fiókpartner-feladatokat az adott szolgáltatási portálok segítségével kezeljük.
+Az egyéni adatok gyűjtését és használatát, valamint a kulcsfontosságú nemzetközi szabványokat szabályozó német törvények és jogszabályok betartása érdekében az alábbi Partnerközpont feladatokat meghatározott szolgáltatási portálok kezelik.
 
-Funkció vagy képesség | Feladatok elvégzése a
+Funkció vagy képesség | Feladatok végrehajtása a következőben:
 :--- | :---
-Partner-felhasználók kezelése | Office 365 felügyeleti központ vagy Azure a Microsoft Cloud Germany felügyeleti portálján
-Ügyfél-felhasználói felügyelet | Office 365 felügyeleti központ vagy Azure a Microsoft Cloud Germany felügyeleti portálján
-Új felhasználói jelszó kérése | Azure Microsoft Cloud Germany felügyeleti portál
-Licenckezelés | Office 365 felügyeleti központ vagy Office 365 felügyeleti központ vagy Microsoft Cloud Germany Azure Active Directory licencelési portál
+Partnerfelhasználók kezelése | Office 365 felügyeleti központ vagy Azure a Microsoft Cloud Germany felügyeleti portálhoz
+Ügyfélfelhasználók kezelése | Office 365 felügyeleti központ vagy Azure a Microsoft Cloud Germany felügyeleti portálhoz
+Új felhasználói jelszó kérése | Azure for Microsoft Cloud Germany felügyeleti portál
+Licenckezelés | Office 365 Felügyeleti központ, Office 365 felügyeleti központ vagy Microsoft Cloud Germany Azure Active Directory licencelési portál
 
 ## <a name="next-steps"></a>Következő lépések
 
-- A felhasználók és a licencek kezelésével kapcsolatos információkért lásd: [felhasználói és licencelési felügyelet a partner Centerben, Microsoft Cloud Németország](user-management-in-partner-center-for-microsoft-cloud-germany.md).
+- További információ a felhasználók és licencek kezeléséről: Felhasználók és licencek kezelése a [Microsoft Cloud Germany Partnerközpont-ban.](user-management-in-partner-center-for-microsoft-cloud-germany.md)
 

@@ -1,136 +1,133 @@
 ---
-title: Regisztrálás tanulási partnerként
+title: Regisztráció tanulási partnerként
 ms.topic: how-to
 ms.date: 02/05/2021
-description: A partner Center használatával regisztrálhat a Learning partner programba. Ezt a tanulási Action Pack vagy az ezüst-vagy arany-kompetenciák tanulási lehetősége alapján teheti meg.
+description: A Partnerközpont a Learning Partner Programba való regisztrációhoz. Ezt a Tanulási lehetőségek vagy az Action Pack vagy arany kompetencia tanulási lehetőségének alapján használhatja.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
-ms.openlocfilehash: de833ae713fe88335103e9dbaa96153ad20ec84e
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 5043e26b578f2d2dcaa45cd86105e4c540a82ab8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106133046"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151440"
 ---
-# <a name="use-partner-center-to-enroll-as-a-microsoft-learning-partner"></a>A partner Center használata Microsoft Learning-partnerként való regisztráláshoz
+# <a name="use-partner-center-to-enroll-as-a-microsoft-learning-partner"></a>Regisztrálás Partnerközpont partnerként a Microsoft Learning használatával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** MPN-partner | Fiók rendszergazdája
 
-- MPN-partner rendszergazdája
-- Fiókadminisztrátor
+Ez a cikk azt ismerteti, hogyan regisztrálhat egy partner Microsoft Partner Network a Képzésipartner programban.
 
-Ez a cikk ismerteti, hogyan regisztrálhat a partner a Microsoft Partner Network a Learning partner programba.
+A Learning Partner Program sikerét fő teljesítménymutatók (KPI-k) mérik, amelyek célja a tanulási partnerek megjutalmazása bizonyos Microsoft-képzések befejezésekor. A KPI-k nyomon követése a feltételeknek megfelelő hivatalos termékek (MICROSOFT LEARNING-termékek) partneri vásárlásai alapján Courseware Marketplace.
 
-A tanulási partneri program sikerességét olyan fő teljesítménymutatók (KPI-k) határozzák meg, amelyek a tanulási partnereknek az egyes Microsoft-képzéseken való elvégzéséhez készültek. A KPI-k nyomon követése a hivatalos Microsoft Learning-termékek (OMLP-k) a tanfolyami piactérről való megvásárlása alapján történik.
+A partnerek a Partnerközpont regisztrálnak a Learning Partner programban. Ezt a Microsoft Action Pack előfizetésben vagy bizonyos silver vagy gold kompetenciákhoz társított tanulási lehetőség alatt található tanulási lehetőséggel érik el.
 
-A partnerek a partner központ használatával regisztrálhatnak a Learning partner programba. Ezt a Microsoft Action Pack előfizetése alatt található tanulási lehetőség vagy bizonyos ezüst vagy arany kompetenciához tartozó tanulási lehetőség keretében teszik elérhetővé.
+Ez a folyamat teljesen automatizált a Partnerközpont, és már nincs szükség üzleti alkalmazásra, mint korábban a Partner Membership Center.
 
-Ez a folyamat teljes mértékben automatizált a partner Centerben, és már nem igényel üzleti alkalmazást a Partner tagsági központban való használatra.
+A Learning Partner Programba való regisztrációkor a következő pontokat kell szem előtt tartani:
 
-A Learning partner programba való regisztráláskor a következő szempontokat érdemes figyelembe venni:
+- A Learning Partner Program KPI-követelményei évente változhatnak.
 
-- A Learning partner program KPI-re vonatkozó követelményei évente változhatnak.
+- A tanulási KPI-knek a Partnerközpont első évében kell teljesülnie.
 
-- A beléptetés első évében a Learning KPI-k teljesülnie kell a partner Centerben.
+- **Erőforrások új partnerek számára:** Ha Ön új partner, aki a Tanulási lehetőséggel szeretne kompetenciaszintet szerezni, a tanulási lehetőség eszközgyűjteményével többet is [megtudhat a folyamatról.](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/)
 
-- **Új partnerek erőforrásai:** Ha Ön egy olyan új partner, aki az oktatási lehetőség keretében a kompetenciát szeretné elérni, többet is megtudhat a [tanulási lehetőségekről](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/).
+**A COVID-19 FRISSÍTÉSE**
 
-**COVID – 19 FRISSÍTÉS**
+A Microsoft 2021. január 1. és 2021. június 30. között kompetenciabővítményt (a Cloud Business Applications-kompetencia kivételével) és speciális specializációs bővítményt kínál az évfordulós dátumokkal (AD) rendelkező partnerek számára. További információt [a partner blogbejegyzésében](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/) talál.
 
-A Microsoft a kompetenciák kiterjesztését (a Cloud Business Applications kompetencia kivételével) és a speciális specializációs bővítményt ajánlja az évfordulós (AD) dátummal rendelkező partnerek számára a 2021 január 1. és a 2021. június 30. között. További információért tekintse át a [partner blogbejegyzését](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/) .
+A Learning program bejelentésével kapcsolatos naprakész maradhat, ha elolvassa blogunkat, és elolvassa a Learning [Partner Yammer-oldalát.](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI4NDU0NDI3In0/all) [](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn) A képzési forrásokkal kapcsolatos oldalunkon programdokumentumokat és havi közösségi [hívásfelvételeket is találhat.](https://partner.microsoft.com/marketing/learning-resources#/)
 
-Ha naprakészen szeretne maradni a Learning program bejelentéseivel, [olvassa el a blogot](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn) , és tekintse meg a [learning partner Yammer oldalát](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI4NDU0NDI3In0/all). Megtalálhatja a program dokumentumait és a közösségi hívások havi felvételeit is a [tanulási források oldalon](https://partner.microsoft.com/marketing/learning-resources#/).
+## <a name="enroll-with-the-learning-action-pack"></a>Regisztrálás a Learning Action Pack
 
-## <a name="enroll-with-the-learning-action-pack"></a>Regisztráljon a Learning Action Pack
+A Action Pack a Learning Partner program alapszintű bejegyzése. Ha még nem tette meg az üzleti tanulást, és a szervezete még nem végzett Microsoft-kurzusokat, a Microsoft lehetőséget nyújt arra, hogy Microsoft Learning partnerként. Csak meg kell vásárolnia a Learning Action Pack.
 
-A Learning Action Pack az alapszintű bejegyzés a Learning partner programba. Ha még csak most ismerkedik a Learning üzletágával, és a szervezete még nem tette meg a Microsoft tananyag-képzését, a Microsoft lehetőséget nyújt Önnek arra, hogy Microsoft Learning-partnerként regisztráljon. Csak meg kell vásárolnia a tanulási Action Pack.
+A Action Pack támogatja azokat a partnereket, akik képzési szolgáltatásokat, ajánlatokat vagy kedvezményeket kínálnak a tanfolyam-piactéren, valamint olyan előnyöket, amelyek segítségével a partnerek különböző Microsoft-terméksorok szakértőivé válnak.
 
-A Learning Action Pack támogatja azokat a partnereket, akik képzési szolgáltatásokat, ajánlatokat vagy kedvezményeket kívánnak biztosítani a tanfolyami piactéren, és hasznos előnyökkel szolgálnak a partnerek számára a különböző Microsoft-termékcsaládok szakértői számára.
+A nem tanulási partnerek teljes áron vásárolhatnak tanfolyamokat csak belső képzések esetén. Ha a szervezeten kívül szeretné kézbesíteni a tartalmat, egy Microsoft Certified Trainer (egy MCT) szükséges, és elő kell írnia a Learning Action Pack.
 
-A nem tanulási partnerek teljes díj ellenében vásárolhatják meg a kurzusokat, csak a belső képzést. Ha a tartalmat a szervezeten kívülre szeretné kézbesíteni, szüksége lesz egy Microsoft Certified Trénerre (egy MCT), és regisztrálnia kell a tanulási Action Packra.
+A szükséges KPI-k elérése után teljesítheti a további követelményeket, és választhat, hogy Silver/Gold Learning-lehetőségre frissít.
 
-Miután elérte a szükséges KPI-ket, elvégezheti a további követelményeket, és megadhatja, hogy egy ezüst/arany tanulási lehetőségre frissítsen.
+- Ahhoz, hogy jogosult legyen Action Pack tanulási Partnerközpont, legalább egy (1) MCT-nek kell lennie. Nincs szükség más tanulási KPI-kre.
+- A Learning-Action Pack a következő lépésekkel aktiválhatja:
+   1. Kövesse a Microsoft-előfizetés vásárlása vagy [megújítása című Action Pack lépéseit.](mpn-get-action-pack.md)
+   2. Egy új [fiókprofil beállításához](https://partner.microsoft.com/support) lépjen kapcsolatba a Partner Frontline támogatási csapatával. Ez hozzáférést biztosít a Microsoft Courseware-képzéshez a Courseware Marketplace.
 
-- Ahhoz, hogy beszerezze a Action Pack a partner Centerben, legalább egy (1) MCT kell rendelkeznie. Semmilyen más tanulási KPI-t nem kell teljesítenie.
-- A tanulási Action Pack aktiválásához kövesse az alábbi lépéseket:
-   1. Kövesse a [Microsoft Action Pack-előfizetés megvásárlása vagy megújítása](mpn-get-action-pack.md)című témakör lépéseit.
-   2. Vegye fel a kapcsolatot a [partner Frontline támogatási](https://partner.microsoft.com/support) csapatával, és segítsen egy új fiók profiljának beállításában. Ez hozzáférést biztosít a Microsoft tananyag-képzéshez az oktatási piactéren.
+## <a name="enroll-with-a-silver-competency-learning-option"></a>Regisztrálás Silver kompetencia tanulással lehetőség
 
-## <a name="enroll-with-a-silver-competency-learning-option"></a>Regisztrálás Silver kompetencia-tanulási lehetőséggel
-
-Azok a tanulók, akik az ezüst szintű tagságot szeretnék elérni, egy adott kompetenciához társított Silver learning-lehetőséggel regisztrálhatnak. Ehhez meg kell felelniük az adott kompetenciához tartozó Silver learning-beállítások követelményeinek.
+Az ezüst szintű tagságot elérni kívánó tanulási partnerek regisztrálnak az adott kompetencia silver learning lehetőségére. Ennek érdekében teljesíteniük kell az adott kompetencia Silver Learning-beállítási követelményeit.
 
 > [!NOTE]
-> Ha többet szeretne megtudni arról, hogy mely kompetenciák állnak a Silver vagy Gold learning lehetőséggel, tekintse meg a legújabb [kompetenciák lapot](https://partner.microsoft.com/membership/competencies). 
+> Ha többet szeretne megtudni arról, hogy mely kompetenciák kínálnak Silver vagy Gold Learning lehetőséget, tekintse meg a legújabb [kompetenciák oldalát.](https://partner.microsoft.com/membership/competencies) 
 
-Egy adott Silver kompetencia tanulási lehetőségének minősítéséhez és beléptetéséhez tekintse át a kompetencia ezüst-követelményeit, és győződjön meg róla, hogy azok megfelelnek a követelményeknek. Ezután kövesse az alábbi lépéseket:
+Egy adott silver kompetencia Tanulási lehetőségének minősítése és regisztrálása érdekében tekintse át a kompetencia ezüst követelményeit, és győződjön meg arról, hogy megfelel a feltételeknek. Ezután kövesse az alábbi lépéseket:
 
-- Véglegesítse a tanulási program teljesítményére vonatkozó útmutatóban ismertetett **teljesítménnyel kapcsolatos követelményeket** . Ezek az irányelvek a Learning- [erőforrások webhelyén](https://partner.microsoft.com/marketing/learning-resources#/)érhetők el.
+- Véglegesítés **a** Tanulási program teljesítményével kapcsolatos irányelvek című dokumentumban ismertetett teljesítménykövetelmények szerint. Ezek az irányelvek a [Learning-erőforrások webhelyen érhetők el.](https://partner.microsoft.com/marketing/learning-resources#/)
 
-- A **Microsoft Certified Trainer (MCT) követelményeinek** teljesítése
+- A Microsoft Certified Trainer **(MCT) követelményeinek való megfelelés**
 
-- A **vizsga követelményeinek** teljesítése
+- A vizsga **követelményeinek való megfelelés**
 
-- Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard), majd válassza az **MPN** lehetőséget a bal oldali navigációs menüben, majd a **tagsági ajánlatok** menüpontot. Ezután kövesse az alábbi [lépéseket](mpn-get-action-pack.md) az ezüst kompetencia szintjére való előfizetéshez. Ez a cikk a [kompetenciás díj kifizetésére](mpn-pay-fee-silver-gold-competency.md) is hasznos lehet.
+- Jelentkezzen be a Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard)majd válassza az **MPN** lehetőséget a bal oldali navigációs menüben, majd válassza a **Tagsági ajánlatok lehetőséget.** Ezután kövesse az alábbi [lépéseket a](mpn-get-action-pack.md) Silver kompetenciaszintre való előfizetéshez. A [kompetenciadíj kifizetését is](mpn-pay-fee-silver-gold-competency.md) hasznosnak bizonyulhatja ez a cikk.
 
-## <a name="enroll-with-a-gold-competency-learning-option"></a>Regisztrálás Gold kompetencia-tanulási lehetőséggel
+## <a name="enroll-with-a-gold-competency-learning-option"></a>Regisztráció gold kompetencia-kompetencia esetén – Tanulási lehetőség
 
-Ahhoz, hogy regisztrálni lehessen a Gold kompetencia learning lehetőséggel, meg kell győződnie arról, hogy megfelel az adott kompetenciának az arany szintű tanulási lehetőségek követelményeinek.
+Mielőtt regisztrálhat a gold kompetencia tanulási lehetőséggel, meg kell győződni arról, hogy megfelel az adott kompetencia arany szintű tanulási lehetőséggel kapcsolatos követelményeinek.
 
-A beléptetéshez (vagy a megújításához) a Gold kompetencia learning-lehetőség különböző követelményekkel rendelkezik, mint a beléptetés a Learning Action Pack vagy az Silver kompetencia learning-megoldásban. Ahhoz, hogy megfeleljen a Gold kompetencia-tanulási lehetőség követelményeinek, meg kell felelnie ennek a kompetenciának az arany szintű tanulási KPI követelményeinek. Ha még nem teljesítette a KPI-ket vagy bármely egyéb követelményt, regisztrálnia kell a tanulási Action Pack vagy a Silver kapcsolóval a teljesített követelmények szintjétől függően, ha tanulási partnernek szeretne lenni.
+Az arany kompetencia tanulási lehetőségének regisztrálása (vagy megújítása) eltérő követelményekkel rendelkezik, mint a Learning Action Pack vagy silver kompetencia tanulási lehetőségének regisztrálása. Az arany kompetencia tanulási lehetőség követelményeinek való megfeleléshez a kompetencia arany szintű tanulási KPI-követelményeinek is meg kell felelnie. Ha nem teljesülnek a KPI-k vagy egyéb követelmények, akkor a követelmények szintjétől függően regisztrálnia kell a Learning Action Pack vagy a Silver lehetőségre, ha tanulási partnerré szeretne válni.
 
 > [!NOTE]
-> Lehet, hogy már regisztrálva van egy új kompetenciában, és már elvégezte az ehhez a kompetenciához tartozó Silver-learning tanulási lehetőségek követelményeit. Ha ezt követően szeretné elérni az arany szintű tanulási lehetőséget az adott kompetenciához, akkor továbbra is meg kell felelnie ennek a kompetenciának az arany szintű KPI-k és egyéb, arany szintű követelményeinek. Az arany szintű követelmények teljesülése után kihasználhatja az MPN-ajánlat előnyeit [– Silver-to-Gold kedvezményt](mpn-pay-fee-silver-gold-competency.md#apply-upgrade-discount-when-moving-from-silver-to-gold)is igénybe vehet.
+> Előfordulhat, hogy már regisztrált egy új kompetenciabe, és már megfelelt a kompetencia silver-learning lehetőség követelményeinek. Ha ezután szeretné elérni az arany szintű tanulási lehetőséget az adott kompetencia számára, akkor is teljesítenie kell a kompetencia aranyszintű KPI-it és egyéb, arany szintű követelményeit. Ha az aranyszintű követelmények teljesülnek, kihasználhatja az [MPN-ajánlat előnyeit– az ezüst-aranyra való frissítés kedvezményét.](mpn-pay-fee-silver-gold-competency.md#apply-upgrade-discount-when-moving-from-silver-to-gold)
 
-## <a name="frequently-asked-questions-about-learning-partner-enrollment"></a>Gyakori kérdések a Learning partner beléptetéséről
+## <a name="frequently-asked-questions-about-learning-partner-enrollment"></a>Gyakori kérdések a learning partnerregisztrálásról
 
-### <a name="q-do-i-need-to-submit-a-business-application-plan-in-partner-center-to-enroll-in-a-learning-option"></a>K. Be kell-e hajtani egy üzleti alkalmazási csomagot a partner Centerben, hogy beiratkozik egy tanulási lehetőségre?
+### <a name="q-do-i-need-to-submit-a-business-application-plan-in-partner-center-to-enroll-in-a-learning-option"></a>K. Be kell küldenem egy üzletialkalmazás-Partnerközpont a tanulási lehetőségbe való regisztrációhoz?
 
-Nem. A partner Centerben nem szükséges egy üzleti alkalmazási csomag a kompetenciák eléréséhez a tanulási lehetőségen keresztül. A beléptetés első évében meg kell felelnie a tanulási KPI-nek.
+Nem. Ebben Partnerközpont tanulási lehetőséggel nem szükséges üzletialkalmazás-csomag a kompetencia megszerzéséhez. Meg kell felelnie a regisztráció első évének tanulási KPI-iinek.
 
-### <a name="q-if-i-am-a-net-new-partner-and-decide-to-buy-courseware-trainings-or-certifications-before-applying-for-the-learning-option-will-the-kpis-be-recognized-by-partner-center-automatically"></a>K: ha én vagyok a net-New partner, és úgy dönt, hogy a tanulási lehetőség alkalmazása előtt megvásárolja a tananyagot, a képzést vagy a minősítéseket, a partner Center automatikusan felismeri a KPI-ket?
+### <a name="q-if-i-am-a-net-new-partner-and-decide-to-buy-courseware-trainings-or-certifications-before-applying-for-the-learning-option-will-the-kpis-be-recognized-by-partner-center-automatically"></a>K: Ha új partner vagyok, és úgy döntök, hogy kurzusokat, képzéseket vagy tanúsítványokat vásárolok a tanulási lehetőségre való jelentkezés előtt, a kpI-ket automatikusan felismerik a Partnerközpont?
 
-Igen, a KPI-ket fel kell ismerni a partner Centerben.
+Igen, a KPI-eket a következő Partnerközpont.
 
-### <a name="q-where-should-i-go-in-case-there-is-a-discrepancy-between-kpis-in-partner-center-under-the-learning-option-and-my-kpi-dashboard"></a>K. Hová kell mennem abban az esetben, ha eltérés van a partneri KPI-k között a tanulási lehetőség és a saját KPI irányítópultja között?
+### <a name="q-where-should-i-go-in-case-there-is-a-discrepancy-between-kpis-in-partner-center-under-the-learning-option-and-my-kpi-dashboard"></a>K. Hová mehetek arra az esetre, ha eltérés van a fő teljesítménymutatók között a Partnerközpont a tanulási lehetőség és a KPI-irányítópultom között?
 
-Forduljon a [partneri Front támogatási szolgálatához](https://partner.microsoft.com/support). A KPI-k nyomon követéséhez meg kell adnia a következő adatokat (a KPI-irányítópultról):
+Lépjen kapcsolatba [a Partner Frontline támogatási szolgálatával.](https://partner.microsoft.com/support) A KPI-k nyomon követéséhez meg kell adnia a következő adatokat (a KPI-irányítópulton):
 
 - Month (hónap)
 - Year
-- OMLP típusa
+- TIPP típusa
 - Vásárlási egység
 - Számla #
 - KPI-érték
-- Bevételi érték
+- Bevétel értéke
 
-A KPI-jelentések havonta egyszer frissülnek a hónap közepén. A tanulási program megújítására vonatkozó jogosultság mérése az elmúlt 12 hónap során elért teljesítménymutatók alapján, az évfordulós dátum alapján. Például a 2020. január 15-től kezdődően a KPI-adatmennyiség a 2019 – december 2019-ig jelenik meg. Ha a számla a 2020. januári dátummal lett ellátva, a megfelelő KPI-k a 2019. február 15-én lesznek láthatók. **A rendelés megerősítése és a partneri jelentések nem lesznek elfogadva.** Csak a tényleges számlák lesznek elfogadva.
+A KPI-jelentések havonta egyszer frissülnek a hónap közepén. A Learning Program megújítási jogosultságát az előző 12 hónap teljesítménytevékenysége során elért KPI-k alapján mérjük az évforduló dátuma alapján. Például 2020. január 15-től kezdve a KPI-adatok a 2019. január és 2019. december között időszakra vonatkozóan jelennek meg. Ha a számla 2020. januári dátummal lett volna kiszámlázva, a megfelelő KPI-k 2019. február 15-től láthatók lesznek. **A rendelési visszaigazolások és a partnerjelentések nem lesznek elfogadva.** Csak a tényleges számlák lesznek elfogadva.
 
-### <a name="q-does-a-one-day-training-equate-to-one-kpi"></a>K. Az egynapos képzések egyetlen KPI-vel egyenlőek?
+### <a name="q-does-a-one-day-training-equate-to-one-kpi"></a>K. Az egynapos betanítás egy KPI-nek megfelelő?
 
-A KPI-vel való találkozás nem a képzés időtartamára vonatkozik. Ha többet szeretne megtudni a KPI-k méréséről, tekintse meg a [learning partner beléptetési útmutatójának](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/)teljesítményre vonatkozó példáit.
+A KPI-k nem hatnak a betanítás időtartamára. A KPI-k mérésével kapcsolatos további információkért tekintse meg a tanulási partnerek regisztrálási útmutatójának teljesítmény [példáit.](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/)
 
-### <a name="q-why-dont-i-appear-as-a-microsoft-learning-partner-in-the-learning-partner-directory"></a>K. Miért nem jelenik meg Microsoft Learning-partnerként a Learning partneri címtárban?
+### <a name="q-why-dont-i-appear-as-a-microsoft-learning-partner-in-the-learning-partner-directory"></a>K. Miért nem jelenik meg partnerként Microsoft Learning a Learning Partner címtárban?
 
-Előfordulhat, hogy fel kell vennie az [oktatási partneri címtárba](/learn/certifications/partners). A webhelyhez a Learning partner címtára lapon hivatkozhat.
+Előfordulhat, hogy fel kell adnunk a [Learning Partner könyvtárba.](/learn/certifications/partners) Ezután hivatkozhat a webhelyére a Learning Partner címtároldaláról.
 
-Ez egy manuális folyamat, amely havonta egyszer, a harmadik hét során lesz elküldve. Az ezt követő frissítést a következő hónap első hetének végére fogja látni. A helyzet megoldásához forduljon a [partner Front támogatási szolgálatához](https://partner.microsoft.com/support). Készüljön fel a következő adatok megadására:
+Ez egy manuális folyamat, amely havonta csak egyszer, a harmadik héten lesz elküldve. A következő frissítés a következő hónap első hetének végéig látható lesz. A probléma megoldásához lépjen kapcsolatba a [Partner Frontline támogatási szolgálatával.](https://partner.microsoft.com/support) Készüljön fel a következő részletekre:
 
-- A címtárban megjelenítendő név
+- A könyvtárban megjelenő név
 
 - A társított ország
 
-- A társított, Microsoft témájú Kezdőlap URL-címe
+- A társított, Microsoft-teatikával kapcsolatos kezdőlap URL-címe
 
    > [!NOTE]
-   > Az URL-címnek a partner tulajdonában lévő webhelynek kell lennie egy Microsoft kezdőlapján. A Microsoft-specifikus oldalon a következőket is meg kell adni:
-   > - Csak **a "partner X" szó**
-   > - Nem jeleníti meg a **versenytársakat**
-   > - **Tulajdonos:** "partner X"
+   > Az URL-címnek egy microsoftos kezdőlapot is el kell látnia egy partner tulajdonában lévő webhelyre. A Microsoft-specifikus oldalnak a következő feltételeknek is meg kell jelennie:
+   > - Csak **"Partner X" legyen**
+   > - Nem **mutatnak versenytársakat**
+   > - A **"Partner** X" tulajdona
 
 ## <a name="next-steps"></a>Következő lépések
 
-[További](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/) információ a tanulási lehetőségek beléptetéséről
+[További információ a](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/) tanulási lehetőségek regisztrációról

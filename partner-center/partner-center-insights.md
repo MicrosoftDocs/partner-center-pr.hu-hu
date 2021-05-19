@@ -1,6 +1,6 @@
 ---
-title: Partneri központ – áttekintés
-description: Ismerje meg ezt a partneri központ egyesített jelentéskészítési irányítópultját. Ismerje meg, hogyan végezheti el a KPI-ket az értékesítéshez és üzembe helyezéshez, az ügyfelek fejlesztéséhez és egyebekhez.
+title: Partnerközpont Insights
+description: Fedezze fel ezt Partnerközpont jelentéskészítési irányítópultot. Tekintse meg, hogyan működik az értékesítéssel és üzembe helyezéssel, az ügyfélfejlesztéssel és egyéb szolgáltatásokkal kapcsolatos KPI-kben.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,93 +9,88 @@ ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 05/26/2020
-ms.openlocfilehash: ba8389ff613b47b17b87a6769674e33948fdc37d
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 6661fb013b25e55785dac9156e5f3561f5b50c97
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086583"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151015"
 ---
-# <a name="partner-center-insights---a-dashboard-that-shows-how-a-microsoft-commercial-partner-is-doing"></a>Partner Center-elemzések – egy irányítópult, amely bemutatja, hogyan történik a Microsoft kereskedelmi partnere
+# <a name="partner-center-insights---a-dashboard-that-shows-how-a-microsoft-commercial-partner-is-doing"></a>Partnerközpont Insights – egy irányítópult, amely bemutatja, hogyan működik egy Microsoft kereskedelmi partner
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Fiókadminisztrátor
-- Executive Report Viewer
-- Jelentés megjelenítője
+**Megfelelő szerepkörök:** Globális rendszergazdai | Fiók-rendszergazdai | Vezetői jelentésmegjelenítő | Jelentésmegjelenítő
 
 ## <a name="introduction"></a>Bevezetés
 
-Az áttekintési irányítópult a Microsoft kereskedelmi partnereinek a Microsoft Partner Network-(MPN-) programban regisztrált partnereinek egyesített jelentési irányítópultja. Az áttekintések irányítópultja a főbb teljesítménymutatók (KPI) 360 fokos áttekintését biztosítja a felhőalapú termékek, például az Office, az Azure, a Dynamics és a licencelési modellek (például a CSP és az EA) között. Számos KPI-jelentést tesz elérhetővé, amelyek segíthetnek az adatvezérelt döntések meghozatalában a szervezet számára. 
+Az Insights irányítópult egy egységes jelentéskészítési irányítópult a Partnerközpont microsoftos kereskedelmi partnerek számára, akik regisztrálva vannak a Microsoft Partner Network (MPN) programban. Az Insights irányítópult 360 fokos áttekintést nyújt a fő teljesítménymutatókról (KPI) a felhőalapú termékekben, például az Office-ban, az Azure-ban, a Dynamicsben és a licencelési modellekben, például a CSP-ben és az EA-ban. KpI-jelentések gazdag készletét teszi elérhetővé, amelyek segítségével adatvezérelt döntéseket hozhat a szervezet számára. 
 
-## <a name="role-based-access-control-to-the-insights-dashboard"></a>Szerepköralapú hozzáférés-vezérlés a bepillantást az irányítópultra
+## <a name="role-based-access-control-to-the-insights-dashboard"></a>Szerepköralapú hozzáférés-vezérlés az Insights-irányítópulthoz
 
-A partner Centerben két új szerepkör van kialakítva, kifejezetten az információhoz való hozzáféréshez: a **jelentéskészítő** és a **Executive Report Viewer**. A vezetői jelentés megjelenítője szerepkör felhasználói hozzáférhetnek az összes jelentéskészítési adatkészlethez, míg a jelentés-megjelenítőben lévő felhasználók nem férhetnek hozzá a bizalmas adatkészletekhez, például a bevételekhez és az ügyfél/alkalmazottak személyes adatokhoz. 
+A jelentés két új szerepkört Partnerközpont kifejezetten az  Elemzések elérésére terveztek: a Jelentésmegjelenítőt és a Vezetői **jelentésmegjelenítőt.** A Vezetői jelentésmegjelenítő szerepkörben a felhasználók az összes jelentéskészítési adatkészlethez hozzáférhetnek, míg a Jelentésmegjelenítő szerepkör felhasználói nem férhetnek hozzá a bizalmas adatkészlethez, például a bevételhez és az ügyfél/alkalmazott személyes adataihoz. 
 
-A globális rendszergazda vagy a fiók rendszergazdája hozzárendelheti a felhasználókat ezekhez a szerepkörökhöz, és a teljes vállalathoz vagy egy adott MPN-helyhez hozzá lehet rendelni.  
+A globális rendszergazda vagy a fiók rendszergazdája hozzárendelheti ezeket a szerepköröket a felhasználókhoz, és a teljes vállalathoz vagy egy adott MPN-helyhez vannak hozzárendelve.  
 
 >[!Note] 
->Azok a felhasználók, akik január 20-án, a 2020-as és az MPN-rendszergazdák voltak, automatikusan hozzáadódnak a vállalati szintű jelentéskészítő szerepkörhöz. A jelentéseket jelentés-megjelenítőként érhetik el anélkül, hogy a globális rendszergazda vagy a fiók rendszergazdája nem igényel explicit műveletet. Ha szükséges, a globális rendszergazdák vagy a fiók rendszergazdája felülbírálhatja ezeket a hozzárendeléseket. 
+>Azok a felhasználók, akik 2020. január 20-án MPN-rendszergazdák voltak, automatikusan bekerültek a vállalati szintű jelentésmegjelenítői szerepkörbe. A jelentéseket a globális rendszergazda vagy a fiók-rendszergazda kifejezett beavatkozása nélkül is elérhetik jelentésmegjelenítőként. A globális rendszergazdák vagy a fiók rendszergazdái szükség esetén felülbírálhatják ezeket a hozzárendeléseket. 
 
 ## <a name="reports-available"></a>Elérhető jelentések
 
-Az alábbi jelentések az áttekintések irányítópultjának részeként érhetők el.
+Az alábbi jelentések az Insights irányítópult részeként érhetők el.
 
-**Áttekintés**: az áttekintő jelentés a különféle KPI-k, például az ügyfelek száma, az aktív előfizetések száma, az Azure-beli használati bevétel, az aktív licencek stb. pillanatkép-nézetét jeleníti meg.
+**Áttekintés:** Az Áttekintés jelentés pillanatkép-nézetben mutatja be a különböző fontos KPI-ket, például az ügyfelek számát, az aktív előfizetések számát, az Azure Consumption Revenue-t, az aktív licenceket stb.
 
-**Ügyfél**: az ügyfél-jelentés az ügyfelek körét, például az ügyfelek beszerzési adatait, az aktív ügyfeleket stb.
+**Ügyfél:** Az Ügyféljelentés elemzéseket készít az ügyfelekről, például ügyfélszerzési adatokat, aktív ügyfeleket stb.
 
-**Termék-** előfizetések: az előfizetések jelentés a felhőalapú előfizetések (például a O365, az Azure, a Dynamics stb.) beszerzési és használati elemzéseit mutatja be.
+**Termék – Előfizetések:** Az Előfizetések jelentés a felhőalapú előfizetések beszerzési és használati elemzését mutatja be (például O365, Azure, Dynamics stb.)
 
-**Termék-licencek**: a licencek irányítópultja a licenc-alapú felhőalapú termékek, például a O365, a Dynamics, a Power bi stb. licenc-elemzési szolgáltatásait mutatja be.
+**Termék – Licencek:** A Licencek irányítópult licencelemzést biztosít olyan licencalapú felhőalapú termékekhez, mint az O365, a Dynamics, Power BI stb.
 
-**Termék – Azure-használat**: az Azure-használati jelentés az ügyfelek Azure-előfizetéséhez kapcsolódó mérőszámokat jelenít meg, beleértve az Azure-beli felhasználás bevételét és a mérési kategóriák alapján történő használatot.
+**Termék – Azure-használat:** Az Azure használati jelentése az ügyfelek Azure-előfizetéséhez kapcsolódó metrikákat mutatja be, beleértve az Azure-használati bevételt és a fogyasztásmérők kategóriái szerint meghatározott használatot.
 
-**Kompetenciák**: a kompetenciák jelentés mérőszámokat jelenít meg az aktív, minősített és veszélyeztetett kompetenciákkal kapcsolatban.
+**Kompetenciák:** A Kompetenciák jelentés az Aktív, a Minősített és a Veszélyeztetett kompetencia metrikait mutatja be.
 
-**Előnyök**: az előnyökről szóló jelentés az elemzést nyújtja a partneri előnyökkel kapcsolatban, amelyet a keresett és felhasznált
+**Előnyök:** Az előnyökről szóló jelentés elemzéseket biztosít a megszerzett és a felhasznált partneri előnyökről.
 
-## <a name="navigating-the-insights-reports"></a>Navigálás az áttekintési jelentésekben
+## <a name="navigating-the-insights-reports"></a>Navigálás az Insights-jelentésekben
 
-**Dátumtartomány-szűrők**: az egyes lapok jobb felső sarkában található dátumtartomány-kijelölést is megtalálhatja. Az áttekintő oldal diagramjainak kimenete testreszabható úgy, hogy kijelöl egy dátumtartományt az elmúlt 3, 6 vagy 12 hónap alapján, vagy egy egyéni dátumtartományt választ. A dátumtartomány alapértelmezett kiválasztása 12 hónap. 
+**Dátumtartomány-szűrők:** Az egyes oldalak jobb felső sarkában talál egy dátumtartomány-kijelölést. Az áttekintő oldalgráfok kimenete az elmúlt 3, 6 vagy 12 hónap alapján egy dátumtartomány kiválasztásával vagy egy egyéni dátumtartomány kiválasztásával szabható testre. Az alapértelmezett dátumtartomány kiválasztása 12 hónap. 
 
-:::image type="content" source="images/pci/intro1.png" alt-text="Bevezetési Térkép":::
+:::image type="content" source="images/pci/intro1.png" alt-text="Bevezetési térkép":::
 
-**Visszajelzés gomb**: az összes betekintési jelentés minden diagramja/vezérlése egy visszajelzési gombbal van beépítve, amely lehetővé teszi a példányok visszajelzésének megadását egy jelentési szolgáltatásban. 
+**Visszajelzés gomb:** Az összes Insights-jelentés minden diagramja/vezérlőjéhez be van építve egy visszajelzési gomb, amely lehetővé teszi a példányok visszajelzését egy jelentési funkcióval kapcsolatban. 
 
  
-**Oldal szintű szűrők**: az Áttekintés, az előnyök és a kompetenciák jelentéseinek kivételével az összes betekintési jelentés lehetővé teszi az oldal szintű szűrők alkalmazását. 
+**Oldalszintű szűrők:** Az Áttekintés, Előnyök és Kompetenciák jelentések kivételével minden Insights-jelentés lehetővé teszi oldalszintű szűrők alkalmazását. 
 
-- A kiválasztott szűrők a lapon lévő összes diagramra és metrikára érvényesek lesznek, beleértve az összefoglalás szakaszt is. A szűrő elem akkor lesz elérhető, ha az adott szűrési feltételben lévő bármilyen adattal rendelkezik. 
+- A kiválasztott szűrők az egy oldalon található összes diagramra és metrikára vonatkoznak, beleértve az összefoglaló szakaszt is. A szűrőelem akkor lesz elérhető, ha a szűrési feltételekben vannak adatok. 
 
-- Az egyes szűrőlisták alapértelmezett kiválasztása az **összes**. Ha például nem jelölt ki egy terméket a Products (termékek) szűrőben, a rendszer alapértelmezés szerint az összes terméket kijelöli.
+- Az összes szűrőlista alapértelmezett **kijelölése.** Ha például nem választott ki egy adott terméket a termékek szűrőben, az alapértelmezett kijelölés az összes termék lesz.
 
-- A kiválasztott szűrők a lap tetején jelennek meg. 
+- A kiválasztott szűrők az oldal tetején jelennek meg. 
 
-:::image type="content" source="images/pci/filters.png" alt-text="Részleges képernyőkép az alkalmazott szűrők sávjáról a termékek, az ügyfelek piacai, a partnerek és az értékesítési csatornák szűrési kiválasztásával.":::
+:::image type="content" source="images/pci/filters.png" alt-text="Részleges képernyőkép az Alkalmazott szűrők sávról a Termékek, az Ügyfélpiacok, a Partnerek forrásmegjelölése és az Értékesítés csatornák szűrőkijelölésével.":::
 
-### <a name="filters-definitions"></a>Szűrők definíciói:
+### <a name="filters-definitions"></a>Szűrődefiníciók:
 
-- Termékek: a szervezet által eladott/kezelt Microsoft Cloud termékek listája, például O365, Azure, D365, EMS, Power BI stb.
-- Ügyfelek piacai: az ügyfél-országok listája
-- Partneri hozzárendelések: a társítás típusa az ügyfelek előfizetésével együtt, például a digitális Partner of Record (DPOR), a delegált rendszergazdai jogosultság (DAP) és a partner rendszergazdai hivatkozása (PAL). 
-- Partneri helyszínek: az összes szervezet MPN-helyeinek listája.
-- Értékesítési csatornák: minden értékesítési csatorna/díjszabás, amelyen keresztül vásárolja meg/kiépíti a termékeket és szolgáltatásokat, azaz CSP, EA, CSP indirekt, Direct, Advisor, Open, Others
-- Felhasználói szegmensek: az ügyfél-szegmensek listája a partnerek ügyfélkörén keresztül.
+- Termékek: A szervezet által értékesített/kezelt Microsoft Cloud-termékek listája, például O365, Azure, D365, EMS, Power BI stb.
+- Ügyfélpiacok: Az ügyfél országok listája
+- Partneri forrásmegjelölések: Az Ön társítástípusa az ügyfelek előfizetésével, például a Digitális rekordpartner (DPOR), a Meghatalmazott rendszergazdai jogosultság (DAP) és a Partneradminisztrátor hivatkozás (PAL). 
+- Partnerhelyek: A szervezet összes MPN-helyének listája.
+- Értékesítési csatornák: Minden értékesítési csatorna/díjszabás, amelyen keresztül termékeket és szolgáltatásokat vásárol/létesít, nevezetesen CSP, EA, KÖZVETETT CSP, Közvetlen, Advisor, Open stb.
+- Ügyfélszegmensek: A partnerek ügyfélkörében lévő ügyfélszegmensek listája.
 
-## <a name="read-about-each-of-the-dashboards-and-reports"></a>További információ az irányítópultokról és jelentésekről:
+## <a name="read-about-each-of-the-dashboards-and-reports"></a>Olvassa el az egyes irányítópultokat és jelentéseket:
 
-- [A partner Center-információk áttekintése – irányítópult](pci-overview-report.md)
+- [Partnerközpont Insights – Áttekintő irányítópult](pci-overview-report.md)
 
-- [Partneri központ – áttekintés – ügyfél-irányítópult](pci-customer-report.md)
+- [Partnerközpont Insights – Ügyfél irányítópultja](pci-customer-report.md)
 
-- [Partneri központ – bejelentések – előfizetések jelentése](pci-product-subscriptions-report.md)
+- [Partnerközpont Insights – Előfizetések jelentés](pci-product-subscriptions-report.md)
 
-- [A partneri központ által észlelt jelentések – licencek jelentése](pci-product-licenses-report.md)
+- [Partnerközpont Insights – Licencjelentés](pci-product-licenses-report.md)
 
-- [Partner Center-adatok – Azure-használati jelentés](pci-azure-usage-report.md)
+- [Partnerközpont Insights – Azure használati jelentés](pci-azure-usage-report.md)
 
-- [A partner Center-ismeretek – kompetenciák jelentése](pci-competencies-report.md)
+- [Partnerközpont Insights – Kompetenciák jelentés](pci-competencies-report.md)
 
-- [A partner Center által nyújtott ismeretek – előnyök jelentés](pci-benefits-report.md)
+- [Partnerközpont Insights – Előnyök jelentés](pci-benefits-report.md)

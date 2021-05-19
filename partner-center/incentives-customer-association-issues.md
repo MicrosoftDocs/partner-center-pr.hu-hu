@@ -1,6 +1,6 @@
 ---
 title: Ösztönzők – Ügyfelek társításával kapcsolatos problémák
-description: Ismerje meg, hogy miként lehet olyan problémákat kezelni, amelyek felmerülhetnek a Recording (CPOR) Customer-társítások használatakor.
+description: Ismerje meg, hogyan lehet az igényelt rekordpartner (CPOR) ügyféltársításokkal kapcsolatos problémákat megoldásra.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
@@ -8,86 +8,82 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/11/2020
-ms.openlocfilehash: 30639725c0a852046251e83c3791f56d788931c1
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 8f1c087911e6dd7e58182c99e2b97b7a6b2246d8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179211"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152171"
 ---
-# <a name="issues-with-claimed-partner-of-record-cpor-customer-associations"></a>A Recording (CPOR) ügyfél-társítások által jelentett problémák
+# <a name="issues-with-claimed-partner-of-record-cpor-customer-associations"></a>Az igényelt rekordpartner (CPOR) ügyféltársításokkal kapcsolatos problémák
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Számlázási rendszergazdai | Globális rendszergazdai | Ösztönzők rendszergazdája
 
-- Számlázási adminisztrátor
-- Globális rendszergazda
-- Ösztönzők rendszergazdája
+Az alábbi tartalom segít megoldani az ügyfelek társításával kapcsolatos problémákat.
 
-Az alábbi tartalom segítséget nyújt az ügyfelekkel való együttműködés során felmerülő problémák megoldásában.
+## <a name="domain-tenant-mismatch"></a>Tartomány-bérlő eltérése
 
-## <a name="domain-tenant-mismatch"></a>Tartomány – bérlői eltérés
+A Igényelt rekordpartner (CPOR) társítási igény folyamatában meg kell adnia az ügyfél bérlőazonosítóját és altartományát. Ha olyan hibaüzenetet kap, amely szerint azok nem egyeznek, forduljon az ügyfélhez, és ellenőrizze, hogy a megfelelő adatok adatokat tartalmaznak-e.
 
-A Record (CPOR) Association jogcím-adatforgalom igénylése során a rendszer kérni fogja, hogy adja meg az ügyfél bérlői AZONOSÍTÓját és altartományát. Ha hibaüzenetet kap arról, hogy nem egyeznek, forduljon az ügyfélhez, és győződjön meg arról, hogy a megfelelő adatokkal rendelkezik.
+## <a name="subscription-errors-in-the-cpor-association-claim-flow"></a>Előfizetési hibák a CPOR társításigénylési folyamatában
 
-## <a name="subscription-errors-in-the-cpor-association-claim-flow"></a>Előfizetési hibák a CPOR társítási jogcím folyamatában
+Előfordulhat, hogy a CPOR társításigénylési folyamatában meg kell adnia egy előfizetést egy termékhez, amelyért a Business Applications (Dynamics 365) keresztül próbál igényelni. Azért kérjük az előfizetést, mert dinamikusan ellenőrizzük, hogy a termék és az előfizetés a igényelt bérlőhöz tartozik-e. Azt is ellenőrizzük, hogy az előfizetés aktív/türelmi állapotú-e.
 
-A CPOR-társítási jogcím folyamata során előfordulhat, hogy meg kell adnia egy előfizetést egy olyan termékhez, amelyet a Business Applications (Dynamics 365) használatával szeretne igényelni. Azt javasoljuk, hogy az előfizetést, mert dinamikusan ellenőrzi, hogy a termék és az előfizetés az igényelt bérlőhöz tartozik-e. Azt is ellenőrzi, hogy az előfizetés aktív/türelmi állapotban van-e.
-
-Ha a hibaüzenetet kapja, több okból is előfordulhat:
+Ha hibaüzenetet kap, annak több oka is lehet:
 
 - A kiválasztott termék nem létezik az ügyfél bérlőjén
-- A megadott előfizetés nem a Dynamics számára
+- A megadott előfizetés nem a Dynamicshoz való
 - A megadott előfizetés egy CSP-hez tartozik
-- Az ügyfél még nem aktiválta/kiépítte az adott előfizetéshez tartozó termékeket
+- Az ügyfél még nem aktiválta/kiépítte az előfizetéshez szükséges termékeket
 - Az előfizetést már igényelték
 - A megadott azonosító nem előfizetés-azonosító
 
-Ha kérdése van az előfizetés pontosságával kapcsolatban, használja az ügyfelet, és győződjön meg arról, hogy az előfizetés helyes, és hogy a megfelelő bérlői azonosítót használta.
+Ha kérdése van az előfizetés pontosságával kapcsolatban, az ügyféllel együtt ellenőrizze, hogy az előfizetés helyes-e, és hogy a megfelelő bérlőazonosítót használja-e.
 
-Ha ez az útvonal nem oldotta meg a problémát, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
+Ha ez az útvonal nem oldotta meg a problémát, forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives)
 
-## <a name="when-subscriptions-will-be-available-to-claim"></a>Ha előfizetések lesznek elérhetők a jogcím számára
+## <a name="when-subscriptions-will-be-available-to-claim"></a>Mikor lesznek igényelhető előfizetések
 
-Az előfizetés igénylése esetén hibaüzenetet kap, ha még nincs kiépítve az előfizetés. Az ügyfélnek több lépésből kell kiválasztania ahhoz, hogy az előfizetés elérhetővé váljon a CPOR platform számára, és elérhetővé tegye azt a jogcím számára. Ha az előfizetés igénylése során hibaüzenetet kap, forduljon az ügyfélhez, és győződjön meg arról, hogy a szolgáltatás ki lett építve, és hogy a megfelelő előfizetés helyes. Ha már megtette ezt az útvonalat, forduljon az [ügyfélszolgálathoz](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives).
+Ha előfizetést igényel, hibaüzenetet kap, ha az előfizetés még nem lett kiépítve. Az ügyfélnek számos lépést kell tennie ahhoz, hogy az előfizetés elérhetővé váljon, hogy a CPOR platform felvegye azt, és elérhetővé tegye azt igénylésre. Ha hibaüzenetet kap, amikor megpróbál igényelni egy előfizetést, lépjen kapcsolatba az ügyféllel, és ellenőrizze, hogy az előfizetés ki lett-e építve, és helyes-e az előfizetés, amit igényel. Ha már átveszi ezt az útvonalat, forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives)
 
 ## <a name="which-activity-do-i-choose"></a>Melyik tevékenységet válasszam?
 
-A CPOR-igénylési platform lehetővé teszi a Business Applications és Microsoft 365 megoldási területekhez kapcsolódó CPOR-társítási jogcímeket. Az egyes megoldási területeken érvényes tevékenységek a következők. A leírások alapján válassza ki a megfelelő tevékenységet, hogy a későbbiekben ne kelljen visszaigényelni. A helytelen tevékenység igénylése kimaradt jogosultságokat és ösztönző bevételeket eredményezhet.
+A CPOR igényigény-igénylési platform lehetővé teszi a CPOR-társítási igényeket Business Applications és Microsoft 365 megoldási területekhez. Az egyes megoldási területekre vonatkozó tevékenységek alább olvashatók. Válassza ki a megfelelő tevékenységet a leírások alapján, hogy a jövőben ne kelljen visszaigényelnünk őket. A helytelen tevékenységgel való igénylés kihagyott jogosultságot és ösztönző bevételeket eredményezhet.
 
 
-| Megoldásterület | Tevékenység | Alkalmazható a következőre: |
+| Megoldásterület | Tevékenység | A(3) |
 | ------ | ----------- | ----------- |
-| Üzleti alkalmazások      | Vásárlás előtti   | Válassza ki, hogy befolyásolta-e egy jogosult termék megvásárlását, és az értékesítés előtti ösztönzőket szeretné alkalmazni. Ez a lehetőség csak akkor érvényes, ha az ügyfél mennyiségi licencszerződésen vagy a web-Directen keresztül vásárolta meg ezeket a termékeket. |
-|    |  Használat  | Válassza ki, hogy elvégezte-e a megfelelő számítási feladatok elfogadását és használatát, és alkalmazni kívánja a használati ösztönzőket. Ez a lehetőség csak akkor érvényes, ha az ügyfél mennyiségi licencszerződésen vagy a web-Directen keresztül vásárolta meg ezeket a termékeket. |
-|    | Bevételi társítás   | Akkor válassza ki, ha befolyásolta a jogosult termék kiválasztását üzleti befolyásként. Ez a lehetőség csak bevételi társításra szolgál, nem pedig ösztönző kifizetésekre. Ez a lehetőség csak akkor érvényes, ha az ügyfél mennyiségi licencszerződésen vagy a web-Directen keresztül vásárolta meg ezeket a termékeket.   |
-| Microsoft 365   | Használat   | Válassza ki, hogy elvégezte-e a megfelelő számítási feladatok elfogadását és használatát, és alkalmazni kívánja a használati ösztönzőket. |
+| Üzleti alkalmazások      | Előzetes értékesítések   | Válassza ki, hogy befolyásolta-e egy jogosult termék megvásárlását, és szeretne-e értékesítés előtti ösztönzőket alkalmazni. Ez a lehetőség csak akkor alkalmazható, ha az ügyfél mennyiségi licencszerződésen vagy Web Directen keresztül vásárolta meg ezeket a termékeket. |
+|    |  Használat  | Válassza ki, hogy ön-e a jogosult számítási feladatok bevezetésének és használatának ösztönzése, és szeretne-e használati ösztönzőket alkalmazni. Ez a lehetőség csak akkor alkalmazható, ha az ügyfél mennyiségi licencszerződésen vagy Web Directen keresztül vásárolta meg ezeket a termékeket. |
+|    | Bevétel társítása   | Válassza ki, hogy befolyásolta-e egy jogosult termék üzleti befolyásolóként való kiválasztását. Ez a lehetőség csak a bevétel társítására, az ösztönző kifizetésekre nem. Ez a lehetőség csak akkor alkalmazható, ha az ügyfél mennyiségi licencszerződésen vagy Web Directen keresztül vásárolta meg ezeket a termékeket.   |
+| Microsoft 365   | Használat   | Válassza ki, hogy ön-e a jogosult számítási feladatok bevezetésének és használatának ösztönzése, és szeretne-e használati ösztönzőket alkalmazni. |
 
 ## <a name="which-mpn-do-i-choose"></a>Melyik MPN-t válasszam?
 
-A CPOR társítási jogcím folyamata során a rendszer arra kéri, hogy válasszon egy vállalat MPN-t, amelyet a végfelhasználónál igényelt munkához kell társítani. Előfordulhat, hogy a vállalata számos MPNs rendelkezik, amelyek közül néhányat ösztönző programokban lehet regisztrálni, és mások is társítva vannak, például a FRP-FastTrack. Az CPOR-hozzárendelési jogcím folyamata azonosítja, hogy mely MPNs legyenek regisztrálva egy ösztönző programban, de nem fogja tudni, hogy az MPN egy adott partner típusú. Fontos, hogy kiválassza a megfelelő MPN-t, hogy a jövőben ne kelljen visszaigényelni. A helytelen MPN-jogcím kimaradó jogosultságot és ösztönző bevételt eredményezhet.
+A CPOR társításigénylési folyamatában ki kell választania egy olyan vállalati MPN-t, amely ahhoz a munkához lesz társítva, amit a végfelhasználónál igényel. A vállalat számos MPN-sel is lehet, amelyek némelyike regisztrálható ösztönzőprogramokban, mások pedig egy partnertípushoz, például az FRP FastTrackhez vannak társítva. A CPOR társításigénylési folyamat azonosítja, hogy mely MPN-eket regisztrálta egy ösztönzőprogramban, de nem fogja meghatározni, hogy az adott partnertípusú MPN-e. Fontos, hogy a megfelelő MPN-t válassza, hogy a jövőben ne kelljen visszaigényelnünk. A helytelen MPN-ekkel való igénylés kihagyott jogosultságot és ösztönző bevételeket eredményezhet.
 
-Ha nem tudja, melyik MPN-t használja, forduljon a globális rendszergazdához.
+Ha nem tudja, hogy melyik MPN-t használja, lépjen kapcsolatba a globális rendszergazdával.
 
-Ha a használni kívánt MPN-t nem regisztrálja, akkor az [ösztönzők áttekintése lapon](https://partner.microsoft.com/dashboard/incentives/enrollment/summary) kezelheti ezt a lehetőséget (bejelentkezés szükséges).
+Ha a használni kívánt MPN nincs regisztrálva, azt az Ösztönzők áttekintése lapon kezelheti [(bejelentkezés](https://partner.microsoft.com/dashboard/incentives/enrollment/summary) szükséges).
 
-## <a name="choosing-a-product-vs-entering-a-subscription"></a>Termék kiválasztása és előfizetés beléptetése
+## <a name="choosing-a-product-vs-entering-a-subscription"></a>Termék kiválasztása vagy előfizetésbe való belépés
 
-Egy Dynamics-termék igénylése és jóváhagyása esetén a partner maga is megtekintheti az előfizetés AZONOSÍTÓját a CPOR társítási jogcímben. Ha ezt az előfizetést igényli, aktív vagy türelmi állapotban van, de előfordulhat, hogy az előfizetés véget ér, és az új előfizetéseket külön CPOR-társítási jogcímben kell igényelni.
+Dynamics-termék igénylése és jóváhagyása után a partner megtekintheti az előfizetés azonosítóját a CPOR társítási igényében. A igényléskor az előfizetés aktív vagy türelmi állapotú, de előfordulhat, hogy az előfizetés lejár, és az új előfizetéseket egy külön CPOR-társítási igényben kell igényelni.
 
 ## <a name="competing-claims"></a>Versengő jogcímek
 
-Ha olyan CPOR-társítási jogcímet hoz létre egy ügyfélhez és azokhoz a termékhez, amely már egy másik partnerhez van társítva, akkor a jogcímek választottbírósági eljárással fognak járni:
+Ha CPOR-társítási igényt hoz létre egy ügyfél és egy másik partnerhez már társított terméke(i) számára, az igény egyeztetési eljáráson fog átesni:
 
 1. Miután létrehoz egy új ügyféltársítást, a Microsoft a pontosság érdekében ellenőrzi a társítás adatait és a végrehajtás igazolását.
 
-2. Ha Ön és egy másik partner ugyanazt az ügyfelet és terméket/munkaterhelést igényli, a Microsoft áttekinti a partnereknek a végrehajtási dokumentációt, hogy meghatározzák, melyik partnert kell jóváhagyni.
+2. Ha Ön és egy másik partner ugyanazt az ügyfelet és terméket/számítási feladatot követeli meg, a Microsoft áttekinti az egyes partnerek végrehajtási dokumentációját, hogy eldöntse, melyik partnert hagyja jóvá.
 
-3. Mindkét partnertől további információkat is kérhetnek, ami késleltetheti a társulási kérelem feldolgozását.
+3. További információk kérhetőek mindkét partnertől, ami a társítási kérelem feldolgozásának késését okozhatja.
 
-4. Az CPOR-társítási jogcímet továbbra is öt munkanapon belül felülvizsgáljuk, bár az állapotuk hosszabb ideig is megmarad a _felülvizsgálat alatt_ . Ez a forgatókönyv akkor fordulhat elő, ha a Microsoft együttműködik a terméket/munkaterhelést jelenleg birtokló partnerrel. Ha ez a helyzet, értesítést kap a jogcím megjegyzések szakaszában. 
+4. A CPOR társítási igényét öt munkanapon belül továbbra is  felülvizsgáljuk, bár az állapota hosszabb ideig Felülvizsgálat alatt maradhat. Ez a forgatókönyv akkor fordulhat elő, ha a Microsoft azzal a partnerrel működik együtt, aki jelenleg a termék/számítási feladat tulajdonában van. Ebben az esetben az igény megjegyzések szakaszában értesítést kap. 
 
 >[!IMPORTANT]
->Ha további információra van szükségünk a CPOR-hozzárendelési igazolás végrehajtásának (PoE) ellenőrzéséhez, a CPOR-társítási jogcím megjegyzései szakaszban fogunk kapcsolatba lépni Önnel.
+>Ha további információra van szükségünk a CPOR társítási igazolásának (PoE) ellenőrzéséhez, a CPOR társítási igényekkel kapcsolatos megjegyzésekkel kapcsolatos szakaszán keresztül kapcsolatba lépünk Önnel.
 
 ## <a name="next-steps"></a>Következő lépések
 

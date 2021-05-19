@@ -1,72 +1,67 @@
 ---
-title: Microsoft Partner Network tagsági előnyök
+title: Microsoft Partner Network előnyök
 ms.topic: article
 ms.date: 10/15/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg az Microsoft Partner Network (MPN) előnyeit, például a Microsoft Action Pack, a kompetenciákat vagy a program lehetőségeit, hogy a piacra lépjen, és eladja a megoldásait.
+description: Megismeri az Microsoft Partner Network (MPN) előnyeit, például a Microsoft Action Pack, kompetenciákat vagy programbeállításokat a piacra juttatáshoz és a megoldások értékesítéshez.
 author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 4e7ff0ae1f5ca99cee25e3fa8740212d0b697f70
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 6edd8d18610947f61f88af8c3e3563508244586e
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106132944"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152222"
 ---
-# <a name="partner-with-microsoft-and-discover-membership-benefits"></a>Partner a Microsofttal és a tagság előnyeinek felderítése
+# <a name="partner-with-microsoft-and-discover-membership-benefits"></a>Partneri partner a Microsofttal és a tagsági előnyök felderítése
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partner rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- MPN-partner rendszergazdája
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
+A Microsoft Partner Network (MPN) az iparágon belül a legszélesebb termékskálát és programbeállításokat kínálja, hogy megkülönböztesse vállalkozását, piacra menjen és értékesítsen megoldásokat. Csatlakozzon költség nélkül, majd válassza ki, hogyan fektessen be a microsoftos action packbe, kezdőcsomagba vagy kompetenciacsomagba.
 
-A Microsoft Partner Network (MPN) a termékek széles választékát kínálja az iparágban, és a program lehetőségei alapján megkülönböztetheti vállalkozását, megtekintheti a piacot, és értékesítheti megoldásait. Vegyen részt díjmentesen, majd válassza ki, hogyan fektessen be a partnerségbe egy Microsoft Action Pack, Starter Kit vagy kompetencia használatával.
-
-Egy Microsoft partneri programhoz való csatlakozáskor egy globális közösség részévé válik, amely összekapcsolja Önt az ügyfelek elcsodálkozása és az üzleti növekedés elősegítése érdekében szükséges kapcsolatokkal, információkkal, eszközökkel, erőforrásokkal és programokkal. Az üzleti célok eléréséhez vegyen részt a programban olyan szinten, amely megfelel az egyedi igényeknek, és fejleszti a kapcsolatot az USA-val és más partnerekkel a hálózaton. 
+Amikor csatlakozik egy Microsoft-partnerprogramhoz, egy olyan globális közösség tagja lesz, amely az ügyfelek meghűvéséhez és az üzleti növekedéshez szükséges kapcsolatokhoz, elemzésekhez, eszközökhez, erőforrásokhoz és programokhoz köti. Az üzleti célok elérésekor vegye részt a programban az egyedi igényeinek megfelelő szinten, hogy további előnyöket érhessenek el, és fejlessze kapcsolatát velünk és a hálózat más partnereivel. 
 
 ## <a name="join-the-microsoft-partner-network"></a>Csatlakozás a Microsoft Partner Network
 
-A Microsoft Partner Networkhoz való csatlakozáshoz nyissa meg az MPN webhely [ **tagság** lapját](https://partner.microsoft.com/membership) , és válassza a **regisztráció** vagy **Csatlakozás most** lehetőséget.
+A csatlakozáshoz Microsoft Partner Network MPN webhelyén [](https://partner.microsoft.com/membership) a Tagság oldalra, és válassza a **Regisztráció** vagy csatlakozás **lehetőséget.**
 
 ## <a name="action-pack"></a>Action Pack
 
-A Action Pack szoftvereket, támogatást és előnyöket kínál azon vállalkozások számára, akik szeretnék megkezdeni, felépíteni és növelni a Microsoft-gyakorlatot a Felhőbeli első, mobil-első világban.
+Action Pack szoftvereket, támogatást és előnyöket kínál az olyan vállalatok számára, amelyek a felhőt eleinte, a mobileszközök világában szeretnék megkezdeni, felépíteni és felépíteni a Microsoft-eljárásukat.
 
-Tekintse át az alábbi erőforrásokat, ha többet szeretne megtudni a Action Pack:
+Tekintse át az alábbi forrásokat, ha többet szeretne megtudni a Action Pack:
 
-- [A Felhőbeli üzleti környezet áthelyezése a Microsoft Action Pack](https://partner.microsoft.com/membership/action-pack)
+- [Felhőalapú üzleti tevékenységének áthelyezése a Microsoft Action Pack](https://partner.microsoft.com/membership/action-pack)
 
-- [A Action Pack beolvasása](mpn-get-action-pack.md)
+- [A Action Pack](mpn-get-action-pack.md)
   
     >[!IMPORTANT]
-    >A Action Pack-előfizetését a partner Centerben kezelheti. Ha a vállalat még nem helyezte át a partner központba a partneri tagsági központban, olvassa el [a felkészülés a partneri](prepare-pmc-pc-migration.md) központba című témakört.  
+    >A saját előfizetését Action Pack kezelheti a Partnerközpont. Ha vállalata még nem helyezték át a Partnerközpont a Partner Membership Center, olvassa el a következőt: [Prepare for your move to Partnerközpont](prepare-pmc-pc-migration.md)  
 
 - [A saját MPN-ajánlatok megújítása](renew-mpn-offers.md)
 
 ## <a name="competencies"></a>Kompetenciák
 
-Bemutatjuk a bevált szakértelmét, hogy minőségi megoldásokat nyújtson egy speciális üzleti üzletágban. A Microsoft kompetenciák úgy vannak kialakítva, hogy megfeleljenek a jelenlegi ügyfelek igényeinek, és felismerhetőek legyenek a leendő felhasználók számára. Csatlakozzon a Microsoft-partnerek elit szintjéhez, és álljon ki a társaitól.
+Igazolják a minőségi megoldások speciális üzleti területen való biztosítása terén szerzett bevált szakértelmét. A Microsoft-kompetenciák úgy vannak kialakítva, hogy kielégítik az aktuális ügyfelek igényeit, és felismerhetők a leendőek számára. Csatlakozzon a Microsoft-partnerek elit rétegéhez, és csatlakozzon a társaihoz.
 
-A kompetenciákkal kapcsolatos további információkért tekintse meg az alábbi forrásokat:
+A kompetenciákról az alábbi forrásokban olvashat bővebben:
 
-- [Kompetenciával rendelkező partnerek](https://partner.microsoft.com/membership/competencies)
+- [Kompetenciapartnerek](https://partner.microsoft.com/membership/competencies)
 
-## <a name="microsoft-partner-network-benefits-and-requirements"></a>Előnyök és követelmények Microsoft Partner Network
+## <a name="microsoft-partner-network-benefits-and-requirements"></a>Microsoft Partner Network előnyök és követelmények
 
-A Microsoft Partner Networkhoz való csatlakozáskor alapvető előnyöket kap, amelyek segítségével időt és pénzt takaríthat meg a képességek megerősítése, az ügyfelek jobb kiszolgálása és a teljes üzleti potenciál eléréséhez szükséges kapcsolatok létrehozásával. 
+Amikor csatlakozik a Microsoft Partner Network, olyan alapvető előnyöket kap, amelyek segítségével időt és pénzt takaríthat meg, miközben tovább erősíti képességeit, jobban kiszolgálja az ügyfeleket, és kapcsolatokat épít ki a teljes üzleti lehetőségek eléréséhez. 
 
-A hálózati előnyökkel és követelményekkel kapcsolatos további információkért tekintse meg az alábbi forrásokat:
+Tekintse át az alábbi forrásokat a hálózati előnyökről és követelményekről:
 
 - [Alapvető előnyök](https://partner.microsoft.com/membership/core-benefits#simple-tab-content-1)
-- [Az MPN előnyeinek kezelése a partner Centerben](manage-your-partner-network-benefits.md)
+- [Az MPN-előnyök kezelése a Partnerközpont](manage-your-partner-network-benefits.md)
 - [Alapvető követelmények](https://partner.microsoft.com/membership/core-benefits#simple-tab-content-2)
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Növelje a Microsoft partner businesst](grow-your-business.md)
-- [MPN-webhely](https://partner.microsoft.com/commercial).
+- [A Microsoft-partner vállalkozásának növekedésével](grow-your-business.md)
+- [MPN-webhely.](https://partner.microsoft.com/commercial)

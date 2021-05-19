@@ -1,77 +1,74 @@
 ---
-title: Bérlők hozzáadása a partner Center-fiókhoz
+title: Bérlők hozzáadása a Partnerközpont fiókjához
 ms.topic: article
 ms.date: 01/11/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan adhat hozzá, összevonhat vagy kezelhet több Azure AD-bérlőt a partner Center-fiókban, és megtudhatja, miért érdemes ezt megtenni.
+description: Megtudhatja, hogyan adhat hozzá, konszolidálhat vagy kezelhet több Azure AD-bérlőt Partnerközpont-fiókjában, és megtudhatja, miért érdemes ezt megtennie.
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 2f3094489f65b7164b4a55804047f9a4ab5f11cb
-ms.sourcegitcommit: 79d2f00c352db61252e523f45abf93fe2a2742a5
+ms.openlocfilehash: caea2002b5edc2958c0af316762408e309bcf14a
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "102124805"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151202"
 ---
-# <a name="add-and-manage-multiple-tenants-in-your-partner-center-account"></a>Több bérlő hozzáadása és kezelése a partner Center-fiókban
+# <a name="add-and-manage-multiple-tenants-in-your-partner-center-account"></a>Több bérlő hozzáadása és kezelése a Partnerközpont fiókjában
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Fiók adminisztrátora
 
-- Globális rendszergazda
-- Fiókadminisztrátor
+Ez a cikk azt ismerteti, hogyan konszolidálhat több Azure Active Directory -bérlőt (Azure AD-bérlőt) a vállalat számára, majd hogyan adjuk hozzá és felügyelhetjük őket a Partnerközpont fiókjában. Ennek számos oka lehet. Például:
 
-Ez a cikk azt ismerteti, hogyan lehet összevonni több Azure Active Directory (Azure AD) bérlőt a vállalat számára, majd a partner Center-fiókban felvenni és felügyelni azokat. Ennek számos oka van. Például:
+- Tegyük fel, hogy vállalata, a Contoso megvásárolt egy másik vállalatot, a Fabrikamot. Azt szeretné, hogy a két vállalat elkülönülő maradjon, de azt szeretné, hogy az új alkalmazottak használni tudják a Partnerközpont. Ebben az esetben az új vállalat Azure AD-bérlőjéhez társítja a globális partnerfiókját (PGA). Ez a társítás lehetővé teszi, hogy a felhasználók mindkét vállalatnál a Partnerközpont.
 
-- Tegyük fel, hogy vállalata, a contoso, megszerezte a fabrikam egy másik vállalatát. Azt szeretné, hogy a két vállalat külön maradjon, de azt szeretné, hogy az új alkalmazottak használni tudják a partner centert. Ebben az esetben az új vállalati Azure AD-bérlőt a partner globális fiókjával (PGA) társítja. Ez a társítás lehetővé teszi, hogy mindkét vállalat felhasználói működjenek a partner Centerben.
+- Ha a vállalkozását több bérlővel (például *contoso.com,* *contoso.uk* és *contoso.in)* futtatja, több-bérlős rendszerekkel csoportosíthatja őket ugyanabban a számítógépfiókban.
 
-- Ha több Bérlővel is futtatja vállalkozását (például *contoso.com*, *contoso.uk* és *contoso.in*), a bérlős segítségével csoportosíthatja azokat ugyanazon a számítógép-fiókban.
+- Ha az összeolvadással és felvásárlással kapcsolatos irányelvek megkövetelik, hogy  mindkét vállalat bérlőivel dolgozzon, akkor a constoso.com és fabrikam.com *bérlőket* is használnia kell.
 
-- Ha az összeolvadások és a beszerzések irányelvei megkövetelik, hogy mindkét vállalat bérlői is működjenek, akkor a *constoso.com* és a *fabrikam.com* bérlőket is használni fogja.
+- Bármely bérlő felhasználóinak képesnek kell lennie a következőre:
+    * Hozzáférés Partnerközpont képzéshez, digitális letöltéshez vagy Microsoft Certified Professional (MCP) társításhoz.
+    * Olyan szerepkörhöz Partnerközpont, mint Microsoft Partner Network (MPN) rendszergazda vagy ösztönzők rendszergazdája.
 
-- A bérlők felhasználói számára a következőket kell tudnia:
-    * A Microsoft Certified Professional (MCP) társításának elérése a partner centerrel.
-    * Társítsa a partner Center-szerepköröket, például a Microsoft Partner Network (MPN) rendszergazdai vagy ösztönző rendszergazdát.
+## <a name="add-an-azure-ad-tenant-to-your-account"></a>Azure AD-bérlő hozzáadása a fiókhoz
 
-## <a name="add-an-azure-ad-tenant-to-your-account"></a>Azure AD-bérlő hozzáadása a fiókjához
+1. Jelentkezzen be globális rendszergazdaként a [Microsoft Partnerközpont.](https://partner.microsoft.com/dashboard)
 
-1. Jelentkezzen be globális rendszergazdaként a [Microsoft partner Centerbe](https://partner.microsoft.com/dashboard).
-
-1. A jobb felső sarokban válassza a **Beállítások** lehetőséget, válassza a **Fiókbeállítások** lehetőséget, majd válassza a **bérlők** lehetőséget.
+1. A jobb felső sarokban válassza a **Beállítások,** a **Fiókbeállítások** lehetőséget, majd a **Bérlők lehetőséget.**
  
-   :::image type="content" source="images/merge-accounts/multitenantNew.png" alt-text="Képernyőkép az Azure AD-profil ablaktábla hozzárendelés gombjáról."::: 
+   :::image type="content" source="images/merge-accounts/multitenantNew.png" alt-text="Képernyőkép az Azure AD-profil panel Társítás gombjáról."::: 
 
-1. Válassza a **hozzárendelés** lehetőséget, majd adja meg a hozzárendelni kívánt bérlőt.
+1. Válassza **a Társítás** lehetőséget, majd jelölje ki a társítani kívánt bérlőt.
 
-1. A parancssorban jelentkezzen be globális rendszergazdaként a hozzárendelni kívánt bérlőre, majd válassza a **Confirm (megerősítés**) lehetőséget. 
+1. Amikor a rendszer kéri, jelentkezzen be globális rendszergazdaként a társítani kívánt bérlőbe, majd válassza a **Megerősítés lehetőséget.** 
 
-   :::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="Képernyőkép az új Azure AD-társítás megerősítése panel megerősítés gombjáról."::: 
+   :::image type="content" source="images/merge-accounts/multitenantNew2.png" alt-text="Képernyőkép a Confirm (Megerősítés) gombról a Confirm new Azure AD association (Új Azure AD társítás megerősítése) panelen."::: 
 
-   Miután megerősítette a társítást, megjelenik az **összes beállított** üzenet. Az újonnan hozzáadott bérlő megtekintéséhez válassza a **Visszatérés a bérlői felügyeletbe** lehetőséget. 
+   Miután megerősítette a társítást, megjelenik a **Minden beállítva** üzenet. Az újonnan hozzáadott bérlő megtekintéséhez válassza a Visszatérés a **bérlőkezeléshez lehetőséget.** 
  
 >[!NOTE]
->Ha már társítva van egy másik partner Center-fiókkal, akkor nem lehet bérlőt társítani a fiókhoz.
+>Nem társíthat bérlőt egy fiókhoz, ha már társítva van egy másik Partnerközpont fiókkal.
 
 
 ## <a name="remove-a-tenant-from-your-account"></a>Bérlő eltávolítása a fiókból
  
-1. Jelentkezzen be globális rendszergazdaként a [Microsoft partner Centerbe](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be globális rendszergazdaként a [Microsoft Partnerközpont.](https://partner.microsoft.com/dashboard)
 
-1. A jobb felső sarokban válassza a **Beállítások** ikont, majd válassza a **Fiókbeállítások** lehetőséget.
+1. A jobb felső sarokban válassza a **Beállítások ikont,** majd a **Fiókbeállítások lehetőséget.**
 
-1. A bal oldali ablaktáblán válassza a **bérlők** lehetőséget. Az **Azure ad-bérlők kezelése** területen válassza a **partner** lapot.
+1. A bal oldali panelen válassza a **Bérlők lehetőséget.** Az **Azure AD-bérlők kezelése alatt** válassza a **Partner** lapot.
  
-1. Válassza az **Eltávolítás** lehetőséget azon bérlő mellett, amelynek társítását el szeretné távolítani.
+1. Válassza **az Eltávolítás** lehetőséget azon bérlő mellett, amelynek társítását el szeretné távolítani.
 
-   :::image type="content" source="images/disassociate.png" alt-text="Képernyőkép az aktuális bérlői társításokról és azok eltávolítási kapcsolatairól.":::
+   :::image type="content" source="images/disassociate.png" alt-text="Képernyőkép az aktuális bérlői társításról és azok Eltávolítás hivatkozásairól.":::
 
-   Ahogy az előző képernyőképen is látható, az **eltávolítási** hivatkozások minden társított bérlőhöz engedélyezve vannak, kivéve az elsődleges bérlőt és a bérlőt, amelyre jelenleg bejelentkezett. 
+   Ahogy az előző képernyőképen  is látható, a Hivatkozások eltávolítása lehetőség engedélyezve van az összes társított bérlőn, kivéve az elsődleges bérlőt és azt a bérlőt, amelybe jelenleg be van jelentkezve. 
 
    > [!NOTE]   
-   > Ha eltávolít egy bérlőt, az adott bérlő felhasználói már nem férnek hozzá a partner Center-fiókhoz, és az Eltávolítás hatással lehet a kompetenciára. 
+   > Bérlő eltávolításakor a bérlő felhasználói már nem férhetnek hozzá a Partnerközpont-fiókhoz, és az eltávolítás hatással lehet a kompetenciákra. 
 
 ## <a name="next-steps"></a>Következő lépések
 

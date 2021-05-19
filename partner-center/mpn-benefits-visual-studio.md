@@ -1,53 +1,50 @@
 ---
-title: Visual Studio-előnyök – MPN
+title: Visual Studio előnyei – MPN
 ms.topic: article
 ms.date: 02/14/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: A Visual Studio-előfizetésekkel kapcsolatos Microsoft Partner Network (MPN) előnyeinek megismerése
+description: A Microsoft Partner Network (MPN) előnyeinek Visual Studio-előfizetések
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b64c15fd978ecf8d81d66a7814db74c6fd78824a
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 24419f07084cab4899f1dac81140b5fea5f25b6b
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101758900"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152497"
 ---
-# <a name="explore-the-visual-studio-benefits-area-in-partner-center"></a>Ismerkedés a Visual Studio előnyeivel a partner Centerben
+# <a name="explore-the-visual-studio-benefits-area-in-partner-center"></a>Ismerkedés a Visual Studio előnyei terület Partnerközpont
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- MPN-partner rendszergazdája
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partner rendszergazdája
 
 ## <a name="overview"></a>Áttekintés
 
-Ez a cikk a partner centeren belüli partnerek számára elérhető Visual Studio-előnyöket ismerteti. Azt is megtudhatja, hogyan rendelhet hozzá felhasználókat és aktiválhatja a Visual Studio-előfizetéseket. Ha meg szeretné tekinteni az összes olyan Visual Studio-előfizetést, amelyre jogosult az aktív beléptetési ajánlat részeként, lépjen az  [MPN>előnyök menüpontra, majd válassza ki a Visual Studio](https://partner.microsoft.com/dashboard/mpn/membership/benefits/visualstudio) fület a partner Center menüjében. Minden Visual Studio-előfizetés felhasználónként licenccel rendelkezik, és érvényesnek kell lennie az aktiváláshoz. Azt is megtekintheti, hogy milyen típusú terméket kínál a termék, a juttatás típusaként adja meg az Ön által kiépített ajánlat típusát, a juttatás típusát (függetlenül attól, hogy az alap vagy növekményes) és az adott kedvezmény lejárati dátuma.
+Ez a cikk a Visual Studio partnerek számára elérhető előnyöket ismerteti a Partnerközpont. Azt is megtudhatja, hogyan rendelhet hozzá felhasználókat, és hogyan aktiválhatja Visual Studio-előfizetések. Az aktív regisztrációs ajánlat részeként Visual Studio összes olyan előfizetést meg kell tudni tudni, amelyekre jogosult, az  [MPN>Benefits (MPN](https://partner.microsoft.com/dashboard/mpn/membership/benefits/visualstudio)>-előnyök) lapon válassza a Visual Studio lapot a Partnerközpont menüben. Minden Visual Studio előfizetés felhasználónként licencelhető, az érvényességhez hozzá kell rendelni és aktiválni kell. Azt az ajánlattípust is láthatja, amely az Ön számára előnyös termék, a kedvezmény típusa, az kedvezmény típusa, a kedvezmény típusa (akár magból, akár növekményből származik), valamint az előny lejáratának dátuma.
 
-:::image type="content" source="images/benefits/mpn-visual-studio-1.png" alt-text="Elérhető a Visual Studio előnye." border="false":::
+:::image type="content" source="images/benefits/mpn-visual-studio-1.png" alt-text="Visual Studio az Ön számára elérhető előnyöket." border="false":::
 
-## <a name="manage-visual-studio-subscriptions"></a>Visual Studio-előfizetések kezelése
+## <a name="manage-visual-studio-subscriptions"></a>Előfizetések Visual Studio kezelése
 
-1. Válassza ki a Visual [studiót](https://partner.microsoft.com/dashboard/mpn/membership/benefits/visualstudio) az előnyök lapon a Visual Studio-előfizetések listájának megtekintéséhez.
+1. Válassza [Visual Studio](https://partner.microsoft.com/dashboard/mpn/membership/benefits/visualstudio) előfizetések listáját az Előnyök lapon a Visual Studio listájának.
 
-2. Keresse meg a használni kívánt előfizetést, majd a sor jobb szélén lévő lefelé mutató nyílra kattintva bontsa ki az előfizetés részleteit.
+2. Keresse meg a használni kívánt előfizetést, majd válassza a sor jobb távoli nyilát az előfizetés részleteinek kibontásához.
 
-3. A Visual Studio-előfizetés aktiválásához válasszon ki egy felhasználót a listából, majd válassza a felhasználó kiosztása lehetőséget. Válasszon ki egy felhasználót a vállalaton belül (beleértve az egyik vendég felhasználóját is), amely a Azure Active Directoryban létrehozott felhasználói bejegyzést tartalmaz
+3. Egy előfizetés Visual Studio válasszon ki egy felhasználót a listából, majd válassza a Felhasználó hozzárendelése lehetőséget. Válasszon ki egy felhasználót a vállalaton belül (beleértve az egyik vendégfelhasználót), aki rendelkezik a saját Azure Active Directory
 
    > [!IMPORTANT]
-   > Ha a hozzárendelni kívánt felhasználó nem szerepel a listában, [hozzáadhat új felhasználókat](create-user-accounts-and-set-permissions.md) a Fiókbeállítások közül.
+   > Ha a hozzárendelni kívánt felhasználó nem szerepel a listában, új [felhasználókat](create-user-accounts-and-set-permissions.md) adhat hozzá a Fiókbeállításokban.
 
-4. Ismételje meg ezt a folyamatot minden hozzárendelni kívánt előfizetésnél. A hozzárendelt felhasználó be tud jelentkezni a [Visual Studio-portálra](https://my.visualstudio.com/) , és kezelheti az előfizetést. Előfordulhat, hogy a [Visual Studio-előfizetői portálon](https://my.visualstudio.com/?wt.mc_id=o%7Emsft%7Edocs)a felhasználók hozzáadhatnak egy másik identitást is – az előfizetés aktiválásához használt identitás mellett. További információ [a Visual Studio-előfizetők identitásáról itt olvasható.](/visualstudio/subscriptions/vs-alternate-identity)
+4. Ismételje meg ezt a folyamatot minden hozzárendelni kívánt előfizetés esetén. A hozzárendelt felhasználó bejelentkezhet a [Visual Studio portálra,](https://my.visualstudio.com/) és kezelheti az előfizetést. A Visual Studio [portálon](https://my.visualstudio.com/?wt.mc_id=o%7Emsft%7Edocs)a felhasználók alternatív identitást is hozzáadhatnak az előfizetésük aktiválásához használt identitás mellett. További információt az [identitás-előfizetők Visual Studio itt olvashat.](/visualstudio/subscriptions/vs-alternate-identity)
 
    > [!Note]
-   > Előfordulhat, hogy a Visual Studio-előfizetések újbóli hozzárendelése az egyik előfizetőből egy másikba, ha az eredeti hozzárendelés időpontja óta 90 nap telt el. További információért olvassa el a **[Microsoft partner programok útmutatóját.](https://aka.ms/partner-benefits-use-guide)**
+   > Visual Studio előfizetések az eredeti hozzárendelés óta eltelt 90 nap után átvehetnek egy előfizetőt egy másikhoz. További információkért olvassa el a **[Microsoft Partnerprogramokkal kapcsolatos útmutatót.](https://aka.ms/partner-benefits-use-guide)**
 
 ## <a name="next-steps"></a>Következő lépések
 
-[A Microsoft Partner Networkban kínált Visual Studio-előfizetések](/visualstudio/subscriptions/program-mpn)
+[Visual Studio előfizetések a Microsoft Partner Network](/visualstudio/subscriptions/program-mpn)
 
 [Felhasználók hozzáadása és engedélyek hozzárendelése a felhasználókhoz](create-user-accounts-and-set-permissions.md)
 

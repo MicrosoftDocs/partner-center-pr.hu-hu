@@ -1,48 +1,46 @@
 ---
-title: A. csv fájl mezői több felhasználó importálásához egy ügyfél-fiókhoz
+title: A .csv-fájl mezői több felhasználó importálása egy ügyfélfiókhoz
 ms.topic: article
 ms.date: 08/01/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ha több felhasználót szeretne felvenni egy ügyfél-fiókba, hozzon létre egy vesszővel tagolt (. csv) fájlt a megfelelő mezőkkel.
+description: Ha több felhasználót szeretne hozzáadni egy ügyfélfiókhoz, hozzon létre egy vesszővel elválasztott értékfájlt (.csv) a megfelelő mezőkkel.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 8ba08d97f1d360eae5af1941ed36753addd24939
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 152daadde25a9325937797f7a3daa90dfb59a9b4
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441421"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150981"
 ---
-# <a name="add-multiple-users-to-a-customer-account-by-creating-a-csv-file"></a>Egy. csv-fájl létrehozásával több felhasználót is hozzáadhat egy felhasználói fiókhoz
+# <a name="add-multiple-users-to-a-customer-account-by-creating-a-csv-file"></a>Több felhasználó hozzáadása egy ügyfélfiókhoz egy .csv-fájl létrehozásával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazda
 
-- Globális rendszergazda
+Egyszerre több felhasználót is hozzáadhat egy ügyfél fiókjához úgy, hogy feltölt egy vesszővel elválasztott értékfájlformátumban (.csv) egy adatfájlt a Partnerközpont. Letölthet egy mintaadatfájlt a Partnerközpont majd saját használatra szerkesztheti, vagy létrehozhat egy új adatfájlt az alább definiált adatmodellel.
 
-Egyszerre több felhasználót is hozzáadhat egy ügyfél fiókjához, ha a vesszővel tagolt fájlformátumban (. csv) egy adatfájlt tölt fel a partner központba. Letölthet egy minta adatfájlt a partner központjából, és szerkesztheti a saját használatra, vagy létrehozhat egy új adatfájlt az alább meghatározott adatmodell használatával.
+## <a name="data-file-requirements"></a><a href="" id="creatingtheimportcsvfile"></a>Adatfájlokkal kapcsolatos követelmények
 
-## <a name="data-file-requirements"></a><a href="" id="creatingtheimportcsvfile"></a>Az adatfájlra vonatkozó követelmények
+Ha több felhasználót szeretne hozzáadni egy ügyfél fiókjához a tömeges feltöltési folyamattal, meg kell felelnie a következő követelményeknek:
 
-Ha több felhasználót szeretne hozzáadni egy ügyfél fiókjához a tömeges feltöltési folyamat használatával, a következő követelményeknek kell megfelelnie:
+- Globális rendszergazdai engedélyekkel kell rendelkeznie az ügyfélfiókhoz;
+- Minden felhasználónak egyedi e-mail-címmel kell rendelkezik, amely az ügyfél e-mail-tartománya(i)hoz van hozzáfűzve;
+- Egyszerre legfeljebb 100 rekordot tölthet fel. Ha több mint 100 felhasználót kell hozzáadnia, hozzon létre és töltsön fel további adatfájlokat.
+- Minden felhasználónak azonos földrajzi helyen kell **lennie.**
+- Csak az alább leírt adatokat adja meg. A felesleges adatok miatt a feltöltés sikertelen lesz.
 
-- Globális rendszergazdai engedélyekkel kell rendelkeznie az ügyfél fiókhoz;
-- Minden felhasználónak rendelkeznie kell egy egyedi e-mail-címmel, amely az ügyfél e-mail-tartományához van hozzáfűzve;
-- Egyszerre akár 100 rekordot is feltölthet. Ha több mint 100 felhasználót kell felvennie, hozzon létre és töltsön fel további adatfájlokat.
-- Minden felhasználónak ugyanabban a földrajzi **helyen** kell lennie.
-- Csak az alábbiakban ismertetett adattípusokat adja meg. A külső adatok miatt a feltöltés sikertelen lesz.
-
-Adja meg az adatfájl következő értékeit:
+Adja meg a következő adatokat az adatfájlban:
 
 | **Oszlop neve** | **Leírás**  | **Korlátozás**  |
 |:-------- |:------  |:----- |
-| Utónév  | Felhasználó vezetékneve (nem kötelező mező)  | 50 – karakteres korlát  |
-| Vezetéknév  | Felhasználó vezetékneve (nem kötelező mező)  | 50 – karakteres korlát  |
-| Megjelenített név    | A partner Centerben megjelenő név (kötelező mező)                            | 50 – karakteres korlát                         |
-| E-mail   | Felhasználó üzleti e-mail-címe az ügyfél cégnél (kötelező mező)           | Minden felhasználónak egyedi e-mail-címmel kell rendelkeznie |
-| Állapot frissítése   | Annak jelzésére szolgál, hogy az új felhasználói rekord létrehozása sikerült-e | \*\*Hagyja üresen\*\*                        |
+| Utónév  | Felhasználó vezetékneve (nem kötelező mező)  | 50 karakteres korlát  |
+| Vezetéknév  | Felhasználó vezetékneve (nem kötelező mező)  | 50 karakteres korlát  |
+| Megjelenített név    | A név megjelenik a Partnerközpont (kötelező mező)                            | 50 karakteres korlát                         |
+| E-mail   | A felhasználó vállalati e-mail-címe az ügyfél vállalatnál (kötelező mező)           | Minden felhasználónak egyedi e-mail-címmel kell |
+| Állapotfrissítés   | Annak jelzésére használatos, hogy az új felhasználói rekord sikeresen létrejött-e | \*\*Hagyja üresen\*\*                        |
 
 ## <a name="next-steps"></a>Következő lépések
 

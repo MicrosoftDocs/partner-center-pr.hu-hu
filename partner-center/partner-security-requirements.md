@@ -1,142 +1,140 @@
 ---
-title: Partneri biztonsági követelmények
+title: Partnerekre vonatkozó biztonsági követelmények
 ms.topic: article
 ms.date: 10/30/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A a többtényezős hitelesítés (MFA) engedélyezéséhez és a biztonságos alkalmazás modell-keretrendszerének elfogadásához szükséges partneri biztonsági követelményeket ismerteti.
+description: Bevezeti a partnerekre vonatkozó biztonsági követelményeket a többtényezős hitelesítés (MFA) engedélyezéséhez és a biztonságos alkalmazásmodell bevezetéséhez.
 author: vijvala
 ms.author: vijvala
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b7fa76999d2e071f80c0175a8dfcbc1afe527bfc
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 201ea34d30814974936da032805f1ee7dfa590be
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106087059"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110145847"
 ---
-# <a name="security-requirements-for-using-partner-center-or-partner-center-apis"></a>A partner Center vagy a partner Center API-k használatára vonatkozó biztonsági követelmények
+# <a name="security-requirements-for-using-partner-center-or-partner-center-apis"></a>Biztonsági követelmények a Partnerközpont vagy Partnerközpont API-k használatával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Minden Partnerközpont felhasználó
 
-- Minden partner Center-felhasználó
-
-Ez a cikk ismerteti az Advisors, a Vezérlőpult-szállítók és a felhőalapú megoldás-szolgáltatói programban részt vevő partnerek kötelező biztonsági követelményeit, valamint a hitelesítési lehetőségeket és az egyéb biztonsági szempontokat. Az adatvédelmi óvintézkedések és a biztonság a legfontosabb prioritások közé tartozik. Tudjuk, hogy a legjobb védelem a megelőzés, és hogy csak olyan erősek vagyunk, mint a leggyengébb kapcsolatunk. Ezért van szükségünk arra, hogy az ökoszisztémánk mindenki számára elérhető legyen, és biztosítsuk a megfelelő biztonsági védelem biztosítását.
+Ez a cikk ismerteti a Felhőszolgáltató-programban részt vevő tanácsadók, Vezérlőpult-szállítók és partnerek kötelező biztonsági követelményeit, valamint a hitelesítési lehetőségeket és egyéb biztonsági szempontokat. Az adatvédelmi védelem és a biztonság az egyik legfontosabb prioritásunk. Tudjuk, hogy a legjobb védelem a megelőzés, és hogy csak annyira vagyunk erősek, mint a leggyengébbek. Ezért van szükség arra, hogy az ökoszisztémánkban mindenki cselekedjen, és megfelelő biztonsági védelmi intézkedésekre legyen szükség.
 
 ## <a name="mandatory-security-requirements"></a>Kötelező biztonsági követelmények
 
-Azok a partnerek, akik nem alkalmazzák a kötelező biztonsági követelményeket, nem tudnak majd tranzakciót végezni a felhőalapú megoldás-szolgáltató programban, vagy a delegált rendszergazdai jogosultságokkal kezelhetik az ügyfelek bérlőit. Emellett a biztonsági követelményeket nem megvalósító partnerek is felhasználhatják a programban való részvételüket. A partneri biztonsági követelményekhez társított feltételek hozzá lettek adva a Microsoft partneri szerződéshez. Az Advisors-hez kapcsolódóan ugyanazok a szerződéses követelmények lesznek érvényben.
+Azok a partnerek, akik nem valósítják meg a kötelező biztonsági követelményeket, nem hajtanak végre tranzakciót a Felhőszolgáltató programban, és nem kezelhetik az ügyfélbérlőket delegált rendszergazdai jogosultságokkal. Emellett azok a partnerek, akik nem valósítják meg a biztonsági követelményeket, veszélynek lehetnek kitéve a programokban való részvételüknek. A partnerbiztonsági követelményekhez társított feltételek hozzá vannak adva a Microsoft Partnerszerződés. A tanácsadókhoz kapcsolódóan ugyanezek a szerződéses követelmények lesznek érvényesek.
 
-Az Ön és ügyfelei elleni védelem érdekében a partnereknek azonnal a következő műveleteket kell elvégezniük:  
+Az Ön és ügyfelei védelme érdekében a partnereknek azonnal el kell látnia a következő műveleteket:  
 
-1. **Engedélyezze a többtényezős hitelesítést (MFA) a partner bérlő összes felhasználói fiókjához**. Az MFA-t a partneri bérlő (k) összes felhasználói fiókján ki kell kényszeríteni. A felhasználókat az MFA-nak kell kiadnia, amikor bejelentkeznek a Microsoft kereskedelmi Cloud Services szolgáltatásba, vagy amikor a partner Centerben vagy API-n keresztül végeznek a felhőalapú megoldás-szolgáltatói programban.
+1. **Engedélyezze a többtényezős hitelesítést (MFA)** a partnerbérlő összes felhasználói fiókja esetében. Az MFA-t a partnerbérlő(k) összes felhasználói fiókján kényszerítnie kell. Az MFA-nak meg kell vitatni a felhasználókat, amikor bejelentkeznek a Microsoft kereskedelmi felhőszolgáltatásba, vagy amikor api-kon keresztül Felhőszolgáltató tranzakciót Partnerközpont keresztül.
 
-2. **Fogadja el a biztonságos alkalmazás modelljének keretrendszerét**. A partner Center API-kkal való integráció összes partnerének el kell fogadnia az alkalmazás-és a felhasználói hitelesítési modell alkalmazásaihoz szükséges [biztonságos Application Model keretrendszert](/partner-center/develop/enable-secure-app-model) .
+2. **A biztonságos alkalmazásmodell keretrendszerének elfogadása.** Az api-Partnerközpont integrált partnereknek be kell fogadniuk a biztonságos alkalmazásmodell [keretrendszert](/partner-center/develop/enable-secure-app-model) minden alkalmazáshoz és felhasználói hitelesítési modellhez.
 
     > [!IMPORTANT]
-    > Erősen ajánljuk, hogy a partnerek a biztonságos alkalmazás modellt implementálják a Microsoft API-val való integrációhoz, például Azure Resource Manager vagy Microsoft Graph, vagy ha az automatizálást, például a PowerShellt felhasználói hitelesítő adatok használatával használják, az MFA kikényszerített megszakadásának elkerülése érdekében.
+    > Határozottan javasoljuk, hogy a partnerek implementálják az biztonságos alkalmazásmodell-t a Microsoft API-val ( például Azure Resource Manager vagy Microsoft Graph) való integrációhoz, vagy ha az automatizálást( például a PowerShellt) felhasználói hitelesítő adatok használatával használják, hogy elkerülhető legyen az MFA kényszerítésében kimaradás.
 
-Ezek a biztonsági követelmények segítik az infrastruktúra védelmét és az ügyfelek adatainak védelmét az esetleges biztonsági kockázatokkal szemben, például a lopás vagy más csalás elleni incidensek azonosítása érdekében.  
+Ezek a biztonsági követelmények segítenek megvédeni az infrastruktúrát, és megvédeni az ügyfelek adatait a potenciális biztonsági kockázatoktól, például a lopások vagy más csalási incidensek azonosításától.  
 
-## <a name="implementing-multi-factor-authentication"></a>A többtényezős hitelesítés megvalósítása
+## <a name="implementing-multi-factor-authentication"></a>Többtényezős hitelesítés megvalósítása
 
-A partnerek biztonsági követelményeinek való megfelelés érdekében az MFA-t a partner bérlője minden felhasználói fiókjához be kell vezetnie és ki kell kényszeríteni. Ezt a következő módokon teheti meg:
+A partner biztonsági követelményeinek való megfeleléshez implementálja és kényszerítenie kell az MFA-t a partnerbérlő minden felhasználói fiókjához. Ezt a következő módokon lehet megtenni:
 
-- [Azure Active Directory (Azure ad) biztonsági Alapértelmezések](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)implementálása. További információk a [következő szakaszban](#security-defaults)olvashatók.
+- Implementálja [Azure Active Directory (Azure AD) alapértelmezett biztonsági beállítását.](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults) További információt a következő [szakaszban láthat.](#security-defaults)
 
-- Prémium szintű Azure Active Directory megvásárlása minden felhasználói fiókhoz. További információ: [Azure AD multi-Factor Authentication telepítésének megtervezése](/azure/active-directory/authentication/howto-mfa-getstarted).
+- Vásároljon prémium szintű Azure Active Directory felhasználói fiókokhoz. További információ: [Az Azure AD Multi-Factor Authentication üzembe helyezésének megterve.](/azure/active-directory/authentication/howto-mfa-getstarted)
 
-- Egy harmadik féltől származó megoldással kényszerítheti ki az MFA használatát a partner bérlő minden felhasználói fiókjához. Annak biztosítása érdekében, hogy a megoldás megadja a várt megoldást, tekintse meg [a biztonsági követelmények betartatásának módját](#how-the-requirements-are-enforced).
+- Egy külső megoldással kényszerítsen MFA-t a partnerbérlőben minden felhasználói fiókra. Annak érdekében, hogy a megoldás biztosítani tudja a várt megoldást, tekintse meg a biztonsági követelmények [kényszerítését.](#how-the-requirements-are-enforced)
 
 > [!NOTE]
-> Bár a többtényezős hitelesítés nem kötelező a szuverén felhő (USA kormánya és Németország) számára, kifejezetten ajánlott ezeket a biztonsági követelményeket alkalmazni.
+> Bár a többtényezős hitelesítés nem kötelező a szuverén felhőkhöz (az EGYESÜLT Államok kormányához és Németországhoz), erősen ajánlott ezeket a biztonsági követelményeket befogadni.
 
 ### <a name="security-defaults"></a>Alapértelmezett biztonsági szabályok
 
-Az egyik lehetőség, hogy a partnerek az MFA-követelmények megvalósítását is lehetővé teszik, az Azure AD biztonsági beállításainak engedélyezése. A biztonsági alapértékek alapszintű biztonsági szintet biztosítanak külön díj nélkül. Tekintse át, hogyan engedélyezheti az MFA-t a szervezete számára az Azure AD-vel, és az alábbi legfontosabb szempontokat a biztonsági beállítások engedélyezése előtt.
+Az MFA-követelmények megvalósításához a partnerek választhatják az egyik lehetőséget, hogy engedélyezik az alapértelmezett biztonsági beállításokat az Azure AD-ban. A biztonsági alapértelmezések alapszintű biztonságot nyújtanak többletköltség nélkül. Az alapértelmezett biztonsági beállítások engedélyezése előtt tekintse át, hogyan engedélyezheti az MFA-t a szervezet számára az Azure AD-val, valamint az alábbi főbb szempontokat.
 
-- Azoknak a partnereknek, akik már elfogadták az alapházirendeket, lépéseket kell tenniük a biztonsági alapbeállításokra való áttéréshez.
+- Az alapkonfiguráció-szabályzatokat befogadó partnereknek meg kell lépéseket kell elfogadnia a biztonsági alapértékre való áttérés érdekében.
 
-- A biztonsági alapértékek az előzetes verzióra vonatkozó alapszabályzatok általánosan elérhető cseréje. Miután egy partner engedélyezte a biztonsági beállításokat, többé nem fogja tudni engedélyezni az alapkonfiguráció-házirendeket.
+- A biztonsági alapértelmezések az előzetes verzió alapkonfiguráció-szabályzatának általánosan elérhető helyettesítői. Ha egy partner engedélyezi az alapértelmezett biztonsági beállításokat, nem fogja tudni engedélyezni az alapkonfiguráció-szabályzatokat.
 
-- A biztonsági beállításokkal minden házirend egyszerre lesz engedélyezve.
+- A biztonsági alapértelmezések esetén az összes szabályzat egyszerre lesz engedélyezve.
 
-- A [feltételes hozzáférést](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)használó partnereink esetében a [biztonsági beállítások nem lesznek elérhetők](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults).
+- A feltételes hozzáférést [használó partnerek esetén](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)a [biztonsági alapértelmezések nem lesznek elérhetők.](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults)
 
-- Jelenleg nem tudjuk letiltani a régi hitelesítést. Mivel azonban a feltört identitásokkal kapcsolatos legtöbb esemény a régi hitelesítést használó bejelentkezési kísérletből származik, a partnereknek ösztönözniük kell a régebbi protokolloktól való elmozdulást.
+- Jelenleg nem tiltjuk le az örökölt hitelesítést. Mivel azonban a sérült identitásokkal kapcsolatos legtöbb esemény az örökölt hitelesítést használó bejelentkezési kísérletből ad vissza, a partnereknek ajánlott elmozdulni ezekről a régebbi protokollokról.
 
-- Azure AD Connect szinkronizálási fiók ki van zárva a biztonsági alapértékek közül.
+- Azure AD Connect szinkronizálási fiók ki van zárva az alapértelmezett biztonsági beállításokból.
 
-Részletes információk: az [Azure ad-multi-Factor Authentication áttekintése a szervezet számára](/azure/active-directory/authentication/concept-mfa-get-started) , és [Mik azok a biztonsági beállítások?](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults).
+Részletes információ: [Overview of Azure AD Multi-Factor Authentication for your organization (Az Azure AD Multi-Factor Authentication](/azure/active-directory/authentication/concept-mfa-get-started) áttekintése a szervezet számára) és [What are security defaults?](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)(Mik az alapértelmezett biztonsági beállítások?).
 
 > [!NOTE]
-> Az Azure AD biztonsági Alapértelmezések az alapkonfiguráció-védelmi szabályzatok egyszerűsített fejlődése. Ha már engedélyezte az alapkonfiguráció-védelmi házirendeket, akkor erősen ajánlott a [biztonsági beállítások](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)engedélyezése.
+> Az Azure AD biztonsági alapértelmezései az alapkonfiguráció védelmi szabályzatok egyszerűsített fejlődését szolgálják. Ha már engedélyezte az alapkonfiguráció védelmi szabályzatokat, erősen ajánlott engedélyezni az alapértelmezett [biztonsági beállításokat.](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)
 
 ## <a name="implementation-considerations"></a>Implementálási szempontok
 
-Mivel ezek a követelmények a partner bérlő összes felhasználói fiókjára érvényesek, több dolgot is figyelembe kell vennie a zökkenőmentes üzembe helyezés érdekében. Azonosíthatja például a felhasználói fiókokat az Azure AD-ben, amelyek nem tudják végrehajtani az MFA-t, valamint a szervezet olyan alkalmazásait és eszközeit, amelyek nem támogatják a modern hitelesítést.
+Mivel ezek a követelmények a partnerbérlőben az összes felhasználói fiókra vonatkoznak, a zökkenőmentes üzembe helyezés érdekében több dolgot is figyelembe kell vennie. Azonosítsa például azokat az Azure AD-beli felhasználói fiókokat, amelyek nem tudnak MFA-műveleteket végezni, valamint a szervezetben azokat az alkalmazásokat és eszközöket, amelyek nem támogatják a modern hitelesítést.
 
-A művelet végrehajtása előtt javasoljuk, hogy végezze el a következő érvényesítést. 
+Mielőtt bármilyen műveletet végrehajtana, javasoljuk, hogy végezze el az alábbi ellenőrzést. 
 
-#### <a name="do-you-have-an-application-or-device-that-does-not-support-the-use-of-modern-authentication"></a>Van olyan alkalmazás vagy eszköz, amely nem támogatja a modern hitelesítés használatát?
+#### <a name="do-you-have-an-application-or-device-that-does-not-support-the-use-of-modern-authentication"></a>Rendelkezik olyan alkalmazással vagy eszközzel, amely nem támogatja a modern hitelesítés használatát?
 
-Ha kikényszeríti az MFA-t, az örökölt hitelesítés olyan protokollokat használ, mint például az IMAP, a POP3, az SMTP és mások, mivel nem támogatják az MFA-t. Ennek a korlátozásnak a megoldásához az alkalmazás [jelszavai](/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) szolgáltatásával győződjön meg arról, hogy az alkalmazás vagy az eszköz továbbra is hitelesítve van. Tekintse át az [alkalmazások jelszavainak használatának szempontjait](/azure/active-directory/authentication/howto-mfa-mfasettings#considerations-about-app-passwords) annak meghatározásához, hogy használhatók-e a környezetben.
+Az MFA kényszerítéskor az örökölt hitelesítés olyan protokollokat használ, mint az IMAP, a POP3, az SMTP és mások, mert azok nem támogatják az MFA-t. Ennek a korlátozásnak a kezelése érdekében használja az [alkalmazásjelszavak](/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) funkciót annak biztosítására, hogy az alkalmazás vagy az eszköz továbbra is hitelesítve legyen. Tekintse át [az alkalmazásjelszavak használatának szempontjait,](/azure/active-directory/authentication/howto-mfa-mfasettings#considerations-about-app-passwords) és állapítsa meg, hogy használhatók-e a környezetben.
 
-#### <a name="do-you-have-office-365-users-with-licenses-associated-with-your-partner-tenant"></a>Rendelkezik a partner bérlőhöz társított licenccel rendelkező Office 365-felhasználókkal?
+#### <a name="do-you-have-office-365-users-with-licenses-associated-with-your-partner-tenant"></a>Rendelkezik olyan Office 365-felhasználókkal, akik a partnerbérlőhöz társított licencekkel rendelkezik?
 
-A megoldások megvalósítása előtt azt javasoljuk, hogy állapítsa meg, hogy a partner bérlője milyen verzióit használja a Microsoft Office felhasználók számára. Lehetséges, hogy a felhasználók kapcsolódási problémákba ütköznek az alkalmazásokkal, például az Outlookkal. Az MFA érvényesítése előtt fontos, hogy az Outlook 2013 SP1 vagy újabb verziót használja, és hogy a szervezete számára engedélyezve legyen a modern hitelesítés. További információ: [modern hitelesítés engedélyezése az Exchange Online-ban](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). 
+A megoldások megvalósítása előtt javasoljuk, hogy határozza meg, hogy a partnerbérlő Microsoft Office mely verzióit használják a felhasználók. A felhasználók tapasztalni fogják az Outlookhoz hasonló alkalmazások csatlakozási problémáit. Az MFA kényszerítés előtt fontos, hogy az Outlook 2013 SP1 vagy újabb verziójával használja, és hogy a szervezetben engedélyezve legyen a modern hitelesítés. További információ: [Modern hitelesítés engedélyezése az Exchange Online-ban.](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) 
 
-Ha olyan Windows rendszerű eszközökön kívánja engedélyezni a modern hitelesítést, amelyeken telepítve van a Microsoft Office 2013, akkor két beállításkulcsot kell létrehoznia. Lásd: [az Office 2013 modern hitelesítésének engedélyezése Windows-eszközökön](/office365/admin/security-and-compliance/enable-modern-authentication).
+A 2013-as Microsoft Office windowsos eszközök modern hitelesítésének engedélyezéséhez két beállításkulcsot kell létrehoznia. Lásd: [Enable Modern Authentication for Office 2013 on Windows devices (Modern hitelesítés engedélyezése Az Office 2013-ban Windows-eszközökön).](/office365/admin/security-and-compliance/enable-modern-authentication)
 
-#### <a name="is-there-a-policy-preventing-any-of-your-users-from-using-their-mobile-devices-while-working"></a>Van olyan szabályzat, amely megakadályozza, hogy a felhasználók a mobileszközök használata közben használják a mobil eszközeiket?
+#### <a name="is-there-a-policy-preventing-any-of-your-users-from-using-their-mobile-devices-while-working"></a>Van olyan szabályzat, amely megakadályozza, hogy a felhasználók a mobileszközeiket használják munka közben?
 
-Fontos, hogy azonosítsa a vállalati szabályzatot, amely megakadályozza, hogy az alkalmazottak a mobileszközök használatát használják, mivel ez hatással lesz az Ön által megvalósított MFA-megoldásra. Léteznek olyan megoldások, mint például az [Azure ad biztonsági Alapértelmezések](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)implementációja, amely csak a hitelesítő alkalmazás használatát teszi lehetővé ellenőrzés céljából. Ha a szervezet rendelkezik olyan házirenddel, amely megakadályozza a mobileszközök használatát, vegye figyelembe az alábbi lehetőségek egyikét:
+Fontos azonosítani azokat a vállalati szabályzatokat, amelyek megakadályozzák, hogy az alkalmazottak mobileszközt használjanak munka közben, mert ez befolyásolja a megvalósított MFA-megoldást. Vannak olyan megoldások, mint például az [Azure AD](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)alapértelmezett biztonsági alapértelmezésének implementációja, amelyek csak hitelesítő alkalmazás használatát teszik lehetővé az ellenőrzéshez. Ha a szervezete olyan szabályzatot használ, amely megakadályozza a mobileszközök használatát, fontolja meg az alábbi lehetőségek egyikét:
 
-- A biztonságos rendszeren futtatható, időalapú egyszeri jelszó (TOTP) alkalmazás üzembe helyezése.
+- Biztonságos rendszeren futtatható, időalapú, egyszeres alapjelszó-alkalmazást (TOTP) helyezhet üzembe.
 
-- Hozzon létre egy külső gyártótól származó megoldást, amely az MFA-t kényszeríti a partner bérlő minden olyan felhasználói fiókjára, amely a legmegfelelőbb ellenőrzési lehetőséget biztosítja.
+- Implementáljon egy külső megoldást, amely kikényszeríteni az MFA-t a partnerbérlőben minden olyan felhasználói fiókhoz, amely a legmegfelelőbb ellenőrzési lehetőséget biztosítja.
 
-- [Prémium szintű Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/) licencek vásárlása az érintett felhasználók számára.
+- Vásároljon [prémium szintű Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/) licenceket az érintett felhasználók számára.
 
-#### <a name="what-automation-or-integration-do-you-have-to-leverage-user-credentials-for-authentication"></a>Milyen automatizálásra vagy integrációra van szükség a felhasználói hitelesítő adatok kihasználása a hitelesítéshez?
+#### <a name="what-automation-or-integration-do-you-have-to-leverage-user-credentials-for-authentication"></a>Milyen automatizálást vagy integrációt kell használnia a felhasználói hitelesítő adatok hitelesítéséhez?
 
-Mivel az MFA-t minden felhasználó, például szolgáltatásfiókok esetében kikényszerítjük a partneri címtárban, ez hatással van minden olyan automatizálásra vagy integrációra, amely felhasználói hitelesítő adatokat használ a hitelesítéshez. Ezért fontos, hogy azonosítsa, hogy mely fiókokat használják ezekben a helyzetekben. Tekintse meg az alábbi, példákban szereplő alkalmazások vagy szolgáltatások listáját:
+Mivel az MFA-t minden felhasználóra, így a szolgáltatásfiókra is kényszerítjük a partnerkönyvtárban, ez hatással lesz minden olyan automatizálásra vagy integrációra, amely felhasználói hitelesítő adatokat használ a hitelesítéshez. Ezért fontos azonosítani az ilyen helyzetekben használt fiókokat. Tekintse meg a mintaalkalmazások vagy -szolgáltatások alábbi listáját, és vegye figyelembe a következőket:
 
-- A Vezérlőpult az ügyfelek nevében való kiépítésére használatos
+- Az erőforrásoknak az ügyfelek nevében történő építésére használt vezérlőpult
 
-- Integráció bármely olyan platformmal, amely a számlázáshoz használatos (a CSP programhoz kapcsolódik) és az ügyfelek támogatásához
+- Integráció a számlázáshoz használt platformokkal (mivel az a CSP-programhoz kapcsolódik) és az ügyfelek támogatása
 
-- Az az, a AzureRM, az Azure AD, az MS online és más modulok használatát használó PowerShell-parancsfájlok
+- Az Az, az AzureRM, az Azure AD, az MS Online és más modulokat felhasználó PowerShell-szkriptek
 
-A fenti lista nem átfogó. Ezért fontos, hogy teljes körű értékelést végezzen a környezetben lévő bármely alkalmazásról vagy szolgáltatásról, amely felhasználói hitelesítő adatokat használ a hitelesítéshez. Az MFA követelményének megkövetelése érdekében a [biztonságos alkalmazás modelljének keretrendszerében](/partner-center/develop/enable-secure-app-model) kell megvalósítani az útmutatást, ahol lehetséges.
+A fenti lista nem átfogó. Ezért fontos, hogy a környezetében minden olyan alkalmazást vagy szolgáltatást teljes körűen kiértékelésnek végezzen, amely felhasználói hitelesítő adatokat használ a hitelesítéshez. Az MFA követelményeivel való versengeni kívánás érdekében az útmutatót a biztonságos alkalmazásmodell [keretrendszerben kell](/partner-center/develop/enable-secure-app-model) megvalósítani, ahol lehetséges.
 
 ## <a name="accessing-your-environment"></a>A környezet elérése
 
-Ha szeretné jobban megismerni, hogy mi vagy kik hitelesítik az MFA-t, akkor javasoljuk, hogy tekintse át a bejelentkezési tevékenységet. A prémium szintű Azure Active Directoryon keresztül használhatja a bejelentkezési jelentést. További információ erről a témáról: [bejelentkezési tevékenységek jelentései a Azure Active Directory portálon](/azure/active-directory/reports-monitoring/concept-sign-ins). Ha nem rendelkezik prémium szintű Azure Active Directorytel, vagy a bejelentkezési tevékenység PowerShell-lel való beszerzését keresi, akkor a [Get-PartnerUserSignActivity](/powershell/module/partnercenter/get-partnerusersigninactivity) parancsmagot kell használnia a [partner Center PowerShell](https://www.powershellgallery.com/packages/PartnerCenter/) -modulból.
+Javasoljuk, hogy tekintse át a bejelentkezési tevékenységet, hogy jobban megértse, mit vagy ki hitelesít az MFA-hoz való kérdés nélkül. A prémium szintű Azure Active Directory használhatja a bejelentkezési jelentést. További információ erről a témáról: Bejelentkezési tevékenységre vonatkozó jelentések a [Azure Active Directory portálon.](/azure/active-directory/reports-monitoring/concept-sign-ins) Ha nem prémium szintű Azure Active Directory, vagy a bejelentkezési tevékenység PowerShellen keresztüli beszerzését keresi, akkor a Partnerközpont [PowerShell-modul](https://www.powershellgallery.com/packages/PartnerCenter/) [Get-PartnerUserSignActivity](/powershell/module/partnercenter/get-partnerusersigninactivity) parancsmagját kell használnia.
 
-## <a name="how-the-requirements-are-enforced"></a>A követelmények betartatása
+## <a name="how-the-requirements-are-enforced"></a>A követelmények betartatásának a végrehajtása
 
-A partneri biztonsági követelményeket az Azure AD kényszeríti, a partner Center pedig pedig az MFA-jogcím meglétének ellenőrzésével ellenőrzi, hogy az MFA-ellenőrzés megtörtént-e. 2019. november 18-án a Microsoft aktiválta a további biztonsági óvintézkedéseket (korábbi nevén "technikai betartatás") a partnerek bérlői számára.
+A partnerbiztonsági követelményeket az Azure AD kényszeríti ki, Partnerközpont az MFA-igény ellenőrzésével ellenőrzi, hogy az MFA-ellenőrzés történt-e. 2019. november 18-tól a Microsoft további biztonsági védelmi funkciókat (korábbi nevén "technikai kényszerítési") aktivált a partnerbérlők számára.
 
-Aktiváláskor a partner bérlőben lévő felhasználókat arra kéri, hogy végezzenek el MFA-ellenőrzéseket, amikor a (z) (AOBO) műveletekkel, a partner Center portálhoz való hozzáféréssel vagy a partner Center API-k meghívásával végzik el a hitelesítést. További információ: [a többtényezős hitelesítés (MFA) megbízása a partner bérlője számára](partner-security-requirements-mandating-mfa.md). 
+Aktiváláskor a partnerbérlő felhasználóinak el kell végezniük az MFA-ellenőrzést, amikor bármilyen rendszergazdai (AOBO) műveletet hajt végre az Partnerközpont portálon, vagy ha Partnerközpont API-kat hívnak meg. További információkért lásd: Többtényezős hitelesítés [(MFA) használata a partnerbérlőben.](partner-security-requirements-mandating-mfa.md) 
 
-Azok a partnerek, akik nem teljesítik a követelményeket, a lehető leghamarabb végre kell hajtaniuk ezeket a mértékeket az üzleti fennakadások elkerülése érdekében. Ha Azure Active Directory Multi-Factor Authentication vagy az Azure AD biztonsági alapértékeit használja, nincs szükség további műveletekre.
+Azok a partnerek, akik nem teljesék a követelményeket, a lehető leghamarabb végre kell hajtaniuk ezeket a intézkedéseket az üzletkimaradások elkerülése érdekében. Ha többtényezős hitelesítést Azure Active Directory Az Azure AD biztonsági alapértelmezései szerint használja, nincs szükség további műveletekre.
 
-Ha harmadik féltől származó MFA-megoldást használ, lehetséges, hogy az MFA-jogcímet nem lehet kibocsátani. Ha ez a jogcím hiányzik, az Azure AD nem fogja tudni megállapítani, hogy az MFA megkérdőjelezte-e a hitelesítési kérést. Ha szeretné megtudni, hogyan ellenőrizheti a megoldás a várt jogcímet, olvassa el [a partneri biztonsági követelmények tesztelését](/powershell/partnercenter/test-partner-security-requirements)ismertető témakört. 
+Ha külső MFA-megoldást használ, előfordulhat, hogy az MFA-igény nem lesz kibocsátva. Ha ez a jogcím hiányzik, az Azure AD nem fogja tudni megállapítani, hogy a hitelesítési kérést az MFA igényelte-e. További információ arról, hogyan ellenőrizheti, hogy a megoldás a várt jogcímet állítja-e [ki: Testing the Partner Security Requirements (A partnerbiztonsági követelmények tesztelése).](/powershell/partnercenter/test-partner-security-requirements) 
 
 > [!IMPORTANT]
-> Ha a külső gyártótól származó megoldás nem adja ki a várt jogcímet, akkor a megoldást fejlesztő gyártóval kell dolgoznia, hogy meghatározza, milyen műveleteket kell végrehajtania.
+> Ha a harmadik féltől származó megoldás nem állítja ki a várt jogcímet, akkor a megoldás gyártójával kell együtt eldöntenie, milyen műveleteket kell tenni.
 
-## <a name="resources-and-samples"></a>Erőforrások és minták
+## <a name="resources-and-samples"></a>Források és minták
 
-Tekintse meg a következő forrásokat a támogatáshoz és a mintakód:
+Támogatásért és mintakódért tekintse meg az alábbi forrásforrásokat:
 
-- A [partner Center biztonsági Orientációs csoport közössége](https://www.microsoftpartnercommunity.com/t5/Partner-Center-Security-Guidance/ct-p/partner-center-security-guidance): a partner Center biztonsági Orientációs csoport közössége egy online közösség, ahol megismerheti a közelgő eseményeket, és felteheti az esetlegesen felmerülő kérdéseket.
-- [Partneri központ .net-minták](https://github.com/microsoft/partner-center-dotnet-samples): Ez a GitHub-adattár a .NET használatával fejlesztett mintákat tartalmaz, amelyek bemutatják, hogyan implementálhatja a biztonságos alkalmazás modell-keretrendszerét.
-- A [partneri központ Java-mintái](https://github.com/microsoft/partner-center-java-samples): Ez a GitHub-tárház a Java használatával fejlesztett mintákat tartalmaz, amelyek bemutatják, hogyan valósítható meg a biztonságos alkalmazás modelljének keretrendszere.
-- [Partner Center PowerShell – multi-Factor Authentication](/powershell/partnercenter/multi-factor-auth): ez a multi-Factor Authentication cikk részletesen ismerteti, hogyan valósítható meg a Secure Application Model Framework a PowerShell használatával.
+- [Partnerközpont Biztonsági](https://www.microsoftpartnercommunity.com/t5/Partner-Center-Security-Guidance/ct-p/partner-center-security-guidance)útmutatási csoport közössége: Az Partnerközpont Security Guidance Group közössége egy online közösség, ahol megismerheti a közelgő eseményeket, és fel is teheti a kérdéseit.
+- [Partnerközpont .NET-minták:](https://github.com/microsoft/partner-center-dotnet-samples)Ez a GitHub-adattár .NET használatával fejlesztett mintákat tartalmaz, amelyek bemutatják, hogyan implementálható a biztonságos alkalmazásmodell keretrendszer.
+- [Partnerközpont](https://github.com/microsoft/partner-center-java-samples)Java-minták: Ez a GitHub-adattár Java használatával fejlesztett mintákat tartalmaz, amelyek bemutatják, hogyan implementálható a biztonságos alkalmazásmodell keretrendszer.
+- [Partnerközpont PowerShell – Többtényezős](/powershell/partnercenter/multi-factor-auth)hitelesítés: Ez a többtényezős hitelesítést tartalmazó cikk részletesen bemutatja, hogyan valósíthatja meg a biztonságos alkalmazásmodell keretrendszert a PowerShell használatával.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [A többtényezős hitelesítés (MFA) meghatalmazása a partner bérlője számára](partner-security-requirements-mandating-mfa.md)
+- [Többtényezős hitelesítés (MFA) engedélyezése a partnerbérlő számára](partner-security-requirements-mandating-mfa.md)

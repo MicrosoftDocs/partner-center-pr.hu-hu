@@ -1,76 +1,74 @@
 ---
-title: Partneri embléma, minősített levél vagy díj létrehozása a logo Builder használatával
+title: Partnerembléma, minősített levél vagy díj létrehozása az Logo Builderrel
 ms.topic: article
 ms.date: 03/23/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ha a vállalata arany vagy ezüst szintű kompetenciával rendelkezik, a vállalata számára testre szabott emblémát hozhat, vagy a partner Center embléma-szerkesztő eszközének használatával személyre szabott hitelesített ellenőrző levelet kérhet.
+description: Ha a vállalat arany vagy ezüst kompetenciával rendelkezik, hozzon létre a vállalata számára testre szabott emblémát, vagy kérjen testre szabott, minősített ellenőrzési Partnerközpont.
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 40b2867695a7692cb863a00062101c2b5521c657
-ms.sourcegitcommit: f24089cd27b1de6ecf6ddbefb6cbb2d340e144de
+ms.openlocfilehash: 72be76473dcb7afd3f8d6ae60d79599b10c025fc
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106132400"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152256"
 ---
-# <a name="how-to-create-a-partner-logo-certified-letter-or-award-using-logo-builder"></a>Partneri embléma, minősített levél vagy díj létrehozása a logo Builder használatával
+# <a name="how-to-create-a-partner-logo-certified-letter-or-award-using-logo-builder"></a>Partnerembléma, hitelesített betű vagy díj létrehozása az Logo Builderrel
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Minden partner, aki többet szeretne tanulni az Logo Builderről
 
-- A logo Builder szolgáltatással kapcsolatos további tudnivalókat az összes partner
+Az ezüst vagy arany kompetencia megszerzésének értéke az a lehetőség, hogy meg tudja különböztetni az ügyfeleket. A kompetencia-előnyök közé tartozik egy embléma, amely az Partnerközpont-ban az értékesítési és marketinganyagokban és az üzleti profiljában használható az elért kompetencia vagy kompetenciák bemutatásához. 
 
-A Silver vagy Gold kompetenciák elérésének értéke az ügyfelekkel való különbségtétel lehetősége. Az Ön által elért kompetenciák vagy kompetenciák beszerzéséhez a partner Centerben az értékesítési és marketing anyagokon és a céges profilban használható emblémát is bemutatjuk. 
+Ha a Azure Expert MSP-programban elfogadtak, megkapta az év partneri díját, vagy megvásárolta a Microsoft Action Pack-t, az e programokban való részvételhez használható emblémák az Logo Builderben is elérhetők. Az emblémakészítő könyvtárában tárolhatja az eszközöket, és letöltheti őket, amikor készen áll értékesítési és marketinganyagok létrehozására. 
 
-Ha már elfogadták az Azure Expert MSP-programot, az év egy partnerét kapta, vagy megvásárolta a Microsoft Action Packt, akkor a programban való részvételhez használt emblémák szintén elérhetők a logo Builder-ben. Az embléma-szerkesztőben lévő kódtár használatával tárolhatja az adategységeket, és letöltheti őket, amikor készen áll az értékesítési és marketing anyagok létrehozására. 
+## <a name="what-is-available-in-logo-builder"></a>Az Logo Builderben elérhető lehetőségek
 
-## <a name="what-is-available-in-logo-builder"></a>Az embléma-szerkesztőben elérhető elemek
+Az Logo Builderben a vállalat számára elérhető emblémák az Ön Microsoft Partner Network (MPN) tagsághoz igazodnak. Akár 24 órába is telik, amíg az MPN-tagság megváltozik, például új kompetencia érhető el.
 
-Az embléma-szerkesztőben a vállalat számára elérhető emblémák a Microsoft Partner Network (MPN) tagsághoz vannak igazítva. Az MPN-tagság változása akár 24 óráig is eltarthat, például egy új kompetencia megszerzéséhez.
+Az Logo Builderben létrehozható eszközök a következők:
 
-Az embléma-szerkesztőben létrehozható eszközök a következők:
+- Hitelesített levél, amely ellenőrzi a vállalat által elért kompetenciákat és speciális specializációkat
 
-- Hitelesített levél, amely igazolja a vállalat által elért kompetenciákat és speciális specializációkat
+- Partner a gold kompetencia emblémájával
 
-- Gold kompetencia logóval rendelkező partner
+- Partner a Silver kompetencia emblémájával
 
-- Az Silver kompetencia emblémával rendelkező partner
+- Azure Expert MSP embléma
 
-- Azure szakértői MSP-embléma
+- Partneri díjemblémák
 
-- Partneri díjak emblémái
+- A Microsoft-előfizetést megvásárlott partnerek emblémája Action Pack
 
-- A Microsoft Action Packt megvásárló partnerek emblémája
+## <a name="create-a-logo-using-logo-builder"></a>Embléma létrehozása az Logo Builder használatával
 
-## <a name="create-a-logo-using-logo-builder"></a>Embléma létrehozása a logo Builder használatával
+Az Logo Builder-profil olyan információkat tartalmaz, amelyek az Logo Builder által a szervezetről vannak tárolva, és csak ön számára fontos.
 
-A logo Builder-profil olyan információkat tartalmaz, amelyeket a logo Builder tárol a szervezete számára, és csak az Ön adatait tartalmazza.
+Ha különböző üzleti helyekhez hozott létre különböző emblémákat, kiválaszthatja, hogy melyik üzleti helyet szeretné megtekinteni/létrehozni az MPNID-választó használatával.
 
-Ha különböző emblémákat hozott létre különböző üzleti helyekhez, kiválaszthatja, hogy melyik üzleti helyet szeretné megtekinteni/létrehozni a MPNID-választó használatával.
+A korábban létrehozott és mentett emblémák a Legutóbb mentett **könyvtárban érhetők** el.
 
-A korábban létrehozott és mentett emblémák a **nemrég mentett** könyvtárban érhetők el.
+Ha korábban már létrehozott emblémákat, válassza az Összes **megtekintése** lehetőséget a teljes kódtár megtekintéséhez.
 
-Ha korábban már létrehozott emblémákat, az **összes megtekintése** elemre kattintva megtekintheti a teljes könyvtárat.
+1. Jelentkezzen be a Partnerközpont [irányítópultra](https://partner.microsoft.com/dashboard) a munkahelyi fiókjával.
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard) a munkahelyi fiókjával.
-
-1. A partner Center menüben válassza a **logo Builder** lehetőséget az **előnyök** területen.
+1. A Partnerközpont az Előnyök alatt válassza az **Logo Builder** **elemet.**
  
-   :::image type="content" source="images/logo-one.png" alt-text="a logo Builder screencap.":::
+   :::image type="content" source="images/logo-one.png" alt-text="az emblémaszerkesztőt megjelenítő menü képernyőképe.":::
 
-3. Új embléma létrehozásához válassza a Create Your logo (pluszjel) elemet az **embléma összeállítása** mezőben.
+3. Új embléma létrehozásához kattintson a pluszjelre az **Embléma létrehozása** mezőben.
 
-   :::image type="content" source="images/logo-two.png" alt-text="új embléma létrehozása screencap.":::
+   :::image type="content" source="images/logo-two.png" alt-text="képernyőfelvétel az új embléma létrehozásáról.":::
 
-4. Ezután kiválaszthatja a nyelvet és a használni kívánt sablont. A sablon az Ön által létrehozandó embléma típusától függ, például egy arany kompetenciával rendelkező MPN-partner emblémája.
+4. Ezután kiválaszthatja a nyelvet és a használni kívánt sablont. A sablon a létrehoz majd kívánt embléma típusán alapul, például egy gold kompetencia-kompetenciával rendelkező MPN-partner emblémáján.
 
-A Certified betűket és a díjazott emblémákat is létrehozhatja.
+Hitelesített betűket és díjemblémát is létrehozhat.
 
 >[!NOTE]
->24 órát vesz igénybe, hogy egy új kompetenciát, díjat vagy más megvalósítást kell megjelennie a tagsági fiókjában. Ha nem látja a kívánt emblémát a könyvtárban, győződjön meg arról, hogy 24 óra telt el.
+>24 órába telik, hogy egy új kompetencia, díj vagy más végzettség megjelenjen a tagsági fiókjában. Ha nem látja a kívánt emblémát a kódtárban, győződjön meg arról, hogy 24 óra eltelt.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [További információ a piaci megjelenéssel kapcsolatos előnyökről](mpn-learn-about-go-to-market-benefits.md)
+- [A piaci piacra juttatásokkal kapcsolatos tudnivalók](mpn-learn-about-go-to-market-benefits.md)

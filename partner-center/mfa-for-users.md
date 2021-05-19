@@ -4,44 +4,42 @@ ms.topic: how-to
 ms.date: 12/15/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg, hogyan állíthatja be az alkalmazottakat MFA-val
+description: Megtudhatja, hogyan állíthatja be alkalmazottait az MFA-val
 author: vijvala
 ms.author: vijvala
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f42c97be88a1a505f7e0ae9b8af0d4a9167d8447
-ms.sourcegitcommit: 531151a5dbc999b8b7de478d72ea115e6d579ff1
+ms.openlocfilehash: 5173526d0f65623311d5cd3a1061e8b9e93e9bb9
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98182375"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151627"
 ---
 # <a name="set-up-your-users-with-multi-factor-authentication"></a>Többtényezős hitelesítés beállítása a saját felhasználókhoz
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazda
 
-- Globális rendszergazda
+A nagyobb adatvédelmi védelem és biztonság az egyik legfontosabb prioritásunk. Tudjuk, hogy a legjobb védelem a megelőzés, és hogy csak annyira vagyunk erősek, mint a leggyengébbek. Ezért van szükség arra, hogy az ökoszisztémánkban mindenki cselekedjen, és megfelelő biztonsági védelmi intézkedésekre legyen szükség. Határozottan javasoljuk, hogy minden partner engedélyezze a többtényezős hitelesítést (MFA) a partnerbérlő felhasználói számára. 
 
-A kiemelt prioritások közé tartozik a nagyobb adatvédelmi védelem és biztonság. Tudjuk, hogy a legjobb védelem a megelőzés, és hogy csak olyan erősek vagyunk, mint a leggyengébb kapcsolatunk. Ezért van szükségünk arra, hogy az ökoszisztémánk mindenki számára elérhető legyen, és biztosítsuk a megfelelő biztonsági védelem biztosítását. Javasoljuk, hogy az összes partner számára engedélyezze a többtényezős hitelesítés (MFA) használatát a partner bérlője felhasználói számára. 
+## <a name="add-multi-factor-authentication-for-your-users"></a>Többtényezős hitelesítés hozzáadása a felhasználók számára
 
-## <a name="add-multi-factor-authentication-for-your-users"></a>Multi-Factor Authentication hozzáadása a felhasználók számára
+A feladat végrehajtásához a vállalat globális rendszergazdának kell lennie.
 
-A feladat elvégzéséhez a vállalat globális rendszergazdájának kell lennie.
+Az MFA-t a legkönnyebb engedélyezni a felhasználók számára, amikor hozzáadja őket az Azure AD-bérlőhöz.
 
-Az Azure AD-bérlőhöz való hozzáadásakor a legegyszerűbben engedélyezheti az MFA használatát a felhasználók számára.
+1. Jelentkezzen be a [Azure Portal,](https://portal.azure.com) majd a **Felhasználókezelés felületre.**
+1. Válassza **a Többtényezős hitelesítés lehetőséget.**
+1. Válassza ki az engedélyezni kívánt felhasználót, majd válassza az **Engedélyezés lehetőséget.**
 
-1. Jelentkezzen be a [Azure Portalba](https://portal.azure.com) , majd lépjen a **felhasználói felügyelet** gombra.
-1. Válassza a **többtényezős hitelesítés** lehetőséget.
-1. Válassza ki az engedélyezni kívánt felhasználót, majd válassza az **Engedélyezés** lehetőséget.
+Ez engedélyezi az MFA-t a felhasználó számára. Az Engedélyezve beállítás azt jelenti, hogy a felhasználónak be kell állítania az MFA-ellenőrzést, amikor először jelentkezik be. Ezt követően a bejelentkezés után meg kell adniuk egy kódot, amelyet e-mailben vagy szöveges üzenetben (a beállításuktól függően) biztosítanak.  
 
-Ez lehetővé teszi az MFA használatát ehhez a felhasználóhoz. Az Engedélyezve beállítás azt jelenti, hogy a rendszer az első bejelentkezéskor kéri a felhasználót, hogy állítson be MFA-ellenőrzést. Ezt követően a bejelentkezéskor a rendszer arra kéri, hogy adja meg a nekik küldött kódot e-mailben vagy szöveges üzenetben (attól függően, hogy melyiket beállították).  
-
-:::image type="content" source="images/MFA/securityverification.png" alt-text="Az ellenőrzés módjának meghatározása":::
+:::image type="content" source="images/MFA/securityverification.png" alt-text="Az ellenőrzés ellenőrzésére való beállítás megadása":::
 
 >[!NOTE]
->Az MFA használatára **kényszerítheti** a felhasználókat, hogy a fenti lépéseket követve, a **kikényszerítés** lehetőség választásával. További információért olvassa el a [felhasználónkénti Azure-multi-Factor Authentication engedélyezése a bejelentkezési események biztonságossá tételéhez](/azure/active-directory/authentication/howto-mfa-userstates)című témakört. 
+>Kényszerítheti **a felhasználókat** az MFA használatára a fenti lépésekkel, majd a **Kényszerítés lehetőség kiválasztásával.** További információ: [Enable per-user Azure Multi-Factor Authentication to secure sign-in events](/azure/active-directory/authentication/howto-mfa-userstates)(Felhasználónkénti Azure Multi-Factor Authentication engedélyezése a bejelentkezési események biztonságának érdekében). 
 
-Az összes felhasználó **le van tiltva**. Ha felhasználónkénti Azure-Multi-Factor Authentication regisztrálja a felhasználókat, az állapotuk **engedélyezve** értékre vált. Ha az engedélyezett felhasználók bejelentkeznek, és elvégzik a regisztrációs folyamatot, az állapotuk **kényszerítve** értékűre vált. 
+Minden felhasználó a Disabled (Letiltva) **indítást indítja** el. Amikor felhasználónkénti vagy többtényezős Azure Active Directory regisztrál felhasználókat, az állapotuk Engedélyezve **lesz.** Ha az engedélyezett felhasználók bejelentkeznek és befejezik a regisztrációs folyamatot, az állapotuk **Kényszerítve állapotra változik.** 
 
 ## <a name="next-steps"></a>Következő lépések
 

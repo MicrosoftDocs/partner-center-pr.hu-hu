@@ -8,18 +8,16 @@ description: Microsoft-partnerként előfordulhat, hogy kérdései vannak arról
 author: varsha-sarah
 ms.author: vavargh
 ms.localizationpriority: medium
-ms.openlocfilehash: df7ae61a88852d6ef2e4c1cb210b689a20235d0c
-ms.sourcegitcommit: f8fd51e1acdbfafdde86d6490bade66c63033ebd
+ms.openlocfilehash: be12ede0c725a859892985e4cfb9032d7fb2abe8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172336"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150947"
 ---
 # <a name="find-a-partner-or-solution-provider-to-answer-questions-about-programs-licensing-or-customer-deals"></a>Partner vagy megoldásszolgáltató megkeresve válaszolja meg a programokkal, licencekkel vagy ügyfélszerződésekkel kapcsolatos kérdéseket 
 
-**Megfelelő szerepkörök**
-
-- Minden Microsoft-partner
+**Megfelelő szerepkörök:** Minden Microsoft-partner
 
 Ez a cikk azt mutatja be a Microsoft partnereinek, hogyan találhatnak meg más partnereket, akik segíthetnek nekik és az ügyfeleiknek a Microsoft-termékek és -szolgáltatások sikeres alkalmazásában.
 
@@ -41,9 +39,9 @@ A partner vagy terjesztő megtalálásához tekintse meg a következő tábláza
 |:------------------|:--------------- |
 |Közvetett CSP-szolgáltató keresése (közvetett CSP-viszonteladók esetében, akik még nem vannak hozzárendelt *közvetett szolgáltatóval)* | [Microsoft Partner Network közvetett szolgáltató keresési oldala](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)  |
 |Mennyiségilicenc-program megoldásszolgáltatójának vagy terjesztőjának megkeresása  | [A Microsoft-megoldásszolgáltató keresőoldala](https://www.microsoft.com/solution-providers/home)  |
-|Microsoft által engedélyezett OEM-csatorna terjesztő megkeresésével  | [Microsoft Device Partnerközpont OEM keresési oldala](https://devicepartner.microsoft.com/connect/distributor)  |
+|Microsoft által engedélyezett OEM-csatorna terjesztő megkeresésével  | [Microsoft Device Partnerközpont OEM keresőoldal](https://devicepartner.microsoft.com/connect/distributor)  |
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Legyen ön közvetett viszonteladó a CSP-programban](https://partner.microsoft.com/licensing)
+- [Legyen Ön közvetett viszonteladó a CSP-programban](https://partner.microsoft.com/licensing)
 - [További információ a közvetett viszonteladókról és a közvetett szolgáltatókról a CSP-programban](work-with-other-partners.md)

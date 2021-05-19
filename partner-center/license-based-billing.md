@@ -1,6 +1,6 @@
 ---
 title: Licencalapú számlázás
-description: Ismerje meg, hogy a licenc-alapú számlázás Miben különbözik a fiókpartner használaton kívüli számlázásának módjától, beleértve a licencek számlázásának módját (nem a licencek használata alapján).
+description: Megtudhatja, miben különbözik a licencalapú számlázás a Partnerközpont használatalapú számlázástól, beleértve a licencalapú számlázást is (nem a licenchasználat alapján).
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,57 +9,52 @@ ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 05/18/2020
-ms.openlocfilehash: 007a15091a018755c60c4e02c394ad31868d4233
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 8232ab784611a04990044049c16e84c1a47b9567
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179411"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151831"
 ---
-# <a name="license-based-billing-in-partner-center"></a>Licenc alapú számlázás a partner Centerben
+# <a name="license-based-billing-in-partner-center"></a>Licencalapú számlázás a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Számlázási rendszergazdai | Rendszergazdai ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Számlázási adminisztrátor
-- Felügyeleti ügynök
-
-Ha olyan termékeket vagy online szolgáltatások vásárol a partner Centerben, amelyek **licenceket** igényelnek, akkor *minden* megvásárolt licenc után kell fizetnie. Ezeket a licenceket a használat *nem* terheli. (A használat alapú számlázással és egyéb számlázási típusokkal kapcsolatos információkért lásd: a [Számlázási típusok a partner Centerben](billing-different-types.md).)
+Ha olyan terméket vagy online szolgáltatások vásárol, Partnerközpont licencet **igényel,** akkor minden  egyes licencért ki kell fizetni. Ezekért a *licencekért* nem kell használat alapján fizetni. (A használatalapú számlázással és más számlázási típusokkal kapcsolatos információkért lásd: A számlázás típusai a [Partnerközpont](./billing-basics.md).)
 
 ## <a name="license-billing-frequency"></a>Licenc számlázási gyakorisága
 
-Dönthet úgy is, hogy havonta (**havi számlázással**) vagy évente egyszer (**éves számlázással**) számlázza a licenceket. 
+Dönthet úgy, hogy havonta **egyszer**(havi számlázás) vagy évente egyszer (éves számlázás) számláz a **licencekért.** 
 
 ## <a name="billing-date-for-licenses"></a>Licencek számlázási dátuma
 
-A licenc-alapú előfizetések számlázása az előfizetés **évfordulójának napján** történik. Az évforduló a hónap azon napja, amelyen megvásárolta az előfizetést.
+A licencalapú előfizetések számlázása az előfizetés évfordulóján előre **meg van számlázva.** Az évforduló dátuma az a hónap napja, amikor megvásárolta az előfizetést.
 
 Például:
 
-- Ha január 15-én vásárolta meg a **havi előfizetést** , az évforduló dátuma minden hónap 15-én lesz.
-- Ha január 15-én vásárolta meg az **éves előfizetést** , az évforduló dátuma minden év január 15-én jelenik meg.
+- Ha január  15-én vásárolt havi előfizetést, az évforduló dátuma minden hónap 15-én lesz.
+- Ha január  15-én vásárolt éves előfizetést, az évforduló napja minden év január 15-én lesz.
 
-## <a name="license-term"></a>Licencfeltételek
+## <a name="license-term"></a>Licencszerződés
 
-Az összes licenccel rendelkező előfizetés 12 hónapos fizetett időszakot tartalmaz, amely a vásárlás napján kezdődik.
+Minden licencalapú előfizetés rendelkezik egy 12 hónapos fizetős időszakmal, amely a vásárlás dátumán kezdődik.
 
 ## <a name="license-cancellation"></a>Licenc lemondása
 
-A licencet bármikor megszakíthatja a [licencfeltételeket](#license-term). Azonban az a hónap, amelyben megszakítja a megszakított licenccel kapcsolatos kreditek mennyiségét.
+A licenc időtartamának bármely pontján visszavonhatja [a licencet.](#license-term) A lemondás hónapját azonban befolyásolja, hogy mennyi kreditet fog kapni a lemondott licenchez.
 
-Ha az 1. hónapban felfüggeszti az előfizetést, a rendszer 100%-os jóváírást kap.
+Ha az 1. hónapban felfüggeszt egy előfizetést, a jóváírás 100%.
 
 Ha a 2–12. hónapban függeszti fel az előfizetését, a díj számlázása időarányosan történik.
 
 ## <a name="license-renewal"></a>Licenc megújítása
 
-Az összes licenccel rendelkező előfizetés a fizetős időszak megkezdése után 12 hónapig automatikusan megújítható.
+A fizetős időszak kezdete után 12 hónappal minden licencalapú előfizetés automatikusan megújul.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [A partner Center számlázásának áttekintése](billing-basics.md)
+- [A Partnerközpont áttekintése](billing-basics.md)
 
-- [A Partnerközpont számlázási típusai](billing-different-types.md)
+- [A Partnerközpont számlázási típusai](./billing-basics.md)
 
 - [Fő számlázási és adózási cikkek](billing.md)

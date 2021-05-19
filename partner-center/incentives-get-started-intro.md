@@ -1,6 +1,6 @@
 ---
 title: Első lépések – ösztönzők
-description: Forrásokat talál az ösztönzők megkezdéséhez. A lépések közé tartozik a jogosultsági követelmények teljesítésének megerősítése, valamint a bank-, adó-és kifizetési adatok beküldése.
+description: Erőforrásokat találhat az ösztönzőkkel való első lépésekhez. A lépések közé tartozik a jogosultsági követelmények követelményeknek való megfelelés megerősítése, valamint a banki, adó- és kifizetési adatok elküldése.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 ms.topic: conceptual
@@ -8,43 +8,40 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 08/10/2020
-ms.openlocfilehash: 1b595afdba9ab9192c859c00fc35757ea2e24244
-ms.sourcegitcommit: 6498c57e75aa097861523b206dc142f789deeb36
+ms.openlocfilehash: 53ae5c3cf47ab74ad7dc61777ce512b37f4269fa
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106179123"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152035"
 ---
-# <a name="use-these-resources-to-help-you-get-started-with-incentives"></a>Az alábbi források segítséget nyújtanak az ösztönzők megkezdéséhez
+# <a name="use-these-resources-to-help-you-get-started-with-incentives"></a>Ezekkel az erőforrásokkal elkezdeni az ösztönzők használatát
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
+Ez a cikk röviden bemutatja a Microsoft ösztönzőprogramokat, és néhány, az első lépésekhez segítséget segítő ösztönző forrást ismertet.
 
-Ez a cikk gyors bevezetést nyújt a Microsoft ösztönző programjaival kapcsolatban, és néhány ösztönző erőforrást ismertet, amely segítséget nyújt az első lépésekhez.
+## <a name="about-the-incentives-program"></a>A Ösztönzőprogram
 
-## <a name="about-the-incentives-program"></a>Az ösztönző program ismertetése
+A Microsoft Partner Network (MPN) partnereként számos olyan ösztönzőprogramhoz férhet hozzá, amelyek megjutalmazzák, ha szolgáltatásokat nyújt az ügyfeleknek. Ezek a programok az üzlet bővítésében is segíthetnek.
 
-A Microsoft Partner Network (MPN) partnereként számos ösztönző programhoz férhet hozzá, amelyek megjutalmazzák, hogy szolgáltatásokat nyújtson az ügyfeleknek. Ezek a programok segíthetnek a vállalat kibővítésében is.
-
-Ha még nem ismeri az ösztönzőket, és többet szeretne megtudni az elérhető ösztönző programokról, jelentkezzen be a [Microsoft-beruházásokba és-ösztönzőkbe](https://partner.microsoft.com/membership/partner-incentives).
+Ha most ismerkedik az ösztönzőkkel, és többet szeretne megtudni az elérhető ösztönzőprogramokról, jelentkezzen be a Microsoft befektetéseibe [és ösztönzőibe.](https://partner.microsoft.com/membership/partner-incentives)
 
 > [!NOTE]
-> Ha még nem partner, [vegye fontolóra a Microsoft Partner Network csatlakoztatását](https://partner.microsoft.com/membership). Így kihasználhatja az ösztönzők előnyeit, és a Microsoft Partner Network partnerei számára elérhető egyéb előnyöket is.  
+> Ha ön még nem partner, fontolja meg a [csatlakozást a Microsoft Partner Network.](https://partner.microsoft.com/membership) Így elkezdheti kihasználni az ösztönzőket és a partnerek számára elérhető egyéb előnyöket a Microsoft Partner Network.  
 
-## <a name="incentives-resources-to-help-you-get-started"></a>Ösztönző források az első lépések elősegítéséhez
+## <a name="incentives-resources-to-help-you-get-started"></a>Ösztönzőerőforrások az első lépésekhez
 
-Ahhoz, hogy egy ösztönző programban munkát fizessen, konkrét adatokat kell adnia a Microsoftnak a programról, a keresetek támogathatóságáról, a banki és adózási profilokról, valamint egyebekről. A következő források segíthetnek.
+Ahhoz, hogy fizetős legyen a munkája egy ösztönzőprogramban, meg kell adni a Microsoftnak a programra, a bevételekre való jogosultságra, a banki és adóprofiljaira stb. vonatkozó részleteket. Az alábbi források segíthetnek.
 
 |  **Ehhez**  |  **Olvassa el ezt**  |
 |--------------|-----------|
-| További információ az ösztönző program beléptetéséről | [Regisztrálás az ösztönzők programban](incentives-enroll.md)  |
-| Ismerje meg, hogy az ösztönzők megfelelnek-e egy adott ösztönző program támogathatósági követelményeinek | [A programban való részvétel jogosultságának meghatározása](incentives-determined-your-program-eligibility.md)  |
-| Megkeresheti és megadhatja a Microsoft számára az ösztönzők kifizetésének beszerzéséhez szükséges adatait | [Kifizetési és adózási profilok létrehozása és kezelése a partner Centerben](incentives-create-and-manage-your-payout-and-tax-profiles.md)  |
-| Erősítse meg, hogy minden olyan részletet megadtak, amely jogosult az ösztönző jövedelmek fogadására | [Bevételi jogosultság megerősítése](incentives-confirm-your-earnings-eligibility.md)  |
-| Az ösztönző program összes információjának és jelentésének megtekintése | [Ösztönző programok és kifizetések megtekintése](understand-incentive-payouts.md)  |
-| A program-specifikus, ösztönzők kifizetések oldalának elérése | [Hozzáférés a kifizetési nyilatkozathoz](payout-statement.md)  |
+| Tudnivalók az ösztönzőprogramban való regisztrációról | [Regisztrálás az ösztönzőprogramba](incentives-enroll.md)  |
+| Megtudhatja, hogy az ösztönzői munka megfelel-e egy adott ösztönzőprogram jogosultsági követelményeinek | [A programban való részvétel jogosultságának meghatározása](incentives-determined-your-program-eligibility.md)  |
+| Keresse meg és adja meg azokat az adatokat, amelyekre a Microsoftnak szüksége van az ösztönzők kifizetésének fogadása előtt | [Kifizetési és adóprofilok létrehozása és kezelése a Partnerközpont](incentives-create-and-manage-your-payout-and-tax-profiles.md)  |
+| Győződjön meg arról, hogy minden olyan részletet megadott, amely az ösztönzők bevételének fogadására jogosult | [Bevételi jogosultság megerősítése](incentives-confirm-your-earnings-eligibility.md)  |
+| Az ösztönzőprogramhoz szükséges összes adat és jelentés megtekintése | [Ösztönzőprogramok és kifizetések megtekintése](understand-incentive-payouts.md)  |
+| Hozzáférés a programspecifikus ösztönzők kifizetési oldalára | [Hozzáférés a kifizetési kimutatáshoz](payout-statement.md)  |
 
 ## <a name="next-steps"></a>Következő lépések
 

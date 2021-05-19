@@ -1,64 +1,60 @@
 ---
-title: Mi a teendő, ha az MPN-program egyetlen rendszergazdája elhagyta a vállalatot?
+title: Mi a legjobb, ha az MPN-program egyetlen rendszergazdája távozott a vállalattól?
 ms.topic: how-to
 ms.date: 09/08/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, mi a teendő, ha új MPN-rendszergazdát keres, vagy segítséget szeretne kapni a vállalat globális rendszergazdájától. Azt is megtudhatja, hogyan adhat hozzá új partner Center globális rendszergazdát.
+description: Megtudhatja, hogyan találhat új MPN-rendszergazdát, vagy hogyan találhat segítséget a vállalat globális rendszergazdája. Emellett megtudhatja, hogyan adhat hozzá új Partnerközpont globális rendszergazdához.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3702ebd5a9421036a053a9a142a2f40d3e488137
-ms.sourcegitcommit: 3c26a61982082787bbdaf5d1e92553b26f3a5076
+ms.openlocfilehash: 5efd157078acd72ca47418aaa9559a678fc5b129
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106441999"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110151168"
 ---
-# <a name="what-to-do-if-the-only-admin-for-your-mpn-program-has-left-the-company"></a>Mi a teendő, ha az MPN-program egyetlen rendszergazdája elhagyta a vállalatot?
+# <a name="what-to-do-if-the-only-admin-for-your-mpn-program-has-left-the-company"></a>Mi a legjobb, ha az MPN-program egyetlen rendszergazdája távozott a vállalattól?
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** MPN-partner | Fiók-rendszergazdai | Globális rendszergazda
 
-- MPN-partner rendszergazdája
-- Fiókadminisztrátor
-- Globális rendszergazda
+A következő cikk három tipikus forgatókönyvet is végigvezet arra vonatkozóan, hogy mi a helyzet, ha az MPN-rendszergazda elhagyta a vállalatot.
 
-A következő cikk bemutatja, hogy mi a teendő, ha az MPN rendszergazdája elhagyta a vállalatot.
+## <a name="scenario-1-mpn-partner-adminaccount-admin-has-left-the-company-but-there-are-still-global-admins-in-the-account"></a>1. forgatókönyv: Az MPN-partner/fiók adminisztrátora elhagyta a vállalatot, de a fiókban továbbra is vannak globális rendszergazdák
 
-## <a name="scenario-1-mpn-partner-adminaccount-admin-has-left-the-company-but-there-are-still-global-admins-in-the-account"></a>1. forgatókönyv: az MPN-partner rendszergazdája/fiók rendszergazdája elhagyta a vállalatot, de a fiókban még mindig vannak globális rendszergazdák
+Ebben az esetben a vállalat egy másik személye is hozzárendelhető MPN-partneri rendszergazdai szerepkörhöz. Adott MPN-partner-rendszergazdai/fiók-rendszergazdai szerepkör szerepkör hozzárendelése:
 
-Ebben az esetben a vállalat egy másik személye is hozzárendelheti az MPN partner-rendszergazda szerepkört. Adott MPN-partner rendszergazda/fiók rendszergazdai szerepkör szerepkörének hozzárendeléséhez:
+1. Jelentkezzen be Partnerközpont fiókjába a munkahelyi fiókjával tom@contoso.com (például: ).
+1. A **Felhasználókezelés lapon** szűrje a Globális rendszergazda szűrőt, hogy lássa, kik a vállalat globális rendszergazdái. 
+1. Lépjen kapcsolatba az egyik globális rendszergazdával, és kérje meg, hogy rendelje hozzá a szükséges MPN-specifikus szerepkört. 
 
-1. Jelentkezzen be a partner Center-fiókjába a munkahelyi fiókjával (például: tom@contoso.com ).
-1. A globális rendszergazda **felhasználó-felügyeleti** oldalának szűrésével megtekintheti, hogy kik a vállalat globális rendszergazdái. 
-1. Lépjen kapcsolatba az egyik globális rendszergazdával, és kérje meg őket, hogy rendelje hozzá a szükséges MPN-specifikus szerepkört. 
+## <a name="scenario-2-mpn-partner-adminaccount-admin-has-left-the-company-and-there-are-no-global-admins-in-the-account"></a>2. forgatókönyv: Az MPN-partner/fiók adminisztrátora elhagyta a vállalatot, és a fiókban nincsenek globális rendszergazdák 
 
-## <a name="scenario-2-mpn-partner-adminaccount-admin-has-left-the-company-and-there-are-no-global-admins-in-the-account"></a>2. forgatókönyv: az MPN-partner rendszergazdája/fiók rendszergazdája elhagyta a vállalatot, és nincsenek globális rendszergazdák a fiókban. 
+Ha a Felhasználókezelés oldalra lép, és szűr a globális rendszergazdai szűrésre, de azt találja, hogy a vállalatában nincs olyan globális rendszergazda, aki segíthetne az MPN-specifikus szerepkör elnyerésében, kövesse az alábbi lépéseket: 
 
-Ha a **felhasználó-felügyeleti** lapra lép, és a globális rendszergazda szűrője, de úgy találja, hogy nincs olyan globális rendszergazda a cégnél, aki segítségére lehet az MPN-specifikus szerepkör megszerzésében, kövesse az alábbi lépéseket:
+1. A [portal.azure.com,](https://ms.portal.azure.com/)jelentkezzen be a munkahelyi fiókjával tom@contoso.com (például: ). 
+1. Válassza a **Súgó és támogatás** lehetőséget a bal oldali menü navigációs sávjában.
+1. A következő oldalon válassza az **Új**  Support request és a Technikai probléma típusa lehetőséget a legördülő menüben, szúrja be a további részleteket, majd kattintson a **Tovább: Megoldások elemre.**
 
-1. Lépjen a [Portal.Azure.com](https://ms.portal.azure.com/), és jelentkezzen be a munkahelyi fiókjával (például: tom@contoso.com ). 
-1. Kattintson a **Súgó + támogatás** lehetőségre a bal oldali menüben a navigációs sávon.
-1. A következő lapon válassza a legördülő menü **új support Request** és **technikai probléma** típusa elemét, szúrja be a további részleteket, és kattintson a **Tovább gombra: megoldások.**
+:::image type="content" source="images/accountsettings/adminfinder.png" alt-text="Keresse meg a rendszergazdai Azure Portal":::
 
-:::image type="content" source="images/accountsettings/adminfinder.png" alt-text="Rendszergazda keresése a Azure Portalban":::
-
-4. Miután megtekintette a javasolt megoldásokat a következő lapon, válassza a **Next (tovább) gombot: részletek** és a szükséges mezők elvégzése.
-1. Tekintse át és hozza létre a támogatási kérelmet.
+4. Miután a következő oldalon áttekinti az ajánlott megoldásokat, válassza a **Tovább: Részletek** lehetőséget, és töltse ki a szükséges mezőket.
+1. Tekintse át és hozza létre a támogatási kérést.
 
 
-## <a name="scenario-3-mpn-partner-adminaccount-adminglobal-admin-has-left-the-company-and-there-are-no-other-users-who-can-access-the-companys-azure-ad-this-is-a-complete-loss-of-access"></a>3. forgatókönyv: MPN-partner rendszergazdája/fiók rendszergazdája/globális rendszergazda elhagyta a vállalatot, és nincsenek más felhasználók, akik hozzáférhetnek a vállalat Azure AD-hez. Ez a hozzáférés teljes elvesztése.
+## <a name="scenario-3-mpn-partner-adminaccount-adminglobal-admin-has-left-the-company-and-there-are-no-other-users-who-can-access-the-companys-azure-ad-this-is-a-complete-loss-of-access"></a>3. forgatókönyv: Az MPN-partner rendszergazdája/fiók rendszergazdája/globális rendszergazda elhagyta a vállalatot, és nincsenek más felhasználók, akik hozzáférhetnek a vállalat Azure AD-hez. Ez a hozzáférés teljes elvesztése.
 
-A felügyelet nélküli címtár Azure Active Directory-rendszergazdaként való átvételéhez kövesse a [rendszergazda általi átvétel](/azure/active-directory/users-groups-roles/domains-admin-takeover#internal-admin-takeover) lépéseit.
+A [rendszergazdai feladatátvétel lépéseit](/azure/active-directory/users-groups-roles/domains-admin-takeover#internal-admin-takeover) követve vegye át a nem Azure Active Directory címtárat.
 
-## <a name="not-sure-if-your-company-already-has-a-work-account"></a>Nem biztos abban, hogy a vállalata már rendelkezik munkahelyi fiókkal?
+## <a name="not-sure-if-your-company-already-has-a-work-account"></a>Nem tudja, hogy a vállalata rendelkezik-e már munkahelyi fiókkal?
 
-Ha nem biztos abban, hogy munkahelyi fiókja van-e, kövesse az alábbi lépéseket az ellenőrzéshez.
+Ha nem biztos abban, hogy a vállalata rendelkezik-e munkahelyi fiókkal, kövesse az alábbi lépéseket az ellenőrzéshez.
 
-1. Jelentkezzen be az [Azure felügyeleti portálra](https://ms.portal.azure.com).
-2. A bal oldali menüben válassza a **Azure Active Directory** lehetőséget, majd válassza a **tartománynevek** lehetőséget.
-Ha már rendelkezik munkahelyi fiókkal, a rendszer a tartománynevet fogja listázni.
+1. Jelentkezzen be az [Azure felügyeleti portálra.](https://ms.portal.azure.com)
+2. Válassza **Azure Active Directory** bal oldali menüben a Tartománynevek, majd a **Tartománynevek lehetőséget.**
+Ha már rendelkezik munkahelyi fiókkal, a tartománynév megjelenik a listában.
 
 >[!Note]
->Ha rendelkezik aktív előfizetéssel Microsoft Azure vagy Office 365-re, akkor már rendelkezik munkahelyi fiókkal, és a bejelentkezési hitelesítő adatainak meg kell egyezniük a szolgáltatások eléréséhez használt adatokkal.
+>Ha aktív előfizetéssel rendelkezik a Microsoft Azure vagy az Office 365 szolgáltatásra, már rendelkezik munkahelyi fiókkal, és a bejelentkezési hitelesítő adatoknak meg kell egyednek lennie az ezen szolgáltatások eléréséhez használt hitelesítő adatokkal.

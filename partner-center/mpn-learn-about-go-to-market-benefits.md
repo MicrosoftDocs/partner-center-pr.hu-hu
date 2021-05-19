@@ -1,82 +1,75 @@
 ---
-title: További információ a Microsoft által kínált piaci megjelenésekről
+title: A Microsoft-ajánlatokkal való piacra rőla
 ms.topic: article
 ms.date: 03/08/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ismerje meg, hogy a Microsoft által kínált ajánlatok hogyan segíthetnek a piacra jutásban, az érdeklődők létrehozásában és a vállalat bővítésében.
+description: Megtudhatja, hogyan segíthet a Microsoft-ajánlatokkal való piaci piacra ugrás felgyorsítani a piacra hozás idejét, érdeklődőket generálni és bővíteni vállalkozását.
 author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d4f06f1983ab4bf3b6f9f77d02e7ae94817feeab
-ms.sourcegitcommit: 109c20a2dc71bf6ab15a3a9880807ec014eb8c67
+ms.openlocfilehash: 1b22075c91d7a19c555223409ed9410522e010d2
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "102475262"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152239"
 ---
-# <a name="explore-your-go-to-market-with-microsoft-offers"></a>Ismerkedjen meg a Microsoft ajánlatokkal a piacon
+# <a name="explore-your-go-to-market-with-microsoft-offers"></a>Ismerkedés a piacra piaccal a Microsoft ajánlatával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partneri rendszergazda
 
-- Globális rendszergazda
-- MPN-partner rendszergazdája
+Amikor ön a Microsoft Partner Network lesz, olyan tagsági előnyöket kaphat, amelyek segíthetnek a vállalkozása építésében és növekedésében. A Microsoft-erőforrásokkal, -ajánlatokkal és -programokkal való piacra piacra juttatása számos előny közé Microsoft Partner Network tagjaként. [](https://partner.microsoft.com/manage-your-partner-network-benefits)
 
-Ha Microsoft Partner Network tagjává válik, elérheti a tagsági kedvezményeket, amelyek segíthetnek a vállalat felépítésében és növelésében. A Microsoft erőforrásaival, ajánlatokkal és programokkal való piacra jutása [számos előnnyel jár](https://partner.microsoft.com/manage-your-partner-network-benefits) a Microsoft Partner Network tagként kapott előnyök közül.
-
-A piaci megjelenést lehetővé teszi a kizárólagos értékesítési és marketing-erőforrások elérését, amelyek segítségével felgyorsíthatja a piacra kerülési időt, az érdeklődőket, és bővítheti vállalatát.
+A go-to-market ajánlatok kizárólagos értékesítési és marketing-erőforrásokhoz adnak hozzáférést, amelyek segítségével felgyorsíthatja a piacra hozás idejét, érdeklődőket generálhat, és bővítheti vállalkozását.
 
 >[!NOTE]
->Ha még nem tagja a Microsoft Partner Networknak, csatlakozzon a [Microsoft Partner Network webhelyhez](https://partner.microsoft.com/membership).
+>Ha még nem tagja a Microsoft Partner Network, csatlakozzon a Microsoft Partner Network [webhelyhez.](https://partner.microsoft.com/membership)
 
-## <a name="go-to-market-resources-offers-and-programs-available-by-membership-level"></a>A tagsági szint által elérhető piaci megjelenésű erőforrások, ajánlatok és programok
+## <a name="go-to-market-resources-offers-and-programs-available-by-membership-level"></a>A tagsági szint alapján elérhető, piacra ható erőforrások, ajánlatok és programok
 
-A piacra jutási ajánlatok az MPN-tagság, a specializációk és az Ön által elérni kívánt [kompetenciák](learn-about-competencies.md) alapján eltérőek lehetnek.
+A piacravezető ajánlatok az MPN-tagság adott szintjétől, specializációitól és az Ön által elérni kívánt kompetenciáktól [függően](learn-about-competencies.md) eltérőek lehetnek.
 
-Minden MPN-tag hozzáférhet bizonyos szabványos GTM-erőforrásokhoz. Ezek közé tartozik a Ready-to-go marketing-eszközök, az értékesítési engedélyezési platform és az igény szerinti digitális marketing. Még több piacra jutási ajánlatot és programot is elérhetővé tehet olyan partnereink számára, akik ezüst-vagy arany-kompetenciákat és/vagy ISV-partnereket érnek el közös értékesítésre kész ajánlattal.
+Minden MPN-tag hozzáféréssel rendelkezik bizonyos standard GTM-erőforrásokhoz. Ezek közé tartozik a használatra kész marketingeszközökhöz való hozzáférés, az értékesítési lehetőségek platformja és az igény szerinti digitális marketing. A Silver vagy Gold kompetencia megszerzését megvalósító partnerek és/vagy az isV-partnerek számára még több piaci értékesítésre kész ajánlat és program érhető el.
 
 >[!NOTE]
->A piaci értékesítéshez szükséges erőforrások, ajánlatok és programok a hozzáadások és a módosítások hatálya alá esnek. Látogasson el a Microsoft Partner Network [piaci megjelenés oldalára](https://partner.microsoft.com/membership/go-to-market) , ahol megismerheti azokat a partnereinknek szóló legújabb forrásokat és ajánlatokat, amelyek különböző kompetenciás szinteket és/vagy ISV-partnereket érnek el közös értékesítésre kész ajánlattal.
+>A piaci 2012-hez tartozó erőforrásokra, ajánlatokra és programokra további módosítások vonatkoznak. A Microsoft Partner Network piaci értékesítésre kész ajánlattal rendelkező partnerek számára elérhető legújabb piaci kiadási forrásokkal és ajánlatokkal kapcsolatos információkért olvassa el a Microsoft Partner Network piaci értékesítést. [](https://partner.microsoft.com/membership/go-to-market)
 
-További piacra jutási ajánlatokat a **Silver** kompetenciával és/vagy az olyan ISV-partnerekkel, akik közös értékesítési ösztönző ajánlattal rendelkeznek:
+A **Silver** kompetenciaszinttel rendelkezők és/vagy az együtt értékesítésre ösztönző ösztönzőre jogosult ajánlattal rendelkező ISV-partnerek számára elérhető további piaci ajánlatok:
 
-- Minden MPN standard szintű piaci erőforrás
-- Üzleti profil optimalizálása és az átirányítás kezelése
-- A Microsoft piacra jutása
+- Az MPN összes standard piaci szintű piaci részesedési erőforrása
+- Üzleti profilok optimalizálása és ajánláskezelés
+- Piaci részesedés a Microsofttal
 
-Az **arany** kompetenciával és/vagy ISV-partnerekkel rendelkező partnerek számára elérhető további piacra jutási ajánlatok a közös értékesítésre jogosult ajánlat keretében:
+A **Gold** kompetenciaszinttel rendelkező partnerek és/vagy az együtt értékesítésre ösztönző ösztönzővel rendelkező partnerek számára elérhető további piaci értékesítésre vonatkozó ajánlatok:
 
-- Minden MPN standard szintű piaci erőforrás
-- Minden ezüst/ISV közös értékesítésre kész piacra lépésre alkalmas ajánlat
-- Közös arculatú, egyoldalas
-- Közös arculatú bemutató
-- Közös védjeggyel ellátott esettanulmány
-- Sajtóközlemény a Microsoft Executive árajánlattal
-- Közös védjeggyel rendelkező közösségi marketing
+- Az MPN összes standard piaci piaci szintű erőforrása
+- Minden silver/ISV közös értékesítésre kész piaci értékesítésre kész ajánlat
+- Partnerek piacravezető eszközkészlete 
 
-## <a name="view-go-to-market-membership-offers-in-partner-center"></a>A piaci megjelenést segítő tagsági ajánlatok megtekintése a partner Centerben
+## <a name="view-go-to-market-membership-offers-in-partner-center"></a>Piaci piaci tagsági ajánlatok megtekintése a Partnerközpont
 
-A piaci megjelenéssel kapcsolatban elérhető ajánlatok megtekintése:
+A piacravezető ajánlatok megtekintése:
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A bal oldali menüben válassza az **MPN** lehetőséget. Ezután hajtsa végre a következő lépések egyikét:
+2. A bal oldali menüben válassza az **MPN lehetőséget.** Ezután tegye a következők egyikét:
 
-   - Válassza az **Áttekintés** lehetőséget. Görgessen a **Gyorshivatkozások** szakaszhoz, majd válassza a **megjelenés a piacon** lapot.
+   - Válassza az **Áttekintés** lehetőséget. Görgessen **a Gyorshivatkozások szakaszhoz,** majd válassza a **Piacra ugrás** lapot.
 
      vagy
 
-   - Válassza ki a **piacra** jutást követő **előnyöket** .
+   - Válassza **az Előnyök,** majd **a Piaci ugrás lehetőséget.**
 
-Ekkor megjelenik a már aktív, vagy az aktiváláshoz elérhető piacra jutási ajánlatokat tartalmazó lista.
+Megjelenik a piacra piacra lépő ajánlatok listája, amelyek már aktívak vagy aktiválhatóak.
 
-## <a name="manage-or-activate-go-to-market-offers-in-partner-center"></a>Piaci megjelenéssel kapcsolatos ajánlatok kezelése vagy aktiválása a partner Centerben
+## <a name="manage-or-activate-go-to-market-offers-in-partner-center"></a>Piaci aktiválási ajánlatok kezelése vagy aktiválása a Partnerközpont
 
-A piaci megjelenéssel kapcsolatos ajánlatok aktiválásához és kezeléséhez tekintse meg [a piaci megjelenéssel kapcsolatos ajánlatok felügyeletét](manage-your-partner-network-benefits.md#manage-go-to-market-offers)ismertető témakört. Az aktiválási folyamat részeként hozzá kell rendelnie egy marketing-személyt a követési e-mailek és az Ön által a piacra lépéshez szükséges kommunikáció tekintetében.
+A piaci piacra lépő ajánlatok aktiválásához vagy kezeléséhez tekintse meg a piaci piacra lépő ajánlatok [kezelését.](manage-your-partner-network-benefits.md#manage-go-to-market-offers) Az aktiválási folyamat egy része megköveteli, hogy marketinges személyt rendeljen hozzá az aktivált piacra kerülő ajánlatokkal kapcsolatos követő e-mailek és kommunikáció kapcsolattartójaként.
 
 >[!IMPORTANT]
->Globális rendszergazdai vagy MPN-partneri rendszergazdának kell lennie az adott piaci megjelenési ajánlatok aktiválásához és egy kapcsolódó marketing-kapcsolat hozzárendeléséhez. Ha szükséges, globális rendszergazdaként az [ **előnyök** oldalon](https://partnercenter.microsoft.com/pcv/partnership/benefits) található utasításokat követve (bejelentkezés szükséges). Előfordulhat, hogy a vállalata már rendelkezik globális rendszergazdai jogosultságokkal, ezért mindenképpen ellenőrizze a csapatát.
+>Adott piacra kerülő ajánlatok aktiválásához és egy kapcsolódó marketing kapcsolattartó hozzárendeléshez globális rendszergazdának vagy MPN-partner rendszergazdának kell lennie. Ha szükséges, globális rendszergazdává válhat az Előnyök oldalon található utasítások szerint [  (bejelentkezés](https://partnercenter.microsoft.com/pcv/partnership/benefits) szükséges). Előfordulhat, hogy a vállalata már rendelkezik globális rendszergazdával, ezért mindenképpen egyeje meg a csapatát.
 
 ## <a name="next-steps"></a>Következő lépések
 
