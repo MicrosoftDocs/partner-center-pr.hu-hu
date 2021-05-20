@@ -134,6 +134,8 @@
     - name: Közvetlen CSP-számla átváltása közvetett viszonteladóra
       href: transition-direct-to-indirect.md
       displayName: csp
+    - name: A partnerek már nem regisztrálnak tanácsadóként
+      href: advisors-no-csp.md
 - name: CSP-szerződések
   href: microsoft-partner-agreement.md
   items:
@@ -202,7 +204,7 @@
         - name: A partnerprofil frissítése
           href: update-your-partner-profile.md
           displayName: mpn
-        - name: Regisztrációs azonosító számának adatai
+        - name: Regisztrációs azonosító száminformációi
           href: reg-number-id.md
         - name: Vezérlőpultgyártói szerepkör
           href: enroll-as-cpv.md
