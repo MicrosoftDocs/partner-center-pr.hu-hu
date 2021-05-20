@@ -1,6 +1,6 @@
 ---
 title: Előfizetések és licencek elemzése
-description: Megtudhatja, hogyan használhatja a mérőszámokat az előfizetés és a licenc elemzése oldalon a sikerek és a nagyobb figyelmet igénylő területek azonosításához.
+description: Megtudhatja, hogyan használhatja a metrikákat az Előfizetés és licencelemzés oldalon a sikeresség és a nagyobb figyelmet igényelő területek azonosításához.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: amitravat
@@ -9,83 +9,78 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
 ms.date: 03/31/2021
-ms.openlocfilehash: 3f84026cc6402bea71837b06a5e330f2c879a06b
-ms.sourcegitcommit: 766b2bb46dffd29e532b42106359f83e51b96700
+ms.openlocfilehash: 45a0ebb70f6e139b1e130c3cfc1d24eb79b41a0d
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106103791"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150148"
 ---
-# <a name="analyze-subscriptions-and-licenses-to-help-you-drive-business-decisions-and-new-goals"></a>Előfizetések és licencek elemzése az üzleti döntések és az új célok meghozatalának elősegítése érdekében
+# <a name="analyze-subscriptions-and-licenses-to-help-you-drive-business-decisions-and-new-goals"></a>Előfizetések és licencek elemzése az üzleti döntések és az új célok meghozásában
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
+Az adatok meghajtóként üzleti döntéseket hoznak. Az Előfizetés és licencelemzés oldalon található metrikák **segítségével** azonosíthatja a sikerességeket és a nagyobb figyelmet igényelő területeket. Ezeket az információkat új üzleti célok megterveként használhatja fel.
 
-Az adatmeghajtók üzleti döntéseket hoznak. Az **előfizetés és a licenc** elemzése oldalon található mérőszámok segítségével azonosíthatja a sikereket és a nagyobb figyelmet igénylő területeket. Ezeket az információkat az új üzleti célok megtervezése során használhatja.
-
-**CSP-TTM bevétel (USD)**: Ez a metrika a partneri hely fiókjaihoz és a partner globális fiókjához (PGA) tartozó tizenkét hónapos időszakra (TTM) vonatkozó összesített CSP számlázott bevételt jelenti, amelyhez ez a CSP-fiók társítva van. Ha más CSP-fiókkal rendelkezik, akkor be kell jelentkeznie, hogy megtekinthesse a megfelelő összesített TTM bevételt.  Kattintson a letöltés részletei hivatkozásra, hogy lebontsa a TTM bevétel (USD) egy MPN-AZONOSÍTÓját.
+**CSP TTM-bevétel (USD):** Ez a metrika a CSP-fiókhoz társított partnerhelyi fiókok és globális partnerfiókok (PGA) záró 12 hónapjára (TTM) vonatkozó összesített CSP-bevételt (USD) jelöli. Ha más, eltérő PGA-val rendelkező CSP-fiókja van, be kell jelentkeznie mindegyikbe a megfelelő összesített TTM-bevétel megtekintéséhez.  Kattintson a letöltési részletek hivatkozásra az MPN-azonosítónkénti TTM-bevétel (USD) részletezéséhez.
 
 >[!NOTE]
->A kereskedelmi forgalomban lévő helyi pénznemek díjszabása (a régi kereskedelmi FX) a US dollárok +/-5%-ában van kezelve. A régi kereskedelmi árfolyam (FX) eltér az Azure által a modern kereskedelmi élményben használt számlázási FX-díjaktól. A modern kereskedelmi számlázási FX díjszabása a Microsoft P&L díjszabásán alapul (a Reuters FX díjszabása a Treasury-hírcsatornától). A régi kereskedelmi FX díjszabása a Microsoft bizalmas.
+>A kereskedelmi termékek helyi pénznemárai (Legacy Commerce FX) az USA dollár +/-5%-a alatt vannak. Az örökölt kereskedelmi árfolyam (FX) eltér az Azure modern kereskedelmi környezetben használt számlázási FX-díjszabásaitól. A modern kereskedelem számlázási FX-díjszabása a Microsoft P&L díjszabásán alapul (a Reuters FX díjszabása a kincstári hírcsatornából). Az örökölt kereskedelmi FX-díjszabások a Microsoft bizalmasai.
 
 
-A jelentés további részei a következő termékek alapján forgathatók el:
+A jelentés többi része a következő termékek alapján kimutatásra képes:
 
- - **Dynamics 365**: Dynamics 365-beli adatmennyiség  
- - **EMS**: Enterprise Management Services-beli adatszolgáltatások  
- - **Microsoft 365**: az adatMicrosoft 365  
- - **Office 365**: Office 365-adatbázis  
+ - **Dynamics 365:** Dynamics 365-adatok  
+ - **EMS:** Vállalati felügyeleti szolgáltatások adatai  
+ - **Microsoft 365:** Microsoft 365 adatok  
+ - **Office 365:** Office 365-adatok  
 
 
-## <a name="types-of-subscription-and-license-metrics-you-can-view"></a>A megtekinthető előfizetések és licenc-mérőszámok típusai
+## <a name="types-of-subscription-and-license-metrics-you-can-view"></a>A megtekinthető előfizetési és licencmetrikák típusai
 
-A következő mérőszámokat követjük nyomon:
+A következő metrikákat követjük nyomon:
 
 **Összefoglalás**  
- - **Eladott előfizetések**: a megadott időtartamra vonatkozóan létrehozott előfizetések száma  
+ - **Eladott előfizetések:** A megadott időszakban létrehozott előfizetések száma  
   
- - **Eladott licencek**: a megadott időtartamra eladott licencek száma  
+ - **Eladott licencek:** A megadott időszakban eladott licencek száma  
   
- - **Előfizetés megújítása 30 napon** belül: azon előfizetések száma, amelyekben az állapot aktív a megadott időszakban, és ahol az **automegújítás** igaz
+ - **Előfizetések megújítása 30** nap alatt: Az olyan előfizetések száma, amelyek állapota aktív a megadott időszakra vonatkozóan, és ahol az **Autorenew** igaz
  
- - **Aktív előfizetések**: **az aktív** állapotú előfizetések  
+ - **Aktív előfizetések:** Olyan előfizetések, ahol az állapot **Aktív**  
  
- - **Felfüggesztett előfizetések**: a felfüggesztett előfizetések száma, nincs Dátum szűrő  
+ - **Felfüggesztett előfizetések:** Felfüggesztett előfizetések száma, nincs dátumszűrő  
 
-**Termék részletezése**
+**Terméklebontás**
   
- - **Előfizetés száma**: az eladott előfizetések alapján az első 5 termék  
+ - **Előfizetések száma:** Az első 5 termék eladott előfizetések szerint rendezve  
  
- - **Licencek száma**: az első 5 termék, amelyet a rendezett licencek értékesítettek
+ - **Licencek száma:** Az első 5 termék az eladott licencek szerint
 
 **Előfizetés megőrzése**
 
- - **Megújított előfizetések**: az elmúlt 30 napban megújított előfizetések  
+ - **Megújított előfizetések:** Az elmúlt 30 napban megújított előfizetések  
 
-**Előfizetési forgalom**  
- - **Új előfizetések**: az adott időszakra vonatkozó új előfizetések száma, a próbaverziós ajánlatok kivételével  
+**Előfizetési adatváltozás**  
+ - **Új előfizetések:** az adott időszakra vonatkozó új előfizetések száma a próbaidőszaki ajánlatok nélkül  
  
- - **Felépített előfizetések**: az előfizetett vagy a dátummal felfüggesztett előfizetések száma  
+ - **Megszüntetett előfizetések:** Megszüntetett vagy felfüggesztett előfizetések száma dátum szerint  
 
 **Felfüggesztett előfizetések** 
  
- - Az összes **felfüggesztett** állapotú előfizetés listája, kivéve a próbaverziós ajánlatokat  
+ - Az összes felfüggesztett állapotú előfizetés listája **a** próbaverziós ajánlatok kivételével  
   
 **Aktív előfizetések**
 
  - Az összes aktív előfizetés listája  
 
-**Próbaverziós előfizetés konverziója**  
+**Próbaverziós előfizetés-átalakítások**  
 
- - **Próbaverzió konvertálása**: az összes olyan **aktív** előfizetés száma, amelyben a konverzióra fordított próbaverzió a megadott időszakban történt  
+ - **Próbaverziós átalakítás:** Az összes **olyan aktív előfizetés** száma, amelyek próbaidőszaka átváltásra történt a megadott időszakban  
 
-**30 napig végződő próbaverziós előfizetések**  
+**Próba-előfizetések 30 nap múlva lejárnak**  
 
- - Az elindított próbaverziók listája, ahol a befejezési dátum 30 napon belül van, és az előfizetéshez nem tartozik fizetett kezdési dátum.  
+ - Az elindított próbaverziók listája, ahol a záró dátum 30 napon belül van, és nincs az előfizetéshez társított fizetett kezdési dátum  
 
 
 

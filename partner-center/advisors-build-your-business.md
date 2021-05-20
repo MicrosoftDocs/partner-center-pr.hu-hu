@@ -1,56 +1,56 @@
 ---
 title: Ügyfelek hozzáadása az Office 365 próbaverziós ajánlataival
 ms.topic: article
-ms.date: 05/06/2020
+ms.date: 05/13/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan növelheti az Office 365-előfizetéseit a Microsoft Advisors szolgáltatásban. Office 365 próbaverziós meghívókat és vásárlási ajánlatokat hozhat létre és küldhet az ügyfeleknek.
+description: Megtudhatja, hogyan növekedhetnek az Office 365-előfizetések a jogosult Microsoft-tanácsadók számára. Office 365 próbameghívások létrehozása és küldése az ügyfeleknek.
 author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 31d8be49e0270f32c472f3fbe0a54d5ceadc9098
-ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
+ms.openlocfilehash: bd7e10aaf0bf339f92fbc9dc2f73f403c81693a3
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106557732"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150386"
 ---
-# <a name="advisors-build-your-client-base-with-office-365-trial-invitations-and-purchase-offers"></a>Advisors: az ügyfélkör kiépítése Office 365 próbaverziós meghívásokkal és vásárlási ajánlatokkal
+# <a name="advisors-build-your-client-base-with-office-365-trial-invitations-and-purchase-offers"></a>Tanácsadók: Ügyfélbázis összeállítása Office 365-próbameghívásokkal és vásárlási ajánlatokkal
 
 
-**Megfelelő szerepkörök**
-
-- Advisor
+**Megfelelő szerepkörök:** Advisor
 
 
-Meghatalmazott Microsoft advisorként a **partneri központ** lehetőséget kínál az ügyfélkör növelésére és tartós kapcsolatok létrehozására az ügyfelekkel. A partner Center segítségével elküldheti ügyfeleinek próbaverziós meghívásait és vásárlási ajánlatait, valamint delegált adminisztrációs szolgáltatásokat biztosíthat, attól függően, hogy milyen szolgáltatásokra jogosult.
+Jogosult Microsoft-tanácsadóként a **Partnerközpont** lehetőséget nyújt az ügyfélkör létrehozására és az ügyfelekkel való tartós kapcsolatok létrehozására. A Partnerközpont küldhet az ügyfeleknek próbameghívásokat és vételi ajánlatokat, és delegált felügyeleti szolgáltatásokat kínálhat nekik az Ön által nyújtott szolgáltatásoktól függően.
 
-Amikor bejelentkezik a partner Centerbe, a **próbaverziós és a vásárlási ajánlatokat** megtekintheti, és megtudhatja, hogyan növelheti vállalkozását.
+Amikor bejelentkezik a Partnerközpont, a Próbaverzió és ajánlatok vásárlása lehetőséget, néhány olyan eszközt és feladatot fog látni, amelyek segíthetnek a vállalkozása növekedésében.
 
-## <a name="create-and-send-trial-invitations"></a>Próbaverziós meghívások létrehozása és küldése
+## <a name="create-and-send-trial-invitations"></a>Próbameghívások létrehozása és küldése
 
 > [!NOTE]
-> Ez a funkció csak olyan partnereink számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.
+> Ez a funkció csak az engedélyezett előfizetési tanácsadók számára érhető el.
 
-Létrehozhat és elküldhet meghívókat az ügyfeleknek való küldéshez, hogy kipróbálják az Office 365-et. Egy meghívás egyetlen próbaverziós előfizetést is tartalmazhat.
+Meghívókat hozhat létre és küldhet az ügyfeleknek, hogy kipróbálják az Office 365-öt. A meghívók egyetlen próba-előfizetést tartalmazhatnak.
 
-Ha hitelesített felügyeletet biztosít, akkor hozzáadhat egy olyan lehetőséget a próbaverzióhoz, amely lehetővé teszi az előfizetés felügyeletét az ügyfél nevében. Így az ügyfél könnyebben kipróbálhatja az Office 365-et.
+Ha megkapta a delegált felügyeletre való jogosultságot, hozzáadhat egy lehetőséget a próbameghíváshoz, amely lehetővé teszi az előfizetés felügyeletét az ügyfél nevében. Így az ügyfél könnyebben kipróbálhatja az Office 365-öt.
 
-Próbaverziós meghívás létrehozásakor létrejön egy egyéni URL-cím. Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként. Ezt az URL-címet használhatja egy vagy több ügyfél számára. E-mailben elküldheti az ügyfelének az URL-címet, vagy közzéteheti azt a webhelyén.
-A próbaverziós meghívásokról további információt a [próbaverziós meghívás létrehozása](advisors-create-a-trial-invitation.md)című témakörben talál.
+Próbameghívás létrehozásakor a rendszer létrehoz egy egyéni URL-címet. Az URL-cím tartalmaz egy beágyazott kódot, amely előfizetési tanácsadóként azonosítja. Ezt az URL-címet egy ügyfélhez vagy több ügyfélhez is használhatja. Az URL-címet elküldheti az ügyfélnek e-mailben, vagy közzé is küldheti a webhelyén.
+A próbameghívásokkal kapcsolatos további információkért [lásd: Próbameghívás létrehozása.](advisors-create-a-trial-invitation.md)
 
 ## <a name="create-and-send-purchase-offers"></a>Vásárlási ajánlatok létrehozása és küldése
 
 > [!NOTE]
-> Ez a funkció csak azon Microsoft-partnerek számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.
+> Ez a funkció csak olyan Microsoft-partnerek számára érhető el, akik jogosult előfizetési tanácsadók.
 
-Miután elküldte a próbaverziót az ügyfeleknek, kövesse a vásárlási ajánlatokat. Testre szabhatja az ajánlatokat, hogy az tartalmazza az ügyfél igényeinek megfelelő szolgáltatásokat és a felhasználói licencek helyes számát. Ha hitelesített felügyeletet biztosít, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi az előfizetés felügyeletét az ügyfél nevében.
+Miután próbaverziós meghívót küldött az ügyfeleinek, küldjön egy vásárlási ajánlatot. Az ajánlatot testreszabhatja úgy, hogy az tartalmazza az ügyfél által szükséges szolgáltatásokat és a megfelelő számú felhasználói licencet. Ha rendelkezik delegált felügyeletre való jogosultságokkal, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi az előfizetés felügyeletét az ügyfél nevében.
 
-A vételi ajánlat létrehozásakor létrejön egy egyéni URL-cím. Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként. Ezt az URL-címet használhatja egy vagy több ügyfél számára. Küldje el e-mailben az ügyfélnek az URL-címet, vagy tegye közzé a webhelyén.
+A vásárlási ajánlat létrehozásakor a rendszer létrehoz egy egyéni URL-címet. Az URL-cím tartalmaz egy beágyazott kódot, amely előfizetési tanácsadóként azonosítja. Ezt az URL-címet használhatja egy ügyfélhez vagy sok ügyfélhez. Küldje el az URL-címet az ügyfélnek egy e-mailben, vagy tegye közzé a webhelyén.
 
-Ha az ügyfél eltérő számú licencet szeretne, küldjön nekik egy új ajánlatot, vagy megváltoztathatják a licencek számát az előfizetés megvásárlásakor.
+Ha az ügyfél eltérő számú licencet szeretne, küldjön neki egy új ajánlatot, vagy módosíthatja a licencek számát az előfizetés megvásárlásakor.
 
 ## <a name="next-steps"></a>Következő lépések
 
-További információ a vásárlási ajánlatokról: [vásárlási ajánlat létrehozása](advisor-create-a-purchase-offer.md).
+- [Hozzon létre egy vásárlási ajánlatot.](advisor-create-a-purchase-offer.md)
+
+- [A partnerek már nem regisztrálnak tanácsadóként](advisors-no-csp.md)

@@ -1,52 +1,48 @@
 ---
-title: Azure-csomag – az Azure-vásárlás utólagos elszámolású díjszabása
+title: Azure-csomag – Az Azure vásárlása használat alapján
 ms.topic: article
 ms.date: 07/10/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg az Azure-csomag kereskedelmi tapasztalatát, amellyel az Azure-szolgáltatásokat az ügyfeleknek szóló utólagos elszámolású díjszabás keretében vásárolhatja meg. Ismerje meg az új biztonsági követelményeket is.
+description: Ismerje meg az Azure-csomag kereskedelmi élményét, hogy használat alapján vásároljon Azure-szolgáltatásokat az ügyfelek számára. Ismerje meg az új biztonsági követelményeket is.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 87638a036086db933e0375ec232f2d512d73653e
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: de0f13bab73eebde3c1cf12db586d07c47b277f6
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534743"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149621"
 ---
-# <a name="introduction-azure-plan-lets-partners-buy-azure-at-pay-as-you-go-rates-for-customers"></a>Bevezetés: az Azure-csomag lehetővé teszi, hogy a partnerek az Azure-t az utólagos elszámolású díjszabással vásárolják meg az ügyfelek számára
+# <a name="introduction-azure-plan-lets-partners-buy-azure-at-pay-as-you-go-rates-for-customers"></a>Bevezetés: Az Azure-csomag lehetővé teszi, hogy a partnerek használat alapján vásárolják meg az Azure-t az ügyfelek számára
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Értékesítési ügynök | Globális rendszergazda
 
-- Felügyeleti ügynök
-- Értékesítési ügynök
-- Globális rendszergazda
+A Microsoft új kereskedelmi élményt vezetett be a Partnerközpont, az Azure-csomag területén.  Ezzel az új kereskedelmi megoldással a partnerek használat alapján, használat alapján férhetnek hozzá az Azure-szolgáltatásokhoz a Microsoft Ügyfélszerződés.
 
-A Microsoft új kereskedelmi tapasztalatot vezetett be a partner Centerben, az Azure-csomaggal.  Ezzel az új kereskedelmi tapasztalattal a partnerek a Microsoft ügyfél-szerződés keretében igénybe vehetik az Azure-szolgáltatásokat az utólagos elszámolású díjszabásban.
+Ez a csomag leegyszerűsíti a vásárlási élményt – egy Azure-csomag több Azure-előfizetéssel is rendelkezik. Azure-előfizetésenként már nem kell külön rendelést beküldődni. Az Azure új kereskedelmi élményében pedig egyetlen globális díjszabási alapelvhez igazodtunk, amely lehetővé teszi a CSP-partnerek számára, hogy a közzétett árakon kínálják az Azure-t.
 
-Ez a csomag leegyszerűsíti a vásárlási élményt – több Azure-előfizetéssel is rendelkezhet az Azure-csomagokban. Az Azure-előfizetések esetében már nem kell külön megrendelést elküldenie. És ebben az új Azure-beli kereskedelmi tapasztalattal összhangban vagyunk egy globális díjszabási elvvel, amely lehetővé teszi, hogy a CSP-partnerek az Azure-t a közzétett árakon nyújtsanak.
+Az ügyfelek átváltása meglévő CSP Azure-ajánlataikról Azure-szolgáltatásokra az Azure-csomag keretében a CSP-program új kereskedelmi élményében a felhőszolgáltatói Partnerközpont. Ehhez az átváltáshoz csak a következőkre van szükség:
 
-Átválthatja ügyfeleit meglévő CSP Azure-ajánlatait az Azure-szolgáltatások keretében az Azure-csomag keretében az új kereskedelmi élményben a CSP programban a partner Centerben. Az áttéréshez csak a következőkre van szükség:
-
-- A partnernek és a végfelhasználónak a partner centeren keresztül kell megadnia a viszonteladói kapcsolatot, és az ügyfélnek alá kell írnia a Microsoft ügyfél-szerződést.
+- A partnernek és a végfelhasználónak egy már létrehozott viszonteladói kapcsolattal kell Partnerközpont, és az ügyfélnek alá kell írnia a Microsoft Ügyfélszerződés.
 
 >[!Note]
->2020. február 1-től kezdődően a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP programból. Ettől az időponttól kezdve az új Microsoft ügyfél-szerződéshez tartozó ügyfél-visszaigazolást (igazolást) minden egyéb ajánlathoz meg kell követelni, beleértve a Microsoft 365, a Dynamics 365 és a meglévő Azure-t is. A CSP-partnerek nem tudnak új rendelést készíteni az ügyfélnek a Microsoft-ügyfél szerződésének igazolása nélkül. A részletekért olvassa el [a Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyása című cikk](confirm-customer-agreement.md)utasításait.
+>2020. február 1-től a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP-programból. Ettől az időponttól a partnernek meg kell erősítenie (igazolása) az új Microsoft Ügyfélszerződés ügyfél általi elfogadását minden más ajánlathoz, beleértve a Microsoft 365, a Dynamics 365-öt és a meglévő Azure-t. A CSP-partnerek nem tudnak új rendelést tenni az ügyfélnek a szolgáltató igazolása Microsoft Ügyfélszerződés. Részletes információkért olvassa el [a következőt: Confirm customer acceptance of the Microsoft Ügyfélszerződés.](confirm-customer-agreement.md)
 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 |**Ehhez**   |**Olvassa el ezt**   |
 |------------------|---------------------|
-|Az Azure-csomagra való áttérés megkezdése|[Áttérés az Azure planre – első lépések](azure-plan-get-started.md)
-|Az ügyfelek átállítása a TB-ről az Azure-csomagra|[Az ügyfél áttérése az Azure-csomagra](azure-plan-transition.md)|
-|Az Azure-csomag megvásárlása az ügyfelek számára|[Az Azure-csomag megvásárlása](purchase-azure-plan.md)|
-|A 24 X 7 felhő-Operations Management szolgáltatást nyújtó számlázási partnereink jogosultak lesznek arra, hogy a partner által a munkához **kezelt szolgáltatások számára kreditet** kapjanak.|[Partner által szerzett kredit – áttekintés](partner-earned-credit.md) és [a partner által megszerzett kreditek meghatározása – részletek](partner-earned-credit-explanation.md)|
-|Tekintse meg az Azure-ajánlati típusok egymás melletti összehasonlítását|[Azure-ajánlatok összehasonlítása](compare-azure-offers.md)|
-|Ügyfél-előfizetések és-erőforrások kezelése az Azure-csomag keretében|[Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)|
-|Ismerje meg, hogyan olvashatja el az Azure-csomag árlista   |[Az Azure-csomag árlista magyarázata](azure-plan-price-list.md)|
-|Hol érhető el az Azure-csomag?|[Azon országok/régiók teljes listája, ahol az Azure-csomag elérhető](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x)
-|Ha szeretné megtekinteni, hogyan számítja ki a partner által létrehozott kreditet, be kell jelentkeznie a partner Center irányítópult-árlista|[A partneri központ irányítópultja](https://partner.microsoft.com/dashboard/home)|
+|Az Azure-csomagra való áthelyezés elkezdés|[Áthelyezés Azure-csomagba – első lépések](azure-plan-get-started.md)
+|Ügyfelek váltása PAYG-ről Azure-csomagra|[Az ügyfél áttérése az Azure-csomagra](azure-plan-transition.md)|
+|Azure-csomag vásárlása az ügyfelek számára|[Az Azure-csomag megvásárlása](purchase-azure-plan.md)|
+|Azok **a** számlázási partnerek, akik a hét minden nap 24 órás felhőművelet-kezelését biztosítják, jogosultak lesznek a partneri jóváírásra az erre a munkára kezelt szolgáltatásokért.|[Partneri jóváírás – áttekintés](partner-earned-credit.md) és [a partneri](partner-earned-credit-explanation.md) jóváírás meghatározása – részletek|
+|Az Azure-ajánlattípusok egymás közötti összehasonlítása|[Azure-ajánlatok összehasonlítása](compare-azure-offers.md)|
+|Az Ügyfelek előfizetésének és erőforrásainak kezelése az Azure-csomag keretében|[Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)|
+|Megtudhatja, hogyan olvashatja el az Azure-csomag árlistát   |[Az Azure-csomag árlistának magyarázata](azure-plan-price-list.md)|
+|Hol érhető el az Azure-csomag?|[Azon országok/régiók teljes listája, ahol elérhető az Azure-csomag](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x)
+|A partneri jóváírás kiszámításának módját az irányítópult árának Partnerközpont kell látnia|[Partnerközpont irányítópult](https://partner.microsoft.com/dashboard/home)|
 |Számlázás az Azure-csomag keretében|[Azure-számlázás](azure-plan-billing.md)|

@@ -1,6 +1,6 @@
 ---
-title: Az Azure használatának elemzése az üzleti növekedés elősegítése érdekében
-description: Ismerje meg, hogyan használhatja a partner centert az ügyfelek Azure-előfizetéseit használó adatok lekérdezésére. Az adatforgalom az eladott előfizetéseket, valamint a kockázatos és használatban lévő előfizetéseket tartalmazza.
+title: Az Azure használatának elemzése a vállalkozása növekedéséhez
+description: Megtudhatja, hogyan használhatja Partnerközpont ügyfelek Azure-előfizetésének használatával kapcsolatos adatok lekért adatokat. Az adatok közé tartoznak az értékesített, veszélyeztetett és használatban található előfizetések is.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: amitravat
@@ -9,55 +9,50 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 05/01/2020
-ms.openlocfilehash: 0a7bc34ded62eb9e19dbbad8e214eb30534b8ea6
-ms.sourcegitcommit: 7beb7327472dc1b0c07c101d121196fb2830bbf8
+ms.openlocfilehash: e2acdb777e0ef77ebf9d08eed3d3842c74af9e18
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96439121"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150233"
 ---
-# <a name="get-data-about-how-well-your-customers-and-azure-subscriptions-are-doing"></a>Szerezze be az ügyfelek és az Azure-előfizetések adatait
+# <a name="get-data-about-how-well-your-customers-and-azure-subscriptions-are-doing"></a>Adatok lekérte az ügyfelek és az Azure-előfizetések szolgáltatásokat
 
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
+Az adatok hajtódnak az üzleti döntésekhez. Az **Azure** használati oldalán található metrikák segítségével azonosíthatja a sikereket és azokat a területeket, amelyek nagyobb figyelmet igényelnek. Ezeket az információkat az új üzleti célok megterveként használhatja fel.
 
-Az adatmeghajtók üzleti döntéseket hoznak. Az **Azure használati** oldalán található mérőszámok segítségével azonosíthatja a sikereket és a nagyobb figyelmet igénylő területeket. Ezeket az információkat az új üzleti célok megtervezése során használhatja.
-
-Az **Azure használatának** megkezdéséhez jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard). Válassza az **elemzés** lehetőséget a partner központ menüjében, majd válassza az **Azure-használat** lehetőséget.
+Az Azure-használathoz **való látogatottsághoz** jelentkezzen be Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard) Válassza **az Elemzés** lehetőséget Partnerközpont menüben, majd válassza az **Azure-használat lehetőséget.**
 
 > [!NOTE]
-> Az Azure-használat elemzése csak a Cloud Solution Provider programban található partnereink számára érhető el.
+> Az Azure-használatelemzés csak a Felhőszolgáltató partnerek számára érhető el.
 
-A következő mérőszámokat követjük nyomon:
+A következő metrikákat követjük nyomon:
 
 ## <a name="summary"></a>Összefoglalás
 
-- **Összes eladott Azure-előfizetés**: a megadott időszakban eladott előfizetések száma  
-- **Használatban lévő ügyfelek**: az Azure-ban használatos ügyfelek száma a megadott időszakban  
-- **Használat nélküli ügyfelek**: az Azure-használat nélküli ügyfelek száma a megadott időszakban  
+- **Összes eladott Azure-előfizetés:** A megadott időszakban eladott előfizetések száma  
+- **Használatban van ügyfelek:** Azon ügyfelek száma, akik Azure-használattal vannak használatban a megadott időszakban  
+- **Használat nélküli ügyfelek:** Azon ügyfelek száma, akik nem azure-beli használatot nem látogatott meg a megadott időszakban  
 
-## <a name="top-5-customers-in-category"></a>Top 5 ügyfél kategóriánként
+## <a name="top-5-customers-in-category"></a>Az első 5 ügyfél a kategóriában
 
-- A megadott kategóriához tartozó első 5 ügyfél  
+- A megadott kategória első 5 ügyfele  
 
-## <a name="azure-subscriptions-at-risk"></a>Kockázatos Azure-előfizetések
+## <a name="azure-subscriptions-at-risk"></a>Veszélyeztetett Azure-előfizetések
 
-Ez a szakasz az Azure-előfizetések előre jelzett változási kockázatát jelzi. Ezeket az információkat a partnerek felhasználhatják az ügyfelekkel való részvételre és a forgalom minimalizálására
+Ez a szakasz az Azure-előfizetések várható adatváltozási kockázatát jelzi. Ezt az információt a partnerek arra használják, hogy kapcsolatba lépjenek az ügyfelekkel, és minimalizálják az adatváltozást
 
 ## <a name="subscriptions-without-usage"></a>Használat nélküli előfizetések
 
-- Az Azure-használatot nem tartalmazó adott előfizetések listája a megadott időszakban  
+- Adott, Azure-használat nélküli előfizetések listája a megadott időszakban  
 
-## <a name="azure-subscription-churn"></a>Azure-előfizetési forgalom
+## <a name="azure-subscription-churn"></a>Azure-előfizetés adatváltozása
 
-- **Aktív előfizetések**: az aktív előfizetések száma dátum szerint  
-- **Felépített előfizetések**: az előfizetett vagy a dátummal felfüggesztett előfizetések száma  
+- **Aktív előfizetések:** Aktív előfizetések száma dátum szerint  
+- **Megszüntetett előfizetések:** Megszüntetett vagy felfüggesztett előfizetések száma dátum szerint  
 
 ## <a name="customer-count"></a>Ügyfelek száma
 
@@ -67,6 +62,6 @@ Ez a szakasz az Azure-előfizetések előre jelzett változási kockázatát jel
 
 - A megújított előfizetések száma.
 
- ## <a name="next-steps"></a>További lépések
+ ## <a name="next-steps"></a>Következő lépések
 
-- [Az Azure-csomag megvásárlása az ügyfelek számára & a legújabb Azure-szolgáltatásokat az utólagos elszámolású díjszabás szerint érheti el](purchase-azure-plan.md)
+- [Azure-csomag vásárlása az & azure-szolgáltatásokhoz való hozzáféréshez használat alapján](purchase-azure-plan.md)

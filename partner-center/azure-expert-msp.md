@@ -4,34 +4,29 @@ ms.topic: article
 ms.date: 07/10/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan kérheti az Azure szakértői felügyelt szolgáltatások szolgáltatói programját más partnerektől való kivonásra és az átirányítási motor legfontosabb prioritásának beszerzésére.
+description: Megtudhatja, hogyan alkalmazhatja a Azure Expert Managed Services Provider programot, hogy kiemelten ismerje meg a többi partnert, és hogyan nyerhet kiemelt prioritást a ajánlási motorban.
 author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 364add7e25052ce97bfb26b84b26c5fcc430637d
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: 45908ef67beaf2f84ae4cddfe11bfdfe8886ab96
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534658"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149808"
 ---
 # <a name="azure-expert-managed-services-provider-program"></a>Az Azure Expert Managed Services Provider program
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Fiók-rendszergazdai | Üzletiprofil-rendszergazdai | Globális rendszergazdai | MPN-partner rendszergazdája
 
-- Fiókadminisztrátor
-- Üzleti profil rendszergazdája
-- Globális rendszergazda
-- MPN-partner rendszergazdája
+Ha a vállalata egy szupersztár az Azure-szolgáltatások ügyfelek számára történő értékesítésében és kezelésében, akkor keresse fel a Azure Expert Managed Services Provider programra. Azure Expert MSP a partnerek egy kizárólagos jelvényt kapnak, amely eltér a többi Microsoft-partnertől, és kiemelt prioritást élveznek a ajánlómotorban. Prioritást élveznek az együttműködési kötelezettségvállaláshoz, támogatást kapnak az új eljárások fejlesztésekor, és kizárólagos eseményeken is részt vehetnek.
 
-Ha a vállalata olyan szupersztár, amely Azure-szolgáltatásokat értékesít és felügyel az ügyfeleknek, tekintse meg az Azure Expert Managed Services Provider programra vonatkozó alkalmazást. Az Azure szakértői MSP-partnereink egy exkluzív jelvényt szereznek, amely megkülönbözteti a többi Microsoft-partnert, és kiemelt prioritást szerez az Ajánlói motorban. Ezek a közös értékesítések esetében elsőbbséget élveznek, és támogatást kapnak az új eljárások kifejlesztéséhez, és kizárólagos eseményekre is felvehetnek.
+Az Azure MSP-hez való alkalmazás megkezdéséhez a bal oldali navigációs sávon. válassza **a Kompetenciák és programok lehetőséget,** majd válassza a **Azure Expert MSP.** További információ az [előfeltételekről és az alkalmazásfolyamatról.](https://partner.microsoft.com/membership/azure-expert-msp) 
 
-Az Azure MSP-re való alkalmazás folyamatának megkezdéséhez a bal oldali NAV-ból. Válassza a **kompetenciák és programok** lehetőséget, majd válassza az **Azure szakértői MSP** elemet. További információ [Az előfeltételekről és az alkalmazási folyamatról](https://partner.microsoft.com/membership/azure-expert-msp). 
+Ha még nem megfelelő, akkor is építheti a Microsoft-partnerkapcsolatot a tagság fejlesztései, képzése és egyéb növekedési lehetőségek révén.
+Megismerheti a vállalkozása és szakértelmének [fejlesztésével kapcsolatos lépéseket.](https://partner.microsoft.com/membership/azure-expert-msp)
 
-Ha még nem rendelkezik jogosultsággal, a Microsoft-partnerséget a tagság továbbfejlesztése, a képzés és más növekedési lehetőségek révén is felépítheti.
-Ismerje meg az [üzleti és szaktudása fejlesztéséhez](https://partner.microsoft.com/membership/azure-expert-msp)szükséges lépéseket.
+## <a name="next-steps"></a>Következő lépések
 
-## <a name="next-steps"></a>További lépések
-
--[További tudnivalók a speciális szakterületekről](advanced-specializations.md)
+-[A speciális specializációk megismerése](advanced-specializations.md)

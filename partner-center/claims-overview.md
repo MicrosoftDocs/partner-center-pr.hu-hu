@@ -1,76 +1,73 @@
 ---
-title: Ösztönzők a Co-op és a jogcímek áttekintéséhez
+title: Ösztönzők – együttműködés és igények áttekintése
 ms.topic: article
 ms.date: 03/10/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
-description: Megtudhatja, hogyan küldhet be az ösztönzőkhöz sikeres Co-op-jogcímeket a megfelelő dokumentáció, számlák, utasítások és végrehajtás igazolásának megszervezésével.
+description: Megtudhatja, hogyan küldheti be az ösztönzőkre vonatkozó sikeres együttműködési igényt a megfelelő dokumentáció, számlák, utasítások és a végrehajtás igazolásának rendszerezésével.
 author: kaushikgMSFT
 ms.author: kaushikg
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
-ms.openlocfilehash: 99098b49ded4808edfd4ee895565d1563c52675a
-ms.sourcegitcommit: 868f90c54f26a037eee29749c207a7316bb4b475
+ms.openlocfilehash: 5e5f8000032fa09d7752f8c6206325630b995b63
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "103022706"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148720"
 ---
-# <a name="earn-cooperative-marketing-funds"></a>Kooperatív marketing-alapok beszerzése
+# <a name="earn-cooperative-marketing-funds"></a>Bevétel a marketingben
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
-- Ösztönzők rendszergazdája
-- Ösztönzők felhasználója
+A marketinges (együttműködési) források olyan források, amelyek a Microsoft ösztönzőprogramjai révén szereznek igénylést a Microsoft terméktudatosságát támogató tevékenységekért. Ösztönzőprogramok például a Felhőszolgáltató, a felügyelt viszonteladó, az üzemeltetés és a Surface.
 
-A szövetkezeti marketing (co-op) alapok a Microsoft ösztönző programjain keresztül szerzett források, a Microsoft-termékekkel kapcsolatos ismereteket támogató tevékenységek visszatérítésének igénylésével. Példák az ösztönző programokra: felhőalapú megoldás-szolgáltató, felügyelt viszonteladó, üzemeltetés és felület.
+Az együttműködési források lehetővé teszik olyan marketingtevékenységek levezetését, amelyek növelik a márka ismertségét és az értékesítési folyamatok növekedését. Az együttműködési összegeket olyan tevékenységekbe fektetheti, amelyek elősegítik a készenlétet, specializációkat fejleszt, vagy Microsoft-minősítéseket keresnek – olyan tevékenységeket, amelyek elősegítik a célzott megoldási gyakorlatokat és a kiválósági központokat.
 
-A Co-op-alapok lehetővé teszik olyan marketing tevékenységek elvégzését, amelyek növelik a márka ismertségét, és az értékesítési folyamat növekedését eredményezik. Co-op-forrásokat is megadhat a tevékenységekben a készültség elősegítése, a specializációk fejlesztése vagy a Microsoft minősítések elérése érdekében – a célzott megoldási gyakorlatokat és kiválósági központokat előmozdító tevékenységek.
-
-További információt a [Co-op-alapok erőforrásairól](https://partner.microsoft.com/asset/collection/co-op-funds-resources#/) szóló oldalon olvashat.
+További információt az Együttműködési források [oldalon olvashat.](https://partner.microsoft.com/asset/collection/co-op-funds-resources#/)
 
 >[!Important]
->A Co-op jogcímek nem vonatkoznak az online szolgáltatások tanácsadó (OSA) értékesítésére, az online szolgáltatások használatára (OSU) – Microsoft 365 és OSU-Business alkalmazás-ösztönző programokra. Ha a következő programok valamelyikére vonatkozó jogcímet szeretne elküldeni, tekintse meg [az ügyfelek Associearation létrehozása a CPOR modell használatával](submit-osa-claim.md)című témakört.
+>Az együttműködési igények nem vonatkoznak az Online Services Tanácsadás (OSA) értékesítésre, az online szolgáltatások használatára (OSU)-Microsoft 365 és az OSU-Business alkalmazásösztönző programokra. Az egyik ilyen programra vonatkozó igénylés elküldését lásd: [Ügyfél-társítás létrehozása a CPOR-modell használatával.](submit-osa-claim.md)
 
-## <a name="how-co-op-funds-are-calculated"></a>A Co-op-alapok kiszámításának módja
+## <a name="how-co-op-funds-are-calculated"></a>Az együttműködési források kiszámításának módja
 
-A Microsoft kiszámítja a jogosult ösztönző jövedelmet a felosztott százalékos arány (például 60%-os kedvezmény – 40% Co-op) használatával. Az engedményt az egyéni program meglévő kilépési lépésszám használatával kapja meg, a Microsoft pedig az ösztönző jövedelmek együttes op részét fogja felvenni.
+A Microsoft a jogosult ösztönző bevételeit százalékos felosztás alapján számítja ki (például 60%-os arány – 40%-os együttműködés). A teljes részt az egyéni program meglévő fizetési üteme alapján kapja meg, míg a Microsoft fel fogja használni az ösztönző bevételek együttműködési részét.
 
-A kifizethető lépésszám és a felosztott százalékos arány az ösztönző program útmutatójában olvasható. [Ez az eljárás](incentives-determined-your-program-eligibility.md) használható a programhoz tartozó útmutató eléréséhez.
+A fizetési ütemről és a százalékos arány felosztásról az ösztönzőprogram útmutatójában olvashat bővebben. Ezzel [az eljárással férhet](incentives-determined-your-program-eligibility.md) hozzá a program útmutatóhoz.
 
 >[!NOTE]
->Ha a Co-op-keresetek a Co-op jövedelemszerzési időszakban a küszöbérték alatt vannak, a Co-op-bevétel a félév végén lévő visszatérítésre lesz konvertálva. További részletekért vagy a küszöbérték meghatározásához tekintse meg az ösztönző program útmutatóját.
+>Ha az együttműködési bevételek az együttműködési bevételi időszakban a küszöbérték alatt vannak, az együttműködési bevételek a kiesés végén kápának lesznek konvertálva. További részletekért vagy a küszöbérték meghatározásáért tekintse meg az ösztönzőprogram útmutatóját.
 
-## <a name="when-to-claim-your-funds"></a>Mikor kell igényelni a forrásokat
+## <a name="when-to-claim-your-funds"></a>Mikor kell igényelni az összeget?
 
-A Co-op-alapok idővonala 2 6 hónapos időszakokra, H1-re és H2-re van osztva. (A "H" a pénzügyi félévre áll.)
+Az együttműködési alapok ütemterve két hat hónapos időszakra oszlik: H1 és H2. (A "H" a pénzügyi félévet jelenti.)
 
-- A H1 a pénzügyi év első felében, július 1-től december 31-ig tart.
-- A H2 a pénzügyi év második fele, január 1-től 30-ig tart.
+- A H1 a pénzügyi év első fele, július 1-től december 31-ig.
+- A H2 a pénzügyi év második fele, január 1-től június 30-ig.
 
-A hat hónapos időszak, amely alatt a bevételeket felhalmozták, a **jövedelemszerzési időszak** lesz. Ezeket a bevételeket a következő hat hónapos **használati időszak** során egy ponton kell használnia. Ha nem használja a bevételeit a használati időszak végén, akkor elvész. A **lekérési időszak** az a hat hónapos időszak, amely alatt az ösztönző program tevékenységeire vonatkozó költségtérítés igényelhető.
+A bevételeket felhalmozott hat hónapos időszak lesz **a bevételi időszak.** Ezeket a bevételeket a következő hat hónap használatának egy pontján **kell használnia.** Ha a használati időszak végéig nem használja fel a bevételeket, azok elvesznek. A **igénylés időtartama** az a hat hónapos időszak, amely alatt igényt tartathat az ösztönzőprogram tevékenységeire.
 
-Az alábbi táblázat a különböző jövedelemszerzési, használati és igénylési időszakokat mutatja be. Ha másként nincs jelezve, az időszakok az első hónap első napjától az utolsó hónap utolsó napjáig terjednek ki.
+Az alábbi táblázat a különböző bevételi, használati és igénylési időszakokat mutatja be. Ha másként nincs jelezve, az időszakok az első hónap első naptól az utolsó hónap utolsó napjára terjednek.
 
-|  Ha a jövedelemszerzési/felhalmozás időtartama  |Az Ön pénzügyi félévi időszaka:  |  A használati időszak  |  Az igénylés időtartama  |
+|  Ha a bevételi/eredményi időszak  |A pénzügyi féléves időszak a következő:  |  A használati időszak:  |  A jogcím-igénylési időszak:  |
 | :-----------: | :-----------: | :-----------: | :-----------: |
-|**Július-Dec 2020**| FY21 H1  |  Január – június 2021  |  Február 16 – augusztus 15 2021  |
-|**Január – június 2021** |  FY21 H2  |  Július-Dec 2021  |  Augusztus 16 2021 – Feb 15 2022  |
-|**Július-Dec 2021**|  FY22 H1  |  Január – június 2022  |  Február 16 – augusztus 15 2022  |
-|**Január – június 2022** |  FY22 H2  |  Július-Dec 2022  |  Augusztus 16 2022 – Feb 15 2023  |
+|**2020. július – dec.**| FY21 H1  |  2021. január – június  |  2021. február 16. – 2021. augusztus 15.  |
+|**2021. január – június** |  FY21 H2  |  2021. július – dec.  |  2021. aug. 16. – 2022. február 15.  |
+|**2021. július – dec.**|  FY22 H1  |  2022. január – június  |  2022. február 16. – 2022. augusztus 15.  |
+|**2022. január – június** |  FY22 H2  |  2022. július – dec.  |  2022. aug. 16. – 2023. február 15.  |
 
 >[!NOTE]
->A Microsoft fenntartja a jogot arra, hogy eredeti igazolási (PoE) dokumentumokat kérjen. Az összes eredeti dokumentumot a tevékenység dátumát követő 24 hónapig kell megőrizni.
+>A Microsoft fenntartja a jogot az eredeti végrehajtási igazolás (PoE) dokumentumainak igénylésére. Az összes eredeti dokumentumot a tevékenység dátumát követően 24 hónapig meg kell tartania.
 
-A következő források segítséget nyújtanak a Co-op jogcímek használatának megkezdésében.
+Az alábbi források segítenek az együttműködési jogcímek elkezdésében.
 
 | Cél | Olvassa el ezt |
 | ------ | ----------- |
-| Jogcím beküldése |  [Ösztönző program létrehozása és kezelése Co-op-jogcím](create-incentives-claims.md)  |
-| Elküldött jogcím kezelése | [Ösztönző program létrehozása és kezelése Co-op-jogcím](create-incentives-claims.md)    |
-| A tevékenységi jogcímek alapvető követelményeinek ismertetése | [Az ösztönző program tevékenységeire vonatkozó alapvető követelmények](core-requirements.md)   |
-| Az ösztönző program részleteinek áttekintése | [Partneri ösztönzők – Co-op útikönyv](https://assetsprod.microsoft.com/co-op-guidebook.pdf)  |
-| Ügyfél-hozzárendelés létrehozása és jogcím elküldése | [Ügyfél-hozzárendelés létrehozása a CPOR-modell használatával](submit-osa-claim.md)   |
+| Jogcím elküldése |  [Ösztönzőprogram együttműködési igényének létrehozása és kezelése](create-incentives-claims.md)  |
+| Elküldött jogcím kezelése | [Ösztönzőprogram együttműködési igényének létrehozása és kezelése](create-incentives-claims.md)    |
+| A tevékenységigénylés alapvető követelményeinek | [Az ösztönzőprogramban végzett tevékenységek alapvető követelményei](core-requirements.md)   |
+| Az ösztönzőprogram részleteinek áttekintése | [Partneri ösztönzők együttműködési útmutatója](https://assetsprod.microsoft.com/co-op-guidebook.pdf)  |
+| Ügyfél-társítás létrehozása és igénylés elküldése | [Ügyfél-társítás létrehozása a CPOR-modell használatával](submit-osa-claim.md)   |
 
 ## <a name="next-steps"></a>Következő lépések
 

@@ -11,12 +11,12 @@ ms.custom:
 - references_regions
 ms.localizationpriority: high
 ms.date: 04/29/2021
-ms.openlocfilehash: 798dcb1570a0f6dfc94c7b45fc3c2e152f55cbe5
-ms.sourcegitcommit: 22e257d5b334ca8d3fc072f59010a508e1022694
+ms.openlocfilehash: 13b8ec9ddd82b38a265606809b8c39c07436e548
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108702824"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150131"
 ---
 # <a name="april-2021-announcements"></a>2021. áprilisi közlemények
 
@@ -49,12 +49,12 @@ A válasz a következő állapotüzenetek egyikét adja vissza:
 |-------|---------------|-------------------|
 |Ellenőrzött szállításra használható | A cím ellenőrizve van, és szállítható a címre. | Egyirányú |
 |Ellenőrzött | A cím ellenőrizve van. | Egyirányú |
-|Beavatkozás szükséges | A javasolt cím jelentős mértékben módosult, és felhasználói megerősítést kér. | Egyirányú |
+|Beavatkozás szükséges | A javasolt cím jelentős mértékben módosult, és a felhasználó megerősítését kell kér. | Egyirányú |
 |Utca részleges | A címben megadott utca részleges, és további információra van szüksége. | Többszörös – legfeljebb három |
 |Részleges helyszín | Az adott helyszín (épületszám, csomagszám stb.) részleges, és további információra van szüksége. | Többszörös – legfeljebb három |
 |Többszörös | Több mező is részleges a címben (beleértve az utca részleges és a helyszíni részleges mezőket is). | Többszörös – legfeljebb három |
-|Nincsenek | A cím helytelen. | Nincsenek |
-|Nincs ellenőrizve. | A cím nem lett elküldve az érvényesítési folyamaton keresztül. | Nincsenek |
+|None | A cím helytelen. | None |
+|Nincs ellenőrizve. | A cím nem lett elküldve az érvényesítési folyamaton keresztül. | None |
 
 Az USA-nak az irányítószámai további négy számjegyet és kötőjelet fognak visszaadni, például: 12345-6789.
 
@@ -79,19 +79,19 @@ _______________
 
 ### <a name="summary"></a>Összefoglalás
 
-Partnerközpont API Swagger-dokumentumok migrálva vannak az előző [Swagger-dokumentációs webhelyről](https://apidocs.microsoft.com/services/partnercenter) egy új [Swagger-dokumentációs webhelyre.](https://docs.microsoft.com/rest/api/partner-center-rest/)
+Partnerközpont API Swagger-dokumentumok migrálva vannak az előző [Swagger-dokumentációs webhelyről](https://apidocs.microsoft.com/services/partnercenter) egy új [Swagger-dokumentációs webhelyre.](/rest/api/partner-center-rest/)
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
-Az Felhőszolgáltató (CSP) programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók, akik az Partnerközpont API-kat
+A Felhőszolgáltató (CSP) programban részt vevő közvetlen számlázási partnerek és közvetett szolgáltatók, akik az Partnerközpont API-kat
 
 ### <a name="details"></a>Részletek
 
-2021. április 26-tól az Partnerközpont API Swagger dokumentációja, beleértve a REST API-tartalmakat, egy új [webhelyen található.](https://docs.microsoft.com/rest/api/partner-center-rest/) A régi hely néhány hét után elérhetetlen lesz.
+2021. április 26-tól az Partnerközpont API Swagger dokumentációja, beleértve a REST API-tartalmakat is, egy új [webhelyen található.](/rest/api/partner-center-rest/) A régi hely néhány hét után elérhetetlen lesz.
 
 ### <a name="benefits"></a>Előnyök
 
-A Partnerközpont API Swagger dokumentációja egy **Try It függvényt biztosít.** A függvény csak akkor használható, ha rendelkezik egy Bearer Token jogkivonattal, amelyet a hitelesítést Partnerközpont követve hozhat [létre.](https://docs.microsoft.com/partner-center/develop/partner-center-authentication#app--user-authentication)
+A Partnerközpont API Swagger dokumentációja egy **Try It függvényt biztosít.** A függvény csak akkor használható, ha rendelkezik egy Bearer Token jogkivonattal, amelyet a hitelesítést Partnerközpont követve hozhat [létre.](/partner-center/develop/partner-center-authentication#app--user-authentication)
 
 ### <a name="next-steps"></a>Következő lépések
 
@@ -127,7 +127,7 @@ Vegye figyelembe a következő fontos értesítéseket a szoftver- és szoftver-
 
 A szoftverajánlatra vonatkozó megrendelés elküldése után a partnereknek a megrendelés dátumát követően 30 nap áll a 30 napra, hogy bármely változatot elküldje az adott rendelésre:
 
-- A 30 napos visszatérési időszakon belül visszaadott minden állandó szoftverlicenc a fizetős vásárlási ár teljes jóváírását kapja meg.
+- A 30 napos visszatérési időszakban visszaadott minden állandó szoftverlicenc teljes jóváírást kap a fizetős vásárlási árról.
 
 - A 30 napos visszatérési időszakban visszaadott szoftver-előfizetési termékek a fizetős vásárlási ár időkorreklott jóváírását kapják meg.
 
@@ -155,7 +155,7 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-Ez a kommunikáció részletesen bemutatja, hogyan készül fel a hamarosan a nyílt licencelési programba érkező változásokra.
+Ez a kommunikáció részletesen bemutatja, hogyan készül fel a hamarosan a nyílt licencelési program módosításaira.
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
@@ -218,7 +218,7 @@ ________________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-04-16
+- Dátum: 2021.04. 16.
 - Képességek
 
 ### <a name="summary"></a>Összefoglalás
@@ -231,7 +231,7 @@ Minden mennyiségi licencelési (VL), Dynamics Price List- (DPL-) és Felhőszol
 
 ### <a name="details"></a>Részletek
 
-A Microsoft partnerei megosztották velünk, hogy az összes globális promócióról összevont nézetet kell biztosítani támogató részletekkel. Ezt az összevont útmutatót úgy szerette volna használni, hogy az előléptetések abban a biztos tudatában legyenek, hogy az összes elérhető információ könnyen elérhető lesz egy központi és kényelmes helyen.
+A Microsoft partnerei megosztották velünk, hogy az összes globális promócióról összevont nézetet kell biztosítani támogató részletekkel. Ezt az összevont útmutatót úgy szerette volna használni, hogy az előléptetések abban a biztosban legyenek, hogy az összes elérhető információ könnyen elérhető lesz egy központi és kényelmes helyen.
 
 2021 áprilisában a Microsoft havonta frissíti ezt az útmutatót, és elérhető lesz egy dedikált Global Promóciós készenlét útmutató gyűjteményben az Operations Readiness erőforrás-katalógusban.
 
@@ -261,7 +261,7 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-A CSP közösségi erőforrásai igény szerint és havonta frissítve érhetők el, hogy naprakész és felkészült legyen a CSP-programban való változásra.
+A CSP közösségi erőforrásai igény szerint és havonta frissítve érhetők el, hogy naprakészen és felkészülve legyen a CSP-program változási lehetőségére.
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
@@ -291,7 +291,7 @@ A [CSP-közösséggyűjteményben](https://partner.microsoft.com/resources/colle
 
 #### <a name="csp-community-call-qas"></a>CSP Community Call Q&As
 
-Community Call Q&Mint elérhető, amely segít a közelgő változásokkal kapcsolatos kérdésekben. Regisztráljon most a CSP Community Call Q&Az áprilisban, májusban és júniusban sorra kerül. Ezek a legújabb indításokkal, fontos frissítésekkel és emlékeztetőkvel fognak összpontosítani.
+Community Call Q&Mint elérhető, amely segít a közelgő változásokkal kapcsolatos kérdésekben. Regisztráljon most a CSP community Call Q&Az áprilisban, májusban és júniusban sorra kerül. Ezek a legújabb indításokkal, fontos frissítésekkel és emlékeztetőkvel fognak összpontosítani.
 
 [Regisztráljon itt.](https://globalpbocomm.eventbuilder.com/GlobalCSP)
 
@@ -299,7 +299,7 @@ Community Call Q&Mint elérhető, amely segít a közelgő változásokkal kapcs
 
 Tekintse át a közösségi erőforrásokat, és regisztráljon a Community Call Q&A-re.
 
-Annak érdekében, hogy a lehető legtöbbet hozhatja ki a Community Call Q&A-ból, tekintse át az igény szerinti közösségi tartalmat, és küldje el kérdéseit a hívás előtt legfeljebb 48 órával.
+Annak érdekében, hogy a lehető legtöbbet tudja kihozni a Community Call Q&A-ból, tekintse át az igény szerinti közösségi tartalmat, és küldje el kérdéseit a hívás előtt legfeljebb 48 órával.
 
 ### <a name="questions"></a>Kérdése van?
 
@@ -308,7 +308,7 @@ A CSP-közösség havi Call Q&A a legjobb hely a CSP-program változásaival kap
 További információért forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?category=csp)
 
 ________________
-## <a name="final-reminder-deprecation-of-get-qualification-on-may-6-2021"></a><a name="4"></a>Utolsó emlékeztető: A GET minősítés elalasztása 2021. május 6-án
+## <a name="final-reminder-deprecation-of-get-qualification-on-may-6-2021"></a><a name="4"></a>Utolsó emlékeztető: GET-minősítés elalasztása 2021. május 6-án
 
 ### <a name="categories"></a>Kategóriák
 
@@ -322,7 +322,7 @@ Academic, Nonprofit és Government Community Cloud (GCC) ajánlatokat értékes�
 
 ### <a name="details"></a>Részletek
 
-Ez a közlemény a decemberben megjelent Partnerközpont [követő fejlesztéseket követi.](https://docs.microsoft.com/partner-center/announcements/2020-december#1) Ennek a kiadásnak a részeként új GET és POST Minősítési API-kat helyezett üzembe, ezért a meglévő GET-minősítést **2021. május 6-án kivezetjük.** Erre az időszakra át kell tért az új POST Partnerközpont API-kra. Az új POST API-k lehetővé teszik oktatási ajánlatok vásárlását, az új GET API-k pedig lehetővé teszik, hogy előre minősített Nonprofit és GCC-ajánlatokat vásároljon.
+Ez a közlemény a decemberben megjelent Partnerközpont [követő fejlesztéseket követi.](./2020-december.md#1) Ennek a kiadásnak a részeként új GET és POST Qualifications API-kat helyezett üzembe, ezért a meglévő GET-minősítést **2021. május 6-án kivezetjük.** Erre az időszakra át kell tért az új POST Partnerközpont API-kra. Az új POST API-k lehetővé teszik az Oktatási ajánlatok megvásárlását, az új GET API-k pedig lehetővé teszik, hogy előre minősített nonprofit és GCC-ajánlatokat vásároljon.
 
 ### <a name="next-steps"></a>Következő lépések
 
@@ -334,11 +334,11 @@ Ez a közlemény a decemberben megjelent Partnerközpont [követő fejlesztések
 
 ### <a name="questions"></a>Kérdése van?
 
-Az értesítéssel kapcsolatos kérdéseit a támogatási [Partnerközpont meg.](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals)
+Az értesítéssel kapcsolatos kérdésekért lépjen kapcsolatba a [Partnerközpont ügyfélszolgálatával.](https://partner.microsoft.com/dashboard/support/referrals/servicerequests?category=referrals)
 
 ### <a name="change-log"></a>Változási napló
 
-- 2021. május 4.: A GET-minősítés hamarosan elalasztott változatának végleges emlékeztetője
+- 2021. május 4.: Utolsó emlékeztető a GET-minősítés hamarosan elalasztásról
 
 - 2021. április 9.: Emlékeztető a GET-minősítés hamarosan elalasztásról 
 
@@ -384,16 +384,16 @@ A következő elemekre ez nem lesz hatással:
 
 - Meglévő számlázási API-k
 
-- Egyeztetési fájlok (a recon-fájlok a részletes adatok leolvasására használhatók.) 
+- Egyeztetési fájlok (a részletes adatok lekért Recon-fájlokkal is lekért fájlok.) 
 
 - Használati és licencalapú díjak számlái
 
 ### <a name="next-steps"></a>Következő lépések
 
-Tekintse át a témakörrel kapcsolatos információkat a Microsoft partner [webhelyének Operations Readiness erőforrás-katalógusában.](https://partner.microsoft.com/resources/collection/introducing-new-format-for-the-new-commerce-invoice-in-csp#/) A számlázási és adózási témakörökről, például a számlázási erőforrásokról, a [](https://docs.microsoft.com/partner-center/billing) számlákról, a CSP-számlázásról és az adókról további információt a számlázással kapcsolatos szakaszban Partnerközpont.
+Tekintse át a témakörrel kapcsolatos információkat a Microsoft partner [webhelyének Operations Readiness](https://partner.microsoft.com/resources/collection/introducing-new-format-for-the-new-commerce-invoice-in-csp#/) erőforrás-katalógusában. A számlázási és adózási témakörökről , például a számlázási erőforrásokról, a [](../billing.md) számlákról, a CSP-számlázásról és az adókkal kapcsolatos további információkért látogasson el a Számlázás szakaszra a Partnerközpont.
 
 ________________
-## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="2"></a>A Felhőszolgáltató (CSP) ügyfélbehozatali követelményeinek változásai
+## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="2"></a>A Felhőszolgáltató (CSP) ügyfélbe való beiratalozási követelményeinek változásai
 
 ### <a name="categories"></a>Kategóriák
 
@@ -402,15 +402,15 @@ ________________
 
 ### <a name="summary"></a>Összefoglalás
 
-Elkötelezettségünk részeként, hogy segítsünk a partnereknek és az ügyfeleknek a bizalom alapján futtatni a munkájukat, további ügyféladatokat kérünk 2021. március 25-ig.
+Elkötelezettségünk részeként, hogy segítsünk a partnereknek és az ügyfeleknek a bizalmi kapcsolaton alapuló üzleti tevékenységben, további ügyféladatokat kérünk 2021. március 25-ig.
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
-Közvetlen csp-számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel vannak a következő szakaszban felsorolt országokban
+CsP közvetlen számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel vannak a következő szakaszban felsorolt országokban
 
 ### <a name="details"></a>Részletek
 
-A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos ügyfél-ellenőrzési módszert biztosítsunk az ügyfél-előfizetések tranzakciója során a CSP-programban. 2021. március 25-én bevezetünk egy API- és felhasználói felületi (UI) fejlesztéseket Partnerközpont, amelyek hatással lesznek az alábbi két feltételnek megfelelő partnerekre:
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos ügyfél-ellenőrzési módszert biztosítsunk az ügyfél-előfizetések tranzakciós folyamatához a CSP-programban. 2021. március 25-én bevezetünk egy API- és felhasználói felületi (UI) fejlesztéseket Partnerközpont, amelyek hatással lesznek az alábbi két feltételnek megfelelő partnerekre:
 
 - A partner közvetlen számlázási kapcsolattal rendelkezik a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlázási partner vagy közvetett szolgáltató).
 
@@ -434,7 +434,7 @@ A feltételeknek megfelelő partnereknek be kell majd nyújtaniuk az ügyfél c�
 
 Vegye figyelembe, hogy a céges regisztrációs azonosító hozzáadásakor az üzleti adóazonosítót kell használnia, nem az ügyfél személyes azonosítóját.
 
-Azok a partnerek, akik az alábbi országokban lévő új vagy meglévő ügyfelekkel üzleti partnereket hoznak létre, már elő vannak útjára 2020 novemberében egy korábbi kiadással.
+Azok a partnerek, akik az alábbi országokban lévő új vagy meglévő ügyfelekkel üzleti partnereket hoznak létre, már elő vannak hozva egy korábbi kiadással 2020 novemberében.
 
 - Örményország
 - Azerbajdzsán
@@ -448,18 +448,18 @@ Azok a partnerek, akik az alábbi országokban lévő új vagy meglévő ügyfel
 - Ukrajna
 - Üzbegisztán
 
-A világ többi részén az ügyfelekkel való partneri együttműködés 2021. március végén opcionálisan meg tudja majd adnia az ügyfelek céges regisztrációs azonosítóját, telefonszámát és középső nevét.
+A 2021. március végén az ügyfelekkel a világ többi részén partnerekkel is lehetősége lesz megadni a céges regisztrációs azonosítót, a telefonszámot és a középső nevet igény szerint.
 
 ### <a name="next-steps"></a>Következő lépések
 
-- Részletesebb útmutatásért tekintse át a műszaki dokumentációt és a dedikált [partnergyűjtemény](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) gyakori kérdéseit.
-- Készüljön fel a módosítások beépítése Partnerközpont API és a webes felhasználói felület használatával. Az API/SDK-k elérhetők lesznek a teszteléshez.
-- A további adatokat mindenképpen el kell küldenünk az új ügyfelek előtt, vagy a meglévő ügyféladatok módosításakor.
-- Ha vezérlőpult-szállító (CPV) megoldást használ, tekintse meg a CPV-t.
+- Részletesebb útmutatásért tekintse át a műszaki dokumentációt és a dedikált [partnergyűjteményben](https://partner.microsoft.com/resources/collection/additionalfields-csp-customers-selected-geos#/) található gyakori kérdéseket.
+- Készüljön fel arra, hogy a módosításokat az API Partnerközpont webes felhasználói felület használatával építse be. Az API/SDK-k elérhetők lesznek a teszteléshez.
+- Az új ügyfelek be- vagy módosításakor küldje el a további adatokat.
+- Ha vezérlőpult-szállítói (CPV) megoldást használ, tekintse meg a CPV-t.
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha kérdése van a vállalat regisztrációs azonosítójával (más néven INN vagy TIN) kapcsolatban, lépjen kapcsolatba az adótanácsadóval vagy a helyi adóhivatalsal. A Microsoft nem tud útmutatást nyújtani az adózási kérdésekkel kapcsolatban.
+Ha bármilyen kérdése van a vállalat regisztrációs azonosítójával (más néven INN-rel vagy TIN-rel) kapcsolatban, lépjen kapcsolatba az adótanácsadójával vagy a helyi adóiroda segítségével. A Microsoft nem tud útmutatást nyújtani az adózási kérdésekkel kapcsolatban.
 
 Ha támogatásra van szüksége a Microsofttal kapcsolatos műveleteihez, nyisson meg egy [szolgáltatáskérést.](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=2&topicid=aa679372-d996-73df-e244-cb28bbbf28e8)
 
@@ -467,12 +467,12 @@ Ha támogatásra van szüksége a Microsofttal kapcsolatos műveleteihez, nyisso
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2021-04-01
+- Dátum: 2021.04. 01.
 - Képességek
  
 ### <a name="summary"></a>Összefoglalás
 
-Közzétették a 2021. áprilisi termékindítási naptárt.
+Megjelent a 2021. áprilisi termékindítási naptár.
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
@@ -480,7 +480,7 @@ Az összes partner, aki a Felhőszolgáltató (CSP) programon keresztül megy ke
 
 ### <a name="details"></a>Részletek
 
-A 2021. [áprilisi](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) termékindítási naptár már elérhető az Üzemeltetési készenlét erőforrás-katalógusban. A közelgő termékindításokat és -ajánlatokat itt megtekintheti.
+A 2021. áprilisi termékindítási [naptár](https://partner.microsoft.com/resources/collection/product-launch-calendar-collection#/) már elérhető az Operations Readiness erőforrás-katalógusban. A következő termékbelövéseket és -ajánlatokat itt megtekintheti.
 
 ### <a name="next-steps"></a>Következő lépések
 

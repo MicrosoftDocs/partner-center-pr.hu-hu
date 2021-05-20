@@ -1,81 +1,76 @@
 ---
-title: Számlázási licenc alapú SaaS-tranzakciók
+title: Számlázás – licencalapú SaaS-tranzakciók
 ms.topic: article
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg az általános számlázási forgatókönyveket a partnervállalat licencelési, szoftveres (SaaS) tranzakciói esetében.
+description: Ismerje meg a licencalapú Partnerközpont saaS-tranzakciókra vonatkozó gyakori számlázási forgatókönyveket.
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: e317cb58e9ebf4b0efad2933f866d5db19d8dc1a
-ms.sourcegitcommit: 3d7d5064c5e021079ed7e6f93f03869cbf425a32
+ms.openlocfilehash: 764d5a3cb0dc6f409e5272d4119424396caff53b
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "106502463"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148635"
 ---
-# <a name="common-billing-scenarios-for-license-based-saas-transactions-in-partner-center"></a>Általános számlázási forgatókönyvek a fiókpartner licenc alapú SaaS-tranzakciói esetén
+# <a name="common-billing-scenarios-for-license-based-saas-transactions-in-partner-center"></a>Gyakori számlázási forgatókönyvek licencalapú SaaS-tranzakciókhoz a Partnerközpont
 
-**Megfelelő szerepkörök**
-
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Az | Értékesítési ügynök
 
 
-Ezek a [gyakori számlázási forgatókönyvek](common-billing-scenarios.md) a fiókpartner szolgáltatásként (SaaS) való előfizetésekre érvényesek.
+Ezek a [gyakori számlázási forgatókönyvek](common-billing-scenarios.md) a licencalapú szolgáltatott szoftver (SaaS) előfizetésére vonatkoznak a Partnerközpont.
 
-## <a name="convert-a-free-trial-saas-subscription-to-a-paid-subscription"></a>Ingyenes próbaverziós SaaS-előfizetés átalakítása fizetős előfizetésre
+## <a name="convert-a-free-trial-saas-subscription-to-a-paid-subscription"></a>Ingyenes próba SaaS-előfizetés konvertálása fizetős előfizetésre
 
-Ez a forgatókönyv a licenc-alapú ingyenes próbaverziós SaaS-előfizetés megújítására vonatkozó számlázást ismerteti. A megújítás az ingyenes próbaidőszak végén átalakítja az ingyenes próbaverziót egy fizetős előfizetésre.
+Ez a forgatókönyv a licencalapú ingyenes próba SaaS-előfizetés megújításának számlázását ismerteti. A megújítás az ingyenes próbaidőszak végén fizetős előfizetésre konvertálja az ingyenes próbaverziót.
 
-Ebben a példában a licenc-alapú SaaS (szoftveres szolgáltatás) előfizetésének ingyenes próbaverzióját vásárolta, június 10-én. Ez az ingyenes próbaverzió automatikusan megújítva fizetett előfizetésként az ingyenes próbaidőszak lejárta után.
+Ebben a példában egy licencalapú SaaS- (szolgáltatott szoftver) előfizetés ingyenes próbaverzióját vásárolta meg június 10-én. Az ingyenes próbaidőszak végén az ingyenes próbaverzió automatikusan megújul fizetős előfizetésként.
 
-A Recon-fájlok a következő díjakat tartalmazzák:
+A felderítési fájlok a következő díjakat tartalmazzák:
 
-| Vásárlás dátuma | Díj kezdő dátuma | Díj befejezési dátuma | Egységár | Egység mennyisége | Teljes összeg | Díj típusa | Előfizetés leírása |
+| Vásárlás dátuma | Díj kezdő dátuma | Díj záró dátuma | Egységár | Egységmennyiség | Teljes összeg | Díj típusa | Előfizetés leírása |
 | ------------- | ----------------- | --------------- | ---------- | ------------- | ------------ | ----------- | ----------------- |
 | 06/10/2019 | 06/10/2019 | 07/09/2019 | 0 USD | 1 | 0 USD | Új | Ingyenes próbaidőszak |
-| 07/10/2019 | 07/10/2019 | 08/09/2019 | $2 | 1 | $2 | Frissítés | Fizetős előfizetés |
+| 07/10/2019 | 07/10/2019 | 08/09/2019 | 2 USD | 1 | 2 USD | Frissítés | Fizetős előfizetés |
 
-## <a name="cancel-a-free-trial-saas-subscription"></a>Ingyenes próbaverziós SaaS-előfizetés megszakítása
+## <a name="cancel-a-free-trial-saas-subscription"></a>Ingyenes próba SaaS-előfizetés lemondása
 
 > [!TIP]
-> A licenc-alapú ingyenes próbaverziós SaaS-előfizetés bármikor lemondható, még az ingyenes próbaidőszak során is.
+> A licencalapú ingyenes SaaS-próbaverziós előfizetést bármikor lemondhatja, még az ingyenes próbaidőszak alatt is.
 
-Ebben a forgatókönyvben egy licenccel rendelkező ingyenes próbaverziós SaaS-előfizetést vásárolt július 1-jén, majd azonnal megszakították a partner Centerben.
+Ebben a forgatókönyvben július 1-én vásárolt egy licencalapú ingyenes Próba SaaS-előfizetést, majd azonnal megszakította azt a Partnerközpont.
 
-A Recon-fájl a következő díjakat fogja tartalmazni:
+A felderítési fájl a következő díjakat tartalmazza:
 
-| Vásárlás dátuma | Díj kezdő dátuma | Díj befejezési dátuma | Egységár | Egység mennyisége | Teljes összeg | Díj típusa | Előfizetés leírása |
+| Vásárlás dátuma | Díj kezdő dátuma | Díj záró dátuma | Egységár | Egységmennyiség | Teljes összeg | Díj típusa | Előfizetés leírása |
 | ------------- | ----------------- | --------------- | ---------- | ------------- | ------------ | ----------- | ----------------- |
 | 06/10/2019 | 06/10/2019 | 07/09/2019 | 0 USD | 11 | 0 USD | Új | Ingyenes próbaidőszak |
 | 06/10/2019 | 06/10/2019 | 07/09/2019 | 0 USD | 11 | 0 USD | Mégse | Ingyenes próbaidőszak |
 
-## <a name="convert-custom-meter-saas-subscription-to-another-sku"></a>Egyéni fogyasztásmérő SaaS-előfizetés átalakítása másik SKU-ra
+## <a name="convert-custom-meter-saas-subscription-to-another-sku"></a>Egyéni fogyasztásmérő SaaS-előfizetésének konvertálása másik termékváltozatra
 
-Ez a forgatókönyv azt ismerteti, hogyan alakíthat át egy egyéni fogyasztásmérő SaaS-előfizetést egy adott készletet tartalmazó egységből egy másik SKU-ra ugyanarra a termékre vonatkozóan ugyanazon a napon.
+Ez a forgatókönyv azt ismerteti, hogyan alakítható át egy egyéni fogyasztásmérő SaaS-előfizetése egy készleten található egységről (SKU) egy másik termékváltozatra ugyanazon a terméken ugyanazon a napon.
 
-Ebben a forgatókönyvben egy termék keretében vásárolt egy SKU-t (Silver), és átalakította egy másik elérhető SKU-ra (Bronzra) a termék keretében ugyanezen a napon belül.
+Ebben a forgatókönyvben megvásárolt egy termékváltozatot (ezüstöt) egy termék alatt, és ugyanezen a napon konvertálta egy másik elérhető termékváltozatra (bronz).
 
-A Recon-fájl a következő díjakat fogja tartalmazni:
+A felderítési fájl a következő díjakat tartalmazza:
 
-| Vásárlás dátuma | Termékváltozat | Díj kezdő dátuma | Díj befejezési dátuma | Egységár | Egység mennyisége | Teljes összeg | Díj típusa | Előfizetés leírása |
+| Vásárlás dátuma | Termékváltozat | Díj kezdő dátuma | Díj záró dátuma | Egységár | Egységmennyiség | Teljes összeg | Díj típusa | Előfizetés leírása |
 | ------------- | ----------------- | ----------------- | --------------- | ---------- | ------------- | ------------ | ----------- | ----------------- |
-| 06/10/2019 | Ezüst | 06/10/2019 | 06/10/2019 | 20 USD | 1 | 20 USD | Új | Egyéni fogyasztásmérő SaaS-előfizetés |
-| 06/10/2019 | Ezüst | 06/10/2019 | 06/10/2019 | 20 USD | 1 | – $20 | Konvertálás | Arányos számlázás az egyéni fogyasztásmérő SaaS-előfizetéséhez |
-| 06/10/2019 | Bronz | 06/10/2019 | 06/10/2019 | 10 USD | 1 | 10 USD | Konvertálás | Egyéni fogyasztásmérő SaaS-előfizetés |
+| 06/10/2019 | Ezüst | 06/10/2019 | 06/10/2019 | 20 USD | 1 | 20 USD | Új | Egyéni fogyasztásmérő SaaS-előfizetése |
+| 06/10/2019 | Ezüst | 06/10/2019 | 06/10/2019 | 20 USD | 1 | -20 USD | Konvertálás | Egyéni fogyasztásmérő SaaS-előfizetésének újrabetöltési időszaka |
+| 06/10/2019 | Bronz | 06/10/2019 | 06/10/2019 | 10 USD | 1 | 10 USD | Konvertálás | Egyéni fogyasztásmérő SaaS-előfizetése |
 
-## <a name="purchase-and-cancel-a-customer-meter-saas-subscription-on-same-date"></a>Ügyfél-fogyasztásmérő SaaS-előfizetés megvásárlása és megszakítása ugyanazon a napon
+## <a name="purchase-and-cancel-a-customer-meter-saas-subscription-on-same-date"></a>Ügyfélmérő SaaS-előfizetés vásárlása és lemondása ugyanezen a napon
 
-Ez a forgatókönyv a megvásárolt és a Azure Portalon megszakított ügyfél-fogyasztásmérő SaaS-előfizetés számlázását ismerteti ugyanazon a napon.
+Ez a forgatókönyv azt írja le, hogy az ügyfélmérő SaaS-előfizetésének számlázása az ugyanazon a napon vásárolt és Azure Portal időpontban lett-e meg.
 
-Ebben a forgatókönyvben egyéni fogyasztásmérő SaaS-előfizetést vásárolt a Azure Portal. Ezután megszakította az előfizetést ugyanarra a dátumra.
+Ebben a forgatókönyvben egyéni mérő SaaS-előfizetést vásárolt a Azure Portal. Ezután ugyanezen a napon lemondta az előfizetést.
 
-| Vásárlás dátuma | Termékváltozat | Díj kezdő dátuma | Díj befejezési dátuma | Egységár | Egység mennyisége | Teljes összeg | Díj típusa | Előfizetés leírása |
+| Vásárlás dátuma | Termékváltozat | Díj kezdő dátuma | Díj záró dátuma | Egységár | Egységmennyiség | Teljes összeg | Díj típusa | Előfizetés leírása |
 | ------------- | ------------- |----------------- | --------------- | ---------- | ------------- | ------------ | ----------- | ----------------- |
-| 06/10/2019 | Bronz | 06/10/2019 | 06/10/2019 | 10 USD | 1 | 10 USD | Új | Egyéni fogyasztásmérő SaaS-előfizetés |
-| 06/10/2019 | Bronz | 06/10/2019 | 06/10/2019 | 10 USD | 1 | – $10 | CancelImmediate | Egyéni fogyasztásmérő SaaS-előfizetés |
+| 06/10/2019 | Bronz | 06/10/2019 | 06/10/2019 | 10 USD | 1 | 10 USD | Új | Egyéni fogyasztásmérő SaaS-előfizetése |
+| 06/10/2019 | Bronz | 06/10/2019 | 06/10/2019 | 10 USD | 1 | -10 USD | CancelImmediate (Szerviz törlése) | Egyéni fogyasztásmérő SaaS-előfizetése |

@@ -2,53 +2,51 @@
 title: Jogosultság megoldásértékelésre
 ms.topic: how-to
 ms.date: 11/09/2020
-description: Megtudhatja, hogyan tekintheti meg a megoldás-értékelési ösztönző program részvételére való jogosultság követelményeit.
+description: Megtudhatja, hogyan ellenőrizheti a részvételre való jogosultság követelményeit a Solution Assessment Incentives programjában.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7d40b09ee8b452cb75be216f83ddc700596b93d7
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.openlocfilehash: acf7e19d98b6d3a9c48277f0b3276b26816572e8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354474"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148805"
 ---
-# <a name="eligibility-requirements-for-the-solution-assessment-incentives-program"></a>A megoldás-értékelési ösztönző programra vonatkozó támogathatósági követelmények
+# <a name="eligibility-requirements-for-the-solution-assessment-incentives-program"></a>A Solution Assessment Incentives program jogosultsági követelményei
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Elsődleges kapcsolattartó vagy program-rendszergazda
 
-- Elsődleges kapcsolattartó vagy program rendszergazdája
+Azok a partnerek, akik aktív és regisztrált állapotúak a FY20 Megoldásértékelési ösztönzőprogramjában, továbbra is jogosultak lesznek a 21. pénzügyi év ösztönzőire, ha aktív MPN-tagsággal és aktív Silver vagy Gold MPN kompetenciával rendelkezők. A partneri minősítéseket évente felülvizsgáljuk a jogosultságra. Ha a meglévő partnerek nem tudják teljesíteni a jogosultsági és részvételre vonatkozó követelményeket az aktuális évben, a következő éves felülvizsgálat során el lesznek távolítva. Minden új partnert a saját területük helyi Megoldásértékelési szakértője (SAS) hoz létre. Az SAS azonosítja a partnervállalat készségeinek és szakértelmének, valamint az SAS által támogatott leányvállalatok üzleti igényeinek megfelelő partnereket.
 
-A FY20 megoldás-értékelési ösztönző programjában aktív és regisztrált állapotú partnerek továbbra is jogosultak lesznek a FY21-re vonatkozó ösztönzőkre, ha aktív MPN-tagsággal és aktív Silver vagy Gold MPN kompetenciával rendelkeznek. A partneri végzettségeket évente tekintjük át. Ha a meghatározott partnerek nem teljesítik a jogosultságokat és a részvételi követelményeket az aktuális évben, a következő éves felülvizsgálat során el lesznek távolítva. Minden új partnert a helyi megoldás-értékelési specialista (SAS) a saját területén kell bevezetni. Az SAS azonosítja a bevezetéshez szükséges partnereket a partner vállalaton belüli szaktudás és szakértelem, valamint a SAS által támogatott leányvállalatok üzleti igényei alapján.
+A partnereknek a beiratási folyamat megkezdése előtt meg kell vitatni az SAS-sel, hogy a vállalatuknak vannak-e képességeik az értékelések támogatásához a saját helyük szerint.
 
-A bevezetési folyamat megkezdése előtt a partnereknek meg kell beszélniük az SAS-val, hogy a vállalatuk milyen képességekkel rendelkezik a helyi értékelésekben.
-
-Az ösztönző programban jelenleg nem regisztrált partnereknek meg kell felelniük a FY21 ösztönző feltételeinek, hogy jogosultak legyenek a megoldás-értékelési ösztönző bevezetésre.
+Az ösztönzőprogramban jelenleg nem regisztrált partnereknek meg kell felelnie a FY21 ösztönzői feltételeknek ahhoz, hogy jogosultak legyen a Megoldásértékelési ösztönző felvételére.
 
 ## <a name="requirements"></a>Követelmények
 
 |**Jogosultsági követelmények**|**Feltételek**|
 |-----------------------|------------------|
-|Aktív Microsoft Partner Network (MPN) tagság|A megoldás-értékelési ösztönző programban való jogosultsághoz aktív MPN-tagság szükséges|
-|Egy ezüst vagy arany kompetencia|Aktív vagy aktív előre jóváhagyva|
-|Azure szakértői MSP/speciális specializációs partner|2021. április 15-én kezdődően az Azure-megoldás értékelései, & beleértve az infrastruktúra áttelepítését, az alkalmazások korszerűsítését, az Azure Founds, az Azure Express és az Azure Cost Optimization szolgáltatást, és az Azure szakértői MSP/Advanced Specialty minősítést kell igénybe veszni.|
+|Aktív Microsoft Partner Network (MPN) tagsága|A Megoldásértékelési ösztönzőprogramban való részvételhez aktív MPN-tagság szükséges|
+|Egy ezüst vagy arany kompetencia|Lehet aktív vagy aktív előre jóváhagyott|
+|Azure Expert MSP/Speciális specializációs partner|2021. április 15-től az Azure Solution Assessments, beleértve a Data & Infrastructure Migrationt, az Alkalmazás modernizálását, az Azure Foundations, az Azure Express és az Azure Cost Optimization szolgáltatásokat, Azure Expert MSP speciális tanúsítványokra lesz szükség.|
 
-|**Részvételi követelmény**|**Feltételek**|
+|**Részvételre vonatkozó követelmény**|**Feltételek**|
 |-------------------------|-------------------------------------|
-|Ösztönző tevékenység|A partnereknek aktívan részt kell venniük a megoldás-értékelési ösztönző programban az aktuális pénzügyi évben, hogy továbbra is jogosultak legyenek a megoldás-értékelési ösztönzőkre a következő pénzügyi évben. Ez legalább egy jóváhagyott megoldás-értékelési ösztönző ügyletnek felel meg.|
+|Ösztönzőtevékenység|A partnereknek aktívan részt kell venniük a Solution Assessment Incentive programban az aktuális pénzügyi évben, hogy a következő pénzügyi évben továbbra is jogosultak maradjanak a Megoldásértékelési ösztönzőkre. Ez legalább egy jóváhagyott Megoldásértékelési ösztönző foglalkozik.|
 
-## <a name="work-with-solution-assessment-specialist"></a>Megoldás-értékelési specialista használata
+## <a name="work-with-solution-assessment-specialist"></a>Megoldásértékelési szakemberrel való munka
 
-Ha a partnernek a megoldás-értékelési ösztönző programban való részvételre való jogosultságát ellenőrzik, a rendszer a havi bevezetési folyamat keretében meghívót kap a megoldás-értékelési specialistával (SAS).
+Ha a partner jogosult a Solution Assessment Incentive Programban való részvételre, a megoldásértékelési szakértő (SAS) meghívót kap, hogy részt vegyen a havi beiratonozási folyamatban.
 
-További részletekért vagy a megoldás értékelését ösztönző programokkal kapcsolatos információkért forduljon a megoldás-Assessment specialistához (SAS).
+A Solution Assessment Incentives programmal kapcsolatos további részletekért vagy információkért forduljon a megoldásértékelési szakemberhez (SAS).
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Megoldás-értékelési lehetőség állapota](chip-solution-assessment.md)
+- [Megoldásértékelési lehetőségek állapota](chip-solution-assessment.md)
 - [Támogatás](report-problems-with-partner-center.md)
 
 

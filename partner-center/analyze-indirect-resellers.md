@@ -1,6 +1,6 @@
 ---
 title: Közvetett viszonteladók teljesítményének elemzése
-description: Az elemzések segítségével megtudhatja, hogyan végzik el a közvetett viszonteladókat, valamint a sikereket és a több figyelmet igénylő területeket.
+description: Az elemzésekkel megtudhatja, hogyan hatnak a közvetett viszonteladók a sikerére és a nagyobb figyelmet igényelő területekre.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: shganesh
@@ -9,73 +9,70 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 05/13/2020
-ms.openlocfilehash: b7158f0ba52cece8b143cbaf592f3b0c4667fe27
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: 50a527f8fd3690ff73b198e572b356706889e72b
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474053"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150182"
 ---
-# <a name="use-analytics-to-analyze-the-performance-of-your-indirect-resellers"></a>Elemzések használata a közvetett viszonteladók teljesítményének elemzéséhez
+# <a name="use-analytics-to-analyze-the-performance-of-your-indirect-resellers"></a>Elemzés használata közvetett viszonteladók teljesítményének elemzéséhez
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelő rendszergazda
 
 
-Az adatmeghajtók üzleti döntéseket hoznak. A **viszonteladói elemzési** oldalon található mérőszámok segítségével azonosíthatja a sikereket, a közvetett viszonteladók sikerességét, valamint a nagyobb figyelmet igénylő területeket. Ezeket az információkat az új üzleti célok megtervezése során használhatja.
+Az adatok meghajtóként üzleti döntéseket hoznak. A **Reseller analytics (Viszonteladói** elemzések) oldalon található metrikák segítségével azonosíthatja a sikereket, a közvetett viszonteladók sikereit, valamint azokat a területeket, amelyek nagyobb figyelmet igényelnek. Ezeket az információkat új üzleti célok megterveként használhatja.
 
 > [!NOTE]
-> A közvetett viszonteladói elemzések csak a Cloud Solution Provider program közvetett szolgáltatói számára érhetők el.
+> A közvetett viszonteladói elemzések csak a közvetett szolgáltatók számára érhetők el a Felhőszolgáltató programjában.
 
-## <a name="types-of-reseller-analytics-metrics-you-can-view"></a>A megtekinthető viszonteladói elemzési mérőszámok típusai
+## <a name="types-of-reseller-analytics-metrics-you-can-view"></a>A megtekinthető viszonteladói elemzési metrikák típusai
 
-A következő mérőszámokat követjük nyomon:
+A következő metrikákat követjük nyomon:
 
 **Összefoglalás**  
- - **Összes viszonteladó**: az előfizetés utolsó napján aktív viszonteladók száma  
- - **Új viszonteladók**: a megadott időszakra vonatkozó új közvetett viszonteladók száma  
- - **Aktív viszonteladók**: azon közvetett viszonteladók száma, amelyeknél a MPNID legalább 1 előfizetés, és az előfizetés állapota nincs kiépítve  
- - **Tranzakciós viszonteladók**: a megadott időszakban eladott előfizetéssel rendelkező közvetett viszonteladók száma  
+ - **Viszonteladók összesen:** Az előfizetés utolsó napján aktív viszonteladók száma  
+ - **Új viszonteladók:** Új közvetett viszonteladók száma a megadott időszakban  
+ - **Aktív viszonteladók:** Olyan közvetett viszonteladók száma, amelyeknél az MPNID legalább 1 előfizetés, és amelyeknél az előfizetés állapota nincs megszüntetve  
+ - **Viszonteladók tranzakciója:** A megadott időszakban értékesített előfizetéssel közvetett viszonteladók száma  
 
-**Viszonteladók piac alapján**  
- - Összes viszonteladó földrajzi hely szerint  
+**Viszonteladók piac szerint**  
+ - Viszonteladók összesen földrajzi hely szerint  
 
-**Legnépszerűbb viszonteladók által eladott előfizetések**
- - A viszonteladók listája, az eladott előfizetések száma szerint rendezve  
+**A legnagyobb viszonteladók eladott előfizetések szerint**
+ - A viszonteladók listája az eladott előfizetések száma szerint rendezve  
 
-**Leggyakoribb termékek előfizetések száma szerint**  
- - **Dynamics 365**: Dynamics 365-termékek, eladott előfizetések szerint rendezve  
- - **EMS**: az eladott Enterprise Management Services-előfizetések száma  
- - **Microsoft 365**: eladott Microsoft 365 előfizetések száma  
- - **Office 365**: az Office 365 termékeit az eladott előfizetések szerint rendezve  
+**Legnépszerűbb termékek előfizetések száma szerint**  
+ - **Dynamics 365:** Dynamics 365-termékek eladott előfizetések szerint rendezve  
+ - **EMS:** Az eladott Enterprise Management Services-előfizetések száma  
+ - **Microsoft 365:** Eladott Microsoft 365 száma  
+ - **Office 365:** Eladott előfizetések szerint rendezve elérhető Office 365-termékek  
 
 **Új előfizetések**  
- - A dátummal hozzáadott új előfizetések száma  
+ - A dátum szerint hozzáadott új előfizetések száma  
 
-**Előfizetési forgalom**  
- - **Új előfizetések**: a dátummal hozzáadott új előfizetések száma  
- - **Felépített előfizetések**: az előfizetett vagy a dátummal felfüggesztett előfizetések száma  
+**Előfizetési adatváltozás**  
+ - **Új előfizetések:** A dátum szerint hozzáadott új előfizetések száma  
+ - **Megszüntetett előfizetések:** Megszüntetett vagy felfüggesztett előfizetések száma dátum szerint  
 
-**Új viszonteladói részletek**  
- - **Viszonteladó neve**: közvetett viszonteladók nevei  
- - **Hely**: azok a piacok, amelyeken a közvetett viszonteladók működnek  
- - **Előfizetések**: a viszonteladó által eladott előfizetések száma  
- - **Licencek**: a viszonteladó által az összes előfizetésben eladott licencek teljes száma  
+**Új viszonteladó részletei**  
+ - **Viszonteladó neve:** Közvetett viszonteladók nevei  
+ - **Hely:** Olyan piacok, ahol a közvetett viszonteladók működnek  
+ - **Előfizetések:** A viszonteladó által eladott előfizetések száma  
+ - **Licencek:** A viszonteladó által az összes előfizetésben értékesített licencek teljes száma  
 
-**MPA által aláírt állapot**
+**MPA aláírt állapota**
 
-Ez a szakasz a CSP közvetett viszonteladók MPA alá tartozó állapotának állapotát jeleníti meg.
+Ez a szakasz a közvetett CSP-viszonteladók MPA-aláírt állapotának állapotát biztosítja.
 
- - **Viszonteladó neve**: a közvetett CSP-viszonteladó neve
- - **MPN-azonosító**: a közvetett viszonteladó MPN-azonosítója
- - **Régió**: az a régió, ahol a közvetett viszonteladó működik
- - **MPN**-ellenőrzés állapota: a közvetett viszonteladó állapotának átadása
- - **MPa által aláírt állapot**: MPa aláírási állapota a közvetett viszonteladónak
+ - **Viszonteladó neve:** A közvetett CSP-viszonteladó neve
+ - **MPN-azonosító:** a közvetett viszonteladó MPN-azonosítója
+ - **Régió:** Az a régió, ahol a közvetett viszonteladó működik
+ - **MPN-átvizsgálás állapota:** A közvetett viszonteladó átvizsgálása
+ - **MPA aláírt állapota:** A közvetett viszonteladó MPA-aláírási állapota
 
-Kattintson a diagram Letöltés ikonjára az MPA által aláírt állapotadatok további dimenziókkal való letöltéséhez
+Kattintson a diagram letöltés ikonjára az MPA által aláírt állapotadatok további dimenziókkal való letöltéséhez
   
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Előfizetések és licencek elemzése az üzleti döntések meghozatalának elősegítése érdekében](analyze-subscriptions-licenses.md)
+- [Előfizetések és licencek elemzése az üzleti döntések meghozatala érdekében](analyze-subscriptions-licenses.md)

@@ -4,96 +4,90 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan lehet ügyfél-fiókkal licenceket és szolgáltatásokat hozzárendelni vagy visszavonni egy felhasználóhoz vagy egyszerre több felhasználóhoz.
+description: Megtudhatja, hogyan rendelhet hozzá vagy vonhat vissza licenceket és szolgáltatásokat egy vagy több felhasználóhoz egyszerre egy ügyfélfiókkal.
 author: amitravat
 ms.author: amrava
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: b2c59bc40b5092a4a2ee6e06bcb2e49a86e0201d
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 79f66e759385f6c7c7928dba58e052ea8699cf21
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570654"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149213"
 ---
-# <a name="assign-or-revoke-licenses-at-the-same-time-to-multiple-users-in-a-customer-account"></a>Licencek kiosztása és visszavonása egy adott időpontban több felhasználó számára egy ügyfél-fiókban
+# <a name="assign-or-revoke-licenses-at-the-same-time-to-multiple-users-in-a-customer-account"></a>Egyszerre több felhasználóhoz rendelhet hozzá vagy vonhat vissza licenceket egy ügyfélfiókban
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazdai | Az | Értékesítési ügynök | Felhasználókezelő rendszergazda
 
-- Felügyeleti ügynök
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-- Felhasználói felügyeleti rendszergazda
+Licenceket és szolgáltatásokat rendelhet egy felhasználóhoz vagy egy ügyfélfiók több felhasználója számára, és visszavonhatja a felhasználókhoz való licenc-hozzárendeléseket.
 
-A licenceket és szolgáltatásokat hozzárendelheti egy felhasználóhoz, illetve több felhasználóhoz egyszerre egy ügyfél-fiókban, és visszavonhatja a licenc-hozzárendeléseket a felhasználók számára.
+A Partnerközpont nyomon követi és megjeleníti az összes ügyfél tulajdonában lévő licencjogosultságokat.
 
-A partner Center nyomon követi és megjeleníti az összes ügyfél tulajdonában lévő licenc jogosultságát.
+## <a name="assign-licenses-to-multiple-users"></a>Licencek hozzárendelése több felhasználóhoz
 
-## <a name="assign-licenses-to-multiple-users"></a>Licencek kiosztása több felhasználó számára
+1. A **Partnerközpont** válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. Válassza **a Felhasználók és licencek lehetőséget.**
 
-2. Válassza **a felhasználók és licencek** lehetőséget.
+3. Jelölje be két vagy több felhasználó jelölőnégyzetét a listából. (Ha az aktuális oldalon lévő összes felhasználót ki kell választania, jelölje be a Felhasználók oszlop tetején **található jelölőnégyzetet.)**
 
-3. Jelölje be a listából a két vagy több felhasználó jelölőnégyzetét. (Az aktuális oldalon lévő összes felhasználó kiválasztásához jelölje be a **felhasználók** oszlop tetején látható jelölőnégyzetet.)
+    A **First,** **Previous,** Next és **Last** eszközökkel több oldalon is megkereshet és **kiválaszthat felhasználókat.**
 
-    Több oldalon is megtalálhatja és kiválaszthatja a felhasználókat az **első**, az **előző**, a **következő** és az **utolsó** eszköz használatával.
+4. Válassza a **Kijelölt felhasználók hivatkozást.** A megjelenő listában a kiválasztott felhasználók jelennek meg.
 
-4. Válassza ki a **kijelölt felhasználók** hivatkozást. A megjelenített listán a kiválasztott felhasználók láthatók.
+5. Válassza a **Licencek kezelése hivatkozást.**
 
-5. Válassza a **licencek kezelése** hivatkozást.
+    A Licencek kezelése lap megjeleníti az ügyfélfiókok licencjogosultságait és az egyes termékekhez elérhető **licencek** számát.
 
-    A licencek kezelése oldalon láthatók az ügyfelek fiókjaihoz tartozó licencek listája, valamint az egyes termékekhez **rendelkezésre álló licencek** száma.
+    - A Product (Termék) oszlopban lévő **jelölőnégyzetek** az ügyfél által jogosult termékek összes kiválasztott felhasználója állapotát mutatják:
 
-    - A **Product (termék** ) oszlopban található jelölőnégyzetek megjelenítik az ügyfélhez tartozó termékek összes kiválasztott felhasználójának állapotát:
+       - Ha minden kiválasztott felhasználó már rendelkezik licenccel, a termék jelölőnégyzete ki van töltve.
 
-       - Ha az összes kijelölt felhasználó már rendelkezik licenccel, a termék jelölőnégyzete be van töltve.
+       - Ha a kiválasztott felhasználók némelyike rendelkezik terméklicenckel, a termék jelölőnégyzete részben ki van töltve.
 
-       - Ha a kiválasztott felhasználók némelyike rendelkezik termékspecifikus licenccel, a termék jelölőnégyzete részben ki van töltve.
+       - Ha egyik kiválasztott felhasználó sem rendelkezik terméklicenckel, a jelölőnégyzet nem lesz bejelölve.
 
-       - Ha a kiválasztott felhasználók egyike sem rendelkezik licenccel, a jelölőnégyzet bejelölése üres.
+    - Minden kiválasztott felhasználó egy kis mezőben jelenik meg az oldal tetején. A felhasználók rendezve jelennek meg.
 
-    - Az egyes kiválasztott felhasználók egy kis mezőben jelennek meg az oldal tetején. A felhasználók rendezett sorrendben jelennek meg.
+    - A Hozzárendelt oszlopban lévő bármelyik hivatkozást **kiválasztva** megtekintheti a licenccel rendelkező kijelölt felhasználókat mutató elemleírás-listát.
 
-    - A **hozzárendelt** oszlopban található bármelyik hivatkozásra kattintva megtekintheti azokat a kiválasztott felhasználókat, akik már rendelkeznek licenccel.
+    - Minden olyan termék, amely nem rendelkezik elérhető licenccel, megjelenik a **További vásárlás hivatkozás.** Több licencet is vásárolhat, ha az ügyfeleknek szükségük van rájuk.
 
-    - A rendelkezésre álló licencek nélküli termékek a **vásárlás további** hivatkozását jelenítik meg. További licenceket is vásárolhat, ha az ügyfelek igénylik.
+6. A **Licencek hozzárendelése és visszavonása alatt** válassza ki az új felhasználók terméklicenceit. 
 
-6. A **licencek kiosztása és visszavonása** területen válassza ki az új felhasználókhoz tartozó licenceket. 
-
-   Ha például a kiválasztott felhasználók egyike sem rendelkezik Office 365 Enterprise licenccel, és hozzá kívánja adni őket, jelölje be a jelölőnégyzetet. Minden kiválasztott termékhez elegendő licenc szükséges.
+   Ha például egyik kiválasztott felhasználó sem rendelkezik Office 365 Nagyvállalati licenccel, és szeretné hozzáadni őket, jelölje be a jelölőnégyzetet. Minden egyes kiválasztott termékhez elegendő licencre van szüksége.
 
 7. Jelöljön ki egynél több terméket a felhasználók számára az egyes termékek jelölőnégyzetének kiválasztásával.
-    -   Válassza a **szolgáltatási csomagok megtekintése** bármely termék esetében lehetőséget a felhasználók által igényelt szolgáltatási csomagok megtekintéséhez és kiválasztásához.
+    -   Válassza **a View service plans** for any product (Szolgáltatástervek megtekintése bármely termékhez) lehetőséget a felhasználók számára szükséges szolgáltatástervek megtekintéséhez és kiválasztásához.
 
-8. Válassza a **Mentés** lehetőséget. A partner Center megnyitja a **licencek frissített** megerősítő oldalát, amely felsorolja a felhasználókat és az új licenceket.
+8. Kattintson a **Mentés** gombra. A Partnerközpont megnyitja a **Felhasználók** és az új licencek listáját a Licencek frissítve lapon.
 
 >[!NOTE]
->Előfordulhat, hogy egyes Microsoft-termékek nem állnak rendelkezésre bizonyos helyszíneken. Más termékek más termékektől vagy szolgáltatástól függenek, vagy nem rendelhetők hozzá egyszerre ugyanahhoz a felhasználóhoz. A mentés után a megerősítő lap felsorolja a sikeres licenc-hozzárendelésből származó összes felhasználó eredményét, valamint a licenc-hozzárendelés hibáit.
+>Előfordulhat, hogy egyes Microsoft-termékek bizonyos helyeken nem érhetők el. Más termékek más termékektől vagy szolgáltatásoktól függenek, vagy nem rendelhetők egymáshoz ugyanannak a felhasználónak. A mentés után a megerősítő oldalon megjelenik a sikeres licenc-hozzárendelés összes felhasználói eredménye, valamint a licenc-hozzárendelés esetleges hibái.
 
 ## <a name="revoke-users-license-assignments"></a>Felhasználói licenc-hozzárendelések visszavonása
 
-1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+1. A **Partnerközpont** válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-2. Válassza **a felhasználók és licencek** lehetőséget.
+2. Válassza **a Felhasználók és licencek lehetőséget.**
 
-3. Jelölje be a listából a két vagy több felhasználó jelölőnégyzetét. (Az aktuális oldalon lévő összes felhasználó kiválasztásához jelölje be a **felhasználók** oszlop tetején látható jelölőnégyzetet.)
+3. Jelölje be két vagy több felhasználó jelölőnégyzetét a listából. (Ha az aktuális oldalon lévő összes felhasználót ki kell választania, jelölje be a Felhasználók oszlop tetején **található jelölőnégyzetet.)**
 
-    Lap az **első**, **előző**, **következő** és **utolsó** eszközön, ahol megkeresheti és kiválaszthatja a többi felhasználót. Több oldalra is kiválaszthat.
+    Lapszámokkal keresse meg és válassza ki a többi felhasználót a **First**, **Previous,** **Next** és **Last** eszközök között. Több oldalon is kiválaszthat.
 
-4. A felhasználók kiválasztása után válassza a **kiválasztott felhasználók** hivatkozást. A megjelenített lista csak a kiválasztott felhasználókat jeleníti meg.
+4. A felhasználók kiválasztása után válassza a **Kijelölt felhasználók hivatkozást.** A megjelenített listában csak a kiválasztott felhasználók jelennek meg.
 
-5. Válassza a **licencek kezelése** hivatkozást.
+5. Válassza a **Licencek kezelése hivatkozást.**
 
-6. A **licencek hozzárendelése és visszavonása** területen törölje a felhasználókhoz rendelt termékek jelölőnégyzetének jelölését.
+6. A **Licencek hozzárendelése és visszavonása alatt** törölje a felhasználókhoz rendelt termékek jelölőnégyzetét.
 
-   Ha például az összes kiválasztott felhasználó rendelkezik Office 365 Enterprise licenccel, és vissza kívánja vonni őket, jelölje be a jelölőnégyzetet a törléshez.
+   Ha például az összes kiválasztott felhasználó rendelkezik Office 365 Nagyvállalati licenccel, és vissza szeretné vonni őket, a jelölőnégyzet bejelével törölje a jelölést.
 
-7. Válassza a **Mentés** lehetőséget.
+7. Kattintson a **Mentés** gombra.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Licencek kiosztása egy felhasználóhoz](assign-licenses-to-users.md)
+- [Licencek hozzárendelése egy felhasználóhoz](assign-licenses-to-users.md)
 
-- [Rendszergazdai jogosultságok visszaállítása az ügyfél Azure CSP-előfizetései esetében](revoke-reinstate-csp.md)
+- [Rendszergazdai jogosultságok visszahelyezése egy ügyfél Azure CSP előfizetéséhez](revoke-reinstate-csp.md)

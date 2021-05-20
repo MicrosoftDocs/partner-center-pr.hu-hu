@@ -1,57 +1,55 @@
 ---
-title: Több felhasználó hozzáadása egy ügyfél-fiókhoz
+title: Több felhasználó hozzáadása egy ügyfélfiókhoz
 ms.topic: how-to
 ms.date: 08/01/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ha több felhasználót szeretne felvenni egy ügyfél fiókjába, töltse fel az adatfájlt a partner központba a vesszővel tagolt (. csv) fájlformátum használatával.
+description: Ha több felhasználót szeretne hozzáadni egy ügyfél fiókjához, töltsön fel egy adatfájlt a Partnerközpont vesszővel elválasztott (.csv) fájlformátumban.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9f1d6e2a59bd892b7b79a1e3aa532242cdd0e302
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: 268cc9cb42bc72a444da6aec99425c2b29b71cb4
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474189"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150471"
 ---
-# <a name="upload-a-csv-file-of-users-to-a-customers-account"></a>Felhasználók egy. csv-fájljának feltöltése egy ügyfél fiókjába
+# <a name="upload-a-csv-file-of-users-to-a-customers-account"></a>Felhasználók .csv-fájl feltöltése egy ügyfél fiókjába
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazda
 
-- Globális rendszergazda
+Egyszerre több felhasználót is hozzáadhat egy ügyfél fiókjához, ha feltölt egy vesszővel elválasztott értékfájlformátumban (.csv) egy adatfájlt a Partnerközpont. 
 
-Egyszerre több felhasználót is hozzáadhat egy ügyfél fiókjához, ha a vesszővel tagolt fájlformátumban (. csv) egy adatfájlt tölt fel a partner központba. 
+## <a name="create-the-file-of-customer-users-and-upload-to-customer-account"></a>Hozza létre az ügyfélfelhasználók fájlját, és töltse fel az ügyfélfiókba
 
-## <a name="create-the-file-of-customer-users-and-upload-to-customer-account"></a>Az ügyfél-felhasználók fájljának létrehozása és az ügyfél-fiókba való feltöltés
+1. Hozzon létre egy vesszővel elválasztott adatfájlt (.csv) a fent leírt adatokkal. Mentse a fájlt, hogy egy későbbi lépésben tallózni tudja. A [.csv-fájl mezőiben több felhasználót importálhat egy ügyfélfiókhoz.](file-customer-users.md) 
 
-1. Hozzon létre egy vesszővel tagolt (. csv) adatfájlt a fent ismertetett adatokkal. Mentse a fájlt, hogy egy későbbi lépésben tallózással keresse meg. A [. csv fájl mezőinek megtekintéséhez több felhasználó importálása egy ügyfél-fiókba](file-customer-users.md). 
+2. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+3. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+4. Válassza az ügyfél Felhasználók és licencek **lapját,** majd válassza a **Felhasználók feltöltése lehetőséget.**
 
-4. Válassza ki az ügyfél **felhasználóinak és licencek** lapját, majd válassza a **felhasználók feltöltése** lehetőséget.
+5. A **Felhasználói adatok feltöltése alatt válassza** a Tallózás **lehetőséget.**
 
-5. A **felhasználói adatok feltöltése** területen válassza a **Tallózás** lehetőséget.
-
-6. A fájl kiválasztása lapon válassza ki az adatfájlt, majd kattintson a **Megnyitás** gombra.
+6. A fájlválasztóban válassza ki az adatfájlt, majd válassza a **Megnyitás lehetőséget.**
 
 7. Válassza az **Érvényesítés** lehetőséget.
 
-    **Megjegyzés**  A legtöbb fiók-létrehozási hibát az adatfájlok hibái okozzák, beleértve a hiányzó információkat, a formázott vagy duplikált e-mail-címeket, vagy túl sok rekordot a fájlban.
+    **Megjegyzés**  A fiók létrehozásával kapcsolatos legtöbb hibát adatfájlhibák okják, beleértve a hiányzó információkat, a helytelenül formázott vagy duplikált e-mail-címeket, vagy a fájl túl sok rekordját.
 
-8. Miután a partner Center érvényesíti a fájlt, válassza ki az új felhasználók földrajzi **helyét** .
-9. Válassza a **Mentés** lehetőséget.
-10. Töltse le a felhasználók ideiglenes jelszavával kapcsolatos információkat.
+8. Miután a Partnerközpont érvényesíti a fájlt, válassza ki az új felhasználók **földrajzi** helyét.
+9. Kattintson a **Mentés** gombra.
+10. Töltse le a felhasználók ideiglenes jelszóinformációját.
 
     >[!IMPORTANT]
-    > Ügyeljen arra, hogy az ideiglenes jelszavakkal töltse le a fájlt, mivel ezt később nem fogja tudni elvégezni. Az új felhasználóknak az új fiókok ideiglenes jelszavával be kell jelentkezniük az új fiókba.
+    > Ne aggódjon, most töltse le az ideiglenes jelszavakkal együtt a fájlt, mert később ezt nem fogja tudni megtenni. Az új felhasználóknak az új fiókjuk ideiglenes jelszavával kell bejelentkezniük az új fiókjukba.
 
-11. Az új felhasználók automatikusan kapnak engedélyeket a **licencek és szolgáltatások használatára** . 
+11. Az új felhasználókhoz automatikusan hozzárendelt engedélyek: **Használhat licenceket és szolgáltatásokat.** 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [A partner Centerben a saját termékeinek vagy szolgáltatásainak megvásárlására jogosult ügyfelek számára](give-customers-permission.md)
+- [Engedélyt adhat az ügyfeleknek a Partnerközpont saját termékeik vagy szolgáltatásaik vásárlására](give-customers-permission.md)

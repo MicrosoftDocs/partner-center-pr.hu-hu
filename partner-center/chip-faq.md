@@ -2,71 +2,69 @@
 title: Solution Assessment Incentives – GYIK
 ms.topic: how-to
 ms.date: 11/09/2020
-description: Megtudhatja, hogyan választ kaphat a megoldás értékelésével kapcsolatos gyakori kérdésekre a Channel ösztönzők platformon (CHIP).
+description: A Megoldásértékeléssel kapcsolatos gyakori kérdésekre adott válaszokat a Csatornaösztönzők platformon (CHIP) találhatja meg.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9395a64a5bdf5aa0219bb9457d581e71bef777c2
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.openlocfilehash: d46b37aa903d10ec97b780eec9dde1deec623277
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354627"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148975"
 ---
-# <a name="solution-assessment-incentives-faq-for-the-channel-incentives-platform-chip"></a>Megoldás-értékelési ösztönzők – gyakori kérdések a Channel ösztönzők platformról (CHIP) 
+# <a name="solution-assessment-incentives-faq-for-the-channel-incentives-platform-chip"></a>Megoldásértékelési ösztönzők – gyakori kérdések a Csatornaösztönzők platformhoz (CHIP) 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Elsődleges kapcsolattartó vagy program-rendszergazda
 
-- Elsődleges kapcsolattartó vagy program rendszergazdája
+Az alábbiakban választ találhat a gyakori kérdésekre.
 
-Választ kaphat az alábbi gyakori kérdésekre.
+## <a name="what-are-the-eligibility-requirements-for-the-solution-assessment-incentive-program"></a>Milyen jogosultsági követelmények vonatkoznak a Solution Assessment Incentive programra?
 
-## <a name="what-are-the-eligibility-requirements-for-the-solution-assessment-incentive-program"></a>Mik a megoldás-értékelési ösztönző programra vonatkozó támogathatósági követelmények?
+Azok a partnerek, akik aktív és regisztrált állapotúak a FY20 Megoldásértékelési ösztönzőprogramjában, továbbra is jogosultak lesznek a 21. pénzügyi év ösztönzőire, ha aktív MPN-tagsággal és aktív Silver vagy Gold MPN kompetenciával rendelkezők. A partneri minősítéseket évente felülvizsgáljuk a jogosultságra.  Ha a meglévő partnerek nem tudják teljesíteni a jogosultsági és részvételre vonatkozó követelményeket az aktuális évben, a következő éves felülvizsgálat során el lesznek távolítva.  Minden új partnert a saját területük helyi Megoldásértékelési szakértője (SAS) hoz létre.  Az SAS azonosítja a partnervállalat készségeinek és szakértelmének, valamint az SAS által támogatott leányvállalatok üzleti igényeinek megfelelő partnereket.
+A partnereknek a beiratási folyamat megkezdése előtt meg kell vitatni az SAS-sel, hogy a vállalatuknak vannak-e képességeik az értékelések támogatásához a saját helyük szerint. 
 
-A FY20 megoldás-értékelési ösztönző programjában aktív és regisztrált állapotú partnerek továbbra is jogosultak lesznek a FY21-re vonatkozó ösztönzőkre, ha aktív MPN-tagsággal és aktív Silver vagy Gold MPN kompetenciával rendelkeznek. A partneri képesítések megvizsgálása évente történik.  Ha a meghatározott partnerek nem teljesítik a jogosultsági és részvételi követelményeket az aktuális évben, akkor a következő éves felülvizsgálat során el lesznek távolítva.  Minden új partnert a helyi megoldás-értékelési specialista (SAS) a saját területén kell bevezetni.  Az SAS azonosítja a bevezetéshez szükséges partnereket a partner vállalaton belüli szaktudás és szakértelem, valamint a SAS által támogatott leányvállalatok üzleti igényei alapján.
-A bevezetési folyamat megkezdése előtt a partnereknek meg kell beszélniük az SAS-val, hogy a vállalatuk milyen képességekkel rendelkezik a helyi értékelésekben. 
+Az ösztönzőprogramban jelenleg nem regisztrált partnereknek meg kell felelnie az alábbi FY21 ösztönzői feltételeknek ahhoz, hogy jogosultak legyen a Megoldásértékelési ösztönző felvételére. Részletekért olvassa el [a Solution Assessment jogosultságát.](chip-solutions-assessment-eligible.md)
 
-Az ösztönző programban jelenleg nem regisztrált partnereknek meg kell felelniük az alábbi FY21 ösztönző feltételeknek, hogy jogosultak legyenek a megoldás-értékelési ösztönző bevezetésre. A részletekért olvassa el a [megoldás-értékelési jogosultságot](chip-solutions-assessment-eligible.md).
+## <a name="how-do-i-enroll-in-the-solution-assessments-incentive-program"></a>Hogyan a Megoldásértékelések ösztönzőprogramjában?
 
-## <a name="how-do-i-enroll-in-the-solution-assessments-incentive-program"></a>Hogyan regisztrálni a megoldás-értékelési ösztönző programban?
+A folyamat kezdeményezése érdekében lépjen kapcsolatba a helyi Megoldásértékelési szakemberrel (SAS).
 
-A folyamat elindításához forduljon a helyi megoldás-Assessment specialistához (SAS).
+## <a name="how-do-i-submit-my-bank-and-tax-details"></a>Hogyan a banki és adóadatokat?
 
-## <a name="how-do-i-submit-my-bank-and-tax-details"></a>Hogyan küldje el a bankom és az adó adatait?
+A [bank- és](chip-intro.md) adóprofilok beküldésének részletes útmutatójért olvassa el a CHIP-el való navigálással kapcsolatos útmutatót.
 
-A banki és adózási profilok beküldésével kapcsolatos részletes utasításokért olvassa el a következő témakört: [Navigálás a chipben](chip-intro.md) .
+## <a name="my-deal-status-has-been-approved-in-chip-why-hasnt-it-been-paid-yet"></a>Az ajánlatom állapota jóvá lett hagyva a CHIP-ban. Miért nem fizették ki még?
 
-## <a name="my-deal-status-has-been-approved-in-chip-why-hasnt-it-been-paid-yet"></a>A saját ügylet állapota a CHIPben lett jóváhagyva. Miért még nem fizették ki?
+Az ajánlat állapota mellett a POE-állapotot is jóvá kell hagyni a CHIP-ban, mielőtt a lehetőség beküldődhet a kifizetésre. Tekintse át a CHIP-hez szükséges lehetőségeket, és ellenőrizze, hogy a POE fel lett-e töltve és jóvá lett-e hagyva a POE érvényesítési csapata a CHIP-ban. A POE állapotának megtekintéséhez jelentkezzen be a CHIP-be, és válassza a Keresési ajánlatok **lehetőséget** az I **Need To... (Szükséges...** Menü. Adja meg **a lehetőség azonosítóját,** és válassza a **Keresés lehetőséget.** A keresési eredmények között válassza a "Szerkesztés" hivatkozást a POE alatt. Az eredményül kapott oldalon görgessen az Áttekintés szakaszhoz a POE állapotának ellenőrzéshez. Tekintse át a "Megjegyzések" mezőt is arra az esetre, ha a POE csapata további információkat kért a POE-ről.
 
-Az ügylet állapota mellett a POE-státuszt is jóvá kell hagyni a CHIPben, mielőtt a lehetőség elküldhető a kifizetésre. Tekintse át a lehetőséget a CHIPben, és győződjön meg arról, hogy a Poe a következő ZSETONNAL lett feltöltve és jóváhagyva: POE Validation Team. A POE állapotának megtekintéséhez jelentkezzen be a CHIPre, és válassza a **keresési ajánlatok** lehetőséget, amire **szükségem van...** menüben. Adja meg a **lehetőség azonosítóját** , és válassza a **Keresés** lehetőséget. A keresési eredmények között válassza a "szerkesztés" hivatkozást a POE alatt. Az eredményül kapott lapon görgessen a "felülvizsgálat" szakaszhoz a POE állapotának megtekintéséhez. Tekintse át a Megjegyzések mezőt is abban az esetben, ha a POE csapata további információkat kért a POE szolgáltatással kapcsolatban.
+## <a name="why-did-i-not-receive-any-payment-for-milestone-1-for-my-opportunity"></a>Miért nem kapott semmilyen kifizetést az 1. mérföldkövért a lehetőségemért?
 
-## <a name="why-did-i-not-receive-any-payment-for-milestone-1-for-my-opportunity"></a>Miért nem kaptam semmilyen fizetési lehetőséget az 1. mérföldkőhöz a saját lehetőséghez?
+2020. augusztus 15-től az 1. mérföldkő a jóváhagyott ösztönzőszint 0%-ában, a 2. mérföldkő pedig a jóváhagyott ösztönzőszint 100%-ában van kifizetve. A 2020. augusztus 15. előtt nyitott, CHIP-ben regisztrált összes kötelezettségvállalás továbbra is a FY20 útmutatás alapján lesz kifizetve. A [Mérföldkövek](https://assetsprod.microsoft.com/solution-assessment-incentive-program-faq.pdf) folyamatának változásaival kapcsolatos útmutatásért tekintse át a partnerekre vonatkozó gyakori kérdéseket.
 
-2020. augusztus 15-től kezdődően az 1. mérföldkövet a jóváhagyott ösztönző szint 0%-ában, a 2. mérföldkő pedig a jóváhagyott ösztönző szint 100%-ában fizetjük ki. Az összes, a 2020. augusztus 15. előtt regisztrált bevezetési művelet továbbra is a FY20 útmutató keretében lesz kifizetve. Tekintse át a [partneri GYIK](https://assetsprod.microsoft.com/solution-assessment-incentive-program-faq.pdf) -t, amely útmutatást nyújt a mérföldkő folyamat változásairól.
+## <a name="how-to-i-dispute-an-opportunity-or-payment-i-received"></a>Hogyan vitatom meg a kapott lehetőséget vagy kifizetést?
 
-## <a name="how-to-i-dispute-an-opportunity-or-payment-i-received"></a>Hogyan vitatható a kapott lehetőség vagy fizetés?
+Forduljon SAS-hez, aki útmutatást nyújthat ehhez a kéréshez.
 
-Lépjen kapcsolatba az SAS-vel, aki útmutatást nyújthat a kérelemmel kapcsolatban.
+## <a name="the-opportunity-is-closed-in-chip-which-is-preventing-me-from-uploading-poe-what-can-i-do-to-get-the-opportunity-paid"></a>A lehetőség be van zárva a CHIP-be, ami megakadályozza, hogy feltöltsem a POE-t. Mit tehetek a lehetőség kifizetéseért?
 
-## <a name="the-opportunity-is-closed-in-chip-which-is-preventing-me-from-uploading-poe-what-can-i-do-to-get-the-opportunity-paid"></a>A lehetőség bezárult a ZSETONban, ami megakadályozza a POE feltöltését. Mit tehetek a kifizetett lehetőségek beszerzéséhez?
+Egy lehetőség a lezárás után már nem jogosult ösztönzőkre. További útmutatást az SAS-hez nyújt.
 
-Ha a lehetőség bezárult, már nem jogosult az ösztönzőkre. További útmutatásért forduljon az SAS-hez.
+## <a name="how-do-i-add-a-new-adminuser-to-chip"></a>Hogyan új rendszergazdát/felhasználót szeretne hozzáadni a CHIP-hez?
 
-## <a name="how-do-i-add-a-new-adminuser-to-chip"></a>Hogyan adjon hozzá egy új rendszergazdát/felhasználót a CHIPhez?
+Az Elsődleges partner kapcsolattartója (Rendszergazda) felelős azért, hogy meghívja a vállalat összes többi felhasználóját a CHIP-regisztrációra. Ők felelősek a felhasználói hozzáférésért is, beleértve a vállalattól távozó felhasználók inaktiválását is. Olvassa el a [Csatornaösztönzők platform útmutatóját.](chip-intro.md)
 
-Az elsődleges partneri kapcsolat (rendszergazda) feladata, hogy meghívja az összes többi felhasználót a vállalatnál a zseton beléptetéséhez. Emellett a felhasználói hozzáférésért is felelősek, beleértve a vállalatot elhagyó felhasználók inaktiválását is. Kérjük, olvassa el a [Channel ösztönző platform útmutatóját](chip-intro.md).
+## <a name="the-primary-admin-has-left-our-company-how-do-we-change-my-primary-admin-in-chip"></a>Az elsődleges rendszergazda elhagyta a vállalatot. Hogyan módosítjuk az elsődleges rendszergazdámat a CHIP-ban?
 
-## <a name="the-primary-admin-has-left-our-company-how-do-we-change-my-primary-admin-in-chip"></a>Az elsődleges rendszergazda elhagyta a vállalatot. Hogyan változtathatom meg az elsődleges rendszergazdát a CHIPen?
+A CHIP elsődleges rendszergazdája legyen az ELSŐDLEGES partner kapcsolattartója az MPN-ban. Győződjön meg arról, hogy az MPN frissült az új kapcsolattartóval, és vegye fel a kapcsolatot a regionális támogatási csapattal a CHIP-változás igénylése érdekében.
 
-A CHIP elsődleges rendszergazdája az MPN elsődleges partneri kapcsolatának kell lennie. Győződjön meg arról, hogy az MPN frissítve lett az új kapcsolattartóval, és forduljon a regionális támogatási csoporthoz, és kérje meg a zseton módosítását.
+A Partnerközpont bal oldali **menüben válassza** a Támogatás lehetőséget. Válassza **az Ösztönzők** lehetőséget kategóriaként, vagy keressen rá a program nevére a "Témakörök tallózása" területen.
 
-A partner Center irányítópultján válassza a bal oldali menü **támogatás** elemét. Válassza az **ösztönzők** kategóriát, vagy keresse meg a program nevét a "Tallózás témakörök" területen.
-
-Ha továbbra is segítségre van szüksége, az elérhető témakörre vonatkozó súgó megtekintése után közvetlenül az ajánlott dokumentumokból hozhat létre jegyet – **támogatási jegy létrehozása** lehetőséggel.
+Az elérhető témakörspecifikus súgó megtekintése után, ha további segítségre van szüksége, létrehozhat egy jegyet közvetlenül az Ajánlott dokumentumok – Támogatási jegy **létrehozása lehetőségből.**
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [A CHIP navigálása](chip-intro.md)
+- [Navigálás a CHIP-hez](chip-intro.md)

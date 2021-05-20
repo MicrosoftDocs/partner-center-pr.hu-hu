@@ -1,6 +1,6 @@
 ---
-title: Az Azure-csomagra való áttérés megkezdése
-description: Ismerje meg, hogy az Azure utólagos elszámolású csomagjának használatával milyen információkat és ügyfeleket kell megismernie, beleértve az első lépéseket, a biztonsági óvintézkedéseket és a kezdéshez szükséges tudnivalókat.
+title: Az Azure-csomagra való áthelyezés megkezdése
+description: Megtudhatja, hogy Önnek és ügyfeleinek mit kell tudniuk a használat alapú fizetéses Azure-csomag használatával kapcsolatban, beleértve az első lépéseket, a biztonsági óvintézkedéseket és az első lépéseket.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,54 +9,51 @@ ms.author: amrava
 ms.custom: SEOAPR.20
 ms.localizationpriority: High
 ms.date: 12/02/2019
-ms.openlocfilehash: fcf75acef4afb80c5aec889911ffc2b4a53b6edd
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: 58feabdefb02660559c69f61190070310768b947
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534913"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149655"
 ---
-# <a name="begin-using-pay-as-you-go-rates-with-the-azure-plan"></a>Az utólagos elszámolású díjak használatának megkezdése az Azure-csomaggal
+# <a name="begin-using-pay-as-you-go-rates-with-the-azure-plan"></a>Használat alapján fizetett díjak használatának megkezdése az Azure-csomaggal
 
-**Megfelelő szerepkörök**
-
-- Felügyeleti ügynök
-- Értékesítési ügynök
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Értékesítési ügynök
 
 
-A Microsoft új kereskedelmi tapasztalatot vezetett be a partner Centerben.  Ezzel az új kereskedelmi tapasztalattal a partnerek a Microsoft ügyfél-szerződés keretében igénybe vehetik az Azure-szolgáltatásokat az utólagos elszámolású díjszabásban.
+A Microsoft új kereskedelmi élményt vezetett be a Partnerközpont.  Ezzel az új kereskedelmi megoldással a partnerek használat alapján, használat alapján férhetnek hozzá az Azure-szolgáltatásokhoz a Microsoft Ügyfélszerződés.
 
-Ez a csomag leegyszerűsíti a vásárlási élményt – több Azure-előfizetéssel is rendelkezhet az Azure-csomagokban. Az Azure-előfizetések esetében már nem kell külön megrendelést elküldenie. Ebben az Azure-beli új kereskedelmi tapasztalattal összhangban vagyunk egy globális díjszabási elvvel, amely lehetővé teszi, hogy a CSP-partnerek az Azure-t a közzétett árakon nyújtsanak.
+Ez a csomag leegyszerűsíti a vásárlási élményt – egy Azure-csomag több Azure-előfizetéssel is rendelkezik. Azure-előfizetésenként már nem kell külön rendelést beküldődni. Az Azure új kereskedelmi élményében pedig egyetlen globális díjszabási alapelvhez igazodtunk, amely lehetővé teszi a CSP-partnerek számára, hogy a közzétett árakon kínálják az Azure-t.
 
-Ügyfeleink digitális átalakítási igényeihez új szaktudásra van szükség partnereinktől. Sok ügyfél olyan partnereket keres, akik a tranzakciót túlmutatva biztosítanak, hogy a Felhőbeli utazás zökkenőmentes legyen, és hatékonyan használják az Azure-szolgáltatásokat. A Microsoft partnerei kritikus szerepet játszanak az ügyfél életciklusának minden szakaszában. Az ilyen típusú partneri szolgáltatások a természetben jelennek meg, beleértve az Azure Estate monitoringot, a házirend-és irányítási felügyeletet, az üzembe helyezést és a konfiguráció finomhangolását, valamint a technikai támogatást és számos más szolgáltatást. Szükségük van egy partnerre, hogy az ügyfél Azure-környezetének megfelelően Ismerkedjen meg, és folyamatosan és megfelelő irányítással és felügyelettel rendelkezzen az általuk felügyelt erőforrások mögött. A 24 X 7 felhő-Operations Management szolgáltatást nyújtó számlázási partnereink jogosultak lesznek arra, hogy az adott munkához **felügyelt szolgáltatásokhoz kapcsolódó partneri kreditet** kapjanak.
+Ügyfeleink digitális átalakulási igényeihez új partneri készségekre van szükség. Számos ügyfél keres partnereket, hogy a tranzakción felül és azon kívül is szolgáltatásokat nyújtson, hogy zökkenőmentesebb legyen a felhőre való utazásuk, és hatékonyan használjuk fel az Azure-szolgáltatásokat. A Microsoft partnerei az ügyfél életciklusának minden szakaszában kritikus szerepet játszanak. Az ilyen típusú partnerszolgáltatások folyamatos jellegűek, és magukban foglalják az Azure-tulajdon monitorozását, a szabályzat- és cégirányítási felügyeletet, a finomhangolás beállítását és konfigurálást, a műszaki támogatást és számos más szolgáltatást. Egy partnernek szorosan ismernie kell az ügyfél Azure-környezetét, és folyamatos és megfelelő irányítással és irányítással kell rendelkezik a mögöttes erőforrások kezeléséhez. Azok **a** számlázási partnerek, akik ezt a 24 x 7 felhőművelet-felügyeleti műveletet biztosítják, jogosultak lesznek az erre a munkára felügyelt szolgáltatásokért kapott partneri jóváírásra.
 
-## <a name="make-sure-your-customers-have-signed-the-microsoft-customer-agreement"></a>Győződjön meg arról, hogy az ügyfelek aláírták a Microsoft Customer szerződést
+## <a name="make-sure-your-customers-have-signed-the-microsoft-customer-agreement"></a>Ellenőrizze, hogy az ügyfelek aláírták-e a Microsoft Ügyfélszerződés
 
-2019. október 1. óta a Microsoft Customer szerződése egy olyan örökös megállapodást mutat be, amely leegyszerűsíti és egyszerűsíti az ügyfelek vásárlási élményét egy teljesen digitális folyamattal, elérhető. Minden olyan ügyfélnek, aki szeretné kihasználni az új kereskedelmi élményt az Azure-beli CSP-ben, alá kell írnia a Microsoft ügyfél-szerződést.
+2019. október 1-től elérhető a Microsoft Ügyfélszerződés, amely egy teljes mértékben digitális folyamattal egyszerűsíti és egyszerűsíti az ügyfelek vásárlási élményét. Minden ügyfélnek, aki ki szeretné használni a CSP for Azure új kereskedelmi élményét, alá kell írnia a Microsoft Ügyfélszerződés.
 
-Azok a partnerek, akik az új Azure-csomag keretében szeretnének tranzakciókat használni, és új rendelést szeretne készíteni, meg kell erősíteniük a Microsoft ügyfél-szerződését a partner Center irányítópultján és az API-ban éles környezetben.
+Az új Azure-csomag keretében tranzakciót és új rendelést tenni kívánó partnereknek meg kell erősíteniük az ügyfél által elfogadott Microsoft Ügyfélszerződés az Partnerközpont és API használatával éles környezetben.
 
-2020. február 1-től kezdődően a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP programból. Ettől az időponttól kezdve az új Microsoft ügyfél-szerződéshez tartozó ügyfél-visszaigazolást (igazolást) minden egyéb ajánlathoz meg kell követelni, beleértve a Microsoft 365, a Dynamics 365 és a meglévő Azure-t is. A CSP-partnerek nem tudnak új rendelést készíteni az ügyfélnek a Microsoft-ügyfél szerződésének igazolása nélkül.
+2020. február 1-től a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP-programból. Ettől az időponttól a partnernek meg kell erősítenie (igazolása) az új Microsoft Ügyfélszerződés ügyfél általi elfogadását az összes többi ajánlathoz, beleértve a Microsoft 365, a Dynamics 365 és a meglévő Azure-t is. A CSP-partnerek nem tudnak új rendelést tenni az ügyfélnek a szolgáltató igazolása Microsoft Ügyfélszerződés.
 
-A részletekért olvassa el [a Microsoft ügyfél-szerződés megerősítő ügyfeleinek jóváhagyása](confirm-customer-agreement.md)
+Részletes információkért olvassa el a Következőt: A feltételek [ügyfél általi elfogadásának Microsoft Ügyfélszerződés](confirm-customer-agreement.md)
 
 ## <a name="security-and-access-control-practices"></a>Biztonsági és hozzáférés-vezérlési eljárások
 
-A partnerek és az ügyfelek védelme érdekében az Advisors, a Vezérlőpult-szállítók és a felhőalapú megoldás-szolgáltatói programban részt vevő partnerek számára kötelező biztonsági követelményeket vezetünk be.
+A partnerek és az ügyfelek védelme érdekében kötelező biztonsági követelményeket vezetünk be az Vezérlőpult programban részt vevő tanácsadók, Felhőszolgáltató partnerek számára.
 
-Azok a partnerek, akik nem alkalmazzák a kötelező biztonsági követelményeket, nem tudnak tranzakciót végezni a felhőalapú megoldás-szolgáltató programban, vagy a rendszergazdai jogosultságok kihasználása után felügyelik az ügyfél-bérlőket, ha ezek a követelmények érvénybe lép. Folyamatban van a követelmények technikai végrehajtási dátumának létrehozása, és részletes információkkal értesítjük a partnereket a dátumról.
+Azok a partnerek, akik nem valósítják meg a kötelező biztonsági követelményeket, nem hajtanak végre tranzakciót a Felhőszolgáltató-programban, és nem kezelhetik az ügyfélbérlőket a delegált rendszergazdai jogosultságok érvénybe lépése után. Folyamatban van egy technikai kényszerítési dátum létrehozása a követelményekhez, és részletes információkkal értesítjük a partnereket a dátumról.
 
 ## <a name="actions-to-take-to-implement-mfa"></a>Az MFA megvalósításához szükséges műveletek
 
-Tekintettel arra, hogy a partner magas jogosultsági szinttel rendelkezik, gondoskodni kell arról, hogy minden egyes felhasználónak legyen MFA-kihívása minden egyes hitelesítéshez. Ez a következő módszerek egyikével valósítható meg:
+Mivel a partnerek rendkívül emelt szintű jogosultságokkal rendelkezik, minden egyes hitelesítésnél meg kell győződnünk arról, hogy minden felhasználónak MFA-kihívása van. Ez a következő módszerek egyikével valósítható meg:
 
-- A prémium szintű Azure AD megvalósítása és a többtényezős hitelesítés (MFA) betartatása minden felhasználó esetében
-- Az [Azure ad biztonsági Alapértelmezések](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults) implementálása
-- Harmadik féltől származó megoldás megvalósítása és az MFA biztosítása minden felhasználó számára
+- A prémium szintű Azure AD és a többtényezős hitelesítés (MFA) kényszerítésének biztosítása minden felhasználó számára
+- Az [Azure AD biztonsági alapértelmezések megvalósítása](/azure/active-directory/conditional-access/concept-conditional-access-security-defaults)
+- Harmadik féltől származó megoldás megvalósítása és az MFA kényszerítésének biztosítása minden felhasználó számára
 
-2019. augusztus 1-től minden partnernek ki kell kényszeríteni a többtényezős hitelesítést a partner bérlője minden felhasználója, beleértve a szolgáltatásfiókok szolgáltatást is. Az ezekkel a biztonsági követelményekkel kapcsolatos részletes információkat a [partneri biztonsági követelmények](partner-security-requirements.md)című témakörben találhat.
+2019. augusztus 1-től minden partnernek kötelező többtényezős hitelesítést kikényszerítenie a partnerbérlő összes felhasználója számára, beleértve a szolgáltatásfiókokat is. A biztonsági követelményekkel kapcsolatos részletes információkat a [Partnerbiztonsági követelmények oldalon talál.](partner-security-requirements.md)
 
-A Microsoft azt javasolja, hogy a partnerek szorgalmasan használják a RBAC, [Azure Active Directory Privileged Identity Management erőforrásokon](/azure/active-directory/privileged-identity-management/pim-configure)keresztül engedélyezett ajánlott eljárásokat követve.
+A Microsoft azt javasolja, hogy a partnerek gondosan használják az RBAC-t, a következő forrásokkal [engedélyezett ajánlott Azure Active Directory Privileged Identity Management használatával:](/azure/active-directory/privileged-identity-management/pim-configure).
 
 ## <a name="read-more-about-the-azure-plan"></a>További információ az Azure-csomagról
 
@@ -64,14 +61,14 @@ A Microsoft azt javasolja, hogy a partnerek szorgalmasan használják a RBAC, [A
 
 - [Azure-ajánlatok összehasonlítása](compare-azure-offers.md)
 
-- [Partner által létrehozott kredit – áttekintés](partner-earned-credit.md)
+- [Partneri jóváírás – áttekintés](partner-earned-credit.md)
 
-- A partner által létrehozott kredit (PEC) számítások, valamint a partner által szerzett kreditek beszerzésére jogosult szerepkörök és engedélyek elérhetők a partner Center irányítópult-árlista (bejelentkezés szükséges) lehetőséggel.
+- A partneri jóváírás (PEC) számításai, valamint a partneri jóváírásra jogosult szerepkörök és engedélyek a Partnerközpont Irányítópult árlistából érhetők el (bejelentkezés szükséges).
 
-## <a name="next-steps"></a>További lépések 
+## <a name="next-steps"></a>Következő lépések 
 
-- [A partner által létrehozott kreditek meghatározása – részletek](partner-earned-credit-explanation.md)
-- [Az Azure-csomag árlista magyarázata](azure-plan-price-list.md)
+- [A partneri jóváírás meghatározása – részletek](partner-earned-credit-explanation.md)
+- [Az Azure-csomag árlistának magyarázata](azure-plan-price-list.md)
 - [Az ügyfél áttérése az Azure-csomagra](azure-plan-transition.md)
 - [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)
-- [Azon országok/régiók teljes listája, ahol az Azure-csomag elérhető](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x)
+- [Azon országok/régiók teljes listája, ahol elérhető az Azure-csomag](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3QN0x)

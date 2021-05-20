@@ -1,6 +1,6 @@
 ---
-title: Microsoft Azure foglalás megvásárlása az ügyfelek számára
-description: Megtudhatja, hogyan vásárolhat vagy vásárolhat Azure-foglalásokat az ügyfelek nevében a partner Centerben. Azokat a piacokat is felsorolja, amelyekben az Azure-foglalások nem érhetők el.
+title: Foglalások Microsoft Azure vásárlása ügyfelek számára
+description: Megtudhatja, hogyan vásárolhat Azure-foglalásokat az ügyfelei nevében a Partnerközpont. Azokat a piacokat is felsorolja, ahol az Azure-foglalások nem érhetők el.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,56 +9,50 @@ ms.author: rbars
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
 ms.date: 08/06/2020
-ms.openlocfilehash: 0e81a9561f3749aab281bb4ebd7cd0c38540ff31
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: cd8a78edab25b94e678aafd61ca96e61a625fb07
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534607"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149536"
 ---
-# <a name="buy-microsoft-azure-reservations-on-behalf-of-your-customers-in-partner-center"></a>Microsoft Azure foglalások vásárlása az ügyfelek nevében a partner Centerben
+# <a name="buy-microsoft-azure-reservations-on-behalf-of-your-customers-in-partner-center"></a>Vásároljon Microsoft Azure foglalásokat az ügyfelek nevében a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazdai | Az | Értékesítési ügynök | Felhasználókezelő rendszergazda
 
-- Felügyeleti ügynök
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-- Felhasználói felügyeleti rendszergazda
-
-Ez a cikk azt ismerteti, hogyan vásárolhat vagy vásárolhat Azure-foglalásokat az ügyfelek nevében a partner Centerben. Azokat a piacokat is azonosítja, amelyekben az Azure-foglalások nem érhetők el.
+Ez a cikk azt ismerteti, hogyan vásárolhat Azure-foglalásokat az ügyfelek nevében a Partnerközpont. Azokat a piacokat is azonosítja, ahol az Azure-foglalások nem érhetők el.
  
 > [!NOTE]
-> Ez a cikk csak a Cloud Solution Provider (CSP) programban található partnerekre vonatkozik. A más típusú előfizetéseket (például az utólagos elszámolású, az egyéni, a Microsoft-ügyféli szerződést vagy a Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek Ehelyett olvasniuk kell [Az Azure foglalási dokumentációját](/azure/cost-management-billing/reservations).
+> Ez a cikk csak a Felhőszolgáltató (CSP) program partnereire vonatkozik. A más típusú előfizetéseket (például használat alapján fizetett, egyéni, Microsoft Ügyfélszerződés- vagy Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek érdemes elolvasni az [Azure Reservations dokumentációját.](/azure/cost-management-billing/reservations)
 
 ## <a name="before-you-begin"></a>Előkészületek
 
-Tekintse át az alábbi fontos információkat, mielőtt az ügyfelek nevében megvásárolja az Azure-foglalásokat. (Szeretné, hogy az ügyfelek megvásárolják saját Azure-foglalásait egy korábban megvásárolt Azure-előfizetésből? Tekintse [meg, hogy az ügyfelek jogosultak-e saját Azure-foglalások megvásárlására](give-customers-permission.md#give-customers-permission-to-buy-their-own-azure-reservations).)
+Tekintse át az alábbi fontos információkat, mielőtt megvásárolja az Azure Reservationst az ügyfelek nevében. (Azt szeretné, hogy az ügyfelek megvásárolják saját Azure-foglalásukat a számukra megvásárolt korábbi Azure-előfizetésből? Lásd: Adjon engedélyt az ügyfeleknek a [saját Azure-foglalásaik vásárlásra.)](give-customers-permission.md#give-customers-permission-to-buy-their-own-azure-reservations)
 
-- Ha és amikor az ügyfél aláírja az új Microsoft ügyfél-szerződést (lásd: [a Microsoft ügyfél-szerződés elfogadásának megerősítése](confirm-customer-agreement.md)), az Azure-csomag keretében kell megvásárolnia az Azure-foglalásokat. További információért olvassa el az [Azure-csomag megvásárlása](purchase-azure-plan.md)című témakört.
+- Ha és amikor az ügyfél aláírja az új Microsoft Ügyfélszerződés (lásd: [Ügyfél](confirm-customer-agreement.md)általi elfogadás megerősítése a Microsoft Ügyfélszerződés ), Azure-foglalásokat kell vásárolnia az Azure-csomag alatt. További információ: [Azure-csomag vásárlása.](purchase-azure-plan.md)
 
-- Az ügyfeleknek már aktív Azure-előfizetéssel kell rendelkezniük ahhoz, hogy a nevükben foglalásokat lehessen vásárolni
+- Az ügyfeleknek már aktív Azure-előfizetéssel kell rendelkezikuk, mielőtt megvásárolni tudja a foglalásokat a nevükben
   
-- A szoftveres előfizetések költségei, például az SQL Database vagy a SUSE Linux szoftver nem szerepelnek az Azure foglalási áraiban
+- Az Azure-foglalások díjszabása nem SQL Database a szoftver-előfizetési költségeket, például a SQL Database vagy a SUSE Linux szoftverét
 
-- A Microsoft kereskedelmi díjszabása nem tartalmaz adókat, kivéve, ha a tartózkodási helye Brazília. Ha a tartózkodási helye Brazília, a kereskedelmi ár tartalmazza a megfelelő adókat
+- A Microsoft kereskedelmi díjszabása nem tartalmazza az adókat, kivéve, ha a tartózkodási helye Brazília. Ha a tartózkodási helye Brazília, az Önnek megfelelő kereskedelmi ár tartalmazza a megfelelő adókat
 
-- Az értékesítési és ügyfélszolgálati ügynököknek explicit hozzáférésre van szükségük az Azure-előfizetéshez, így az ügyfél nevében megvásárolhatják vagy kezelhetik a Azure Portal és a fájlokra vonatkozó támogatási kéréseket, beleértve az adatcseréket és a visszatérítéseket is.  
+- Az értékesítési és ügyfélszolgálati ügynököknek explicit hozzáférésre van szükségük az Azure-előfizetéshez, hogy megvásárolni vagy kezelni tudják az Azure Portal-ban és a fájltámogatási kérelmekben, beleértve a cserét és a visszatérítést az ügyfél nevében  
 
-- Ha Ön közvetett szolgáltató, és az Azure-foglalásokat a Azure Portal keresztül vásárolja meg, akkor a Record (közvetett viszonteladó) partner a kiválasztott Azure CSP-előfizetéstől örökölt.
+- Ha Ön közvetett szolgáltató, és az Azure Portal-ban vásárol Azure-foglalásokat, a rekordpartner (közvetett viszonteladó) a kiválasztott Azure CSP örökli.
 
-- A Record for Azure-foglalások partnere nem módosítható a vásárlás után. Megszakíthatja a meglévő foglalást, és vásárolhat újat a rekord új partnerével.
+- Az Azure Reservations rekordpartnere nem módosítható a vásárlás után. Megszüntetheti a meglévő foglalást, és megvásárolhat egy újat az új Rekord partnerrel.
 
-- Ha egy ügyfél közvetlen vagy nagyvállalati szerződéssel rendelkező Azure-előfizetést szeretne átvinni a CSP-re, a foglalások nem vihetők át.
+- Ha egy ügyfél Egy Azure-előfizetést szeretne átvini a Közvetlen előfizetésből vagy a Nagyvállalati Szerződésből a CSP-be, a foglalások átadása nem történik meg.
 
-## <a name="azure-reservations-unavailable-markets"></a>Azure-foglalások nem elérhető piacai
+## <a name="azure-reservations-unavailable-markets"></a>Az Azure Reservations nem elérhető piacai
 
 > [!IMPORTANT]
-> Az Azure-foglalások **nem** érhetők el az alábbi piacokon:  
+> Az **Azure-foglalások a** következő piacokon nem érhetők el:  
 >  
-> **Nem elérhető piacok (ABC sorrendben)**
+> **Nem elérhető piacok (betűrendben)**
 >
-> |A – GI   | Gr – PAL  | Pap – Z |
+> |A–Gi   | Gr –Pal  | Pap–Z |
 > |--------------------------------|-----------------------------------|------------------------------------------|
 > | Åland-szigetek     | Grönland     | Pápua Új-Guinea     |
 > | Amerikai Szamoa     | Grenada     | Pitcairn-szigetek     |
@@ -71,16 +65,16 @@ Tekintse át az alábbi fontos információkat, mielőtt az ügyfelek nevében m
 > | Benin     | Haiti       | Saint Vincent és Grenadine-szigetek     |
 > | Bhután     | Heard-sziget és McDonald-szigetek       | Szamoa     |
 > | Bonaire     | Man-sziget     | San Marino     |
-> | Bouvet-sziget     | Jan Mayen     | São Tomé és Príncipe   |
+> | Bouvet-sziget     | Jan Mayen     | Sémo Tomé és Príncipe   |
 > | Brit indiai-óceáni terület       | Jersey     | Seychelle-szigetek   |
 > | Brit Virgin-szigetek     | Kiribati       | Sierra Leone   |
 > | Burkina Faso     | Koszovó     | Sint Eustatius     |
 > | Burundi     | Laosz     | Sint Maarten     |
 > | Kambodzsa     | Lesotho     | Salamon-szigetek     |
 > | Közép-afrikai Köztársaság     | Libéria     | Szomália     |
-> | Csád     | Madagaszkár     | Déli-Georgia és Déli-Sandwich-szigetek     |
+> | Csád     | Madagaszkár     | Dél-Georgia és Déli-Sandwich-szigetek     |
 > | Kína     | Malawi     | Dél-Szudán     |
-> | Karácsony-sziget     | Maldív-szigetek     | Szent Ilona, Ascension, Tristan da Cunha     |
+> | Karácsony-sziget     | Maldív-szigetek     | St Majda, Ascension, Tristan da Canha     |
 > | Cocos (Keeling)-szigetek     | Mali     | Suriname     |
 > | Comore-szigetek     | Marshall-szigetek     | Svalbard     |
 > | Kongó     | Martinique     | Szváziföld     |
@@ -90,7 +84,7 @@ Tekintse át az alábbi fontos információkat, mielőtt az ügyfelek nevében m
 > | Dominika     | Montserrat     | Tonga   |
 > | Egyenlítői-Guinea     | Mozambik     | Turks- és Caicos-szigetek   |
 > | Eritrea     | Mianmar     | Tuvalu   |
-> | Falkland-szigetek     | Nauru     | Az Amerikai Egyesült Államok lakatlan külbirtokai   |
+> | Falkland-szigetek     | Nauru     | Az Usa-beli, outlying-szigetek   |
 > | Francia Guyana     | Új-Kaledónia     | Vanuatu   |
 > | Francia Polinézia     | Niger     | Vatikán   |
 > | Francia Déli Területek     | Niue     | Wallis és Futuna   |
@@ -98,60 +92,60 @@ Tekintse át az alábbi fontos információkat, mielőtt az ügyfelek nevében m
 > | Gambia     | Északi Mariana-szigetek     |    |
 > | Gibraltár     | Palau       |    |
 
-## <a name="purchase-azure-reservations"></a>Azure-foglalások vásárlása
+## <a name="purchase-azure-reservations"></a>Azure-foglalások megvásárlása
 
-Az alábbi lépéseket követve vásárolhatja meg Microsoft Azure foglalásait az ügyfelek nevében a partner Centerben. (Szeretné, hogy az ügyfelek megvásárolják saját Azure-foglalásait egy korábban megvásárolt Azure-előfizetésből? Tekintse [meg, hogy az ügyfelek jogosultak-e saját Azure-foglalások megvásárlására](give-customers-permission.md).)
+Kövesse az alábbi lépéseket a Microsoft Azure vásárláshoz az ügyfelek nevében a Partnerközpont. (Azt szeretné, hogy az ügyfelek megvásárolják saját Azure-foglalásukat egy korábbi Azure-előfizetésből, amit megvásárolt nekik? Lásd: Give customers permission to buy their own Azure reservations (Engedélyeket adhat az ügyfeleknek [saját Azure-foglalások vásárláshoz).)](give-customers-permission.md)
 
-1. Válassza ki az **ügyfelek** elemet a partner központ menüből.  
+1. Válassza **az Ügyfelek** lehetőséget Partnerközpont menüből.  
 
-2. Az **ügyfelek** lapon keresse meg azt az ügyfelet, aki szeretné megvásárolni az Azure-foglalásokat, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát.  
+2. Az Ügyfelek **lapon** keresse meg az Azure Reservationst megvásárolni kívánó ügyfelet, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát.  
 
-3. Válassza a **termékek hozzáadása** lehetőséget, majd válassza az **Azure** lehetőséget. 
+3. Válassza a **Termékek hozzáadása,** majd az **Azure lehetőséget.** 
 
-    a. Válassza ki az ügyfél piaci szegmensét a **szegmens** listából.
+    a. Válassza ki az ügyfél piaci szegmensét a **Szegmens listából.**
 
-    b. A **terméktípus listából válassza** a **foglalások** lehetőséget.
+    b. Válassza a **Foglalások** lehetőséget a **terméktípus listából.**
 
-    c. Válassza ki, hogy az ügyfél milyen típusú foglalást szeretne a **foglalások típusa** listából.
+    c. A Foglalások típusa listából válassza ki, hogy az ügyfél milyen **típusú foglalást szeretne.**
 
-4. Az Azure-foglalásokat aktív Azure-előfizetéssel kell társítani. Válassza ki azt az ügyfél-előfizetést, amelyhez Azure-foglalásokat kíván hozzáadni az **ügyfél-előfizetések** listájából. 
+4. Az Azure Reservationst aktív Azure-előfizetéssel kell társítva lennie. Válassza ki annak az ügyfélnek az előfizetését, akihez Azure-foglalásokat szeretne hozzáadni az **Ügyfél-előfizetések listájából.** 
 
    >[!IMPORTANT]
-   >Ha az ügyfél még nem rendelkezik aktív Azure-előfizetéssel, válassza az **Azure** lehetőséget a hozzáadáshoz. 
+   >Ha az ügyfél még nem rendelkezik aktív Azure-előfizetéssel, válassza az **Azure** lehetőséget egy új hozzáadásához. 
 
-5. A szűrők használatával megkeresheti az ügyfél igényeinek megfelelő virtuális gépeken az Azure-foglalásokat.  
+5. A szűrőkkel megkeresheti az Azure Reservationst az ügyfél igényeinek megfelelő virtuális gépeken.  
 
-6. Ha megtalálta a megvásárolni kívánt foglalás (oka) t, adja meg a lefoglalt példányok számát **, majd válassza** a **Hozzáadás a kosárhoz** lehetőséget.  
+6. Miután megkeresi a megvásárolni kívánt foglalás(ak)t, adja meg, hogy az ügyfélnek hány fenntartott példányra lesz szüksége a **Quantity** (Mennyiség) mezőben, majd válassza a Add to cart (Hozzáadás a **kosárhoz) lehetőséget.**  
 
-7. Ismételje meg az 5. és a 6. lépést, amíg hozzá nem adta az összes szükséges elemet a rendeléshez. A megrendelés helyességének ellenőrzéséhez válassza az **Áttekintés** lehetőséget.  
+7. Ismételje meg az 5. és a 6. lépést, amíg hozzá nem adott minden szükséges elemet a rendeléshez. Válassza **az Áttekintés** lehetőséget a rendelés helyességének ellenőrzéséhez.  
 
-8. A **megrendelések áttekintése** lapon a következőket teheti: 
+8. A Rendelések **áttekintése lapon** a következőt használhatja: 
 
     - Ellenőrizze vagy módosítsa a fenntartott példányok mennyiségét.
 
-    - Válassza ki a foglalás hatókörét. A foglalás hatóköre egyetlen előfizetésre vagy több előfizetésre (megosztott hatókörre) is vonatkozhat. Ha a foglalás hatókörét egyetlen előfizetésre alkalmazza, a foglalási kedvezmény csak erre az előfizetésre lesz alkalmazva. Ha a megosztott lehetőséget választja, a foglalási kedvezményt az ügyfél számlázási környezetében lévő összes előfizetésre alkalmazza a rendszer. 
+    - Válassza ki a foglalás hatókörét. A foglalás hatóköre egy vagy több előfizetésre (megosztott hatókör) vonatkozhat. Ha a foglalás hatóköre egyetlen előfizetésre terjed ki, a rendszer csak erre az előfizetésre alkalmazza a foglalási kedvezményt. Ha a megosztott lehetőséget választja, a rendszer a foglalási kedvezményt az ügyfél számlázási környezetében található összes előfizetésre alkalmazza. 
 
       >[!NOTE] 
-      >Ha úgy dönt, hogy a foglalás hatókörét egyetlen Azure-előfizetésre korlátozza, akkor előfordulhat, hogy meg kell emelnie az előfizetés vCPU-kvótáját. Az előfizetés vCPU-kvótájának növeléséhez létre kell hoznia egy támogatási kérelmet a Azure Portal. A kérelem létrehozásához kövesse az [ebben a témakörben található](/azure/azure-supportability/resource-manager-core-quotas-request) utasításokat. 
+      >Ha úgy dönt, hogy a foglalás hatókörét egyetlen Azure-előfizetésre korlátozza, előfordulhat, hogy növelnie kell az előfizetés vCPU-kvótáját. Az előfizetés vCPU-kvótája növeléséhez létre kell hoznia egy támogatási kérést a Azure Portal. A kérelem [létrehozásához kövesse az](/azure/azure-supportability/resource-manager-core-quotas-request) ebben a témakörben található utasításokat. 
 
       >[!NOTE]   
-      >Ha az ügyfél az Azure-csomag alatt van, a **hatókör**  a **megosztott** értékre lesz állítva. 
+      >Ha az ügyfél az Azure-csomag alá van beállítva, **a Hatókör**  beállítása **Megosztott** lesz. 
 
-    - Ha Ön szolgáltatói partner, válassza ki azt a viszonteladót, amelyet hozzá szeretne rendelni a termékhez.
+    - Ha Ön szolgáltatói partner, válassza ki a termékhez társítani kívánt viszonteladót.
     
-    - Ha az Azure-foglalás támogatja a számlázási csomag lehetőséget, akkor a legördülő menüből kiválaszthatja a számlázási gyakoriságot. 
-    - Ha az Azure-foglalás nem támogatja a számlázási csomag lehetőséget, akkor a számlázási gyakoriság alapértelmezés szerint egyszeres számlázást végez. 
+    - Ha az Azure-foglalása támogatja a Számlázási csomag lehetőséget, kiválaszthatja a számlázási gyakoriságot havi szinten a legördülő menüből. 
+    - Ha az Azure-foglalás nem támogatja a Számlázási csomag lehetőséget, a számlázási gyakoriság alapértelmezés szerint csak egyszer lesz kiszámlázás. 
 
-9. Válassza a **vásárlás** lehetőséget a megrendelés megvásárlásához. A megrendelés részletei, beleértve a megrendelés számát is, a **megerősítés** lapon jelennek meg. A **kész** gombra kattintva lépjen a **rendelési előzmények** lapra. 
+9. A **rendelés megvásárlásához** válassza a Vásárlás lehetőséget. A rendelés részletei, beleértve a rendelés számát is, a Megerősítés **lapon jelennek** meg. A **Rendelési** előzmények oldalra **való ugráshoz** válassza a Kész lehetőséget. 
 
-10. Ha az ügyfél foglalását a Azure Portalban szeretné kezelni, keresse meg az ügyfelet az **ügyfelek** lapon, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát. Válassza a **a Microsoft Azure felügyeleti portálja** lehetőséget az ügyfél rekordjának megnyitásához a Azure Portal.
+10. Az ügyfél foglalásának kezeléséhez a Azure Portal keresse meg az ügyfelet az **Ügyfelek** oldalon, majd a lefelé mutató nyílra kattintva bontsa ki az ügyfél sorát. Válassza **a Microsoft Azure felügyeleti portálja** az ügyfél rekordját a Azure Portal.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-|**További információ**   |**Olvassa el ezt**    |
+|**További információ:**   |**Olvassa el ezt**    |
 |:-----------------------------|:-----------------|
-|Azure-foglalások a CSP-ben – áttekintés  | [Microsoft Azure fenntartott példányok eladása](azure-reservations.md) |
-|Azure-foglalások kezelése a partner Centerben | [Azure-foglalások kezelése a partner Centerben](azure-reservations-manage.md)
-|A virtuális gép megfelelő méretének meghatározása és az ügyfél virtuális gépek használatának ellenőrzése   |[Virtuális gép méretezése az Azure-foglalások maximális használatára](azure-usage.md)   |
-|Azure-foglalások vásárlása a partner Center API használatával | [Vásárlás Azure Reserved VM instances](/partner-center/develop/purchase-azure-reservations) a partner Center fejlesztői dokumentációjában   |
-|Engedélyt ad a felhasználóknak a saját Azure-foglalások megvásárlására  | [Engedélyt ad az ügyfeleknek a saját Azure-foglalások megvásárlására](give-customers-permission.md)  |
+|Azure Reservations a CSP-ban – áttekintés  | [Fenntartott Microsoft Azure értékesítés](azure-reservations.md) |
+|Azure Reservations kezelése a Partnerközpont | [Azure Reservations kezelése a Partnerközpont](azure-reservations-manage.md)
+|A megfelelő virtuálisgép-méret meghatározása és az ügyfél virtuálisgép-használatának ellenőrzése   |[Virtuális gép méretezése az Azure-beli foglalások maximális kihasználtságában](azure-usage.md)   |
+|Azure-foglalások vásárlása a Partnerközpont API-val | [Vásárlás Azure Reserved VM Instances](/partner-center/develop/purchase-azure-reservations) a Partnerközpont fejlesztői dokumentációjában   |
+|Engedély adva az ügyfeleknek a saját Azure-foglalásaik vásárláshoz  | [Engedélyt adhat az ügyfeleknek a saját Azure-foglalásaik vásárlásra](give-customers-permission.md)  |

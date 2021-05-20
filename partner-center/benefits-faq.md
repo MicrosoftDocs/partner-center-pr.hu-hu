@@ -2,122 +2,120 @@
 title: Az előnyökkel kapcsolatos gyakori kérdések
 ms.topic: article
 ms.date: 12/15/2020
-description: Válaszok az Azure-hoz, a felhőhöz, a Visual studióhoz, valamint a technikai és támogatási előnyökhöz kapcsolódó licencek lejáratával, megújításával és aktiválásával kapcsolatos kérdésekre
+description: Válaszok az előnyök lejáratával, megújításával, valamint az Azure-, felhő-, Visual Studio- és technikai és támogatási előnyök licencének aktiválásával kapcsolatos kérdésekre
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: arpithakanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOJUNE20
-ms.openlocfilehash: 8a81e287412394427003e489352312faba6984b9
-ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
+ms.openlocfilehash: 7c3ee29099a072de3e508fcdfcfd965082522895
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106557698"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149281"
 ---
 # <a name="benefits-faq"></a>Az előnyökkel kapcsolatos gyakori kérdések
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** MPN-partneri rendszergazda
 
-- MPN-partner rendszergazdája
-
-A jelen cikk Microsoft Partner Network (MPN) előnyeivel kapcsolatos gyakori kérdéseket tárgyalja.
+A cikk számos gyakori Microsoft Partner Network (MPN) előnyeivel foglalkozik.
 
 
 ## <a name="general-questions"></a>Általános kérdések
 
-### <a name="q-what-does-benefit-expiry-date-mean"></a>K. Mit jelent a "juttatás lejárati dátuma" kifejezés
+### <a name="q-what-does-benefit-expiry-date-mean"></a>K. Mit jelent az "Előny lejárati dátuma"?
 
-A juttatás lejárati dátuma azt jelenti, hogy a legkésőbbi időpontban aktiválja az előnyeit.
+Az juttatás lejárati dátuma az előnyök aktiválásának utolsó dátumát jelenti.
 
-Addig, amíg meg nem újítja a megújítási időpontot, be kell váltania az egyéves regisztrációs időszak során elérhető előnyöket. Az MPN-irányítópult [tagsági ajánlatok](https://partner.microsoft.com/dashboard/mpn/offers) lapján megtekintheti a megújítási kezdési dátumot.
+A megújítási dátumig rendelkezésére áll az egyéves regisztrációs időszakban elérhető kedvezmények beváltása. A megújítás kezdési dátumát az MPN-irányítópult [Tagsági](https://partner.microsoft.com/dashboard/mpn/offers) ajánlatok oldalán találja.
 
-A termékkulcsot azonban a nap egy évére is használhatja a saját felhőalapú portálján lévő kulcsok beváltásához.
+A termékkulcsokat azonban egy évig is használhatja attól a naptól függően, amikor beváltja a kulcsokat a megfelelő felhőportáljaikon.
 
-Ha például az előny lejárati dátuma 2021 január 31-én lejár, akkor a megfelelő Felhőbeli portál kulcsait a 2021. január 31-ig kell megváltania. Ha pedig a 2020. december 1-én beváltja a termékkulcsot, ezt a kulcsot 2021 december 1-ig használhatja, még akkor is, ha az Ön juttatásának lejárati dátuma január 31-ig tart.
+Ha például a kedvezmény lejárati dátuma 2021. január 31., akkor a kulcsokat a megfelelő felhőportálon kell beváltani 2021. január 31. előtt. Ha 2020. december 1-jén beváltja a termékkulcsot, 2021. december 1-ig használhatja azt annak ellenére, hogy az juttatás lejárati dátuma január 31.
 
 >[!NOTE]
->Ha olyan előnyökkel rendelkezik, amelyek felhasználói hozzárendelést igényelnek (például a Visual Studio-előfizetéseket), akkor a regisztráció megújítási dátuma után további 30 nappal aktiválhatja és használhatja ezeket az előnyöket.
+>Ha rendelkezik felhasználói hozzárendelést igénylő előnyökkel (például Visual Studio-előfizetésekkel), ezeket az előnyöket a regisztráció megújításának dátumát követően további 30 napig aktiválhatja és használhatja.
 
-### <a name="q-how-do-i-renew-my-benefits"></a>K. Az előnyök megújítása Hogyan
+### <a name="q-how-do-i-renew-my-benefits"></a>K. Hogyan az előnyök megújítása
 
-A következő eljárással újíthatja meg az előnyeit:
+Az alábbi eljárással újíthatja meg az előnyöket:
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A bal oldali navigációs panelen válassza az **MPN** elemet.
+2. A bal oldali navigációs sávon válassza az **MPN lehetőséget.**
 
-3. Az **MPN** lapon válassza az **előnyök** lehetőséget.
+3. Az **MPN lapon** válassza az **Előnyök** lehetőséget.
 
-4. Aktiválja a kívánt előnyt.
+4. Aktiválja a kívánt kedvezményt.
 
-Ha a kívánt előny nem érhető el, meg kell újítania a partner Center-tagságát, és újra kell ismételnie a fenti folyamatot.
+Ha a kívánt előny nem érhető el, meg kell újítania a Partnerközpont, és meg kell ismételnie a fenti folyamatot.
 
 ### <a name="q-i-received-a-notification-informing-me-that-my-subscription-is-expiring-soon---what-should-i-do"></a>K. Értesítést kaptam arról, hogy az előfizetésem hamarosan lejár – mit tegyek
 
-Jelentkezzen be az értesítést létrehozó felhő-portálra, tekintse át a meglévő előfizetések lejárati idejét, majd adja hozzá a licenceket a lejáró előfizetéshez, vagy terjessze ki a meglévő előfizetést a beléptetés következő évére.
+Jelentkezzen be az értesítést generáló felhőportálra, tekintse át a meglévő előfizetés(ök) lejárati dátumát, majd adjon hozzá licenceket a lejáró előfizetéshez, vagy terjessze ki a meglévő előfizetést a következő évre.
 
-### <a name="q-when-can-i-renew-my-membership"></a>K. Mikor lehet megújítani a tagságot
+### <a name="q-when-can-i-renew-my-membership"></a>K. Mikor újítható meg a tagságom?
 
 A meglévő tagság bármikor megújítható a megújítás kezdési dátuma után.
 
-## <a name="azure-and-cloud-activation-benefits"></a>Azure-és felhőalapú aktiválási előnyök
+## <a name="azure-and-cloud-activation-benefits"></a>Az Azure és a felhő aktiválásának előnyei
 
-### <a name="q-how-does-adding-extendingrenewing-licenses-work-on-azure"></a>K. A licencek hozzáadása, kiterjesztése/megújítása az Azure-ban
+### <a name="q-how-does-adding-extendingrenewing-licenses-work-on-azure"></a>K. Hogyan működik a licencek hozzáadása, kiterjesztése/megújítása az Azure-ban?
 
-Licencek hozzáadásakor növelje a meglévő előfizetéshez tartozó összes licenc számát.
+A licencek hozzáadásakor megnöveli a meglévő előfizetéshez szükséges licencek teljes számát.
 
-Az előfizetések megújítása vagy kiterjesztése esetén a licencek száma változatlan marad, de az előfizetések időtartamát ki kell bővíteni.
+Az előfizetések megújítása vagy kiterjesztésekor a licencek száma változatlan marad, de az előfizetések számára meghosszabbítja az időt.
 
 >[!IMPORTANT]
->Ha egy meglévő előfizetéshez ad hozzá licenceket, az előfizetés kevesebb, mint 12 hónap múlva lejár, a meglévő és a hozzáadott licencek számától függően. Miután beváltotta a kulcsot, nem válthat újra. Mielőtt beváltja a kulcsot, győződjön meg róla, hogy hozzá kell adnia a licenceket, vagy meg kell újítania/ki kell bővíteni az előfizetést.
+>Ha úgy dönt, hogy meglévő előfizetéshez ad hozzá licenceket, az előfizetés a meglévő és a hozzáadott licencek számától függően kevesebb mint 12 hónapon belül lejár. A kulcs beváltása után már nem tudja azt újra beváltani. A kulcs beváltása előtt győződjön meg arról, hogy licenceket kell hozzáadnia, vagy meg kell újítania/ki kell terjesztenie az előfizetést.
 
-### <a name="q-can-i-activate-the-license-on-my-customers-account"></a>K. Aktiválható a licenc az ügyfél fiókján
+### <a name="q-can-i-activate-the-license-on-my-customers-account"></a>K. Aktiválható a licenc az ügyfél fiókjához?
 
-Nem. A termék-licenceket bemutató célokra kell kiállítani. Az értékesítési és marketing alkalmazottai ezt a szoftvert használhatják a termékek kiépítésére az ügyfelek számára, de a bemutató termékek nem telepíthetők az ügyfél hardverére vagy infrastruktúrára, és a partneri felügyelethez kell használni őket.
+Nem. A terméklicencek bemutatása céljából vannak kibocsátva. Az értékesítési és marketinges alkalmazottak ezzel a szoftverrel bemutatják a termékeket az ügyfeleknek, de a bemutató termékek nem telepíthetők ügyfélhardverre vagy -infrastruktúrára, és partnerfelügyelettel kell használni őket.
 
-### <a name="q-im-having-trouble-assigning-users-in-azure-bulk-credit-what-should-i-do"></a>K. Problémát tapasztalok a felhasználók Azure-beli tömeges jóváírásban való hozzárendelésével kapcsolatban. Mit tegyek?
+### <a name="q-im-having-trouble-assigning-users-in-azure-bulk-credit-what-should-i-do"></a>K. Nem tudom hozzárendelni a felhasználókat az Azure-beli tömeges kredithez. Mit tegyek?
 
-Más ajánlatokkal nem kombinálhat Azure-beli tömeges jóváírási ajánlatokat. Ha a felhasználó-hozzárendelés nem működik, valószínűleg azt jelenti, hogy a hozzárendelni kívánt felhasználó már más licencelési, előre fizetett vagy jóváírási ajánlatokat is használ, mint például a Microsoft Nagyvállalati Szerződés, a Cloud Solution partner, a Azure in Open licencprogram, a Azure Pass, a Action Pack stb. Ha a felhasználó nincs előfizetve ezekre a szerződésekre vagy csomagokra, és továbbra sem tudja hozzárendelni, forduljon a Microsoft ügyfélszolgálatahoz.
+Az Azure tömeges kredit ajánlatok nem kombinálhatóak más ajánlatokkal. Ha egy felhasználó-hozzárendelés nem működik, az valószínűleg azt jelenti, hogy a hozzárendelni kívánt felhasználó már más licencelési, előre fizetett vagy jóváírási ajánlatokat használ, mint például a Microsoft Nagyvállalati Szerződés, a Cloud Solution Partner, Azure in Open licencprogram, Azure Pass, Action Pack stb. Ha a felhasználó egyik ilyen szerződésre vagy csomagra sem fizet elő, de Ön továbbra sem tudja hozzárendelni őket, lépjen kapcsolatba a Microsoft ügyfélszolgálata.
 
-## <a name="visual-studio-benefits"></a>A Visual Studio előnyei
+## <a name="visual-studio-benefits"></a>Visual Studio előnyei
 
-### <a name="q-how-does-visual-studio-activation-work-in-partner-center"></a>K. Hogyan működik a Visual Studio aktiválása a partner Centerben?
+### <a name="q-how-does-visual-studio-activation-work-in-partner-center"></a>K. Hogyan működik Visual Studio aktiválás a Partnerközpont
 
-A következő lépések végrehajtásával rendelhet hozzá előfizetéseket a partner Center vagy a Azure Active Directory (HRE) bérlő felhasználói kezelés listájában:
+Az előfizetéseket a felhasználókezelési listában bárkihez hozzárendelheti a Partnerközpont vagy a Azure Active Directory -bérlőben az alábbi lépésekkel:
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A partner Center menüben válassza az **MPN** elemet.
+2. A Partnerközpont válassza az **MPN lehetőséget.**
 
-3. Válassza az **előnyök** lehetőséget, majd válassza a **Visual Studio** elemet.
+3. Válassza **az Előnyök** lehetőséget, majd a **Visual Studio.**
 
-4. Rendelje hozzá a kívánt felhasználókat a meglévő Visual Studio-előfizetésekhez.
+4. Rendelje hozzá a kívánt felhasználókat a meglévő Visual Studio elérhető előfizetéséhez.
 
-Az előfizetés hozzárendelése után a felhasználónak be kell jelentkeznie a Visual studióba a kezeléséhez.
+Az előfizetés hozzárendelése után a felhasználónak be kell jelentkeznie a Visual Studio a kezeléséhez.
 
 >[!Note]
-> Előfordulhat, hogy a Visual Studio-előfizetések újbóli hozzárendelése az egyik előfizetőből egy másikba, ha az eredeti hozzárendelés időpontja óta 90 nap telt el.
+> Visual Studio előfizetések az eredeti hozzárendelés óta eltelt 90 nap után újra hozzárendelődhetnek az egyik előfizetőtől a másikhoz.
 
-## <a name="technical-benefits-and-support"></a>Technikai előnyök és támogatás
+## <a name="technical-benefits-and-support"></a>Műszaki előnyök és támogatás
 
-### <a name="q-i-cant-install-the-software-i-downloaded-from-partner-center-how-do-i-get-help"></a>K. Nem tudom telepíteni a partner központból letöltött szoftvert. Segítség kérése Hogyan
+### <a name="q-i-cant-install-the-software-i-downloaded-from-partner-center-how-do-i-get-help"></a>K. Nem tudom telepíteni az alkalmazásból letöltött Partnerközpont. Hogyan segítségért
 
-A telepítés, az aktiválás és az egyéb termékkel kapcsolatos súgó a Microsoft ügyfélszolgálataon keresztül érhető el. Ha segítséget szeretne kérni, hajtsa végre a következő lépéseket:
+A telepítéssel, aktiválással és más termékekkel kapcsolatos súgót az Microsoft ügyfélszolgálata. Ha segítségre van szüksége, tegye a következőket:
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A partner Center menüben válassza az **MPN** elemet.
+2. A Partnerközpont válassza az **MPN lehetőséget.**
 
-3. Válassza az **előnyök** lehetőséget, majd válassza a **technikai előnyök** lehetőséget.
+3. Válassza **az Előnyök,** majd a **Technikai előnyök lehetőséget.**
 
-4. A technikai előnyök szakaszban aktiválhatja és fogadhatja a hozzáférési azonosítót vagy a szerződés AZONOSÍTÓját.
+4. A Technical Benefits szakaszban aktiválhatja és fogadhatja a hozzáférési azonosítót/szerződésazonosítót.
 
-5. Jelentkezzen be [Microsoft ügyfélszolgálataba](https://support.microsoft.com/supportforbusiness/productselection).
+5. Jelentkezzen be a [Microsoft ügyfélszolgálata.](https://support.microsoft.com/supportforbusiness/productselection)
 
-6. Válassza ki a telepíteni kívánt terméket, majd hozzon létre egy technikai támogatási jegyet.
+6. Válassza ki a telepíteni kívánt terméket, majd hozzon létre egy műszaki támogatási jegyet.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Szerezzen be egy speciális specializációt a szaktudás bemutatásához](advanced-specializations.md)
+- [Speciális specializációt szerezhet a szakértelmének bemutatásához](advanced-specializations.md)

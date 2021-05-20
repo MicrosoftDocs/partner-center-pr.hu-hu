@@ -1,68 +1,66 @@
 ---
-title: A CHIP megoldás kiértékelési lehetőségének állapota
+title: CHIP-megoldás felmérési lehetőségének állapota
 ms.topic: how-to
 ms.date: 11/09/2020
-description: Megtudhatja, hogyan találhatja meg a megoldás-értékelési lehetőség állapotát a Channel ösztönzők platformon (CHIP).
+description: Megtudhatja, hogyan találhatja meg a megoldásértékelési lehetőségek állapotát a Csatornaösztönzők platformon (CHIP).
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: df7418e48832344fd6de052a7387a2f5c8368363
-ms.sourcegitcommit: 22d79fb31cce852ae809078ea2310ebc80030739
+ms.openlocfilehash: 620490dfdd63b40957421e6df6432d480584658a
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97354593"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148839"
 ---
-# <a name="find-your-solution-assessments-opportunity-status-on-chip"></a>Megoldás-értékelési lehetőség állapotának megkeresése a CHIPen
+# <a name="find-your-solution-assessments-opportunity-status-on-chip"></a>Megoldásértékelési lehetőség állapotának megkeresés a CHIP-on
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Elsődleges kapcsolattartó vagy program-rendszergazda
 
-- Elsődleges kapcsolattartó vagy program rendszergazdája
+A partnerek áttekinthetik a megoldásértékelési lehetőségek állapotát a CHIP-hez.
 
-A partnerek áttekinthetik a megoldás-értékelési lehetőség állapotát a CHIPen.
+## <a name="determine-the-status-of-your-deal"></a>Az ajánlat állapotának meghatározása
 
-## <a name="determine-the-status-of-your-deal"></a>Az üzlet állapotának meghatározása
+Győződjön meg arról, hogy az ajánlata elérte a jogosult értékesítési szakaszt, és a Megoldásértékelési szakértő (SAS) jóváhagyta. Ellenőrizze a CHIP-fiókját.
 
-Győződjön meg arról, hogy az üzlet elérte a jogosult értékesítési szakaszt, és jóváhagyja a megoldás-értékelési szakember (SAS). Ennek a fióknak a bejelölése.
-
-1. Jelentkezzen be a CHIPbe a Microsoft-fiókjával (előző élő azonosító).
-1. A **lehetőség azonosítója** mezőben írja be vagy illessze be a lehetőség azonosítójának számát.
+1. Jelentkezzen be a CHIP-be a Microsoft-fiókjával (az előző Live ID-val).
+1. A **Lehetőségazonosító mezőbe** írja vagy illessze be a lehetőség azonosítószámát.
 3. Kattintson a Keresés gombra.
 
-1. A lehetőség részleteinek megtekintéséhez kattintson a **Poe** oszlopban a **Megtekintés** elemre. Tekintse át a lehetőség állapotát. Ha a lehetőség **Beküldéses** állapotba kerül, a végrehajtáshoz szükséges (PoE) dokumentumokat el kell küldeni ahhoz, hogy a fizetési folyamaton belül továbblépni lehessen.
+1. A **lehetőség részleteinek** megtekintéséhez kattintson a **POE** oszlop alatti Nézet elemre. Tekintse át a lehetőség állapotát. Ha a lehetőség  Submit (Küldés) állapotú, a fizetési folyamathoz be kell nyújtani a végrehajtási igazolás (POE) dokumentumait.
  
-1. A Szerkesztés hivatkozásra kattintva ellenőrizze, hogy az összes POE-dokumentumot feltöltötte-e. Jegyezze fel, hogy van-e POE feltöltve, és hogy be van-e jelölve az EM jóváhagyása jelölőnégyzet.
+1. Kattintson a Szerkesztés hivatkozásra annak ellenőrzéséhez, hogy az összes POE-dokumentum fel lett-e töltve. Jegyezze fel, ha a POE fel van töltve, és az EM Approval (EM-jóváhagyás) jelölőnégyzet be van jelölve.
  
-1. Térjen vissza a keresési eredményekhez, majd kattintson a megfelelő üzlet nevére az ügylet részleteinek lekéréséhez. 
+1. Térjen vissza a keresési eredményekhez, és kattintson a megfelelő ajánlat nevére az ajánlat részleteinek lekérése érdekében. 
 
-1. A 4 – 6. lépésekben található információk alapján állapítsa meg, hogy teljesülnek-e az ösztönző jövedelemszerzési minimális követelményei. Ha bármilyen követelmény nem teljesült, tegye a következőket:
+1. A 4–6. lépésben található információk alapján állapítsa meg, hogy teljesülnek-e az ösztönzőszerzés minimális követelményei. Ha valamelyik követelmény nem teljesült, tegye a következőket:
  
-     - Ha a POE még nincs feltöltve, fel kell töltenie a CHIPbe.
+     - Ha a POE nincs feltöltve, fel kell töltenie a CHIP-be.
  
-     - Nyissa meg a CHIPet, és jelentkezzen be Microsoft-fiókjával (előző élő azonosító).
+     - Nyissa meg a CHIP-et, és jelentkezzen be Microsoft-fiókjával (az előző Live ID-val).
  
-     - Válassza a **megoldások felmérési ösztönzők lehetőséget.**
+     - Válassza **a Megoldások felmérése ösztönzők lehetőséget.**
 
-     - A **szükséges..** . szakaszban kattintson a **keresési ajánlatok** elemre.
+     - A **Szükséges...** szakaszban kattintson a **Keresési ajánlatok elemre.**
 
-     - Írja be a lehetőség AZONOSÍTÓját a **lehetőség** mezőbe, és kattintson a **Keresés** gombra.
+     - Írja be a Opportunity ID (Lehetőségazonosító) mezőt a **Opportunity (Lehetőség) mezőbe,** majd kattintson a **Search (Keresés) gombra.**
 
-     - Ha a lehetőség látható, kattintson a **Küldés** gombra.
+     - Ha a Lehetőség látható, kattintson a **Küldés gombra.**
   
-     - Az új POE menüben keresse meg a szükséges POE-dokumentumot, és válassza ki.
+     - Az új POE menüben keresse meg és jelölje ki a szükséges POE-dokumentumot.
 
-     - Kattintson a dokumentum feltöltése elemre.
+     - Kattintson a Dokumentum feltöltése elemre.
 
-     - Ismételje meg a műveletet annyi alkalommal, amikor az összes szükséges dokumentumot fel szeretné tölteni.
+     - Az összes szükséges dokumentum feltöltéséhez ismételje meg a műveletet annyiszor, amennyire csak szüksége van.
 
-     - Az összes dokumentum feltöltése után kattintson a **Submit (Küldés**) gombra.
+     - Az összes dokumentum feltöltése után kattintson a **Submit (Küldés) gombra.**
 
-Ha nincs bejelölve az EM-jóváhagyás jelölőnégyzet, lépjen kapcsolatba a megoldás Assessment specialistával (SAS) a jóváhagyás ellenőrzéséhez és megadásához.
+Ha az EM-jóváhagyás jelölőnégyzet nincs bejelölve, lépjen kapcsolatba a megoldásértékelési szakemberrel (SAS) a jóváhagyás ellenőrzésével és jóváhagyásával.
  
-Ha további kérdése van, vagy támogatási jegyet szeretne küldeni, kattintson a [támogatás](report-problems-with-partner-center.md)gombra.
+Ha további kérdései vannak, vagy támogatási jegyet szeretne be nyújtani, kattintson a [Támogatás elemre.](report-problems-with-partner-center.md)
 
 ## <a name="next-steps"></a>Következő lépések
 

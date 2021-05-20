@@ -1,114 +1,107 @@
 ---
-title: Ügyfelek áthelyezése az aktuális Azure-ajánlatokból az Azure-csomagba
+title: Ügyfelek áthelyezése az aktuális Azure-ajánlatokból Azure-csomagba
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a CSP-partnerek hogyan használhatják a partner központot a meglévő CSP Azure-ajánlatokból az Azure-csomag keretében az Azure-szolgáltatásokhoz.
+description: Ismerje meg, hogy a CSP-partnerek hogyan Partnerközpont az ügyfeleket meglévő CSP Azure-ajánlatokból Azure-szolgáltatásokba az Azure-csomag keretében.
 author: mowree
 ms.author: mowrim
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
 ms.date: 06/16/2020
-ms.openlocfilehash: 4e22386dc8bddd9662a0d80020a5c90c464e9d39
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: 37b77e434d20a2efe4a298f773f0356bbb958ac2
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534811"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149587"
 ---
-# <a name="transition-customers-to-azure-plan-from-existing-csp-azure-offers"></a>Ügyfelek átváltása Azure-csomagra meglévő CSP Azure-ajánlatokból
+# <a name="transition-customers-to-azure-plan-from-existing-csp-azure-offers"></a>Ügyfelek váltása Azure-csomagra meglévő CSP Azure-ajánlatokról
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Globális rendszergazdai | Az | Értékesítési ügynök | Felhasználókezelő rendszergazda
 
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-- Felhasználói felügyeleti rendszergazda
+Ez a cikk azt ismerteti, hogy a CSP-partnerek hogyan Partnerközpont az ügyfeleket meglévő CSP Azure-ajánlatokból Azure-szolgáltatásokba az Azure-csomag keretében. A közvetett szolgáltatók és a közvetlen számlázási partnerek áttérnek az Azure-hoz elérhető Microsoft Cloud Service Provider Programban (CSP) elérhető új kereskedelmi élményre. (A közvetett viszonteladóknak a közvetett szolgáltatóikon keresztül kell dolgozniuk.) Az ügyfelek zökkenőmentesen vásárolhatnak felhőszolgáltatásokat, akár partnerektől, akár Microsoft-értékesítőktől vagy közvetlenül a weben vásárolnak.
 
-Ez a cikk azt ismerteti, hogy a CSP-partnerek hogyan használhatják a partner központot a meglévő CSP Azure-ajánlatokból az Azure-csomagba tartozó Azure-szolgáltatásokhoz. A közvetett szolgáltatók és a közvetlen számlázási partnerek az Azure-beli Microsoft Cloud Service Provider program (CSP) szolgáltatásban elérhető új kereskedelmi élményre válthatnak. (A közvetett viszonteladóknak a közvetett szolgáltatókon keresztül kell dolgozniuk.) Az ügyfelek zökkenőmentesen vehetik igénybe a felhőalapú szolgáltatásokat, akár a partnerektől, akár a Microsoft értékesítőtől, akár közvetlenül a világhálón vásárolnak.
+Az átváltási funkció csak olyan ügyfelek számára elérhető, akik áttérnek az Azure új kereskedelmi felhasználói élményére, és aláírták a Microsoft Ügyfélszerződés. Ez nem más CSP-ajánlatokhoz, például az Office 365-hez vagy a Dynamics 365-hez való.
 
-Az áttérési képesség csak olyan ügyfelek számára érhető el, akik az Azure-hoz készült új kereskedelmi tapasztalatra áttértek, és akik aláírták a Microsoft ügyfél-szerződést. Nem a CSP egyéb ajánlatai, például az Office 365 vagy a Dynamics 365.
+## <a name="transition-existing-csp-offers-to-an-azure-plan"></a>Meglévő CSP-ajánlatok váltása Azure-csomagra
 
-## <a name="transition-existing-csp-offers-to-an-azure-plan"></a>Meglévő CSP-ajánlatok átváltása Azure-csomagra
+A CSP-program új kereskedelmi élményében az ügyfeleket átveheti a meglévő CSP Azure-ajánlataiból az Azure-szolgáltatásokba az Azure-Partnerközpont. Ehhez a partnernek és az ügyfélnek egy már létrehozott viszonteladói kapcsolattal kell Partnerközpont, és az ügyfélnek alá kell írnia a Microsoft Ügyfélszerződés.
 
-A meglévő CSP Azure-ajánlatait áthelyezheti az Azure-szolgáltatásokba az Azure-csomag keretében az új kereskedelmi környezet keretében a CSP programban a partner Centerben. Ehhez a partnernek és az ügyfélnek rendelkeznie kell egy, a partner centeren keresztül létrehozott viszonteladói kapcsolattal, és az ügyfélnek alá kell írnia a Microsoft ügyfél-szerződést.
+### <a name="select-transition-to-azure-plan"></a>Váltás Azure-csomagra kiválasztása
 
-### <a name="select-transition-to-azure-plan"></a>Az Azure-csomagra való áttérés kiválasztása
+1. Válassza az Azure-csomag lehetőséget az ügyfél számára.
 
-1. Válassza ki az Azure-csomagot az ügyfél számára.
+2. Válassza **a Számlázás váltása Azure-csomagra lehetőséget.**
 
-2. Válassza **az áttérési számlázás az Azure-csomagra** lehetőséget.
-
-   :::image type="content" source="images/azure/transition1.png" alt-text="Képernyőfelvétel: a használaton alapuló előfizetések jelentési információi az Azure-előfizetésre váltás Azure-csomagra való áttéréskor használt választható lehetőséggel.":::
+   :::image type="content" source="images/azure/transition1.png" alt-text="Képernyőkép a használatalapú előfizetések jelentési adatairól, egy választható lehetőséggel: Az Azure-előfizetés számlázásának váltása Azure-csomagra.":::
 
 3. Válassza a **Folytatás** elemet
 
-   :::image type="content" source="images/azure/transition2.png" alt-text="Az Azure-csomagra való áttérést ismertető párbeszédpanel, amely az áttéréssel kapcsolatos tudnivalókat és a kiválasztható, folytatott vagy megszakított két lehetőséget is érinti.":::
+   :::image type="content" source="images/azure/transition2.png" alt-text="Az Áttérés Azure-csomagra című párbeszédpanel, amely az átváltásra és két választható lehetőségre (Folytatás vagy Mégse) gyakorolt következményekkel jár.":::
 
-   Az ügyfelet az Azure-csomagra fogjuk áttérni.
+   Az ügyfél átvált az Azure-csomagra.
 
-   **Az áttérési munkafolyamat automatizálja az előfeltételként szükséges lépéseket**:
+   **Az átváltási munkafolyamat automatizálja az előfeltételként szükséges lépéseket:**
 
-   - Azure-csomag (ok) vásárlása
-   - Egy csomag ügyfélként a közvetlen CSP-forgatókönyvek esetében  
-   - Egy csomag/viszonteladó  
+   - Azure-csomag(ak) vásárlása
+   - Ügyfélenként egy csomag a közvetlen CSP-forgatókönyvekben  
+   - Viszonteladónként egy csomag  
 
-   Egy partner például két Microsoft Azure ajánlatot vásárolt, és két különböző POR szerepel a vásárlásban. Ebben az esetben az áttérési munkafolyamat két Azure-csomagot (egy-egy viszonteladót) vásárol, és az Azure-csomagok megfelelő Azure-előfizetéseit automatikusan leképezi.  
+   Egy partner például megvásárolt két Microsoft Azure, és két különálló POR-t tartalmazott a vásárlásban. Ebben az esetben az átváltási munkafolyamat két Azure-előfizetést vásárol (viszonteladónként egyet), és automatikusan leképezi a megfelelő Azure-előfizetéseket az Azure-csomagok alatt.  
 
-   **Azure-előfizetés leképezése az Azure-csomagra**
+   **Azure-előfizetés leképezése Azure-csomagra**
 
-   Az Azure-csomag (ok) megvásárlása után a rendszer leképezi a meglévő Azure-előfizetéseket az Azure-csomagokra. A folyamat Azure Portal és a partner Centerben is megtekinthető.
+   Az Azure-csomagok megvásárlása után a rendszer leképezi a meglévő Azure-előfizetéseket az Azure-csomagokra. Az előrehaladás megtekinthető a Azure Portal a Partnerközpontban is.
 
-4. Térjen vissza az ügyfél partneri központ- **előfizetések** lapjára, hogy a helyi pénznem alapján frissítse a költségvetési korlátot.
+4. Térjen vissza az ügyfél Előfizetések Partnerközpont **oldalára,** és frissítse a költségkeretét a helyi pénznemük használatával.
 
-   :::image type="content" source="images/azure/transition3.png" alt-text="A partner Center-előfizetések oldalának részleges megtekintése a helyi pénznemben beállított költségvetési korlátokkal egy számlázási időszakra vonatkozóan.":::
-
-   >[!NOTE]
-   >A partner Centerben megadott költségkeret nem veszi át a Azure Portal. A költségvetést és a riasztást is be kell állítania Azure Portalban.
-
-   Az Azure-csomagra való áttérés után már nem vásárolhat Azure-előfizetéseket ehhez az ügyfélhez. Az előfizetéseket az Azure Portal Azure-csomagjában hozza létre.
+   :::image type="content" source="images/azure/transition3.png" alt-text="Az Előfizetések Partnerközpont részleges nézete, amely a számlázási időszakra vonatkozó, helyi pénznemben beállított költségvetési korlátokkal rendelkezik.":::
 
    >[!NOTE]
-   > Az Azure-RBAC keresztül vásárolt Azure-előfizetések díjszabása és számlázása helyi pénznemben történik. Az FX díjszabása nem lesz használatban.
+   >Az ebben a Partnerközpont beállított költségvetés nem lesz áthozva a Azure Portal. A költségvetést és a riasztást a következő Azure Portal.
 
-### <a name="track-your-transition-details"></a>Az áttérés részleteinek nyomon követése
+   Az Azure-csomagra való áttérve már nem vásárolhat Azure-előfizetéseket ehhez az ügyfélhez. Az előfizetéseket az Azure-csomag alatt hozhatja létre a Azure Portal.
 
-Kövesse az áttérési folyamatot Azure Portal és a partner Centerben.
+   >[!NOTE]
+   > Az RBAC-n keresztül az Azure-csomag keretében vásárolt összes Azure-előfizetés díjszabása és számlázása helyi pénznemben történik. Az FX-árfolyamok nem lesznek használva.
 
-:::image type="content" source="images/azure/details1.png" alt-text="Képernyőfelvétel: az előfizetésre vonatkozó átmeneti részletek listáját tartalmazó táblázat, amely tartalmazza az előfizetés I D, az áttérési dátumot és az áttérési állapotot.":::
+### <a name="track-your-transition-details"></a>Az átváltás részleteinek nyomon követése
 
-### <a name="billing-impact-to-partners"></a>A partnerek felé irányuló számlázási hatás
+Kövesse az áttérési előrehaladást a Azure Portal a következő Partnerközpont.
 
-Ha egy meglévő CSP Azure-ajánlatból átvált egy ügyfelet, a következő számlázási hatások lesznek:
+:::image type="content" source="images/azure/details1.png" alt-text="Képernyőkép az előfizetésenkénti áttűnés részleteinek listáját tartalmazó táblázatról – ide tartozik az előfizetésI D, az átváltás dátuma és az átváltás állapota.":::
 
-- A meglévő CSP-számlán minden használat után az eredeti CSP Azure-előfizetés kilépési pontjáig kell fizetnie.
+### <a name="billing-impact-to-partners"></a>A partnerek számlázásra gyakorolt hatása
 
-- Ha rendszergazdai hozzáférési jogosultságokkal rendelkezik a meglévő CSP-előfizetéshez, akkor továbbra is hozzáférhet az előfizetés áttelepítésekor.
+Ha egy ügyfelet egy meglévő CSP Azure-ajánlatról átvált, a következő számlázási hatásokkal fog járni:
 
-A közvetlen nagyvállalati szerződések a CSP-re, valamint a kiszolgáló-és Felhőbeli regisztrációra az Azure-szolgáltatásokra való áttéréshez olvassa el az [Azure-előfizetések számlázásának beszerzése](/azure/billing/mpa-request-ownership)
+- A meglévő CSP-számlán az összes használatért az eredeti CSP Azure-előfizetésből való kilépésig kell fizetni.
+
+- Ha rendszergazdai hozzáférési jogosultságokkal rendelkezik a meglévő CSP-előfizetéshez, az előfizetés áttelepítésekor továbbra is hozzáférhet.
+
+A közvetlen Nagyvállalati Szerződések váltása CSP- és kiszolgáló- és felhőalapú regisztrációkra az Azure-szolgáltatásokra: Azure-előfizetések számlázási [tulajdonjogának](/azure/billing/mpa-request-ownership) Microsoft Partnerszerződés
 
 ### <a name="audit-log"></a>Az auditnaplóban
 
-A számlázás egyeztetéséhez tekintse meg a "Microsoft Azure" (0145P) előfizetések előzményeit az **előfizetések** lapon.
+A számlázás egyeztetéséhez tekintse meg a "Microsoft Azure" (0145P) előfizetések előzményeit az **Előfizetések** lapon.
 
 A "Microsoft Azure" (0145P) előfizetés két részből áll:
 
 1. Kereskedelmi előfizetés
 2. Azure-előfizetés (jogosultság)
 
-Az áttérés befejezésekor az Azure-előfizetést új Azure-csomagba helyezi át, és a kereskedelmi előfizetés fel van függesztve, hogy ne jelentsen további használati adatokat.  
+Ha az átállás befejeződött, az Azure-előfizetés az új Azure-csomag alá kerül, és a kereskedelmi előfizetés fel lesz függesztve, hogy a rendszer ne jelentsen további használatot.  
 
 >[!NOTE]
->Ha Microsoft Azure (0145P) előfizetést vásárol a CSP-ben, akkor a kereskedelmi előfizetés és az Azure-előfizetés (jogosultság) is azonos értékű. Csak a számlázási tulajdonosi változások esetén, vagy az értékek eltérőek.
+>Amikor Microsoft Azure (0145P) előfizetést vásárolnak a CSP-ben, a kereskedelmi előfizetés és az Azure-előfizetés (jogosultság) ugyanazokkal az értékkel rendelkezik. Csak a számlázási tulajdonjogok megváltozása vagy az átadások esetén térnek el az értékek.
 
-### <a name="transition-issues"></a>Átmeneti problémák
+### <a name="transition-issues"></a>Áttűnésekkel kapcsolatos problémák
 
-A váltás során nem számítunk fel problémákat. Ha ez történik, az áttérési munkafolyamatban is frissítjük Önt. Nem zavarja az Azure-használatot.  
+Az átváltás során nem számítunk problémákra. Ha van ilyen, magát az átváltási munkafolyamatot fogjuk frissíteni. Az Azure használata nem okoz majd kellemetlenségeket.  
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Az Azure-csomagban foglalt előfizetések és erőforrások kezelése](azure-plan-manage.md)
 
-- [Partner által létrehozott kredit – áttekintés](partner-earned-credit.md)
+- [Partneri jóváírás – áttekintés](partner-earned-credit.md)

@@ -1,44 +1,42 @@
 ---
-title: A Channel ösztönző platform (CHIP) használata
+title: A Channel Incentives Platform (CHIP) használata
 ms.topic: how-to
 ms.date: 11/09/2020
-description: 'Megtudhatja, hogyan használhatja a Channel ösztönző platformot (CHIP) az ösztönzők működéséhez. Megjegyzés: Ez a platform 2021 végén megszűnik.'
+description: Ismerje meg, hogyan használhatja a Channel Incentives Platformot (CHIP) az ösztönzők munkához. Vegye figyelembe, hogy ezt a platformot 2021 végén kivezetik.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 386acaadc74c1c8247a42cebc98c3d325ba43511
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: ebee6f49a57eb56429f33291768347be505e3b37
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570400"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110148958"
 ---
-# <a name="navigate-the-channel-incentives-platform-chip"></a>A Channel ösztönző platform (CHIP) navigálása
+# <a name="navigate-the-channel-incentives-platform-chip"></a>Navigálás a Csatornaösztönzők platformon (CHIP)
+
+**Megfelelő szerepkörök:** CHIP-rendszergazda
 
 >[!NOTE]
->A CHIP platform 2021 végén megszűnik.
-
-**Megfelelő szerepkörök**
-
-- CHIP-rendszergazda
+>A CHIP platform 2021 végén lesz kivezetve.
 
 ## <a name="sign-into-the-chip-dashboard"></a>Bejelentkezés a CHIP irányítópultra
 
-A Channel ösztönző platform (CHIP) hozzáférést biztosít a Microsoft Channel-ösztönzők bizonyos programjaihoz, és megjeleníti a Microsoft-termékek értékesítésének frissített részleteit.
+A Channel Incentives Platform (CHIP) hozzáférést biztosít az ösztönzők adataihoz adott Microsoft Channel Incentives-programokhoz, és megjeleníti a Microsoft-termékek értékesítésének frissített bevételi részleteit.
 
-A ZSETONok beléptetéséhez a vállalat elsődleges kapcsolattartója egy meghívót kap, amely egy egyedi Meghívási kódot (UIC) tartalmaz. Először a kódot kell használnia a ZSETONhoz való hozzáféréshez.
+A CHIP-regisztrációhoz a vállalat elsődleges kapcsolattartója egy egyedi meghívókódot (UIC) tartalmazó meghívót kap. Először a kóddal kell hozzáférnie a CHIP-hez.
 
 
-Jelentkezzen be, és navigáljon a következőképpen:
+Bejelentkezhet, és a következőképpen navigálhat:
 
-1. Nyissa meg a CHIPet, és adja meg a Microsoft-azonosítót (előző élő azonosító) és a jelszót a bejelentkezési lapon, majd kattintson a bejelentkezés elemre.
+1. Nyissa meg a CHIP-et, és adja meg Microsoft-azonosítóját (előző Live ID) és jelszavát a Bejelentkezési oldalon, majd kattintson a Bejelentkezés gombra.
  
 1. Válassza ki az elérni kívánt programot.
-Itt megtekintheti a kiválasztott program **teljesítményét** és **eredményét** . 
+Itt megtekintheti a kiválasztott  program **teljesítményét** és bevételeit. 
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Felhasználók hozzáadása a CHIP-fiókhoz](chip-users.md)

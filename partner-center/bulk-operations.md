@@ -1,6 +1,6 @@
 ---
-title: Közös értékesítési lehetőségek tömeges exportálása és importálása az Excel-/CSV-fájlok használatával az átirányítási szolgáltatásokban
-description: Megtudhatja, hogyan tölthet le, hozhat létre vagy frissíthet közös értékesítési lehetőségeket az Excel (CSV) fájlok használatával a partner Centerben
+title: Közös értékesítés tömeges exportálása és importálása Excel-/CSV-fájlokkal a hivatkozásokban
+description: Megtudhatja, hogyan tölthet le, hozhat létre vagy frissíthet együttműködési lehetőségeket Excel- (CSV-) fájlokkal a Partnerközpont
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,96 +9,93 @@ ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 02/03/2021
-ms.openlocfilehash: c8910b98e32abe10ae3bc86f24aae7bec2630741
-ms.sourcegitcommit: 715368e56fe669d29c7981906e08bc8d7d5d62a4
+ms.openlocfilehash: af567b9b8b36841b6e6fd7e18a34e1c4b6b81f2e
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104880718"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149162"
 ---
-# <a name="bulk-operations-for-co-sell-opportunities-using-comma-separated-value-csv-files"></a>Tömeges műveletek a vesszővel tagolt (CSV) fájlok használatával történő közös értékesítési lehetőségekhez
+# <a name="bulk-operations-for-co-sell-opportunities-using-comma-separated-value-csv-files"></a>Tömeges műveletek az együttműködési lehetőségekhez vesszővel elválasztott értékeket (CSV) használó fájlok használatával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ajánlói rendszergazdai | Ajánlói felhasználó
 
-- Ajánlói rendszergazda
-- Hivatkozó felhasználók
-
-A partner Centerben végzett tömeges műveletek segítenek a vállalatnak a közös értékesítési lehetőségek adatait exportálni és importálni. Navigáljon a **közös értékesítési lehetőségek** oldalára, ahol megtalálhatja az **importálási** és **exportálási** hivatkozásokat a lap cím szalagcímének jobb felső részén. Az **átirányítási** és a **hivatkozói felhasználói** engedélyekkel rendelkező felhasználók ezt a funkciót használhatják.
+A nagyvállalatok tömeges Partnerközpont segítenek a vállalatnak az együttműködési lehetőségek adatainak exportálásában és importálásában. Az **Oldalcím szalagcím** jobb felső  részen keresse meg az importálási és exportálási hivatkozásokat az Együttműködési lehetőségek oldalon.  A hivatkozási **rendszergazdai és** a **ajánlói** felhasználói engedélyekkel rendelkező felhasználók is használhatjak ezt a funkciót.
 
 > [!IMPORTANT]
-> A tömeges importáláson keresztül végzett létrehozási/frissítési műveletek nem vonhatók vissza. Ha nagy mennyiségű rekordot módosít vagy hoz létre, körültekintően járjon el. Egy üzlet létrehozása után csak a mezők egy részhalmazát lehet módosítani. **Egyetlen művelet sem lesz engedélyezve, ha bármely üzlet olyan terminál-állapotot ér el, mint a visszautasított/lejárt/megnyert/elveszett.**
+> A tömeges importáláson keresztül végzett létrehozási/frissítési műveletek nem visszafordíthatók. Nagy számú rekord módosításakor vagy létrehozásakor körültekintően járjon el. Az üzlet létrehozása után csak a mezők egy része módosítható. **Semmilyen művelet nem engedélyezett, ha bármely üzlet elér egy terminálállapotot, például elutasítva,lejárt,megnyert/elveszett.**
 
-## <a name="export-co-sell-opportunities"></a>Közös értékesítési lehetőségek exportálása
+## <a name="export-co-sell-opportunities"></a>Közös értékesítés lehetőségeinek exportálása
 
-Az alábbi információk ismertetik az exportálási funkciókat:
+Az alábbi információk az exportálási funkciót ismertetik:
 
-- Az **Exportálás** gombra kattintva **legfeljebb 5000 rekordot** lehet exportálni.
-- A letöltött ajánlatok a hozzáférési szintek alapján lesznek elérhetők. Az átirányítási rendszergazdák és a hivatkozó felhasználók különböző eredményekhez juthatnak a hatókörük és a csoport tagjaiként való bevonásuk alapján. További információ az [átirányítási engedélyekről](permissions-overview.md#manage-referrals).
-- Az exportálási függvény beolvassa a közös értékesítés lehetőségei lap aktuális lapját, valamint az alkalmazott szűrőket.
-- A rendszer létrehoz egy CSV-fájlt, amely az alkalmazott szűrők alapján minden adattal rendelkezik.
+- Legfeljebb **5000** rekordot exportálhat az **exportálási gombra kattintva.**
+- A letöltött ügyletek a hozzáférési szinteken alapulnak. A javaslati rendszergazdák és a javaslati felhasználók különböző eredményeket kapnak a hatókörüktől és a csapattagokként való felvételüktől függően. További információ a [hivatkozási engedélyekről.](permissions-overview.md#manage-referrals)
+- Az exportálási függvény figyelembe veszi az együttműködési lehetőségek oldalának aktuális lapját és az alkalmazott szűrőket.
+- Létrejön egy CSV-fájl, amely az alkalmazott szűrőkön alapuló összes adatot tartalmaz.
 - A rekordok letöltése akár egy percet is igénybe vehet.
-- Nem kell megvárnia, amíg a letöltési művelet befejeződik. Még ha a partner Center más oldalaira is navigál, a fájl letöltése az exportálási funkció befejeződése után azonnal megtörténik.
-- Újra felhasználhatja a letöltött fájlt, hogy módosítsa az ügylet részleteit, és feltöltse a rekordok frissítéséhez.
+- Nem kell megvárni a letöltési művelet befejezését. A fájl akkor is letölti a fájlt, ha Partnerközpont más oldalakra navigál, amint az exportálási függvény befejeződött.
+- A letöltött fájlt újra felhasználhatja az üzlet részleteinek módosításához és feltöltéséhez a rekordok frissítéséhez.
 
-## <a name="import-co-sell-opportunities"></a>Közös értékesítési lehetőségek importálása
+## <a name="import-co-sell-opportunities"></a>Közös értékesítés lehetőségeinek importálása
 
-- Az importálási funkcióval **legfeljebb 1000 rekordot** lehet létrehozni vagy frissíteni.
-- A sablon létrehozásához töltse le a sablont az importálás lapról a partner Center webhelyen.
-- Az exportálás funkció használatával letöltheti a meglévő rekordokat, és frissítheti azokat.
-- Ha a fájl több mint 1000 rekordot tartalmaz, nem dolgozható fel.
-- A fájl feldolgozása után a rendszer összefoglalja, hogy a létrehozott, frissített és nem feldolgozott hivatkozások száma megjelenik-e az utolsó folyamat-fájl kártyán.
-- Letöltheti a feldolgozott rekordok részleteit, kijavíthatja a hibákat, és feltöltheti ugyanazt a fájlt az előző futtatás során meghiúsult rekordok létrehozásához vagy frissítéséhez. **Távolítsa el az összes sikeres rekordot a fájlból, mielőtt feltölti az előző futtatás során meghiúsult javított rekordokat.**
-- További megoldások hozzáadásához vegyen fel további oszlopokat az 1. megoldás mellett, és használja az oszlop nevét X megoldásként, ahol az X az üzletben található megoldás számát jelöli. Példa: 2. megoldás, 3. megoldás.
-- Akár 50 megoldást is hozzáadhat egy üzlethez.
-- További csapattagok hozzáadásához vegyen fel további oszlopokat az 1. csoport mellé, és használja az oszlop nevét az X csapat tagjaként, ahol az X az üzletben lévő csapattagok számát jelöli. Például a 2. csapattag, a 3. csapat tagja.
-- Akár 50 csapat tagjait is hozzáadhat egy üzlethez.
+- Legfeljebb **1000** rekordot hozhat létre vagy frissíthet az importálási funkcióval.
+- A sablont sablon nélkül is felépítheti, ha letölti a sablont az importálási oldal Partnerközpont.
+- Az Exportálás funkcióval a meglévő rekordokat is letöltheti és frissítheti.
+- Ha a fájl több mint 1000 rekordot tartalmaz, nem lehet feldolgozni.
+- A fájl feldolgozása után az utolsó folyamatfájlkártyán megjelenik egy összegzés, amely a létrehozott, frissített és nem feldolgozott hivatkozások számát mutatja.
+- Letöltheti a feldolgozott rekordok adatait, kijavíthatja a hibákat, és feltöltheti ugyanazt a fájlt az előző futtatás során meghiúsult rekordok létrehozásához vagy frissítéséhez. **Távolítsa el az összes sikeres rekordot a fájlból az előző futtatás során meghiúsult javított rekordok feltöltése előtt.**
+- További megoldások hozzáadásához adjon hozzá további oszlopokat az 1. megoldás mellé, és használja az oszlopnevet X megoldásként, ahol az X a megoldás számát jelöli az üzletben. Például 2. megoldás, 3. megoldás.
+- Egy üzlethez akár 50 megoldást is hozzáadhat.
+- Ha további csapattagokat szeretne hozzáadni, adjon hozzá további oszlopokat az 1. csapattag mellett, és használja az oszlop nevét X csapattagként, ahol X jelöli a csapattag számát az ajánlatban. Például: 2. csapattag, 3. csapattag.
+- Egy üzlethez legfeljebb 50 csapattag adhat hozzá.
 
 > [!NOTE]
-> Nem kell megvárnia, amíg a feldolgozás befejeződik. Az utolsó feldolgozott fájl részletei a feldolgozás befejeződése után lesznek elérhetők a letöltéshez. **Ha 1000-rekorddal tölt fel fájlokat, akár 10 percet is igénybe vehet.**
+> Nem kell megvárni a feldolgozás befejezését. A feldolgozás befejezése után a legutóbb feldolgozott fájl adatai letölthetők lesznek. **1000 rekordot feltöltő fájlok feltöltése akár 10 percig is eltarthat.**
 
 > [!IMPORTANT]
-> Olvassa el figyelmesen az összes utasítást, és tekintse meg az egyes oszlopok formátumát az alábbi táblázatból, mielőtt a partner Centerben CSV-fájlokat használó ajánlatokat hozna létre vagy frissít.
+> Olvassa el figyelmesen az utasításokat, és ellenőrizze az alábbi táblázatban található oszlopok formátumát, mielőtt CSV-fájlokkal hoz létre vagy frissít egy ügyletet a Partnerközpont.
 
-|**Oszlop neve**|**Kötelező?**|**Leírás**|**Minta értéke (i)**|
+|**Oszlop neve**|**Kötelező?**|**Leírás**|**Mintaérték(ék)**|
 |-----|:-----|:---------|:---|
-Hibák|Nem|Ebben az oszlopban hibák léptek fel, ha a létrehozási/frissítési műveletekhez kapcsolódóan a. r. t. t és az átirányítási műveletek is megjelennek. Ha több hiba van, mindegyiket pontosvesszővel elválasztva fogja megjelenni.|A kötelezően megadandó 1. megoldás hiányzik|
-Engagement-azonosító|Nem|Az engagement-azonosítót a Microsoft partner Center Referrals rendszer hozza létre. Az új hivatkozó létrehozásához nem szükséges. Rekord frissítésekor használhatja a meglévő engagement-azonosítót.|f7eaae47-0b84-4ac4-b4ea-5b2587d42cee
-Javaslatok azonosítója|Nem|Az átirányítási azonosítót a Microsoft partner Center átirányítási rendszere hozza létre. Az új hivatkozó létrehozásához nem szükséges. Ha meglévő rekordot frissít, töltse ki az átirányítási AZONOSÍTÓval.|ebacdkdc-0b84-4ac4-b4ea-5b2587d42cee
-Osztás neve|Igen|A hivatkozáshoz tartozó ajánlat rövid neve.|Egyesült Királyság tavaszi akciója
-Ügyfél neve|Igen|Az ügyfél vállalatának neve. A Microsoft oldalának gyors megfeleltetéséhez használja a szervezet jogi nevét.|Contoso Corporation
-Ügyfél címe 1. sor|Igen|Az ügyfél vállalatának 1. sora. |Egy contoso módszer
-Ügyfél címe 2. sor|Nem|Az ügyfél vállalatánál 2. sor.|NE 148 utca
-Customer City|Igen|Az a város, ahol az ügyfél szervezete található.|Redmond
-Ügyfél állapota|Nem|Az az állapot, amelyben az ügyfél szervezete található.|Washington
-Ügyfél postai irányítószáma|Nem|Azon régió irányítószáma, ahol az ügyfél szervezete található.|98052
-Ügyfél országa|Igen|Az az ország/régió, ahol az ügyfél szervezete található. Használja az [itt]( https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)említett két betűs országkód-kódokat.|USA
-Ügyfél – D-U-N-S azonosító|Nem|Próbálja meg beolvasni az ügyfél-szervezet DUNS-AZONOSÍTÓját. Ez segít az ügyfél-szervezet gyorsabb egyeztetésében a Microsoft oldalán, ami segít a gyorsabb eladó-hozzárendelésben. A jelen [webhelyről](https://www.dnb.com/duns-number/lookup.html)ingyenesen beszerezheti a Duns ID-t.|81466849
-Ügyfél kapcsolattartójának keresztneve|Függ|Az utónév csak akkor kötelező, ha Microsoft súgóra van szüksége. Az ügyfél szervezete által az adott üzleten dolgozó elsődleges partner utóneve.|John
-Ügyfél kapcsolattartójának vezetékneve|Függ|A vezetéknevet csak akkor kötelező megadni, ha Microsoft súgóra van szüksége. Az ügyfél-szervezetnél az adott üzletben dolgozó elsődleges partner vezetékneve.|Ügyfél
-Ügyfél kapcsolattartási telefonszáma|Függ|A telefonszám csak akkor kötelező, ha Microsoft súgóra van szüksége. Az adott üzletben dolgozó, az ügyfél szervezete által használt elsődleges partner telefonszáma.|9999999999
-Ügyfél kapcsolattartási e-mail-címe|Függ|Az e-mail-cím megadása csak akkor kötelező, ha Microsoft súgóra van szüksége. Az ügyfél munkahelyén dolgozó elsődleges partner e-mail-címe.|john.customer@contoso.com
-Partneri hivatkozó állapota|Igen|A vállalat szemszögéből vonatkozó üzlet állapotát jelzi. Szükséges, ha egy hivatkozót próbál létrehozni vagy módosítani. Ha új üzletet próbál létrehozni, használja az **új** lehetőséget. Az elfogadott [értékek dokumentálva](/partner/develop/referral-resources#referralstatus)vannak.|Aktív
-Partner átirányítási alállapota|Igen|Az üzlet pontos állapotát jelzi. Ha új üzletet próbál létrehozni, **fogadja el** a használatát. Akkor is szükség van rá, ha módosít egy meglévő átirányítást. Az elfogadott [értékek dokumentálva](/partner/develop/referral-resources#referralsubstatus)vannak.|Elfogadva
-A Microsoft Referral állapota|Függ|Megadja a Microsoft segítségét kérő közös értékesítési kérelem állapotát. Ez egy írásvédett mező. A rendszer figyelmen kívül hagyja az adatimportálás során a mezőben történt módosításokat.| Függőben
-Elutasított/elveszett ok|Függ| Ezeket az adatokat csak akkor kell megadnia, ha a mező alállapotát elutasította vagy elvesztettre módosítja. Ezt az oszlopot nem lehet figyelmen kívül hagyni. <br/> **Adjon meg egy számot az alábbi lehetőségek alapján** <br/><br/> **1**– a projekt költségvetése nem megfelelő  <br/> **2**– az ügyfél nem válaszolt  <br/> **3**– az ügyfél másik gyártót választott  <br/> **4** – nem teljesített ügyfél-követelmény  <br/> **5** – nem ügyfél <br/> **6**– a javasolt idővonal túl rövid volt <br/> **7** – visszaélésként, levélszemétként vagy adathalászatként való jelentés <br/> **8** – egyebek |6|
-Értékesítési fázis|Nem|Ez a mező jelzi az átirányítás részletes értékesítési szakaszát. További információ az [értékesítési szakaszokról](./manage-co-sell-opportunities.md)|40
-Becsült mennyiség értéke|Igen|Az ügylet értéke az ügyféllel való kezdeti beszélgetések alapján. Ez csak akkor módosítható, ha az üzlet eléri a **megnyert** vagy **elvesztett** terminál-állapotok egyikét.|12563
-Pénznem|Igen|Az a pénznem, amelyben a rendszer megadta a Deal értéket. [Itt](https://en.wikipedia.org/wiki/ISO_4217)megtekintheti a pénznemkódot.|USD
-Becsült záró dátum|Igen|Az ügylet becsült zárási dátuma az ügyféllel való kezdeti beszélgetések alapján hh/nn/éééé formátumban. <br/> **A dátumnak UTC időzónában kell lennie. A partner Center felhasználói felületén megjelenő dátumok a honosított időzónán alapulnak. A partneri központ felhasználói felületén +/-egynapos különbség lehet, ha azt az áttételt keresi, amelyhez az UTC időzónában megadott dátumot adta meg.**|1/30/2020
-CRM-AZONOSÍTÓ|Nem|Az adott hivatkozás azonosítója a CRM-rendszerben, ha van ilyen. Ez egy ingyenes űrlap szöveges beviteli mező.|34234324-sdfsdf-345345-Evi
-Marketingkampány azonosítója|Nem|Ebben a mezőben a marketing kampány látható, amely az adott átirányítást eredményezte. Általában a ROI számításához használatos|BingSummer2020
-Jegyzetek|Nem|Az átirányítással kapcsolatos frissítéseket jelző részletes megjegyzések|Ez egy minta Megjegyzés
-Microsoft Súgó szükséges?|Igen|Ezzel a beállítással jelezheti, hogy a Microsoft segíteni kíván-e a közös értékesítésre vonatkozó kérelem elvégzésében|Igen
-Milyen konkrét segítséget nyújt a Microsoft?|Függ|A Microsoft által felhasználható hat különböző módszer egyike. Ez csak akkor alkalmazható, ha az Igen lehetőséget választja a "Microsoft Súgó szükséges?" kérdésre? " <br/> **Adjon meg egy számot az alábbi lehetőségek alapján** <br/><br/> **1**– munkaterhelés-specifikus érték kiosztása  <br/> **2**– ügyfél-technikai architektúra  <br/> **3**– a koncepció/demo bizonyítása  <br/> **4**– idézőjelek és licencelés  <br/> **5**– értékesítés utáni ügyfél sikeressége  <br/> **6**– általános vagy egyéb|1|
-Megosztás a Microsoft értékesítési csapatával|Igen|Ez azt jelzi, hogy meg kívánja-e osztani a Microsoft értékesítési csapatával való alku részleteit, vagy sem. Ez csak akkor alkalmazható, ha a nem lehetőséget választja a "Microsoft Súgó szükséges?" kérdésre? "|Igen
-Megjegyzések a Microsoftnak|Nem|A Microsoftnak adott megjegyzések, ha segítségre van szüksége a Microsofttól|Segítségre van szüksége a contoso-ügyfélhez
-Ügyfél/partner kapcsolat megosztásának beleegyezike|Igen|Az ügyfél kapcsolattartási adatainak és a vállalat alkalmazottainak megosztható kapcsolattartási adataival az üzleten dolgozik. **Az ajánlatok nem jönnek létre vagy nem frissülnek, ha a nem lehetőséget választja ehhez az oszlophoz.** |Igen
-1\. megoldás|Igen|A megoldás azonosítója (kötelező), a pénznem (nem kötelező), amelyben az üzlet értékét megadta. [Itt](https://en.wikipedia.org/wiki/ISO_4217)megtalálhatja a pénznemkódot, a SKU árát (opcionális) és az SKU mennyiségét (nem kötelező)  |SOL-1234-PQRS, USD, 10, 100
-1. csapat tagja|Igen|Az adott csapattag vezetékneve, vezetékneve, mobil száma és e-mail-azonosítója.| Bob, partner, 999999, Bob.partner@Contoso.com
+Hibák|No|A hivatkozásokra vonatkozó létrehozási/frissítési műveletekkel kapcsolatos hibák ebben az oszlopban szerepelnek. Ha több hiba is történik, mindegyiket pontosvessző választja el egymástól.|Kötelező mező, 1. megoldás hiányzik|
+Engagement-azonosító|No|A kötelezettségvállalási azonosítót a Microsoft partnerközpont ajánlási rendszere generálja. Új ajánlás létrehozásához nem szükséges. Ha rekordot frissít, használhatja a meglévő engagement-azonosítót.|f7eaae47-0b84-4ac4-b4ea-5b2587d42cee
+Javaslatok azonosítója|No|A hivatkozásazonosítót a Microsoft Partnerközpont ajánlórendszere generálja. Új ajánlás létrehozásához nem szükséges. Ha meglévő rekordot frissít, töltse ki a hivatkozás azonosítójával.|ebacdkdc-0b84-4ac4-b4ea-5b2587d42cee
+Üzlet neve|Yes|A referenciaként szolgál az ajánlat rövid neve.|Az Egyesült Királyság tavaszi ajánlata
+Ügyfél neve|Yes|Az ügyfél vállalatának neve. A Microsoft oldalán a szervezet jogi nevét használhatja a gyors egyeztetéshez.|Contoso Corporation
+1. ügyfélcímsor|Yes|Az ügyfélvállalat 1. címsora. |One Contoso Way
+Ügyfélcím 2. sor|No|Az ügyfélvállalat 2. címsora.|NE 148 utca
+Ügyfélváros|Yes|Az a város, ahol az ügyfélszervezet található.|Redmond
+Ügyfél állapota|No|Az ügyfél szervezetének helyének állapota.|Washington
+Ügyfél irányítószáma|No|Annak a régiónak az irányítószáma, ahol az ügyfélszervezet található.|98052
+Ügyfél országa|Yes|Ország/régió, ahol az ügyfélszervezet található. Használja az itt említett kétbetűs [országkódokat.]( https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)|USA
+Ügyfél D-U-N-S azonosítója|No|Próbálja meg lekérni az ügyfélszervezet CÉGES AZONOSÍTÓját. Ez segít a Microsoft oldalán található ügyfélszervezet gyorsabb egyeztetésében, ami gyorsabb értékesítői hozzárendelést nyújt. A TUDS-azonosítót ingyenesen le tudja szerezni erről a [webhelyről.](https://www.dnb.com/duns-number/lookup.html)|81466849
+Ügyfél kapcsolattartója – vezetéknév|Függ|Az első név csak akkor kötelező, ha microsoftos segítségre van szüksége. Az ügyfélszervezet elsődleges kapcsolattartója, amely ezen az ajánlaton dolgozik.|John
+Ügyfél kapcsolattartási vezetékneve|Függ|A vezetéknév csak akkor kötelező, ha segítségre van szüksége a Microsofttól. Az ezen az ajánlaton dolgozó ügyfélszervezet elsődleges kapcsolattartója vezetékneve.|Ügyfél
+Ügyfél kapcsolattartási telefonszáma|Függ|A telefonszám csak akkor kötelező, ha Microsoft-segítségre van szüksége. Az ezen az ajánlaton dolgozó ügyfélszervezet elsődleges kapcsolattartója telefonszáma.|9999999999
+Ügyfél kapcsolattartási e-mail-címe|Függ|Az e-mail-cím csak akkor kötelező, ha segítségre van szüksége a Microsofttól. Az ezen az ajánlaton dolgozó ügyfélszervezet elsődleges kapcsolattartója e-mail-címe.|john.customer@contoso.com
+Partneri ajánlás állapota|Yes|Az üzlet állapotát jelzi a vállalat szemszögéből. Kötelező, ha hivatkozásokat próbál létrehozni vagy módosítani. Ha **új** ajánlatot próbál létrehozni, használja az Új használhatja. Az elfogadott értékeket itt [dokumentáljuk.](/partner/develop/referral-resources#referralstatus)|Aktív
+Partneráttételi alállapotok|Yes|Az üzlet pontos állapotát jelzi. Ha **új ajánlatot** próbál létrehozni, használja az Accepted (Elfogadva) használhatja. Akkor is szükséges, ha egy meglévő ajánlást módosít. Az elfogadott értékeket itt [dokumentáljuk.](/partner/develop/referral-resources#referralsubstatus)|Elfogadva
+Microsoft-ajánlás állapota|Függ|A Microsoftnak segítségkérést kérő, közös értékesítésre vonatkozó kérés állapotát jelzi. Ez egy csak olvasható mező. Az adatok importálása során a mezőben történt minden módosítás figyelmen kívül lesz hagyva.| Függőben
+Elutasítva/Elveszett ok|Függ| Ezt az információt csak akkor kell megadnia, ha a mező alállapotát Elutasítva vagy Elveszett állapotra módosítja. Ezt az oszlopot figyelmen kívül hagyhatja. <br/> **Adjon meg egy számot az alábbi beállítások alapján** <br/><br/> **1**– A projekt költségvetése nem megfelelő  <br/> **2**– Az ügyfél nem válaszolt  <br/> **3**– Az ügyfél egy másik szállítót választott  <br/> **4** – Az ügyfélkövetelmények nem teljesülnek  <br/> **5** – Nem ügyfél <br/> **6**– A javasolt idővonal túl rövid volt <br/> **7** – Jelentés visszaélésként, levélszemétként vagy adathalászatként <br/> **8** – Egyéb |6|
+Értékesítési fázis|No|Ez a mező jelzi a hivatkozás részletes értékesítési szakaszát. Az értékesítési szakaszokról itt olvashat [bővebben](./manage-co-sell-opportunities.md)|40
+A mennyiség becsült értéke|Yes|Az üzlet értéke az ügyféllel folytatott kezdeti beszélgetések alapján. Ez módosítható, amíg az ajánlat el nem éri az egyik megnyert vagy **elveszett** **terminál-államot.**|12563
+Pénznem|Yes|Az a pénznem, amelyben az ajánlat értéke meg van adva. A pénznemkódokat itt [találja:](https://en.wikipedia.org/wiki/ISO_4217).|USD
+Becsült bezárás dátuma|Yes|Az ajánlat becsült lezáró dátuma az ügyféllel folytatott kezdeti beszélgetések alapján, HH/DD/YYYY formátumban. <br/> **A dátumnak UTC időzónában kell lennie. A felhasználói felületen megjelenő Partnerközpont honosított időzónákon alapulnak. A felhasználói felület +/- egy napos eltérést Partnerközpont, ha azt az ajánlást keresi, amelynek a dátumát AZ UTC időzóna szerint határozza meg.**|1/30/2020
+CRM-azonosító|No|Az adott ajánlás azonosítója a CRM-rendszerben, ha van ilyen. Ez egy szabad űrlap szövegbeviteli mezője.|34234324-sdfsdf-345345-sfd
+Marketingkampány azonosítója|No|Ez a mező jelzi a marketingkampányt, amely ennek az adott ajánlásnak az eredménye volt. Általában a megtérülés kiszámításához használatos|BingSummer2020
+Jegyzetek|No|Részletes megjegyzések a hivatkozással kapcsolatos frissítésekről|Ez egy minta megjegyzés
+Microsoft-segítségre van szükség?|Yes|Ezzel jelezheti, hogy szeretné-e, ha a Microsoft segíthet önnek az együttműködési kérelem igénylésében|Yes
+Milyen konkrét segítségre van szüksége a Microsoftnak?|Függ|A Microsoft hat különböző módon segíthet Önnek. Ez csak akkor érvényes, ha az Igen lehetőséget választja a "Microsoft-segítségre van szükség? " <br/> **Adjon meg egy számot az alábbi beállítások alapján** <br/><br/> **1**– Számítási feladat – adott értékajánlat  <br/> **2**– Ügyfél technikai architektúrája  <br/> **3**– Koncepció igazolása /Bemutató  <br/> **4**– Ajánlatok és licencelés  <br/> **5**– Bejegyzés – sikeres értékesítési ügyfél  <br/> **6**– Általános vagy egyéb|1|
+Megosztás a Microsoft értékesítési csapatával|Yes|Ezzel jelezheti, hogy meg szeretné-e osztani az üzlet részleteit a Microsoft értékesítési csapatával. Ez csak akkor érvényes, ha a Nem lehetőséget választja a "Microsoft-segítségre van szükség? "|Yes
+Megjegyzések a Microsofthoz|No|A Microsoftnak adott megjegyzések, ha segítségre van szüksége a Microsofttól|Segítségre van szüksége egy Contoso-ügyfél poC-hez?
+Ügyfél-/partnerkapcsolat megosztásának beleegyezése|Yes|Járuljon hozzá az ügyfél kapcsolattartási adatainak és a céges alkalmazottak kapcsolattartási adatainak megosztásához, akik az ajánlaton dolgoznak. **Az ügyletek nem lesznek létrehozva vagy frissítve, ha ebben az oszlopban a Nem lehetőséget választja.** |Yes
+1\. megoldás|Yes|Megoldásazonosító (kötelező), Az a pénznem (nem kötelező), amelyben az ajánlat értéke meg van adva. A pénznemkódokat [itt,](https://en.wikipedia.org/wiki/ISO_4217)a termékváltozat árát (nem kötelező) és a termékváltozat mennyiségét (nem kötelező) találja  |SOL-1234-PQRS, USD, 10, 100
+1. csapattag|Yes|A megfelelő csapattag vezetékneve, vezetékneve, mobilszáma és e-mail-azonosítója.| Bob, Partner, 999999, Bob.partner@Contoso.com
 
 ## <a name="next-steps"></a>Következő lépések
 
-Ezekkel a partneri központtal közösen értékesítheti a Microsoftot a CRM-rendszereken belül.
+Az ilyen összekötőket Partnerközpont együtt értékesítheti a Microsofttal az Ön CRM-rendszereiből.
 
-- [Közös értékesítésű összekötő a Dynamics 365 CRM-hez – áttekintés](connector-dynamics.md)
-- [Közös értékesítési összekötő a Salesforce CRM-hez – áttekintés](connector-salesforce.md)
+- [Közös értékesítés összekötő a Dynamics 365 CRM-hez – Áttekintés](connector-dynamics.md)
+- [Salesforce CRM-hez készült közös értékesítési összekötő – áttekintés](connector-salesforce.md)

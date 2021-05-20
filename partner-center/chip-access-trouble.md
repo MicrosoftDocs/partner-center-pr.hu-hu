@@ -2,39 +2,37 @@
 title: Problémák a CHIP elérésekor
 ms.topic: how-to
 ms.date: 11/09/2020
-description: Az alábbi irányelvek segítséget nyújtanak a Channel ösztönzők platform (CHIP) eszköz használatával kapcsolatos problémák elhárításában.
+description: Olvassa el ezeket az irányelveket a Channel Incentives Platform (CHIP) eszközzel kapcsolatos hibák elhárításához.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 87a39479d8a567759356e1b101fdab83a2fa0d94
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: eec04bb75a1c8b2979a6d543770fd31d21f607c2
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570603"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149060"
 ---
-# <a name="troubleshoot-issues-with-accessing-chip"></a>A CHIPek elérésével kapcsolatos problémák elhárítása
+# <a name="troubleshoot-issues-with-accessing-chip"></a>A CHIP elérésével kapcsolatos problémák elhárítása
 
-**Megfelelő szerepkörök**
-
-- Elsődleges kapcsolattartó vagy program rendszergazdája
+**Megfelelő szerepkörök:** Elsődleges kapcsolattartó vagy program-rendszergazda
 
 >[!NOTE]
->A CHIP platform 2021 végén megszűnik.
+>A CHIP platform 2021 végén lesz kivezetve.
 
-Ha nem az elsődleges kapcsolattartó vagy a PPA (elsődleges program rendszergazdája), lépjen kapcsolatba az elsődleges kapcsolattartóval vagy a PPA-val (az elsődleges program rendszergazdája) a hozzáféréshez. Ha Ön az Aktuális PPA, győződjön meg arról, hogy a vállalat regisztrálva van, és regisztrálva van, mivel a hozzáférése a vállalati állapothoz van kötve.
+Ha nem Ön az elsődleges kapcsolattartó vagy a PPA (elsődleges program-rendszergazda), lépjen kapcsolatba az elsődleges kapcsolattartójával vagy a PPA-val (elsődleges program-rendszergazda) a hozzáféréshez. Ha Ön a jelenlegi PPA, győződjön meg arról, hogy a vállalata regisztrálva van és regisztrálva van, mivel a hozzáférése a vállalat állapotához van kötve.
 
-Ha Ön az elsődleges partner vagy a PPA (elsődleges program rendszergazdája), akkor rendelkeznie kell a CHIPhez, mivel a regisztrációhoz tartozó összes értesítés az aktuális elsődleges partnernek vagy a PPA-nak (elsődleges program rendszergazdája) lesz elküldve. Ez a hozzáférés a kezdeti regisztrációs időszak után minden időszakban folytatódik.
+Ha Ön az elsődleges kapcsolattartó vagy PPA (elsődleges program-rendszergazda), akkor hozzáféréssel kell rendelkezik a CHIP-hez, mivel a rendszer minden regisztrációs értesítést az aktuális elsődleges kapcsolattartónak vagy PPA-nak (elsődleges program-rendszergazda) küld. Ez a hozzáférés a kezdeti regisztrációs időszakot követően minden időszakban folytatódik.
 
-## <a name="troubleshooting-steps-to-assist-with-accessing-chip-if-you-had-prior-access"></a>Hibaelhárítási lépések a CHIPhez való hozzáféréshez, ha korábban már van hozzáférése
+## <a name="troubleshooting-steps-to-assist-with-accessing-chip-if-you-had-prior-access"></a>Hibaelhárítási lépések a CHIP eléréséhez, ha korábban már volt hozzáférése
 
-1. Törölje az összes cookie-t, és nyissa meg a CHIPet egy privát böngészőben.
-1. Válassza a **kompatibilitási nézet beállításait** a böngészőben. A CHIPnek már szerepelnie kell a Microsoft.com területen, ellenkező esetben adja hozzá a webhelyet.
+1. Törölje az összes cookie-t, és nyissa meg a CHIP-et egy privát böngészőben.
+1. Válassza **Kompatibilitási nézet beállítások lehetőséget** a böngészőben. A CHIP-nek már a Microsoft.com kell lennie, ellenkező esetben adja hozzá a webhelyet.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- [Navigálás a Channel ösztönző platformon (CHIP)](chip-intro.md)
+- [Navigálás a Csatornaösztönzők platformon (CHIP)](chip-intro.md)
 - [Támogatás](report-problems-with-partner-center.md)

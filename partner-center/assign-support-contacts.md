@@ -1,51 +1,47 @@
 ---
-title: Támogatási kapcsolattartók kiosztása ügyfelek számára
+title: Támogatási kapcsolattartók hozzárendelése ügyfelekhez
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan rendelhet viszonteladót technikai támogatási partnerként a Microsoft-szolgáltatásokra előfizetéssel rendelkező ügyfelek számára.
+description: Megtudhatja, hogyan rendelhet hozzá viszonteladót műszaki támogatási kapcsolattartóként az olyan ügyfelek számára, akik előfizetéssel Microsoft-szolgáltatások.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d5e7adaf25376edb7d10d2deff9ed4e6f52badb4
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: c3ec63109f21c67c66719b8f145336617a948199
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96473883"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149910"
 ---
-# <a name="assign-a-reseller-as-a-technical-support-contact-for-customers"></a>Viszonteladói technikai támogatási partnerként való hozzárendelés
+# <a name="assign-a-reseller-as-a-technical-support-contact-for-customers"></a>Viszonteladó műszaki támogatási kapcsolattartóként való hozzárendelése az ügyfelek számára
 
-**Megfelelő szerepkörök**
-
-- Felügyeleti ügynök
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazdai | Helpdesk Agent
 
 
-Ha előfizetéseket állít be ügyfelei számára a Microsoft-szolgáltatásokhoz, érdemes lehet ezeknek a termékeknek a technikai támogatását hozzárendelni egy kijelölt viszonteladóhoz, nem pedig saját magának támogatást nyújtania.
+Amikor előfizetéseket Microsoft-szolgáltatások az ügyfelek számára, előfordulhat, hogy a támogatás biztosítása helyett egy kijelölt viszonteladóhoz szeretné rendelni a termékek műszaki támogatását.
 
-A támogatási névjegyek beállítása után az ügyfelek a terméktámogatási lapokon láthatják a hozzájuk rendelt támogatási partner adatait. Ha például az Office 365-ügyfeleknek támogatásra van szükségük, beléphetnek a Office.com lapra, bejelentkezhetnek a rendszergazdai hitelesítő adataikkal, kiválaszthatják a **felügyeleti** csempét, és a támogatás szakaszban a **támogatási** kapcsolattartási adatok című részben olvashat.
+A támogatási kapcsolattartók beállítása után az ügyfelek a terméktámogatási oldalakon láthatják a hozzárendelt támogatási kapcsolattartó adatait. Ha például az Office 365-ügyfeleknek támogatásra van szükségük, a Office.com oldalon bejelentkezhet a  rendszergazdai hitelesítő adataival, kiválaszthatja a Rendszergazda csempét, majd a Támogatás szakaszban láthatja a hozzárendelt támogatási kapcsolattartási adatokat. 
 
-Ez [több partner](multipartner.md) és [többcsatornás](multichannel.md) környezetekben is használható. 
+Ez többpartneres és [többcsatornás](multipartner.md) [forgatókönyvekhez](multichannel.md) is használható. 
 
 
-## <a name="assign-contacts"></a>Névjegyek társítása
+## <a name="assign-contacts"></a>Kapcsolattartók hozzárendelése
 
-1. Először is [kérjen kapcsolatot](request-a-relationship-with-a-customer.md) a kijelölt termék viszonteladóval. A technikai támogatás kezelésére vonatkozó támogatási szerződés egyeztetése velük.
+1. Először is [kérelmez egy kapcsolatot a](request-a-relationship-with-a-customer.md) kijelölt termék viszonteladóval. A technikai támogatás kezelésével kapcsolatos támogatási szerződés egyeztetése velük.
 
-2. A **partner Center** menüben válassza az **ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet, majd válasszon egy előfizetést, például: Office 365 Business Standard.
+2. A **Partnerközpont** válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet, majd válasszon ki egy előfizetést, például office 365 Business Standard.
 
-3. A  **kijelölt támogatási partner** területen válassza ki a kijelölt termék viszonteladóját, majd kattintson a **Submit (Küldés**) gombra. 
+3. A **Kijelölt támogatási kapcsolattartó területen** válassza ki a kijelölt termék viszonteladóját, majd kattintson a Submit (Küldés) **gombra.** 
 
       >[!NOTE]  
-      >Új előfizetések esetén a kijelölt támogatási kapcsolattartó alapértelmezett értéke a közvetett szolgáltató. Ezt egy olyan közvetett viszonteladóra is módosíthatja, amely delegált rendszergazdai jogosultságokkal rendelkezik.    
-    >Ha a viszonteladó neve nem jelenik meg az elérhető támogatási névjegyek listájában, akkor vegye fel őket [egy kapcsolat igénylésével](request-a-relationship-with-a-customer.md). A kapcsolat létrejötte után meg kell jelennie a listában.  
+      >Új előfizetések esetén a kijelölt támogatási kapcsolattartó alapértelmezés szerint a közvetett szolgáltatót használja. Ezt módosíthatja egy közvetett viszonteladóra is, aki delegált rendszergazdai jogosultságokat.    
+    >Ha a viszonteladó neve nem jelenik meg az elérhető támogatási kapcsolattartók listájában, adja hozzá őket egy [kapcsolat kérésével.](request-a-relationship-with-a-customer.md) A kapcsolat létrejötte után meg kell jelenni a listában.  
 
-4. Ellenőrizze, hogy helyesek-e a módosítások, majd válassza a **Bezárás** lehetőséget.
+4. Ellenőrizze, hogy a módosítások helyesek-e, majd válassza a Bezárás **lehetőséget.**
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Ügyféllel való kapcsolat eltávolítása](remove-a-relationship.md)

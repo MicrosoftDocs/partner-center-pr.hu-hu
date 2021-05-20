@@ -1,169 +1,165 @@
 ---
-title: Azure-csomag számlázása – & Recon-fájlok számlázása
+title: Azure-csomag számlázása – számla & recon fájlok
 ms.topic: article
 ms.date: 01/20/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan érheti el és értelmezheti az Azure-csomag számlázásával kapcsolatos számlázási és egyeztetési adatstruktúrát.
+description: Megtudhatja, hogyan férhet hozzá az Azure-csomag számlázásához kapcsolódó számla- és egyeztetési fájlstruktúrához, és hogyan értheti meg azt.
 author: khpavan
 ms.author: sakhanda
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 819f90ca9a8467de4a8001a1b10f8409d3fb1b81
-ms.sourcegitcommit: fc1f9cb5a542bdc92d62d2a7e1ab2f4e69903e49
+ms.openlocfilehash: 757383ee264e58e7b4dc8ffefafe213cb49acb79
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98924997"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149791"
 ---
 # <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi felület a CSP-ben – Azure-számlázás 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Globális rendszergazda
 
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Globális rendszergazda
+Ez a cikk bemutatja, hogyan férhet hozzá az Azure-csomag számlázásához kapcsolódó számla- és egyeztetési fájlstruktúrához, és hogyan értheti meg azt. Az Azure-csomag szerinti számlázás egy egyszerűsített számlázási élmény, amely egy igazított egy számlázási dátumon és naptári hónapalapú számlázási időszakon alapul.
 
-Ez a cikk azt ismerteti, hogyan érheti el és értelmezheti az Azure-csomag számlázásával kapcsolatos számlázási és egyeztetési fájlrendszert. Az Azure-csomag keretében történő számlázás egy egyszerűsített számlázási élmény, amely egy igazított, egyetlen számlázási dátummal és naptári hónapra alapuló számlázási időszakot használ.
+## <a name="summary-of-billing-essentials"></a>A számlázás alapvető adatainak összefoglalása
 
-## <a name="summary-of-billing-essentials"></a>A számlázási alapok összefoglalása
+- **Számla dátuma:** A számla és az egyeztetési fájl a következő időpontig Partnerközpont (UTC) éjfélig lesz elérhető az irányítópulton/API-n.
 
-- **Számla dátuma**: a számla-és egyeztetési fájl elérhető lesz a partner Center irányítópultján/API-ban (UTC szerint éjfélkor).
+- **Számlázási időszak:** A számla számlázási időszaka a naptári hónaphoz van igazítva, például: 10/1-10/31, 11/1-11/30.
 
-- **Számla számlázási időszaka**: a számlázási időszak a naptári hónapra van igazítva, például 10/1-10/31, 11/1-11/30.
+- **Díjak szolgáltatási időszaka:** A díjak a naptári hónaphoz igazodnak. Ha például a kiszámlázott partner 10/15-én azure-csomagon keresztül ad hozzá Azure-szolgáltatásokat, és az ügyfél 10/15-én kezdi meg az Azure-szolgáltatások használatának elkezdét, akkor a számlázott partner a 10/15–31 szolgáltatási időszak ügyfélfelhasználása alapján a 11/10/31-es időszakban kapja meg a számlát/felderítést. A következő hónap 12/8-án generált számlája a 11/1– 11/31 szolgáltatási időszak összes díját tartalmazza.
 
-- Díjszabási **szolgáltatási időszakok**: a díjak a naptári hónapra lesznek igazítva. Ha például a számlázott partner Azure-szolgáltatásokat ad egy 10/15-es Azure-csomagon keresztül, és az ügyfél megkezdi az Azure-szolgáltatások az 10/15-on való felhasználását, akkor a számlázott partner a 11/8-as szolgáltatási 10/15-10/31 időszakra vonatkozó számlázást és felderítést is megkapja a-on. A következő havi számla, amelyet a 12/8-es előállítás fog generálni, a 11/1-11/31-es szolgáltatási időszakra vonatkozó összes díjat tartalmazza.
+- **Számlás fizetési időszak:** Net 60 nap.
 
-- **Számla fizetési ideje**: nettó 60 nap.
+- **Számla** pénzneme: 2021. január 28-tól az EU/EFTA és az Egyesült Királyság régió azon partnerei, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat 2020. május 11. előtt először, a partnerhelyi pénznemben számlázjuk ki a vásárlásokért. Az EU-n/EFTA-n és az Egyesült Királyságon kívüli partnerek számlázása továbbra is partneri pénznemben történik.
 
-- **Számla pénzneme**: január 28-ig 2021, az EU/EFTA és az Egyesült Királyság régiójában lévő partnereink, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat az első alkalommal, amikor a bérlők a 2020. május 11. előtt jöttek létre, a partneri hely pénznemében megjelenő vásárlásért kell fizetni. Az EU/EFTA és az Egyesült Királyság régióján kívüli partnerek továbbra is a partneri hely pénznemében lesznek számlázva.
+- **Partneri ösztönzők:** A számlázási hónap végével fizetett 45 nap.
 
-- **Partneri ösztönzők**: a számlázási hónap végétől számított 45 nappal.
+## <a name="access-your-invoices-and-reconciliation-files"></a>Hozzáférés a számlákhoz és az egyeztetési fájlokhoz
 
-## <a name="access-your-invoices-and-reconciliation-files"></a>A számlák és a megbékélési fájlok elérése
+A vállalat globális rendszergazdája vagy számlázási rendszergazdája e-mailt kap, ha a számla készen áll a megtekintésre.
 
-A vállalat globális rendszergazdája vagy számlázási rendszergazdája e-mailt fog kapni, ha a számla készen áll a megtekintésre.
-
-A számla és a megbékélési fájl elérése:
+A számla és az egyeztetési fájl elérése:
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/).
 
-2. A partner Center menüben válassza a **számlázás** lehetőséget.
+2. A Partnerközpont válassza a Számlázás **lehetőséget.**
 
-3. Válassza ki az **ismétlődő** és az **egyszeri** , valamint a pénznemhez tartozó lapot.
+3. Válassza a Recurring (Ismétlődő) **és** **az One-time (Egyszeri) lapfület,** valamint a kívánt pénznemet.
 
-   :::image type="content" source="images/azure/billing3.png" alt-text="számlázási":::
+   :::image type="content" source="images/azure/billing3.png" alt-text="Számlázási":::
 
-4. Válassza a **számla** vagy a **megbékélési fájl** elemet.  
+4. Válassza **a Számla** vagy az **Egyeztetési fájl lehetőséget.**  
 
-   A korábbi számlák és a felderítési fájlok megtekintéséhez bontsa ki az alábbi számlázási előzmények sort.
+   Az előzményszámlák és a recon-fájlok megtekintéséhez bontsa ki az alábbi Számlázási előzmények sort.
 
 ## <a name="understanding-usage-data"></a>A használati adatok ismertetése 
 
-1. Az Azure-csomag a legfelső szintű vagy legfelső szintű tároló a használathoz. Minden használat egyetlen Azure-csomaghoz van kötve.
+1. Az Azure-csomag a használat legfelső szintű vagy legfelső szintű tárolója. Minden használat egyetlen Azure-csomaghoz kötődik.
 
-2. Egy csomagon belül egy vagy több Azure-előfizetés lesz. Ezek az erőforrások kezeléséhez és üzembe helyezéséhez használt tárolók. 
+2. Egy csomagon belül egy vagy több Azure-előfizetés lesz. Ezek erőforrás-kezeléshez és üzembe helyezéshez használt tárolók. 
 
-3. Egy előfizetésen belül erőforráscsoportok hozzáadásával csoportosíthatja az erőforrásokat. Minden erőforrás üzembe helyezése egy erőforráscsoporthoz történik. 
+3. Az előfizetésen belül az erőforráscsoportok hozzáadhatók az erőforrások csoportosításához. Minden erőforrás egy erőforráscsoportba van telepítve. 
 
-4. Ilyenek például a virtuális gépek és a Storage-fiókok. 
+4. Ilyen erőforrás például a virtuális gépek és a tárfiókok. 
 
-5. Erőforrás-kibocsátó mérőszámok: a mérőórák egy erőforrás felhasználásának mérései, és egy erőforrás több fogyasztásmérőn is kibocsáthatja a használatot. A mérőórákat a termékkód, a SKUId és a AvailabilityId azonosítja. 
+5. Erőforrás-kibocsátó mérők: A fogyasztásmérők egy erőforrás fogyasztásának mérései, és egy erőforrás több mérőre is kibocsáthat használatot. A mérőket egy Termékazonosító, SKUId és AvailabilityId azonosítja. 
 
-### <a name="hierarchy-of-subscription-resource-groups-and-metering"></a>Az előfizetési erőforráscsoportok és a mérések hierarchiája
+### <a name="hierarchy-of-subscription-resource-groups-and-metering"></a>Az előfizetési erőforráscsoportok és a mérés hierarchiája
 
 **Azure-fiók (bérlő)**
 
-- Előfizetés A
-    - 1. ResourceGroup
+- A előfizetés
+    - ResourceGroup 1
         - Virtuális gép (erőforrás)
             - Számítási fogyasztásmérő
         - Virtuális hálózat (erőforrás)
-            - Nincs számlázási fogyasztásmérő
+            - Nincs számlázási mérő
 
-    - 2. ResourceGroup
+    - ResourceGroup 2
         - Virtuális gép (erőforrás)
             - Számítógép-fogyasztásmérő
-        - Prémium SSD felügyelt lemez (erőforrás)
-            - Tárolási kapacitás mérője
-            - Tárolási műveleti fogyasztásmérő
+        - prémium SSD lemez (erőforrás)
+            - Tárolókapacitás-mérő
+            - Tárolási műveletek mérő
 
-- Előfizetés B-ResourceGroup 1 – Azure SQL (erőforrás) – DTU-mérő-VPN Gateway (erőforrás) – VPN Gateway-mérő
+- B előfizetés –ResourceGroup 1 – Azure SQL (erőforrás) – DTU-mérő – VPN Gateway (erőforrás) – VPN-átjáró mérő
 
-    - 2. ResourceGroup
-        - Virtual Network csatoló (erőforrás)
-            - Nincs számlázási fogyasztásmérő
+    - ResourceGroup 2
+        - Virtual Network felület (erőforrás)
+            - Nincs számlázási mérő
 
-## <a name="read-the-invoice"></a>A számla elolvasása
+## <a name="read-the-invoice"></a>A számla olvasása
 
-1. A számla az egyes hónapok nyolcadik napján nem lesz elérhető.
+1. A számla csak az egyes hónap első napján lesz elérhető.
 
-2. A partnereknek 60 napja van a fizetésre.
+2. A partnereknek 60 napjuk van a kifizetés visszafizetésére.
 
-3. A számlázási időszak egy adott naptári hónapra vonatkozni fog, például 10/1-10/31.
+3. A számlázási időszak egy adott naptári hónapot fed le, például 10.1.10.31.
 
-4. A díjak nettó kiigazítások (az összeg a "partner által felügyelt szolgáltatások által kezelt kreditek" nettó mennyisége).
+4. A díjak a kiigazítások nettó összege (az összeg a "felügyelt szolgáltatásokért kapott partneri jóváírás összege").
 
-5. További számlázási részletekért tekintse át a számla-felderítési fájlt és a napi minősítésű használati fájlt.
+5. További számlázási részletekért tekintse át a számla recon fájlját és a napi névleges használati adatokat tartalmazó fájlt.
 
-   :::image type="content" source="images/azure/invoice1.png" alt-text="számla":::
+   :::image type="content" source="images/azure/invoice1.png" alt-text="Számla":::
 
-## <a name="read-the-invoice-reconciliation-file"></a>A számlázási egyeztetési fájl elolvasása
+## <a name="read-the-invoice-reconciliation-file"></a>A számla egyeztetési fájl olvasása
 
-1. Minden egyes Azure-csomag és-mérési kombináció legfeljebb két számlázási sorral rendelkezhet a Recon-fájlban.
+1. Az egyes Azure-csomag- és fogyasztásmérő-kombinációk legfeljebb két számlázási svonalat használhatnak a felderítési fájlban.
 
-2. Ha a mérőszám a teljes naptári hónapban bármilyen típusú kedvezményt vagy kreditet (például a többrétegű kedvezményeket vagy a partner által kezelt szolgáltatások kreditjét) minősítette, akkor a felderítési fájl csak egy számlázási sort fog tartalmazni. A **PriceAdjusmentDescription** oszlop a kedvezményre vagy a keresett kreditre hivatkozik.
+2. Ha a fogyasztásmérő bármilyen típusú kedvezményre vagy jóváírásra (például rétegzett kedvezményekre vagy felügyelt szolgáltatásokhoz kapott partneri jóváírásra) jogosult az egész naptári hónapban, akkor a recon fájl csak egy számlázási sort fog tartalmazni. A **PriceAdjusmentDescription oszlop** a kedvezményre vagy a jóváírásra fog hivatkozni.
 
-3. Ha nincs olyan erőforrás egy adott mérőszámhoz, amely kedvezményre vagy partner által felhasználható kreditre van kiértékelve, akkor a felderítési fájl csak egy számlázási sort fog tartalmazni, és a hatályos egység ára a kiskereskedelmi díj (amely az egység díja).
+3. Ha egy adott fogyasztásmérőnek nincsenek kedvezményre vagy partneri jóváírásra jogosult erőforrásai, akkor a recon fájl csak egy számlázási sort fog tartalmazni, a tényleges egységár pedig a kiskereskedelmi ár lesz (amely az egységár).
 
-4. Ha a mérő, vagy bármely olyan erőforrás, amely az adott mérőszámot kibocsátja, a partner által a hónap egy részében **kezelt szolgáltatásokra vonatkozó jóváírásra** jogosult, a Recon-fájl két számlázási sort fog tartalmazni. Az egyik sor azokat a napokat jelöli, amelyeknek a mérőszáma minősített, a második sor pedig azon napokat jelöli, amelyeknek a mérőszáma nem volt
+4. Ha a fogyasztásmérő vagy az adott fogyasztásmérőt kibocsátó bármely erőforrás, amely a hónap egy részére felügyelt szolgáltatásokért kapott partneri jóváírásra van minősítve, a felderítési fájl két számlázási sort fog tartalmazni.  Az egyik vonal azokat a napokat jelenti, amelyekben a fogyasztásmérő minősített, a második pedig azokat a napokat jelenti, amelyek nem megfelelőek.
 
-## <a name="read-the-daily-usage-file"></a>A napi használati fájl elolvasása
+## <a name="read-the-daily-usage-file"></a>A napi használati adatok fájl olvasása
 
-- Az előfizetési mérőszámok az Azure-csomag keretében vannak értékelve, és naponta halmozódnak.
+- Az Azure-csomag előfizetési mérőszámai napi szinten vannak minősítve és összesülve.
 
-- A **felügyelt szolgáltatásokhoz tartozó partner által létrehozott kreditek** napi rendszerességgel vannak meghatározva és alkalmazva.
+- **A felügyelt szolgáltatások partneri jóváírását** a rendszer naponta határozza meg és alkalmazza.
 
-- Minden előfizetési fogyasztásmérőnek van egy sora a hónap minden napján, amelyben használatban volt.
+- Minden előfizetés-mérőnek van egy sora annak a hónapnak minden naphoz, ahol volt használat.
 
 - Az alábbi példában:
 
-  - A 7/1-7/3-től **felügyelt szolgáltatások esetében a partner által szerzett kreditek** díja
+  - A 7/1 és 7/3 között kezelt szolgáltatások partneri jóváírásának mérői (vegye figyelembe, hogy a tényleges egységár a kiskereskedelmi ár és a partneri jóváírás. 
 
-  - A mérő nem felelt meg a partner által a 7/4-7/7-től **felügyelt szolgáltatásokra vonatkozó kreditért** (a tényleges egység ára a kiskereskedelmi díj).
+  - A mérő nem  kapott partneri jóváírást a 7/4–7/7 között kezelt szolgáltatásokhoz (vegye figyelembe, hogy a tényleges egységár a kiskereskedelmi ár).
 
-  - A 7/8-7/31-től **felügyelt szolgáltatások esetében a partner által szerzett kreditek** díja (a tényleges egység ára a kiskereskedelmi ár, a partner által szerzett kredit).
+  - A 7/8-tól 7/31-ig felügyelt szolgáltatások partneri jóváírásának mérőja (vegye figyelembe, hogy a tényleges egységár a kiskereskedelmi ár és a partneri jóváírások összege). 
 
    :::image type="content" source="images/azure/pecfinal.png" alt-text="recon2":::
 
 ## <a name="invoice-in-customer-currency"></a>Számla az ügyfél pénznemében
 
-Az Azure-csomagokon keresztül az Azure-szolgáltatások díja USD lesz, és az ügyfél-országhoz rendelt pénznemben kell fizetni. Ha a számlázási pénznem nem USD, akkor a számla utolsó oldalán a használt deviza-(FX-) díj is megjelenik. Az FX díjszabását havonta határozzák meg, és a következő számlára kell alkalmazni. Az ország pénznemek teljes listájáért tekintse meg az [új kereskedelmi ajánlatok ország rendelkezésre állását és az ügyfél pénznemének mátrixát](https://go.microsoft.com/fwlink/?linkid=2112354).
+Az Azure-csomagon keresztüli Azure-szolgáltatások díjszabása AMERIKAI DOLLÁRban történik, és a számlázás az ügyfél országának hozzárendelt pénznemében történik. Ha a számlázási pénznem nem USD, akkor a felhasznált átváltási díj a számla utolsó oldalán jelenik meg. Az FX díjszabását havonta határozzák meg, és az alábbi számlára alkalmazzák. Az ország pénznemek teljes listájáért tekintse meg az új kereskedelmi ajánlatok országonkénti elérhetőségét és az ügyfél [pénznemmátrixát.](https://go.microsoft.com/fwlink/?linkid=2112354)
 
-A Microsoft a londoni tőzsdei árfolyamot követi az átalakításhoz. Az árfolyamot használjuk, amely a Londoni Értéktőzsdén a hónap utolsó munkanapján rögzített árfolyamot használja fel az utóbbi időben. Az FX díjszabása a hónap első előtti napján frissül és elérhető lesz.
+A Microsoft a londoni tőzsdei árfolyamot követi átváltásként. Az árfolyamot használjuk, amely megegyezik a londoni tőzsdei árfolyamon a hónap utolsó üzleti napjára vonatkozó árfolyammal. Az FX díjszabása a hónap első napja előtti napon lesz frissítve és elérhető.
 
 ## <a name="azure-reservations"></a>Azure Reserved Virtual Machine Instances
 
 
-Az Azure- [foglalások](azure-reservations.md) Azure-csomagon keresztüli megvásárlásakor egyszeri vagy havi számlázást is választhat.
+Ha [Azure-csomagon keresztül](azure-reservations.md) vásárol Azure-foglalásokat, választhat egyszeres vagy havi számlázást.
 
 
 ## <a name="azure-spending"></a>Azure-költség
 
-A meglévő Azure-kiadások a partner Centerben új Azure-csomag számlázásának támogatásához frissülnek. Ez lehetővé teszi a partnerek számára a következőket:
+A rendszer frissíti a meglévő Azure-beli kiadásokat, hogy támogassa az új Azure-csomag számlázását a Partnerközpont. Ez lehetővé teszi a partnerek számára a következő eket:
 
-- A költségvetési készletre vonatkozó riasztások megtekintése, kezelése és fogadása az ügyfél szintjén 
+- Ügyfélszinten beállított költségvetésre vonatkozó riasztások megtekintése, kezelése és fogadása 
 
-- Az Azure-csomag becsült összes kiadásának megtekintése (erőforrás-és mérési szint szerinti bontásban)
+- Egy Azure-csomag összes becsült kiadásának megtekintése (erőforrás- és fogyasztásmérői szint szerint bontva)
 
-Mivel az Azure-szolgáltatások számlázási modellje az Azure-csomagon keresztüli fizetés utáni használatot jelent, hogy a vártnál nagyobb mennyiségű számla elkerülhető legyen, a partnerek havi költségvetést alkalmazhatnak, és nyomon követhetik a használat százalékos arányát. Egy költségvetést egyszerre csak egy vagy több ügyfélre lehet alkalmazni. 
+Mivel az Azure-szolgáltatások Azure-csomagon keresztüli számlázási modellje használat utáni használat, a vártnál nagyobb számla elkerülése érdekében a partnerek havi költségvetést alkalmazhatnak, és nyomon követhetik a használat százalékos arányát. A költségvetés egyszerre egy ügyfélre vagy több ügyfélre is alkalmazható. 
 
 :::image type="content" source="images/azure/azurespend.png" alt-text="Azure-költség":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-- Megtudhatja, hogyan számítja ki a partner által létrehozott kreditet (PEC). Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/) , és keresse meg az elérhető árlista listáját.
+- A partneri jóváírás (PEC) kiszámításának módja. Jelentkezzen be az Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard/) és keresse meg az elérhető árlistát.
 
-- További információ [Az Azure-csomag megvásárlásáról](purchase-azure-plan.md)
+- Tudnivalók az [Azure-csomag megvásárlásáról](purchase-azure-plan.md)
 
-- Tekintse meg a [CSP új kereskedelmi élményét ismertető árlistát](azure-plan-price-list.md)
+- Tekintse meg [a CSP új kereskedelmi élményének árlistát](azure-plan-price-list.md)

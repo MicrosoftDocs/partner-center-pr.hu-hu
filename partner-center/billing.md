@@ -1,6 +1,6 @@
 ---
-title: Hivatkozás – a partneri központ számlázási cikkei
-description: További információ a partner Center számlázási és adózási témaköreiről. Az információ a számlázási erőforrásokra, a számlákra, a CSP-számlázásra és az adókra vonatkozik.
+title: Referencia – Partnerközpont cikkek
+description: További tudnivalók a számlázással és az adózási témakörökvel kapcsolatban a Partnerközpont. Az információk a számlázási erőforrásokra, a számlákra, a CSP-számlázásra és az adókra vonatkoznak.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
@@ -9,39 +9,34 @@ ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
 ms.date: 04/05/2020
-ms.openlocfilehash: 27bdb4aab3c8092b1ffc458e4da29250e2dbf23e
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: 03880b4ae9483b4b49410364eabdafdccbcabcdc
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756725"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149196"
 ---
-# <a name="overview-main-billing-and-tax-articles-in-partner-center"></a>Áttekintés: fő számlázási és adózási cikkek a partner Centerben
+# <a name="overview-main-billing-and-tax-articles-in-partner-center"></a>Áttekintés: A számlázással és az adóval kapcsolatos fő cikkek a Partnerközpont
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Globális rendszergazdai | Értékesítési ügynök
 
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Globális rendszergazda
-- Értékesítési ügynök
-
-Ez a cikk a partner Center számlázási és adózási témaköreivel kapcsolatos információkra mutató hivatkozásokat tartalmaz, beleértve a számlázási erőforrásokat, a számlákat, a CSP számlázását és az adókat.
+Ez a cikk a számlázási és adózási témakörökre mutató hivatkozásokat tartalmaz a Partnerközpont, beleértve a számlázási erőforrásokat, a számlákat, a CSP-számlázást és az adókat.
 
 
-| Témakör | Leírás |
+| Témakör | Description |
 | ----- | ----------- |
-| [A számlázás alapjai](billing-basics.md) | A partner Center-számlázás alapjai (beleértve a kifizetéseket, a számlákat és a megbékélési fájlokat). |
-| [Számlázási típusok](billing-different-types.md) | A partner Center különböző számlázási típusait ismerteti. |
-| [Számlázással kapcsolatos tudnivalók](read-your-bill.md) | A partner Center-számla olvasása és megértése. |
-| [Ingyenes próbaverziók](offer-your-customers-trials-of-microsoft-products.md) | Ingyenes próbaverziók az ügyfeleknek, valamint a próbaverziók számlázása. |
-| [Egyeztetési fájl](use-the-reconciliation-files.md) | Az egyeztetési fájl olvasása és használata a sorban lévő elemekhez. |
-| [Számlázással kapcsolatos gyakori forgatókönyvek](common-billing-scenarios.md) | A partneri központ általános számlázási helyzetének megismerése (havi és éves számlázás, valamint egyszeri és ismétlődő vásárlások esetén a számlázás). |
-| [Adózási felelősségek és kivételek](tax-and-tax-exemptions.md) | A partneri központ értékesítési kötelezettségeinek és adómentességének magyarázata. |
-| [Azure-kiadások költségvetése](set-an-azure-spending-budget-for-your-customers.md) | Azure-kiadások költségvetésének beállítása az ügyfelek számára. |
-| [Nem fizetés, csalás vagy visszaélés](non-payment-fraud-misuse.md) | A nem fizetési, csalási vagy visszaélések kezelése az ügyfelek által a partner Centerben. |
-| [SLA-kredit igénylése kimaradások esetén](request-credit.md) | SLA-kredit igénylése a Microsofttól az ügyfelek számára, ha a szolgáltatás leáll. |
+| [A számlázás alapjai](billing-basics.md) | A számlázás Partnerközpont alapjai (beleértve a kifizetéseket, a számlákat és az egyeztetési fájlokat). |
+| [A számlázás típusai](./billing-basics.md) | A számlázás különböző típusainak magyarázata a Partnerközpont. |
+| [Számlázással kapcsolatos tudnivalók](read-your-bill.md) | A számla olvasása és Partnerközpont érthető. |
+| [Ingyenes próbaverziók](offer-your-customers-trials-of-microsoft-products.md) | Hogyan kínálhat ingyenes próbaverziókat az ügyfeleknek, és hogyan számlázhatóak ezek a próbaverziók. |
+| [Egyeztetési fájl](use-the-reconciliation-files.md) | Az egyeztetési fájl olvasása és használata sorelemekhez. |
+| [Számlázással kapcsolatos gyakori forgatókönyvek](common-billing-scenarios.md) | A gyakori számlázási Partnerközpont (havi és éves számlázáshoz, valamint egyszeri és ismétlődő vásárlások számlázásához) |
+| [Adózási felelősségek és kivételek](tax-and-tax-exemptions.md) | Az egyes értékesítések adózási feladatainak és adómentességének Partnerközpont magyarázata. |
+| [Azure-költségkeret](set-an-azure-spending-budget-for-your-customers.md) | Azure-költségvetés beállítása az ügyfelek számára. |
+| [Fizetés meg nem fizetése, csalás vagy visszaélés](non-payment-fraud-misuse.md) | Hogyan kezelheti az ügyfelek fizetés nélküli fizetését, csalását vagy visszaélését a Partnerközpont. |
+| [SLA-jóváírás igénylése kimaradás esetén](request-credit.md) | SLA-jóváírás kérése a Microsofttól az ügyfelek számára szolgáltatáskimaradás esetén. |
 
-Ha a partner Center API számlázási információit és erőforrásait keresi, tekintse meg a [fejlesztői számlázási dokumentációját](/partner-center/develop/manage-billing).
+Ha az API számlázási adatait és Partnerközpont erőforrásokat keresi, tekintse meg a [fejlesztői számlázási dokumentációt.](/partner-center/develop/manage-billing)
 
 ## <a name="next-steps"></a>Következő lépések
 

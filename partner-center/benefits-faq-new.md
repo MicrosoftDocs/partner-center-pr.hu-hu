@@ -1,149 +1,147 @@
 ---
-title: A Microsoft Partner Network előnyei – gyakori kérdések
+title: Microsoft Partner Network – gyakori kérdések
 ms.topic: article
 ms.date: 02/04/2021
-description: A Microsoft Partner Networki előnyökkel kapcsolatos szabályzatokra adott válaszok.
+description: Kérdések megválaszolva a szabályzatokkal kapcsolatban a Microsoft Partner Network kapcsolatban.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: ''
-ms.openlocfilehash: 521e3a3adb51f528fd7b2a35103f78b0c193f1d1
-ms.sourcegitcommit: efd37a9c5db4b87f75de1d13d75ce470b84b31f6
+ms.openlocfilehash: f54e5e91dd63e5ceeaa3c25b929823e6d731d7d0
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99552402"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149315"
 ---
-# <a name="microsoft-partner-network-benefits-faq"></a>A Microsoft Partner Network előnyei – gyakori kérdések
+# <a name="microsoft-partner-network-benefits-faq"></a>Microsoft Partner Network – gyakori kérdések
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** MPN-partneri rendszergazda
 
-- MPN-partner rendszergazdája
-
-A következő cikk a legfontosabb kérdések Microsoft Partner Network (MPN) partnereinek ad választ az MPN tagsági előnyeiről, a kompetenciáról és a termék licencekről.
+A következő cikk választ ad az MPN Microsoft Partner Network (MPN) partnerek MPN-tagsági előnyeivel, kompetenciáival és terméklicenceivel kapcsolatos fő kérdéseire.
 
 ## <a name="responding-to-covid-19"></a>Válasz a COVID-19-re
 
-**K.** **a kompetenciával kapcsolatos évfordulónk hamarosan megérkezik, és a COVID-19-re vonatkozó hatások miatt nem tudjuk kielégíteni a kompetenciára vonatkozó követelményeket. Mi a teendő?**
+**K.** A kompetencia évfordulója közeledik, és a COVID-19-hez kapcsolódó hatások miatt nem tudjuk teljesíteni a  **kompetenciakövetelményeket. Mit tehetünk?**
 
-A. Ha a kompetenciájának évfordulója 2021. január 1. és június 30. között van, akkor a meglévő kompetenciáját vagy kompetenciáit (a Cloud Business Applications kompetencia kivételével) kiterjesztjük a következő, a 2022-es évfordulós időpontban. Nem kell teljesítenie a vizsga vagy a teljesítmény követelményeit, de továbbra is a kompetencia díját kell megfizetnie.További információt a [blogbejegyzésben](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/)talál.
+A. Ha a kompetencia évfordulója 2021. január 1. és június 30. között van, meglévő kompetenciáját vagy kompetenciáját (a Cloud Business Applications-kompetencia kivételével) a 2022-es következő évforduló dátumáig bővítjük. Nem kell megfelelnie a vizsga vagy a teljesítmény követelményeinek, de továbbra is fizetnie kell a kompetenciadíjért.További információt a [blogbejegyzésben talál.](https://blogs.partner.microsoft.com/mpn/responding-to-covid-19-microsoft-partner-network/)
 
 ## <a name="membership"></a>Tagság
 
-**K: milyen folyamat és időzítés szükséges a kompetenciák megújításához?**
+**K: Mi a kompetenciák megújításának folyamata és időzítése?**
 
-A: a vállalata megújíthatja a kompetenciát a partner Centerben. Meg kell felelnie a kompetenciával kapcsolatos követelményeknek, ellenőrizni kell a szükséges vizsgákat és készségeket minden évben, és a megújítási időszakon belül meg kell fizetnie az éves díjat a kompetenciák állapotának megőrzése és a hozzájuk kapcsolódó előnyök eléréséhez.
+A: A vállalat a következőben újíthatja meg a Partnerközpont. Meg kell felelnie a kompetencia teljesítménykövetelményeinek, minden évben ellenőriznie kell a szükséges vizsgákat és készségeket, és a megújítási időszakon belül meg kell fizetnie az éves díjat a kompetencia állapotának és a kapcsolódó előnyökhöz való hozzáférésnek a megőrzéséhez.
 
- A kompetenciájának megújítása előtt a vállalat globális rendszergazdájának vagy fiókjának rendszergazdájának át kell tekintenie és frissítenie kell az üzleti adatokat. Hozzáférhetnek a vállalati profilhoz a partner Centerben, és megtekinthetik az állapotot, és áttekinthetik, hogy milyen információkat kell frissíteni. Az adatok ellenőrzéséhez további dokumentációra lehet szükség.  
+ A kompetencia megújítása előtt a vállalat globális rendszergazdának vagy fiókadminisztrának át kell vizsgálnia és frissítenie kell az üzleti adatokat. A céges profilt a Partnerközpont láthatják az állapotot, és áttekintheti, hogy milyen adatokat kell frissíteni. Az adatok ellenőrzéséhez további dokumentációra lehet szükség.  
 
- A megújítási időszak a vásárlási dátum és egy nap évfordulóján kezdődik. Ha például a Microsoft Action Packt megvásárolta 2020. szeptember 1-jén, a 30 napos megújítási időszak a 2021. szeptember 2-án kezdődik. A vállalat globális rendszergazdai és MPN-rendszergazdai szerepkörei a megújítási közleményt kapják meg, amely az évforduló napját és az azt követő 30 napot is felveszi. A megújítási időszak alatt továbbra is hozzáférhet a kapcsolódó előnyökhöz.
+ A megújítási időszak a vásárlás dátumának évfordulóján kezdődik, plusz egy nap. Ha például a Microsoft Action Pack 2020. szeptember 1-én vásárolta meg, a 30 napos megújítási időszak 2021. szeptember 2-án kezdődik. A vállalat globális rendszergazdai és MPN-rendszergazdai szerepkörei megkapják a megújítással kapcsolatos kommunikációt az évforduló dátumával és 30 nappal utána. A megújítási időszak alatt továbbra is hozzáférhet a kapcsolódó előnyökhöz.
 
- További információkért tekintse meg az [MPN-ajánlat megújítása](renew-mpn-offers.md)című témakört.
+ További információkért tekintse meg az [MPN-ajánlat megújítását.](renew-mpn-offers.md)
 
-**K: Mikor lehet megújítani a Microsoft Action Pack?**
+**K: Mikor újítható meg a Microsoft Action Pack?**
 
-A: a vállalata megújíthatja a Microsoft Action Pack a partner Centerben a megújítási időszak alatt.
+KÉRDÉS: A vállalat a megújítási időszakban Action Pack újíthatja Partnerközpont Microsoft-fiókját.
 
-A Action Pack megújítása előtt a vállalat globális rendszergazdájának vagy fiókjának rendszergazdájának át kell tekintenie és frissítenie kell a vállalati üzleti adatokat. Hozzáférhetnek a vállalati profiljához a partner Centerben, és megtudhatják, milyen információkat kell frissíteni. Az adatok ellenőrzéséhez további dokumentációra lehet szükség.  
+A vállalati Action Pack előtt a vállalat globális rendszergazdája vagy fiókadminisztrátára felül kell vizsgálnia és frissítenie kell a vállalati üzleti adatokat. A vállalat profilját a Partnerközpont láthatják az állapotát, és hogy megértsék, milyen adatokat kell frissíteni. Az adatok ellenőrzéséhez további dokumentációra lehet szükség.  
 
- A megújítási időszak a vásárlási dátum és egy nap évfordulóján kezdődik. Ha például a Microsoft Action Pack a 2020. szeptember 1-jén vásárolta meg, a 30 napos megújítási időszak a 2021. szeptember 2-án kezdődik. a megújítási időszakban továbbra is hozzáférhet a kapcsolódó előnyökhöz.
+ A megújítási időszak a vásárlási dátum és egy nap évfordulóján kezdődik. Ha például 2020. szeptember 1-én vásárolta meg a Microsoft Action Pack-t, a 30 napos megújítási időszak 2021. szeptember 2-től kezdődik. A megújítási időszak alatt továbbra is hozzáférhet a kapcsolódó előnyökhöz.
 
- További információkért tekintse meg az [MPN-ajánlat megújítása](renew-mpn-offers.md) című témakört.
+ További információkért tekintse meg az [MPN-ajánlat megújítását.](renew-mpn-offers.md)
 
-**K: mi a különbség a Microsoft Action Pack és a tanulási Action Pack között?**
+**K: Mi a különbség a Microsoft Action Pack és a Learning Action Pack?**
 
-A: a Microsoft Action Pack olyan erőforrások portfóliója, amelyek segítenek a Microsoft-technológiák megismerésében és a megoldás/szolgáltatás létrehozásában. Vásárolhat egy Microsoft-Action Pack, hogy rendelkezik-e kompetenciával vagy sem.
+A: A Microsoft Action Pack egy erőforrás-portfólió, amely segítséget nyújt az Olyan partnereknek, mint Ön a Microsoft-technológiák megismerése és a megoldás/szolgáltatás kiépítése. Egy Microsoft-előfizetést Action Pack függetlenül attól, hogy van-e kompetenciája.
 
-A tanulási Action Pack a beléptetési szint a tanulási partner programba. A tanulási program olyan vállalkozások számára biztosít forrásokat, akik technológiai képzést és/vagy tanulási gyakorlatot kínálnak. A [Learning Action Pack](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/) kedvezményeket kínál a tanfolyamokra, a piactérre és az előnyökre, amelyek segítenek a partnereknek a különböző Microsoft-termékcsaládokban lévő szakemberek számára.
-Tekintse meg a Microsoft Action Pack és a tanulási Action Pack [licencelési táblázatát](https://assetsprod.microsoft.com/microsoft-action-pack-license-table.pdf) .
+A Tanulási Action Pack a Képzési partnerprogram belépési szintje. A képzési program olyan vállalkozások számára biztosít forrásforrásokat, amelyek technológiai képzést és/vagy gyakorlati gyakorlatot kínálnak. A [Learning Action Pack](https://partner.microsoft.com/asset/collection/learning-option-enrollment#/) a Courseware, a Marketplace és az előnyök terén kínál kedvezményeket, hogy a partnerek különböző Microsoft-terméksorok szakértőivé válnak.
+Tekintse meg a [Microsoft-licencelési táblázatot](https://assetsprod.microsoft.com/microsoft-action-pack-license-table.pdf) a Microsoft Action Pack és a Tanulási Action Pack.
 
-**K:** **Mi történik a kompetenciával vagy a Action Pack a 30 napos megújítási időszakban?**
+**K:** Mi történik a kompetencia- vagy Action Pack előnyökkel a **30 napos megújítási időszakban?**
 
-A: az MPN-szerződés szerint továbbra is hozzáférhet a program előnyeihez, ha a tagság aktív. A tagság lejárta után az előnyökhöz való hozzáférés elvész.
+A: Az MPN-szerződésnek megfelelően továbbra is hozzáférhet a program előnyeihez, ha a tagsága aktív. A tagság lejárta után az előnyökhez való hozzáférés megszűnik.
 
- További információkért tekintse meg az [MPN-ajánlat megújítása](renew-mpn-offers.md) című témakört.
+ További információkért tekintse meg az [MPN-ajánlat megújítását.](renew-mpn-offers.md)
 
 ## <a name="product-licenses"></a>Terméklicencek
 
-**K: milyen ajánlatok vannak a partnerek számára a Microsoft Partner Network a termék licencei között?**
+**K: Melyek a terméklicencekre vonatkozó jelenlegi ajánlatok Microsoft Partner Network partnerek számára?**
 
-A: a termékre vonatkozó licencek (más néven belső használati licencek vagy belső használati jogosultságok) a kompetenciát megvalósító partnerek és a Microsoft Action Pack vásárlása esetén is hasznosak. Szerezze be a termék-licencek aktuális ajánlatait a [Microsoft Partner Network programok útmutatójában](https://aka.ms/partner-benefits-use-guide).
+V: A terméklicencek (más néven belső használatra vonatkozó licencek vagy belső használatra vonatkozó jogosultságok) a kompetencia megszerzését vagy Microsoft-előfizetést megvásároló partnerek Action Pack. A terméklicencek aktuális ajánlatának listáját a Microsoft Partner Network [útmutatóban.](https://aka.ms/partner-benefits-use-guide)
 
-**K: egyetlen tokent is használhat több előfizetés zárolásának feloldásához?**
+**K: Használható egyetlen jogkivonat több előfizetés zárolásának feloldására?**
 
-A: nem, nem oszthat meg tokeneket több előfizetés zárolásának feloldásához. A jogkivonatokat a megadott formátumban kell használni. Egy 25 fős jogkivonat például nem osztható 5 különböző 5 fős jogkivonatra.
+A: Nem, a jogkivonatok nem oszthatóak fel több előfizetés feloldásához. A jogkivonatokat a megadott formátumban kell használni. Egy 25 fős jogkivonat például nem osztható fel 5 különböző 5 fős jogkivonatra.
 
-További információkért tekintse át a Microsoft partner programok útmutatójának [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+További információért tekintse át a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**K:** **Ha a felhőalapú szolgáltatásokhoz nem megfelelő bérlőn aktiválta a tokent, vagy a Kibővítés helyett helyet ad hozzá, beszerezhetjük a helyettesítő tokent?**
+**K:** Ha nem a megfelelő bérlőn aktiváljuk a felhőszolgáltatások jogkivonatát, vagy bővítő helyeket adtunk **hozzá, kaphatunk egy helyettesítő jogkivonatot?**
 
-A: a Cloud Service-alapú aktiválások helyettesítő jogkivonatai nem megfelelő bérlőn, illetve a meglévő előfizetésekben tévedés miatt hozzáadott munkaállomások esetében az eredeti jogkivonat aktiválása utáni 30 napon belül csak egyszer lehet kiállítani.
+V: A felhőszolgáltatás nem megfelelő bérlőn való aktiválásához és a meglévő előfizetéshez véletlenül hozzáadott helyekhez használható helyettesítő jogkivonatok csak egyszer, az eredeti jogkivonat aktiválását követő 30 napon belül kibocsáthatóak.
 
-További információkért tekintse át a Microsoft partner programok útmutatójának [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+További információért tekintse át a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**K: a helyszíni szoftvertermék-licencekhez szükség van egy termékkulcs telepítésére?**
+**K: Helyszíni szoftverterméklicencek esetén szükség van termékkulcsra a telepítéshez?**
 
-A: nem minden termékhez szükséges termékkulcs. A Windows Server és az ügyféloldali operációs rendszerek, valamint az összes Microsoft Office ügyfélalkalmazás aktiválására van szükség.
+A: Nem minden termékhez szükséges termékkulcs. Termékaktiválásra van szükség a Windows server és ügyfél operációs rendszerek, valamint az Microsoft Office ügyfélalkalmazások esetében.
 
- További információkért tekintse át a Microsoft partner programok útmutatójának [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+ További információért tekintse át a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**K: kaphatok további termékkulcsot, ha az összes telepítést és aktiválást felhasználjuk?**
+**K: Kaphatunk további termékkulcsokat, ha felhasználtunk minden telepítést és aktiválást?**
 
-A: egyes kiállított termékkulcs több aktiválási kulcs (MAK). Ezek a termékek véges számú telepítéssel, aktiválással vagy hellyel rendelkeznek. A termékkulcs nem fog működni, ha az összes telepítést és aktiválást felhasználták. A termékkulcs további aktiválása nem lesz megadva.
+V: A kiadott termékkulcsok némelyike több aktiválási kulcs (MAK). Ezek a termékek véges számú telepítéssel, aktiválással vagy helyhellyel rendelkezik. A termékkulcs nem működik tovább, ha az összes telepítést és aktiválást felhasználták. A termékkulcsok további aktiválása nem lesz biztosított.
 
- További információért látogasson el a Microsoft partner programok útmutató [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+ További információért tekintse meg a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**K: mi a teendő, ha úgy döntöttünk, hogy nem újítjuk meg a kompetenciát vagy a Microsoft Action Pack, továbbra is használhatom a helyszíni szoftveres termék licenceit?**
+**K: Mi történik, ha úgy döntünk, hogy nem újítjuk meg a kompetenciát vagy a Microsoft Action Pack, továbbra is használhatjuk a helyszíni szoftverterméklicenceket?**
 
-V: Nem. A kompetenciák megvalósításához és a Microsoft Action Packhoz tartozó helyszíni szoftverlicenc-licencek nem véglegesek.
-Ön jogosult, és rendelkezik a megfelelő jogosultsággal, hogy csak a tagsága során használja ezeket a licenceket. Ha úgy dönt, hogy nem újítja meg a kompetenciát vagy Action Pack, a licenceket kereskedelmi licenceléssel kell megszereznie, vagy el kell távolítania a Microsoft Partner Networkon keresztül beszerzett helyszíni szoftvereket.
+V: Nem. A kompetencia megszerzéséhez és a Microsoft-licencszerződéshez mellékelt helyszíni szoftverterméklicencek nem Action Pack véglegesek.
+Ön jogosult és jogosult arra, hogy ezeket a licenceket csak a tagsága alatt használja. Ha úgy dönt, hogy nem újítja meg a kompetencia vagy a licencszerződést, a kereskedelmi licencelésen keresztül kell beszereznie a licencelési jogosultságokat, vagy el kell távolítania a Microsoft Partner Network-n keresztül megszerzett helyszíni Action Pack.
 
-További információért látogasson el a Microsoft partner programok útmutató [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+További információért tekintse meg a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**K: a Microsoft Action Pack tartalmazza a Visual Studio Enterprise-előfizetést?**
+**K: Tartalmaz a Microsoft Action Pack nagyvállalati Visual Studio előfizetést?**
 
-A: nem, a Microsoft Action Pack csak a Visual Studio Professional előfizetéseit tartalmazza.
+NEM: Nem, a Microsoft Action Pack csak Visual Studio Professional előfizetéseket tartalmaz.
 
-További információért látogasson el a Microsoft partner programok útmutató [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+További információért tekintse meg a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**K: megoszthatjuk a kompetenciához vagy a Microsoft Action Packhoz tartozó Visual Studio-előfizetéseket?**
+**K: Megoszthatjuk a Visual Studio megszerzéséhez vagy a Microsoft-előfizetéshez mellékelt Action Pack?**
 
-A: nem, a Visual Studio-előfizetések felhasználónként licenccel rendelkeznek, és érvényesnek kell lenniük a hozzárendeléshez és az aktiváláshoz. Nem engedélyezett a bejelentkezési hitelesítő adatok megosztása.
+NEM: Nem, Visual Studio előfizetések felhasználónként vannak licencelve, és az érvényességhez hozzá kell rendelni és aktiválni kell. A bejelentkezési hitelesítő adatok megosztása tiltott.
 
-További információért látogasson el a Microsoft partner programok útmutató [aka.MS/partner-Benefits-use-Guide](https://aka.ms/partner-benefits-use-guide)
+További információért tekintse meg a Microsoft partnerprogramokkal kapcsolatos [útmutatóját](https://aka.ms/partner-benefits-use-guide) aka.ms/partner-benefits-use-guide
 
-**Q.** **Honnan tudható, hogy hány termék licence van a** **vállalatnál?**
+**K.** **Honnan tudjuk, hogy vállalatunk hány terméklicencgel** **rendelkezik?**
 
-A. Megtekintheti és kezelheti a termékre vonatkozó licenceket, illetve az Ön kompetenciájának megvalósításához vagy Action Packhoz tartozó egyéb előnyöket a partner Centerben. További információ: [a partner hálózati előnyeinek kezelése](manage-your-partner-network-benefits.md).
+A. Megtekintheti és kezelheti a terméklicenceket és a kompetencia megszerzéséhez vagy a Action Pack nyújtott Partnerközpont. További információ: [Partnerhálózati előnyök kezelése.](manage-your-partner-network-benefits.md)
 
-**Q. Hogyan használhatják a vállalat a termék licenceit a kompetenciák megvalósításán vagy Action Packon keresztül?**
+**K. Hogyan használhatja a vállalat a számunkra elérhető terméklicenceket kompetencia megszerzése vagy Action Pack?**
 
-A. A Microsoft Partner Network partnereink számára biztosítunk olyan licenceket, amelyek egy vagy több kompetenciát vagy Microsoft-Action Pack vásárolnak, így innovatív megoldásokat hozhatnak létre, és megismerhetik a Microsoft termékeit és technológiáit. A kompetenciák megvalósításához és a Action Packhoz tartozó licencek használati feltételeit a [Microsoft Partner Network programok útmutatója](https://aka.ms/partner-benefits-use-guide)ismerteti.
+A. Terméklicenceket is kínálunk a Microsoft Partner Network-partnerek számára, akik egy vagy több kompetenciát érnek el, vagy megvásárolnak egy Microsoft Action Pack-t, hogy innovatív megoldásokat hoznak létre, és megismerkedjen a Microsoft-termékekkel és -technológiákkal. A kompetencia megszerzéséhez és eléréséhez szükséges terméklicencek használati feltételeit Action Pack a Microsoft Partner Network programokkal kapcsolatos [útmutatóban ismertetjük.](https://aka.ms/partner-benefits-use-guide)
 
-**Q.** Van **-e korlátozás arra vonatkozóan, hogy** **a vállalat hogyan használhatja az USA-beli licenceket a kompetenciák megvalósítása vagy a Action Pack?**
+**K.** **Vonatkoznak korlátozások arra,** hogy a vállalatunk hogyan használhatja a kompetencia megszerzése vagy a licencszerződések révén **Action Pack?**
 
-A. Igen, vannak korlátai. A licencfeltételek használati feltételei eltérnek a Microsoft licencelési programok keretében beszerzett kereskedelmi licencek esetében. További információért olvassa el [a termék licencelési használati feltételeit](https://www.microsoft.com/licensing).
-A termékspecifikus licencek nem tartalmazzák a frissítési garanciát, és a termékre vonatkozó licencekre bizonyos korlátozások vonatkoznak. A termék-licencek használati feltételeit a [Microsoft Partner Network programok útmutatójában](https://aka.ms/partner-benefits-use-guide)tekintheti át.
+A. Igen, vannak korlátozások. A terméklicenc használati feltételei eltérnek a Microsoft licencprogramokkal beszerzett kereskedelmi licencektől. További információkért olvassa el [a terméklicencelési használati feltételeket.](https://www.microsoft.com/licensing)
+A terméklicencek nem tartalmazzák a frissítési garanciát, és a terméklicencekre bizonyos korlátozások vonatkoznak. A terméklicencek használati feltételeit a Microsoft Partner Network [útmutatóban tudja áttekintni.](https://aka.ms/partner-benefits-use-guide)
 
-**Q.** **Hogyan adhatok hozzá további licenceket a partner Centerben felsorolt termékekhez, hogy a** **vállalatra is kiterjed?**
+**K.** **Hogyan adhatunk hozzá** további terméklicenceket a Partnerközpont, hogy lefedjük **a vállalatot?**
 
-A. A kompetenciák megvalósításához és a Action Packhoz tartozó licencek a Microsoft licencelési programjain keresztül beszerzett kereskedelmi licencek eltérő használati feltételeivel rendelkeznek. Javasoljuk, hogy tekintse át a vállalati licencelési igényeknek a [Microsoft licenceléssel](https://www.microsoft.com/licensing)való teljesítésének lehetőségeit.
+A. A kompetencia megszerzéséhez és a Action Pack licencelési feltételekhez mellékelt terméklicencek eltérő használati feltételekkel rendelkezik, mint a Microsoft licencprogramokkal beszerzett kereskedelmi licencek. Javasoljuk, hogy tekintse át a vállalati licencelési igényeknek való megfelelő lehetőségeket a [Microsoft licencelési webhelyén.](https://www.microsoft.com/licensing)
 
-**Q. A közelmúltban egyesítve lett egy másik, a kompetenciával rendelkező Microsoft Partner Network céggel. Megtartjuk az aktuális termék-licenceket, ha a partner Centerben a fiók egyesítése funkciót használjuk?**
+**K. Nemrég egyesítettünk egy másik, kompetencia Microsoft Partner Network rendelkező vállalattal vagy beolvastunk egy vállalatot. Megtartjuk az összes jelenlegi terméklicencet, amikor a fiókegyesítési képességet használjuk a Partnerközpont?**
 
-A. A kompetencia-megvalósítás és a Action Pack vásárlás a partneri globális fiókon keresztül fejeződött be. Ha a partner Centerben a fiók egyesítése funkciót használja, az egyes fiókok meglévő előnyei a következő megújításig maradnak. A Megújításkor a kompetenciák megvalósításához és a Action Packhoz tartozó előnyöket a partner cég partner globális fiókjához kell bevezetni.
+A. A kompetencia megszerzése és Action Pack vásárlása a Partnerközpont partner globális fiókján keresztül fejeződik be. Ha a fiókegyesítési képességet használja a Partnerközpont, az egyes fiókok meglévő előnyei a következő megújításig változatlanok maradnak. A megújítás után a kompetencia megszerzése és Action Pack előnyök a partnervállalat globális partnerfiókja számára vannak megvalósítva.
 
--   Microsoft Action Pack: a partner cég vásárolhat egy Action Pack partner globális fiókban.
+-   Microsoft Action Pack: A partnervállalat partner globális fiókonként Action Pack vásárolhat egyet.
 
--   Kompetencia: a partner cég egy, a legmagasabb szintű megvalósításhoz tartozó alapszintű csomag, valamint a partner globális fiókjához tartozó, kompetenciával kapcsolatos előnyöket biztosít.
+-   Kompetencia: A partnervállalat egy csomag alapvető előnyöket kap, amelyek a legmagasabb szintű végzettségükhöz kapcsolódnak, valamint kompetenciaspecifikus előnyöket, amelyekre a partner a globális partnerfiókon jogosult.
 
- Tekintse át a [fiókok egyesítésével](merge-accounts.md) kapcsolatos információkat, és tájékozódjon arról, hogy a képesség hogyan működik, és hogyan döntheti el, hogy a vállalat igényeinek megfelelő-e.
+ A [fiókegyesítési](merge-accounts.md) információk áttekintésével további információt olvashat arról, hogyan működik a funkció, és hogyan döntheti el, hogy az a vállalat igényeinek megfelelő-e.
 
-**Q.**  **A partner Centerben a cég terméktámogatási kérdéseivel foglalkozunk. Hol kaphatok segítséget ehhez?**
+**K.** **Kérdéseink vannak a** vállalatunk terméklicenceivel kapcsolatban a **Partnerközpont. Hol tudunk ezzel segítséget kérni?**
 
-A. Ha szükséges, a [partner központ támogatási részén](https://partner.microsoft.com/support) találhat olyan hivatkozásokat, amelyek hasznosak lehetnek, vagy ha szükséges, a partner támogatási csapatával is megnyithatja a jegyet.
+A. Ha segítségre [](https://partner.microsoft.com/support) van szüksége, Partnerközpont a támogatási szakaszra mutató hivatkozásokat, vagy ha szükséges, nyisson egy jegyet a partnertámogatási csapatunknál.
 
 ## <a name="next-steps"></a>Következő lépések
 

@@ -1,60 +1,59 @@
 ---
 title: Az Office 365 próbaverziójára szóló meghívó létrehozása
 ms.topic: article
-ms.date: 04/28/2020
+ms.date: 05/13/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg, hogy a partnerek hogyan hozhatnak létre és küldhetnek próbaverziós meghívókat az ügyfelek számára az Office 365 kipróbálásához. A partnerek sokkal egy előfizetési tanácsadó.
+description: Megtudhatja, hogyan hozhatnak létre és küldhetnek a partnerek próbameghívásokat az ügyfeleiknek az Office 365 kipróbálására. A partnerek nagyban hitelesített előfizetési tanácsadók.
 author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 8c6f6cb5ba700618aebe773cffd566e4077a676d
-ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
+ms.openlocfilehash: 5e34ebe290941ee24a9e945c1b1b34abd9f4baa3
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106557715"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150318"
 ---
-# <a name="advisors-create-and-send-a-trial-invitation-for-clients-to-try-office-365"></a>Advisors: próbaverziós meghívás létrehozása és küldése az ügyfeleknek az Office 365 kipróbálásához
+# <a name="advisors-create-and-send-a-trial-invitation-for-clients-to-try-office-365"></a>Tanácsadók: Próbaverziós meghívó létrehozása és küldése az ügyfeleknek az Office 365 kipróbálására
 
 
-**Megfelelő szerepkörök**
-
-- Advisor
+**Megfelelő szerepkörök:** Advisor
 
 > [!NOTE]
-> Ez a funkció csak azon Microsoft-partnerek számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.
+> Ez a funkció csak olyan Microsoft-partnerek számára érhető el, akik jogosult előfizetési tanácsadók.
 
-Létrehozhat és elküldhet próbaverziós meghívókat az ügyfeleknek, hogy kipróbálják az Office 365-et. A próbaverziós meghívás létrehozásakor a **próbaverzió meghívása** varázsló létrehoz egy egyéni URL-címet. Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként. Ezt az URL-címet egy vagy több ügyfél számára is használhatja. Küldje el e-mailben az ügyfelének az URL-címet, vagy használja az URL-címet más dokumentumokban. Az előfizetés az adott ajánlattól függően egy vagy több szolgáltatást is tartalmazhat. Egyszerre csak egy próbaverziós előfizetésre lehet elküldeni egy meghívót.
+Próbameghívásokat hozhat létre és küldhet az ügyfeleknek, hogy kipróbálják az Office 365-öt. Próbameghívás létrehozásakor a **Próbameghívás** létrehozása varázsló létrehoz egy egyéni URL-címet. Az URL-cím tartalmaz egy beágyazott kódot, amely előfizetési tanácsadóként azonosítja. Ezt az URL-címet egy vagy több ügyfélhez használhatja. Küldje el az URL-címet az ügyfélnek e-mailben, vagy használja az URL-címet más dokumentumokban. Az előfizetés az adott ajánlattól függően egy vagy több szolgáltatást is tartalmazhat. Egyszerre csak egy próba-előfizetésre lehet meghívót küldeni.
 
-Ha hitelesített felügyeletet biztosít, akkor hozzáadhat egy olyan lehetőséget a próbaverzióhoz, amely lehetővé teszi a fiók felügyeletét az ügyfél nevében. Így az ügyfél könnyebben kipróbálhatja az Office 365-t.
+Ha rendelkezik delegált felügyeletre való jogosultságokkal, hozzáadhat egy lehetőséget a próbameghíváshoz, amely lehetővé teszi a fiók felügyeletét az ügyfél nevében. Így az ügyfél könnyebben kipróbálhatja az Office 365-öt.
 
-## <a name="to-create-a-trial-invitation"></a>Próbaverziós meghívás létrehozása
+## <a name="to-create-a-trial-invitation"></a>Próbameghívás létrehozása
 
-1. A **próbaverziók és a vásárlási ajánlatok**  >  **meghívókat hozhatnak létre**.
+1. Lépjen a **Próbaverziók és vételi ajánlatok**  >  **Meghívók létrehozása lapra.**
 
-2. A **próbaverzió meghívásának létrehozása** lapon válassza ki a felvenni kívánt próbaverziós beállításokat:
+2. A **Próbameghívás létrehozása lapon** válassza ki a próbameghívási lehetőségeket, amelyek között szerepel a következő:
 
-    - **Partner iroda**: Ha a vállalata több irodával rendelkezik, válassza ki azt az irodát, amelyet hozzá szeretne rendelni ehhez a próbaverziós meghíváshoz.
+    - **Partneriroda:** Ha a vállalata több irodával rendelkezik, válassza ki azt az irodát, amelyhez társítani szeretné ezt a próbameghívást.
 
-        A partner Office-helyek hozzáadásával kapcsolatban lásd: [hely hozzáadása](manage-locations.md). Az új Office-helyekhez akár 24 óráig is szükség lehet ahhoz, hogy megjelenjenek a partner Office-listán.
+        Partnerirodei helyek hozzáadásához [lásd: Hely hozzáadása.](manage-locations.md) Az új irodahelyek létrehozása után akár 24 órát is igénybe lehet, hogy megjelenjenek a Partneriroda listában.
 
-    - **Használat helye**: válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.
-    - **Próbaverziós előfizetések**: a választható próbaverziós előfizetések listáját az ügyfél országának vagy régiójának használati helye határozza meg.
-    - **Delegált felügyelet**: Ez a lehetőség csak olyan partnereink számára érhető el, akik jogosultak a delegált felügyeletre. Válassza ezt a lehetőséget, ha az ügyfél által delegált felügyeletet szeretné nyújtani. Ha így tesz, az ügyfél elfogadhatja a próbaverziós meghívót a delegált felügyelet elfogadásával vagy anélkül. A delegált felügyelettel kapcsolatos további információkért lásd: [delegált felügyelet nyújtása](customers-revoke-admin-privileges.md).
+    - **Használati hely:** Válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.
+    - **Próbaverziós előfizetések:** A próbaverziós előfizetések kiválasztható listáját az ügyfél országának vagy régiójának használati helye határozza meg.
+    - **Delegált felügyelet:** Ez a lehetőség csak a delegált felügyeletre tanúsítvánnyal rendelkező partnerek számára érhető el. Akkor válassza ezt a lehetőséget, ha delegált felügyeletet szeretne nyújtani az ügyfélnek. Ha így van, az ügyfél a delegált felügyelet elfogadásával vagy anélkül is elfogadhatja a próbameghívást. További információ a delegált felügyeletről: [Delegált felügyelet ajánlata.](customers-revoke-admin-privileges.md)
 
 3. Kattintson a **Tovább** gombra.
 
-4. A **próbaverziós** Meghívási oldalon másolja a próbaverzióra vonatkozó meghívót és az URL-címet, majd illessze be egy e-mailbe, dokumentumba vagy weblapra, hogy testreszabott próbaverziós meghívót hozzon létre.
+4. A **Próbameghívás oldalon** másolja ki a próbameghívási adatokat és az URL-címet, majd illessze be egy e-mailbe, dokumentumba vagy weblapra egy testreszabott próbameghívás létrehozásához.
 
     > [!NOTE]
-    > Jegyezze fel a próbaverziós meghívás **összegzésének azonosítóját**. Ezzel az AZONOSÍTÓval követheti nyomon az ajánlatot.
+    > Jegyezze fel a próbaverzió meghívójának **összegző azonosítóját.** Ezzel az azonosítóval követheti nyomon az ajánlatot.
 
-5. Az üzenet személyre szabása a cég emblémájának, bevezetésének, záró megjegyzésének vagy egyéb információnak a használatával.
+5. Személyre szabhatja az üzenetet a cég emblémájának, bevezetésének, záró megjegyzésének vagy egyéb információnak a megszemélyesedésével.
 
-6. Küldje el a próbaverziós meghívót az ügyfélnek.
+6. Küldje el a próbameghívást az ügyfélnek.
 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Vásárlási ajánlat létrehozása](advisor-create-a-purchase-offer.md)
+- [A partnerek már nem regisztrálnak tanácsadóként](advisors-no-csp.md)

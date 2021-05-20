@@ -1,115 +1,113 @@
 ---
-title: Az érdeklődők elemzése
+title: Érdeklődők elemzése
 ms.topic: article
 ms.date: 06/15/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ebből a cikkből megtudhatja, hogyan veheti figyelembe a megcélzott ügyfelek figyelmét, és hogyan hozhat létre hivatkozásokat.
+description: Megtudhatja, hogyan használhatja az érdeklődők elemzési oldalát, hogy lássa, mennyire jól tudja a cél ügyfelek figyelmét felhozni és hivatkozásokat generálni.
 author: vikrambmsft
 ms.author: vikramb
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: 1f8d9f04920a4f2a0fab40523c217835d9b0e4ef
-ms.sourcegitcommit: 9cb7dc98faae06c255dbc025f8e452d75380c16a
+ms.openlocfilehash: 6ddb9544e0c6f6a29540fe30d03d307318ddfdf8
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99530833"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150216"
 ---
 # <a name="analyze-your-leads---see-how-well-you-attract-target-customers-and-potential-referrals"></a>Az érdeklődők elemzése – kiderül, milyen jól vonzza a célügyfeleket és a lehetséges javaslatokat
 <!-- 
 https://go.microsoft.com/fwlink/?linkid=849120
 -->
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Ajánlói rendszergazda
 
-- Ajánlói rendszergazda
+A **Hivatkozások** Elemzés  szakaszában található Érdeklődők oldalon megtekintheti a hivatkozások végrehajtásához szükséges adatokat. Ezeket a metrikákat rendszeresen áttekintve azonosíthatja a trendeket vagy a figyelmet igényelő területeket, és elkezdi elérni az üzleti céljait.
 
-Az átirányítások **elemzési** szakasza alatt található **érdeklődők** oldalon láthatja, hogyan végezheti el az átirányítási feladatokat. Rendszeresen tekintse át ezeket a mérőszámokat, hogy azonosítsa a trendeket vagy a figyelmet igénylő területeket, és megkezdje az üzleti célok elérését.
-
-Ha szeretné megtekinteni az érdeklődői információk adatait, a partner Center menüjében lépjen az **átirányítási > elemzés > érdeklődők** elemre.
+Az érdeklődők elemzési adatainak a Partnerközpont menüjében válassza a Hivatkozások és > **érdeklődők > lehetőséget.**
 
 ## <a name="apply-filters"></a>Szűrők alkalmazása
 
-Az **érdeklődők** lap tetején kiválaszthatja azt az időszakot, amelyben az adatmegjelenítést meg szeretné jeleníteni. Az alapértelmezett beállítás a **3m** (három hónap), de dönthet úgy, hogy hat hónapig vagy egy évnél hosszabb ideig jeleníti meg az adatmennyiséget. Azt is megteheti, hogy a **Custom (egyéni** ) lehetőséget választja az összes átirányítási információhoz egy adott időszakban.
+Az Érdeklődők lap  tetején kiválaszthatja azt az időszakot, amelynek adatait meg szeretné jelenni. Az alapértelmezett beállítás **3M** (három hónap), de választhatja azt is, hogy hat hónapra, vagy inkább egy évre vonatkozóan mutatja az adatokat. Az Egyéni lehetőséget **választva** egy adott időszakban az összes ajánlás adatait is láthatja.
 
-A szűrők gombra kattintva megnyithatja a panelt, amely lehetővé teszi a lapon lévő összes érték szűrését az ügyfél neve, az ország, az üzlet típusa, az osztás iránya, a megoldás neve és az állapot szerint. Alább láthatók a szűrők részletei.
+A Szűrők gombra kattintva megnyithatja a panelt, ahol az oldalon található összes adatot szűrheti ügyfélnév, ország, ajánlattípus, ajánlat iránya, megoldásnév és állapot szerint. Az alábbiakban ezeknek a szűrőknek a részletei olvashatók.
 
-- **Ügyfél neve**: az alapértelmezett érték az **összes**, de az adathalmazt egy vagy több kiválasztott ügyfél számára is korlátozhatja.
-- **Ország**: az alapértelmezett érték **mind**, de a kiválasztott ügyfél egy vagy több országára korlátozhatja az adatmennyiséget.
-- **Referral program**: az alapértelmezett érték az **összes**, de az adott hivatkozó programra korlátozhatja az adathalmazt. Ez a szűrő csak akkor látható, ha a szervezet regisztrálva van az átirányítási programban.
-- **Állapot**: az alapértelmezett érték az **összes**, de dönthet úgy, hogy korlátozza az olyan átirányítási állapotokra vonatkozó hivatkozásokat, amelyek egy vagy több, például elfogadott, visszautasított, lejárt, elveszett és megnyert átadási állapotot tartalmaznak.
-- **Minősítés típusa**: az alapértelmezett érték az **összes**, de dönthet úgy is, hogy korlátozza az olyan átirányítási értékekre, amelyek Piactéri érdeklődők vagy minősített érdeklődők.
+- **Ügyfél neve:** Az alapértelmezett érték **a Mind**, de az adatokat egy vagy több kiválasztott ügyfélre korlátozhatja.
+- **Ország:** Az alapértelmezett érték **a Mind**, de az adatokat a kiválasztott ügyfél egy vagy több országára korlátozhatja.
+- **Ajánlóprogram:** Az alapértelmezett érték **a Mind,** de az adatokat egy adott ajánlóprogramra korlátozhatja. Ez a szűrő csak akkor látható, ha a szervezet regisztrálva van a ajánlóprogramban.
+- **Állapot:** Az alapértelmezett érték a **Mind,** de választhatja, hogy az adatokat olyan hivatkozásokra korlátozza, amelyek egy vagy több hivatkozási állapottípust tartalmaznak, például elfogadva, elutasítva, lejárt, elveszett és megnyert adatokat.
+- **Minősítés típusa:** Az alapértelmezett érték **a Mind,** de az adatokat korlátozhatja a piactéri érdeklődőkre vagy minősített érdeklődőkre.
 
-Az alábbi táblázatokban szereplő információk a dátumtartományt és a kiválasztott szűrőket tükrözik, kivéve az alábbiakat. Egyes részekben további szűrőket is alkalmazhat, például egy adott megoldás szűrését.
+Az alább felsorolt diagramok adatai a dátumtartományt és a kiválasztott szűrőket tükrözik, az alább említettek kivételével. Egyes szakaszokban további szűrőket is alkalmazhat, például szűrést alkalmazhat egy adott megoldásra.
 
-## <a name="referrals-summary"></a>Hivatkozások összegzése
+## <a name="referrals-summary"></a>A hivatkozások összegzése
 
-Ez a kártya áttekintést nyújt az érdeklődők végrehajtásáról.
+Ez a kártya áttekintést nyújt az érdeklődők teljesítményről.
 
-A diagramon a meglátogatott oldalak teljes száma, a művelet meghívása gomb (Contact partner), az ügyfelek által a művelet meghívása után létrehozott érdeklődők száma, valamint a kiválasztott időszakra megnyert összes érdeklődő látható.
+A diagramon látható az oldallátogatások teljes száma, a művelethívási gomb (Partnerrel való kapcsolatfelvétel) kattintások száma, az ügyfelek által a műveletre való kattintás után generált érdeklődők száma, valamint a kiválasztott időszakban megnyert összes érdeklődő.
 
-A százalékos változás metrikái (piros vagy zöld színnel látható, egy nyíllal) jelzik a **kijelölt dátumtartomány utolsó teljes hónapja** és az **adott tartomány első teljes hónapja** közötti különbséget. Tegyük fel például, hogy az aktuális dátum június 15, és a **3m** szűrőt választotta az utolsó három hónapra vonatkozó adatok megjelenítéséhez. Ebben az esetben ezek a metrikák a május (az utolsó teljes hónap a kiválasztott időszakban) és a márciusi (a kijelölt időszak első teljes hónapja) közötti különbséget mutatják, a kiválasztott dátumtartomány utolsó **3m**, az összehasonlítás a májusi adatok és a márciusi adatok között lesz.
+A százalékos változási metrikák (piros vagy zöld színnel és  nyíljelzővel jelölve) jelzik a különbséget a kiválasztott dátumtartomány utolsó teljes hónapja és a tartomány első teljes hónapja **között.** Tegyük fel például, hogy az aktuális dátum június 15, és a **3 millió** szűrőt választotta az elmúlt három hónap adatainak megjelenítése érdekében. Ebben az esetben ezek a metrikák a május (a kiválasztott időszak utolsó teljes hónapja) és a március (a kiválasztott időszak első teljes hónapja) közötti különbséget mutatják, a kiválasztott dátumtartomány az elmúlt **3 millió,** az összehasonlítás a májusi és a márciusi adatok között lenne.
 
-:::image type="content" source="images/referrals/leadsanalyticssummary.png" alt-text="A leads Analytics összegző kártyáját ábrázoló kép.":::
+:::image type="content" source="images/referrals/leadsanalyticssummary.png" alt-text="Az érdeklődők elemzésének összegző kártyáját bemutató kép.":::
 
 ## <a name="conversion-funnel"></a>Konverziós tölcsér
 
-Ez a szakasz egy vizualizációs kijelzőt mutat be, amely bemutatja, hogyan térnek át az egyes állapotokból a másikra a életciklusuk során. Megtekintheti a teljes életciklusát az ügyleti mennyiség és az USD-ben az ebben a szakaszban szereplő fő kimutatás alapján. Az első szakasz a Deal típusával van megjelölve, hogy a kötet vagy az érték típus szerinti vizuális mutatót adjon Önnek. Van egy szakasz is, amely a **múltból vezet**, amely arra szolgál, hogy milyen ajánlatokat kell elfogadnia vagy elveszíteni, vagy a jelentéshez kiválasztott időszakban a megnyert/elveszettként megjelölni azokat. Szűrők alkalmazásával megtekintheti az ajánlatok előrehaladását a életciklusuk különböző szakaszaiban.
+Ez a szakasz azt mutatja be, hogyan haladnak az ügyletek az egyes államok között az életciklusuk során. A szakasz fő kimutatása alapján megtekintheti a teljes életciklust az ajánlat mennyisége, valamint az üzlet USD-ben megadott értéke alapján. Az első szakasz az deal típusával van megcímkézve, amely típus szerint vizuálisan jelzi a kötetet vagy az értéket. Van egy múltból származó Érdeklődők szakasz **is,** amely jelzi azokat az ügyleteket, amelyeken elfogadta vagy elutasítja őket, vagy a jelentéshez kiválasztott időszakban elveszettként jelöli meg őket. Szűrők alkalmazásával megtekintheti az ügyletek előrehaladását az életciklusuk különböző szakaszaiban.
 
-:::image type="content" source="images/referrals/leadsanalyticsfunnel.png" alt-text="Az átváltási tölcsért ábrázoló kép.":::
+:::image type="content" source="images/referrals/leadsanalyticsfunnel.png" alt-text="A hivatkozások konverziós tölcsérét bemutató kép.":::
 
-## <a name="leads-by-geography"></a>Érdeklődők földrajz szerint
+## <a name="leads-by-geography"></a>Érdeklődők földrajzi hely szerint
 
-Ez a szakasz azokat az országokat/régiókat mutatja be, amelyekben a ügyletek származnak, valamint az egyes országok/régiók részleteit. Az egyes országok esetében az összes ország Térkép nézetével együtt egy táblázatos nézet látható. A táblázat egy adott országára kattinthat, vagy a Térkép nézetre kattintva megnyithatja az adott országra.
+Ez a szakasz azokat az országokat/régiókat mutatja be, ahonnan az ügylet érkezett, valamint az egyes országok/régiók részleteit. Az egyes országokra vonatkozó ajánlat részleteit táblázatos nézetben, az összes országot pedig térképnézetben lehet megtekinteni. A táblázatban rákattinthat egy adott országra, vagy a térképnézetre kattintva nagyíthat egy adott országot.
 
-:::image type="content" source="images/referrals/leadsanalyticsgeodistribution.png" alt-text="Az átirányítások földrajzi eloszlását ábrázoló kép.":::
+:::image type="content" source="images/referrals/leadsanalyticsgeodistribution.png" alt-text="A hivatkozások földrajzi eloszlását bemutató kép.":::
 
 ## <a name="leads-by-program"></a>Érdeklődők program szerint
 
-Ez a táblázat és diagram kombináció lehetővé teszi, hogy megtekintse, hogy az átirányítási program mely részeket vezeti a legtöbb hivatkozás és a legmagasabb ügyleti érték vezetésével.
-A tábla tartalmazza az összes érdeklődőt, az SLA-ban (24 órában) elfogadott érdeklődőket a százalékban és az abszolút kifejezésben, a lejárt érdeklődőket, valamint a megnyert állapotú érdeklődőket az USD pénznemben megnyert összes érdeklődő értékkel együtt. A táblázat jobb oldalán található egy trend Graph is, amely az összes ajánlat számát és az USD pénznemben megnyert ügyleti értéket mutatja a kiválasztott program alapján. Az alapértelmezett beállítás az összes megoldás.
+Ez a táblázat- és diagram-kombináció lehetővé teszi, hogy lássa, a ajánlóprogram-érdeklődők melyike eredményezi a legtöbb ajánlást, és melyek a legnagyobb értékűek.
+A táblázat tartalmazza az összes érdeklődőt, az SLA-ban elfogadott érdeklődőket (24 óra), a lejárt érdeklődőket, a lejárt érdeklődőket, valamint az összes megnyert érdeklődő értékét USD pénznemben. A táblázattól jobbra található egy érdeklődők trendgrafikonja is, amely a kiválasztott program alapján az összes ügylet számát és az ügyletnek az USD pénznemben megnyert értékét mutatja. Az alapértelmezett beállítás az összes megoldás.
 
-:::image type="content" source="images/referrals/leadsanalyticsreferralsprogram.png" alt-text="A minősített hivatkozói program teljesítményét bemutató kép.":::
+:::image type="content" source="images/referrals/leadsanalyticsreferralsprogram.png" alt-text="Kép a minősített ajánlási program érdeklődőinek teljesítményéről.":::
 
-## <a name="declined--lost-reasons"></a>Elutasított & elveszett okok
+## <a name="declined--lost-reasons"></a>Elutasított & okok miatt
 
-Ez a szakasz segít elemezni az okokat, amiért a vállalata **elutasította** vagy **elveszítette** az érdeklődőket. A jelen ábrázolások beállításai ugyanazokat az okokat mutatják be, mint az eladók, miközben a rendszer elutasította vagy elveszítette az érdeklődőt.
+Ez a szakasz segít elemezni, hogy a  vállalat miért jelölte meg az érdeklődőket Elutasítva vagy **Elveszettként.** A fenti ábrázolásokkal ugyanazok az okok állnak rendelkezésre, mint amit az értékesítők az érdeklődő elutasításként vagy elveszettként való lezárásakor választottak.
 
-:::image type="content" source="images/referrals/leadsanalyticsreasons.png" alt-text="Az a kép, amely a partner által kiválasztott okokat jeleníti meg, amikor elvész, vagy elveszítette az érdeklődőt":::
+:::image type="content" source="images/referrals/leadsanalyticsreasons.png" alt-text="A partner által a visszautasítás vagy az érdeklődő elveszítés esetén kiválasztott okokat bemutató kép.":::
 
 ## <a name="comparison-charts"></a>Összehasonlító diagramok
 
-Az összehasonlítási szakasz segítségével összehasonlíthatja az érdeklődőkkel kapcsolatos, több dimenzión alapuló, a köteten található és a megnyert nyeremények értékeit is.
-Az adatösszehasonlításhoz választható három dimenzió
+Az összehasonlítási szakasz segítségével összehasonlíthatja az érdeklődőkkel kapcsolatos adatokat több dimenzió alapján a köteten és az érdeklődők által az USD-kimutatásban megnyert érték alapján.
+Az adatok összehasonlítására kiválasztható három dimenzió a következő:
 
 - Minősítés típusa
 - Piacok
-- Hivatkozó program
+- Ajánlóprogram
 
-Ha a minősítési típus van kiválasztva, lehetősége van összehasonlítani az átirányítási teljesítményt a Piactéri érdeklődők és a minősített érdeklődők tekintetében. Mindkét piacon és az átirányítási programban három különböző lehetőség közül választhat a teljesítményük összehasonlításához. Az első gráf, amely egy sávdiagram, a fő kimutatás, amely a kötet vagy a Deals értéke, egy hónapra vonatkozó tendenciát mutat be. A sávdiagram jobb oldalán egy tortadiagram is látható, amely az azonos adatmennyiségek százalékos eloszlását mutatja.
+A minősítési típus kiválasztásakor összehasonlíthatja a hivatkozási teljesítményét a piactéri érdeklődők és a minősített érdeklődők tekintetében. A piacokon és a ajánlóprogramban is három különböző lehetőség közül választhat a teljesítményük összehasonlítására. Az első diagram, amely egy sávdiagram, havi trend szerint jelennek meg az adatok a fő kimutatás alapján, amely a mennyiségi vagy a megnyert ügyleti érték. A sávdiagramtól jobbra egy tortadiagram is található, amely ugyanezen adatok százalékos eloszlását mutatja.
 
-:::image type="content" source="images/referrals/leadsanalyticscompare.png" alt-text="Az összehasonlítási szakaszt ábrázoló kép.":::
+:::image type="content" source="images/referrals/leadsanalyticscompare.png" alt-text="Az összehasonlítási szakaszt bemutató kép.":::
 
 ## <a name="raw-data-table"></a>Nyers adattábla
 
-Az alábbi táblázat az érdeklődőkkel kapcsolatos összes nyers adattal segíti az adatok gyors **exportálását** minden olyan részletes vagy egyéni elemzéshez, amelyet végre szeretne hajtani.
+Az alábbi táblázat az érdeklődőkre vonatkozó összes nyers  adatot tartalmazza, így gyorsan exportálhatja az adatokat a végrehajtani kívánt részletes vagy egyéni elemzésekhez.
 
-:::image type="content" source="images/referrals/leadsanalyticsrawdata.png" alt-text="Az érdeklődők nyers adattábláját ábrázoló kép.":::
+:::image type="content" source="images/referrals/leadsanalyticsrawdata.png" alt-text="Az érdeklődők nyers adattábláját bemutató kép.":::
 
-## <a name="no-data"></a>Nincsenek adatkészletek
+## <a name="no-data"></a>Nincs adat
 
-Több oka is lehet annak, hogy az alább leírtak szerint hogyan lehet üres diagramot lekérdezni az érdeklődők elemzéséhez.
+Több oka is lehet annak, hogy az alábbihoz hasonló üres diagram jelenik meg az érdeklődők elemzésének elérésekor, az alábbiakban leírtak szerint.
 
-- Ehhez a fiókhoz nem találhatók adatkészletek. Próbáljon meg ajánlatokat létrehozni a jelentés feltöltéséhez.
-- Némi hálózati kapcsolati probléma van. Tekintse meg az internetkapcsolatot, és próbálkozzon újra.
+- Ehhez a fiókhoz nincsenek adatok. Próbáljon meg ügyleteket létrehozni a jelentés feltöltéséhez.
+- Hálózati kapcsolati probléma lépett fel. Ellenőrizze az internetkapcsolatot, és próbálkozzon újra.
 - Nincsenek az alkalmazott szűrőknek megfelelő rekordok. Próbálkozzon a szűrők alaphelyzetbe állításával.
-- A rendszer késlelteti a vezető állapot változását, és ugyanezt frissíti az elemzési jelentésben. A jelentést 24 óra elteltével vizsgálja meg.
+- Az érdeklődő állapotának módosítása és az elemzési jelentésben való frissítése között késés van. Ellenőrizze a jelentést 24 óra után.
 
-:::image type="content" source="images/referrals/nodata.png" alt-text="A kép nem jeleníti meg az érdeklődők adatvizualizációját.":::
+:::image type="content" source="images/referrals/nodata.png" alt-text="Az érdeklődők adatmegjelenítését nem ábrázoló kép.":::
 
 > [!TIP]
-> Ha szeretné megtekinteni, hogyan működnek a közös értékesítési lehetőségek, tekintse át a [közös értékesítési lehetőségek](referral-insights.md)elemzését ismertető oldalt.
+> Az együtt értékesítés lehetőségeinek teljesítményével kapcsolatos további információkért tekintse meg az [Együttműködési lehetőségek elemzési oldalát.](referral-insights.md)
 
 ## <a name="next-steps"></a>Következő lépések
 

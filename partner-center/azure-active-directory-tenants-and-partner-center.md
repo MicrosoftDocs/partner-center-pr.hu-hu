@@ -1,74 +1,71 @@
 ---
-title: Munkahelyi fiók összekapcsolása a partner Center eléréséhez
+title: Munkahelyi fiók összekapcsolása a Partnerközpont
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Hozzon létre egy munkahelyi fiókot, amely összeköti a vállalatot a partner Center-fiókjával. Ez lehetővé teszi a vállalat alkalmazottai számára a partneri központ elérését.
+description: Hozzon létre egy munkahelyi fiókot, amely összeköti a vállalatát Partnerközpont fiókjával. Ez lehetővé teszi, hogy a vállalat alkalmazottai hozzáférjenek Partnerközpont.
 author: vinayks
 ms.author: vinayks
 ms.custom: SEOAPR.20
 ms.localizationpriority: high
 ms.date: 11/25/2019
-ms.openlocfilehash: bc837db5a9dbcf92fbfead54b552695a218ae675
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: a06a38ef9d96b4c2a1e95328d510eb2fd71ff0e3
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534794"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149842"
 ---
-# <a name="create-a-work-account-that-links-your-company-to-your-partner-center-account"></a>Munkahelyi fiók létrehozása, amely összeköti a vállalatot a partner Center-fiókkal
+# <a name="create-a-work-account-that-links-your-company-to-your-partner-center-account"></a>Hozzon létre egy munkahelyi fiókot, amely összeköti a vállalatot Partnerközpont fiókjával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelő rendszergazda
 
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
+## <a name="why-you-need-a-work-account"></a>Miért van szüksége munkahelyi fiókra?
 
-## <a name="why-you-need-a-work-account"></a>Miért van szüksége munkahelyi fiókra
-
-A Microsoft megköveteli, hogy a vállalati munkahelyi fiókot az új partner Center-fiókhoz kapcsolja. A hivatkozás lehetővé teszi, hogy a fiók felhasználói bejelentkezzenek a partner központba a munkahelyi fiók felhasználónevével és jelszavával.
+A Microsoft megköveteli, hogy a vállalat munkahelyi fiókját az új munkahelyi Partnerközpont hozzá. A hivatkozással a fiók felhasználói bejelentkeznek Partnerközpont munkahelyi fiókjuk felhasználónevével és jelszavával.
 
 ## <a name="the-work-account-email-address"></a>A munkahelyi fiók e-mail-címe
 
-Munkahelyi fiókja vagy munkahelyi e-mail-címe a vállalata által megadott e-mail-cím. A munkahelyi fiókhoz tartozó e-mailek formátuma általában `you@yourcompany.com` . A személyes e-mail-címek, például a Hotmail, a Gmail vagy a Yahoo nem működnek e-mailben, és nem használhatók a partner Center-fiókhoz.
+Munkahelyi fiókja vagy munkahelyi e-mail-címe a vállalat által megadott e-mail-cím. A munkahelyi fiók e-mail-címe általában formátumban `you@yourcompany.com` van. Az olyan személyes e-mail-címek, mint a Hotmail, a Gmail vagy a Yahoo, nem munkahelyi e-mail-címek, és nem használhatók Partnerközpont fiókjához.
 
-Ha egynél több érvényes munkahelyi e-mail-címmel rendelkezik, használja a céges központhoz társított, nem pedig a regionális részleget, hanem a `contoso.com` cím helyett használja az e-mail-címét `contoso.uk` .
+Ha több érvényes e-mail-címmel is dolgozik, használja azt, amely a regionális részleg helyett a vállalati főközponthoz van társítva, például használja az e-mail-címét a `contoso.com` cím `contoso.uk` helyett.
 
 > [!NOTE]  
-> Mielőtt meglévő munkahelyi fiókot szeretne használni, gondolja át, hogy a fiók hány felhasználójának kell működnie a partner Centerben. Ha olyan fiókkal rendelkező felhasználókkal rendelkezik, akiknek nem kell a partner Centerben dolgoznia, érdemes lehet új fiókot létrehozni csak azokhoz a felhasználókhoz, akiknek a partner Centerben kell működniük.
+> Mielőtt úgy dönt, hogy meglévő munkahelyi fiókot használ, gondolja át, hány felhasználónak kell a fiókban dolgoznia a Partnerközpont. Ha vannak olyan felhasználói a fiókban, akiknek nem kell a Partnerközpont-ban dolgoznia, fontolja meg egy új fiók létrehozását csak azok számára, akiknek a Partnerközpont.
 
-## <a name="not-sure-if-your-company-already-has-a-work-account"></a>Nem biztos abban, hogy a vállalata már rendelkezik munkahelyi fiókkal?
+## <a name="not-sure-if-your-company-already-has-a-work-account"></a>Nem tudja, hogy a vállalata rendelkezik-e már munkahelyi fiókkal?
 
-Ha nem biztos abban, hogy munkahelyi fiókja van-e, kövesse az alábbi lépéseket az ellenőrzéshez. Ha Microsoft Azure vagy Office 365-es aktív előfizetéssel rendelkezik, már van munkahelyi fiókja.
+Ha nem biztos abban, hogy a vállalata rendelkezik-e munkahelyi fiókkal, kövesse az alábbi lépéseket az ellenőrzéshez. Ha aktív előfizetéssel rendelkezik egy Microsoft Azure Office 365-előfizetéssel, már rendelkezik munkahelyi fiókkal.
 
 1. Jelentkezzen be az [Azure Portalra](https://portal.azure.com).
 
-2. Válassza a menü Azure Active Directory elemét, majd válassza a tartománynevek lehetőséget.
+2. Válassza Azure Active Directory a menüből, majd válassza a Tartománynevek lehetőséget.
 
-3. Ha már rendelkezik munkahelyi fiókkal, a rendszer a tartománynevet fogja listázni.
+3. Ha már rendelkezik munkahelyi fiókkal, a tartománynév megjelenik a listában.
 
-Ha a vállalat még nem rendelkezik munkahelyi fiókkal, létrehozhat egyet a beléptetési folyamat során.
+Ha a vállalat még nem rendelkezik munkahelyi fiókkal, létrehozhat egyet a regisztrációs folyamat során.
 
-Az alábbi ábra számos jellemző forgatókönyvhöz biztosít lépéseket:
+Az alábbi ábra számos tipikus forgatókönyv lépéseit mutatja be:
 
-- annak megállapítása, hogy van-e munkahelyi fiókja
-- a munkahelyi fiókba való bejelentkezés módjának meghatározása
-- annak megállapítása, hogy létre kell-e hoznia egy új munkahelyi fiókot
+- állapítsa meg, hogy van-e munkahelyi fiókja
+- a munkahelyi fiókba való bejelentkezés mikéntjének meghatározása
+- annak meghatározása, hogy létre kell-e hoznia egy új munkahelyi fiókot
 
 :::image type="content" source="images/onboardingAADFlow.png" lightbox="images/onboardingAADFlow.png" alt-text="Van munkahelyi fiókja, vagy létre kell hoznia egyet?":::
 
-További információ tartományok hozzáadásáról az Azure AD-ben: [tartomány hozzáadása vagy hozzárendelése az Azure ad](/azure/active-directory/active-directory-add-domain) -ben
+További információ tartományok hozzáadásáról az Azure AD-ban: Tartomány hozzáadása vagy társítása az [Azure AD-ban.](/azure/active-directory/active-directory-add-domain)
 
-## <a name="about-microsoft-azure"></a>Tudnivalók Microsoft Azure
+## <a name="about-microsoft-azure"></a>A Microsoft Azure
 
-A Microsoft Azure egy nyilvános felhőalapú platform, amellyel a vállalatok a Microsoft által felügyelt adatközpontok globális hálózatán hozhatnak létre, helyezhetnek üzembe és kezelhetnek alkalmazásokat. A vállalatok az Azure-t használják virtuális informatikai infrastruktúra létrehozásához virtuális funkciókkal vagy szolgáltatásokkal fizikai gépek helyett.
+Microsoft Azure egy nyilvános felhőplatform, amely segítségével a vállalatok alkalmazásokat építenek ki, helyezhetnek üzembe és kezelnek a Microsoft által felügyelt adatközpontok globális hálózatán. A vállalatok az Azure-ral fizikai gépek helyett virtuális függvényekkel vagy szolgáltatásokkal működő virtuális it-infrastruktúrát építenek ki.
 
-Ha Azure-előfizetést vásárol, lényegében egy dedikált, biztonságos területet bérel az Azure nyilvános felhőben, nem egészen más, mint a vállalat fizikai üzleti tevékenységének elsajátításához. Az irodaház tulajdonosának a vállalata bérlő.
+Amikor Azure-előfizetést vásárol, lényegében egy dedikált, biztonságos helyet bérel az Azure nyilvános felhőben, nem olyan különbözik attól, mintha egy irodaépületben bérel egy padlót a vállalat fizikai üzlete számára. Az irodaépület tulajdonosa számára a vállalat bérlő.
 
-Az Azure-beli munkahelyi fiók a vállalat dedikált és elszigetelt virtuális ábrázolása az Azure nyilvános felhőben, amely akkor jön létre, amikor előfizet egy Microsoft Cloud Service-re (például Azure, Microsoft Intune vagy Office 365).
+Az Azure-beli munkahelyi fiók a vállalat dedikált és elkülönített virtuális reprezentációja az Azure nyilvános felhőben, amely akkor jön létre, amikor előfizet egy Microsoft-felhőszolgáltatásra, például az Azure-ra, az Microsoft Intune-re vagy az Office 365-re.
 
-Munkahelyi fiókja az Azure AD-felhasználókat és a rájuk vonatkozó információkat – a jelszavukat, a profil adatait, az engedélyeket stb. – tárolja. A munkahelyi fiók a vállalatra és annak biztonságára vonatkozó csoportokat, alkalmazásokat és egyéb információkat is tartalmaz.
+A munkahelyi fiókjában vannak az Azure AD-felhasználók, valamint a rájuk vonatkozó információk – a jelszavaik, profiladatok, engedélyek stb. A munkahelyi fiók csoportokat, alkalmazásokat és a vállalat biztonságával kapcsolatos egyéb információkat is tartalmaz.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
 - [Partnerközponti fiók kezelése](partner-center-account-setup.md)
 - [Ellenőrzési állapot nyomon követése](verification-responses.md)

@@ -1,6 +1,6 @@
 ---
-title: Ügyfelek eladása Microsoft Azure foglalások
-description: Felhőalapú megoldás-szolgáltatóként megvásárolhatja, értékesítheti vagy kezelheti az ügyfelek számára elérhető Azure-foglalásokat. A partner Center, a Azure Portal vagy a partner Center API használata.
+title: Ügyfelek és foglalások Microsoft Azure eladása
+description: Az Felhőszolgáltató vásárolhat, értékesíthet vagy kezelhet Azure-foglalásokat az ügyfelek számára. Használja Partnerközpont, a Azure Portal vagy a Partnerközpont API-t.
 ms.topic: article
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
@@ -9,52 +9,46 @@ ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 08/06/2020
-ms.openlocfilehash: 9dc92685503fd4b9b05e40337f72e810c1693779
-ms.sourcegitcommit: 2d9aab15ddc20cb3d9537e68ace33d36f7d8a250
+ms.openlocfilehash: b97cafea9ad2f36718418c7c7cfca5f91ee8849c
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96534896"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149468"
 ---
-# <a name="sell-microsoft-azure-reservations-to-customers-using-partner-center-the-azure-portal-or-apis"></a>Microsoft Azure foglalások eladása a partner Center, a Azure Portal vagy az API-kat használó ügyfeleknek
+# <a name="sell-microsoft-azure-reservations-to-customers-using-partner-center-the-azure-portal-or-apis"></a>Foglalások Microsoft Azure értékesítés az ügyfeleknek Partnerközpont, a Azure Portal vagy API-k használatával
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Globális rendszergazdai | Az | Értékesítési ügynök | Felhasználókezelő rendszergazda
 
-- Felügyeleti ügynök
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-- Felhasználói felügyeleti rendszergazda
-
-A felhőalapú megoldás-szolgáltatói programban (CSP) lévő partnerként megvásárolhatja, értékesítheti vagy kezelheti az ügyfelek számára elérhető Azure-foglalásokat. A partner Center, a Azure Portal vagy a partner Center API használata.
+A felhőszolgáltatói program (CSP Felhőszolgáltató partnerként azure-foglalásokat vásárolhat, értékesíthet vagy kezelhet az ügyfelek számára. Használja Partnerközpont, a Azure Portal vagy a Partnerközpont API-t.
 
 > [!NOTE]
-> Ez a cikk csak a CSP-ben lévő partnerekre vonatkozik. A más típusú előfizetéseket (például az utólagos elszámolású, az egyéni, a Microsoft-ügyféli szerződést vagy a Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek Ehelyett olvasniuk kell [Az Azure foglalási dokumentációját](/azure/cost-management-billing/reservations).
+> Ez a cikk csak a CSP-partnerekre vonatkozik. A más típusú előfizetéseket (például használat alapján fizetett, egyéni, Microsoft Ügyfélszerződés- vagy Nagyvállalati Szerződés-előfizetéseket) használó ügyfeleknek érdemes elolvasni az Azure Reservations [dokumentációját.](/azure/cost-management-billing/reservations)
 
-A CSP programban részt vevő partnerek Microsoft Azure foglalásokat biztosíthatnak ügyfeleiknek. Az ügyfelek jelentős megtakarítást érhet el, ha előre foglalják őket. Az Azure-foglalások az alábbi módokon kínálják az ügyfelek egyszerűségét és rugalmasságát:
+A CSP-programban részt vevő partnerek kínálni tudnak ügyfeleiknek Microsoft Azure foglalásokat. Az ügyfelek jelentős megtakarítást nyerhetnek, ha előre lefoglalják őket. Az Azure Reservations az alábbi módokon kínál egyszerűséget és rugalmasságot az ügyfelek számára:
 
-- Egy vagy három éves foglalási feltétel
-- Könnyű első lépések; a telepítés másodpercek alatt befejeződött
-- Visszavont vagy Exchange fenntartott példányok bármikor a korrigált visszatérítéshez
-- Fenntartott példányok használatának kezelése a szervezeti vagy az egyéni részleg szintjén
+- Egy vagy három éves foglalási feltételek
+- Könnyen elkezdhető; a beállítás másodpercek alatt befejeződik
+- Fenntartott példányok lemondása vagy cseréje módosított visszatérítésre bármikor
+- Fenntartott példányok használatának kezelése szervezeti vagy részlegszinten
 
-Az Azure-foglalások az alábbi módokon nyújthatnak az ügyfeleknek:
+Az Azure-foglalások a következő módokon kínálják az ügyfeleket:
 
-- A foglalások jelentős megtakarítást biztosíthatnak az utólagos elszámolású (TB) díjszabásban
-- Jobb költségvetés és előrejelzés az előzetes fizetéssel egy évig vagy hároméves feltételek mellett
-- Rangsorolt számítási kapacitás az irodákhoz legközelebb eső Azure-régióban
-- Az Azure-foglalások biztosítják a végpontok közötti infrastruktúra-megoldások alapját a Microsoft Windows Serverhez és Azure SQL Database hasonló szoftverekkel kombinálva
+- A Foglalások jelentős megtakarítást kínálnak a pay-as-you-go (PAYG) díjszabáshoz
+- Jobb költségvetés és előrejelzés előzetes fizetéssel egy- vagy hároméves feltételek esetén
+- A számítási kapacitás rangsorolása az irodáikhoz legközelebb eső Azure-régióban
+- Az Azure Reservations biztosítja a teljes infrastruktúra-megoldások alapját olyan szoftverekkel kombinálva, mint a Microsoft Windows Server és Azure SQL Database
 
 >[!NOTE]
-> Az Azure-foglalásokat a partner központban és a Azure Portal is megvásárolhatja, értékesítheti és kezelheti, valamint használhatja a partner Center API-t is. Lehetővé teheti ügyfelei számára, hogy saját Azure-foglalásokat vásárolnak a számukra megvásárolt Azure-előfizetésből. Az alábbi hivatkozásokat követve megtudhatja, hogyan.
+> Az Azure Reservationst megvásárolhatja, értékesítheti és kezelheti a Partnerközpont és a Azure Portal, valamint a Partnerközpont API-val. Engedélyt adhat az ügyfeleknek arra is, hogy megvásárolják saját Azure-foglalásukat a számukra megvásárolt Azure-előfizetésből. Az alábbi hivatkozásokra kattintva megtudhatja, hogyan.
 
-## <a name="azure-reservations-resources"></a>Azure-foglalások erőforrásai
+## <a name="azure-reservations-resources"></a>Azure Reservations-erőforrások
 
-|**További információ**   |**Olvassa el ezt**    |
+|**További információ:**   |**Olvassa el ezt**    |
 |:-----------------------------|:-----------------|
-| Az Azure foglalási dokumentációja ügyfelei számára | [Mik az Azure-beli foglalások?](/azure/billing/billing-save-compute-costs-reservations)
-|Azure-foglalások vásárlása az ügyfelek számára a partner Centerben   |[Azure-foglalások vásárlása](azure-reservations-buying.md)
-|Azure-foglalások kezelése a partner Centerben | [Azure-foglalások kezelése a partner Centerben](azure-reservations-manage.md)
-|A virtuális gép megfelelő méretének meghatározása és az ügyfél virtuális gép használatának ellenőrzése   |[Virtuális gép méretezése az Azure-foglalások maximális használatára](azure-usage.md)   |
-|Azure-foglalások vásárlása a partner Center API használatával | [Vásárlás Azure Reserved VM instances](/partner-center/develop/purchase-azure-reservations) a partner Center fejlesztői dokumentációjában   |
-|Engedélyt ad a felhasználóknak a saját Azure-foglalások megvásárlására a CSP-előfizetésből. | [Engedélyt ad az ügyfeleknek a saját Azure-foglalások megvásárlására](give-customers-permission.md)   |
+| Az Azure Reservations dokumentációja az ügyfelek számára | [Mik az Azure-beli foglalások?](/azure/billing/billing-save-compute-costs-reservations)
+|Azure-foglalások vásárlása az ügyfelek számára Partnerközpont   |[Azure Reservations vásárlása](azure-reservations-buying.md)
+|Azure Reservations kezelése a Partnerközpont | [Azure Reservations kezelése a Partnerközpont](azure-reservations-manage.md)
+|A virtuális gép megfelelő méretének meghatározása és az ügyfél virtuálisgép-használatának ellenőrzése   |[Virtuális gépek méretezése az Azure-beli foglalások maximális kihasználtságában](azure-usage.md)   |
+|Azure Reservations vásárlása az Partnerközpont API-val | [Vásárlási Azure Reserved VM Instances](/partner-center/develop/purchase-azure-reservations) az Partnerközpont fejlesztői dokumentációjában   |
+|Engedélyt ad az ügyfeleknek arra, hogy megvásárolják saját Azure-foglalásukat a CSP-előfizetéséből. | [Engedélyt adhat az ügyfeleknek a saját Azure-foglalásaik vásárlásra](give-customers-permission.md)   |

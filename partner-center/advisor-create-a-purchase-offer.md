@@ -1,72 +1,71 @@
 ---
-title: Advisors – vásárlási ajánlat létrehozása
+title: Tanácsadók – vásárlási ajánlat létrehozása
 ms.topic: article
-ms.date: 05/17/2020
+ms.date: 05/13/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan használhatja a partner centert egy olyan vásárlási ajánlat és egyéni URL-cím létrehozására, amelyet az Office 365 próbaverziójának meghívása tartalmaz.
+description: Ismerje meg, hogy egy jogosult előfizetési tanácsadó hogyan használhatja a Partnerközpont az Office 365 próbameghívásaiba foglalható vásárlási ajánlat és egyéni URL-cím létrehozásához.
 author: brentserbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a60b75c9eee3601b488fd52fe22b4d2551b526e3
-ms.sourcegitcommit: 5ef0b231023395fb4bf01cb82d0eabd83e6cdaf4
+ms.openlocfilehash: 41337f6c760152122b050fe3b39d1545527b4a81
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106557749"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150437"
 ---
-# <a name="advisors-create-a-purchase-offer"></a>Advisors: vásárlási ajánlat létrehozása
+# <a name="advisors-create-a-purchase-offer"></a>Tanácsadók: Vásárlási ajánlat létrehozása
 
  
-**Megfelelő szerepkörök**
-
-- Advisor
+**Megfelelő szerepkörök:** Advisor
 
 
 > [!NOTE]
-> Ez a funkció csak olyan Microsoft-partnerek számára érhető el, akik jogosultak az előfizetési tanácsadók rendelkezésére.
+> Ez a funkció csak olyan Microsoft-partnerek számára érhető el, akik jogosult előfizetési tanácsadók.
 
-Miután elküldte az Office 365-hez készült próbaverziós meghívót egy ügyfélnek, nyomon követheti az ügyfél igényeihez igazított vásárlási ajánlat létrehozásával és elküldésével. Ha hitelesített felügyeletet biztosít, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi a fiók felügyeletét az ügyfél nevében.
+Miután elküldte az Office 365 próbaverziós meghívóját egy ügyfélnek, ezt követően hozzon létre és elküldjen egy, az ügyfél igényeinek megfelelően testreszabott vásárlási ajánlatot. Ha megkapta a delegált felügyeletre való jogosultságot, hozzáadhat egy olyan lehetőséget a vásárlási ajánlathoz, amely lehetővé teszi a fiók felügyeletét az ügyfél nevében.
 
-A vételi ajánlat létrehozásakor a **vásárlási ajánlat létrehozása** varázsló létrehoz egy egyéni URL-címet. Az URL-címnek van egy beágyazott kódja, amely azonosítja Önt az előfizetés-tanácsadóként. Ezt az URL-címet egy vagy több ügyfél számára is használhatja. Küldje el e-mailben az ügyfélnek az URL-címet. Vagy közzéteheti az URL-címet a webhelyén. Ha az ügyfél elfogadja az ajánlatot, az ügyfél vásárlásához van társítva.
+A vásárlási ajánlat létrehozásakor a **Vásárlási ajánlat** létrehozása varázsló létrehoz egy egyéni URL-címet. Az URL-cím tartalmaz egy beágyazott kódot, amely előfizetési tanácsadóként azonosítja. Ezt az URL-címet egy vagy több ügyfélhez is használhatja. Küldje el az URL-címet az ügyfélnek e-mailben. Vagy közzé is használhatja az URL-címet a webhelyén. Ha az ügyfél elfogadja az ajánlatot, akkor Ön társítva lesz az ügyfél vásárlásával.
 
-Ha az ügyfél eltérő számú licencet szeretne küldeni, küldjön nekik egy új ajánlatot, vagy megváltoztathatják a licencek számát, amikor megvásárolják az előfizetést.
+Ha az ügyfél eltérő számú licencet szeretne, küldjön neki egy új ajánlatot, vagy módosíthatja a licencek számát az előfizetés megvásárlásakor.
 
-## <a name="to-create-a-purchase-offer"></a>Vételi ajánlat létrehozása
+## <a name="to-create-a-purchase-offer"></a>Vásárlási ajánlat létrehozása
 
-1. A **próbaverziók és a vásárlási ajánlatok**  >  **létrehozási ajánlata**.
+1. Lépjen a **Próbaverziók és vételi ajánlatok Ajánlat** létrehozása  >  **lapra.**
 
-2. A **vételi ajánlat létrehozása** lapon válassza ki a megvásárolni kívánt vásárlási ajánlatokat:
+2. A **Vásárlási ajánlat létrehozása lapon** válassza ki a kívánt vásárlási ajánlati lehetőségeket:
 
-    - **Partner iroda**: Ha a vállalata több irodával rendelkezik, válassza ki azt az irodát, amelyhez ezt a vásárlási ajánlatot társítja.
+    - **Partneriroda:** Ha a vállalat több irodával rendelkezik, válassza ki azt az irodát, amelyhez társítani szeretné ezt a vásárlási ajánlatot.
 
-        A partner Office-helyek hozzáadásával kapcsolatban lásd: [hely hozzáadása](manage-locations.md). Az új Office-helyekhez akár 24 óráig is szükség lehet ahhoz, hogy megjelenjenek a **partner Office** -listán.
+        Partnerirodei helyek hozzáadásához [lásd: Hely hozzáadása.](manage-locations.md) Az új irodahelyek létrehozása után akár 24 órára is szükség lehet, hogy megjelenjenek a **Partneriroda listában.**
 
-    - **Használat helye**: válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.
-    - **Előfizetések**: a kiválasztható előfizetések listáját az ügyfél országának vagy régiójának használati helye határozza meg. Jelölje be azon előfizetés vagy előfizetések jelölőnégyzetét, amelyekhez az ügyfelet fel kívánja ajánlani.
-    - **Licencek száma**: Ha kiválaszt egy előfizetést, írja be a vásárlási ajánlatba felvenni kívánt licencek számát.
-    - **Delegált felügyelet**: Ez a lehetőség csak olyan partnereink számára érhető el, akik jogosultak a delegált felügyeletre. Válassza ezt a lehetőséget, ha az ügyfél által delegált felügyeletet szeretné nyújtani. Ha így tesz, az ügyfél elfogadhatja a vételi ajánlatot a delegált felügyelet elfogadásával vagy anélkül is.
+    - **Használati hely:** Válassza ki azt a helyet, ahol az ügyfél használni fogja a szolgáltatásokat.
+    - **Előfizetések:** A kiválasztható előfizetések listáját az ügyfél országának vagy régiójának használati helye határozza meg. Jelölje be az ügyfél számára elérhető előfizetés vagy előfizetések jelölőnégyzetét.
+    - **Licencek száma:** Amikor kiválaszt egy előfizetést, írja be a vásárlási ajánlatba foglalni kívánt licencek számát.
+    - **Delegált felügyelet:** Ez a lehetőség csak a delegált felügyeletre tanúsítvánnyal rendelkező partnerek számára érhető el. Akkor válassza ezt a lehetőséget, ha az ügyfél számára delegált felügyeletet kíván nyújtani. Ha így van, az ügyfél a delegált felügyelet elfogadásával vagy anélkül is elfogadhatja a vételi ajánlatot.
 
 3. Kattintson a **Tovább** gombra.
 
-4. A **Küldés** lapon másolja a vásárlási ajánlat adatait és URL-címét, majd illessze be egy e-mailbe, dokumentumba vagy weblapra egy testreszabott vásárlási ajánlat létrehozásához.
+4. A Küldés **lapon** másolja ki a vásárlási ajánlat adatait és URL-címét, majd illessze be egy e-mailbe, dokumentumba vagy weblapra egy testreszabott vásárlási ajánlat létrehozásához.
 
     > [!NOTE]
-    > Jegyezze fel a vásárlási ajánlat **összegző azonosítóját**. Használja az ajánlat nyomon követésére.
+    > Jegyezze fel a vásárlási ajánlat **összegző azonosítóját.** Ezzel követheti nyomon az ajánlatot.
 
-5. Az üzenetet személyre szabhatja a cég emblémájának, bevezetésének, záró megjegyzésének vagy egyéb információnak a segítségével.
+5. Személyre szabhatja az üzenetet a céges embléma, a bevezetés, a záró megjegyzés vagy más információ megszabása alapján.
 
     Küldje el a vásárlási ajánlatot az ügyfélnek.
 
-6. Ha testreszabja az üzenetet, vegye figyelembe az alábbi információkat is:
+6. Az üzenet testreszabásakor érdemes lehet az alábbiakat is figyelembe venni:
 
-    - Azonosítsa magát meghatalmazott Microsoft Cloud partnerként.
-    - Tájékoztassa az ügyfeleket arról, hogy a számlázást közvetlenül a Microsoft végzi.
-    - Tájékoztassa az ügyfeleket a szolgáltatással vagy az ajánlattal kapcsolatos kérdésekkel kapcsolatban.
-    - Tájékoztassa az ügyfeleket arról, hogy szabályozzák a megvásárolt felhasználói licencek számát, és módosíthatják a licencek számát, ha elfogadják az ajánlatot.
-    - Ha delegált felügyeletre vonatkozó ajánlatot tesz, magyarázza el, hogy mit jelent, és milyen kötelezettségei vannak. A delegált felügyelettel kapcsolatos további információkért lásd: [delegált felügyelet nyújtása](customers-revoke-admin-privileges.md).
+    - Azonosítsa magát jogosult Microsoft Cloud-partnerként.
+    - Tudhatja az ügyfelekkel, hogy közvetlenül a Microsoft fogja számlázni őket.
+    - Mondja el az ügyfeleknek, hogyan léphetnek kapcsolatba Önnel a szolgáltatással vagy az ajánlattal kapcsolatos kérdéseikkel.
+    - Tudhatja az ügyfelekkel, hogy ők irányítják a megvásárolt felhasználói licencek számát, és módosíthatják a licencek számát, amikor elfogadják az ajánlatot.
+    - Ha delegált felügyeletre vonatkozó ajánlatot tesz, magyarázza el, hogy mit jelent, és milyen kötelezettségei vannak. A delegált felügyelettel kapcsolatos további információkért lásd: [Ajánlat delegált felügyeletre.](customers-revoke-admin-privileges.md)
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Ügyfélkör létrehozása az Office 365 próbaverziós meghívásával és a vásárlási ajánlatokkal](advisors-build-your-business.md)
+- [Ügyfélbázis összeállítása az Office 365 próbameghívásokkal és vásárlási ajánlatokkal](advisors-build-your-business.md)
+- [A partnerek már nem regisztrálnak tanácsadóként](advisors-no-csp.md)

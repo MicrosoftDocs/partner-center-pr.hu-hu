@@ -1,149 +1,143 @@
 ---
-title: A partner Center számlázásának áttekintése
+title: A Partnerközpont áttekintése
 ms.topic: article
 ms.date: 01/28/2021
-description: Ismerje meg a partner Centerben lévő CSP-partnerek alapszintű számlázási és számlázási információit. Magában foglalja a számlázást és a számla megkeresését és beolvasását.
+description: Ismerje meg a CSP-partnerek alapvető számlázási és számlázási adatait a Partnerközpont. Tartalmazza az ügyfelek számlázásának, valamint a számla megkeresnek és olvasásának a mikéntjét.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 051d638024200fe58ca5e07f42b758b304b58219
-ms.sourcegitcommit: 58432bbb7eb0aed123547da65642ca728cb9b32c
+ms.openlocfilehash: 7fe03aa2b1d30c1146b8a14b6659c82cdcc52d9d
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "106964374"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149230"
 ---
 # <a name="billing-overview-for-csp-program-partners-working-in-partner-center"></a>Számlázás áttekintése a Partnerközpontban dolgozó, CSP-programban részt vevő partnerek számára 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazdai | Globális rendszergazdai | Az | Értékesítési ügynök
 
-- Felügyeleti ügynök
-- Számlázási adminisztrátor
-- Globális rendszergazda
-- Segélyszolgálat ügynöke
-- Értékesítési ügynök
-
-Ez a cikk a partner Centerben lévő CSP-partnerek alapszintű számlázási és számlázási információit tartalmazza, beleértve az ügyfelek számlázását és a számla megkeresését és beolvasását.
+Ez a cikk a csp-partnerek alapvető számlázási és számlainformációját tartalmazza a Partnerközpont beleértve az ügyfelek számlázását, valamint a számla keresését és olvasását.
 
 
-## <a name="find-your-bill"></a>Számla megkeresése
+## <a name="find-your-bill"></a>A számla megkeresi
 
-A számla megkeresése:
+A számla megkeresi:
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard/home).
 
-2. A partner Center menüben válassza a **számlázás** lehetőséget.
+2. A Partnerközpont válassza a Számlázás **lehetőséget.**
 
-3. A **Számlázási** oldalon letöltheti a legújabb számlát, vagy letöltheti a korábbi számlákat a **Számlázási előzmények** szakaszban.
+3. A Számlázás **lapon** letöltheti a legutóbbi számlát, vagy letöltheti a korábbi számlákat a **Számlázási előzmények szakaszban.**
 
 ## <a name="bill-your-customers"></a>Ügyfelek számlázása
 
-A Microsoft nem rendelkezik a saját számlázási adatainak kezelésével kapcsolatos követelményekkel és feltételekkel.
+A Microsoftnak nincsenek a saját számlázása kezelésére vonatkozó követelményei és feltételei.
 
-Az ügyfél használatának megállapításához tekintse meg a [megbékélési fájlokat](#find-your-bill). Használja az ügyfél nevét és az egyéb releváns mezőket a használat meghatározásához.
+Az ügyfél használati megállapításához tekintse meg az [egyeztetési fájlokat.](#find-your-bill) A használat meghatározásához használja az ügyfél nevét és az egyéb releváns mezőket.
 
 ### <a name="billing-types"></a>Számlázási típusok
 
-A fiókpartner számlázási típusai közé tartozik a **licenc alapú számlázás**, a **használati alapú számlázás** és az **egyszeri számlázás**. 
+A számlázási típusok Partnerközpont **a licencalapú** számlázást, a **használatalapú** számlázást és az **egyszeres számlázást.** 
 
 ### <a name="billing-currency"></a>Számlázási pénznem
 
-**Licenc-alapú és használaton alapuló számlázás**: a termék (ek) számlázása azon ország vagy régió pénznemében történik, amelyben Ön található. A díjat a termék (ek) értékesítésének helyétől függetlenül kell megfizetni.
+**Licencalapú és** használatalapú számlázás: A termék(ök) számlázása annak az országnak vagy régiónak a pénznemében történik, amelyben a termék(ök) található. A számlázás ugyanaz, függetlenül attól, hogy hol adta el a terméket vagy ügyfeleket.
 
-**Egyszeri számlázás** 2021: az EU/EFTA és az Egyesült Királyság régiójában lévő azon partnereink, akik új ügyfelekkel és meglévő CSP-ügyfelekkel rendelkeznek, új kereskedelmi ajánlatokat vásárolnak az első alkalommal, amikor a bérlők a 2020. május 11. előtt jöttek létre, a partneri hely pénznemében megjelenő vásárlásért kell fizetni.  Az EU/EFTA és az Egyesült Királyság régióján kívüli partnerek továbbra is a partneri hely pénznemében lesznek számlázva. Tudjon meg többet az [egykori és az ismétlődő](azure-plan-billing.md)szolgáltatásról. 
+**Egyszeres** számlázás: 2021. január 28-tól az EU/EFTA és az Egyesült Királyság régió azon partnerei, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat első alkalommal, amelynek bérlőit 2020. május 11. előtt hozták létre, a partneri hely pénznemében számlázjuk ki a vásárlásokat.  Az EU-n/EFTA-n és az Egyesült Királyságon kívüli partnerek számlázása továbbra is partneri pénznemben történik. További információ az [egyszeri és ismétlődő ről.](azure-plan-billing.md) 
 
 ## <a name="invoices"></a>Számlák
 
-A számla az aktuális számlázási időszakra vonatkozó összes díj összegzése. Ez magában foglalja a program, az összes termék és az összes ügyfél díjait. Példa havi és éves számlázási forgatókönyvekre: [általános számlázási forgatókönyvek](common-billing-scenarios.md)
+A számla az aktuális számlázási időszak összes díjának összegzése. Ez magában foglalja a programra vonatkozó díjakat, az összes terméket és az összes ügyfelet. A havi és éves számlázási forgatókönyvekre vonatkozó példákért tekintse meg a [gyakori számlázási forgatókönyveket](common-billing-scenarios.md)
 
-A használat- és a licencalapú számlázás esetében a számla a kiválasztott számlázási dátumtól számított két (2) napon belül érhető el (a UTC időzóna szerint). Ha például szeptember 12-én számlázási dátummal rendelkezik, a számla generálási folyamata a 13.12:00-kor UTC-kor kezdődik, a 14-én pedig 12:12:00 UTC után ér véget. 
+A használat- és a licencalapú számlázás esetében a számla a kiválasztott számlázási dátumtól számított két (2) napon belül érhető el (a UTC időzóna szerint). Ha például szeptember 12-i számlázási dátummal dolgozik, a számla létrehozása 13:00-kor (UTC) 12:00-kor kezdődik, és 14:00-kor (UTC) 12:00-kor fejeződik be. 
 
-Egyszeri és ismétlődő számlázás esetén a számlázási időszak a naptári hónaphoz van igazítva, így a számla-/egyeztetési fájlok legkésőbb minden hónap 8. napjáig elérhetők lesznek. További információért olvassa el az [Azure-csomag számlázását](azure-plan-billing.md)ismertető témakört. 
+Egyszeri és ismétlődő számlázás esetén a számlázási időszak a naptári hónaphoz van igazítva, így a számla-/egyeztetési fájlok legkésőbb minden hónap 8. napjáig elérhetők lesznek. További információkért olvassa el az [Azure-csomag számlázását.](azure-plan-billing.md) 
 
 ## <a name="price-lists"></a>Árlisták
 
-Az árlisták havonta frissülnek. Az előzetes árlista egy (1) hónapban érhető el előre.
+Az árlisták havonta frissülnek. Az előzetes verzió árlistái egy (1) hónappal korábban érhetők el.
 
-Ha szeretné megtekinteni a legújabb felhőalapú megoldás-szolgáltatói programokat és ajánlatokat a partner portál irányítópultján, válassza a következőt: **értékesítés > díjszabás és ajánlatok**. Külön árlistát talál az elérhető termékek különböző típusaihoz. A következő árlista a **díjszabás és ajánlatok** oldalon érhető el:
+A legújabb Felhőszolgáltató és ajánlatokért a Partnerportál irányítópultján tekintse meg az Értékesítés **> és ajánlatok lehetőséget.** A különböző elérhető terméktípusokhoz külön árlisták érhetők el. Az alábbi árlisták a Díjszabás és ajánlatok **oldalon érhetők** el:
 
-A **licenc-alapú** árak az előfizetés feltételeinek megfelelően garantáltak, általában a vásárlás dátumától számítva 12 hónapig. 
+**A licencalapú** árak az előfizetés időtartamára garantálhatók, általában a vásárlás dátumának 12 hónapját követően. 
 
-A **használati díjak** havi rendszerességgel változhatnak.
+**A használatalapú árak** havonta változhatnak.
 
-A **termékekre, szolgáltatásokra és szoftverekre vonatkozó előfizetések díjszabása** az előfizetés időtartamán keresztül garantált. A megújításakor azonban változhatnak az árak.
+**A termékek, szolgáltatások** és szoftver-előfizetések árai az előfizetési időtartam alatt garantáltak. Megújításkor azonban az árak változhatnak.
 
-A kredit vagy a helyesbítés alkalmazása után a következő számlázási számlán megjelenő **módosításokat** és **krediteket** fogja látni a hátralékban.
+A jóváírás vagy  **a helyesbítés** alkalmazása után a következő számlázási számlán megjelenik a kiigazítások és jóváírások.
 
 ## <a name="payment-terms"></a>Fizetési feltételek
 
-A fizetési feltételek nettó 60 nap. A számlákat a számla esedékes dátuma (a számlázási dátum után 60 nap) után kell fizetni, vagy a fiókja a bűnöző lesz, ami hatással lehet a regisztrációra a CSP-ben. 
+A fizetési feltételek nettó 60 nap. A számlákat a számla esedékességének dátuma szerint kell kifizetni (60 nappal a számlázási dátum után), különben a fiókja fel lesz delincstálva, ami hatással lehet a CSP-regisztrációra. 
 
-A felfüggesztett fiókok teljes funkcionalitását visszanyerheti a lejárt esedékes összeg kifizetése után.
+A felfüggesztett fiókok teljes funkcionalitását vissza lehet nyerni, ha a múltbeli esedékes összeget fizeti ki.
 
-A helyesbített számlázási információk megadását követően a fizetés 5 munkanapon belül látható lesz a partner Center számlázási oldalán.
+A javított számlázási adatok megadása után a kifizetés 5 munkanapon belül Partnerközpont a számlázási oldalon.
 
 ### <a name="taxes-and-vat"></a>Adók és áfa
 
-A számlázási kapcsolat a Microsoft és Ön között a részletektől (nem az ügyfelek adataitól) függ. A fiók beállítási folyamata során vagy egy későbbi támogatási kérelemben elküldheti az adóazonosító azonosítóját. Ekkor megjelennek a következő számlázási ciklusban látható változások.
+A számlázás a saját adatai (és nem az ügyfelek adatai) alapján lesz megadózva, mert a számlázási kapcsolat a Microsoft és Ön között van. Az adóazonosítót a fiók beállítási folyamata során vagy egy támogatási kérésen keresztül küldheti be később. A változások megjelennek a következő számlázási ciklusban.
 
-A **visszatartási és értékesítési adómentesség** esetén támogatási kérelem keretében kell elküldenie az adó-dokumentációt. A módosításokat és a megfelelő visszatérítéseket a következő számlázási ciklusban fogja látni. További információ a [visszatartási adó elküldéséről](withholding-tax-credit-form.md). 
+A **visszatartott összeg és** az értékesítési adómentesség esetén az adódokumentációt egy támogatási kérésen keresztül kell benyújtania. A változásokat és a megfelelő visszatérítéseket a következő számlázási ciklusban fogja látni. További információ a visszatartott adó [beküldésről.](withholding-tax-credit-form.md) 
 
-A hozzáadottérték **-adó (ÁFA) alóli kivétel** esetén a szolgáltatási kérelemben be kell küldenie a Microsoft által ÉRVÉNYESÍTett HÉA-azonosítót.  Ha az ÁFA-azonosítót a fiók beállítása után (támogatási kérelem alapján) küldi el a rendszer, a kérést megelőzően a számlák nem lesznek lebélyegzett ÁFA-AZONOSÍTÓjuk a számla PDF-fájlján. A módosításokat a következő számlázási ciklusban fogja látni.
+Az **értékadó (ÁFA)** alóli kivétel esetén a (Microsoft által ellenőrzött) áfaazonosítóját egy szolgáltatáskérésen keresztül kell benyújtania.  Ha az áfaazonosítót a fiók beállítása után (egy támogatási kérésen keresztül) beküldik, a kérelem előtti számlák nem lesznek a számla PDF-fájljára kibélyegzett áfaazonosítóval. A változásokat a következő számlázási ciklusban fogja látni.
 
-További adózási adatokat a helyi adóhivatal vagy a Tax Advisor segítségével talál.
+További adóadatokat a helyi adóiroda vagy az adótanácsadó találhat.
 
-### <a name="adjustmentscreditscancellations"></a>Beállítások/kreditek/lemondás
+### <a name="adjustmentscreditscancellations"></a>Helyesbítések/jóváírások/lemondások
 
-A licenccel ellátott szolgáltatásokra vonatkozó lemondási kreditek a nem használt napokra érvényesek a félidős lemondások esetében (és a licenc a következő képlet szerint csökken:
+A licencelt szolgáltatások lemondási kreditek a ciklus közepén érvényes lemondások fel nem használt napjainak időalapú minősítését biztosítják (valamint a licenc a következő képletnek megfelelően csökken:
 
-[ROUND ((kör (egységár * mennyiség/nap a Pro-rated hónapban, 2) * a Pro-rated Days száma)/mennyiség, 2) * mennyiség] 
+[ROUND((Round(Unit Price * Quantity / Number of days in pro-rated Month, 2) * Number of pro-rated days) / Quantity, 2) * Quantity] 
 
-A Microsoft nem számít fel a licenc-alapú szolgáltatások törlésére vonatkozó korai lemondási díjakat.
+A Microsoft nem számol fel korai felmondási díjakat a licencalapú szolgáltatások lemondása után.
 
 ### <a name="billing-rules"></a>Számlázási szabályok
 
-A számlázási gyakoriságoknak két típusa van: évente & havonta.  
-A mért szolgáltatási díjak a számlázási cikluson belül változhatnak.
+Jelenleg kétféle számlázási gyakoriság létezik: éves vagy havi &.  
+A forgalmi díjas szolgáltatások díjszabása a számlázási cikluson belül változhat.
 
 #### <a name="annual-billing-rules"></a>Éves számlázási szabályok 
 
-- Az előfizetések évesek és automatikusan megújulnak.  
+- Az előfizetések éves szinten és automatikusan megújulnak.  
 
-- A számlázás 12 havi befizetéssel vagy évenkénti egyszeri fizetéssel történik. 
+- A számlázás 12 havi kifizetésben vagy éves előfizetésenként egy éves kifizetésben történik. 
 
-- A licenc-alapú szolgáltatások következő számlázási időszakára előre kell fizetni, az előző számlázási időszak végén lévő licencek száma alapján. 
+- A licencalapú szolgáltatások következő számlázási időszaka előre ki lesz számlázva az előző számlázási időszak végének licencszáma alapján. 
 
-- A licencek számának változásait (a licencek napjain alapuló Pro-arányos számítást) a rendszer utólag számlázza/jóváírja. A pro-rata számítás a következő képletet használja: 
+- A licencek számának változásait (a licenc napokon alapuló pro-pro-programszámítás) később számlázjuk ki/számoljuk fel. A pro-program számítása a következő képletet használja: 
 
-  - [ROUND ((kör (egységár * mennyiség/nap a Pro-rated hónapban, 2) * a Pro-rated Days száma)/mennyiség, 2) * mennyiség] 
+  - [ROUND((UNIT Price * Quantity / Number of days in pro-rated Month, 2) * Number of pro-rated days) / Quantity, 2) * Quantity] 
 
-- A fizetések számlázása az eladott licencek alapján történik, nem pedig kiépített licencek 
+- A kifizetések az eladott licencek után vannak számlázva, nem a kiépített licencekért 
 
 #### <a name="monthly-billing-rules"></a>Havi számlázási szabályok 
 
-- Az előfizetések hónap – hónap, és automatikusan megújítva lesznek az új mért szolgáltatási díjszabásban. Az előző havi használatért havonta számlázunk. 
+- Az előfizetések havonta vannak megújulva az új, forgalmi díjas szolgáltatási díjak szerint. Az előző havi használatért havonta kell fizetni. 
 
-- A mért szolgáltatási díjak a számlázási cikluson belül változhatnak. 
+- A forgalmi díjas szolgáltatások díjszabása a számlázási cikluson belül változhat. 
 
-- A kapott számla csak az adott hónapra felhalmozott díjakat fogja tartalmazni. 
+- A kapott számlán csak az adott hónapra vonatkozó díjak lesznek felszámva. 
 
 
 ### <a name="credit-notes"></a>Jóváírási megjegyzések
 
-Előfordulhat, hogy a következő okok miatt kreditet vagy számlázást kell kérnie:
+Előfordulhat, hogy jóváírást kell igényelni, vagy újra ki kell azt kérnie az alábbi okokból:
 
-- Meg kell adnia a címeket vagy a beszerzési sorrendet.
-- A számla generálása után adót kell fizetni. Jóváírást vagy számlázást igényelhet az eredeti számlán visszaállított adó-visszatérítéssel. Ugyanez érvényes a visszatérítések esetében is. Kérheti az eredeti számla jóváírását vagy visszaszámlázását, majd a visszatérítés lekérését.
+- A címeket vagy a rendeléseket helyesbítenünk kell.
+- A számla létrehozása után adóvisszatérítést alkalmaztak. Jóváírást kérhet, vagy újra kiszámlázhatja az eredeti számlára visszakért adóvisszatérítést. Ugyanez vonatkozik a visszatérítések esetén is. Jóváírást kérhet, vagy újra ki lehet kérni az eredeti számlát, majd visszatérítést kérhet le.
 
-**Az egyszeri és az ismétlődő tranzakciók esetében** a Microsoft jóváírási megjegyzést is kiadhat, amikor jóváírást vagy számlázást kér. A rendszer a jóváírás kiállításakor megszakítja a számlát. 
+**A Microsoft minden egyszeri és ismétlődő** tranzakcióhoz ki tud kérni egy jóváírási megjegyzést, amikor Ön jóváírást kér vagy újratitkosul. A kreditek kibocsátását a számla visszavonása történik. 
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [A számla és a megbékélési fájl megismerése](read-your-bill.md)
-- [A CSP program partnereinek általános számlázási forgatókönyvei](common-billing-scenarios.md)
+- [A számla és az egyeztetési fájl](read-your-bill.md)
+- [Gyakori számlázási forgatókönyvek CSP-programpartnerek számára](common-billing-scenarios.md)
 - [Számlázási gyakoriság módosítása](common-billing-scenarios.md)
-- [Vevői rendelés előzményei](csp-offers.md) 
+- [Ügyfélrendelési előzmények](csp-offers.md) 
 - [Díjszabás és ajánlatok](pricing-and-offers.md)

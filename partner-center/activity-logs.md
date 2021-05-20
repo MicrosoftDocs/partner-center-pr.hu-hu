@@ -1,56 +1,49 @@
 ---
-title: Betekintést nyerhet az ügyfél-tevékenység naplóiba
+title: Elemzések az ügyfél tevékenységnaplóiból
 ms.topic: how-to
 ms.date: 05/13/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan tekintheti meg és exportálhatja a tevékenység-naplókat, hogy betekintést kapjon az ügyfél-és az ügyfelekkel kapcsolatos partner-felügyeleti tevékenységekbe.
+description: Ismerje meg, hogyan lehet megtekinteni és exportálni a tevékenységnaplókat, hogy betekintést nyerjen az ügyfélfiók tranzakcióiba és az ügyfelekhez kapcsolódó egyéb partnerkezelési tevékenységekbe.
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1eaa7fee628015eb633cac3a2796e371f6046585
-ms.sourcegitcommit: 4043c791402f0acebee6ede160a135e87fe92493
+ms.openlocfilehash: 1bb98dd71c9e46914b90d5efbfe14404d08275f9
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96474240"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150590"
 ---
-# <a name="view-or-export-customer-activity-logs-for-more-insight-into-customer-transactions"></a>Ügyfél-tevékenységi naplók megtekintése vagy exportálása az ügyfelek tranzakcióinak részletesebb betekintéséhez
+# <a name="view-or-export-customer-activity-logs-for-more-insight-into-customer-transactions"></a>Ügyféltevékenység-naplók megtekintése vagy exportálása az ügyféltranzakciókra vonatkozó további információkért
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Számlázási rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök | Helpdesk agent
 
-- Globális rendszergazda
-- Számlázási adminisztrátor
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
-- Értékesítési ügynök
-- Segélyszolgálat ügynöke
+A tevékenységnaplók információkat nyújtanak az ügyfelek tranzakcióiról és partnerkezelési műveleteiről. A tranzakciók naplói részletes információkat nyújtanak a tranzakcióról, beleértve a megvásárolt előfizetéseket is. A tevékenységnaplókat Excel-kompatibilis, vesszővel elválasztott fájlformátumba (.csv) is exportálhatja.
 
-A Tevékenységnaplók a tranzakciókkal és a partner-felügyeleti műveletekkel kapcsolatos információkat biztosítanak az ügyfelek számára. A tranzakciós naplók részletes információkat biztosítanak a tranzakcióról, beleértve a megvásárolt előfizetéseket is. A tevékenység naplóit Excel-kompatibilis, vesszővel tagolt fájlformátumba (. csv) is exportálhatja.
+A tevékenységnaplók az ügyfélfiókokkal és terméktranzakciókkal kapcsolatos partneri műveletek rekordjait biztosítják. A tevékenységnaplókat .csv-fájlba is exportálhatja.
 
-A Tevékenységnaplók olyan rekordokat biztosítanak a partneri műveletekhez, amelyek az ügyfelek fiókjait és a tranzakciókat tartalmazzák. A tevékenység naplóit. csv fájlba is exportálhatja.
+## <a name="view-and-export-activity-logs"></a>Tevékenységnaplók megtekintése és exportálása
 
-## <a name="view-and-export-activity-logs"></a>Tevékenységek naplóinak megtekintése és exportálása
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+2. A **Fiókbeállítások menüben** válassza a **Tevékenységnapló lehetőséget.**
 
-2. A **Fiókbeállítások** menüben válassza a **műveletnapló** elemet.
+3. Válassza ki a Tevékenységnapló időszakát a **From** (Innen) és **a to (Vissza)** mezőkben. A tevékenységnapló exportálása alapértelmezés szerint a legutóbbi hónapra van beállítva.
 
-3. Válassza ki a tevékenység naplójának időszakát a **from** és **a to** mezőkben. A műveletnapló exportálás alapértelmezett értéke a legutóbbi hónap.
+   Minden tevékenységnapló tartalmaz egy hivatkozást a felsorolt ügyfél **Előfizetések oldalára.**
 
-   Minden tevékenység naplója a felsorolt ügyfél **előfizetések** lapjára mutató hivatkozást tartalmaz.
+   A naplózott művelet részleteinek megtekintéséhez válasszon egy lefelé mutató nyilat bármely tevékenységnaplóhoz. Egyetlen tevékenységnapló jelentős mennyiségű adatot mutathat, például több termék megrendelését.
 
-   A naplózott művelet részleteinek megtekintéséhez válasszon ki egy lefelé mutató nyilat a tevékenység naplójában. Egyetlen tevékenység naplója jelentős mennyiségű adattal rendelkezhet, például több termék rendezésével.
+4. A napló adatoszlopai a következők:
+   - **Dátum-idő**– a művelet dátuma és időpontja;
+   - **Érintett ügyfél**– az ügyfél cégneve;
+   - **Művelet**– az ügyfél által tett művelet, például "létrehozta a ajánló";
+   - **Partnerfelhasználó**– a tevékenységhez társított partner.
 
-4. A napló adatoszlopai a következőket tartalmazzák:
-   - **Dátum és idő**– a művelet dátuma és időpontja;
-   - **Érintett ügyfél**– az ügyfél vállalatának neve;
-   - **Művelet**– az ügyfél által végrehajtott művelet, például "létrehozott egy hivatkozó";
-   - **Partner felhasználó**– a tevékenységhez társított partner.
+5. Válassza **a Napló exportálása** lehetőséget, hogy az ügyfél előfizetési adatait egy .csv-fájlba másolja, és töltse le a számítógép alapértelmezett letöltési mappájába.
 
-5. Válassza a **napló exportálása** lehetőséget, hogy az ügyfél előfizetési adatait egy. csv-fájlba másolja, majd töltse le a számítógép alapértelmezett letöltési mappájába.
+## <a name="next-steps"></a>Következő lépések
 
-## <a name="next-steps"></a>További lépések
-
-- [Előfizetések és licencek elemzése az üzleti döntések meghozatalának elősegítése érdekében](analyze-subscriptions-licenses.md)
+- [Előfizetések és licencek elemzése az üzleti döntések meghozatala érdekében](analyze-subscriptions-licenses.md)

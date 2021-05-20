@@ -1,118 +1,114 @@
 ---
-title: Felhasználók kezelése az ügyfelek fiókjaihoz
+title: Ügyfélfiókok felhasználóinak kezelése
 ms.topic: how-to
 ms.date: 02/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Felhasználók kezelése a partner Centerben – felhasználói fiókok létrehozása, felhasználói licencek hozzáadása vagy eltávolítása, jelszavak alaphelyzetbe állítása, valamint a felhasználói fiókok törlése vagy visszaállítása.
+description: Az ügyfelek felhasználóinak kezelése a Partnerközpont – felhasználói fiókokat hozhat létre, felhasználói licenceket adhat hozzá vagy távolíthat el, új jelszavakat állíthat vissza, valamint törölheti vagy visszaállíthatja a felhasználói fiókokat.
 author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 0e2bb4ceb146174da83e9c08a9ff030380298bd0
-ms.sourcegitcommit: bff907bdbddc769716c7418a2b4a94ca37c2d590
+ms.openlocfilehash: dc896ec3ce16ab0f05a8131de14f573ad96a8141
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101756085"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149893"
 ---
-# <a name="manage-users-and-user-licenses-for-customer-accounts"></a>Felhasználói fiókok és felhasználói licencek kezelése az ügyfelek fiókjaihoz 
+# <a name="manage-users-and-user-licenses-for-customer-accounts"></a>Az ügyfélfiókok felhasználói és felhasználói licenceinek kezelése 
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Felhasználói felügyeleti rendszergazda
-- Felügyeleti ügynök
+**Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Rendszergazdai ügynök
 
 
-Az ügyfél fiókjában új felhasználókat hozhat létre és törölhet. A törléstől számított 30 napon belül egy vagy több olyan felhasználói fiókot is visszaállíthat, amelyet korábban törölt. A felhasználó korábbi előfizetési hozzárendelései is vissza lesznek állítva (feltéve, hogy az előző foglalások elérhetők).
+Új felhasználókat hozhat létre és törölhet az ügyfél fiókjában. Egy vagy több olyan felhasználói fiókot is visszaállíthat, amelyet a törlést követő 30 napon belül törölt. A felhasználó korábbi előfizetés-hozzárendelései szintén visszaállnak (feltéve, hogy a korábbi foglalások elérhetők).
 
-Amikor új előfizetést vásárol az ügyfél számára, az ügyfélnek meg kell adnia az összes olyan felhasználó listáját, akiknek szükségük van a fiókra, a felhasználói engedélyeire és az egyes felhasználók által igényelt szolgáltatásokra.  
+Amikor új előfizetéseket vásárol egy ügyfélnek, az ügyfélnek meg kell adni egy listát az összes felhasználóról, akiknek fiókra van szüksége, a felhasználói engedélyeiket, valamint az egyes felhasználóknak szükséges szolgáltatásokat.  
 
 >[!NOTE]
->Az **ügyfél** lap **felhasználók és licencek** szakasza megjeleníti az adott ügyfél bérlője által létrehozott összes felhasználót, beleértve a más CSP-partnertől vagy egy másik beszerzési csatornától vásárolt licenccel rendelkező felhasználókat is.
+>Az **Ügyfél lap** Felhasználók  és licencek szakasza az adott ügyfél bérlője által létrehozott összes felhasználót megjeleníti, beleértve azokat a felhasználókat is, akik más CSP-partnertől vagy más vásárlási csatornáról vásárolt licenccel rendelkezik.
 
-Egyszerre [több felhasználóhoz is hozzárendelhet előfizetéseket](bulk-license-provisioning-for-multiple-users.md) úgy, hogy a neveket egy [Excel-kompatibilis. csv számolótábla-fájllal](adding-multiple-users-to-a-customer-account.md)importálja.
+Az [előfizetéseket egyszerre](bulk-license-provisioning-for-multiple-users.md) több felhasználóhoz is hozzárendelheti, ha a neveket [egy Excel-kompatibilis .csv-táblázatfájllal importálja.](adding-multiple-users-to-a-customer-account.md)
 
 <a href="" id="createuseraccounts"></a>
 
 ## <a name="create-user-accounts-for-a-customer"></a>Felhasználói fiókok létrehozása egy ügyfélnél
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget.
+3. Az ügyfélmenüben válassza a **Felhasználók és licencek lehetőséget.**
 
-4. Minden hozzáadott felhasználónál Válassza az **előfizetés hozzáadása** lehetőséget, majd adja meg az adatokat, beleértve az engedélyeket és a licenceket is. **Mentse** a módosításokat.
+4. Minden egyes felhasználónál válassza az **Előfizetés** hozzáadása lehetőséget, majd töltse ki az adatokat, beleértve az engedélyeket és a licenceket. **Mentse a** módosításokat.
 
-5. Ügyeljen arra, hogy a felhasználó számára küldendő felhasználónevet és ideiglenes jelszót jegyezze fel.
+5. Mindenképpen jegyezd fel a felhasználónak küldend el küldened a felhasználónevet és az ideiglenes jelszót.
 
-6. Ha egyszerre több felhasználót ad hozzá, akkor használjon **másik felhasználót**.
+6. Ha egyszerre több felhasználót ad hozzá, használja a **Másik felhasználó hozzáadása gombra.**
 
-7. Egyszerre több felhasználót is hozzáadhat [egy Excel-kompatibilis. CSV formátumú számolótábla-fájl importálásával](adding-multiple-users-to-a-customer-account.md). Megvárhatja, amíg elkészült a teljes készlettel, mielőtt e-mailben vagy kinyomtatja a neveket és a jelszavakat a megerősítő képernyőn.
+7. Egy Excel-kompatibilis .csv-számolótáblafájl importálása lehetővé teszi, hogy egyszerre több felhasználót [is hozzáadjon.](adding-multiple-users-to-a-customer-account.md) Megvárhatja, amíg a teljes készlettel végzett, mielőtt e-mailt küld, vagy kinyomtatja a neveket és jelszavakat a megerősítési képernyőn.
 
 <a href="" id="userlicensing"></a>
 
-## <a name="add-or-remove-user-licenses-for-a-customer"></a>Felhasználói licencek hozzáadása vagy eltávolítása az ügyfélhez
+## <a name="add-or-remove-user-licenses-for-a-customer"></a>Felhasználói licenc hozzáadása vagy eltávolítása egy ügyfélnél
 
-A következő lépések a Microsoft-termékekhez tartozó felhasználói licencek hozzáadására vagy eltávolítására vonatkoznak. A licenc alapú SaaS-előfizetésekhez tartozó felhasználói licencek hozzáadásához vagy eltávolításához a kereskedelmi piactéren tekintse meg a [SaaS-előfizetés licencek hozzáadása vagy eltávolítása](csp-commercial-marketplace-manage.md#add-or-remove-licenses-for-a-saas-subscription)című témakört.
+Az alábbi lépések a Microsoft-termékek felhasználói licenceinek hozzáadására vagy eltávolítására vonatkoznak. A licencalapú SaaS-előfizetések felhasználói licenceinek kereskedelmi piactéren való hozzáadásához vagy eltávolításához lásd: Licencek hozzáadása vagy [eltávolítása SaaS-előfizetéshez.](csp-commercial-marketplace-manage.md#add-or-remove-licenses-for-a-saas-subscription)
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard).
+1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget.
+3. Az ügyfélmenüben válassza a **Felhasználók és licencek lehetőséget.**
 
-4. Válasszon ki egy vagy több felhasználót a listából. Ha például az ügyfél csak új licenceket vásárolt, és azokat a felhasználók számára szeretné hozzárendelni, akik még nem rendelkeznek velük, akkor a megfelelő csoport megkereséséhez használhatja a **felhasználók szűrése...** lehetőséget.
+4. Válasszon ki a listából egy vagy több felhasználót. Ha például az ügyfél most vásárolt új licenceket, és olyan személyekhez kívánt hozzárendelni őket, akik még nem rendelkezik velük, a Felhasználók **szűrése...** lehetőséggel megkeresheti a megfelelő csoportot.
 
-5. Válassza a **licencek kezelése** lehetőséget. Végezze el a módosításokat, majd **mentse**.
+5. Válassza ki a **Licencek kezelése** lehetőséget. Módosításokat kell tenni, majd a **Mentés gombra.**
 
 > [!NOTE]
-> Az [Azure Marketplace-termékek](csp-commercial-marketplace-manage.md#assign-licenses-and-activate-a-subscription-on-behalf-of-a-customer)esetében a licenc-hozzárendelést és az aktiválást a terméket közzétevő független SZOFTVERGYÁRTÓ (ISV) kezeli.
+> A [Azure Marketplace termékek](csp-commercial-marketplace-manage.md#assign-licenses-and-activate-a-subscription-on-behalf-of-a-customer)esetében a licenc-hozzárendelést és az aktiválást a terméket közzétevő független szoftverszállító (ISV) kezeli.
 
 <a href="" id="resetpassword"></a>
 
-## <a name="reset-a-users-password-for-a-customer"></a>Felhasználó jelszavának alaphelyzetbe állítása az ügyfél számára
+## <a name="reset-a-users-password-for-a-customer"></a>Felhasználó jelszavának visszaállítása egy ügyfélhez
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjába](https://partner.microsoft.com/dashboard).
 
-2. A partner Center menüben válassza az **ügyfelek** lehetőséget, majd válasszon egy ügyfelet a listából.
+2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget. Válassza ki a felhasználót a listából.
+3. Az ügyfélmenüben válassza a **Felhasználók és licencek lehetőséget.** Válassza ki a felhasználót a listából.
 
-4. A képernyő alján válassza a **jelszó alaphelyzetbe állítása** lehetőséget. 
+4. A képernyő alján válassza a Jelszó **alaphelyzetbe állítása lehetőséget.** 
 
 5. Küldje el az új ideiglenes jelszót a felhasználónak.
 
 <a href="" id="deleteuseraccounts"></a>
 
-## <a name="delete-user-accounts-for-a-customer"></a>Ügyfelek felhasználói fiókjainak törlése
+## <a name="delete-user-accounts-for-a-customer"></a>Ügyfél felhasználói fiókjainak törlése
 
-1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget. Válassza ki az ügyfelet a listából.
+1. A **Partnerközpont** válassza az Ügyfelek **lehetőséget.** Válassza ki az ügyfelet a listából.
 
-2. Az ügyfél menüben válassza a **felhasználók és licencek** lehetőséget. Válassza ki a felhasználót a listából.
+2. Az ügyfélmenüben válassza a **Felhasználók és licencek lehetőséget.** Válassza ki a felhasználót a listából.
 
-3. A képernyő alján válassza a **felhasználói fiók törlése** lehetőséget.
+3. A képernyő alján válassza a **Felhasználói fiók törlése lehetőséget.**
 
-Ha vissza kell állítania ezt a fiókot, az ügyfél **felhasználói és licencek** listája **törölt felhasználók** lapján található. A törölt felhasználó visszaállításának 30 napja van.
+Ha vissza kell állítania ezt a fiókot, az Ügyfél felhasználók és licencek listájának Törölt felhasználók lapján **találhatja** meg.  30 napja van a törölt felhasználók visszaállítására.
 
 <a href="" id="restoreuseraccounts"></a>
 
 ## <a name="restore-deleted-user-accounts"></a>Törölt felhasználói fiókok visszaállítása
 
-1. A **partner Center** menüben válassza az **ügyfelek** lehetőséget, majd válassza ki az ügyfelet a listából.
+1. A **Partnerközpont** válassza az **Ügyfelek** lehetőséget, majd válassza ki az ügyfelet a listából.
 
-2. Válassza **a felhasználók és licencek** lehetőséget.
+2. Válassza **a Felhasználók és licencek lehetőséget.**
 
-3. Válassza a **törölt felhasználók ()** lapot. Ha törölt felhasználók is visszaállíthatók, olvassa el **(1)** vagy annál nagyobb.
+3. Válassza a **Törölt felhasználók ( )** lapot. Ha vannak visszaállítható törölt felhasználók, akkor a következőt kell olvasnia: **(1)** vagy nagyobb.
 
-4. Válasszon ki egy vagy több törölt felhasználó jelölőnégyzetet, majd válassza a **visszaállítás** lehetőséget.
+4. Jelölje be a törölt felhasználók egy vagy több jelölőnégyzetét, majd válassza a Visszaállítás **lehetőséget.**
 
-    Az összes kiválasztott felhasználói fiók újra megjelenik a **felhasználók és licencek** lapon.
+    Az összes kiválasztott felhasználói fiók megjelenik a Felhasználók és **licencek lapon.**
 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Licencek hozzárendelése vagy visszavonása több felhasználó esetében](bulk-license-provisioning-for-multiple-users.md)
 
-- [Több felhasználó létrehozása egy ügyfél-fiókhoz](adding-multiple-users-to-a-customer-account.md)
+- [Több felhasználó létrehozása egy ügyfélfiókhoz](adding-multiple-users-to-a-customer-account.md)

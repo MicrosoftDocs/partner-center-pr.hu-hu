@@ -4,59 +4,56 @@ ms.topic: how-to
 ms.date: 12/03/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: A partner Centerben való működéshez először ellenőriznie kell a tartomány tulajdonjogát. Ebből a témakörből megtudhatja, hogyan teheti ezt meg, és hogyan válhat olyan globális rendszergazda, aki hozzáadhat felhasználókat.
+description: Ha a Partnerközpont dolgoznia, először ellenőriznie kell a tartomány tulajdonjogát. Megtudhatja, hogyan tegye ezt meg, és hogyan válhat globális rendszergazdává, aki felhasználókat adhat hozzá.
 author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bb6b167cafec3574906377281cf4699b0a15c32e
-ms.sourcegitcommit: 6b03ff400d1350db9696f9b457fcfe710310c5d3
+ms.openlocfilehash: 94425b0695ed0e3ec89e5953f648f5de7a199432
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96570722"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110149298"
 ---
 # <a name="verify-your-domain-ownership-to-become-global-admin"></a>A tartomány tulajdonjogának igazolása a globális rendszergazdává váláshoz 
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Fiók adminisztrátora
 
-- Globális rendszergazda
-- Fiókadminisztrátor
+A vállalati Partnerközpont először ellenőriznie kell a tartomány tulajdonjogát, és globális rendszergazdává kell válnia a vállalatnál. Emellett az alkalmazottak nem lesznek hozzárendelve a munka megkezdéséhez szükséges szerepkörökhöz.  A munkahelyi Partnerközpont mindenkinek rendelkeznie kell egy szerepkörvel, amely tartalmazza a hozzájuk rendelt engedélyeket.  
 
-A partner Centerben való működéshez először ellenőriznie kell a tartomány tulajdonjogát, és a vállalat globális rendszergazdájának kell lennie. Emellett az alkalmazottak nem kapják meg a szükséges szerepköröket a munka megkezdéséhez.  Ahhoz, hogy működjön a partner Centerben, mindenkinek szüksége van egy szerepkörre, amely magában foglalja a hozzájuk rendelt engedélyeket.  
+## <a name="verify-your-domain-ownership-to-become-a-global-admin-in-partner-center"></a>Ellenőrizze a tartomány tulajdonjogát, hogy globális rendszergazdává váljon a Partnerközpont
 
-## <a name="verify-your-domain-ownership-to-become-a-global-admin-in-partner-center"></a>Annak ellenőrzése, hogy a tartomány tulajdonjoga globális rendszergazda lesz-e a partner Centerben
+Ahhoz, hogy a vállalat globális rendszergazdává váljon, ellenőriznie kell a tartomány tulajdonjogát.
 
-Ahhoz, hogy globális rendszergazda legyen a vállalata számára, ellenőriznie kell a tartomány tulajdonjogát.
+1. A Partnerközpont a Tagsági **ajánlatok lapon** válassza **a Globális rendszergazdai szerepkör létrehozása lehetőséget.** 
 
-1. A partner központ irányítópultján, a **tagsági ajánlatok** lapon válassza a **globális rendszergazda lesz** lehetőséget. 
+2. A Tartomány **tulajdonjogának ellenőrzése lapon** másolja ki a TXT-értékeket a táblából. Figyelje meg, hogy a tartomány már ki van választva.
 
-2. A **tartomány tulajdonjogának ellenőrzése** lapon másolja a txt-értékeket a táblából. Figyelje meg, hogy a tartomány már ki van választva.
+3. Jelentkezzen be a tartományába. 
 
-3. Jelentkezzen be a tartományba. 
+4. A tartomány által megadott lépéseket követve illessze be a TXT-értékeket a DNS-űrlapra.  Ez lehetővé teszi annak ellenőrzését, hogy Ön-e annak a tartománynak a tulajdona, amelyből dolgozni próbál.
 
-4. A tartomány által biztosított lépések végrehajtásával illessze be a TXT-értékeket a DNS-űrlapba.  Ez lehetővé teszi, hogy ellenőrizze, hogy a kívánt tartomány tulajdonosa-e.
+5. Térjen vissza Partnerközpont, és válassza az **Ok lehetőséget. Hozzáadtam a rekordot**
 
-5. Térjen vissza a partneri központba, és válassza **a rendben, Hozzáadtam a rekordot**
+6. Az ellenőrzés befejezése után ki kell jelentkeznie. Az állapot frissítéshez jelentkezzen be újra. 
 
-6. Az ellenőrzés befejezése után ki kell jelentkeznie. Az állapot frissítéséhez jelentkezzen be újra. 
+A tartomány tulajdonjogának ellenőrzéséhez globális rendszergazdának is kell lennie. Néhány a globális rendszergazdai szerepkörhöz szükséges engedélyekből:
 
-A tartomány tulajdonjogának ellenőrzése globális rendszergazdai jogosultságokat is tesz lehetővé. A globális rendszergazdai szerepkörrel rendelkező egyes engedélyek a következők:
-
-- Teljes körű jogosultságokkal fér hozzá minden Microsoft-fiók/szolgáltatáshoz 
-- Támogatási jegyek létrehozása a partner központhoz
+- Teljes körű jogosultságokkal Microsoft-fiók hozzáférés az összes szolgáltatáshoz/szolgáltatáshoz 
+- Támogatási jegyek létrehozása a Partnerközpont
 - Szerződések, árlisták és ajánlatok megtekintése
 - Számlázás
-- Partner-felhasználók megtekintése, létrehozása és kezelése
-- Cloud Services vásárlása és kezelése
+- Partnerfelhasználók megtekintése, létrehozása és kezelése
+- Felhőszolgáltatások vásárlása és kezelése
 
-## <a name="find-the-companys-global-admin"></a>A vállalat globális rendszergazdájának megkeresése
+## <a name="find-the-companys-global-admin"></a>Keresse meg a vállalat globális rendszergazdát
 
-1. A partner központ jobb felső sarkában található **Beállítások ikonra** kattintva válassza a **felhasználói kezelés** lehetőséget.
+1. A jobb **felső sarokban** található Beállítások Partnerközpont válassza a **Felhasználókezelés lehetőséget.**
 
-1. Szűrés a globális rendszergazda mezőben a keresőmezőbe. Ekkor megjelenik a vállalat globális rendszergazdáinak listája. Ha a vállalat még nem rendelkezik globális rendszergazdai jogosultsággal, kövesse az alábbi utasításokat.
+1. A keresőmezőben szűrje a globális rendszergazdai szűrést. Megjelenik a vállalat globális rendszergazdáinak listája. Ha a vállalata még nem globális rendszergazdával dolgozik, kövesse az alábbi utasításokat.
 
-## <a name="next-steps"></a>További lépések
+## <a name="next-steps"></a>Következő lépések
 
-- A szerepkörökről és engedélyekről további információt a [felhasználói fiókok létrehozása](create-user-accounts-and-set-permissions.md)című témakörben talál. 
+- További információ a szerepkörökről és engedélyekről: [Felhasználói fiókok létrehozása.](create-user-accounts-and-set-permissions.md) 
