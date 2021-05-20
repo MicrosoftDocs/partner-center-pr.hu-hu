@@ -10,16 +10,16 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 3889d0af73cfc683f1d45737a136a8e0c5a42656
-ms.sourcegitcommit: 837d3c5b52ab056b2b761cd85eb2426f56b62614
+ms.openlocfilehash: bca5c5ff58ae222d06ac0de5f4aebde13cd87b0c
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109794972"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153021"
 ---
 # <a name="user-and-license-management-in-partner-center-for-microsoft-cloud-germany"></a>Felhasználók és licencek kezelése a Microsoft Cloud Germany Partnerközpont-ban
 
-**A következőkre vonatkozik:** Partnerközpont | Partnerközpont Microsoft Cloud Németországhoz
+**A következőkre vonatkozik:** Partnerközpont Microsoft Cloud Germany esetén
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Fiók rendszergazdája
 
@@ -28,7 +28,7 @@ ms.locfileid: "109794972"
 >  
 > A régióban az új ügyfelek a jelenleg elérhető európai régiókat vagy a németországi új régiókat is használhatja, amikor elérhetővé válnak. További információkért lásd: A Microsoft felhőszolgáltatásokat nyújt [németországi új adatközpontjaiból.](https://news.microsoft.com/europe/2018/08/31/microsoft-to-deliver-cloud-services-from-new-datacentres-in-germany-in-2019-to-meet-evolving-customer-needs/)
 
-Az egyéni adatok gyűjtését és használatát, valamint a kulcsfontosságú nemzetközi szabványokat szabályozó német törvények és szabályozások betartása érdekében a Microsoft Cloud Németországra vonatkozó Partnerközpont következő felhasználó- és licenckezelési képességek nem érhetők el. Ehelyett vegye fel és kezelje a felhasználókat és licenceket Azure Portal Microsoft Cloud Germany vagy az Office 365 felügyeleti központjában.
+Az egyéni adatok gyűjtését és használatát, valamint a kulcsfontosságú nemzetközi szabványokat szabályozó német törvények és szabályozások betartása érdekében a Microsoft Cloud Németországra vonatkozó Partnerközpont következő felhasználó- és licenckezelési képességek nem érhetők el. Ehelyett vegye fel és kezelje a felhasználókat és a licenceket Azure Portal Microsoft Cloud Germany vagy az Office 365 felügyeleti központjában.
 
 Funkció vagy képesség | Feladatok végrehajtása a következőben:
 :--- | :---

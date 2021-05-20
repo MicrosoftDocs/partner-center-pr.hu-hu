@@ -4,26 +4,21 @@ ms.topic: article
 ms.date: 06/16/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Felfedezheti a vállalkozása javítására irányuló módszereket. A konkrét ügyféltrendeket földrajzi hely, termék és egyéb attribútumok szerint is láthatja.
+description: Felfedezheti a vállalkozása javítására irányuló módszereket. Az ügyféltrendeket földrajzi hely, termék és egyéb attribútumok szerint is láthatja.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 28343b5754546b653bd5a3e6b4a53a002b408668
-ms.sourcegitcommit: 078eac1456f68585ff1003b21e5e1fe777af314b
+ms.openlocfilehash: 8a9207e793865bcf7fa2f205fc69b0b5def65b4d
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120834"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152902"
 ---
 # <a name="customers-dashboard-reports-from-partner-center-insights"></a>Az Ügyfelek irányítópult-jelentései a Partnerközpont Insightsból
 
-**Megfelelő szerepkörök**
-
-- Globális rendszergazda
-- Rendszergazdai ügynök
-- Jelentésmegjelenítő
-- Vezetői jelentésmegjelenítő
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
 Az Ügyfelek irányítópult azon ügyfelek adatait mutatja be, akik olyan felhőalapú termékeket szereztek be Öntől, mint az Office, az Azure, a Dynamics stb., vagy ön használta ezeket a termékeket üzembe helyezni és felügyelni a bérlőikben. 
  
@@ -39,15 +34,15 @@ Az Ügyfelek irányítópult a következő szakaszokból áll:
 
 ## <a name="summary"></a>Összefoglalás
 
-Az összefoglaló szakasz az ügyfelekkel kapcsolatos különféle KPI-k pillanatkép-nézetét mutatja be, például ügyfeleket, aktív ügyfeleket, előfizetéseket, hozzáadott ügyfeleket, lemorzsolódást mutató ügyfeleket és az egyes termékekhez tartozó ügyfeleket. Az oldalszintű szűrők minden szakaszra vonatkoznak.
+Az összefoglaló szakasz az ügyfelekkel kapcsolatos különféle KPI-k pillanatkép-nézetét mutatja be, például ügyfeleket, aktív ügyfeleket, előfizetéseket, hozzáadott ügyfeleket, lemorzsolódást mutató ügyfeleket és az egyes termékekhez tartozó ügyfeleket. Az oldalszintű szűrők minden szakaszra alkalmazhatók.
 
-:::image type="content" source="images/pci/customerproduct.png" alt-text="Képernyőkép az Ügyfelek összegzése irányítópultról, amely az aktív, nemrégiben hozzáadott, elveszett/lemorzsolódású vagy adott termék szerint hozzáadott ügyfelek sávdiagramját és számát mutatja.":::
+:::image type="content" source="images/pci/customerproduct.png" alt-text="Képernyőkép az Ügyfelek összegzése irányítópultról, amely az aktív, a közelmúltban hozzáadott, elveszett/lemorzsolódású vagy adott termék szerint hozzáadott ügyfelek sávdiagramját és számát mutatja.":::
 
 ### <a name="customers"></a>Ügyfelek
 
 - A szervezet jelenlegi ügyfeleinek száma különböző forrásmegjelölési típusokon keresztül van társítva az összes felhőalapú termékben, például az Office-ban, az Azure-ban, a Dynamicsben stb. Az ügyfelek akkor számítanak bele, ha legalább egy aktív állapotú előfizetéssel rendelkezik.  
 - Az ügyfelek százalékos arányának elutasítása a kiválasztott dátumtartományban 
-- A mikrodiagram a hónap és hónap trendjét mutatja, amely szerint az ügyfelek száma a kiválasztott dátumtartományban van
+- A mikrodiagram a hónap és hónap trendjét mutatja, amely a kiválasztott dátumtartományban számolt ügyfeleket ábrázolja
 
 ### <a name="active-customers"></a>Aktív ügyfelek
 
@@ -72,7 +67,7 @@ Az összefoglaló szakasz az ügyfelekkel kapcsolatos különféle KPI-k pillana
 
 ## <a name="geographical-spread-of-your-customers"></a>Az ügyfelek földrajzi eloszlése
 
-Az aktuális ügyfelek, a jelenlegi aktív ügyfelek és a kiválasztott dátumtartományon belül újonnan hozzáadott ügyfelek száma az ügyfél országa alapján van leképezve. A metrika alatt megjelenő százalékos arányok az adott ország százalékos hozzájárulását jelzik az adott metrika összegének összegében. Ha az egérmutatót a térképre egeret használhatja, megtekintheti az adott ország összes aktív, új felhasználóját. Megkeresheti és kiválaszthatja a rács egyik országát a térkép helyének nagyításához. A térképen a Kezdőlap  gombra kattintva visszaállítható az eredeti nézet. A rács összes oszlopa rendezhető.  
+Az aktuális ügyfelek, a jelenlegi aktív ügyfelek és a kiválasztott dátumtartományon belül újonnan hozzáadott ügyfelek száma az ügyfél országa alapján van leképezve. A metrika alatt megjelenített százalékos arányok az adott ország százalékos hozzájárulását jelzik az adott metrika összegének összegében. Az egérmutatót a térképen az adott ország összes aktív és új ügyfele megtekintéséhez használhatja. Megkeresheti és kiválaszthatja a rács egyik országát, hogy ráközelítsen a térkép helyére. A térképen a Kezdőlap  gombra kattintva visszaállítható az eredeti nézet. A rács összes oszlopa rendezhető.  
 
 :::image type="content" source="images/pci/customersgeo.png" alt-text="Képernyőkép az Partnerközpont Insights-ügyfél földrajzi hely szerint jelentésről, amely az összesített, hozzáadott és új ügyfelek listáját jeleníti meg régiónként.":::
 
@@ -88,15 +83,15 @@ Az aktuális ügyfelek lebontása MPN-helyek, ügyfélszegmensek, értékesíté
 
 ## <a name="customers-by-products"></a>Ügyfelek termékek szerint
 
-Az aktuális ügyfelek darabszámának részletezése termékek és termékkódok/csomagok szerint. Válasszon ki egy terméket a termék-lebontás tortadiagramon a mellette található, termékekkel/csomagokkal kapcsolatos lebontás megtekintéséhez.
+Az aktuális ügyfelek darabszámának részletezése termékek és termékkódok/csomagok szerint. Válasszon ki egy terméket a termék-lebontás tortadiagramon a mellette található diagramon a termékkód/csomagok szerint lebontott adatok megtekintéséhez.
 
-:::image type="content" source="images/pci/customerbyprod.png" alt-text="Képernyőkép az Ügyfelek termék szerint jelentésről, amely két kördiagramot mutat – az egyik az ügyfelek termék szerinti lebontását, a másik pedig az ügyfelek termékváltozat szerinti lebontását.":::
+:::image type="content" source="images/pci/customerbyprod.png" alt-text="Képernyőkép a Customers by product (Ügyfelek termék szerint) jelentésről, amely két radiális diagramot mutat – az egyik az ügyfelek termék szerinti lebontását, a másik pedig az ügyfél termékváltozat szerinti lebontását mutatja.":::
 
 ## <a name="customer-distribution-trend"></a>Ügyfélelosztási trend 
 
-Az ügyfeleknek a kiválasztott dátumtartományon belül történt eloszlás havi trendje piacok, szegmensek, az ÖN MPN-helyei és megvásárolt termékei szerint. A trend ezen kategóriák szerint való megtekintéséhez válassza ki a megfelelő lapokat a diagramon. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig a kiválasztott kategóriához tartozó ügyfelek számát (lapválasztás). Ha a kurzort a diagram oszlopai fölé húzza, megtekintheti az egyes vermek értékeinek lebontott értékeit. A diagram tetején található csúszkával nagyíthat egy adott időszakot.   
+Az ügyfelek a kiválasztott dátumtartományon belül való eloszlásának havi trendje piacok, szegmensek, az MPN-helyek és -termékek szerint. A trend ezen kategóriák szerint való megtekintéséhez válassza ki a megfelelő lapokat a diagramon. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig a kiválasztott kategóriához tartozó ügyfelek számát (lapválasztás). Ha a kurzort a diagram oszlopai fölé húzza, megtekintheti az egyes vermek értékeinek lebontott értékeit. A diagram tetején található csúszkával nagyíthat egy adott időszakot.   
 
-:::image type="content" source="images/pci/customerdistri.png" alt-text="Képernyőkép az Ügyfélelosztási trendjelentésről, amely piac, szegmens, partnerhely vagy termék szerint megtekinthető sávdiagramokat mutat.":::
+:::image type="content" source="images/pci/customerdistri.png" alt-text="Képernyőkép az Ügyfelek eloszlása trendjelentésről, amely piac, szegmens, partnerhely vagy termék szerint megtekinthető sávdiagramokat tartalmaz.":::
 
 ## <a name="active-customers"></a>Aktív ügyfelek
 

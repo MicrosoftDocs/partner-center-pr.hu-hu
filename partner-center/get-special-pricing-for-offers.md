@@ -1,6 +1,6 @@
 ---
 title: Értékesítés különleges ágazatoknak
-description: Ismerje meg a Microsoft speciális, kedvezményes díjszabását bizonyos ügyfélcsoportok esetében, beleértve az oktatási ügyfeleket, a nonprofit ügyfeleket és a kormányzati felhasználókat.
+description: Ismerje meg a Microsoft bizonyos ügyfélcsoportokra vonatkozó speciális, kedvezményes díjszabását, beleértve az oktatási ügyfeleket, a nonprofit ügyfeleket és a kormányzati felhasználókat.
 ms.topic: how-to
 ms.date: 05/04/2021
 ms.service: partner-dashboard
@@ -9,38 +9,34 @@ author: alikhaki
 ms.author: alikhaki
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bff69796cb753f93225bb44324629180d981a721
-ms.sourcegitcommit: 22e257d5b334ca8d3fc072f59010a508e1022694
+ms.openlocfilehash: 38985e48923bb0a3c6ad54eb600a44d419b5ad85
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108702688"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150794"
 ---
 # <a name="sell-to-specialized-industries-like-education-non-profit-and-government-users"></a>Értékesítés olyan különleges ágazatok számára, mint az oktatás, a nonprofit és a kormányzati felhasználók
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-- Globális rendszergazda
-- Rendszergazdai ügynök
-- Értékesítési ügynök
-
-A Microsoft speciális, kedvezményes díjszabást biztosít egyes ügyfélcsoportok számára, beleértve az oktatási ügyfeleket, a nonprofit ügyfeleket, a kisvállalkozásokat és a kormányzati entitásokat. Önnek és az ügyfélnek is minősítettnek kell lennie, mielőtt speciális díjszabást kínálhat nekik. Ezek a különleges áras ajánlatok jelenleg csak licencalapú szolgáltatásokhoz érhetők el, például Microsoft 365, Dynamics, Intune stb.  Más típusokhoz (szoftver-előfizetések, állandó szoftverek vagy Azure-termékek) nem érhető el.
+A Microsoft speciális, kedvezményes díjszabást biztosít egyes ügyfélcsoportok számára, beleértve az oktatási ügyfeleket, a nonprofit ügyfeleket, a kisvállalkozásokat és a kormányzati entitásokat. Önnek és az ügyfélnek is minősítettnek kell lennie, mielőtt különleges díjszabást kínálhat nekik. Ezek a különleges árú  ajánlatok jelenleg csak licencalapú szolgáltatásokhoz érhetők el, például Microsoft 365, Dynamics, Intune stb. Más típusokhoz (szoftver-előfizetések, állandó szoftverek vagy Azure-termékek) nem érhető el.
 
 ## <a name="requirements-to-sell-to-specialized-industries"></a>Speciális iparágaknak való értékesítés követelményei
 
 |**Speciális díjszabás**   |**A viszonteladó által megkövetelt minősítések**   |**Ügyfél által megkövetelt minősítések**   |
 |----------------------------|:---------------------------------|:------------------------------------------|
-|Education   |Nincsenek   | Minősített oktatási [felhasználónak kell lennie.](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7)   |
-|Államigazgatás   |Az Azure értékesítéshez a [Microsoft US Government Cloud Validation űrlap használatával regisztrál.](https://azuregov.microsoft.com/csp) A licencalapú előfizetések kormányzati szolgáltatásnak való értékesítéséhez nincs szükség minősítésre.|   Nincsenek|
-|Nonprofit  |Nincsenek<br/> A bérlőhöz nonprofit Azure Active Directory kell lennie.<br/> További információk a [nonprofit különleges ajánlatokról](https://assetsprod.microsoft.com/mpn/nonprofit-skus-in-csp-faq.pdf).   |Regisztráljon a [Microsoft nonprofit programjában, hogy](https://nonprofit.microsoft.com/#/register) jogosult legyen rá.   |
+|Education   |None   | Minősített oktatási [felhasználónak kell lennie.](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7)   |
+|Államigazgatás   |Az Azure értékesítésével kapcsolatos regisztrációhoz használja a [Microsoft US Government Cloud Validation űrlapot.](https://azuregov.microsoft.com/csp) A licencalapú előfizetések kormányzati számára való értékesítéséhez nincs szükség minősítésre.|   None|
+|Nonprofit  |None<br/> Nem nyereséges bérlővel Azure Active Directory kell lennie.<br/> További információk a [nonprofit különleges ajánlatokról](https://assetsprod.microsoft.com/mpn/nonprofit-skus-in-csp-faq.pdf).   |Regisztráljon a [Microsoft nonprofit programjában, hogy](https://nonprofit.microsoft.com/#/register) jogosult legyen rá.   |
 
-## <a name="check-your-reseller-qualifications"></a>Ellenőrizze a viszonteladói minősítéseket
+## <a name="check-your-reseller-qualifications"></a>Viszonteladói minősítések ellenőrzése
 
-Az alábbi lépések csak közvetett szolgáltatókra és közvetlen számlázási partnerekre vonatkoznak. A közvetett viszonteladóknak egy közvetett szolgáltatóhoz kell csatlakoznia, hogy tudományos ajánlatokat kínálnak minősített oktatási felhasználóknak.
+A következő lépések csak közvetett szolgáltatókra és közvetlen számlázási partnerekre vonatkoznak. A közvetett viszonteladóknak egy közvetett szolgáltatóhoz kell csatlakoznia, hogy tudományos árat kínálnak a minősített oktatási felhasználóknak.
 
-1. A Partnerközpont [irányítópultján](https://partner.microsoft.com/dashboard)válassza az ablak jobb felső sarkában található fogaskerék ikont a **Fiókbeállítások megnyitásához.**
+1. A fiók Partnerközpont [az](https://partner.microsoft.com/dashboard)ablak jobb felső sarkában lévő fogaskerék ikont a **Fiókbeállítások megnyitásához.**
 
-2. A Jogi **profil programinformáció** **szakaszában** keresse meg a **Viszonteladói minősítések szakaszt.**
+2. A Jogi **profilban,** a **Program adatai** szakaszban keresse meg a **Viszonteladói minősítések szakaszt.**
 
 3. Ha nem látja a **Viszonteladói** minősítéseket, akkor még nem jogosult különleges ajánlatok vásárlására.
 
@@ -60,7 +56,7 @@ Miután Ön és az ügyfele jogosult egy különleges ajánlati programra, köve
 
 A partnerek csak bizonyos feltételek teljesülése esetén értékesíthetnek különleges ajánlatokat az ügyfelek számára. 
 
-- Oktatási ajánlatok csak akkor vásárolhatók meg, ha az ügyfél oktatási intézményként van engedélyezve. Az Education-ügyfelek csak oktatási és kereskedelmi ajánlatokat kaphatnak, nonprofit vagy kormányzati közösségi felhő (GCC) nem.
+- Oktatási ajánlatok csak akkor vásárolhatók meg, ha az ügyfél oktatási intézményként van engedélyezve. Az Education-ügyfelek csak oktatási és kereskedelmi ajánlatokat kaphatnak, nonprofit vagy kormányzati közösségi felhő (GCC) nélkül.
 - A partnerek csak GCC-előfizetéseket vásárolhatnak a GCC-ügyfelek számára. Ha az ügyfél rendelkezik GCC-előfizetéssel, a partnerek nem vásárolhatnak kereskedelmi, oktatási és nonprofit előfizetéseket.
 - A partnerek csak nonprofit ügyfelek számára vásárolhatnak kereskedelmi vagy nonprofit előfizetéseket. A partnerek nem vásárolhatnak GCC-t vagy oktatási előfizetéseket a nonprofit ügyfelek számára.
 - Az állam tulajdonában lévő entitások a jogosultsági [feltételeknek kell megfelelniük.](https://www.microsoft.com/legal/compliance/anticorruption/criteria)

@@ -1,7 +1,7 @@
 ---
 title: Azure-csomag számlázása – számla & recon fájlok
 ms.topic: article
-ms.date: 01/20/2021
+ms.date: 05/19/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogyan férhet hozzá az Azure-csomag számlázásához kapcsolódó számla- és egyeztetési fájlstruktúrához, és hogyan értheti meg azt.
@@ -9,12 +9,12 @@ author: khpavan
 ms.author: sakhanda
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 757383ee264e58e7b4dc8ffefafe213cb49acb79
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 5ab086a4d15d16f094e33d19b81f1c93711916dc
+ms.sourcegitcommit: e0444145d7720df948b9d02ae2469206db48dba5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "110149791"
+ms.locfileid: "110201425"
 ---
 # <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi felület a CSP-ben – Azure-számlázás 
 
@@ -32,7 +32,7 @@ Ez a cikk bemutatja, hogyan férhet hozzá az Azure-csomag számlázásához kap
 
 - **Számlás fizetési időszak:** Net 60 nap.
 
-- **Számla** pénzneme: 2021. január 28-tól az EU/EFTA és az Egyesült Királyság régió azon partnerei, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat 2020. május 11. előtt először, a partnerhelyi pénznemben számlázjuk ki a vásárlásokért. Az EU-n/EFTA-n és az Egyesült Királyságon kívüli partnerek számlázása továbbra is partneri pénznemben történik.
+- **Számla** pénzneme: 2021. január 28-tól az EU/EFTA és az Egyesült Királyság régió azon partnerei, akik új ügyfelekkel és meglévő CSP-ügyfelekkel vásárolnak új kereskedelmi ajánlatokat 2020. május 11. előtt először, a partnerhelyi pénznemben számlázjuk ki a vásárlásokat. Az EU-n/EFTA-n és az Egyesült Királyságon kívüli partnerek számlázása továbbra is partneri pénznemben történik.
 
 - **Partneri ösztönzők:** A számlázási hónap végével fizetett 45 nap.
 
@@ -114,6 +114,9 @@ A számla és az egyeztetési fájl elérése:
 
 4. Ha a fogyasztásmérő vagy az adott fogyasztásmérőt kibocsátó bármely erőforrás, amely a hónap egy részére felügyelt szolgáltatásokért kapott partneri jóváírásra van minősítve, a felderítési fájl két számlázási sort fog tartalmazni.  Az egyik vonal azokat a napokat jelenti, amelyekben a fogyasztásmérő minősített, a második pedig azokat a napokat jelenti, amelyek nem megfelelőek.
 
+>[!NOTE]
+>Az Azure-használatot az egyszeres vásárlási recon fájlban egyeztetheti. Ehhez keresse meg a napi rendszerességgel minősített használat felderítési fájlját, és keresse meg a SubscriptionID-t. Ez megjeleníti az Azure-csomag azonosítójával kapcsolatos összes költséget. Az Azure SubscriptionID jogosultságazonosítóként jelenik meg.
+
 ## <a name="read-the-daily-usage-file"></a>A napi használati adatok fájl olvasása
 
 - Az Azure-csomag előfizetési mérőszámai napi szinten vannak minősítve és összesülve.
@@ -128,13 +131,13 @@ A számla és az egyeztetési fájl elérése:
 
   - A mérő nem  kapott partneri jóváírást a 7/4–7/7 között kezelt szolgáltatásokhoz (vegye figyelembe, hogy a tényleges egységár a kiskereskedelmi ár).
 
-  - A 7/8-tól 7/31-ig felügyelt szolgáltatások partneri jóváírásának mérőja (vegye figyelembe, hogy a tényleges egységár a kiskereskedelmi ár és a partneri jóváírások összege). 
+  - Partneri **jóváírásra** minősített mérő a 7/8– 7/31 között kezelt szolgáltatásokhoz (vegye figyelembe, hogy a tényleges egységár a kiskereskedelmi ár és a partneri jóváírások összege).
 
    :::image type="content" source="images/azure/pecfinal.png" alt-text="recon2":::
 
 ## <a name="invoice-in-customer-currency"></a>Számla az ügyfél pénznemében
 
-Az Azure-csomagon keresztüli Azure-szolgáltatások díjszabása AMERIKAI DOLLÁRban történik, és a számlázás az ügyfél országának hozzárendelt pénznemében történik. Ha a számlázási pénznem nem USD, akkor a felhasznált átváltási díj a számla utolsó oldalán jelenik meg. Az FX díjszabását havonta határozzák meg, és az alábbi számlára alkalmazzák. Az ország pénznemek teljes listájáért tekintse meg az új kereskedelmi ajánlatok országonkénti elérhetőségét és az ügyfél [pénznemmátrixát.](https://go.microsoft.com/fwlink/?linkid=2112354)
+Az Azure-csomagon keresztüli Azure-szolgáltatások díjszabása USD-ben történik, és a számlázás az ügyfél országának hozzárendelt pénznemében történik. Ha a számlázási pénznem nem USD, akkor a felhasznált átváltási díj a számla utolsó oldalán jelenik meg. Az FX díjszabását havonta határozzák meg, és az alábbi számlára alkalmazzák. Az ország pénznemek teljes listájáért tekintse meg az új kereskedelmi ajánlatok országonkénti elérhetőségét és az ügyfél [pénznemmátrixát.](https://go.microsoft.com/fwlink/?linkid=2112354)
 
 A Microsoft a londoni tőzsdei árfolyamot követi átváltásként. Az árfolyamot használjuk, amely megegyezik a londoni tőzsdei árfolyamon a hónap utolsó üzleti napjára vonatkozó árfolyammal. Az FX díjszabása a hónap első napja előtti napon lesz frissítve és elérhető.
 
@@ -158,8 +161,8 @@ Mivel az Azure-szolgáltatások Azure-csomagon keresztüli számlázási modellj
 
 ## <a name="next-steps"></a>Következő lépések
 
-- A partneri jóváírás (PEC) kiszámításának módja. Jelentkezzen be az Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard/) és keresse meg az elérhető árlistát.
+- A partneri jóváírás (PEC) kiszámításának módja. Jelentkezzen be a Partnerközpont [irányítópultra,](https://partner.microsoft.com/dashboard/) és keresse meg az elérhető árlistát.
 
 - Tudnivalók az [Azure-csomag megvásárlásáról](purchase-azure-plan.md)
 
-- Tekintse meg [a CSP új kereskedelmi élményének árlistát](azure-plan-price-list.md)
+- Tekintse meg a CSP új kereskedelmi [élményének árlistát](azure-plan-price-list.md)

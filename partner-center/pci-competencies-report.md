@@ -1,96 +1,91 @@
 ---
-title: A partner Center-adatfelismerési kompetenciák jelentése
+title: Partnerközpont Insights-kompetenciák jelentése
 ms.topic: article
 ms.date: 05/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, mit csinál jól, és hogyan fejlesztheti a Microsoft-kompetenciák, a kompetenciák szintjei és a Microsoft-megoldások nyújtásával kapcsolatos ajánlatait.
+description: Itt láthatja, hogy mit tesz jól, és hol fejlesztheti tovább a Microsoft-kompetenciákat, a kompetenciaszinteket és az ajánlatokat, amelyek segítenek a Microsoft-megoldások kézbesítésében.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 292b5535bdcc40164e738ec967a689c51f6d8f47
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 2053c4b0a31232a6e2e9182a11fad2e2048d96f1
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086260"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152885"
 ---
-# <a name="competencies-report-available-from-the-partner-center-insights-dashboard"></a>A kompetenciák jelentés elérhető a partner Center-adatáttekintési irányítópultról
+# <a name="competencies-report-available-from-the-partner-center-insights-dashboard"></a>A Partnerközpont Insights irányítópultról elérhető kompetenciajelentés
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-- Globális rendszergazda
-- Felügyeleti ügynök
-- Jelentés megjelenítője
-- Executive Report Viewer
+A kompetenciák lehetővé teszik a vállalat számára a Microsoft-megoldások műszaki képességeinek szemléltetését. A Microsoft-kompetenciák úgy vannak kialakítva, hogy megfeleljen az ügyfelek igényeinek, és bemutassa szakértelmét a leendő ügyfeleknek. A Microsoft számos előnyt kínál, többek között az Azure-használatot, a felhőalapú termékekre vonatkozó jogosultságokat, például az Office 365-öt, a műszaki támogatást, a piacra juttatási ajánlatokat. Jelenleg összesen 19 kompetencia van a következő kategóriákban: Alkalmazás és infrastruktúra, **Üzleti** alkalmazások, Adatok és **AI**, és **Modern munkahely.** A kompetenciák például Silver vagy Gold szintre vannak rétegezve. A Gold kompetencia magasabb szinten érhető el, és magasabb szintű marketing-erőforrások, ajánlatok és programok érhetők el.  
 
-A kompetenciák lehetővé teszik a vállalat számára, hogy bemutassa a Microsoft-megoldások nyújtásának technikai képességét. A Microsoft kompetenciák úgy vannak kialakítva, hogy megfeleljenek ügyfelei igényeinek, és bemutassanak szaktudását a leendő ügyfelek számára. A Microsoft számos előnnyel jár, többek között az Azure-beli használattal, a Felhőbeli termékekhez, például az Office 365-hez, a technikai támogatáshoz, a piaci megjelenéssel kapcsolatos ajánlatokhoz és egyebekhez. A következő kategóriák összesen 19 kompetenciával rendelkeznek: **alkalmazás-és infrastruktúra**-, **üzleti alkalmazások**, **adatkezelés, AI** és **modern munkahely**. A kompetenciák az ezüst vagy arany szintekre vannak bontva, például. A Gold kompetenciához egy magasabb szintű sáv, valamint a rendelkezésre álló marketing-erőforrások, ajánlatok és programok elérhetők.  
-
-Ha többet szeretne megtudni a kompetenciák életciklusáról, a kompetenciák megvalósításáról és az egyéb kompetenciás jelentés részleteiről, többet fog tudni használni a kompetencia jelentésből.
+Ha többet szeretne megtudni a kompetencia életciklusával, a kompetencia megszerzésével és a kompetenciajelentés egyéb részleteivel kapcsolatban, a kompetenciajelentésből többet is kihasználhatja.
 
 ## <a name="competency-life-cycle"></a>Kompetencia életciklusa
 
-Az életciklus szempontjából a partnerek a főbb teljesítménymutatók (KPI-k) alapján kezdődnek, amelyek szükségesek az adott kompetenciák eléréséhez. Amint elérik az adott kompetenciához beállított küszöbértéket az összes szükséges metrika esetében, a kompetenciák **kiminősítése** megtörtént. A partnerek ezután megfizethetik a kompetenciával kapcsolatos ajánlatot (Silver vagy Gold) a kompetenciák eléréséhez és a kompetenciához való **aktív** munkához. A kompetencia **aktív** állapota a kompetencia elérésének időpontjától számított egy évig érvényes (ezt a kompetencia **évfordulójának** nevezik). Az évfordulós év végén a partnereknek meg kell felelniük a kompetenciára vonatkozó követelményeknek. Ha nem teljesítik ezeket a követelményeket, akkor elvesztik a kompetenciát. A korábban elért kompetenciák **kockázati** állapota azt jelenti, hogy bizonyos kulcsfontosságú metrikák úgy vannak kiképezve, hogy az adott kompetenciák **évfordulójának** küszöbértéke alá esnek.
+Életciklus szempontjából a partnerek először az adott kompetenciák eléréséhez szükséges fő teljesítménymutatókra (KPI-kre) építenek. Ha az összes szükséges metrika esetében elérik az adott  kompetencia küszöbértékét, a rendszer minősíti őket egy kompetencia megszerzésére. A partnerek ezután fizethet a kompetenciaajánlatért (Ezüst vagy  Arany), hogy megszerezék a kompetencia megszerzését, és aktívvá válnak a kompetencia ában. A kompetencia **Aktív** állapota a kompetencia megszerzésének dátumával egy évig  érvényes (ezt nevezzük a kompetencia évfordulós dátumának). Az évforduló évének végén a partnereknek meg kell felelnie a kompetencia követelményeinek. Ha nem teljesítik ezeket a követelményeket, elveszítik a kompetencia megszerzését. A **korábban elért kompetencia** At risk status értéke azt jelenti, hogy bizonyos kulcsfontosságú metrikák az adott kompetencia évfordulós dátumának küszöbértéke alá **esnek.**
 
-## <a name="competency-attainment"></a>Kompetencia-megvalósítás
+## <a name="competency-attainment"></a>Kompetencia megszerzése
 
-Az egyes kompetenciák megfelelnek a követelmények meghatározott követelményeinek. A felhőalapú kompetenciával kapcsolatos követelmények két kategóriába sorolhatók: szaktudás és teljesítmény.
+Minden kompetencia adott követelményekkel rendelkezik, amelyek teljesülése szükséges. A felhő kompetenciakövetelményei két kategóriába sorolhatók: készségek és teljesítmény.
 
-- Szaktudás: a követelmények gyakran tartalmaznak olyan vizsgákat, felméréseket vagy minősítéseket, amelyeket a vállalaton belüli személyeknek át kell adni.
+- Készségek: A követelmények gyakran olyan vizsgákat, értékeléseket vagy minősítéseket tartalmaznak, amelyeket a vállalaton belül az egyéneknek át kell menniük.
 
-- Teljesítmény: a kompetenciához való jogosultsághoz a vállalatnak meg kell felelnie bizonyos, a kompetencia területhez igazított teljesítmény-küszöbértékeknek. Előfordulhat például, hogy a vállalatnak teljesítenie kell az Azure-beli használat minimális mennyiségét az utolsó 12 hónapban.
+- Teljesítmény: Ahhoz, hogy a vállalat jogosult legyen egy kompetenciare, meg kell felelnie bizonyos, a kompetenciaterülethez igazított teljesítményküszöböknek. Előfordulhat például, hogy a cégnek meg kell felelnie az Azure-használat minimális mennyiségének a következő 12 hónap során.
 
-## <a name="competencies-report-details"></a>Kompetenciák jelentés részletei
+## <a name="competencies-report-details"></a>Kompetenciajelentés részletei
 
-A kompetenciák jelentés következő részeit tekintheti meg:
+A kompetenciajelentés következő szakaszait láthatja:
 
 - Összefoglalás
-- Kompetencia-mérőszámok elemzése
-- Kompetenciák előzményei
+- Kompetenciametrikák elemzése
+- Kompetenciaelőzmények
 
  > [!NOTE]
- > Ez a jelentés az áttekintések irányítópultján érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a partner Centerben, például a globális rendszergazda, a fiók rendszergazdája, a jelentéskészítő vagy a Executive Report Viewer. További információ: a vállalat globális rendszergazdája. a jelentésben megadott adattípusok csak a Executive Report Viewer jogosultságokkal rendelkező felhasználók számára is elérhetők.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információkért lásd a vállalat globális rendszergazdáját. Előfordulhat, hogy a jelentésben szereplő konkrét adattípusok csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők.
 
 ### <a name="summary"></a>Összefoglalás
 
-Az összegző nézet a kompetenciák számát mutatja az egyes kompetenciák szintjén (arany/ezüst) a kompetencia életciklusának minden szakaszában. A kompetencia életciklusának szakaszai a következők: **elindítva**, **minősített**, **aktív** és **veszélyeztetett**. Példa: a Cloud kompetencia követelményei két kategóriába sorolhatók: szaktudás és teljesítmény.
+Az Összefoglalás nézet a kompetencia életciklusának összes fázisában megmutatja a kompetenciák nevét az egyes kompetenciaszintek (Arany/Ezüst) szintjén. A kompetencia életciklusának szakaszai a következők: **Elindítva,** **Minősített,** **Aktív** és **Veszélyeztetett**. Példa: A felhő kompetenciakövetelmények két kategóriába sorolhatók: készségek és teljesítmény.
 
-- Elindítva: azon kompetenciák száma, amelyekhez egy vagy több folyamatban lévő követelmény van.
-Az elindított kompetenciák részletezése kompetenciával (Ezüst/arany) a kompetenciák neveivel.
+- Elindítva: Olyan kompetenciák száma, amelyekhez egy vagy több mögöttes követelmény van folyamatban.
+Az elindított kompetenciák száma kompetenciaszint (Silver/Gold) szerinti lebontása kompetencianevekkel.
 
-- Minősített: azok a kompetenciák, amelyek esetében megfelelt a követelményeknek, de előfordulhat, hogy még nem vásárolta meg a kapcsolódó Ezüst/arany ajánlatot. A minősített kompetenciák a kompetenciák neveivel (Silver/Gold) való részletezése.
+- Minősített: Olyan kompetenciák, amelyekhez megfelelt a követelményeknek, de előfordulhat, hogy még nem vásárolta meg a társított Silver/Gold ajánlatot. A minősített kompetenciák száma kompetenciaszint (Silver/Gold) szerinti lebontása kompetencianevekkel.
 
-- Aktív: olyan kompetenciák, amelyek esetében megfelelt a követelményeknek, és megvásároltak egy ezüst/arany ajánlatot. Az aktív kompetenciák részletezése kompetenciával (Ezüst/arany) a kompetenciák neveivel.
+- Aktív: Olyan kompetenciák, amelyekhez megfelelt a követelményeknek, és Silver/Gold ajánlatot vásárolt. Az aktív kompetenciák darabszámának lebontása kompetenciaszint (Silver/Gold) szerint, kompetencianevekkel.
 
-- Veszélyeztetett (következő év): a jelenleg **aktív** kompetenciák száma, de a következő évben nem teljesített követelmények teljesítésének **kockázata** is.
-A kompetenciák részletezése (kompetenciák szintjének, például Ezüst/arany, kompetenciák neveivel), amelyek nem felelnek meg a következő évre nézve.
+- Veszélyeztetett (következő év): A jelenleg aktív, de  a következő évre vonatkozó követelményeknek nem megfelelő kompetenciák száma. 
+Azoknak a kompetenciáknak a lebontása (kompetenciaszint szerint, például Silver/Gold, kompetencianevekkel), amelyeknél fennáll annak a kockázata, hogy a következő évre nem jogosultak.
 
 :::image type="content" source="images/pci/pci-competencies-summary-1.png" alt-text="kompetenciák összegzése":::
 
-### <a name="competency-metric-analysis"></a>Kompetencia mérőszámának elemzése
+### <a name="competency-metric-analysis"></a>Kompetenciametrika elemzése
 
-Ez a nézet a kompetenciák metrikáinak állapotát jeleníti meg a partnerek számára az Ezüst/arany szinten a kompetenciák eléréséhez vagy megőrzéséhez szükséges küszöbértékek alapján. 
+Ez a nézet a kompetenciametrikák állapotát mutatja azon küszöbértékekkel szemben, amelyekre a partnereknek a kompetencia Silver/Gold szinten való eléréséhez/megőrzéséhez van szükség. 
 
-A jelentés a következő két Dátumtartomány alapján állítható be:
+A jelentés az alábbi két dátumtartomány alapján eltoltható:
 
-1. TTM nézet: a partner teljesítményének enumerálása az elmúlt 12 hónapban (TTM).
-2. Évfordulós év nézet: Ez a partner teljesítményét az előző évforduló napjától a következő évfordulóra sorolja.
+1. TTM-nézet: Ez számba veszi a partner az elmúlt 12 hónap (TTM) teljesítményét.
+2. Évfordulós év nézet: Ez számba veszi a partner teljesítményét az előző évforduló dátumtól a következő évfordulóig.
 
-:::image type="content" source="images/pci/pci-competencies-comp-metrics-analysis-2.png" alt-text="kompetencia mérőszámának elemzése":::
+:::image type="content" source="images/pci/pci-competencies-comp-metrics-analysis-2.png" alt-text="kompetenciametrika elemzése":::
 
 > [!NOTE]
- > Nem minden metrika szerepel az elemzésben. Jelenleg a tanuláshoz és a minősítéshez társított mérőszámok nem támogatottak a kompetenciák jelentésében. A Cloud Business Applications (CBA) kompetenciák jelenleg nem támogatottak az **aktív** kompetencia állapotának mérőszám-elemzésében.
+ > Az elemzés nem minden metrikát fed le. A tanuláshoz és a minősítéshez kapcsolódó metrikák jelenleg nem támogatottak a Kompetenciajelentésben. A Business Applications (CBA) kompetencia jelenleg nem támogatott az Aktív kompetencia állapotának **metrikaelemzésében** sem.
 
-### <a name="competency-history"></a>Kompetenciák előzményei
+### <a name="competency-history"></a>Kompetenciaelőzmények
 
-Ez a nézet az eddig elért kompetenciák részletes táblázatát jeleníti meg, a kompetenciák szintjével és a kompetenciával.
+Ebben a nézetben az eddig elért összes kompetencia részletes táblázata látható a kompetenciaszinttel és a kompetenciaszinttel.
 
-:::image type="content" source="images/pci/pci-competencies-comp-history-3.png" alt-text="kompetenciák előzményei":::
+:::image type="content" source="images/pci/pci-competencies-comp-history-3.png" alt-text="kompetenciaelőzmények":::
 
 ## <a name="next-steps"></a>Következő lépések
 
-- További jelentések: [partner Center](partner-center-insights.md)-információk.
+- További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
 
 >[!NOTE] 
-> A jelentést az elemzések irányítópultjának letöltési jelentések részéből töltheti le. [További információ](pci-download-reports.md) 
+> A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 

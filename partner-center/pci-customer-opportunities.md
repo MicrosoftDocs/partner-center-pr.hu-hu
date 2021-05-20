@@ -8,27 +8,24 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.date: 04/27/2021
-ms.openlocfilehash: 91f64faeec0b97be2797d489e152cb84cbb2e192
-ms.sourcegitcommit: 8bd2e2f2f0f6bcd0fa202787df5b3c1f786f88f9
+ms.openlocfilehash: 430aea81964d1b75514b6e1377bd2ba1af41b538
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "108213446"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153038"
 ---
 # <a name="cloudascent-propensity-reports-available-from-partner-center-dashboard"></a>Az irányítópulton elérhető CloudAscent propensity Partnerközpont jelentéseket
 
-**Megfelelő szerepkörök**
-
-- Vezetői jelentésmegjelenítő
-- Jelentésmegjelenítő
+**Megfelelő szerepkörök:** Vezetői jelentésmegjelenítő | Jelentésmegjelenítő
 
 A Partnerközpont irányítópult letölthető propenitási adatokat biztosít a CloudAscent programból. Az adatok azt mutatják, hogy az ügyfelek milyen valószínűséggel vásárolhatnak Microsoft-termékeket.  Ez a cikk az adatok lebontását, a pontozás használatát és azt ismerteti, hogy mit jelent.
 
-## <a name="summary-definitions"></a>Összegzési definíciók
+## <a name="summary-definitions"></a>Összefoglaló definíciók
 
 - **SMC-ügyfelek**– Ez a propensitásletöltésben található ügyfelek teljes száma.  Az ügyfeleket a rekordpartner azonosítja.
 - **Szerződések lejárata**– Az aktuális pénzügyi évben meg kell adtunk a lejáró szerződések számát.
-- Open Expiring Revenue (Nyitott **lejáró bevétel)**– A nyitott lejáró szerződésekhez társított bevétel.
+- Open Expiring Revenue (Nyitott **lejáró bevétel)**– A nyitott lejáró szerződésekhez kapcsolódó bevétel.
 
 :::image type="content" source="images/pci/cust-oppor-11.png" alt-text="Képernyőkép az Ügyfelek lehetőségek összegzése irányítópultról.":::
 
@@ -38,20 +35,20 @@ A kis- és középvállalati (SMB) szegmens három különálló alszegmensre os
 
 1. **A leggyakoribb nem nem használt szolgáltatás a** Legnagyobb SMB-ügyfeleket tartalmazza, akik a legtöbb lehetőséget kínálják a Microsoft számára. A tipikus nem felügyelt ügyfelek hasonló jellemzőkkel rendelkeznek, mint a felügyelt fiókok, sok alkalmazottal, nagy it-költségkeretekkel és kiadásokkal, valamint nagy mennyiségű potenciális bevétellel a Microsoft számára.
 
-   A nem nem felső szintűeket kétféleképpen definiáljuk:
+   A Nem felső szintű nem hatót kétféleképpen definiáljuk:
 
-   - **Top Unmanaged User Based**–, 300 vagy több alkalmazottal rendelkező fiókokat tartalmaz. User-Based fiókok kiváló célok az első alkalommal való vásárláshoz, illetve a felhasználóalapú előfizetési termékek (például a Microsoft 365, a Dynamics 365 vagy a Surface) bővítéséhez.
-   - **Top Unmanaged Compute Based** ( Top Unmanaged Compute Based – Olyan fiókokat tartalmaz, amelyek azure-beli potenciálisan nagyobbak 10 ezer dollárnál). A számítási alapú fiókok tartalmazzák a meglévő Azure-t. a jelentős jövő évi potenciális fiókokkal és olyan fiókokkal, amelyek még nem vásárolják meg az Azure-t, de az Azure-ra több mint 10 ezer usd-t is el lehet látni.
+   - **A legkorrektebb** felhasználóalapú – 300 vagy több alkalmazottal rendelkező fiókokat tartalmaz. User-Based fiókok kiváló célok az első alkalommal való vásárláshoz vagy a felhasználóalapú előfizetési termékek, például a Microsoft 365, a Dynamics 365 vagy a Surface bővítéséhez.
+   - **Top Unmanaged Compute Based** –, amely 10 ezer dollárnál nagyobb Azure-beli potenciális fiókokat tartalmaz. A számítási alapú fiókok tartalmazzák a meglévő Azure-t. a jelentős jövő évi potenciális fiókokkal és olyan fiókokkal, amelyek még nem vásárolják meg az Azure-t, de 10 ezer dollárnál nagyobbak az Azure-ra vonatkozó lehetőségeik.
 
 2. **A Medium Business** a meglévő ügyfeleket és a 25–300 alkalmazottal rendelkező potenciális ügyfeleket tartalmazza.
 
 3. **A kisvállalatok** 10–25 alkalmazottal dolgozó vállalkozásokat foglalnak magába.
 
-4. **A Nagyon kisvállalatok** közé tartoznak az 1–9 alkalmazottal dolgozó üzletek.
+4. **A Nagyon kisvállalatok** 1–9 alkalmazottal dolgozó vállalkozásokat foglalnak magába.
 
 :::image type="content" source="images/pci/cust-oppor-2.png" alt-text="Ügyfél SMC-típus szerint.":::
 
-**A nem és a közepes** üzleti alkategóriák a Microsoft és a Microsoft partnerei számára jelentős élettartamú (LTV) ügyfeleket képviselnek.  Emiatt ezek a területek a növekedés fő területei ebben a szegmensben. Ebben a két alszegben jobb helyzetben vagyunk a szoftvercsatornák Microsoft 365-val való megszerzéséhez, a D365/Azure üzletági (LOB) alkalmazásokból való további bevételhez, és a Microsoft magas LTV-használatának szerzéséhez.
+**A nem és**  a közepes üzleti alszegetmények a Microsoft és a Microsoft partnerei számára jelentős élettartamú (LTV) ügyfeleket képviselnek. Emiatt ezek a szegmensek a növekedést hajtó fő területek. Ebben a két alszegegben jobb helyzetben vagyunk, hogy a szoftvercsatornát az Microsoft 365-val szerezjük be, további bevételt szerezünk a D365/Azure üzletági (LOB) alkalmazásokkal, és magas LTV-t szeretnénk megvalósítani a Microsoft számára.
 
 Jelenleg két fő lehetőségünk van: 1. az ügyfél növekedést ad hozzá; 2. míg a felhőbeli szoftvercsatornákat jól Microsoft 365, a Dynamics 365-ben és az Azure-ban nagy lehetőségünk van.
 
@@ -61,13 +58,13 @@ Az alábbi képernyőkép a négy SMB-alszegmentet ábrázolja. A CloudAscent ra
 
 ## <a name="cloudascent-machine-learning"></a>CloudAscent Machine Learning
 
-Az SMB gépi tanulási technológiával használja az értékesítési és marketing ügyfél-előrejelzéseket a nem használt és közepes üzleti szegmensben. Hogyan gyűjti és váltja fel a jeleket a propensitási javaslatokké?
+Az SMB gépi tanulási technológiával használja az értékesítési és marketing ügyfél-előrejelzéseket a nem használt és közepes üzleti szegmensben. Hogyan gyűjti és váltja fel a jeleket a propensitásra vonatkozó javaslatokké?
 
 - **Adatgyűjtés:** A webbejárási webbejárások több milliárd ügyféljelet vizsgálnak és gyűjtenek a vállalati tartományok pingelése, a blogbejegyzések figyelése, a kiadások, a közösségi streamek és a technikai fórumok segítségével.  Az összegyűjtött jelek mellett a céges adatok olyan belső és külső forrásokból is gyűjtenek adatokat, mint a D&B, a Microsoft belső előfizetési és tranzakciós adatai.
 
 - **Machine Learning:** A jelek be vannak állítva a gépi tanulási modellbe, amely az egyes ügyfelekre vonatkozó értékesítési és marketing-előrejelzések strukturált adatkészletét adja vissza a felhőalapú termékek és fürtök alapján.  Minden ügyfél pontozása a Microsoft legfelső SMB-hez hasonló, az ügyfél illeszkedést meghatározó modelljével, az ügyfél online viselkedését integráló gépi tanulási algoritmusokkal pedig szándékként van meghatározva. A pontozás olyan fürtökbe van egyesülve, amelyek megmutatják, hogy az ügyfél nem hajlandó Microsoft Cloud-termékeket vásárolni.
 
-- **Optimalizálás:** A Machine Learning optimalizálja a modelleket a tranzakciós adatok havi és az előfizetési adatok negyedévente való fogyasztásával.  A nyerés/veszteség adatok használatával a Machine Learning beállítja az algoritmusokat, és ellenőrzi, hogy a modellek a várt módon működnek-e, összehasonlítva a fürtre vonatkozó javaslatokat az MSX-hez használt lehetőségekkel.
+- **Optimalizálás:** A Machine Learning optimalizálja a modelleket a tranzakciós adatok havi és az előfizetési adatok negyedévente való fogyasztásával.  A nyerés/veszteség adatok használatával a Machine Learning beállítja az algoritmusokat, és ellenőrzi, hogy a modellek a várt módon működnek-e a fürtre vonatkozó javaslatok és az MSX-hez használt lehetőségek összehasonlításával.
 
 :::image type="content" source="images/pci/cust-oppor-4.png" alt-text="Képernyőkép az SMB gépi tanulásról.":::
 
@@ -81,7 +78,7 @@ A webes webbejárási eszközök és a különböző forrásokból származó ad
 
    - Belső és külső adatpontok, amelyek a céges adatokat határozzák meg.
 
-   - A illeszkedés pontozása a legjobb SMB-modellhez hasonlóan hasonlítja össze az ügyfeleket, és megnézi, hogy megfelelőek-e a Microsoft Cloud-termékekhez.
+   - A pontozás a legjobb SMB-hez hasonló modellt használ, hogy összehasonlítsa az ügyfeleket, és meg tudja nézni, hogy megfelelőek-e a Microsoft Cloud-termékekhez.
 
    - A illeszkedés pontozása negyedévente frissül
 
@@ -117,7 +114,7 @@ A webes webbejárási eszközök és a különböző forrásokból származó ad
          |Alacsony|30 - 54|
          |Nagyon alacsony|0 - 29|
 
-      2. A fenti szabályt használva a vállalatokat magas, közepes, alacsony és nagyon alacsony besorolásúként osztályozjuk mind az ügyfél illeszkedési, mind a szándékjel alapján.
+      2. A fenti szabályt használva a vállalatokat magas, közepes, alacsony és nagyon alacsony besorolásúként soroljuk be mind az Ügyfél illeszkedési, mind a Szándékjelzők esetében.
 
       3. Az ügyfelek illeszkedési és szándékjeleit egy 2D-s mátrixon ábrázoljuk, és minden metszet a nem megfelelőséget jelképez. Például: Magas illeszkedés + Magas szándék = A1, amely a legnagyobb propensitást képviseli.
 

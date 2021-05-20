@@ -1,70 +1,67 @@
 ---
-title: Bepillantást a jelentés irányítópultjának letöltésére
+title: Elemzések – Jelentés-irányítópult letöltése
 ms.topic: article
 ms.date: 10/14/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan töltheti le és exportálhatja az információkat a partner Center Unified Reporting irányítópultról és a partner Center-elemzésekről készült jelentésekről.
+description: Megtudhatja, hogyan tölthet le és exportálhat adatokat az Partnerközpont jelentéskészítési irányítópultról és az Partnerközpont Insights-jelentésekből.
 author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b7d963bffcfeebed3b7540dfd02aadd876dfcaa6
-ms.sourcegitcommit: 10765386b2df0d4c2e8da9b302a692f452e1090d
+ms.openlocfilehash: 266baf0eb3501cba984ec0fbaed4508366b92b8b
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106086226"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152783"
 ---
 # <a name="download-reports"></a>Jelentések letöltése
 
-**Megfelelő szerepkörök**
-
-- Executive Report Viewer
-- Jelentés megjelenítője
+**Megfelelő szerepkörök:** Vezetői jelentésmegjelenítő | Jelentésmegjelenítő
 
 ## <a name="introduction"></a>Bevezetés
 
-Az elemzések irányítópultján a jelentések letöltése központ lehetővé teszi, hogy a rendszer a partneri központ által jelentett, tabulátorokkal tagolt (TSV) formátumú nyers adatkészleteket exportálja. Így alaposabban elemezheti az adatelemzést az üzleti igények alapján.
+A Jelentések letöltése központ az Insights irányítópulton lehetővé teszi a Partnerközpont Insights-jelentéseket vezérlő nyers adatkészletek exportálását tabulátott érték (TSV) formátumban. Ez lehetővé teszi az adatok mélyebb elemzését az üzleti igények alapján.
 
-A létrehozást követően a jelentés elérhető lesz a **generált jelentések** szakaszban, amellyel letöltheti és elemezheti az olyan eszközöket, mint a Microsoft Excel.
+A jelentés létrehozása után a  Létrehozott jelentések szakaszban letöltheti és elemezheti az olyan eszközöket, mint a Microsoft Excel.
 
 **Új jelentés létrehozása**
 
-Jelentés létrehozásához először válassza ki a jelentést a **Select Report (jelentés kiválasztása** ) legördülő listából. Ezután válassza ki a dátumtartományt a dátumtartomány **kiválasztása** legördülő listából. Válassza a **készítés** lehetőséget. A jelentés tabulátorral tagolt (TSV) formátumban jön létre, és néhány percen belül elérhető lesz a **generált jelentések** szakaszban. Az elmúlt 14 napban létrehozott jelentések letölthetők lesznek.
+Jelentés létrehozásához először válassza ki  a jelentést a Jelentés kiválasztása legördülő menüből. Ezután válassza ki a dátumtartományt a **Dátumtartomány kiválasztása** legördülő menüből. Válassza a **Generate (Generálás)** lehetőséget. A jelentés tabulátott értékkel (TSV) lesz létrehozva, és néhány percen belül letölthető a **Generált** jelentések szakaszban. Az előző 14 napban létrehozott jelentések letölthetők lesznek.
 
 :::image type="content" source="images/pci/create-new-report.png" alt-text="Új jelentés létrehozása":::
 
 :::image type="content" source="images/pci/generated-reports.png" alt-text="Generált jelentések":::
 
 >[!NOTE] 
->Csak azok a felhasználók tölthetik le a jelentéseket, akik a vezetői jelentések megjelenítői. További információ az információkhoz tartozó irányítópult-jelentésekhez való szerepköralapú hozzáférésről: [PCI-szerepkörök](pci-roles.md). 
+>Csak azok a felhasználók tölthetnek le jelentéseket, akik a vezetői jelentések megtekintői. Az Insights-irányítópult jelentéséhez való szerepköralapú hozzáféréssel kapcsolatos további információkért tekintse meg a [PCI-szerepköröket.](pci-roles.md) 
 
 ## <a name="available-reports"></a>Elérhető jelentések
 
 A következő jelentések tölthetők le:
 
-A **partner profil** a partnerrel kapcsolatos részleteket tartalmazza. A jelentésben a partner-azonosító, a partner neve, a partner városa és a partnerország adatai érhetők el. Ehhez a jelentéshez nem alkalmazható összesítés vagy lookback.
+**A partnerprofil** a partnerhez kapcsolódó adatokat tartalmazza. A jelentésben Partnerazonosító olyan részletek érhetők el, mint a Partnerazonosító, a partner neve, a partnerváros és a partnerország. Erre a jelentésre nem vonatkozik összesítés vagy visszacsatolás.
 
-Az **ügyfél adatai** a partner által társított ügyfelek adatait ismertetik. Emellett olyan kulcsfontosságú mérőszámokat is biztosít, mint az eladott licencek, az összesített ACR és így tovább. A jelentést havonta összesítjük.
+**Az ügyféladatok** a partnerhez társított ügyfelek adatait biztosítják. Emellett olyan kulcsfontosságú metrikákat is biztosít, mint az eladott licencek, az aggregált ACR stb. A jelentést havonta összesíti a rendszer.
 
-Az **előfizetések részletei** a partner által eladott vagy kezelt előfizetések részleteit ismertetik. A jelentést havonta összesítjük.
+**Az előfizetések részletei** a Partner által értékesített vagy kezelt előfizetések adatait, valamint az ügyféladatokat adják meg. A jelentést havonta összesíti a rendszer.
 
-Az **Azure-használat** az Azure-használat részleteit tartalmazza. Ezek az adatok a partner által eladott vagy kezelt Azure-előfizetésekre vonatkoznak. A használati adatokat a mérőszámok kategóriája és más kulcsfontosságú dimenziók alapján osztja el. A jelentés havi rendszerességgel van összesítve.
+**Az Azure-használat** az Azure használati adatait tartalmazza. Ezek az adatok a partner által értékesített vagy kezelt Azure-előfizetések adatai. A használati adatok fogyasztásmérő-kategória és más kulcsdimenziók szerint vannak felosztva. A jelentést havonta összesíti a rendszer.
 
-**Office 365 – a licenc** a partner által eladott vagy kezelt O365-licencek használati részleteit tartalmazza. Emellett az ügyfelek adatait és a fő mérőszámokat is tartalmazza, például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentés havi rendszerességgel lesz összesítve.
+**Office365 – A** licenchasználat a partner által eladott vagy kezelt O365-licencek használati adatait tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést a rendszer havonta összesíti.
 
-**Nagyvállalati mobilitás – a licencek**  a partner által eladott vagy kezelt nagyvállalati mobilitási licencek használati adatait biztosítják. Emellett az ügyfelek adatait és a fő mérőszámokat is tartalmazza, például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesítjük.
+**Nagyvállalati mobilitás – A licenchasználat**  a partner által értékesített vagy kezelt nagyvállalati mobilitási licencek használati adatait tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesíti a rendszer.
 
-**Dynamics 365 – a licencek** használati adatait a partner által eladott vagy kezelt D365-licencek használati adatai biztosítják. Emellett az ügyfelek adatait és a fő mérőszámokat is tartalmazza, például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesítjük.
+**Dynamics 365 – A** licenchasználat a partner által eladott vagy kezelt D365-licencek használati adatait tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesíti a rendszer.
 
-**Power bi – a licenc használata** a partner által eladott vagy kezelt Power bi licencek használati részleteit tartalmazza. Emellett az ügyfelek adatait és a fő mérőszámokat is tartalmazza, például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesítjük.
+**Power BI – A** licenchasználat a partner által Power BI vagy felügyelt licencekkel kapcsolatos használati adatokat tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesíti a rendszer.
 
-A **képzések** olyan részleteket biztosítanak, mint például a vizsgák, a minősítések, a felmérések, a nyomon követések, a befejezett vagy a partner alkalmazottai által elvégzett tanfolyamok.
+**A képzések** olyan részleteket tartalmaznak, mint a vizsgák, a minősítések, az értékelések, a sávok, a partner alkalmazottai által befejezett vagy felváltott kurzusok.
 
-**Microsoft Learn** megadja a modulok részleteit, a képzési útvonalak befejezésének részleteit, valamint a partner felhasználói adatait.
+**Microsoft Learn** a modulokkal, a képzési útvonal kiegészítésével kapcsolatos részleteket, valamint a partner felhasználói adatait.
 
-**Kompetenciák – az összefoglalás és az előzmények** részletesen ismertetik a partner által aktív, folyamatban lévő vagy kockázatos kompetenciákat. A partner által elért kompetenciák előzményeit is tartalmazza.
+**Kompetenciák – Az összefoglalás és** az előzmények az összes olyan kompetencia részleteit tartalmazza, amelyek aktívak, folyamatban vannak vagy veszélyben vannak a partner számára. Emellett tartalmazza a partner által elért összes kompetencia előzményeit is.
 
-**Kompetenciák – a teljesítménnyel kapcsolatos részletek** részletesen ismertetik, hogy a partnerek hogyan használják a KPI-ket bizonyos kompetenciák megvalósításához.
+**Kompetenciák – A** teljesítmény részletei részletesen ismertetik, hogyan teljesít a partner egy adott kompetenciakészlet eléréséhez szükséges KPI-k tekintetében.
 

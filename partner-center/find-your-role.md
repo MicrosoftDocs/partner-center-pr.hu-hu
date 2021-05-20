@@ -1,6 +1,6 @@
 ---
-title: A hozzárendelt szerepkör megkeresése
-description: Megtudhatja, hová lépjen a partner Centerben, hogy megtalálja a hozzárendelt szerepkört, az engedélyeit és a globális rendszergazdáját.
+title: Keresse meg a hozzárendelt szerepkört
+description: Megtudhatja, hol Partnerközpont meg a hozzárendelt szerepkört, az engedélyeket és a globális rendszergazdát.
 ms.topic: how-to
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
@@ -9,49 +9,47 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.date: 10/12/2020
-ms.openlocfilehash: 7f6cdab138e2213848acb36a66cb48d2dcee1ea6
-ms.sourcegitcommit: 4e36d1a4ca2f074b55f9b9a08e300734eae1f06d
+ms.openlocfilehash: 10cb5971584378691e9cbe50029926944e023b51
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492517"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110150828"
 ---
-# <a name="find-your-role-your-permissions-and-your-global-admin"></a>A szerepkör, az engedélyek és a globális rendszergazda megkeresése
+# <a name="find-your-role-your-permissions-and-your-global-admin"></a>Keresse meg a szerepkört, az engedélyeket és a globális rendszergazdát
 
 
-**Megfelelő szerepkörök**
+**Megfelelő szerepkörök:** Minden Partnerközpont felhasználó
 
-- Minden partner Center-felhasználó
+## <a name="find-the-role-youve-been-assigned"></a>Keresse meg a hozzárendelt szerepkört
 
-## <a name="find-the-role-youve-been-assigned"></a>A hozzárendelt szerepkör megkeresése
+Ha a globális rendszergazda nem mondja el Önnek, az alábbi Partnerközpont kiderítheti, milyen szerepköre van a vállalatban:
 
-Ha a globális rendszergazda nem mondta, a következő lépésekkel megtudhatja, milyen szerepkörrel rendelkezik a partner Centerben:
+1. Jelentkezzen be Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard/home)
 
-1. Jelentkezzen be a partner Center [irányítópultra](https://partner.microsoft.com/dashboard/home).
-
-1. Válassza ki a **Fiókbeállítások** ikont, majd válassza a **saját profil** lehetőséget.
+1. Válassza a **Fiókbeállítások ikont,** majd a **Saját profil.**
  
-1. Válassza a **szerepkörök és engedélyek** fület. A szerepköröket és az engedélyeket fogja látni.
+1. Válassza a **Szerepkörök és engedélyek lapot.** Látni fogja a szerepköröket és az engedélyeket.
  
 >[!Note]
->Ha nem lát programot a bejelentkezéskor, általában azt jelenti, hogy nem rendelkezik a megfelelő engedélyekkel a programban való működéshez. Így például, ha nem látja az ösztönzők lapot a bejelentkezéskor, nem rendelkezik ösztönző jogosultságokkal. A globális rendszergazda megadhatja a szükséges engedélyeket.
+>Ha nem lát egy programot a bejelentkezés során, az általában azt jelenti, hogy nem rendelkezik a megfelelő engedélyekkel a programban való munkához. Ha például nem látja az Ösztönzők oldalt a bejelentkezéskor, akkor nem rendelkezik ösztönzőkre vonatkozó engedélyekkel. A globális rendszergazda a szükséges engedélyeket is meg tudja adni.
 
-## <a name="find-your-global-admin"></a>A globális rendszergazda megkeresése
+## <a name="find-your-global-admin"></a>Keresse meg a globális rendszergazdát
 
-Előfordulhat, hogy a felhasználónak meg kell változtatnia a szerepkört, vagy egy új felhasználó szeretne egy adott szerepkör-hozzárendelést igényelni.
+Előfordulhat, hogy egy felhasználónak módosítania kell a szerepkörét, vagy egy új felhasználó egy adott szerepkör-hozzárendelést szeretne.
 
-Olyan globális rendszergazda keresése, aki szerepkör-módosításokat végezhet, vagy szerepköröket rendelhet hozzá egy új felhasználóhoz: 
+Egy globális rendszergazda megkeresheti, aki szerepkör-módosításokat vagy szerepköröket rendelhet hozzá egy új felhasználóhoz: 
 
-1. A fiókpartner jobb felső sarkában található **Fiókbeállítások ikonra kattintva** válassza a **felhasználói kezelés** lehetőséget.
+1. A fiók **jobb felső** részen található Fiókbeállítások Partnerközpont válassza a **Felhasználókezelés lehetőséget.**
 
-1. Szűrés globális rendszergazdaként
+1. Szűrés globális rendszergazdára
 
-1. A **saját profil** lehetőségre kattintva kiválaszthatja a **szerepkörök és engedélyek** elemet, és megtekintheti a különböző rendszergazdák listáját, akik segíthetnek az engedélyek megemelésében. 
+1. A következő helyekre is **Saját profil:**, válassza a Szerepkörök és engedélyek lehetőséget, és tekintse meg a különböző rendszergazdák listáját, akik segíthetnek megemelni az engedélyeket.  
 
 
-## <a name="get-a-new-global-admin-assigned-to-your-company"></a>A vállalathoz rendelt új globális rendszergazda beszerzése
+## <a name="get-a-new-global-admin-assigned-to-your-company"></a>Új globális rendszergazda hozzárendelése a vállalathoz
 
-Ha a globális rendszergazda elhagyja a vállalatot, akkor valaki másnak ki kell töltenie ezt a szerepkört. Jegyet küldhet az Azure-ba vagy az Office 365-csapatba. Ennek módjával kapcsolatban az alábbi lehetőségek közül választhat.
+Ha a globális rendszergazda távozik a vállalattól, valaki másnak kell betöltenie ezt a szerepkört. Küldjön egy jegyet az Azure vagy az Office 365 csapatának. Ennek a lehetőségnek a beállítását az alábbi lehetőségek egyikének kiválasztásával saját maga is el tudja látni.
 
 [Új globális rendszergazda az Azure-hoz](https://support.microsoft.com/help/4505981/what-to-do-if-the-only-admin-for-your-mpn-program-has-left-the-company)
 

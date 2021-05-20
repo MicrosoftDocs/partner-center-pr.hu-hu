@@ -9,12 +9,12 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 74dd5c2c9457961f07dd0dd8d5a6ead9047c5579
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 100a3d2988c19d57f7426c7212b7464d8e96dc94
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109855556"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110152953"
 ---
 # <a name="how-and-when-to-request-a-service-level-agreement-sla-credit-from-microsoft"></a>Hogyan és mikor kell szolgáltatásiszint-szerződési (SLA-) jóváírást kérni a Microsofttól
 
@@ -34,7 +34,7 @@ A Microsoft SLA-jóváírásai az érintett szolgáltatás(k) alapján vannak me
 *A Felhőszolgáltató (CSP) partnernek be kell nyújtania a jogcímet és az összes szükséges információt az incidens hónapját követő naptári hónap végéig.* Ha például az incidens február 15-én történt, a Microsoftnak március 31-ig meg kell kapnia a jogcímet és az összes szükséges információt. A végfelhasználók és a közvetett viszonteladók nem küldhetnek be SLA-jóváírási igényeket; A közvetett szolgáltatónak vagy a közvetlen számlázási partnernek be kell nyújtania a jogcímeket a nevükben.
 
 >[!NOTE]
->A tanácsadási incidensek[(A Microsoft 365 állapotának ellenőrzése)](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health?&preserve-view=trueo365-worldwide#incidents-and-advisories)nem jogosultak SLA-kreditre.
+>A tanácsadási incidensek[(A Microsoft 365 állapotának ellenőrzése)](/microsoft-365/enterprise/view-service-health#incidents-and-advisories)nem jogosultak SLA-kreditre.
 
 ### <a name="required-information"></a>Szükséges információk
 

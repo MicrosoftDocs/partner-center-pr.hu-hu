@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/12/2021
 ms.localizationpriority: medium
 ms.custom: contperf-fy21q4
-ms.openlocfilehash: c700176ced0710f621dbdfab65513767976aff3d
-ms.sourcegitcommit: dc9438475ccc6298bec6a698bf5fc9bd5cf2aa81
+ms.openlocfilehash: 46c2371e3a95b8840f14ebc5063d90bd5926fb8f
+ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109818609"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153055"
 ---
 # <a name="verify-or-update-your-company-profile-information"></a>A vállalati profil információinak ellenőrzése vagy frissítése 
 
@@ -52,12 +52,12 @@ Frissítse jogi vállalata nevét vagy címét a Partnerközpont.
 
 1. Kattintson a **vállalat neve/címe**  melletti Frissítés elemre, és módosítsa a részleteket.
  
-1. Ha a Küldés **lehetőséget választja,** a jogi személyazonossága újraértékesül. Csak azt értékeljük át, amit módosított.
+1. Ha a Küldés **lehetőséget választja,** a jogi személyazonossága újra ki lesz értékelve. Csak azt értékeljük át, amit módosított.
 
 1. Ha az ellenőrzés sikertelen, ismerje meg, hogyan [oldhatja meg a problémát.](verification-responses.md)
 
 >[!Important]
->Ha Ön egy Felhőszolgáltató (CSP) partner, nem módosíthatja a jogi címhez társított országot. A jogi cím országa az Ön bérlőjéhez és szolgáltatásaihoz, valamint a használt pénznemhez van kötve. Az MPN országfrissítésekkel kapcsolatos további információkért olvassa el az [MPN országfrissítéseit.](manage-locations.md#change-country-of-partner-global-account)
+>Ha Ön egy Felhőszolgáltató (CSP) partner, nem módosíthatja a jogi címhez társított országot. A jogi címe országa az Ön bérlőjéhez és szolgáltatásaihoz, valamint az üzletéhez használt pénznemhez kötődik. Az MPN országfrissítésekkel kapcsolatos további információkért olvassa el az [MPN országfrissítéseit.](manage-locations.md#change-country-of-partner-global-account)
 
 
 ### <a name="who-can-update-legal-business-name-and-when"></a>Ki frissítheti a jogi vállalat nevét és mikor?
@@ -98,9 +98,8 @@ Ha Ön a globális rendszergazda, a számlázási rendszergazda vagy a rendszerg
 |Számlázási cím|A CSP-számlán szereplő számlázási cím. Frissítheti a számlázási [profilból.](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial)|
 |Számlázási kapcsolattartó|A CSP-fiók számlázási kapcsolattartási adatai (vezetéknév, vezetéknév, elsődleges szám).  Frissítheti a számlázási [profilból.](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial)|
 |Rendelésszám|A partnerszámlán megjelenő rendelési szám.  Frissítheti a számlázási [profilból.](https://partner.microsoft.com/dashboard/account/v3/accountsettings/billingprofile#commercial)|
-|Vállalati adóazonosító|Egyes országokban a vállalatoknak meg kell adniuk az [értékadó (ÁFA) számát vagy a helyi megfelelőjüket.](https://docs.microsoft.com/partner-center/organization-tax-info#submit-vat-id-number) Az adó-/héa-azonosító frissítéséhez globális rendszergazdának, számlázási rendszergazdának vagy rendszergazdai ügynöknek kell lennie.|
+|Vállalati adóazonosító|Egyes országokban a vállalatoknak meg kell adniuk az [értékadó (ÁFA) számát vagy a helyi megfelelőjüket.](./organization-tax-info.md) Az adó-/héa-azonosító frissítéséhez globális rendszergazdának, számlázási rendszergazdának vagy rendszergazdai ügynöknek kell lennie.|
 |Számlázási pénznem|A CSP-fiók számlázási pénznemét a CSP-fiók jogi országa határozza meg.  Ez a CSP-fiók létrehozása után nem módosítható.|
-
 
 ## <a name="next-steps"></a>Következő lépések
 
