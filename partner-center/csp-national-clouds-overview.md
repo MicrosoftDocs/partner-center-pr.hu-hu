@@ -9,12 +9,12 @@ author: billLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 522237ab1a3a6814e36218ef2a57fd1bdda5437c
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: d890a4dff5fef28fd0b698000635643f5f801998
+ms.sourcegitcommit: 7c7e2705873df2b500b8114235c8f67a22112c62
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110147683"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110398168"
 ---
 # <a name="apply-to-sell-in-microsoft-national-clouds-as-part-of-the-csp-program"></a>Alkalmazás a Microsoft országos felhőiben való értékesítésre a CSP-program részeként
 
@@ -36,23 +36,29 @@ A Microsoft ezeket a szolgáltatásokat az országos felhőkben teszi elérhető
 
 A minősített partnerek a következő országos felhőkben értékesíthet Microsoft-felhőmegoldásokat az ügyfeleknek:
 
--   [**Microsoft Cloud for US Government**](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud#Microsoft_Cloud_for_US) A Microsoft Cloud for Government az alaptól az usa közigazgatási ügyfeleinek készült, és lehetővé teszi, hogy a Egyesült Államok közigazgatási ügyfelei – a nagy szövetségi ügynökségektől a kisvárosi kormányzatokig – számos felhőalapú számítástechnikai szolgáltatás közül válasszanak. Az ügyfelek konkrét igényeinek kielégítése érdekében a Microsoft jelentős befektetéseket tett az adatközpontokbe, és dedikáltan felel meg az USA szövetségi és állami szabályzatának, követelményeinek és követelményeinek. 
+## <a name="microsoft-cloud-for-us-government"></a>Microsoft Cloud for US Government
 
-    További információ az ügyfelek számára való regisztrálásról és értékesítésről a Microsoft Cloud for US Government oldalon, Partnerközpont [a Microsoft Cloud for US Government.](partner-center-for-microsoft-us-govt-cloud.md)
+[**Microsoft Cloud for US Government**](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud#Microsoft_Cloud_for_US) A Microsoft Cloud for Government az alaptól az usa közigazgatási ügyfeleinek készült, és lehetővé teszi, hogy a Egyesült Államok közigazgatási ügyfelei – a nagy szövetségi ügynökségektől a kisvárosi kormányzatokig – számos felhőalapú számítástechnikai szolgáltatás közül válasszanak. Az ügyfelek konkrét igényeinek kielégítése érdekében a Microsoft jelentős befektetéseket tett az adatközpontokbe, és dedikáltan felel meg az USA szövetségi és állami szabályzatának, követelményeinek és követelményeinek. 
 
--   [**Microsoft Cloud Germany**](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud#Microsoft_Cloud_Germany) A Microsoft Cloud Germany egy egyedi modellen keresztül kínál német adatközpontból származó Azure-t, Office 365-öt és Dynamics 365-öt. Ebben a modellben az ügyféladatokhoz való hozzáférést egy független németországi adatkezelési megbízott vezérli, aki a német jogszabályok szerint működik. A T-Systems International GmbH, a Telek Telekom leányvállalata a Microsoft Cloud Germany független adatkezelési megbízottja.
+További információ az ügyfelek számára való regisztrálásról és értékesítésről a Microsoft Cloud for US Government oldalon, Partnerközpont [a Microsoft Cloud for US Government.](partner-center-for-microsoft-us-govt-cloud.md)
 
-    > [!IMPORTANT]  
-    > Az ügyfelek igényeinek fejlődése alapján a németországi felhőstratégia a globális felhőajánlatnak megfelelő új felhőrégiók németországi megvalósításához fog összpontosítani. Ezzel a fókuszban már nem fogadunk új ügyfeleket, és nem helyezünk üzembe új szolgáltatásokat a jelenleg elérhető Microsoft Cloud Germany szolgáltatásból. A meglévő ügyfelek továbbra is használhatjak a jelenleg elérhető felhőszolgáltatásokat, amelyeket a szükséges biztonsági frissítésekkel fogunk karbantartani.
-    >  
-    > A 2018-ban elérhetővé vált új ügyfelek a jelenleg elérhető európai régiókat vagy a németországi új régiókat is használhatja. További információ: A Microsoft felhőszolgáltatásokat nyújt a németországi új [adatközpontok számára.](https://news.microsoft.com/europe/2018/08/31/microsoft-to-deliver-cloud-services-from-new-datacentres-in-germany-in-2019-to-meet-evolving-customer-needs/)
+## <a name="microsoft-cloud-germany"></a>Microsoft Cloud Germany
+
+[**Microsoft Cloud Germany**](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud#Microsoft_Cloud_Germany) A Microsoft Cloud Germany egy egyedi modellen keresztül kínál német adatközpontból származó Azure-t, Office 365-öt és Dynamics 365-öt. Ebben a modellben az ügyféladatokhoz való hozzáférést egy független németországi adatkezelési megbízott vezérli, aki a német jogszabályok szerint működik. A T-Systems International GmbH, a Telek Telekom leányvállalata a Microsoft Cloud Germany független adatkezelési megbízottja.
+
+> [!IMPORTANT]  
+> Az ügyfelek igényeinek fejlődése alapján a németországi felhőstratégia a globális felhőajánlatnak megfelelő új felhőrégiók németországi megvalósításához fog összpontosítani. Ezzel a fókuszban már nem fogadunk új ügyfeleket, és nem helyezünk üzembe új szolgáltatásokat a jelenleg elérhető Microsoft Cloud Germany szolgáltatásból. A meglévő ügyfelek továbbra is használhatjak a jelenleg elérhető felhőszolgáltatásokat, amelyeket a szükséges biztonsági frissítésekkel fogunk karbantartani.
+>  
+> A 2018-ban elérhetővé vált új ügyfelek a jelenleg elérhető európai régiókat vagy a németországi új régiókat is használhatja. További információ: A Microsoft felhőszolgáltatásokat nyújt a németországi új [adatközpontok számára.](https://news.microsoft.com/europe/2018/08/31/microsoft-to-deliver-cloud-services-from-new-datacentres-in-germany-in-2019-to-meet-evolving-customer-needs/)
 
     
--   [**A 21Vianet**](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud#Microsoft_Cloud_for_China) által Kínában üzemeltetett Azure és Office 365 A Microsoft Kínában a Cloud Services szolgáltatást egy egyedi partnerkapcsolaton keresztül biztosítja a Blue Cloud Technology Co., Ltd. (21Vianet) vállalattal, amely a 21Vianet Broadband Data Center Co., Ltd. 21Vianet a legnagyobb szolgáltatói semleges internetszolgáltató az adatközpontok, üzemeltetési, felügyelt hálózati és felhőalapú számítástechnikai infrastruktúra-szolgáltatások tekintetében Kínában. 
+## <a name="azure-and-office-365-operated-by-21vianet-in-china"></a>A 21Vianet által Kínában üzemeltetett Azure és Office 365
 
-    A Microsoft a technológia szolgáltatója, de nem működteti a szolgáltatást; A 21Vianet egymástól függetlenül működteti, biztosítja és kezeli a Microsoft-felhőszolgáltatások szolgáltatását. A Microsoft-technológiák licencelése révén a 21Vianet Azure- és Office 365-szolgáltatásokat kínál, és Olyan Azure- és Office 365-adatközpontokat üzemeltet, amelyek kínában tartják az adatokat. A 21Vianet előfizetési és számlázási szolgáltatásokat, valamint támogatást is nyújt.
+A Microsoft a Kínai Cloud Services szolgáltatást egy egyedi partneri kapcsolaton keresztül biztosítja a Nevesített Kék felhőtechnológiai Co., Ltd. (21Vianet) vállalattal, amely a 21Vianet Broadband Data Center Co., Ltd. 21Vianet az adatközpontok, üzemeltetési, felügyelt hálózati és felhőalapú számítástechnikai infrastruktúra-szolgáltatások legnagyobb szolgáltatója Kínában. 
 
-    A 21Vianet által üzemeltetett 21Vianet által működtetett Azure- és Office 365-ügyfelek számára való regisztrálásról és értékesítésről további információt a [21Vianet](/previous-versions/windows/it-pro/windows-home-server/ff357696(v=ws.11))által működtetett Partnerközpont tartalmaz.
+A Microsoft a technológia szolgáltatója, de nem működteti a szolgáltatást; A 21Vianet egymástól függetlenül működteti, biztosítja és kezeli a Microsoft-felhőszolgáltatások szolgáltatását. A Microsoft-technológiák licencelése révén a 21Vianet Azure- és Office 365-szolgáltatásokat kínál, és Olyan Azure- és Office 365-adatközpontokat üzemeltet, amelyek Kínán belül tartják az adatokat. A 21Vianet előfizetési és számlázási szolgáltatásokat, valamint támogatást is nyújt.
+
+A 21Vianet által üzemeltetett 21Vianet által működtetett Azure- és Office 365-ügyfelek számára való regisztrálásról és értékesítésről további információt a [21Vianet](https://www.21vbluecloud.com/partner-china/welcome/)által üzemeltetett Partnerközpont tartalmaz.
 
 ## <a name="next-steps"></a>Következő lépések
 
