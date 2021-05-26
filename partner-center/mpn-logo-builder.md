@@ -1,34 +1,34 @@
 ---
-title: Partnerembléma, minősített levél vagy díj létrehozása az Logo Builderrel
-ms.topic: article
-ms.date: 03/23/2021
+title: Partnerembléma, hitelesített levél vagy díj létrehozása – Logo Builder
+ms.topic: how-to
+ms.date: 05/25/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Ha a vállalat arany vagy ezüst kompetenciával rendelkezik, hozzon létre a vállalata számára testre szabott emblémát, vagy kérjen testre szabott, minősített ellenőrzési Partnerközpont.
+description: Ha a vállalat arany vagy ezüst kompetenciával rendelkezik, létrehozhat a vállalata számára testre szabott emblémát, vagy egyéni, minősített ellenőrzési igazolást kérhet az emblémakészítő eszközzel a Partnerközpont.
 author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 72be76473dcb7afd3f8d6ae60d79599b10c025fc
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: b3618cd02372c56b9f5381f8bdc8a6b3e6f24784
+ms.sourcegitcommit: fcf7a0d4f8e43de775894255f0ef9225838957a5
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110152256"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110440449"
 ---
-# <a name="how-to-create-a-partner-logo-certified-letter-or-award-using-logo-builder"></a>Partnerembléma, hitelesített betű vagy díj létrehozása az Logo Builderrel
+# <a name="create-a-partner-logo-certified-letter-or-award-logo"></a>Partnerembléma, hitelesített levél vagy díjembléma létrehozása
 
 **Megfelelő szerepkörök:** Minden partner, aki többet szeretne tanulni az Logo Builderről
 
-Az ezüst vagy arany kompetencia megszerzésének értéke az a lehetőség, hogy meg tudja különböztetni az ügyfeleket. A kompetencia-előnyök közé tartozik egy embléma, amely az Partnerközpont-ban az értékesítési és marketinganyagokban és az üzleti profiljában használható az elért kompetencia vagy kompetenciák bemutatásához. 
-
-Ha a Azure Expert MSP-programban elfogadtak, megkapta az év partneri díját, vagy megvásárolta a Microsoft Action Pack-t, az e programokban való részvételhez használható emblémák az Logo Builderben is elérhetők. Az emblémakészítő könyvtárában tárolhatja az eszközöket, és letöltheti őket, amikor készen áll értékesítési és marketinganyagok létrehozására. 
+Az ezüst vagy arany kompetencia bemutatásához az Partnerközpont-ban található Logo Builderrel létrehozhat egy emblémát, amely az értékesítési és marketinganyagokban, valamint az üzleti profiljában használható a Partnerközpont. Továbbá, ha az Azure Expert Managed Services Provider -programban (MSP) megkapta az év egyik partnerét, vagy megvásárolta a Microsoft Action Pack-t, az e programokban való részvételre vonatkozó emblémák az Logo Builderben is elérhetők. Az emblémakészítő könyvtárában tárolhatja az eszközöket, és letöltheti őket, amikor készen áll értékesítési és marketinganyagok létrehozására.
 
 ## <a name="what-is-available-in-logo-builder"></a>Az Logo Builderben elérhető lehetőségek
 
-Az Logo Builderben a vállalat számára elérhető emblémák az Ön Microsoft Partner Network (MPN) tagsághoz igazodnak. Akár 24 órába is telik, amíg az MPN-tagság megváltozik, például új kompetencia érhető el.
+Az Logo Builderben a vállalat számára elérhető emblémák az Ön Microsoft Partner Network (MPN) tagsághoz igazodnak. Az embléma, Partnerközpont, betű és díj, vagy ezek valamilyen kombinációja látható. 
 
-Az Logo Builderben létrehozható eszközök a következők:
+:::image type="content" source="images/logo-builder.png" alt-text="képernyőfelvétel a teljes emblémakészítőről.":::
+
+Az Emblémakészítőben létrehozható eszközök a hozzáféréstől függően a következők:
 
 - Hitelesített levél, amely ellenőrzi a vállalat által elért kompetenciákat és speciális specializációkat
 
@@ -42,32 +42,58 @@ Az Logo Builderben létrehozható eszközök a következők:
 
 - A Microsoft-előfizetést megvásárlott partnerek emblémája Action Pack
 
+>[!NOTE]
+>24 órába telik, amíg a tagsága megváltozik, például új kompetencia, díj vagy más végzettség jelenik meg a tagsági fiókjában. Ha a kívánt embléma nem látható a kódtárban, győződjön meg arról, hogy 24 óra eltelt.
+
 ## <a name="create-a-logo-using-logo-builder"></a>Embléma létrehozása az Logo Builder használatával
 
-Az Logo Builder-profil olyan információkat tartalmaz, amelyek az Logo Builder által a szervezetről vannak tárolva, és csak ön számára fontos.
+Az Logo Builder-profil olyan információkat tartalmaz, amelyek az Logo Builder által a szervezetről tárolnak, és csak az Ön adataira.
 
-Ha különböző üzleti helyekhez hozott létre különböző emblémákat, kiválaszthatja, hogy melyik üzleti helyet szeretné megtekinteni/létrehozni az MPNID-választó használatával.
+Ha különböző üzleti helyekhez hozott létre különböző emblémákat, az MPNID-választóval jelezheti, hogy melyik üzleti helyet szeretné megtekinteni és/vagy létrehozni.
 
 A korábban létrehozott és mentett emblémák a Legutóbb mentett **könyvtárban érhetők** el.
 
-Ha korábban már létrehozott emblémákat, válassza az Összes **megtekintése** lehetőséget a teljes kódtár megtekintéséhez.
+Ha korábban már létrehozott emblémákat, válassza a Az összes megtekintése **lehetőséget** a teljes kódtár megtekintéséhez.
 
 1. Jelentkezzen be a Partnerközpont [irányítópultra](https://partner.microsoft.com/dashboard) a munkahelyi fiókjával.
+1. A Partnerközpont menü Előnyök **menüjében válassza** az **Logo Builder lehetőséget.**
 
-1. A Partnerközpont az Előnyök alatt válassza az **Logo Builder** **elemet.**
- 
    :::image type="content" source="images/logo-one.png" alt-text="az emblémaszerkesztőt megjelenítő menü képernyőképe.":::
-
-3. Új embléma létrehozásához kattintson a pluszjelre az **Embléma létrehozása** mezőben.
+1. Az **Embléma összeállítása** alatt az **Emblémák** mezőben válassza a pluszjelet.
 
    :::image type="content" source="images/logo-two.png" alt-text="képernyőfelvétel az új embléma létrehozásáról.":::
+1. A **Nyelv és sablon kiválasztása** legördülő menüben válassza ki a használni kívánt nyelvet. Az elérhető sablonok a legördülő menü alatt jelennek meg.
+1. Válassza **a Létrehozás** lehetőséget a használni kívánt sablonhoz. A sablon a létrehoz majd kívánt embléma típusán alapul, például egy gold kompetencia-kompetenciával rendelkező MPN-partner emblémáján.
+1. Ezután kövesse az alábbi lépéseket az embléma testreszabásához:
+    1. Az **Elérhető kompetenciák mezőben** válassza ki az embléma kompetenciáját. Az értékek kiválasztása után az értékek melletti fel- és le szimbólumokkal módosíthatja a kompetenciák vagy programok megjelenése sorrendjét.
+    1. Az **Embléma neve alatt** adja meg az embléma nevét.
+    1. Ha végzett az embléma testreszabásával, válassza a **Mentés** vagy a Mentés **& lehetőséget.**
 
-4. Ezután kiválaszthatja a nyelvet és a használni kívánt sablont. A sablon a létrehoz majd kívánt embléma típusán alapul, például egy gold kompetencia-kompetenciával rendelkező MPN-partner emblémáján.
+## <a name="create-a-certified-letter-using-logo-builder"></a>Hitelesített betű létrehozása az Logo Builder használatával
 
-Hitelesített betűket és díjemblémát is létrehozhat.
+1. Jelentkezzen be a Partnerközpont [irányítópultra](https://partner.microsoft.com/dashboard) a munkahelyi fiókjával.
+1. A Partnerközpont menü Előnyök **menüjében válassza** az **Logo Builder lehetőséget.**
+1. Az **Embléma összeállítása** alatt a **Betűk mezőben** válassza a pluszjelet.
+1. A **Nyelv és sablon kiválasztása** legördülő menüben válassza ki a használni kívánt nyelvet. Az elérhető sablonok a legördülő menü alatt jelennek meg.
+1. Válassza **a Létrehozás** lehetőséget a használni kívánt sablonhoz.
+1. Ezután a következő lépésekkel szabhatja testre a betűt:
+    1. A **Beállítás mezőben** válassza ki, hogy szeretné-e, hogy a partner üzleti helyei megjelenjenek-e a betűben.
+    1. Az **Ügyfél adatai mezőben** adja meg az ügyfelek adatait, ha meg szeretné jelenni a levél fejlécében. Az ügyféladatok a sablonban jelennek meg. Az ügyféladatok nem érhetők el minden betűhöz.
+    1. Az **Elérhető programok beállításban** válassza ki, hogy mely kompetenciák vagy programok jelenjenek meg az emblémán. Az értékek kiválasztása után az értékek melletti fel- és le szimbólumokkal módosíthatja a kompetenciák vagy programok megjelenése sorrendjét.
+    1. A **Letter name (Betűnév)** alatt adja meg a betű nevét.
+    1. Ha végzett a betű testreszabásával, válassza a **Mentés** vagy a Mentés **& lehetőséget.**
 
->[!NOTE]
->24 órába telik, hogy egy új kompetencia, díj vagy más végzettség megjelenjen a tagsági fiókjában. Ha nem látja a kívánt emblémát a kódtárban, győződjön meg arról, hogy 24 óra eltelt.
+## <a name="create-an-award-logo-using-logo-builder"></a>Díjembléma létrehozása az Logo Builder használatával
+
+1. Jelentkezzen be a Partnerközpont [irányítópultra](https://partner.microsoft.com/dashboard) a munkahelyi fiókjával.
+1. A Partnerközpont menü Előnyök **menüjében válassza** az **Logo Builder lehetőséget.**
+1. Az **Embléma összeállítása** mezőben válassza **a** pluszjelet.
+1. A **Select award year & template** (Díjév kiválasztása & sablon) legördülő menüben válassza ki a díjévet. Az elérhető sablonok a legördülő menü alatt jelennek meg.
+1. Válassza **a Létrehozás** lehetőséget a használni kívánt sablonhoz.
+1. Ezután a díj emblémájának testreszabásához kövesse az alábbi lépéseket:
+    1. A **Rendelkezésre álló díj** mezőben válassza ki az emblémán azt a díjat, amit szeretne.
+    1. A **Díj neve alatt** adja meg az embléma nevét.
+    1. Ha végzett a díjembléma testreszabásával, válassza a **Mentés** vagy a Mentés **& lehetőséget.**
 
 ## <a name="next-steps"></a>Következő lépések
 
