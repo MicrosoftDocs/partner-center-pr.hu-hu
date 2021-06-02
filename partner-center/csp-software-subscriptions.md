@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: bdf6495d86da09b7d1d167c3fa1b3b5f15a35ab6
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 309a3578edcd06770c818722f2164a4d10a945da
+ms.sourcegitcommit: 32ef8d43902357a85df420b48b0ec1d63ad073e4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110147496"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "110754477"
 ---
 # <a name="sell-software-subscriptions-through-the-cloud-solution-provider-csp-program"></a>Szoftver-előfizetések eladása a Felhőszolgáltató (CSP) programon keresztül
 
@@ -65,7 +65,7 @@ A Azure Hybrid Benefit segítségével több értéket takaríthat meg Windows S
 > | Dominika     | Montserrat     | Tonga   |
 > | Egyenlítői-Guinea     | Mozambik     | Turks- és Caicos-szigetek   |
 > | Eritrea     | Mianmar     | Tuvalu   |
-> | Falkland-szigetek     | Nauru     | Az Usa-beli, outlying-szigetek   |
+> | Falkland-szigetek     | Nauru     | Egyesült Államokbeli, outlying-szigetek   |
 > | Francia Guyana     | Új-Kaledónia     | Vanuatu   |
 > | Francia Polinézia     | Niger     | Vatikán   |
 > | Francia Déli Területek     | Niue     | Wallis és Futuna   |
@@ -81,40 +81,40 @@ Szoftver-előfizetések vásárlása egy ügyfél nevében:
 
 2. A Partnerközpont válassza az **Ügyfelek** lehetőséget, majd válasszon ki egy ügyfelet a listából.
 
-3. Az ügyfél részletek oldalán válassza a Termékek hozzáadása lehetőséget, majd kövesse a képernyőn megjelenő utasításokat a rendelés létrehozásához és fizetéshez. Az összes kereskedelmi díjszabás ausztráliát és Brazília kivételével nem tartalmazza az adót. Ausztrália és Brazília esetében az ár az adót is tartalmazza.
+3. Az ügyfél részletek oldalán válassza a Termékek hozzáadása lehetőséget, majd kövesse a képernyőn megjelenő utasításokat a rendelés létrehozásához és fizetéshez. Ausztrália és Brazília kivételével minden kereskedelmi díjszabás nem tartalmazza az adót. Ausztrália és Brazília esetében az ár tartalmazza az adót.
 
 ## <a name="activate-and-manage-software-subscriptions"></a>Szoftver-előfizetések aktiválása és kezelése
 
-Miután megvásárolta a szoftverét, Önnek vagy ügyfeleinek le kell töltenie azt (az Partnerközpont-t használó partnereket; az Microsoft 365 felügyeleti központot használó ügyfeleknek). Ehhez a következő eljárást használhatja. Fontos megérteni a hivatkozások másolásával és a szoftverek letöltésével járó kockázatokat. További információkért lásd az Partnerközpont az **ügyfélszoftverek letöltésének** és licenckulcsának beszerzéséhez való használatával kapcsolatos Partnerközpont [útmutatóban.](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf)
+Miután megvásárolta a szoftvert, Önnek vagy ügyfeleinek le kell töltenie azt (a Partnerközpont-t használó partnereknek; az Microsoft 365 felügyeleti központot használó ügyfeleknek). Ehhez a következő eljárást használhatja. Fontos megérteni a hivatkozások másolásával és a szoftverek letöltésével járó kockázatokat. További információ: Using Partnerközpont to obtain customer **software downloads and license** keys (Ügyfélszoftverek letöltésének és licenckulcsának beszerzése a Partnerközpont Kereskedelmi műveletek [útmutatója) között.](https://partner.microsoft.com/resources/detail/partner-center-new-commerce-operations-guide-pdf)
 
 >[!NOTE]
 >A kulcsokra és letöltésekre mutató hivatkozás Partnerközpont rendszergazdai ügynöknek kell lennie.
 
-1. Ugrás az ügyfél részletek oldalára, majd válassza a Szoftver **lehetőséget.** Megjelenik az ügyfél nevében vásárolt összes szoftver listája.
+1. Az ügyfél részletes oldalán válassza a Szoftver **lehetőséget.** Megjelenik az ügyfél nevében megvásárolt összes szoftver listája.
 
-2. Válassza ki a **termékverziót,** **a nyelvet,** a **bitet,** és válassza a **Kulcsok letöltő és letöltések lehetőséget.** 
+2. Válassza ki a **termékverziót,** **a nyelvet,** **a bitet,** majd a Kulcsok **és letöltések letöltő lehetőséget.** 
 
 3. Válassza **a Kulcs lekérte** lehetőséget a 32 jegyű termék előugró párbeszédpanelen való megjelenítéséhez, amelyet másolhat és elküldhet az ügyfélnek. 
 
-4. Válassza **a Letöltés** lehetőséget a bitek letöltéséhez. 
+4. A **bitek** letöltéséhez válassza a Letöltés lehetőséget. 
 
 5. Válassza **a Hivatkozás másolása** lehetőséget, ha el szeretné küldeni az ügyfélnek a letöltött bitek hivatkozását. 
 
-6. Emellett **visszavonhatja** a szoftverrendelést, és 100%-os kreditet kaphat (ha a lemondási szabályzat 60 napos időszakán belül történik).
+6. Emellett **visszavonhatja** a szoftverrendelést, és 100%-os kreditet kaphat (ha a 30 napos lemondási szabályzat időszakán belül történik).
 
 >[!NOTE]
->Csak az ügyfelek láthatják a termékkulcsokat, és tölthetnek le Microsoft 365 felügyeleti központban (globális rendszergazdai szerepkör szükséges). A partnereknek a Partnerközpont kell használniuk az információkat.
+>Csak az ügyfelek láthatják a termékkulcsokat és tölthetik le az Microsoft 365 felügyeleti központban (globális rendszergazdai szerepkör szükséges). A partnereknek a Partnerközpont kell látniuk ezeket az adatokat.
 
 ## <a name="server-subscription-download-and-license-keys-available-through-microsoft-365-admin-center-for-customers"></a>Kiszolgáló-előfizetés letöltése és licenckulcsok, amelyek az Microsoft 365 Felügyeleti központban érhetők el az ügyfelek számára 
 
-Az ügyfelek a CSP-kiszolgáló előfizetési licenckulcsait és letöltését a felügyeleti Microsoft 365 tölthetik le. A CSP-kiszolgáló előfizetési licenckulcsának és letöltésének megtekintése érdekében az ügyfélnek az Microsoft 365 Felügyeleti központ számlázási > Billing > Your products > Software (A termékek és a szoftver) lapon > **meg.** További részletekért lásd a Szoftver [lapot a Számlázás alatt.](/microsoft-365/admin/whats-new-in-preview#billing--subscriptions)  
+Az ügyfelek a CsP-kiszolgáló előfizetési licenckulcsait és a felügyeleti központból tölthetik le Microsoft 365 csp-kiszolgálóhoz. A CS Microsoft 365 P-kiszolgáló előfizetési licenckulcsának és letöltésének megtekintése érdekében az ügyfélnek a Felügyeleti központ > Billing > Your products > Software (A termékek és a szoftver) lapon > **meg.** További részletekért lásd a Szoftver [lapot a Számlázás alatt.](/microsoft-365/admin/whats-new-in-preview#billing--subscriptions)  
 
-## <a name="view-activity-for-software-key-access-and-software-downloads"></a>Szoftverkulcs-hozzáféréssel és szoftverletöltésekkel kapcsolatos tevékenységek megtekintése
+## <a name="view-activity-for-software-key-access-and-software-downloads"></a>A szoftverkulcs-hozzáféréssel és a szoftverletöltésekkel kapcsolatos tevékenységek megtekintése
 
-Naplózási vagy megfelelőségi célokból előfordulhat, hogy ellenőriznie kell azon felhasználók listáját, akik hozzáfértek a Kiszolgáló-előfizetés szoftverkulcsához vagy a letöltött Kiszolgáló-előfizetési szoftverhez. Az alábbi eljárással férhet hozzá ezekhez az információkhoz. 
+Naplózási vagy megfelelőségi célokból szükség lehet azon felhasználók listájának listára, akik hozzáfértek a Kiszolgálói előfizetés szoftverkulcsához vagy a letöltött Kiszolgáló-előfizetési szoftverhez. Az alábbi eljárással férhet hozzá ezekhez az információkhoz. 
 
 >[!NOTE]
->Ezeknek a tevékenységnaplóknak globális rendszergazda fiók- vagy ajánlói rendszergazdai, illetve marketingtartalom-rendszergazdának kell lennie. 
+>Ezeknek a tevékenységnaplóknak globális rendszergazda fiók- vagy ajánlói rendszergazdának kell lennie. 
 
 1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
@@ -122,26 +122,24 @@ Naplózási vagy megfelelőségi célokból előfordulhat, hogy ellenőriznie ke
 
 3. A menüben válassza a **Tevékenységnapló lehetőséget.**
 
-4. Adja meg a látni kívánt tevékenység dátumtartományát. A tevékenységnapló megjeleníti azon felhasználók listáját, akik hozzáfértek a szoftverkulcshoz, vagy letöltöttek szoftvereket a megadott időszakban. 
+4. Adja meg a látni kívánt tevékenység dátumtartományát. A tevékenységnapló megjeleníti azon felhasználók listáját, akik a megadott időszakban hozzáfértek a szoftverkulcshoz vagy letöltötték a szoftvereket. 
 
 ## <a name="cancel-a-purchase"></a>Vásárlás lemondása
 
-A szoftvervásárlást a vásárlás dátumát követő 60 napon belül megszüntetheti. Ha az első 60 napos időszakon belül mondja le a lemondást, nem számítunk fel korai felmondási díjat. 60 nap után már nem szakíthatja meg a vásárlást. (A törlési szabályra vonatkozó kulcskorlátozásokat a Megjegyzésben láthatja. Ha többet szeretne megtudni arról, hogy mi történik a szoftvervásárlás lemondása után, tekintse meg a fontos megjegyzést is a lépések után.) 
+A szoftvervásárlást a vásárlás dátumát követő 30 napon belül megszakíthatja. Ha az első 30 napos időszakon belül mondja le a lemondást, nem számítunk fel korai felmondási díjat. 30 nap után már nem szakíthatja meg a vásárlást. (A törlési szabályra vonatkozó kulcskorlátozásokat a Megjegyzésben láthatja. Ha többet szeretne megtudni arról, hogy mi történik a szoftvervásárlás lemondása után, tekintse meg a fontos megjegyzést is a lépések után.) 
 
 >[!NOTE]
->A vásárlás lemondásának következő lépései csak azokra a szoftverekre vonatkoznak, amelyek egy adott lemondási időkereten belül , például a vásárlást követő 60 napon belül lemondhatóak. Ezek a lépések az Azure-beli SUSE Linux- vagy RedHat-szoftvercsomagra sem vonatkoznak. A SUSE- vagy RedHat-szoftvercsomagok jelenleg nem szakíthatóak meg és nem cserélhetőek le. [További információ a](/azure/virtual-machines/linux/prepay-suse-software-charges) SUSE Linux- vagy RedHat-csomagokról.
+>A vásárlás lemondásának alábbi lépései csak azokra a szoftverekre vonatkoznak, amelyek egy adott lemondási idő alatt , például a vásárlást követő 30 napon belül lemondhatóak. Ezek a lépések az Azure-beli SUSE Linux- vagy RedHat-szoftvercsomagra sem vonatkoznak. Jelenleg nem mondhatja le és nem cserélhet le SUSE- vagy RedHat-szoftvercsomagokat. [További információ a](/azure/virtual-machines/linux/prepay-suse-software-charges) SUSE Linux- vagy RedHat-csomagokról.
 
 A vásárlás lemondáshoz kövesse az alábbi lépéseket:
 
 >[!NOTE]
 >A vásárlás lemondáshoz rendszergazdai ügynöknek kell lennie. A következő lépések azt ismertetik, hogyan lehet visszavonni a vásárlást az Partnerközpont irányítópulton. Ezt a Partnerközpont [API-val is Partnerközpont.](/partner-center/develop/cancel-software-purchases)
 
-1. Mielőtt elkezdené a megszakítási folyamatot, győződjön meg arról, hogy a következőkre van még:
+1. Mielőtt elkezdené a megszakítási folyamatot, győződjön meg arról, hogy a következő információkkal fogta fel:
 
     - Az ügyfél neve, bérlői GUID-ja vagy tartományneve
-
     - A megszakítani kívánt termék neve
-    
     - A rendelés azonosítója
 
 2. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
@@ -152,11 +150,11 @@ A vásárlás lemondáshoz kövesse az alábbi lépéseket:
 
 5. Keresse meg a megszakítani kívánt szoftvervásárlást, majd válassza a Mégse **lehetőséget.** Megjelenik egy párbeszédpanel.
 
-6. A Rendelésszám legördülő listában válassza ki a visszavonni kívánt rendelésazonosítót. (A rendelési vagy rendelésazonosító-számmal kapcsolatos további információkat az ügyfél Rendelési előzmények **oldalán olvashatja** el.)
+6. A Rendelésszám legördülő listában válassza ki a visszavonni kívánt rendelésazonosítót. (A rendelési vagy rendelésazonosító-számról további információt az ügyfél Rendelési előzmények **oldalán olvashat.)**
 
 7. Jelölje be a jelölőnégyzetet annak tudomásul vennie, hogy elolvasta a **törlésről** szóló Fontos üzenetet. (Az alábbi **Fontos megjegyzésből** többet is megtudhat arról, hogy mi történik a vásárlás lemondása után.)
 
-8. A **vásárlás lemondáshoz** válassza a Küldés lehetőséget. Ha több rendelést szeretne visszavonni egy ügyféltől, minden egyedi rendelésazonosítóhoz újra el kell végeznie a 4–6. lépést.
+8. A **vásárlás lemondáshoz** válassza a Küldés lehetőséget. Ha több rendelést szeretne visszavonni egy ügyfélnél, minden egyedi rendelésazonosító szám esetén újra el kell végeznie a 4–6. lépést.
 
 Amikor megpróbál visszavonni egy rendelést, a Partnerközpont más információkat is adhat (amelyek a Rendelésszám legördülő lista alatt jelennek meg). Ezek az információk a következők lehetnek:
 
@@ -164,46 +162,43 @@ Amikor megpróbál visszavonni egy rendelést, a Partnerközpont más informáci
 
 - Azt, hogy már túl van-e a lemondási időkereten, és már nem tudja-e visszavonni a rendelést
 
-- Ha további információra van szükségünk a lemondási kérelemről, előfordulhat, hogy kap egy hivatkozást egy **ügyfélszolgálati** kérelem űrlapra.
+- Ha további információra van szükségünk a lemondási kérelemről, előfordulhat, hogy kap egy, az ügyfélszolgálati támogatási kérelem űrlapra **mutató** hivatkozást.
 
 >[!IMPORTANT]
->A rendelés lemondása után megjelenik egy üzenet, amely megerősíti a lemondást. Előfordulhat azonban, hogy akár 15 perc is eltelhet, mielőtt a megszakítás megjelenik a Partnerközpont irányítópulton. 
+>A rendelés lemondása után megjelenik egy üzenet, amely megerősíti a lemondást. Előfordulhat azonban, hogy akár 15 perces késés is előfordulhat, mielőtt a megszakítás megjelenik a Partnerközpont irányítópulton. 
 
 ### <a name="post-cancellation-details"></a>Lemondás utáni részletek
 
 A vásárlás lemondása után:
 
-- Minden kapcsolódó szoftverkulcs és letöltési hivatkozás vissza lesz vonva. Ez azt jelenti, hogy sem Ön, sem az ügyfele nem használhatja a szoftverkulcsokat, és nem tölthet le a vásárláshoz kapcsolódó hivatkozásokat. Ön és az ügyfele felelős az összes lemondott szoftver használatának mellőzéséért. Az Ön felelőssége továbbá a megszakított szoftverek eltávolítása, valamint a kapcsolódó szoftverletöltések és hivatkozások eltávolítása.
+- Az összes kapcsolódó szoftverkulcsot és letöltési hivatkozást visszavonjuk. Ez a visszavonás azt jelenti, hogy Ön és az ügyfele már nem használhatja a szoftverkulcsokat, és nem töltheti le a vásárláshoz kapcsolódó hivatkozásokat. Ön és az ügyfele felelős az összes lemondott szoftver használatának megszüntetéséért. Az Ön felelőssége a megszakított szoftver eltávolítása, valamint a kapcsolódó szoftverletöltések és hivatkozások eltávolítása is.
 
 - A megszakított elem továbbra is megjelenik az ügyfél Szoftver adatai lapján, de az aktiválási kulcs nem lesz elérhető.
 
-- A lemondott rendelés kreditje megjelenik a következő havi számlán. A folyamatos szoftver 100%-os kreditet kap, a szoftver-előfizetések pedig a megfelelő kreditet kapják meg.
+- A lemondott rendelés kreditje megjelenik a következő havi számlán. A folyamatos szoftver 100%-os kreditet kap, a szoftver-előfizetések pedig prodüktált kreditet kapnak.
 
 ### <a name="submit-a-customer-support-request-to-cancel-a-purchase"></a>Támogatási kérés elküldése a vásárlás lemondásához
 
 Ha szoftvervásárlást próbált meg megszüntetni a Partnerközpont de a rendszer arra kéri, hogy adjon meg további információkat, és töltse ki az ügyféltámogatási kérelem űrlapot, a következő lépések segíthetnek Önnek:
 
-1. Amikor a Vásárlás **visszavonása** ablakban kiválasztja az ügyféltámogatási kérelem hivatkozását, megnyílik a Probléma jelentése **a** Partnerközpont lapon.
+1. Amikor kiválasztja az **ügyféltámogatási kérelem** hivatkozását a Vásárlás visszavonása ablakban, megnyílik a Probléma jelentése **a** Partnerközpont lapon.
 
 2. A **Részletek** alatt a Probléma típusa listában válassza a **CSP vásárlás/visszatérítés ügyfelek** nevében lehetőséget.
 
 3. Töltse ki az Impact (Hatás) és a Title (Cím) mezőket.
 
-4. A Leírás mezőben adja meg a következőket:
+4. A Leírás mezőben adja meg a következő információkat:
 
     - Az ügyfél bérlői GUID-ja vagy tartományneve
-    
     - Rendelésazonosító vagy előfizetés-azonosító
-    
     - Visszatérítés oka
-
     - Kért összeg
 
 5. A Kapcsolattartó mezőbe írja be a nevét, e-mail-címét és telefonszámát.
 
 6. Ha bármilyen okból fájlt kell csatolnia, válassza a **Fájlok hozzáadása lehetőséget.** Ez a lépés nem kötelező.
 
-7. Ha elkészült, válassza a Küldés **lehetőséget.**
+7. Ha elkészült, válassza a **Küldés lehetőséget.**
 
 ## <a name="next-steps"></a>Következő lépések
 
