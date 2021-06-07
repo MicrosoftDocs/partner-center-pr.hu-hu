@@ -1,50 +1,46 @@
 ---
-title: Privát ajánlatok az Azure Marketplace-en
-description: Ismerje meg az Azure piactéren elérhető privát ajánlatokat.
+title: Privát ajánlatok a Azure Marketplace
+description: További információ a privát ajánlatokról a Azure Marketplace.
 ms.service: marketplace-customer
 ms.topic: article
 author: Guyshu
 ms.author: gushuchm
-ms.date: 11/20/2020
-ms.openlocfilehash: 72e886a7cfad067b40674f30a9a21810d832994a
-ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
+ms.date: 06/03/2021
+ms.openlocfilehash: 55d0716b183e9e8905e631447e547396d6f55404
+ms.sourcegitcommit: 9cb6bc9df20540f812b7932f88e520976c1aa85a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103412658"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111534180"
 ---
-# <a name="private-offers-in-azure-marketplace"></a>Privát ajánlatok az Azure Marketplace-en
+# <a name="private-plans-in-azure-marketplace"></a>Privát csomagok a Azure Marketplace
 
-A privát ajánlatok szerint a kiadók egyéni csomagokat biztosítanak bizonyos ügyfeleknek. Ez a beállítás jelenleg csak az Azure Marketplace-en érhető el a Azure Portalban. A privát ajánlatok csak olyan fizetős ajánlatok esetén érhetők el, amelyek a Azure Portal vásárolhatók meg, és közvetlenül is telepíthetők. A kiadó nem tud privát ajánlatokat létrehozni a tanácsadási szolgáltatásokhoz, bármely olyan szolgáltatáshoz, amely hívási műveletként vagy ingyenes szolgáltatásként **kapcsolatba lép** , függetlenül attól, hogy telepíthető-e a portálról vagy sem.
+A közzétevők a privát csomagok alapján nyújtanak egyéni csomagokat adott ügyfeleknek. A privát csomagok csak fizetős ajánlatokhoz érhetők el, amelyek megvásárolhatók és közvetlenül telepíthetők a Azure Portal. A közzétevők nem hozhatnak létre  privát csomagokat tanácsadási szolgáltatásokhoz, olyan szolgáltatásokhoz, amelyekhez a Kapcsolatfelvétel műveletként vagy bármely ingyenes szolgáltatással rendelkezik, függetlenül attól, hogy telepíthetők-e a portálról vagy sem.
 
-## <a name="find-private-offers-in-the-azure-portal"></a>Privát ajánlatok keresése a Azure Portalban
+## <a name="find-private-plans-in-the-azure-portal"></a>Privát csomagok megkeresi a Azure Portal
 
-Ha egy partner privát ajánlatot tesz közzé, a Azure Portal **piactér** szakaszában csak a jogosult felhasználók láthatók. Ezeket a felhasználókat az előfizetés azonosítója vagy a bérlő azonosítója határozza meg az ajánlat típusától függően. Ha Ön jogosult a privát ajánlatokra, kétféleképpen is megtalálhatja őket a portálon.
+Amikor egy partner közzétesz egy privát tervet, az  csak a jogosult felhasználók számára látható a Azure Portal. Ezek a felhasználók az ajánlat típusától függően előfizetés-azonosító vagy bérlőazonosító alapján vannak meghatározva. Ha jogosult privát csomagokra, kétféleképpen találhatja meg őket a portálon.
 
 > [!NOTE]
-> A privát ajánlatok jelenleg nem kereshetők vagy szűrhetők (kategóriánként) a Azure Portalban.
+> A privát csomagok kereshetők, de nem szűrhetők (kategóriák szerint) a Azure Portal.
 
-A Azure Portal kattintson az **+ erőforrás létrehozása** vagy a "piactér" kifejezésre a **piactér** lapon való ugráshoz. Ha privát ajánlatokra jogosult, látni fogja, hogy az oldal tetején elérhető-e az **Ön privát ajánlata** . Válassza a **privát ajánlatok megtekintése** lehetőséget a privát ajánlatok oldalának megtekintéséhez.
+A Azure Portal válassza az **+ Erőforrás** létrehozása lehetőséget, vagy keressen a "marketplace" kifejezésre a **Marketplace oldalának kiválasztásához.** Ha jogosult privát csomagokra, az  oldal tetején megjelenik a Privát csomagok érhetőek el szalagcím. Válassza **a Privát ajánlatok és csomagok megtekintése lehetőséget** a privát csomagok oldalának megtekintéséhez.
 
-:::image type="content" source="media/private-offers/private-offers-banner.png" alt-text="Az a szalagcím, amely akkor jelenik meg, ha elérhetők a privát ajánlatok.":::
-
-Ha a privát ajánlatok szalagcímét látja, akkor a Product Gallery oldal aljára is görgetheti, és megtekintheti a privát ajánlatok egy részhalmazát. Válassza ki a hivatkozást, és **tekintse** meg a privát ajánlatok oldalát.
-
-:::image type="content" source="media/private-offers/see-more-link.png" alt-text="A képernyő alján található privát ajánlatokat mutatja be, a továbbiak hivatkozással együtt.":::
+:::image type="content" source="media/private-offers/private-offers-banner.png" alt-text="A szalagcím, amely akkor jelenik meg, ha vannak elérhető privát csomagok.":::
 
 ## <a name="review-private-plans"></a>Privát csomagok áttekintése
 
-Egy privát ajánlat tulajdonképpen egy privát csomag egy ajánlaton belül. Minden ajánlat több, nyilvános és privát csomaggal is rendelkezhet, de a privát csomagok a nyilvános csomagokból származó külön listában jelennek meg.
+A privát csomag egy ajánlat több csomagja részét képezi. Minden ajánlat több, nyilvános és privát csomagtal is lehet, de a privát csomagok a nyilvános csomagoktól külön listában jelennek meg.
 
-A rendelkezésre álló privát csomagokat a **csomagok** lapon tekintheti meg, amely a megkülönböztető **privát** jelvénysel van megjelölve:
+Az elérhető privát csomagokat a **Plans** (Csomagok) lapon láthatja, és egy privát jelvény **jelöli:**
 
-:::image type="content" source="media/private-offers/private-badge.png" alt-text="Privátként megjelölt csomagok lapja.":::
+:::image type="content" source="media/private-offers/private-badge.png" alt-text="Privátként megjelölt csomagok oldala.":::
 
-Ha egynél több előfizetéssel rendelkezik, az összes előfizetéséhez elérhető privát ajánlatokat fogja látni. Ha a **Létrehozás** lehetőséget választja, a rendszer az erőforrás-létrehozási lapra irányítja az erőforrás konfigurálásának megkezdéséhez.
+Ha egynél több előfizetéssel rendelkezik, az összes előfizetéséhez elérhető privát csomagok érhetők el. Ha a **Létrehozás lehetőséget választja,** a rendszer az erőforrás-létrehozási oldalra irányítva elkezdi konfigurálni az erőforrást.
 
-Ha a **Létrehozás** lehetőséget választja, és több előfizetéssel rendelkezik, de nem mindegyiket adja hozzá a privát csomaghoz, akkor az alapértelmezett előfizetés nem lehet a privát ajánlatra jogosult előfizetés. Ebben az esetben válassza ki a megfelelő előfizetést.
+Ha a **Létrehozás lehetőséget** választja, és több előfizetéssel rendelkezik, de nem mindegyiket adja hozzá a privát csomaghoz, előfordulhat, hogy az alapértelmezett előfizetés nem jogosult erre a privát csomagra. Ebben az esetben válassza ki a megfelelő előfizetést.
 
-:::image type="content" source="media/private-offers/select-correct-subscription.png" alt-text="A hivatkozás azt mutatja, hogy több privát ajánlat áll rendelkezésre.":::
+:::image type="content" source="media/private-offers/select-correct-subscription.png" alt-text="A további privát csomagokra mutató hivatkozás.":::
 
 ## <a name="next-steps"></a>Következő lépések
 
