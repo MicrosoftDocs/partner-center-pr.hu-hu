@@ -9,12 +9,12 @@ author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: ca4c8323562e6c6f1d762465cad86e7ae113eb19
-ms.sourcegitcommit: beba696954b62ab5396a893d050d0c2c211aeafc
+ms.openlocfilehash: 90c8f413398fcb9f65f7fef402a1cdcd092abbc4
+ms.sourcegitcommit: 212471150efc8fd2c30023bc6a981a7e052e79ef
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "110601426"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112025955"
 ---
 # <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszahelyezése egy ügyfél Azure CSP előfizetéséhez  
 
@@ -33,15 +33,15 @@ A rendszergazdai jogosultságoknak két szintje van a Azure in CSP.
 
 Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha az AdminAgents csoport tagjait adja `object ID` meg az ügyfélnek. A delegált rendszergazdai jogosultságok visszaszerzése érdekében az alábbi lépésekkel együtt kell működnie az ügyféllel.
 
-1. Jelentkezzen be az Partnerközpont irányítópultjára.
+1. Jelentkezzen be a Partnerközpont irányítópultjára.
 
 2. A Partnerközpont válassza az Ügyfelek **lehetőséget.**
 
-3. Válassza ki azt az ügyfelet, akinél dolgozik, és kérjen **viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
+3. Válassza ki azt az ügyfelet, akinél dolgozik, és **igényeljön viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
 
 4. Az ügyfélnek ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolatkérést.
 
-   :::image type="content" source="images/azure/revoke4.png" alt-text="E-mailes példa viszonteladói kapcsolat létrehozására":::
+   :::image type="content" source="images/azure/revoke4.png" alt-text="Példa e-mailben viszonteladói kapcsolat létrehozására":::
 
 5. Önnek, a partnernek csatlakoznia kell a partnerbérlőhöz, hogy le tudja szerezni az AdminAgents csoport objektumazonosítóját.
   
@@ -53,15 +53,15 @@ Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha az AdminA
 
 6. Az ügyfélnek ezután a következő lépéseket kell megtennie a PowerShell vagy az Azure CLI használatával. Az ügyfélnek a következővel kell lennie:
 
-- A tulajdonosi **vagy felhasználói** hozzáférés **rendszergazdájának szerepköre** 
-- Szerepkör-hozzárendelések előfizetési szinten való létrehozásához szükséges engedélyek
+- A tulajdonosi **vagy felhasználói** **hozzáférés rendszergazdájának szerepköre** 
+- Szerepkör-hozzárendelések előfizetési szinten való létrehozására vonatkozó engedélyek
 
    a. Csak PowerShell esetén az ügyfélnek frissítenie kell a `Az.Resources` modult.
    ```powershell
    Update-Module Az.Resources
    ```
 
-   b. Az ügyfél ahhoz a bérlőhöz csatlakozik, ahol a CSP-előfizetés létezik.
+   b. Az ügyfél ahhoz a bérlőhöz csatlakozik, ahol a CSP-előfizetés található.
    ```powershell
    Connect-AzAccount -TenantID "<Customer tenant>"
    ```
@@ -106,6 +106,33 @@ Ahelyett, hogy tulajdonosi engedélyeket ad meg az előfizetés hatókörében, 
    ```azurecli
    az role assignment create --role "Owner" --assignee-object-id <Object Id of the Admin Agents group provided by partner> --scope "<Resource URI>"
    ```
+
+Ha a fenti lépések nem működnek, vagy hibaüzenetet kap a kísérlet során, próbálkozzon a következő "catch-all" eljárással az ügyfél rendszergazdai jogosultságának visszaállításához.
+
+```powershell
+Install-Module -Name Az.Resources -Force -Verbose
+Import-Module -Name Az.Resources -Verbose -MinimumVersion 4.1.1
+Connect-AzAccount -Tenant <customer tenant>
+Set-AzContext -SubscriptionId <customer subscriptions>
+New-AzRoleAssignment -ObjectId <principal ID> -RoleDefinitionName "Owner" -Scope "/subscriptions/<customer subscription>" -ObjectType "ForeignGroup"
+```
+
+### <a name="troubleshooting"></a>Hibaelhárítás
+
+Ha az ügyfél nem tudja végrehajtani a fenti 6. lépést, próbálja ki a következő parancsot:
+
+```powershell
+New-AzRoleAssignment -ObjectId <principal ID> -RoleDefinitionName "Owner" -Scope "/subscriptions/<costumer subscription>" -ObjectType "ForeignGroup" -Debug > newRoleAssignment.log
+```
+
+További elemzés céljából adja meg az eredményül kapott fájlt `newRoleAssignment.log` a Microsoftnak.
+
+Ha a "catch-all" eljárás sikertelen a (összes művelet) művelet `Import-Module` során, próbálkozzon a következő lépésekkel:
+- Ha az importálás meghiúsul, mert a modul használatban van, indítsa újra a PowerShell-munkamenetet az összes ablak bezárásával és újbóli megnyitásával.
+- Ellenőrizze a verzióját az `Az.Resources` `Get-Module Az.Resources -ListAvailable` -hez.
+- Ha a 4.1.1-es verzió nem szerepel az elérhető listában, a következőt kell használnia: `Update-Module Az.Resources -Force` .
+- Ha a hiba azt állítja, hogy egy adott verziónak kell lennie, frissítse a modult is, és cserélje le a et `Az.Accounts` a `Az.Resources` `Az.Accounts` következőre: . Ezután újra kell indítania a PowerShell-munkamenetet.
+
 
 ## <a name="next-steps"></a>Következő lépések
 
