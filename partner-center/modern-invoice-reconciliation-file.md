@@ -1,28 +1,28 @@
 ---
-title: A CSP-vásárlások fájlmezőinek felderítése
+title: A CSP-hez való egyszeres vásárlások fájlmezőinek felderítése
 ms.topic: conceptual
 ms.date: 01/29/2021
-description: Ismerje meg a CSP-hez az egy alkalommal vásárolt egyeztetési fájl összes elemét a Partnerközpont, beleértve a mintaértékeket is.
+description: Ismerje meg a CSP egy alkalommal vásárolt egyeztetési fájljában található összes elemet a Partnerközpont, beleértve a mintaértékeket is.
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
-ms.openlocfilehash: 85946f44e1265ad5012faf9d782609904100c80e
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 3264c793dfb2e8592cd059cd84d5bb08769abbcf
+ms.sourcegitcommit: c8d1bcf54cdcdc3f827f9210c8abddab02a686fe
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110146255"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112073798"
 ---
-# <a name="csp-one-time-purchase-reconciliation-file-fields"></a>CsP egy alkalommal vásárolt egyeztetési fájl mezői
+# <a name="csp-one-time-purchase-reconciliation-file-fields"></a>CSP egy alkalommal vásárolt egyeztetési fájl mezői
 
 **Megfelelő szerepkörök:** Fiók-rendszergazdai | Számlázási ügynök
 
 ## <a name="using-the-recon-file"></a>A recon fájl használata
-Az alábbi táblázat a CSP-hez az egyszeres vásárlások egyeztetési fájljában található mezők leírását és mintaértékét tartalmazza.
+Az alábbi táblázat az egyszer megvásárolt CSP egyeztetési fájl mezőinek leírását és mintaértékét tartalmazza.
 
-További információ az egyeztetési fájlokról: [Az egyeztetési fájlok használata.](use-the-reconciliation-files.md)
+Az egyeztetési fájlokkal kapcsolatos további információkért lásd: [Az egyeztetési fájlok használata.](use-the-reconciliation-files.md)
 
 | Oszlop | Leírás | Mintaérték |
 | ------ | ----------- | ------------ |
@@ -45,15 +45,15 @@ További információ az egyeztetési fájlokról: [Az egyeztetési fájlok hasz
 | UnitPrice | Licencenkénti ár, amely a vásárláskor az árlistában van közzétéve. Győződjön meg arról, hogy ezek megegyeznek a számlázási rendszerben az egyeztetés során tárolt adatokkal. | *0.045* |
 | Mennyiség | A licencek száma. Győződjön meg arról, hogy ezek megegyeznek a számlázási rendszerben az egyeztetés során tárolt adatokkal. | *1* |
 | Részösszeg | Adóz előtti összeg. A részösszegnek meg kell egyoznia a számlázható mennyiség és a tényleges egységár szorzatával. | *0* |
-| TaxTotal (Adóösszeg) | Adó összege díj. A piac adószabályainak és konkrét körülményeinek megfelelően. | *0* |
+| TaxTotal (Adóösszeg) | Adó összege díj. A piac adózási szabályai és adott körülmények alapján. | *0* |
 | Összesen | A teljes összeg megegyezik a részösszeggel és az adó összeggel. | *0* |
 | Pénznem | A számla az ügyfél pénzneme alapján jön létre. Ez azt jelenti, hogy ha Ön olyan partner, aki különböző számlázható pénznemek ügyfeleivel bonyolít le tranzakciót, minden ügyfél pénznemtípusról számlát fog kapni.  | *EUR* |
-| PriceAdjustmentDescription (Áradjustmentdescription) | Az egységár módosításainak okai. Ezek a fő okok, de nem kizárólagosan a tényleges egységár meghatározása. | *["15,0% partneri jóváírás a felügyelt szolgáltatásokhoz"]* |
+| PriceAdjustmentDescription (PriceAdjustmentDescription) | Az egységár módosításainak okai. Ezek a fő okok, de nem kizárólagosan a tényleges egységár meghatározása. | *["15,0%- os partneri jóváírás a felügyelt szolgáltatásokért"]* |
 | Közzétevő neve | A termék kiadója.  | *Microsoft* |
-| PublisherId | A közzétevő azonosításához Partnerközpont egyedi azonosító. | *NA* |
-| SubscriptionDescription (Előfizetés-leírás) | Az ügyfél által megvásárolt szolgáltatásajánlat neve az árlistában meghatározottak szerint. Ez az oszlop megegyezik az OfferName mezővel. | *Azure-csomag* |
-| SubscriptionId | Az előfizetés egyedi azonosítója a Microsoft számlázási platformon. Az egyeztetéshez nincs használva. Vegye figyelembe, hogy ez az azonosító nem ugyanaz, mint a partner felügyeleti konzolján található előfizetés-azonosító. | *307628f1-d9d2-f09c-ea1f-4183f0cae308* |
-| ChargeStartDate (Költségindításidátum) | Az előfizetés számlázási időszakának kezdete. | *9/1/2020* |
+| PublisherId | A közzétevő azonosítására Partnerközpont egyedi azonosító. | *NA* |
+| SubscriptionDescription (Előfizetési leírás) | Az ügyfél által megvásárolt szolgáltatásajánlat neve az árlistában meghatározottak szerint. Ez az oszlop megegyezik az OfferName mezővel. | *Azure-csomag* |
+| SubscriptionId | Előfizetés egyedi azonosítója a Microsoft számlázási platformon. Az egyeztetéshez nem használatos. Vegye figyelembe, hogy ez az azonosító nem ugyanaz, mint a partner felügyeleti konzolján található előfizetés-azonosító. | *307628f1-d9d2-f09c-ea1f-4183f0cae308* |
+| ChargeStartDate (Díjindításidátum) | Az előfizetés számlázási időszakának kezdete. | *9/1/2020* |
 | ChargeEndDate (Költség és költségdátum) | Az előfizetés számlázási időszakának végének dátuma. | *2020. 09. 30.* |
 | TermAndBillingCycle | Az előfizetés vásárláskor való folytatására vonatkozó kötelezettségvállalás. | *Tárolt adatok (GB/hónap)* |
 | EffectiveUnitPrice (Hatályos egységár) | A számlázási ciklus költségeinek kiszámításához használt időegység-ár. A tényleges egységárat a kedvezmények, a számlázási napok korrekciói és egyéb tényezők határozzák meg. További információ: [Effective Unit Price Calculation (Tényleges egységár kiszámítása).](./effective-unit-price-calculation.md)  | *0.03825* |
@@ -62,14 +62,24 @@ További információ az egyeztetési fájlokról: [Az egyeztetési fájlok hasz
 | BillableQuantity | A kiszámlázandó teljes mennyiség.  | *0.005001* |
 | BillingFrequency | A vásárláskor kiválasztott számlázási csomag. | *NA*  |
 | PricingCurrency | Az árlistán szereplő pénznem. | *USD* |
-| PCToBCExchangeRate (PcToBCExchangeRate) | A díjszabási pénznemre alkalmazott átváltási árfolyam a számlázási pénznemre. | *0.846202666* |
-| PCToBCExchangeRateDate (PcToBCExchangeRateDate) | Az a dátum, amikor a számlázási pénznem díjszabási pénzneme meg van határozva. | *2020. 09. 30.* |
-| MeterDescription (MeterDescription) | A mérő leírása.  | *Táblák – Tárolt LRS-adatok (GB/hó)* |
+| PCToBCExchangeRate | A díjszabási pénznemre alkalmazott átváltási árfolyam a számlázási pénznemre. | *0.846202666* |
+| PCToBCExchangeRateDate | Az a dátum, amelyen a számlázási pénznem árképzési pénzneme meg van határozva. | *2020. 09. 30.* |
+| MeterDescription (Mérési leírás) | A mérő leírása.  | *Táblák – Tárolt LRS-adatok (GB/hónap)* |
 | ReservationOrderId | A foglalási rendelés azonosítója. | *E21A6344E398FFC1C4D7...* |
-| CreditReasonCode | A kredit leírása. | *Azure-használatra vonatkozó kredit* |
+| CreditReasonCode | A kredit leírása. | *Azure-felhasználási kredit* |
+| SubscriptionStartDate (Előfizetés kezdődátuma) | Az előfizetés vásárlásának dátuma. | *5/1/2021* |
+| SubscriptionEndDate | Az előfizetés lejáratának dátuma. | *4/30/2022* |
+| ReferenceID (Referenciaazonosító) | Az összekapcsolás a frissítések során történt összes tranzakcióval. | *025d68a6-1bd6-42ab-9636-15e8d776a30e* |
+| ProductQualifiers | A bővítmény- vagy próbaverziós vásárlásokat ismerő azonosító. | *["Bővítmény"]* |
+| PromotionID (Előléptetésazonosító) | Az előléptetési információk lekéréséhez használt azonosító. | *78bcf906-b945-4210-8818-cfb93caf12a1* |
 
 >[!NOTE]
->Az Azure-felhasználást egyeztetheti az egyszeres vásárlás felderítési fájljában. Ehhez keresse meg a napi rendszerességgel minősített használat felderítési fájlját, és keresse meg a SubscriptionID-t. Ez megjeleníti az Azure-csomagazonosítóhoz társított összes költséget. Az Azure SubscriptionID jogosultságazonosítóként jelenik meg.
+>Az Azure-használatot az egyszeres vásárlási recon fájlban egyeztetheti. Ehhez keresse meg a napi rendszerességgel minősített használat felderítési fájlját, és keresse meg a SubscriptionID-t. Ez megjeleníti az Azure-csomag azonosítójával kapcsolatos összes költséget. Az Azure SubscriptionID jogosultságazonosítóként jelenik meg.
+>
+
+## <a name="how-to-connect-the-base-subscription-with-the-upgraded-subscription"></a>Hogyan csatlakoztathatja az alap előfizetést a frissített előfizetéshez?
+
+Az alaptermék előfizetés-azonosítójával keresse meg a megfelelő referenciaazonosítókat, és használja őket a kapcsolódó tranzakciók lekéréséhez. Az előfizetés-azonosítóval és a referencia-azonosítóval kombinálva egyetlen eseményen keresztül csatlakoztathatja az összes frissítést.
 
 ## <a name="next-steps"></a>Következő lépések
 

@@ -9,12 +9,12 @@ author: keramp88
 ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 1f575a79039ae78e64e28c680a8b533d575200bc
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: a873e6dcac03ae781b776204fb8801581fefdec5
+ms.sourcegitcommit: e90293bc643963fe9ce3f838bc8861fbd304b16d
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110146357"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112066488"
 ---
 # <a name="explore-the-azure-and-cloud-products-benefits-area-in-partner-center"></a>Ismerkedés az Azure- és a felhőalapú termékek előnyeivel a Partnerközpont
 
@@ -24,12 +24,12 @@ Ez a cikk a partnerek számára elérhető Azure- és felhőbeli előnyöket ism
  
 ## <a name="overview"></a>Áttekintés
 
-A Microsoft Partner Network partnerként számos műszaki és piacra juttatáshoz férhet hozzá a különböző területeken. Ha a fenti szerepkörök valamelyike hozzá lett rendelve a Partnerközpont, ezek közül számos előnyt közvetlenül a Partnerközpont is megismerhet.
+A Microsoft Partner Network partnerként számos technikai és piacra juttatáshoz férhet hozzá [a](https://assetsprod.microsoft.com/mpn-maps-software-iur-competency-license-table.docx) különböző területeken. Ha a fenti szerepkörök valamelyike hozzá lett rendelve a Partnerközpont, ezen előnyök közül sokat közvetlenül a Partnerközpont is megismerhet. 
 
 > [!NOTE]
 > A Partnerközpont terület eléréséhez csak be kell jelentkeznie a Partnerközpont [](https://partner.microsoft.com/dashboard) irányítópultra, és a bal oldali navigációs menüben válassza az **MPN** lehetőséget. Ezután válassza **az Előnyök** lehetőséget a menüből, majd válassza ki az egyes előnyöket vagy területet, amelyet meg szeretne vizsgálni.
 
-Az Azure-beli felhőalapú termékek egyik **& érhetők el.** Amikor az **Azure & lehetőséget** választja a Partnerközpont Előnyök **menüben,** megjelenik az Azure **& felhőalapú termékek** oldala.
+Az Azure-beli felhőalapú termékek egyik **& érhetők el.** Amikor az **Azure & lehetőséget** választja a Partnerközpont Előnyök **menüben,** megjelenik az **Azure &-felhő termékeinek** oldala.
 
 Ezen az oldalon a következő részletek megjelenik:
 
@@ -43,7 +43,7 @@ Ezen az oldalon a következő részletek megjelenik:
 
 ## <a name="usage-based-vs-license-based-subscriptions"></a>Használatalapú és licencalapú előfizetések
 
-Az **Azure & cloud products (Azure-felhőalapú** termékek) oldalon kétféle előfizetési előnyt sorolunk fel, amelyek az Ön számára ki vannak építve:
+Az **Azure & cloud products (Azure-felhőalapú** termékek) oldal két előfizetési előnyt sorol fel, amelyek az Ön számára ki vannak építve:
 - Használatalapú előfizetések (Microsoft Azure kredit) 
 - Licencalapú előfizetések (például Office 365)
 
@@ -51,23 +51,23 @@ Az **Azure & cloud products (Azure-felhőalapú** termékek) oldalon kétféle e
 
 A szolgáltatástagság számára elérhető aktív ajánlatoktól függően kétféle használatalapú előfizetést Microsoft Partner Network kaphat. Ilyen aktív ajánlatok lehetnek a Microsoft Action Pack, silver kompetencia vagy gold kompetencia. 
 
-Az ajánlatokhoz kétféle használatalapú előfizetést lehet kiépítni: *Azure* havi kredit és/vagy *tömeges (éves) Azure-kredit:*
+Az ajánlatokhoz kétféle használati alapú előfizetést lehet kiépítni: *Havi Azure-kredit* és/vagy *Tömeges (éves)* Azure-kredit:
 
-- **Azure-beli havi kreditek kiépítése:** Ez például 100 USD/hó értékként jelenik meg (vagy ennek megfelelője a helyi pénznemben)<br/>
+- **Azure-beli havi kreditek kiépítése:** Ez például 100 USD/hó értékként (vagy a helyi pénznemben ennek megfelelőként) jelenik meg.<br/>
 *Illetve*
-- **Csoportos (éves) Azure-kreditek kiépítése:** Ez például 6000 USD/év, 12000 USD/év és/vagy 13000 USD/év értékként megjelenhet (vagy mindegyik megfelel a helyi pénznemben)
+- **Csoportos (éves) Azure-kreditek kiépítése:** Ez például 6000 USD/év, 12000 USD/év és/vagy 13000 USD/év összegként megjelenhet (vagy mindegyik megfelel a helyi pénznemben)
 
-Ha aktiválni szeretne Microsoft Azure előfizetést a Partnerközpont, hozzá kell rendelnie a hozzáférést egy felhasználóhoz a vállalaton belül (vagy egy vendégfelhasználóhoz). A felhasználónak már létre kell hozva egy felhasználói bejegyzést a Azure Active Directory bérlőben. Ezután kövesse az alábbi lépéseket:
+Ha aktiválni szeretne Microsoft Azure előfizetést a Partnerközpont, hozzá kell rendelnie a hozzáférést a vállalaton (vagy egy vendégfelhasználón) belüli felhasználóhoz. A felhasználónak már létrehozott felhasználói bejegyzéssel kell Azure Active Directory bérlőben. Ezután kövesse az alábbi lépéseket:
 
-1. Ha biztos abban, hogy a felhasználó rendelkezik felhasználói bejegyzéssel az Azure AD-bérlőben, jelentkezzen be a Partnerközpont [irányítópultra.](https://partner.microsoft.com/dashboard)
+1. Ha biztos abban, hogy a felhasználó rendelkezik felhasználói bejegyzéssel az Azure AD-bérlőben, jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard)
 
-1. Válassza **az MPN elemet** a bal oldali navigációs menüben, majd az **Előnyök** lehetőséget, végül pedig az **Azure-t és a felhőt.**
+1. Válassza **az MPN elemet** a bal oldali navigációs menüben, majd az **Előnyök** elemet, végül pedig az **Azure-t és a felhőt.**
 
-1. Válassza a jobb oldali,  Részletek megtekintése oszlopban található lefelé mutató nyilat az aktiválni kívánt használatalapú előfizetéshez. 
+1. Válassza a jobb oldali, Részletek megtekintése **oszlopban** található lefelé mutató nyilat az aktiválni kívánt használatalapú előfizetéshez. 
 
-1. Keresse meg **a Felhasználó-hozzárendelés** területet a Partnerközpont Azure- és **felhőalapú termékek oldalán** (alább). Ezután válassza a **Felhasználó hozzárendelése** lehetőséget a kívánt használatalapú előfizetési kedvezmény hozzárendeléséhez. 
+1. Keresse meg **a Felhasználó-hozzárendelés** területet a Partnerközpont Azure- és **felhőalapú termékek oldalon** (alább). Ezután válassza a **Felhasználó hozzárendelése** lehetőséget a kívánt használatalapú előfizetési kedvezmény hozzárendeléséhez. 
 
-   :::image type="content" source="images/benefits/mpn-benefits-azure-cloud-2.png" alt-text="Az Azure- és a felhőalapú termékek lapja, amely a felhasználó-hozzárendelési területet mutatja." border="false":::
+   :::image type="content" source="images/benefits/mpn-benefits-azure-cloud-2.png" alt-text="Azure- és felhőalapú termékek oldal a felhasználó-hozzárendelési területről." border="false":::
 
 - Ha havi 100 DOLLÁRhoz (vagy ezzel egyenértékű helyi pénznemben) rendel hozzá Azure-kreditet, vegye figyelembe, hogy bármikor hozzáadhat vagy eltávolíthat felhasználókat ebből az előfizetésből.
 
@@ -83,40 +83,44 @@ Licencalapú előfizetés aktiválása:
 
 1. Válassza a jobb oldali, Részletek megtekintése **oszlopban** található legördülő nyilat az előfizetéshez. 
 
-1. Olvassa el az utasításokat a következő oldalon. Ha így tesz, többet is tud a kulcsok beváltásról. 
+1. Olvassa el az utasításokat a következő oldalon. Ha így tesz, többet is tud majd a kulcsok beváltásról. 
 
    :::image type="content" source="images/benefits/mpn-benefits-azure-cloud-3.png" alt-text="Az Azure- és a felhőalapú termékek lapja a részletek megtekintésével." border="false":::
 
 
-1. Ha készen áll a kulcs beváltára, válassza a lap alján található Aktiválási útmutató lehetőséget. 
+1. Ha készen áll a kulcs beváltára, válassza az aktiválási útmutató lehetőséget a lap alján. 
    - Ha új előfizetést szeretne aktiválni, vagy a meglévő előfizetése le van tiltva/lejárt, nyisson meg egy privát vagy **inkognitó** böngészőt, majd másolja és illessze be az alábbi hivatkozást, és kövesse az utasításokat:
 
       [https://signup.microsoft.com/productkeystart](https://signup.microsoft.com/productkeystart)
+
+> [!Note]
+> Az Office 365 E3, az Office 365 E5, Enterprise Mobility + Security, Microsoft Intune és Windows 10 Enterprise előnyei már nem részei a kompetencia juttatási csomagoknak. Aktiválhatja az E3 Microsoft 365 vagy Microsoft 365 E5 előnyeit, amelyek a megszűnt önálló juttatási csomagok helyettesítésére használhatók.
+Ha segítségre van szüksége az M365-előnyök telepítéséhez vagy üzembe helyezéséhez, használja a műszaki előnyeit egy műszaki támogatási [jegy útjára.](mpn-benefits-technical-support.md)
       
-   - Ha ki szeretné terjeszteni a záró dátumot, vagy további helyeket/licenceket szeretne hozzáadni egy meglévő előfizetési példányhoz, és be szeretné illeszteni az alábbi hivatkozást egy privát vagy **inkognitó** böngészőablakba, és kövesse az utasításokat:
+   - Ha ki szeretné terjeszteni a záró dátumot, vagy több helyet/licencet szeretne hozzáadni egy meglévő előfizetési példányhoz, és beilleszti az alábbi hivatkozást egy privát vagy **inkognitó** módú böngészőablakba, és kövesse az utasításokat:
  
       [https://admin.microsoft.com/AdminPortal/Home#/subscriptions](https://admin.microsoft.com/AdminPortal/Home#/subscriptions)
 
 > [!Note]
 > A kulcs beváltása után ugyanazt a kulcsot nem lehet másodszor is beváltani. Vegye figyelembe a következő fontos pontokat is:
 >
-> - Ellenőrizze, hogy kell-e további licenceket (férőhelyeket) hozzáadnia, hány licencet kell hozzáadnia, és hogy ki kell-e terjesztenie a záró dátumot. Ha úgy dönt, hogy további licenceket  (helyeket) ad hozzá, és nem hosszabbít meg a záró dátumot, a rendszer 12 hónapnál kevesebb aktív előfizetést biztosít. 
+> - Ellenőrizze, hogy kell-e további licenceket (férőhelyeket) hozzáadnia, hány licencet kell hozzáadnia, és meg kell-e hosszabbítsa-e a záró dátumot. Ha úgy dönt, hogy több licencet  (helyet) ad hozzá, és nem hosszabbít meg a záró dátumot, a rendszer 12 hónapnál kevesebb aktív előfizetést biztosít. 
 >
 > - Győződjön meg arról, hogy a megfelelő hitelesítő adatokkal jelentkezett be, és hogy a kulcsokat a megfelelő Azure Active Directory (AAD) bérlőn aktiválja. Mindig privát/inkognitó módú böngészőablakkal jelentkezzen be, hogy a megfelelő bérlőn aktiválja a kulcsokat.
 >
-> - A Microsoft-előfizetésben Partnerközpont kedvezmény lejárati dátuma azt jelzi, hogy mikor lehet utoljára használati jogokat érvényesni az adott juttatásra. Ez a dátum eltérhet az M365 Felügyeleti központ portálján feltüntetett előfizetés záró dátumtól. Ennek számos oka lehet, például az előnyök aktiválásának dátuma, a kulcshoz társított licencek száma, valamint a felügyeleti portálon hozzáadott vagy kiterjesztett licencek.
+> - A Microsoft-előfizetésben Partnerközpont kedvezmény lejárati dátuma azt jelzi, hogy mikor kell használati jogokat érvényesni az adott juttatásra. Ez a dátum eltérhet az M365 Felügyeleti központ portálján feltüntetett előfizetés záró dátumtól. Ennek számos oka lehet, például az előnyök aktiválásának dátuma, a kulcshoz társított licencek száma, valamint a felügyeleti portálon hozzáadott vagy kiterjesztett licencek.
 
 ## <a name="extend-the-end-date-or-add-more-licenses-to-an-existing-subscription"></a>A záró dátum meghosszabbítása vagy további licencek hozzáadása egy meglévő előfizetéshez
 
 Kövesse az alábbi lépéseket további licencek hozzáadásához vagy egy meglévő előfizetés záró dátumának meghosszabbításához:
 
-1. Másolja és illessze be az alábbi hivatkozást egy **privát vagy inkognitó böngészőablakba.**
+1. Másolja és illessze be az alábbi hivatkozást egy privát vagy **inkognitó módú böngészőablakba.**
 
    [https://admin.microsoft.com/AdminPortal/Home#/subscriptions](https://admin.microsoft.com/AdminPortal/Home#/subscriptions)
 
-1. Az **M365** Felügyeleti központ portálra való bejelentkezve győződjön meg arról, hogy a megfelelő bérlővel Azure Active Directory be. Ezután válassza ki az adott felhőalapú előfizetést a listából, és tegye a következők egyikét (az előfizetés megújításához vagy további licencek hozzáadásához):
+1. Amikor bejelentkezik az **M365** felügyeleti központ portálján, győződjön meg arról, hogy a megfelelő bérlővel Azure Active Directory be. Ezután válassza ki az adott felhőalapú előfizetést a listából, és tegye a következők egyikét (az előfizetés megújításához vagy további licencek hozzáadásához):
 
-   - A meglévő előfizetés megújításához válassza a Licenc terület **Záró** dátumának meghosszabbítása lehetőséget. A záró dátum meghosszabbítása megnöveli az előfizetés időtartamát, miközben a licencek/helyek száma azonos marad. 
+   - A meglévő előfizetés megújításához válassza a Licenc terület **Záró** dátumának meghosszabbítása lehetőséget. A záró dátum meghosszabbítása növeli az előfizetés időtartamát, ugyanakkor a licencek/helyek száma azonos marad. 
 
    - Ha további licenceket (férőhelyeket) szeretne hozzáadni egy meglévő előfizetéshez, válassza a Licencek **hozzáadása** lehetőséget a Licenc területen. Ügyeljen arra, hogy ne válassza a **Licencek hozzáadása lehetőséget,** ha a meglévő előfizetést is meg szeretné újítani. A **Licencek hozzáadása lehetőség kiválasztásával** csökkentheti az előfizetés időtartamát, és növelheti az előfizetésben elérhető licencek számát.
 
@@ -131,7 +135,7 @@ Kövesse az alábbi lépéseket további licencek hozzáadásához vagy egy megl
    > [!NOTE]
    > Minden termékkulcs 12 hónapos szolgáltatást biztosít a felhasználóknak a termékkulcs beváltása után. Ha azonban a meglévő felhasználók korai megújítási dátummal rendelkezik, két dátum lesz átlagban, hogy egyszerűbb legyen az előfizetések kezelése az összes felhasználó számára egyetlen záró dátum alapján. A számítás során nincs idő hozzáadva vagy elveszve. A két dátum átlagának kiszámításához használt számítás a következő:
    >
-   > **Számítás:** \[ A (kezdeti felhasználók) x B (fennmaradó idő az előfizetésben) \+ C (új felhasználók) x (12 hónap) ÷ felhasználók teljes száma = hátralévő \] új idő.
+   > **Számítás:** \[ A (kezdeti felhasználók) x B (fennmaradó idő az előfizetésben) \+ C (új felhasználók) x (12 hónap) ÷ felhasználók teljes száma = hátralévő új \] idő.
 
 ## <a name="activate-a-subscription-for-the-first-time"></a>Előfizetés aktiválása első alkalommal
 
@@ -146,13 +150,13 @@ Ha először aktivál egy előfizetést, kövesse az alábbi lépéseket. Akkor 
 
 1. Adja meg a Partnerközpont 25 számjegyű **kulcsát.**
 
-2. Ellenőrizze a megjelenített termékadatokat, a licencek számát és az előfizetés időtartamát. Ha elkészült, válassza a **Beváltás lehetőséget** az előfizetés aktiválásához.
+2. Ellenőrizze a megjelenített termékadatokat, a licencek számát és az előfizetés időtartamát. Ha készen áll, válassza a **Beváltás lehetőséget** az előfizetés aktiválásához.
 
    Az újonnan aktivált előfizetés  az M365 felügyeleti központ Termékek lapján lesz elérhető.
 
 ## <a name="licensing-scenarios"></a>Licencelési forgatókönyvek
 
-Ez a szakasz néhány minta licencelési forgatókönyvet ismertet az Azure- és felhőtermékekkel társított előfizetések esetében. Ezekben a forgatókönyvekben megtudhatja, hogyan számítja ki a rendszer az előfizetés befejezési dátumát.
+Ez a szakasz néhány minta licencelési forgatókönyvet ismertet az Azure- és felhőalapú termékekhez társított előfizetések esetében. Ezekben a forgatókönyvekben megtudhatja, hogyan számítja ki a rendszer az előfizetés befejezési dátumát.
 
 ### <a name="scenario-1"></a>1\. példa
 
@@ -179,3 +183,5 @@ Ha a záró dátumot egy 3x aktív licencnél/helynél több aktív licenccel/f�
 - További információ a [Microsoft 365 Business Voice-ról](/microsoftteams/business-voice/whats-business-voice)
   
 - További információ a Business Voice ország- és [régiónkénti elérhetőségről](/microsoftteams/business-voice/country-region-availability)
+
+- További információ [a Windows 10 üzembe helyezéséről Microsoft 365](/windows/deployment/deploy-m365)
