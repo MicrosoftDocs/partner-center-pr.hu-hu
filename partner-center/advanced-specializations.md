@@ -9,18 +9,18 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 785bed684e883c19782d820bf2644e050842b54b
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 91c182f2eb42bbe834926c7985d343524305485a
+ms.sourcegitcommit: cc9e47219f6e2cdf77118b5c8986e86ebecfe260
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110150454"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112125922"
 ---
 # <a name="earn-an-advanced-specialization-to-showcase-your-validated-capabilities"></a>Szerezzen egy speciális specializációt az ellenőrzött képességek bemutatásához
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Fiók adminisztrátora
 
-A Microsoft speciális specializációi a partner által megszerezhet kapcsolódó [arany](learn-about-competencies.md) kompetenciákra épülnek. A gold kompetenciák megszerzése és a kapcsolódó speciális specializációk lehetővé teszik a partnerek számára, hogy még jobban megkülönböztetik képességeiket az ügyfelek számára.
+A Microsoft speciális specializációi a partner által megszerezhet kapcsolódó [arany](learn-about-competencies.md) kompetenciákra épülnek. A gold kompetencia megszerzése és a kapcsolódó speciális specializációk lehetővé teszik a partnerek számára, hogy még jobban megkülönböztetik képességeiket az ügyfelek számára.
 
 A fejlett specializáció megszerzéséhez a partnereknek gyakran olyan nagy igényű követelményeknek kell megfelelniük, mint az ügyfélhivatkozások beszerzése, külső auditálás, a megfelelő készségkészlet megszerzésének igazolása, valamint bizonyos egyéb teljesítménymérések kielégítése.
 
@@ -50,6 +50,10 @@ Minden speciális specializáció egy megoldási területnek felel meg:
 - A webalkalmazások modernizálása a Microsoft Azure-ban
 - SAP Microsoft Azure alapokon
 - A Windows Server és az SQL Server migrálása a Microsoft Azure-ba
+- AI és Machine Learning a Microsoft Azure
+- Hibrid felhőalapú infrastruktúra Microsoft Azure Stack HCI-vel
+- Hibrid üzemeltetés és felügyelet a Microsoft Azure Arcgal
+- Microsoft Azure VMware Solution
 
 **Business Applications** speciális specializációk a következők:
 
@@ -67,16 +71,18 @@ Minden speciális specializáció egy megoldási területnek felel meg:
 
 - Identitás- és hozzáférés-kezelés
 - Veszélyforrások elleni védelem
+- Information Protection és irányítás
+- Felhőbiztonság
 
 > [!NOTE]
-> Ha többet szeretne megtudni az egyes speciális specializációkról, valamint az előfeltételeiről és követelményeiről, látogasson el a [Speciális specializációk oldalra.](https://partner.microsoft.com/membership/advanced-specialization) Ha készen áll egy speciális specializációra, a következő irányítópultra bejelentkezve ellenőrizheti Partnerközpont [előrehaladását:](https://partner.microsoft.com/dashboard). A terület eléréséhez szükséges további Partnerközpont speciális specializációra való [jelentkezést.](advanced-specializations-apply.md)
+> Az egyes speciális specializációkról, valamint az előfeltételekről és a követelményekről a [Speciális specializációk oldalon olvashat.](https://partner.microsoft.com/membership/advanced-specialization) Ha készen áll a speciális specializációra való jelentkezésre, a következő irányítópultra bejelentkezve ellenőrizheti Partnerközpont [előrehaladását:](https://partner.microsoft.com/dashboard). Az alkalmazás ezen területének elérésével kapcsolatos további Partnerközpont speciális specializációra való [jelentkezést.](advanced-specializations-apply.md)
 
 ## <a name="next-steps"></a>Következő lépések
 
-- A Partnerközpont a speciális specializációkra való jelentkezéshez és azok állapotának [ellenőrzéshez](advanced-specializations-apply.md)
+- A Partnerközpont a speciális specializációkra való jelentkezéshez és azok [állapotának ellenőrzéshez](advanced-specializations-apply.md)
 
 - További információ a [speciális specializációkról, azok előnyeiről és egyedi követelményeiről](https://partner.microsoft.com/membership/advanced-specialization)
 
-- További információ [a Microsoft silver vagy gold tagsági kompetenciái megszerzéséről](learn-about-competencies.md)
+- További információ [a Microsoft silver vagy gold tagsági kompetenciák megszerzéséről](learn-about-competencies.md)
 
 - További információ a [Microsoft Partner Network kompetenciákról](https://partner.microsoft.com/membership/competencies)

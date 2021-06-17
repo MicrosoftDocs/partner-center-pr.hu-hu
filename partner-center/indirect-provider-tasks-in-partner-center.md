@@ -9,12 +9,12 @@ ms.author: BillLi
 ms.custom: SEOAPR.20
 ms.localizationpriority: medium
 ms.date: 03/23/2021
-ms.openlocfilehash: bd11b65fb1f11839cba50d8bc1da94668009c56c
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: ec673f7dcf620f055be58dc3a333575addcd6cd1
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110146680"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277844"
 ---
 # <a name="partner-with-indirect-resellers-in-the-cloud-solution-provider-program"></a>Partnerkapcsolat kiépítése a közvetett viszonteladókkal a felhőszolgáltatói programban
 
@@ -77,7 +77,7 @@ Az előfizetés részleteinek lapján, a Viszonteladó (MPN-azonosító) mezőbe
     > [!IMPORTANT]  
     >  Szerkesztheti az e-mailben található szöveget, de mindenképpen csatolja a hivatkozást, mivel az a saját fiókjához Partnerközpont meg.
 
-4. Miután a viszonteladó elfogadta a partneri kapcsolatot, megjelenik a közvetett viszonteladók listájában, így:
+4. Miután a viszonteladó elfogadta a partneri kérelmet, megjelenik a közvetett viszonteladók listájában, így:
 
    - Új ügyfelek hozzáadása a nevükben
 
@@ -89,15 +89,15 @@ Az előfizetés részleteinek lapján, a Viszonteladó (MPN-azonosító) mezőbe
 
 Attól függően, hogy milyen szintű hozzáférést és részvételt szeretne a viszonteladónak, az alábbiakban ismertetett műveletek közül egyet vagy többet is végre kell vennie.
 
-Meglévő előfizetések esetén, ha úgy dönt, hogy egy közvetett viszonteladóval dolgozik együtt, frissítheti az előfizetés részleteit, hogy tartalmazza a közvetett viszonteladót.
+Meglévő előfizetések esetén, ha úgy dönt, hogy egy közvetett viszonteladóval dolgozik, frissítheti az előfizetés részleteit, hogy tartalmazza a közvetett viszonteladót.
 
 - Az előfizetés részleteinek lapján, a **Viszonteladó (MPN-azonosító)** mezőben adja hozzá a viszonteladót, akivel dolgozni szeretne. Ez biztosítja, hogy a viszonteladó megkapja a megfelelő ösztönzőket.
 
 | **Ennek megvalósítása** | **Teendő** | **Ahol** |
 |   ------------------   |   -------   |   -----   |
-| Engedélyezheti, hogy a viszonteladó kezelje egy ügyfél fiókját, és rendszergazdai engedélyekkel rendelkezik az előfizetések kezeléséhez | Viszonteladó társítása ügyfélfiókhoz új ügyfél hozzáadásakor | Az Új **ügyfél lapon** |
-| Azure-ügyfél fiókjának kezelése a viszonteladó számára|Viszonteladó társítása Azure-ügyfélfiókhoz új ügyfél hozzáadásakor|Az **Azure szolgáltatási portálon válassza** a [Felhasználói beállítások](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/UserSettings) lehetőséget, hogy a közvetett viszonteladó bérlői tulajdonosának **jogosultságokat** adjon|
-| A viszonteladói kreditek jóváírása ösztönzőkként | A viszonteladó társítása az előfizetéshez (új vagy meglévő) | Az Új **előfizetés lapon** |
+| Engedélyezheti, hogy a viszonteladó kezelje egy ügyfél fiókját, és rendszergazdai engedélyekkel rendelkezik az előfizetések kezeléséhez | Viszonteladó társítása ügyfélfiókhoz új ügyfél hozzáadásakor | Az Új **ügyfél oldalon** |
+| Egy Azure-ügyfél fiókjának kezelése a viszonteladó számára|Viszonteladó társítása Azure-ügyfélfiókhoz új ügyfél hozzáadásakor|Az **Azure szolgáltatási portálon válassza** a [Felhasználói beállítások](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/UserSettings) lehetőséget, hogy a közvetett viszonteladó bérlői **tulajdonosának jogosultságokat adjon**|
+| A viszonteladói kreditek jóváírása ösztönzőkért | A viszonteladó társítása az előfizetéshez (új vagy meglévő) | Az Új **előfizetés lapon** |
 | Adott előfizetések ügyféltámogatásának delegálása a viszonteladónak | Válassza ki a viszonteladót a **Kijelölt támogatási kapcsolattartók listájából** | Az előfizetés részletek lapján: Válassza ki  az ügyfelet az Ügyfelek lapon, majd válassza ki az előfizetést az ügyfél **Előfizetések oldalán** |
 
 ## <a name="remove-partnership-with-indirect-resellers"></a>Partnerkapcsolat eltávolítása közvetett viszonteladókról
@@ -108,7 +108,7 @@ A meglévő közvetett viszonteladóval való partnerkapcsolat eltávolításáh
 
 2. A Közvetett **viszonteladók lapon válassza** a Partner eltávolítása **lehetőséget.** Megjelenik egy üzenet, amely megerősítést kér. A folytatáshoz válassza az **Igen lehetőséget.**
 
-:::image type="content" source="images/ip-ir-relationship.png" alt-text="Partnerkapcsolat eltávolítása":::
+:::image type="content" source="images/ip-ir-relationship.png" alt-text="Partnerkapcsolat eltávolítása.":::
 
 >[!IMPORTANT]
 >A közvetett viszonteladóhoz társított ügyfelek nem lesznek eltávolítva. A megadott delegált rendszergazdai jogosultságok változatlanok maradnak.
@@ -123,13 +123,13 @@ A hozzáférés és a részvétel szintjétől függően előfordulhat, hogy a k
 
 Új ügyfelek esetén fiókokat kell létrehoznia a Partnerközpont. Új ügyfélfiók hozzáadásakor kijelölhet egy adott viszonteladót a fiók kezeléséhez, valamint az ügyfelek előfizetésének és szolgáltatásainak felügyeletéhez a nevükben.
 
-Amikor viszonteladót társít egy új ügyfélfiókhoz, a fiók- és előfizetés-kezelés a viszonteladónak delegál. Ez azt jelenti, hogy a viszonteladó rendszergazdai hozzáféréssel rendelkezik az ügyfél előfizetéséhez és szolgáltatásaihoz, és az ügyfél nevében kezelheti azokat.
+Amikor viszonteladót társít egy új ügyfélfiókhoz, a fiók- és előfizetés-kezeléseket a viszonteladónak delegálja. Ez azt jelenti, hogy a viszonteladó rendszergazdai hozzáféréssel rendelkezik az ügyfél előfizetéséhez és szolgáltatásaihoz, és az ügyfél nevében kezelheti azokat.
 
 ### <a name="add-new-customers-and-associate-them-with-indirect-resellers"></a>Új ügyfelek hozzáadása és társítása közvetett viszonteladókhoz
 
 1. Válassza **a Közvetett viszonteladók lehetőséget** a **Partnerközpont** menüben.
 
-2. Keresse meg azt a közvetett viszonteladót, akihez új ügyfeleket szeretne hozzárendelni, majd válassza az **Új ügyfél hozzáadása lehetőséget.** Vegye figyelembe, hogy a közvetett viszonteladó már ki van választva az ügyféladatok űrlapon. Adja meg az ügyfél adatait, majd válassza a **Tovább: Előfizetések lehetőséget.**
+2. Keresse meg azt a közvetett viszonteladót, akihez új ügyfeleket szeretne hozzárendelni, majd válassza az **Új ügyfél hozzáadása lehetőséget.** Vegye figyelembe, hogy a közvetett viszonteladó már ki van választva az ügyféladatok űrlapon. Adja meg az ügyfél adatait, majd válassza **a Tovább: Előfizetések lehetőséget.**
 
 3. Az Új **előfizetés lapon** válassza ki az ügyfél által megvásárolni kívánt előfizetés(ök)et, majd adja meg az ügyfél számára szükséges licencek számát.
 
@@ -137,16 +137,16 @@ Amikor viszonteladót társít egy új ügyfélfiókhoz, a fiók- és előfizet�
 
 5. Ha a rendelés helyes, válassza a **Küldés lehetőséget.** Ha a rendelés helytelen, kattintson a **Mégse gombra** a teljes művelet megszakítása és az újrakezdés érdekében.
 
-6. A rendelés elküldése után megjelenik a **Megerősítés** oldal. A **Beállítási adatok** alatt megjelenik a rendszergazdai felhasználói fiók neve és az ideiglenes jelszó. Másolja le a felhasználói fiók nevét és jelszavát, hogy elküldheti az új ügyfélnek.
+6. A rendelés elküldése után megjelenik a **Megerősítés** lap. A **Beállítási adatok** alatt megjelenik a rendszergazdai felhasználói fiók neve és az ideiglenes jelszó. Másolja le a felhasználói fiók nevét és jelszavát, hogy elküldheti az új ügyfélnek.
 
     > [!IMPORTANT]  
-    > Jegyezze fel a felhasználói fiók nevét és jelszavát, mivel az oldal bezárása után már nem férhet hozzá ezekhez az információkhoz.
+    > Jegyezze fel a felhasználói fiók nevét és jelszavát, mivel az oldal bezárása után már nem férhet hozzá ezekhez az adatokhoz.
 
 7. Válassza a **Kész** lehetőséget. Az új ügyfél megjelenik az Ügyféllistában, amely a közvetett viszonteladóhoz van társítva. A viszonteladó most már rendszergazdai hozzáféréssel rendelkezik az ügyfél fiókinformációihoz és előfizetéséhez, és kezelheti az előfizetéseket az ügyfél nevében.
 
 ### <a name="add-new-subscriptions-to-customer-accounts"></a>Új előfizetések hozzáadása ügyfélfiókhoz
 
-Ha az ügyfelek új előfizetéseket, meglévőket vagy további licenceket szeretnék vásárolni, ezeket a módosításokat az ügyfél fiókjában, a portálon Microsoft 365 el. Ezt a következőben nem Azure Portal.
+Ha az ügyfelek új előfizetéseket szeretne vásárolni, frissíteni szeretnék a meglévőket, vagy további licenceket vásárolnak, ezeket a módosításokat az ügyfél fiókjában kell Microsoft 365 portálon. Ezt a következőben nem Azure Portal.
 
 1. Válassza **az Ügyfelek** lehetőséget a **Partnerközpont** menüben.
 

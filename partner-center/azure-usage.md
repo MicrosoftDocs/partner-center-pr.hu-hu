@@ -9,12 +9,12 @@ ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOJULY.20
 ms.date: 08/06/2020
-ms.openlocfilehash: 14d488091227e30909b3d41af0684494a8b55de7
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 2d8bc76e0da51abf433e49028445b398c6a1db31
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110149451"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276994"
 ---
 # <a name="microsoft-azure-vm-sizing-for-maximum-reservation-usage"></a>Microsoft Azure-beli virtuális gép méretezése a maximális foglalási kihasználtsághoz
 
@@ -56,40 +56,40 @@ Az egyes módszerek használatának utasításai alább olvashatók. A foglalás
 
 3. A **portál menüjében** válassza a Virtuális gépek lehetőséget, majd válassza ki azt a virtuális gépet, amelyhez foglalást szeretne vásárolni.
 
-4. A virtuális gép részletek lapján keresse meg a méretet és a régiót az alább látható módon, és ezen információk alapján vásárolja meg a foglalást a Partnerközpont.  
+4. A virtuális gép részletek lapján keresse meg a méretre és a régióra vonatkozó információkat az alább látható módon, és használja ezeket az információkat a foglalás megvásárlásához a Partnerközpont.  
 
-   :::image type="content" source="images/usage1.png" alt-text="Méret- és régióinformációk a részletek oldalán":::
+   :::image type="content" source="images/usage1.png" alt-text="Méret- és régióinformációk a részletek oldalán.":::
 
 ### <a name="get-vm-sizing-information-using-microsoft-azure-powershell"></a>Virtuális gép méretezési információinak lekért Microsoft Azure PowerShell
 
 Az alábbi képen látható információk alapján le tudja szerezni annak a virtuális gépnek a helyét és méretét, amelyhez foglalást szeretne vásárolni. 
 
-:::image type="content" source="images/usage2.png" alt-text="Virtuális gép helye és mérete":::
+:::image type="content" source="images/usage2.png" alt-text="A virtuális gép helye és mérete.":::
 
-### <a name="get-vm-sizing-information-using-the-azure-resource-manager-arm-api"></a>Virtuális gépek méretezési információinak lekérte az Azure Resource Manager (ARM) API-val
+### <a name="get-vm-sizing-information-using-the-azure-resource-manager-arm-api"></a>Virtuális gépek méretezési információinak le Azure Resource Manager (ARM) API-val
 
 1. Az ARMClient vagy az ARM API-k használatával hívja meg az ARM-ügyfelet ahhoz a virtuális géphez, amelyhez foglalást szeretne vásárolni.
 
 2. /subscriptions/ <Subscription ID> /resourceGroups/ <Resource group name> /providers/Microsoft.Compute/virtualMachines/ <VM Instance Name> ?api-version=2017-12-01
 
-3. A hívás visszaadja a **vmSize** és **a location** értékeit az alább látható módon.
+3. A hívás visszaadja a **vmSize** és **a hely** értékeit az alább látható módon.
 
-    :::image type="content" source="images/usage3.png" alt-text="vmSize value":::
-    :::image type="content" source="images/usage4.png" alt-text="hely értéke":::
+    :::image type="content" source="images/usage3.png" alt-text="vmSize value.":::
+    :::image type="content" source="images/usage4.png" alt-text="hely értéke.":::
 
-## <a name="verify-azure-vm-usage-and-reservation-discount"></a>Azure-beli virtuális gépek használatának és foglalási kedvezményének ellenőrzése
+## <a name="verify-azure-vm-usage-and-reservation-discount"></a>Azure-beli virtuális gép használatának és foglalási kedvezményének ellenőrzése
 
-Miután megvásárolt egy Azure-beli fenntartott virtuálisgép-példányt egy ügyfél nevében, a virtuálisgép-területért előre fizetett kedvezmény automatikusan alkalmazva lesz az ügyfél foglalásának attribútumainak és mennyiségének megfelelő virtuális gépekre.
+Miután megvásárolt egy Azure-beli fenntartott virtuálisgép-példányt egy ügyfél nevében, a rendszer automatikusan alkalmazza a virtuálisgép-területért előre fizetett kedvezményt az ügyfél foglalásának attribútumainak és mennyiségének megfelelő virtuális gépekre.
 
-Az alábbi módszerek egyikével ellenőrizheti az ügyfél foglaláshasználatát, és láthatja, hogy mely virtuális gépekre vonatkoznak a foglalási kedvezmények:
+Az alábbi módszerek egyikével ellenőrizheti az ügyfél foglalási használatát, és láthatja, hogy mely virtuális gépekre vonatkoznak a foglalási kedvezmények:
 
 - Azure Portal
 - Azure-kihasználtsági API
 
-Az alábbiakban az egyes metódusok használatának utasításait olvashatja.
+Az egyes módszerek használatának utasításai alább olvashatók.
 
 >[!NOTE]
->Csak az Azure utilization API mutatja meg, hogy a kedvezmény melyik virtuális gépre vonatkozik.  
+>Csak az Azure utilization API mutatja meg, hogy melyik virtuális gépre vonatkozik a kedvezmény.  
 
 ### <a name="verify-the-customers-reservation-usage-in-the-microsoft-azure-portal"></a>Ellenőrizze az ügyfél foglalási használatát a Microsoft Azure Portal
 
@@ -115,7 +115,7 @@ Az alábbiakban az egyes metódusok használatának utasításait olvashatja.
 
 Az Azure utilization API-val lekért foglalási használati adatok segítségével ellenőrizheti, hogy az ügyfél kap-e foglalási kedvezményt, és hogy mely virtuális gépekre (virtuális gépekre) érvényes a kedvezmény. Hasonlítsa össze az A példát a B példával, és tekintse meg, hogyan ellenőrizhető egy ügyfél foglalási kihasználtsága.
 
-:::image type="content" source="images/usage5.png" alt-text="Foglaláshasználati példák":::
+:::image type="content" source="images/usage5.png" alt-text="Foglaláshasználati példák.":::
 
 - A reservationId azonosítja a kedvezmény virtuális gépre való alkalmazáshoz használt Azure-foglalást.
 - A consumptionMeter annak a virtuális gépnek a MeterId-e, amely a foglalási kedvezményt alkalmazza rá.
@@ -124,16 +124,16 @@ Az Azure utilization API-val lekért foglalási használati adatok segítségév
 További információkért lásd [az](/partner-center/develop/get-a-customer-s-utilization-record-for-azure) ügyfél Azure-beli kihasználtsági rekordjainak le Partnerközpont [API-ban.](/partner-center/develop/)
 
 >[!IMPORTANT]
->A szoftverköltségek, például a Microsoft Windows Server, jelenleg nem szerepelnek a virtuálisgép-foglalások árában, és külön sorelemekként jelennek meg a rendelési rekordban és a számlán. Ha azonban az ügyfél rendelkezik az Azure Hybrid Use Benefit kedvezményével, a szoftverköltségek nem lesznek alkalmazva. További információ: A Fenntartott példányok által nem [tartalmazott Windows-szoftverköltségek.](/azure/billing/billing-reserved-instance-windows-software-costs)  
+>A szoftverköltségek, például a Microsoft Windows Server, jelenleg nem szerepelnek a virtuálisgép-foglalások árában, és külön sorelemekként jelennek meg a rendelési rekordban és a számlán. Ha azonban egy ügyfél rendelkezik az Azure Hybrid Use Benefit kedvezményével, a szoftverköltségek nem lesznek alkalmazva. További információ: A Fenntartott példányok által nem [tartalmazott Windows-szoftverköltségek.](/azure/billing/billing-reserved-instance-windows-software-costs)  
 
 ## <a name="next-steps"></a>Következő lépések
 
 |**További információ:**   |**Olvassa el ezt**    |
 |:-----------------------------|:-----------------|
-|Azure Reservations a CSP-ban – áttekintés  | [Fenntartott Microsoft Azure-példányok eladása](azure-reservations.md)
+|Azure Reservations a CSP-ban – áttekintés  | [Fenntartott Microsoft Azure példányok eladása](azure-reservations.md)
 |Azure-foglalások vásárlása az ügyfelek számára Partnerközpont   | [Azure Reservations vásárlása](azure-reservations-buying.md)
 |Azure Reservations kezelése a Partnerközpont | [Azure Reservations kezelése a Partnerközpont](azure-reservations-manage.md)
-|Azure Reservations vásárlása a Azure Portal | [Előre fizetés az Azure Azure Reserved VM Instances](/azure/virtual-machines/windows/prepay-reserved-vm-instances) virtuális gépekért |
-|Azure Reservations kezelése a Azure Portal   | [Fenntartott virtuálisgép-példányok kezelése](/azure/billing/billing-manage-reserved-vm-instance) az Azure Súgóban  |
-|Azure-foglalások vásárlása a Partnerközpont API-val | [Vásárlás Azure Reserved VM Instances](/partner-center/develop/purchase-azure-reservations) a Partnerközpont fejlesztői dokumentációjában   |
-|Engedélyt ad az ügyfeleknek arra, hogy megvásárolják a saját Azure-foglalásukat a számukra megvásárolt előfizetésből. | [Engedélyt adhat az ügyfeleknek a saját Azure-foglalásaik vásárlásra](give-customers-permission.md)   |
+|Azure Reservations vásárlása a Azure Portal | [Előre fizetés azure-Azure Reserved VM Instances](/azure/virtual-machines/windows/prepay-reserved-vm-instances) virtuális gépekért |
+|Azure Reservations kezelése a Azure Portal   | [Fenntartott virtuálisgép-példányok kezelése](/azure/billing/billing-manage-reserved-vm-instance) az Azure súgóban  |
+|Azure Reservations vásárlása az Partnerközpont API-val | [Vásárlási Azure Reserved VM Instances](/partner-center/develop/purchase-azure-reservations) az Partnerközpont fejlesztői dokumentációjában   |
+|Engedélyt ad az ügyfeleknek arra, hogy megvásárolják saját Azure-foglalásukat egy számukra megvásárolt előfizetésből. | [Engedélyt adhat az ügyfeleknek a saját Azure-foglalásaik vásárlásra](give-customers-permission.md)   |

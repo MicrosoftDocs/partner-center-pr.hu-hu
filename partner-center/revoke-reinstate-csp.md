@@ -9,18 +9,18 @@ author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 90c8f413398fcb9f65f7fef402a1cdcd092abbc4
-ms.sourcegitcommit: 212471150efc8fd2c30023bc6a981a7e052e79ef
+ms.openlocfilehash: 81df7578f7f15def64a3c20b15f95f3b89a28d1c
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112025955"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277776"
 ---
 # <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszahelyezése egy ügyfél Azure CSP előfizetéséhez  
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
-CSP-partnerként az ügyfelek gyakran elvárják, hogy Ön kezelje az Azure-használatot és azok rendszereit a számukra. Erre rendszergazdai jogosultsággal kell rendelkezik. Bizonyos jogosultságok akkor kapnak, ha a viszonteladói kapcsolat létrejött az ügyféllel. Az ügyfél másokat is ad Önnek.
+CSP-partnerként az ügyfelek gyakran elvárják, hogy Ön kezelje az Azure-használatot és azok rendszereit a számukra. Erre rendszergazdai jogosultsággal kell rendelkezik. Bizonyos jogosultságok akkor kapnak, amikor létrejön a viszonteladói kapcsolat az ügyféllel. Az ügyfél másokat is ad Önnek.
 
 ## <a name="admin-privileges-for-azure-in-csp"></a>Rendszergazdai jogosultságok a Azure in CSP
 
@@ -33,15 +33,15 @@ A rendszergazdai jogosultságoknak két szintje van a Azure in CSP.
 
 Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha az AdminAgents csoport tagjait adja `object ID` meg az ügyfélnek. A delegált rendszergazdai jogosultságok visszaszerzése érdekében az alábbi lépésekkel együtt kell működnie az ügyféllel.
 
-1. Jelentkezzen be a Partnerközpont irányítópultjára.
+1. Jelentkezzen be az Partnerközpont irányítópultjára.
 
 2. A Partnerközpont válassza az Ügyfelek **lehetőséget.**
 
-3. Válassza ki azt az ügyfelet, akinél dolgozik, és **igényeljön viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
+3. Válassza ki azt az ügyfelet, akinél dolgozik, és **kérjen viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
 
 4. Az ügyfélnek ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolatkérést.
 
-   :::image type="content" source="images/azure/revoke4.png" alt-text="Példa e-mailben viszonteladói kapcsolat létrehozására":::
+   :::image type="content" source="images/azure/revoke4.png" alt-text="E-mailes példa viszonteladói kapcsolat létrehozására.":::
 
 5. Önnek, a partnernek csatlakoznia kell a partnerbérlőhöz, hogy le tudja szerezni az AdminAgents csoport objektumazonosítóját.
   
@@ -54,7 +54,7 @@ Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha az AdminA
 6. Az ügyfélnek ezután a következő lépéseket kell megtennie a PowerShell vagy az Azure CLI használatával. Az ügyfélnek a következővel kell lennie:
 
 - A tulajdonosi **vagy felhasználói** **hozzáférés rendszergazdájának szerepköre** 
-- Szerepkör-hozzárendelések előfizetési szinten való létrehozására vonatkozó engedélyek
+- Szerepkör-hozzárendelések előfizetési szinten való létrehozásához szükséges engedélyek
 
    a. Csak PowerShell esetén az ügyfélnek frissítenie kell a `Az.Resources` modult.
    ```powershell

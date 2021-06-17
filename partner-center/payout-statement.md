@@ -7,21 +7,21 @@ ms.topic: article
 author: eunjkim520
 ms.author: eunjkim
 ms.date: 3/22/2021
-ms.openlocfilehash: 4e9ab721fe356dbcdff7316a5ed5b52c81f2d4eb
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: dc0c720544f4a8a3c95e5b91ec656e65dbce7c80
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110152596"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276110"
 ---
 # <a name="payout-statements"></a>Kifizetési utasítások
 
 **Megfelelő szerepkörök:** Fiók-rendszergazdai | Globális rendszergazda
 
-A **Kifizetési kimutatás** áttekintést nyújt a kereskedelmi piactéren keresztül értékesített ajánlatok kifizetéseiről. Megjeleníti a bevételek tranzakciós előzményeit, becslést ad a következő kifizetésre, és megjeleníti a fizetési trendeket. A tranzakciós előzményeket és a fizetési kimutatásokat is letöltheti. Ez a cikk azt ismerteti, hogyan férhet hozzá a kifizetési kimutatáshoz, valamint a különböző kifizetési oldalakhoz és letöltéshez, amelyek a Partnerközpont.
+A **Kifizetési kimutatás** áttekintést nyújt a kereskedelmi piactéren értékesített ajánlatok kifizetéseiről. Megjeleníti a bevételek tranzakciós előzményeit, becslést ad a következő kifizetésre, és megjeleníti a fizetési trendeket. A tranzakciós előzményeket és a fizetési kimutatásokat is letöltheti. Ez a cikk azt ismerteti, hogyan férhet hozzá a kifizetési kimutatáshoz, valamint a különböző kifizetési oldalakhoz és letöltésekhez, amelyek a Partnerközpont.
 
 >[!NOTE]
->Csak a társított MPN-adatokat és -programokat fogja látni. Ha további adatokat szeretne látni, forduljon a fiókad rendszergazdájához az engedélyekért. 
+>Csak a társított MPN-adatokat és -programokat fogja látni. Ha további adatokat szeretne látni, az engedélyekért forduljon a fiókad rendszergazdájához. 
 
 ## <a name="roles-and-permissions"></a>Szerepkörök és engedélyek
 
@@ -40,43 +40,43 @@ Egy kifizetési kimutatás eléréséhez a Fióktulajdonos  vagy a Pénzügyi k�
 
 ## <a name="access-your-payout-statement"></a>Hozzáférés a kifizetési kimutatáshoz
 
-Jelentkezzen be a [Partnerközpont,](https://partner.microsoft.com/dashboard/home) és válassza a képernyő jobb felső sarkában található kifizetés ikont a különböző összegzések eléréséhez:
+Jelentkezzen be a [Partnerközpont,](https://partner.microsoft.com/dashboard/home) és válassza a képernyő jobb felső sarkában található kifizetési ikont a különböző összegzések eléréséhez:
 
-- Tranzakcióelőzmények
+- Tranzakciós előzmények
 - Kifizetések
 - Adatok exportálása
 
-:::image type="content" source="images/payouts/payout-overview.png" alt-text="A portál jobb felső sarkában található Kifizetés ikont Partnerközpont ábrázolja":::
+:::image type="content" source="images/payouts/payout-overview.png" alt-text="A jobb felső sarokban található Kifizetés ikont mutatja Partnerközpont portálon.":::
 
-A Partner Payout [API-val](https://apidocs.microsoft.com/services/partnerpayouts) közvetlenül is csatlakozhat a kifizetési tranzakciókhoz és a fizetési adatokhoz, és beszerezheti őket.
+A Partner [Payout API-val](https://apidocs.microsoft.com/services/partnerpayouts) közvetlenül is csatlakozhat a kifizetési tranzakciókhoz és a fizetési adatokhoz, és beszerezheti őket.
 
 
-## <a name="transaction-history"></a>Tranzakcióelőzmények
+## <a name="transaction-history"></a>Tranzakciós előzmények
 
-A **Tranzakciós előzmények** oldalon megjelenik a bevételek összegzése, a becsült következő kifizetés, valamint a bevételek és kifizetések trendje az elmúlt 36 hónapra. A tranzakció részleteit ebből a szakaszból is letöltheti.<br><br>Ez a jelentés a kifizetésre jogosult összes bevételt megjeleníti, a még el nem küldött kifizetéseket is beleértve. A bevételek akkor jogosultak kifizetésre, ha egy isv az Partnerközpont összes banki és adóinformációját kitöltötte, >50 usd-t keresett, az ISV-fiók aktív, az ügyfél számlázása (NAGYvállalati tranzakciók esetén) vagy a kifizetés fogadása (nem EA-tranzakciók esetén).
+A **Tranzakciós előzmények** oldalon megjelenik a bevételek összegzése, a becsült következő kifizetés, valamint az elmúlt 36 hónap bevételi és kifizetési trendje. A tranzakció részleteit ebből a szakaszból is letöltheti.<br><br>Ez a jelentés a kifizetésre jogosult összes bevételt megjeleníti, a még el nem küldött kifizetéseket is beleértve. A bevételek akkor jogosultak kifizetésre, ha egy isV az Partnerközpont összes banki és adóinformációját kitöltötte, >50 usd-t keresett, az ISV-fiók aktív, az ügyfelet számlázták (NAGYvállalati tranzakciók esetén), vagy megkapták a kifizetést (nem EA-tranzakciók esetén).
 
 :::image type="content" source="images/payouts/transaction-overview.png" alt-text="Tranzakció áttekintése.":::
 
-- **Idei elküldött bevételek** – Az összes bevétel és a bevételek lebontása, amelyek kifizetése és kifizetése a következő hónapban várható.
-- **Becsült kifizetési hónap** – Az összes várható bevétel a következő hónapokban.
+- **Az idei év bevételei** – A kifizetett és a következő hónapban kifizetett bevételek teljes összege és lebontása.
+- **Becsült kifizetési hónap** – A következő hónapokban várható összes bevétel.
 - **Bevételek és kifizetési trend** – Havi bevétel és kifizetés összege az elmúlt 36 hónapra.
-- **Letöltés** – Tranzakció részleteinek letöltése .csv vagy .tsv formátumban.
+- **Letöltés** – Tranzakció részleteinek letöltése .csv .tsv formátumban.
 
-Az oldal jobb felső sarkában található dátumtartomány-kijelölés használatával szűrheti az oldal kimenetét az elmúlt 3, 6, 12 vagy 36 hónapra. Vagy válasszon ki egy legfeljebb 36 hónapos egyéni dátumtartományt. Az alapértelmezett dátumtartomány 12 hónap. Szűrhet a regisztrációs azonosító, a program, a fizetési azonosító, a bevétel típusa, a mozgató és az állapot alapján is. Az adatok az aktuális pénzügyi évre (július 1. – június 30.) és az azt megelőző két pénzügyi évre érhetők el.
+Az oldal jobb felső sarkában található dátumtartomány kiválasztásával szűrheti az oldal kimenetét az elmúlt 3, 6, 12 vagy 36 hónapra. Vagy válasszon ki egy egyéni dátumtartományt, amely legfeljebb 36 hónap lehet. Az alapértelmezett dátumtartomány 12 hónap. Szűrhet a regisztrációs azonosító, a program, a fizetési azonosító, a bevétel típusa, a mozgató és az állapot alapján is. Az adatok az aktuális pénzügyi évre (július 1- június 30.) és az azt megelőző két pénzügyi évre érhetők el.
 
 :::image type="content" source="images/payouts/search-filter.png" alt-text="A keresési szűrő az oldal jobb felső részen található.":::
 
-A bevételről további részleteket az oldal jobb oldalán található lefelé mutató nyílra kattintva talál. Ha így tesz, megjelenik a mozgató, a bevétel összege, a termék és az ügyfél. Ha ezek az adatok valamilyen okból nem érhetők el, de hozzáférésre van szüksége, forduljon az ügyfélszolgálathoz. Ha a bevétel egy módosítás eredménye, és nem tranzakció, akkor a Product és a Customer mezők nem jelennek meg.
+A bevételről további részleteket az oldal jobb oldalán található lefelé mutató nyílra kattintva talál. Ez megjeleníti a mozgatókart, a bevételi összeget, a terméket és az ügyfelet. Ha ezek az adatok valamilyen okból nem érhetők el, de hozzáférésre van szüksége, forduljon az ügyfélszolgálathoz. Ha a bevétel egy módosítás eredménye, és nem tranzakció, akkor a Product és a Customer mezők nem jelennek meg.
 
 ### <a name="transaction-history-summary"></a>Tranzakcióelőzmények összegzése
 
-Ez a nézet a bevétel részleteit jeleníti meg, beleértve az eladott bevételi dátumok, az állapot és a becsült kifizetési hónap bevételének forrását.
+Ez a nézet a bevétel részleteit jeleníti meg, beleértve az eladott termékből származó bevétel eredetét, a bevétel dátumát, az állapotot és a becsült kifizetési hónapot.
 
 :::image type="content" source="images/payouts/transaction-history.png" alt-text="Tranzakcióelőzmények.":::
 
 - **Megszerzett érték** – A vásárlás dátuma.
 - **Bevételi típus** – A bevétel típusa, például értékesítés, értékesítés vagy együttműködés.
-- **Teljes összeg** – A nettó bevétel összege. A kereskedelmi piactéren ez a standard Marketplace-díj levonása után jelent.
+- **Teljes összeg** – A nettó bevétel összege. A kereskedelmi piactéren ez a standard Marketplace-díj levonása után van meg.
 - **Állapot** – Három lehetőség közül választhat:
     - **Közelgő** – A bevételek hűtési időszakra vannak függőben.
     - **Feldolgozott –** A bevételek elő vannak készítve a következő kifizetésre.
@@ -87,11 +87,11 @@ A bevételi tranzakciók akkor jelennek meg, ha a tranzakció megfelel a kifizet
 
 #### <a name="estimated-payment-month"></a>Becsült fizetési hónap
 
-A Tranzakcióelőzmények oldal mostantól tartalmaz egy táblázatot, amely a következő néhány hónap becsült kifizetésének összegét mutatja. Ezt az információt a Tranzakcióelőzmények és az Összefoglalás jelentés exportálási táblázatában is megtekintheti és letöltheti. Ezek az információk megkönnyítik az egyeztetéseket és a fizetési előrejelzéseket.
+A Tranzakcióelőzmények oldal mostantól tartalmaz egy táblázatot, amely a következő néhány hónap becsült kifizetésének összegét mutatja. Ezt az információt a Tranzakcióelőzmények és az Összefoglalás jelentés exportálása oldalon is megtekintheti és letöltheti. Ezek az információk megkönnyítik az egyeztetéseket és a fizetési előrejelzéseket.
 
-A becsült fizetési hónap számítása programkonfigurációs szabályok és ütemtervek alapján történik, és a következő/jövőbeli fizetési ciklusban lesz feldolgozva.
+A becsült fizetési hónap kiszámítása programkonfigurációs szabályok és ütemtervek alapján történik, és a következő/jövőbeli fizetési ciklusban lesz feldolgozva.
 
-A becsült kifizetési hónap jelenleg az együttműködési lehetőség kivételével minden bevételi típushoz elérhető, amely **Nem alkalmazható értékként jelenik meg.** A 2020. július 1. előtti bevételek esetén a Becsült fizetési hónap Nem **érhető el értékként jelenik meg.**
+A becsült kifizetési hónap jelenleg minden bevételi típushoz elérhető, kivéve az együttműködési módot, amely Nem **alkalmazható értékként jelenik meg.** A 2020. július 1. előtti bevételek esetén a Becsült fizetési hónap Nem **érhető el értékként jelenik meg.**
 
 Az alábbi táblázat egy becsült fizetési hónapra mutat példát.
 
@@ -104,11 +104,11 @@ Az alábbi táblázat egy becsült fizetési hónapra mutat példát.
 A becsült összeg több okból is eltérhet a tényleges összegtől:
 
 - Bevétel újraszámítása: A bevételek újraszámítása esetén a tényleges összeg eltérő lesz
-- Helyesbítések: A tényleges összeg az eltért vagy elküldött módosításoktól függően változik.
+- Módosítások: A tényleges összeg a bekövetkezett vagy elküldött módosításoktól függően változik.
 - Szabályok módosítása: A szabályok módosítása tükrözheti a ténylegesen kifizetett összeg újraszámítását
-- Kötelezettség: Fizetési hiba esetén a tényleges összeg eltérő lehet
+- Kötelezettségek: Fizetési hiba esetén a tényleges összeg eltérő lehet
 
-Vegye figyelembe, hogy a kifizetése csak a tervezett hónapban szabadul fel, ha a program küszöbértéke és a kifizetések jogosultsági szabályai teljesülnek. Ezek a szabályok többek között az alábbi listára korlátozódnak:
+Vegye figyelembe, hogy a kifizetése csak a tervezett hónapban szabadul fel, ha a program küszöbértéke és a kifizetési jogosultsági szabályok teljesülnek. Ezek a szabályok többek között az alábbi listára korlátozódnak:
 
 - Az adóprofilnak naprakésznek kell lennie
 - A bevételeknek meg kell felelnie a program útmutatójában meghatározott minimális bevételi küszöbértéknek, vagy meg kell haladni azt.
@@ -117,7 +117,7 @@ Vegye figyelembe, hogy a kifizetése csak a tervezett hónapban szabadul fel, ha
 
 ### <a name="transaction-history-download"></a>Tranzakciós előzmények letöltése
 
-A bevételről további részleteket az **oldal** tetején található Letöltés lehetőséget választva talál. Az alábbi táblázat ismerteti a jelentés egyes oszlopát.
+A bevételről további részleteket az **oldal** tetején található Letöltés lehetőséget választva talál. Az alábbi táblázat ismerteti a jelentés egyes oszlopokat.
 
 >[!NOTE]
 >A Tranzakciós előzmények letöltési exportálása 2020 augusztusában két új mezőt tartalmaz:
@@ -134,18 +134,18 @@ A bevételről további részleteket az **oldal** tetején található Letölté
 | claimId (jogcímazonosító) | Jogcím egyedi azonosítója | Ösztönzők – csak néhány program |
 | customerCountry (ügyfél országa) | Ügyfél országa/régiója | Piacokon |
 | customerEmail |  |  |
-| customerName (ügyfél neve) | Lehet, hogy üres | Csak ösztönzőprogramok (kivétel: OEM) és piacterek. CSP-tranzakciók esetén a piacterek a CSP nevét fogják mutatni |
+| customerName (ügyfél neve) | Üres lehet | Csak ösztönzőprogramok (kivétel: OEM) és piacterek. CSP-tranzakciók esetén a piacterek a CSP nevét fogják mutatni |
 | customerTenantId (customerTenantId) |  |  |
-| distributorId (terjesztőazonosító) | Terjesztő azonosítója | Ösztönzők – csak néhány program |
+| distributorId (forgalmazói azonosító) | Terjesztő azonosítója | Ösztönzők – csak néhány program |
 | distributorName (forgalmazó neve) | Terjesztő neve | Ösztönzők – csak néhány program |
 | earningAmount | Bevételi összeg az eredeti tranzakció pénznemében | Mind |
 | earningAmountInLastPaymentCurrency | Bevételi összeg az utolsó fizetési pénznemben (a mező üres lesz, ha nem fizették ki a korábbi kifizetéseket) |  |
 | earningAmountUSD | Bevétel USD-ben | Mind |
 | earningDate (bevételidátum) | A bevétel dátuma | Mind |
-| earningExchangeRate | A megfelelő USD összegének megjelenítése az átváltási árfolyam alapján | Mind |
+| earningExchangeRate | A megfelelő USD-összegre vonatkozó árfolyam | Mind |
 | earningId (bevételazonosító) | Az egyes bevételi pontok egyedi azonosítója | Mind |
 | earningRate (bevételi arány) | A bevételt generáló tranzakció összegére alkalmazott ösztönzők aránya | Mind |
-| earningType (bevétel típusa) | Jelzi, hogy díjról, ingatlanról, együttműködésről, értékesítésről és így tovább | Mind |
+| earningType (bevétel típusa) | Jelzi, hogy díjról, költségről, együttműködésről, értékesítésről és így tovább | Mind |
 | exchangeRateDate | A EarningAmount USD kiszámításához használt árfolyamdátum | Mind |
 | externalReferenceId (externalReferenceId) | A program egyedi azonosítója | Közvetlen fizetéses programok (ösztönzők és piacterek) |
 | externalReferenceIdLabel | Egyedi azonosítócímke | Közvetlen fizetéses programok (ösztönzők és piacterek) |
@@ -155,16 +155,16 @@ A bevételről további részleteket az **oldal** tetején található Letölté
 | lastPaymentCurrency (lastPaymentCurrency) | Utolsó fizetési pénznem (a mező üres lesz, ha még nem fizették ki) |  |
 | Kar | A bevétel üzleti szabályát jelzi | Mind |
 | LicensingProgramName (Licencprogram neve) | A licencprogram neve |  |
-| LineItemId (Sorazonosító) | Egyedi sor az ügyfél számlájában |  |
+| LineItemId (Sortemazonosító) | Egyedi sor az ügyfél számlájában |  |
 | localProviderSeller | Helyi szolgáltató/rekord értékesítője |  |
 | Esedékesség hónapja | A becsült fizetési hónap | Mind |
 | OrderId | Az ügyfél számlájához kapcsolódik  | Piacokon |
-| parentProductId (parentProductId) | A szülőtermék egyedi azonosítója. Ha nincs szülőtermék a tranzakcióhoz, akkor a Szülő termék azonosítója = Termékazonosító. | Piacokon |
-| parentProductName (parentProductName) | A szülőtermék neve. Ha nincs szülőtermék a tranzakcióhoz, akkor a Szülőtermék neve = Terméknév. | Piacokon |
-| résztvevő-azonosító | A program keretében bevételt kapó partner elsődleges identitása | Mind |
+| parentProductId (szülőtermékazonosító) | Egyedi szülőtermék-azonosító. Ha a tranzakciónak nincs szülőterméke, akkor a szülőtermék azonosítója = Termékazonosító. | Piacokon |
+| parentProductName (parentProductName) | A szülőtermék neve. Ha nincs szülőtermék a tranzakcióhoz, akkor a Szülő termék neve = Terméknév. | Piacokon |
+| résztvevőazonosító | A program keretében bevételt szerező partner elsődleges identitása | Mind |
 | participantIdType (résztvevőazonosító típusa) | Többnyire az ösztönzőprogramok programazonosítója és a piacterek Értékesítői IF azonosítója | Mind |
-| résztvevő neve | A bevételt kereső partner neve | Mind |
-| partnerCountryCode | A bevételt kereső partner helye/országa/régiója | Mind |
+| résztvevő neve | A bevételi partner neve | Mind |
+| partnerCountryCode | A bevételi partner helye/országa/régiója | Mind |
 | partNumber | Mindig üres lesz | Néhány ösztönzőprogram és piactér |
 | paymentId (fizetésiazonosító) | Egyedi azonosító, amely a tranzakciós jelentés összes tranzakcióját egy adott kifizetéssel korrelálja a fizetési jelentésben | Mind |
 | paymentStatus (kifizetésiállapot) | Fizetési állapot | Mind |
@@ -178,7 +178,7 @@ A bevételről további részleteket az **oldal** tetején található Letölté
 | purchaseOrderCoverageStartDate | Mindig üres lesz | Ösztönzőprogram – CRI |
 | purchaseOrderType | Mindig üres lesz | Ösztönzőprogram – CRI |
 | purchaseTypeCode | Mindig üres lesz | Ösztönzőprogram – CRI |
-| quantity | A programtól függően változik. Tranzakciós programok számlázandó mennyiségét jelzi | Mind |
+| quantity | A programtól függően változik. A tranzakciós programok számlázott mennyiségét jelzi | Mind |
 | reasonCode (okkód) |  |  |
 | resellerCountry |  |  |
 | resellerId | Viszonteladó azonosítója | Ösztönzők – csak néhány program |
@@ -197,30 +197,30 @@ A bevételről további részleteket az **oldal** tetején található Letölté
 | tpan (tpan) | A külső hirdetéshálózatot jelzi | marketplaces Csak hirdetések |
 | transactionAmount (tranzakció összege) | A bevételt generáló tranzakció összege az eredeti tranzakció pénznemében | Mind |
 | transactionAmountUSD | Tranzakció összege USD-ben | Mind |
-| transactionCountryCode | Ország/régió kódja, amelyben a tranzakció történt |  |
+| transactionCountryCode | Az ország/régió kódja, amelyben a tranzakció történt |  |
 | transactionCurrency | Az eredeti ügyféltranzakció pénzneme (ez nem a partner helyének pénzneme) | Mind |
 | transactionDate (tranzakció dátuma) | A tranzakció dátuma. Olyan programokhoz hasznos, amelyekben számos tranzakció járul hozzá egy bevételhez | Mind |
 | transactionExchangeRate | Az átváltási árfolyam dátuma, amely a megfelelő usd-hez tartozó tranzakció összegét mutatja | Mind |
 | transactionId (tranzakcióazonosító) | A tranzakció egyedi azonosítója | Mind |
-| transactionPaymentMethod | A tranzakcióhoz használt ügyfél fizetési eszköze, például Kártya, Mobilszolgáltató számlázása vagy PayPal | Piacokon |
+| transactionPaymentMethod | A tranzakcióhoz használt ügyfél fizetési eszköz, például Kártya, Mobilszolgáltatói számlázás vagy PayPal | Piacokon |
 | transactionType (tranzakciótípus) | A tranzakció típusa, például vásárlás, visszatérítés, megfordítás vagy költség-visszacsatolás | Piacokon |
 | számítási feladat | Számítási feladat | Ösztönzők – csak néhány program |
 |
 
-### <a name="transaction-adjustment-codes"></a>Tranzakciókorrekciós kódok
+### <a name="transaction-adjustment-codes"></a>Tranzakciókorrekció kódjai
 
 Az alábbi táblázat a módosítások okkódját és azok leírását sorolja fel.
 
 |**Okkód**   |**Leírás**   |
 |------------------|:-------------------------------------|
-| AR-megfelelőség | Olyan módosítás, amely csökkenti a bevételeket, ha a partner nem időben fizeti ki a Microsoft-számlákat. |
-| Együttműködésváltás | Az együttműködési bevételek másik időszakra való átcsoportosítása, vagy az együttműködési bevételek átalakításával. |
-| Műveletek módosítása | A Microsoft rendszerszámítási hibáit kijavító módosítás. |
-| Ops Adjustment Microsoft helytelen kalkulatív | A helytelenszámításokat kijavító módosítás. |
-| Ops Adjustment Microsoft helytelen regisztráció | A regisztrációval kapcsolatos hibásszámítások módosítása. |
+| AR-megfelelőség | Olyan módosítás, amely csökkenti a bevételeket, ha a partner nem fizet időben Microsoft-számlákat. |
+| Együttműködésváltás | Olyan módosítás, amely az együttműködési bevételeket egy másik időszakra, vagy az együttműködési bevételeket átszámításra konvertálja. |
+| Ops Adjustment | A Microsoft rendszerszámítási hibáit kijavító módosítás. |
+| Ops Adjustment Microsoft helytelen kalkulát | A helytelenszámításokat kijavító módosítás. |
+| Az ops adjustment Microsoft helytelen regisztrációja | A regisztrációval kapcsolatos hibásszámítások módosítása. |
 | Partnerleképezés (előfizetés) MCI/CSP | Az előfizetések helytelen igazítását kijavító módosítás. |
 | Szabályzat kivétele | A programszabályt felülbíráló módosítás.  |
-| Előző időszak bevételei | Az aktuális bevételi időszakon kívüli bevételek korrekciója. |
+| Előző időszak bevételei | Az aktuális bevételi időszakon kívüli bevételek módosítása. |
 
 ## <a name="payments"></a>Kifizetések
 
@@ -240,51 +240,51 @@ A **Kifizetések** lapon részletesen olvashat arról, hogy mennyi pénzt kerese
 
 A **Kifizetések listája táblázat** a fizetős és a függőben lévő kifizetéseket jeleníti meg. Letöltheti a szolgáltatási díj adóinformációját PDF formátumban, és megtekintheti az adott kifizetés bevételi adatait.
 
-:::image type="content" source="images/payouts/list-of-payments.png" alt-text="Tranzakcióelőzmények exportálása":::
+:::image type="content" source="images/payouts/list-of-payments.png" alt-text="Tranzakcióelőzmények exportálása.":::
 
 - **Paid** (Fizetős) – Minden sikeresen elküldött kifizetés. Válassza ki az évet a legördülő menüben az abban az évben kiadott kifizetések szűréséhez.
 - **Függőben –** Közelgő kifizetések.
 - **Szolgáltatási díj adója (PDF-űrlap)** – A szolgáltatási díj adója hatálya alá tartozó kifizetésekhez érhető el. A szolgáltatási díjak adói az **Egyéb adók között jelennek meg.**
-- **View** (Nézet) – A tranzakciós előzményekre irányítja át a kifizetésben szereplő bevételek listáját.
+- **View** (Megtekintés) – A tranzakciós előzményekre irányítja át a kifizetésben szereplő bevételek listáját.
 
-Ha meg kell értenie, hogy miért hiányoznak vagy váratlan bevételek, tekintse meg a kereskedelmi piactéri kifizetésekre vonatkozó gyakori [kérdéseket.](payout-faq.md#why-are-my-earnings-missing)
+Ha meg tudja érteni, miért hiányoznak vagy váratlan bevételek, tekintse meg a kereskedelmi piactéri kifizetésekkel kapcsolatos gyakori [kérdéseket.](payout-faq.md#why-are-my-earnings-missing)
 
 ### <a name="payment-status"></a>Fizetési állapot
 
-Az alábbi táblázat a különböző bevételi állapotokat ismerteti.
+Az alábbi táblázat ismerteti a különböző bevételi állapotokat.
 
 | Bevétel állapota | Ok | Partneri beavatkozásra van szükség? |
 | --- | --- | --- |
-| Feldolgozatlan | A bevétel jogosult a kifizetésre. Ebben az állapotban marad egy hűtési időszakban, ahogyan azt a program útmutatója Ösztönzőprogram. | No |
-| Közelgő | Függőben lévő belső felülvizsgálatra váró fizetési rendelés a fizetés feldolgozása előtt. | No |
+| Feldolgozatlan | A bevétel jogosult a kifizetésre. Ebben az állapotban marad egy hűtési időszakra vonatkozóan, amint azt a program útmutatója Ösztönzőprogram. | Nem |
+| Közelgő | Függőben lévő belső felülvizsgálatra váró fizetési rendelés a fizetés feldolgozása előtt. | Nem |
 | Függőben lévő adószámla | Az adószámla hiányos vagy érvénytelen. | A fizetés előtt frissítenie kell az adószámlát |
 | Elutasítva a felülvizsgálat során | A kifizetést a felülvizsgálat során elutasították. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
 | Sikertelen | A fizetés a Microsoft rendszerhiba miatt meghiúsult. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Folyamatban | A kifizetés folyamatban van. | No |
-| Helytelen fizetés | Folyamatban van a kifizetések újrafizetése. | No |
-| Elküldött | A kifizetés el lett küldve a banknak. | No |
-| Újrafeldolgozási | A kifizetés során a Microsoft rendszerhiba lépett fel, és folyamatban van a folyamat újrafeldolgozása. | No |
-| Reversed | A kifizetést a bank visszavonta, és a következő fizetési ciklusban újra elküldjük. | No |
+| Folyamatban | A kifizetés folyamatban van. | Nem |
+| Helytelen fizetés | Folyamatban van a kifizetések újrafizetése. | Nem |
+| Elküldött | A kifizetés el lett küldve a banknak. | Nem |
+| Újrafeldolgozási | A kifizetés során a Microsoft rendszerhiba lépett fel, és folyamatban van a folyamat újrafeldolgozása. | Nem |
+| Reversed | A kifizetést a bank visszavonta, és a következő fizetési ciklusban újra elküldjük. | Nem |
 | Elutasított adószámla | Az adószámla el lett utasítva a felülvizsgálat során. Az összes függőben lévő kifizetés fel lesz függve, amíg az adószámla áttekintése be nem fejeződik. | Részletekért forduljon a Microsoft ügyfélszolgálatához |
-| Felülvizsgálat alatt szereplő adószámla | Az adószámla felülvizsgálata folyamatban van. A kifizetése az adószámla jóváhagyása után lesz felszabadítva. | No |
+| Felülvizsgálat alatt szereplő adószámla | Az adószámla felülvizsgálata folyamatban van. A kifizetése az adószámla jóváhagyása után lesz felszabadítva. | Nem |
 | Elutasítva | A kifizetést a bank elutasította. | A részletekért forduljon a bankhoz. |
 |
 
 ### <a name="payments-download"></a>Kifizetések letöltése
 
- Az alábbi táblázat ismerteti a jelentés egyes oszlopát. A kifizetésekkel kapcsolatos további részletekért válassza **a** Letöltés lehetőséget a Kifizetések oldal tetején.
+ Az alábbi táblázat ismerteti a jelentés egyes oszlopokat. A kifizetésekkel kapcsolatos további  részletekért válassza a Letöltés lehetőséget a Kifizetések oldal tetején.
 
 | Oszlop neve | Leírás |
 | --- | --- |
-| résztvevőazonosító | A program keretében bevételt szerező partner elsődleges identitása |
+| résztvevőazonosító | A program keretében bevételt kapó partner elsődleges identitása |
 | participantIDType (résztvevőazonosító típusa) | Általában az ösztönzőprogramok programazonosítója és az áruházi programok értékesítői azonosítója |
-| résztvevő neve | A bevételi partner neve |
-| programName | Ösztönzők/áruházi program neve |
-| Szerzett | Az adott program/résztvevőazonosító fizetendő összege a Fizetési pénznemben |
-| earnedUSD | A program/résztvevő azonosítója után kapott összeg, USD-ben |
+| résztvevő neve | A bevételt kereső partner neve |
+| programName (programnév) | Ösztönzők/áruházi program neve |
+| Szerzett | Az adott programért/résztvevőazonosítóért fizetendő összeg a Fizetési pénznemben |
+| earnedUSD | A program-/résztvevő-azonosítóért megszerzett összeg, USD-ben |
 | withheldTax | A program/résztvevőazonosító fizetési pénznemében visszatartott adó összege |
-| salesTax (értékesítés adója) | A program/résztvevőazonosító fizetendő pénznemében szereplő értékesítési adó teljes összege (csak ösztönzőprogramok esetén alkalmazható) |
-| serviceFeeTax | A program/résztvevőazonosító serviceFeeTax teljes összege (csak áruházi programokra és Azure Marketplace pénznemben) |
+| salesTax (értékesítés adója) | A program/résztvevőazonosító (csak ösztönzőprogramok esetén alkalmazható) értékesítési adó teljes összege a Pay To pénznemben |
+| serviceFeeTax | A program/résztvevőazonosító serviceFeeTax teljes összege pénznemben (csak áruházi programokra és Azure Marketplace vonatkozik) |
 | teljes kifizetés | Teljes kifizetés helyi pénznemben, a visszatartott adó és a program/résztvevőazonosító értékesítési adójának (ha van) nélkül |
 | currencyCode | Pénznemkód fizetése |
 | paymentMethod | A partner fizetési módszere, például elektronikus banki átutalás, jóváírás |
@@ -309,7 +309,7 @@ Példa a kifizetések exportálására:
 Az **Adatok exportálása** összegzés az előzmény-utasításokhoz is hozzáférést biztosít.
 
 > [!NOTE]
-> A korábbi állítások pillanatképek, és nem frissülnek. Ha szükséges, forduljon az [ügyfélszolgálathoz,](https://partner.microsoft.com/support/v2/?stage=1) és kérje a legfrissebb adatokat.
+> A korábbi állítások pillanatképek, és nem frissülnek. Vegye fel a kapcsolatot az [ügyfélszolgálattal,](https://partner.microsoft.com/support/v2/?stage=1) és ha szükséges, kérje a legfrissebb adatokat.
 
 :::image type="content" source="images/payouts/pc-export-statements.png" alt-text="Korábbi utasítások exportálása.":::
 
@@ -319,35 +319,35 @@ Az **Adatok exportálása** összegzés az előzmény-utasításokhoz is hozzáf
 
 ### <a name="historical-statement-downloads"></a>Korábbi kimutatások letöltései
 
-Az alábbi táblázat egy korábbi utasítás minden oszlopát ismerteti.
+Az alábbi táblázat egy korábbi utasítás egyes oszlopát ismerteti.
 
-| Mező neve | Description |
+| Mező neve | Leírás |
 | --- | --- |
 | Bevétel forrása | A bevétel forrása a tranzakció helyének (például Microsoft Store, Windows Phone-telefon Store, Windows Store 8 vagy advertising) alapján |
-| Rendelésazonosító | Egyedi rendelésazonosító. Ez az azonosító lehetővé teszi, hogy azonosítsa a vásárlási tranzakciókat a megfelelő nem vásárlási tranzakciókkal, például visszatérítésekkel vagy költségtérítésekkel. Mindkettőnek ugyanaz lesz a rendelésazonosítója. Emellett, ha felosztott díj van, és több fizetési módot használtak egyetlen vásárláshoz, lehetővé teszi a vásárlási tranzakciók csatolását. |
+| Rendelésazonosító | Egyedi rendelésazonosító. Ez az azonosító lehetővé teszi a vásárlási tranzakciók azonosítását a megfelelő nem vásárlási tranzakciókkal, például visszatérítésekkel vagy költség-visszacsatolásokkal. Mindkettőnek ugyanaz lesz a rendelésazonosítója. Emellett, ha felosztott díj van, és több fizetési módot használtak egyetlen vásárláshoz, lehetővé teszi a vásárlási tranzakciók csatolását. |
 | Tranzakcióazonosító | Egyedi tranzakcióazonosító. |
 | Tranzakció dátuma és ideje | A tranzakció dátuma és időpontja (UTC). |
-| Szülőtermék azonosítója | A szülőtermék egyedi azonosítója. Ha nincs szülőtermék a tranzakcióhoz, akkor a Szülő termék azonosítója = Termékazonosító. |
+| Szülőtermék azonosítója | Egyedi szülőtermék-azonosító. Ha a tranzakciónak nincs szülőterméke, akkor a szülőtermék azonosítója = Termékazonosító. |
 | Termék azonosítója | Egyedi termékazonosító. |
-| Szülőtermék neve | A szülőtermék neve. Ha nincs szülőtermék a tranzakcióhoz, akkor a Szülőtermék neve = Terméknév. |
+| Szülőtermék neve | A szülőtermék neve. Ha a tranzakciónak nincs szülőterméke, akkor a Szülő termék neve = Terméknév. |
 | Terméknév | A termék neve |
-| Termék típusa | Termék típusa, például alkalmazás, bővítmény vagy játék |
-| Mennyiség | Ha a Revenue Source (Bevétel forrása) Microsoft Store Vállalatoknak, a Quantity (Mennyiség) a megvásárolt licencek számát jelöli. Minden más bevételi forrás esetén a Mennyiség mindig 1 lesz. Még ha egyetlen tranzakció két sorelemre is fel van osztva, mert két különböző fizetési módot használtak, minden sorelemnél 1 mennyiség fog mutatni. |
+| Termék típusa | Termék típusa, például Alkalmazás, Bővítmény vagy Játék |
+| Mennyiség | Ha a Revenue Source (Bevétel forrása) Microsoft Store Vállalatoknak, a Quantity (Mennyiség) a megvásárolt licencek számát jelöli. Minden más bevételi forrás esetén a Mennyiség mindig 1 lesz. Még ha egyetlen tranzakció két sorelemre van felosztva, mert két különböző fizetési módot használt, minden sortétel 1 Quantity (Mennyiség) elemet fog mutatni. |
 | Transaction Type (Tranzakció típusa) | A tranzakció típusa, például vásárlás, visszatérítés, megfordítás vagy költség-visszacsatolás |
-| Fizetési mód | A tranzakcióhoz használt ügyfél fizetési eszköze, például Kártya, Mobilszolgáltató számlázása vagy PayPal |
+| Fizetési mód | A tranzakcióhoz használt ügyfél fizetési eszköz, például Kártya, Mobilszolgáltatói számlázás vagy PayPal |
 | Ország/régió | Ország/régió, ahol a tranzakció történt |
 | Helyi szolgáltató /értékesítő | Helyi szolgáltató/rekord értékesítője |
 | Tranzakció pénzneme | A tranzakció pénzneme |
 | Tranzakció összege | A tranzakció összege |
-| Adó újrakérte | A kivetített adó mennyisége (értékesítés, felhasználás vagy áfa-/GST-adó) |
-| Nettó nyugták | A tranzakció összege a kivetített adóval kevesebb |
-| Áruházi díj | A Microsoft által az alkalmazás vagy bővítmény Áruházban való elérhetővé fizetéseként megőrzhető nettó bevételek százalékos aránya |
-| Alkalmazás-folytatások | Nettó bevételek az áruházi díjból levonva |
-| Adókat visszatartott | A visszatartott bevételi adó mennyisége (a fenntartott **CSV-fájlban** nem szerepel) |
-| Payment | Az alkalmazás kevesebb alkalmazható bevételi adóelőleget (a tranzakciós pénznemben látható összeget) folytat. A Reserved **CSV-fájl** nem tartalmazza. |
+| Adó újrafizetése | A kivetített adó összege (értékesítés, felhasználás vagy áfa/GST-adó) |
+| Nettó nyugták | A tranzakció összege alacsonyabb, mint az áttért adó |
+| Áruházi díj | A Microsoft által az alkalmazás vagy bővítmény Áruházban való elérhetővé tevésének díjaként megőrzhető nettó bevételek százalékos aránya |
+| Az alkalmazás folytatódik | Nettó nyugták az áruházi díj nélkül |
+| Adókat visszatartott | A visszatartott jövedelemadó összege (a fenntartott **CSV-fájlban** nem szerepel) |
+| Payment | App Proceeds less any applicable income taxholding (amount shown in Transaction Currency). A Reserved **CSV-fájl** nem tartalmazza. |
 | FX Rate | A tranzakciós pénznem fizetési pénznemre való átváltási árfolyama |
 | Kifizetés pénzneme | A kifizetés pénzneme |
-| Átváltott fizetés | A fizetési pénznemre átváltott fizetési összeg az FX-árfolyam használatával |
+| Átváltott fizetés | Az FX-árfolyam használatával fizetési pénznemre átváltott fizetési összeg |
 | Adóátcsoport-lási modell | Az adók (értékesítés, használat vagy áfa/GST-adók) átutalásáért felelős fél |
 | Jogosultság dátuma és ideje | A tranzakció bevételének dátuma és időpontja jogosulttá válik a kifizetésre (UTC). A kifizetési folyamat a kifizetési dátum előtti jogosultsági dátummal (csak a Fenntartott  CSV-fájlban szerepel) tartalmazza a tranzakciókat. |
 | Díjak | A Transaction Amount (Tranzakció összege) oszlopban összesített összes díj részleteit jeleníti meg (csak az Azure Marketplace, a **Fenntartott** CSV-fájl nem tartalmazza). |
@@ -357,4 +357,4 @@ Az alábbi táblázat egy korábbi utasítás minden oszlopát ismerteti.
 
 - [Partner Payout API](https://apidocs.microsoft.com/services/partnerpayouts)
 - [Fizetési szabályzat részletei](payout-policy-details.md)
-- Számlázási támogatásért forduljon a kereskedelmi piactér [közzétevőinek ügyfélszolgálatához.](https://partner.microsoft.com/support/v2/?stage=1)
+- Számlázási támogatásért lépjen kapcsolatba a kereskedelmi piactér [közzétevői támogatással.](https://partner.microsoft.com/support/v2/?stage=1)

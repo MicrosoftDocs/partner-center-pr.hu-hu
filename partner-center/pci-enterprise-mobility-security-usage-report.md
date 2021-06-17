@@ -8,12 +8,12 @@ description: Láthatja, hogy mit csinál jól, és hol javíthatja az ön által
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 8b0784e2d81b4483eb374120be2411729d922a47
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: d230f8abfa01f0c00494af9f626f26fb35b80c1c
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109854621"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277827"
 ---
 # <a name="enterprise-mobility--security-usage-report-available-from-the-partner-center-insights-dashboard"></a>Enterprise Mobility + Security jelentés a Partnerközpont Insights irányítópultról érhető el
 
@@ -46,35 +46,35 @@ Az összefoglaló szakasz az ügyfelek számára értékesített vagy Enterprise
 
    A mikrodiagram a kiválasztott időszakban használt licencek havi trendjét mutatja.
 
-:::image type="content" source="images/pci/pci-ems-usage-summary.png" alt-text="EMS-használat összegzése":::
+:::image type="content" source="images/pci/pci-ems-usage-summary.png" alt-text="EMS-használat összegzése.":::
 
 ## <a name="enterprise-mobility--security-usage-by-geography"></a>Enterprise Mobility + Security földrajzi hely szerint
 
-A **Enterprise Mobility + Security földrajzi** hely szerinti használati adatok a havi aktív felhasználók (MAU) és a fizetős rendelkezésre álló egységek (PAU) eloszlását ábrázolják az ügyfél országa szerint. A MAU az előző hónapban használt licencek számát, a PAU pedig a kiválasztott időkereten belül eladott vagy kezelt fizetős helyek számát jelenti. A térképen a világosabb színek alacsonyabb értékeket, míg a sötétebbek magasabb értékeket képviselnek. Kereshet és kiválaszthat egy országot a rácsban. A közelebbi megjelenéshez nagyíthat is.
+A **Enterprise Mobility + Security használati** adatok a havi aktív felhasználók (MAU) és a fizetős rendelkezésre álló egységek (PAU) eloszlását ábrázolják az ügyfél országa szerint. A MAU az előző hónapban használt licencek számát, a PAU pedig a kiválasztott időkereten belül eladott vagy kezelt fizetős helyek számát jelenti. A térképen a világosabb színek alacsonyabb értékeket, a sötétebbek pedig magasabb értékeket képviselnek. Kereshet és kiválaszthat egy országot a rácsban. A közelebbi megjelenéshez nagyíthat is.
 
-A **Number of countries/region (Országok/régiók** száma) táblázat az összes országot/régiót mutatja, ahol az Azure használati eseményei létrejönnek.
+A **Number of countries/region (Országok/régiók** száma) tábla az azure-használati eseményeket generáló országok/régiók teljes számát mutatja.
 
-Megkeresheti és kiválaszthatja a rács egyik országát a térkép helyének nagyításához. A térkép **Kezdőlap** lehetőségének kiválasztásával visszaállítja az eredeti nézetet.
+Megkeresheti és kiválaszthatja a rács egyik országát, hogy ráközelítsen a térkép helyére. A térkép **Kezdőlap** lehetőségének kiválasztásával visszaállítja az eredeti nézetet.
 
-:::image type="content" source="images/pci/pci-ems-usage-geography.png" alt-text="EMS-használat földrajzi hely szerint":::
+:::image type="content" source="images/pci/pci-ems-usage-geography.png" alt-text="EMS-használat földrajzi hely szerint.":::
 
 ## <a name="enterprise-mobility--security-usage-by-sku"></a>Enterprise Mobility + Security termékváltozat szerint
 
-A Enterprise Mobility + Security termékváltozat szerinti használati adatok a MAU és a PAU termékváltozatok szerinti havi lebontását ábrázolják.
+A Enterprise Mobility + Security termékváltozat szerinti használati adatok a MAU és a PAU termékváltozatok szerinti havi bontását ábrázolják.
 
-:::image type="content" source="images/pci/pci-ems-usage-sku.png" alt-text="EMS-használat termékváltozat szerint":::
+:::image type="content" source="images/pci/pci-ems-usage-sku.png" alt-text="EMS-használat termékváltozat szerint.":::
 
 ## <a name="subscriptions-performance"></a>Előfizetések teljesítménye
 
-Az Előfizetések teljesítménye a MAU és a PAU ügyfél-előfizetésenkénti STU-k szerinti lebontását ábrázolja. Az első 100 ügyfél számlás bevétel szerint adatai megjelennek a táblázatban, és bármely ügyfelet megkeresheti, vagy letöltheti a nyers adatokat az összes ügyfél adatainak megtekintéséhez.
+Az Előfizetések teljesítménye a MAU és a PAU ügyfél-előfizetésenkénti STU-k szerinti lebontását ábrázolja. A táblázatban az első 100 ügyfél adatai jelennek meg számlázva bevétel szerint, és bármely ügyfelet megkeresheti, vagy letöltheti a nyers adatokat az összes ügyfél adatainak megtekintéséhez.
 
-:::image type="content" source="images/pci/pci-ems-usage-subscription.png" alt-text="EMS-előfizetés teljesítménye":::
+:::image type="content" source="images/pci/pci-ems-usage-subscription.png" alt-text="EMS-előfizetés teljesítménye.":::
 
 ## <a name="enterprise-mobility--security-usage-distribution"></a>Enterprise Mobility + Security eloszlása
 
-A Enterprise Mobility + Security eloszlása a PAU-k és előfizetések SKU-k szerinti lebontását ábrázolja.
+A Enterprise Mobility + Security a pau-k és előfizetések SKU-k szerinti lebontását ábrázolja.
 
-:::image type="content" source="images/pci/pci-ems-usage-distribution.png" alt-text="EMS-használat eloszlása":::
+:::image type="content" source="images/pci/pci-ems-usage-distribution.png" alt-text="EMS-használat eloszlása.":::
 
 ## <a name="next-steps"></a>Következő lépések
 

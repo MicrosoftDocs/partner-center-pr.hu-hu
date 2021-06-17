@@ -1,48 +1,48 @@
 ---
 title: Azure Marketplace-partnerintegrációk
-description: Ismerje meg az Azure-környezettel integrálható Azure Marketplace-megoldásokat, valamint a Microsoft-partnerek telepítési útmutatóinak hivatkozását.
+description: Ismerje meg Azure Marketplace Azure-környezettel integrálható megoldásokat, és hivatkozásokat talál a Microsoft-partnerektől származó üzembe helyezési útmutatókra.
 ms.service: partner-services
 ms.topic: conceptual
 author: JasonWHowell
 ms.author: jasonh
 ms.date: 11/16/2020
-ms.openlocfilehash: b31486000e59f3d85ee30019ecea000252b297a8
-ms.sourcegitcommit: 1aa43438ad181278052788f15e017f9ae7777943
+ms.openlocfilehash: 56e72af367cdcb264cc444446c5fcbedcd880451
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95006905"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276484"
 ---
 # <a name="azure-marketplace-partner-integrations"></a>Azure Marketplace-partnerintegrációk
 
-Ismerje meg, hogyan integrálhatja a partneri megoldásokat az Azure-környezetbe. Ez a cikk áttekintést nyújt az egyes megoldásokról, valamint a részletes üzembe helyezési útmutatókra mutató hivatkozásokat tartalmaz. A megoldások betűrendben vannak felsorolva. 
+Megtudhatja, hogyan integrálhatja a partnermegoldásokat az Azure-környezetbe. Ez a cikk áttekintést nyújt az egyes megoldásokról, és részletes üzembe helyezési útmutatókra mutató hivatkozásokat tartalmaz. A megoldások betűrendben vannak felsorolva. 
 
-## <a name="apache-kafka-on-confluent-cloud"></a>Apache Kafka az Fluent felhőben
+## <a name="apache-kafka-on-confluent-cloud"></a>Apache Kafka a Confluent Cloudon
 
-![Felhőalapú felhő](./media/partners/confluent-cloud.png)
+![Confluent Cloud.](./media/partners/confluent-cloud.png)
 
-Az Azure lehetővé teszi, hogy a felhőalapú alkalmazásain kívül integrálja az Fluent-felhőt. A Fluent ügyfelek gyakran navigálnak a Azure Portal és a felhő között. Ha például egy felhasználó egy Fluent Felhőbeli ajánlatot vásárol az Azure Marketplace-en, akkor várhatóan egy olyan fiókot kell létrehoznia, amely az Fluent-felhővel rendelkezik. Ez a folyamat bonyolultságot és időt vesz igénybe, és megköveteli, hogy a felhasználók a két portál között kezeljék a konfigurációt és az erőforrásokat. A többplatformos felügyelet terhének csökkentése érdekében a Microsoft, együttműködve a közös felhővel, integrált kiépítési réteget épített ki az Azure-ból a felhőre. A megoldás az Azure Marketplace-en érhető el, és zökkenőmentes élményt nyújt az Azure-beli, felhőalapú ajánlat használatával
+Az Azure lehetővé teszi a Confluent Cloud integrálását a felhőalkalmazások mellett. A confluent ügyfelek gyakran navigálnak a Azure Portal és a Confluent Cloud között. Ha például egy felhasználó megvásárol egy Confluent Cloud-ajánlatot az Azure Marketplace-ban, be kell állítania egy fiókot a Confluent Cloudhoz. Ez a folyamat növeli az összetettséget és az időt, és megköveteli a felhasználóktól a konfiguráció és az erőforrások kezelését a két portál között. A Több platformon való felügyelet terhének csökkentése érdekében a Microsoft a Confluent Cloudgal együttműködésben egy integrált kiépítési réteget épített ki az Azure-ból a Confluent Cloudba. A megoldás elérhető a Azure Marketplace, és zökkenőmentes felhasználói élményt nyújt a Confluent Cloud ajánlat azure-beli használatában
 
-A megoldás az Azure-ban engedélyezett erőforrás-szolgáltatót használ a Felhőbeli felhőalapú erőforrások kiépítéséhez. Ez lehetővé teszi a felhasználók számára, hogy a Azure Portal, az Azure CLI és az Azure SDK-k segítségével férhessenek hozzá a valós idejű események folyamatos átviteléhez. A felhő tulajdonosa és futtatja az SaaS-alkalmazást, beleértve a környezeteket, a fürtöket, a témákat, az API-kulcsokat és a felügyelt összekötőket.
+A megoldás egy, az Azure-ban engedélyezett erőforrás-szolgáltatót használ a Confluent Cloud-erőforrások kiépítése érdekében. Ez lehetővé teszi a felhasználók számára a valós idejű eseménystreamelést a Azure Portal, az Azure CLI-n és az Azure SDK-n keresztül. A Confluent Cloud tulajdonában van és futtatja az SaaS-alkalmazást, amely környezeteket, fürteket, témaköröket, API-kulcsokat és felügyelt összekötőket tartalmaz.
 
-Az Fluent felhővel való mélyreható integráció a következő képességeket biztosítja:
+A Confluent Cloud mély integrációja a következő képességeket teszi lehetővé:
 
-- Hozzon létre egy új, a teljes körűen felügyelt infrastruktúrával rendelkező felhőalapú szervezeti erőforrást a Azure Portal.
-- Egyszerűsítse az Azure-ba való egyszeri bejelentkezést, hogy Azure Active Directory; nincs szükség külön hitelesítésre az Fluent felhő-portálon.
-- Az Azure-előfizetések számlázása révén egységes számlázást kaphat a Felhőbeli fogyasztási díjakról.
-- Felügyelheti a Azure Portal a felhőalapú erőforrásokat, és nyomon követheti azokat a **minden erőforrás** lapon, az Azure-erőforrások mellett.
+- Új Confluent Cloud szervezeti erőforrás üzembe Azure Portal teljes mértékben felügyelt infrastruktúrával.
+- Az Azure-ból a Confluent Cloudba való egyszeri bejelentkezés zökkenőmentessé Azure Active Directory; nincs szükség külön hitelesítésre a Confluent Cloud portálról.
+- A Confluent Cloud fogyasztási díjának egységes számlázása az Azure-előfizetés számlázásán keresztül.
+- A Confluent Cloud-erőforrásokat a Azure Portal kezelheti,  és az Azure-erőforrások mellett az Összes erőforrás lapon is nyomon követheti őket.
 
-[A felhőalapú üzembe helyezési útmutatók](https://docs.confluent.io/current/cloud/marketplace/index.html)
+[Confluent Cloud üzembe helyezési útmutatók](https://docs.confluent.io/current/cloud/marketplace/index.html)
 
-Az Azure-hoz kapcsolódó problémákkal kapcsolatban nyissa meg a következőt: [https://support.confluent.io](https://support.confluent.io) . Ha első alkalommal felhasználó, állítsa alaphelyzetbe a jelszót, mielőtt bejelentkezne az Fluent támogatási portálra. Ha nem rendelkezik Fluent-fiókkal, küldjön e-mailt a címre [cloud-support@confluent.io](mailto:cloud-support@confluent.io) .
+A Confluent on Azure-ral kapcsolatos problémákat itt talál: [https://support.confluent.io](https://support.confluent.io) . Ha Ön első felhasználó, állítsa alaphelyzetbe a jelszavát, mielőtt bejelentkezik a Confluent támogatási portálra. Ha nincs Confluent-fiókja, küldjön egy e-mailt a [cloud-support@confluent.io](mailto:cloud-support@confluent.io) címre.
 
 ## <a name="datadog"></a>Datadog
 
-![Datadoggal embléma](./media/partners/datadog.png)
+![DataDog embléma.](./media/partners/datadog.png)
 
-A datadoggal megfigyelhető és biztonsági eszközöket biztosít az Azure-felhasználók számára, hogy megértsék az alkalmazásaikat a hibrid és a többfelhős környezetekben. A szükséges integrációk konfigurálásához azonban gyakran szükség van a Azure Portal és a Datadoggal közötti navigálásra. A különböző portálokon a konfiguráció-és erőforrás-kezelés egyszerűsítése érdekében a Microsoft a Datadoggal-mel együttműködve integrált Datadoggal-megoldást hoz létre az Azure-ban. Ez a megoldás az Azure Marketplace-en keresztül érhető el, és zökkenőmentesen használhatja az Azure-ügyfeleket a Datadoggal felhőalapú figyelési megoldásának használatára.
+A Datadog megfigyelhetőséget és biztonsági eszközöket biztosít az Azure-felhasználók számára, hogy megértsék az alkalmazások állapotát és teljesítményét a hibrid és többfelhős környezetekben. A szükséges integrációk konfigurálásához azonban gyakran a Azure Portal a Datadog között kell navigálni. A portálok közötti konfiguráció és erőforrás-kezelés egyszerűsítése érdekében a Microsoft a Datadoggal együtt létrehozott egy integrált Datadog-megoldást az Azure-ban. A portálon Azure Marketplace megoldás zökkenőmentes felhasználói élményt nyújt az Azure-ügyfelek számára a Datadog felhőalapú monitorozási megoldásának használatára.
 
-A megoldással kapcsolatos további információkért tekintse meg a [Azure monitor dokumentációt](/azure/azure-monitor/platform/partners#datadog) , és regisztráljon a nyilvános előzetes verzióra.
+A [megoldással Azure Monitor és](/azure/azure-monitor/platform/partners#datadog) a nyilvános előzetes verzióra való regisztrációval kapcsolatos további információkért tekintse meg az Azure Monitor dokumentációját.
 
 ## <a name="next-steps"></a>Következő lépések
 

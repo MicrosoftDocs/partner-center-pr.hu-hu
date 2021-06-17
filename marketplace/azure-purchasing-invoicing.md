@@ -1,17 +1,17 @@
 ---
 title: Szoftver és megoldások vásárlása a Azure Marketplace
-description: Megismerheti az eszközöket, amelyek leegyszerűsítik és leegyszerűsítik a szoftvervásárlásokat és -Azure Marketplace.
+description: Megismerheti a szoftvervásárlásokat és -kezeléseket leegyszerűsítő és leegyszerűsítő eszközöket a Azure Marketplace.
 ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
-ms.date: 04/15/2021
-ms.openlocfilehash: cfe37f26ad685ca723336d8559d15d4a64048f4b
-ms.sourcegitcommit: 2ad9e61fa5b9941f927ebf44c459b6c1bd055b9d
+ms.date: 01/18/2021
+ms.openlocfilehash: f747c11ef4bfc9abe1035ffb3f059da59b6572ac
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "109630083"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276501"
 ---
 # <a name="azure-marketplace-purchasing"></a>Azure Marketplace vásárlás
 
@@ -25,7 +25,7 @@ Ha a vásárlást Azure Marketplace, kiküszöbölheti az egyéni szállítói k
 
 ## <a name="permission-to-purchase"></a>Vásárlásra vonatkozó engedély
 
-Miután megtalálta a megfelelő szoftveralkalmazást, a vásárlás egyszerű. Ehhez azonban megfelelő engedélyekre lesz szüksége az Azure-előfizetésen belül. Mivel az Azure szerepköralapú Access Control (RBAC) modellt üzemeltet,  a fiókjának előfizetés-tulajdonosi vagy közreműködői engedélyekkel kell rendelkeznie a vásárláshoz. [](/azure/role-based-access-control/overview) 
+Miután megtalálta a megfelelő szoftveralkalmazást, a vásárlás befejezése egyszerű. Ehhez azonban megfelelő engedélyekre lesz szüksége az Azure-előfizetésen belül. Mivel az Azure szerepköralapú Access Control (RBAC) modellt üzemeltet,  a fiókjának előfizetés-tulajdonosi vagy közreműködői engedélyekkel kell rendelkeznie a vásárláshoz. [](/azure/role-based-access-control/overview) 
 
 A vásárlás befejezése előtt győződjön meg arról, hogy a felhasználó a megfelelő konfigurációval rendelkezik az Azure-bérlőben. Ez segít megelőzni a vásárlás során előforduló hibákat.
 
@@ -35,7 +35,7 @@ A Azure Marketplace felhasználói élményben keresse meg Azure Portal megvás�
 
 :::image type="content" source="media/overview/button-set-up-and-subscribe.png" alt-text="A Beállítás és feliratkozás gomb.":::
 
-Ha egy megoldást szeretne üzembe helyezni a Azure Marketplace online  áruházból, válassza a Termékleírás oldalon a Lekért most lehetőséget, majd jelentkezzen be Azure-fiókjának hitelesítő adataival.
+Ha egy megoldást szeretne üzembe helyezni az Azure Marketplace online áruházból, válassza a Get **it now** (Lekért most) lehetőséget a termékleírás oldalán, majd jelentkezzen be Azure-fiókjának hitelesítő adataival.
 
 :::image type="content" source="media/overview/sign-in-to-azure-marketplace.png" alt-text="A Azure Marketplace bejelentkezési párbeszédpanel.":::
 
@@ -49,13 +49,13 @@ A Microsoft lehetővé teszi a felhasználói vásárlások kezelését a száml
 - **Ingyenes** – Lehetővé teszi, hogy a felhasználók csak ingyenes szoftvereket telepítsenek Azure Marketplace.
 - **Nem** – Megakadályozza, hogy a felhasználók szoftvereket telepítsenek Azure Marketplace.
 
-Ezek a beállítások az Azure-előfizetéshez hozzáféréssel rendelkező összes felhasználóra vonatkoznak, ami lehetővé teszi az it-beszerzések szabályozását a Azure Portal.
+Ezek a beállítások az Azure-előfizetéshez hozzáféréssel rendelkező összes felhasználóra vonatkoznak, amely lehetővé teszi az it-beszerzés szabályozását a Azure Portal.
 
-:::image type="content" source="media/overview/billing-profile-policy-settings.png" alt-text="Az it-beszerzés szabályozása a Azure Portal":::
+:::image type="content" source="media/overview/billing-profile-policy-settings.png" alt-text="Az it-beszerzés szabályozása a Azure Portal.":::
 
 ## <a name="cost-management"></a>Költségkezelés
 
-Amikor termékeket vásárol a Azure Marketplace, olyan elemzéseket szeretne kapni, amelyek segítenek a költségek kezelésében. Azure Cost Management ingyenes eszköz a megvásárolt termékek információinak megtekintéséhez. A Cost Management részletesen is láthatja, hogy milyen szolgáltatásokra költ pénzt az idő alatt, és hogyan követik nyomon ezek a költségek a beállított költségvetéseket. A költségvetések beállítása mellett jelentéseket is ütemezhet, és elemezheti az előfizetési költségeket. A költségelemzésről Azure Cost Management a költségek elemzéséről és Microsoft Learn költségvetések létrehozásáról a következővel: [Azure Cost Management.](/learn/modules/analyze-costs-create-budgets-azure-cost-management/)
+Amikor termékeket vásárol a Azure Marketplace, olyan elemzéseket szeretne kapni, amelyek segítenek a költségek kezelésében. Azure Cost Management ingyenes eszköz a megvásárolt termékekkel kapcsolatos információk megtekintéséhez. A Cost Management részletesen is láthatja, hogy milyen szolgáltatásokra költ pénzt az idő alatt, és hogyan követik nyomon a költségek a beállított költségvetéseket. A költségvetések beállítása mellett jelentéseket is ütemezhet, és elemezheti az előfizetési költségeket. A költségelemzésről Azure Cost Management a Költségek elemzése és költségvetések létrehozása Microsoft Learn modul elvégzésével [Azure Cost Management.](/learn/modules/analyze-costs-create-budgets-azure-cost-management/)
 
 Az Azure Cost Management költségelemző eszközével megtekintheti az Azure Marketplace-díjakat és a számlákat.
 
@@ -63,15 +63,15 @@ Az Azure Cost Management költségelemző eszközével megtekintheti az Azure Ma
 
 ## <a name="purchase-validation-checks"></a>Vásárlásérvényesítési ellenőrzések
 
-Ha egy ajánlatot egy Azure Marketplace keresztül vásárol, az több okból is meghiúsulhat. A parancssori felület (CLI) használata nagyobb valószínűséggel okoz hibákat, mivel előfordulhat, hogy olyan ajánlatot próbál vásárolni, amely nem érhető el vagy nem látható a Azure Marketplace. A vásárlás meghiúsulhat az alábbi ellenőrzéseken:
+Ha egy ajánlatot a Azure Marketplace keresztül vásárol, az több okból is meghiúsulhat. A parancssori felület (CLI) használata nagyobb valószínűséggel okoz hibákat, mivel előfordulhat, hogy olyan ajánlatot próbál vásárolni, amely nem érhető el vagy nem látható a Azure Marketplace. A vásárlás meghiúsulhat az alábbi ellenőrzéseken:
 
 1. Az előfizetés egy Nagyvállalati Szerződés (EA) tagja, és az EA-rendszergazda letiltotta Azure Marketplace vásárlásokat.
 1. Az EA-rendszergazda csak ingyenes ajánlatokhoz engedélyezte a vásárlásokat, az ajánlat pedig fizetős ajánlat.
 1. Az ajánlat nem található a piactéren.
-1. A független szoftverszállító (ISV) elavult (korábban nem értékesíti) az ajánlatot, legalább az Ön régiójában.
+1. A független szoftverszállító (ISV) már nem értékesíti az ajánlatot, legalábbis az Ön régiójában.
 1. A használt előfizetés egy olyan régióban található számlázási fiókhoz tartozik, ahol az ajánlat nem érhető el.
 1. Az előfizetési/számlázási fiók nincs érvényes fizetési eszközhöz (például érvényes hitelkártyához) társítva.
-1. Az előfizetés egy Felhőszolgáltató (CSP) tulajdonában van, és az isV elutasította az értékesítést egy CSP-n keresztül.
+1. Az előfizetés egy Felhőszolgáltató (CSP)-hez tartozik, és az isV nem értékesít csp-n keresztül.
 1. A privát Marketplace engedélyezve van az előfizetéshez, és az ajánlat nem szerepel az engedélyezett ajánlatok listáján.
 1. Az ajánlat privát/előzetes verziójú adott ügyfelek számára, és az előfizetés nem szerepel az engedélyezett ügyfelek listájában.
 

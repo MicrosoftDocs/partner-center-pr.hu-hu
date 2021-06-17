@@ -8,12 +8,12 @@ ms.subservice: partnercenter-incentives
 author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
-ms.openlocfilehash: 7b67564fbf469ac23ad514d96c3ec7b27bb3a5e6
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: ad71a6e02d6472ae844c504491e5acb05d5d6426
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110151950"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277861"
 ---
 # <a name="troubleshooting-missing-payments-incorrect-earnings-and-other-issues"></a>Hiányzó kifizetések, helytelen bevételek és egyéb problémák elhárítása
 
@@ -82,9 +82,9 @@ A bevétel és a tranzakció részleteinek letöltésével megkeresheti és egye
 >[!IMPORTANT]
 >A korábbi bevételi időszakokra alkalmazott módosítások nem fognak láthatóvá tenni abban a hónapban, amelyben a módosítást alkalmazták. A kiigazítások mindig az arra a hónapra vonatkozó bevételi jelentésben fognak tükröződni, amikor a módosítást alkalmazták.
 >
->Például a 2019. szeptemberben feldolgozott, 2019. januári bevételekre vonatkozó módosítás nem fog tükröződni a 2019. szeptemberi bevételekben. A 2019. szeptemberi kifizetésre azonban a 2019. januári, szeptemberben alkalmazott módosítást is tartalmazza. Ebben a forgatókönyvben le kell töltenie a 2019. januári tranzakció részleteit, hogy lássa az alkalmazott módosítást.
+>Például a 2019. szeptemberben feldolgozott, 2019. januári bevételekre vonatkozó módosítás nem fog tükröződni a 2019. szeptemberi bevételekben. Ha azonban a 2019. szeptemberi kifizetés érkezik, az tartalmazza a 2019. januárra vonatkozó, szeptemberben alkalmazott módosítást. Ebben a forgatókönyvben le kell töltenie a 2019. januári tranzakció részleteit az alkalmazott módosításhoz.
 >
->Ezt a dátumszűrők beállításakor tartsa szem előtt. Ahogy korábban említettük, a korábbi időszakok módosításai csak abban a hónapban láthatók, amikor a módosítást alkalmazták. Ellenőrizze, hogy a kiválasztott dátumtartomány megfelel-e a megkeresni kívánt módosítás hónapjára. Előfordulhat, hogy az Összes törlése **lehetőséget** kell választania a szűrők eltávolításához, majd az újak alkalmazáshoz.
+>Ezt a dátumszűrők beállításakor tartsa szem előtt. Ahogy korábban említettük, a korábbi időszakok módosításai csak abban a hónapban láthatók, amikor a módosítást alkalmazták. Ellenőrizze, hogy a kiválasztott dátumtartomány megfelel-e a megkeresni kívánt módosítás hónapjára. Előfordulhat, hogy az Összes törlése **lehetőséget kell választania** a szűrők eltávolításához, majd az újak alkalmazásával.
 
 ## <a name="why-are-my-co-op-claim-payments-made-in-two-different-currencies"></a>Miért vannak az együttműködési igényhez kapcsolódó kifizetéseim két különböző pénznemben?
 
@@ -94,29 +94,29 @@ Ha az együttműködési összegek különböző Microsoft-entitásokból szárm
 
 Minden ösztönzőprogramhoz tartozik egy, a telepítés során létrehozott bankprofil. A kifizetést az ebben profilban megadott pénznemben fogja megkapni.
 
-## <a name="i-dont-see-earnings-for-a-certain-period"></a>Egy adott időszakra vonatkozóan nem látom a bevételeket
+## <a name="i-dont-see-earnings-for-a-certain-period"></a>Nem látom a bevételeket egy adott időszakban
 
-Ha nem látja a bevételeket egy olyan időszakban, amikor azok várhatóak, annak oka általában az alábbi problémák valamelyike:
+Ha nem látja a bevételeket arra az időszakra vonatkozóan, amikor várhatók, azt általában az alábbi problémák valamelyike okozhatja:
 
 - **Előfordulhat, hogy Ön nem jogosult erre.**  A bevételek csak akkor lesznek elérhetők, ha teljesülnek a megfelelő szervezeti jogosultsági követelmények, ami azt jelenti, hogy Ön a programhoz tartozó jövedelemszerzési időszakban regisztrálva van.
 
-- **Előfordulhat, hogy a fizetési profilja hiányos.**  Az ösztönző bevételeinek kezdő dátuma annak a hónapnak az első napja, amely során Ön az összes jogosultsági követelményt teljesítette, a kifizetési és adóadatok megadását is ideértve. A bevételek a kifizetési és adóadatok megadását megelőző hónapokban nem lesznek elérhetők. Például, ha 2020 április hónapjában teljesíti az összes követelményt, a bevételek kezdő dátuma 2020. április 1-je lesz.
+- **Előfordulhat, hogy a fizetési profil hiányos.**  Az ösztönző bevételeinek kezdő dátuma annak a hónapnak az első napja, amely során Ön az összes jogosultsági követelményt teljesítette, a kifizetési és adóadatok megadását is ideértve. A bevételek a kifizetési és adóadatok megadását megelőző hónapokban nem lesznek elérhetők. Például, ha 2020 április hónapjában teljesíti az összes követelményt, a bevételek kezdő dátuma 2020. április 1-je lesz.
 
-Ha megfelelt a jogosultsági követelményeknek, beleértve a kifizetési és adóadatok időben történőfelvételét, és a bevételek továbbra is hiányoznak, forduljon a támogatási [szolgálathoz.](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives)
+Ha megfelelt a jogosultsági követelményeknek, beleértve a kifizetési és adóadatok időben történőfelvételét, és a bevételek továbbra is hiányoznak, lépjen kapcsolatba az [ügyfélszolgálattal.](https://partner.microsoft.com/dashboard/support/incentives/servicerequests?category=incentives)
 
-## <a name="my-earnings-are-missing-or-incorrect"></a>Hiányoznak vagy helytelenek a bevételeim
+## <a name="my-earnings-are-missing-or-incorrect"></a>A bevételeim hiányoznak vagy helytelenek
 
 A hiányzó vagy helytelen bevételeket az alábbi problémák okozhatják:
 
 - **Lehetséges, hogy Ön nem felel meg a feltételeknek.**  Ellenőrizze, hogy Ön megfelel-e a keresett ösztönzőre vonatkozó [jogosultságnak](#my-payment-is-missing-or-incorrect) és jogosult bevételi szabályoknak.
 
-- **Eltérés is előfordulhat.**  Ha megfelel a [program](incentives-determined-your-program-eligibility.md) jogosultsági és bevételi jogosultsági követelményeinek, és a bevételek továbbra is helytelennek tűnik, az alábbi információk segíthetnek az adatok lekérésében. [](incentives-confirm-your-earnings-eligibility.md)
+- **Eltérés is előfordulhat.**  Ha megfelel [](incentives-determined-your-program-eligibility.md) a program [](incentives-confirm-your-earnings-eligibility.md) jogosultsági és bevételi jogosultsági követelményeinek, és a bevételek továbbra is helytelennek jelennek meg, az alábbi információk segíthetnek az adatok lekérésében.
 
-A bevételek a Tranzakciós előzmények oldalon és **a** **Kifizetések oldalon is megjelennek.** Mindkét oldalt a navigációs sáv **Kifizetés** ikonjára kattintva Partnerközpont.
+A bevételek a Tranzakciós előzmények oldalon és **a** **Kifizetések oldalon is megjelennek.** Mindkét oldalt elérheti, ha  a navigációs sávon a Kifizetés ikont Partnerközpont.
 
-:::image type="content" source="images/incentives/paymenticon.png" alt-text="Tranzakciós információk":::
+:::image type="content" source="images/incentives/paymenticon.png" alt-text="Tranzakciós információk.":::
 
-Előfordulhat, hogy a Tranzakcióelőzmények nézetben a havi bevétel összegei nem egymáshoz igazodnak az adott hónapban kapott kifizetési összeggel. Ezt a jövőbeli kifizetésekre alkalmazott korábbi bevételi időszakok újraszámításai és helyesbítése jelenti.
+A Tranzakciós előzmények nézet havi bevételi összegei nem biztos, hogy igazodnak az adott hónaphoz kapott fizetési összeghez. Ezt a jövőbeli kifizetésekre alkalmazott korábbi bevételi időszakok újraszámítása és helyesbítése jelenti.
 
 Például a 2019. szeptemberben feldolgozott 2019. januári bevételekre vonatkozó módosítások nem jelennek meg a 2019. szeptemberi bevételi összegben; A 2019. szeptemberi kifizetésre azonban a 2019. januári, szeptemberben alkalmazott módosítást is tartalmazza.
 
@@ -132,10 +132,10 @@ Ez a nézet lehetővé teszi az összes program és MPN-fájl kifizetésének me
 
 | Cél | Leírás |
 | ------ | :----------- | 
-| Fizetési adatok megtekintése sor szerint, beleértve a bevételt és a kifizetési összegeket a helyi pénznemben  | Lásd **a Kifizetések listája** mezőt   |
+| Fizetési adatok megtekintése sor szerint, beleértve a bevételeket és a kifizetések összegét a helyi pénznemben  | Lásd **a Kifizetések listája** mezőt   |
 | Átutalási levél letöltése   |  Válassza **a Fizetési átutalás lehetőséget**  |
 | Adott kifizetés tranzakciószint-részleteinek megtekintése |  A Nézet **kiválasztása**  |
-| Tranzakció részleteinek exportálása Excelbe  |  Válassza **a Letöltés kezdése,** majd az **Adatok exportálása lehetőséget.** Az összes kiválasztott szűrő alkalmazva lesz az exportált adatokra. Ha az állapot Befejezve állapotra módosult, válassza a **Letöltés** lehetőséget, és kövesse az utasításokat a részletes tranzakciókról szóló jelentés exportáláshoz. Frissítse az oldalt, ha az állapot öt percen belül nem frissül.  |
+| Tranzakció részleteinek exportálása Excelbe  |  Válassza **a Letöltés kezdése,** majd az **Adatok exportálása lehetőséget.** Az összes kiválasztott szűrő alkalmazva lesz az exportált adatokra. Ha az állapot Completed (Befejezve) állapotra módosult, válassza a **Letöltés lehetőséget,** és kövesse az utasításokat a részletes tranzakciókról szóló jelentés exportálására. Frissítse az oldalt, ha az állapot öt percen belül nem frissül.  |
 
 ### <a name="missing-or-incorrect-earnings-and-payments"></a>Hiányzó vagy helytelen bevételek és kifizetések
 

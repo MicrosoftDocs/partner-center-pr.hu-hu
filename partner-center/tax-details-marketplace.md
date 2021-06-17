@@ -6,22 +6,22 @@ ms.service: partner-dashboard
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 04/26/2021
-ms.openlocfilehash: 5ba7e5a4713c3cb92e7c5b8eee8e0370c8099d14
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 06abd261e4d71b2e5e37eb2d77c1e62794c99a95
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110152749"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277759"
 ---
 # <a name="tax-details-for-commercial-marketplace-publishers"></a>Adóadatok a kereskedelmi piactér közzétevői számára
 
 **Megfelelő szerepkörök:** Globális rendszergazda
 
-Ez az oldal a kereskedelmi piactéri közzétevők (közzétevők) és a fogyasztói piactér fejlesztői (fejlesztők) adózási feladatait és adózási szempontjait határozza meg a közzétevői/fejlesztői termékek végfelhasználói vásárlásával kapcsolatban, amelyek a [Microsoft Azure Marketplace](/legal/marketplace/msft-publisher-agreement) Publisher-szerződésnek és a [Alkalmazásfejlesztői szerződés-nek](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4o4bH)halmazra vonatkoznak.  Az alábbi információk a Microsoft-közzétevői szerződés és a microsoftos licencszerződés feltételeinek kiegészítését szolgálják, és nem helyettesítik Alkalmazásfejlesztői szerződés.  Ha másként nincs jelezve, az alábbi információk a kereskedelmi piactér közzétevőire és a fogyasztói Marketplace fejlesztőire egyaránt vonatkoznak, akik a Microsoft Marketplace-en keresztül elérhetővé teszik a termékeiket/ajánlatukat. 
+Ez az oldal a kereskedelmi piactér közzétevői (közzétevők) és a fogyasztói piactér fejlesztői (fejlesztők) adózási feladatait és adózási [](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4o4bH)szempontjait adja meg az [Microsoft Azure Marketplace](/legal/marketplace/msft-publisher-agreement) Publisher-/Developer-termékek végfelhasználói vásárlásával, illetve a Alkalmazásfejlesztői szerződés szerződéssel kapcsolatban.  Az alábbi információk a Microsoft Közzétevői Szerződés és a Microsoft-közzétevői szerződés feltételeinek kiegészítését szolgálják, és nem helyettesítik Alkalmazásfejlesztői szerződés.  Ha másként nincs jelezve, az alábbi információk mind a kereskedelmi piactér közzétevőire, mind a fogyasztói Marketplace-fejlesztőkre vonatkoznak, akik a Microsoft Marketplace-en keresztül elérhetővé teszik a termékeiket/ajánlatukat. 
 
 ## <a name="end-customer-taxation"></a>Végfelhasználói adózási
 
-A Microsoft és közzétevői/fejlesztői feladatai az értékesítéssel, a használattal, a termékekkel és a szolgáltatásokkal, az értékkel kapcsolatos hozzáadott értékkel vagy hasonló adókkal kapcsolatosak, ha vannak, a végfelhasználói **értékesítések**(Végfelhasználói adózási végérték) attól az országtól függnek, amelyben a közzétevők/fejlesztők az Microsoft Marketplace(k)on keresztül választják a termékeket/ajánlatokat elérhetővé tenni a végfelhasználók számára. Az alábbi táblázat a végfelhasználói adózási körülményeket és felelősséget határozza meg az olyan országokban, amelyekben az értékesítések jogosultak a Microsoft Marketplace keresztül.  Az alábbi információk változhatnak, és a közzétevők/fejlesztők felelnek az oldal aktuális, pontos információinak áttekintéséért.
+A Microsoft és közzétevői/fejlesztői feladatai az értékesítéssel, a felhasználással, a termékekkel és a szolgáltatásokkal, az értékkel kapcsolatos hozzáadott értékkel vagy hasonló adókkal kapcsolatosak, ha vannak, a végfelhasználói **értékesítések**(Végfelhasználói adózási végérték) attól az országtól függnek, ahol a közzétevők/fejlesztők a végfelhasználók számára elérhetővé teszik a termékeket/ajánlatokat az Microsoft Marketplace(k)on keresztül. Az alábbi táblázat a végfelhasználói adózási körülményeket és felelősséget határozza meg az olyan országokban, amelyekben az értékesítések Microsoft Marketplace keresztül.  Az alábbi információk változhatnak, és a közzétevők/fejlesztők felelnek az oldal aktuális, pontos információinak áttekintéséért.
 
 A **Közzétevő/Fejlesztő** által felügyelt országokban a Microsoft a Közzétevő/Fejlesztő ügynökeként vagy jutalékaként (ha van) működik. A közzétevők/fejlesztők tudomásul veszi és beleegyeznek abba, hogy a közzétevők/fejlesztők kizárólagos felelőssége, hogy meghatározzák az összes követelménynek való megfelelőséget, valamint hogy kezelniük kell a végfelhasználói adózási szolgáltatásokat, beleértve többek között a regisztrációt, az adózási számítást, az adóbesorlást, az adófizetést, az ügyfelek üzleti állapotának érvényesítését és az adószámlák ügyfelek számára történő nyújtását. A közzétevők/fejlesztők tudomásul veszi, hogy a Közzétevő/Fejlesztő által felügyelt országban történő értékesítések esetén előfordulhat, hogy a Microsoft jelenleg nem tudja megadni a közzétevők/fejlesztők számára az adószámlák biztosítanak az ügyfelek számára a tranzakció részleteit. 
 
@@ -29,7 +29,7 @@ A **Microsoft által felügyelt országokban a** Microsoft a közzétevő/fejles
 
 A Microsoft nem vállal semmilyen garanciát arra, hogy a Microsoft által tett műveletek teljes mértékben megfelelnek a Microsoft által felügyelt országokban a közzétevői/fejlesztői kötelezettségeknek.  A Microsoft által felügyelt összes ország esetében a Microsoft határozottan javasolja, hogy a közzétevők/fejlesztők a saját adótanácsadóival együtt döntsék el, hogy a Microsoft által felügyelt adóáttevő megfelelően megfelel-e a közzétevők/fejlesztők megfelelőségi követelményeinek. Ez különösen fontos minden olyan, a Microsoft által felügyelt országban, ahol a közzétevők/fejlesztők értékesítik a termékeiket/ajánlatukat.  A Microsoft a Közzétevő/Fejlesztő ügynökeként működik a Microsoft által felügyelt országokban.
 
-A **Reseller országokban** a Microsoft viszonteladóként működik a közzétevő/fejlesztő ügynöke helyett, és a közzétevői/fejlesztői termékeket/ajánlatokat elérhetővé teszi a végfelhasználók számára a Microsoft Marketplace(k)ban.  A közzétevők/fejlesztők felelősek az értékesítésért, a felhasználásért, a termékek és ajánlatok Microsoftnak történő értékesítéséért, a felhasználásért, a termékekért és a szolgáltatásokért, valamint az esetlegesen hozzáadott értékért vagy hasonló adóért, valamint a Microsoft felelős a végfelhasználói újraértékesítésért.
+A **reseller** országokban a Microsoft viszonteladóként működik, nem közzétevői/fejlesztői ügynökként, és a közzétevői/fejlesztői termékeket/ajánlatokat elérhetővé teszi a végfelhasználók számára a Microsoft Marketplace(k)ban.  A közzétevők/fejlesztők felelősek az értékesítésért, a felhasználásért, a termékek és ajánlatok Microsoftnak történő értékesítéséért, a felhasználásért, a termékekért és ajánlatokért, valamint a végfelhasználóknak történő újraértékesítésért.
 
 
 ### <a name="publisherdeveloper-managed-countries"></a>Közzétevő/Fejlesztők által felügyelt országok: 
@@ -118,7 +118,7 @@ A Microsoft a következő országokban gyűjti be az áruházi díjakra vonatkoz
 |----------------|-----------------------------|-----------------------|
 |Ausztrália|Szolgáltatási díjra vonatkozó adó|Szolgáltatási díjra vonatkozó adó|
 |Kanada|Szolgáltatási díjra vonatkozó adó|Szolgáltatási díjra vonatkozó adó|
-|Mexikó|N/A|Szolgáltatási díj (Tax on Service Fee)|
+|Mexikó|N/A|Szolgáltatási díj alapján fizetendő adó|
 |Új-Zéland|Szolgáltatási díjra vonatkozó adó|Szolgáltatási díjra vonatkozó adó|
 |Szingapúr|Szolgáltatási díjra vonatkozó adó|Szolgáltatási díjra vonatkozó adó|
 
@@ -128,33 +128,33 @@ A Microsoft a következő országokban gyűjti be az áruházi díjakra vonatkoz
 
 - Első forgatókönyv: A közzétevő által felügyelt országvásárlási ajánlat ügyfele
 
-  :::image type="content" source="images/tax/scenario-one.png" alt-text="Diagram a közzétevő által fizetett fizetésről.":::
+  :::image type="content" source="images/tax/scenario-one.png" alt-text="A közzétevő fizetését bemutató diagram.":::
 
-- Második forgatókönyv: A Microsoft által felügyelt ország vásárlási ajánlatában érintett ügyfél (a közzétevő országa irreleváns)
+- Második forgatókönyv: A Microsoft által felügyelt ország vásárlására vonatkozó ajánlat ügyfele (a közzétevő ország irreleváns)
 
-  :::image type="content" source="images/tax/scenario-two.png" alt-text="A Microsoft által felügyelt országban történő adózási diagram":::
+  :::image type="content" source="images/tax/scenario-two.png" alt-text="A Microsoft által felügyelt országban történő adózási diagram.":::
 
-- Harmadik forgatókönyv: A külkiadó határokon átívelő értékesítést tesz egy, a Microsoft által felügyelt országban található, EU-val regisztrált ügyfélnek
+- Harmadik forgatókönyv: A külkiadó határokon átívelő értékesítést tesz egy, a Microsoft által felügyelt országban található, EU-áfa által regisztrált ügyfélnek
 
-  :::image type="content" source="images/tax/scenario-three.png" alt-text="Ábra, amely bemutatja, hogyan befolyásolja az EU és az ÁFA az adókat"::: 
+  :::image type="content" source="images/tax/scenario-three.png" alt-text="Diagram, amely azt mutatja be, hogy az EU-ÁFA milyen hatással van az adóra."::: 
 
 - Negyedik forgatókönyv: A nemzetközi közzétevő belföldi értékesítést tesz egy Microsoft által felügyelt országban található ügyfélnek, vagy egy nem belföldi értékesítést egy svájci ügyfélnek
 
-  :::image type="content" source="images/tax/scenario-four.png" alt-text="Az áfabevallott adatok kezelését bemutató diagram":::
+  :::image type="content" source="images/tax/scenario-four.png" alt-text="Az áfabevallott adatok kezelését bemutató diagram.":::
 
 - 5. forgatókönyv: A Microsoft által felügyelt országonkénti vásárlási ajánlatban az ügyfél, akinek az áruházi szolgáltatási díjra vonatkozó adója van
 
-  :::image type="content" source="images/tax/scenario-five.png" alt-text="Diagram, amely azt mutatja, hogy az Áruházi szolgáltatási díj milyen hatással van az adóra":::
+  :::image type="content" source="images/tax/scenario-five.png" alt-text="Diagram, amely azt mutatja be, hogy az Áruházi szolgáltatási díj milyen hatással van az adóra.":::
 
 ### <a name="withholding-tax"></a>Adóelőleg
 
 - Első forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezmények nélkül) értékesítést tesz az USA-beli ügyfél számára. 
 
-  :::image type="content" source="images/tax/withholding-one.png" alt-text="A forrásadót adóz nem adózvadékot ábrázoló diagram":::
+  :::image type="content" source="images/tax/withholding-one.png" alt-text="Adóelőleg-adót nem adózvadékot ábrázoló diagram.":::
 
 - Második forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezményekkel együtt, nulla százalékos adókulcs mellett) egy kis értékesítést tesz lehetővé az USA-beli ügyfél számára. 
 
-  :::image type="content" source="images/tax/withholding-two.png" alt-text="A visszatartott adó adóval és adózvadékkal ábrázoló diagram":::
+  :::image type="content" source="images/tax/withholding-two.png" alt-text="A forrásadót adózvadékot mutató diagram.":::
 
 ## <a name="next-steps"></a>Következő lépések
 

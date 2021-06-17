@@ -9,12 +9,12 @@ author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7e48e137de3fc9b3084729e5095223229b87c289
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 85a6a43a1e28a7a6917361dc1fc74cc3d5e8d502
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110152392"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276569"
 ---
 # <a name="locate-your-microsoft-partner-network-benefits"></a>A Microsoft Partner Network előnyeinek meghatározása 
 
@@ -41,12 +41,12 @@ A Microsoft Partner Network tagjaként a vállalat számos olyan előnyre is hoz
    - [Marketplace rewards](marketplace-rewards.md)
    - [Emblémaszerkesztő](mpn-logo-builder.md)
 
-3. Az előny ( + ) kibontása további információkkal segít aktiválni az adott előnyt.
+3. Az előny kibontása ( + ) további információkkal segít aktiválni az adott előnyt.
 
-   :::image type="content" source="images/benefits/expandbenefits.png" alt-text="Bővített előnyök":::
+   :::image type="content" source="images/benefits/expandbenefits.png" alt-text="Bővített előnyök.":::
 
    > [!NOTE]
-   > Az előnyök aktiválásához globális rendszergazdai vagy MPN-partneri rendszergazdai szerepkörrel kell Partnerközpont. A vállalat összes többi felhasználója számára azonban lehetővé kell tenni az előnyök részletes megtekintését a Partnerközpont, például a terméktámogatási adatokat. A szerepkörökkel kapcsolatos további Partnerközpont lásd: Felhasználói szerepkörök és engedélyek hozzárendelése a [Partnerközpont.](permissions-overview.md)
+   > Az előnyök aktiválásához globális rendszergazdai vagy MPN-partneri rendszergazdai szerepkörrel kell Partnerközpont. A vállalat összes többi felhasználója számára azonban meg kell tudnia tekinteni az előnyök részleteit a Partnerközpont, például a terméktámogatási adatokat. A szerepkörökkel kapcsolatos további Partnerközpont lásd: Felhasználói szerepkörök és engedélyek hozzárendelése a [Partnerközpont.](permissions-overview.md)
 
 ## <a name="specific-benefit-offers"></a>Adott juttatási ajánlatok
 
@@ -62,4 +62,4 @@ Az előnyök használatának elsajátítása érdekében tekintse meg a [termék
 
 - [Alkalmazotti fiókok Microsoft Learn társítása](ms-learn-associate.md)
 - [Kezelheti a Microsoft Partner Network előnyeit és ajánlatát](manage-your-partner-network-benefits.md)
-- [Technikai előnyök aktiválása a Partner Membership Center (PMC) tagjai számára](partner-membership-center-tech-benefits-activate.md)
+- [Műszaki előnyök aktiválása a Partner Membership Center (PMC) tagjai számára](partner-membership-center-tech-benefits-activate.md)

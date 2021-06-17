@@ -1,5 +1,5 @@
 ---
-title: Elemzés használata az előfizetési elemzésekhez
+title: Elemzések használata az előfizetési elemzésekhez
 ms.topic: article
 ms.date: 11/13/2020
 ms.service: partner-dashboard
@@ -9,12 +9,12 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7dab3469b885f693ba8498e8a07eb120b8f07021
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 1693545449abf33bc7a4f5216b7d6ef0d5713829
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110147207"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276858"
 ---
 # <a name="use-analytics-to-learn-more-about-subscription-revenue"></a>Elemzések használata az előfizetés bevételével kapcsolatos további információkért
 
@@ -29,11 +29,11 @@ Egy CSP-vállalkozás fejlesztésének megtervezéséhez fontos tudni, hogy az �
 
 1. A záró 12 hónapos CSP-bevétel az oldal tetején jelenik meg
 
-:::image type="content" source="images/analytics/subscription1.png" alt-text="Előfizetés képernyő":::
+:::image type="content" source="images/analytics/subscription1.png" alt-text="Előfizetés képernyő.":::
 
 ## <a name="trailing-twelve-month-ttm-csp-revenue"></a>Záró Twelve-Month (TTM) CSP-bevétel
 
-A 12 hónapos CSP-bevétel záródása a program Felhőszolgáltató bevételét jelzi USD-ben a partner globális fiókja szintjén. Az adatok minden hónap első napján frissülnek, így az előző hónap utolsó tizenkettő havi bevételét jelenítik meg. 2020. szeptember 9-én például látnia kell a 2019. szeptember és 2020. augusztus között rögzített időtartamra vonatkozó TTM-et.
+A 12 hónapos CSP-bevétel a záró bevételt Felhőszolgáltató USD-ben, partner globális fiókszinten. Az adatok minden hónap első napján frissülnek, így az előző hónap utolsó tizenkettő havi bevételét jelenítik meg. 2020. szeptember 9-én például látnia kell a 2019. szeptember és 2020. augusztus között rögzített időtartamra vonatkozó TTM-et.
 
 A rendszer a Partnerközpont rögzített, 12 hónapos időszakra számítja ki a bevételt, és nem módosítható rövidebb időszakra.
 
@@ -48,14 +48,14 @@ A bevétel részletezése a partnerhelyi fiók szintjén:
 
 A képernyő alsó felében megjelenik az előfizetések összegzése. A következő szűrőkkel tekintse meg a szükséges előfizetési adatokat:  
 
-1. **Időtartam:** Dönthet úgy, hogy a következő előfizetési összefoglalást látja: 
+1. **Időtartam:** Dönthet úgy, hogy a következő előfizetés összegzését látja: 
 
 - 30D – Az elmúlt 30 nap
 - 3M – Az elmúlt 3 hónap
 - 6M – Az elmúlt 6 hónap
 - 12 M – Az elmúlt 12 hónap
 
-2. **Terméktípus:**
+2. **Termék típusa:**
  
 - Office 365
 - Microsoft 365

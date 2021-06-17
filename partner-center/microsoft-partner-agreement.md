@@ -9,12 +9,12 @@ author: vinayks
 ms.author: vinayks
 ms.localizationpriority: high
 ms.custom: SEOAPR.20
-ms.openlocfilehash: fdcd83554073a7951862787a9f29383a3752dd30
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: fc263c617a6a26872604970a42eb100708062fed
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110146340"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276620"
 ---
 # <a name="learn-about-the-microsoft-partner-agreement-mpa-for-csp-program-partners"></a>További információ a Microsoft Partnerszerződés (MPA) csp-programpartnerek számára való alkalmazásával kapcsolatban
 
@@ -41,46 +41,46 @@ A CSP-programban való részvétel folytatásához alá kell írnia a Microsoft 
 
 1. Tekintse meg **a Programinformáció szakaszt.** Ha az MPN-program állapota **Aktív,** akkor Ön aktív MPN-partner a Partnerközpont.
  
-1. Ha az MPN Program állapota **Elutasítva/Elutasítva** vagy **Függőben,** a fiók ellenőrzése sikertelen volt. Az [ellenőrzési probléma megoldásához](verification-responses.md) olvassa el az ellenőrzési folyamatot.
+1. Ha az MPN-program **állapota Elutasítva/Elutasítva** vagy **Függőben,** a fiók ellenőrzése sikertelen volt. Az [ellenőrzési probléma megoldásához](verification-responses.md) olvassa el az ellenőrzési folyamatot.
 
 
 
 >[!NOTE]
->Előfordulhat, hogy az MPN-azonosító fiók hitelesítő adatai nem egyednek meg a CSP-fiók hitelesítő adataival.
+>Előfordulhat, hogy az MPN-azonosító fiók hitelesítő adatai nem egyedek meg a CSP-fiók hitelesítő adataival.
 
 ## <a name="confirm-you-are-enrolled-as-a-csp-indirect-reseller"></a>Ellenőrizze, hogy CSP Indirect Resellerként van-e regisztrálva
 
-1. Ha még nincs regisztrálva a [](indirect-reseller-tasks-in-partner-center.md) CSP Indirect Reseller-Partnerközpont, először ezt kell megtennie. A regisztrációt követően a további lépéseket a CSP Indirect Reseller követően Partnerközpont.
+1. Ha még nincs regisztrálva a [](indirect-reseller-tasks-in-partner-center.md) CSP Indirect Reseller-Partnerközpont, először ezt kell megtennie. A regisztrációt követően a további lépéseket a CSP Indirect Reseller a Partnerközpont.
 
-1. Jelentkezzen be a Partnerközpont CSP globális rendszergazdai fiókjának hitelesítő adataival.
+1. Jelentkezzen be az Partnerközpont CSP globális rendszergazdai fiókjának hitelesítő adataival.
 
-1. A **Beállítások menüben** válassza a **Fiókbeállítások** lehetőséget, majd a [Partnerprofil lehetőséget.](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)
+1. A **Beállítások menüben** válassza a **Fiókbeállítások,** majd a [Partnerprofil lehetőséget.](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)
 
-1. Tekintse meg **a Program adatai** szakaszt. Ha az adatai nem mutatják **a** közvetett viszonteladó állapotát, akkor közvetett viszonteladóként [kell regisztrálnia.](indirect-reseller-tasks-in-partner-center.md)
+1. Tekintse meg **a Programinformáció szakaszt.** Ha az adatok nem mutatják **a** közvetett viszonteladó állapotát, akkor közvetett viszonteladóként [kell regisztrálnia.](indirect-reseller-tasks-in-partner-center.md)
 
 1. Ha  **a közvetett viszonteladó állapota** **Aktív,** akkor Ön aktív közvetett viszonteladó a Partnerközpont.
  
-4. Ha **a közvetett viszonteladó állapota** **Minősített,** [](https://partner.microsoft.com/pcv/dashboard/overview) akkor az Irányítópult áttekintése oldalon fogadja el a fiók aktiválásához szükséges MPA-t.
+4. Ha **a közvetett viszonteladó állapota** **Minősített,** [](https://partner.microsoft.com/pcv/dashboard/overview) akkor az irányítópult áttekintéséhez fogadja el a fiók aktiválásához szükséges MPA-t.
  
 1. Ha a közvetett viszonteladó állapota Elutasítva vagy **Elutasítva,** akkor a fiók ellenőrzése sikertelen volt. Az [ellenőrzési probléma megoldásához](verification-responses.md) olvassa el az ellenőrzési folyamatot.
 
-1. Ha korábban már áttért a Partnerközpont-re közvetett viszonteladóként, fogadja el a Microsoft Partnerszerződés irányítópult áttekintésének Partnerközpont a globális rendszergazdai hitelesítő adatok használatával. Azt, hogy a Microsoft Partnerszerződés már alá van-e írva a [Partnerprofil](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) **Program** adatai lapon vagy a CSP Áttekintés oldalán található szalagcím-értesítésben.
+1. Ha korábban áttért a Partnerközpont-re közvetett viszonteladóként, fogadja el a Microsoft Partnerszerződés irányítópult áttekintésében Partnerközpont globális rendszergazdai hitelesítő adatok használatával. Azt, hogy a Microsoft Partnerszerződés már alá van-e írva a [Partnerprofil](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) **Program** adatai lapon vagy a CSP Áttekintés oldalán található szalagcím-értesítésben.
 
 Ne felejtse el elfogadni a közvetett szolgáltatóval való CSP-kapcsolatkérést.
 
 ## <a name="sign-the-mpa"></a>Az MPA aláírásával
 
 1. Jelentkezzen be Partnerközpont fiókkal CSP Indirect Reseller fiókkal. Globális rendszergazdának kell lennie.
-1. Ugrás a **[CSP Áttekintés oldalára.](https://partner.microsoft.com/pcv/dashboard/overview)**  Ha nem látja az **Elfogadás** és folytatás megjelenik, vagy a zöld szalagcím azt jelenti, hogy az MPA alá van írva, nem megfelelő szerepköre van az MPA aláíráshoz. Az MPA aláírásával forduljon a globális rendszergazdához.
+1. Ugrás a **[CSP áttekintési oldalára.](https://partner.microsoft.com/pcv/dashboard/overview)**  Ha nem látja az **Elfogadás** és folytatás megjelenik, vagy a zöld szalagcím azt jelenti, hogy az MPA alá van írva, nem megfelelő szerepköre van az MPA aláíráshoz. Az MPA aláírásával forduljon a globális rendszergazdához.
 
 1. Az aláírás előtt a Microsoft Partnerszerződés **megtekintéséhez** és letöltéséhez kattintson a Microsoft Partnerszerződés hivatkozásra az alább látható módon.
 
-:::image type="content" source="images/agreement-three.png" alt-text="Új MPA-szerződés helye":::
+:::image type="content" source="images/agreement-three.png" alt-text="Új MPA-szerződés helye.":::
 
 >[!NOTE]
 >Ha nem látja a Microsoft Partnerszerződés **hivatkozást,** ellenőrizze a szerepkörét a Partnerközpont. Az MPA-t csak a CSP-bérlő globális rendszergazdái megtekinthetik és íratják alá Partnerközpont. A szerepkör ellenőrzéséhez a **Felhasználókezelés** oldalon ellenőrizze, hogy a bejelentkezett fiók globális **rendszergazdaként van-e megjelölve.** Ha nem, ez a fiók nem használható az MPA aláírásra. A vállalat globális rendszergazdáit a Felhasználókezelés oldalon keresheti meg.
 
-:::image type="content" source="images/user-management-clean.png" alt-text="A szerepkör megkeresi":::
+:::image type="content" source="images/user-management-clean.png" alt-text="Hogyan találhatja meg a szerepkört.":::
 
 ## <a name="verify-that-you-have-signed-the-mpa"></a>Ellenőrizze, hogy aláírta-e az MPA-t
 
@@ -89,14 +89,14 @@ Ha meg kell tudni, hogy aláírta-e az MPA-t:
  A vállalat globális rendszergazdájaként a [CSP](https://partner.microsoft.com/pcv/dashboard/overview) áttekintési oldalán nézze meg a zöld szalagcímet, amely értesíti, hogy elfogadta az MPA-t.
 
  
-:::image type="content" source="images/banner-boxed.png" alt-text="Zöld szalagcím az MPA elfogadásával":::
+:::image type="content" source="images/banner-boxed.png" alt-text="Zöld szalagcím az MPA elfogadásával.":::
 
 >[!NOTE]
 >Az MPA-t csak a vállalat globális rendszergazdája tudja megtekinteni és aláírni. Ha nem Ön a globális rendszergazda, meg kell kérnie a globális rendszergazdát, hogy ellenőrizze az MPA-t.
 
 Azt is láthatja, hogy aláírta-e a szerződést, ha kiválasztja a **Szerződések** lehetőséget a **Fiókbeállítások között.**
 
-:::image type="content" source="images/agreement-new.png" alt-text="Annak jelzése, hogy az MPA alá van írva":::
+:::image type="content" source="images/agreement-new.png" alt-text="Annak jelzése, hogy az MPA alá van írva.":::
 
 
 ## <a name="download-the-step-by-step-guide-thats-right-for-where-you-are-in-the-mpa-signing-process"></a>Töltse le az MPA aláírási folyamatának megfelelő részletes útmutatót

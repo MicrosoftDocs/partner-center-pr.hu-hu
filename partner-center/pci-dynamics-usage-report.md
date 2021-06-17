@@ -8,12 +8,12 @@ description: Itt láthatja, hogy mit csinál jól, és hol fejlesztheti tovább 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 0e2880f8548b220d708c61c08a0ea9fb37700240
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 2c0b90fdeaf8bf1715d89221959aeb49e186d150
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110152800"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277504"
 ---
 # <a name="dynamics-usage-report-available-from-the-partner-center-insights-dashboard"></a>A Dynamics-használati jelentés a Partnerközpont Insights irányítópultról érhető el
 
@@ -36,7 +36,7 @@ Az összefoglaló szakasz az ügyfelek számára eladott vagy felügyelhető Dyn
 
 - Elérhető helyek: A kiválasztott időszakban eladott licencek teljes száma.
 
-   A Mikrodiagram a rendelkezésre álló helyek számát mutatja a kiválasztott dátumtartományra vonatkozó havi trenddel.
+   A Mikrodiagram a rendelkezésre álló helyek számát ábrázolja a kiválasztott dátumtartományban.
 
 - Hozzárendelt helyek: A kiválasztott időszakban hozzárendelt licencek teljes száma.
 
@@ -46,42 +46,42 @@ Az összefoglaló szakasz az ügyfelek számára eladott vagy felügyelhető Dyn
 
    A Mikrodiagram a havi aktív helyek havi trendjét mutatja a kiválasztott időszakra vonatkozóan.
 
-- Aktív használat %-os aránya: Az aktív helyek teljes száma a kiválasztott időkerethez elérhető helyek százalékos arányában kifejezve. 
+- Aktív használat %: Az aktív helyek teljes száma a rendelkezésre álló helyek százalékos arányában kifejezve a kiválasztott időkerethez. 
 
-   A mikrodiagram az aktív használat százalékos arányának havi trendjét mutatja a kiválasztott időszakra vonatkozóan.
+   A Mikrodiagram az aktív használat százalékos arányának havi trendjét mutatja a kiválasztott időszakra vonatkozóan.
 
-:::image type="content" source="images/pci/pci-dynamics-usage-summary.png" alt-text="Dynamics-használat összegzése":::
+:::image type="content" source="images/pci/pci-dynamics-usage-summary.png" alt-text="Dynamics-használat összegzése.":::
 
 ## <a name="dynamics-usage-by-geography"></a>Dynamics-használat földrajzi hely szerint
 
-A **Dynamics földrajzi hely szerinti használata** az elérhető és az aktív helyek eloszlását ábrázolja az ügyfél országa szerint. A térképen a világosabb színek alacsonyabb értékeket, a sötétebbek pedig magasabb értékeket képviselnek. Kereshet és kiválaszthat egy országot a rácsban. A közelebbi megjelenéshez nagyíthat is.
+A **Földrajzi hely szerinti Dynamics-használat** az elérhető és aktív helyek eloszlását ábrázolja az ügyfél országa szerint. A térképen a világosabb színek alacsonyabb értékeket, a sötétebbek pedig magasabb értékeket képviselnek. Kereshet és kiválaszthat egy országot a rácsban. A közelebbi megjelenéshez nagyíthatja is a képet.
 
-A **Number of countries/region (Országok/régiók** száma) tábla az azure-használati eseményeket generáló országok/régiók teljes számát mutatja.
+A **Number of countries/region (Országok/régiók** száma) táblázat az összes olyan országot/régiót mutatja, ahol az Azure használati eseményei létrejönnek.
 
-Megkeresheti és kiválaszthatja a rács egyik országát, hogy ráközelítsen a térkép helyére. A térkép **Kezdőlap** lehetőségének kiválasztásával visszaállítja az eredeti nézetet.
+Megkeresheti és kiválaszthatja a rács egyik országát a térkép helyének nagyításához. A térkép **Kezdőlap** lehetőségének kiválasztásával visszaállítja az eredeti nézetet.
 
-:::image type="content" source="images/pci/pci-dynamics-usage-geography.png" alt-text="Dynamics-használat földrajzi hely szerint":::
+:::image type="content" source="images/pci/pci-dynamics-usage-geography.png" alt-text="Dynamics-használat földrajzi hely szerint.":::
 
 ## <a name="dynamics-usage-by-sku"></a>Dynamics-használat termékváltozat szerint
 
-A Dynamics-használat termékváltozat szerint a rendelkezésre álló, aktív és hozzárendelt helyek havi trendjét jeleníti meg termékváltozatonként.
+A Dynamics termékváltozat szerint való használata az elérhető helyek, az aktív és a hozzárendelt helyek termékváltozatonkénti havi trendjét ábrázolja.
 
-:::image type="content" source="images/pci/pci-dynamics-usage-sku.png" alt-text="Dynamics-használat termékváltozat szerint":::
+:::image type="content" source="images/pci/pci-dynamics-usage-sku.png" alt-text="Dynamics-használat termékváltozat szerint.":::
 
 ## <a name="subscriptions-performance"></a>Előfizetések teljesítménye
 
-Az Előfizetések teljesítménye az aktív használat ügyfél-előfizetésenkénti havi trendjét ábrázolja. A táblázatban az első 100 ügyfél adatai jelennek meg számlázva bevétel szerint, és bármely ügyfelet megkeresheti, vagy letöltheti a nyers adatokat az összes előfizetés részleteinek megtekintéséhez.
+Az Előfizetések teljesítménye az aktív használat ügyfél-előfizetésenkénti havi trendjét ábrázolja. Az első 100 ügyfél számlás bevétel szerint adatai megjelennek a táblázatban, és bármely ügyfelet megkeresheti, vagy letöltheti a nyers adatokat az összes előfizetés részleteinek megtekintéséhez.
 
-:::image type="content" source="images/pci/pci-dynamics-usage-subscription.png" alt-text="Dynamics-előfizetés teljesítménye":::
+:::image type="content" source="images/pci/pci-dynamics-usage-subscription.png" alt-text="A Dynamics-előfizetés teljesítménye.":::
 
 ## <a name="dynamics-usage-distribution"></a>Dynamics-használat eloszlása
 
 A Dynamics használati eloszlása a rendelkezésre álló helyek, az aktív és a hozzárendelt helyek SKUs szerinti lebontását ábrázolja.
 
-:::image type="content" source="images/pci/pci-dynamics-usage-distribution.png" alt-text="Dynamics-használat eloszlása":::
+:::image type="content" source="images/pci/pci-dynamics-usage-distribution.png" alt-text="Dynamics-használat eloszlása.":::
 
 ## <a name="next-steps"></a>Következő lépések
 
 - További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
 
-- A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 
+- A jelentést betöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 

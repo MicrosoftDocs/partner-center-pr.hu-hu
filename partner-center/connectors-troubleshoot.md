@@ -1,5 +1,5 @@
 ---
-title: Az közös értékesítésre vonatkozó ajánló összekötők hibaelhárítása
+title: Az értékesítésre vonatkozó hivatkozási összekötők hibaelhárítása
 ms.topic: how-to
 ms.date: 09/21/2020
 ms.service: partner-dashboard
@@ -8,32 +8,32 @@ description: Ismerje meg az együttműködési összekötők használatával kap
 author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
-ms.openlocfilehash: 49a2b6e5461dacbe87c34b36805a5c240c2e5fd1
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: bb7a227624c548a29046b80d3bd5fa363a4aee2f
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110148346"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112276930"
 ---
-# <a name="troubleshoot-co-sell-referrals-connectors"></a>Az közös értékesítésre vonatkozó ajánló összekötők hibaelhárítása
+# <a name="troubleshoot-co-sell-referrals-connectors"></a>Az értékesítésre vonatkozó hivatkozási összekötők hibaelhárítása
 
 **A következőkre vonatkozik:** Dynamics 365 CRM | Salesforce CRM
 
-**Megfelelő szerepkörök:** Ajánlói rendszergazdai | Rendszergazda vagy rendszer testreszabó a CRM-ben
+**Megfelelő szerepkörök:** Ajánlói rendszergazdai | Rendszergazda vagy rendszer-testreszabó a CRM-ben
 
- ## <a name="questions-and-answers-about-pre-requisites"></a>Előfeltételekre és válaszokra adott kérdések és válaszok
+ ## <a name="questions-and-answers-about-pre-requisites"></a>Kérdések és válaszok az előfeltételekről
 
-1. Használhat az Ön környezetében próbaverziós, közös értékesítésre vonatkozó javaslati összekötő megoldást?
+1. Használhat az ön környezetéhez egy próbaverziós, közös értékesítésre vonatkozó javaslati összekötő megoldást?
 
-Ha a tesztelési/előkészítési környezetben van, választhatja a próbaverziós megoldást. Az összekötők fizetős verziója havonta 15 USD összegben érhető el az AppSource-ban. A fizetős kapcsolattal naponta 10 000 API-hívást kap. Az összekötők a hivatkozási API-k Partnerközpont burkolók. Amikor az összekötő-megoldások létrehozási vagy frissítési eseményen futnak **a** Partnerközpont vagy a CRM oldalán található lehetőségeken, a rendszer API-hívást hoz létre. 
+Ha a tesztelési/előkészítési környezetet választotta, választhatja a próbaverziós megoldást. Az összekötők fizetős verziója havonta 15 USD összegben érhető el az AppSource-ban. A fizetős kapcsolattal naponta 10 000 API-hívást kap. Az összekötők burkolók a Partnerközpont API-kon. Amikor az összekötő-megoldások létrehozási vagy frissítési eseményen futnak **a** lehetőségeken a Partnerközpont vagy a CRM oldalán, API-hívás történik. 
 
-2. Milyen szerepkörre van szüksége szakaszok létrehozásához a CRM-környezetben?
+2. Milyen szerepkör szükséges a szakaszok CRM-környezetben való létrehozásához?
 
-Azok a felhasználók, akik rendszergazdai vagy rendszer-testreszabók, mindenkire alkalmazhatják a módosításokat. Az alkalmazás minden felhasználója azonban személyre szabhatja a rendszert, és akár a testreszabások egy részét megoszthatja másokkal. 
+A rendszergazdai vagy rendszer-testreszabó felhasználók mindenkire alkalmazhatják a módosításokat. Az alkalmazás minden felhasználója azonban személyre szabhatja a rendszert, és akár a testreszabások egy részét is megoszthatja másokkal. 
 
 3. A partner értékesítőknek speciális szerepkörökre van szükségük a Partnerközpont?
  
-A partner értékesítőinek a "Ajánlói rendszergazda" szerepkört kell hozzárendelni. További információ: [Engedélyek áttekintése.](create-user-accounts-and-set-permissions.md)
+A partner értékesítőknek a "Ajánlói rendszergazda" szerepkört kell hozzárendelni. További információ: [Engedélyek áttekintése.](create-user-accounts-and-set-permissions.md)
 
 4. Milyen mezőket kell először beállítani a CRM-környezetben? 
 
@@ -43,16 +43,16 @@ A partner értékesítőinek a "Ajánlói rendszergazda" szerepkört kell hozzá
 
 A Power Automate a következőre lesz szüksége:
 
-- Szükség Power Automate licencre.
+- Egy Power Automate licenc szükséges.
 - Legalább 1 GB tárhely szükséges.
 
 6.  Dynamics 365-előfizetésre van szüksége a Salesforce-összekötők megoldásához?
 
-A Salesforce Connector megoldás típusa "Dynamics Flow", amely támogatja a más CRM-rendszerekkel való szinkronizálást. A megoldáshoz nem szükséges Dynamics 365-példány vagy -előfizetés. A Salesforce megoldás telepítésekor megjelenik egy legördülő lista a vállalat meglévő CDS-környezetéről. Ki kell választania ezt a környezetet. Emellett ha a "Nem található bejelentkezett felhasználóhoz csatlakoztatott Dynamics 365-szervezet" hibaüzenet jelenik meg, akkor új környezetet kell létrehoznia az összekötőhöz.
+A Salesforce Connector megoldás típusa "Dynamics Flow", amely támogatja a más CRM-rendszerekkel való szinkronizálást. A megoldáshoz nem szükséges Dynamics 365-példány vagy -előfizetés. A Salesforce-megoldás telepítésekor megjelenik egy legördülő lista a vállalat meglévő CDS-környezetéről. Ki kell választania ezt a környezetet. Emellett ha a "Nem található bejelentkezett felhasználóhoz csatlakoztatott Dynamics 365-szervezet" hibaüzenet jelenik meg, akkor új környezetet kell létrehoznia az összekötőhöz.
 
 ## <a name="questions-and-answers-about-configuration"></a>Konfigurációval kapcsolatos kérdések és válaszok
 
-1. Mit kell tenni, ha a következő hibaüzenet jelenik meg a folyamatok aktiválása során az Power Automate Platformon?
+1. Mit kell tenni, ha a következő hibával szembesül a folyamatok aktiválása során az Power Automate Platformon?
 
 Hiba: A(z) Azure Resource Manager kérése a következő hibával meghiúsult: "{"error":{"code":"WorkflowTriggerNotFound","message":"Az "e14d00f1-1fdf-4b1b-aaac-54a5064093d3" eseményindító "manuális" eseményindítója nem található."}}". 
 
@@ -64,22 +64,22 @@ Kövesse az alábbi hibaelhárítási lépéseket:
 
 2.  Mit kell tenni, ha a "Bejelentkezés" hibával szembesül, amikor hozzáad egy Partnerközpont-összekötőt a Power Automate Platformhoz?
 
-:::image type="content" source="images/cosellconnectors/failure.png" alt-text="Bejelentkezést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/failure.png" alt-text="Bejelentkezést igénylő hibaüzenet.":::
 
 Kövesse az alábbi hibaelhárítási lépést:
 
 - A Partnerközpont hitelesítő adataival jelentkezzen be egyszer a folyamatkörnyezetbe (flow.microsoft.com).
 
 
-3. Mit kell tenni, ha a következő hibaüzenetet kapja a CRM Partnerközpont-folyamat aktiválása közben a Power Automate Platformon?
+3. Mit kell tenni, ha a következő hibaüzenet jelenik meg a CRM Partnerközpont-folyamat aktiválása során az Power Automate Platformon?
  
-:::image type="content" source="images/cosellconnectors/powererror.png" alt-text="Frissítést igénylő hibaüzenet":::
+:::image type="content" source="images/cosellconnectors/powererror.png" alt-text="Frissítést igénylő hibaüzenet.":::
 
 Kövesse az alábbi hibaelhárítási lépéseket:
 
-- Először aktiválja a következő két gyermekfolyamatot, mielőtt aktiválja Partnerközpont CRM-folyamathoz.
+- Először aktiválja a következő két gyermekfolyamatot, mielőtt aktiválja a Partnerközpont CRM-folyamathoz.
       - Partnerközpont CRM – Segítő (Insider Preview)
-      - Partnerközpont Crm (Insider Preview) microsoftos közös értékesítésre vonatkozó hivatkozási frissítései
+      - Partnerközpont Microsoft közös értékesítésre vonatkozó hivatkozási frissítései a CRM-hez (Insider Preview)
 
 4. Mit kell tenni, ha nem tud kapcsolatokat hozzáadni a folyamathoz, amikor megpróbálja szerkeszteni a folyamatot?
 
@@ -88,18 +88,18 @@ Amíg a folyamat fut, kapcsolatokat adhat hozzá a folyamathoz, és minden folya
 - Jelölje ki az egyes folyamatokat, és szerkessze őket egyenként.
 - A folyamat összes lépésének kibontása 
 
-:::image type="content" source="images/cosellconnectors/flowsteps.png" alt-text="Kapcsolatokra van szükség":::
+:::image type="content" source="images/cosellconnectors/flowsteps.png" alt-text="Kapcsolatokra van szükség.":::
 
-- Válassza ki azokat a lépéseket, ahol megjelenik egy figyelmeztető ikon, amely a kapcsolatok társítását és a kapcsolatok hozzáadását kéri. 
+- Válassza ki azokat a lépéseket, amelyeknél megjelenik egy figyelmeztető ikon, amely a kapcsolatok társítását és a kapcsolatok hozzáadását kéri. 
 
-:::image type="content" source="images/cosellconnectors/editflow.png" alt-text="Folyamat szerkesztése lépésről lépésre":::
+:::image type="content" source="images/cosellconnectors/editflow.png" alt-text="Folyamat szerkesztése lépésről lépésre.":::
 
 
-5. Mit kell tenni, ha az közös értékesítésre vonatkozó javaslati összekötők megoldásának folyamatai nem kapcsolnak be?
+5. Mit kell tenni, ha az értékesítésre való hivatkozási összekötők megoldásának folyamatai nem kapcsolnak be?
 
-A. Ebben Power Automate a következő sorrendben kell szerkesztenie a folyamatokat, és frissítenie kell őket, hogy a megfelelő kapcsolatokat használják:
+A. Ebben Power Automate a következő sorrendben kell szerkesztenie a folyamatokat, és frissítenie őket, hogy a megfelelő kapcsolatokat használják:
 
-- Partnerközpont regisztrációja (Insider Preview)
+- Partnerközpont webhookregisztráció (Insider Preview)
 - Közös értékesítési ajánlás létrehozása – Salesforce Partnerközpont (Insider Preview)
 - Partnerközpont Microsoft közös értékesítési hivatkozási frissítései a Salesforce-hoz (Insider Preview)
 - Partnerközpont Salesforce (Insider Preview)
@@ -109,12 +109,12 @@ A. Ebben Power Automate a következő sorrendben kell szerkesztenie a folyamatok
 
  B. Minden egyes folyamatnál válassza a **Csak felhasználók futtatása lehetőséget.** Válassza **a Kapcsolat használata** lehetőséget a Csak **futtatás felhasználója által biztosított helyett.**  
 
-:::image type="content" source="images/cosellconnectors/runonly.png" alt-text="Folyamat aktiválása":::
+:::image type="content" source="images/cosellconnectors/runonly.png" alt-text="Folyamat aktiválása.":::
 
 
 C. Aktiválja az alábbi folyamatokat:
 
- - Partnerközpont Salesforce (Insider Preview) microsoftos közös értékesítési hivatkozási frissítései
+ - Partnerközpont Microsoft közös értékesítési hivatkozási frissítései a Salesforce-hoz (Insider Preview)
 
 - Salesforce a Partnerközpont (Insider Preview)
 
@@ -133,7 +133,7 @@ Annak érdekében, hogy a Power Automate folyamat a vártnak megfelelő legyen, 
  
 A hivatkozásszinkronizálás állapotának meghatározásához válassza a Naplózás **lehetőséget.** 
 
-:::image type="content" source="images/cosellconnectors/synch.png" alt-text="A hivatkozások szinkronizálása":::
+:::image type="content" source="images/cosellconnectors/synch.png" alt-text="A hivatkozások szinkronizálása.":::
 
 Győződjön meg arról, hogy teljesülnek a következő feltételek:
 
@@ -149,7 +149,7 @@ Tegye a következőket:
 
 - A partner értékesítőknek meg kell győződni arról, hogy engedélyezték a Szinkronizálás Partnerközpont **lehetőséget** a CRM szakaszban.
 
-:::image type="content" source="images/cosellconnectors/enablesynch.png" alt-text="Győződjön meg arról, hogy engedélyezte a szinkronizálást":::
+:::image type="content" source="images/cosellconnectors/enablesynch.png" alt-text="Győződjön meg arról, hogy engedélyezte a Szinkronizálás funkciót.":::
 
 - Az értékesítőknek meg kell adniuk a bevételt és a záró dátumot az érdeklődő minősítésekor.
 
@@ -161,15 +161,15 @@ Tegye a következőket:
 
 Néhány lehetőség a kipróbált lehetőségek közül:
 
-- Ellenőrizze, hogy a felhasználónév vagy jelszó lejárt-e Partnerközpont ajánló rendszergazdai szerepkörökkel rendelkező felhasználóhoz.
+- Ellenőrizze, hogy lejárt-e a felhasználónév vagy jelszó a Partnerközpont-rendszergazdai szerepkörökkel rendelkező felhasználó felhasználója számára.
 
 - A nem szinkronizált lehetőséggel kisebb frissítést is befejezhet, és megfigyelheti, hogy a hivatkozás szinkronizálva lett-e.
 
-- Ha a folyamatok lefuttak és sikertelenek, válassza ki a folyamatot, és küldje el újra a sikertelen futtatásokat.
+- Ha a folyamatok futnak és sikertelenek, válassza ki a folyamatot, és küldje el újra a sikertelen futtatásokat.
 
 5. Mit kell tenni, ha hozzáférés-megtagadásos hibákat kap?
 
-Győződjön meg arról, hogy léteznek a megfelelő szerepkörök
+Győződjön meg arról, hogy a megfelelő szerepkörök léteznek
 
 - Ajánlói rendszergazdai szerepkör Partnerközpont értékesítő számára 
  

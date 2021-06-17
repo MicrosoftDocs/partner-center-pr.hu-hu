@@ -4,17 +4,17 @@ ms.topic: how-to
 ms.date: 09/08/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan találhat új MPN-rendszergazdát, vagy hogyan találhat segítséget a vállalat globális rendszergazdája. Emellett megtudhatja, hogyan adhat hozzá új Partnerközpont globális rendszergazdához.
+description: Megtudhatja, mit kell tenni, ha új MPN-rendszergazdát szeretne megtalálni, vagy segítséget szeretne kérni a vállalat globális rendszergazdájatól. Emellett megtudhatja, hogyan adhat hozzá új Partnerközpont globális rendszergazdához.
 author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 5efd157078acd72ca47418aaa9559a678fc5b129
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 21042169a33d9a413f17f951c4daad0c5fc86a17
+ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110151168"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112277674"
 ---
 # <a name="what-to-do-if-the-only-admin-for-your-mpn-program-has-left-the-company"></a>Mi a legjobb, ha az MPN-program egyetlen rendszergazdája távozott a vállalattól?
 
@@ -22,23 +22,23 @@ ms.locfileid: "110151168"
 
 A következő cikk három tipikus forgatókönyvet is végigvezet arra vonatkozóan, hogy mi a helyzet, ha az MPN-rendszergazda elhagyta a vállalatot.
 
-## <a name="scenario-1-mpn-partner-adminaccount-admin-has-left-the-company-but-there-are-still-global-admins-in-the-account"></a>1. forgatókönyv: Az MPN-partner/fiók adminisztrátora elhagyta a vállalatot, de a fiókban továbbra is vannak globális rendszergazdák
+## <a name="scenario-1-mpn-partner-adminaccount-admin-has-left-the-company-but-there-are-still-global-admins-in-the-account"></a>1. forgatókönyv: Az MPN-partner/fiók rendszergazdája elhagyta a vállalatot, de a fiókban továbbra is vannak globális rendszergazdák
 
-Ebben az esetben a vállalat egy másik személye is hozzárendelhető MPN-partneri rendszergazdai szerepkörhöz. Adott MPN-partner-rendszergazdai/fiók-rendszergazdai szerepkör szerepkör hozzárendelése:
+Ebben az esetben a vállalat egy másik személye is hozzárendelhető AZ MPN-partner rendszergazdája szerepkörhöz. Adott MPN-partner-rendszergazdai/fiók-rendszergazdai szerepkör szerepkör hozzárendelése:
 
 1. Jelentkezzen be Partnerközpont fiókjába a munkahelyi fiókjával tom@contoso.com (például: ).
 1. A **Felhasználókezelés lapon** szűrje a Globális rendszergazda szűrőt, hogy lássa, kik a vállalat globális rendszergazdái. 
 1. Lépjen kapcsolatba az egyik globális rendszergazdával, és kérje meg, hogy rendelje hozzá a szükséges MPN-specifikus szerepkört. 
 
-## <a name="scenario-2-mpn-partner-adminaccount-admin-has-left-the-company-and-there-are-no-global-admins-in-the-account"></a>2. forgatókönyv: Az MPN-partner/fiók adminisztrátora elhagyta a vállalatot, és a fiókban nincsenek globális rendszergazdák 
+## <a name="scenario-2-mpn-partner-adminaccount-admin-has-left-the-company-and-there-are-no-global-admins-in-the-account"></a>2. forgatókönyv: Az MPN-partner/fiók adminisztrátora elhagyta a vállalatot, és nincsenek globális rendszergazdák a fiókban 
 
 Ha a Felhasználókezelés oldalra lép, és szűr a globális rendszergazdai szűrésre, de azt találja, hogy a vállalatában nincs olyan globális rendszergazda, aki segíthetne az MPN-specifikus szerepkör elnyerésében, kövesse az alábbi lépéseket: 
 
 1. A [portal.azure.com,](https://ms.portal.azure.com/)jelentkezzen be a munkahelyi fiókjával tom@contoso.com (például: ). 
 1. Válassza a **Súgó és támogatás** lehetőséget a bal oldali menü navigációs sávjában.
-1. A következő oldalon válassza az **Új**  Support request és a Technikai probléma típusa lehetőséget a legördülő menüben, szúrja be a további részleteket, majd kattintson a **Tovább: Megoldások elemre.**
+1. A következő oldalon válassza a **legördülő Support request** a New Support request and Technical **Issue type** (Új probléma és technikai probléma típusa) elemet, illessze be a további részleteket, majd kattintson a Next: Solutions (Tovább: **Megoldások) elemre.**
 
-:::image type="content" source="images/accountsettings/adminfinder.png" alt-text="Keresse meg a rendszergazdai Azure Portal":::
+:::image type="content" source="images/accountsettings/adminfinder.png" alt-text="Keresse meg a rendszergazdai Azure Portal.":::
 
 4. Miután a következő oldalon áttekinti az ajánlott megoldásokat, válassza a **Tovább: Részletek** lehetőséget, és töltse ki a szükséges mezőket.
 1. Tekintse át és hozza létre a támogatási kérést.
