@@ -8,13 +8,13 @@ author: vinayks
 ms.author: vinayks
 ms.custom: SEOAPR.20
 ms.localizationpriority: high
-ms.date: 11/25/2019
-ms.openlocfilehash: a06a38ef9d96b4c2a1e95328d510eb2fd71ff0e3
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.date: 6/17/2021
+ms.openlocfilehash: 69aa45de55a4356eaab1bcd4cd309feb14de9f6e
+ms.sourcegitcommit: 0410e2a3f91b7e6b592cc47e7af1dfbe468c7881
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110149842"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112318061"
 ---
 # <a name="create-a-work-account-that-links-your-company-to-your-partner-center-account"></a>Hozzon létre egy munkahelyi fiókot, amely összeköti a vállalatot Partnerközpont fiókjával
 
@@ -31,7 +31,7 @@ Munkahelyi fiókja vagy munkahelyi e-mail-címe a vállalat által megadott e-ma
 Ha több érvényes e-mail-címmel is dolgozik, használja azt, amely a regionális részleg helyett a vállalati főközponthoz van társítva, például használja az e-mail-címét a `contoso.com` cím `contoso.uk` helyett.
 
 > [!NOTE]  
-> Mielőtt úgy dönt, hogy meglévő munkahelyi fiókot használ, gondolja át, hány felhasználónak kell a fiókban dolgoznia a Partnerközpont. Ha vannak olyan felhasználói a fiókban, akiknek nem kell a Partnerközpont-ban dolgoznia, fontolja meg egy új fiók létrehozását csak azok számára, akiknek a Partnerközpont.
+> Meglévő munkahelyi fiók használata előtt gondolja át, hány felhasználónak kell a munkahelyi fiókban hozzáférnie a Partnerközpont. Ha a munkahelyi fiókban vannak olyan felhasználók, akiknek nincs szükségük az Partnerközpont-hoz való hozzáférésre, fontolja meg egy új fiók létrehozását csak azok számára, akiknek Partnerközpont szükségük.
 
 ## <a name="not-sure-if-your-company-already-has-a-work-account"></a>Nem tudja, hogy a vállalata rendelkezik-e már munkahelyi fiókkal?
 
@@ -39,7 +39,7 @@ Ha nem biztos abban, hogy a vállalata rendelkezik-e munkahelyi fiókkal, köves
 
 1. Jelentkezzen be az [Azure Portalra](https://portal.azure.com).
 
-2. Válassza Azure Active Directory a menüből, majd válassza a Tartománynevek lehetőséget.
+2. Válassza Azure Active Directory a navigációs menüben az Új Custom Domain **lehetőséget.**
 
 3. Ha már rendelkezik munkahelyi fiókkal, a tartománynév megjelenik a listában.
 
