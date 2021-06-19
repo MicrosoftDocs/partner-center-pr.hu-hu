@@ -1,67 +1,70 @@
 ---
-title: Számlázás és számlázás az Azure Marketplace-ügyfelek számára
-description: Ez a cikk az Azure Marketplace-ügyfelek számlázásával és számlázásával kapcsolatos gyakori kérdéseket ismerteti.
+title: Számlázás és számlázás Azure Marketplace ügyfelek számára
+description: Ez a cikk az ügyfelek számlázására és számlázására vonatkozó gyakori Azure Marketplace ismerteti.
 ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
 ms.date: 11/20/2020
-ms.openlocfilehash: 0d03554f96acf6cd2953d3b968192ffbb23185ce
-ms.sourcegitcommit: 3a2415ab9833d5c574ad76d462f526a131c24f33
+ms.openlocfilehash: d45d301abfea03e06a8fc67e759012d4275d7dec
+ms.sourcegitcommit: 8511fec63961d8c77a4d1eea3e3f1d37cdea46c6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "103412607"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112373456"
 ---
-# <a name="azure-marketplace-billing-and-invoicing"></a>Az Azure Marketplace számlázása és számlázása
+# <a name="azure-marketplace-billing-and-invoicing"></a>Azure Marketplace számlázás és számlázás
 
-Ez a cikk az Azure Marketplace-ügyfelek számlázási és számlázási információit ismerteti.
+Ez a cikk az ügyfelek számlázási és számlázási Azure Marketplace ismerteti.
 
 ## <a name="microsoft-supports-multiple-currencies"></a>A Microsoft több pénznemet is támogat
 
-Az Azure Marketplace-ajánlatok ára és számlázása a következő 17 pénznemben történik:
+Azure Marketplace ajánlatok ára és számlázása az alábbi 17 pénznemben történt:
 
 - Ausztrál dollár (AUD)
-- Brazil real (BRL)
+- Brazíliai real (BRL)
 - Angol font (GBP)
 - Kanadai dollár (CAD)
-- Kínai jüan (CNY)
-- Dán korona (DKK)
+- Kínai yuan (CNY)
+- Dán nyelv (DKK)
 - Euro (EUR)
 - Indiai rúpia (INR)
-- Japán jen (JPY)
+- Japán yen (JPY)
 - Koreai won (KRW)
 - Új-zélandi dollár (NZD)
-- Norvég korona (NOK)
-- Orosz rubel (RUB)
-- Svéd korona (SEK)
-- Svájci frank (CHF)
+- Norvég norvég (NOK)
+- Orosz nyelv (FOG)
+- Svéd nyelv (SEK)
+- Német francia (CHF)
 - Tajvani dollár (TWD)
-- AMERIKAI dollár (USD)
+- Amerikai dollár (USD)
 
 ## <a name="billing"></a>Számlázás
 
-Az ismétlődő vásárlások számlázása abban az időszakban történik, amelyben megvásárolta. Ezek a díjak az adott naptári hónap számláján fognak megjelenni. A következő időszakban továbbra is automatikusan megújítják az eredeti vásárlás napját.
+Az ismétlődő vásárlások után abban az időszakban kell fizetni, amelyben megvásárolta. Ezek a díjak az adott naptári hónap számláján jelennek meg. A következő időszakban az eredeti vásárlás napján automatikusan újra meg fognak újodni.
 
-[![A havi és az ismétlődő vásárlások számlázásának ütemezése.](media/billing/billing-charges-recurring.png)](media/billing/billing-charges-recurring.png#lightbox)
+[![Példa a havi és éves rendszeres vásárlások számlázásának ütemterve.](media/billing/billing-charges-recurring.png)](media/billing/billing-charges-recurring.png#lightbox)
 
 >[!NOTE]
-> A szolgáltatási időszak az az időszak, ameddig a szolgáltatás használatára fizetett. A szolgáltatás automatikusan megújítja a szolgáltatási időszakot és a szolgáltatást, hacsak nem szakítja meg előre.
+> A szolgáltatási időszak az az időszak, amelyért a szolgáltatás használatára fizetett. A rendszer automatikusan megújítja a szolgáltatást a és a időszakban, kivéve, ha korábban megszakítja a műveletet.
+
+> [!NOTE]
+> A számlázási hónap utolsó napját módosítjuk, ha a megújítás hónap dátuma nem egyenlő a vásárlás hónap dátumával. Ez azt jelenti, hogy ha valaki 1/31-én fizet elő, a februári számlázási záró dátum 2/27 lesz, az új számlázási időszak pedig 2/28-tól (2/28-tól 2/29-ig), ha egy ugróévben kezdődik.
 
 ## <a name="invoices"></a>Számlák
 
-Minden naptári hónap elején kapni fog egy e-mailt, ha a számla elérhető a Azure Portalban. A számla a naptári hónap során vásárolt és/vagy felhasznált ingyenes és fizetős ajánlatokat jeleníti meg. Ha csak az ingyenes ajánlatunk van, akkor csak az $0-es sorok jelennek meg, és nem kell semmilyen fizetési műveletet végrehajtania. **Nagyvállalati szerződés ügyfeleink** az Azure-t és az Azure Marketplace-díjakat is tartalmazó összesített számlát kapnak (az ausztráliai, Japán és szingapúri ügyfelek kivételével). Az **Azure piactéren közvetlenül vásárolt ügyfelek** csak az Azure Marketplace-beli vásárlásokra vonatkozó számlát kapnak. Részletekért lásd: [MOSP-fiókok számlái](/azure/cost-management-billing/understand/download-azure-invoice#invoices-for-mosp-billing-accounts).
+Minden naptári hónap elején kap egy e-mailt, amikor a számla elérhető a Azure Portal. A számla a naptári hónap során megvásárolt és/vagy felhasznált összes ingyenes és fizetős ajánlatot mutatja. Ha csak ingyenes ajánlata van, csak 0 dollár sorelemeket lát, és nem kell semmilyen fizetési műveletet eltennünk. **Nagyvállalati Szerződés ügyfelek** összevont számlát kapnak, amely az Azure- és Azure Marketplace-díjakat is tartalmazza (kivéve az ausztráliában, Japánban és Szingapúrban található ügyfeleket). **A közvetlenül a Azure Marketplace** ügyfelek csak a vásárlásokért Azure Marketplace számlát kapnak. Részletekért lásd: [MosP-fiókok számlái.](/azure/cost-management-billing/understand/download-azure-invoice#invoices-for-mosp-billing-accounts)
 
-A számla fogadásakor a következőket kell megkapnia:
+Amikor megkapja a számlát, az változó:
 
-- Ha a fizetési eszköz bankkártyával rendelkezik, a foglalás megvásárlása után azonnal számlázva lesz. Ez a számla a havi számlától elkülönítve lesz.
-- Ha a fizetési eszköz passzol/drótban van, ez a vásárlás a havi piactér-számlán fog szerepelni.
+- Ha a fizetési eszköz hitelkártyás, a foglalás megvásárlása után azonnal ki lesz számlázva. Ez a számla elkülönül a havi számlájától.
+- Ha a fizetési eszköz csekkes/átutalásos, a vásárlás szerepelni fog a havi Marketplace-számlán.
 
-Ez lehet a Microsoft Online Services Program (MOSP), Microsoft-ügyfélszerződés (MCA) vagy Microsoft-partnerszerződés (MPA) számlázási fiókja. A számlák létrehozása a Számlázási fiók típusa alapján történik. Az Azure Marketplace a számlázási időszak lejárta után néhány nappal számláz. Az Azure piactér, a foglalások és a helyszíni virtuális gépek számlája a [hónap kilencedik napján](/azure/cost-management-billing/understand/download-azure-invoice#invoices-for-mosp-billing-accounts)jön létre. Az előző hónap megfelelő díjait jeleníti meg. Ha például egy felhasználó a március 1-től megvásárolta a foglalást, és egy másik, március 30-ig megjelenő foglalást, akkor az áprilisi egyszeri számla mindkét foglalást tartalmazza.
+Ez lehet a Microsoft Online Services Program (MOSP), Microsoft-ügyfélszerződés (MCA) vagy Microsoft-partnerszerződés (MPA) számlázási fiókja. A számlák a számlázási fiók típusa alapján generálnak. Azure Marketplace a számlázási időszak vége után néhány nappal számlás. A virtuális Azure Marketplace, foglalások és spot virtuális gépek számlái a hónap [9.](/azure/cost-management-billing/understand/download-azure-invoice#invoices-for-mosp-billing-accounts)napján jönnek létre. Az előző hónap vonatkozó díjait jeleníti meg. Ha például egy felhasználó március 1-jén vásárolt foglalást, és március 30-án vásárolt egy másik foglalást, egyetlen áprilisi számla tartalmazza mindkét foglalást.
 
-A számlákkal kapcsolatos további információkért lásd [Az Azure-beli külső szolgáltatási díjak megismerését](/azure/cost-management-billing/understand/understand-azure-marketplace-charges)ismertető témakört.
+A számlákkal kapcsolatos további információkért lásd az [Azure külső szolgáltatási díjának az azure-beli külső szolgáltatásokra vonatkozó díjszabását.](/azure/cost-management-billing/understand/understand-azure-marketplace-charges)
 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Mi az Azure Marketplace?](azure-marketplace-overview.md)
-- [Az Azure Marketplace megvásárlása](azure-purchasing-invoicing.md)
+- [Azure Marketplace vásárlás](azure-purchasing-invoicing.md)

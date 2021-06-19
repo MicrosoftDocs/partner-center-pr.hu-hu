@@ -1,7 +1,7 @@
 ---
 title: Új ügyfélrekord hozzáadása
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 04/27/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 description: Megtudhatja, hogyan adhat hozzá új ügyfélrekordot a Partnerközpont. Ezután értékesítheti az ügyfél-előfizetéseket, kezelheti a számlázást, vagy ügyfélszolgálatot nyújthat.
@@ -9,12 +9,12 @@ author: parthp
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
-ms.openlocfilehash: 234e183ae814dc30f8d7d00c5dddb1ffea612825
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 76e15992355eff88e3a9391ea4af327c3ad969e0
+ms.sourcegitcommit: 8511fec63961d8c77a4d1eea3e3f1d37cdea46c6
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110150556"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112373358"
 ---
 # <a name="how-to-add-a-new-customer-record-in-partner-center"></a>Új ügyfélrekord hozzáadása a Partnerközpont
 
@@ -47,16 +47,16 @@ Ez a cikk azt ismerteti, hogyan adhat hozzá új ügyfelet az ügyfelek listáj�
 
 4. Ha végzett az összes szükséges adat megadásával, válassza a **Tovább:** Előfizetések lehetőséget.
 
-5. Az **Előfizetések lapon** válassza ki az ügyfél által megvásárolni kívánt ajánlat(ak)t, adja meg a licencek számát, majd válassza a **Tovább: Áttekintés lehetőséget.**
+5. Az **Előfizetések lapon** válassza ki az ügyfele által megvásárolni kívánt ajánlat(ak)t, adja meg a licencek számát, majd válassza a Tovább: Áttekintés **lehetőséget.**
 
 6. Az Áttekintés **lapon** ellenőrizze a bejegyzések pontosságát, majd válassza a **Küldés** lehetőséget, ha az információ helyes.
 
    >[!NOTE]
-   >Ha módosítania kell az ügyfelek adatait, válassza a **Fiókadatok** szakaszban található **Frissítés** lehetőséget. Ha módosítania kell a kiválasztott ajánlatokat, válassza a **Frissítés lehetőséget** az **Előfizetések szakaszban.**
+   >Ha módosítania kell az ügyfelek adatait, válassza a **Fiókadatok** szakaszban a Frissítés **lehetőséget.** Ha módosítania kell a kiválasztott ajánlatokat, válassza az **Előfizetések** szakasz **Frissítés** elemét.
 
-7. Ha **befejezte az** ügyféladatok hozzáadását, és megvásárolta a szükséges előfizetéseket, válassza a Kész lehetőséget.
+7. Ha **befejezte az** ügyféladatok hozzáadását és a szükséges előfizetések vásárlását, válassza a Kész lehetőséget.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- További információ arról, hogy mit értékesíthet az ügyfeleknek a Felhőszolgáltató programon keresztül: [Partneri ajánlatok](csp-offers.md) a Felhőszolgáltató programban
+- További információ arról, hogy mit értékesíthet az ügyfeleknek a Felhőszolgáltató programon keresztül: [Partneri ajánlatok](csp-offers.md) a Felhőszolgáltató programjában
 
