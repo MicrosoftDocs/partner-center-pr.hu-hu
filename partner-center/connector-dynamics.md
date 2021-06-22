@@ -8,18 +8,18 @@ author: sroy
 ms.author: sroy
 ms.localizationpriority: medium
 ms.date: 03/01/2021
-ms.openlocfilehash: 035a819020097ddee2230b5541e1b477d4b34c14
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: e656f728789bf5b13dd09732b0b2f5ef30de760a
+ms.sourcegitcommit: b7203f1393c3d8f8db4683acdebd09a89e086c3c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110148465"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "112425087"
 ---
 # <a name="co-sell-connector-for-dynamics-365-crm-overview"></a>A Dynamics 365 CRM-hez készült közös értékesítés összekötő áttekintése
 
 **Megfelelő szerepkörök:** Ajánlói rendszergazdai | Rendszergazda vagy rendszer-testreszabó a CRM-ben
 
-Partnerközpont összekötők lehetővé teszik az értékesítők számára, hogy az Ön CRM-rendszereiből együtt értékesítsen a Microsofttal. Nem kell betanítanunk őket ahhoz, hogy az Partnerközpont az közös értékesítések kezeléséhez. Az együttműködési összekötők használatával létrehozhat egy új közös értékesítésre vonatkozó ajánlást, amely kapcsolatba fog hozni egy Microsoft-értékesítőt, használhatja a Microsoft értékesítőjéhez, elfogadhatja vagy elutasíthatja a hivatkozásokat, valamint módosíthatja az olyan ajánlatadatokat, mint az üzlet értéke és a záró dátum. Az ilyen együttműködési ügyletekről a Microsoft értékesítőitől is kaphat frissítéseket. Az összes ajánlását a választott CRM-ben kezelheti, nem pedig Partnerközpont.
+Partnerközpont összekötők lehetővé teszik az értékesítők számára, hogy az Ön CRM-rendszereiből együtt értékesítsen a Microsofttal. Nem kell betanítanunk őket ahhoz, hogy Partnerközpont az értékesítések kezeléséhez. Az együttműködési összekötők használatával létrehozhat egy új közös értékesítésre vonatkozó ajánlást, amely kapcsolatba fog hozni egy Microsoft-értékesítőt, használhatja a Microsoft értékesítőjéhez, elfogadhatja vagy elutasíthatja a hivatkozásokat, valamint módosíthatja az olyan ajánlatadatokat, mint az üzlet értéke és a záró dátum. Az ilyen együttműködési ügyletekről a Microsoft értékesítőitől is kaphat frissítéseket. Az összes ajánlását a választott CRM-ben kezelheti, nem pedig Partnerközpont.
 
 A megoldás a Power Automate alapul, és Partnerközpont API-kat használ.
 
@@ -30,15 +30,15 @@ A megoldás telepítése előtt győződjön meg arról, hogy megfelel az alább
 |**Témakörök**   |**Részletek**   |**Hivatkozások**   |
 |--------------|--------------------|------|
 |Microsoft Partner Network (MPN) azonosítója |Szüksége van egy érvényes MPN-azonosítóra.|[Csatlakozás a partnerhálózathoz](https://partner.microsoft.com/)|
-|Készen áll az értékesítésre|Az IP-/szolgáltatási megoldásnak készen kell állnia az értékesítésre.|[Értékesítés a Microsofttal](https://partner.microsoft.com/membership/sell-with-microsoft)|
+|Az együtt értékesítésre kész|Az IP-/szolgáltatási megoldásnak készen kell állnia az értékesítésre.|[Értékesítés a Microsofttal](https://partner.microsoft.com/membership/sell-with-microsoft)|
 |Partnerközpont-fiók|Az Partnerközpont bérlőhöz társított MPN-azonosítónak meg kell egynie az együttműködési megoldáshoz társított MPN-azonosítóval. Az összekötők üzembe helyezése előtt ellenőrizze, hogy látja-e az közös értékesítésre vonatkozó Partnerközpont a portálon.|[Saját fiók kezelése](create-user-accounts-and-set-permissions.md)|
-|Partnerközpont felhasználói szerepkörök|Az összekötőket telepítő és azt felhasználó alkalmazottnak ajánlói rendszergazdának kell lennie.|[Felhasználói szerepkörök és engedélyek hozzárendelése](create-user-accounts-and-set-permissions.md)|
-|Dynamics 365 CRM|A CRM felhasználói szerepkör a Rendszergazda vagy a Rendszer testreszava.|[Szerepkörök hozzárendelése a Dynamics 365-ben](/dynamics365/customerengagement/on-premises/customize/privileges-required-customization)|
-|Power Automate flow-fiók|Hozzon létre egy új éles környezetet egy adatbázissal teszteléshez, előkészítéshez és éles környezethez. Ha van egy meglévő éles környezete egy adatbázissal, az újra felhasználható. Az összekötő-megoldást telepítő felhasználónak licenccel és Power Automate kell lennie ehhez a környezethez. Ha a telepítés sikertelen, nyomon követheti a folyamat előrehaladását, és további Power Automate [is](https://flow.microsoft.com/) kaphat. A **Megoldások alatt válassza az Előzmények** megtekintése **lehetőséget.**|[Környezet létrehozása vagy kezelése](/power-platform/admin/create-environment#create-an-environment-with-a-database)|
+|Partnerközpont szerepkörök|Az összekötőket telepítő és azt felhasználó alkalmazottnak ajánlói rendszergazdának kell lennie.|[Felhasználói szerepkörök és engedélyek hozzárendelése](create-user-accounts-and-set-permissions.md)|
+|Dynamics 365 CRM|A CRM felhasználói szerepköre a Rendszerrendszergazda vagy a Rendszer testreszava.|[Szerepkörök hozzárendelése a Dynamics 365-ben](/dynamics365/customerengagement/on-premises/customize/privileges-required-customization)|
+|Power Automate Flow-fiók|Hozzon létre egy új éles környezetet egy adatbázissal teszteléshez, előkészítéshez és éles környezethez. Ha van egy meglévő éles környezete egy adatbázissal, az újra felhasználható. Az összekötő-megoldást telepítő felhasználónak licenccel és Power Automate kell lennie ehhez a környezethez. Ha a telepítés meghiúsul, figyelheti a folyamat előrehaladását, [és további Power Automate](https://flow.microsoft.com/) kaphat. A **Megoldások alatt válassza az Előzmények** megtekintése **lehetőséget.**|[Környezet létrehozása vagy kezelése](/power-platform/admin/create-environment#create-an-environment-with-a-database)|
 
-## <a name="install-partner-center-referrals-synchronization-for-dynamics-365-power-automate-solution"></a>A Partnerközpont szinkronizálásának telepítése a Dynamics 365-hez (Power Automate megoldás)
+## <a name="install-partner-center-referrals-synchronization-for-dynamics-365-power-automate-solution"></a>A Partnerközpont-szinkronizálás telepítése a Dynamics 365-hez (Power Automate megoldás)
 
-1. A jobb [felső Power Automate](https://flow.microsoft.com)válassza a **Környezetek** lehetőséget. Ez a lépés az elérhető CRM-példányokat mutatja be.
+1. A jobb [Power Automate](https://flow.microsoft.com)válassza a **Környezetek** lehetőséget. Ez a lépés az elérhető CRM-példányokat mutatja be.
 
 1. Válassza ki a megfelelő CRM-példányt a jobb felső sarokban található legördülő listából.
 
@@ -46,9 +46,9 @@ A megoldás telepítése előtt győződjön meg arról, hogy megfelel az alább
 
 1. Válassza a **felső menü Open AppSource (AppSource** megnyitása) hivatkozását.
 
-   :::image type="content" source="images/cosellconnectors/openappsource.png" alt-text="Az Open AppSource-ot bemutató képernyőkép.":::
+   :::image type="content" source="images/cosellconnectors/openappsource.png" alt-text="Képernyőkép az Open AppSource-ról.":::
 
-1. Keresse meg **Partnerközpont a Dynamics 365-höz** használható ajánlói összekötőket az előugró képernyőn.  
+1. Az **előugró Partnerközpont keresse meg a Dynamics 365-höz** használható ajánlói összekötőket.  
 
 1. Kattintson a **Lekért most gombra,** majd válassza a Folytatás **lehetőséget.**
 
@@ -56,9 +56,9 @@ A megoldás telepítése előtt győződjön meg arról, hogy megfelel az alább
 
 1. Nyomon követheti a folyamat előrehaladását, és ha a telepítés sikertelen, további részleteket kaphat a Power Automate **Az** előzmények megtekintése lehetőség kiválasztásával a **Megoldások alatt.**
 
-1. A telepítés befejezése után vissza kell mennie a Power Automate [a](https://flow.microsoft.com) bal oldalon válassza a **Megoldások** lehetőséget. **Partnerközpont Dynamics 365 hivatkozásszinkronizálása** már elérhető a **Megoldások listában.**
+1. A telepítés befejezése után vissza kell mennie a Power Automate [a](https://flow.microsoft.com) bal oldalon válassza a **Megoldások** lehetőséget. **Partnerközpont Dynamics 365** szolgáltatásra vonatkozó hivatkozásszinkronizálás már elérhető a **Megoldások listában.**
 
-1. Válassza **Partnerközpont a Dynamics 365 ajánlói szinkronizálása lehetőséget.** A következő Power Automate folyamatok és entitások érhetők el.
+1. Válassza **Partnerközpont a Dynamics 365-hez való hivatkozásszinkronizálás lehetőséget.** A következő Power Automate folyamatok és entitások érhetők el.
 
     :::image type="content" source="images/cosellconnectors/dynamics-available-crms.png" alt-text="Az elérhető CRM-eket bemutató képernyőkép.":::
 
@@ -91,13 +91,13 @@ Mielőtt telepíti, konfigurálja és testreszabja az Power Automate-megoldást 
 
    1. Keressen a **Partnerközpont (előzetes verzió)** kifejezésre a jobb felső sarokban található keresősávban.
 
-   1. Hozzon létre egy kapcsolatot a Partnerközpont a ajánlói rendszergazda hitelesítőadat-szerepkörében.
+   1. Hozzon létre egy kapcsolatot a Partnerközpont ajánlói rendszergazdai hitelesítőadat-szerepkörben.
 
-   1. Ezután hozzon létre egy Partnerközpont Események kapcsolatot a Partnerközpont a ajánlói rendszergazdai hitelesítő adatokkal.
+   1. Ezután hozzon létre egy Partnerközpont Események kapcsolatot a Partnerközpont a Ajánlói rendszergazdai hitelesítő adatokkal.
 
    1. Hozzon létre egy kapcsolatot a Common Data Service-hez (az aktuális környezethez) a CRM-rendszergazda felhasználója számára.
      
-   1. Az összes kapcsolat hozzáadása után a következő kapcsolatoknak kell látszani a környezetében.
+   1. Az összes kapcsolat hozzáadása után a következő kapcsolatoknak kell látszani a környezetben.
 
       :::image type="content" source="images/cosellconnectors/dynamics-2.png" alt-text="A kapcsolatokat bemutató képernyőkép.":::
 
@@ -111,7 +111,7 @@ Mielőtt telepíti, konfigurálja és testreszabja az Power Automate-megoldást 
 
    :::image type="content" source="images/cosellconnectors/dynamics-4.png" alt-text="Képernyőkép a felsorolt kapcsolatokról.":::
 
-1.  Térjen vissza a **Megoldások** lapra, válassza a **Partnerközpont-szinkronizálás a Dynamics 365-hez** lehetőséget, és kapcsolja be a folyamatot az egyes folyamat melletti három pont ikonra kattintva a következő sorrendben. Ha problémákba ütközik a folyamat bekapcsolása közben, tekintse meg a Testreszabási lépések [és](connector-dynamics.md#customize-synchronization-steps) a [Hibaelhárítási lépések témakört.](connectors-troubleshoot.md)
+1. Térjen vissza a **Megoldások** lapra, válassza a **Partnerközpont-szinkronizálás a Dynamics 365-hez** lehetőséget, és kapcsolja be a folyamatot az egyes folyamat melletti három pont ikonra kattintva a következő sorrendben. Ha problémákba ütközik a folyamat bekapcsolása közben, tekintse meg a Testreszabási lépések [és](connector-dynamics.md#customize-synchronization-steps) a [Hibaelhárítási lépések témakört.](connectors-troubleshoot.md)
 
 Kapcsolja be a folyamatokat a következő sorrendben:
 
@@ -129,9 +129,9 @@ Kapcsolja be a folyamatokat a következő sorrendben:
 
 Az erőforrás-módosítási eseményekre Partnerközpont webhook API-k használatával regisztrálhat. Ezeket a módosítási eseményeket a rendszer HTTP-bejegyzésekként küldi el az URL-címére.
 
-1. Válassza **Partnerközpont a Dynamics 365 -nek (Insider Preview) lehetőséget.**
+1. Válassza **Partnerközpont Dynamics 365 (Insider Preview)** lehetőséget.
 
-1. Válassza a **Szerkesztés ikont,** majd a **HTTP-kérések esetén lehetőséget.**
+1. Válassza a **Szerkesztés ikont,** majd **a HTTP-kérések esetén lehetőséget.**
 
 1. Kattintson a **Másolás ikonra** a megadott HTTP POST URL-cím másoláshoz.
 
@@ -163,17 +163,17 @@ A következő testreszabások érhetők el:
 - **Ajánlat értéke:** Alapértelmezés szerint a rendszer szinkronizálja a Partnerközpont értékét a CRM **estimatedvalue** értékével. Ha a CRM-ben egy másik mező van, amelyből az üzlet értéke szinkronizálható:
 
   - Frissítse **az Deal value** mező nevét a Dynamics 365 környezeti változóban a CRM mezőnevével. Ügyeljen arra, hogy a mező nevét adja meg, ne a megjelenítendő nevét.
-  - Szerkesztés **[Testreszabás] A Dynamics 365-folyamat** létrehozása  vagy beszerkesztés művelete, majd  a Lehetőség létrehozása vagy frissítése a CRM-ben területen frissítse az Új lehetőség létrehozása és **a** Meglévő lehetőség frissítése műveleteket, hogy az **DealValue** értéket a crm megfelelő mezőjéhez rendelje. Emellett távolítsa el az **DealValue** hozzárendelést a **Becsült bevétel mezőből.**
+  - Szerkessze a **[Testreszabás] Dynamics 365-folyamat** részleteit, majd a Lehetőség létrehozása vagy  frissítése a CRM-ben lehetőséget, és frissítse az Új lehetőség létrehozása és a Meglévő lehetőség frissítése műveleteket, hogy az **DealValue** értéket a megfelelő mezőhöz rendelje **a** CRM-ben.  Emellett távolítsa el a **DealValue hozzárendelést** a **Becsült bevétel mezőből.**
 
-- **Ügyfélfiók országkódja:** Új hivatkozás létrehozásakor kötelező megadni egy kétbetűs országkódot (ISO 3166). Alapértelmezés szerint az országkód szinkronizálva lesz a fiók fiók address1_country **mezőjéből** a CRM-ben. Ha a CRM-ben egy másik mező van, amelyből az országkód szinkronizálható:
+- **Ügyfélfiók országkódja:** Új ajánlás létrehozásakor kötelező megadni egy kétbetűs országkódot (ISO 3166). Alapértelmezés szerint az országkód szinkronizálva lesz a fiók fiók address1_country **mezőjéből** a CRM-ben. Ha a CRM-ben egy másik mező van, amelyből az országkód szinkronizálható:
 
-   - Kétbetűs kódot tartalmazó fiók nem keresett országkód mezőjéhez:
-     - Frissítse az **Ügyfélfiók országkódja** mező nevét a Dynamics 365 környezeti változóban a CRM mezőnevével. Ügyeljen arra, hogy a mező nevét adja meg, ne a megjelenített nevét.
-     - Szerkesztés **[Testreszabás] A Dynamics 365-folyamat** létrehozása  vagy lekért adatai elemre, majd a CRM-művelet Ügyfélfiók létrehozása vagy lekért lépésével rendeljen egy **Ország** értéket a CRM megfelelő mezőjéhez. Emellett távolítsa el az **Ország** érték-hozzárendelést az **Address 1: Country/Region (Cím 1: Ország/régió) mezőből.**
+  - Kétbetűs kódot tartalmazó fiók nem lookup országkód mezőjéhez:
+    - Frissítse **az Ügyfélfiók országkódja** mező nevét a Dynamics 365 környezeti változóban a CRM mezőnevével. Ügyeljen arra, hogy a mező nevét adja meg, ne a megjelenítendő nevét.
+    - Szerkesztés [Testreszabás] Create or Get Details from Dynamics 365 flow (Létrehozás vagy Adatok lekérte a **Dynamics 365-folyamatból)** gombra, majd a CRM-művelet ügyfélfiók létrehozása vagy lekért műveletével rendeljen egy Ország értéket **a** megfelelő mezőhöz a CRM-ben.  Emellett távolítsa el az **Ország** érték-hozzárendelést az **Address 1: Country/Region (Cím 1: Ország/Régió) mezőből.**
 
-   - Keresésalapú országkódmező a fiókban:
-     - Adjon hozzá egy új egyéni mezőt a fiókhoz, és töltse ki automatikusan egy kétbetűs országkóddal (ISO 3166) a keresőmezőben kiválasztott érték alapján, és fordítva.
-     - Kövesse az előző lépéseket a nemlookup országkód mezőhöz egy új egyéni mező szinkronizálásához a CRM-től a Partnerközpont.
+  - Keresésalapú országkód-mező a fiókban:
+    - Adjon hozzá egy új egyéni mezőt a fiókban, és töltse ki automatikusan egy kétbetűs országkóddal (ISO 3166) a keresőmezőben kiválasztott érték alapján, és fordítva.
+    - Kövesse az előző lépéseket a nemlookup országkód mezőhöz egy új egyéni mező szinkronizálásához a CRM-től a Partnerközpont.
 
 - **Lehetőségmezők:** Ha **kötelezően**  kitöltendő mezőket kell megadni a Lehetőség mezőben, szerkessze a [Testreszabás] létrehozására vagy lekért adatokra vonatkozó adatokat a **Dynamics 365-folyamatból,** majd a CRM-ben kattintson a Lehetőség létrehozása vagy frissítése elemre, és frissítse az Új lehetőség létrehozása műveletet, hogy értékeket rendeljen a kötelező mezőkhöz az üzleti követelmények alapján. 
 - **Érdeklődőmezők:** Ha kötelező mezőket kell feltölteni az Érdeklődő mezőben, szerkessze a [Testreszabás] Létrehozás  vagy Részletek lefutása **a Dynamics 365-folyamatból** című témakört, majd az Érdeklődő létrehozása vagy frissítése a CRM-ben, és frissítse az Új érdeklődő létrehozása műveletet, hogy értékeket rendeljen **a** kötelező mezőkhöz az üzleti követelmények alapján. 
@@ -197,17 +197,17 @@ Miután telepítette, konfigurálta és testre szabta a Power Automate-megoldás
 
 ### <a name="prerequisites"></a>Előfeltételek
 
-A hivatkozások szinkronizálásához a Partnerközpont Dynamics 365 CRM-ben a Power Automate megoldás egyértelműen különül el a Microsoft-specifikus javaslatmezők között. Ez az azonosítás lehetővé teszi az értékesítő csapatok számára, hogy eldöntsék, mely terjesztéseket szeretnék megosztani a Microsofttal közös értékesítés céljából.
+A microsoftos és Partnerközpont Dynamics 365 CRM-ben a Power Automate megoldás egyértelműen különül el a Microsoft-specifikus javaslatmezők között. Ez az azonosítás lehetővé teszi az értékesítő csapatok számára, hogy eldöntsék, mely terjesztéseket szeretnék megosztani a Microsofttal az közös értékesítés érdekében.
 
-A megoldás telepítésének részeként egyéni mezők és objektumok halmaza lesz hozzáadva. A CRM rendszergazdának létre kell hoznia egy külön CRM-szakaszt a **Lehetőség egyéni mezőkkel.**
+A megoldás telepítésének részeként egyéni mezők és objektumok halmaza lesz hozzáadva. A CRM-rendszergazdáknak külön CRM-szakaszt kell létrehozniuk a **Lehetőség egyéni mezőkkel.**
 
 Az alábbi egyéni mezőknek a CRM szakasz részeinek kell lennie:
 
-- **Szinkronizálás a Partnerközpont:** Azt határozza meg, hogy szinkronizálja-e a lehetőséget a Partnerközpont. Alapértelmezés szerint a mező értéke Nem, és az értékesítőnek explicit módon Igen értékűnek kell lennie ahhoz, hogy megoszton egy lehetőséget a Microsofttal. A CRM-hez Partnerközpont új hivatkozások mezőértéke Igen értékre lesz állítva.
+- **Szinkronizálás Partnerközpont:** Azt határozza meg, hogy szinkronizálja-e a lehetőséget a Partnerközpont. Alapértelmezés szerint a mező értéke Nem, és az értékesítőnek explicit módon Igen értékre kell állítania, hogy megoszton egy lehetőséget a Microsofttal. A CRM-hez Partnerközpont új hivatkozások mezőértéke Igen értékre lesz állítva.
 - **Hivatkozásazonosító:** A hivatkozáshoz csak olvasható Partnerközpont mező.
-- **Hivatkozás:** A hivatkozásra mutató csak olvasható hivatkozás a Partnerközpont.
-- **Hogyan segíthet a Microsoft?**: Segítségre van szükség a Microsofttól a hivatkozáshoz. Közös értékesítésre vonatkozó ajánlás létrehozásához válassza ki a Microsofttól szükséges megfelelő súgót. Az ügyfélkapcsolatot társítanunk kell egy közös értékesítésre vonatkozó ajánlás létrehozására vonatkozó lehetőséggel. Nem közös értékesítésre vonatkozó ajánlás létrehozásához ne jelölje ki ezt a mezőt. Az nem közös értékesítésre vonatkozó ajánlás bármikor átalakítható közös értékesítésre vonatkozó ajánlásként a megfelelő segítségre van szükség.
-- **Microsoft Partnerközpont Hivatkozás láthatósága:** Válassza ki a Partnerközpont láthatóságát. Azáltal, hogy láthatóvá teszi a Microsoft értékesítői számára, előfordulhat, hogy egy nem közös értékesítésre vonatkozó ajánlást átalakítunk közös értékesítésre. Ha a Microsoft-súgóra van szükség, a hivatkozás alapértelmezés szerint látható a Microsoft értékesítői számára. Miután ez a mező láthatóként van megjelölve, nem lehet visszaállni.
+- **Hivatkozás:** A hivatkozás csak olvasható hivatkozása a Partnerközpont.
+- **Hogyan segíthet a Microsoft?**: Segítségre van szükség a Microsofttól a hivatkozáshoz. Egy közös értékesítésre vonatkozó ajánlás létrehozásához válassza ki a Microsofttól szükséges megfelelő súgót. Az ügyfélkapcsolatot társnak kell társítanunk ahhoz a lehetőséghez, hogy közös értékesítésre vonatkozó ajánlást hozzunk létre. Nem közös értékesítésre vonatkozó ajánlás létrehozásához ne jelölje ki ezt a mezőt. A nem közös értékesítésre vonatkozó ajánlás bármikor átalakítható egy közös értékesítésre vonatkozó ajánlásra a megfelelő, segítségre van szükség lehetőség kiválasztásával.
+- **Microsoft Partnerközpont Hivatkozás láthatósága:** Válassza ki a Partnerközpont láthatóságát. Azáltal, hogy láthatóvá teszi a Microsoft értékesítői számára, előfordulhat, hogy egy nem közös értékesítésre vonatkozó ajánlás át lesz alakítva közös értékesítésre. Ha a Microsoft-segítségre van szükség, a hivatkozás alapértelmezés szerint látható a Microsoft értékesítői számára. Miután ez a mező láthatóként van megjelölve, nem lehet visszaállni.
 - **Microsoft CRM-azonosító:** Ha a Microsoft létrehoz és elfogad egy közös értékesítésre vonatkozó ajánlást, ez a mező a Microsoft CRM-azonosítóját fogja tartalmazni.
 - **Termékek: Elavult:** Ne használja ezt a mezőt, és ne adja hozzá a CRM szakaszhoz. Csak visszamenőleges kompatibilitáshoz érhető el. Használjon Partnerközpont megoldásokat.
 - **Naplózás:** Csak olvasható auditálási napló a Partnerközpont való szinkronizáláshoz.
@@ -221,7 +221,7 @@ Az alábbi egyéni mezőknek a CRM szakasz részeinek kell lennie:
 
 - A Microsoft-megoldások hozzáadása után előre kitöltheti az értékesítésre kész megoldás részleteit, így az értékesítőknek nem kell hozzáadniuk őket. Új megoldás részleteinek hozzáadásához a CRM-ben válassza a  Microsoft Solution Details objektumot, és válassza a Rekord hozzáadása lehetőséget egy bejegyzés hozzáadásához, vagy használja az **Excel-feltöltést** több bejegyzés hozzáadásához.
 
-  :::image type="content" source="images/dynamic-1a.png" alt-text="Az Új Microsoft-megoldás részleteit bemutató képernyőkép.":::
+  :::image type="content" source="images/cosellconnectors/dynamics-solution-1.png" alt-text="Az Új Microsoft-megoldás részleteit bemutató képernyőkép.":::
 
 ### <a name="scenarios"></a>Forgatókönyvek
 
@@ -231,27 +231,27 @@ Az alábbi egyéni mezőknek a CRM szakasz részeinek kell lennie:
 
    1. Ha új lehetőséget hoz létre a Dynamics 365-környezetben, győződjön meg arról, hogy a **Microsoft** Partnerközpont szakasz jelen van.
 
-      :::image type="content" source="images/dynamic-2a.png" alt-text="Képernyőkép az Új lehetőség lehetőségről.":::
+      :::image type="content" source="images/cosellconnectors/dynamics-solution-2.png" alt-text="Képernyőkép az Új lehetőség lehetőségről.":::
 
    1. A lehetőség és a Partnerközpont a következő mezőket kell beállítania a kártyanézetben:
 
-      - **Hogyan segíthet a Microsoft?**: Egy közös értékesítésre vonatkozó ajánlás létrehozásához válassza ki a megfelelő súgó lehetőséget.
+      - **Hogyan segíthet a Microsoft?**: Egy közös értékesítésre vonatkozó ajánlás létrehozásához válasszon ki egy megfelelő súgó lehetőséget.
 
-         :::image type="content" source="images/dynamic-3a.png" alt-text="A kártyanézet megfelelő mezőinek lekért adatait bemutató képernyőkép.":::
+         :::image type="content" source="images/cosellconnectors/dynamics-solution-3.png" alt-text="A kártyanézet megfelelő mezőinek lekért adatait bemutató képernyőkép.":::
 
-      - **Ügyfélkapcsolat:** Ha közös értékesítésre vonatkozó ajánlást szeretne létrehozni, adjon hozzá egy ügyfélkapcsolatot a lehetőséghez.
+      - **Ügyfélkapcsolat:** Ha egy közös értékesítésre vonatkozó ajánlást szeretne létrehozni, adjon hozzá egy ügyfélkapcsolatot a lehetőséghez.
       - **Szinkronizálás a Partnerközpont:** Igen.
-      - **Microsoft-megoldások:** Ha meg szeretne osztani egy ajánlást a Microsofttal, adjon hozzá egy érvényes, közös értékesítésre kész megoldást vagy Microsoft-megoldást a lehetőséghez.
-      
-        :::image type="content" source="images/dynamic-4a.png" alt-text="Képernyőkép a Megoldásazonosítóról.":::
+      - **Microsoft-megoldások:** Ha meg szeretne osztani egy javaslatot a Microsofttal, adjon hozzá egy érvényes, közös értékesítésre kész megoldást vagy Microsoft-megoldást a lehetőséghez.
 
-   1. Miután létrehozta a lehetőséget a Dynamics 365-ben, és a Szinkronizálás Partnerközpont beállítás Igen, várjon 10 percet.  Ezután jelentkezzen be Partnerközpont fiókjába. A rendszer szinkronizálja a hivatkozásokat a Dynamics 365-sel és **a hivatkozásazonosítóval.** **A hivatkozás ki** lesz töltve. Ha hiba történik, a **Rendszervizsgálat** mezőben hibainformációk fognak adatokat tartalmazni.
-     
-    1. Hasonlóképpen, egy olyan lehetőség esetén, amely Partnerközpont Szinkronizálás az Partnerközpont-val lehetőség igenre lett állítva, ha frissíti a lehetőséget a Dynamics 365 CRM-ben, **a** módosítások szinkronizálva lesznek az Partnerközpont fiókjában.
+        :::image type="content" source="images/cosellconnectors/dynamics-solution-4.png" alt-text="Képernyőkép a Megoldásazonosítóról.":::
 
-    1. A Dynamics 365-Partnerközpont sikeresen szinkronizált lehetőségeket ✔ a Dynamics 365-ben.
+   1. Miután létrehozta a lehetőséget a Dynamics 365-ben, és a Szinkronizálás Partnerközpont beállítás Igen, várjon 10 percet.  Ezután jelentkezzen be Partnerközpont fiókjába. A rendszer szinkronizálja a hivatkozásokat a Dynamics 365-sel és **a hivatkozásazonosítóval.** **A hivatkozás ki** lesz töltve. Hiba esetén a Rendszervizsgálat  mező ki lesz töltve hibainformációkkal.
 
-1. Hivatkozásszinkronizálás a hivatkozás létrehozásakor vagy Partnerközpont Dynamics 365-környezetben való szinkronizálása esetén:
+      1. Hasonlóképpen, egy olyan lehetőség esetén, amely Partnerközpont Szinkronizálás az Partnerközpont-val lehetőség igenre lett állítva, ha frissíti a lehetőséget a Dynamics 365 CRM-ben, **a** módosítások szinkronizálva lesznek az Partnerközpont fiókjában.
+
+      1. A Dynamics 365-Partnerközpont sikeresen szinkronizált lehetőségeket ✔ a Dynamics 365-ben.
+
+1. Hivatkozásszinkronizálás a hivatkozás létrehozásakor vagy Partnerközpont Dynamics 365-környezetben való szinkronizálásakor:
 
    1. Jelentkezzen be a Partnerközpont [irányítópultjára.](https://partner.microsoft.com/dashboard/home)
 
@@ -263,7 +263,7 @@ Az alábbi egyéni mezőknek a CRM szakasz részeinek kell lennie:
 
    1. Nyissa meg a **Lehetőségek megnyitása lehetőséget.** A Partnerközpont létrehozott ajánlás most már szinkronizálva van a Dynamics 365 CRM-ben.
 
-   1. Szinkronizált hivatkozás kiválasztásakor a kártyanézet részletei ki lesznek töltve.
+   1. Amikor kiválaszt egy szinkronizált ajánlást, a kártyanézet részletei ki lesznek töltve.
 
 ## <a name="next-steps"></a>Következő lépések
 

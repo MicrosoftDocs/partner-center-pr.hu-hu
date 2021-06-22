@@ -8,13 +8,13 @@ author: brentserbus
 ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
-ms.date: 04/01/2021
-ms.openlocfilehash: 9d34a8e7674d178dc3217e36cee25b2d9ad6c36a
-ms.sourcegitcommit: e462f562e7f26b7d6870c22638a2a841499109d6
+ms.date: 06/18/2021
+ms.openlocfilehash: 101d67e42970e0aab4b2ea8bf0bc230cf57109d1
+ms.sourcegitcommit: b7203f1393c3d8f8db4683acdebd09a89e086c3c
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "109740352"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "112424992"
 ---
 # <a name="december-2020-announcements"></a>2020. decemberi közlemények
 
@@ -87,7 +87,7 @@ Ossza meg ezt az információt a szervezet megfelelő érdekelt felével. A 2021
 
 ### <a name="questions"></a>Kérdése van?
 
-Ha kérdése van, lépjen kapcsolatba a regionális operatív központ a Call Logging Tool (CLT) eszközzel a következő [https://clt.partners.extranet.microsoft.com/CLT](https://clt.partners.extranet.microsoft.com/CLT) e-mail-explore.ms. [](https://www.explore.ms/publichome.aspx) Kövesse szorosan a szabványos CLT-folyamatot, hogy a lehető leggyorsabban megoldjuk a lekérdezést.
+Ha kérdése van, lépjen kapcsolatba a regionális operatív központ a Call Logging Tool (CLT) eszközzel a következő vagy [https://clt.partners.extranet.microsoft.com/CLT](https://clt.partners.extranet.microsoft.com/CLT) explore.ms. [](https://www.explore.ms/publichome.aspx) Kövesse szorosan a szabványos CLT-folyamatot, hogy a lehető leggyorsabban megoldjuk a lekérdezést.
 
 ______________
 
@@ -95,7 +95,7 @@ ______________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2020. 12. 22.
+- Dátum: 2020-12-22
 - Képességek
 
 ### <a name="impacted-audience"></a>Érintett célközönség
@@ -104,18 +104,18 @@ A közvetlen számlázási és közvetett szolgáltatók, akik részt vesznek a 
 
 ### <a name="details"></a>Részletek
 
-Partnerközpont általában a hónap első napján ütemezett díjszabási és katalógusfrissítések 2021. januárra némi változásokat fognak látni. Az összes díjszabási fájl a szokásos módon, 2020. december 31-én, körülbelül 18:00-kor (CSENDES-óceáni téli idő) érhető el. Az alábbi, általában a hónap első napján történt frissítések azonban kissé késnek. 
+Partnerközpont általában a hónap első napján ütemezett díjszabási és katalógusfrissítések 2021. januári ütemezése kis mértékben módosul. Az összes díjszabási fájl a szokásos módon, 2020. december 31-én, körülbelül 18:00-kor (PST) lesz elérhető. Az alábbi frissítések azonban, amelyek normál esetben a hónap első napján következnek be, kissé késni fognak. 
 
-- Az Azure használatalapú árlistái 2021. január 4-ig a nap végéig késnek. Az Azure használatalapú díjszabási fájljainak díjszabása 2021. január 1-jén csak 2020. december 21-ig tart. A fájlok január 4-én frissülnek.
-- A licencalapú díjszabási fájlok 2021. január 1-jén naprakészek lesznek, de némi késés lesz, amíg új ajánlatok nem lesznek elérhetők a katalógusban vásárlásra. A licencalapú katalógusfrissítés 2021. január 5-én 17:00-kor (PST) van ütemezve. 
+- Az Azure használatalapú árlistái 2021. január 4-ig a nap végéig késnek. Az Azure használatalapú díjszabási fájljainak díjszabása 2021. január 1-től csak 2020. december 21-ig tart. A fájlok január 4-én frissülnek.
+- A licencalapú díjszabási fájlok 2021. január 1-jén naprakészek lesznek, de némi késés lesz, amíg a katalógusban nem lesznek megvásárolható új ajánlatok. A licencalapú katalógusfrissítés 2021. január 5-én 17:00-kor (PST) van ütemezve. 
 
-Vegye észre, hogy az összes többi árlistafájl a szokásos ütemezés szerint van ütemezve, a fenti két kézbesítés kis mértékben késni fog.
+Vegye észre, hogy az összes többi árlistafájl a szokásos ütemezés szerint van ütemezve. A fenti két kézbesítés kismértékben késni fog.
 
 ### <a name="next-steps"></a>Következő lépések
 
-Összefoglalva, az alábbi díjszabási fájlok a szokásos módon 2020. december 31-én, körülbelül 18:00 -kor (PST) lesznek elérhetők:
+Összefoglalva, az alábbi díjszabási fájlok a szokásos módon 2020. december 31-én, körülbelül 18:00-kor (PST) lesznek elérhetők:
 
-- Licencalapú árlistafájlok és ajánlatlista-mátrix
+- Licencalapú árlistafájlok és ajánlatlista mátrixa
 - Használatalapú árfájlok, de csak 2020. december 21-ig frissülő frissítésekkel
 - Használatalapú foglalási árlisták
 - Szoftver-előfizetések árlistái
@@ -124,7 +124,7 @@ Vegye észre, hogy az összes többi árlistafájl a szokásos ütemezés szerin
 - Azure-csomag foglalási árlistái
 - Azure-csomag használatának átváltási árfolyama
 
-Az alábbi díjszabási fájl 2021. január 4-én 18:00-kor (PST) frissül:
+A következő díjszabási fájl 2021. január 4-én, 18:00-kor (PST) frissül:
 
 - Használatalapú árfájlok
 
@@ -145,21 +145,21 @@ Informatikai rendszergazdák, informatikai döntéshozók, vezető informatikai 
 
 ### <a name="details"></a>Részletek
 
-Microsoft 365 felhasználói és kereskedelmi környezetben az előfizetők is jól fognak szolgálni ezzel a változással, mivel gyorsabb és rugalmasabb webes hozzáféréssel férhetnek hozzá a mindennapos eszközkészletek több funkcióhoz, például az Outlookhoz, a Teamshez, a SharePointhoz és sok máshoz.
+Microsoft 365 felhasználói és kereskedelmi környezetben is jól kiszolgálják az előfizetőket, mivel gyorsabban és rugalmasabban férhetnek hozzá a mindennapos eszközök több funkciókészletéhez, például az Outlookhoz, a Teamshez, a SharePointhoz és sok máshoz.
 
-Az új Microsoft Edge a modern böngészők legjobb kifejezése, és izgatottan várjuk, hogy az ügyfelek ezt tapasztalják. Most, hogy kiszállította az új Microsoft Edge- és frissítettük Windows 10-ügyfeleink nagyját az új böngészőre, befejezjük a Microsoft Edge asztali alkalmazás támogatását.
+Az új Microsoft Edge a modern böngészők legjobb kifejezése, és izgatottan várjuk az ügyfeleket, hogy ezt tapasztalják. Most, hogy kiszállította az új Microsoft Edge és frissítettük a Windows 10-ügyfelek nagyját az új böngészőre, befejezjük a Microsoft Edge asztali alkalmazás támogatását.
 
 **A változás hatása**
 
-- **2020. november 30-tól** az ügyfelek a 11-es Internet Explorer nem tudnak csatlakozni a Microsoft Teams-webalkalmazáshoz. A Microsoft úgy véli, hogy az új böngészők Microsoft 365 és a modern böngészők legjobb kifejezését az ügyfelek [Microsoft Edge.](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
-- **2021. március 9-** után az Microsoft Edge régi verzióhoz létrehozott alkalmazások és webhelyek továbbra is működni fognak az új Microsoft Edge-ben, de kompatibilitási probléma esetén az [Alkalmazástámogatási](/fasttrack/products-and-capabilities#app-assure) ígéret támogatást nyújt.
-- **2021. augusztus 17-e** után az ügyfelek csökkentett teljesítményű felhasználói élményt tapasztalnak, vagy a 11-es Microsoft 365 nem tudnak csatlakozni Internet Explorer-alkalmazásokhoz és -szolgáltatásokhoz. A Microsoft úgy véli, hogy az új böngészők Microsoft 365 és a modern böngészők legjobb kifejezését az ügyfelek [Microsoft Edge.](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
+- **2020. november 30-tól** az ügyfelek nem tudnak többé csatlakozni a Microsoft Teams webalkalmazáshoz a 11 Internet Explorer oldalon. A Microsoft úgy véli, hogy az új böngészők Microsoft 365 a legtöbbet és a legjobb kifejezést kapják meg az [ügyfelek Microsoft Edge.](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
+- **2021.** március 9-től az örökölt Microsoft Edge-hoz létrehozott alkalmazások és webhelyek továbbra is működni fognak az új Microsoft Edge-ben, de kompatibilitási probléma esetén az [Alkalmazás](/fasttrack/products-and-capabilities#app-assure) biztos lehet abban, hogy támogatást nyújt.
+- **2021. augusztus 17-e** után az ügyfelek csökkentett teljesítményű felhasználói élményt fognak tapasztalni, vagy nem fognak tudni csatlakozni Microsoft 365 11-es Internet Explorer alkalmazásokhoz és szolgáltatásokhoz. A Microsoft úgy véli, hogy az új böngészők Microsoft 365 a legtöbbet és a legjobb kifejezést kapják meg az [ügyfelek Microsoft Edge.](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
 
 ### <a name="next-steps"></a>Következő lépések
 
 - Olvassa el a blogbejegyzést, hogy megértse a bejelentés részleteit.
 - Ezzel a lehetőséggel elérheti a partnereket, hogy segítsenek az új Microsoft Edge.
-- További források és további információk: [Az Edge YouTube vagy](https://www.youtube.com/channel/UCIGx7oT8p6-jUpOfg98yelA) az Edge [bevezetésének](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
+- További források és további információk: [Az Edge YouTube vagy](https://www.youtube.com/channel/UCIGx7oT8p6-jUpOfg98yelA) az Edge [bevezetésével kapcsolatos információk](https://www.microsoft.com/edge/business?form=MO12H3&OCID=MO12H3)
 
 ### <a name="questions"></a>Kérdések
 
@@ -167,11 +167,11 @@ Ha kérdése van, lépjen kapcsolatba a [Commercial Search GTM](mailto:Commercia
 
 ____________
 
-## <a name="government-academic-and-non-profit-continuing-the-open-license-program-changes-and-evolution-of-csp"></a><a name="9"></a>Kormányzati, tudományos és nonprofit szervezetek: Az Open License program változásainak folytatása és a CSP fejlődése
+## <a name="government-academic-and-non-profit-continuing-the-open-license-program-changes-and-evolution-of-csp"></a><a name="9"></a>Kormányzati, tudományos és nonprofit: A nyíltlicenc-program változásainak és a CSP fejlődésének folytatása
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2020. 12. 17.
+- Dátum: 2020-12-17
 - Vállalkozás fejlesztése
 
 ### <a name="impacted-audience"></a>Érintett célközönség
@@ -180,7 +180,7 @@ Minden CSP-partner
 
 ### <a name="details"></a>Részletek
 
-Napjainkban, ahogy [](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/)továbbra is a felhőre fogunk rangsorolni, a nyilvános szektor (kormányzati, oktatási és nonprofit) ügyfeleinek az Open License program keretében vásárolt jövőbeli változásairól, valamint a programhoz kapcsolódó változásokról is Felhőszolgáltató.
+Napjainkban, ahogy [](https://blogs.partner.microsoft.com/mpn/expanding-opportunities-for-partners-in-the-cloud-solution-provider-program/)folyamatosan rangsoroljuk a felhőt, a nyilvános szektor (kormányzati, oktatási és nonprofit) ügyfelek számára az Open License program keretében vásárolt jövőbeli változásokról, valamint az Felhőszolgáltató programhoz kapcsolódó változásokról.
 
 ### <a name="next-steps"></a>Következő lépések
 
@@ -188,7 +188,7 @@ A teljes bejelentés csak a Microsoft partnerei számára érhető el. [A teljes
 
 ______________
 
-## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="8"></a>Az ügyfél Felhőszolgáltató (CSP) követelményeinek változásai
+## <a name="changes-to-the-cloud-solution-provider-csp-customer-onboarding-requirements"></a><a name="8"></a>A Felhőszolgáltató (CSP) ügyfélbehozatali követelményeinek változásai
 ### <a name="categories"></a>Kategóriák
 
 - Dátum: 2021-04-02
@@ -200,11 +200,11 @@ Elkötelezettségünk részeként, hogy segítsünk a partnereknek és az ügyfe
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
-Közvetlen csp-számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel vannak a következő szakaszban felsorolt országokban
+A CSP közvetlen számlázási partnerek és közvetett szolgáltatók, akik új vagy meglévő ügyfelekkel vannak a következő szakaszban felsorolt országokban
 
 ### <a name="details"></a>Részletek
 
-A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos ügyfél-ellenőrzési módszert biztosítsunk az ügyfél-előfizetések tranzakciós folyamatához a CSP-programban. 2021. március 25-én bevezetünk egy Partnerközpont API- és felhasználói felületi (UI) fejlesztéseket, amelyek hatással lesznek az alábbi két feltételnek megfelelő partnerekre:
+A Microsoft megbízhatósági kapcsolaton fut. Elkötelezettek vagyunk amellett, hogy megfelelő, biztonságos és biztonságos ügyfél-ellenőrzési módszert biztosítsunk az ügyfél-előfizetések tranzakciója során a CSP-programban. 2021. március 25-én bevezetünk egy API- és felhasználói felületi (UI) fejlesztéseket Partnerközpont, amelyek hatással lesznek az alábbi két feltételnek megfelelő partnerekre:
 
 1. A partner közvetlen számlázási kapcsolattal rendelkezik a Microsofttal (ami azt jelenti, hogy a partner közvetlen számlázási partner vagy közvetett szolgáltató).
 
@@ -273,12 +273,12 @@ ______________
 
 ### <a name="categories"></a>Kategóriák
 
-- Dátum: 2020. 12. 17.
+- Dátum: 2020-12-17
 - Vállalkozás fejlesztése
  
 ### <a name="summary"></a>Összefoglalás
 
-Emlékeztetőül: 2021. január 19-től minden CSP-partner el tudja majd adni a kereskedelmi folyamatos szoftverlicenceket. Új termékeket és földrajzi helyeket is bevezetünk.
+Emlékeztetőül: 2021. január 19-től minden CSP-partner el tudja majd adni a kereskedelmi folyamatos szoftverlicenceket. Új termékeket és földrajzi helyeket is bemutatunk.
 
 ### <a name="impacted-audience"></a>Érintett célközönség
 
@@ -287,19 +287,19 @@ Minden CSP-partner
 ### <a name="details"></a>Részletek
 
 >[!NOTE]
->A partneri visszajelzések miatt visszaállítjuk a Partnerközpont fulfillment képességet a szoftver- és licenckulcsok beszerzésére a folyamatos és kiszolgálói előfizetési szoftverrendelések esetén. A rendszer a 2021. január 19-i eltávolítás előtt visszaállítja az előző állapotát. További információért tekintse meg a [2021. márciusi bejelentést.](./2021-march.md#4)
+>A partneri visszajelzések miatt visszaállítjuk a teljes Partnerközpont, hogy szoftvereket és licenckulcsokat szerezzünk be a folyamatos és kiszolgálói előfizetési szoftverrendelések esetén. A rendszer a 2021. január 19-i eltávolítás előtt visszaállítja az előző állapotába. További információért tekintse meg a [2021. márciusi bejelentést.](./2021-march.md#4)
 
-Emlékeztetjük, hogy **2021. január 19-től** a CSP programban regisztrált összes partner képes lesz kereskedelmi folyamatos szoftverlicenceket értékesíteni a helyszíni telepítéshez a CSP-n keresztül. Ez lehetővé teszi az ügyfelek számára a digitális átalakítás részeként szükséges licencelési rugalmasságot.
+Szeretnénk emlékeztetni, hogy **2021. január 19-től** a CSP-programban regisztrált összes partner képes lesz kereskedelmi folyamatos szoftverlicencek értékesítésére a csp-on keresztüli helyszíni üzembe helyezéshez. Ez lehetővé teszi az ügyfelek számára a digitális átalakítás részeként szükséges licencelési rugalmasságot.
 
 Ugyanezen a napon a következők történnek:
 
-- A CSP folyamatos szoftverárlistát a rendszer újból közzétenné a Partnerközpont. Ezt a Sell  [> Pricing & Offers](https://partnercenter.microsoft.com/pcv/sales) (Ajánlatok) oldal Szoftver szakaszában találja, amely további termékeket és földrajzi helyeket tartalmaz. Részletes információt [itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) talál.
+- A CSP állandó szoftverárlistát a rendszer újból közzé fogja Partnerközpont. Ezt a Sell  [> Pricing & Offers (Ajánlatok](https://partnercenter.microsoft.com/pcv/sales) díjszabása) oldal Software (Szoftver) szakaszában találja, amely további termékeket és földrajzi helyeket tartalmaz. Részletes információt [itt](https://partner.microsoft.com/resources/detail/software-in-csp-new-products-geos-pdf) talál.
 
-- A Partnerközpont szoftver- és licenckulcs-teljesítési képességet [](./2020-september.md#17) kivezetjük – lásd a bejelentést – és a partnerek arra fogják használni az Microsoft 365 Felügyeleti központot, hogy kizárólag erre a célra használják a központban. Ez biztosítja a legbiztonságosabb és leghatékonyabb felhasználói élményt az ügyfelek számára. A Felügyeleti központ Microsoft 365 további információért tekintse át [](/microsoft-365/admin/admin-overview/about-the-admin-center?preserve-view=true&view=o365-worldwide)az [áttekintést,](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3)a gyakori feladatokat és a licenckulcs-teljesítő [képességeket.](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf)
+- A Partnerközpont szoftver- és licenckulcs-teljesítési képesség ki [](./2020-september.md#17) leszvezetve – lásd a bejelentést – és a partnerek arra fogják használni az Microsoft 365 Felügyeleti központot, hogy kizárólag erre a célra használják a központban. Ez biztosítja a legbiztonságosabb és leghatékonyabb felhasználói élményt az ügyfelek számára. A felügyeleti központ Microsoft 365 az [áttekintést,](https://support.microsoft.com/office/admin-center-overview-fa715fa8-6eda-456d-b177-d1c156edd1b3)a [](/microsoft-365/admin/admin-overview/about-the-admin-center?preserve-view=true&view=o365-worldwide)gyakori feladatokat és a licenckulcs-teljesítés [képességeit áttekintve további információt kaphat.](https://partner.microsoft.com/resources/detail/microsoft-365-admin-center-software-key-download-pdf)
 
 ### <a name="perpetual-software-in-csp"></a>Folyamatos szoftver a CSP-ban
 
-Ha az új kereskedelmi felhasználói élményben folyamatos szoftvereket ad a CSP-programhoz, azzal csökkenti a partnerek által a több licencelési program kezeléséhez szükséges időt és költségeket. Ez továbbfejlesztett értékesítési, üzemeltetési és felügyeleti képességeket fog tartalmazni. A partnerek különböző megoldásokat és felügyelt szolgáltatásokat kínálva bővítik vállalkozásukat, rugalmasan kombinálva a licenceket és a felügyelt szolgáltatásokat a hibrid felhőkörnyezetekhez, így tovább gyorsítva ügyfeleik felhőre való áttérését. Az ügyfelek számára viszont előnyösebb a szoftverlicencek megvásárlásának egyszerűsített megközelítése és nagyobb rugalmassága. Ez a vásárlási folyamat könnyen érthető, közvetlenül javítja a licencelési eszközök kezelését, és kiszámítható költségekkel jár.
+Ha folyamatos szoftvereket ad a CSP programhoz az új kereskedelmi felhasználói élményben, azzal csökkenti a partnerek által a több licencelési program kezelésével kapcsolatos időt és költségeket. Ez továbbfejlesztett értékesítési, üzemeltetési és felügyeleti képességeket fog tartalmazni. A partnerek különböző megoldásokat és felügyelt szolgáltatásokat kínálva bővítik vállalkozásukat, rugalmasan kombinálva a licenceket és a felügyelt szolgáltatásokat a hibrid felhőkörnyezetekhez, így tovább gyorsítva ügyfeleik felhőre való áttérését. Az ügyfelek számára viszont előnyösebb a szoftverlicencek megvásárlásának egyszerűsített megközelítése és nagyobb rugalmassága. Ez a vásárlási folyamat könnyen érthető, közvetlenül javítja a licencelési eszközök kezelését, és kiszámítható költségekkel jár.
 
 ### <a name="next-steps"></a>Következő lépések
 
@@ -393,12 +393,11 @@ Az ajánlathoz alább található ajánlat részletei a 2021. januári ajánlatl
 - Minimális helyszám: 200
 - Maximális helyszám: 10000000
 - Ajánlatkorlát: Nincs
-- Engedélyezett országok: Egyesült Államokbeli outlying-szigetek, angol (francia déli területek), Bouvet-sziget, Brit Indiai-óceáni terület, Jemen, Heard- és Mc-szigetek, Wallis- és Futuna-szigetek, Vanuatu, Antarktisz, Tuvalu, India, Tokelau, Sierra Leone, Swaziland, StRiba, Ascension, Tristan da Rmha, S TÉÉ© and Prldncipe, Pitcairn Islands,Xiu, Island Islands, Naxi, Niue, Norfolk Island, Mauritania, Northern Toa Islands, Lesotho, Kiribati, Equatorial Guinea, Guinea-Guineasau , Cook-szigetek, Eritrea, Sziget-sziget, Burkina Faso, Közép-afrikai Köztársaság, Dél-afrikai Köztársaság, Cocos (Keeling)-szigetek, Svalbard- és Jan Mayen-szigetek... land-szigetek, Dél-Afrikai Köztársaság, Dél-Korea és Dél-Sandwich-szigetek, Samoa-, Saint Barth©zely-, Brit Virgin-szigetek, Saint-Pierre- és Miquelon-szigetek, Saint, Niger, Montserrat, Guyana, Gimna, Korea, Guam, Guinea, Cardon, Kellada, Microernnéz, Micronesia, Falkland-szigetek, Dominikai-szigetek, Dominák, Djibouti, Kuba, Demokrata (DRC), Valamint, Amerikai Samoa, Zambia, Dél-Afrika, Mayotte, Vietnam, Saint-És Grenadine-szigetek, U.S. Virgin-szigetek, Saint, Tor, Tor , Foga, Uganda, Uzbekistan, Egyesült Államok, Tuzania, Tajvan, Trinidad and Tobago,Lóló, Utánzó, Tonga, Timor-Leste, Turmenistan, Tádzsikistan, Érem, Togo, ElHesse, Sint Maarten, Polys és Caicos-szigetek, Suriname, Szingapúr, Poly, San Marino, Senegal, Érzék, Egyesült Államok, Egyesült Államok, Dél-India, Németország, Ruwanda, Oroszország, Szerb, Ruwanda, Szerb, RÊ©union, Qatar, Touri, Portugália, Szingapúr, Terület, Foglalt, Mibens, Miháliát, Miskolc, Miháliát, Miskolcát, Pápuát, Francia Polynesiat , Új-Zéland, Omán, Új-Zéland, Nepal, Holland, Új-Zéland, Nicaragua, Új-Kaledónia, Namibia, Mozambik, Malajziában, Mexikó, Martinique, Malawi,Lies, Mauritius, Lantos, Közép-Afrikai, Macao SAR, Szalagia, Madagascar, Marshall-szigetek, Szövegtár, FYRO, Írnok, Saint Martin, Konfid, Monaco, Határ, Ír, Ír, Saint, Mella, SriOrd, Kajmán-szigetek, Valamint, Laosz, Andrea, Korea, Comrins, Saint Kitts és Nevis, Saint, Kyrgyzstan, Japan, , Sziget, Ltd, Olaszország,Lóló,Lóló, Írország, India, Indonéziában, Isle of Man, Tajvan, Tajvan, Hongkong KKT, Canada,Voadeloupe, Guadeloupe, Francia Guiana, Grönland, Ghana, Feröer-szigetek, Egyesült Királyság, France, Fiji, Ethirin, Egyesült Királyság, Ethirin, Egyesült Királyság, Spanyolország, Németország, Dominikai Köztársaság, Nagybani, Dominikai Köztársaság, Cseh Köztársaság, Curadzsa,ao, Fokváros, Csivani, Cameroon,Vot, CIAN'te d™Ivoire, Canada, Svájc , Belize, Wiki, Botswana, Bhutan, Határ, Sint Eustatius és Saba, Brazília, Benin, Szalagei, Bermuda, Belize, Wiki, Határ, Idő, Bahrain, Burundi,Felügyeleti és Burundi, Naplók, Burados, Burados, Aruba, Ausztrália, Aruba, Ausztrália, Arg, Angola, Hasonlít, Bermuda, Aguilla, Andorra, United ArabHus, Antigua ésUdauda
+- Engedélyezett országok: egyesült államokbeli outlying-szigetek, angol (francia déli területek), Bouvet-sziget, Brit indiai-óceáni terület, Yemen, Heard- és McDel-szigetek, Wallis és Futuna, Vanuatu, Antarktisz, Tuvalu, Fogya, Tokelau, Sierra Leone, Swaziland, St.Gna, Ascension, Tristan da Canha, SÉ£o Tommi© és Pr eancipe, Pitcairn-szigetek, Tokelau, Sierra Leone, Niue, Norfolk-sziget, Mauritania, Észak-India , Lesotho, Kiribati, Egyenlítői-Guinea, Guinea-Guineasau, Cook-szigetek, Eritrea, Sziget-sziget, Burkina Faso, Közép-afrikai Köztársaság, Törzs, Cocos (Keeling) szigetek, Svalbard és Jan Mayen, land-szigetek, Dél-Afrikai Köztársaság, Dél-Korea és Dél-Sandwich-szigetek, Samoa, Saint Barth által ©, Brit Virgin-szigetek, Saint-Pierre- és Miquelon-szigetek, Québec, Niger, Montserrat, Guyana, Guyana, Giam, Guam, Guinea, Feljava, Guernari, Guernari, Québeia, Mikronézia, Falkland-szigetek, Domina, Djibouti, Niger, Guy (DRC), Rendszer, Amerikai Samoa, Zambia, Dél-Afrika, Mayotte, Nam, Saint Saint és Grenadine , Egyesült Államok Virgin-szigetek, Melyre, MelyRess see (Felcsúti város), Valamint Uzbekistan, Uzbekistan, Egyesült Államok, Tanzania, Tajvan, Trinidad és Tobago, Tonga, Tonga, Timor-Leste, Turmenistan, Tajikistan, Rajikistan, Éra, Togo, El Ér, Sint Maarten, Kerberiszt és Caicos-szigetek, Suriname, Szingapúr,Wan, San Marino, Senegal,Kumin, Szandra, Szerb, Ruwanda, Oroszország, Ruszki, RIZE©union, Qatar, San Marino, Senegal,Kumin, Portugália, , Körzeti terület, Foglalt, Mihúr,Lona, Polya, Emírségek, Polyua, Pápua Új-Guinea, Francia Polinézia, Új-Zéland, Omán, Nepal, Holland, Város, Nicaragua, Új-Kaledónia, Namibia, Mozambik, Maláj, Mexikó, Martinique, Malawi, Miks, Mauritius, Határ, Dekalma, Macao SAR,Palia, Fipalák, Marshall-szigetek, Új-Kaledónia, Namibia, Mozambik, Maláj, Mexikó, Martin, Burok, Burzír, Burok, Mihály, , SriÁsára, Kajmán-szigetek, Majd, Laosz, Egyesült Királyság, Dél-Korea, Comnéziák, Egyesült Államok, Saint Kitts és Nevis, Korea, Kirgyzstan, Japán, Kyrgyzstan, Japan,Lel, Gimna, Tajvan, Olaszország, India, Indonéz, Indonéz, Man,Indonéz, Isle of Man, Fort, Hongkong kKT, Kolumbia, Kolumbia, Grönland, Ghana, Feroe-szigetek, Egyesült Királyság, France, France, Fiji, Ethilel, Tajvan, , Majd Dominikai Köztársaság, Egyesült Királyság, Németország, Egyesült Királyság, Cseh Köztársaság, Cura általunk, Fokbene, FokBen, Brazília, Chilébe, Cameroon, Egyesült Államok, CÀ'te dâ™Ivoire, Canada, Svájc, Belize,Cal, Botswana, Bhutan,Hrs, Bonwan, Sint Eustatius and Saba, Brazília, Benin, Wikiei, Bermuda, Valamint a, Illetve, Illetve , Illetve, Bahrain, Burundi, Valamint Az Andrea, a Rendelkezésre áll, Aruba, Ausztrália, Aruba, Ausztrália, Migrálás, Angola, Valamint , Alkalmaz, Anguilla, Andorra, Egyesült Arab Emírségek, Antigua és Barbuda
 
 ### <a name="next-steps"></a>Következő lépések
 
-- A promóciós ajánlat 2021. január 1-jén válik elérhetővé a hivatalos CSP partnerközpont licenc-alap árlistával és ajánlatlista mátrixával. 
-- Az előléptetéssel kapcsolatos kérdéseket a Microsoft közösségi [bejelentésében lehet feltenni.](https://www.microsoftpartnercommunity.com/t5/Pricing-Licensing-Incentives/Announcing-a-new-Power-Apps-promotional-offer-to-accelerate-FY21/m-p/32540)
+- A promóciós ajánlat 2021. január 1-jén válik elérhetővé, amely a hivatalos CSP partnerközpont licencalapár-listája és ajánlatlista-mátrixa.
 
 ______________
 
@@ -461,14 +460,14 @@ A decemberi licencalapú árlisták és ajánlatlista-mátrixfájlok néhány re
 
 #### <a name="incorrect-offers-in-the-license-based-price-list"></a>Helytelen ajánlatok a licencalapú árlistában
 
-A decemberi licencalapú árlisták az alábbi ajánlatokat tartalmazzák, amelyek nem tartalmazhatnak árlistát. Ezek az ajánlatok korábban hibás árlistákban szerepeltek, és nem kellett volna közzétenni őket. Nincs ütemezés arra, hogy mikor lesznek elérhetők ezek az ajánlatok. Ha a jövőben vissza lesznek adva, azok ADD-ként lesznek felsorolva a jövőbeli előzetes verzió árlistáiban.
+A decemberi licencalapú árlisták az alábbi ajánlatokat tartalmazzák, amelyek nem tartalmazhatnak árlistát. Ezek az ajánlatok korábban hibás árlistákban szerepeltek, és nem kellett volna közzétenni őket. Nincs ütemezés arra, hogy mikor lesznek elérhetők ezek az ajánlatok. Ha a jövőben újra hozzáadja őket, azok ADD-ként lesznek listázva a jövőbeli előzetes verziók árlistáiban.
 
    |**Ajánlat neve**|**Ajánlat azonosítója**|
    |-------------------|:------|
    |Dynamics 365 Human Resources (Nonprofit szervezetek díjszabása)|1596fa61-7da1-4263-98f8-b27dfa4cfbb5|
    |Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer (Nonprofit-díjszabás)|8bf0b826-e05b-45aa-9cd1-9a9f742f7731|
    |Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer (Nonprofit-díjszabás) (Minősített ajánlat)|f906435d-9dc9-42ba-bea6-2a2b08ca60db|
-   |Dynamics 365 Human Resources Sandbox (Nonprofit szervezetek díjszabása)|079ec5ba-d726-4384-95af-62d135c210d2|
+   |Dynamics 365 Human Resources Sandbox (nonprofit szervezetek díjszabása)|079ec5ba-d726-4384-95af-62d135c210d2|
    |Dynamics 365 Human Resources Self-Service (nonprofit szervezetek díjszabása)|931accc-34c3-4f83-913e-c7fdbfd7e2a1|
    |Dynamics 365 Operations – Order Lines (Nonprofit szervezetek díjszabása)|7dd6b78a-3d53-47f8-8a64-bd84609a9a70|
    
@@ -491,7 +490,7 @@ Ez az ajánlat szerepel az ajánlatlista mátrixában, de a decemberi árlistáb
 
 ### <a name="next-steps"></a>Következő lépések
 
-Gyakran ellenőrizze a kibocsátási megjegyzéseket, ha más problémák is feltárva vannak, amelyek ehhez a bejelentéshez lesznek hozzáfűzve.
+Gyakran ellenőrizze a kibocsátási megjegyzéseket, ha más problémák is feltárva vannak, amelyek a bejelentéshez lesznek hozzáfűzve.
 
 ### <a name="last-updated"></a>Legutóbbi frissítés
 
@@ -499,7 +498,7 @@ Gyakran ellenőrizze a kibocsátási megjegyzéseket, ha más problémák is fel
 
 ______________
 
-## <a name="an-update-of-the-us-microsoft-365-business-voice-with-calling-plan-offer-is-coming-soon"></a><a name="2"></a>Hamarosan 2017- Microsoft 365 hamarosan frissül az Usa Microsoft 365 Business Voice with Calling Plan ajánlat
+## <a name="an-update-of-the-us-microsoft-365-business-voice-with-calling-plan-offer-is-coming-soon"></a><a name="2"></a>Hamarosan 2017- Microsoft 365 az USA Business Voice with Calling Plan ajánlatának frissítése
 
 ### <a name="categories"></a>Kategóriák
 
@@ -516,18 +515,18 @@ Az összes partner, aki a Felhőszolgáltató (CSP) programon keresztül megy ke
 
 ### <a name="details"></a>Részletek
 
-A Microsoft a meglévő Business Voice-t a hívási csomagra vonatkozó ajánlatra cseréli az Usa-ban egy új ajánlattal, amely támogatja a telco-termékek belső követelményeit. Az új ajánlat ugyanazokkal a funkciókkal és díjszabásokkal rendelkezik. Az ajánlat változásai a Microsoft belső szolgáltatásai, és nem lehetnek hatással arra, hogy a CSP-partnerek hogyan értékesítik, értékesítik vagy támogatják a Business Voice with Calling Plan ajánlatot. A módosítás csak erre az ajánlatra vonatkozik.
+A Microsoft a meglévő Business Voice-t az Egyesült Államok hívási csomagajánlatára cseréli egy új ajánlatra, amely támogatja a telco-termékek belső követelményeit. Az új ajánlat azonos szolgáltatáskészletet és díjszabást fog kínálni. Az ajánlat változásai a Microsofton belülre valók, és nem befolyásolhatják a CSP-partnerek által a Business Voice hívási csomaggal való értékesítésének vagy támogatásának módját. A módosítás csak az ajánlatra vonatkozik.
 
 Az új értékesítések 2021. január 1-től kezdődően az új ajánlatot fogják használni. A régi ajánlatot az árlistán található új ajánlat váltja fel.
 
-A meglévő ügyfelek a megújításuk napján automatikusan át lesznek váltás az új ajánlatra. A partnerektől és az ügyfelek megújításához nincs szükség beavatkozásra.
+A meglévő ügyfelek automatikusan át lesznek váltásra az új ajánlatra a megújításuk dátumakor. A partnerektől és az ügyfelek megújításához nincs szükség beavatkozásra.
 
 
 **Új ajánlat részletei
  
    |**Ajánlat neve**|**Ajánlat azonosítója**|**Anyagazonosító**|
    |-------------------|:------|:------|
-   |Microsoft 365 (US)|86713ec1-ad33-42cf-a1ce-8397d4d875fe|PZW-00023|
+   |Microsoft 365 Business Voice (USA)|86713ec1-ad33-42cf-a1ce-8397d4d875fe|PZW-00023|
    
 **Régi ajánlat részletei
 
@@ -572,17 +571,17 @@ A sikeres ügyfélellenőrzéshez szükséges API-k és adatbevitel jobb megért
 
 **Library- és Library-ügyfelek** 
 
-A fenti fejlesztések mellett nagy izgatottan jelentjük be, hogy az Academic-priced ajánlatokkal bővítjük az Oktatási ügyfeleket, akikkel CSP-ajánlatokat lehet tranzakciót tenni. 
+A fenti fejlesztések mellett izgatottan jelentjük be, hogy az Academic-priced ajánlatokkal bővítjük az Oktatási ügyfeleket, akikkel CSP-ajánlatokat lehet tranzakciót tenni. 
 
 A Microsoft fenntartja a jogot arra, hogy bármely ügyfél vagy javasolt ügyfél állapotát minősített oktatási felhasználóként tekintse át. További [részletekért tekintse](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) meg az Academic Qualified Education felhasználói követelményeit. 
 
 ### <a name="next-stepsadditional-resources"></a>Következő lépések/további források
 
-- Tekintse át az új Partnerközpont Felhasználói felület, API-módosításokat és útmutatót az Operations Readiness resources:  [Partnerközpont Education](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/) customer validation process enhancements (Az Education ügyfélérvényesítési folyamatának fejlesztései) Partnerközpont útmutatóban 
+- Tekintse át az Partnerközpont Felhasználói felület, API-módosításokat és útmutatót az Operations Readiness resources:  [Partnerközpont Education](https://partner.microsoft.com/resources/collection/partner-center-edu-validation-enhancements#/) ügyfélérvényesítési folyamatának fejlesztései között 
 
 - Győződjön meg arról, hogy a szervezet ismeri az [Academic Qualified Education User követelményeit.](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=7) 
 
-- Ossza meg ezeket az információkat a szervezet megfelelő csapatával és a viszonteladóival, hogy felkészüljenek ezekre a változásokra. 
+- Ezeket az információkat a szervezeten belüli megfelelő csapatokkal és a viszonteladóival is megoszthatja, hogy felkészüljenek ezekre a változásokra. 
 
 ### <a name="change-log"></a>Módosítási napló 
 
@@ -594,4 +593,4 @@ _ 2020. augusztus 31. : Eredeti közzététel
 
 - 2020. november 10.: Emlékeztető a tesztelésre való regisztrációhoz 
 
-- 2020. december 3.: Az API-frissítések élőben
+- 2020. december 3.: AZ API-frissítések élőben
