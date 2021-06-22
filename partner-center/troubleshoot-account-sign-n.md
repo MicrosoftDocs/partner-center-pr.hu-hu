@@ -4,36 +4,36 @@ ms.topic: how-to
 ms.date: 08/18/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: A regisztrálással kapcsolatos problémák elhárítása a Partnerközpont. Választ ad a fizetési módok kihívásaira, a jelszavak kifelejtésére stb.
+description: A regisztrálással kapcsolatos problémák elhárítása a Partnerközpont. Választ ad a fizetési módok kihívásaira, a jelszavakkal való elsiklott jelszavakra és egyéb problémákra.
 author: ArpithaKanuganti
 ms.author: v-arkanu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: a5e8a292ad8593dc0b94179d5f0ee418344ef9af
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 4fc1a43b4d525d9221ac7e4db56f5f278404e3f5
+ms.sourcegitcommit: bce54ddb9fff7332a03d6aa228ba9414a87d76b7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109854689"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112431755"
 ---
 # <a name="troubleshoot-account-setup-or-mpn-renewal-issues"></a>A fiók beállításával vagy az MPN megújításával kapcsolatos problémák elhárítása
 
-**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partner rendszergazdája
+**Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partneri rendszergazda
  
 Íme néhány javaslat a fiók beállításakor felmerülő gyakori problémák Partnerközpont elhárításához.
 
 ## <a name="what-happens-if-you-are-migrating-from-partner-membership-center-and-you-cant-edit-any-company-information-fields"></a>Mi történik, ha a vállalati Partner Membership Center, és nem szerkeszti a céges adatokat mezőit?
 
-Ha a vállalat már jelen van a Partnerközpont (például CSP-fiók) – csak olvasható képernyő jelenik meg. Ezen a képernyőn a cég összes adata megjelenik, ahogyan az a Partnerközpont.
+Olyan esetekben, amikor a vállalat már jelen van a Partnerközpont-ban (például egy Felhőszolgáltató-fiók (CSP-fiók) – egy csak olvasható képernyő jelenik meg. Ezen a képernyőn a cég összes adata megjelenik, ahogyan az a Partnerközpont.
 
-Ezen a képernyőn nem módosíthatja a részleteket. Ez tervezésből áll, és nem hiba.
+Ezen a képernyőn nem módosíthatja a részleteket. Ez a tervezéstől és nem a hibától áll.
 
-A **folytatáshoz válassza az Elfogadás** **és** a Folytatás lehetőséget.
+A folytatáshoz válassza az **Elfogadás,** majd a Folytatás **lehetőséget.**
 
 
-### <a name="if-the-it-department-has-turned-off-sign-up-for-partner-center"></a>Ha az IT-részleg kikapcsolta a Regisztráció a **Partnerközpont**
+### <a name="if-the-it-department-has-turned-off-sign-up-for-partner-center"></a>Ha az it-részleg kikapcsolta **a Regisztráció** Partnerközpont
 
-Ez az üzenet azért jelenik meg, mert a virtuális felhasználók le vannak tiltva, vagy mert a regisztráció le van tiltva az Azure AD-bérlőn. Az Azure AD-fiók globális rendszergazdája a következő PowerShell-parancs futtatásával engedélyezheti a szükséges funkciókat:
+Ez az üzenet azért jelenik meg, mert a felhasználók letiltották a regisztrációt, vagy mert a regisztráció le van tiltva a Azure Active Directory (AD) bérlőn. Az Azure AD-fiók globális rendszergazdája a következő PowerShell-parancs futtatásával engedélyezheti a szükséges funkciókat:
 
 **Set-MsolCompanySettings -AllowEmailVerifiedUsers $true -AllowAdHocSubscriptions $true**
 
@@ -41,7 +41,7 @@ További információ: [Önkiszolgáló regisztráció.](/azure/active-directory
 
 ## <a name="you-forgot-your-password"></a>Elfelejtette a jelszavát
 
-Ha elfelejtette a jelszavát, válassza a Nem tudja elérni a **fiókját?** hivatkozást a bejelentkezési oldalon. Ezzel a lehetőséggel új jelszót kérhet, vagy megkérheti a globális rendszergazdát, hogy rendeljen hozzá új hitelesítő adatokat.
+Ha elfelejtette a jelszavát, a bejelentkezési oldalon válassza a Nem lehet hozzáférni a **fiókjához?** lehetőséget. Ezzel a beállítással alaphelyzetbe állíthatja a jelszavát, vagy megkérheti a globális rendszergazdát, hogy rendeljen hozzá új hitelesítő adatokat.
 
 ## <a name="on-the-tell-us-about-your-company-screen-you-receive-a-something-went-wrong-error"></a>Az "Mondja el a cégét" képernyőn "Hiba történt" hibaüzenet jelenik meg
 
@@ -59,7 +59,7 @@ Le kell mondania az eredeti rendelést, és újra kell azt használnia az előny
 
 Rendelés visszavonása:
 
-1. Válassza **a Tagsági ajánlatok** lapot az irányítópulton.
+1. A Partnerközpont válassza a **Tagsági ajánlatok** lapot.
 
 2. Válassza a **Rendelés visszavonása lehetőséget**
 

@@ -1,42 +1,42 @@
 ---
-title: A Windows 10 Home frissítése Windows 10 Education
+title: Frissítés Windows 10 Home a Windows 10 Education
 ms.topic: article
 ms.date: 10/28/2020
-description: Megtudhatja, Felhőszolgáltató (CSP)-partnerek hogyan frissítik education-ügyfeleik egy része Windows 10 Home-ről Windows 10 Education
+description: Megtudhatja, Felhőszolgáltató (CSP) partnerek hogyan frissítheti education-ügyfeleik egy része Windows 10 Home-ről Windows 10 Education
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
 author: BrentSerbus
 ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 806ddcd6e55a72ac2e1d15bdbec7c27c604917dc
-ms.sourcegitcommit: dc9438475ccc6298bec6a698bf5fc9bd5cf2aa81
+ms.openlocfilehash: 4835a620cd414370525a5c441e0db5a7de1bfed1
+ms.sourcegitcommit: bce54ddb9fff7332a03d6aa228ba9414a87d76b7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109818694"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112431509"
 ---
-# <a name="upgrade-some-education-customers-from-windows-10-home-to-windows-10-education"></a>Néhány Education-ügyfél frissítése Windows 10 Home-Windows 10 Education
+# <a name="upgrade-some-education-customers-from-windows-10-home-to-windows-10-education"></a>Education-ügyfelek frissítése Windows 10 Home Windows 10 Education
 
 **Megfelelő szerepkörök:** Rendszergazdai ügynök | Számlázási rendszergazda
 
 ## <a name="overview"></a>Áttekintés
 
-2020. november 1-től kezdődően az Microsoft 365 A3, A5 vagy Windows 10 Enterprise A3 vagy A5 előfizetést megvásároló CSP-k segíthetnek oktatási ügyfeleiknek az Windows 10 Home-ről Windows 10 Education-re frissíteni, amely az osztályterem és a távtanulás számára is készült.
+2020. november 1-től kezdődően az Microsoft 365 A3, A5 vagy Windows 10 Enterprise A3 vagy A5 előfizetést megvásároló felhőszolgáltatók (CSP-k) segíthetnek oktatási ügyfeleiknek abban, hogy Windows 10 Home-ről Windows 10 Education-re frissítsenek, amely mind az osztályterem, mind a távtanulás számára készült.
 
-2020. november 1-től a Windows 10 Home megfelelő operációs rendszer lesz az oktatási ügyfelek számára, amely a Microsoft Cloud szerződés (CSP-n keresztül) lesz licenccel. Ez a jogosultság, amely eddig csak mennyiségi licencelési (VL) oktatási programokban volt elérhető, a felügyeleti portál Microsoft 365 keresztül lett engedélyezve. 
+2020. november 1-től a Windows 10 Home a Microsoft Cloud szerződés (a CSP programon keresztül) licenccel rendelkező oktatási ügyfelek számára megfelelő operációs rendszer lesz. Ez a jogosultság, amely eddig csak mennyiségi licencelési (VL) oktatási programokban volt elérhető, a felügyeleti portál Microsoft 365 keresztül lett engedélyezve. 
 
 ## <a name="how-the-upgrade-process-works"></a>A frissítési folyamat működése
 
-A CSP-partnerek támogatási kérés küldésével segíthetnek az ügyfeleiknek a frissítésben. Microsoft ügyfélszolgálata áttekinti a kérést, hogy az ügyfél jogosult-e erre; A kérelem jóváhagyása után a támogatás Windows 10 Pro Education a kulcsot annak a partnernek, aki ezt követően át tudja adni az ügyfélnek.
+A CSP-partnerek úgy segíthetnek az ügyfeleiknek a frissítésben, hogy a nevükben beküldik a támogatási kérést. Microsoft ügyfélszolgálata áttekinti a kérést, hogy az ügyfél jogosult legyen a minősítésre; A kérelem jóváhagyása után a támogatás Windows 10 Pro Education a kulcsot annak a partnernek, aki ezt követően át tudja adni az ügyfélnek.
 
-Amikor az ügyfél telepíti a kulcsot, és az eszköz az Azure Active Directory (AAD) segítségével csatlakozik a bérlő tartományához, az eszköz automatikusan Windows 10 Education lesz.   
+Amikor az ügyfél telepíti a kulcsot, és az eszköz az Azure Active Directory (AAD) segítségével csatlakozik a bérlői tartományhoz, az eszköz automatikusan frissül Windows 10 Education -előfizetésre.   
 
 ## <a name="step-by-step-process-for-customers-to-get-windows-10-education"></a>Lépésenként lekért folyamat az ügyfelek Windows 10 Education
 
-A partnereknek létre kell hozniuk egy támogatási kérést, és le kell kérni a kulcsokat a támogatási szolgálattól. A partnerek ezután megosztják ezeket a kulcsokat az ügyfeleikkel.
+A partnereknek létre kell hozniuk egy támogatási kérést, és le kell kérnie a kulcsokat a támogatási szolgálattól. A partnerek ezután megosztják ezeket a kulcsokat az ügyfeleikkel.
 
-### <a name="partners--how-to-get-the-keys"></a>Partnerek – a kulcsok lekért száma:
+### <a name="partners--how-to-get-the-keys"></a>Partnerek – a kulcsok lekért használata:
 
 1. Jelentkezzen be a [Partnerközpont irányítópultjába](https://partner.microsoft.com/dashboard).
 
@@ -75,19 +75,19 @@ Ha egy Windows 10 Home termékkulcs használatával Windows 10 Pro Education fri
 ## <a name="frequently-asked-questions"></a>Gyakori kérdések
 
 **Mely ügyfelek jogosultak erre?**
-A tudományos minősítéssel rendelkező, A3/A5- vagy Windows 10 Enterprise Microsoft 365 A3/A5-licenccel rendelkező CSP-ügyfelek frissítheti Windows 10 Home-eszközeiket a Windows 10 Education. Irányítsa a mennyiségi licencelési szolgáltatási központba (VLSC) más oktatási ügyfeleket, akik VL-licenccel licencelik ezeket az ajánlatokat.
+Azok a CSP-ügyfelek, akik tudományos jogosultságot és aktív Windows 10 Enterprise A3/A5 vagy Microsoft 365 A3/A5 licenc-előfizetéssel rendelkezik, frissíthetnek Windows 10 Home-eszközeiket Windows 10 Education. Irányítsa a mennyiségi licencelési szolgáltatási központba (VLSC) az olyan oktatási ügyfeleket, akik vL-licenccel licencelték ezeket az ajánlatokat.
 
-**A VL-ügyfeleim használhatják ezt a folyamatot?**
-Nem, a VL-ügyfelek, akik az Enrollment for Education Solutions (EES), az Open Value Subscription for Education Solutions (OVS-ES) szolgáltatáson keresztül licencelnek, a School pedig a [VLSC-ben](https://www.microsoft.com/Licensing/servicecenter/default.aspx) tölthetik le a termékeket és kulcsokat. 
+**Használhatják ezt a folyamatot a VL-ügyfeleim?**
+Nem, azok a VL-ügyfelek, akik az Enrollment for Education Solutions (EES), az Open Value Subscription for Education Solutions (OVS-ES) és a School használatával licencelnek, a [VLSC-ben](https://www.microsoft.com/Licensing/servicecenter/default.aspx) kell letölteniük a termékeket és kulcsokat. 
 
-**Az ügyfélnek több kulcsra van szüksége, mint amennyit eredetileg kért. Hogyan kaphatom meg ezeket?**
-Az ügyfél összes eszközére vonatkozó kulcsokra vonatkozó további támogatási Windows 10 Home küldhet. A több kérelem teljes mennyisége nem lehet nagyobb az Microsoft 365 A3/A5- vagy Windows 10 Enterprise A3/A5-előfizetések összes aktív licencében.
+**Az ügyfélnek több kulcsra van szüksége, mint amennyit eredetileg kért. Hogyan kaphatom meg őket?**
+További támogatási kérést is küldhet az ügyfél Windows 10 Home eszközeihez. A több kérelem teljes mennyisége nem lehet nagyobb a Microsoft 365 A3/A5- vagy Windows 10 Enterprise A3/A5-előfizetések összes aktív licencében.
 
-**Az ügyfél több eszköz vásárlását Windows 10 Home meg. Kaphatnak további frissítéseket?**
-Az oktatási ügyfeleknek érdemes megfontolni az alacsony [](https://www.microsoft.com/education/products/windows/shapethefuture.aspx) költségű Windows 10 Education az eszközöket a Shape the Future programunkon keresztül, és nem kell frissíteni a Windows 10 Home eszközöket. Ha több eszközt vásárolnak Windows 10 Home, a partnereknek új támogatási kérést kell benyújtaniuk a Microsoft felügyeleti portálján keresztül.
+**Az ügyfél több új eszközt Windows 10 Home vásárolni. Kaphatnak további frissítéseket?**
+Az oktatási ügyfeleknek érdemes megfontolni az alacsony [](https://www.microsoft.com/education/products/windows/shapethefuture.aspx) Windows 10 Education a Shape the Future- és eszközfrissítési költségeket, és nem kell frissíteni Windows 10 Home eszközöket. Ha több eszközt vásárolnak Windows 10 Home, a partnereknek új támogatási kérést kell benyújtaniuk a Microsoft felügyeleti portálján keresztül.
 
-**Van határidő arra, hogy mikor vegye fel a kapcsolatot az ügyfélszolgálattal, és mikor kapja meg a frissítési kulcsot?**
-A Windows 10 Education frissítése az ügyfél aktív A3/A5-Microsoft 365- vagy Windows 10 Enterprise A3/A5-licenc-előfizetéseitől függ. Ha az ügyfél nem hosszabbítja meg vagy újítja meg az előfizetést, a frissítési jogosultság is lejár.
+**Van határidő az ügyfélszolgálattal való kapcsolatfelvételre és a frissítési kulcs fogadására?**
+A Windows 10 Education frissítése az ügyfél aktív A3/A5 Microsoft 365- vagy Windows 10 Enterprise A3/A5-licenc-előfizetéseitől függ. Ha az ügyfél nem hosszabbítja meg vagy újítja meg az előfizetést, a frissítésre való jogosultság is lejár.
 
 ## <a name="next-steps"></a>Következő lépések
 

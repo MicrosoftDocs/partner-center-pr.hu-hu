@@ -8,12 +8,12 @@ ms.service: marketplace
 ms.subservice: partnercenter-marketplace-publisher
 ms.topic: how-to
 ms.date: 06/04/2021
-ms.openlocfilehash: b73a9acb7b9cf9eee1151de1f8e45f6fd6ef256f
-ms.sourcegitcommit: 8511fec63961d8c77a4d1eea3e3f1d37cdea46c6
+ms.openlocfilehash: 8dba9f95607a4172e6d5d0bc2ec148a25b599cd1
+ms.sourcegitcommit: bce54ddb9fff7332a03d6aa228ba9414a87d76b7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112373492"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112431446"
 ---
 # <a name="purchase-a-saas-offer-in-azure-portal"></a>SaaS-ajánlat vásárlása Azure Portal
 
@@ -107,12 +107,12 @@ Hibaüzenetek jelenhetnek meg a folyamat során:
 - Az *ObjectID* objektumazonosítóval megadott ügyfél-e-mail-cím nem rendelkezik engedéllyel a *DeploymentValidationAction* művelet végrehajtásához a  *ResourceGroup hatókörben; DeploymentScope* vagy a hatókör érvénytelen.  
   - Ez az üzenet akkor jelenik meg, ha nem rendelkezik a megfelelő engedélyekkel az Azure-előfizetéshez/erőforráscsoporthoz.  
     Ha nemrég kapott hozzáférést, frissítse hitelesítő adatait.  
-    Az erőforrások erőforráscsoportban való üzembe helyezéséhez legalább Közreműködői hozzáféréssel kell lennie. Ellenőrizze a hozzáférési állapotát az **Erőforráscsoportok alatt,** majd kattintson **a Access Control.** Itt látható, hogy ki a "Tulajdonos", és megkérheti, hogy közreműködőként rendeljen hozzá.
+    Az erőforrások erőforráscsoportban való üzembe helyezéséhez legalább Közreműködői hozzáféréssel kell lennie. Ellenőrizze a hozzáférési állapotát az **Erőforráscsoportok alatt,** majd kattintson a **Access Control.** Itt látható, hogy ki a "Tulajdonos", és megkérheti, hogy rendeljen hozzá Közreműködőként.
 
 - Az ehhez a vásárláshoz használt előfizetés nem engedélyezi a Marketplace-vásárlásokat.  
   - Használjon másik előfizetést, vagy kérje meg a rendszergazdát, hogy módosítsa az előfizetés definícióját, és próbálja meg újra.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- Ha az ajánlatot a Microsofton keresztül értékesíti, tekintse meg a Következőt: Előzetes verzió célközönségének hozzáadása [az SaaS-ajánlathoz.](/azure/marketplace/create-new-saas-offer-preview)
-- Ellenkező esetben a [SaaS-ajánlat értékesítésének mikéntjedt](/azure/marketplace/create-new-saas-offer-marketing)meg.
+- Ha már vásárolt egy ajánlatot a piactéren, akkor a Számlázás és [számlázás lehetőségnél](/marketplace/billing-invoicing)
+- További információ a privát csomagok [beállításairól.](/marketplace/private-offers)

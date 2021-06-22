@@ -9,12 +9,12 @@ author: parthpandyaMSFT
 ms.author: parthp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f4af8c48e2bbe65f58549b542447c80b699332be
-ms.sourcegitcommit: dc9438475ccc6298bec6a698bf5fc9bd5cf2aa81
+ms.openlocfilehash: 2b67201355e748f9280d28413a8737a9b07db5c6
+ms.sourcegitcommit: bce54ddb9fff7332a03d6aa228ba9414a87d76b7
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109818796"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112431500"
 ---
 # <a name="troubleshoot-sign-in-issues-for-partner-center"></a>Bejelentkezési problémák elhárítása Partnerközpont
 
@@ -26,7 +26,7 @@ Ez a cikk a bejelentkezések gyakori bejelentkezési problémáinak megoldásait
 
 Ha elfelejtette a jelszavát, és nem tud bejelentkezni a Partnerközpont, forduljon az ügyfélszolgálathoz. Keresse meg a megfelelő kapcsolattartót [a Támogatási üzleti termékeknél.](/microsoft-365/admin/contact-support-for-business-products)
 
-Ha Ön MPN-partner, kérje meg globális rendszergazdáját, hogy hozzon létre egy új jelszót. Ha Ön közvetett CSP-viszonteladó, kérje meg közvetett szolgáltatóját, hogy hozzon létre egy új globális rendszergazdát az Azure AD-bérlőn, vagy hozzon létre egy új jelszót az Ön számára a delegált rendszergazdai jogosultságai használatával.
+Ha Ön egy Microsoft Partner Network (MPN) partner, kérje meg globális rendszergazdáját, hogy hozzon létre egy új jelszót. Ha Ön közvetett Felhőszolgáltató (CSP) viszonteladó, kérje meg közvetett szolgáltatóját, hogy hozzon létre egy új globális rendszergazdát az Azure Active Directory- (AD-) bérlőn, vagy hozzon létre egy új jelszót a delegált rendszergazdai jogosultságai használatával.
 
 A jelszó visszaállításáról és a munkahelyi fiókhoz való hozzáférés visszaszerzésével kapcsolatos további információkért olvassa el a Következőt: Munkahelyi vagy iskolai jelszó visszaállítása [biztonsági adatok használatával.](/azure/active-directory/user-help/active-directory-passwords-update-your-own-password#how-to-change-your-password)
 
@@ -37,11 +37,11 @@ A hozzáférés a Partnerközpont a hozzárendelt szerepkörök vezérlik. A hoz
 Ha nem tudja megtekinteni vagy kezelni a várt kompetenciákat, ügyfeleket, ösztönzőket vagy felhasználókat, próbálkozzon a következő megoldásokkal:
 
 - Az MPN, a CSP és a hivatkozások képességeihez való hozzáféréshez forduljon a globális rendszergazdához vagy a fiókadminisztrához. További információ a szerepkörökről és az Partnerközpont által a szerepkörök hozzárendelése & [felhasználókhoz.](permissions-overview.md)
-- A kereskedelmi piactér és a Windows & Xbox, az Office Store, a Microsoft Edge és a Hardverfejlesztői programok funkcióihoz való hozzáféréshez lépjen kapcsolatba a szervezet Tulajdonos vagy Vezető szerepkörével. További információ a szerepkörökről és engedélyekről: Kereskedelmi piactéri fiók [kezelése a Microsoft Partnerközpont.](/azure/marketplace/partner-center-portal/manage-account#define-user-roles-and-permissions)
+- A kereskedelmi piactér és a Windows & Xbox, az Office Áruház, az Microsoft Edge és a Hardverfejlesztői programok képességeihez való hozzáféréshez lépjen kapcsolatba a szervezet Tulajdonos vagy Vezető szerepkörével. További információ a szerepkörökről és engedélyekről: Kereskedelmi piactéri fiók [kezelése a Microsoft Partnerközpont.](/azure/marketplace/partner-center-portal/manage-account#define-user-roles-and-permissions)
 
 ## <a name="you-cant-see-your-offer-or-benefits-in-partner-center"></a>Az ajánlat vagy az előnyök nem látszanának a Partnerközpont
 
-Győződjön meg arról, hogy a megfelelő hitelesítő adatokat használja a bejelentkezéshez. Előfordulhat például, hogy a munkahelyi és a személyes fiókjai ugyanúgy néznek ki (például ), de az egyik lehet egy Ön által létrehozott személyes fiók, egy másik pedig az Ön nevében beállított üzleti abc@contoso.com fiók. Ebben az esetben, ha bejelentkezett, de nem tudja megtekinteni az MPN-hez, a CSP-hez és a kereskedelmi piactérhez kapcsolódó várt képességeket, próbálja meg kiválasztani a munkahelyi fiókját.
+Győződjön meg arról, hogy a megfelelő hitelesítő adatokat használja a bejelentkezéshez. Előfordulhat például, hogy a munkahelyi és személyes fiókjai ugyanúgy néznek ki (például ), de az egyik lehet egy Ön által létrehozott személyes fiók, egy másik pedig az Ön nevében beállított üzleti abc@contoso.com fiók. Ebben az esetben, ha bejelentkezett, de nem tudja megtekinteni az MPN-hez, a CSP-hez és a kereskedelmi piactérhez kapcsolódó várt képességeket, próbálja meg kiválasztani a munkahelyi fiókját.
 
 ## <a name="next-steps"></a>Következő lépések
 
