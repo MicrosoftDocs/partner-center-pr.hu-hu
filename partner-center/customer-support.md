@@ -9,12 +9,12 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
 ms.date: 01/22/2021
-ms.openlocfilehash: c4e1459b71016718533d02953691065332c4ad13
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 81a8d656c876d39ca6389fedeec3a154dd778ce1
+ms.sourcegitcommit: 7cc83714e17337b472727819243f98c84ae181ba
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110147343"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112450747"
 ---
 # <a name="providing-different-types-of-support-to-your-customers"></a>Különböző típusú támogatás nyújtása az ügyfeleknek
 
@@ -34,19 +34,19 @@ Maguk a CSP-ügyfelek nem hozhatnak létre támogatási jegyeket. Támogatásér
 
 - **Technikai** probléma támogatása – összehasonlíthatja a [partnertámogatási](https://partner.microsoft.com/support/partnersupport) csomagokat, vagy további információért tekintse meg az adott támogatási csomagra vonatkozó alábbi hivatkozásokat:
 
-  - [Premier szintű támogatás (díjbázis,](https://partner.microsoft.com/support/microsoft-services-premier-support) használat minden termékhez)
+  - [Premier szintű támogatás (PSfP)](https://partner.microsoft.com/support/microsoft-services-premier-support) (díjbázis, használat minden termékhez)
 
-  - [Speciális támogatás partnerek számára](https://partner.microsoft.com/support/advanced-cloud-support) (díjbázis, csak felhőalapú termékekhez)
+  - [Speciális támogatás partnerek számára (ASfP](https://partner.microsoft.com/support/advanced-cloud-support) (díjbázis, csak felhőalapú termékekhez)
 
-  - [Signature Felhőtámogatás](manage-your-partner-network-benefits.md) (a Gold vagy Silver kompetencia MPN-előnyei közé tartozik, kizárólag felhőalapú termékekhez használható)
+  - [Signature Felhőtámogatás](manage-your-partner-network-benefits.md) (a Gold vagy Silver kompetencia MPN-előnyei közé tartozik, csak felhőalapú termékekhez használható. Lásd: [Műszaki előnyök](mpn-benefits-technical-support.md))
 
-  - [Terméktámogatási incidensek](manage-your-partner-network-benefits.md) (amelyek a Gold, Silver vagy Microsoft Action Pack MPN-előnyeit tartalmazzák, csak a legutóbbi helyszíni termékekhez használhatók)
+  - [A terméktámogatási incidensek](manage-your-partner-network-benefits.md) (amelyek a Gold, Silver vagy Microsoft Action Pack MPN-előnyeit tartalmazzák, csak a legutóbbi helyszíni termékekhez használhatók. Lásd: [Műszaki előnyök](mpn-benefits-technical-support.md))
 
-## <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázás, előfizetés-kezelés és technikai támogatás biztosítása 
+## <a name="providing-billing-subscription-management-and-technical-support"></a>Számlázás, előfizetés-kezelés és műszaki támogatás biztosítása 
 
 Minden online szolgáltatás egyedi és részletes követelményekkel rendelkezik az ügyfelek számára a számlázás, az előfizetés-kezelés és a műszaki támogatás biztosításához. További információért tekintse meg az alábbi dokumentumokat.
 
-- [CSP-n keresztül értékesített Dynamics 365-előfizetések](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
+- [A Dynamics 365 CSP-ben értékesített előfizetései](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5262#M30)
 
 - [CSP-n keresztül értékesített Azure-előfizetések](https://www.microsoftpartnercommunity.com/t5/CSP/Microsoft-Partner-Support-Guidance/m-p/5263#M31)
 
