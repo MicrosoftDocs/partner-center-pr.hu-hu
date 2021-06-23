@@ -9,18 +9,18 @@ ms.author: brserbus
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 11/11/2020
-ms.openlocfilehash: ffec50d53b50bdb6aa2690f1dfcc1bc7312cc3cb
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: 40ba485cecce394dc81632d01f8774859690c522
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112277300"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551605"
 ---
 # <a name="add-azure-partner-shared-services-so-partners-can-buy-azure-subscriptions-for-their-own-use"></a>További Azure Partner Shared Services, hogy a partnerek saját használatra vásárolják meg az Azure-előfizetéseket
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Értékesítési ügynök
 
-Azure Partner Shared Services egy új ajánlattípus a CSP-program partnerei számára, amely lehetővé teszi a partnerek számára, hogy saját használatra vásárolják meg az Azure-előfizetéseket.Lehetővé teszi a partnerek számára, hogy egységes módszert használjanak az Azure megvásárlására, nyomon követésére és felügyeletére, valamint összevonják az Azure-licencelési és újralicencelési szerződéseiket a Microsofttal. A Azure Partner Shared Services-ban a partnerek ugyanolyan rugalmassággal használják az Azure-előfizetéseket a CSP-ban, mint a Microsoft Nagyvállalati Szerződés és a Web Direct programokban, és olyan forgatókönyveket nyitnak meg, mint a fejlesztési és tesztelési környezetek kiépítése, a belső számítási feladatok üzembe helyezése, valamint a megosztott szolgáltatások vagy több-bérlős alkalmazások üzembe helyezése.  
+Azure Partner Shared Services (APSS) egy új ajánlattípus a Felhőszolgáltató -es (CSP) program partnerei számára, amely lehetővé teszi a partnerek számára, hogy saját használatra vásárolják meg az Azure-előfizetéseket.Lehetővé teszi a partnerek számára, hogy egységes módszert használjanak az Azure megvásárlására, nyomon követésére és felügyeletére, valamint összevonják az Azure-licencelési és újralicencelési szerződéseiket a Microsofttal. Az APSS-sel a partnerek ugyanolyan rugalmasan használhatnak Azure-előfizetéseket a CSP-kben, mint a Microsoft Nagyvállalati Szerződés és a Web Direct programokban, és olyan forgatókönyveket nyitnak meg, mint a fejlesztési és tesztelési környezetek kiépítése, a belső számítási feladatok üzembe helyezése, valamint a megosztott szolgáltatások vagy több-bérlős alkalmazások üzembe helyezése.  
 
 ## <a name="create-the-shared-services-tenant"></a>A megosztott szolgáltatások bérlője létrehozása
 
@@ -28,7 +28,7 @@ Azure Partner Shared Services egy új ajánlattípus a CSP-program partnerei sz�
 
    :::image type="content" source="images/sharedservices2.png" alt-text="Fiókbeállítások > szolgáltatásokhoz":::
 
-2. Ha még nem rendelkezik megosztott szolgáltatásbérlővel, kattintson a **Megosztott szolgáltatások létrehozása elemre.**
+2. Ha még nem rendelkezik megosztott szolgáltatásbérlővel, válassza a **Megosztott szolgáltatások létrehozása lehetőséget.**
 
    :::image type="content" source="images/sharedservices3.png" alt-text="Megosztott szolgáltatások létrehozása.":::
 
@@ -54,11 +54,11 @@ Az Azure-használatot a CSP-számlán és az egyeztetési fájlban találja. Ez 
 
 ## <a name="azure-partner-shared-services-pricing"></a>Azure Partner Shared Services díjszabás
 
-Az új díjszabási fájl Azure Partner Shared Services a **Díjszabás** és ajánlatok értékesítéshez, és válassza ki az aktuális havi  >   árlistát. A következő hetekben egy adott rate card API is elérhető lesz.
+Az APSS új díjszabási fájlját a **Díjszabás** és ajánlatok eladása alatt, az aktuális havi árlistában  >   láthatja. A következő hetekben egy adott rate card API is elérhető lesz.
 
 ## <a name="marketplace-offers-and-azure-partner-shared-services"></a>Marketplace-ajánlatok és Azure Partner Shared Services
 
-2019. március 1-től a Azure Partner Shared Services (APSS) már nem támogatja a Marketplace-ajánlatokat.
+2019. március 1-től az APSS már nem támogatja a Marketplace-ajánlatokat.
 
 |**Marketplace-támogatás**   |**Az APSS 2019. március 1. előtt támogatott**|**2019. március 1. után**|
 |---------------------------|:----------------------------|:-------------------|

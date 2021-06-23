@@ -9,12 +9,12 @@ author: khpavan
 ms.author: sakhanda
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 725050d370d1266205f979aa6317768d05ae5c4c
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: c7c06f5ed7b147625afb5020f63ead411ef58fa8
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112277181"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551520"
 ---
 # <a name="new-commerce-experience-in-csp---azure-billing"></a>Új kereskedelmi felület a CSP-ben – Azure-számlázás 
 
@@ -139,7 +139,9 @@ A számla és az egyeztetési fájl elérése:
 
 Az Azure-csomagon keresztüli Azure-szolgáltatások díjszabása AMERIKAI DOLLÁRban történik, és a számlázás az ügyfél országának hozzárendelt pénznemében történik. Ha a számlázási pénznem nem USD, akkor a felhasznált átváltási díj a számla utolsó oldalán jelenik meg. Az FX-árfolyamok meghatározása havonta történik, és az alábbi számlán lesz alkalmazva. Az ország pénznemek teljes listájáért tekintse meg az új kereskedelmi ajánlatok országonkénti elérhetőségét és az ügyfél [pénznemmátrixát.](https://go.microsoft.com/fwlink/?linkid=2112354)
 
-A Microsoft a London Stock Exchange-et követi átalakításra. Az árfolyamot használjuk, amely megegyezik a londoni tőzsdei árfolyamon a hónap utolsó üzleti napjára vonatkozó árfolyammal. Az FX díjszabása frissül, és a hónap első napja előtt lesz elérhető.
+A Microsoft egy előre meghatározott átváltási árfolyamot alkalmaz az alap USD-árakra, hogy az egyes naptári hónapban megvásárolt vagy felhasznált Azure-szolgáltatások teljes díjára vonatkozzon. A havi átváltási árfolyam a Thomson Reuters által (általában) az előző hónap vége előtt két munkanap, 16:00-kor (GMT) közzétett árfolyam. 
+
+**Például:** A Microsoft decemberi árfolyama a Thomson Reuters középárfolyama november 29-én vagy körül lenne egy adott pénznemben. Ez a díj az ebben a pénznemben történt összes vásárlásra alkalmazva lesz december 1-től december 31-ig. 
 
 ## <a name="azure-reservations"></a>Azure Reserved Virtual Machine Instances
 

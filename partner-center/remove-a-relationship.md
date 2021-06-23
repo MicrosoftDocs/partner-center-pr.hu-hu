@@ -9,12 +9,12 @@ author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 735a8b2c2436df61216ceb476be4a55b18785325
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 83259f2f895be9ef34c55db5613ccfe6891a4424
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109855692"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551469"
 ---
 # <a name="how-to-remove-a-reseller-relationship-with-a-customer-in-partner-center"></a>Viszonteladói kapcsolat eltávolítása egy ügyfélről a Partnerközpontban
 
@@ -33,7 +33,7 @@ Egy kapcsolat eltávolítása az alábbi következményekkel jár:
 
 ## <a name="how-to-remove-a-relationship"></a>Kapcsolat eltávolítása
 
-A kapcsolat eltávolításához először le kell mondania az Azure RI-foglalásokat, le kell mondania a szoftvervásárlásokat, és fel kell függesztenie a fennmaradó aktív előfizetéseket.
+A kapcsolat eltávolításához le kell mondania az Azure-beli fenntartott példányok (RI) foglalását, le kell mondania a szoftvervásárlásokat, és először fel kell függesztenie a fennmaradó aktív előfizetéseket.
 
 1. **Függessze fel az aktív előfizetéseket.**
 
@@ -49,7 +49,7 @@ A kapcsolat eltávolításához először le kell mondania az Azure RI-foglalás
 
    a. A Partnerközpont válassza az **Ügyfelek** lehetőséget, és válasszon ki egy ügyfelet.
 
-   b. Válassza ki a **Account (Fiók) lehetőséget.**
+   b. Válassza ki a **fiókot.**
 
    c. Válassza **a Viszonteladói kapcsolat eltávolítása lehetőséget.**
 

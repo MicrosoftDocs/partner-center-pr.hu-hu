@@ -4,23 +4,23 @@ ms.topic: how-to
 ms.date: 05/27/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan segítheti az ügyfeleket a partner rendszergazdai jogosultságai visszaállításában, hogy a partner segítséget tudjon kérni az ügyfelek Azure CSP kezeléséhez.
+description: Megtudhatja, hogyan segítheti az ügyfeleket a partner rendszergazdai jogosultságai visszaállításában, hogy a partner segítséget tudjon kérni az ügyfelek Azure-felhőszolgáltató (CSP) előfizetései kezeléséhez.
 author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 81df7578f7f15def64a3c20b15f95f3b89a28d1c
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: 5d784aef33cce2a722583a77e73c35d5fc8136b1
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112277776"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551588"
 ---
 # <a name="reinstate-admin-privileges-for-a-customers-azure-csp-subscriptions"></a>Rendszergazdai jogosultságok visszahelyezése egy ügyfél Azure CSP előfizetéséhez  
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök
 
-CSP-partnerként az ügyfelek gyakran elvárják, hogy Ön kezelje az Azure-használatot és azok rendszereit a számukra. Erre rendszergazdai jogosultsággal kell rendelkezik. Bizonyos jogosultságok akkor kapnak, amikor létrejön a viszonteladói kapcsolat az ügyféllel. Az ügyfél másokat is ad Önnek.
+A Felhőszolgáltató (CSP)-partnerként az ügyfelek gyakran elvárják, hogy Ön felügyelni fogja az Azure-használatot és azok rendszereit számukra. Erre rendszergazdai jogosultsággal kell rendelkezik. Bizonyos jogosultságok akkor kapnak, ha a viszonteladói kapcsolat létrejött az ügyféllel. Az ügyfél másokat is ad Önnek.
 
 ## <a name="admin-privileges-for-azure-in-csp"></a>Rendszergazdai jogosultságok a Azure in CSP
 
@@ -37,7 +37,7 @@ Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha az AdminA
 
 2. A Partnerközpont válassza az Ügyfelek **lehetőséget.**
 
-3. Válassza ki azt az ügyfelet, akinél dolgozik, és **kérjen viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
+3. Válassza ki azt az ügyfelet, akinél dolgozik, és **igényeljön viszonteladói kapcsolatot.** Ez a művelet létrehoz egy hivatkozást arra az ügyfélre, aki bérlői rendszergazdai jogosultságokkal rendelkezik.
 
 4. Az ügyfélnek ki kell választania a hivatkozást, és jóvá kell hagynia a viszonteladói kapcsolatkérést.
 
@@ -54,7 +54,7 @@ Az ügyfél újra létrehozhatja a CSP szerepkör-hozzárendelést, ha az AdminA
 6. Az ügyfélnek ezután a következő lépéseket kell megtennie a PowerShell vagy az Azure CLI használatával. Az ügyfélnek a következővel kell lennie:
 
 - A tulajdonosi **vagy felhasználói** **hozzáférés rendszergazdájának szerepköre** 
-- Szerepkör-hozzárendelések előfizetési szinten való létrehozásához szükséges engedélyek
+- Szerepkör-hozzárendelések előfizetési szinten való létrehozására vonatkozó engedélyek
 
    a. Csak PowerShell esetén az ügyfélnek frissítenie kell a `Az.Resources` modult.
    ```powershell

@@ -9,12 +9,12 @@ author: sodeb
 ms.author: sodeb
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: f16b619aba838da1d1da0c5eb13648ebb107c802
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: bbdf85d20e15841189191d6b415b54c26378850e
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109855913"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551197"
 ---
 # <a name="understand-your-bill-and-reconciliation-file---learn-how-to-find-them-in-partner-center"></a>A számla és az egyeztetési fájl megismertetése – megtudhatja, hogyan találhatja meg őket a Partnerközpont
 
@@ -36,7 +36,7 @@ A számlát az irányítópult Számlázás lapján találja a Partnerközpont. 
 
 A legutóbbi számlára mutató hivatkozást az oldal tetején, a Számlaegyenleg az utolsó számla dátuma alatt találja. 
 
-A korábbi számlákat a Számlázási előzmények szakaszban találja. Válassza ki a megfelelő évet, majd kattintson a megfelelő számlázási időszak melletti legördülő nyílra. Válassza a Számlák (.pdf) melletti hivatkozást az időszakhoz tartozó számla letöltéséhez. 
+A korábbi számlákat a Számlázási előzmények szakaszban találja. Válassza ki a megfelelő évet, majd kattintson a megfelelő számlázási időszak melletti legördülő nyílra. Kattintson a Számlák (.pdf) melletti hivatkozásra az időszak számlájának letöltéséhez. 
 
 ## <a name="invoice-types"></a>Számlatípusok
 
@@ -44,44 +44,44 @@ A Microsoft egy számlát ad ki az esetleges licencalapú díjakról (például 
 
 Példa:  
 
-**1. forgatókönyv [Egyetlen pénznem]**: A partner 145P-ajánlathoz és O365-licenchez rendelkezik vásárlásokkal,  
+**1. forgatókönyv [Egyetlen pénznem]**: A partner 145P-ajánlathoz és Office 365-licenchez rendelkezik vásárlásokkal,  
 
-- A partner egy pdf formátumú számlát és 2 egyeztetési fájlt kap, amelyek az O365 és az Azure díjának (145p) költségeit fedezik.  
+- A partner egy számla PDF-et és két egyeztetési fájlt kap, amelyek az Office 365 és az Azure díját is lefedik (145p).  
 
-**2. forgatókönyv [Egyetlen pénznem]**: A partner 145p vásárlással együtt vásárol az Azure-beli RI-hez, a Marketplace-hez és/vagy az Azure-csomaghoz.
+**2. forgatókönyv [Egyetlen pénznem]**: A partner 145p vásárlással együtt vásárol az Azure-beli ri,Marketplace és/vagy Azure-csomaghoz.
 
-- A partner kap egy PDF-formátumú számlát és egy egyeztetési fájlt, amely az Azure költségeit fedezi (145p). 
+- A partner kap egy számla PDF-et és egy egyeztetési fájlt, amely az Azure költségeit fedezi (145p). 
 
-- A partner egy másik számla PDF-fájlt és egy egyeztetési fájlt kap, amely az Azure RI, Marketplace, Azure-csomag díjára vonatkozó költségeket fedezi. 
+- A partner kap egy másik PDF-számlát és egy egyeztetési fájlt, amely az Azure-beli fenntartott példány (RI), a Marketplace és az Azure-csomag költségeit fedezi. 
 
-**3. forgatókönyv :A** partner megvásárolta az Azure RI-t DKK-ban és az Azure-csomaghoz EUR-ban, valamint 145p vásárlást EUR-ban.
+**3. forgatókönyv [Több pénznem]**: A partner megvásárolta az Azure RI in DKK-t és az Azure-csomagokat EUR-ban, valamint 145p vásárlást EUR-ban.
 
-- A partner kap egy PDF formátumú számlát és egy egyeztetési fájlt, amely az Azure RI DKK-ban való költségeit fedezi. 
+- A partner egy pdf formátumú számlát és egy egyeztetési fájlt kap, amely az Azure RI DKK-ban való költségeit fedezi. 
 
-- A partner kap egy PDF formátumú számlát és egy egyeztetési fájlt, amely az Azure-csomag díjának összegét (EUR) fedezi. 
+- A partner egy számla PDF-et és egy egyeztetési fájlt kap, amely az Azure-csomag (EUR) költségeit fedezi. 
 
-- A partner kap egy másik számla PDF-fájlt és egy egyeztetési fájlt, amely a 145p-es ajánlat díját fedezi EUR-ben (vagy a partner számlázási pénznemében). 
+- A partner kap egy másik számla PDF-et és egy egyeztetési fájlt, amely a 145p-es ajánlat díját fedezi EUR-ben (vagy a partner számlázási pénznemében). 
 
 
 ## <a name="understanding-invoice-pdf"></a>A számla PDF-fájlja 
 
 **Használati és** licencalapú díjak számlái: Az olyan szolgáltatások díjára vonatkozó számlák, mint az Office 365 és az Azure, a kiválasztott számlázási dátumtól számított két (2) napon belül lesznek elérhetők [UTC].  
 
-**Egyszeri és ismétlődő** díjak számlái: Az olyan szolgáltatások díjára vonatkozó számlák, mint az Azure RI, az Azure-csomag és a Marketplace, legkésőbb minden hónap 8. napján lesznek elérhetők.  
+**Egyszeri és ismétlődő** díjak számlái: Az olyan szolgáltatások díjára vonatkozó számlák, mint az Azure RI, az Azure-csomag és a Marketplace, nem később érhetők el, mint minden hónap utolsó napja.  
 
-Az alábbiakban a számla PDF-dokumentumának néhány fő mezőjét olvashatja–
+Az alábbiakban néhány fő mező látható a számla PDF-dokumentumában –
 
-**Számlaszám:** A megfelelő számlázási időszakhoz létrehozott számladokumentum egyedi azonosítója. 
+**Számlaszám:** A megfelelő számlázási időszakban létrehozott számladokumentum egyedi azonosítója. 
 
 **Számlázási időszak:** Ez az az időszak, amelyben használat és licencalapú szolgáltatások vannak. 
 
 **Számla dátuma:** Az a számlázási dátum vagy évforduló, amelyen a számla minden hónapban létrejön. 
 
-**Fizetési határidő:** Az a dátum, amely szerint a kifizetést át kell fizetni. 
+**Fizetési határidő:** Az a dátum, amelytől a kifizetést megkapják. 
 
 **Díjak:** Az adott számlázási időszak számlázási pénznemében esedékes összeg. 
 
-**Kreditek:** Kreditek (például SLA) vagy az előfizetések módosításainak (például a licenc növekedésével vagy csökkenésével) kapcsolatos módosítások. 
+**Jóváírások:** Kreditek (például szolgáltatásiszint-szerződés (SLA)) vagy az előfizetések módosításainak (például a licencek növekedésével vagy csökkenésével) kapcsolatos módosítások. 
 
 **Fizetési utasítások:** A számla kifizetésének leírása a régiója alapján. A fizetéskor mindig foglalja bele a számlaszámot. 
 
@@ -89,7 +89,7 @@ A számlafájl összes mezőjének részletes leírását (az egyszeres díjak m
 
 ## <a name="understand-reconciliation-files"></a>Egyeztetési fájlok
 
- Az egyeztetési fájlok, amelyek részletes információkat érhetők el a díjakról, letölthetők a számla PDF-fájljával együtt. Az egyeztetési fájlok között ügyfél-azonosítók és előfizetés-azonosítók is vannak, amelyek segítségével ügyfélszámlákat hozhat létre. A felderítési  [fájlokkal kapcsolatos](use-the-reconciliation-files.md) további részletekért tekintse meg az egyeztetési fájlok használatát. 
+ Az egyeztetési fájlok, amelyek részletes információkat nyújtanak a díjakról, letölthetők a számla PDF-fájljával együtt. Az egyeztetési fájlok között ügyfél-azonosítók és előfizetés-azonosítók is vannak, amelyek segítségével ügyfélszámlákat hozhat létre. További információ az egyeztetési [fájlokról: Az egyeztetési fájlok használata.](use-the-reconciliation-files.md) 
 
 ## <a name="next-steps"></a>Következő lépések
 

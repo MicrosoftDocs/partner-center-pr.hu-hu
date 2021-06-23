@@ -9,18 +9,18 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 24eba2969552b0403de9828e86d4fc73abfec585
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: ab23e04afd3ffd5c287cc057aa51e872ab725f4d
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112276263"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551180"
 ---
 # <a name="purchase-the-azure-plan-for-customers--access-the-latest-azure-services-at-pay-as-you-go-rates"></a>Azure-csomag vásárlása az & azure-szolgáltatásokhoz való hozzáféréshez használat alapján
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Felhasználókezelési rendszergazdai | Értékesítési ügynök
 
-Amikor azure-csomagokat vásárol az ügyfelek számára a Microsoft Ügyfélszerződés alatt, a legújabb Azure-szolgáltatások teljes katalógusát használat alapján fizeti ki. A CSP-partnerek mostantól bármely Azure-szolgáltatáshoz hozzáférhetnek, amikor általánosan elérhetővé válnak. Egy partner több Azure-előfizetéssel is rendelkezik egy Azure-csomag keretében. 
+Amikor azure-csomagokat vásárol az ügyfelek számára a Microsoft Ügyfélszerződés alatt, a legújabb Azure-szolgáltatások teljes katalógusát használat alapján fizeti ki. Felhőszolgáltató (CSP) partnerek mostantól bármely Azure-szolgáltatáshoz hozzáférhetnek, amikor általánosan elérhetővé válnak. Egy partner több Azure-előfizetéssel is rendelkezik egy Azure-csomag keretében. 
 
 ## <a name="countryregion-availability"></a>Ország/régió rendelkezésre állása
 
@@ -31,7 +31,7 @@ Az Azure-hoz elérhető CSP új kereskedelmi élménye jelenleg 139 országban �
 Az Azure-csomag megvásárlása hasonló bármely más előfizetés megvásárlásához. A fő különbség az, hogy mielőtt ténylegesen elrendeli a rendelést, meg kell erősítenie, hogy az ügyfél aláírta a Microsoft Ügyfélszerződés.
 
 1. Válassza **a Szegmens Kereskedelmi lehetőséget,** és írja be a **következőt: Microsoft Azure** 
-2. Az Azure-csomag alatt válassza a **Hozzáadás a kosárhoz lehetőséget**
+2. Az Azure-csomag alatt válassza a Hozzáadás **a kosárhoz lehetőséget**
 
 :::image type="content" source="images/azure/Azurepurchase1.png" alt-text="Beszerzési.":::
 
@@ -95,7 +95,7 @@ Az **Előfizetések lap** használatalapú szakaszában bontsa ki az **Azure-cso
 
 ## <a name="add-subscriptions-and-configure-resources"></a>Előfizetések hozzáadása és erőforrások konfigurálása
 
-Előfizetéseket fog hozzáadni, és erőforrásokat fog konfigurálni az ügyfél számára a Azure Portal. Az ügyfél környezetét számítási feladat vagy projekt szerint is el tudja külön választani. Az előfizetések az előfizetések kezeléséhez Azure Lighthouse [is](https://azure.microsoft.com/services/azure-lighthouse/) Azure Portal. 
+Előfizetéseket fog hozzáadni, és erőforrásokat fog konfigurálni az ügyfél számára a Azure Portal. Az ügyfél környezetét számítási feladat vagy projekt szerint is el tudja külön választani. Az előfizetések az előfizetések kezeléséhez Azure Lighthouse [a](https://azure.microsoft.com/services/azure-lighthouse/) Azure Portal. 
 
 Az ügyfél erőforrásainak és előfizetésének kezeléséhez rendszergazdai  (AOBO) jogosultság szükséges. További információ a hozzáférés kezeléséről: Előfizetések és erőforrások [kezelése az Azure-csomag alatt](azure-plan-manage.md)
 

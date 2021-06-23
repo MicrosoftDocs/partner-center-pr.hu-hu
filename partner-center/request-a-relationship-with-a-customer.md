@@ -1,5 +1,5 @@
 ---
-title: Kapcsolat kérése egy ügyféllel
+title: Ügyféllel létesítendő viszonteladói kapcsolat kérelmezése
 ms.topic: how-to
 ms.date: 06/17/2020
 ms.service: partner-dashboard
@@ -8,12 +8,12 @@ description: Kapcsolat kérése egy ügyféllel többpartneres, többcsatornás 
 author: dineshvu
 ms.author: dineshvu
 ms.localizationpriority: medium
-ms.openlocfilehash: f8265973157540cff698790ddb2effa912abeeb7
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 83f615e69a9285365e68305fa909104e0da52992
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109856117"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551639"
 ---
 # <a name="how-to-request-a-reseller-relationship-from-a-customer-in-partner-center"></a>Viszonteladói kapcsolat kérése egy ügyféltől a Partnerközpontban
 
@@ -24,7 +24,7 @@ Ha egy ügyfél szolgáltatását vagy előfizetését szeretné kezelni a nevü
 Ha viszonteladói kapcsolatot szeretne létesíteni egy ügyféllel, és csak az Ön által kiépíteni kívánt Azure-előfizetéseket szeretné kezelni, nem kell rendszergazdai engedélyeket beszereznie.
 
 >[!NOTE] 
->Az engedélyek lekérésének mellőzését a microsoftos vagy microsoftos felhőszolgáltatásban Microsoft Cloud for US Government partnerek nem kérhetik. További tudnivalókért lásd: [Ügyfelek delegálják a rendszergazdai jogosultságokat a partnereknek.](customers-revoke-admin-privileges.md)
+>Az engedélyek lekérésének mellőzését a microsoftos vagy a microsoftos felhőszolgáltatásban Microsoft Cloud for US Government partnerek nem kérhetik. További tudnivalókért lásd: [Ügyfelek delegálják a rendszergazdai jogosultságokat a partnereknek.](customers-revoke-admin-privileges.md)
 
 ## <a name="invite-a-customer-to-establish-a-reseller-relationship-with-you"></a>Ügyfél meghívása viszonteladói kapcsolat létesítésre
 
@@ -48,11 +48,11 @@ Viszonteladói kapcsolatot kérhet egy ügyféllel az országon vagy az Ön rég
 6. Az ügyfél fiókjának, szolgáltatásainak, felhasználóinak és licencének kezeléséhez bontsa ki az ügyfél rekordját a név melletti lefelé mutató nyílra kattintva.
 
 > [!IMPORTANT]  
-> Az ügyfelek a szolgáltatás felügyeleti portálján újra hozzárendelheti vagy eltávolíthatja a rendszergazdai engedélyeket. Azonban ha és amíg nem kötött újra szerződést az ügyféllel, továbbra is Az Ön felelőssége, hogy támogatást nyújtson az ügyfélnek, és hogy be tudja tartatni a Microsoft Partnerszerződés feltételeit, még akkor is, ha az ügyfél újra hozzárendeli vagy eltávolítja a rendszergazdai engedélyeket. Ebben az esetben, ha az ügyfélnek segítségre van szüksége, a Microsoft ügyfélszolgálatának segítségét hívhatja egy szolgáltatáskérés megnyitásához az ügyfél nevében.
+> Az ügyfelek a szolgáltatás felügyeleti portálján újra hozzárendelheti vagy eltávolíthatja a rendszergazdai engedélyeket. Azonban, hacsak nem kötötte újra a szerződést az ügyféllel, továbbra is Az Ön felelőssége lesz az ügyféltámogatás biztosítása és a Microsoft Partnerszerződés használati útjára való betekintés, még akkor is, ha az ügyfél újra hozzárendeli vagy eltávolítja a rendszergazdai engedélyeket. Ebben az esetben, ha az ügyfélnek segítségre van szüksége, hívhatja a Microsoft ügyfélszolgálatát, hogy az ügyfél nevében nyisson meg egy szolgáltatáskérést.
 
 ## <a name="changes-to-the-customer-invitation-experience"></a>Az ügyfélmeghívási élmény változásai
 
-A viszonteladói kapcsolatokra való meghívásnak egy ügyfélpartnertől való Felhőszolgáltató ügyfélkapcsolati meghívót különböző ügyfélkapcsolati portálok üzemeltetik. A portál helye attól függ, hogy az ügyfél nyilvános Microsoft-felhőben vagy országos felhőben van-e:
+A viszonteladói kapcsolatokra való meghívásnak egy Felhőszolgáltató (CSP) partnertől való elfogadásának felhasználói élményét különböző ügyfélkapcsolati portálok üzemeltetik. A portál helye attól függ, hogy az ügyfél a Microsoft nyilvános felhőben vagy az országos felhőben található:
 
 |A felhőalapú ügyfelek típusai  | Hol fogadja el az ügyfél a viszonteladói kapcsolatokra való meghívást? |
 |---------|---------
@@ -65,4 +65,4 @@ A viszonteladói kapcsolatokra való meghívásnak egy ügyfélpartnertől való
 
 - [Támogatási kapcsolattartók hozzárendelése](assign-support-contacts.md)
 
-- [Ügyfélkapcsolat eltávolítása](remove-a-relationship.md)
+- [Ügyféllel való kapcsolat eltávolítása](remove-a-relationship.md)

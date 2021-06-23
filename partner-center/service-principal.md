@@ -9,18 +9,18 @@ author: dhirajgandhi
 ms.author: dhgandhi
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7d12bb66574e6bcee60b2a1df1673dc9171fbee2
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 3698032a632384e8416664c9564819d7c4da9c38
+ms.sourcegitcommit: 8dc9f28f15d9760a8363826513b4470b76b40ff3
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109854927"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112551554"
 ---
 # <a name="add-an-azure-ad-application-service-principal-in-partner-center"></a>Azure AD-alkalmazás (szolgáltatásnév) hozzáadása a Partnerközpont
 
 **Megfelelő szerepkörök:** Globális rendszergazda
 
-A Partnerközpont kereskedelmi piactéri programjában mostantól hozzáadhat egy Azure AD-alkalmazást (szolgáltatásnév) felhasználóként a Partnerközpont fiókjában. (Ezt korábban már meg tudta tenni a Cloud Partner Portal vagy CPP-fiókban. Most, hogy migrált a Partnerközpont, a CPP-fiók csak olvasható.)
+A Partnerközpont kereskedelmi piactéri programjában most már hozzáadhat egy Microsoft Azure Active Directory-alkalmazást (Azure AD)-alkalmazást (szolgáltatásnév) az Partnerközpont fiókjában. (Ezt korábban már meg tudta tenni a Cloud Partner Portal (CPP) fiókjában. Most, hogy migrált a Partnerközpont, a CPP-fiók csak olvasható.)
  
 >[!Note] 
 >A szolgáltatásnév az Azure AD-alkalmazás szinonimája.
@@ -39,7 +39,7 @@ A Partnerközpont kereskedelmi piactéri programjában mostantól hozzáadhat eg
 
    - **Alkalmazásazonosító URI:** Az Azure AD-alkalmazás logikai azonosítója, amely akkor lesz bemutatva, amikor egyszeri bejelentkezési kérelmet küld az Azure AD-nek.
 
-   - **Biztonsági szerepkörök:** A **szerepkörkezelő** (ugyanaz, mint a CPP-ben a "Tulajdonos" szerepkör) és a Fejlesztő **(ugyanaz,** mint a CPP közreműködői szerepköre) a Partnerközpont kereskedelmi piactéri programjában érvényesek, és társíthatóak ehhez az Azure AD-alkalmazáshoz.  
+   - **Biztonsági szerepkörök:**  A szerepkörkezelő (ugyanaz, mint a CPP tulajdonosi szerepköre) és a fejlesztő **(ugyanaz,** mint a CPP közreműködői szerepköre) a Partnerközpont kereskedelmi piactéri programjában érvényesek, és társíthatóak ehhez az Azure AD-alkalmazáshoz.  
 
 ## <a name="next-steps"></a>Következő lépések
 
