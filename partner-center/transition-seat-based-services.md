@@ -9,20 +9,20 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: b1d5f415680cad8466da631a68fb6249a5298a2d
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 2cfea9bc672ff12868a7944cf81601e5292dae80
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109855981"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112489900"
 ---
-# <a name="move-license-based-customers-from-other-channels--partners-to-the-cloud-solution-provider-program"></a>Licencalapú ügyfelek áthelyezése más csatornákról & partnerekről a Felhőszolgáltató programba
+# <a name="move-license-based-customers-from-other-channels--partners-to-the-cloud-solution-provider-csp-program"></a>Licencalapú ügyfelek áthelyezése más csatornákról és & a Felhőszolgáltató (CSP) programba
 
 **Megfelelő szerepkörök:** Fiók-rendszergazdai | Értékesítési ügynök | Számlázási ügynök
 
 Ha az ügyfél több partnert szeretne felvenni, az előfizetéseket át szeretné ruházni egy másik partnernek, vagy kezelni szeretné a máshol megvásárolt előfizetéseket, manuálisan is áthelyezheti őket. Az ügyfeleket másik csatornáról Partnerközpont másik csatornáról is áthelyezheti.
 
-## <a name="move-your-customers-license-based-subscriptions-to-the-cloud-solution-provider-program-csp"></a>Az ügyfél licencalapú előfizetésének áthelyezése a Felhőszolgáltató Programba (CSP)
+## <a name="move-your-customers-license-based-subscriptions-to-the-csp-program"></a>Az ügyfél licencalapú előfizetésének áthelyezése a CSP-programba
 
 1. Válassza **az Ügyfelek** lehetőséget Partnerközpont menüben, majd válassza a **Viszonteladói kapcsolat kérése lehetőséget.** A többcsatornás fiókok támogatásához ugyanezt kell megtennie.
 
@@ -37,12 +37,12 @@ Ha az ügyfél több partnert szeretne felvenni, az előfizetéseket át szeretn
 
 4. Az ügyfél ezután megszakítás nélkül folytatja az Ön által kiépített előfizetéseket.
 
-Ha ugyanazokkal az ajánlatokkal rendelkezik, mint az ügyfél által használt ajánlatok, nem kell újra hozzárendelni a licenceket, és a végfelhasználók nem fognak fennakadni. Az ajánlatnak azonosnak kell lennie az adatvesztés elkerülése érdekében. Amíg a licencek teljes száma változatlan marad, és az ajánlat egyenértékű, az ügyfelek nem fogják befolyásolni.
+Ha az ügyfél által használt ajánlatokkal azonos ajánlatokat biztosít, nem szükséges a licenceket újra hozzárendelni, és a végfelhasználók nem fognak fennakadni. Az ajánlatnak azonosnak kell lennie az adatvesztés elkerülése érdekében. Ha a licencek teljes száma változatlan marad, és az ajánlat egyenértékű, az ügyfelek nem fognak hatást gyakorolni.
 
 Ha olyan ügyfeleket helyez át, akik megszüntetett ajánlattal rendelkeznek, akkor az adatvesztés elkerülése érdekében találnia kell egy egyenértékű ajánlatot. Ha az ügyfelet egy másik ajánlatba helyezi át, akkor frissítenie kell az ügyfél licenc-hozzárendelését.
 
 >[!NOTE]
-> Önnek, a CSP-partnernek és az ügyfélbérlőnek ugyanabban a régióban kell lennie, hogy az ügyfelet az Ön számára átveszi.
+> Önnek, a CSP-partnernek és az ügyfélbérlőnek ugyanabban a régióban kell lennie, hogy az ügyfelet átváltsa Önre.
 
 ## <a name="next-steps"></a>Következő lépések
 

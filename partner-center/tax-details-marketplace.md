@@ -6,12 +6,12 @@ ms.service: partner-dashboard
 author: mingshen-ms
 ms.author: mingshen
 ms.date: 04/26/2021
-ms.openlocfilehash: 06abd261e4d71b2e5e37eb2d77c1e62794c99a95
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: 673620843ea8d469f1a665982f2a120b4b1e2d7e
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112277759"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112490019"
 ---
 # <a name="tax-details-for-commercial-marketplace-publishers"></a>Adóadatok a kereskedelmi piactér közzétevői számára
 
@@ -54,9 +54,9 @@ A **reseller** országokban a Microsoft viszonteladóként működik, nem közz�
 |Benin|Feröer szigetek|Maldív-szigetek|
 |Bermuda|Fidzsi|Mali|
 |Bhután|Gabon|Marshall-szigetek|
-|Bolívia|Ghána|Martinque|
+|Bolívia|Ghána|Martinique|
 |Bonaire|Grúzia|Mauritánia|
-|Új-&-Ország|Gibraltár|Mauritius|
+|Új-&-Köztársaság|Gibraltár|Mauritius|
 |Botswana|Grönland|Ma Ote|
 |Bouvet-sziget|Grenada|Mikronézia|
 |Brit Virgin-szigetek|Guadeloupe|Moldova
@@ -98,7 +98,7 @@ Csehország|Lettország|Oroszország|EAE|
 
 |**Ország**|**Kereskedelmi piactér (Azure Marketplace & AppSource)**| **Fogyasztói piactér (Microsoft Store)**|
 |------------------|:-----------------|:---------------|
-|Brazília|Viszonteladó, kivéve: A közzétevő felügyelt a CSP-ügyfélvásárlási forgatókönyvben történt vásárlások esetében|A fejlesztő által felügyelt, kivéve: Viszonteladó a következőn futó eszközökön keresztül történt Windows 10|
+|Brazília|Viszonteladó, kivéve: A közzétevő által felügyelt, Felhőszolgáltató (CSP) ügyfélvásárlási forgatókönyvben történt vásárlások esetén|A fejlesztő által felügyelt, kivéve: Viszonteladó a következőn futó eszközökön keresztül történt Windows 10|
 |Mexikó|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|Microsoft által felügyelt|
 |Ausztrália|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|Microsoft által felügyelt|
 Kína|A Marketplace nincs engedélyezve|Viszonteladó engedélyezve, kivéve: a Windows Phone 7.x rendszerű mobilkommunikációs eszközök és a Windows 8.x rendszerű személyi számítógépeken futó fejlesztők által felügyelt eszközök|
@@ -126,15 +126,15 @@ A Microsoft a következő országokban gyűjti be az áruházi díjakra vonatkoz
 
 ### <a name="end-customer-taxation"></a>Végfelhasználói adózási
 
-- Első forgatókönyv: A közzétevő által felügyelt országvásárlási ajánlat ügyfele
+- Első forgatókönyv: A közzétevő által felügyelt országban az ügyfél vásárol egy ajánlatot
 
   :::image type="content" source="images/tax/scenario-one.png" alt-text="A közzétevő fizetését bemutató diagram.":::
 
-- Második forgatókönyv: A Microsoft által felügyelt ország vásárlására vonatkozó ajánlat ügyfele (a közzétevő ország irreleváns)
+- Második forgatókönyv: A Microsoft által felügyelt országban az ügyfél megvásárol egy ajánlatot (a közzétevő ország irreleváns)
 
   :::image type="content" source="images/tax/scenario-two.png" alt-text="A Microsoft által felügyelt országban történő adózási diagram.":::
 
-- Harmadik forgatókönyv: A külkiadó határokon átívelő értékesítést tesz egy, a Microsoft által felügyelt országban található, EU-áfa által regisztrált ügyfélnek
+- Harmadik forgatókönyv: A idegen közzétevő határokon átívelő értékesítést eszköz egy, a Microsoft által felügyelt országban található, EU-értékkel hozzáadott adó (ÁFA) által regisztrált ügyfélnek
 
   :::image type="content" source="images/tax/scenario-three.png" alt-text="Diagram, amely azt mutatja be, hogy az EU-ÁFA milyen hatással van az adóra."::: 
 
@@ -142,17 +142,17 @@ A Microsoft a következő országokban gyűjti be az áruházi díjakra vonatkoz
 
   :::image type="content" source="images/tax/scenario-four.png" alt-text="Az áfabevallott adatok kezelését bemutató diagram.":::
 
-- 5. forgatókönyv: A Microsoft által felügyelt országonkénti vásárlási ajánlatban az ügyfél, akinek az áruházi szolgáltatási díjra vonatkozó adója van
+- Ötödik forgatókönyv: A Microsoft által felügyelt országban az ügyfél olyan ajánlatot vásárol, amelyben az áruházi szolgáltatási díjért adó van
 
   :::image type="content" source="images/tax/scenario-five.png" alt-text="Diagram, amely azt mutatja be, hogy az Áruházi szolgáltatási díj milyen hatással van az adóra.":::
 
 ### <a name="withholding-tax"></a>Adóelőleg
 
-- Első forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezmények nélkül) értékesítést tesz az USA-beli ügyfél számára. 
+- Első forgatókönyv: A közzétevő (az adóprofilra vonatkozó adókedvezmények nélkül) értékesítést tesz az USA-beli ügyfél számára. 
 
   :::image type="content" source="images/tax/withholding-one.png" alt-text="Adóelőleg-adót nem adózvadékot ábrázoló diagram.":::
 
-- Második forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezményekkel együtt, nulla százalékos adókulcs mellett) egy kis értékesítést tesz lehetővé az USA-beli ügyfél számára. 
+- Második forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezményekkel együtt, nulla százalékos adókulcs mellett) egy kis összegben értékesítést tesz az USA-beli ügyfél számára. 
 
   :::image type="content" source="images/tax/withholding-two.png" alt-text="A forrásadót adózvadékot mutató diagram.":::
 

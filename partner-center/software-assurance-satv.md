@@ -1,90 +1,90 @@
 ---
-title: Frissítési garancia képzési utalvány programjának nyugdíjazása
+title: Frissítési Garancia Training Fogazási program kieső
 ms.topic: article
 ms.date: 04/07/2021
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: A frissítési garancia betanítási bizonylata folyamatban van.
+description: Frissítési Garancia Training Training Program ki van vezetve.
 author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.custom: SEOJUNE.20
-ms.openlocfilehash: b08ac8d76324270f32db481a92387b20650f42f5
-ms.sourcegitcommit: 9b04509f3830462628c1bb6af2ca41ed68b52619
+ms.openlocfilehash: a8c465b38d8613a107d1900f220c4885fc9655e1
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107266486"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112490087"
 ---
-# <a name="training-vouchers-program-retirement"></a>A betanítási utalványok programjának nyugdíjazása
+# <a name="training-vouchers-program-retirement"></a>Képzési program kieső
 
-A betanítási bizonylatok teljes mértékben kimaradnak a frissítési garancia előnyeitől, de az ügyfelek továbbra is használhatják a voucher-napokat az oktató által vezetett képzéshez, amíg a bizonylatok érvényesek. Ezek azok a jelentős dátumok, amelyek a program kivonását eredményezik: 
+Frissítési Garancia Training Frissítési Garancia-k (SATV-k) teljes mértékben ki vannak vezetve a Frissítési Garancia-előnyökből, de az ügyfelek továbbra is az oktató által vezetett képzések napokat használhatnak, amíg a gyakorlók érvényesek. A program kieső dátumának jelentős időpontjai a következőek: 
 
-- 2020. február 1.: az Azure betanítása kivonult a betanítási utalvány katalógusból.
-- 2020. február 1.: a betanítási utalványok már nem alakíthatók át tervezési szolgáltatások napjaira.  
-- 2021. február 1.: az ügyfelek már nem vehetik igénybe a betanítási előnyöket. 
-- 2021. június 30.: az elmúlt nap, hogy az ügyfelek betanítási utalványokat hozzanak létre/rendeljenek hozzájuk. Az összes fennmaradó betanítási utalvány napja 2021. július 1-jén lesz eltávolítva.
-- 2022. január 1.: az elmúlt nap, hogy a partnerek beváltsák a betanítási utalványokat. A beváltást követően a partner 60 napon belül elvégezheti a fizetési kérelem folyamatát.  
+- 2020. február 1.: Az Azure-képzés kivezetve a képzési katalógusból.
+- 2020. február 1.: A training Amits már nem konvertálható tervezési szolgáltatási napokra.  
+- 2021. február 1.: Az ügyfelek már nem járnak képzési előnyökkel. 
+- 2021. június 30. : Az utolsó nap, amikor az ügyfelek betanító tanfolyamokat hozhatnak létre vagy rendelhetnek hozzájuk. 2021. július 1-től a betanítás hátralévő napjai el lesznek távolítva.
+- 2022. január 1.: Utolsó nap a partnerek számára a Training Partners beváltása érdekében. A partnernek a beváltás után 60 napja lesz a fizetési kérelem folyamatának befejezésére.  
 
 >[!NOTE]
->A voucher életciklusa nem változik. Miután létrehozta/hozzárendelte a bizonylatot, a bizonylatok foglalása, a betanítási munkamenetek és a bizonylatok beváltását 180 napon belül el kell végezni a vouch lejárata előtt.  A következő témakörben talál további [információt a](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) betanítási utalványok bevezetéséről: További információ (bejelentkezés szükséges).  Tekintse meg a SATV által jogosult tanfolyamok teljes listáját a betanítási juttatások termékkatalógusában.  Forduljon közvetlenül a regionális partneri támogatási csapathoz: [EMEA partneri](mailto:savoucher@msdirectservices.com)támogatás; [Általános partneri támogatás](https://partner.microsoft.com/dashboard/support/servicerequests).
+>A életciklus nem változik. Miután létrehoztak/hozzárendeltek egy foglalást, a foglalást, a képzési munkameneteket és a érvényesítési szelvényeket a lejárat előtt 180 napon belül be kell fejeződni.  A Training Retirement kieső képzésről az itt található gyakori kérdések között talál [további](https://partner.microsoft.com/resources/collection/software-assurance-benefit-changes#/) információt (bejelentkezés szükséges).  Tekintse meg a SATV-jogosult kurzusok teljes listáját a képzési juttatás termékkatalógusában. Ha kérdése van, forduljon regionális partnertámogatási csapatához: [EMEA partnertámogatás;](mailto:savoucher@msdirectservices.com) [Általános partnertámogatás.](https://partner.microsoft.com/dashboard/support/servicerequests)
 
 
 
 ### <a name="get-started"></a>Bevezetés
 
-Ha még nem ismeri a frissítési garancia betanítási szolgáltatásait, kövesse az alábbi lépéseket. Ha már aktív a betanítási bizonylat programban, kezdje az alábbi négy lépéssel (4). 
+Ha még csak most Frissítési Garancia betanító szolgáltatásokat, kövesse az alábbi lépéseket. Ha már aktív a képzési programban, kezdje az alábbi 4. lépéssel (4). 
 
-1. A program támogathatóságának megerősítése
-2. Regisztrálás az oktatási programban
-3. A tanfolyam jogosultságának megerősítése
-4. Hozzon létre és rendeljen hozzá egy utalványt
-5. Ügyfél-utalvány ellenőrzése és foglalása
-6. Képzés és termék aktiválása
-7. Utalvány beváltása
-8. Fizetési kérelem
+1. A program jogosultságának megerősítése
+2. Regisztráció a képzési programba
+3. A kurzusra való jogosultság megerősítése
+4. Ügyfél létrehozása és hozzárendelése
+5. Ügyféltámogatás ellenőrzése és lefoglalása
+6. Képzések kézbesítése és termék aktiválása
+7. Beváltsa a beváltsa a
+8. Fizetés kérése
 
-Ez a cikk az egyes lépések befejezését ismerteti.
+Ez a cikk az egyes lépéseket ismerteti.
 
-## <a name="confirm-program-eligibility"></a>A program támogathatóságának megerősítése
+## <a name="confirm-program-eligibility"></a>A program jogosultságának megerősítése
 
-Az SATV programba való regisztráláshoz először teljesítenie kell a Microsoft Learning kompetenciát felváltó Microsoft Partner Network tanulási lehetőség követelményeit. Megtudhatja, hogyan kezdheti el az első lépéseket a [tanulási lehetőségekben.](https://partner.microsoft.com/membership/learning-partners)
+Mielőtt regisztrálna a SATV programba, meg kell megfelelnie a Microsoft Partner Network (MPN) Learning lehetőség követelményeinek, amely felváltja a Microsoft Learning kompetencia. Az első lépésekről a Tanulás [lehetőségben olvashat.](https://partner.microsoft.com/membership/learning-partners)
 
-A partner Centerben ellenőrizheti a vállalat jogosultságait, beleértve a vonatkozó kompetenciával és értékeléssel kapcsolatos követelményeket is. A további részletekért és képernyőképekért kövesse az SATV munkafolyamat [1. lépésének](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) utasításait.
+A vállalat jogosultságát a vonatkozó kompetencia- és értékelési követelményekkel együtt ellenőrizheti a Partnerközpont. A további részletekért és képernyőképekért kövesse az SATV munkafolyamat [1. lépésének](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) utasításait.
 
-## <a name="enroll-in-the-training-program"></a>Regisztrálás az oktatási programban
+## <a name="enroll-in-the-training-program"></a>Regisztráció a képzési programba
 
-Ha a vállalata megfelel a jogosultsági követelményeknek, készen áll a frissítési garancia betanítása program szerződésének aláírására és a regisztrálásra. Mindenképpen tekintse át a [SATV program összes házirendjét](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP), majd kövesse a munkafolyamat [2. lépésében](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) található utasításokat a SATV regisztrációs folyamatának elvégzéséhez a partner Centerben.
+Ha a vállalat megfelel a jogosultsági követelményeknek, készen áll aláírni a SATV programszerződést, és regisztrálni. Mindenképpen tekintse át a SATV program összes szabályzatát, majd kövesse a munkafolyamat [2.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) lépésében található utasításokat a [SATV](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP)regisztrációs folyamatának befejezéséhez a Partnerközpont.
 
 
-## <a name="confirm-course-eligibility"></a>A tanfolyam jogosultságának megerősítése
-A SATV programba való regisztrációt követően a partnerek képzési tanfolyamokat is biztosíthatnak a SATV által jogosult tanfolyamok számára, amelyekhez az ügyfelek használhatják a betanítási bizonylatokat. A jogosult tanfolyamok listáját a SATV-tanfolyam támogathatósági katalógusa tartalmazza. Tekintse át a munkafolyamat [3. lépését](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) , hogy megtudja, milyen típusú tanfolyamok SATV jogosultak, vagy hogy a tanfolyamra jogosító katalógusra mutató hivatkozást szerezzen.
+## <a name="confirm-course-eligibility"></a>A kurzusra való jogosultság megerősítése
+Miután regisztráltak a SATV programban, a partnerek képzést kínálnak SATV-jogosult kurzusokra, amelyekhez az ügyfelek a saját képzéseiket is használhatjak. A jogosult kurzusok listája a SATV-kurzus jogosultsági katalógusában található. Tekintse [át a munkafolyamat 3.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) lépését, hogy megértse, milyen típusú kurzusok jogosultak SATV-jogosultságokra, vagy beszerezheti a kurzus jogosultsági katalógusára mutató hivatkozást.
 
-## <a name="have-customer-create-and-assign-voucher"></a>Hozzon létre és rendeljen hozzá egy utalványt
+## <a name="have-customer-create-and-assign-voucher"></a>Ügyfél létrehozása és hozzárendelése
 
-A képzés elvégzése előtt az ügyfélnek először aktiválnia kell a SATV juttatást, majd hozzá kell rendelnie a szervezethez. Ha részletes útmutatást szeretne arról, hogy az ügyfélnek milyen lépéseket kell tennie ahhoz, hogy utalványt hozzon létre és rendeljen hozzá, tekintse meg a munkafolyamat [4. lépését](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) .
+A képzések elvégzéséhez az ügyfélnek először aktiválnia kell a SATV kedvezményét, majd hozzá kell rendelnie azt a szervezethez. A munkafolyamat [4.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) lépésében részletes utasításokat és képernyőképeket is készíthet, amelyek bemutatják, hogy az ügyfélnek milyen lépéseket kell tennie ahhoz, hogy létre tudja hozni és hozzárendelje Azt.
 
-## <a name="validate-and-reserve-customer-vouchers"></a>Ügyfél-bizonylatok ellenőrzése és foglalása
+## <a name="validate-and-reserve-customer-vouchers"></a>Ügyfélkvóta ellenőrzése és lefoglalása
 
-Most már lehetősége van a jegyek lefoglalására és beváltására, és megkezdheti az ügyfelek képzését. A vállalat MPN-rendszergazdája hozzáfér a fiókpartner felügyeleti eszközéhez a partner Centerben, és felveheti azokat a felhasználókat, akiknek szükségük van az eszközön való működésre. A bizonylatok érvényességének ellenőrzésével és a megkiszolgálásával kapcsolatos utasításokért tekintse meg a munkafolyamat [5. lépését](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) .
+Most már lefoglalhatja és beválthatja a játékokat, és megkezdheti az ügyfelek képzését. A vállalat MPN-rendszergazdája hozzáfér a Partnerközpont kezelőeszközhöz, és hozzáadhatja a felhasználókat, akiknek az eszközben kell dolgoznia. A munkafolyamat 5. lépésében útmutatást ad a üvegek [stb.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) érvényességének ellenőrzése és lefoglalása során.
 
-## <a name="deliver-training-and-activate-product"></a>Képzés és termék aktiválása
+## <a name="deliver-training-and-activate-product"></a>Képzések kézbesítése és termék aktiválása
 
-Ha a bizonylatot fenntartják, a képzést az ügyfélnek is elvégezheti. A MOOC tanfolyamokhoz tartozó Microsoft hivatalos tananyagok, vizsgák és Microsoft tanfolyami tanúsítványok (LaaS-EK) aktiválására és megvásárlására vonatkozó útmutatásért lásd: a munkafolyamat [6. lépése](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) .
+A foglalás után ön kézbesítheti a képzést az ügyfélnek. Lásd a microsoftos hivatalos kurzusok (MOC), a vizsgák és a Microsoft course Certificate-k (LaaS) aktiválására és megvásárlására vonatkozó útmutatásokat a képzéssel kapcsolatos irányelvek és utasítások [6.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) lépését a nagy mennyiségű nyílt online kurzushoz (MOOC).
 
-## <a name="redeem-voucher"></a>Utalvány beváltása
+## <a name="redeem-voucher"></a>Beváltsa a beváltsa a
 
-A képzés befejezése után be kell váltania a bizonylatot. Kövesse a munkafolyamat [7. lépésében](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) ismertetett utasításokat, hogy minden követelmény teljesült legyen, így a fizetést is kérheti. 
+A képzés befejezése után be kell beváltani a kódot. A munkafolyamat [7.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) lépésében található utasításokat követve győződjön meg arról, hogy minden követelmény teljesült, hogy igényelhető legyen a fizetés. 
 
 
 ## <a name="request-payment-from-microsoft"></a>Fizetés kérése a Microsofttól
 
-A kifizetéseket a frissítési garancia (SAVB) online fizetési eszközével lehet kezelni. Kövesse a munkafolyamat [8. lépésében](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) leírtakat, és küldjön számlát a MICROSOFTNAK a SAVB-on keresztül. 
+A kifizetések kezelése a Frissítési Garancia Benefit Benefit (SAVB) online fizetési eszközével keresztül. A munkafolyamat [8.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB) lépésében található utasításokat követve küldje el a számlát a Microsoftnak a SAVB-n keresztül. 
 
-További információért olvassa el a [Gyakori kérdések](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3kz5o) és a [SATV-szabályzatok](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP)áttekintése című témakört.
+További információért olvassa el a gyakori kérdéseket, [és](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3kz5o) tekintse át [a SATV-program szabályzatokat.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP)
 
 Lásd még:
 
-- [Frissítési garancia betanítási utalványok (SATV-EK) munkafolyamata](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB)
-- [Frissítési garanciát biztosító betanítási utalványok (SATV) – gyakori kérdések](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3kz5o)
-- [Frissítési garanciát biztosító betanítási utalványok (SATV-szabályzatok)](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP)
+- [Frissítési Garancia (SATV) munkafolyamata](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4s3bB)
+- [Frissítési Garancia (SATV) – gyakori kérdések](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3kz5o)
+- [Frissítési Garancia (SATV) szabályzatok betanítása](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3koEP)

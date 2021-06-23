@@ -9,22 +9,22 @@ ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 03/30/2021
-ms.openlocfilehash: fb991e8e5792e2be2087e05cc371b064ea11d02e
-ms.sourcegitcommit: 0410e2a3f91b7e6b592cc47e7af1dfbe468c7881
+ms.openlocfilehash: bf29df94a7a59e5a022c7c6407da27b7202547db
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112318095"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112490002"
 ---
 # <a name="explore-technical-presales-and-deployment-services-tpd"></a>Ismerkedés az előzetes műszaki és üzembe helyezési szolgáltatásokkal (TPD) 
 
 **Megfelelő szerepkörök:** Bármely MPN felhasználói fiók, ha a szervezet aktív kompetenciával vagy Microsoft Action Pack.
 
-Megismeri a Microsoft Partner Network (MPN) előnyeit, amelyek többek között a tanácsadást, az előértékesítési segítséget, a tanácsadási órákat és egyéb szolgáltatásokat kínálnak a műszaki előzetes és üzembe helyezési szolgáltatásokhoz.
+Megismeri a Microsoft Partner Network (MPN) előnyeit, amelyek többek között a tanácsadást, az előértékesítési segítséget, a tanácsadási órákat és más szolgáltatásokat kínálnak a műszaki előzetes és üzembe helyezési szolgáltatások (TPD) terén.
 
 ## <a name="develop-your-technical-know-how"></a>Műszaki know-how fejlesztése
 
-A technikai értékesítés előtti és üzembe helyezési szolgáltatások (TPD) távoli személyre szabott egy-az-egyhez megoldáshoz való használatával gyorsabban építheti ki műszaki képességeit az értékesítés növelése, a hatékonyabb üzembe helyezés és az alkalmazásfejlesztés felgyorsítása érdekében. [További információk](https://aka.ms/TPD).
+A TPD-t távoli, személyre szabott egy-az-egyhez megoldáshoz használhatja, hogy műszaki képességeit gyorsabban építse ki az értékesítés növelése, a hatékonyabb üzembe helyezés és az alkalmazásfejlesztés felgyorsítása érdekében. [További információk](https://aka.ms/TPD).
 
 Minden felhőalapú vagy hibrid megoldás támogatott a helyszíni Windows 10, a Windows Serveren és a Microsoft SQL Server. 
 
@@ -60,27 +60,27 @@ Jelentkezzen be az MPN-hez társított felhasználói fiókkal a Műszaki előé
 
 ## <a name="in-scope-products-and-services"></a>In-Scope termékek és szolgáltatások
 
-A következő termékek és szolgáltatások tartoznak az előzetes műszaki és üzembe helyezési szolgáltatások hatóköréhez:
+A TPD a következő termékekre és szolgáltatásokra terjed ki:
 - **Microsoft 365:** Minden Microsoft Office 365-összetevő, például a Microsoft Teams, az Exchange Online, a SharePoint Online, a OneDrive, a Yammer, a Project Online, a Skype Vállalati kiszolgáló 2019, Enterprise Mobility + Security, Microsoft Intune, Azure Active Directory, Azure Information Protection
   - *Hatókör kívül: Kizárólag helyszíni Office-kiszolgálók – Exchange és SharePoint*
 - **Business Applications:** Microsoft Dynamics 365 (online), Microsoft Power Platform (Power Apps, Power Automate, Power BI)
   - *Hatókör kívül: Kizárólag a Dynamics 365, GP, SL, AX, NAV helyszíni verziói*
 - **Microsoft Azure:** Minden Microsoft Azure megoldás és kapcsolódó szolgáltatás, például szolgáltatásként nyújtott infrastruktúra, szolgáltatásként nyújtott platform, adatplatform, BI Analytics, Cognitive Services, Azure Machine Learning, Azure Stack
 - **Windows Server és SQL Server:** A termék életciklusa által szabályozott alapvető technikai **[támogatáson belül](/lifecycle/policies/fixed)**)
-  - System Center kapcsolódó termékeket tartalmaz, például az SCCM-et, ha felhőbeli vagy hibrid forgatókönyvekkel kapcsolatosak
+  - System Center kapcsolódó termékeket tartalmaz, például System Center Konfigurációkezelő (SCCM) felhőalapú vagy hibrid forgatókönyvekhez kapcsolódó termékeket
 - **Windows 10:** Windows 10, eszközök, univerzális alkalmazások
-- **Privát vagy nyilvános** előzetes verzióban elérhető termékek: A súgót legjobb megoldásként biztosítjuk nem éles környezetekhez, és nem garantálják az információk rendelkezésre állását vagy a válaszidőt
+- **Privát vagy nyilvános** előzetes verzióban elérhető termékek: A súgót a legjobb lehetőségek alapján biztosítjuk nem éles környezetekhez, és nem garantálják az információk rendelkezésre állását vagy a válaszidőt
 
 ## <a name="submit-a-technical-presales-and-deployment-services-request"></a>Műszaki előzetes és üzembe helyezési szolgáltatási kérés elküldése 
 
-A Technical Presales and Deployment Services (TPD) előnyei automatikusan aktiválva vannak, és az MPN-hez társított összes felhasználó számára elérhetők. 
+A TPD-előnyök automatikusan aktiválva vannak, és az MPN-hez társított összes felhasználó számára elérhetők. 
 
 A műszaki előnyök megtekintése a Partnerközpont:
 
 1. Jelentkezzen be az MPN-hez társított fiókjával a Partnerközpont [irányítópultján.](https://partner.microsoft.com/dashboard) 
 
    > [!NOTE]
-   > Ha a fiókja csak a CSP-hez van társítva, és nem az MPN-hez, a következő hibaüzenet jelenik meg: "Nem jogosult erre a műveletre". MpN-hez társított fiókkal kell lennie.
+   > Ha a fiókja csak a Felhőszolgáltató (CSP) programhoz van társítva, és nem az MPN-hez, a következő hibaüzenet jelenik meg: "Ön nem jogosult erre a műveletre". MpN-hez társított fiókkal kell lennie.
 
 2. **Bontsa ki az Előnyök** elemet a bal oldali navigációs menüben, és válassza a Műszaki előnyök **lehetőséget.** Megjelenik a Technikai előnyök lap, amely felsorolja a Gold, Silver vagy Microsoft Action Pack számára elérhető műszaki támogatási előnyöket. 
 
@@ -96,9 +96,9 @@ A műszaki előnyök megtekintése a Partnerközpont:
 :::image type="content" source="images/benefits/mpn-tpd-2.png" lightbox="images/benefits/mpn-tpd-2.png" alt-text="Műszaki előértékesítési és üzembe helyezési előnyök – Termékek keresése.":::
 
    > [!NOTE]
-   > Ha az ASfP vagy a PSfP támogatási csomag részeként szüksége van felhőalapú konzultációra, forduljon a támogatási fiókkezelőhöz (SAM).
+   > Ha a Partnerek speciális támogatása [(ASfP)](https://partner.microsoft.com/support/advanced-cloud-support) vagy a [Premier szintű támogatás for Partners (PSfP)](https://partner.microsoft.com/support/microsoft-services-premier-support) támogatási csomag részeként felhőalapú konzultációra van szüksége, forduljon a támogatási fiókkezelőhöz (SAM).
 
-5. **Töltse ki az űrlapot, és küldje el.** Győződjön meg arról, hogy a teljes nemzetközi telefonos kódot a telefonszámával együtt tartalmazza. A több időzónát lefedő országok, például az USA, Oroszország esetében adja meg az időzónát és az előnyben részesített munkaidőt.
+5. Töltse ki az űrlapot, és küldje el. Győződjön meg arról, hogy a teljes nemzetközi telefonos kódot a telefonszámával együtt tartalmazza. A több időzónát lefedő országok, például az USA, Oroszország esetében adja meg az időzónát és az előnyben részesített munkaidőt.
 
    > [!IMPORTANT]
    > Mindenképpen válassza ki a megfelelő országot (vagy régiót) és nyelvet, mert ezek határozzák meg a kérelem útvonalát.

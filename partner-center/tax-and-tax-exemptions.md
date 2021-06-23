@@ -9,12 +9,12 @@ author: BillLinzbach
 ms.author: BillLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 7e6db20296075774a6254116df898e15ecc50034
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 93d2f4c2a1fb1f4c6de1cb8759cab0df85c3ceea
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109856032"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112489917"
 ---
 # <a name="read-about-taxes-and-tax-exemption-details-by-region-or-country-for-partners-in-the-csp-program"></a>További információ az adókról és az adómentességről régiónként vagy országonként a CSP-programban részt adó partnerek számára
 
@@ -33,23 +33,23 @@ Ha egy másik országban vagy régióban van, ahol adókat kell fizetni, tekints
 
 ### <a name="canada"></a>Kanada
 
-A legtöbb viszonteladó nem mentesül a GST/HST/QST alól. Forduljon az adótanácsadóhoz annak megállapításához, hogy jogosult-e a kivételekre, és hogy milyen dokumentációt kell adnia a Microsoftnak.
+A legtöbb viszonteladóra nem vonatkozik a termékekre és szolgáltatásokra vonatkozó adó (GST)/a leszámolt értékesítési adó (HST)/Québec értékesítési adója (QST). Forduljon az adótanácsadóhoz annak megállapításához, hogy jogosult-e a kivételekre, és hogy milyen dokumentációt kell adnia a Microsoftnak.
 
-BC PST-kivételhez jelentsen be egy adómentességet a leírt módon. Adja meg a BC PST#-t, vagy egy befejezett és aláírt *általános kivétel tanúsítványát.*
+A BC sales tax (PST) kivételeként jelentsen be egy adómentességet a leírt módon. Adja meg a BC PST#-t, vagy egy befejezett és aláírt *általános kivétel tanúsítványát.*
 
 ### <a name="united-states"></a>Egyesült Államok
 
 A microsoftos viszonteladói szerződés Egyesült Államok a Microsoft-viszonteladói szerződés elfogadásától számított 30 napon belül az értékesítési adómentesség dokumentációját. Minden állapot különböző kivételtanúsítvánnyal rendelkezik az újraértékesítéshez. Az adótanácsadóval együtt állapítsa meg, hogy mi releváns a jogi címe és a regisztrált államok szempontjából.
 
-Ez magában foglalhat újraértékesítési kivételtanúsítványokat, amelyek több államban működnek, például a *Streamline Sales* and Use Tax Agreement Certificate of Exemption (Az értékesítések leegyszerűsítése és az adószerződéses tanúsítvány *használata)* vagy az *MTC Uniform Sales & Use Tax Exemption Certificate*(Adómentességi tanúsítvány használata).
+Ez magában foglalhat újraértékesítési kivételtanúsítványokat, amelyek több államban működnek, például a *Streamline Sales* *and Use Tax Agreement Certificate of Exemption* (Az értékesítések leegyszerűsítése és az adószerződés-igazolás használata) vagy az *MTC uniform Sales & Use Tax Exemption Certificate*(Adómentességi tanúsítvány használata).
 
 ### <a name="other-regions"></a>Más régiók
 
-Ha az adókat feladó másik országban vagy régióban [van,](#support) Partnerközpont kérdéseit.
+Ha egy másik országban vagy régióban van, amely adókat [fizet,](#support) kérjen támogatást a Partnerközpont kérdéseihez.
 
 ## <a name="tax-receipts-and-daf"></a>Adózási nyugták és DAF
 
-Az adóbevallások (Tajvan vagy Korea esetén) vagy a DAF esetében általában két hétre van szükség a számla létrehozása után.
+Az adózási nyugták (Tajvan vagy Korea esetén) vagy a DAF esetében általában két hétre van szükség a számla létrehozása után.
 
 ## <a name="file-a-tax-exemption"></a>Adómentesség beterjesztése
 
@@ -57,15 +57,15 @@ Az adómentesség bejelentése előtt győződjön meg arról, hogy megértette 
 
 - Minden CSP-bérlőhöz be kell kérte egy adómentességet.
 
-- Be kell nyújtania az adóazonosító számát vagy a szövetségi munkáltatói azonosítószámot (FEIN). Ez a szám általában megjelenik az adó tanúsítványában.
+- Be kell nyújtania az adóazonosítóját vagy a szövetségi munkáltatói azonosító számát (FEIN). Ez a szám általában megjelenik az adó tanúsítványában.
 
-- Országtól, régiótól vagy államtól függően az értékesítési adómentesség olyan jogi irányelveket tartalmaz, amelyek a helyi Adó bevételi Részlegre (vagy hasonló részlegre) vonatkoznak, és ennek megfelelően kell kezelni őket. Bár számos hely rendelkezik évente megújított fő adótanúsítvánnyal, egyes helyek két vagy több éven át újulhatnak meg. Ezt és az egyéb információkat úgy ellenőrizheti, hogy ellenőrzi a tanúsítványt, vagy kapcsolatba lép a helyi hitelesítésszolgáltatóval.
+- Az országtól, régiótól vagy államtól függően az értékesítési adómentesség olyan jogi irányelveket tartalmaz, amelyek a helyi adó-bevételi részlegre (vagy hasonló részlegre) vonatkoznak, és ennek megfelelően kell kezelni őket. Bár számos hely rendelkezik fő adózási tanúsítványokkal, amelyek évente megújulnak, egyes helyek két vagy több évre is megújulhatnak. Ezt és az egyéb információkat a tanúsítvány ellenőrzéséhez vagy a helyi hitelesítésszolgáltatóhoz való kapcsolatfelvételhez ellenőrizze.
 
-Ha készen áll az adómentesség beszolgáltatására, [](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=92930319-ced6-c18b-d7a6-d62b22d60aa5) nyisson meg egy jegyet a Microsoft ügyfélszolgálata és a megfelelő adatokat.
+Amikor készen áll az adómentesség beszolgáltatására, [](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=92930319-ced6-c18b-d7a6-d62b22d60aa5) nyisson meg egy jegyet a Microsoft ügyfélszolgálata és a megfelelő adatokat.
 
 ## <a name="support"></a>Támogatás
 
-Az adómentességgel és visszatérítésekkel, illetve egyéb, adózási kérdésekkel kapcsolatos kérdések esetén kérjen támogatást a Partnerközpont. Várjon két hetet, hogy a Microsoft kapcsolatba lépjen Önnel, és megoldja a problémát.
+Az adómentességgel és visszatérítésekkel kapcsolatos kérdések, illetve egyéb, adózási kérdések esetén kérje a támogatási Partnerközpont. Várjon két hetet, hogy a Microsoft kapcsolatba lépjen Önnel, és megoldja a problémát.
 
 ## <a name="next-steps"></a>Következő lépések
 

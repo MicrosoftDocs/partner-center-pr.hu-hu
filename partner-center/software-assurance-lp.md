@@ -1,39 +1,39 @@
 ---
-title: Frissítési garanciát biztosító programok
+title: Frissítési Garancia programok
 ms.topic: article
 ms.date: 08/19/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-mpn
-description: Regisztráljon egy frissítési garanciát biztosító programba, hogy üzleti tevékenységet hozzon létre, és kompenzálja a nagyvállalati ügyfeleknek nyújtott képzést és tervezést.
+description: Regisztráljon egy Frissítési Garancia, hogy vállalkozást építsen, és kompenzálható lesz a képzések és a nagyvállalati ügyfelek számára való tervezésért.
 author: mowree
 ms.author: mowrim
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 212eef8294b7d293a9bc9f55b56498e12e3f402a
-ms.sourcegitcommit: 9292a85c4c142109e46462ee4088bd95efb62456
+ms.openlocfilehash: cccb1701e196781b2e002ef6bb37f0e47521b2b5
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "92528190"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112489934"
 ---
-# <a name="participate-in-software-assurance-programs-including-training-vouchers-and-planning-services"></a>Részvétel a frissítési garanciát biztosító programokban, beleértve a képzési bizonylatokat és a tervezési szolgáltatásokat
+# <a name="participate-in-software-assurance-programs-including-training-vouchers-and-planning-services"></a>Részvétel a Frissítési Garancia programokban, beleértve a képzési szoftvereket és a tervezési szolgáltatásokat
 
-A frissítési garanciát biztosító programokban (például a frissítési garancia betanítási SATV) és a tervezési szolgáltatásokban való részvétel lehetővé teszi, hogy üzleti tevékenységét a Microsoft nagyvállalati ügyfeleivel fejlessze. 
+Az olyan Frissítési Garancia programokban való részvétel, mint a Frissítési Garancia Training Programs (SATV) és a Planning Services, lehetőséget nyújt a Vállalati Microsoft-ügyfelekkel való üzleti növekedésre. 
 
-- A frissítési garanciát biztosító betanítási partnerként a Microsoft kompenzálja Önnek, hogy a Microsoft szakértői által kifejlesztett oktató által vezetett, technikai tantermi képzést nyújtson. 
+- SATV-partnerként a Microsoft kompenzálni fogja, hogy oktató által vezetett, a Microsoft szakértői által fejlesztett technikai tantermi képzést biztosítson. 
 
-- Tervezési szolgáltatási partnerként a Microsoft kompenzálja az előre meghatározott implementációs tervezési bevezetést. 
+- Tervezési szolgáltatási partnerként a Microsoft kompenzálni fogja, hogy ön előre meghatározott megvalósítástervezési kötelezettségvállalásokat vezet. 
 
-Mindkét programban lehetősége van arra, hogy a versenyen kívül is beállítsa a vállalatot, legyen az egy megbízható tanácsadó, és az ügyfelek számára biztosítson követő szolgáltatásokat. A programokba való regisztráció és a kapcsolódó frissítési garanciát biztosító bizonylatok kezelése a partner központon keresztül történik.
+Mindkét programon keresztül lehetőséget nyújt arra, hogy a versenytől eltekintve vállalkozását felvegyegeljük, megbízható tanácsadóvá váljon, és követő szolgáltatásokat kínáljon az ügyfélnek. A programokba való regisztrációt és a kapcsolódó Frissítési Garancia kezeléséhez a Partnerközpont.
 
 > [!NOTE]
-> Ahhoz, hogy kihasználhassa a szolgáltatások és a speciális bevonások tervezésének előnyeit, meg kell felelnie a kompetenciák különböző szintjeinek. A kompetenciával kapcsolatos követelmények közé tartoznak a képzések és egyéb követelmények teljesítése a tervezési szolgáltatások kínálati szintjén, valamint a kompetenciával kapcsolatos követelmények teljesítése egy adott engagement esetében.  
+> A Tervezési szolgáltatások ajánlatai és azok konkrét bevonásai előnyeinek kihasználás érdekében meg kell felelnie a kompetencia különböző szintjeire vonatkozó követelményeknek. A kompetenciakövetelmények közé tartozik a képzési és egyéb követelmények teljesítésének elvégzése a Planning Services ajánlati szintjén, valamint a kompetenciakövetelmények teljesítésének egy adott kötelezettségvállaláshoz.  
 >
-> További információ a szolgáltatások tervezéséhez és a hozzájuk kapcsolódó bevonásokhoz [szükséges szakismeretekről](software-assurance-dps-requirements.md) .
+> További információ [](software-assurance-dps-requirements.md) a Planning Services-ajánlatokhoz és a kapcsolódó kötelezettségvállaláshoz szükséges kompetenciákról.
 
 
 |**További információ**   |**Olvassa el ezt**   |
 |--------------------------|:------------------|
-|Regisztrálás a frissítési garanciát biztosító betanítási utalványok (SATV) programban  | [SATV-program a partner Centerben](software-assurance-satv.md)|
-|Regisztrálás a frissítési garancia tervezési szolgáltatási programjában | [Frissítési garanciához kapcsolódó tervezési szolgáltatások a Partnerközpontban](software-assurance-dps.md) |
-|A szolgáltatási ajánlatok és a bevonások tervezésére vonatkozó támogathatósági követelmények  | [A frissítési garanciával kapcsolatos tervezési szolgáltatások támogathatósági követelményei](software-assurance-dps-requirements.md)  |
+|Regisztráció a Frissítési Garancia Training Fogon (SATV) programba  | [Frissítési Garancia Training Partnerközpont (SATV) program Partnerközpont](software-assurance-satv.md)|
+|Regisztráció az Frissítési Garancia Planning Services programban | [Frissítési garanciához kapcsolódó tervezési szolgáltatások a Partnerközpontban](software-assurance-dps.md) |
+|A Planning Services-ajánlatok és -részvételek jogosultsági követelményei  | [Frissítési Garancia Planning Services jogosultsági követelményei](software-assurance-dps-requirements.md)  |

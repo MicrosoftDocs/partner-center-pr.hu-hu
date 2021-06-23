@@ -9,12 +9,12 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.custom: SEOAPR.20
 ms.date: 01/22/2021
-ms.openlocfilehash: 81a8d656c876d39ca6389fedeec3a154dd778ce1
-ms.sourcegitcommit: 7cc83714e17337b472727819243f98c84ae181ba
+ms.openlocfilehash: 83006da3a25285105d6fc073a203bedb19e681fe
+ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112450747"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "112489883"
 ---
 # <a name="providing-different-types-of-support-to-your-customers"></a>Különböző típusú támogatás nyújtása az ügyfeleknek
 
@@ -36,7 +36,7 @@ Maguk a CSP-ügyfelek nem hozhatnak létre támogatási jegyeket. Támogatásér
 
   - [Premier szintű támogatás (PSfP)](https://partner.microsoft.com/support/microsoft-services-premier-support) (díjbázis, használat minden termékhez)
 
-  - [Speciális támogatás partnerek számára (ASfP](https://partner.microsoft.com/support/advanced-cloud-support) (díjbázis, csak felhőalapú termékekhez)
+  - [Speciális támogatás partnereknek (ASfP)](https://partner.microsoft.com/support/advanced-cloud-support) (díjbázis, csak felhőalapú termékekhez használható)
 
   - [Signature Felhőtámogatás](manage-your-partner-network-benefits.md) (a Gold vagy Silver kompetencia MPN-előnyei közé tartozik, csak felhőalapú termékekhez használható. Lásd: [Műszaki előnyök](mpn-benefits-technical-support.md))
 
