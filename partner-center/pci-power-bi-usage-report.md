@@ -8,18 +8,18 @@ description: Itt láthatja, hogy mit csinál jól, és hol javíthatja az Power 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 36993633ab2e2be0a726c70bf930f842bfaf890f
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: 75aa86ebc768b9d6d252a29eb84aef97ab99ab0c
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112276297"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565338"
 ---
 # <a name="power-bi-usage-report-available-from-the-partner-center-insights-dashboard"></a>Power BI a Partnerközpont Insights irányítópultról elérhető használati jelentés
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-A Power BI jelentés használati adatokat biztosít az Power BI ön által az ügyfelek számára értékesített vagy kezelt előfizetések használati adatairól. Az alábbi szakaszokat a használati Power BI megtekintheti.
+A Power BI jelentés használati adatokat biztosít az ügyfelek számára értékesített Power BI microsoftos előfizetések használati adatait. Az alábbi szakaszokat a használati Power BI megtekintheti.
 
 - Összefoglalás
 - Power BI földrajzi hely szerint
@@ -28,7 +28,7 @@ A Power BI jelentés használati adatokat biztosít az Power BI ön által az ü
 - Power BI eloszlása
 
  > [!NOTE]
- > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információért tekintse meg a vállalat globális rendszergazdáját. A jelentés bizonyos adattípusai csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők lehetnek.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók-rendszergazda, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információért tekintse meg a vállalat globális rendszergazdáját. A jelentés bizonyos adattípusai csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők lehetnek.
 
 ## <a name="summary"></a>Összefoglalás
 
@@ -36,11 +36,11 @@ Az összefoglaló szakasz az ügyfelek számára értékesített vagy Power BI e
 
 - Elérhető helyek: A kiválasztott időszakban eladott licencek teljes száma.
 
-   A Mikrodiagram a rendelkezésre álló helyek számát ábrázolja a kiválasztott dátumtartományban.
+   A Mikrodiagram a rendelkezésre álló helyek számát mutatja a kiválasztott dátumtartományra vonatkozó havi trenddel.
 
 - Hozzárendelt helyek: A kiválasztott időszakban hozzárendelt licencek teljes száma.
 
-   A Mikrodiagram a kiválasztott dátumtartományban hozzárendelt helyek számát ábrázoló havi trendet mutatja.
+   A Mikrodiagram a kiválasztott dátumtartományban a hozzárendelt helyek számát ábrázoló havi trendet mutatja.
 
 - Aktív helyek: Azon licencek teljes száma, amelyek használatban voltak a kiválasztott időszakban. 
 
@@ -56,7 +56,7 @@ Az összefoglaló szakasz az ügyfelek számára értékesített vagy Power BI e
 
 A **Power BI földrajzi hely** szerinti használat az elérhető és az aktív helyek eloszlását ábrázolja az ügyfél országa szerint. A térképen a világosabb színek alacsonyabb értékeket, a sötétebbek pedig magasabb értékeket képviselnek. A ráközelítéshez kereshet és kiválaszthat egy országot a rácsban.
 
-A **Number of countries/region (Országok/régiók** száma) táblázat az összes olyan országot/régiót mutatja, ahol az Azure használati eseményei létrejönnek.
+A **Number of countries/region (Országok/régiók** száma) táblázat az összes országot/régiót mutatja, ahol az Azure használati eseményei létrejönnek.
 
 Megkeresheti és kiválaszthatja a rács egyik országát a térkép helyének nagyításához. A térkép **Kezdőlap** lehetőségének kiválasztásával visszaállítja az eredeti nézetet.
 

@@ -9,18 +9,18 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: aea78f2a9b60f5d8adcc7962d15749479424c9f1
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: cca136670fa2891eea32e4561b97692ca98a77a9
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112277487"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565406"
 ---
 # <a name="overview-dashboard-reports-available-in-partner-center-insights"></a>A Partnerközpont Insightsban elérhető Partnerközpont irányítópult-jelentések
  
 **Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-Az Elemzések áttekintése irányítópult pillanatkép-nézetet biztosít a fő teljesítménymutatókról, például az ügyfelekről, az előfizetésekről, az Azure consumption Revenue -ről és a Licencekről. A következő diagramokat az Áttekintés jelentésben ábrázolhatja.
+Az Elemzések áttekintése irányítópult pillanatkép-nézetet biztosít a fő teljesítménymutatókról (KPI-kről), például az ügyfelekről, az előfizetésekről, az Azure-felhasználási bevételről és a licencekről. A következő diagramokat az Áttekintés jelentésben ábrázolhatja.
 
 - Összefoglalás  
 - Az ügyfelek, előfizetések és licencek földrajzi eloszlése  
@@ -49,12 +49,12 @@ Az **Ügyfelek** terület a következőket tartalmazza:
 
 Az **Azure-viszonteladásból származó bevétel (ACR)** terület a következőket tartalmazza:
 
-- A Azure-viszonteladásból származó bevétel dátumtartományhoz rendelt összes Azure-viszonteladásból származó bevétel (USD-ban).
-- A kijelölt dátumtartományhoz rendelt ACR százalékos növekedése vagy csökkenése (AZ USA $-ban).
-- A mikrodiagram a kiválasztott dátumtartományhoz rendelt ACR US$ havi trendjét mutatja be 
+- A kiválasztott dátumtartományhoz rendelt teljes ACR (amerikai dollárban).
+- A kijelölt dátumtartományhoz rendelt ACR százalékos növekedése vagy csökkenése (amerikai dollárban).
+- A mikrodiagram az ACR havi trendjét mutatja amerikai dollárban, amely a kiválasztott dátumtartományhoz van rendelve 
 
 > [!NOTE]
-> Azure-viszonteladásból származó bevétel (ACR) adatai a Vezetői jelentésmegjelenítő szerepkörhöz rendelt felhasználók számára érhetők el 
+> Az ACR-adatok a Vezetői jelentésmegjelenítő szerepkörhöz rendelt felhasználók számára érhetők el.
  
 ### <a name="subscriptions-sold"></a>Eladott előfizetések
 
@@ -68,7 +68,7 @@ A **Summary (Összefoglalás) oldalon** található Subscriptions sold (Eladott 
 
 Az **Összefoglalás terület** Aktív előfizetések területe a következőket tartalmazza:
 
-- A felhőalapú termék-előfizetések aktuális száma a termék-telemetria alapján mért aktív használattal. Ez az Azure-előfizetések esetében nem tartalmazza az összes próba-előfizetést.  
+- A felhőalapú termék-előfizetések aktuális száma a termék-telemetria alapján mért aktív használattal. Ez kizárja az összes próbaverziós Azure-előfizetést.  
 - Az aktív előfizetések százalékos növekedése a kiválasztott dátumtartományban.
 - A mikrodiagram az aktív előfizetések havi trendjét mutatja a kiválasztott dátumtartományra.
  
@@ -100,10 +100,10 @@ Ez jelzi az ügyfél-előfizetések számának trendjét a kiválasztott dátumt
 
 ## <a name="azure-consumed-revenue-growth-trend"></a>Azure-viszonteladásból származó bevétel trendek
 
-Az Azure által a kiválasztott dátumtartományhoz rendelt, az Azure által felhasznált US$ bevétel havi trendje. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig az Azure által a hónap során Az Azure által felhasznált teljes bevétel (US$ ) az Ön számára.
+Az Azure által felhasznált bevétel havi trendje amerikai dollárban, a kiválasztott dátumtartományhoz rendelve. Az X tengely a kiválasztott dátumtartomány hónapját jelöli, az Y tengely pedig az Azure teljes felhasznált bevételét amerikai dollárban, amely a hónap során Önnek van kijelölve.
 
 > [!NOTE]
-> Azure-viszonteladásból származó bevétel (ACR) csak a Vezetői jelentésmegjelenítő szerepkörhöz rendelt felhasználók számára lesz látható. 
+> Az ACR csak a Vezetői jelentésmegjelenítő szerepkörhöz rendelt felhasználók számára lesz látható. 
 
 :::image type="content" source="images/pci/azureconsumed.png" alt-text="Azure-használat.":::
 

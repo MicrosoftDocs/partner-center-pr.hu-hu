@@ -10,12 +10,12 @@ author: v-sumukh
 ms.author: v-sumukh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 15ee391d6b748b6499700aee321ff4abd85e75d2
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: ff95f989ac847bd2c17558d062c86a52110b2ddf
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109854485"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565040"
 ---
 # <a name="install-and-preview-the-partner-center-analytics-app-for-microsoft-power-bi"></a>A Partnerközpont adatelemzési alkalmazás a Microsoft Power BI-hoz telepítése és előzetes verziója
 
@@ -24,7 +24,7 @@ ms.locfileid: "109854485"
 
 ## <a name="before-you-begin"></a>Előkészületek
 
-Válassza ki a vállalat számára legfontosabb alkalmazást az elérhető alkalmazások Power BI listájából:
+Válassza ki az üzlet szempontjából legfontosabb alkalmazást az elérhető Microsoft Power BI közül:
 
 - [Közvetlen szolgáltató](https://appsource.microsoft.com/product/power-bi/partnercenteranalytics.direct_provider_partner_analytics)
 
@@ -52,7 +52,7 @@ A Partnerközpont Analytics alkalmazás előzetes verziójának telepítése el�
 
 3. A Folytatás lehetőség kiválasztásával elfogadja a feltételeket és **a feltételeket.**
 
-4. A Már van fiókja alatt? válassza **a Bejelentkezés lehetőséget.**
+4. A Már rendelkezik fiókkal? válassza **a Bejelentkezés lehetőséget.**
 
 5. A következő lapon adja meg a Power BI felhasználónevét és jelszavát, majd válassza a **Bejelentkezés lehetőséget.**
 

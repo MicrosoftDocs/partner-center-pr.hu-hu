@@ -1,5 +1,5 @@
 ---
-title: Szerepkörök hozzárendelése & engedélyek hozzárendelése felhasználókhoz
+title: Szerepkörök hozzárendelése & engedélyek felhasználókhoz
 ms.topic: article
 ms.date: 10/30/2020
 ms.service: partner-dashboard
@@ -9,12 +9,12 @@ author: hemas
 ms.author: hemas
 ms.localizationpriority: high
 ms.custom: SEOMAY.20, contperf-fy21q1
-ms.openlocfilehash: b1ac34bbb92d600805465ca5f6d1b28af54cd5e1
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 582fdc98617be7d82c0bc61a0bf46ceb662954d3
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109855131"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565083"
 ---
 # <a name="assign-users-roles-and-permissions-for-a-companys-users-needing-to-work-in-partner-center"></a>Felhasználói szerepkörök és engedélyek hozzárendelése olyan vállalati felhasználókhoz, akik a vállalaton belül Partnerközpont
 
@@ -24,10 +24,10 @@ Beállította partnerprofilját, amely tartalmazza a jogi nevet és címet, a t�
 
 ## <a name="set-up-your-employees-to-work-in-partner-center"></a>Az alkalmazottak beállítása a Partnerközpont
 
-Ön határozza meg, hogy a felhasználók milyen típusú hozzáféréseket Partnerközpont az Ön által adott szerepkörök és engedélyek alapján. A szerepkörök ahhoz a programhoz vagy programokhoz kapcsolódnak, amelyekben a vállalat részt vesz. Ha például a vállalata egy Felhőszolgáltató- (CSP-) vállalat, nem csupán a szabványos Azure Active Directory-bérlői felügyeleti szerepkörökkel, például a globális rendszergazdával rendelkezik, hanem a CSP-programra jellemző szerepkörökre is szüksége lesz. Minden program saját szerepkörökkel rendelkezik.
+Ön határozza meg, hogy a felhasználók milyen típusú hozzáféréseket Partnerközpont az Ön által adott szerepkörök és engedélyek alapján. A szerepkörök ahhoz a programhoz vagy programokhoz kapcsolódnak, amelyekben a vállalat részt vesz. Ha például a vállalata egy Felhőszolgáltató- (CSP-) vállalkozás, nem csak a szabványos Azure Active Directory- (Azure AD-) bérlőkezelési szerepkörökkel, például globális rendszergazdai szerepkörökkel rendelkezik, hanem a CSP-programra jellemző szerepkörökre is szüksége lesz. Minden program saját szerepkörökkel rendelkezik.
 
 >[!Note]
-> Azure Active Directory a globális rendszergazdai, felhasználói rendszergazdai és CSP-szerepkörök. A nem Azure-Active-Directory szerepkörök azok a szerepkörök, amelyek nem kezelik a bérlőt, és mpN-rendszergazdai, üzletiprofil-rendszergazdai, ajánlói rendszergazdai, ösztönzőrendszergazdát és ösztönzőfelhasználót tartalmaznak. 
+> Az Azure AD-bérlői szerepkörök közé tartoznak a globális rendszergazdai, a felhasználói rendszergazdai és a CSP-szerepkörök. A nem Azure AD-szerepkörök azok a szerepkörök, amelyek nem kezelik a bérlőt, és tartalmazzák az MPN (Microsoft Partner Network) partnerrendszergazdát, az üzleti profil rendszergazdáját, a ajánlói rendszergazdát, az ösztönző rendszergazdáját és az ösztönző felhasználót. 
 
 ### <a name="manage-commercial-transactions-in-partner-center-azure-ad-and-csp-roles"></a>Üzleti tranzakciók kezelése a Partnerközpont (Azure AD- és CSP-szerepkörök)
 
@@ -60,13 +60,13 @@ Beállította partnerprofilját, amely tartalmazza a jogi nevet és címet, a t�
 ||* Értékkel hozzáadott viszonteladó regisztrálása
 ||* Támogatási jegyek létrehozása a Partnerközpont
 ||* A létrehozott partnertámogatási jegyek megtekintése|
-|Értékesítési ügynök | * Ügyfélkezelés|[Számlázási támogatás biztosítanak az ügyfelek számára, és segítenek megválaszolni a számlázási kérdéseket](provide-billing-support.md)
+|Értékesítési ügynök | * Ügyfélkezelés|[Számlázási támogatás biztosítanak az ügyfelek számára, és segítenek megválaszolni a számlázással kapcsolatos kérdéseket](provide-billing-support.md)
 ||* Eszközlista hozzáadása a Partnerközpont
 ||* Előfizetés-kezelés
 ||* Támogatási jegyek megtekintése
 ||* Kapcsolat kérése egy ügyféllel
 ||* Díjszabás és ajánlatok megtekintése
-||* Ügyfelek érdeklődők kezelése
+||* Érdeklődők kezelése
 ||* Az ügyfélszerződés megtekintése
 ||* Értékkel hozzáadott viszonteladó regisztrálása
 ||* Támogatási jegyek létrehozása a Partnerközpont
@@ -81,14 +81,14 @@ Beállította partnerprofilját, amely tartalmazza a jogi nevet és címet, a t�
 
 ### <a name="control-panel-vendor-cpv-csp-role-and-non-azure-ad-role"></a>Vezérlőpult Szállító (CPV). (CSP-szerepkör és nem Azure AD-szerepkör)
 
-A CPV-k az Felhőszolgáltató (CSP) partnerek által használt alkalmazásokat fejlesztnek, amelyek lehetővé teszik számukra, hogy rendszereiket integrálják Partnerközpont API-okkal. 
+A CPV-k CSP-partnerek által használható alkalmazásokat fejlesztnek, hogy integrálják a rendszereiket az Partnerközpont API-okkal. 
 
 |**Szerepkör**   |**Miket végezhet el?**|**További információ**|
 |------------------------------|:----------------------------|----|
-|Globális rendszergazda| CPV-profil megtekintése és kezelése|[Regisztrálás Vezérlőpult a CSP-partnerrendszerek és az Partnerközpont API-k integrálásához](enroll-as-cpv.md)
+|Globális rendszergazda| A cpv Vezérlőpult profil megtekintése és kezelése|[Regisztrálás Vezérlőpult a CSP-partnerrendszerek és az Partnerközpont API-k integrálásához](enroll-as-cpv.md)
 ||A CPV-képességekhez hozzáféréssel bíró felhasználók megtekintése és kezelése|
 
-### <a name="guest-user-must-be-added-to-the-azure-active-directory-tenant"></a>Vendégfelhasználó (hozzá kell adni a Azure Active Directory bérlőhöz)
+### <a name="guest-user-must-be-added-to-the-azure-ad-tenant"></a>Vendégfelhasználó (hozzá kell adni az Azure AD-bérlőhöz)
 
 |**Vendégfelhasználó**   | **Szerepkörök**|
 |---------------------------|:--------------------|
@@ -99,26 +99,26 @@ A CPV-k az Felhőszolgáltató (CSP) partnerek által használt alkalmazásokat 
 
 ## <a name="manage-mpn-membership-and-your-company"></a>MPN-tagság és a vállalat kezelése 
 
-Ezek a szerepkörök nem Azure Active Directory szerepkörök. Ezek a szerepkörök nem a bérlőt, hanem a vállalat vállalatát kezelik.
+Ezek a szerepkörök nem Azure AD-szerepkörök. Ezek a szerepkörök nem a bérlőt, hanem a vállalat vállalkozását kezelik.
 
 |**Szerepkör** | **Miket végezhet el?**|**További információ**|
 |----------------------------|:----------------------------|-----|
-|MPN-partneri rendszergazda|* Partnerszolgáltatás-kérelmek megtekintése, létrehozása és kezelése|[Microsoft Action Pack-előfizetés, illetve Silver és Gold kompetencia vásárlása vagy megújítása](mpn-get-action-pack.md)
+|MPN-partner rendszergazdája|* Partnerszolgáltatás-kérelmek megtekintése, létrehozása és kezelése|[Microsoft Action Pack-előfizetés, illetve Silver és Gold kompetencia vásárlása vagy megújítása](mpn-get-action-pack.md)
 ||* Jogi, vállalati, üzleti és MPN-profilok megtekintése
-||* Felhasználói adatok és képzettségi adatok megtekintése
+||* A felhasználói adatok és a készségeik adatainak megtekintése
 ||* Kompetenciák megtekintése
 ||* Előnyök megtekintése és kezelése
 ||* MPN-ajánlatok megtekintése és vásárlása
 ||* Az MPN-ajánlatok rendelési előzményeinek és számláinak megtekintése
-||* Partneri hozzájárulási mutatók adatainak megtekintése
+||* Partneri hozzájárulás jelzői adatainak megtekintése
 ||* Használható a érvényesítési eszközben|
 ||* Ügyféladatok elemzésének megtekintése
-||* Megtekintheti a vállalaton belüli más felhasználói szerepköröket, de nem rendelhet hozzájuk szerepköröket
+||* A vállalaton belüli egyéb felhasználói szerepkörök megtekintése, de nem lehet szerepköröket hozzárendelni
 ||* Támogatási jegyek létrehozása a Partnerközpont
 ||* A létrehozott partnertámogatási jegyek megtekintése
 |Fiókadminisztrátor| Helyek hozzáadása|[Helyek kezelése](manage-locations.md)
 || A rendszergazdai fiókokkal kapcsolatos profilok kezelése 
-||* Szerepkörök hozzárendelése a bérlőn lévő felhasználókhoz nem Azure-Active-Directory-szerepkörökhöz 
+||* Szerepkörök hozzárendelése bérlőbeli felhasználókhoz nem Azure-AD-szerepkörökhöz 
 ||* Helyek regisztrálása programokba
 ||* Támogatási jegyek létrehozása a Partnerközpont
 ||* A létrehozott partnertámogatási jegyek megtekintése
@@ -127,7 +127,7 @@ Ezek a szerepkörök nem Azure Active Directory szerepkörök. Ezek a szerepkör
 
 |**Szerepkör** | **Miket végezhet el?**|**További információ**
 |------------------------------|:-------------------------|---|
-|Ajánlói rendszergazda|Hozzon létre és kezeljen mindent az Partnerközpont|[Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
+|Ajánlói rendszergazda|Hozzon létre és kezeljen mindent a Partnerközpont|[Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
 ||    Megtekintheti és szerkesztheti az összes közös értékesítési lehetőséget és érdeklődőt
 ||    Csapattagokat rendelhet hozzá egy ajánlathoz
 ||    Megtekintheti és szerkesztheti az üzleti profilokat
@@ -135,7 +135,7 @@ Ezek a szerepkörök nem Azure Active Directory szerepkörök. Ezek a szerepkör
 ||    Létrehozhat és megtekinthet támogatási jegyeket
 |Ajánlói felhasználó|Az közös értékesítés lehetőségeinek létrehozása és kezelése csak akkor, ha tagjai a csapatnak |[Együttes értékesítési lehetőségek kezelése](manage-co-sell-opportunities.md)
 ||    Közös értékesítési lehetőségeket hozhat létre azokkal a helyekkel, amelyekhez hozzá vannak rendelve a szerepkör.
-||    Megtekintheti és regisztrálhatja az ügyleteket az olyan lehetőségekhez, amelyek megnyertként vannak megjelölve, és jogosultak az ügylet regisztrációra, ha csapattagok.
+||    Megtekintheti és regisztrálhatja az olyan lehetőségek ajánlatait, amelyek megnyertként vannak megjelölve, és jogosultak az ügylet regisztrációra, ha csapattagok.
 ||    Létrehozhat és megtekinthet támogatási jegyeket
 |Üzletiprofil-rendszergazda|Üzleti profilok létrehozása és kezelése | [Üzleti profilok kezelése](create-a-marketing-profile.md)
 ||    Létrehozhat és megtekinthet támogatási jegyeket
@@ -144,23 +144,23 @@ Az új javaslati felhasználói szerepkör mellett bemutatjuk az ügyletek hely�
 
 |**Hatókör** | **Miket végezhet el?** |
 |------------------------------|:-------------------------|
-|Az egész vállalat | A rendszergazdák és a felhasználók is hozzáférhetnek a vállalatuk bármely helyével kötött ügyletek létrehozásához|
-|| A ajánló rendszergazda hozzáfér az összes ügylet megtekintéséhez és szerkesztéséhez |
+|Az egész vállalat | A rendszergazdák és a felhasználók is hozzáférhetnek a vállalatuk bármely helyére vonatkozó ügyletek létrehozásához|
+|| A ajánló rendszergazdának hozzáférése van az összes ügylet megtekintéséhez és szerkesztéséhez |
 || A ajánló felhasználók csak akkor férhetnek hozzá az összes ügylet megtekintéséhez és szerkesztéséhez, ha tagjai a csapatnak |
-|Egy vagy több hely | A rendszergazdák és a felhasználók egyaránt hozzáférhetnek a vállalatukhoz rendelt helyre vonatkozó ügyletek létrehozásához|
-|| A ajánló rendszergazdának hozzáférése van a hozzárendelt helyekhez tartozó összes ügylet megtekintéséhez és szerkesztéséhez|
-|| A ajánló felhasználók megtekinthetik és szerkeszthetik a hozzárendelt helyekhez tartozó összes ügyletet, ha tagjai a csapatnak|
+|Egy vagy több hely | A rendszergazdák és a felhasználók is hozzáférhetnek a vállalatukhoz rendelt helyhez való ügylet létrehozásához|
+|| A ajánlói rendszergazda hozzáférhet a hozzárendelt helyekhez tartozó összes ügylet megtekintéséhez és szerkesztéséhez|
+|| A ajánló felhasználók akkor férhetnek hozzá a hozzárendelt helyekhez tartozó összes ügylet megtekintéséhez és szerkesztéséhez, ha tagjai a csapatnak|
 
 ## <a name="manage-incentives"></a>Ösztönzők kezelése
 
 |**Szerepkör** | **Miket végezhet el?**|**További információ**
 |------------------------------|:-------------------------|---|
-|Ösztönzők rendszergazdája|* Ösztönzőket kezdeményez és kezel |[Ezekkel az erőforrásokkal elkezdeni az ösztönzők használatát](incentives-get-started-intro.md)
+|Ösztönzők rendszergazdája|* Ösztönzők kezdeményezése és kezelése |[Ezekkel az erőforrásokkal segíthet az ösztönzők használatának első lépésekben](incentives-get-started-intro.md)
 ||* Megtekintheti és szerkesztheti az ösztönzőprogramok összes aspektusát
 ||* Megtekintheti és szerkesztheti a banki és adóadatokat
 ||* Az együttműködési bevételek megtekintése
-||* Hozzáférés-támogatás
-||* Vitatáson áteső ösztönzők kifizetései|
+||* Hozzáférés támogatása
+||* A vitatás ösztönzőinek kifizetései|
 |Ösztönzők felhasználója|* Megtekintheti az ösztönzőprogramokat
 ||* Megtekintheti és kezdeményezheti az ösztönzőkre vonatkozó igényeket
 ||* Az együttműködési bevételek megtekintése
@@ -172,7 +172,7 @@ Az új javaslati felhasználói szerepkör mellett bemutatjuk az ügyletek hely�
 |**Szerepkör** | **Miket végezhet el?**|**További információ**|
 |------------------------------|:-------------------------|---|
 |Vezetői jelentésmegjelenítő|Hozzáférés az összes jelentéskészítési adatkészlethez, partnertámogatási jegyek létrehozása, a létrehozott partnertámogatási jegyek megtekintése|[A Partnerközpont Insightsban elérhető Partnerközpont irányítópult-jelentések](pci-overview-report.md)
-|Jelentésmegjelenítő|Hozzáférés az adatjelentésekhez a bevétel és az ügyfél és az alkalmazott személyes adatai kivételével, partnertámogatási jegyek létrehozása, a létrehozott partnertámogatási jegyek megtekintése|
+|Jelentésmegjelenítő|Hozzáférés az adatjelentéshez a bevétel és az ügyfél és az alkalmazott személyes adatai kivételével, partnertámogatási jegyek létrehozása, a létrehozott partnertámogatási jegyek megtekintése|
 
 ## <a name="next-steps"></a>Következő lépések
 

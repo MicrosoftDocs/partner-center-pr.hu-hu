@@ -5,13 +5,13 @@ ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
-ms.date: 01/18/2021
-ms.openlocfilehash: 11145280aad1ecd9777ec2fb7540e7d6479acfae
-ms.sourcegitcommit: bce54ddb9fff7332a03d6aa228ba9414a87d76b7
+ms.date: 06/22/2021
+ms.openlocfilehash: 0e79674825f8ab28fa4b0e68dd01c9c1b7e8c27a
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112431546"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565185"
 ---
 # <a name="azure-marketplace-purchasing"></a>Azure Marketplace vásárlás
 
@@ -19,7 +19,7 @@ Azure Marketplace számos olyan eszközzel és funkcióval rendelkezik, amelyek 
 
 ## <a name="simplified-procurement"></a>Egyszerűsített beszerzés
 
-Az Azure Marketplace-en különböző vásárlási lehetőségek állnak rendelkezésére, amelyekkel leegyszerűsítheti a beszerzési folyamatot. Ha az Azure-fiókjához társított hitelkártyával vásárol termékeket, az összes vásárlás egyetlen számlán lesz összesülve, és a választott hitelkártyára lesz kiszámlázva. Ha Ön nagy ügyfél, a vásárláshoz használhatja a Nagyvállalati Szerződés. Nagyvállalati Szerződés esetén az Azure-számla automatikusan tartalmazza a szoftvervásárlásokat. A számla elején az Azure használati díjai jelennek meg, amelyeket az Azure Marketplace díjai követnek.
+Az Azure Marketplace-en különböző vásárlási lehetőségek állnak rendelkezésére, amelyekkel leegyszerűsítheti a beszerzési folyamatot. Ha az Azure-fiókjához társított hitelkártyával vásárol termékeket, az összes vásárlás egyetlen számlán lesz összesülve, és a választott hitelkártyára lesz kiszámlázva. Ha Ön nagy ügyfél, a vásárláshoz használhatja a Nagyvállalati Szerződés. Nagyvállalati Szerződés esetén a szoftvervásárlások automatikusan szerepelnek az Azure-számlán. A számla elején az Azure használati díjai jelennek meg, amelyeket az Azure Marketplace díjai követnek.
 
 Ha a vásárlást Azure Marketplace, kiküszöbölheti az egyéni szállítói kapcsolatok és számlák kezelésével kapcsolatos összetettséget. Egyetlen, összevont havi számlát kap a Microsofttól, amely tartalmazza a vásárlásokat Azure Marketplace Azure-díjakat.
 
@@ -38,9 +38,9 @@ A Azure Marketplace felhasználói élményben keresse meg Azure Portal megvás�
 
 :::image type="content" source="media/overview/button-set-up-and-subscribe.png" alt-text="A Beállítás + feliratkozás gomb.":::
 
-Ha egy megoldást szeretne üzembe helyezni a Azure Marketplace online  áruházból, válassza a Termék leírása lapon a Lekért most lehetőséget, majd jelentkezzen be Azure-fiókjának hitelesítő adataival.
+Ha egy megoldást szeretne üzembe helyezni a Azure Marketplace online  áruházból, válassza a Termékleírás oldalon a Lekért most lehetőséget, majd jelentkezzen be Azure-fiókjának hitelesítő adataival.
 
-:::image type="content" source="media/overview/sign-in-to-azure-marketplace.png" alt-text="A Azure Marketplace bejelentkezési párbeszédpanelen.":::
+:::image type="content" source="media/overview/sign-in-to-azure-marketplace.png" alt-text="A Azure Marketplace bejelentkezési párbeszédpanel.":::
 
 Miután bejelentkezett, a rendszer átirányítja a termékhez a Azure Portal a vásárlás befejezéséhez.
 
@@ -77,6 +77,8 @@ Ha egy ajánlatot egy Azure Marketplace keresztül vásárol, az több okból is
 1. Az előfizetés egy Felhőszolgáltató (CSP) tagja, és az isV nem értékesít csp-n keresztül.
 1. A privát Marketplace engedélyezve van az előfizetéshez, és az ajánlat nem szerepel az engedélyezett ajánlatok listáján.
 1. Az ajánlat privát/előzetes verziójú adott ügyfelek számára, és az előfizetés nem szerepel az engedélyezett ügyfelek listájában.
+
+A Marketplace-ajánlatok vásárlása meghiúsulhat, ha Azure Policy azure-rendszergazda által meghatározott feltételeknek megfelelővel ütközik. Nem vásárolhatja meg például a Microsoft.SaaS-t, ha az nem szerepel a szervezet engedélyezett **listájában.** Részletekért lásd a [Azure Policy dokumentációját.](/azure/governance/policy/)
 
 ## <a name="next-steps"></a>Következő lépések
 

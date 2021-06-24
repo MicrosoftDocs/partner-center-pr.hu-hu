@@ -8,18 +8,18 @@ description: Itt láthatja, hogy mit csinál jól, és hol fejlesztheti tovább 
 author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
-ms.openlocfilehash: 2c0b90fdeaf8bf1715d89221959aeb49e186d150
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: 76a589037817707378e39f4301313eee7284422a
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112277504"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565457"
 ---
 # <a name="dynamics-usage-report-available-from-the-partner-center-insights-dashboard"></a>A Dynamics-használati jelentés a Partnerközpont Insights irányítópultról érhető el
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | Rendszergazdai ügynök | Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-A Dynamics használati jelentése használati adatokat biztosít az ügyfelek számára értékesített vagy kezelő Dynamics 365-előfizetések számára. Az alábbi szakaszokat a dynamics usage (dynamics usage) jelentésből lehet megtekinteni.
+A Dynamics használati jelentése használati adatokat biztosít az ügyfelek számára eladott vagy kezelt Microsoft Dynamics 365-előfizetések számára. Az alábbi szakaszokat a dynamics usage (dynamics usage) jelentésből lehet megtekinteni.
 
 - Összefoglalás
 - Dynamics-használat földrajzi hely szerint
@@ -28,7 +28,7 @@ A Dynamics használati jelentése használati adatokat biztosít az ügyfelek sz
 - Dynamics-használat eloszlása
 
  > [!NOTE]
- > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók adminisztrátora, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információért tekintse meg a vállalat globális rendszergazdáját. A jelentés bizonyos adattípusai csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők lehetnek.
+ > Ez a jelentés az Insights irányítópulton érhető el. A jelentés megtekintéséhez hozzá kell rendelnie egy adott szerepkört a Partnerközpont, például globális rendszergazda, fiók-rendszergazda, jelentésmegjelenítő vagy vezetői jelentésmegjelenítő. További információért tekintse meg a vállalat globális rendszergazdáját. A jelentés bizonyos adattípusai csak a Vezetői jelentésmegjelenítő jogosultsággal rendelkező felhasználók számára is elérhetők lehetnek.
 
 ## <a name="summary"></a>Összefoglalás
 

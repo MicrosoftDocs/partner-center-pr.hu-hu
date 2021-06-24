@@ -9,12 +9,12 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 6124e20efe16e134c441bb1fd72f022e841083b0
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: bf9d158ce2d1e25923d94e5f9c80e408fef29aa4
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112276234"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565474"
 ---
 # <a name="download-reports"></a>Jelentések letöltése
 
@@ -43,19 +43,19 @@ A következő jelentések tölthetők le:
 
 **A partnerprofil** a partnerhez kapcsolódó adatokat tartalmazza. A jelentésben Partnerazonosító olyan részletek érhetők el, mint a Partnerazonosító, a partner neve, a partnerváros és a partnerország. Erre a jelentésre nem vonatkozik összesítés vagy visszacsatolás.
 
-**Az ügyféladatok** a partnerhez társított ügyfelek adatait adatokat szolgáltatják. Emellett olyan kulcsfontosságú metrikákat is biztosít, mint az eladott licencek, az aggregált ACR stb. A jelentést havonta összesíti a rendszer.
+**Az ügyféladatok** a partnerhez társított ügyfelek adatait adatokat szolgáltatják. Emellett olyan kulcsfontosságú metrikákat is biztosít, mint az eladott licencek, az aggregált Azure-beli felhasznált bevétel (ACR) és így tovább. A jelentést havonta összesíti a rendszer.
 
 **Az Előfizetések részletei** a Partner által eladott vagy kezelt előfizetések adatait, valamint az ügyféladatokat adják meg. A jelentést havonta összesíti a rendszer.
 
 **Az Azure-használat** az Azure használati adatait tartalmazza. Ezek az adatok a partner által eladott vagy kezelt Azure-előfizetések adatai. A használati adatok fogyasztásmérő-kategória és más kulcsdimenziók szerint vannak felosztva. A jelentést havonta összesíti a rendszer.
 
-**Office365 – A** licenchasználat a partner által eladott vagy kezelt O365-licencek használati adatait tartalmazza. Emellett olyan ügyféladatokat és fontos metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentés havonta lesz összesítve.
+**Office 365 – A** licenchasználat a partner által eladott vagy kezelt Office 365-licencek használati adatait tartalmazza. Emellett olyan ügyféladatokat és fontos metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentés havonta lesz összesítve.
 
-**Nagyvállalati mobilitás – A**  licenchasználat a partner által eladott vagy kezelt nagyvállalati mobilitási licencek használati adatait tartalmazza. Emellett olyan ügyféladatokat és fontos metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesíti a rendszer.
+**Nagyvállalati mobilitás – A**  licenchasználat a partner által eladott vagy kezelt nagyvállalati mobilitási licencek használati adatait tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a MAU, a minősített jogosultságok stb. A jelentést havonta összesíti a rendszer.
 
-**Dynamics 365 – A** licenchasználat a partner által eladott vagy kezelt D365-licencek használati adatait tartalmazza. Emellett olyan ügyféladatokat és fontos metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesíti a rendszer.
+**Dynamics 365 – A** licenchasználat a partner által eladott vagy kezelt D365-licencek használati adatait tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a MAU, a minősített jogosultságok stb. A jelentést havonta összesíti a rendszer.
 
-**Power BI – A** licenchasználat a partner által Power BI vagy felügyelt licencek használati adatait tartalmazza. Emellett olyan ügyféladatokat és fontos metrikákat is biztosít, mint például a havi aktív felhasználók (MAU), a minősített jogosultságok és így tovább. A jelentést havonta összesíti a rendszer.
+**Power BI – A** licenchasználat a partner által Power BI vagy felügyelt licencek használati adatait tartalmazza. Emellett ügyféladatokat és olyan kulcsfontosságú metrikákat is biztosít, mint például a MAU, a minősített jogosultságok stb. A jelentést havonta összesíti a rendszer.
 
 **A képzések** olyan részleteket tartalmaznak, mint a vizsgák, a minősítések, az értékelések, a sávok, a partner alkalmazottai által végzett vagy felváltott kurzusok.
 
@@ -63,5 +63,5 @@ A következő jelentések tölthetők le:
 
 **Kompetenciák – Az összefoglalás és** az előzmények az összes olyan kompetenciát részletezik, amely aktív, folyamatban van vagy veszélyben van a partner számára. Emellett a partner által elért összes kompetencia előzményeit is tartalmazza.
 
-**Kompetenciák – A** teljesítmény részletei részletesen ismertetik, hogyan teljesít a partner egy adott kompetenciakészlet eléréséhez szükséges KPI-k tekintetében.
+**Kompetenciák – A** teljesítmény részletei részletesen ismertetik, hogyan teljesít a partner a bizonyos kompetenciakészletek eléréséhez szükséges fő teljesítménymutatók (KPI-k) tekintetében.
 

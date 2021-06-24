@@ -9,42 +9,42 @@ author: shthota77
 ms.author: shthota
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 9c85ff428fd6ffb6ced38be16f4bd163c2b0b548
-ms.sourcegitcommit: 7a6836bd962d5b426a8cb34a9132a87cbbbf39f7
+ms.openlocfilehash: 5b3976d34cbe70b3d26577fbda86751ebda29fbd
+ms.sourcegitcommit: 4118de5cf55d1bd618ecca13c1b2ec59d80f43db
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "109855216"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112565066"
 ---
-# <a name="partner-insights--frequently-asked-questions"></a>Partnerelemzések – Gyakori kérdések
+# <a name="partner-insights--frequently-asked-questions"></a>Partneri elemzések – Gyakori kérdések
 
 **Megfelelő szerepkörök:** Jelentésmegjelenítő | Vezetői jelentésmegjelenítő
 
-Ez a cikk az Elemzésekhez kapcsolódó jelentések megtekintésével vagy rendereléssel kapcsolatos ismert problémákat tartalmazza.
+Ez a cikk az Insightshoz társított jelentések megtekintésével vagy rendereléssel kapcsolatos ismert problémákat tartalmazza.
 
-K) **Nem látom az Insights-központot a Partnerközpont fiókban. Mit tegyek?**
+K) Nem látom az Insights központot a saját **Partnerközpont fiókban. Mit tegyek?**
 
-A) Győződjön meg arról, hogy bejelentkezett a szervezet MPN-fiókjába. Az Insights-irányítópult nem elérhető a CSP-fiókjából. Győződjön meg arról is, hogy a globális rendszergazda hozzáférést biztosított Önnek a Jelentésmegjelenítő vagy a Vezetői jelentésmegjelenítő szerepkörhöz.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket.](./pci-roles.md)
+V) Győződjön meg arról, hogy bejelentkezett a Microsoft Partner Network (MPN) fiókba. Az Insights-irányítópult nem Felhőszolgáltató (CSP-) fiókjából. Győződjön meg arról is, hogy a globális rendszergazda hozzáférést biztosított Önnek a Jelentésmegjelenítő vagy a Vezetői jelentésmegjelenítő szerepkörhöz.  A szerepkörökkel kapcsolatos további információkért tekintse meg ezt [a cikket.](./pci-roles.md)
 
-K) Nem látom a számlás bevételt vagy Azure-viszonteladásból származó bevétel (ACR) adatait a **jelentéseiben. Mi ennek az oka?**
+K) Nem látom a számlás bevételt vagy Azure-viszonteladásból származó bevétel (ACR) adatait a **jelentéseiben. Ez miért van?**
 
-A) A számlázott bevétel és az ACR adatai csak a vezetői jelentés megtekintői számára érhetők el.  A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket.](./pci-roles.md)
+A) A számlázott bevétel és az ACR-adatok csak a vezetői jelentés megtekintői számára érhetők el.  A szerepkörökkel kapcsolatos további információkért tekintse meg ezt [a cikket.](./pci-roles.md)
 
-K) Nem látom a számlás bevételt vagy Azure-viszonteladásból származó bevétel (ACR) adatait a **jelentéseiben. Mi ennek az oka?**
+K) Nem látom a számlás bevételt vagy Azure-viszonteladásból származó bevétel (ACR) adatait a **jelentéseiben. Ez miért van?**
 
-A) A számlázott bevétel és az ACR adatai csak a vezetői jelentés megtekintői számára érhetők el. A szerepkörökkel kapcsolatos további információkért tekintse meg [ezt a cikket.](./pci-roles.md)
+A) A számlázott bevétel és az ACR-adatok csak a vezetői jelentés megtekintői számára érhetők el. A szerepkörökkel kapcsolatos további információkért tekintse meg ezt [a cikket.](./pci-roles.md)
 
-K) Úgy tűnik, hogy az **ügyfél által jelentett ország helytelen. Mi ennek az oka?**
+K) Az ügyfél által jelentett ország **helytelennek tűnik. Ez miért van?**
 
-A) Az ügyfél országa az adott ügyfél globális szülőszervezetének országát jelenti. Ez az ország különbözhet attól az ügyféltől, akivel a tranzakciót elhozta. Ezért előfordulhat, hogy az ügyfél által jelentett ország eltér attól, amire számított.
+A) Az ügyfél országa az adott ügyfél globális szülőszervezetének országát jelenti. Ez az ország különbözhet attól az ügyféltől, akivel a tranzakciót elhozta. Ezért az ügyfél által bejelentett ország más lehet, mint amire számított.
 
 K) Azt látom, hogy néhány ügyfélnév el van látva **a jelentésekben. Ez várható volt?**
 
-A) Az ügyfélnevek megfelelőségi okokból bizonyos előfizetések esetében el vannak különülve. Az ügyfél TPID-e azonban elérhető, és a használatával ki lehet keresni az ügyfélneveket.
+A) Az ügyfélnevek megfelelőségi okokból bizonyos előfizetések esetében el vannak különülve. Az ügyfél legfelső szintű szülőazonosítója (TPID) azonban elérhető, és ezt a nevet is használhatja az ügyfélnevek között.
 
 K) **Mi a jelentések jellemző késése?**
 
-A) Az előfizetések és az ügyfelek adatai naponta frissülnek, az adatokat pedig egyhetes késéssel jelenti a rendszer. Az Azure használati adatait egyhetes késéssel jelenti a rendszer. Az Office365, a Teams, a Dynamic365, az EMS és Power BI használati adatokat egy hónapos késéssel jelenti a rendszer.
+A) Az előfizetések és az ügyfelek adatai naponta frissülnek, az adatokat pedig egyhetes késéssel jelenti a rendszer. Az Azure használati adatait egyhetes késéssel jelenti a rendszer. Az Office 365, a Teams, a Dynamics 365, az Enterprise Mobility and Security (EMS) és az Power BI használati adatai egy hónapos késéssel vannak jelentve.
 
 K) **A jelentések nem renderelnek a Internet Explorer – ez várható?**
 
@@ -52,4 +52,4 @@ A) A jelentések renderelési problémái a Internet Explorer. Jól működnek a
 
 **Következő lépések**
 
-- További információ a [Partnerközpont insightsról.](partner-center-insights.md)
+- További információ a [Partnerközpont Insightsról.](partner-center-insights.md)
