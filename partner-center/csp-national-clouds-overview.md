@@ -4,17 +4,17 @@ ms.topic: article
 ms.date: 05/05/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Megtudhatja, hogyan értékesítik az Felhőszolgáltató program Microsoft-partnerei a támogatott országos felhőkben regisztrált ügyfelek számára.
+description: Megtudhatja, hogyan értékesítheti az Felhőszolgáltató program Microsoft-partnerei a támogatott országos felhőkben regisztrált ügyfelek számára.
 author: billLinzbach
 ms.author: billLi
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: d890a4dff5fef28fd0b698000635643f5f801998
-ms.sourcegitcommit: 7c7e2705873df2b500b8114235c8f67a22112c62
+ms.openlocfilehash: 1ccd03a3155e9942dcd5e5b4d8381a62e03e90dd
+ms.sourcegitcommit: d96ad93449da4c914becfffab167cdc1aa165ada
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110398168"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112915541"
 ---
 # <a name="apply-to-sell-in-microsoft-national-clouds-as-part-of-the-csp-program"></a>Alkalmazás a Microsoft országos felhőiben való értékesítésre a CSP-program részeként
 
@@ -22,19 +22,19 @@ ms.locfileid: "110398168"
 
 **Megfelelő szerepkörök:** Globális rendszergazda
 
-A globális Felhőszolgáltató program keretében az ügyfeleknek való értékesítés mellett a minősített Microsoft-partnerek három különböző országos felhőben is értékesíthet felhőalapú megoldásokat az ügyfeleknek. Az országos felhők a Microsoft nagyvállalati felhőszolgáltatásainak fizikai és logikailag elkülönített példányai, amelyek az adott országok földrajzi határain belül korlátozódnak, és a helyi személyzet működteti őket.
+Amellett, hogy az ügyfeleknek a globális Felhőszolgáltató program részeként értékesíthet, a minősített Microsoft-partnerek három különböző országos felhőben is értékesíthet felhőalapú megoldásokat az ügyfeleknek. Az országos felhők a Microsoft nagyvállalati felhőszolgáltatásainak fizikai és logikailag elszigetelt példányai, amelyek az adott országok földrajzi határain belül korlátozódnak, és a helyi személyzet működteti őket.
 
-További információ a Microsoft országos felhőajánlatairól: [Microsoft Országos felhők.](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud)
+További információ a Microsoft országos felhőajánlatairól: [Microsoft National Clouds](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud).
 
 A Microsoft ezeket a szolgáltatásokat az országos felhőkben teszi elérhetővé:
 
--   Microsoft Azure szolgáltatások nagy kapacitású számítást, tárolást, hálózatkezelést és identitáskezelést kínálnak. Az Azure a kormány által előírt biztonsági, adatvédelmi, ellenőrzési, megfelelőségi és átláthatósági szinten védi a felhőben található adatokat.
+-   Microsoft Azure szolgáltatások nagy kapacitású számítást, tárolást, hálózatkezelést és identitáskezelést kínálnak. Az Azure a kormány által előírt biztonsági, adatvédelmi, ellenőrzési, megfelelőségi és átláthatósági szinten védi az adatokat a felhőben.
 
 -   A Microsoft Dynamics 365 egy felhőalapú ügyfélkapcsolat-kezelési (CRM) megoldás, amely adatjelentésekkel, modellezéssel és munkafolyamatokkal látja el a kormányzati alkalmazottakat, miközben olyan biztonsági funkciókat is kínál, amelyek korlátozhatják a bizalmas adatokhoz való hozzáférést.
 
--   Microsoft Office 365 ötvözi a biztonság mélységi védelmi megközelítését, a gazdag adatvédelmi eszközöket és egy vállalati szintű megfelelőségi keretrendszert, amely biztonságos felhőalapú termelékenységi élményt biztosít a kormányzati alkalmazottak számára.
+-   Microsoft Office 365 ötvözi a biztonság mélységi védelmi megközelítését, a gazdag adatvédelmi eszközöket és egy nagyvállalati szintű megfelelőségi keretrendszert, amely biztonságos felhőalapú hatékonyságot biztosít a kormányzati alkalmazottak számára.
 
-A minősített partnerek a következő országos felhőkben értékesíthet Microsoft-felhőmegoldásokat az ügyfeleknek:
+A minősített partnerek a Következő országos felhőkben értékesíthet Microsoft-felhőmegoldásokat az ügyfeleknek:
 
 ## <a name="microsoft-cloud-for-us-government"></a>Microsoft Cloud for US Government
 
@@ -54,12 +54,12 @@ További információ az ügyfelek számára való regisztrálásról és érté
     
 ## <a name="azure-and-office-365-operated-by-21vianet-in-china"></a>A 21Vianet által Kínában üzemeltetett Azure és Office 365
 
-A Microsoft a Kínai Cloud Services szolgáltatást egy egyedi partneri kapcsolaton keresztül biztosítja a Nevesített Kék felhőtechnológiai Co., Ltd. (21Vianet) vállalattal, amely a 21Vianet Broadband Data Center Co., Ltd. 21Vianet az adatközpontok, üzemeltetési, felügyelt hálózati és felhőalapú számítástechnikai infrastruktúra-szolgáltatások legnagyobb szolgáltatója Kínában. 
+A Microsoft Kínában a Cloud Services szolgáltatást egy egyedi partnerkapcsolaton keresztül biztosítja a Blue Cloud Technology Co., Ltd. (21Vianet) vállalattal, amely a 21Vianet Broadband Data Center Co., Ltd. 21Vianet a legnagyobb szolgáltatói semleges internetszolgáltató az adatközpontok, üzemeltetési, felügyelt hálózati és felhőalapú számítástechnikai infrastruktúra-szolgáltatások tekintetében Kínában. 
 
-A Microsoft a technológia szolgáltatója, de nem működteti a szolgáltatást; A 21Vianet egymástól függetlenül működteti, biztosítja és kezeli a Microsoft-felhőszolgáltatások szolgáltatását. A Microsoft-technológiák licencelése révén a 21Vianet Azure- és Office 365-szolgáltatásokat kínál, és Olyan Azure- és Office 365-adatközpontokat üzemeltet, amelyek Kínán belül tartják az adatokat. A 21Vianet előfizetési és számlázási szolgáltatásokat, valamint támogatást is nyújt.
+A Microsoft a technológia szolgáltatója, de nem működteti a szolgáltatást; A 21Vianet egymástól függetlenül működteti, biztosítja és kezeli a Microsoft-felhőszolgáltatások szolgáltatását. A Microsoft-technológiák licencelése révén a 21Vianet Azure- és Office 365-szolgáltatásokat kínál, és Olyan Azure- és Office 365-adatközpontokat üzemeltet, amelyek kínában tartják az adatokat. A 21Vianet előfizetési és számlázási szolgáltatásokat, valamint támogatást is nyújt.
 
-A 21Vianet által üzemeltetett 21Vianet által működtetett Azure- és Office 365-ügyfelek számára való regisztrálásról és értékesítésről további információt a [21Vianet](https://www.21vbluecloud.com/partner-china/welcome/)által üzemeltetett Partnerközpont tartalmaz.
+A 21Vianet által üzemeltetett 21Vianet által működtetett Azure- és Office 365-ügyfelek számára való regisztrálásról és értékesítésről további információt a [21Vianet](https://www.21vbluecloud.com/partner-china/welcome/)által működtetett Partnerközpont tartalmaz.
 
 ## <a name="next-steps"></a>Következő lépések
 
-- [Gyakori kérdések a Partnerközpont-Microsoft Cloud for US Government](faq-for-us-govt-cloud.md)
+- [Gyakori kérdések a Partnerközpont-Microsoft Cloud for US Government](faq-for-us-govt-cloud.yml)
