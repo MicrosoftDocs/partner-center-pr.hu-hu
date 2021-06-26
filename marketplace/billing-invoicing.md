@@ -5,13 +5,13 @@ ms.service: marketplace-customer
 ms.topic: conceptual
 author: Guyshu
 ms.author: gushuchm
-ms.date: 11/20/2020
-ms.openlocfilehash: d45d301abfea03e06a8fc67e759012d4275d7dec
-ms.sourcegitcommit: 8511fec63961d8c77a4d1eea3e3f1d37cdea46c6
+ms.date: 05/04/2021
+ms.openlocfilehash: 6fdbbf9ad2b31e2b61eec20193717f60dd8e199a
+ms.sourcegitcommit: b6959846c30d062d05028c9b4ba14c07e903e61a
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112373456"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112970191"
 ---
 # <a name="azure-marketplace-billing-and-invoicing"></a>Azure Marketplace számlázás és számlázás
 
@@ -49,7 +49,7 @@ Az ismétlődő vásárlások után abban az időszakban kell fizetni, amelyben 
 > A szolgáltatási időszak az az időszak, amelyért a szolgáltatás használatára fizetett. A rendszer automatikusan megújítja a szolgáltatást a és a időszakban, kivéve, ha korábban megszakítja a műveletet.
 
 > [!NOTE]
-> A számlázási hónap utolsó napját módosítjuk, ha a megújítás hónap dátuma nem egyenlő a vásárlás hónap dátumával. Ez azt jelenti, hogy ha valaki 1/31-én fizet elő, a februári számlázási záró dátum 2/27 lesz, az új számlázási időszak pedig 2/28-tól (2/28-tól 2/29-ig), ha egy ugróévben kezdődik.
+> Módosítjuk a számlázási adatokat (vagy a számlázási hónap utolsó napját), ha a megújítási hónap dátuma nem egyenlő a vásárlás hónap dátumával. Ez azt jelenti, hogy ha valaki 1/31-én fizet elő, a számlázási záró dátum 2/27-re módosul, a megújítási dátum pedig 2/28 (2/28, illetve 2/29, ha egy ugróévben kezdődik).
 
 ## <a name="invoices"></a>Számlák
 
