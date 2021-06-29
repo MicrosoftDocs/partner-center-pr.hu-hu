@@ -4,39 +4,41 @@ ms.topic: article
 ms.date: 07/10/2020
 ms.service: partner-dashboard
 ms.subservice: partnercenter-csp
-description: Ismerje meg az Azure-csomag kereskedelmi élményét, hogy használat alapján vásároljon Azure-szolgáltatásokat az ügyfelek számára. Ismerje meg az új biztonsági követelményeket is.
+description: Megtudhatja, hogyan vásárolhat Azure-szolgáltatásokat használat alapján, használat alapján az ügyfelek számára az Azure-csomag kereskedelmi megoldásában. Ismerje meg az új biztonsági követelményeket is.
 author: rbars
 ms.author: rbars
 ms.localizationpriority: High
 ms.custom: SEOMAY.20
-ms.openlocfilehash: de0f13bab73eebde3c1cf12db586d07c47b277f6
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 74595843e4aaf2fe0e92fb92d417343dd7e4b81d
+ms.sourcegitcommit: 3ac88f7925bfe1df90e267ee5c1ee4d752ac92d4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110149621"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "113013301"
 ---
 # <a name="introduction-azure-plan-lets-partners-buy-azure-at-pay-as-you-go-rates-for-customers"></a>Bevezetés: Az Azure-csomag lehetővé teszi, hogy a partnerek használat alapján vásárolják meg az Azure-t az ügyfelek számára
 
+**A következőkre vonatkozik:** Partnerközpont
+
 **Megfelelő szerepkörök:** Rendszergazdai ügynök | Értékesítési ügynök | Globális rendszergazda
 
-A Microsoft új kereskedelmi élményt vezetett be a Partnerközpont, az Azure-csomag területén.  Ezzel az új kereskedelmi megoldással a partnerek használat alapján, használat alapján férhetnek hozzá az Azure-szolgáltatásokhoz a Microsoft Ügyfélszerződés.
+A Microsoft új kereskedelmi élményt vezetett be a Partnerközpont, az Azure-csomagban.  Ezzel az új kereskedelmi megoldással a partnerek használat alapján, használat alapján férhetnek hozzá az Azure-szolgáltatásokhoz a Microsoft Ügyfélszerződés.
 
-Ez a csomag leegyszerűsíti a vásárlási élményt – egy Azure-csomag több Azure-előfizetéssel is rendelkezik. Azure-előfizetésenként már nem kell külön rendelést beküldődni. Az Azure új kereskedelmi élményében pedig egyetlen globális díjszabási alapelvhez igazodtunk, amely lehetővé teszi a CSP-partnerek számára, hogy a közzétett árakon kínálják az Azure-t.
+Ez a csomag leegyszerűsíti a vásárlási élményt – egy Azure-csomag több Azure-előfizetéssel is rendelkezik. Azure-előfizetésenként többé nem kell külön rendelést beküldődni. Az Azure új kereskedelmi élményében pedig egyetlen globális díjszabási alapelvhez igazodtunk, amely lehetővé teszi a CSP-partnerek számára, hogy a közzétett árakon kínálják az Azure-t.
 
-Az ügyfelek átváltása meglévő CSP Azure-ajánlataikról Azure-szolgáltatásokra az Azure-csomag keretében a CSP-program új kereskedelmi élményében a felhőszolgáltatói Partnerközpont. Ehhez az átváltáshoz csak a következőkre van szükség:
+Az ügyfelek áttérnek a meglévő CSP Azure-ajánlataikról az Azure-szolgáltatásokra az Azure-csomag keretében a CSP-program új kereskedelmi élményében, a felhőszolgáltatói Partnerközpont. Ehhez az átváltáshoz csak a következőkre van szükség:
 
 - A partnernek és a végfelhasználónak egy már létrehozott viszonteladói kapcsolattal kell Partnerközpont, és az ügyfélnek alá kell írnia a Microsoft Ügyfélszerződés.
 
 >[!Note]
->2020. február 1-től a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP-programból. Ettől az időponttól a partnernek meg kell erősítenie (igazolása) az új Microsoft Ügyfélszerződés ügyfél általi elfogadását minden más ajánlathoz, beleértve a Microsoft 365, a Dynamics 365-öt és a meglévő Azure-t. A CSP-partnerek nem tudnak új rendelést tenni az ügyfélnek a szolgáltató igazolása Microsoft Ügyfélszerződés. Részletes információkért olvassa el [a következőt: Confirm customer acceptance of the Microsoft Ügyfélszerződés.](confirm-customer-agreement.md)
+>2020. február 1-től a meglévő Microsoft Cloud szerződés el lesz távolítva a CSP-programból. Ettől az időponttól az új ajánlat ügyfél általi elfogadásának partner általi megerősítésére (igazolására) lesz szükség Microsoft Ügyfélszerződés többi ajánlathoz, beleértve a Microsoft 365, a Dynamics 365-öt és a meglévő Azure-t is. A CSP-partnerek nem tudnak új rendelést tenni az ügyfélnek a szolgáltató igazolása Microsoft Ügyfélszerződés. Részletes információkért olvassa el [a Következőt: A](confirm-customer-agreement.md)felhasználói elégedettség Microsoft Ügyfélszerződés.
 
 
 ## <a name="next-steps"></a>Következő lépések
 
 |**Ehhez**   |**Olvassa el ezt**   |
 |------------------|---------------------|
-|Az Azure-csomagra való áthelyezés elkezdés|[Áthelyezés Azure-csomagba – első lépések](azure-plan-get-started.md)
+|Az Azure-csomagra való áthelyezés első része|[Áthelyezés Azure-csomagba – első lépések](azure-plan-get-started.md)
 |Ügyfelek váltása PAYG-ről Azure-csomagra|[Az ügyfél áttérése az Azure-csomagra](azure-plan-transition.md)|
 |Azure-csomag vásárlása az ügyfelek számára|[Az Azure-csomag megvásárlása](purchase-azure-plan.md)|
 |Azok **a** számlázási partnerek, akik a hét minden nap 24 órás felhőművelet-kezelését biztosítják, jogosultak lesznek a partneri jóváírásra az erre a munkára kezelt szolgáltatásokért.|[Partneri jóváírás – áttekintés](partner-earned-credit.md) és [a partneri](partner-earned-credit-explanation.md) jóváírás meghatározása – részletek|
