@@ -9,12 +9,12 @@ ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 06/17/2021
-ms.openlocfilehash: 0052f4dd352789245eadf157823119cd5f05f2a8
-ms.sourcegitcommit: 8511fec63961d8c77a4d1eea3e3f1d37cdea46c6
+ms.openlocfilehash: 7cdb5e04482f32d1b57346c86fa9db218cb11452
+ms.sourcegitcommit: 5d5747d245bdd967fd82df4bcc0a1f8a30a55cea
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112373306"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113105039"
 ---
 # <a name="technical-support-for-on-premises-or-cloud-products"></a>Technikai támogatás helyszíni vagy felhőalapú termékekhez
 
@@ -52,7 +52,7 @@ A műszaki előnyök megtekintése vagy aktiválása a Partnerközpont:
    > [!NOTE]
    > Ha a fiókja csak a CSP-hez van társítva, és nem az MPN-hez, a következő hibaüzenet jelenik meg: "Ön nem jogosult erre a műveletre". MpN-hez társított fiókkal kell lennie.
 
-2. **Bontsa ki az Előnyök** elemet a bal oldali navigációs menüben, és válassza a Műszaki előnyök **lehetőséget.** A Technikai előnyök oldalon a szervezetek aktív Arany, Ezüst vagy Microsoft Action Pack tagsági ajánlatok jelennek meg.
+2. **Bontsa ki az Előnyök** elemet a bal oldali navigációs menüben, és válassza a Műszaki előnyök [**lehetőséget.**](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical) A Technikai előnyök oldalon a szervezetek aktív Arany, Ezüst vagy Microsoft Action Pack tagsági ajánlatok jelennek meg.
 
    :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-1.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-1.png" alt-text="Technikai előnyök, majd az előnyök bővítése" :::
 
@@ -123,30 +123,30 @@ A hozzáférési azonosítóra és a szerződésazonosítóra akkor lesz szüks�
 
 Az Azure-kérelmeket létrehozására használt CSP-partnerek a "Felhőszolgáltató" támogatási tervet használhatnak támogatási szerződés hozzáadása nélkül.
 
-A **Rendszergazdai ügynök szerepkört használó** felhasználók a bal oldali navigációs menü CSP területén választhatják az Ügyfelek, a **Szolgáltatáskezelés,** majd az **Új kérelem lehetőséget.** [](https://partner.microsoft.com/commerce/customers/list)  A megfelelő számítási feladat kiválasztásakor megnyílik a számítási feladatra vonatkozó portál, és hozzáad egy támogatási szerződést, és létrehoz egy kérést.
+A **rendszergazdai ügynök szerepkört használó** felhasználók a bal oldali navigációs menü CSP területén választhatják az Ügyfelek, a **Szolgáltatáskezelés** lehetőséget, majd az Új **kérés lehetőséget.** [](https://partner.microsoft.com/commerce/customers/list)  A megfelelő számítási feladat kiválasztásakor megnyílik a számítási feladatra vonatkozó portál, és hozzáad egy támogatási szerződést, és létrehoz egy kérést.
 
 ### <a name="azure-portal-error-access-id-is-already-associated-"></a>Azure Portal "A hozzáférési azonosító már társítva van..."
 
-A támogatási Azure Portal a Signature Felhőtámogatás a Súgó + támogatás, Támogatási csomagok, majd a "Támogatási előnyök összekapcsolása" lehetőség kiválasztásával, majd a hozzáférési azonosító és a szerződésazonosító meg kell adnia.
+Az alkalmazás Azure Portal a Signature Felhőtámogatás a Súgó + támogatás, Támogatási csomagok, majd a "Támogatási előnyök összekapcsolása" lehetőség kiválasztásával, majd a hozzáférési azonosító és a szerződésazonosító megszabadlása után.
 
 > [!NOTE]
-> Ha rendelkezik Microsoft-Action Pack nem kap felhőtámogatást, mert az Signature Felhőtámogatás nem tartalmazza – csak a Microsoft terméktámogatása (helyszíni)
+> Ha microsoftos Action Pack nem kap felhőtámogatást, mert az nem tartalmazza Signature Felhőtámogatás – csak a Microsoft terméktámogatást (helyszíni)
 
-A következő hibaüzenet jelenhet `This Access ID is already associated to an account. Please contact your Technical Account Manager to obtain a new Access ID` meg: . Ez a hibaüzenet érvénytelen, és figyelmen kívül kell hagyni. Kértük, hogy a hiba le legyen tiltva, és egy hasznos diagnosztikai hibaüzenettel helyettesítsen.
+A következő hibaüzenet jelenhet `This Access ID is already associated to an account. Please contact your Technical Account Manager to obtain a new Access ID` meg: . Ez a hibaüzenet érvénytelen, és figyelmen kívül kell hagyni. Azt kértük, hogy a hibát tiltsa le, és cserélje le egy hasznos diagnosztikai hibaüzenetre.
 
-Az előző hiba akkor jelenik meg, ha a támogatási szerződés egy fiókhoz a fiók használata során egynél `Access ID is already associated …` Azure Portal. Tekintse meg az alábbi forgatókönyveket:
+Az előző hiba akkor jelenik meg, ha a támogatási szerződés a fiókhoz a fiók használata során egynél `Access ID is already associated …` Azure Portal. Tekintse meg az alábbi forgatókönyveket:
 
-1. Ha arany vagy ezüst technikai előnyökkel is jár, és korábban már hozzáadta a helyszíni támogatásra vonatkozó szerződést, használja az Azure Portal-t, és adja hozzá még egyszer ugyanhez a fiókhoz. A támogatási szerződést csak egyszer kell egy fiókhoz társítania, ezért az Azure-beli támogatási előnyök csatolása nem szükséges. Ha akkor használja a Hivatkozástámogatási előnyöket, ha a szerződés már társítva van a fiókhoz, a hibaüzenet jelenik meg, és figyelmen kívül kell hagyni. Használja az + Support request, és hozzon létre egy támogatási incidenst a szokásos módon, és megjelenik a Támogatási csomag.
+1. Ha arany vagy ezüst technikai előnyökkel is jár, és korábban már hozzáadta a helyszíni támogatásra vonatkozó szerződést, használja az Azure Portal-t, és adja hozzá még egyszer ugyanhez a fiókhoz. A támogatási szerződést csak egyszer kell egy fiókhoz társítani, ezért az Azure-ban nem kell összekapcsolni a támogatási kedvezményeket. Ha a hivatkozástámogatási előnyöket használja, amikor a szerződés már társítva van a fiókkal, a hibaüzenet jelenik meg, és figyelmen kívül kell hagyni. Használja az + Support request és hozzon létre egy támogatási incidenst a szokásos módon, és megjelenik a Támogatási csomag.
 
-2. Ha a támogatási szerződés lejárt, vagy a Signature 10-pack (Gold Hybrid Kompetencia) vagy a Signature 5-pack (Silver Hybrid Kompetencia) csomag nem marad incidens, a támogatási szerződés rejtett lesz, mert érvénytelen. Ha ismét összekapcsolja a támogatási előnyöket, a hiba akkor jelenik meg, ha a szerződés már társítva van. Vásárolhat egy új támogatási tervet, hogy Azure-támogatás incidenseket.
+2. Ha a támogatási szerződés lejárt, vagy a Signature 10-pack (Gold hybrid kompetencia) vagy a Signature 5-pack (Silver hybrid kompetencia) csomag nem marad incidens, a támogatási szerződés rejtett lesz, mert érvénytelen. Ha ismét összekapcsolja a támogatási előnyöket, a hiba akkor jelenik meg, ha a szerződés már társítva van. Vásárolhat egy új támogatási tervet az incidensek Azure-támogatás stb.
 
-A partneri fizetett támogatási ajánlatokért lásd alább a partnertámogatási csomagokat.
+A partner által fizetett támogatási ajánlatokért lásd alább a partnertámogatási csomagokat.
 
 ## <a name="partner-support-plans"></a>Partnertámogatási csomagok
 
 A Microsofttól olyan fizetős támogatást kaphat, amely műszaki támogatást és számos további szolgáltatási lehetőséget is tartalmaz.
 
-Összehasonlíthatja [a partnertámogatási csomagokat,](https://partner.microsoft.com/support/partnersupport) vagy partnerspecifikus csomagokért tekintse meg az alábbiakat:
+Összehasonlíthatja [a partnertámogatási csomagokat,](https://partner.microsoft.com/support/partnersupport) vagy a partnerspecifikus csomagokért tekintse meg a következőket:
 
 - [Premier szintű támogatás –](https://partner.microsoft.com/support/microsoft-services-premier-support) a Microsoft technikai támogatásának legfelső szintje
 - [Speciális támogatás partnerek számára –](https://partner.microsoft.com/support/advanced-cloud-support) csak felhőalapú termékek
@@ -154,5 +154,5 @@ A Microsofttól olyan fizetős támogatást kaphat, amely műszaki támogatást 
 ## <a name="next-steps"></a>Következő lépések
 
 - [Kezelheti a Microsoft Partner Network előnyeit és ajánlatát](manage-your-partner-network-benefits.md)
-- [Technikai előnyök aktiválása a Partner Membership Center (PMC) tagjai számára](partner-membership-center-tech-benefits-activate.md)
+- [Műszaki előnyök aktiválása a Partner Membership Center (PMC) tagjai számára](partner-membership-center-tech-benefits-activate.md)
 - [Műszaki előzetes és üzembe helyezési szolgáltatások (TPD)](technical-benefits.md)
