@@ -3,15 +3,15 @@ title: A Microsoft kereskedelmi piactér adózási adatai
 description: Ismerje meg az árválasztás adózási szempontjait, a kifizetési következményeket és az elosztási országok/régiók adózási felelősségét.
 ms.topic: conceptual
 ms.service: partner-dashboard
-author: mingshen-ms
-ms.author: mingshen
-ms.date: 04/26/2021
-ms.openlocfilehash: 673620843ea8d469f1a665982f2a120b4b1e2d7e
-ms.sourcegitcommit: 09eabb559aae25518caf3f2a59ef16a3e123c207
+author: jasongroce
+ms.author: davjan
+ms.date: 06/29/2021
+ms.openlocfilehash: 66f60f88c1e7aa0d6af49f90a2def165f6eb39b5
+ms.sourcegitcommit: c7ab71d9e7fdbf6141c24f535b0144cfcb0403ea
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "112490019"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129108"
 ---
 # <a name="tax-details-for-commercial-marketplace-publishers"></a>Adóadatok a kereskedelmi piactér közzétevői számára
 
@@ -21,9 +21,9 @@ Ez az oldal a kereskedelmi piactér közzétevői (közzétevők) és a fogyaszt
 
 ## <a name="end-customer-taxation"></a>Végfelhasználói adózási
 
-A Microsoft és közzétevői/fejlesztői feladatai az értékesítéssel, a felhasználással, a termékekkel és a szolgáltatásokkal, az értékkel kapcsolatos hozzáadott értékkel vagy hasonló adókkal kapcsolatosak, ha vannak, a végfelhasználói **értékesítések**(Végfelhasználói adózási végérték) attól az országtól függnek, ahol a közzétevők/fejlesztők a végfelhasználók számára elérhetővé teszik a termékeket/ajánlatokat az Microsoft Marketplace(k)on keresztül. Az alábbi táblázat a végfelhasználói adózási körülményeket és felelősséget határozza meg az olyan országokban, amelyekben az értékesítések Microsoft Marketplace keresztül.  Az alábbi információk változhatnak, és a közzétevők/fejlesztők felelnek az oldal aktuális, pontos információinak áttekintéséért.
+A Microsoft és közzétevői/fejlesztői feladatai az értékesítéssel, a felhasználással, a termékekkel és a szolgáltatásokkal, az értékkel kapcsolatos hozzáadott értékkel vagy hasonló adókkal kapcsolatosak, ha vannak, a végfelhasználói **értékesítések**(Végfelhasználói adózási végérték) attól az országtól függnek, ahol a közzétevők/fejlesztők a végfelhasználók számára elérhetővé teszik a termékeket/ajánlatokat az Microsoft Marketplace(k)on keresztül. Az alábbi táblázat a végfelhasználói adózási körülményeket és felelősséget határozza meg az olyan országokban, amelyekben az értékesítések Microsoft Marketplace keresztül.  Az alábbi információk változhatnak, és a közzétevők/fejlesztők felelnek az oldal aktuális és pontos információinak áttekintéséért.
 
-A **Közzétevő/Fejlesztő** által felügyelt országokban a Microsoft a Közzétevő/Fejlesztő ügynökeként vagy jutalékaként (ha van) működik. A közzétevők/fejlesztők tudomásul veszi és beleegyeznek abba, hogy a közzétevők/fejlesztők kizárólagos felelőssége, hogy meghatározzák az összes követelménynek való megfelelőséget, valamint hogy kezelniük kell a végfelhasználói adózási szolgáltatásokat, beleértve többek között a regisztrációt, az adózási számítást, az adóbesorlást, az adófizetést, az ügyfelek üzleti állapotának érvényesítését és az adószámlák ügyfelek számára történő nyújtását. A közzétevők/fejlesztők tudomásul veszi, hogy a Közzétevő/Fejlesztő által felügyelt országban történő értékesítések esetén előfordulhat, hogy a Microsoft jelenleg nem tudja megadni a közzétevők/fejlesztők számára az adószámlák biztosítanak az ügyfelek számára a tranzakció részleteit. 
+A **Közzétevő/Fejlesztő** által felügyelt országokban a Microsoft a Közzétevő/Fejlesztő ügynökeként vagy jutalékaként (ha van) működik. A közzétevők/fejlesztők tudomásul veszi és beleegyeznek abba, hogy a közzétevők/fejlesztők kizárólagos felelőssége, hogy meghatározzák az összes követelménynek való megfelelőséget, valamint hogy kezelniük kell a végfelhasználói adózási szolgáltatásokat, beleértve többek között a regisztrációt, az adószámítást, az adófizetést, az ügyfelek üzleti állapotának érvényesítését és az adószámlák ügyfeleknek történő nyújtását. A közzétevők/fejlesztők tudomásul veszi, hogy a Közzétevő/Fejlesztő által felügyelt országban történő értékesítések esetén előfordulhat, hogy a Microsoft jelenleg nem tudja megadni a közzétevők/fejlesztők számára az adószámlák biztosítanak az ügyfelek számára a tranzakció részleteit. 
 
 A **Microsoft által felügyelt országokban a** Microsoft a közzétevő/fejlesztő ügynökeként működik. A Microsoft vállal felelősséget a végfelhasználói adózási költségek kezeléséért, beleértve bizonyos adók kiszámítását, gyűjtését és/vagy átutalását. A kereskedelmi piactér esetében ez magában foglalhatja a végfelhasználók üzleti állapotának az adóregisztrációs számok vagy a kivételtanúsítványok beszerzésével való érvényességének érvényességét is. A Microsoft helyi társvállalatok vagy a helyileg regisztrált távoli társvállalatok révén kezeli a végfelhasználói adózási adózási adózási szakját. Microsoft-számlák a Microsoft regisztrációs száma alatt. A Microsoft a végfelhasználóktól a Microsoft adóbevallása alapján bekért adókat tartalmazza.
 
@@ -32,78 +32,78 @@ A Microsoft nem vállal semmilyen garanciát arra, hogy a Microsoft által tett 
 A **reseller** országokban a Microsoft viszonteladóként működik, nem közzétevői/fejlesztői ügynökként, és a közzétevői/fejlesztői termékeket/ajánlatokat elérhetővé teszi a végfelhasználók számára a Microsoft Marketplace(k)ban.  A közzétevők/fejlesztők felelősek az értékesítésért, a felhasználásért, a termékek és ajánlatok Microsoftnak történő értékesítéséért, a felhasználásért, a termékekért és ajánlatokért, valamint a végfelhasználóknak történő újraértékesítésért.
 
 
-### <a name="publisherdeveloper-managed-countries"></a>Közzétevő/Fejlesztők által felügyelt országok: 
+### <a name="publisherdeveloper-managed-countries"></a>Közzétevő/Fejlesztő által felügyelt országok: 
 
-| Országok | Országok (folytatás) | Országok (folytatás) | Országok (folytatás) |
-|---------------|:------------------|:--------|:----------|
-|Amerikai Virgin-szigetek|Kongó (KDK)|Jersey|Norfolk-sziget|
-|Afganisztán|Cook-szigetek|Jordánia|Észak-Macedónia|
-|Albánia|Costa Rica|Kazahsztán|Ukrajna|
-|Algéria|Cote d'Ivore|Kenya|Vanuatu|
-|Amerikai Szamoa|Curacao|Kiribati|Vatikán|
-|Andorra|Dübouti|Kuvait|Venezuela|
-|Angola|Dominika|Kirgizisztán|Vietnam|
-|Anguilla|Dominikai Köztársaság|Laosz|Wallis & Futuna|
-|Antarktisz|Ecuador|Libanon|Jemen|
-|Antigua & Barbuda|Egyiptom|Lesotho|Zambia|
-|Aruba|Salvador|Libéria|Uruguay|
-|Azerbajdzsán|Egyenlítői-Guinea|Líbia|
-|Banglades|Eritrea|Makaó |
-|Barbados|Etiópia|Madagaszkár|
-|Belize|Falkland-szigetek|Malawi|
-|Benin|Feröer szigetek|Maldív-szigetek|
-|Bermuda|Fidzsi|Mali|
-|Bhután|Gabon|Marshall-szigetek|
-|Bolívia|Ghána|Martinique|
-|Bonaire|Grúzia|Mauritánia|
-|Új-&-Köztársaság|Gibraltár|Mauritius|
-|Botswana|Grönland|Ma Ote|
-|Bouvet-sziget|Grenada|Mikronézia|
-|Brit Virgin-szigetek|Guadeloupe|Moldova
-|Brunei|Guam|Mongólia|
-|Burkina Faso|Guatemala|Montenegró|
-|Burundi|Guernsey|Montserrat|
-|Cabo Verde|Guinea|Marokkó|
-|Kambodzsa|Bissau-Guinea|Mozambik|
-|Kamerun|Guyana|Mianmar|
-|Kajmán-szigetek|Haiti|Namíbia|
-|Közép-afrikai Köztársaság|Heard-sziget & McDonald-szigetek|Nauru|
-|Csád|Honduras|Nepál|
-|Karácsony-sziget|Irak|Nicaragua|
-|Cocos (Keeling)-szigetek|Izrael|Niger|
-|Comore-szigetek|Jamaica|Nigéria|
-|Kongó|Japán|Niue|
-
+| Országok                | Országok (folytatás)             | Országok (folytatás) | Országok (folytatás) |
+|--------------------------|-----------------------------------|-----------------------|-----------------------|
+| Afganisztán              | Kongó                             | Jamaica               | Niue                  |
+| Albánia                  | Kongó (KDK)                       | Japán                 | Norfolk-sziget        |
+| Algéria                  | Cook-szigetek                      | Jersey                | Észak-Macedónia       |
+| Amerikai Szamoa           | Costa Rica                        | Jordánia                | Pakisztán              |
+| Andorra                  | Cote d'Ivore                      | Kazahsztán            | Palesztin Hatóság |
+| Angola                   | Curacao                           | Kenya                 | Panama                |
+| Anguilla                 | Dübouti                           | Kiribati              | Paraguay              |
+| Antarktisz               | Dominika                          | Kuvait                | Peru                  |
+| Argentína                | Dominikai Köztársaság                | Kirgizisztán            | Fülöp-szigetek           |
+| Antigua & Barbuda        | Ecuador                           | Laosz                  | Saint Kitts és Nevis |
+| Aruba                    | Egyiptom                             | Libanon               | Szenegál               |
+| Azerbajdzsán               | Salvador                       | Lesotho               | Srí Lanka             |
+| Banglades               | Egyenlítői-Guinea                 | Libéria               | Tádzsikisztán             |
+| Barbados                 | Eritrea                           | Líbia                 | Tanzánia              |
+| Belize                   | Etiópia                          | Makaó                 | Thaiföld              |
+| Benin                    | Falkland-szigetek                  | Madagaszkár            | Trinidad és Tobago   |
+| Bermuda                  | Feröer szigetek                     | Malawi                | Tunézia               |
+| Bhután                   | Fidzsi                              | Maldív-szigetek              | Türkmenisztán          |
+| Bolívia                  | Gabon                             | Mali                  | Uganda                |
+| Bonaire                  | Ghána                             | Marshall-szigetek      | Ukrajna               |
+| Bosznia-Hercegovina   | Grúzia                           | Martinique            | Uruguay               |
+| Botswana                 | Gibraltár                         | Mauritánia            | Amerikai Virgin-szigetek     |
+| Bouvet-sziget            | Grönland                         | Mauritius             | Üzbegisztán            |
+| Brit Virgin-szigetek   | Grenada                           | Ma Ote                | Vanuatu               |
+| Brunei                   | Guadeloupe                        | Mikronézia            | Vatikán          |
+| Bulgária                 | Guam                              | Moldova               | Venezuela             |
+| Burkina Faso             | Guatemala                         | Mongólia              | Vietnam               |
+| Burundi                  | Guernsey                          | Montenegró            | Wallis és Futuna     |
+| Cabo Verde               | Guinea                            | Montserrat            | Jemen                 |
+| Kambodzsa                 | Bissau-Guinea                     | Marokkó               | Zambia                |
+| Kamerun                 | Guyana                            | Mozambik            | Zimbabwe              |
+| Kajmán-szigetek           | Haiti                             | Mianmar               |                       |
+| Közép-afrikai Köztársaság | Heard-sziget és McDonald-szigetek | Namíbia               |                       |
+| Csád                     | Honduras                          | Nauru                 |                       |
+| Karácsony-sziget         | Hongkong (KKT)                     | Nepál                 |                       |
+| Cocos (Keeling)-szigetek  | Irak                              | Nicaragua             |                       |
+| Comore-szigetek                  | Izrael                            | Niger                 |                       |
 
 ### <a name="microsoft-managed-countries"></a>A Microsoft által felügyelt országok
 
-| Országok | Országok (folytatás) | Országok (folytatás) | Országok (folytatás) |
-|---------|-----------|--------|----|
-|Örményország|Finnország|Luxemburg|Szingapúr|
-|Ausztria|Franciaország|Malajzia|Szlovákia|
-|Belarusz|Németország|Málta|Szlovénia|
-|Bulgária|Görögország|Monaco|Dél-afrikai Köztársaság|
-|Belgium|Magyarország|Hollandia|Dél-Korea|
-|Kanada|Izland|Új-Zéland|Spanyolország|
-|Chile|India|Norvégia|Svédország|
-|Columbia|Indonézia|Lengyelország|Svájc|
-|Horvátország|Írország|Portugália|Tajvan|
-|Ciprus|Olaszország|Románia|Törökország|
-Csehország|Lettország|Oroszország|EAE|
-|Dánia|Liechtenstein|Szaúd-Arábia|Egyesült Királyság|
-|Észtország|Litvánia|Szerbia|Egyesült Államok, beleértve a Következőket:|
+| Országok                | Országok (folytatás)             | Országok (folytatás) | Országok (folytatás)               |
+|--------------------------|-----------------------------------|-----------------------|-------------------------------------|
+| Örményország                  | Finnország                           | Luxemburg            | Szingapúr                           |
+| Ausztria                  | Franciaország                            | Malajzia              | Szlovákia                            |
+| Belarusz                  | Németország                           | Málta                 | Szlovénia                            |
+| Bulgária                 | Görögország                            | Monaco                | Dél-afrikai Köztársaság                        |
+| Belgium                  | Magyarország                           | Hollandia           | Dél-Korea                         |
+| Kanada                   | Izland                           | Új-Zéland           | Spanyolország                               |
+| Chile                    | India                             | Norvégia                | Svédország                              |
+| Kolumbia                 | Indonézia                         | Lengyelország                | Svájc                         |
+| Horvátország                  | Írország                           | Portugália              | Tajvan                              |
+| Ciprus                   | Olaszország                             | Románia               | Törökország                              |
+| Csehország                  | Lettország                            | Oroszország                | Egyesült Arab Emírségek                |
+| Dánia                  | Liechtenstein                     | Szaúd-Arábia          | Egyesült Királyság                      |
+| Észtország                  | Litvánia                         | Szerbia                | Egyesült Államok, beleértve a Következőket: |
 
 
 ### <a name="end-customer-taxation-with-differences-in-marketplace"></a>Végfelhasználói adózási különbségek a piactéren
 
 |**Ország**|**Kereskedelmi piactér (Azure Marketplace & AppSource)**| **Fogyasztói piactér (Microsoft Store)**|
 |------------------|:-----------------|:---------------|
-|Brazília|Viszonteladó, kivéve: A közzétevő által felügyelt, Felhőszolgáltató (CSP) ügyfélvásárlási forgatókönyvben történt vásárlások esetén|A fejlesztő által felügyelt, kivéve: Viszonteladó a következőn futó eszközökön keresztül történt Windows 10|
-|Mexikó|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|Microsoft által felügyelt|
-|Ausztrália|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|Microsoft által felügyelt|
+|Brazília|Viszonteladó, kivéve: A közzétevő által felügyelt, Felhőszolgáltató (CSP) ügyfélvásárlási forgatókönyvben történt vásárlások esetén|A fejlesztő által felügyelt, kivéve: Viszonteladó a következőn futó eszközökön keresztül vásárolt Windows 10|
+|Mexikó|A Microsoft felügyelte, kivéve: Nagyvállalati Szerződésen keresztüli vásárlások viszonteladója – ügyfélvásárlási forgatókönyv|A Microsoft által felügyelt|
+|Ausztrália|A Microsoft felügyelte, kivéve: Közzétevő által felügyelt, nagyvállalati szerződésen keresztüli vásárlások esetén ügyfélvásárlási forgatókönyv|A Microsoft által felügyelt|
 Kína|A Marketplace nincs engedélyezve|Viszonteladó engedélyezve, kivéve: a Windows Phone 7.x rendszerű mobilkommunikációs eszközök és a Windows 8.x rendszerű személyi számítógépeken futó fejlesztők által felügyelt eszközök|
-|Bahrein|Közzétevő által felügyelt|Microsoft által felügyelt|
-|Omán|Közzétevő által felügyelt|Microsoft által felügyelt|
+| Bahrein | Közzétevő által felügyelt | A Microsoft által felügyelt                      |
+| Omán | Közzétevő által felügyelt | A Microsoft által felügyelt                         |
+| Nigéria | Közzétevő által felügyelt | A Microsoft által felügyelt                      |
 
 
 ## <a name="tax-considerations-on-payouts"></a>Kifizetésekkel kapcsolatos adózási szempontok
@@ -148,9 +148,9 @@ A Microsoft a következő országokban gyűjti be az áruházi díjakra vonatkoz
 
 ### <a name="withholding-tax"></a>Adóelőleg
 
-- Első forgatókönyv: A közzétevő (az adóprofilra vonatkozó adókedvezmények nélkül) értékesítést tesz az USA-beli ügyfél számára. 
+- Első forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezmények nélkül) értékesítést tesz az USA-beli ügyfél számára. 
 
-  :::image type="content" source="images/tax/withholding-one.png" alt-text="Adóelőleg-adót nem adózvadékot ábrázoló diagram.":::
+  :::image type="content" source="images/tax/withholding-one.png" alt-text="A forrásadót adóz nem adózvadékot ábrázoló diagram.":::
 
 - Második forgatókönyv: A idegen közzétevő (az adóprofilra vonatkozó adókedvezményekkel együtt, nulla százalékos adókulcs mellett) egy kis összegben értékesítést tesz az USA-beli ügyfél számára. 
 
