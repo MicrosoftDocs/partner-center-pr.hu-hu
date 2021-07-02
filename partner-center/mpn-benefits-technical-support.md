@@ -9,12 +9,12 @@ ms.author: keramp
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
 ms.date: 06/17/2021
-ms.openlocfilehash: 7cdb5e04482f32d1b57346c86fa9db218cb11452
-ms.sourcegitcommit: 5d5747d245bdd967fd82df4bcc0a1f8a30a55cea
+ms.openlocfilehash: fae1f29f2fdc804764a29f81f2cddb7353dbf7f7
+ms.sourcegitcommit: c4601069340445135b551fa96bee6d9923d8aa97
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113105039"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113173652"
 ---
 # <a name="technical-support-for-on-premises-or-cloud-products"></a>Technikai támogatás helyszíni vagy felhőalapú termékekhez
 
@@ -54,20 +54,20 @@ A műszaki előnyök megtekintése vagy aktiválása a Partnerközpont:
 
 2. **Bontsa ki az Előnyök** elemet a bal oldali navigációs menüben, és válassza a Műszaki előnyök [**lehetőséget.**](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical) A Technikai előnyök oldalon a szervezetek aktív Arany, Ezüst vagy Microsoft Action Pack tagsági ajánlatok jelennek meg.
 
-   :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-1.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-1.png" alt-text="Technikai előnyök, majd az előnyök bővítése" :::
+   :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-1.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-1.png" alt-text="Technikai előnyök, majd az Előnyök kibontása." :::
 
    > [!NOTE]
    > Ha nincs aktív tagsági ajánlata, a következő üzenet jelenik meg: "Úgy tűnik, még nincsenek előnyei". Ha a vállalat aktív tagsági ajánlatokkal rendelkezik, de ön nem látja őket, nem a megfelelő fiókkal jelentkezett be. A fiók ellenőrzéséhez  válassza a fiók ikont az oldal jobb felső részen, majd válassza a **Bejelentkezés** másik fiókkal lehetőséget (ha szükséges).
 
 3. A Microsoft terméktámogatás vagy az aláírási terméktámogatás használatának érdekében aktiválnia kell a kedvezményt. A kedvezmény aktiválásához kattintson az Aktiválás **gombra.** Az aktiváláshoz használt felhasználói fiókhoz globális rendszergazdai vagy MPN-partneri rendszergazdai szerepkör szükséges.
 
-   :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-2.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-2.png" alt-text="Technikai előnyök – válassza az Aktiválás lehetőséget" :::
+   :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-2.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-2.png" alt-text="Válassza a Technical Benefits (Technikai előnyök) lehetőséget, majd az Activate (Aktiválás) lehetőséget" :::
 
 4. A sikeres aktiválás után a hozzáférési azonosító és a szerződésazonosító minden felhasználó számára megjelenik. A Hozzáférési azonosító és a Szerződésazonosító megjelenítésekor használhatja a Microsoft terméktámogatási és aláírási terméktámogatást (Gold és Silver tagok).
 
    Ha az Aktiválás gomb szürkével van kiszürkülve, a fiókja nem rendelkezik globális rendszergazdai vagy MPN-partneradminisztrátr biztonsági szerepkörrel. Használja  [a Felhasználókezelést,](https://partner.microsoft.com/dashboard/account/v3/usermanagement#users) és szűrje a globális rendszergazda vagy az MPN-partneradminisztrát, hogy megkeressen egy felhasználót az előnyök aktiválásához.
 
-   :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-3.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-3.png" alt-text="Az aktivált műszaki előnyök a hozzáférési azonosítót és a szerződésazonosítót mutatják" :::
+   :::image type="content" source="images/mpn-benefits-technical-support/technical-benefits-3.png" lightbox="images/mpn-benefits-technical-support/technical-benefits-3.png" alt-text="Az aktivált műszaki előnyök a hozzáférési azonosítót és a szerződésazonosítót mutatják." :::
 
    > [!NOTE]
    > A hozzáférési azonosítóra és a szerződésazonosítóra akkor lesz szüksége, amikor először használja az egyes fiókokhoz a Microsoft terméktámogatást vagy az aláírási terméktámogatást. Miután társította az előnyöket a fiókjával, nem kell újra használnia a hozzáférési azonosítót és a szerződésazonosítót.  
@@ -86,11 +86,11 @@ A partneri Microsoft Partner Network a következő technikai támogatásra jogos
 | Microsoft-terméktámogatás<br>A legutóbbi on-premise <br>csak termékek | 10 incidens | 15 incidens | 20 incidens |
 | Signature Felhőtámogatás<br>Csak felhőalapú termékek esetén | | Felhőbeli kompetenciák:<br>Korlátlan<br><br>Egyéb kompetenciák:<br>5 Incidensek | Felhőbeli kompetenciák:<br>Korlátlan<br>          <br>Egyéb kompetenciák:<br>10 incidens   | 
 
-A felhőalapú kompetenciák közé tartoznak a következők: Security Kompetencia, Cloud Business Applications, Cloud Platform, Cloud Productivity, Enterprise Mobility Management, Small and Midmarket Cloud Solutions.
+A felhőalapú kompetenciák közé tartoznak a következők: Biztonsági kompetencia, felhőalapú Business Applications, felhőplatform, felhőalapú termelékenység, nagyvállalati mobilitási felügyelet, kis- és középvállalati felhőmegoldások.
 
 ## <a name="microsoft-product-support-on-premises"></a>Microsoft terméktámogatás (helyszíni)
 
-A **microsoftos terméktámogatást a** legújabb helyszíni termékek technikai támogatásához használhatja. A legutóbbi, a közelmúltban készült termékek csak az aktuális terméket (N) és az előző termékverziót (N-1) tartalmazzák. Az előző termékverzió csak akkor támogatott, ha az alapvető technikai [támogatáson belül van;](/lifecycle/policies/fixed) az [N-1 támogatási](https://aka.ms/n-1) szabályzat alapján. A nem támogatott termékekhez és verziókhoz használja a megfelelő fizetős támogatási lehetőséget, vagy vásároljon partnertámogatási tervet.
+A **microsoftos terméktámogatást a** legújabb helyszíni termékek technikai támogatásához használhatja. A legújabb, a közelmúltban elérhető termékek csak az aktuális terméket (N) és az előző termékverziót (N-1) tartalmazzák. Az előző termékverzió csak akkor támogatott, ha az alapvető [technikai támogatáson belül van;](/lifecycle/policies/fixed) az [N-1 támogatási](https://aka.ms/n-1) szabályzat alapján. A nem támogatott termékekhez és verziókhoz használja a megfelelő fizetős támogatási lehetőséget, vagy vásároljon partnertámogatási tervet.
 
 A kedvezmény első használatakor szüksége lesz a hozzáférési azonosítóra és a szerződésazonosítóra. Az előnyök a felhasználói fiókhoz vannak társítva, amíg el nem járnak, vagy nem maradnak további támogatási incidensek.
 
@@ -100,13 +100,13 @@ Válassza [a Vállalati támogatás lehetőséget](https://support.serviceshub.m
 
 ### <a name="how-many-partner-support-incidents-are-remaining"></a>Hány partnertámogatási incidens van hátra
 
-Ezt az információt csak a Helyszíni vállalati támogatás portálon keresztül kaphatja meg. Sajnos a felhőportálok (például az Azure, az LCS és egyebek) nem mutatják ezt az információt.
+Ezt az információt csak a Helyszíni Vállalati támogatás támogatási portálon keresztül kaphatja meg. Sajnos a felhőportálok (például az Azure, az LCS és egyebek) nem mutatják ezt az információt.
 
-A Vállalati támogatási szolgálatat kell használnia, és el kell kezdenie a helyszíni támogatási incidensek létrehozásához szükséges folyamatot. Nem hozunk létre támogatási kérést, mert nem fejezjük be a folyamatot. A szükséges információk a 2. lépésben jelennek meg.
+A Vállalati támogatási szolgálatat kell használnia, és el kell kezdenie a helyszíni támogatási incidensek létrehozási folyamatát. Nem hozunk létre támogatási kérést, mert nem fejezjük be a folyamatot. A szükséges információk a 2. lépésben jelennek meg.
 
 1. Nyissa [meg a Vállalati támogatást,](https://support.serviceshub.microsoft.com/supportforbusiness/create) és válassza a Windows 10 lehetőséget, és adjon meg egy adatokat
 
-2. Ha a támogatási szerződése már társítva van a fiókjához, támogatási incidensek jelennek meg. Helyszíni támogatás esetében meg kell jelenni a Partnertámogatási szerződésnek (kivéve, ha már nem érvényes), beleértve a kezdési dátumot, a záró dátumot és a fennmaradó incidenseket.
+2. Ha a támogatási szerződése már társítva van a fiókjához, meg kell jelenni a támogatási incidensek. Helyszíni támogatás esetében meg kell jelenni a Partnertámogatási szerződésnek (kivéve, ha már nem érvényes), beleértve a kezdési dátumot, a záró dátumot és a fennmaradó incidenseket.
 
 Ha társítania kell a támogatási szerződést, bontsa ki a "Meg  kell vásárolnia vagy további támogatási csomagokat kell hozzáadnia", majd válassza a Szerződés hozzáadása gombot a hozzáférési azonosító és a szerződésazonosító hozzáadásához. Bontsa ki a **Nem elérhető támogatási csomagokat?**" szakaszt a partneraláírással kapcsolatos információkért. Itt csak akkor jelenik meg a Partnertámogatás, ha a szerződések lejártak, nincsenek fennmaradó incidensei, vagy [](https://aka.ms/n-1) ha egy régi, a aka.ms/n-1 terméket választott ki.
 
@@ -116,29 +116,29 @@ További információ: Hány [partnertámogatási incidens van hátra?](https://
 
 A Gold vagy Silver kompetenciapartnerek Signature Felhőtámogatás **a** felhőalapú termékek műszaki támogatásához. Action Pack partnerek csak akkor jogosultak a Signature Felhőtámogatás, ha kompetenciát szereznek.  
 
-A hozzáférési azonosítóra és a szerződésazonosítóra akkor lesz szüksége, amikor először használja az Előnyöket az Azure, a Dynamics 365 és más felhőalapú termékek esetében (kivételként Microsoft 365). Az előnyök a felhasználói fiókhoz vannak társítva, amíg el nem járnak, vagy nem maradnak további támogatási incidensek.
+A hozzáférési azonosítóra és a szerződésazonosítóra akkor lesz szüksége, amikor először használja a kedvezményt az Azure, a Dynamics 365 és más felhőalapú termékek esetében (kivételként Microsoft 365). Az előnyök a felhasználói fiókhoz vannak társítva, amíg el nem járnak, vagy nem maradnak további támogatási incidensek.
 
 > [!NOTE]  
-> A használata esetén használja a Azure Portal. Ha a támogatási szerződés már társítva van a fiókkal, a következő hibaüzenet jelenik meg: "A hozzáférési azonosító már társítva van..." a hozzáférési azonosító és a szerződésazonosító hozzáadásakor. lásd alább
+> A használata esetén a Azure Portal. Ha a támogatási szerződés már társítva van a fiókkal, a következő hibaüzenet jelenik meg: "A hozzáférési azonosító már társítva van..." a hozzáférési azonosító és a szerződésazonosító hozzáadásakor. lásd alább
 
 Az Azure-kérelmeket létrehozására használt CSP-partnerek a "Felhőszolgáltató" támogatási tervet használhatnak támogatási szerződés hozzáadása nélkül.
 
-A **rendszergazdai ügynök szerepkört használó** felhasználók a bal oldali navigációs menü CSP területén választhatják az Ügyfelek, a **Szolgáltatáskezelés** lehetőséget, majd az Új **kérés lehetőséget.** [](https://partner.microsoft.com/commerce/customers/list)  A megfelelő számítási feladat kiválasztásakor megnyílik a számítási feladatra vonatkozó portál, és hozzáad egy támogatási szerződést, és létrehoz egy kérést.
+A **rendszergazdai ügynök szerepkört használó** felhasználók a bal oldali navigációs menü CSP területén választhatják az Ügyfelek, a **Szolgáltatáskezelés** lehetőséget, majd az **Új kérés lehetőséget.** [](https://partner.microsoft.com/commerce/customers/list)  A megfelelő számítási feladat kiválasztásakor megnyílik a számítási feladatra vonatkozó portál, és hozzáad egy támogatási szerződést, és létrehoz egy kérést.
 
 ### <a name="azure-portal-error-access-id-is-already-associated-"></a>Azure Portal "A hozzáférési azonosító már társítva van..."
 
-Az alkalmazás Azure Portal a Signature Felhőtámogatás a Súgó + támogatás, Támogatási csomagok, majd a "Támogatási előnyök összekapcsolása" lehetőség kiválasztásával, majd a hozzáférési azonosító és a szerződésazonosító megszabadlása után.
+Az alkalmazás Azure Portal a Signature Felhőtámogatás a Súgó + támogatás, Támogatási csomagok, majd a "Támogatási előnyök összekapcsolása" lehetőség kiválasztásával, majd a hozzáférési azonosító és a szerződésazonosító megszava.
 
 > [!NOTE]
-> Ha microsoftos Action Pack nem kap felhőtámogatást, mert az nem tartalmazza Signature Felhőtámogatás – csak a Microsoft terméktámogatást (helyszíni)
+> Ha microsoftos Action Pack nem kap felhőtámogatást, mert az nem tartalmazza Signature Felhőtámogatás – csak a Microsoft terméktámogatása (helyszíni)
 
-A következő hibaüzenet jelenhet `This Access ID is already associated to an account. Please contact your Technical Account Manager to obtain a new Access ID` meg: . Ez a hibaüzenet érvénytelen, és figyelmen kívül kell hagyni. Azt kértük, hogy a hibát tiltsa le, és cserélje le egy hasznos diagnosztikai hibaüzenetre.
+A következő hibaüzenet jelenhet `This Access ID is already associated to an account. Please contact your Technical Account Manager to obtain a new Access ID` meg: . Ez a hibaüzenet érvénytelen, és figyelmen kívül kell hagyni. Azt kértük, hogy a hiba le legyen tiltva, és egy hasznos diagnosztikai hibaüzenettel helyettesítsen.
 
 Az előző hiba akkor jelenik meg, ha a támogatási szerződés a fiókhoz a fiók használata során egynél `Access ID is already associated …` Azure Portal. Tekintse meg az alábbi forgatókönyveket:
 
-1. Ha arany vagy ezüst technikai előnyökkel is jár, és korábban már hozzáadta a helyszíni támogatásra vonatkozó szerződést, használja az Azure Portal-t, és adja hozzá még egyszer ugyanhez a fiókhoz. A támogatási szerződést csak egyszer kell egy fiókhoz társítani, ezért az Azure-ban nem kell összekapcsolni a támogatási kedvezményeket. Ha a hivatkozástámogatási előnyöket használja, amikor a szerződés már társítva van a fiókkal, a hibaüzenet jelenik meg, és figyelmen kívül kell hagyni. Használja az + Support request és hozzon létre egy támogatási incidenst a szokásos módon, és megjelenik a Támogatási csomag.
+1. Ha arany vagy ezüst technikai előnyökkel is jár, és korábban már hozzáadta a helyszíni támogatásra vonatkozó szerződést, használja a Azure Portal-t, és adja hozzá még egyszer ugyanhez a fiókhoz. A támogatási szerződést csak egyszer kell egy fiókhoz társítani, ezért az Azure-ban nem kell összekapcsolni a támogatási kedvezményeket. Ha a hivatkozástámogatási előnyöket használja, amikor a szerződés már társítva van a fiókkal, a hibaüzenet jelenik meg, és figyelmen kívül kell hagyni. Használja az + Support request, és hozzon létre egy támogatási incidenst a szokásos módon, és megjelenik a Támogatási csomag.
 
-2. Ha a támogatási szerződés lejárt, vagy a Signature 10-pack (Gold hybrid kompetencia) vagy a Signature 5-pack (Silver hybrid kompetencia) csomag nem marad incidens, a támogatási szerződés rejtett lesz, mert érvénytelen. Ha ismét összekapcsolja a támogatási előnyöket, a hiba akkor jelenik meg, ha a szerződés már társítva van. Vásárolhat egy új támogatási tervet az incidensek Azure-támogatás stb.
+2. Ha a támogatási szerződés lejárt, vagy a Signature 10-pack (Gold hybrid kompetencia) vagy a Signature 5-pack (Silver Hybrid Kompetencia) csomag nem rendelkezik incidensekkel, a támogatási szerződés rejtett lesz, mert érvénytelen. Ha ismét összekapcsolja a támogatási előnyöket, a hiba akkor jelenik meg, ha a szerződés már társítva van. Új támogatási tervet vásárolhat az incidensek Azure-támogatás stb.
 
 A partner által fizetett támogatási ajánlatokért lásd alább a partnertámogatási csomagokat.
 
@@ -146,7 +146,7 @@ A partner által fizetett támogatási ajánlatokért lásd alább a partnertám
 
 A Microsofttól olyan fizetős támogatást kaphat, amely műszaki támogatást és számos további szolgáltatási lehetőséget is tartalmaz.
 
-Összehasonlíthatja [a partnertámogatási csomagokat,](https://partner.microsoft.com/support/partnersupport) vagy a partnerspecifikus csomagokért tekintse meg a következőket:
+Összehasonlíthatja [a partnertámogatási csomagokat,](https://partner.microsoft.com/support/partnersupport) vagy a partnerspecifikus csomagokhoz az alábbiakat láthatja:
 
 - [Premier szintű támogatás –](https://partner.microsoft.com/support/microsoft-services-premier-support) a Microsoft technikai támogatásának legfelső szintje
 - [Speciális támogatás partnerek számára –](https://partner.microsoft.com/support/advanced-cloud-support) csak felhőalapú termékek
