@@ -2,19 +2,25 @@
   href: index.yml
 - name: Microsoft AppSource
   items:
-    - name: A Microsoft AppSource ismertetése
+    - name: Névjegy
       href: appsource-overview.md
-    - name: Szoftvervásárlás a Microsoft AppSource-on
+    - name: Szoftver vásárlása
       href: purchase-software-appsource.md
+    - name: Privát csomagok
+      href: appsource-private-plans.md
 - name: Azure Piactér
   items:
-    - name: Az Azure Marketplace ismertetése
+    - name: Névjegy
       href: azure-marketplace-overview.md
     - name: Beszerzés
       href: azure-purchasing-invoicing.md
+    - name: SaaS-ajánlat vásárlása Azure Portal
+      href: purchase-saas-offer-in-azure-portal.md
     - name: Számlázás és számlakiállítás
       href: billing-invoicing.md
-    - name: Személyes ajánlatok
+    - name: Az Azure-beli használati kötelezettségvállalás előnyei
+      href: azure-consumption-commitment-benefit.md
+    - name: Privát csomagok
       href: private-offers.md
     - name: Előfizetés-áthelyezési jogosultság
       href: transfer-eligibility.md
@@ -22,8 +28,8 @@
       href: create-manage-private-azure-marketplace.md
     - name: Privát Azure Marketplace-piactér kezelése – PowerShell
       href: manage-private-azure-marketplace-powershell.md
-    - name: Azure Marketplace-partnerintegrációk
-      href: partner-integrations.md
+    - name: Az Azure kiterjesztése partnerektől származó megoldásokkal
+      href: /azure/partner-solutions/overview
 - name: Általános források
   items:
     - name: Visszatérítési szabályzatok
@@ -36,5 +42,3 @@
   items:
     - name: Azure PowerShell
       href: /powershell/module/az.marketplace
-    - name: Előnyben részesített megoldások
-      href: preferred-solutions.md
