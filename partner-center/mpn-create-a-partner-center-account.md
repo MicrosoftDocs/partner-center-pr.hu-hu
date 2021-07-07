@@ -9,12 +9,12 @@ author: ParthP
 ms.author: ParthP
 ms.localizationpriority: high
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 087ac3439d1eb96321fe8d084f62fcb5fe0a0717
-ms.sourcegitcommit: 376a49bcd245d3358a78871128761175a96ec200
+ms.openlocfilehash: 7ee6f0cb6019dc68e4303a95bfa4f89727338b64
+ms.sourcegitcommit: a84c83bbd95156344b3d9b2778973f47a9f83141
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112276552"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353737"
 ---
 # <a name="create-an-mpn-account-in-partner-center-to-manage-network-benefits-and-competencies"></a>MPN-fiók létrehozása a Partnerközpont a hálózati előnyök és kompetenciák kezeléséhez
 
@@ -26,7 +26,7 @@ Ha még nem Microsoft Partner Network (MPN) és nincs MPN-azonosítója, a regis
 
 Amikor készen áll egy fiók létrehozására a Partnerközpont, a következő elemekre lesz szüksége.  Az első lépések előtt néhány percet is igénybe vehet, hogy összegyűjtse ezeket az elemeket:
 
-- Vállalati munkahelyi e-mail-cím vagy Office 365 munkahelyi fiók. Előfordulhat, hogy a vállalatának meg kell vásárolnia egy e-mail-tartományt, hogy be tudja állítani a munkahelyi e-mail-címeket az alkalmazottak számára. További információkért olvassa el a Vállalati munkahelyi fiók és [a Partnerközpont.](azure-active-directory-tenants-and-partner-center.md) 
+- Vállalati munkahelyi e-mail vagy Office 365 munkahelyi fiók. Előfordulhat, hogy a vállalatának meg kell vásárolnia egy e-mail-tartományt, hogy be tudja állítani a munkahelyi e-mail-címeket az alkalmazottak számára. További információkért olvassa el a Vállalati munkahelyi fiók és [a Partnerközpont.](azure-active-directory-tenants-and-partner-center.md) 
  
 - A vállalat jogi neve és címe.
 
@@ -36,8 +36,8 @@ Amikor készen áll egy fiók létrehozására a Partnerközpont, a következő 
 
 - Az ellenőrzési folyamattal kapcsolatos információkért lásd: [Fiók ellenőrzése.](verification-responses.md)
 
->[!NOTE]
->Ha a Microsoft Partner Network tagsága még mindig a Partner Membership Center (PMC) tagja, akkor a fiókját azonnal át kell Partnerközpont. A áttelepítéséhez töltse le a részletes [útmutatót.](https://assetsprod.microsoft.com/mpn/migrate-pmc-pc-mpa-guide.pptx)
+> [!NOTE]
+> Ha a fiók a Partner Membership Center (PMC) volt, az át lett Partnerközpont. Kattintson ide a [kiesésről Partner Membership Center információkért.](partner-membership-center-retirement-faq.md)
 
 ## <a name="get-started"></a>Bevezetés
 
@@ -49,7 +49,7 @@ Amikor készen áll egy fiók létrehozására a Partnerközpont, a következő 
 
     c.  A MAPS megvásárlásához vagy a kompetenciák kezeléséhez [](become-global-admin.md) frissítenie kell ezt a fiókot a tartomány ellenőrzésével és rendszergazdává válással. 
 
-2. Bejelentkezhet munkahelyi Office 365-fiókjával, you@contoso.onmicrosoft.com például: .
+2. Bejelentkezhet a munkahelyi Office 365, például a következővel: you@contoso.onmicrosoft.com .
 
    >[!NOTE]
    > Az MPN-hez való regisztrációhoz nem használhatja a meglévő CSP-fiók hitelesítő adatait.
@@ -108,7 +108,7 @@ Az alábbi táblázat az egyes országokhoz gyűjtött regisztrációs számok m
 
 Jelentkezzen be Partnerközpont MPN hitelesítő adataival. A [**Partnerprofil lehetőséget**](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) választva megtekintheti vállalata jogi adatait, ellenőrzési állapotát és MPN-adatait, valamint szükség esetén új MPN-helyeket is létrehozhat. 
 
-A bal oldali menü hivatkozásai között egyéb fontos információkat is megtekinthet, például MPN-azonosítókat, kezelheti az MPN-helyeket, Microsoft Partnerszerződés a bal oldali menühivatkozásokkal, ahogyan az alábbi képernyőképen látható.
+A bal oldali menü hivatkozásai között olyan egyéb fontos információkat is megtekinthet, mint az MPN-azonosítók, az MPN-helyek kezelése, Microsoft Partnerszerződés a bal oldali menühivatkozások segítségével, ahogyan az alábbi képernyőképen látható.
 
 :::image type="content" source="images/mpn-new.png" alt-text="Partnerprofil.":::
 
