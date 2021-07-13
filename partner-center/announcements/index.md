@@ -9,12 +9,12 @@ ms.author: brserbus
 ms.custom: announcement
 ms.localizationpriority: high
 ms.date: 07/09/2021
-ms.openlocfilehash: 664e8d1353a022e73a5d2f68d11dea4d7cfd438f
-ms.sourcegitcommit: e2256e60cd2d4d41b3653655e3b1931292234283
+ms.openlocfilehash: 81b687e6c1f5fe1f35fc12f7dbb53e76416b5005
+ms.sourcegitcommit: 285c0007cb2c2e26ff6a3d2fd6bf91edc82a3946
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 07/11/2021
-ms.locfileid: "113599755"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113648365"
 ---
 # <a name="partner-center-announcements"></a>A partnerközpont közleményei
 
@@ -22,6 +22,8 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 
 |**Kategória**|**2021. júliusi bejelentések**|**Bejelentve**|
 |---------|:---------|:---------|
+|Készenlét|[A Felhőszolgáltató (CSP) ügyfélcím-érvényesítési API változásai, amelyek 2021. július 13-án indulnak el](2021-july.md#8)| Július 12. |
+|Képességek|[Július Felhőszolgáltató (CSP) közösségi frissítés és emlékeztetők](2021-july.md#7)| Július 12. |
 |Képességek|[A Microsoft-tanúsítványok aktívak maradnak a microsoftos Partnerközpont](2021-july.md#6)| július 9. |
 |Képességek|[SDK-kiadás a .NET Standardon (v2.0.1)](2021-july.md#5)| Július 7. |
 |Képességek|[Az ügyfélkedvezmény átláthatóságának bejelentése](2021-july.md#4)| Július 7. |
@@ -84,26 +86,26 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 |Képességek|[Az ügyleteket a Partner Sales Csatlakozás (PSC) rendszerből a Partnerközpont](2021-march.md#3)|Március 5.|
 |Képességek|[Új Microsoft Dynamics 365-termékek és -ajánlatok, amelyek 2021. április 1-ével érhetők el](2021-march.md#2)|Március 4.|
 |Képességek|[A Microsoft Univerzális nyomtatás egyes csomagokban már elérhető](2021-march.md#1)|Március 3.|
-|**Kategória**|**2021. februári közlemények**|**Bejelentve**|
-|Képességek|[A PUT-minősítési API-k ki vannakvezetve, a GET to retire in May](2021-february.md#14)|Február 25.|
-|Képességek|[Az együttműködési ügyletek nagy léptékű megosztása a Partnerközpont műveletek képességének használatával](2021-february.md#13)|Február 25.|
-|Képességek|[Migrálja az ügyleteket a Partner Sales Csatlakozás (PSC) szolgáltatásból az új ügylet migrálási funkcióval](2021-february.md#12)|Február 25.|
-|Képességek|[Nagyobb rugalmasság a partner által vezetett közös értékesítésekkel](2021-february.md#11)|Február 25.|
-|Képességek|[A Felhőszolgáltató (CSP) ügyfélbe való be- és beiratásának változásai](2021-february.md#10)|Február 25.|
-|Képességek|[Most élő: DocuSign migrálás Adobe Sign szolgáltatásba a Microsoft Partnerszerződések (MPA-k) keretében található partnerek számára](2021-february.md#9)|Február 16.|
+|**Kategória**|**2021. februári bejelentések**|**Bejelentve**|
+|Képességek|[A PUT minősítési API-kat kivezették, a GET to retire in May](2021-february.md#14)|Február 25.|
+|Képességek|[Közös értékesítéssel kapcsolatos ügyletek nagy léptékű megosztása a Partnerközpont műveletek tömeges képességének használatával](2021-february.md#13)|Február 25.|
+|Képességek|[Az ajánlatok migrálása a Partner Sales Csatlakozás (PSC) szolgáltatásból az új ügylet migrálási funkcióval](2021-february.md#12)|Február 25.|
+|Képességek|[Nagyobb rugalmasság a partner által vezetett közös értékesítéssel kötött ügyleteknek köszönhetően](2021-february.md#11)|Február 25.|
+|Képességek|[A Felhőszolgáltató (CSP) ügyfélbe való beiratása változásai](2021-february.md#10)|Február 25.|
+|Képességek|[Now Live: DocuSign migration to Adobe Sign for partners under Microsoft Partner Agreements (MPA)](2021-february.md#9)|Február 16.|
 |Üzleti növekedés|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-february.md#8)|Február 16.|
 |Képességek|[A Microsoft Viva témakörei](2021-february.md#7)|Február 12.|
 |Ajánlatok/piacok|[Microsoft 365 E3 2021 márciusára vonatkozó árváltozások](2021-february.md#6)|Február 11.|
-|Ajánlatok/piacok|[A norvég nyelvhez frissített licencalapú előzetes verzió árlistja](2021-february.md#5)|Február 10.|
-|Képességek|[Prémium értékelés, a Compliance Manager bővítménye 2021. március 1-től lesz](2021-february.md#4)|Február 5.|
+|Ajánlatok/piacok|[A norvégra frissített licencalapú előzetes verzió árlistja](2021-february.md#5)|Február 10.|
+|Képességek|[Prémium értékelés, amely a Compliance Manager bővítménye, 2021. március 1-től lesz](2021-february.md#4)|Február 5.|
 |Képességek|[Válasz a COVID-19-re: Microsoft Partner Network frissítése](2021-february.md#3)|Február 4.|
 |Képességek|[A Hivatkozások modul új frissítései a Partnerközpont](2021-february.md#2)|Február 4.|
-|Modern munkahely|[PUT-minősítési API-k elalasztása és kiürítése az Education ügyfélérvényesítési folyamatához 2021. február 25-ig és GET-minősítés 2021. május 4-ig](2021-february.md#1)|Február 4.|
+|Modern munkahely|[A PUT-minősítési API-k elalasztása és kiürítése az educationi ügyfélérvényesítési folyamathoz 2021. február 25-ig és GET-minősítés 2021. május 4-ig](2021-february.md#1)|Február 4.|
 | **Kategória** | **2021. januári közlemények** | **Bejelentve** |
-|Modern munkahely|[1. fázis: Az EU/EFTA & az Egyesült Királyság partnerszámlázásának pénznemének módosítása az új kereskedelmi ajánlatokhoz](2021-january.md#15)|Január 28.|
+|Modern munkahely|[1. fázis: EU/EFTA & Az Egyesült Királyság partnerszámlázásának pénznemének módosítása új kereskedelmi ajánlatok esetén](2021-january.md#15)|Január 28.|
 |Modern munkahely|[A felhőszolgáltatói (CSP) ügyfél-előkészítési követelmények változásai](2021-january.md#14)|Január 28.|
-|Képességek|[Microsoft Partnerszerződés (MPA) – közvetett viszonteladó frissítése & gyIK](2021-january.md#13)|Január 27.|
-|Képességek|[Partnerközpont naplóváltozások két új művelettípust tartalmaznak a DAP-hez](2021-january.md#12)|Január 25.|
+|Képességek|[Microsoft Partnerszerződés (MPA) – közvetett viszonteladó frissítése & új gyakori kérdésekhez](2021-january.md#13)|Január 27.|
+|Képességek|[Partnerközpont naplóváltozások két új DAP-művelettípust tartalmaznak](2021-january.md#12)|Január 25.|
 |Képességek|[Az Azure-ajánlat rendelkezésre állásának változásai a CSP-ban az Azure-hoz tartozó CSP új kereskedelmi élményével kapcsolatban](2021-january.md#11)|Január 21.|
 |Vállalkozás fejlesztése|[Az állandó szoftverek mostantól általánosan elérhetők a felhőszolgáltatói programban](2021-january.md#10)|Január 19.|
 |Vállalkozás fejlesztése|[Emlékeztető: Bemutatjuk a Partner Center API-kat hívó partnerekre vonatkozó API-szabályozást](2021-january.md#9)|Január 19.|
@@ -111,7 +113,7 @@ Ismerje meg a Partnerközpont fontos frissítéseit. Ezeket az információkat g
 |Képességek|[A DocuSign migrálása az Adobe Sign rendszerébe a Microsoft-partnerszerződéseket (MPA-kat) kötött partnereknél](2021-january.md#7)|Január 15.|
 |Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései a norvég koronára vonatkozóan](2021-january.md#6)|Január 14.|
 |Ajánlatok/piacok|[A kereskedelmi díjszabás frissítései az indiai rúpiára vonatkozóan](2021-january.md#5)|január 8.|
-|Ajánlatok/piacok|[Terv- és Telefonrendszer 2021. február 1-hez](2021-january.md#4)|január 8.|
+|Ajánlatok/piacok|[Csomag- és Telefonrendszer 2021. február 1-hez](2021-january.md#4)|január 8.|
 |Ajánlatok/piacok|[A licencalapú árlista frissítései – 2021.](2021-january.md#3)|január 8.|
 |Képességek|[Az oktatási ügyfél-ellenőrzési folyamat meglévő GET és PUT minősítési API-jai 2021. február végéig elavulnak és megszűnnek](2021-january.md#2)|Január 5.|
 |Ajánlatok/piacok|[Dynamics 365-ajánlatok 2021. februárra](2021-january.md#1)|Január 4.|
