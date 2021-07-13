@@ -265,7 +265,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők elemzési adatainak lekérte
+    - name: Érdeklődők elemzésének lekért adatai
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -381,7 +381,7 @@
       href: modern-invoice-reconciliation-file.md
     - name: Tényleges egységár kiszámítása
       href: effective-unit-price-calculation.md
-    - name: Kreditkorlát kényszerítve
+    - name: Credit limit enforcement
       href: credit-limit-enforcement.md
     - name: Számlázással kapcsolatos gyakori forgatókönyvek
       href: common-billing-scenarios.md
@@ -454,7 +454,7 @@
       href: payment-thresholds-methods-timeframes.md
       displayName: invoice
     - name: Kifizetésekkel és adóprofilokkal kapcsolatos gyakori kérdések
-      href: payout-faq.md
+      href: payout-faq.yml
 - name: Az ügyfélkapcsolatok kiépítése
   items:
     - name: Az ügyfélkapcsolatok szorosabbra fűzése
