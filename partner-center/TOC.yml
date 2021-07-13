@@ -9,27 +9,13 @@
     - name: Legyen Ön is Microsoft-partner
       href: mpn-overview.md
       displayName: mpn
-    - name: MPN-fiók létrehozása a Partnerközpont
+    - name: MPN-fiók létrehozása a Partnerközpontban
       href: mpn-create-a-partner-center-account.md
       displayName: mpn
     - name: Fiókbeállítások hibaelhárítása
       href: troubleshoot-account-sign-n.md
-    - name: Áthelyezés a PMC-ből
-      items:
-        - name: A PMC-ből történő migrálás előkészítése
-          href: prepare-pmc-pc-migration.md
-          displayName: 'role, roles, ro, mpn'
-        - name: Útmutató a PMC-ből történő áthelyezéshez
-          href: guide-to-migration.md
-        - name: A PMC és a PC összehasonlítása
-          href: move-pmc-pc-map.md
-        - name: Számos vállalat áthelyezése
-          href: move-multiple-companies.md
-        - name: Vállalatok összevonása
-          href: consolidate-accounts.md
-        - name: Kedvezmények aktiválása a PMC-hez
-          href: partner-membership-center-tech-benefits-activate.md
-          displayName: mpn
+    - name: Partner Membership Center kieső
+      href: partner-membership-center-retirement-faq.md
     - name: Tagsági előnyök
       items:
         - name: Az előnyök áttekintése
@@ -47,12 +33,12 @@
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
           displayName: mpn
-        - name: Előnyök szabályzata és használata – GYIK
-          href: benefits-faq-new.md
+        - name: A szabályzat és a használat előnyei – GYIK
+          href: benefits-faq-new.yml
         - name: Az előnyökkel kapcsolatos gyakori kérdések
-          href: benefits-faq.md
+          href: benefits-faq.yml
           displayName: 'renew, license,'
-        - name: MPN-számla megtekintése vagy letöltése
+        - name: AZ MPN-számla megtekintése vagy letöltése
           href: mpn-view-print-maps-invoice.md
     - name: Elérhető előnyök
       items:
@@ -97,11 +83,11 @@
         - name: A kompetenciák ismertetése
           href: learn-about-competencies.md
           displayName: mpn
-        - name: Regisztráció tanulási partnerként
+        - name: Regisztráció Tanulás partnerként
           href: mpn-benefits-map-competency-learning-option-enroll.md
           displayName: mpn
         - name: Kompetenciák – GYIK
-          href: competencies-faq.md
+          href: competencies-faq.yml
           displayName: 'renew, mpn'
         - name: Kompetenciadíjak fizetése
           href: mpn-pay-fee-silver-gold-competency.md
@@ -114,9 +100,10 @@
       items:
         - name: A szaktudás bemutatása
           href: advanced-specializations.md
+          displayName: Advanced specializations
         - name: Alkalmazási vagy ellenőrzési állapot
           href: advanced-specializations-apply.md
-          displayName: mpn
+          displayName: 'mpn, Advanced specializations'
     - name: Azure-beli szakértői MSP-vé válás
       href: azure-expert-msp.md
 - name: Felhőszolgáltató program (CSP)
@@ -147,7 +134,7 @@
       displayName: csp
     - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
       href: agreements.md
-    - name: A feltételek ügyfél általi elfogadásának Microsoft Ügyfélszerződés
+    - name: 'Hogyan lehet megerősíteni, hogy az ügyfelek elfogadják a Microsoft Ügyfélszerződés'
       href: confirm-customer-agreement.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
@@ -161,7 +148,7 @@
         - name: A Microsoft Cloud for US Government Partnerközpontja
           href: partner-center-for-microsoft-us-govt-cloud.md
         - name: Gyakori kérdések – Microsoft Cloud for US Government
-          href: faq-for-us-govt-cloud.md
+          href: faq-for-us-govt-cloud.yml
           displayName: csp
         - name: A Microsoft Cloud Germany Partnerközpontja
           href: partner-center-for-microsoft-cloud-germany.md
@@ -204,6 +191,8 @@
         - name: A partnerprofil frissítése
           href: update-your-partner-profile.md
           displayName: mpn
+        - name: Partner Finder termékoldali minősítése
+          href: partner-finder-certification.md
         - name: Regisztrációs azonosító száminformációi
           href: reg-number-id.md
         - name: Vezérlőpultgyártói szerepkör
@@ -263,12 +252,12 @@
           href: bulk-operations.md
         - name: Együttes értékesítési CRM-összekötők használata
           items:
-            - name: A Dynamics 365-höz
+            - name: Összekötő a Dynamics 365-höz
               href: connector-dynamics.md
-            - name: A Salesforce-hoz
+            - name: Salesforce-összekötő
               href: connector-salesforce.md
-        - name: Összekötők hibaelhárítása
-          href: connectors-troubleshoot.md
+            - name: Összekötők hibaelhárítása
+              href: connectors-troubleshoot.md
         - name: Együttes értékesítés – Migrálás a PSC-ből a PC-be
           href: psc-to-pc.md
           displayName: mpn
@@ -365,7 +354,7 @@
         - name: Megoldásértékelés kifizetési állapota
           href: chip-solution-assessment-payment.md
         - name: Megoldásértékelés – GYIK
-          href: chip-faq.md
+          href: chip-faq.yml
         - name: Problémák a CHIP elérésekor
           href: chip-access-trouble.md
 - name: Számlázás és adók
@@ -576,7 +565,7 @@
         - name: Azure-előfizetések átvitele
           href: switch-azure-subscriptions-to-a-different-partner.md
           displayName: csp
-        - name: Ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
+        - name: Az ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
           href: transfer-azure-subscriptions-under-azure-plan.md
     - name: Szoftver-előfizetések
       href: csp-software-subscriptions.md
@@ -787,5 +776,5 @@
       href: partner-security-compliance.md
       displayName: csp
     - name: Gyakori kérdések
-      href: partner-security-requirements-faq.md
+      href: partner-security-requirements-faq.yml
       displayName: 'sandbox, csp'
