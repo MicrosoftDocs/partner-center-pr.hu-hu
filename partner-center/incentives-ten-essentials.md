@@ -8,26 +8,26 @@ author: Karthic83
 ms.author: kashanum
 ms.localizationpriority: medium
 ms.date: 09/15/2020
-ms.openlocfilehash: 5aead530797d8d122ea871a693c774439b412171
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: 32b7575e0110eba8c04e971845f54ca71bfb45c5
+ms.sourcegitcommit: d1deaeb1703cf2c25119037c5fb624c44fca74b4
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110146714"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "113753357"
 ---
 # <a name="the-10-essentials-for-working-with-incentives"></a>Az ösztönzőkkel való munka 10 alapvető eleme
 
 **Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
 
-A Microsoft Ösztönzőprogram egy hatékony eszköz, amely megjutalmazza a partnereket az ügyfelek Microsoft-termékekkel és -szolgáltatásokkal való bevonásához. Minél jobban érti a programot, annál nagyobb a siker esélye.
+A Microsoft Ösztönzőprogram egy hatékony eszköz, amely megjutalmaz partnereket a Microsoft-termékek és -szolgáltatások ügyfelekkel való bevonásához. Minél jobban érti a programot, annál nagyobb a siker esélye.
 
 Javasoljuk, hogy az ösztönzőprogram elkezdődés előtt tegye meg az alábbi 10 alapvetőt.  Segítenek biztosítani, hogy az ösztönzői élmény megfelelő legyen, és segít megelőzni az ösztönző kifizetések késését.
 
 ## <a name="1-join-the-microsoft-partner-network"></a>1. Csatlakozás a Microsoft Partner Network
 
-Ha Ön még nem Microsoft-partner, csatlakoznia kell az MPN-hez az ösztönzők és egyéb előnyök előnyeinek kihasználása érdekében. További információ: tagság [Microsoft Partner Network.](https://partner.microsoft.com/membership)
+Ha Ön még nem Microsoft-partner, csatlakoznia kell az MPN-hez az ösztönzők és egyéb előnyök kihasználása érdekében. További információ: tagság [Microsoft Partner Network.](https://partner.microsoft.com/membership)
 
-## <a name="2-read-your-incentives-program-guide"></a>2. Az ösztönzőkkel Programajánló
+## <a name="2-read-your-incentives-program-guide"></a>2. Olvassa el az ösztönzőkkel Programajánló
 
 Minden ösztönzőprogram saját részletes program-útmutatóval rendelkezik. Ebben az útmutatóban a jogosultsági és regisztrációs követelményeket, a bevételi lehetőségeket és a program egyedi adatait találja. A program útmutatójának eléréséhez kövesse ezt [az eljárást.](incentives-determined-your-program-eligibility.md#determining-your-program-eligibility)
 
@@ -37,15 +37,15 @@ Az ösztönzőfolyamat szinte minden kifizetési késése vagy egyéb megszakít
 
 ## <a name="4-learn-about-roles-and-permissions"></a>4. Tudnivalók a szerepkörökről és engedélyekről
 
-Fontos, hogy jól megértsük az ösztönzőprogrammal kapcsolatos szerepköröket és engedélyeket. Miután ezt megtette, eldöntheti, hogy mely szerepköröket kell hozzárendelni a vállalata felhasználóihoz. További információ: Milyen felhasználói [szerepkörök érhetők el?](incentives-faq.md#what-user-roles-are-available)
+Fontos, hogy jól megértse az ösztönzőprogramhoz szükséges szerepköröket és engedélyeket. Miután ezt megtette, eldöntheti, hogy mely szerepköröket kell hozzárendelni a vállalata felhasználóihoz. További információ: Milyen felhasználói [szerepkörök érhetők el?](incentives-faq.yml#what-user-roles-are-available-)
 
 ## <a name="5-review-the-incentives-faq"></a>5. Az ösztönzőkkel kapcsolatos gyakori kérdések áttekintése
 
-Választ kaphat az ösztönzőkkel kapcsolatos gyakori kérdésekre, mielőtt fel is kérdezi őket. Az ösztönzőkkel kapcsolatos gyakori kérdéseket gyakran frissítjük a partnerektől Microsoft ügyfélszolgálata közvetlen kommunikációból származó információk használatával. A gyakori kérdéseket itt [találhatja meg:](incentives-faq.md).
+Választ kaphat az ösztönzőkkel kapcsolatos gyakori kérdésekre, mielőtt feltennék őket. Az ösztönzőkkel kapcsolatos gyakori kérdéseket gyakran frissítjük a partnerektől Microsoft ügyfélszolgálata és közvetlen kommunikáció segítségével. A gyakori kérdéseket itt [találhatja meg.](incentives-faq.yml)
 
-## <a name="6-confirm-your-program-eligibility"></a>6. A program jogosultságának megerősítése
+## <a name="6-confirm-your-program-eligibility"></a>6. A program jogosultságának ellenőrzése
 
-Ehhez általában meg kell adni a Microsoftnak az összes szükséges vállalati profil dokumentációját, és el kell érnie a szükséges kompetenciákat. Lásd: [A program jogosultságának megerősítése.](incentives-determined-your-program-eligibility.md)
+Ez általában azzal jár, hogy biztosította a Microsoftnak az összes szükséges vállalati profil dokumentációját, és hogy elért-e minden szükséges kompetenciát. Lásd: [A program jogosultságának megerősítése.](incentives-determined-your-program-eligibility.md)
 
 ## <a name="7-confirm-your-earnings-eligibility"></a>7. A bevételek jogosultságának ellenőrzése
 
@@ -53,15 +53,15 @@ Az előző feladathoz hasonló ez általában azzal jár, hogy minden szüksége
 
 ## <a name="8-gather-the-necessary-enrollment-information"></a>8. A szükséges regisztrációs adatok gyűjtése
 
-Az ösztönzőprogramba való regisztráláshoz bizonyos mennyiségű információra van szükség a vállalatról. Mielőtt hozzá kezd, győződjön meg arról, hogy minden rendben van. További tudnivalókért töltse le és olvassa el az ösztönző regisztrációját [Partnerközpont PDF-fájlban.](https://assetsprod.microsoft.com/partner-center-incentives-enrollment.pdf)
+Az ösztönzőprogramba való regisztrációhoz bizonyos mennyiségű információra van szükség a vállalatról. Mielőtt hozzá kezd, győződjön meg róla, hogy minden rendben van. További tudnivalókért töltse le és olvassa el az [ösztönző regisztrációját egy PDF Partnerközpont fájlban.](https://assetsprod.microsoft.com/partner-center-incentives-enrollment.pdf)
 
 ## <a name="9-learn-how-other-partners-do-it"></a>9. Más partnerek útmutatója
 
-Számos jó cikk érhető el a Microsoft ösztönzőivel és a Partnerközpont kapcsolatban, például A sikeres Microsoft-partnerek öt [attribútuma.](https://www.microsoft.com/en-us/us-partner-blog/2019/08/29/the-five-attributes-of-successful-microsoft-partners/)
+Számos jó cikk érhető el a Microsoft ösztönzőiről és Partnerközpont kapcsolatban, például a sikeres Microsoft-partnerek öt [attribútuma.](https://www.microsoft.com/en-us/us-partner-blog/2019/08/29/the-five-attributes-of-successful-microsoft-partners/)
 
 ## <a name="10-read-the-partner-center-online-help"></a>10. Olvassa el a Partnerközpont online súgóját
 
-Részletes eljárásokat talál a fent felsorolt feladatok elvégzéséhez. A teljes Ösztönzők szakaszt körülbelül egy óra alatt elolvashatja, és a legtöbb cikk csak egy-két percet tart. A súgó olvasásának megkezdéséhez lásd: [Első lépések.](incentives-get-started-intro.md)
+Részletes eljárásokat talál a fent felsorolt feladatok elvégzéséhez. A teljes Ösztönzők szakaszt körülbelül egy óra alatt elolvashatja, és a legtöbb cikk csak egy-két percet tart. A segítség elolvasása: [Első lépések.](incentives-get-started-intro.md)
 
 ## <a name="next-steps"></a>Következő lépések
 
