@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: Ösztönzőkkel kapcsolatos gyakori kérdések
+  ms.topic: how-to
+  ms.date: 02/05/2021
+  description: Gyakori kérdések a Microsoft ösztönzőivel kapcsolatban. Ez a cikk a felhasználói szerepkörökkel, a regisztrációval és a hibaüzenetekkel kapcsolatos feladatokat tartalmazza.
+  ms.service: partner-dashboard
+  ms.subservice: partnercenter-incentives
+  author: mseamons
+  ms.author: mseamons
+  ms.localizationpriority: medium
+  ms.openlocfilehash: 868b47431eb6d04c0885f82c13f7611bace24d2c
+  ms.sourcegitcommit: d1deaeb1703cf2c25119037c5fb624c44fca74b4
+  ms.translationtype: MT
+  ms.contentlocale: hu-HU
+  ms.lasthandoff: 07/14/2021
+  ms.locfileid: "113753571"
+title: Az ösztönzőkkel kapcsolatos gyakori kérdések
+summary: >
+  **Megfelelő szerepkörök:** Ösztönzők rendszergazdai | Ösztönzők felhasználója
+sections:
+- name: Figyelmen kívül hagyja
+  questions:
+  - question: >
+      Globális rendszergazdának kell lennie az ösztönzőkben való regisztrációhoz?
+    answer: >
+      Nem. A globális rendszergazda és a fiókrendszergazda is hozzárendelhet felhasználókat ösztönzők rendszergazdáiként. Az ösztönzők rendszergazdái a vállalat ösztönzőprogramokat a vállalaton keresztül kezelik Partnerközpont. További információ: [Engedélyek áttekintése.](permissions-overview.md)
+  - question: >
+      Mit kell tennem, ha azt találok, hogy a vállalatom már tagja a Microsoft Partner Network (MPN)?
+    answer: >
+      Ha mpN-hez próbál csatlakozni, és a vállalata már tagja, az MPN felismeri a tartományt, és társítja a meglévő fiókhoz. A meglévő fiók lehet ugyanaz a vállalat vagy egy kapcsolódó vállalat, amely ugyanazt az e-mail-tartományt vagy ugyanazt az Azure Activity Directoryt (Azure AD) használja több tartomány kezeléséhez.
+
+
+      Az elsődleges kapcsolattartót a Jogi profil oldalon azonosíthatja. Ha az Ön helye az MPNHQ hely, csak be kell állítania az ösztönzők kezeléséhez szükséges engedélyeket. A szerepkörökkel és engedélyekkel kapcsolatos további információkért tekintse meg az [Engedélyek áttekintése témakört.](permissions-overview.md)
+
+
+      Ha nem ugyanabban az országban található, mint az MPNHQ hely, a forgatókönyvvel kapcsolatos további részletekért tekintse meg a több országos fiókra vonatkozó utasításokat. [](https://support.microsoft.com/help/4515619/special-considerations-for-multi-national-partners-joining-the-microso)
+  - question: >
+      Milyen felhasználói szerepkörök érhetők el?
+    answer: >
+      Alapértelmezés szerint az a személy lesz az elsődleges kapcsolattartó Partnerközpont globális rendszergazda, aki belépteti a vállalatot a vállalatba. A rendszergazda felhasználókat hívhat meg és kezelhet a portálon.
+
+
+      Az ösztönzők fő szerepkörei az ösztönzők rendszergazdája és az ösztönzők felhasználója. Az ösztönzők rendszergazdája regisztrálhat ösztönzőprogramokba, és kezelheti a partner banki és adó részleteit. Az ösztönzők felhasználója megtekintheti az eszközben a jelentéseket a kifizetett összeg és az egyes kifizetések lebontásának megtekintéséhez, de nem tudja megtekinteni vagy szerkeszteni a banki adatokat. Mindkét szerepkör a globális partnerfiókban található összes helyre vonatkozhat.
+
+
+      További információ: [Engedélyek áttekintése.](permissions-overview.md)
+  - question: >
+      Hogyan derítheti ki, hogy ki rendelkezik globális vagy fiók-rendszergazdai jogosultságokkal a vállalatomhoz?
+    answer: "Globális rendszergazda vagy fiók-rendszergazda megkeresheti, aki szerepkör-módosításokat vagy szerepköröket rendelhet hozzá egy új felhasználóhoz:\n\n1. A fiók jobb felső részen található Fiókbeállítások Partnerközpont válassza a **Felhasználókezelés lehetőséget.**\n2. Szűrje a globális **rendszergazdát vagy** a **fiók-rendszergazdát.**\n3. A következő helyekre is **Saját profil:**, válassza a Szerepkörök és engedélyek lehetőséget, és tekintse meg a különböző rendszergazdák listáját, akik segíthetnek megemelni az engedélyeket. \n \nTovábbi információ: [A szerepkör megkeresve.](find-your-role.md)  \n"
+  - question: >
+      Nem tudok hozzáférni az ösztönzőkhez a hitelesítő adataim használatával.
+    answer: >
+      Az ösztönzőket valószínűleg azért nem látja, mert nem rendelkezik a megfelelő engedélyekkel. A probléma megoldását az alábbi eljárással oldhatja meg.
+
+
+      1. Jelentkezzen be [Partnerközpont irányítópultra](https://partner.microsoft.com/dashboard/) az Azure AD-bérlő hitelesítő adataival (a munkahelyi hitelesítő adataival). Ha nem tud bejelentkezni, lépjen kapcsolatba a vállalat globális rendszergazdájával.
+
+
+      2. Ha a rendszer arra kéri, hogy a  bejelentkezve válasszon a munkahelyi vagy a személyes fiókjából, válassza a Munkahelyi fiók **lehetőséget.**
+
+
+      3. A Partnerközpont válassza az **Ösztönzők,** majd az Áttekintés **lehetőséget.** Ha nem rendelkezik ösztönzőrendszergazdai vagy ösztönzőfelhasználói engedélyekkel, megjelenik a vállalat összes globális és fiókadminisztrátusának kapcsolattartási adatai. Vegye fel a kapcsolatot ezen rendszergazdák egyikének a szükséges MPN-adatokat és ösztönzőprogramokat ösztönző szerepkör beszerzése érdekében.
+
+
+      4. Ha már rendelkezik ösztönzői rendszergazdai szerepkörsel, láthatja a vállalata regisztrációit az MPN-hez és ösztönzőprogramokhoz, amelyekhez hozzáféréssel rendelkezik.
+  - question: >
+      Néhány regisztráció hiányzik az ösztönzők áttekintő oldalról.
+    answer: >
+      Ha kapott egy meghívót az irányítópulton, vagy regisztrált egy olyan ösztönzőprogramra, amely már nem látható az irányítópulton, ellenőrizze, hogy rendelkezik-e a megfelelő hozzáféréssel. A programot csak az ösztönzőfelhasználói vagy az ösztönzői rendszergazdai szerepkörben regisztrált felhasználók láthatják. Lásd: [A szerepkör megkeresve.](./find-your-role.md)
+
+
+      Ha módosítania kell a szerepkört vagy az engedélyeket, lépjen kapcsolatba a vállalat globális vagy fiókadminisztrátussal. Ha meg szeretne ismerkedni ezekkel az emberekkel, olvassa el [a Globális rendszergazda megkeresve című témakört.](./find-your-role.md#find-your-global-admin)
+
+
+      Az Áttekintés oldalon csak azok a regisztrációk jelennek meg, amelyek az Azure AD-bérlőhöz társított globális partnerfiókhoz (PGA) vannak társítva. Ha a vállalata több PGA-fiókkal rendelkezik, mindegyikhez eltérő hitelesítő adatokra lesz szüksége.
+  - question: >
+      Who kapcsolatba kell lépnem, ha hibaüzenetet kapok, vagy segítségre van szükségem a regisztrációs folyamat során?
+    answer: >
+      Ha problémába ütközik az irányítópult Ösztönzők szakaszában, tekintse meg a támogatási lehetőséget (? Ikon) a jobb felső sarokban.
+additionalContent: "\n## <a name=\"next-steps\"></a>Következő lépések\n\n- [Ismerkedés az ösztönzőkkel](incentives-get-started-intro.md)"

@@ -134,7 +134,7 @@
       displayName: csp
     - name: Microsoft Ügyfélszerződés (régió és nyelv szerint)
       href: agreements.md
-    - name: 'Hogyan lehet megerősíteni, hogy az ügyfelek elfogadják a Microsoft Ügyfélszerződés'
+    - name: A feltételek ügyfél általi elfogadásának Microsoft Ügyfélszerződés
       href: confirm-customer-agreement.md
     - name: 'CSP szerinti regionális piacok, pénznemek'
       href: regional-authorization-overview.md
@@ -265,7 +265,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők elemzésének lekért adatai
+    - name: Érdeklődők elemzési adatainak lekérte
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -273,7 +273,7 @@
     - name: Ismerkedés az ösztönzőkkel
       items:
         - name: Az ösztönzőkkel kapcsolatos gyakori kérdések
-          href: incentives-faq.md
+          href: incentives-faq.yml
           displayName: mpn
         - name: Az ösztönzők alkalmazásának első lépései
           href: incentives-get-started-intro.md
@@ -381,7 +381,7 @@
       href: modern-invoice-reconciliation-file.md
     - name: Tényleges egységár kiszámítása
       href: effective-unit-price-calculation.md
-    - name: Credit limit enforcement
+    - name: Kreditkorlát kényszerítve
       href: credit-limit-enforcement.md
     - name: Számlázással kapcsolatos gyakori forgatókönyvek
       href: common-billing-scenarios.md
@@ -565,7 +565,7 @@
         - name: Azure-előfizetések átvitele
           href: switch-azure-subscriptions-to-a-different-partner.md
           displayName: csp
-        - name: Az ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
+        - name: Ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
           href: transfer-azure-subscriptions-under-azure-plan.md
     - name: Szoftver-előfizetések
       href: csp-software-subscriptions.md
