@@ -1,5 +1,5 @@
 ---
-title: Partnerközpont Insights Microsoft Learn elemzés
+title: Partnerközpont Elemzések Microsoft Learn elemzés
 ms.topic: article
 ms.date: 08/13/2020
 ms.service: partner-dashboard
@@ -9,25 +9,24 @@ author: shganesh-dev
 ms.author: shganesh
 ms.localizationpriority: medium
 ms.custom: SEOMAY.20
-ms.openlocfilehash: 132583352e1697a2f9dfa624eb9532692be6d734
-ms.sourcegitcommit: 7063fdddee77ad2d8e627ab3c806f76d173ab652
+ms.openlocfilehash: e5d73582d3cfe0aa19483526d9b77e55a4c7e0a0
+ms.sourcegitcommit: 70b8ebbe0d431c7a13529f9eabd1b24f40108a46
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110152630"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "113989757"
 ---
-# <a name="the-microsoft-learn-analytics-report-shows-the-status-of-learners-in-your-company"></a>A Microsoft Learn elemzési jelentés a vállalat tanulóinak állapotát jeleníti meg
+# <a name="use-microsoft-learn-analytics-reports"></a>Az Microsoft Learn-jelentések használata
 
 **Megfelelő szerepkörök:** Globális rendszergazdai | MPN-partner rendszergazdája
 
-A Microsoft Learn jelentés információkat nyújt a vállalat tanulóiról, beleértve az eddig befejezett modulokat és a képzési útvonalakat. A jelentés megjeleníti az egyes tanulók állapotát. Az adatokat a vállalat globális rendszergazdája és MPN-rendszergazdája is megtekintheti.
+A [Microsoft Learn](/learn/) jelentés információkat nyújt a vállalat tanulóiról, beleértve az eddig befejezett modulokat és a képzési útvonalakat. A jelentés megjeleníti az egyes tanulók állapotát. A vállalat globális rendszergazdái és MPN-rendszergazdái megtekinthetik az adatokat.
 
 ## <a name="how-to-read-the-report"></a>A jelentés olvasása
 
 ### <a name="summary-charts"></a>Összegző diagramok
 
 Ezek a diagramok összegzi a szám- és havi kumulatív trendeket a betanított személyek, a modulok befejezései és a képzési útvonalak alapján.
-
 
 **Betanított személyek száma:** Az összes olyan tanuló száma, aki legalább egy modult befejezett a kiválasztott dátumtartományban 
 
@@ -38,14 +37,14 @@ Ha például az "1. modult" 15 személy, a "2. modult" pedig ugyanaz a 15 szemé
 
 **Modul-befejezési trend minidiagram:** A modulok befejezésinek összesített száma havonta 
 
-**Képzésiút-befejezések száma:** A partner vállalatának tanulói által a kiválasztott dátumtartományon belül a képzési útvonalak befejezésének száma.
-Ha például az "1. képzési út" képzési útvonalat 20 személy, a 2. képzési útvonalat pedig ugyanaz a 20 személy haladta meg, akkor a Képzési út befejezési száma 40 lesz. A Képzési út befejezési dátumának a kiválasztott dátumtartományba kell esni.
+**Tanulás** elérésiút-kiegészítések száma: A Tanulás vállalat tanulói által a kiválasztott dátumtartományban végzett útvonal-befejezések száma.
+Ha például az Tanulás Path 1 (1. út) útvonalat 20 személy, az Tanulás Path 2 útvonalat pedig ugyanaz a 20 személy haladta meg, akkor az Tanulás Path completion count (Az Tanulás elérési út befejezési száma) 40 lesz. A Tanulás elérési út befejezési dátumának a kiválasztott dátumtartományba kell esni.
 
-**Képzésiút-befejezési trendek minidiagramja:** A képzési útvonal befejezésének összesített száma hónapról hónapra 
+**Tanulás útvonal kiegészítésének trendje minidiagram:** A képzési képzési útvonal befejezésének összesített száma hónapról hónapra 
 
 ### <a name="trained-individuals-monthly-trend"></a>Betanított személyek havi trendje
 
-Ezek az adatok a vállalat olyan felhasználóinak trendje, akik ebben a hónapban először fejezték be a modult. 
+Ezek az adatok a vállalat felhasználóinak trendje, akik ebben a hónapban először fejezték be a modult. 
 
 **Az X tengely a** kiválasztott időszűrő hónapja. 
 
@@ -53,23 +52,23 @@ Ezek az adatok a vállalat olyan felhasználóinak trendje, akik ebben a hónapb
 
 ### <a name="module-completions-monthly-trend"></a>Modul-befejezések havi trendje
 
-Ezek az adatok a vállalat összes felhasználója által az ebben a hónapban befejezett modulok trendje. (nem kumulatív) 
+Ezek az adatok a vállalat összes felhasználója által az ebben a hónapban befejezett modulok trendjét jelentik. (nem összesítve) 
 
 **Az X tengely a** kiválasztott időszűrő hónapja. 
 
 **Az Y tengely az** ebben a hónapban végzett modul-befejezéseket jelenti. Ez nem kumulatív.
 
-### <a name="learning-path-completions-monthly-trend"></a>Képzési útvonalak kiegészítési havi trendje
+### <a name="learning-path-completions-monthly-trend"></a>Tanulás útvonal kiegészítésének havi trendje
 
-Ezek az adatok a vállalat felhasználói által az ebben a hónapban befejezett képzési útvonalak trendje. (nem kumulatív) 
+Ezek az adatok a vállalat felhasználói által az ebben a hónapban befejezett képzési útvonalak trendje. (nem összesítve) 
 
 **Az X tengely a** kiválasztott időszűrő hónapja. 
 
 **Az Y tengely az** abban a hónapban végzett modul-befejezések száma. Ez nem kumulatív.
 
-### <a name="learning-path-completion-tabs"></a>Képzésiút-befejezési lapok 
+### <a name="learning-path-completion-tabs"></a>Tanulás elérésiút-befejezési lapok használata
 
-**Modul lap**
+#### <a name="module-tab"></a>Modul lap
 
 Ez a lap a vállalaton belül befejezett modulok lebontását tartalmazza az első öt modulnév alapján; az a termék, amelyhez a modul társítva van; és a modulra vonatkozó felhasználói szerepkör.  
 
@@ -85,13 +84,13 @@ A diagram közepén megjelenő szám a modul befejezéséhez szükséges külön
 
 A diagram közepén megjelenő szám a modul befejezéséhez szükséges különálló termékek száma.  
 
-**Képzési útvonal lap**   
+#### <a name="learning-path-tab"></a>Tanulás elérési út lap
 
 Ez a lap a vállalatnál befejezett képzési útvonalakat tartalmazza az első öt modulnév alapján; az a termék, amelyhez a képzési útvonal le van leképezve; és az ehhez a képzési útvonalhoz megfelelő szerepkör.  
 
-- Képzési útvonalak befejezési fánkdiagramja: a képzési útvonal befejezésének lebontása (az összefoglaló szakaszban látható szám) név szerint.
+- Tanulás elérésiút-kiegészítések fánkdiagramja: a Tanulás (az összefoglaló szakaszban látható darabszám) lebontása név szerint.
 
-- Befejezés szerepkör*: a képzési útvonalak teljesítésének lebontása szerepkör szerint. Ha egy modul több szerepkörhöz is társítva van, akkor mindegyik szerepkör hozzá lesz adva a modul befejezésének számhoz.
+- Befejezések szerepkör szerint: a képzési útvonalak befejezésinek lebontása szerepkör szerint. Ha egy modul több szerepkörhöz is társítva van, akkor mindegyik szerepkör hozzá lesz adva a modul befejezésének számhoz.
 
 - Befejezés termék szerint: a képzési útvonalak befejezésének lebontása a termék szerint, amelyre a képzési útvonal le van leképezve. Ha egy modul több termékhez van társítva, akkor mindegyik termék hozzá lesz adva a modul befejezésének számhoz.
 
@@ -99,43 +98,46 @@ Ez a lap a vállalatnál befejezett képzési útvonalakat tartalmazza az első 
 
 Ez felsorolja a vállalat betanított felhasználóit, valamint a befejezett moduljaik és képzési útjaik részleteit.
 
-Microsoft Learn felhasználói objektumazonosítóval azonosítja a tanulókat. A **Modulok lapon minden** tanuló a befejezett modulok szerint van rendezve. A felhasználónevüket, Microsoft Learn objektumazonosítójukat és a modulok számát jelenítik meg. A kereséshez használja a felhasználónevet. 
+Microsoft Learn felhasználói objektumazonosítóval azonosítja a tanulókat. A **Modulok lapon minden** tanuló a befejezett modulok szerint van rendezve. A felhasználónevük, Microsoft Learn objektumazonosítójuk és a modulok száma alapján jelennek meg. A kereséshez használja a felhasználónevet. 
 
-A **Képzési útvonalak** lapon minden tanuló a befejezett képzési útvonalak szerint rendezve jelenik meg a tanuló megjelenített nevével, objektumazonosítójával és modulszámával.
+A **Tanulás** képzési útvonalak lapon minden tanuló a befejezett képzési útvonalak szerint rendezve jelenik meg a tanuló megjelenített nevével, objektumazonosítójával és modulszámával.
 
 A tanuló részleteinek lekért adatai a felhasználói objektum azonosítójával: 
 
 1. Jelentkezzen be a [Graph Explorerbe.](https://developer.microsoft.com/graph/graph-explorer ) (Önnek kell a vállalata Azure AD-bérlője globális rendszergazdának lennie.)
 
-2. Másolja a felhasználói objektum azonosítóját a Graph [Explorerben kiemelt](https://graph.microsoft.com/v1.0/users/a9633ad7-c8dc-4587-b119-0bc286b0711f) területre. 
+2. Másolja a felhasználói objektum azonosítóját az [Explorerben](https://graph.microsoft.com/v1.0/users/a9633ad7-c8dc-4587-b119-0bc286b0711f) kiemelt Graph területre. 
 
-## <a name="faq"></a>GYIK
+## <a name="frequently-asked-questions-faq"></a>Gyakori kérdések (GYIK)
 
-1. Nem látom a vállalat tanulási adatait.
+1. Nem látom a cégEm Learn-adatait.
 
-Ez a jelentés olyan partnerek számára érhető el, akik fiókkal Partnerközpont. Ha még nem Partner Membership Center, nem fogja látni ezt a jelentést.
+   Ez a jelentés olyan partnerek számára érhető el, akik fiókkal Partnerközpont. Ha még mindig a Partner Membership Center van, nem fogja látni ezt a jelentést.
 
-2.  A cégen belül ki megtekintheti ezt a jelentést? 
+2. Who cégen belül a cégen belül meg tudja tekinteni ezt a jelentést? 
 
-A globális rendszergazda és az MPN-rendszergazda megtekintheti a jelentést.
+   A globális rendszergazda és az MPN-rendszergazda megtekintheti a jelentést.
 
 3. Hogyan győződhet meg arról, hogy minden felhasználó a saját Microsoft Learn a saját Partnerközpont fiókjához?
 
-Miután a globális rendszergazda hozzáad egy új felhasználót,  a felhasználónak meg kell Saját profil a Microsoft Learn fiókjához.
+   *Miután* a globális rendszergazda hozzáadta az új felhasználót, a felhasználónak az [Microsoft Learn-hoz](/learn/) kell mennie, hogy a Azure Active Directory(AD) vállalati fiókját vagy munkahelyi fiókját a Learn-fiókjához csatolja. Ez biztosítja, hogy Elemzések Tanulás lapon a megfelelő kurzusok és készségek mutassanak.
+   
+   A felhasználónak a következőt kell:
+   
+   1. Jelentkezzen be a [Microsoft Learn.](/learn/)
+   2. Válassza ki a profilképüket, majd válassza a **Saját profil** lehetőséget.
+   3. Válassza a **Beállítások** lehetőséget.
+   4. A **Fiókkezelés alatt** adja hozzá a munkahelyi fiókját a Csatolt **fiókok alatt.**
 
-- Válassza az **irányítópult jobb felső** sarkában található Saját fiók ikont, majd a Saját profil.  
+4. Láthatom a jelentésben az összes olyan felhasználót, aki MSA-Microsoft Learn jelentkezik be az alkalmazásba?
 
--  Az **Ön tanulása** alatt a felhasználó társíthatja a saját Microsoft Learning, és csatlakoztathatja a Microsoft-fiók Partner Universityhez.
+   Jelenleg ezt úgy lehet a legjobban megtenni, ha hozzáadja ezeket a felhasználókat az Azure AD-bérlőhöz, majd hozzáadja őket az Partnerközpont-hoz, hogy Microsoft Learn-fiókjukat a Saját profil-ban Partnerközpont.  
 
-3. Láthatom a jelentésben az összes olyan felhasználót, aki MSA-Microsoft Learn jelentkezik be az alkalmazásba?
-
-Jelenleg ennek legjobb módja, ha hozzáadja ezeket a felhasználókat az Azure AD-bérlőhöz, majd hozzáadja őket az  Partnerközpont-hoz, hogy Microsoft Learn-fiókjukat a Saját profil-ban Partnerközpont. 
-
-Azok a felhasználók, akik a közeljövőben csak MSA-fiókjukat használják a képzéshez, az Microsoft Learn csapata lehetővé teszi számukra, hogy a munkahelyi e-mail-címüket a saját Microsoft Learn társítani. 
+   Azok a felhasználók, akik a közeljövőben csak MSA-fiókjukat használják képzésre, a Microsoft Learn csapata lehetővé teszi, hogy a munkahelyi e-mail-címüket a saját Microsoft Learn társítsa. 
 
 ## <a name="next-steps"></a>Következő lépések
 
-További jelentésekért lásd: [Partnerközpont Insights.](partner-center-insights.md)
+További jelentések: [Partnerközpont Elemzések.](partner-center-insights.md)
 
 >[!NOTE] 
-> A jelentést áttöltő nyers adatokat az Insights irányítópult Jelentések letöltése szakaszában töltheti le. [További információ](pci-download-reports.md) 
+> A jelentést az irányítópult Jelentések letöltése szakaszában töltheti le a Elemzések nyers adatokkal. [További információ](pci-download-reports.md) 
