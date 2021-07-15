@@ -8,12 +8,12 @@ metadata:
   author: eunjkim520
   ms.author: eunjkim
   ms.date: 05/06/2021
-  ms.openlocfilehash: 30524899a85cff7439268d569e93810034109474
-  ms.sourcegitcommit: a09a5f893e876de23a8aa5c0d637e50c5be84941
+  ms.openlocfilehash: 350c726467c3ba4342159a56b8ccfe77610c6b63
+  ms.sourcegitcommit: 207c86406e56346d01d85ce50ea494c0c293519a
   ms.translationtype: MT
   ms.contentlocale: hu-HU
-  ms.lasthandoff: 07/13/2021
-  ms.locfileid: "113686494"
+  ms.lasthandoff: 07/14/2021
+  ms.locfileid: "113798336"
 title: Kifizetésekkel és adókkal kapcsolatos gyakori kérdések
 summary: >
   **Megfelelő szerepkörök:** Fiók-rendszergazdai | Globális rendszergazdai | Ösztönzők rendszergazdája
@@ -89,7 +89,7 @@ sections:
       - Ellenőrizze a [kifizetési ciklus időkeretét,](payment-thresholds-methods-timeframes.md) és ellenőrizze, hogy a bevételek mikor jelenjenek meg a kifizetési kimutatásban.
   - question: >
       Miért különbözik a bevételi összeg a várttól?
-    answer: "- Ha az ügyfél részben kifizette a rendelést, a bevételi összeg a részben kifizetett összegen alapul a díj és a megfelelő adó levonása után.\n- Ellenőrizze az adóremit felelősségét országonként. Az olyan országokban, ahol az adó a Microsoft feladata, a Microsoft beveszi és levonja az adót a közzétevői bevételekből. A kimutatásban szereplő tranzakcióösszeg az adózás utáni összeg. Tekintse meg az [Adó részleteit](tax-details-marketplace.md).\n- Az SaaS- és IaaS-ajánlatok a standard 20% helyett 10%-os kedvezményes ügynökségi díjat kapnak, így a bevételi arány 90%. Ez egy IP-Co-Sell követelmény. Ez a promóciós ajánlat 2021. június 30-ig érvényes. \n\n**További információk:** [Kereskedelmi piactéri Publisher szerződés, kifizetési](/legal/marketplace/msft-publisher-agreement)szabályzat [részletei,](payout-policy-details.md) [fizetési küszöbérték,](payment-thresholds-methods-timeframes.md)módszer és időkeret, [fizetős,](marketplace-get-paid.md)adóadatok, kifizetési [kimutatások](payout-statement.md) [](tax-details-marketplace.md)\n"
+    answer: "- Ha az ügyfél részben kifizette a rendelést, a bevételi összeg a részben kifizetett összegen alapul a díj és a megfelelő adó levonása után.\n- Ellenőrizze az adóremit felelősségét országonként. Az olyan országokban, ahol az adó a Microsoft feladata, a Microsoft beveszi és levonja az adót a közzétevői bevételekből. A kimutatásban szereplő tranzakcióösszeg az adózás utáni összeg. Tekintse meg az [Adó részleteit](tax-details-marketplace.md).\n- Az ajánlatok szolgáltatási díja 3%-os, így a bevételi arány 97%. \n\n**További információk:** [Kereskedelmi piactéri Publisher szerződés, kifizetési](/legal/marketplace/msft-publisher-agreement)szabályzat [részletei,](payout-policy-details.md) [fizetési küszöbérték,](payment-thresholds-methods-timeframes.md)módszer és időkeret, [fizetős,](marketplace-get-paid.md)adóadatok, kifizetési [kimutatások](payout-statement.md) [](tax-details-marketplace.md)\n"
 - name: Bevételek egyeztetése
   questions:
   - question: >
@@ -157,12 +157,12 @@ sections:
       A forrásadó olyan amerikai közzétevők esetében érvényes, akik W-9-es űrlapot nyújtottak be. A forrásadó számítása havi kifizetésen alapul.
 
 
-      **További információ:** [Kereskedelmi piactéri Publisher szerződés,](/legal/marketplace/msft-publisher-agreement) [Kifizetési szabályzat részletei](payout-policy-details.md)
-- name: Kifizetési kimutatáshoz való hozzáférés
+      **További információ:** [Kereskedelmi piactéri Publisher szerződés,](/legal/marketplace/msft-publisher-agreement) [kifizetési szabályzat részletei](payout-policy-details.md)
+- name: Kifizetési kimutatás elérése
   questions:
   - question: >
       Hogyan férhetek hozzá a kifizetési kimutatásokhoz?
-    answer: "1. Ellenőrizze a szerepköreit. *Pénzügyi közreműködő* vagy *fióktulajdonos* szerepkörrel kell rendelkeznie a kifizetési kimutatás eléréséhez.\n2. A jobb felső navigációs sávon válassza a **Kifizetés ikont** a kifizetési kimutatás megtekintéséhez. Válasszon a **Tranzakcióelőzmények,** **a Fizetés** és a **Letöltés közül.**\n\n**További információk:** [Kifizetési szerepkörök és engedélyek,](payout-statement.md#roles-and-permissions) [Kifizetési kimutatások](payout-statement.md) \n"
+    answer: "1. Ellenőrizze a szerepköreit. *Pénzügyi közreműködő* vagy *fióktulajdonos* szerepkörrel kell rendelkeznie a kifizetési kimutatás eléréséhez.\n2. A jobb felső navigációs sávon válassza a **Kifizetés** ikont a kifizetési kimutatás megtekintéséhez. Válasszon a **Tranzakciós előzmények,** **a Fizetés** és a **Letöltés közül.**\n\n**További információk:** [Kifizetési szerepkörök és engedélyek,](payout-statement.md#roles-and-permissions) [Kifizetési kimutatások](payout-statement.md) \n"
 - name: Kifizetési kimutatás jelentése
   questions:
   - question: >
@@ -172,12 +172,12 @@ sections:
   - question: >
       Mi a bevétel állapota?
     answer: >
-      Ez feldolgozatlan, feldolgozott vagy elküldöttként jeleníti meg a bevételeket.
+      Ez a bevételeket feldolgozatlanként, feldolgozva vagy elküldve jeleníti meg.
 
 
       - **Nincs feldolgozva** – a bevételek az esedékesség dátumáig egy esedékességi időszakban vannak.
 
-      - **Feldolgozott –** A bevételek kiforrottak, és elő vannak készítve havi kifizetésre. A kifizetéseket minden hónap 15-én adták ki.
+      - **Feldolgozott –** A bevételek kiforrottak, és elő vannak készítve havi kifizetésre. A kifizetések minden hónap 15-én szabadulnak fel.
 
       - **Elküldött** – A kifizetés sikeresen ki lett adva a banknak a kifizetési profilja alapján.
   - question: >
@@ -185,9 +185,9 @@ sections:
     answer: >
       Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. Megjelenik egy hivatkozás, amely a szolgáltatási díjjal kapcsolatos adónyomtatványra irányítja olyan fizetés esetén, amely szolgáltatási díjra vonatkozó adót tartalmaz.
   - question: >
-      Hogyan a visszatartott adó űrlapja PDF-fájlban?
+      Hogyan letölt egy adóelőleg-űrlapot PDF-fájlban?
     answer: >
-      Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. A kifizetés mellett megjelenik egy hivatkozás, amely a forrásadóra vonatkozó adónyomtatványhoz irányítja. A visszatartottadó-űrlap csak a kiválasztott ösztönzőprogramokra vonatkozik, a kereskedelmi piactéri kifizetésekre nem.
+      Nyissa meg a **Kifizetések** oldalt, majd a **Kifizetések listája** részt. A kifizetés mellett megjelenik egy hivatkozás, amely a forrásadóra vonatkozó adónyomtatványhoz irányítja. A visszatartott adó űrlapja csak a kiválasztott ösztönzőprogramokra vonatkozik, a kereskedelmi piactéri kifizetésekre nem.
   - question: >
       Hol találom az év végi adónyomtatványokat?
     answer: >
@@ -200,7 +200,7 @@ sections:
   - question: >
       Hogyan előzményadatokat?
     answer: >
-      A korábbi kimutatásokban 2019 októberétől láthatók a kifizetési adatok pillanatképei. Sajnos az itt található kifizetési adatok nem frissülnek. A legfrissebb információk fogadásához küldjön támogatási jegyet a legfrissebb adatokért.
+      A korábbi kimutatásokban 2019 októberétől láthatók a kifizetési adatok pillanatképei. Sajnos az itt található kifizetési adatok nem frissülnek. A legfrissebb információk fogadásához küldjön támogatási jegyet a legfrissebb adatokhoz.
 
 
       **További információk:** [Kifizetési kimutatások,](payout-statement.md) [tranzakciós előzmények letöltése](payout-statement.md#transaction-history-download)
@@ -213,17 +213,17 @@ sections:
 - name: A kereskedelmi piactér kifizetési szabályzata
   questions:
   - question: >
-      Hol található az aktuális közvetítői díj és a kifizetési arány?
+      Hogyan áruházi szolgáltatási díjat és a kifizetési rátát?
     answer: >
-      - Tekintse meg a kereskedelmi piactérre vonatkozó közzétevői megállapodást. A közvetítői díj általában 20%. Az SaaS-jal való közös értékesítésre jogosult tranzakciók kedvezményes díja 10%. A promóciós közvetítői díjakkal kapcsolatban figyelje a bejelentéseket.
+      - Az áruházi szolgáltatási díj 3%.
 
-      - A kifizetési kimutatásban a Bevételi arány egy adott tranzakció tényleges kifizetési arányát határozza meg.
+      - A kifizetési kimutatásban a Bevételi arány egy adott tranzakció tényleges kifizetési rátát határozza meg.
   - question: >
       Mikor számíthatok kifizetésre a Microsofttól, miután megjelentek a bevételek a kimutatásban?
     answer: >
-      - Miután a bevétele Nincs feldolgozva állapotba kerül, megtekintheti azon hónap esedékességi dátumát, amelyre vonatkozóan a bevételei fel lesznek dolgozva a kifizetéshez. Ha a kifizetése elő van készítve, a bevétel állapota "Feldolgozott" lesz.  A Microsoft az esedékességi hónap 15. napjáig teljesíti a kifizetéseket.
+      - Miután a bevétele Nincs feldolgozva állapotba kerül, megtekintheti azon hónap esedékességi dátumát, amelyre vonatkozóan a bevételei fel lesznek dolgozva a kifizetéshez. A kifizetést az előkészített bevétel "Feldolgozott" állapotra váltja.  A Microsoft az esedékességi hónap 15. napjáig teljesíti a kifizetéseket.
 
-      - A hitelkártyával kifizetett rendelések esetén a Microsoft a bevétel kiforrásáig 30 napig fizet.
+      - A hitelkártyával kifizetett megrendelések esetén a Microsoft 30 napig tartja a kifizetéseket a bevétel kiforrottáig.
 
-       **További információk:** [Kereskedelmi piactéri Publisher Szerződés,](/legal/marketplace/msft-publisher-agreement)Kifizetési [szabályzat részletei,](payout-policy-details.md) [Adózási adatok,](tax-details-marketplace.md) [Fizetési küszöbérték,](payment-thresholds-methods-timeframes.md) Módszer és időkeret
+       **További információk:** [Kereskedelmi piactéri Publisher szerződés,](/legal/marketplace/msft-publisher-agreement)kifizetési szabályzat [részletei,](payout-policy-details.md) [adóadatok,](tax-details-marketplace.md)fizetési küszöbérték, módszer [és időkeret](payment-thresholds-methods-timeframes.md)
 additionalContent: "\n## <a name=\"next-steps\"></a>Következő lépések\n\n- [Fizetés fogadása](marketplace-get-paid.md)\n- [Kifizetési számla és űrlapok beállítása](set-up-your-payout-account.md)"
