@@ -9,7 +9,7 @@
     - name: Legyen Ön is Microsoft-partner
       href: mpn-overview.md
       displayName: mpn
-    - name: MPN-fiók létrehozása a Partnerközpontban
+    - name: MPN-fiók létrehozása a Partnerközpont
       href: mpn-create-a-partner-center-account.md
       displayName: mpn
     - name: Fiókbeállítások hibaelhárítása
@@ -33,12 +33,12 @@
         - name: A saját MPN-előnyök azonosítása
           href: mpn-find-benefits.md
           displayName: mpn
-        - name: A szabályzat és a használat előnyei – GYIK
+        - name: Előnyökre vonatkozó szabályzat és használat – GYIK
           href: benefits-faq-new.yml
         - name: Az előnyökkel kapcsolatos gyakori kérdések
           href: benefits-faq.yml
           displayName: 'renew, license,'
-        - name: AZ MPN-számla megtekintése vagy letöltése
+        - name: MPN-számla megtekintése vagy letöltése
           href: mpn-view-print-maps-invoice.md
     - name: Elérhető előnyök
       items:
@@ -121,13 +121,13 @@
     - name: Közvetlen CSP-számla átváltása közvetett viszonteladóra
       href: transition-direct-to-indirect.md
       displayName: csp
-    - name: A partnerek már nem regisztrálnak tanácsadóként
+    - name: A partnerek már nem regisztrálhatnak tanácsadóként
       href: advisors-no-csp.md
 - name: CSP-szerződések
   href: microsoft-partner-agreement.md
   items:
     - name: Hogyan segíthetnek a közvetett szolgáltatók a viszonteladóiknak az MPA elfogadásában?
-      href: mpa-indirect-provider-faq.md
+      href: mpa-indirect-provider-faq.yml
       displayName: 'csp, mpa, indirect, provider'
     - name: 'CSP-megállapodások, árlista, ajánlatok'
       href: csp-documents-and-learning-resources.md
@@ -191,9 +191,9 @@
         - name: A partnerprofil frissítése
           href: update-your-partner-profile.md
           displayName: mpn
-        - name: Partner Finder termékoldali minősítése
+        - name: Partner Finder –minősítés listázása
           href: partner-finder-certification.md
-        - name: Regisztrációs azonosító száminformációi
+        - name: Regisztrációs azonosító számának adatai
           href: reg-number-id.md
         - name: Vezérlőpultgyártói szerepkör
           href: enroll-as-cpv.md
@@ -500,7 +500,7 @@
         - name: Piactéri ajánlatok vásárlása
           href: csp-commercial-marketplace-purchase.md
           displayName: csp
-        - name: Licencelés kezelése a Marketplace-ajánlatokban
+        - name: Licenckezelés a piactéri ajánlatokban
           href: csp-commercial-marketplace-licensing.md
           displayName: csp
         - name: Kizárólag a piactéren elérhető ajánlatok független szoftverszállítóktól
@@ -565,7 +565,7 @@
         - name: Azure-előfizetések átvitele
           href: switch-azure-subscriptions-to-a-different-partner.md
           displayName: csp
-        - name: Ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
+        - name: Az ügyfél Azure-csomag előfizetésének átadása egy másik partnernek
           href: transfer-azure-subscriptions-under-azure-plan.md
     - name: Szoftver-előfizetések
       href: csp-software-subscriptions.md
@@ -647,48 +647,90 @@
           href: partner-center-insights.md
           displayName: data
         - name: Az Insights szerepköralapú hozzáférése
-          href: pci-roles.md
+          href: insights-roles.md
         - name: Insights-jelentések
           items:
             - name: Áttekintés
-              href: pci-overview-report.md
+              href: insights-overview-report.md
             - name: Ügyfél
-              href: pci-customer-report.md
+              href: insights-customer-report.md
             - name: Viszonteladói teljesítmény
-              href: pci-resellers-performance.md
+              href: insights-resellers-performance.md
               displayName: 'indirect, reseller'
             - name: Termék-előfizetések
-              href: pci-product-subscriptions-report.md
+              href: insights-product-subscriptions-report.md
             - name: Azure-használat
-              href: pci-azure-usage-report.md
+              href: insights-azure-usage-report.md
             - name: Teams-használat
-              href: pci-teams-usage-report.md
+              href: insights-teams-usage-report.md
             - name: Office 365-használat
-              href: pci-office-365-usage-report.md
+              href: insights-office-365-usage-report.md
             - name: Dynamics-használat
-              href: pci-dynamics-usage-report.md
+              href: insights-dynamics-usage-report.md
             - name: Enterprise Mobility + Security használat
-              href: pci-enterprise-mobility-security-usage-report.md
+              href: insights-enterprise-mobility-security-usage-report.md
             - name: Power BI-használat
-              href: pci-power-bi-usage-report.md
+              href: insights-power-bi-usage-report.md
             - name: Képzés
-              href: pci-training-dashboard.md
+              href: insights-training-dashboard.md
             - name: Microsoft Learn-analitika
               href: ms-learn-analytics.md
             - name: Kompetenciák
-              href: pci-competencies-report.md
+              href: insights-competencies-report.md
             - name: Előnyök
-              href: pci-benefits-report.md
+              href: insights-benefits-report.md
             - name: Hajlandóság a CloudAscent használatára
-              href: pci-customer-opportunities.md
+              href: insights-customer-opportunities.md
             - name: Terméklicencek
-              href: pci-product-licenses-report.md
+              href: insights-product-licenses-report.md
         - name: Insights – gyakori kérdések
-          href: pci-known-issues.md
+          href: insights-known-issues.md
         - name: Insights-jelentések letöltése
-          href: pci-download-reports.md
+          href: insights-download-reports.md
+        - name: Programozott hozzáférés az elemzéshez
+          items:
+            - name: Bevezetés
+              href: insights-programmatic-get-started.md
+            - name: A programozott hozzáférés előfeltételei
+              href: insights-programmatic-prerequisites.md
+            - name: Programozott hozzáférési paradigma
+              href: insights-programmatic-access-paradigm.md
+            - name: Az első programozott API-hívás
+              href: insights-programmatic-first-api-call.md
+            - name: Rendszerlekérdezések listája
+              href: insights-programmatic-system-queries.md
+            - name: Mintalekérdezések
+              href: insights-programmatic-sample-queries.md
+            - name: Egyéni lekérdezési specifikáció
+              href: insights-programmatic-custom-query.md
+            - name: Mintaalkalmazás
+              href: insights-programmatic-sample-application.md
+            - name: Gyakori kérdések
+              href: insights-programmatic-faq.md
+            - name: API-referenciák
+              items:
+                - name: Elérhető API-k
+                  href: insights-programmatic-analytics-available-api.md
+                - name: Az összes adatkészlet lekérte
+                  href: insights-programmatic-analytics-api-get-dataset.md
+                - name: Jelentéslekérdezések lekérdezve
+                  href: insights-programmatic-analytics-api-get-report-queries.md
+                - name: Jelentéslekérdezések törlése
+                  href: insights-programmatic-analytics-api-delete-report-queries.md
+                - name: Jelentéslekérdezések kipróbálva
+                  href: insights-programmatic-analytics-api-try-report-queries.md
+                - name: Jelentés lekérte
+                  href: insights-programmatic-analytics-api-get-report.md
+                - name: Jelentés frissítése
+                  href: insights-programmatic-analytics-api-update-report.md
+                - name: Jelentés törlése
+                  href: insights-programmatic-analytics-api-delete-report.md
+                - name: Jelentés-végrehajtások szüneteltetése
+                  href: insights-programmatic-analytics-api-pause-report-executions.md
+                - name: Jelentés-végrehajtások folytatása
+                  href: insights-programmatic-analytics-api-resume-report-executions.md
         - name: Az Insights adatdefiníciói
-          href: pci-data-definitions.md
+          href: insights-data-definitions.md
     - name: Partnerhozzájárulás-jelzők
       items:
         - name: A Cloud Business Applications-kompetencia esetén
