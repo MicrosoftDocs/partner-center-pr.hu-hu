@@ -121,7 +121,7 @@
     - name: Közvetlen CSP-számla átváltása közvetett viszonteladóra
       href: transition-direct-to-indirect.md
       displayName: csp
-    - name: A partnerek már nem regisztrálhatnak tanácsadóként
+    - name: A partnerek már nem regisztrálnak tanácsadóként
       href: advisors-no-csp.md
 - name: CSP-szerződések
   href: microsoft-partner-agreement.md
@@ -265,7 +265,7 @@
       href: register-deals.md
     - name: Javaslati megállapítások lekérése
       href: referral-insights.md
-    - name: Érdeklődők elemzési adatainak lekérte
+    - name: Érdeklődők elemzésének lekért adatai
       href: analyze-your-marketing-profile.md
       displayName: mpn
 - name: Ösztönzők
@@ -381,7 +381,7 @@
       href: modern-invoice-reconciliation-file.md
     - name: Tényleges egységár kiszámítása
       href: effective-unit-price-calculation.md
-    - name: Kreditkorlát kényszerítve
+    - name: Credit limit enforcement
       href: credit-limit-enforcement.md
     - name: Számlázással kapcsolatos gyakori forgatókönyvek
       href: common-billing-scenarios.md
@@ -500,7 +500,7 @@
         - name: Piactéri ajánlatok vásárlása
           href: csp-commercial-marketplace-purchase.md
           displayName: csp
-        - name: Licenckezelés a piactéri ajánlatokban
+        - name: Licencelés kezelése a Marketplace-ajánlatokban
           href: csp-commercial-marketplace-licensing.md
           displayName: csp
         - name: Kizárólag a piactéren elérhető ajánlatok független szoftverszállítóktól
@@ -647,90 +647,48 @@
           href: partner-center-insights.md
           displayName: data
         - name: Az Insights szerepköralapú hozzáférése
-          href: insights-roles.md
+          href: pci-roles.md
         - name: Insights-jelentések
           items:
             - name: Áttekintés
-              href: insights-overview-report.md
+              href: pci-overview-report.md
             - name: Ügyfél
-              href: insights-customer-report.md
+              href: pci-customer-report.md
             - name: Viszonteladói teljesítmény
-              href: insights-resellers-performance.md
+              href: pci-resellers-performance.md
               displayName: 'indirect, reseller'
             - name: Termék-előfizetések
-              href: insights-product-subscriptions-report.md
+              href: pci-product-subscriptions-report.md
             - name: Azure-használat
-              href: insights-azure-usage-report.md
+              href: pci-azure-usage-report.md
             - name: Teams-használat
-              href: insights-teams-usage-report.md
+              href: pci-teams-usage-report.md
             - name: Office 365-használat
-              href: insights-office-365-usage-report.md
+              href: pci-office-365-usage-report.md
             - name: Dynamics-használat
-              href: insights-dynamics-usage-report.md
+              href: pci-dynamics-usage-report.md
             - name: Enterprise Mobility + Security használat
-              href: insights-enterprise-mobility-security-usage-report.md
+              href: pci-enterprise-mobility-security-usage-report.md
             - name: Power BI-használat
-              href: insights-power-bi-usage-report.md
+              href: pci-power-bi-usage-report.md
             - name: Képzés
-              href: insights-training-dashboard.md
+              href: pci-training-dashboard.md
             - name: Microsoft Learn-analitika
               href: ms-learn-analytics.md
             - name: Kompetenciák
-              href: insights-competencies-report.md
+              href: pci-competencies-report.md
             - name: Előnyök
-              href: insights-benefits-report.md
+              href: pci-benefits-report.md
             - name: Hajlandóság a CloudAscent használatára
-              href: insights-customer-opportunities.md
+              href: pci-customer-opportunities.md
             - name: Terméklicencek
-              href: insights-product-licenses-report.md
+              href: pci-product-licenses-report.md
         - name: Insights – gyakori kérdések
-          href: insights-known-issues.md
+          href: pci-known-issues.md
         - name: Insights-jelentések letöltése
-          href: insights-download-reports.md
-        - name: Programozott hozzáférés az elemzéshez
-          items:
-            - name: Bevezetés
-              href: insights-programmatic-get-started.md
-            - name: A programozott hozzáférés előfeltételei
-              href: insights-programmatic-prerequisites.md
-            - name: Programozott hozzáférési paradigma
-              href: insights-programmatic-access-paradigm.md
-            - name: Az első programozott API-hívás
-              href: insights-programmatic-first-api-call.md
-            - name: Rendszerlekérdezések listája
-              href: insights-programmatic-system-queries.md
-            - name: Mintalekérdezések
-              href: insights-programmatic-sample-queries.md
-            - name: Egyéni lekérdezési specifikáció
-              href: insights-programmatic-custom-query.md
-            - name: Mintaalkalmazás
-              href: insights-programmatic-sample-application.md
-            - name: Gyakori kérdések
-              href: insights-programmatic-faq.md
-            - name: API-referenciák
-              items:
-                - name: Elérhető API-k
-                  href: insights-programmatic-analytics-available-api.md
-                - name: Az összes adatkészlet lekérte
-                  href: insights-programmatic-analytics-api-get-dataset.md
-                - name: Jelentéslekérdezések lekérdezve
-                  href: insights-programmatic-analytics-api-get-report-queries.md
-                - name: Jelentéslekérdezések törlése
-                  href: insights-programmatic-analytics-api-delete-report-queries.md
-                - name: Jelentéslekérdezések kipróbálva
-                  href: insights-programmatic-analytics-api-try-report-queries.md
-                - name: Jelentés lekérte
-                  href: insights-programmatic-analytics-api-get-report.md
-                - name: Jelentés frissítése
-                  href: insights-programmatic-analytics-api-update-report.md
-                - name: Jelentés törlése
-                  href: insights-programmatic-analytics-api-delete-report.md
-                - name: Jelentés-végrehajtások szüneteltetése
-                  href: insights-programmatic-analytics-api-pause-report-executions.md
-                - name: Jelentés-végrehajtások folytatása
-                  href: insights-programmatic-analytics-api-resume-report-executions.md
+          href: pci-download-reports.md
         - name: Az Insights adatdefiníciói
-          href: insights-data-definitions.md
+          href: pci-data-definitions.md
     - name: Partnerhozzájárulás-jelzők
       items:
         - name: A Cloud Business Applications-kompetencia esetén
